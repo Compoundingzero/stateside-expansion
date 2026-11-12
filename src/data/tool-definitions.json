@@ -1,0 +1,94 @@
+[
+  {
+    "id": "management",
+    "path": "/tools/management-dependence/",
+    "ruleIds": [],
+    "sourceIds": [
+      "fed-compliance"
+    ]
+  },
+  {
+    "id": "relationship",
+    "path": "/tools/relationship-factsheet/",
+    "ruleIds": [
+      "fed-relationship-definition",
+      "fed-control-assistance",
+      "fed-minimum-payment"
+    ],
+    "sourceIds": [
+      "fed-definition",
+      "fed-exemptions"
+    ]
+  },
+  {
+    "id": "markets",
+    "path": "/tools/market-comparison/",
+    "ruleIds": [],
+    "sourceIds": []
+  },
+  {
+    "id": "economics",
+    "path": "/tools/us-unit-economics/",
+    "ruleIds": [
+      "fed-fdd-item-19"
+    ],
+    "sourceIds": [
+      "fed-fdd-19"
+    ]
+  },
+  {
+    "id": "support",
+    "path": "/tools/brand-support-economics/",
+    "ruleIds": [
+      "fed-royalty-withholding",
+      "fed-subfranchisor"
+    ],
+    "sourceIds": []
+  },
+  {
+    "id": "runway",
+    "path": "/tools/cash-runway/",
+    "ruleIds": [],
+    "sourceIds": []
+  },
+  {
+    "id": "fdd",
+    "path": "/tools/fdd-comparison/",
+    "ruleIds": [
+      "fed-fdd-item-5",
+      "fed-fdd-item-6",
+      "fed-fdd-item-7",
+      "fed-fdd-item-8",
+      "fed-fdd-item-11",
+      "fed-fdd-item-12",
+      "fed-fdd-item-15",
+      "fed-fdd-item-17",
+      "fed-fdd-item-19",
+      "fed-fdd-item-20",
+      "fed-fdd-item-21"
+    ],
+    "sourceIds": []
+  },
+  {
+    "id": "partner",
+    "path": "/tools/partner-evidence/",
+    "ruleIds": [
+      "fed-pacer-scope"
+    ],
+    "sourceIds": [
+      "fed-pacer"
+    ]
+  },
+  {
+    "id": "launch",
+    "path": "/tools/launch-planner/",
+    "ruleIds": [
+      "fed-relationship-definition",
+      "fed-minimum-payment",
+      "fed-fourteen-days"
+    ],
+    "sourceIds": [
+      "fed-exemptions"
+    ]
+  }
+]

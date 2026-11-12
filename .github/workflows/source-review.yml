@@ -1,0 +1,45 @@
+name: Editorial source review
+on:
+  schedule:
+    - cron: '37 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: editorial-source-review
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Restore prior fetch baseline and unresolved queue
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            artifacts/source-baseline.json
+            artifacts/editorial-review-queue.json
+          key: source-review-${{ github.run_id }}
+          restore-keys: |
+            source-review-
+      - name: Check cited public sources
+        run: node scripts/check-sources.mjs
+      - name: Record current baseline and unresolved queue
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            artifacts/source-baseline.json
+            artifacts/editorial-review-queue.json
+          key: source-review-${{ github.run_id }}
+      - name: Retain evidence and review queue
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-review-${{ github.run_id }}
+          path: artifacts/
+          retention-days: 90

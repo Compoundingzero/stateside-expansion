@@ -1,0 +1,35 @@
+import urllib.request, concurrent.futures, re, json, pathlib, datetime
+from html.parser import HTMLParser
+root=pathlib.Path('/workspace/us-expansion/research/states');root.mkdir(parents=True,exist_ok=True)
+urls={
+'ca-guidelines':'https://dfpi.ca.gov/wp-content/uploads/sites/337/forms/franchise/DFPI-310.111.pdf',
+'il-info':'https://illinoisattorneygeneral.gov/Consumer-Protection/For-Businesses/Franchise/',
+'il-section10':'https://www.ilga.gov/documents/legislation/ilcs/documents/081507050K10.htm',
+'md-rules':'https://regs.maryland.gov/us/md/exec/comar/02.02.08/index.full.html',
+'md-statute':'https://mgaleg.maryland.gov/mgawebsite/laws/StatuteText?article=gbr&section=14-214',
+'mi-info':'https://www.michigan.gov/consumerprotection/about/corporate-oversight-division/franchises',
+'mi-notice':'https://legislature.mi.gov/Laws/MCL?objectName=MCL-445-1507A',
+'mi-disclosure':'https://legislature.mi.gov/Laws/MCL?objectName=MCL-445-1508',
+'mn-assurance':'https://mn.gov/commerce/money/industry/franchises/financial-assurance.jsp'
+}
+class P(HTMLParser):
+ def __init__(self):super().__init__();self.skip=0;self.out=[]
+ def handle_starttag(self,t,a):
+  if t in ('script','style','nav','header','footer'):self.skip+=1
+ def handle_endtag(self,t):
+  if t in ('script','style','nav','header','footer') and self.skip:self.skip-=1
+ def handle_data(self,d):
+  if not self.skip and d.strip():self.out.append(d.strip())
+def fetch(it):
+ k,u=it
+ try:
+  req=urllib.request.Request(u,headers={'User-Agent':'StatesideResearch/1.0 (source verification)'})
+  with urllib.request.urlopen(req,timeout=35) as r:b=r.read();status=r.status;final=r.url;ct=r.headers.get('Content-Type','')
+  if 'pdf' in ct or u.endswith('.pdf'):
+   (root/(k+'.pdf')).write_bytes(b);txt='PDF downloaded; requires text extraction'
+  else:
+   p=P();p.feed(b.decode('utf-8','replace'));txt='\n'.join(p.out);(root/(k+'.txt')).write_text(txt)
+  return {'id':k,'url':u,'finalUrl':final,'http':status,'bytes':len(b),'fetchedAt':datetime.datetime.now(datetime.timezone.utc).isoformat(),'excerpt':txt[:100]}
+ except Exception as e:return {'id':k,'url':u,'error':str(e)}
+with concurrent.futures.ThreadPoolExecutor(max_workers=10) as ex:res=list(ex.map(fetch,urls.items()))
+(root/'fetch-log-3.json').write_text(json.dumps(res,indent=2));print(json.dumps(res,indent=2))

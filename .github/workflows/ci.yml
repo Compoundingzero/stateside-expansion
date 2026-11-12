@@ -1,0 +1,37 @@
+name: Verify application
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npx playwright install --with-deps chromium
+      - name: Browser verification
+        shell: bash
+        run: |
+          export CHROMIUM_PATH=$(node --input-type=module -e "import {chromium} from '@playwright/test'; process.stdout.write(chromium.executablePath())")
+          npm start > /tmp/stateside-server.log 2>&1 &
+          for attempt in {1..30}; do
+            if curl -fsS http://127.0.0.1:3000/health; then break; fi
+            sleep 1
+          done
+          npx playwright test
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-results
+          path: artifacts/
+          retention-days: 14

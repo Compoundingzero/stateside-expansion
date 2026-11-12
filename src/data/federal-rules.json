@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "fed-relationship-definition",
+    "title": "Labels do not determine federal franchise coverage",
+    "topic": "classification",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "A continuing commercial relationship can meet the federal definition where it involves trademark association, significant control or assistance over the method of operation, and a required payment or commitment. Apply exemptions separately.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Designing or changing partner rights, fees, support or controls",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Executed and draft agreements",
+      "Promised training and support",
+      "Payments to brand and affiliates",
+      "Operating-control inventory"
+    ],
+    "sourceIds": [
+      "fed-definition"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/cases/branch-operator-versus-master-franchise/",
+      "/cases/licensing-label-franchise-obligations/",
+      "/cases/staged-industrial-services-territory/",
+      "/tools/launch-planner/",
+      "/tools/relationship-factsheet/",
+      "/us-expansion/franchising-vs-licensing/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-control-assistance",
+    "title": "Assess control and assistance in the overall operating method",
+    "topic": "classification",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Assess the actual degree of control or assistance over the overall method of operation. Trademark controls solely protecting legal ownership rights differ from wider operational requirements; no individual manual or software requirement automatically settles the test.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Specifying standards or support for a U.S. partner",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-definition",
+      "fed-compliance"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Commission policy in the dated guide must be read with the current rule and facts.",
+      "State definitions may use different elements."
+    ],
+    "dependentPaths": [
+      "/tools/relationship-factsheet/",
+      "/us-expansion/significant-control-assistance/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-minimum-payment",
+    "title": "Federal minimum-payment exemption uses a time-bound aggregate",
+    "topic": "classification",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Under 16 CFR 436.8(a)(1), aggregate required payments or commitments to the franchisor or an affiliate from before through six months after commencing operation must be less than $735 for this federal exemption. This is not a universal definition threshold or a state exemption.",
+    "exceptions": "Other federal exemptions and independent state treatment require separate analysis.",
+    "trigger": "Relying on the federal minimum-payment exemption",
+    "deadline": "Assess payments and commitments from before through six months after operations commence",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated fee schedule",
+      "Affiliate payment schedule",
+      "Payment commitments and commencement date"
+    ],
+    "sourceIds": [
+      "fed-exemptions",
+      "fed-definition"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "Resolved authority conflict: the May 2008 FTC guide describes a historic $500 figure. Current 16 CFR 436.8(a)(1) states less than $735. The current regulation controls the amount; dated guide used only for compatible interpretive context."
+    ],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/tools/launch-planner/",
+      "/tools/relationship-factsheet/",
+      "/us-expansion/minimum-payment-exemption/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "threshold": {
+      "value": 735,
+      "currency": "USD",
+      "comparison": "less-than",
+      "period": "before through six months after commencing operation",
+      "sourceId": "fed-exemptions"
+    }
+  },
+  {
+    "id": "fed-single-license",
+    "title": "Single-license treatment is a narrow federal workstream",
+    "topic": "classification",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "The FTC Compliance Guide describes a narrow single-trademark-license exclusion. Historical staff opinion 05-1 was fact-specific and nonbinding and discusses number of licensees rather than outlets. It is not one free franchise or one exempt license per state.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Considering reliance on single-license treatment",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-compliance",
+      "fed-single-opinion"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Historical opinion uses a prior rule citation; it is not a current transaction ruling.",
+      "Future multiple licenses and independent state treatment need specific review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/single-trademark-license/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-state-overlays",
+    "title": "Federal disclosure does not replace independent state analysis",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "The FTC rule preserves state and local franchise-practices laws except to the extent of inconsistency; equal or greater protection is not inconsistent. Research each relevant state dimension independently.",
+    "exceptions": "This record does not assert which particular state law reaches a transaction.",
+    "trigger": "Planning offers, advertising, a sale or an operating location",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-states"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/state-offer-sale-facts/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fourteen-days",
+    "title": "Federal FDD delivery generally precedes signing or payment by 14 calendar days",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "For a nonexempt franchise located in the United States or its territories, furnish the current FDD at least 14 calendar days before the prospect signs a binding agreement with, or makes payment to, the franchisor or affiliate in connection with the proposed sale.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "A prospective franchisee may sign or pay",
+    "deadline": "At least 14 calendar days before the relevant binding agreement or payment",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Exact delivered FDD and exhibits",
+      "Delivery evidence and signed receipt",
+      "Signature/payment schedule",
+      "State-overlay review"
+    ],
+    "sourceIds": [
+      "fed-timing"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/tools/launch-planner/",
+      "/us-expansion/fdd-disclosure-timing/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-seven-day-change",
+    "title": "Unilateral material agreement changes have a separate federal seven-day rule",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "A franchisor that unilaterally and materially alters the attached basic franchise agreement or related agreements must furnish each revised agreement at least seven calendar days before signing. Changes arising from negotiations initiated by the prospect do not trigger this §436.2(b) period.",
+    "exceptions": "The text excludes changes arising out of negotiations initiated by the prospective franchisee; record facts and check state overlays.",
+    "trigger": "Changing disclosed agreement terms before execution",
+    "deadline": "At least seven calendar days before signing revised agreements where §436.2(b) applies",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-timing"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/changed-franchise-agreement/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-updates",
+    "title": "Keep annual, quarterly and performance updates distinct",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Prepare a revised FDD within 120 days after fiscal year-end and then distribute only the revised document. Prepare quarterly revisions within a reasonable time after quarter-end for material changes; communicate known material changes in Item 19 when furnishing the FDD.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Fiscal year-end, quarter-end or a material offering change",
+    "deadline": "Annual update within 120 days after fiscal year-end; quarterly revisions within a reasonable time after quarter-end",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Version history",
+      "Fiscal-calendar deadlines",
+      "Material-change log",
+      "Item 19 change notice"
+    ],
+    "sourceIds": [
+      "fed-updates"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/fdd-updates-and-records/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-item19-claims",
+    "title": "Private planning is separate from franchise-sales financial claims",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "A franchise seller’s financial performance representations generally require a reasonable basis, written substantiation and Item 19 disclosure under the applicable rule. Item 19 must be answered even if the franchisor elects not to make a financial performance representation.",
+    "exceptions": "Specific-outlet records and compliant supplemental representations have defined treatment under §436.5(s); review before use.",
+    "trigger": "Sharing actual or potential financial performance with a prospective franchisee",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-prohibitions",
+      "fed-instructions"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/financial-performance-representations/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-subfranchisor",
+    "title": "Subfranchising can add franchisor-level duties",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Under §436.1(k), franchisor includes a subfranchisor that engages in both pre-sale activities and post-sale performance. The operational role matters more than a regional title. Item 21 requires specified separate subfranchisor financial statements.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Giving an intermediary recruitment and post-sale support duties",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-definition",
+      "fed-fdd-21"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/tools/brand-support-economics/",
+      "/us-expansion/master-franchise-vs-area-development/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-foreign-financials",
+    "title": "Audit and accounting treatment need a U.S. FDD workstream",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 21 specifies financial statements and audit requirements, including U.S. GAAP or SEC-permitted principles and U.S. generally accepted auditing standards. A foreign parent’s existing audit is not automatically sufficient. Determine required franchisor, subfranchisor and relevant parent statements.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Selecting the franchisor and preparing an FDD",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-fdd-21",
+      "fed-compliance"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "The 2008 Compliance Guide accounting discussion predates later standards developments. This page uses the current Item 21 text; auditor confirmation of current SEC-permitted treatment remains a dependency, not a resolved acceptance."
+    ],
+    "interpretationLimits": [
+      "Current SEC-permitted accounting treatment must be confirmed by the responsible auditor.",
+      "Federal startup phase-in does not establish state acceptance or an established foreign system’s eligibility."
+    ],
+    "dependentPaths": [
+      "/us-expansion/foreign-financial-statements/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-royalty-withholding",
+    "title": "Review gross royalty, withholding and net support income separately",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Paying U.S.-source income to a foreign person",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "U.S.-source income paid to foreign persons can fall within the general 30% withholding regime. Statutory or treaty relief depends on the payment, recipient and documentation; reporting obligations require separate review. Do not assume parent incorporation determines treaty entitlement.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Designing or making cross-border royalty payments",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Payment-character and source analysis",
+      "Beneficial-owner and treaty documentation",
+      "Contracts addressing gross-up and reporting responsibility"
+    ],
+    "sourceIds": [
+      "fed-irs-withholding",
+      "fed-irs-reporting"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/tools/brand-support-economics/",
+      "/us-expansion/royalties-to-foreign-company/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-boi-scope",
+    "title": "Separate domestic entities from foreign registered companies for BOI",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Entity registration and beneficial ownership reporting",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Current 31 CFR 1010.380 exempts U.S.-created domestic entities. A nonexempt entity formed abroad and registered by filing in a U.S. state or tribal jurisdiction can remain a reporting company. U.S.-person beneficial-owner/company-applicant information has specified relief.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Registering a foreign-formed company to do business in the United States",
+    "deadline": "For new reporting companies on or after March 26, 2025: 30 calendar days from earlier actual or public registration notice, subject to applicable relief",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-boi",
+      "fed-boi-final"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Check any applicable exemption and current judicial or agency relief at the filing date.",
+      "No private beneficial-owner identity documents should be entered into this educational site."
+    ],
+    "dependentPaths": [
+      "/us-expansion/fincen-foreign-company-reporting/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-be13-triage",
+    "title": "Triage new foreign investment against current BE-13 forms",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "New foreign direct investment",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "BEA’s current BE-13 forms distinguish acquisitions, establishments and expansions. The current BE-13A uses acquisition cost greater than $40 million plus a foreign voting-interest condition. A below-threshold transaction can require a Claim for Exemption; inspect current form instructions.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Acquiring, establishing or expanding a U.S. business with foreign participation",
+    "deadline": "Current decision tree: file the applicable form within 45 days of the transaction",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-bea-form",
+      "fed-bea-tree"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "Current linked BE-13A (rev. 10/2025) and current decision tree show >$40m. Older linked general instructions can display a prior threshold; use the current transaction-specific form and confirm the correct exemption-claim branch."
+    ],
+    "interpretationLimits": [
+      "BE-13A is an acquisition form, not a universal threshold for every survey.",
+      "Legacy BEA instructions can show a superseded threshold; use the current transaction-specific forms.",
+      "Other BEA surveys remain separate."
+    ],
+    "dependentPaths": [
+      "/us-expansion/bea-new-foreign-investment/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-5472-triage",
+    "title": "A foreign-owned disregarded entity can still have reporting duties",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Related-party information reporting",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "IRS instructions require reporting-corporation and reportable-transaction analysis for Form 5472. Foreign-owned U.S. disregarded entities can have special Form 5472 and pro forma Form 1120 filing treatment even where ordinary income-tax treatment is disregarded.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Choosing entity tax treatment and making related-party transactions",
+    "deadline": "Determine the applicable tax-year return due date and extension with the preparer",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-irs-5472"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is not a complete entity-choice, income-tax, transfer-pricing or treaty analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/foreign-owned-us-company-irs-reporting/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-l1-relationship",
+    "title": "L-1 preparation needs a qualifying corporate relationship and individual evidence",
+    "topic": "immigration",
+    "jurisdiction": "U.S. federal",
+    "activity": "Intracompany personnel transfer",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "8 CFR 214.2(l) requires a qualifying parent, branch, affiliate or subsidiary relationship, continuing business and individual employment/role evidence. A trademark license or franchise contract alone does not demonstrate the prescribed ownership and control relationship.",
+    "exceptions": "Specific regulatory definitions and petition type control; no eligibility determination is made here.",
+    "trigger": "Planning to transfer an executive, manager or specialist to work in the United States",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-l1"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "USCIS policy-manual page returned 403; current CFR was read.",
+      "Individual evidence, current policy and case-specific qualifying relationships require review."
+    ],
+    "dependentPaths": [
+      "/from/malaysia/",
+      "/us-expansion/l1-ownership-and-control/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-e2-nationality",
+    "title": "E-2 nationality follows ultimate owners, not simply incorporation",
+    "topic": "immigration",
+    "jurisdiction": "U.S. federal",
+    "activity": "Treaty-investor mobility planning",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "The E regulation traces enterprise nationality as practicable to ultimate individual owners and separately addresses investment, control and the person’s role. Check the State Department treaty list and country footnotes; incorporating in a treaty country does not itself establish eligibility.",
+    "exceptions": "Treaty and individual facts determine the analysis; employee and principal-investor requirements differ.",
+    "trigger": "Considering E-2 investment or employment in a U.S. enterprise",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-e2",
+      "fed-treaties"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "FAM source was inaccessible during this review; specific consular and escrow questions remain unresolved.",
+      "This guide does not determine a person’s eligibility."
+    ],
+    "dependentPaths": [
+      "/cases/singapore-subsidiary-e2-ownership/",
+      "/from/malaysia/",
+      "/from/singapore/",
+      "/us-expansion/e2-nationality-investment/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-pacer-scope",
+    "title": "A federal court search does not cover all dispute history",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "U.S. federal",
+    "activity": "Partner evidence collection",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "PACER Case Locator provides a nationwide index of federal appellate, bankruptcy and district cases. State and local court searches are separate; no result found does not prove no disputes.",
+    "exceptions": "Search access, identity matching and jurisdictional scope must be documented.",
+    "trigger": "Conducting proportionate partner diligence",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-pacer"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No individual or company has been investigated or certified by this site."
+    ],
+    "dependentPaths": [
+      "/tools/partner-evidence/",
+      "/us-expansion/partner-federal-court-records/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-electronic-fdd",
+    "title": "Educational interactions do not replace the prescribed FDD format",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "The rule requires a retainable plain-English FDD and limits features in an electronic FDD: navigation features are allowed, while other multimedia and external-information links are prohibited by §436.6(d). Keep the educational site separate.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing an electronic FDD or sales learning experience",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Controlled FDD version and exhibits",
+      "Format review",
+      "Delivery and retention evidence"
+    ],
+    "sourceIds": [
+      "fed-instructions"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/electronic-fdd-vs-learning-tools/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-territory-disclosure",
+    "title": "Territory disclosure must identify reserved rights and channels",
+    "topic": "relationship",
+    "jurisdiction": "U.S. federal",
+    "activity": "Territory design and disclosure",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 12 requires disclosure of territory terms, exclusivity and conditions, reserved channels and relevant competing operations. An exclusive territory does not promise protection from independent competitors.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Defining unit, area or multi-state territory rights",
+    "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Dated relationship factsheet",
+      "Reviewed source and transaction-specific advice"
+    ],
+    "sourceIds": [
+      "fed-fdd-12"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "State definitions, exemptions, and protections require independent analysis."
+    ],
+    "dependentPaths": [
+      "/us-expansion/territory-national-accounts/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-1",
+    "title": "FDD Item 1: The franchisor and its related entities",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 1 identifies the franchisor and specified parents, predecessors and affiliates, together with business background, the offered business, market and industry-specific legal context. A familiar brand name is not the legal entity that signs every obligation.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Entity map",
+      "Formation records and prior names",
+      "Operating and franchising history",
+      "Industry-law questions"
+    ],
+    "sourceIds": [
+      "fed-fdd-1"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-1/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-2",
+    "title": "FDD Item 2: Business experience",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 2 gives the relevant directors, principal officers and people with management responsibility for franchise sales or operations, including their principal positions and employers during the last five years. Delivery expertise and franchise-support experience are separate questions.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Five-year role histories",
+      "Responsibility chart",
+      "Support-team capacity",
+      "Evidence of relevant operating work"
+    ],
+    "sourceIds": [
+      "fed-fdd-2"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-2/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-3",
+    "title": "FDD Item 3: Litigation",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 3 has defined entities, people, claim categories and time periods. It includes specified pending matters, certain franchise relationship actions and qualifying historic outcomes or orders. An allegation is not a finding, and the item is not every dispute anyone has ever had.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Matter number and forum",
+      "Procedural status and relevant orders",
+      "Covered parties and periods",
+      "Open questions for the legal reviewer"
+    ],
+    "sourceIds": [
+      "fed-fdd-3"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-3/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-4",
+    "title": "FDD Item 4: Bankruptcy",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 4 addresses specified bankruptcy histories during the ten-year period before the FDD date, including covered entities and individuals and foreign insolvency proceedings. A bankruptcy entry needs its identity, dates, role and outcome understood.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Covered entity and person list",
+      "Ten-year event timeline",
+      "Foreign proceeding records",
+      "Court and case identifiers"
+    ],
+    "sourceIds": [
+      "fed-fdd-4"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-4/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-5",
+    "title": "FDD Item 5: Initial fees",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 5 covers fees, payments and commitments for goods or services received from the franchisor or an affiliate before opening, with refund conditions. If fees are not uniform, the required range or formula and determining factors matter. The franchise fee alone is not the full initial investment.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Payee and affiliate",
+      "Amount or formula",
+      "Due date and instalments",
+      "Refund conditions and evidence"
+    ],
+    "sourceIds": [
+      "fed-fdd-5"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-5/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-6",
+    "title": "FDD Item 6: Other fees",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 6 uses a table for fees paid to the franchisor or affiliates or imposed or collected for third parties, including amount or formula, due date and explanatory conditions. Royalties are only one line: transfers, renewals, audits, training and technology may matter.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Fee basis and definition of sales",
+      "Frequency and payment date",
+      "Escalation formula",
+      "Contingent event charges"
+    ],
+    "sourceIds": [
+      "fed-fdd-6"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-6/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-7",
+    "title": "FDD Item 7: Estimated initial investment",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 7 gives an estimated initial-investment table, payment methods, timing and payees. It includes an additional-funds category for a stated initial period and explains its basis. The table is an estimate, not proof that a particular site or sales ramp is funded.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Low/high estimates and basis",
+      "Payments by date",
+      "Site-specific quotes",
+      "Initial period and excluded costs"
+    ],
+    "sourceIds": [
+      "fed-fdd-7"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-7/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-8",
+    "title": "FDD Item 8: Restrictions on suppliers",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 8 describes required purchases or leases, approved suppliers, specifications, approval procedures and relevant revenues or benefits to the brand or affiliates. Written requirements and practices both matter. Product consistency, landed cost and approval rights need an operating decision.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Required categories and suppliers",
+      "Alternative approval procedure",
+      "Rebate or affiliate benefit",
+      "Local substitution evidence"
+    ],
+    "sourceIds": [
+      "fed-fdd-8"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-8/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-9",
+    "title": "FDD Item 9: Franchisee obligations",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 9 cross-references principal franchisee obligations to the agreements and FDD items. It is a navigation table, not a substitute for the contract. A management-run unit needs named owners for training, staffing, insurance, reports and deadlines.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Contract clause",
+      "Operating owner",
+      "Required evidence",
+      "Deadline and backup"
+    ],
+    "sourceIds": [
+      "fed-fdd-9"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-9/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-10",
+    "title": "FDD Item 10: Financing",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 10 addresses direct or indirect financing by the franchisor, agents or affiliates. Terms include rate, charges, repayment, security, guarantees, default consequences and relevant assignment or lender benefits. A smaller opening cash payment can create later debt-service pressure.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Annual rate and finance charges",
+      "Repayment dates",
+      "Collateral and guarantees",
+      "Assignment and default terms"
+    ],
+    "sourceIds": [
+      "fed-fdd-10"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-10/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-11",
+    "title": "FDD Item 11: Assistance, advertising, systems and training",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 11 describes specified pre-opening and continuing assistance, advertising, computer systems and training, with contract references. For a foreign brand, this is also a delivery budget: timezone coverage, travel and field support need funded owners.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Assistance by stage",
+      "Trainer hours and location",
+      "Systems cost and data access",
+      "Advertising allocation",
+      "Support staffing budget"
+    ],
+    "sourceIds": [
+      "fed-fdd-11"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-11/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-12",
+    "title": "FDD Item 12: Territory",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 12 covers location and territory, exclusivity and conditions, relocation or additional rights, reserved channels and relevant competing operations. Territorial rights do not protect the operator from every independent competitor. B2B national-account rules require particular clarity.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Boundary and channels",
+      "Performance conditions",
+      "National accounts and online leads",
+      "Cross-boundary service allocation"
+    ],
+    "sourceIds": [
+      "fed-fdd-12"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-12/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-13",
+    "title": "FDD Item 13: Trademarks",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 13 identifies principal trademarks, registration or application status and material disputes, limits and protection obligations. Home-country registration does not establish U.S. clearance. Registration status and freedom to use are related but distinct checks.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Principal marks and ownership",
+      "U.S. search and application details",
+      "Known disputes or prior rights",
+      "Defense and rebranding obligations"
+    ],
+    "sourceIds": [
+      "fed-fdd-13"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-13/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-14",
+    "title": "FDD Item 14: Patents, copyrights and proprietary information",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 14 addresses material patent and copyright rights and applications, relevant limits or proceedings and protection obligations; it also describes the general nature of confidential proprietary information. Owning a manual is not the same as owning every embedded software or customer-data right.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Material IP inventory",
+      "License scope and duration",
+      "Third-party restrictions",
+      "Confidentiality and access responsibilities"
+    ],
+    "sourceIds": [
+      "fed-fdd-14"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-14/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-15",
+    "title": "FDD Item 15: Participation in actual operation",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 15 addresses personal participation requirements or recommendations and applicable on-premises supervision, manager training or equity conditions. Review both written agreements and practice. A promise that an owner can remain abroad must fit the actual staffing obligations.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Owner participation requirement",
+      "Permitted manager and training",
+      "Any equity condition",
+      "Backup and replacement process"
+    ],
+    "sourceIds": [
+      "fed-fdd-15"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-15/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-16",
+    "title": "FDD Item 16: Restrictions on what may be sold",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 16 describes restrictions on goods or services, customer access, required offerings and rights to change the authorised range. A successful home-market bundle may not align with U.S. procurement or sector permissions. Do not assume a brand license authorizes regulated work.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Authorised offer and customer types",
+      "Mandatory lines",
+      "Change rights",
+      "Capability and licensing gaps"
+    ],
+    "sourceIds": [
+      "fed-fdd-16"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-16/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-17",
+    "title": "FDD Item 17: Renewal, termination, transfer and disputes",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 17 summarises specified relationship provisions with contract cross-references: term, renewal, termination, transfer, noncompetition and dispute terms. It is a map of the documents, not confirmation that every clause is enforceable. Non-waivable state protections require separate review.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Term and renewal conditions",
+      "Cure and termination triggers",
+      "Transfer and succession",
+      "Post-term duties",
+      "Applicable state questions"
+    ],
+    "sourceIds": [
+      "fed-fdd-17"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-17/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-18",
+    "title": "FDD Item 18: Public figures",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 18 addresses compensation or benefits to public figures for use or endorsement, their management involvement and investment. A recognisable face is not evidence of unit economics, legal compliance or operating support.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Endorsement consideration",
+      "Management role",
+      "Investment and services",
+      "Independent operating evidence"
+    ],
+    "sourceIds": [
+      "fed-fdd-18"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-18/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-19",
+    "title": "FDD Item 19: Financial performance representations",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 19 has required disclosure whether or not the brand elects to make a financial performance representation. Where one is made, reasonable basis, written substantiation, cohort detail or forecast assumptions and required qualifications matter. Revenue alone does not answer manager-adjusted profitability.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Source year and currency",
+      "Included/excluded units",
+      "Revenue versus costs",
+      "Manager participation",
+      "Substantiation and limitations"
+    ],
+    "sourceIds": [
+      "fed-fdd-19"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-19/",
+      "/tools/fdd-comparison/",
+      "/tools/us-unit-economics/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-20",
+    "title": "FDD Item 20: Outlets and franchisee information",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 20 contains outlet tables and prescribed current/former franchisee information, with defined categories and periods. Net growth can coexist with terminations, non-renewals and transfers. System size alone does not establish support quality or investment outcomes.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Three-year outlet categories",
+      "State mix and unit types",
+      "Contact evidence and limits",
+      "Reasons requiring follow-up"
+    ],
+    "sourceIds": [
+      "fed-fdd-20"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-20/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-21",
+    "title": "FDD Item 21: Financial statements",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 21 specifies financial statements, audit standards and treatment of relevant affiliates, parents and subfranchisors. The financial condition of a large parent should not be assumed to back a thin selling subsidiary without examining the disclosed commitments and guarantees.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Entity and fiscal year",
+      "Audit opinion and basis",
+      "Required parent/subfranchisor statements",
+      "Guarantees and support obligations"
+    ],
+    "sourceIds": [
+      "fed-fdd-21"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-21/",
+      "/tools/fdd-comparison/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-22",
+    "title": "FDD Item 22: Contracts",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 22 attaches proposed agreements regarding the offering, including franchise and relevant lease, option or purchase agreements. Do not compare only the principal agreement while guarantees, software terms or related commitments sit outside the review pack.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Full document list and versions",
+      "Named signing entities",
+      "Guarantees and related agreements",
+      "Change log and timing review"
+    ],
+    "sourceIds": [
+      "fed-fdd-22"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-22/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "fed-fdd-item-23",
+    "title": "FDD Item 23: Receipts",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Offering or selling a franchise",
+    "affectedParty": "Prospective U.S. franchisor and responsible management team",
+    "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
+    "requirement": "Item 23 prescribes detachable acknowledgment receipts and specified information, including document date and exhibits. A receipt helps document delivery; it is not governmental approval, proof of a complete legal review or a waiver of the prospect’s rights.",
+    "exceptions": "Evaluate applicable federal exemptions and independent state law.",
+    "trigger": "Preparing, updating or comparing an FDD",
+    "deadline": "In the current FDD before the applicable disclosure deadline",
+    "fee": null,
+    "renewal": "Reassess when facts, law, or the offering change",
+    "dependencies": [],
+    "evidence": [
+      "Recipient and seller",
+      "Delivery method and date",
+      "FDD issue date and exhibits",
+      "Signed receipt and retention"
+    ],
+    "sourceIds": [
+      "fed-fdd-23"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The complete item, instructions, transaction facts and state overlays control.",
+      "This explanation does not draft or certify an FDD."
+    ],
+    "dependentPaths": [
+      "/fdd/item-23/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

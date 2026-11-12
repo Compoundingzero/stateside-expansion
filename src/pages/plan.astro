@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro';
+import PlanningApp from '../components/PlanningApp';
+---
+<Base title="Our U.S. Expansion Brief" description="Build a browser-local U.S. expansion brief with assumptions, responsibilities and unresolved questions." hideAction noindex><section class="container"><PlanningApp client:load mode="journey"/><noscript><div class="notice">The planning workspace needs JavaScript to keep your inputs in this browser. <a href="/guides/">Public field guides</a> are complete and readable without JavaScript.</div></noscript></section></Base>

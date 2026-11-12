@@ -1,0 +1,22 @@
+{
+  "attemptedAt": "2026-11-12T20:58:02.268777+00:00",
+  "method": "Official URL retrieval through web search tool open, independent of shell HTTP",
+  "results": [
+    {
+      "url": "https://dfpi.ca.gov/regulated-industries/franchises/instructions-on-how-to-file-a-complete-franchise-application/",
+      "http": 403,
+      "result": "Full text unavailable"
+    },
+    {
+      "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/forms/franchise/DFPI-310.111.pdf",
+      "http": 403,
+      "result": "Full PDF unavailable"
+    },
+    {
+      "url": "https://dfpi.ca.gov/regulated-industries/franchises/franchises-frequently-asked-questions-and-answers/",
+      "http": 403,
+      "result": "Full text unavailable"
+    }
+  ],
+  "editorialDecision": "Retain California blocked; indexed snippets not used as legal source verification."
+}

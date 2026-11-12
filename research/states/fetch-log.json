@@ -1,0 +1,166 @@
+[
+  {
+    "id": "ca-instructions",
+    "url": "https://dfpi.ca.gov/regulated-industries/franchises/instructions-on-how-to-file-a-complete-franchise-application/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-law",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CORP&division=5.&title=4.&part=2.&chapter=2.&article=",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-franchises",
+    "url": "https://dfpi.ca.gov/regulated-industries/franchises/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "tx-faq",
+    "url": "https://www.sos.state.tx.us/statdoc/faqs2700.shtml",
+    "finalUrl": "https://www.sos.state.tx.us/statdoc/faqs2700.shtml",
+    "http": 200,
+    "bytes": 22279,
+    "fetchedAt": "2026-11-12T20:44:56.845883+00:00",
+    "excerpt": "Frequently Asked Questions for Form Series 2700 - Business Opportunities\nSkip to Main Content\nElecti"
+  },
+  {
+    "id": "ny-franchise",
+    "url": "https://ag.ny.gov/resources/organizations/investments-registration-regulation/franchisors-franchisees",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "wa-franchise",
+    "url": "https://dfi.wa.gov/franchises",
+    "finalUrl": "https://dfi.wa.gov/industry/franchises",
+    "http": 200,
+    "bytes": 27873,
+    "fetchedAt": "2026-11-12T20:44:56.809929+00:00",
+    "excerpt": "Franchises\nSkip to main content\nMenu\nSearch this site\nSearch\nFile a Complaint\nVerify a License\nConta"
+  },
+  {
+    "id": "wa-law",
+    "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.100&full=true",
+    "finalUrl": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.100&full=true",
+    "http": 200,
+    "bytes": 229452,
+    "fetchedAt": "2026-11-12T20:44:56.918914+00:00",
+    "excerpt": "Chapter 19.100 RCW:\nHome\n/\nState laws and rules\n/\nRCWs\n/\nTitle 19\n/\nChapter 19.100\nPrint\nChapter  19"
+  },
+  {
+    "id": "il-franchise",
+    "url": "https://illinoisattorneygeneral.gov/consumer-protection/franchise/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "il-law",
+    "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2380&ChapterID=67",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "id": "md-franchise",
+    "url": "https://www.marylandattorneygeneral.gov/Pages/Securities/franchise.aspx",
+    "finalUrl": "https://oag.maryland.gov/Pages/oag.aspx",
+    "http": 200,
+    "bytes": 230651,
+    "fetchedAt": "2026-11-12T20:44:57.541970+00:00",
+    "excerpt": "Attorney General of Maryland - Official Website\nSkip to Content\nAccessibility Information\nJavaScript"
+  },
+  {
+    "id": "va-franchise",
+    "url": "https://www.scc.virginia.gov/pages/Franchise-Registration",
+    "finalUrl": "https://www.scc.virginia.gov/regulated-industries/securities-retail-franchising/registration/franchise-registration/",
+    "http": 200,
+    "bytes": 22204,
+    "fetchedAt": "2026-11-12T20:44:57.993151+00:00",
+    "excerpt": "Virginia SCC - Franchise Registration\nHome\nRegulated Industries\nSecurities & Retail Franchising\nRegi"
+  },
+  {
+    "id": "wi-franchise",
+    "url": "https://dfi.wi.gov/Pages/Securities/Franchise.aspx",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "mn-franchise",
+    "url": "https://mn.gov/commerce/licensing/list/business/franchise.jsp",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "hi-franchise",
+    "url": "https://cca.hawaii.gov/sec/registration/franchise/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "in-franchise",
+    "url": "https://www.in.gov/sos/securities/securities-division/franchise/",
+    "finalUrl": "https://securities.sos.in.gov/",
+    "http": 200,
+    "bytes": 51494,
+    "fetchedAt": "2026-11-12T20:44:57.636740+00:00",
+    "excerpt": "Home\n        \u00a0\u00b7 Securities Portal\nMozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+  },
+  {
+    "id": "mi-franchise",
+    "url": "https://www.michigan.gov/ag/about/bureaus/cp/franchise",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "nd-franchise",
+    "url": "https://www.securities.nd.gov/industry/franchise-registration",
+    "finalUrl": "https://www.insurance.nd.gov/",
+    "http": 200,
+    "bytes": 128480,
+    "fetchedAt": "2026-11-12T20:44:58.134497+00:00",
+    "excerpt": "Home | North Dakota Insurance Department\nSkip to main content\nNorth Dakota Insurance Department\nMedi"
+  },
+  {
+    "id": "ri-franchise",
+    "url": "https://dbr.ri.gov/divisions/securities/franchises.php",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "sd-franchise",
+    "url": "https://dlr.sd.gov/securities/franchises.aspx",
+    "finalUrl": "https://dlr.sd.gov/error.aspx?aspxerrorpath=/securities/franchises.aspx",
+    "http": 200,
+    "bytes": 53876,
+    "fetchedAt": "2026-11-12T20:44:59.744865+00:00",
+    "excerpt": "Boards & Commissions under the direction of the South Dakota Department of Labor & Regulation\nskip t"
+  },
+  {
+    "id": "fl-franchise",
+    "url": "https://forms.freshfromflorida.com/10001.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "ct-business",
+    "url": "https://portal.ct.gov/dob/business-opportunities/business-opportunities/business-opportunity-registration",
+    "finalUrl": "https://portal.ct.gov/en/404error/?item=%2fdob%2fbusiness-opportunities%2fbusiness-opportunities%2fbusiness-opportunity-registration&user=extranet%5cAnonymous&site=website",
+    "http": 200,
+    "bytes": 22170,
+    "fetchedAt": "2026-11-12T20:44:59.086837+00:00",
+    "excerpt": "404 Error Page\nSkip to Content\nSkip to Chat\nWarning!\nIt seems that JavaScript is not working in your"
+  },
+  {
+    "id": "or-franchise",
+    "url": "https://dfr.oregon.gov/business/licensing/financial/Pages/franchises.aspx",
+    "finalUrl": "https://dfr.oregon.gov/business/licensing/financial/Pages/franchises.aspx",
+    "http": 200,
+    "bytes": 85717,
+    "fetchedAt": "2026-11-12T20:44:58.749910+00:00",
+    "excerpt": "Division of Financial Regulation : Franchises : Financial institutions and professionals : State of "
+  },
+  {
+    "id": "nj-law",
+    "url": "https://www.njconsumeraffairs.gov/Statutes/Franchise-Practices-Act.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "pr-law",
+    "url": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/75-1964.pdf",
+    "finalUrl": "https://bvirtualogp.pr.gov/ogp/Bvirtual/leyesreferencia/PDF/75-1964.pdf",
+    "http": 200,
+    "bytes": 222332,
+    "fetchedAt": "2026-11-12T20:44:58.678913+00:00",
+    "excerpt": "PDF downloaded; requires text extraction"
+  }
+]

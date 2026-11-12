@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "local-los-angeles",
+    "name": "Los Angeles",
+    "slug": "los-angeles",
+    "state": "California",
+    "municipality": "Los Angeles",
+    "county": "Los Angeles County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-los-angeles"
+    ],
+    "processes": [
+      {
+        "title": "Business Tax Registration Certificate",
+        "trigger": "Starting business activity in the City of Los Angeles; confirm exemptions and nexus with the Office of Finance.",
+        "authority": "Los Angeles Office of Finance",
+        "summary": "Registration process asks for entity identification, activity, address and contact details. The city describes separate police, fire and tobacco permits that may apply. A tax registration record does not settle use permission.",
+        "url": "https://finance.lacity.gov/business-registration-process",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-los-angeles"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-san-francisco",
+    "name": "San Francisco",
+    "slug": "san-francisco",
+    "state": "California",
+    "municipality": "San Francisco",
+    "county": "City and County of San Francisco",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-san-francisco"
+    ],
+    "processes": [
+      {
+        "title": "City business registration",
+        "trigger": "Starting business activity in San Francisco; review the city’s activity tests and exceptions.",
+        "authority": "San Francisco Treasurer & Tax Collector",
+        "summary": "The city generally requires registration within 30 days of starting business activity in San Francisco, including specified service activity. Registration and any applicable tax or location permissions are separate tasks.",
+        "url": "https://sftreasurer.org/business/register-business",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-san-francisco"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-san-diego",
+    "name": "San Diego",
+    "slug": "san-diego",
+    "state": "California",
+    "municipality": "San Diego",
+    "county": "San Diego County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-san-diego"
+    ],
+    "processes": [
+      {
+        "title": "Business Tax Certificate",
+        "trigger": "Operating in the City of San Diego; investigate the listed exemptions separately.",
+        "authority": "San Diego Office of the City Treasurer",
+        "summary": "The city says businesses operating within its limits, including home-based businesses and independent contractors, need a Business Tax Certificate. Activity-specific permits may also apply.",
+        "url": "https://www.sandiego.gov/treasurer/taxesfees/btax",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-san-diego"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-san-jose",
+    "name": "San Jose",
+    "slug": "san-jose",
+    "state": "California",
+    "municipality": "San Jose",
+    "county": "Santa Clara County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-sacramento",
+    "name": "Sacramento",
+    "slug": "sacramento",
+    "state": "California",
+    "municipality": "Sacramento",
+    "county": "Sacramento County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-sacramento"
+    ],
+    "processes": [
+      {
+        "title": "Business Operations Tax certificate and zoning review",
+        "trigger": "Operating within Sacramento city limits; identify the actual site and activity.",
+        "authority": "Sacramento Revenue Division",
+        "summary": "The city’s small-business guide separates its Business Operations Tax certificate from permission to use a particular location and describes coordination with Community Development on zoning.",
+        "url": "https://www.cityofsacramento.gov/edd/business/small-business-guide",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-sacramento"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-oakland",
+    "name": "Oakland",
+    "slug": "oakland",
+    "state": "California",
+    "municipality": "Oakland",
+    "county": "Alameda County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-oakland"
+    ],
+    "processes": [
+      {
+        "title": "Business Tax Certificate application and annual renewal",
+        "trigger": "Starting a business or rental activity in the City of Oakland; confirm applicable category and exceptions.",
+        "authority": "Oakland Business Tax Office",
+        "summary": "The city offers an online New Business Tax Certificate application. It states registration and special fees are due within 30 days of business or rental start and identifies an annual renewal process.",
+        "url": "https://www.oaklandca.gov/Business/Business-Taxes-Licenses-Permits/Apply-or-Renew-for-a-Business-License-or-Certificate",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-oakland"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-irvine",
+    "name": "Irvine",
+    "slug": "irvine",
+    "state": "California",
+    "municipality": "Irvine",
+    "county": "Orange County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-irvine"
+    ],
+    "processes": [
+      {
+        "title": "Business licensing and outside-agency checklist",
+        "trigger": "Doing business in Irvine; select the applicable business category and premises.",
+        "authority": "Irvine Business Licensing",
+        "summary": "Irvine provides a business-licensing checklist and directs applicants to separate state and county credentials when relevant. Its instructions separately address home-occupation standards and license display.",
+        "url": "https://www.cityofirvine.gov/community-development/business-licensing",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-irvine"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-seattle",
+    "name": "Seattle",
+    "slug": "seattle",
+    "state": "Washington",
+    "municipality": "Seattle",
+    "county": "King County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific Northwest (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-seattle"
+    ],
+    "processes": [
+      {
+        "title": "Business license tax certificate application facts",
+        "trigger": "Preparing a Seattle business license tax certificate application; verify applicable duties and exemptions separately.",
+        "authority": "Seattle City Finance",
+        "summary": "Seattle’s application help asks for the business’s legal name, trade name, start date, actual physical location and detailed activity. It warns that some activities need an additional regulatory license.",
+        "url": "https://www.seattle.gov/city-finance/business-taxes-and-licenses/business-licenses/business-license-application-help",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-seattle"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-portland",
+    "name": "Portland",
+    "slug": "portland",
+    "state": "Oregon",
+    "municipality": "Portland",
+    "county": "Multnomah, Washington and Clackamas counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific Northwest (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-portland"
+    ],
+    "processes": [
+      {
+        "title": "Revenue Division tax account",
+        "trigger": "Operating within Portland, Multnomah County and/or the Metro jurisdiction; identify each applicable boundary.",
+        "authority": "Portland Revenue Division",
+        "summary": "The Revenue Division says businesses operating in Portland and/or Multnomah County must register within 60 days. Address-specific boundaries affect the separate city, county and Metro tax analyses; exemption and filing questions are not interchangeable.",
+        "url": "https://www.portland.gov/revenue/business-tax",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-portland"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-phoenix",
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "state": "Arizona",
+    "municipality": "Phoenix",
+    "county": "Maricopa County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southwest (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-phoenix"
+    ],
+    "processes": [
+      {
+        "title": "Activity-specific license screening",
+        "trigger": "Selecting an activity in Phoenix; screen the City Clerk list and other authorities before operating.",
+        "authority": "Phoenix City Clerk License Services",
+        "summary": "Phoenix expressly says it does not issue a general business license. Certain activities still require a city license or recommendation/approval. The absence of a general license does not resolve zoning, state tax or sector requirements.",
+        "url": "https://www.phoenix.gov/administration/departments/cityclerk/programs-services/license-services.html",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-phoenix"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-mesa",
+    "name": "Mesa",
+    "slug": "mesa",
+    "state": "Arizona",
+    "municipality": "Mesa",
+    "county": "Maricopa County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southwest (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-mesa"
+    ],
+    "processes": [
+      {
+        "title": "General and specialty business license screening",
+        "trigger": "Planning an activity within Mesa; establish whether a general or specialty category applies.",
+        "authority": "Mesa Licensing Office",
+        "summary": "Mesa lists a general business license for most businesses, plus separate specialty, liquor, mobile-food and short-term-rental licensing routes. The licensing office offers help identifying the correct type.",
+        "url": "https://www.mesaaz.gov/Business-Development/Licensing",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-mesa"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-denver",
+    "name": "Denver",
+    "slug": "denver",
+    "state": "Colorado",
+    "municipality": "Denver",
+    "county": "City and County of Denver",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mountain (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-denver"
+    ],
+    "processes": [
+      {
+        "title": "Business and occupational license directory",
+        "trigger": "Selecting an operating activity or regulated occupation in the City and County of Denver.",
+        "authority": "Denver Department of Licensing and Consumer Protection",
+        "summary": "Denver’s licensing center provides a directory of business and occupational licenses, license-status checks and application resources. Determine whether the proposed service fits a listed category; the directory alone does not establish that an unlisted activity has no other obligations.",
+        "url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Business-Licensing",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-denver"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-austin",
+    "name": "Austin",
+    "slug": "austin",
+    "state": "Texas",
+    "municipality": "Austin",
+    "county": "Travis, Williamson and Hays counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Texas (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-austin"
+    ],
+    "processes": [
+      {
+        "title": "Existing and new Certificate of Occupancy review",
+        "trigger": "Evaluating an Austin premises, change, renovation or temporary use; confirm the actual permitted use.",
+        "authority": "Austin Development Services",
+        "summary": "Austin lets teams request an existing Certificate of Occupancy using a street address and unit number. New construction or significant renovations receive a certificate after successful final inspection; temporary occupancy is a separate process.",
+        "url": "https://www.austintexas.gov/development-services/certificate-occupancy",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-austin"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-dallas",
+    "name": "Dallas",
+    "slug": "dallas",
+    "state": "Texas",
+    "municipality": "Dallas",
+    "county": "Dallas, Collin, Denton, Kaufman and Rockwall counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Texas (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-dallas"
+    ],
+    "processes": [
+      {
+        "title": "Certificate of Occupancy on tenant or use change",
+        "trigger": "Taking over or changing a Dallas site, subject to the stated single-family/duplex exception and code conditions.",
+        "authority": "Dallas Building Inspection",
+        "summary": "Dallas identifies first use, a change of use, a change of tenant on an existing certificate, and a floor-area change as new Certificate of Occupancy triggers. A DBA-only change can follow a separate record-change process.",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-dallas"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-houston",
+    "name": "Houston",
+    "slug": "houston",
+    "state": "Texas",
+    "municipality": "Houston",
+    "county": "Harris, Fort Bend and Montgomery counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Texas (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-houston"
+    ],
+    "processes": [
+      {
+        "title": "Activity-specific commercial permitting",
+        "trigger": "Proposing an activity listed by Houston Regulatory Permitting; identify the exact permit and application route.",
+        "authority": "Houston Administration & Regulatory Affairs",
+        "summary": "Houston lists specific licensing categories and application routes through its Permitting Center, including online account activation for first access. The cited page is a category gateway, not a general operating clearance.",
+        "url": "https://www.houstontx.gov/ara/business-licensing.html",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-houston"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-san-antonio",
+    "name": "San Antonio",
+    "slug": "san-antonio",
+    "state": "Texas",
+    "municipality": "San Antonio",
+    "county": "Bexar, Comal and Medina counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Texas (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-san-antonio"
+    ],
+    "processes": [
+      {
+        "title": "Certificate of Occupancy change-of-use assessment",
+        "trigger": "Selecting or taking over a business premises in San Antonio; identify existing use, proposed use and category exceptions.",
+        "authority": "San Antonio Development Services",
+        "summary": "San Antonio requires occupancy approval for businesses and separates a change of use from a same-use change of owner or lessee. Some named business categories always require a new certificate even if use stays the same.",
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Constructing/Business-Commercial/Certificate-of-Occupancy",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-san-antonio"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-new-york",
+    "name": "New York City",
+    "slug": "new-york",
+    "state": "New York",
+    "municipality": "New York City",
+    "county": "Bronx, Kings, New York, Queens and Richmond counties",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Northeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-new-york"
+    ],
+    "processes": [
+      {
+        "title": "County assumed-name filing for sole proprietors and partnerships",
+        "trigger": "Operating a sole proprietorship or general partnership under another name in a New York City county.",
+        "authority": "New York City 311 / County Clerks",
+        "summary": "NYC311 describes County Clerk assumed-name filings for sole proprietorships and general partnerships using another name. This route does not establish corporation/LLC filing requirements or permission for regulated operations.",
+        "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02601",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-new-york"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-boston",
+    "name": "Boston",
+    "slug": "boston",
+    "state": "Massachusetts",
+    "municipality": "Boston",
+    "county": "Suffolk County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Northeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-boston"
+    ],
+    "processes": [
+      {
+        "title": "Trade-name Business Certificate",
+        "trigger": "Operating in Boston under a name different from the business’s legal name; verify the filing and entity details.",
+        "authority": "Boston City Clerk",
+        "summary": "Boston describes a Business Certificate for operating under a name different from the legal name. It is a trade-name filing rather than formation of the entity, with renewal every four years.",
+        "url": "https://content.boston.gov/permitting/permits/business-certificate",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-boston"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-philadelphia",
+    "name": "Philadelphia",
+    "slug": "philadelphia",
+    "state": "Pennsylvania",
+    "municipality": "Philadelphia",
+    "county": "City and County of Philadelphia",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-philadelphia"
+    ],
+    "processes": [
+      {
+        "title": "Commercial Activity License and city tax identity",
+        "trigger": "Beginning commercial activity in Philadelphia; first establish the correct tax account/entity identity.",
+        "authority": "Philadelphia Licenses & Inspections",
+        "summary": "Philadelphia requires a Commercial Activity License for doing business in the city, including businesses based outside its limits. The application links the legal entity to its city tax account and identifies some separate activity-number cases.",
+        "url": "https://www.phila.gov/services/permits-violations-licenses/get-a-license/business-licenses/activity/get-a-commercial-activity-license/",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-philadelphia"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-pittsburgh",
+    "name": "Pittsburgh",
+    "slug": "pittsburgh",
+    "state": "Pennsylvania",
+    "municipality": "Pittsburgh",
+    "county": "Allegheny County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 404: Not Found. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-chicago",
+    "name": "Chicago",
+    "slug": "chicago",
+    "state": "Illinois",
+    "municipality": "Chicago",
+    "county": "Cook and DuPage counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-minneapolis",
+    "name": "Minneapolis",
+    "slug": "minneapolis",
+    "state": "Minnesota",
+    "municipality": "Minneapolis",
+    "county": "Hennepin County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-minneapolis"
+    ],
+    "processes": [
+      {
+        "title": "Sector business-license application checklists",
+        "trigger": "Selecting an activity in Minneapolis that may fall within a business-license category.",
+        "authority": "Minneapolis Business Licenses",
+        "summary": "Minneapolis provides general application information and separate category checklists for activity-specific licenses. Match the actual activity to the directory before assuming whether a license is needed.",
+        "url": "https://www.minneapolismn.gov/business-services/licenses-permits-inspections/business-licenses/",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-minneapolis"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-detroit",
+    "name": "Detroit",
+    "slug": "detroit",
+    "state": "Michigan",
+    "municipality": "Detroit",
+    "county": "Wayne County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-columbus",
+    "name": "Columbus",
+    "slug": "columbus",
+    "state": "Ohio",
+    "municipality": "Columbus",
+    "county": "Franklin, Delaware and Fairfield counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-columbus"
+    ],
+    "processes": [
+      {
+        "title": "License Section activity and document screening",
+        "trigger": "Applying for a listed license in Columbus; confirm activity-specific documents, inspections and background-check rules.",
+        "authority": "Columbus Department of Building and Zoning",
+        "summary": "Columbus lists the business-license categories it administers, with application documents and city-code links. It states incomplete applications are not accepted, so use the actual category checklist rather than a generic startup checklist.",
+        "url": "https://www.columbus.gov/Business-Development/Business-Licenses-Resources",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-columbus"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-indianapolis",
+    "name": "Indianapolis",
+    "slug": "indianapolis",
+    "state": "Indiana",
+    "municipality": "Indianapolis",
+    "county": "Marion County; excluded municipalities need separate check",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: JavaScript-only or unavailable page. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-atlanta",
+    "name": "Atlanta",
+    "slug": "atlanta",
+    "state": "Georgia",
+    "municipality": "Atlanta",
+    "county": "Fulton and DeKalb counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-charlotte",
+    "name": "Charlotte",
+    "slug": "charlotte",
+    "state": "North Carolina",
+    "municipality": "Charlotte",
+    "county": "Mecklenburg County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-charlotte"
+    ],
+    "processes": [
+      {
+        "title": "City zoning review alongside county building permit",
+        "trigger": "Selecting a use or project within Charlotte jurisdiction; determine city zoning and county building-review roles.",
+        "authority": "Charlotte Planning & Development",
+        "summary": "Charlotte’s zoning guidance identifies activities requiring a City Zoning Use Permit and describes instances where city zoning review and Mecklenburg County building-permit review run together. Confirm the specific proposed use and parcel.",
+        "url": "https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Zoning/Permitting",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-charlotte"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-raleigh",
+    "name": "Raleigh",
+    "slug": "raleigh",
+    "state": "North Carolina",
+    "municipality": "Raleigh",
+    "county": "Wake and Durham counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-raleigh"
+    ],
+    "processes": [
+      {
+        "title": "General license removal and remaining permits",
+        "trigger": "Beginning Raleigh activity; investigate zoning and sector obligations despite the absence of the former general license.",
+        "authority": "Raleigh Revenue Services",
+        "summary": "Raleigh states it has not required its general business license since July 1, 2015, while other local permits and licenses may depend on the activity. Its guidance separately directs teams to city, county and state contacts.",
+        "url": "https://raleighnc.gov/doing-business/services/starting-new-business",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-raleigh"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-nashville",
+    "name": "Nashville-Davidson",
+    "slug": "nashville",
+    "state": "Tennessee",
+    "municipality": "Nashville-Davidson",
+    "county": "Davidson County; satellite cities need separate check",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-nashville"
+    ],
+    "processes": [
+      {
+        "title": "County Clerk business-tax license application",
+        "trigger": "Planning a business in Davidson County; determine the service district, activity category and current state thresholds.",
+        "authority": "Davidson County Clerk",
+        "summary": "The County Clerk provides business-tax license and minimal-activity license applications. The page distinguishes Nashville Urban Service District locations from General Service District locations, so a postal address alone is not a complete classification.",
+        "url": "https://www.nashville.gov/departments/county-clerk/business-services/apply-business-license",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-nashville"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-miami",
+    "name": "Miami",
+    "slug": "miami",
+    "state": "Florida",
+    "municipality": "Miami",
+    "county": "Miami-Dade County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 503: Service Unavailable. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-orlando",
+    "name": "Orlando",
+    "slug": "orlando",
+    "state": "Florida",
+    "municipality": "Orlando",
+    "county": "Orange County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-orlando"
+    ],
+    "processes": [
+      {
+        "title": "City receipt, Certificate of Use and county receipt",
+        "trigger": "Opening within the City of Orlando; establish the exact site, activity and any Certificate of Use exception.",
+        "authority": "Orlando Permitting Services",
+        "summary": "Orlando describes a Business Tax Receipt before opening, a Certificate of Use with stated exceptions, and a separate Orange County business tax receipt. Track these as distinct records.",
+        "url": "https://www.orlando.gov/Building-Development/Permits-Inspections/Other/Get-a-Permit-for-Your-Business/Get-a-Business-Tax-Receipt",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-orlando"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-tampa",
+    "name": "Tampa",
+    "slug": "tampa",
+    "state": "Florida",
+    "municipality": "Tampa",
+    "county": "Hillsborough County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-tampa"
+    ],
+    "processes": [
+      {
+        "title": "Local Business Tax Receipt boundary check",
+        "trigger": "Establishing a business activity inside Tampa city limits; verify category and other permissions.",
+        "authority": "Tampa Business Tax Division",
+        "summary": "Tampa’s Business Tax Division administers local Business Tax Receipts and provides an address check for city limits. Start by confirming the taxing jurisdiction before using the city application route.",
+        "url": "https://www.tampa.gov/business-tax",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-tampa"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-jacksonville",
+    "name": "Jacksonville",
+    "slug": "jacksonville",
+    "state": "Florida",
+    "municipality": "Jacksonville",
+    "county": "Duval County; beach municipalities need separate check",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 404: Not Found. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-las-vegas",
+    "name": "Las Vegas",
+    "slug": "las-vegas",
+    "state": "Nevada",
+    "municipality": "Las Vegas",
+    "county": "Clark County; unincorporated Strip separate",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mountain (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-las-vegas"
+    ],
+    "processes": [
+      {
+        "title": "Confirm city boundary before license application",
+        "trigger": "Evaluating a Las Vegas-addressed premises; confirm whether the parcel is actually inside the city.",
+        "authority": "Las Vegas Business Licensing",
+        "summary": "The city’s licensing gateway provides an “Am I In Las Vegas?” boundary tool and separate apply, manage, compliance and license-search functions. A Las Vegas mailing address must not be treated as proof of city jurisdiction.",
+        "url": "https://www.lasvegasnevada.gov/Business/Business-License",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-las-vegas"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-salt-lake-city",
+    "name": "Salt Lake City",
+    "slug": "salt-lake-city",
+    "state": "Utah",
+    "municipality": "Salt Lake City",
+    "county": "Salt Lake County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mountain (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-salt-lake-city"
+    ],
+    "processes": [
+      {
+        "title": "Commercial business-license zoning/building/fire review",
+        "trigger": "Engaging in business within Salt Lake City corporate limits; select the activity and premises.",
+        "authority": "Salt Lake City Business Licensing",
+        "summary": "Salt Lake City says commercial business licenses must be reviewed for zoning and building compliance and fire safety. State-regulated activity and food preparation have separate agency conditions.",
+        "url": "https://www.slc.gov/finance/business-licensing/",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-salt-lake-city"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-washington-dc",
+    "name": "Washington, D.C.",
+    "slug": "washington-dc",
+    "state": "District of Columbia",
+    "municipality": "Washington, D.C.",
+    "county": "District of Columbia; no county government",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-washington-dc"
+    ],
+    "processes": [
+      {
+        "title": "Basic Business License prerequisites",
+        "trigger": "Setting up a covered District business activity; confirm license category and applicable premises documentation.",
+        "authority": "District of Columbia DLCP",
+        "summary": "DLCP’s sequence separates entity/trade-name registration, tax registration, zoning documentation and the activity-dependent Basic Business License. Commercial premises use a Certificate of Occupancy route; home businesses use a Home Occupation Permit route.",
+        "url": "https://dlcp.dc.gov/page/steps-obtaining-basic-business-license-0",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-washington-dc"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-baltimore",
+    "name": "Baltimore",
+    "slug": "baltimore",
+    "state": "Maryland",
+    "municipality": "Baltimore",
+    "county": "Independent City of Baltimore; not Baltimore County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 404: Not Found. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-richmond",
+    "name": "Richmond",
+    "slug": "richmond",
+    "state": "Virginia",
+    "municipality": "Richmond",
+    "county": "Independent City of Richmond; not surrounding counties",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-richmond"
+    ],
+    "processes": [
+      {
+        "title": "Business, Professional and Occupational License tax registration",
+        "trigger": "Beginning covered business in the independent City of Richmond; determine activity classification and receipts period.",
+        "authority": "Richmond Department of Finance",
+        "summary": "Richmond’s BPOL guidance covers business-license applications and distinguishes new-business estimated receipts from later actual-receipts adjustments. Classify the business and obtain the current-year filing instructions; do not copy a prior-year form.",
+        "url": "https://www.rva.gov/finance/bpol-tax",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-richmond"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-st-louis",
+    "name": "St. Louis",
+    "slug": "st-louis",
+    "state": "Missouri",
+    "municipality": "St. Louis",
+    "county": "Independent City of St. Louis; not St. Louis County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Midwest (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-st-louis"
+    ],
+    "processes": [
+      {
+        "title": "City business license by location, name and activity",
+        "trigger": "Engaging in an activity within the independent City of St. Louis, after reviewing stated exemptions.",
+        "authority": "St. Louis License Collector",
+        "summary": "The city describes separate licenses by location, trade name and occupation/business at one address. It expressly distinguishes state LLC registration from the city business-license process and identifies exemptions.",
+        "url": "https://www.stlouis-mo.gov/government/departments/license/business-license-info/index.cfm",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-st-louis"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed"
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-kansas-city",
+    "name": "Kansas City",
+    "slug": "kansas-city",
+    "state": "Missouri",
+    "municipality": "Kansas City",
+    "county": "Jackson, Clay, Platte and Cass counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Midwest (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [],
+    "processes": [],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    ],
+    "status": "not-researched",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  }
+]

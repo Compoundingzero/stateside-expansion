@@ -1,0 +1,188 @@
+[
+  {
+    "id": "practice-pesticide-certification",
+    "title": "Check applicator certification before pesticide services",
+    "topic": "employment",
+    "jurisdiction": "Federal / operating jurisdiction",
+    "activity": "Applying or supervising restricted-use pesticides",
+    "affectedParty": "Operating employer and applicator",
+    "applicability": "Restricted-use pesticide application; state/territory/tribal standards may be broader.",
+    "requirement": "Identify responsible certifying authority and confirm certification for actual location, category and product.",
+    "exceptions": "Task- and jurisdiction-specific exceptions require separate review.",
+    "trigger": "Before assigning pesticide work",
+    "deadline": "Before application",
+    "fee": null,
+    "renewal": "Check controlling instrument and current agency instructions.",
+    "dependencies": [],
+    "evidence": [
+      "Applicator category",
+      "Product label",
+      "Certifying authority instructions"
+    ],
+    "sourceIds": [
+      "pr-applicators"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T20:57:01.744003+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Commercial and business licensing must be checked locally."
+    ],
+    "dependentPaths": [
+      "/industries/pest-control/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "practice-pesticide-import",
+    "title": "Resolve pesticide import responsibility before shipping",
+    "topic": "products-supply",
+    "jurisdiction": "Federal",
+    "activity": "Importing FIFRA-regulated pesticide or device",
+    "affectedParty": "Importer / importing agent",
+    "applicability": "Actual product is within FIFRA scope; classification and exceptions require product review.",
+    "requirement": "Confirm lawful product and establishment status, label and Notice of Arrival process for the actual shipment.",
+    "exceptions": "Task- and jurisdiction-specific exceptions require separate review.",
+    "trigger": "Before shipment/arrival",
+    "deadline": "NOA before arrival per EPA guidance; filing details depend on entry route",
+    "fee": null,
+    "renewal": "Check controlling instrument and current agency instructions.",
+    "dependencies": [],
+    "evidence": [
+      "Product composition and claims",
+      "EPA status evidence",
+      "Importer allocation",
+      "Broker instructions"
+    ],
+    "sourceIds": [
+      "pr-pesticide-import"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T20:57:01.744003+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No current tariff quote or product registration conclusion provided."
+    ],
+    "dependentPaths": [
+      "/cases/cleaning-product-us-supply/",
+      "/industries/pest-control/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "practice-hazardous-energy",
+    "title": "Control hazardous energy for covered servicing",
+    "topic": "employment",
+    "jurisdiction": "Federal / applicable OSHA state plan",
+    "activity": "Servicing and maintaining equipment",
+    "affectedParty": "Operating employer",
+    "applicability": "Work falls within applicable hazardous-energy standard; exemptions require task review.",
+    "requirement": "Build task-specific energy-control procedures and training before covered servicing.",
+    "exceptions": "Task- and jurisdiction-specific exceptions require separate review.",
+    "trigger": "Before assigning covered servicing",
+    "deadline": "Before work begins",
+    "fee": null,
+    "renewal": "Check controlling instrument and current agency instructions.",
+    "dependencies": [],
+    "evidence": [
+      "Task list",
+      "Energy isolation procedure",
+      "Worker training",
+      "Host-contractor interface"
+    ],
+    "sourceIds": [
+      "pr-lockout"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T20:57:01.744003+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "General-industry overview does not settle construction, maritime or state-plan scope."
+    ],
+    "dependentPaths": [
+      "/industries/industrial-maintenance/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "practice-service-contract",
+    "title": "Identify federal service-contract wage obligations before bidding",
+    "topic": "employment",
+    "jurisdiction": "Federal",
+    "activity": "Covered federal or DC service contracts",
+    "affectedParty": "Contractor and subcontractor",
+    "applicability": "Service Contract Act coverage, contract value, location, service-worker duties and exceptions must be assessed.",
+    "requirement": "Use applicable wage determination and fringe-benefit terms when pricing and performing covered work.",
+    "exceptions": "Task- and jurisdiction-specific exceptions require separate review.",
+    "trigger": "Bid review / contract award",
+    "deadline": "Before bid commitment and throughout covered performance",
+    "fee": null,
+    "renewal": "Check controlling instrument and current agency instructions.",
+    "dependencies": [],
+    "evidence": [
+      "Solicitation and clauses",
+      "Wage determination",
+      "Job mapping",
+      "Payroll/benefit cost model"
+    ],
+    "sourceIds": [
+      "pr-service-contracts"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T20:57:01.744003+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No wage rate quoted.",
+      "Private facilities contracts are not automatically covered by the federal SCA."
+    ],
+    "dependentPaths": [
+      "/us-expansion/federal-service-contract-bid-cost/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "practice-court-scope",
+    "title": "Record court-search coverage and limitations",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Federal / relevant state and local courts",
+    "activity": "Partner due diligence",
+    "affectedParty": "Brand due-diligence lead",
+    "applicability": "Entity names and associated parties selected for proportionate lawful review.",
+    "requirement": "Document court systems searched, dates, aliases and case disposition; missing results are not certification.",
+    "exceptions": "Recommended business practice; not a government certification.",
+    "trigger": "Before a partner commitment",
+    "deadline": "Evidence-date policy chosen by team",
+    "fee": null,
+    "renewal": "Check controlling instrument and current agency instructions.",
+    "dependencies": [],
+    "evidence": [
+      "Entity identifiers",
+      "Search scope",
+      "Case documents",
+      "Response to identified disputes"
+    ],
+    "sourceIds": [
+      "pr-pacer"
+    ],
+    "status": "conditional",
+    "legalStatus": "recommended-practice",
+    "verifiedAt": "2026-11-12T20:57:01.744003+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "PACER covers federal courts; state/local and other systems remain separate."
+    ],
+    "dependentPaths": [
+      "/us-expansion/partner-due-diligence-evidence/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  }
+]

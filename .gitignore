@@ -8,3 +8,11 @@ artifacts/
 research/raw/
 playwright-report/
 test-results/
+
+# Full source working extracts stay cloud-only; tracked records retain short evidence.
+research/*.txt
+research/*.html
+research/geography/
+research/states/*.txt
+research/states/*.html
+research/states/*.pdf

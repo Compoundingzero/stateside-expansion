@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-11-12T21:00:39.685Z",
+  "definitions": {
+    "published": "Unique canonical guide records with status published; tools and landing pages counted separately.",
+    "reviewed": "Published guides with a recorded substantive review date. This is AI-assisted source review, not professional legal review.",
+    "candidate": "An editorial research lead; not a researched public page. Matching published paths reported separately.",
+    "notResearched": "Explicit missing research status. It does not mean no requirement."
+  },
+  "guides": {
+    "total": 145,
+    "byStatus": {
+      "blocked": 3,
+      "draft": 42,
+      "published": 100
+    },
+    "published": 100,
+    "sourceReviewedPublished": 100,
+    "professionallyReviewed": 0,
+    "byFamily": {
+      "case": 10,
+      "comparison": 1,
+      "decision": 6,
+      "fdd": 23,
+      "federal": 20,
+      "industry": 7,
+      "local": 10,
+      "origin": 5,
+      "state": 15,
+      "state-issue": 3
+    }
+  },
+  "tools": {
+    "declared": 9,
+    "paths": [
+      "/tools/management-dependence/",
+      "/tools/relationship-factsheet/",
+      "/tools/market-comparison/",
+      "/tools/us-unit-economics/",
+      "/tools/brand-support-economics/",
+      "/tools/cash-runway/",
+      "/tools/fdd-comparison/",
+      "/tools/partner-evidence/",
+      "/tools/launch-planner/"
+    ]
+  },
+  "sources": {
+    "total": 135,
+    "byAccessStatus": {
+      "blocked": 4,
+      "blocked-403": 1,
+      "read": 89,
+      "retrieved-and-read": 41
+    },
+    "substantivelyVerified": 130
+  },
+  "rules": {
+    "total": 75,
+    "byStatus": {
+      "conditional": 17,
+      "verified": 58
+    }
+  },
+  "coverage": {
+    "statesAndDC": 51,
+    "territories": 5,
+    "origins": 70,
+    "markets": 40,
+    "marketsByStatus": {
+      "conditional": 30,
+      "not-researched": 10
+    },
+    "independentTopicDimensions": {
+      "verified": 0,
+      "conditional": 27,
+      "unresolved": 2,
+      "not-researched": 1231,
+      "not-applicable": 0
+    }
+  },
+  "editorialCandidates": {
+    "total": 703,
+    "byFamily": {
+      "case": 70,
+      "comparison": 50,
+      "fdd": 23,
+      "federal": 50,
+      "industry": 30,
+      "local-hub": 40,
+      "local-sector": 120,
+      "origin": 50,
+      "state-hub": 51,
+      "state-issue": 204,
+      "tool": 15
+    },
+    "byStatus": {
+      "not-researched": 703
+    },
+    "matchingPublishedPaths": 53,
+    "outstandingResearchCandidates": 650,
+    "unpublishedCandidatePaths": 650
+  }
+}

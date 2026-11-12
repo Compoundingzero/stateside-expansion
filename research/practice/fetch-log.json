@@ -1,0 +1,121 @@
+[
+  {
+    "id": "ftc-rule",
+    "url": "https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide",
+    "fetchedAt": "2026-11-12T20:45:21.158603+00:00",
+    "status": 200,
+    "bytes": 985485
+  },
+  {
+    "id": "uscis-control",
+    "url": "https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5",
+    "fetchedAt": "2026-11-12T20:45:21.160184+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "state-evisa",
+    "url": "https://fam.state.gov/fam/09fam/09fam040209.html",
+    "fetchedAt": "2026-11-12T20:45:21.161063+00:00",
+    "status": "failed",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "id": "osha-cleaning",
+    "url": "https://www.osha.gov/cleaning-industry",
+    "fetchedAt": "2026-11-12T20:45:21.161745+00:00",
+    "status": 200,
+    "bytes": 103366
+  },
+  {
+    "id": "osha-lockout",
+    "url": "https://www.osha.gov/control-hazardous-energy",
+    "fetchedAt": "2026-11-12T20:45:21.162415+00:00",
+    "status": 200,
+    "bytes": 107113
+  },
+  {
+    "id": "epa-import",
+    "url": "https://www.epa.gov/compliance/importing-and-exporting-pesticides-and-devices",
+    "fetchedAt": "2026-11-12T20:45:21.163074+00:00",
+    "status": 200,
+    "bytes": 70577
+  },
+  {
+    "id": "epa-disinfectants",
+    "url": "https://www.epa.gov/pesticide-registration/disinfectants-and-antimicrobial-products",
+    "fetchedAt": "2026-11-12T20:45:21.164116+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "epa-applicators",
+    "url": "https://www.epa.gov/pesticide-worker-safety/how-get-certified-pesticide-applicator",
+    "fetchedAt": "2026-11-12T20:45:21.165597+00:00",
+    "status": 200,
+    "bytes": 58809
+  },
+  {
+    "id": "dol-service",
+    "url": "https://www.dol.gov/agencies/whd/government-contracts/service-contracts/faq",
+    "fetchedAt": "2026-11-12T20:45:21.171684+00:00",
+    "status": 200,
+    "bytes": 92415
+  },
+  {
+    "id": "nist-cyber",
+    "url": "https://www.nist.gov/itl/smallbusinesscyber",
+    "fetchedAt": "2026-11-12T20:45:21.179574+00:00",
+    "status": 200,
+    "bytes": 89405
+  },
+  {
+    "id": "sba-finance",
+    "url": "https://www.sba.gov/business-guide/manage-your-business/manage-your-finances",
+    "fetchedAt": "2026-11-12T20:45:21.183631+00:00",
+    "status": 200,
+    "bytes": 348233
+  },
+  {
+    "id": "sba-licenses",
+    "url": "https://www.sba.gov/business-guide/launch-your-business/apply-licenses-permits",
+    "fetchedAt": "2026-11-12T20:45:21.191114+00:00",
+    "status": 200,
+    "bytes": 254406
+  },
+  {
+    "id": "pacer-index",
+    "url": "https://pacer.uscourts.gov/find-case/search-national-index",
+    "fetchedAt": "2026-11-12T20:45:21.918525+00:00",
+    "status": 200,
+    "bytes": 28687
+  },
+  {
+    "id": "ftc-qargo",
+    "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/qargo-coffee-inc-et-al-ftc-v",
+    "fetchedAt": "2026-11-12T20:45:22.025529+00:00",
+    "status": 200,
+    "bytes": 991407
+  },
+  {
+    "id": "ftc-burgerim",
+    "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2023057-burgerim-us-v",
+    "fetchedAt": "2026-11-12T20:45:22.045281+00:00",
+    "status": 200,
+    "bytes": 993120
+  },
+  {
+    "id": "burgerim-order",
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/burgerim_default_judgment.pdf",
+    "fetchedAt": "2026-11-12T20:45:22.045915+00:00",
+    "status": 200,
+    "bytes": 198334
+  },
+  {
+    "id": "ftc-litigation",
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/litigation-status-december_2024.pdf",
+    "fetchedAt": "2026-11-12T20:45:22.155183+00:00",
+    "status": 200,
+    "bytes": 613028
+  }
+]

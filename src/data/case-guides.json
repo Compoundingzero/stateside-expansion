@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "case-cleaning-zero",
+    "path": "/cases/cleaning-manager-royalty/",
+    "title": "Fictional case: the cleaning unit with no surplus left",
+    "description": "A fictional Singapore cleaning business discovers how a manager and royalty consume an apparent annual surplus.",
+    "family": "case",
+    "topic": "commercial-feasibility",
+    "jurisdictions": [
+      "Federal",
+      "Singapore"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A Singapore commercial-cleaning owner wants a U.S. operation run by a local general manager while the owner remains abroad. The team copies a home-market annual worksheet into USD. Revenue is $1,000,000. The worksheet shows $180,000 before a dedicated manager and the proposed brand royalty. All figures are teaching assumptions, not industry averages or actual franchise earnings."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "The $820,000 already deducted includes frontline labour, employer payroll costs on those workers, cleaning materials, vehicle use, insurance, occupancy and ordinary administration. It expressly excludes the dedicated general manager, brand royalty, debt service, income taxes and replacement capital. The team must check its own ledger rather than add a second allowance for costs already included."
+        ]
+      },
+      {
+        "heading": "The consequence",
+        "paragraphs": [
+          "A fully loaded manager costs $120,000 in this fictional model. A 6% royalty on $1,000,000 revenue costs $60,000. The arithmetic is $180,000 − $120,000 − $60,000 = $0 at that stage. Zero here means the listed costs consume the listed surplus; it does not mean the business has paid debt, funded growth or generated distributable cash."
+        ],
+        "table": {
+          "headers": [
+            "Fictional annual USD input",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Revenue",
+              "$1,000,000"
+            ],
+            [
+              "Costs already in original worksheet",
+              "$820,000"
+            ],
+            [
+              "Surplus before manager and royalty",
+              "$180,000"
+            ],
+            [
+              "Dedicated manager, fully loaded",
+              "$120,000"
+            ],
+            [
+              "Royalty:6% of revenue",
+              "$60,000"
+            ],
+            [
+              "Surplus at this stage",
+              "$0"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Separate accounting profit from cash",
+        "paragraphs": [
+          "An invoice can be revenue before the customer pays. If payroll falls due before collection, a unit showing an accounting profit can still need working capital. SBA explains the cash/accrual distinction; our figures are an original exercise rather than a forecast. Record invoice dates, expected receipts, deposits, equipment payments and debt on the cash schedule."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Reusable decision checklist",
+        "paragraphs": [
+          "Output: a dated unit model whose owner is the CFO or finance lead. Rebuild three scenarios from documented assumptions; do not merely increase every revenue line."
+        ],
+        "bullets": [
+          "Mark every cost included, excluded or unknown.",
+          "Record manager role, salary evidence, benefits and payroll assumptions.",
+          "Confirm what revenue the royalty applies to and when payment falls due.",
+          "Test a slower customer ramp and longer receivables; keep costs that do not fall with sales.",
+          "Keep tax, debt, reinvestment and support-office costs separately visible.",
+          "Decision: revise the fee/model, test different delivery economics, investigate further or pause."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-finance"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "An annual unit model plus a separate dated cash schedule",
+    "limitations": [
+      "Fictional teaching inputs, no earnings representation for an actual franchise.",
+      "No U.S. location, wage quote or tax analysis supplied."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-license",
+    "path": "/cases/licensing-label-franchise-obligations/",
+    "title": "Fictional case: a German technical-services “license”",
+    "description": "A fictional German service company maps payments, operational support and brand controls before anyone decides the legal classification.",
+    "family": "case",
+    "topic": "classification",
+    "jurisdictions": [
+      "Federal",
+      "Germany"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "fed-relationship-definition"
+    ],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A German technical-services company offers a U.S. partner its name, operating procedures, mandatory job software, initial training and continuing field support. The partner pays an initial fee and continuing charges. The sales director wants to call the agreement a license because the partner already runs another business."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "The federal definition in 16 CFR 436.1 addresses a continuing commercial relationship whatever its label. Brand association, significant operational control or assistance, and required payments are relevant facts. A separate exemption analysis and separate state analysis still follow. One software rule or one manual does not produce an automatic result."
+        ],
+        "sourceIds": [
+          "fed-definition"
+        ]
+      },
+      {
+        "heading": "Examine what changes the overall business",
+        "paragraphs": [
+          "The management team separates requirements protecting the trademark from directions about how the partner runs delivery. The FTC guide distinguishes these kinds of control. Record whether procedures are optional, who enforces them, how much of the partner business uses the system, what support was promised orally, and what the buyer reasonably relies on."
+        ],
+        "table": {
+          "headers": [
+            "Relationship fact",
+            "Evidence to collect"
+          ],
+          "rows": [
+            [
+              "Brand",
+              "Mark rights and permission scope"
+            ],
+            [
+              "Payments",
+              "All fee, purchase, affiliate and timing obligations"
+            ],
+            [
+              "Operations",
+              "Method, site, customer, quality and system requirements"
+            ],
+            [
+              "Assistance",
+              "Training, launch, bids, field support and sales promises"
+            ],
+            [
+              "Jurisdiction",
+              "Seller, buyer, proposed operation and offer locations"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-compliance"
+        ]
+      },
+      {
+        "heading": "The useful next document",
+        "paragraphs": [
+          "Draw the actual relationship: German brand → U.S. partner for brand rights and support; U.S. partner → brand or affiliate for fees; U.S. partner → customer for service delivery. Add which party recruits staff, wins accounts, invoices, bears rework and monitors service. Area representatives and master operators need separate arrows, not a new label on the same chart."
+        ]
+      },
+      {
+        "heading": "Reusable evidence checklist",
+        "paragraphs": [
+          "Output: a relationship factsheet owned by the expansion lead, prepared before offers are made."
+        ],
+        "bullets": [
+          "Retain draft contracts, price lists and sales scripts.",
+          "Record actual support and controls, including informal promises.",
+          "List direct and indirect payments and recipients.",
+          "Identify the first transaction, communication and operating jurisdictions.",
+          "Ask the reviewer to analyse definitions, exclusions, exemptions and state overlays separately.",
+          "Record the conclusion and factual assumptions outside this educational tool; completion provides no sales clearance."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "fed-definition",
+      "fed-compliance"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A relationship factsheet and money/support flow diagram",
+    "limitations": [
+      "No automated franchise classification or exemption approval."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-funding",
+    "path": "/cases/net-worth-is-not-project-funding/",
+    "title": "Fictional case: a wealthy British partner with a $200,000 gap",
+    "description": "A fictional facilities-services candidate has $4 million net worth but insufficient demonstrated cash for the project.",
+    "family": "case",
+    "topic": "commercial-feasibility",
+    "jurisdictions": [
+      "United Kingdom",
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A British facilities company considers granting U.S. rights to a candidate who reports $4 million in net worth. The candidate has $200,000 of accessible, unencumbered money allocated to this project. Launch needs $250,000 and a further $150,000 liquidity reserve under the team’s illustrative plan. None of these amounts is a market benchmark."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "Net worth is assets less liabilities, not the cash available on a launch date. Real estate equity may be valuable but unavailable without a sale or borrowing. A securities account can be pledged, jointly controlled or committed elsewhere. A loan term sheet can have unfulfilled conditions. The balance sheet and cash schedule answer different questions; the SBA finance guide explains the accounting foundation."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "The consequence",
+        "paragraphs": [
+          "Required project funding is $250,000 + $150,000 = $400,000. Demonstrated allocated funding is $200,000. The remaining gap is $200,000 unless other committed capital is established. This exercise treats the reserve as additional liquidity, not a second copy of launch costs already counted."
+        ],
+        "table": {
+          "headers": [
+            "Fictional USD measure",
+            "Amount",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Reported net worth",
+              "$4,000,000",
+              "Not a funding commitment"
+            ],
+            [
+              "Accessible, allocated capital",
+              "$200,000",
+              "Evidence still needs date and restrictions"
+            ],
+            [
+              "Launch expenditure",
+              "$250,000",
+              "Timing and scope must be itemised"
+            ],
+            [
+              "Additional reserve",
+              "$150,000",
+              "Policy assumption, not duplicate expenditure"
+            ],
+            [
+              "Funding gap",
+              "$200,000",
+              "$400,000 less $200,000"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Test source, availability and allocation",
+        "paragraphs": [
+          "The finance lead builds a dated funding bridge, using descriptions and evidence status rather than uploading financial documents here. For every source, record owner, currency, conversion assumption, restrictions, release date, competing commitments and conditions. Decide which confirmations must be handled securely by the responsible professionals outside this site."
+        ]
+      },
+      {
+        "heading": "Reusable evidence checklist",
+        "paragraphs": [
+          "Output: a funding bridge and a gap-resolution task, not a “funding verified” badge."
+        ],
+        "bullets": [
+          "Separate reported wealth, liquid assets and committed project capital.",
+          "Tie every funding source to a date and authorised person.",
+          "List existing pledges, collateral and other ventures drawing the same money.",
+          "Cost the downside cash peak before setting the reserve.",
+          "Keep uncommitted borrowing and unverified self-reporting unresolved.",
+          "Decision: establish additional capital, reduce scope, stage rights or pause."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-finance"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A project funding bridge with dated evidence and remaining gap",
+    "limitations": [
+      "No partner solvency certification or collection of bank statements."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-territory",
+    "path": "/cases/staged-industrial-services-territory/",
+    "title": "Fictional case: a Dutch operator requests several states",
+    "description": "A fictional industrial-services brand tests staged territory rights against delivery, support and partner investment.",
+    "family": "case",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Netherlands",
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "fed-relationship-definition"
+    ],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A Dutch industrial-maintenance brand meets a capable regional operator seeking rights across several U.S. states. No U.S. unit has yet demonstrated repeat demand, local hiring or the proposed support cost. The request may be commercially reasonable to negotiate, but home-market success is not evidence that every requested territory can be served."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "A multi-state map hides different customer clusters, travel times and account decisions. A national customer may procure centrally but require local dispatch. An online lead can come from a site outside the operator’s route. The partner may invest in equipment and training before there is enough density to use them."
+        ]
+      },
+      {
+        "heading": "Make rights and obligations specific",
+        "paragraphs": [
+          "Draft staged rights around measured operating capability, customer validation and support capacity. State who can solicit, serve and invoice national accounts; who receives online leads; whether existing contracts are reserved; and how work crossing a boundary is allocated. Item 12 is a useful territory-disclosure reference in a franchise structure; it does not create exclusivity by itself."
+        ],
+        "table": {
+          "headers": [
+            "Stage",
+            "Fictional commercial evidence",
+            "Unresolved legal task"
+          ],
+          "rows": [
+            [
+              "Initial area",
+              "One service cluster and named pilot customers",
+              "Review territory and sales-law scope"
+            ],
+            [
+              "Further rights",
+              "Service quality, funded staff and supported demand",
+              "Review expansion commitments and disclosure updates"
+            ],
+            [
+              "Delay",
+              "Documented permit, procurement or hiring obstacle",
+              "Review extension, notice and cure provisions"
+            ],
+            [
+              "Exit/transfer",
+              "Protect customer continuity and invested equipment",
+              "Review state protections and agreement terms"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-compliance"
+        ]
+      },
+      {
+        "heading": "Protect both investments",
+        "paragraphs": [
+          "The brand should not reserve a whole market indefinitely without support. The partner should not face an impossible opening timetable or lose investment automatically when a permit is delayed. Record objective milestones, dependencies, reporting, adjustment process and proposed cure time. Rights against the contracting brand do not guarantee protection from independent competitors; enforceability remains jurisdiction-specific."
+        ]
+      },
+      {
+        "heading": "Reusable territory checklist",
+        "paragraphs": [
+          "Output: a territory principles sheet owned by the commercial lead before a binding development commitment."
+        ],
+        "bullets": [
+          "Identify the specific customer segment, operating base and service radius.",
+          "Separate own-unit development from authority to recruit subfranchisees.",
+          "Map national accounts, online enquiries, adjacent operators and cross-border jobs.",
+          "Price field support and travel for each stage.",
+          "Record evidence required for added rights and reasonable delay handling.",
+          "Have state relationship protections and contract enforceability reviewed; keep unresolved provisions visible."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "fed-compliance",
+      "fed-definition"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "Staged territory principles and national-account allocation map",
+    "limitations": [
+      "Fictional commercial exercise; no assurance of exclusivity or enforceability."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-e-nationality",
+    "path": "/cases/singapore-subsidiary-e2-ownership/",
+    "title": "Fictional case: a Singapore address does not settle E-2",
+    "description": "A fictional Malaysian-owned group separates subsidiary incorporation from ultimate ownership, control and individual U.S. work.",
+    "family": "case",
+    "topic": "immigration",
+    "jurisdictions": [
+      "Malaysia",
+      "Singapore",
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "fed-e2-nationality"
+    ],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A Malaysian-owned group uses a Singapore subsidiary for regional contracts and assumes that the subsidiary can sponsor any manager for U.S. work as a treaty business. The expansion owner plans to stay abroad, but a technical manager may travel to train and supervise a U.S. operator."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "The Department of State lists Singapore as an E-2 treaty country. That listing is a starting fact, not an enterprise or personal eligibility decision. Under 8 CFR 214.2(e)(7), enterprise ownership must be traced to ultimate individual owners as practicable. Incorporation, ultimate nationality, tax residence, managerial control and the proposed person’s duties are distinct facts."
+        ],
+        "sourceIds": [
+          "fed-e2",
+          "fed-treaties"
+        ]
+      },
+      {
+        "heading": "Draw ownership before choosing a route",
+        "paragraphs": [
+          "Build a diagram using entity names or aliases and ownership percentages: ultimate owners → Malaysian parent → Singapore subsidiary → proposed U.S. entity. Add who appoints directors and who controls decisions. If an entity or individual fact is unknown, preserve it as unknown. A franchise or licensing agreement is not assumed to create an L-1 corporate relationship."
+        ]
+      },
+      {
+        "heading": "Build a people-mobility workstream",
+        "paragraphs": [
+          "The E provisions separately address investment and the person’s investor or employee role. Describe each person’s actual U.S. activity, employer, authority, intended duration and work location. A business visit, hands-on service work, executive transfer and investor role require different analysis. Do not reorganise ownership or commit money merely because an educational worksheet highlights an issue."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "Evidence description only"
+          ],
+          "rows": [
+            [
+              "Who ultimately owns?",
+              "Ownership layers, percentages and nationality facts"
+            ],
+            [
+              "Who controls?",
+              "Voting, appointment and management rights"
+            ],
+            [
+              "Who will work?",
+              "Named role, employer and actual U.S. duties"
+            ],
+            [
+              "What is invested?",
+              "Source, commitment, project use and conditions"
+            ],
+            [
+              "What remains unresolved?",
+              "Treaty footnotes, personal eligibility and route-specific advice"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-e2"
+        ]
+      },
+      {
+        "heading": "Reusable decision checklist",
+        "paragraphs": [
+          "Output: an ownership diagram and people-mobility plan. No passport, bank record or immigration document upload is needed."
+        ],
+        "bullets": [
+          "Keep founder relocation optional if the founder will remain abroad.",
+          "Escalate mobility early if a named person is essential for feasibility.",
+          "Record ultimate nationality facts separately from subsidiary country.",
+          "Distinguish capital availability from a qualifying committed investment.",
+          "Assign the unresolved individual and enterprise questions to a responsible reviewer before travel or work commitments."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "fed-e2",
+      "fed-treaties"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "Ownership diagram and people-mobility questions",
+    "limitations": [
+      "No visa eligibility determination.",
+      "FAM and USCIS detailed guidance access could not be completed in this review; route-specific analysis remains unresolved."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-master",
+    "path": "/cases/branch-operator-versus-master-franchise/",
+    "title": "Fictional case: a French branch operator considers master rights",
+    "description": "A fictional operator who runs branches well compares own-unit development with recruiting and supporting other owners.",
+    "family": "case",
+    "topic": "commercial-feasibility",
+    "jurisdictions": [
+      "France",
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "fed-relationship-definition"
+    ],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A French services brand wants one partner to build a U.S. network. The candidate has strong supervisors, client retention and multi-branch delivery. The candidate asks for master rights, including authority to recruit subfranchisees. There is no evidence yet of franchise sales administration, training for independent owners or a support office."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "Running units and supporting independent owners are different capabilities. An area developer may open its own units under a development agreement. A master arrangement can add pre-sale and post-sale responsibilities for other owners. The federal definition of franchisor includes subfranchisors engaging in both kinds of activity; actual functions matter."
+        ],
+        "sourceIds": [
+          "fed-definition"
+        ]
+      },
+      {
+        "heading": "Build the capability-and-cost matrix",
+        "paragraphs": [
+          "The candidate and brand assign responsibilities before setting the royalty split. A percentage allocation without a service budget can leave continuing support underfunded."
+        ],
+        "table": {
+          "headers": [
+            "Workstream",
+            "Own-unit developer",
+            "Master arrangement: additional work"
+          ],
+          "rows": [
+            [
+              "Delivery",
+              "Hire and supervise own operating teams",
+              "Support independent owner delivery"
+            ],
+            [
+              "Recruitment",
+              "Recruit employees and managers",
+              "Recruit and assess prospective franchisees"
+            ],
+            [
+              "Pre-sale",
+              "Participate in own transaction",
+              "Manage permitted sales, disclosure and records"
+            ],
+            [
+              "Training",
+              "Train own teams",
+              "Train owners and their managers"
+            ],
+            [
+              "Field support",
+              "Manage branches",
+              "Fund visits, issue resolution and monitoring"
+            ],
+            [
+              "Economics",
+              "Unit margins and shared overhead",
+              "Recurring support budget and fee allocation"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Test continuing funding",
+        "paragraphs": [
+          "Use an original illustrative support budget with separately labelled assumptions for staff, travel, training, localisation, systems and compliance work. Model a year with no new territory fee receipts. If continuing royalties do not fund promised support at the planned network size, revise the split, scope, minimum funding or rollout pace; do not assume endless upfront sales."
+        ]
+      },
+      {
+        "heading": "Reusable capability checklist",
+        "paragraphs": [
+          "Output: a responsibility matrix with a role owner, evidence and annual cost for every promised function."
+        ],
+        "bullets": [
+          "Document which units the candidate itself will operate.",
+          "Mark who contracts with and supports each independent owner.",
+          "Identify sales, disclosure and local registration work before recruitment.",
+          "Separate initial training from recurring field support.",
+          "Test staff time at both a small network and a delayed rollout.",
+          "Decision: own-unit development first, smaller master scope, build capability or pause."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "fed-definition",
+      "pr-finance"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "Capability-and-cost matrix for own-unit versus master responsibilities",
+    "limitations": [
+      "Commercial labels do not decide franchise-law obligations."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-lease",
+    "path": "/cases/lease-clock-before-opening/",
+    "title": "Fictional case: rent starts before the restaurant can open",
+    "description": "A fictional lease and delay model shows why rent commencement, permissions and customer receipts need separate dates.",
+    "family": "case",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario with no real address or local-law claim. A restaurant operator signs a lease with rent beginning 1 April. Fit-out is planned for two months and opening is assumed for 1 June. The team has not confirmed permitted use, design requirements or inspection sequence. The dates and all costs here are deliberately invented teaching assumptions."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "The lease decides contractual payment dates subject to its actual terms. Authorities decide operating permissions under relevant rules. A landlord’s statement, insurer’s condition and regulator’s approval are different evidence. Every commercial lease must be read: do not assume it is triple-net, that taxes are included, or that additional charges follow a universal percentage."
+        ]
+      },
+      {
+        "heading": "The consequence of an illustrative delay",
+        "paragraphs": [
+          "Assume base rent of $8,000/month and separately identified pre-opening team/utilities costs of $6,000/month. A three-month opening delay while these amounts continue adds $42,000 of cash use before considering debt, extra fit-out, food spoilage or other charges. This is $14,000 ×3 under the fictional assumptions, not a permit-delay forecast or total funding requirement."
+        ],
+        "table": {
+          "headers": [
+            "Date or cost",
+            "What to record"
+          ],
+          "rows": [
+            [
+              "Possession",
+              "Access for survey, works and storage"
+            ],
+            [
+              "Rent commencement",
+              "Actual clause and any conditions"
+            ],
+            [
+              "Approvals",
+              "Agency, application, prerequisite and evidence"
+            ],
+            [
+              "Opening",
+              "Permission plus operational readiness"
+            ],
+            [
+              "Other occupancy amounts",
+              "Taxes, insurance, maintenance, utilities, deposit and reconciliation"
+            ],
+            [
+              "Cash receipts",
+              "Customer start and collection timing"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Create a dependency plan before commitment",
+        "paragraphs": [
+          "SBA explains that licenses depend on business activity and location. The project lead must identify an actual municipality, county, address, use and sector before relying on specific local explanations. Put use confirmation, design, landlord approval, works, inspections, utilities and food-operation tasks into a dependency graph; record responsible people and contingency dates."
+        ],
+        "sourceIds": [
+          "pr-licenses"
+        ]
+      },
+      {
+        "heading": "Reusable lease-clock checklist",
+        "paragraphs": [
+          "Output: a lease-date and permissions schedule with an explicit delay scenario."
+        ],
+        "bullets": [
+          "Ask the property lead to abstract payment, improvement and commencement terms.",
+          "Identify contingencies and extension rights for professional review.",
+          "Record what each landlord, authority and insurer document actually establishes.",
+          "Keep address-dependent tasks pending until an address is chosen.",
+          "Model cash monthly and avoid counting the same rent in both fit-out and delay reserves.",
+          "Decision: resolve conditions, change timing or premises, stage spending or pause."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-licenses",
+      "pr-finance"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "Lease-date abstraction and a dated pre-opening cash plan",
+    "limitations": [
+      "No named locality researched by this scenario.",
+      "Delay assumptions are fictional; lease interpretation and actual local approvals remain unresolved."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-supply",
+    "path": "/cases/cleaning-product-us-supply/",
+    "title": "Fictional case: the home-market cleaning product cannot simply ship",
+    "description": "A fictional B 2 B cleaning brand compares a home-market pesticide product with a documented U.S. sourcing alternative.",
+    "family": "case",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Federal",
+      "Singapore"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "practice-pesticide-import"
+    ],
+    "sections": [
+      {
+        "heading": "The decision",
+        "paragraphs": [
+          "Fictional scenario. A Singapore cleaning brand’s preferred disinfectant is treated, for this exercise, as a FIFRA-regulated pesticide product. The team wants the U.S. operator to use exactly the same branded bottle. No actual product, formulation or registration is identified, and this site does not decide whether a particular product is a pesticide."
+        ]
+      },
+      {
+        "heading": "The overlooked fact",
+        "paragraphs": [
+          "EPA’s import guidance distinguishes lawful product status, producing-establishment requirements and Notice of Arrival paperwork. An establishment number is not a product approval. An unregistered pesticide cannot simply be imported for ordinary U.S. use by relying on foreign sale; EPA identifies specific import exceptions requiring separate conditions. The actual product and intended use must be assessed."
+        ],
+        "sourceIds": [
+          "pr-pesticide-import"
+        ]
+      },
+      {
+        "heading": "Compare the complete supply job",
+        "paragraphs": [
+          "The operations and compliance leads can investigate two paths: establish a lawful import/supply route for the specified product, or validate an appropriate U.S. substitute. Compare intended use, label directions, application method, surface compatibility, client specification, training, storage and procurement continuity. A familiar smell or bottle colour is not a service-outcome specification."
+        ]
+      },
+      {
+        "heading": "Keep landed cost incomplete until the missing inputs arrive",
+        "paragraphs": [
+          "Use a transparent worksheet: purchase cost + freight + insurance + customs/broker costs + applicable duties/tariffs + local handling + storage + compliance costs. Record currency, quantity, unit, quote date and importer. If a duty rate is unknown, the total remains incomplete. Do not substitute zero. Record minimum orders and lead times in the cash schedule."
+        ],
+        "table": {
+          "headers": [
+            "Decision factor",
+            "Import path",
+            "U.S. substitute path"
+          ],
+          "rows": [
+            [
+              "Regulatory responsibility",
+              "Identify importer and actual product status",
+              "Confirm actual product and permitted use"
+            ],
+            [
+              "Evidence",
+              "Composition, claims, label and supply records",
+              "Label, supplier record and compatibility trial"
+            ],
+            [
+              "Economics",
+              "Landed costs and inventory financing",
+              "Delivered quote and minimum purchase"
+            ],
+            [
+              "Consistency",
+              "Training and customer approval",
+              "Defined outcome and documented validation"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Reusable sourcing checklist",
+        "paragraphs": [
+          "Output: an approved-for-investigation supply specification, not a declaration that a product may enter or be used."
+        ],
+        "bullets": [
+          "Identify the exact product and claims; leave category uncertain if unresolved.",
+          "Assign importer, supplier and operator responsibilities in writing.",
+          "Obtain current product/establishment and shipment evidence where applicable.",
+          "Check sector, state, worker and client-use constraints.",
+          "Pilot a substitute against objective performance and compatibility criteria.",
+          "Update the operating manual only after responsible technical and compliance review."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-pesticide-import",
+      "pr-cleaning"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A supply specification and import-versus-substitute comparison",
+    "limitations": [
+      "No actual EPA product determination, import authorisation or current tariff calculation."
+    ],
+    "scenarioType": "fictional",
+    "label": "Fictional scenario — all businesses and figures are illustrative"
+  },
+  {
+    "id": "case-burgerim",
+    "path": "/cases/burgerim-entity-default-judgment/",
+    "title": "Burgerim: what the entity default judgment actually ordered",
+    "description": "A real January 2024 federal entity judgment illustrates why selling promises and practical support need evidence.",
+    "family": "case",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "What the document establishes",
+        "paragraphs": [
+          "Real case, historical document review. On 19 January 2024, the Central District of California entered a default judgment against Burgerim Group USA, Inc. and Burgerim Group, Inc. The order followed their default; it is not a contested merits trial. Page 3 separately notes an earlier order as to Oren Loni. The entity order bars the entity defendants from U.S. franchise sales and imposes $7,750,000 in civil penalties and $48,476,689 for consumer redress."
+        ],
+        "sourceIds": [
+          "pr-burgerim-order"
+        ]
+      },
+      {
+        "heading": "Keep order, payment and present status separate",
+        "paragraphs": [
+          "Those are judgments entered, not evidence that money was collected or paid to buyers. The official FTC case index still carries a Pending label and a January 2024 last-update date. This page explains the identified entity order; it does not certify the complete present docket, a recovery rate or any current business’s conduct."
+        ],
+        "sourceIds": [
+          "pr-burgerim-order",
+          "pr-burgerim-index"
+        ]
+      },
+      {
+        "heading": "A management lesson for an expanding brand",
+        "paragraphs": [
+          "The order also addresses misrepresentations about income, payback time, training, assistance and other material facts. A brand owner who delegates U.S. sales still needs an owner for the evidence behind those promises. Treat a promised support capability as a budgeted delivery obligation, not a brochure phrase."
+        ],
+        "sourceIds": [
+          "pr-burgerim-order"
+        ]
+      },
+      {
+        "heading": "Prepare a claims-and-capability register",
+        "paragraphs": [
+          "Original preparation exercise: take each proposed U.S. sales statement and assign its author, factual support, applicable audience, approved form and review date. For an opening-time statement, separate location selection, customer procurement, fit-out, permissions and staff readiness. For a support statement, name the actual team, travel budget and response capacity. Keep this exercise separate from approved FDD representations."
+        ]
+      },
+      {
+        "heading": "Reusable evidence checklist",
+        "paragraphs": [
+          "Output: a sales-claim register before materials or scripts are used."
+        ],
+        "bullets": [
+          "Retain each brochure, website version, event slide and spoken-script approval.",
+          "Record precisely what the evidence supports and what it does not.",
+          "Do not convert a private planning calculator into a prospect earnings promise.",
+          "Assign support delivery and review responsibilities to named roles.",
+          "Record customer complaints and refund obligations against actual contract terms.",
+          "Use current federal/state rules for today’s transaction; this judgment is not an automatic penalty schedule."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-burgerim-order",
+      "pr-burgerim-index"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "Sales-claim and promised-support register",
+    "limitations": [
+      "Historical entity judgment only; no recovery proof or full current docket certification.",
+      "The case does not establish automatic sanctions for every violation."
+    ],
+    "scenarioType": "real",
+    "label": "Real case — historical documents and stated procedural limits"
+  },
+  {
+    "id": "case-tower",
+    "path": "/cases/tower-cleaning-earnings-and-records/",
+    "title": "Tower Cleaning: a historical service-franchise consent decree",
+    "description": "A real 1996 commercial-cleaning settlement connects earnings claims, disclosure records and evidence preservation.",
+    "family": "case",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "A service-business case with a bounded lesson",
+        "paragraphs": [
+          "Real case, historical document review. The official FTC record for Tower Cleaning Systems, Inc. and David A. Gansky links a 1996 consent decree in the Middle District of Pennsylvania. The decree states that settlement occurred without adjudication of disputed issues and without an admission of liability. Its terms include $50,000 consumer redress and restrictions on misrepresenting franchise sales, income or profits."
+        ],
+        "sourceIds": [
+          "pr-tower-decree",
+          "pr-tower-index"
+        ]
+      },
+      {
+        "heading": "What this does and does not prove",
+        "paragraphs": [
+          "The complete decree and appendices were read for this page. Its disclosure and earnings-document references use the pre-2007 Franchise Rule and Uniform Franchise Offering Circular framework. They are historical, not instructions for a current FDD. The order itself does not establish that redress was collected, and this page makes no claim about later operations or later docket activity."
+        ],
+        "sourceIds": [
+          "pr-tower-decree"
+        ]
+      },
+      {
+        "heading": "The reusable operating lesson",
+        "paragraphs": [
+          "A commercial-cleaning brand needs a way to connect marketing statements to the underlying contracts and operating facts. Gross account billings do not identify labour hours, travel between buildings, rework, supplies, customer churn or payment delay. A portfolio transferred to a new operator can also change staffing and route density. These are original business-analysis questions, not findings about Tower beyond the identified decree."
+        ]
+      },
+      {
+        "heading": "Build an account-cohort worksheet",
+        "paragraphs": [
+          "For any proposed operational comparison, define location, period, unit age, owner/manager participation, service mix and included accounts. Track accounts lost or excluded and document why. Keep an evidence source and reviewer next to every number. Do not infer profitability from a customer’s contract value or treat a hand-selected cohort as the likely result for a new operator."
+        ]
+      },
+      {
+        "heading": "Reusable evidence checklist",
+        "paragraphs": [
+          "Output: a cleaning-account economics worksheet and a record-retention assignment."
+        ],
+        "bullets": [
+          "Separate contracted revenue, invoiced revenue and cash actually received.",
+          "Record site time, travel, supervision, equipment and quality costs.",
+          "Define the cohort and all exclusions before comparing units.",
+          "Record the dates and limits of any customer or operator evidence.",
+          "Route proposed prospect-facing financial statements through current FDD and legal review.",
+          "Preserve a readable record of the source, calculation and approved statement."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-tower-decree",
+      "pr-tower-index",
+      "pr-finance"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "Account-cohort worksheet and evidence-retention ownership",
+    "limitations": [
+      "Historical consent resolution without admission; current rules require separate analysis.",
+      "No payment or current-business finding is made."
+    ],
+    "scenarioType": "real",
+    "label": "Real case — historical documents and stated procedural limits"
+  },
+  {
+    "id": "case-qargo-hold",
+    "path": "/cases/qargo-license-label-review/",
+    "title": "Qargo Coffee: entered-order verification pending",
+    "description": "Research record held from publication while the actual signed order and current procedural record are reconciled.",
+    "family": "case",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Federal",
+      "California"
+    ],
+    "status": "blocked",
+    "lastReviewed": null,
+    "reviewStatus": "Editorial hold; source or procedural review incomplete",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "Why this record is not published",
+        "paragraphs": [
+          "The official case index describes the FTC allegations and links a proposed order dated 16 October 2024. The December 2024 FTC litigation status report records a stipulated order entered 17 October 2024. The filed proposed PDF has a blank judicial signature/date. Metadata saying Pending is not sufficient to disregard the later official report."
+        ]
+      },
+      {
+        "heading": "Research completed",
+        "paragraphs": [
+          "The complete operative proposed-order pages 1–16 were read. Those are not represented as the actual entered text. The report supports the entry date it records; the actual signed order and any later docket developments remain outstanding."
+        ]
+      },
+      {
+        "heading": "Release condition",
+        "paragraphs": [
+          "Obtain and read the entered order, reconcile materially different terms and check later procedural documents before a final narrative is published. Preserve allegations as allegations; a proposed rescission term is not automatic repayment of every dollar invested."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-qargo-index",
+      "pr-qargo-proposed",
+      "pr-qargo-report"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A source-conflict task and entered-order retrieval request",
+    "limitations": [
+      "Publication blocked: entered signed order and later docket check incomplete."
+    ],
+    "scenarioType": "real",
+    "label": "Real case — historical documents and stated procedural limits"
+  },
+  {
+    "id": "case-octoclean-hold",
+    "path": "/cases/octoclean-order-review/",
+    "title": "OctoClean: full-order source review pending",
+    "description": "Research record held because the official consent-order PDF could not be read.",
+    "family": "case",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "blocked",
+    "lastReviewed": null,
+    "reviewStatus": "Editorial hold; source or procedural review incomplete",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "Why this record is not published",
+        "paragraphs": [
+          "The DFPI September 2023 enforcement summary identifies an OctoClean consent order. The official PDF returned HTTP 403 in this review. A search excerpt and summary cannot replace reading its complete operative terms."
+        ]
+      },
+      {
+        "heading": "Release condition",
+        "paragraphs": [
+          "Read the complete official consent order and check for subsequent relevant orders. Separate recitals, admissions, stipulated obligations and actual performance. No penalty, current violation or clearance claim is published from this incomplete record."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-octoclean-order"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "Source-access and later-order review task",
+    "limitations": [
+      "Publication blocked: complete order inaccessible."
+    ],
+    "scenarioType": "real",
+    "label": "Real case — historical documents and stated procedural limits"
+  }
+]

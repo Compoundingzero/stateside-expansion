@@ -1,0 +1,1096 @@
+[
+  {
+    "id": "tx-franchise-exemption-notice",
+    "title": "Texas FTC-compliant franchise exemption notice",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Texas",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "The Secretary of State describes a business-opportunity registration exemption for franchisors complying in all material respects with applicable FTC disclosure requirements and prohibitions in Texas. The seller must file the exemption notice before offering or selling.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before offering for sale or selling",
+    "deadline": "Before first covered offer or sale",
+    "fee": {
+      "value": 25,
+      "currency": "USD",
+      "asOf": "2026-11-12"
+    },
+    "renewal": "The FAQ describes a one-time notice without expiry, with written notice of principal-address changes.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-tx-faq"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/texas/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wa-registration",
+    "title": "Washington registration and exemption analysis",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Washington",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "RCW 19.100.020 prohibits covered offers or sales unless the offering is registered or exempt. Registration and exemption are distinct from federal disclosure.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale",
+    "deadline": "Before covered offer or sale",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wa-law",
+      "state-wa-franchise"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/washington/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wa-disclosure-changes",
+    "title": "Washington initial disclosure and revised agreements",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Washington",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "RCW 19.100.080 provides a 14-calendar-day disclosure period and a separate seven-calendar-day period for unilaterally material agreement changes; prospect-initiated negotiations are treated separately.",
+    "exceptions": "The statute excludes changes arising from negotiations initiated by the prospective franchisee from the seven-day agreement-change period.",
+    "trigger": "Planned binding agreement, payment or material agreement revision",
+    "deadline": "14 calendar days for disclosure; 7 calendar days for the specified revised agreements",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/washington/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wa-advertising",
+    "title": "Washington prepublication franchise advertising filing",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Washington",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "A true copy of advertising offering a franchise subject to registration must be filed at least seven days before publication, unless a shorter period is allowed by rule or order.",
+    "exceptions": "Scope depends on the registration requirement and any applicable rule or order.",
+    "trigger": "Planned publication of covered franchise advertising",
+    "deadline": "At least 7 days before publication",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/washington/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wa-relationship",
+    "title": "Washington ongoing relationship protections",
+    "topic": "relationship",
+    "jurisdiction": "Washington",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "RCW 19.100.180 includes good-faith duties and restrictions involving purchasing, territory, termination and renewal. Contract wording does not alone establish enforceability.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Drafting or changing the agreement; supplier, territory, termination or renewal decisions",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/washington/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "va-registration",
+    "title": "Virginia registration or applicable exemption",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Virginia",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Franchises offered or sold in Virginia must be registered or exempt. Some exemptions require a filing before an offer or sale.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale",
+    "deadline": "Before covered offer or sale",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-va-franchise"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/virginia/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "or-disclosure",
+    "title": "Oregon disclosure without pre-sale franchise filing approval",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Oregon",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Oregon DFR says franchisors must give disclosure at least 14 days before a contract or payment and retain complete books, records and franchise-sale details. Oregon does not require filing franchise documents and obtaining approval before a sale.",
+    "exceptions": "This says nothing about separate business-opportunity, sector, entity, employment or local duties.",
+    "trigger": "Planned franchise contract or receipt of money",
+    "deadline": "At least 14 days before signing or payment",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-or-franchise"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/oregon/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "ny-renewal",
+    "title": "New York fiscal-year-based franchise renewal",
+    "topic": "sales-disclosure",
+    "jurisdiction": "New York",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "The Attorney General directs annual renewal submissions within 120 days after fiscal year end. If registration expires, covered offers or sales within or from New York must stop until renewal is submitted and accepted for filing.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Franchisor fiscal year end",
+    "deadline": "Within 120 days after fiscal year end",
+    "fee": null,
+    "renewal": "Annual fiscal-year-based renewal; separately monitor prompt material-change amendments.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-ny-guide"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/new-york/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "ny-advertising",
+    "title": "New York franchise advertising submission",
+    "topic": "sales-disclosure",
+    "jurisdiction": "New York",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Submit two copies of advertising to be used in offering or selling franchises via NASAA FRED at least seven days before intended use.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Planned franchise advertising",
+    "deadline": "At least 7 days before intended use",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-ny-guide"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/new-york/",
+      "/states/new-york/franchise-advertising/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wi-registration",
+    "title": "Wisconsin registration is not merit approval",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Wisconsin",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "The agency states registration is due no later than the first Wisconsin franchise sale, is effective on receipt, lasts one year, and is not merit review. Each franchise system requires a separate registration and fee.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "First Wisconsin sale; expiry of existing registration",
+    "deadline": "No later than first sale; avoid a sales gap after expiry",
+    "fee": {
+      "value": 400,
+      "currency": "USD",
+      "asOf": "2026-11-12"
+    },
+    "renewal": "New annual registration before expiry; not a continuing merit approval.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wi-faq",
+      "state-wi-filing"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/wisconsin/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wi-amendment",
+    "title": "Wisconsin material-event amendment",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Wisconsin",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "A registrant must amend within 30 days of a material event; the amendment is effective on receipt and does not extend the original registration period.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "A material event",
+    "deadline": "Within 30 days",
+    "fee": {
+      "value": 200,
+      "currency": "USD",
+      "asOf": "2026-11-12"
+    },
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wi-faq"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/wisconsin/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "wi-disclosure",
+    "title": "Wisconsin disclosure timing",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Wisconsin",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Provide the FDD 14 calendar days before the earlier of signing a binding franchise or other agreement or paying consideration. The agency says franchise advertising need not be filed.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Planned binding agreement or payment",
+    "deadline": "14 calendar days before the earlier event",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-wi-faq"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/wisconsin/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "mn-registration",
+    "title": "Minnesota registration before offer or sale",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Minnesota",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "A covered franchise offer or sale requires an effective registration unless the transaction or franchise is exempt under section 80C.03. The Department uses ComOnline for filings.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale",
+    "deadline": "Before covered offer or sale",
+    "fee": null,
+    "renewal": "Registration effective for 12 months from the commissioner order; calendar reporting and renewal work separately.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-mn-law",
+      "state-mn-register"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/minnesota/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "mn-assurance",
+    "title": "Minnesota financial assurance changes fee availability",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Minnesota",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Where adequate financial arrangements have not been demonstrated, the commissioner may require escrow, impoundment or deferral. The published guidance describes a surety bond alternative and fee deferral until the franchisee opens.",
+    "exceptions": "The selected financial condition and release requirements depend on the actual review and terms, not a universal cash threshold.",
+    "trigger": "Financial review during registration; planning cash available for support",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-mn-assurance"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/minnesota/",
+      "/states/minnesota/franchise-support-funding/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "hi-filing",
+    "title": "Hawaii filing-document consistency",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Hawaii",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Hawaii directs electronic portal submission. Its filing tips call for consistent FDD and form data, U.S.-notarized Form C, and an auditor consent referencing the correct statements and guarantor where relevant.",
+    "exceptions": "Confirm the current forms, portal instructions and any applicable financial-statement order before filing.",
+    "trigger": "Preparing initial, renewal or amended franchise filing",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-hi-filings",
+      "state-hi-tips"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/hawaii/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "il-forms",
+    "title": "Illinois franchise application and financial-assurance documents",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Illinois",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "The Attorney General administers franchise registration and publishes application, costs/source-of-funds, seller, accountant-consent, escrow, guaranty and surety-bond forms. A form being available does not make it mandatory in every application.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Preparing an Illinois filing or responding to financial review",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-il-info"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The initial timing rule, exemption tests and relationship provisions require a separate current statutory review. No filing fee or effectiveness date is asserted here."
+    ],
+    "dependentPaths": [
+      "/states/illinois/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "md-registration",
+    "title": "Maryland franchise offer registration",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Maryland",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Section 14-214 requires registration before offering through advertisement or otherwise, or selling in the state, subject to its stated exclusions and exemptions.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer including advertising",
+    "deadline": "Before covered offer or sale",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-md-statute"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/maryland/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "md-advertising",
+    "title": "Maryland advertising review",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Maryland",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "COMAR 02.02.08.09 requires covered franchise advertising submitted at least five days before anticipated initial use.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Planned initial use of advertising for an offering subject to registration",
+    "deadline": "At least 5 days before anticipated initial use",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-md-rules"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/maryland/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "md-exempt-disclosure",
+    "title": "Maryland exemption does not automatically remove disclosure",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Maryland",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "COMAR 02.02.08.10 describes specified exemptions with notice conditions and a separate disclosure rule. For exemptions in D–G, absent a contrary order, disclosure and proposed agreements are due at the earlier of the first personal meeting or ten business days before signing/payment.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Claiming one of the specified exemptions; first personal meeting; agreement or payment",
+    "deadline": "For specified D–G exemptions: earlier of first personal meeting or 10 business days before signing/payment",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-md-rules"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The rule uses legacy UFOC terminology and references; coordinate it with current agency filing directions and the federal Rule. Do not replace the earlier meeting trigger with a generic 14-day statement.",
+      "Exact exemption selection and transaction applicability remain fact-specific."
+    ],
+    "dependentPaths": [
+      "/states/maryland/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "mi-notice",
+    "title": "Michigan annual notice of intent",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Michigan",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "File the annual notice before offering or selling. The agency describes a $250 fee and makes clear it does not review FDDs for compliance.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale",
+    "deadline": "Before covered offer or sale",
+    "fee": {
+      "value": 250,
+      "currency": "USD",
+      "asOf": "2026-11-12"
+    },
+    "renewal": "Annually; notice effective for one year from filing.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-mi-notice",
+      "state-mi-info"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/michigan/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "mi-disclosure",
+    "title": "Michigan business-day disclosure period",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Michigan",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Section 445.1508 requires disclosure, the Michigan notice and proposed agreements at least ten business days before binding agreement or consideration, whichever comes first. Keep the federal calendar-day requirement as a separate clock.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Planned agreement or receipt of consideration",
+    "deadline": "At least 10 business days before earlier event",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-mi-disclosure"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/michigan/",
+      "/states/michigan/franchise-disclosure-timing/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "in-notification",
+    "title": "Indiana registration by notification",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Indiana",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Register before a covered offer or sale unless exempt. Indiana describes registration as notice filing without merit review, initial effectiveness upon receipt if no stop order applies, and one-year registration.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale",
+    "deadline": "Before covered offer or sale",
+    "fee": {
+      "value": 500,
+      "currency": "USD",
+      "asOf": "2026-11-12"
+    },
+    "renewal": "One year; renewal due no later than expiry. A lapse requires an initial filing and fee.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-in-info"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/indiana/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "nd-renewal",
+    "title": "North Dakota franchise renewal and current addendum practice",
+    "topic": "sales-disclosure",
+    "jurisdiction": "North Dakota",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "The Department directs renewal no later than 15 business days before expiry unless waived. Its current page states that as of April 1, 2026 a state-specific FDD addendum is no longer required; other registration and disclosure obligations continue.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Preparing North Dakota initial/renewal filings; expiry planning",
+    "deadline": "Renewal at least 15 business days before expiry unless waived",
+    "fee": null,
+    "renewal": "Generally 12 months from effective date unless specified otherwise by order or rule.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-nd-info"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/north-dakota/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "ri-registration",
+    "title": "Rhode Island registration and annual duration",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Rhode Island",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Covered offers or sales require registration or exemption. The active regulation says registration expires 365 calendar days after its initial effective date; exemption notices have their own 365-day period measured from receipt.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale; registration or notice anniversary",
+    "deadline": "Before covered offer or sale; calendar the correct anniversary",
+    "fee": null,
+    "renewal": "Annual; effective-date and notice-receipt anniversaries differ.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-ri-law",
+      "state-ri-rule"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/rhode-island/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "sd-notice",
+    "title": "South Dakota franchise notice filing",
+    "topic": "sales-disclosure",
+    "jurisdiction": "South Dakota",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "A covered offer or sale requires proper notice filing unless exempt. The statute describes a complete filing, FDD, consent and initial $250 fee; effectiveness is generally on receipt subject to orders and completeness provisions.",
+    "exceptions": "An exemption must be checked against its conditions; no exemption is approved by this record.",
+    "trigger": "Before covered offer or sale",
+    "deadline": "Before covered offer or sale",
+    "fee": {
+      "value": 250,
+      "currency": "USD",
+      "asOf": "2026-11-12"
+    },
+    "renewal": "One year from initial application receipt unless a different period is prescribed; renewal $150; late filing treated as initial.",
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-sd-notice",
+      "state-sd-duration",
+      "state-sd-info"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/south-dakota/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "sd-advertising",
+    "title": "South Dakota advertising and going-concern changes",
+    "topic": "sales-disclosure",
+    "jurisdiction": "South Dakota",
+    "activity": "Offering or selling a partner-operated business model",
+    "affectedParty": "Franchisor / subfranchisor and responsible sales manager",
+    "applicability": "Where the relevant state franchise law applies to the transaction; evaluate the parties, offer, residence, locations and model.",
+    "requirement": "Advertising filing is not required unless requested by the director, but false or misleading advertising can be barred by written order. After notice effectiveness, an auditor going-concern conclusion must be notified within 15 days.",
+    "exceptions": "No routine advertising filing is not permission to make unsubstantiated claims.",
+    "trigger": "Advertising review; auditor concludes substantial doubt about continuing as a going concern",
+    "deadline": "Going concern: within 15 days after auditor conclusion",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "Jurisdiction and offer-location review"
+    ],
+    "evidence": [
+      "Dated disclosure and agreement versions",
+      "Filing acknowledgement or documented exemption analysis",
+      "Named responsible person"
+    ],
+    "sourceIds": [
+      "state-sd-ads",
+      "state-sd-duration"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This record covers the stated issue, not all applicable laws, sector requirements or local permissions."
+    ],
+    "dependentPaths": [
+      "/states/south-dakota/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "mn-disclosure-receipt",
+    "title": "Minnesota seven-day state disclosure and signed receipt retention",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Minnesota",
+    "activity": "Offering or selling a franchise subject to state registration requirements",
+    "affectedParty": "Person offering or selling the franchise; responsible sales records manager",
+    "applicability": "A franchise subject to the registration requirements imposed byMinnesota 80C.02. Independently determine federal coverage/exemption.",
+    "requirement": "Under 80C.06 subdivision 5, supply the current public offering statement and all proposed agreements at least 7 days before the earlier of execution of any franchise or other agreement or payment of consideration. Obtain a signed acknowledgement before agreement/payment and retain it 3 years. The applicable federal 14-calendar-day period remains a separate prerequisite.",
+    "exceptions": "Application depends on the state registration requirement. A federal or state exemption must be independently established; this record approves none.",
+    "trigger": "Earlier franchise/other agreement or consideration; receipt acknowledgement and retention",
+    "deadline": "At least 7 days before the earlier stated event; signed receipt before execution/payment; retain receipt 3 years from taking it",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Relationship factsheet",
+      "State registration/exemption applicability",
+      "Independent federal disclosure analysis"
+    ],
+    "evidence": [
+      "Current statement and all proposed agreements",
+      "Dated delivery evidence",
+      "Signed prospective-franchisee receipt",
+      "Three-year retention record"
+    ],
+    "sourceIds": [
+      "state-mn-disclosure",
+      "fed-timing"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Seven state-law days do not shorten the federal 14-calendar-day requirement where it applies. Compare the actual triggers, documents and dates separately.",
+      "No automatic commitment clearance; agreement changes and receipt facts require review."
+    ],
+    "dependentPaths": [
+      "/states/minnesota/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  }
+]
