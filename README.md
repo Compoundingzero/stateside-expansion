@@ -21,8 +21,8 @@ Public guides are static HTML. Only the planning workspace and tools hydrate Rea
 ## Verification
 
 ```sh
-npm test
 npm run build
+npm test
 npm audit --omit=dev --audit-level=high
 # With the production server running and Chromium available:
 npx playwright test
