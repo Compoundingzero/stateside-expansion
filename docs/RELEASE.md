@@ -23,7 +23,7 @@ Run `node scripts/report.mjs --write`; copy the current report into `docs/covera
 - Editorial dependency tests simulate a changed source and identify affected guides/tools without rewriting reviewed content or review dates.
 - Eight browser tests against the production server cover the Singapore owner remaining abroad, JSON and printable export, opt-in persistence/reset, input-network privacy, deep links, desktop/mobile single-action behavior and overflow, separate browser-profile isolation, and safe printable escaping.
 - Independent source sampling re-read current federal thresholds/forms, Michigan timing, Texas notice, Wisconsin filing and real-case orders; Minnesota state/federal timing was reconciled independently.
-- A technical source-check baseline has been run successfully. It establishes hashes, not a new legal review or an activated future schedule.
+- The GitHub source-review workflow completed its first hosted run: 102 source records checked, 91 technical baselines established and 11 fetch/access issues placed in the review queue. All 102 were accessible during the cloud baseline. See `docs/initial-source-check.json` for exact affected sources/pages. Fetches establish hashes, not new substantive review dates. The daily workflow is installed and active on the default branch.
 
 Additional production HTTP, link, sitemap and cache checks are captured in the automated test output. Browser screenshots and full test reports are retained in cloud `artifacts/`; example exports are tracked under `docs/examples/`.
 
@@ -40,8 +40,8 @@ Additional production HTTP, link, sitemap and cache checks are captured in the a
 
 ## Operational next steps
 
-- Confirm actual Railway account connection, service deployment and public URL; record service/project IDs and deployed Git SHA.
+- Railway and GitHub are connected and the site is live. See `docs/deployment.json` for the actual tested URL, project/service/deployment IDs and deployed Git SHA.
 - Supply site publisher/controller identity, public corrections/privacy contact, provider log-retention and transfer arrangements. Update the privacy notice to actual operations.
 - Verify ownership in Search Console/Bing Webmaster Tools before using reports or claiming submissions. No indexing, ranking, search-volume, CPC or AI-citation results are claimed.
-- Activate and inspect GitHub CI/source review only once pushed and Actions is enabled. Routine content changes require source/applicability review; detected changes never automatically publish an interpretation.
+- GitHub CI and source review are active. Review the eleven hosted-fetch failures and retained queue artifacts; use a permitted alternate retrieval method or manual source review when a site blocks GitHub-hosted requests. Routine content changes require source/applicability review; detected changes never automatically publish an interpretation.
 - Decide whether the working name/domain should change. Keep plan confidentiality and no tracking as defaults; server storage would require authentication, authorization, retention/deletion and consent work before enabling it.

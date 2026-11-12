@@ -1,0 +1,97 @@
+{
+  "runAt": "2026-11-12T21:03:07.295Z",
+  "checked": 102,
+  "results": {
+    "baseline-established": 91,
+    "fetch-failed": 11
+  },
+  "openReviewItems": 11,
+  "failures": [
+    {
+      "sourceId": "fed-treaties",
+      "error": "HTTP 403",
+      "paths": [
+        "/cases/singapore-subsidiary-e2-ownership/",
+        "/us-expansion/e2-nationality-investment/",
+        "/from/singapore/",
+        "/from/malaysia/"
+      ]
+    },
+    {
+      "sourceId": "geo-local-san-francisco",
+      "error": "Insufficient readable source content",
+      "paths": [
+        "/cities/san-francisco/service-business-registration/"
+      ]
+    },
+    {
+      "sourceId": "geo-local-raleigh",
+      "error": "HTTP 403",
+      "paths": [
+        "/cities/raleigh/business-license-and-permits/"
+      ]
+    },
+    {
+      "sourceId": "geo-local-charlotte",
+      "error": "Insufficient readable source content",
+      "paths": [
+        "/cities/charlotte/city-county-permitting/"
+      ]
+    },
+    {
+      "sourceId": "geo-treaty-countries",
+      "error": "HTTP 403",
+      "paths": [
+        "/from/singapore/",
+        "/from/malaysia/"
+      ]
+    },
+    {
+      "sourceId": "pr-lockout",
+      "error": "HTTP 403",
+      "paths": [
+        "/industries/industrial-maintenance/"
+      ]
+    },
+    {
+      "sourceId": "pr-cleaning",
+      "error": "HTTP 403",
+      "paths": [
+        "/cases/cleaning-product-us-supply/",
+        "/industries/commercial-cleaning/"
+      ]
+    },
+    {
+      "sourceId": "state-tx-faq",
+      "error": "HTTP 403",
+      "paths": [
+        "/states/texas/"
+      ]
+    },
+    {
+      "sourceId": "state-mn-assurance",
+      "error": "Only public HTTPS source hosts on port 443 are allowed",
+      "paths": [
+        "/states/minnesota/",
+        "/states/minnesota/franchise-support-funding/"
+      ]
+    },
+    {
+      "sourceId": "state-mi-notice",
+      "error": "The operation was aborted due to timeout",
+      "paths": [
+        "/states/michigan/"
+      ]
+    },
+    {
+      "sourceId": "state-mi-disclosure",
+      "error": "The operation was aborted due to timeout",
+      "paths": [
+        "/states/michigan/",
+        "/states/michigan/franchise-disclosure-timing/"
+      ]
+    }
+  ],
+  "workflow": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43306317917",
+  "scope": "Technical source fetch and hash baseline only. No substantive review date or public interpretation changed."
+}

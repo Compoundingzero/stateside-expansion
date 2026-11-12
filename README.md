@@ -51,7 +51,7 @@ The HTML guide renderer reuses canonical rules and source metadata; the source r
 
 ## Railway
 
-Create a Railway service from this private GitHub repository and select the `main` branch. `railway.json` selects the supplied multi-stage Dockerfile, `npm start`, `/health` and failure restart settings. Set `PUBLIC_SITE_URL` to the generated Railway domain or custom domain, then deploy/redeploy to build correct canonical URLs and sitemap entries. The runtime image contains only generated public assets and the static server. There are no production secrets to configure for this release.
+Create a Railway service from this private GitHub repository and select the `main` branch. `.railway/railway.ts` declares the supplied Dockerfile, `/health`, failure restart settings and CI-gated GitHub deployments. Infrastructure edits require an explicit `railway config plan` and `railway config apply`; see `docs/RAILWAY.md`. Set `PUBLIC_SITE_URL` to the generated Railway domain or custom domain, then deploy/redeploy to build correct canonical URLs and sitemap entries. The runtime image contains only generated public assets and the static server. There are no production secrets to configure for this release.
 
 A deploy is verified only after Railway reports success and the actual public URL passes health, article, tool, sitemap and privacy checks. Do not confuse local preview with a live deployment.
 

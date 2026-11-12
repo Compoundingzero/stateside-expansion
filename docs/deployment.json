@@ -1,0 +1,19 @@
+{
+  "record": "Initial verified successful deployment; later GitHub deployments may supersede this record.",
+  "platform": "Railway",
+  "projectId": "9c491763-4d9b-4283-83ee-8b55f82b5997",
+  "serviceId": "7cf5b894-48a5-44b2-a97c-c2145ceebf76",
+  "environment": "production",
+  "url": "https://web-production-b4c2154d.up.railway.app",
+  "repository": "https://github.com/Compoundingzero/stateside-expansion",
+  "initialDeploymentId": "3d4a504e-4563-462e-8408-e3e51ae60e13",
+  "initialVerifiedCommit": "7b2dbf3d946dbeb1e415a3c03a10459bf4255106",
+  "status": "SUCCESS",
+  "verifiedAt": "2026-11-12T21:07:18.126Z",
+  "checks": [
+    "HTTP /health 200",
+    "Homepage 200",
+    "Canonical uses live domain"
+  ],
+  "infrastructure": "Applied .railway/railway.ts: existing web service, no additions/deletions; Dockerfile, /health, restart policy and wait for CI."
+}

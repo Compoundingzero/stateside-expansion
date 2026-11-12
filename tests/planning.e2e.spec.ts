@@ -94,7 +94,7 @@ test('browser profiles cannot read each other’s drafts and public HTML contain
  await page.getByLabel('Remember this non-sensitive draft on this browser').check();
  const other=await browser.newContext({baseURL:new URL(page.url()).origin});const otherPage=await other.newPage();await otherPage.goto('/plan/');
  await expect(otherPage.getByLabel('Home market',{exact:true})).toHaveValue('');
- const publicHtml=await page.request.get('/');expect(await publicHtml.text()).not.toContain('Private-profile-marker');
+ const publicHtml=await otherPage.evaluate(async()=>await(await fetch('/',{cache:'no-store'})).text());expect(publicHtml).not.toContain('Private-profile-marker');
  await other.close();
 });
 test('printable export escapes user content rather than executing it',async({page})=>{

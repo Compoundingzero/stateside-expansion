@@ -1,6 +1,6 @@
 {
   "title": "U.S. Expansion Brief",
-  "exportedAt": "2026-11-12T20:54:01.478Z",
+  "exportedAt": "2026-11-12T21:05:11.638Z",
   "privacy": "Created in this browser; no server-stored plan or public URL.",
   "scope": "Educational preparation. No legal classification, exemption approval, partner certification or visa determination.",
   "inputBasis": {
@@ -284,7 +284,7 @@
         "status": "Not started",
         "evidence": "",
         "due": "",
-        "source": "https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide"
+        "source": "https://www.ftc.gov/system/files/documents/plain-language/bus70-franchise-rule-compliance-guide.pdf"
       },
       {
         "id": "state",
@@ -317,7 +317,7 @@
         "status": "Not started",
         "evidence": "",
         "due": "",
-        "source": "https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5"
+        "source": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2#p-214.2(l)"
       },
       {
         "id": "supply",
@@ -524,28 +524,81 @@
   "sources": [
     {
       "title": "FTC Franchise Rule Compliance Guide",
-      "url": "https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide"
+      "url": "https://www.ftc.gov/system/files/documents/plain-language/bus70-franchise-rule-compliance-guide.pdf",
+      "sourceId": "fed-compliance",
+      "reviewedAt": "2026-11-12",
+      "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
+      "nextReview": "2026-12-12",
+      "accessStatus": "read",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "notes": "Published May 2008 (day not asserted). Read relevant full-PDF sections. Dated guidance contains obsolete monetary thresholds and dated accounting discussion: current CFR controls; auditor must verify current SEC-permitted treatment."
     },
     {
-      "title": "Federal disclosure timing: 16 CFR 436.2",
-      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-B/section-436.2"
+      "title": "16 CFR §436.2: Federal disclosure timing",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-B/section-436.2",
+      "sourceId": "fed-timing",
+      "reviewedAt": "2026-11-12",
+      "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
+      "nextReview": "2026-12-12",
+      "accessStatus": "read",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "notes": "Current eCFR displayed through 2026-11-09; eCFR is authoritative but not the official legal edition."
     },
     {
-      "title": "Federal exemption rules: 16 CFR 436.8",
-      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8"
+      "title": "16 CFR §436.8: Federal franchise exemptions",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8",
+      "sourceId": "fed-exemptions",
+      "reviewedAt": "2026-11-12",
+      "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
+      "nextReview": "2026-12-12",
+      "accessStatus": "read",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "notes": "Current eCFR displayed through 2026-11-09; eCFR is authoritative but not the official legal edition."
     },
     {
-      "title": "USCIS ownership and control",
-      "url": "https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5"
+      "title": "8 CFR §214.2(l): intracompany transferees",
+      "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2#p-214.2(l)",
+      "sourceId": "fed-l1",
+      "reviewedAt": "2026-11-12",
+      "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
+      "nextReview": "2026-12-12",
+      "accessStatus": "read",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "notes": "USCIS policy-manual URL returned 403 during this review; no claim of having reviewed it. Current CFR ownership/control and individual evidence provisions were read."
     },
     {
-      "title": "U.S. treaty-country list",
-      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html"
+      "title": "Treaty Countries",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html",
+      "sourceId": "fed-treaties",
+      "reviewedAt": "2026-11-12",
+      "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
+      "nextReview": "2026-12-12",
+      "accessStatus": "read",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "notes": "Table and all footnotes read through web tool; treaty status is separate from applicant eligibility."
     },
     {
-      "title": "PACER national index: federal coverage only",
-      "url": "https://pacer.uscourts.gov/find-case/search-national-index"
+      "title": "Search by National Index",
+      "url": "https://pacer.uscourts.gov/find-case/search-national-index",
+      "sourceId": "fed-pacer",
+      "reviewedAt": "2026-11-12",
+      "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
+      "nextReview": "2026-12-12",
+      "accessStatus": "read",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "notes": "Nationwide federal index includes appellate, bankruptcy and district cases; state/local searches are independent."
+    },
+    {
+      "title": "USCIS ownership and control — additional reading route",
+      "url": "https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5",
+      "sourceId": null,
+      "reviewedAt": null,
+      "fetchedAt": null,
+      "nextReview": null,
+      "accessStatus": "access-blocked (HTTP 403 during source research)",
+      "reviewerStatus": "Not substantively reviewed; no professional legal review",
+      "notes": "This URL could not be read during research. The ownership/control explanation instead relies on the reviewed 8 CFR §214.2(l) source above. A blocked route is not verified guidance."
     }
   ],
-  "sourceNote": "Linked authorities are reading routes. User facts and applicability have not received professional legal review; consult guide pages for actual source-review dates."
+  "sourceNote": "Source-review dates are copied from canonical source records and identify AI-assisted substantive review of the cited material, not review of this plan or its applicability. Fetch time and export time are separate. The USCIS reading route was access-blocked and has no substantive-review date. No professional legal review has been performed."
 }

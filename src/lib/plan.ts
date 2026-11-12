@@ -2,14 +2,16 @@ import {unitEconomics,supportEconomics,cashRunway,partnerFundingGap,type UnitInp
 export const stages=['Management','U.S. model','First market','Economics','Partner','Launch requirements','Decision'] as const;
 export const evidenceStatuses=['Not started','Drafted','Evidence recorded','Confirmed by the responsible person','Needs updating'];
 export const fddItems=['5 — Initial fees','6 — Other fees','7 — Initial investment','8 — Suppliers and purchasing','11 — Assistance and training','12 — Territory','15 — Participation in operations','17 — Renewal, termination, transfer and disputes','19 — Financial performance representations','20 — Outlets and franchisee contacts','21 — Financial statements'];
-export const citations=[
-  {title:'FTC Franchise Rule Compliance Guide',url:'https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide'},
-  {title:'Federal disclosure timing: 16 CFR 436.2',url:'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-B/section-436.2'},
-  {title:'Federal exemption rules: 16 CFR 436.8',url:'https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8'},
-  {title:'USCIS ownership and control',url:'https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5'},
-  {title:'U.S. treaty-country list',url:'https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html'},
-  {title:'PACER national index: federal coverage only',url:'https://pacer.uscourts.gov/find-case/search-national-index'}
-];
+// Reviewed source metadata comes from the same canonical records as the public guides.
+import federalSources from '../data/federal-sources.json';
+export interface PlanCitation {title:string;url:string;sourceId:string|null;reviewedAt:string|null;fetchedAt:string|null;nextReview:string|null;accessStatus:string;reviewerStatus:string;notes:string;}
+const citedSourceIds=['fed-compliance','fed-timing','fed-exemptions','fed-l1','fed-treaties','fed-pacer'];
+export const citations:PlanCitation[]=citedSourceIds.map(id=>{
+  const source=federalSources.find(record=>record.id===id);
+  if(!source)throw new Error(`Missing canonical planning source: ${id}`);
+  return {title:source.title,url:source.url,sourceId:source.id,reviewedAt:source.substantiveVerifiedAt,fetchedAt:source.fetchedAt,nextReview:source.nextReview,accessStatus:source.accessStatus,reviewerStatus:source.reviewerStatus,notes:source.notes};
+});
+citations.push({title:'USCIS ownership and control — additional reading route',url:'https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5',sourceId:null,reviewedAt:null,fetchedAt:null,nextReview:null,accessStatus:'access-blocked (HTTP 403 during source research)',reviewerStatus:'Not substantively reviewed; no professional legal review',notes:'This URL could not be read during research. The ownership/control explanation instead relies on the reviewed 8 CFR §214.2(l) source above. A blocked route is not verified guidance.'});
 export interface Responsibility {task:string;role:string;ownerOnly:string;evidence:string;status:string;confirmedBy:string;date:string;}
 export interface Task {id:string;title:string;gate:string;role:string;prerequisite:string;status:string;evidence:string;due:string;source:string;}
 export interface Market {name:string;state:string;municipality:string;county:string;demand:string;operating:string;cost:string;scores:string[];}
@@ -47,6 +49,23 @@ export function restorePlan(value:unknown):Plan {
   };
   return merge(defaultPlan(),value) as Plan;
 }
+export type StageProgress='Not started'|'Drafted'|'Evidence recorded';
+/** Learning and fictional inputs do not count as evidence or confirmation. */
+export function stageProgress(plan:Plan):StageProgress[] {
+  const initial=defaultPlan();
+  const changed=(keys:(keyof Plan)[])=>keys.some(key=>JSON.stringify(plan[key])!==JSON.stringify(initial[key]));
+  const recorded=(rows:Responsibility[])=>rows.some(row=>row.evidence.trim()&&row.date&&['Evidence recorded','Confirmed by the responsible person'].includes(row.status));
+  const fddRecorded=plan.fdds.some(f=>f.url.startsWith('https://')&&f.year.trim()&&f.items.some(note=>note.trim())&&f.verification.startsWith('Checked against linked source'));
+  return [
+    recorded(plan.responsibilities)?'Evidence recorded':changed(['origin','industry','management','intent','mobility','imports','regulated','responsibilities'])?'Drafted':'Not started',
+    changed(['model','ip','payments','controls','assistance','contracting','supportRole','offerLocations','ownership'])?'Drafted':'Not started',
+    changed(['markets','weights','selectedMarket','validation'])?'Drafted':'Not started',
+    fddRecorded?'Evidence recorded':changed(['unit','support','runway','financeContext','fdds'])?'Drafted':'Not started',
+    recorded(plan.partner.requirements)?'Evidence recorded':changed(['partner'])?'Drafted':'Not started',
+    plan.tasks.some(t=>t.evidence.trim()&&t.role.trim()&&['Evidence recorded','Confirmed by the responsible person'].includes(t.status))?'Evidence recorded':changed(['tasks'])?'Drafted':'Not started',
+    changed(['decision','nextAction','nextOwner','decisionDate'])?'Drafted':'Not started'
+  ];
+}
 export function planIssues(plan:Plan) {
   const issues:string[]=[];
   if(!plan.origin)issues.push('Home market is not recorded.');
@@ -64,4 +83,4 @@ export function planIssues(plan:Plan) {
   if([...plan.responsibilities,...plan.partner.requirements].some(r=>r.status==='Confirmed by the responsible person'&&(!r.confirmedBy||!r.date||!r.evidence)))issues.push('Some requested confirmations lack the responsible person, evidence reference or date and remain unresolved.');
   return issues;
 }
-export function exportPlan(plan:Plan) {return {title:'U.S. Expansion Brief',exportedAt:new Date().toISOString(),privacy:'Created in this browser; no server-stored plan or public URL.',scope:'Educational preparation. No legal classification, exemption approval, partner certification or visa determination.',inputBasis:plan.financeContext,plan,calculations:{scenarios:[['Downside',0.8],['Base',1],['Upside',1.2]].map(([label,m])=>({label,...unitEconomics(plan.unit,m as number)})),support:supportEconomics(plan.support),runway:cashRunway(plan.runway),partnerGap:partnerFundingGap(plan.partner.launch,plan.partner.reserve,plan.partner.accessible)},unresolved:planIssues(plan),sources:citations,sourceNote:'Linked authorities are reading routes. User facts and applicability have not received professional legal review; consult guide pages for actual source-review dates.'};}
+export function exportPlan(plan:Plan) {return {title:'U.S. Expansion Brief',exportedAt:new Date().toISOString(),privacy:'Created in this browser; no server-stored plan or public URL.',scope:'Educational preparation. No legal classification, exemption approval, partner certification or visa determination.',inputBasis:plan.financeContext,plan,calculations:{scenarios:[['Downside',0.8],['Base',1],['Upside',1.2]].map(([label,m])=>({label,...unitEconomics(plan.unit,m as number)})),support:supportEconomics(plan.support),runway:cashRunway(plan.runway),partnerGap:partnerFundingGap(plan.partner.launch,plan.partner.reserve,plan.partner.accessible)},unresolved:planIssues(plan),sources:citations,sourceNote:'Source-review dates are copied from canonical source records and identify AI-assisted substantive review of the cited material, not review of this plan or its applicability. Fetch time and export time are separate. The USCIS reading route was access-blocked and has no substantive-review date. No professional legal review has been performed.'};}
