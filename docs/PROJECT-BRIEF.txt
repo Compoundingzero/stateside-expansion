@@ -1,0 +1,559 @@
+Create a new project in the folder and build this on github and railway. Work on the cloud, don't store anything on my laptop:
+
+Act as a senior product designer, full-stack engineer, research editor, and technical SEO specialist. Build a complete, production-ready website that helps established small and midsize businesses in Europe and Southeast Asia evaluate and prepare U.S. expansion through franchising, licensing, and related partner-operated models.
+
+Execute the research, content creation, data modelling, design, implementation, and verification. Do not stop at a homepage, wireframe, strategy document, generic blog template, or a few demonstration articles. Write original, useful content supported by current sources. Use the existing project and deployment environment when provided; otherwise build a complete runnable project and clearly identify the remaining deployment dependency.
+
+The central product promise is:
+
+**“Build a U.S. expansion plan your management team can execute.”**
+
+The experience must combine substantial public reference material with a simple guided journey. A visitor should understand the relevant rule, see how it affects a realistic business, and take one useful next step.
+
+## 1. Define the audience precisely
+
+The primary customer is an **owner of an established business whose managers already run its day-to-day operations**. The owner is considering taking the existing business model into the United States. Secondary users include the CEO, COO, CFO, export manager, and expansion director acting for that owner.
+
+Do not confuse this customer with someone looking to buy an American franchise, purchase a job, obtain passive income, or relocate through an investment visa. Immigration becomes a relevant workstream when someone actually intends to work in the United States.
+
+Build for businesses with an existing offer, customers, delivery capability, management responsibilities, and financial records. Do not invent a statutory revenue threshold for “SMB.” Use both “SME” and “SMB” naturally where appropriate to the audience.
+
+Treat management independence as something to investigate. A company may have branch managers but still depend on its owner for sales, technical decisions, key accounts, supplier negotiations, recruitment, or quality control. Help users document these dependencies without pretending that a questionnaire proves transferability.
+
+Give substantial attention to **B2B services**: commercial cleaning, facilities services, pest control, industrial maintenance, technical services, training, IT services, and other repeatable business services. Support relevant consumer-facing sectors through separate branches. Do not let restaurant examples define the whole product.
+
+For B2B companies, address procurement cycles, account concentration, recurring contracts, receivables, bid requirements, route density, insurance, service-level obligations, and national-account allocation.
+
+Use straightforward English. Define American terms at first use. Avoid generic growth claims, inflated promises, startup jargon, invented testimonials, and claims that expansion can be effortless or passive.
+
+## 2. Establish the research boundaries before writing
+
+Treat any supplied outline as a set of research leads. Verify its claims rather than copying them into the site.
+
+Apply these corrections and safeguards:
+
+- **Federal definition and exemptions:** The federal franchise definition, federal exemptions, and state definitions are separate analyses. The current minimum-payment exemption applies where total required payments or commitments to make required payments to the franchisor or an affiliate, made any time before through six months after commencing operations, are less than $735. The older $500 figure is not the current exemption amount. Recheck the current rule when building; do not hard-code this as a universal franchise-definition threshold. Source: [16 CFR §436.8](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8).
+- **Significant control or assistance:** This depends on the actual relationship and overall method of operation. A manual, approved supplier, or software requirement is a fact to examine, not an automatic answer. Separate trademark quality protection from broader operating controls. Source: [FTC Franchise Rule Compliance Guide](https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide).
+- **Single-license treatment:** The single-trademark-license exclusion is narrow. Never describe it as one free franchise, one exempt outlet, or one exempt license per state. Check current federal guidance and independent state treatment. Historical staff opinions must be identified as such. Starting source: [FTC staff opinion 05-1](https://www.ftc.gov/legal-library/browse/advisory-opinions/informal-staff-advisory-opinion-05-1).
+- **State obligations:** Separate registration, notice filing, exemptions, disclosure, advertising, and relationship laws. Do not build a simple “14 registration states versus everywhere else” answer or a universal ban on discovery calls. Analyse the relevant offer, sale, parties, locations, and communications. For example, Texas describes a pre-offer exemption notice for qualifying FTC-compliant franchisors: [Texas business-opportunity FAQs](https://www.sos.state.tx.us/statdoc/faqs2700.shtml).
+- **Disclosure timing:** Explain federal disclosure timing, including the usual 14-calendar-day period before a binding agreement or payment, and separately research agreement changes and state overlays. Source: [16 CFR §436.2](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-B/section-436.2).
+- **Financial assurance:** Requirements are not all secret. Distinguish published requirements from documented case-specific examiner requests and practitioner observations. California publishes examples including guarantees, escrow, bonds, fee deferral, and capital infusion: [California application instructions](https://dfpi.ca.gov/regulated-industries/franchises/instructions-on-how-to-file-a-complete-franchise-application/).
+- **Unsupported benchmarks:** Do not repeat unsupported percentages for omitted earnings information, occupancy-cost uplifts, or permit delays. Item 19 financial performance representations are optional; that is different from omitting the disclosure item. Explain the limitations of revenue figures and benchmark cohorts. Source: [FTC guide to buying a franchise](https://www.ftc.gov/business-guidance/resources/consumers-guide-buying-franchise).
+- **Leases:** Model actual lease terms. Do not assume every American commercial lease is NNN or that additional charges equal a fixed percentage. Separate base rent, taxes, insurance, maintenance, utilities, deposits, improvements, and reconciliation exposure.
+- **Court records:** PACER provides a nationwide federal court index, including bankruptcy; state and local searches remain separate. Never equate “no result found” with “no disputes.” Source: [PACER national index](https://pacer.uscourts.gov/find-case/search-national-index).
+- **Entity and immigration structure:** Do not recommend an LLC or corporation as a universal immigration solution. Keep entity form, tax treatment, ownership/control, qualifying corporate relationships, and individual eligibility separate. A licensing or franchise agreement should not be assumed to establish an L-1 qualifying relationship. Research [8 CFR §214.2](https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2) and [USCIS ownership and control guidance](https://www.uscis.gov/policy-manual/volume-2-part-l-chapter-5).
+- **E-2 eligibility:** Distinguish incorporation, ultimate ownership nationality, control, the person’s role, and treaty conditions. Check country-specific footnotes and qualifying investment or escrow requirements. Do not suggest that incorporating in a treaty country creates eligibility. Sources: [Treaty countries](https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html) and [State Department E-visa guidance](https://fam.state.gov/fam/09fam/09fam040209.html).
+- **Consequences:** Explain possible remedies and penalties with jurisdiction and procedural context. Do not promise that every violation freezes a business or requires repayment of every dollar invested.
+
+The website provides education, issue identification, and preparation. It must not issue legal clearance, approve an exemption, determine visa eligibility, certify a partner, or imply that completing a checklist authorizes a sale.
+
+Identify specific unresolved questions that require professional judgment; do not replace useful explanations with repeated “consult a lawyer” paragraphs.
+
+## 3. Build a comprehensive coverage system
+
+Create a coverage register before generating pages. Define the geographic, industry, transaction, and topic scope explicitly. Exhaustiveness must be measured against that register, not claimed because the site has many URLs.
+
+Record a status for **each jurisdiction and relevant topic family**; a complete franchise-law matrix does not establish complete tax, employment, sector, or local coverage.
+
+### U.S. coverage
+
+Include:
+
+- Federal requirements and **all 50 states plus Washington, D.C.**
+- A separately identified territorial workstream for Puerto Rico, the U.S. Virgin Islands, Guam, the Northern Mariana Islands, and American Samoa. Do not silently treat territories as states or apply mainland assumptions.
+- State, county, city, and relevant special-jurisdiction overlays for each researched operating location.
+- Commercial regions that help users compare markets, clearly distinguished from lawmaking jurisdictions.
+
+For local operating requirements, start with **30–50 researched markets**, then expand using a documented queue. Select markets for customer fit and source availability; do not label them “best” without a stated method.
+
+Within a metro, identify the actual municipality, county, and address-dependent issues. A Los Angeles metro page cannot establish the rules for every city in that metro.
+
+### Origin coverage
+
+Include:
+
+- All Southeast Asian countries: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, the Philippines, Singapore, Thailand, Timor-Leste, and Vietnam.
+- European countries using an explicit, documented geographic convention. Include EU and non-EU markets; do not equate Europe with the EU. Record how transcontinental countries and dependencies are handled.
+- Detailed guides prioritized by distinctive cross-border issues, supported demand, and adequate evidence. Every registered origin needs a coverage status, even if a standalone page is not yet justified.
+
+Keep these facts separate:
+
+**Parent incorporation; headquarters; actual operations; owners’ nationality; tax residence; U.S. selling entity; buyer residence; proposed outlet location; where offers are made or received; imported product; employee work location; and commercial model.**
+
+## 4. Research all relevant topic families
+
+Build reusable research modules for the following. Each requirement must identify its trigger, affected actor, authority, deadline, evidence, and responsible role.
+
+| Topic family | Required coverage |
+|---|---|
+| Relationship classification | Federal and state definitions; direct and indirect payments; support and controls; exclusions and exemptions; business-opportunity and sector-specific dealer laws where relevant. |
+| Franchise sales and disclosure | All 23 FDD items; initial disclosure and delivery; receipts; permissible earnings representations; advertising; broker/seller rules; registration and notices; amendments; renewals; audits; foreign financial statements; subfranchisor obligations. |
+| Ongoing relationship | Territory; renewal; termination; transfer; cure; noncompetition; dispute resolution; non-waivable state protections; supplier and pricing restrictions; competition-law issues. |
+| Corporate and tax | Formation versus foreign qualification; registered agents; ownership; tax classification; royalty withholding; treaty conditions; transfer pricing; state nexus and sales tax; related-party reporting; relevant IRS, BEA, and current FinCEN obligations. |
+| Immigration and people | Who will physically work in the U.S.; executive transfers; qualifying relationships; treaty nationality; ownership tracing; investor versus employee requirements; business visits versus employment. |
+| Employment | Federal, state, and local wages; overtime; worker classification; paid leave; benefits where applicable; workers’ compensation; hiring; safety; employer responsibilities and current joint-employer issues. |
+| Products and supply | Importer responsibilities; customs classification; current tariffs; country of origin; relevant FDA, USDA, EPA, CPSC, or other rules; applicable sanctions and export controls; labelling; equipment standards; co-packing and domestic sourcing. |
+| Premises and opening | Zoning; use; occupancy; construction; accessibility; fire; health; signs; environmental issues; sector permits; alcohol where relevant; renewals and inspection dependencies. |
+| Intellectual property and data | U.S. brand clearance; trademark registration; licensing quality control; trade secrets; software and data rights; privacy; cybersecurity; cross-border data issues. |
+| Commercial feasibility | Customer demand; local competition; manager costs; support costs; cash runway; partner funding; sales cycles; receivables; supply substitution; pilot evidence. |
+
+Separate a legal requirement from a landlord’s condition, an insurer’s condition, a customer’s procurement requirement, and a recommended business practice. They may all matter, but they are not interchangeable.
+
+Do not imply that a professional, healthcare, childcare, construction, or other regulated service can be expanded merely by licensing its brand. Route it to the relevant operating and professional rules.
+
+## 5. Make every material claim traceable
+
+Use primary authorities for legal facts: legislation, regulations, agency instructions, official forms, court documents, and regulator orders. Use official statistics for economic data when suitable.
+
+Secondary expert commentary can explain uncertainty, but must be labelled and checked against authority.
+
+Store structured records for jurisdictions, sources, requirements, claims, cases, pages, tools, and private user plans.
+
+Each rule record needs:
+
+- Stable ID, plain-language title, topic, jurisdiction, activity, affected party, and applicability conditions.
+- Requirement, exceptions, trigger event, deadline, fee, renewal, dependency, and evidence to retain.
+- Exact source URL, authority title, section or page, supporting passage, and source type.
+- Publication date, effective date, last substantive verification, next review, and current legal status.
+- Status such as proposed, enacted but not effective, effective, enjoined, superseded, or repealed where relevant.
+- Known conflicts, interpretation limits, reviewer identity/status, and dependent pages or calculations.
+
+Use distinct states for **verified, conditional, unresolved, not researched, and not applicable with a reason**. Missing data must never become zero, “no requirement,” or “safe to proceed.”
+
+Read the source material; search snippets alone are insufficient for detailed legal claims. Detect contradictions between official pages, forms, statutes, and dated guidance. Do not silently choose whichever figure is easiest to extract.
+
+Maintain one canonical rule record reused across relevant pages. A changed threshold must not require manually repairing hundreds of independently generated paragraphs.
+
+Implement scheduled source checks, change detection, an editorial review queue, and dependency-based invalidation. Prioritize volatile fees, thresholds, tariffs, immigration, employment, and court developments.
+
+Define the schedule as an editorial operating policy, not a promise that a fixed interval guarantees currency.
+
+Keep fetch time, substantive verification time, and content modification time separate. A successful HTTP response does not prove the legal summary is current. Do not automatically publish a changed interpretation solely because an LLM noticed different text.
+
+Show readers the relevant verification date and material uncertainty. Preserve the last reviewed version and revision history. Display incomplete local coverage plainly without flooding the interface with warning banners.
+
+## 6. Build one guided journey that produces useful work
+
+The output is a private **U.S. Expansion Brief** that the owner can give to their management team and advisers. It should contain actual decisions, assumptions, responsibilities, and unresolved questions.
+
+Use the following default stages, but make dependencies adaptive. Immigration, imports, ownership, or professional licensing can move earlier when they affect feasibility.
+
+| Stage | Main question | Output | Example of the single forward CTA |
+|---|---|---|---|
+| 1. Management | Can the business deliver without the owner’s daily involvement? | Responsibility map and owner dependencies | Map our management team |
+| 2. U.S. model | What will the partner receive, pay, and be required to do? | Relationship factsheet and responsibility diagram | Describe our U.S. model |
+| 3. First market | Where should the first operation be investigated? | Shortlist, demand assumptions, and jurisdiction map | Compare our first markets |
+| 4. Economics | Can the operating unit and support system both work? | Unit, brand-support, and cash-flow models | Test our first unit |
+| 5. Partner | What capability, funding, and commitments are required? | Partner evidence checklist and territory principles | Build our partner brief |
+| 6. Launch requirements | What must happen before each commitment? | Tasks, dependencies, responsible people, and evidence | Build our launch plan |
+| 7. Decision | What is supported, and what remains unresolved? | Exportable Expansion Brief | Create our expansion brief |
+
+Ask one question or one closely related input group at a time.
+
+Begin with low-friction context: home market, business activity, management setup, and expansion intent. Ask for more only when it changes the next task. Support “not decided” and “not known.”
+
+Distinguish unit operation, area development through the developer’s own units, master arrangements with subfranchising, area representation, distribution, and IP licensing.
+
+Draw who contracts with whom, who pays whom, and who trains, recruits, supports, and monitors whom. Labels do not settle legal classification.
+
+Make pre-offer, pre-signature/payment, pre-employment/import, pre-opening, and ongoing requirements visible at the relevant point. Do not hide early sales-law issues until an end-of-journey checklist.
+
+Let users explore later stages and public guides while identifying unresolved dependencies. A permit tied to an unselected address should be recorded as pending location selection, not treated as already satisfied.
+
+Before broad territory commitments, distinguish demonstrated U.S. customer demand and delivery capability from assumptions transferred from the home market. Identify the smallest practical validation activity and keep untested assumptions visible.
+
+The final brief should include:
+
+- Proposed model and management dependencies.
+- Chosen markets and demand evidence.
+- Three financial scenarios and funding needs.
+- Partner requirements and territory principles.
+- Regulatory tasks and responsible people.
+- Ownership and mobility questions.
+- Source dates, unresolved issues, and named next actions.
+
+Valid outcomes include further investigation, a U.S. pilot, a revised model, a different entry route, or a pause. An incomplete brief can still be exported with its gaps clearly shown.
+
+## 7. Enforce one visible forward action
+
+At every screen size and scroll position, show **at most one task-driving or promotional CTA**. Use a single action area whose label changes with the current task.
+
+Do not show competing “Book a call,” “Subscribe,” “Download,” “Start,” and “Contact us” buttons. Do not duplicate the same CTA in a sticky header and inline section.
+
+Back navigation, source links, input choices, breadcrumbs, accessible menus, and necessary privacy controls are utilities. Keep them available and visually quiet. The one-CTA rule must not remove accessibility, consent choices, or the ability to inspect evidence.
+
+On public articles, provide the complete answer without onboarding. The single forward action can be **“Apply this to our plan.”** Carry the visitor’s topic and jurisdiction into the appropriate journey step rather than sending everyone back to the homepage.
+
+For interactive cases, choices are selection inputs followed by one action such as **“See the consequence.”**
+
+Save progress automatically where feasible. Do not divide ordinary reading into dozens of click-through screens.
+
+Avoid lead-capture popups, autoplay media, countdowns, competing chat widgets, and mandatory email collection.
+
+If an advisory conversion is added, it should appear at a suitable later stage as the sole forward action and only advertise a service that actually exists.
+
+## 8. Gamify evidence and understanding
+
+Use an understated progress map and milestones such as:
+
+- Management mapped.
+- Costs modelled.
+- Partner requirements drafted.
+- Launch dependencies identified.
+
+Reward completed work, not agreement with optimistic answers.
+
+Track learning progress separately from evidence progress. Reading an article is not completing a regulatory task. A completed case exercise is not a legal finding.
+
+Use statuses such as **Not started, Drafted, Evidence recorded, Confirmed by the responsible person, and Needs updating**. Identify who confirmed what.
+
+Never display “87% compliant,” “legally approved,” guaranteed visa eligibility, or an unsupported probability of success.
+
+Teach through short situations:
+
+**A plausible decision → an overlooked fact → the consequence → the applicable rule → the document the reader should prepare.**
+
+Use simple money-flow diagrams, ownership trees, timelines, and cost breakdowns. Keep their factual content in accessible text as well.
+
+Use gentle motion only to reveal a relationship or change. Respect reduced-motion preferences.
+
+Avoid coins, leaderboards, streak penalties, cartoon rewards, and badges that resemble government certification.
+
+Keep educational interactions separate from legally prescribed disclosure documents; the site must not imply that its interactive explanations substitute for an FDD.
+
+## 9. Author a case library with clear evidence labels
+
+Create both researched real cases and original illustrative scenarios.
+
+Label fictional businesses and figures prominently wherever the scenario appears, including social previews. Do not invent customer success stories, quotes, savings, or outcomes.
+
+For real cases, distinguish allegations, findings, settlements, consent orders, and default judgments. Check the latest procedural documents. An awarded judgment is not proof the money was recovered. Extract the narrow lesson the evidence supports.
+
+### Real cases to research
+
+**Qargo Coffee:** The FTC alleged that California prospects were called licensees and did not receive FDDs. The FTC’s litigation status report records entry of a stipulated order on October 17, 2024.
+
+Sources: [FTC announcement](https://www.ftc.gov/news-events/news/press-releases/2024/10/ftc-takes-action-against-qargo-coffee-franchise-rule-violations) and [FTC litigation status report](https://www.ftc.gov/system/files/ftc_gov/pdf/litigation-status-december_2024.pdf).
+
+**Burgerim:** Use the actual default judgment against the entity defendants to explain consequences and the need to substantiate representations. Do not generalize one judgment into an automatic penalty schedule.
+
+Source: [Default judgment](https://www.ftc.gov/system/files/ftc_gov/pdf/burgerim_default_judgment.pdf).
+
+Seek additional official service-business enforcement and licensing cases so the library is not dominated by food brands. Verify complete orders before publishing narratives.
+
+### Original scenarios to author in full
+
+**A. The Singapore cleaning company’s U.S. unit whose apparent profit disappears**
+
+Use an explicitly fictional annual model:
+
+- $1,000,000 revenue.
+- $180,000 operating surplus before a dedicated general manager and royalty.
+- $120,000 fully loaded manager.
+- A 6% revenue royalty.
+
+The manager and royalty consume that $180,000. There is then no surplus at that stage for other omitted obligations.
+
+Show the arithmetic and identify what was already included in the original costs. Do not present these inputs as market averages or earnings representations for a real franchise.
+
+The reader identifies missing management costs, then creates a properly labelled U.S. unit model.
+
+**B. The German technical-services company with a “license”**
+
+The partner receives a brand, operating procedures, software requirements, training, and continuing support, and pays fees.
+
+Show why the title of the agreement cannot answer the classification question. Have the reader build a relationship factsheet rather than receive an automated legal verdict.
+
+**C. The British facilities company and the wealthy partner**
+
+Use fictional figures:
+
+- $4 million net worth.
+- $200,000 accessible unencumbered funding.
+- $250,000 launch costs.
+- A further $150,000 reserve.
+
+The demonstrated funding gap is $200,000 unless other committed capital is established.
+
+Teach the difference between net worth, liquidity, source of funds, competing commitments, and capital actually available to this project.
+
+**D. The Dutch industrial-services brand granting a large territory**
+
+An operator requests several states before demonstrating one viable operation.
+
+Teach staged rights, realistic development obligations, support commitments, national accounts, online leads, overlapping sales, cure provisions, and regulatory delays.
+
+Protect the partner’s investment as well as the brand’s growth options. Do not promise protection from independent competitors or enforceability of unreviewed terms.
+
+**E. The Malaysian-owned group with a Singapore subsidiary**
+
+The team assumes the subsidiary’s address decides E-2 eligibility.
+
+Reveal the missing ownership, nationality, control, personnel, and investment facts. Let the user produce an ownership diagram and a people-mobility plan. Do not require passport uploads for this learning task.
+
+**F. The French operator who can run branches but cannot support other owners**
+
+The candidate is excellent at delivery but lacks subfranchise recruitment, disclosure processes, training capacity, and field support.
+
+Compare the responsibilities of an area developer and a master operator. Produce a capability-and-cost matrix.
+
+**G. The restaurant whose lease clock starts before permissions are settled**
+
+Use a fictional location and clearly labelled delay assumptions.
+
+Demonstrate rent commencement, fit-out, use approval, inspection dependencies, and cash burn. Link actual local-law explanations only to a named, researched jurisdiction.
+
+**H. The successful home-market product that cannot be supplied identically**
+
+Use an industry-specific import or sourcing problem to teach specifications, regulatory responsibility, local substitutes, minimum orders, landed costs, and brand consistency.
+
+Do not invent an FDA or USDA approval requirement; research the exact product category.
+
+Every case must finish with a reusable decision or evidence checklist. Keep the interactive version optional and provide a readable text version.
+
+## 10. Implement practical tools
+
+Build tools that work and explain their assumptions:
+
+1. **Management-dependence mapper:** Responsibilities, evidence, owner-only tasks, and coverage gaps.
+2. **Relationship factsheet:** IP, payments, controls, assistance, counterparties, and jurisdictions; issue flags without a binary legal classification.
+3. **Market comparison:** Customer fit, operating requirements, sourced cost inputs, and unresolved facts. Use transparent user-selected weights if scoring is offered; unknown data must not score as favourable.
+4. **U.S. unit-economics calculator:** Management pay, payroll burden, labour, occupancy, insurance, materials, royalties, marketing, local sales, and operating overhead. Distinguish operating profit from cash flow, debt service, taxes, and reinvestment.
+5. **Brand and master-support economics:** Royalty allocation, withholding assumptions, training, field support, travel, recruitment, localisation, compliance, and overhead. Show whether continuing support is funded without assuming endless upfront territory sales.
+6. **Cash-runway calculator:** Opening delays, deposits, pre-opening expenditure, working capital, receivables, inventory, debt, and reserve assumptions. Derive funding needs from dated cash flows; avoid double counting expenses and reserves.
+7. **FDD comparison workspace:** Source year, entity, Items 5–8, 11–12, 15, 17, 19–21, cohort definitions, exclusions, and missing information. Item 15 participation requirements deserve attention when evaluating management-run assumptions. Link source documents and verify automated extraction before publication.
+8. **Partner evidence checklist:** Accessible capital, allocation, operating experience, management capacity, references, entity records, federal/state court coverage, and subfranchise-support ability. Record evidence dates and limitations; do not certify character or funding from self-reported answers.
+9. **Launch dependency planner and Expansion Brief export:** Responsible person, prerequisite, source, status, date, and next action; usable printable/PDF output and data export.
+
+Use actual user inputs or visibly labelled fictional defaults. Record currency, period, location, date, and whether each input is a quote, historical figure, official statistic, or assumption.
+
+Include downside, base, and upside scenarios without pretending they are forecasts.
+
+Keep a private planning calculator separate from marketing claims to prospective franchisees. Do not automatically publish a user’s projections or turn them into sales promises.
+
+## 11. Build a large, justified SEO content inventory
+
+Create a manifest of roughly **700–1,000 candidate pages** using the following planning ranges.
+
+These are editorial targets, not evidence that every proposed page deserves publication. Aim toward **1,000+ genuinely useful pages** as distinct research is completed.
+
+| Page family | Planning range | Requirement for a distinct page |
+|---|---:|---|
+| Federal and cross-border decision guides | 40–60 | A separate decision, rule, or preparation task |
+| State/DC hubs | 51 | Verified jurisdiction-specific coverage and explicit gaps |
+| State issue guides | 150–250 | A materially distinct rule, filing, process, or operating issue |
+| Origin-country guides | 40–60 | Actual country-specific evidence and cross-border implications |
+| Industry guides | 25–40 | Distinct operating, regulatory, economic, or partner requirements |
+| Researched metro/county guides | 30–50 | Named authorities, defined boundaries, and local processes |
+| Selected local/sector combinations | 100–160 | Local rules that meaningfully change the sector’s decision |
+| FDD item explainers | 23 | An original useful explanation of each item |
+| Real cases and worked scenarios | 60–100 | A separate documented lesson or practical decision |
+| Comparisons | 40–70 | A real choice with researched differences |
+| Tools and preparation worksheets | 10–20 | A functioning calculation or useful deliverable |
+
+The combined range is **669–984 candidates** before additional justified coverage.
+
+Count unique canonical pages only. Do not count translations, filters, tags, pagination, aliases, drafts, or empty records as unique researched guides.
+
+Never automatically publish the Cartesian product of country × state × city × sector × model. Different origin countries usually do not need separate versions of an otherwise identical state rule. Use shared canonical explanations and relevant cross-links.
+
+Every proposed page needs:
+
+- A reader and query intent.
+- A concrete question and intended decision.
+- Distinct evidence.
+- A practical output.
+- A canonical URL.
+- A source checklist.
+
+Merge pages whose only difference is keyword wording.
+
+Use a clear structure such as:
+
+- `/us-expansion/`
+- `/us-expansion/franchising-vs-licensing/`
+- `/states/california/`
+- `/states/california/franchise-financial-assurance/`
+- `/from/singapore/`
+- `/industries/commercial-cleaning/`
+- `/cities/los-angeles/restaurant-opening/`
+- `/fdd/item-15/`
+- `/cases/licensing-label-franchise-obligations/`
+- `/tools/us-unit-economics/`
+
+Use appropriate slugs for actual researched content; these examples are not evidence that the pages have been written.
+
+Research intent clusters including:
+
+- “Franchise my business in the USA.”
+- “Expand a UK service business to America.”
+- “License a Singapore business model in the U.S.”
+- “U.S. master franchise partner due diligence.”
+- “Foreign franchisor California requirements.”
+- “U.S. franchise support office costs.”
+- “Franchise royalties to a foreign company.”
+- “Expand without relocating the founder.”
+- “U.S. expansion board checklist.”
+
+Validate live search intent and available keyword data. Do not invent search volume, difficulty, CPC, or conversion estimates.
+
+Do not rely on the literal phrase “non-owner-operated SMB” as the main keyword. Qualify the intended reader through the page’s business situation, decisions, and economics.
+
+## 12. Make each public page useful without the journey
+
+A substantive guide should contain, in a natural order:
+
+- A title matching a specific question.
+- A concise direct answer, with the important condition in the answer itself.
+- Who, where, when, and which activity the answer applies to.
+- The rule or business issue, explained plainly with exceptions and source links.
+- A relevant real case or clearly fictional worked example.
+- What the management team should prepare, who normally owns the task, and what event triggers it.
+- A useful table, calculation, diagram, or checklist when it improves understanding.
+- Material uncertainties, coverage limits, source dates, and revision information.
+- Relevant explanatory links and one forward action.
+
+Do not impose a word count that creates filler. Narrow questions can have short answers; complex decisions need enough detail to be useful.
+
+Use audience-specific questions rather than generic “benefits of expansion” articles. Explain what changes for a management-run business, which costs are easily missed, and what evidence would alter the decision.
+
+The homepage should be equally clear.
+
+**Suggested headline**
+
+“Build a U.S. expansion plan your management team can execute.”
+
+**Suggested supporting copy**
+
+“For owners of established European and Southeast Asian businesses considering franchising or licensing. Work through the rules, economics, and partner decisions—one step at a time.”
+
+**Suggested CTA**
+
+“Build our U.S. plan.”
+
+Use a restrained, professional visual system: generous spacing, strong typography, readable text width, one action colour, accessible tables, and precise diagrams.
+
+Avoid stock handshakes, giant decorative dashboards, dense card grids, and animations that delay the answer.
+
+## 13. Implement SEO and generative-search discoverability properly
+
+Serve substantive public content in crawlable server-rendered or static HTML. Keep it accessible without sign-in, form completion, a chatbot, or JavaScript-only interactions.
+
+The guided journey and the public pages must use the same reviewed content.
+
+Apply normal technical SEO: descriptive titles, useful descriptions, semantic headings, stable URLs, canonical handling, breadcrumbs, relevant internal links, appropriate status codes, and sitemaps limited to published canonical pages.
+
+Avoid unlimited crawlable filter and personalization combinations.
+
+Use truthful structured data appropriate to the content, such as Organization, WebSite, BreadcrumbList, and article types. Only mark up visible, supportable information. Use dataset markup only for an actual dataset.
+
+Check current feature eligibility; do not promise FAQ rich results or special AI placement.
+
+For generative search, make facts easy to identify and verify:
+
+**Explicit jurisdictions, dates, entities, units, definitions, conditions, and citations close to claims.**
+
+Provide original practical value through worked examples, structured comparisons, and documented workflows.
+
+Do not produce a page for every wording of a question, add hidden AI instructions, fabricate expertise, or claim that special schema or an `llms.txt` file guarantees citations.
+
+Google’s current guidance explicitly connects generative-search visibility to established search fundamentals and useful original content. Read the current [Google AI optimization guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) before implementation.
+
+Follow the current [scaled-content and doorway policies](https://developers.google.com/search/docs/essentials/spam-policies).
+
+Start with excellent English. Add translated pages only when their meaning and updates can be maintained. Use correct reciprocal `hreflang` for genuine language alternatives. Do not create thin regional English clones or force redirects based on IP location.
+
+Verify relevant crawler access using current official documentation, separating search access from training preferences. Do not promise that a sitemap submission causes indexing or that indexation produces rankings.
+
+Measure:
+
+- Qualified search arrivals.
+- Relevant audience fit when voluntarily provided.
+- Meaningful journey progress.
+- Exported briefs.
+- Returning teams.
+- Indexed content.
+- Source failures and stale requirements.
+- Corrections.
+
+Use current Search Console and Bing Webmaster Tools reports where available. Keep impressions, AI citations, referral visits, and conversions distinct.
+
+## 14. Engineering, privacy, and maintainability
+
+Inspect the existing project before choosing a stack. Use a maintainable framework with prerendering/server rendering for the public reference site and lightweight interactive tools.
+
+Keep research records, content rendering, calculation logic, and private plans separate.
+
+The initial tools should use transparent deterministic logic. Do not require a general-purpose AI chat interface or live model call to read a rule, calculate a cost, or continue the journey.
+
+Build a content administration workflow with source records, draft/review/published states, conflicts, near-duplicate review, stale-content alerts, revisions, and a coverage dashboard.
+
+Claims and sources should be traceable both ways.
+
+Keep private plans out of public URLs, search indexes, analytics payloads, logs, and shared caches. Use authentication and access controls for server-stored plans; `noindex` alone is not privacy protection.
+
+Permit anonymous exploration with minimal non-sensitive local progress, and provide a clear reset/export path.
+
+Avoid collecting passports, bank statements, personal court records, or confidential contracts for the educational experience.
+
+If later document storage is needed, implement the security, permissions, retention, deletion, and consent controls before enabling uploads.
+
+Research the site’s own applicable privacy and cookie obligations for its actual operation and target markets. Minimize tracking. Do not weaken necessary consent or accessibility controls to satisfy the single-CTA design.
+
+Respect source access conditions and document rights. Link public FDDs and verify extracts rather than republishing entire third-party documents by default.
+
+Do not bypass access controls or fabricate data where a source is unavailable.
+
+## 15. Execute in complete, reviewable batches
+
+Work in this order:
+
+1. **Establish the foundation.** Inspect the project and establish the audience, scope register, data model, source hierarchy, and content manifest.
+2. **Complete one working journey.** Research and build one complete path with finished public pages, a case, functioning calculations, saved progress, and a real export.
+3. **Complete the national franchise core.** Research the federal core and the 50-state-plus-D.C. franchise requirements matrix. Record the independent dimensions of each jurisdiction instead of forcing a single registration label.
+4. **Expand researched coverage.** Author the remaining verified guides in batches, prioritizing origin countries, management-run B2B sectors, selected local markets, and high-consequence decisions. Expand the case library and territory workstream.
+5. **Verify the product.** Run an independent source-check and editorial pass, implement technical SEO, and verify responsive interaction, privacy, calculations, and accessibility.
+6. **Deliver honestly.** Deploy when the destination and authorization are available. Report an actual tested URL and commit if deployed; otherwise provide the complete project and the exact remaining dependency. Do not claim publication, indexing, scheduled maintenance, or integration setup that has not actually occurred.
+
+For each publication batch, require a unique purpose, adequate primary evidence, correct applicability, original utility, clear provenance, and no unresolved material conflict disguised as certainty.
+
+Keep unready pages as unpublished research records. Do not satisfy a page-count target by indexing placeholders.
+
+Use parallel research where available, with shared schemas, deduplication, and one coherent publication process.
+
+Preserve a durable checkpoint and exact backlog if a run is interrupted. Do not describe a homepage plus templates as completion of the content programme.
+
+## 16. Acceptance criteria and handover
+
+Verify the product against meaningful end-to-end examples:
+
+- A Singapore B2B service owner staying abroad can complete a useful plan without being forced through founder-relocation steps.
+- A European company with a “license” receives relevant questions and sources, without an automated legal verdict.
+- A search visitor lands on a state issue page, reads the complete answer, and applies it to the right journey step.
+- The fictional unit model correctly shows **$180,000 − $120,000 − $60,000 = $0** at that stage; missing assumptions remain visible.
+- Unknown fees, unresearched local requirements, and missing FDD data never become zero or “not required.”
+- One changed rule record identifies the affected pages and tools without silently rewriting unrelated content.
+- At desktop and mobile sizes, including scrolling, there is at most one visible forward CTA, while essential utilities remain usable.
+- Case statuses, sources, captions, calculation units, exports, keyboard navigation, and reduced-motion behaviour work as described.
+- Private plan content is inaccessible to another user and absent from public rendering and indexing surfaces.
+- All 50 states and D.C. appear in the coverage matrix. Territories, origin countries, and local coverage are separately accounted for. Explain any remaining unverified items.
+- Every counted published guide is a genuine canonical page, with material claims checked against its recorded sources.
+
+Deliver:
+
+- The working website or runnable project.
+- Source code.
+- Content and source datasets.
+- Coverage register and canonical page inventory.
+- Authored cases.
+- Functioning tools.
+- An export example.
+- Verification results.
+- Maintenance instructions.
+- Exact counts for published, reviewed, draft, blocked, and unresearched records.
+
+Do not invent qualifications for authors or reviewers. State which review actually happened. Separate source-verified general explanations from transaction-specific conclusions that still need professional judgment.
+
+The finished product should let an owner learn something important quickly, make one useful decision, and steadily assemble an expansion plan the management team can act on.
+
+**Begin the work now.**
