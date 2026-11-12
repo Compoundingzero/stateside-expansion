@@ -23,9 +23,18 @@ jobs:
         shell: bash
         run: |
           export CHROMIUM_PATH=$(node --input-type=module -e "import {chromium} from '@playwright/test'; process.stdout.write(chromium.executablePath())")
-          npm start > /tmp/stateside-server.log 2>&1 &
+          task_eln_database=$(mktemp -d)
+          export ELN_DATA_DIRECTORY="$task_eln_database"
+          export ELN_SETUP_TOKEN=eln-ci-disposable-bootstrap-token-never-production-2026
+          export SUBMISSIONS_E2E_SETUP_TOKEN="$ELN_SETUP_TOKEN"
+          export PUBLIC_SITE_URL=http://127.0.0.1:3001
+          export TEST_BASE_URL=http://127.0.0.1:3001
+          export SUBMISSIONS_E2E_BASE_URL=http://127.0.0.1:3001
+          PORT=3001 node server.mjs > /tmp/eln-test-server.log 2>&1 &
+          task_eln_server=$!
+          trap 'kill "$task_eln_server" 2>/dev/null || true' EXIT
           for attempt in {1..30}; do
-            if curl -fsS http://127.0.0.1:3000/health; then break; fi
+            if curl -fsS http://127.0.0.1:3001/health; then break; fi
             sleep 1
           done
           npx playwright test

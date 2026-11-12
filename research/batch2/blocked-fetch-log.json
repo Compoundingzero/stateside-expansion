@@ -1,0 +1,268 @@
+[
+  {
+    "id": "ca-instructions",
+    "url": "https://dfpi.ca.gov/regulated-industries/franchises/instructions-on-how-to-file-a-complete-franchise-application/",
+    "at": "2026-11-12T21:19:07.035345+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-franchises",
+    "url": "https://dfpi.ca.gov/regulated-industries/franchises/",
+    "at": "2026-11-12T21:19:07.037375+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-octoclean",
+    "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/09/Consent-Order-Octoclean.pdf",
+    "at": "2026-11-12T21:19:07.038124+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-statutes",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=5.&chapter=2.&lawCode=CORP&title=4.&article=1.",
+    "at": "2026-11-12T21:19:07.039138+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-franchise-relationship",
+    "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?division=8.&chapter=5.5.&lawCode=BPC",
+    "at": "2026-11-12T21:19:07.039916+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "qargo-courtlistener",
+    "url": "https://www.courtlistener.com/api/rest/v3/search/?q=%221%3A24-cv-23978%22&type=r&order_by=dateFiled+desc",
+    "at": "2026-11-12T21:19:07.040805+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-wp-instructions",
+    "url": "https://dfpi.ca.gov/wp-json/wp/v2/pages?slug=instructions-on-how-to-file-a-complete-franchise-application",
+    "at": "2026-11-12T21:19:40.726335+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "ca-official-legacy",
+    "url": "https://www.leginfo.ca.gov/cgi-bin/displaycode?section=corp&group=31001-32000&file=31100-31109",
+    "at": "2026-11-12T21:19:40.727089+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "qargo-govinfo",
+    "url": "https://www.govinfo.gov/content/pkg/USCOURTS-flsd-1_24-cv-23978/pdf/USCOURTS-flsd-1_24-cv-23978-0.pdf",
+    "at": "2026-11-12T21:19:40.727706+00:00",
+    "status": "not-document",
+    "bytes": 44172,
+    "path": "research/raw/batch2/blocked/qargo-govinfo.html",
+    "error": "HTTP200 returned GovInfo Error HTML page, not a PDF; package not available."
+  },
+  {
+    "id": "ca-broker-faq",
+    "url": "https://dfpi.ca.gov/regulated-industries/franchises/franchise-brokers/franchise-brokers-frequently-asked-questions/",
+    "at": "2026-11-12T21:19:40.728420+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "qargo-complaint",
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/QargoCoffeeInc.et-al-FiledComplaint.pdf",
+    "at": "2026-11-12T21:21:26.431125+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 276190,
+    "sha256": "2a48df4c85ed165782f78ee4b4932a62b47c5fbbcc55df012850a16aff0d40a5",
+    "path": "research/raw/batch2/blocked/qargo-complaint.pdf"
+  },
+  {
+    "id": "qargo-2025report",
+    "url": "https://www.govinfo.gov/content/pkg/CMR-FT1-00197928/pdf/CMR-FT1-00197928.pdf",
+    "at": "2026-11-12T21:21:26.432364+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1825567,
+    "sha256": "3adc776798812e1966a94d6564f38049a0e19e11ee2228eeb312e6d8cbc335ee",
+    "path": "research/raw/batch2/blocked/qargo-2025report.pdf"
+  },
+  {
+    "id": "ftc-june2026",
+    "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/litigation-status-report-june-2026.pdf",
+    "at": "2026-11-12T21:21:26.441899+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 617095,
+    "sha256": "934f983f4e19fcb99bf6060a05c4bce742deaa971ac6f1c3334aac7886eea34e",
+    "path": "research/raw/batch2/blocked/ftc-june2026.pdf"
+  },
+  {
+    "id": "foodcode",
+    "url": "https://www.fda.gov/food/retail-food-protection/fda-food-code",
+    "at": "2026-11-12T21:21:26.444442+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 43206,
+    "sha256": "959968258589cf0eeafec5c17828266c67730ab3f48e8dff8892df2897e71ce5",
+    "path": "research/raw/batch2/blocked/foodcode.html"
+  },
+  {
+    "id": "clia",
+    "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+    "at": "2026-11-12T21:21:26.445274+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 201042,
+    "sha256": "d4abddd0bc1a0072db21904719bb066c157fb1d3fe7146b2bdd0a5d96024078c",
+    "path": "research/raw/batch2/blocked/clia.html"
+  },
+  {
+    "id": "childcare",
+    "url": "https://childcare.gov/consumer-education/child-care-licensing-and-regulations",
+    "at": "2026-11-12T21:21:26.446478+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "homecare",
+    "url": "https://www.dol.gov/agencies/whd/direct-care/faq",
+    "at": "2026-11-12T21:21:26.447417+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 149041,
+    "sha256": "3e45e1162b5f869443041906b531ca6baf32fbf40397bbd091f3ad2b2ca00c46",
+    "path": "research/raw/batch2/blocked/homecare.html"
+  },
+  {
+    "id": "rrp",
+    "url": "https://www.epa.gov/lead/renovation-repair-and-painting-program-contractors",
+    "at": "2026-11-12T21:21:26.448490+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 67893,
+    "sha256": "dbf035e74ed61f1efdd67bcccaff6dab13a92c97c6179719f6a124b0036d3c07",
+    "path": "research/raw/batch2/blocked/rrp.html"
+  },
+  {
+    "id": "hvac",
+    "url": "https://www.epa.gov/section608/section-608-technician-certification-0",
+    "at": "2026-11-12T21:21:26.455819+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 66582,
+    "sha256": "54e568b02fd8957d7bfcce36134ca9c75860f2ecb52cce3d43bb8a4fd674067b",
+    "path": "research/raw/batch2/blocked/hvac.html"
+  },
+  {
+    "id": "beauty",
+    "url": "https://www.osha.gov/hair-salons",
+    "at": "2026-11-12T21:21:26.458044+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 119003,
+    "sha256": "b82b36cf83a234c84bed1495af771e7e36f8e1419890fc05ebbdfe74e9f75946",
+    "path": "research/raw/batch2/blocked/beauty.html"
+  },
+  {
+    "id": "usedoil",
+    "url": "https://www.epa.gov/hw/managing-used-oil-answers-frequent-questions-businesses",
+    "at": "2026-11-12T21:21:26.468608+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 120282,
+    "sha256": "f82e36514d0ee62a43ce72bfc114ac0c9ed2d19522a434d76bf5d8f3503c4ded",
+    "path": "research/raw/batch2/blocked/usedoil.html"
+  },
+  {
+    "id": "foodfacility",
+    "url": "https://www.fda.gov/food/food-industry/how-start-food-business",
+    "at": "2026-11-12T21:21:26.469793+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 68809,
+    "sha256": "dfbecb5374a20b270201b472317436047bbbb83d9f6ee34838b3fcac36e24fab",
+    "path": "research/raw/batch2/blocked/foodfacility.html"
+  },
+  {
+    "id": "rosca",
+    "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section8403&num=0&edition=prelim",
+    "at": "2026-11-12T21:21:26.718895+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "alcohol",
+    "url": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/retail-dealers",
+    "at": "2026-11-12T21:21:26.848805+00:00",
+    "status": "failed",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "childcare-current",
+    "url": "https://www.childcare.acf.gov/consumer-education/regulated-child-care/child-care-licensing",
+    "at": "2026-11-12T21:22:08.248959+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "rosca-current",
+    "url": "https://uscode.house.gov/us/usc/119-118/t15/s8403/",
+    "at": "2026-11-12T21:22:08.250311+00:00",
+    "status": 200,
+    "contentType": "text/html",
+    "bytes": 7639,
+    "sha256": "498c33e3e38a5c0fa6f5c831afe7c038abbb4022c03fa196d51779b1aa78cda9",
+    "path": "research/raw/batch2/blocked/rosca-current.html"
+  },
+  {
+    "id": "alcohol-current",
+    "url": "https://www.ttb.gov/public-information/ttb-audiences/business-owners/retailers-beverage-alcohol",
+    "at": "2026-11-12T21:22:08.251184+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 44110,
+    "sha256": "b0d14fc4d6520a7dadff6b8884e8a129cd37badb94d31ac519c60a8e36c247e0",
+    "path": "research/raw/batch2/blocked/alcohol-current.html"
+  },
+  {
+    "id": "homecare-regulation",
+    "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-A/part-552/subpart-B/section-552.109",
+    "at": "2026-11-12T21:22:08.251959+00:00",
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 77242,
+    "sha256": "dd1f04e6ec3b79c93ebed01936d54cf17d6ed5197e4af685bea3cd8b77dd72b1",
+    "path": "research/raw/batch2/blocked/homecare-regulation.html"
+  },
+  {
+    "id": "alacrity-order",
+    "url": "https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/2025/03/WHD-RSOL2025446_AlacrityConsentJudgment.pdf",
+    "at": "2026-11-12T21:22:08.252728+00:00",
+    "status": 200,
+    "contentType": "application/pdf",
+    "bytes": 1372325,
+    "sha256": "8c24ffcd2609b7ffcb42f3012366f29a2e62d5ed3bdcf585ebdbb464856c02db",
+    "path": "research/raw/batch2/blocked/alacrity-order.pdf"
+  },
+  {
+    "id": "alacrity-release",
+    "url": "https://www.dol.gov/newsroom/releases/whd/whd20250506",
+    "at": "2026-11-12T21:22:08.254090+00:00",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "homecare-enforcement",
+    "url": "https://www.dol.gov/sites/dolgov/files/WHD/fab/fab2025-4.pdf",
+    "at": "2026-11-12T21:22:17.492697+00:00",
+    "status": 200,
+    "bytes": 270773,
+    "sha256": "c377ec2192311072041c76062fe101997b67ff5bd9e7366bebd99c55f9e3a4a5",
+    "path": "research/raw/batch2/blocked/homecare-enforcement.pdf"
+  }
+]

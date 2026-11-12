@@ -37,3 +37,17 @@ Daily fetching is an operating policy, not a guarantee of currency. Prioritize v
 - `node scripts/editorial.mjs queue`: outstanding source-change items and unreviewed edit proposals.
 
 Near-duplicate review happens before publication: compare query, evidence, practical output and canonical path, not merely wording. Distinct titles alone do not justify a distinct page. Automated structural checks cannot certify originality, applicability, legal correctness or completeness.
+
+## Technical retrieval review
+
+The source checker writes `artifacts/editorial-review-report.md` as well as its JSON evidence and queue. GitHub displays that report in the workflow summary. It separates HTTP access blocks, timeouts, unreadable responses and content-hash changes; none is a legal conclusion. Transient failures receive one bounded retry. A long server Retry-After is left for a later run instead of ignored.
+
+The extractor prefers substantive main/article content containing the recorded supporting passage, so empty accessibility landmarks do not hide a real source. If the reviewed passage cannot be located, a review item is opened. Normalization changes create `baseline-migrated` observations rather than pretending the source changed its legal text. No substantive verification date is refreshed by these operations.
+
+Resolve an inspected queue item with a dated decision and evidence reference:
+
+```sh
+node scripts/editorial.mjs resolve-source ISSUE_ID --reviewer REVIEWER_ID --date YYYY-MM-DD --evidence EVIDENCE_REFERENCE --decision no-material-change --review-complete
+```
+
+Allowed decisions are `retrieval-confirmed`, `no-material-change`, `interpretation-updated`, and `not-a-source-change`. This records a queue resolution only; a rule or guide change still needs the separate reviewed proposal/apply workflow. Resolved history is retained. A new occurrence can open another item; a later successful HTTP response never silently erases an unresolved material review.

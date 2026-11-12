@@ -990,53 +990,93 @@
     "label": "Real case — historical documents and stated procedural limits"
   },
   {
-    "id": "case-qargo-hold",
+    "id": "b2-qargo-bounded",
     "path": "/cases/qargo-license-label-review/",
-    "title": "Qargo Coffee: entered-order verification pending",
-    "description": "Research record held from publication while the actual signed order and current procedural record are reconciled.",
+    "title": "Qargo Coffee: what the FTC alleged about license labels",
+    "description": "A bounded historical case connects the actual 2024 complaint to reported settlement status, without treating a label as legal clearance.",
     "family": "case",
-    "topic": "sales-disclosure",
+    "topic": "classification",
     "jurisdictions": [
-      "Federal",
-      "California"
+      "Federal"
     ],
-    "status": "blocked",
-    "lastReviewed": null,
-    "reviewStatus": "Editorial hold; source or procedural review incomplete",
-    "readMinutes": 3,
-    "ruleIds": [],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "fed-relationship-definition"
+    ],
     "sections": [
       {
-        "heading": "Why this record is not published",
+        "heading": "The specific historical record",
         "paragraphs": [
-          "The official case index describes the FTC allegations and links a proposed order dated 16 October 2024. The December 2024 FTC litigation status report records a stipulated order entered 17 October 2024. The filed proposed PDF has a blank judicial signature/date. Metadata saying Pending is not sufficient to disregard the later official report."
+          "Real case. In its complaint filed 16 October 2024 in the Southern District of Florida, the FTC alleged that Qargo Coffee’s California offering used “distributorship” and affiliated-license language while operating as a franchise. Paragraphs 26–35 describe the brand, fees, controls and support facts on which the FTC relied. These are allegations in a complaint, not findings from a contested trial."
+        ],
+        "sourceIds": [
+          "b2-blocked-qargo-complaint"
         ]
       },
       {
-        "heading": "Research completed",
+        "heading": "Reported outcome and the remaining limit",
         "paragraphs": [
-          "The complete operative proposed-order pages 1–16 were read. Those are not represented as the actual entered text. The report supports the entry date it records; the actual signed order and any later docket developments remain outstanding."
+          "The FTC’s December 2024 litigation report records entry of a stipulated order on 17 October 2024. Its later report to Congress covering fiscal 2025 lists the Qargo matter’s outcome as Full Settlement. Those official records support a historical settlement account; they do not prove collection, current compliance, or that no other disputes exist."
+        ],
+        "sourceIds": [
+          "pr-qargo-report",
+          "b2-blocked-qargo-2025report"
         ]
       },
       {
-        "heading": "Release condition",
+        "heading": "Why this page does not recite final remedy terms",
         "paragraphs": [
-          "Obtain and read the entered order, reconcile materially different terms and check later procedural documents before a final narrative is published. Preserve allegations as allegations; a proposed rescission term is not automatic repayment of every dollar invested."
+          "The FTC case index still uses a Pending label and links the filed proposed order. The actual signed entered order was not obtained in this batch. This page therefore does not describe final monetary, rescission or noncompete terms. A proposed document is not silently substituted for the final order, and stale index metadata is not treated as proof that settlement never occurred."
+        ],
+        "sourceIds": [
+          "pr-qargo-index"
+        ]
+      },
+      {
+        "heading": "The preparation decision for a management team",
+        "paragraphs": [
+          "A brand owner can keep the useful lesson narrow: record what the partner actually receives, pays and must do before selecting a contract label. Separate trademark-quality protections from broader operating controls, and analyse federal definitions/exemptions and state requirements independently. The shared federal classification guide explains today’s framework; this historical complaint is not a transaction-specific verdict."
+        ],
+        "sourceIds": [
+          "fed-definition",
+          "fed-compliance"
+        ]
+      },
+      {
+        "heading": "Reusable evidence checklist",
+        "paragraphs": [
+          "Output: a relationship factsheet assigned to the expansion lead before prospective rights are marketed."
+        ],
+        "bullets": [
+          "Map brand rights, payment recipients and timing.",
+          "Retain contract drafts, presentations and spoken sales promises.",
+          "Describe training, operational assistance, mandatory systems and enforcement rights.",
+          "Identify offer, party and proposed-operation locations.",
+          "Record who will analyse the federal and state questions and the factual assumptions that need confirmation.",
+          "Keep final-order remedies and present docket status unresolved until their actual evidence is read."
         ]
       }
     ],
     "sourceIds": [
+      "b2-blocked-qargo-complaint",
+      "b2-blocked-qargo-2025report",
+      "pr-qargo-report",
       "pr-qargo-index",
-      "pr-qargo-proposed",
-      "pr-qargo-report"
+      "fed-definition",
+      "fed-compliance"
     ],
     "nextStage": 1,
-    "practicalOutput": "A source-conflict task and entered-order retrieval request",
+    "practicalOutput": "Relationship factsheet with a bounded historical case reference",
     "limitations": [
-      "Publication blocked: entered signed order and later docket check incomplete."
+      "Actual signed final-order terms remain unreviewed and are not stated.",
+      "No present conduct, money-recovery or complete current-docket finding is made."
     ],
+    "contentModifiedAt": "2026-11-12T21:29:10.023446+00:00",
     "scenarioType": "real",
-    "label": "Real case — historical documents and stated procedural limits"
+    "label": "Real case — allegations, admissions and historical procedural scope are distinguished"
   },
   {
     "id": "case-octoclean-hold",
@@ -1068,12 +1108,14 @@
       }
     ],
     "sourceIds": [
-      "pr-octoclean-order"
+      "pr-octoclean-order",
+      "b2-blocked-ca-octoclean"
     ],
     "nextStage": 5,
     "practicalOutput": "Source-access and later-order review task",
     "limitations": [
-      "Publication blocked: complete order inaccessible."
+      "Publication blocked: complete order inaccessible.",
+      "Continuation 2026-11-12 bounded retrieval attempts remain blocked; exact URL/outcome audit retained in research/batch 2/blocked-fetch-log.json."
     ],
     "scenarioType": "real",
     "label": "Real case — historical documents and stated procedural limits"

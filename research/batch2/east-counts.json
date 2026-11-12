@@ -1,0 +1,31 @@
+{
+  "jurisdictions": 18,
+  "guides": {
+    "published": 17,
+    "draft": 1,
+    "blocked": 0
+  },
+  "sources": 46,
+  "rules": 32,
+  "ruleStatuses": {
+    "verified": 6,
+    "conditional": 25,
+    "unresolved": 1,
+    "not-researched": 0
+  },
+  "franchiseDimensions": {
+    "verified": 3,
+    "conditional": 43,
+    "unresolved": 62,
+    "not-researched": 0,
+    "not-applicable": 0
+  },
+  "sourceLegalStatuses": {
+    "effective": 41,
+    "not-enacted": 1,
+    "historical": 3,
+    "enacted-not-effective": 1
+  },
+  "validationErrors": [],
+  "publishedWords": 3587
+}

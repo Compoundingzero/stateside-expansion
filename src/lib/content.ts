@@ -8,6 +8,8 @@ export const rules:RecordData[] = data.filter(x=>x.name.endsWith('rules.json')).
 export const states:RecordData[] = data.find(x=>x.name==='states.json')?.records??[];
 export const origins:RecordData[] = data.find(x=>x.name==='origins.json')?.records??[];
 export const markets:RecordData[] = data.find(x=>x.name==='markets.json')?.records??[];
+export const toolDefinitions:RecordData[] = data.find(x=>x.name==='tool-definitions.json')?.records??[];
+export const siteDependencies:RecordData[] = data.find(x=>x.name==='site-dependencies.json')?.records??[];
 export const sourceById = (id:string)=>sources.find(s=>s.id===id);
 export const ruleById = (id:string)=>rules.find(s=>s.id===id);
 export const tools = [

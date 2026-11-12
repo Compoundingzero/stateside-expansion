@@ -1,0 +1,533 @@
+[
+  {
+    "id": "b2-origins-brunei-goods-split",
+    "title": "Brunei goods-export registration is a separate workstream from licensing",
+    "topic": "products-supply",
+    "jurisdiction": "Brunei",
+    "activity": "Shipping company goods from Brunei",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The official goods procedure says a company must register with RCED or appoint a registered customs agent. Read this as a goods-shipment pathway; do not automatically impose it on an IP licence or remote service.",
+    "exceptions": "Applicability and current transaction facts require independent confirmation.",
+    "trigger": "Shipping company goods from Brunei",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Goods/services split",
+      "Exporter/agent allocation",
+      "Product/HS description and restrictions check"
+    ],
+    "sourceIds": [
+      "b2-origins-brunei-customs"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/brunei/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b2-origins-cambodia-eco-scope",
+    "title": "Cambodia’s electronic origin certificates concern exported goods",
+    "topic": "products-supply",
+    "jurisdiction": "Cambodia",
+    "activity": "Adding Cambodian goods to a U.S. service or brand offer",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The September 2026 official announcement reports electronic Certificates of Origin through the CO Automation System. Determine whether an actual shipment needs origin documentation under the relevant scheme; an e-CO system is not U.S. import or product approval.",
+    "exceptions": "Full Law on Rules of Origin, five Prakas, commodity measures and U.S. import treatment are not fully reviewed in this guide.",
+    "trigger": "Adding Cambodian goods to a U.S. service or brand offer",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "SKU/specification list",
+      "Origin evidence and scheme",
+      "Exporter and U.S. importer responsibilities"
+    ],
+    "sourceIds": [
+      "b2-origins-cambodia-eco"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/cambodia/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "administrative-process"
+  },
+  {
+    "id": "b2-origins-indonesia-export-evidence",
+    "title": "Use Indonesia’s Inaexport as a lead source, not partner certification",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Indonesia",
+    "activity": "Investigating U.S. customers and potential operating partners",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "Recommended business practice: use the Ministry of Trade’s stated market-information and overseas-representative channels to frame buyer research, then verify customer fit, partner capability and U.S. delivery independently.",
+    "exceptions": "Programme access, service-sector fit and current contact availability must be confirmed; this is not a legal filing requirement.",
+    "trigger": "Investigating U.S. customers and potential operating partners",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Buyer research brief",
+      "Direct demand evidence",
+      "Partner capability and funding references"
+    ],
+    "sourceIds": [
+      "b2-origins-indonesia-faq"
+    ],
+    "status": "conditional",
+    "legalStatus": "not-a-statutory-duty",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/indonesia/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "recommended-business-practice"
+  },
+  {
+    "id": "b2-origins-laos-fx-status",
+    "title": "Resolve the current Lao FX text before promising retention or netting",
+    "topic": "corporate-tax",
+    "jurisdiction": "Laos",
+    "activity": "Designing offshore receipt, retention or netting of service/royalty revenue",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "Unresolved research task: obtain and reconcile the later BOL text with Decision 677/BOL and the goods-focused MOIC registration decision before setting a current account, repatriation or netting rule.",
+    "exceptions": "Applicability and current transaction facts require independent confirmation.",
+    "trigger": "Designing offshore receipt, retention or netting of service/royalty revenue",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Current official instrument and translation",
+      "Bank written route confirmation",
+      "Payment-category and account map"
+    ],
+    "sourceIds": [
+      "b2-origins-laos-old",
+      "b2-origins-laos-registration",
+      "b2-origins-laos-2025"
+    ],
+    "status": "unresolved",
+    "legalStatus": "current-status-unresolved",
+    "verifiedAt": null,
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "Official portal reproduces 2023 Decision 677/BOL; a later BOL December 2025 PDF was found but could not be retrieved.",
+      "Portal measure metadata mentions services more broadly than the goods-focused registration decision text."
+    ],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "unresolved-legal-question"
+  },
+  {
+    "id": "b2-origins-myanmar-counterparty-screening",
+    "title": "Myanmar-linked transactions require actor, ownership and activity analysis",
+    "topic": "products-supply",
+    "jurisdiction": "Myanmar",
+    "activity": "Entering U.S.-linked contracts or payment flows involving Myanmar-linked parties",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "31 CFR §525.201 blocks the specified property/interests of designated persons within U.S. jurisdiction or U.S.-person possession/control and prohibits stated dealings. OFAC’s 50 Percent Rule can block entities through aggregate direct/indirect ownership. Analyse parties, banks, ownership, goods/services and authorisations; nationality alone is not the test.",
+    "exceptions": "Other sanctions programmes, directives, export controls, designations and bank policies are independent; no screening clearance is produced.",
+    "trigger": "Entering U.S.-linked contracts or payment flows involving Myanmar-linked parties",
+    "deadline": "Before contracting, payment or other potentially restricted activity; rescreen when facts/lists change",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Dated party and bank identifiers",
+      "Ownership chain and screening scope",
+      "Activity/goods/payment map",
+      "Current authorisation analysis where needed"
+    ],
+    "sourceIds": [
+      "b2-origins-burma-reg",
+      "b2-origins-ofac-50",
+      "b2-origins-myanmar-ofac"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/myanmar/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b2-origins-philippines-fx-categories",
+    "title": "Separate Philippine foreign receipts from funding a U.S. investment",
+    "topic": "corporate-tax",
+    "jurisdiction": "Philippines",
+    "activity": "Receiving U.S. fees or purchasing FX to fund a U.S. operation",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The reviewed BSP manual distinguishes disposition of non-trade/export receipts from outward investments and the source/use of FX. Select the correct transaction category and bank documentary route before budgeting cash; the receipts rule is not a blanket investment-funding exemption.",
+    "exceptions": "May 2025 consolidation was read; later circulars, regulated-financial-institution rules and actual bank controls require confirmation.",
+    "trigger": "Receiving U.S. fees or purchasing FX to fund a U.S. operation",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Receipt and investment-flow schedule",
+      "Bank purpose/document requirements",
+      "Source-of-FX and beneficiary evidence"
+    ],
+    "sourceIds": [
+      "b2-origins-philippines-bsp"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/philippines/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b2-origins-thailand-repatriation",
+    "title": "Thailand’s current Thai FX summary uses USD 10 million, not the older English figure",
+    "topic": "corporate-tax",
+    "jurisdiction": "Thailand",
+    "activity": "Receiving foreign-currency proceeds and considering retention or offset abroad",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The BOT current Thai summary identifies receipt of at least USD 10 million/equivalent as the stated repatriation trigger, with timing and authorised-bank sale/deposit requirements and specified offset conditions. Its 20 January 2026 statement describes the increase from 1 million to 10 million per transaction. Confirm the actual receipt category and exceptions with an authorised bank; do not apply the older English 1 million figure as current.",
+    "exceptions": "Applicability and current transaction facts require independent confirmation.",
+    "trigger": "Receiving foreign-currency proceeds and considering retention or offset abroad",
+    "deadline": "The Thai summary describes repatriation immediately and no later than 360 days from the export/transaction date, and sale/deposit within 360 days from acquisition or bringing the currency into Thailand. Confirm the applicable category, trigger dates and any exception with an authorised bank before relying on a deadline.",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Current Thai guidance and AI-assisted translation note",
+      "Bank-confirmed receipt/offset category",
+      "Transaction dates and supporting invoices"
+    ],
+    "sourceIds": [
+      "b2-origins-thailand-current",
+      "b2-origins-thailand-2026",
+      "b2-origins-thailand-summary"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "BOT English summary still displays USD 1 million; BOT current Thai summary and 20 January 2026 statement display USD 10 million. Current Thai guidance and dated statement are prioritised; underlying forms and exact application remain a bank/professional task."
+    ],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open.",
+      "AI-assisted translation of official Thai summary; current Gazette instruments, bank forms and all exceptions were not completely reviewed. The threshold is not used in a calculator or legal verdict."
+    ],
+    "dependentPaths": [
+      "/from/thailand/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "official-summary-conditional"
+  },
+  {
+    "id": "b2-origins-timor-leste-goods-route",
+    "title": "Timor-Leste commercial goods exports have a separate registration/authorisation route",
+    "topic": "products-supply",
+    "jurisdiction": "Timor-Leste",
+    "activity": "Adding Timor-Leste goods to a proposed U.S. service model",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The official export guide identifies business/TIN registration, commercial goods export authorisation, commodity-specific controls and customs/electronic-single-window steps. Establish the exact goods and responsible exporter before relying on that pathway; do not transpose it to every remote service.",
+    "exceptions": "Full sector instruments, current forms, exact fees and U.S. commodity rules are not comprehensively researched.",
+    "trigger": "Adding Timor-Leste goods to a proposed U.S. service model",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Exporter registration/TIN evidence",
+      "Exact goods and commodity authority",
+      "U.S. importer and substitution plan"
+    ],
+    "sourceIds": [
+      "b2-origins-timor-guide"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/timor-leste/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "administrative-process"
+  },
+  {
+    "id": "b2-origins-vietnam-goods-vs-rights",
+    "title": "Vietnam commercial export guidance is a goods pathway, not a service-licence approval",
+    "topic": "products-supply",
+    "jurisdiction": "Vietnam",
+    "activity": "Sending Vietnamese goods/equipment alongside U.S. support or licensing",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The Customs commercial-export guide directs exporters to product prohibitions, specialised inspection, licensing and declaration procedures, and discusses temporary exports. Identify the exact physical goods and regime; do not treat a remote service fee or IP licence as identical.",
+    "exceptions": "Exact product controls, current legal instruments and U.S. importing/use requirements remain product-specific.",
+    "trigger": "Sending Vietnamese goods/equipment alongside U.S. support or licensing",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Goods specifications and intended export regime",
+      "Exporter/U.S. importer allocation",
+      "Local-substitute comparison"
+    ],
+    "sourceIds": [
+      "b2-origins-vietnam-export"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/vietnam/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "administrative-process"
+  },
+  {
+    "id": "b2-origins-vietnam-tax-status",
+    "title": "A signed U.S.–Vietnam tax document does not establish an available treaty reduction",
+    "topic": "corporate-tax",
+    "jurisdiction": "Vietnam",
+    "activity": "Budgeting U.S.-source fees payable to a Vietnam-linked recipient",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "Treasury’s collection lists a 7 July 2015 agreement, while the reviewed IRS income-tax country index does not list Vietnam. Verify current entry-into-force status, income character, recipient and entitlement before using a reduced treaty rate; a signature or posted PDF alone is insufficient.",
+    "exceptions": "No country-specific withholding rate or final treaty-status opinion is supplied; the relevant authorities/withholding agent must establish the applicable treatment.",
+    "trigger": "Budgeting U.S.-source fees payable to a Vietnam-linked recipient",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Current treaty-status evidence",
+      "Recipient residence and income-character analysis",
+      "Withholding documentation and gross/net cash assumptions"
+    ],
+    "sourceIds": [
+      "b2-origins-treasury-treaties",
+      "b2-origins-irs-treaties"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/vietnam/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "unresolved-tax-status-question"
+  },
+  {
+    "id": "b2-origins-germany-certificate",
+    "title": "A German social-security coverage certificate is separate from U.S. work authorisation",
+    "topic": "employment",
+    "jurisdiction": "Germany",
+    "activity": "Sending a German-based employee to support a U.S. operation",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "SSA’s Germany guidance identifies a D/USA 101 certificate requested by the German employer from the collecting German sickness fund to establish the stated U.S. social-security exemption. Determine actual coverage entitlement independently; the certificate does not decide immigration, income tax, sector licensing or all employment obligations.",
+    "exceptions": "No universal five-year employee exemption, every tax exemption or permission to work is asserted.",
+    "trigger": "Sending a German-based employee to support a U.S. operation",
+    "deadline": "Resolve coverage and any needed evidence before relying on an exemption for the assignment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Employer/employee/assignment facts",
+      "Coverage determination and certificate if applicable",
+      "Separate work-authorisation and payroll tasks"
+    ],
+    "sourceIds": [
+      "b2-origins-germany-ss"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/germany/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "administrative-evidence"
+  },
+  {
+    "id": "b2-origins-ireland-readiness-route",
+    "title": "Match an Irish services business to the stated export-readiness programme scope",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Ireland",
+    "activity": "Selecting export-preparation support for an Irish service company",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "Recommended business practice: Enterprise Ireland’s Get Exporting scope includes Irish manufacturing/internationally traded services at an early export stage and requires senior-leadership commitment. Check the actual company/sector route; do not transplant Northern Ireland-specific turnover conditions or assume a programme grants U.S. operating permission.",
+    "exceptions": "Programme criteria and admission are determined by the programme; this is not a funding entitlement or an SME legal definition.",
+    "trigger": "Selecting export-preparation support for an Irish service company",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Company/activity and export-stage description",
+      "Named senior sponsor",
+      "Market-validation plan"
+    ],
+    "sourceIds": [
+      "b2-origins-ireland-full"
+    ],
+    "status": "conditional",
+    "legalStatus": "not-a-statutory-duty",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/ireland/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "recommended-business-practice"
+  },
+  {
+    "id": "b2-origins-spain-icex-closed",
+    "title": "The ICEX Next 2026 call has a specific closed window and service conditions",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Spain",
+    "activity": "Including ICEX Next 2026 support in an expansion funding plan",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "The BOE extract sets the 2026 application deadline at 30 October 2026, 14:00 and states origin-company, own-product/service/brand and staffing conditions. As of 12 November 2026 this window is closed. Do not advertise it as open, assume a future call or treat its turnover condition as a U.S. SMB definition.",
+    "exceptions": "Full call/bases, evaluation and any future programme are independent. This review does not establish company eligibility or an award.",
+    "trigger": "Including ICEX Next 2026 support in an expansion funding plan",
+    "deadline": "2026 call deadline was 30 October 2026 at 14:00; no future window verified",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Actual call/version and deadline",
+      "Programme-specific eligibility evidence",
+      "Funding plan excluding unawarded support"
+    ],
+    "sourceIds": [
+      "b2-origins-spain-2026"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/spain/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "programme-condition"
+  },
+  {
+    "id": "b2-origins-italy-support-vs-verification",
+    "title": "Italian market-support institutions have different roles from partner verification",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Italy",
+    "activity": "Using Italian public/private channels to identify U.S. customers or operators",
+    "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
+    "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
+    "requirement": "Recommended business practice: distinguish diplomatic orientation/institutional support, ICE market/partner services and recognised private chambers. An introduction or institutional contact is a lead; independently establish partner capability, allocated capital, territory commitments and review scope.",
+    "exceptions": "Current service availability, price and eligibility vary. No institution is described as certifying the partner or authorising a franchise sale.",
+    "trigger": "Using Italian public/private channels to identify U.S. customers or operators",
+    "deadline": "Before the identified commitment",
+    "fee": null,
+    "renewal": "Recheck on source change, counterparty change, new transaction or changed operating facts",
+    "dependencies": [],
+    "evidence": [
+      "Dated introduction source and scope",
+      "Partner evidence checklist",
+      "Market-validation brief"
+    ],
+    "sourceIds": [
+      "b2-origins-italy-ministry",
+      "b2-origins-italy-ice"
+    ],
+    "status": "conditional",
+    "legalStatus": "not-a-statutory-duty",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+    ],
+    "dependentPaths": [
+      "/from/italy/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review",
+    "requirementType": "recommended-business-practice"
+  }
+]

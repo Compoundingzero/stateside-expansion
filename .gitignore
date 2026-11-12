@@ -16,3 +16,14 @@ research/geography/
 research/states/*.txt
 research/states/*.html
 research/states/*.pdf
+
+# Submission database and local owner bootstrap credentials never enter Git.
+/data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Intermediate authoring drafts are not the frozen reviewed proposal set.
+research/batch2/west-own-*.json
+research/batch2/west-a-*.json

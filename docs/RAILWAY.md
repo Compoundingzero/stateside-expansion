@@ -77,4 +77,4 @@ References read for this implementation:
 - https://docs.railway.com/infrastructure-as-code/reference
 - Installed `railway` SDK 3.16.0 type declarations (`BuildConfig`, `DeployConfig`, `IntentServiceConfig`, `ProjectDefinition`).
 
-No database, server-stored private plans, analytics vendor, custom domain, additional service or paid capacity increase is introduced by this configuration.
+The ELN owner-board continuation adds one durable SQLite volume and private submission APIs, documented in `BOARD-STORAGE.md`. Browser-local expansion plans remain separate. No PostgreSQL service, analytics vendor, custom domain or additional application replica is introduced.

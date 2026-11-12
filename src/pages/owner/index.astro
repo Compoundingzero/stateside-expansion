@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import OwnerBoard from '../../components/OwnerBoard';
+import '../../styles/submissions.css';
+---
+<Base title="ELN owner board" description="Private owner access to ELN interest registrations and enquiries." noindex hideAction>
+  <div class="container owner-page"><div class="page-intro"><span class="eyebrow">ELN · OWNER ACCESS</span><h1>Owner board.</h1><p class="lede">Interest registrations and enquiries, in one place.</p></div><OwnerBoard client:load/></div>
+</Base>

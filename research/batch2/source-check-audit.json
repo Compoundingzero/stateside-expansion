@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-12",
+  "improvements": [
+    "Semantic extraction preserves a reviewed passage even when first main landmark is empty",
+    "HTML entity normalization",
+    "Separate baseline migration from source change",
+    "One retry for transient failures with Retry-After respected",
+    "Dated explicit queue resolution with history retained",
+    "Workflow Markdown summary"
+  ],
+  "sourceRechecks": [
+    {
+      "id": "geo-local-san-francisco",
+      "currentReadableCharacters": 28011,
+      "reviewedPassageLocated": true,
+      "scope": "Technical extraction only; original legal review not refreshed"
+    },
+    {
+      "id": "geo-local-charlotte",
+      "currentReadableCharacters": 5333,
+      "reviewedPassageLocated": true,
+      "scope": "Technical extraction only; original legal review not refreshed"
+    }
+  ],
+  "remainingHostedIssues": [
+    {
+      "sourceId": "fed-treaties",
+      "error": "HTTP 403",
+      "paths": [
+        "/cases/singapore-subsidiary-e2-ownership/",
+        "/us-expansion/e2-nationality-investment/",
+        "/from/singapore/",
+        "/from/malaysia/"
+      ]
+    },
+    {
+      "sourceId": "geo-local-raleigh",
+      "error": "HTTP 403",
+      "paths": [
+        "/cities/raleigh/business-license-and-permits/"
+      ]
+    },
+    {
+      "sourceId": "geo-treaty-countries",
+      "error": "HTTP 403",
+      "paths": [
+        "/from/singapore/",
+        "/from/malaysia/"
+      ]
+    },
+    {
+      "sourceId": "pr-lockout",
+      "error": "HTTP 403",
+      "paths": [
+        "/industries/industrial-maintenance/"
+      ]
+    },
+    {
+      "sourceId": "pr-cleaning",
+      "error": "HTTP 403",
+      "paths": [
+        "/cases/cleaning-product-us-supply/",
+        "/industries/commercial-cleaning/"
+      ]
+    },
+    {
+      "sourceId": "state-tx-faq",
+      "error": "HTTP 403",
+      "paths": [
+        "/states/texas/"
+      ]
+    },
+    {
+      "sourceId": "state-mn-assurance",
+      "error": "Only public HTTPS source hosts on port 443 are allowed",
+      "paths": [
+        "/states/minnesota/",
+        "/states/minnesota/franchise-support-funding/"
+      ]
+    },
+    {
+      "sourceId": "state-mi-notice",
+      "error": "The operation was aborted due to timeout",
+      "paths": [
+        "/states/michigan/"
+      ]
+    },
+    {
+      "sourceId": "state-mi-disclosure",
+      "error": "The operation was aborted due to timeout",
+      "paths": [
+        "/states/michigan/",
+        "/states/michigan/franchise-disclosure-timing/"
+      ]
+    }
+  ],
+  "note": "Actual hosted outcome awaits next GitHub source-check run. No absence of requirements inferred from any failure."
+}

@@ -1,0 +1,387 @@
+[
+  {
+    "id": "us-puerto-rico",
+    "name": "Puerto Rico",
+    "slug": "puerto-rico",
+    "kind": "territory",
+    "country": "United States",
+    "sourceIds": [
+      "state-pr-law",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Separate territorial workstream. Federal § 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. Law 75 official Spanish text reviewed for actual dealer/service role, termination/impairment/nonrenewal; consolidation revised2020, current controlling cases/later amendments unresolved.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "16 CFR§ 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Law 75 dealer/service relationship provisions reviewed in official Spanish consolidation; current cases, later amendments and actual dealer status remain unresolved.",
+        "sourceIds": [
+          "state-pr-law"
+        ]
+      },
+      "sourceIds": [
+        "state-pr-law",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
+      "limitations": [
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
+      ]
+    }
+  },
+  {
+    "id": "us-us-virgin-islands",
+    "name": "U.S. Virgin Islands",
+    "slug": "us-virgin-islands",
+    "kind": "territory",
+    "country": "United States",
+    "sourceIds": [
+      "b2-territories-usvi-licensing",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Separate territorial workstream. Federal § 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. DLCA initial/renewal licensing, applicable professional/site approvals reviewed. Local franchise/dealer relationship text remains unresolved; a nonofficial citation is a research lead only.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "16 CFR§ 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "b2-territories-usvi-licensing",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
+      "limitations": [
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
+      ]
+    }
+  },
+  {
+    "id": "us-guam",
+    "name": "Guam",
+    "slug": "guam",
+    "kind": "territory",
+    "country": "United States",
+    "sourceIds": [
+      "b2-territories-guam-foreign",
+      "b2-territories-guam-license",
+      "b2-territories-guam-service",
+      "b2-territories-guam-blpc",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Separate territorial workstream. Federal § 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. Current official compiler Chapter 18§ 7102 and Title 11 Chapters 70/76 read. Corporate authority, general/service licensing and sector exceptions separated; no income-tax, employment or immigration conclusions.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "16 CFR§ 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "b2-territories-guam-foreign",
+        "b2-territories-guam-license",
+        "b2-territories-guam-service",
+        "b2-territories-guam-blpc",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
+      "limitations": [
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
+      ]
+    }
+  },
+  {
+    "id": "us-northern-mariana-islands",
+    "name": "Northern Mariana Islands",
+    "slug": "northern-mariana-islands",
+    "kind": "territory",
+    "country": "United States",
+    "sourceIds": [
+      "b2-territories-cnmi-5611",
+      "b2-territories-cnmi-registrar",
+      "b2-territories-cnmi-cw1",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Separate territorial workstream. Federal § 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. 4 CMC§ 5611 business lines/locations, registrar entity-document list and DOL CW-1 sequence reviewed. Corporate-tax status is partial entity-registration coverage only; tax computation unresearched.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "16 CFR§ 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "b2-territories-cnmi-5611",
+        "b2-territories-cnmi-registrar",
+        "b2-territories-cnmi-cw1",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
+      "limitations": [
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
+      ]
+    }
+  },
+  {
+    "id": "us-american-samoa",
+    "name": "American Samoa",
+    "slug": "american-samoa",
+    "kind": "territory",
+    "country": "United States",
+    "sourceIds": [
+      "b2-territories-as-foreign",
+      "b2-territories-as-license-renewal",
+      "b2-territories-as-commission",
+      "b2-territories-as-entry",
+      "b2-territories-as-residence",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Separate territorial workstream. Federal § 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. AG foreign-company checklist, Commerce renewal guidance, 2024 administrative licensing reviews and territorial entry/residency guidance read. Identity/status definitions, later regulatory changes and individual eligibility need separate review.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "16 CFR§ 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "b2-territories-as-foreign",
+        "b2-territories-as-license-renewal",
+        "b2-territories-as-commission",
+        "b2-territories-as-entry",
+        "b2-territories-as-residence",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
+      "limitations": [
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
+      ]
+    }
+  }
+]

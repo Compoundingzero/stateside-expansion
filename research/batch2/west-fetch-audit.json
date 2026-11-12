@@ -1,0 +1,176 @@
+[
+  {
+    "key": "nc",
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_66/Article_19.html",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "oh",
+    "url": "https://codes.ohio.gov/ohio-revised-code/chapter-1334",
+    "status": "readable-fetch",
+    "fetchedAt": "2026-11-12T21:20:08.344586+00:00",
+    "sha256": "19df480a6230806c487ee3ec5e5f8140b43ef868b3c0c0a5962e721c484d5094",
+    "bytes": 79667,
+    "format": "html"
+  },
+  {
+    "key": "ok",
+    "url": "https://www.securities.ok.gov/Act-Rules/Busopp.asp",
+    "status": "blocked",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "sc",
+    "url": "https://www.scstatehouse.gov/code/t39c057.php",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "ut",
+    "url": "https://le.utah.gov/xcode/Title13/Chapter15/C13-15_1800010118000101.pdf",
+    "status": "readable-fetch",
+    "fetchedAt": "2026-11-12T21:20:07.612755+00:00",
+    "sha256": "f54bc045cf5934e9b2633be36e7f875e184ff4bc60d0da0fe586b2ab12b41a57",
+    "bytes": 17646,
+    "format": "pdf"
+  },
+  {
+    "key": "vt",
+    "url": "https://legislature.vermont.gov/statutes/fullchapter/09/107",
+    "status": "readable-fetch",
+    "fetchedAt": "2026-11-12T21:20:08.041646+00:00",
+    "sha256": "e20385fcc8f195762d6a5977b239081705bbf8a11b6f3f5cb062b60f1d3fef4a",
+    "bytes": 93885,
+    "format": "html"
+  },
+  {
+    "key": "wv",
+    "url": "https://code.wvlegislature.gov/47/",
+    "status": "readable-fetch",
+    "fetchedAt": "2026-11-12T21:20:08.348479+00:00",
+    "sha256": "3ebac27e6934c57312ff52eed85510d7cf962597d26935268c10fed5d93c97b0",
+    "bytes": 40488,
+    "format": "html"
+  },
+  {
+    "key": "wy",
+    "url": "https://wyoleg.gov/statutes/compress/title40.pdf",
+    "status": "readable-fetch",
+    "fetchedAt": "2026-11-12T21:20:08.041708+00:00",
+    "sha256": "2a7e997e4a18abb2eb8cc0f0a50f2ec030c338d9edbba3e82958399f05c1e301",
+    "bytes": 1314134,
+    "format": "pdf"
+  },
+  {
+    "key": "dc",
+    "url": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3901",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "dclicense",
+    "url": "https://dlcp.dc.gov/page/steps-obtaining-basic-business-license-0",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "tncourt",
+    "url": "https://www.tncourts.gov/sites/default/files/docs/3-16-18-florida_home_care_givers_llc_v._sitters_etc._franchising_16-449-bc_0.pdf",
+    "status": "readable-fetch",
+    "fetchedAt": "2026-11-12T21:20:08.040479+00:00",
+    "sha256": "a99b68c702154590782b6b0b64ebb3d7ff7c03d100d0e6517a6f133acca16d49",
+    "bytes": 2419,
+    "format": "html"
+  },
+  {
+    "key": "nc",
+    "url": "https://house.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_66/Article_19.html",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "sc",
+    "url": "https://www.scstatehouse.gov/code/t39c057",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "ok",
+    "url": "https://securities.ok.gov/Act-Rules/Busopp.asp",
+    "status": "blocked",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "wv-equipment",
+    "url": "https://code.wvlegislature.gov/47-11F/",
+    "status": "fetched-for-review",
+    "sha256": "77471eb10100f131096f2e8ae4e8906cb593d35f3e4d4f8da116e78776f78110",
+    "bytes": 38184,
+    "fetchedAt": "2026-11-12T21:20:59.448471+00:00",
+    "format": "html"
+  },
+  {
+    "key": "utfaq",
+    "url": "https://commerce.utah.gov/dcp/for-businesses/opportunities/frequently-asked-questions/",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "pa",
+    "url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/1983/0/0084..HTM",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "tn",
+    "url": "https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer-protection/consumer-protection.html",
+    "status": "blocked",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "wv-equipment",
+    "url": "https://code.wvlegislature.gov/email/47-11F/",
+    "status": "read-fulltext",
+    "sha256": "249332c7526c0629979fcda9cef91084d0c745ee21d4a77e030ee5c2fb5a3a5d",
+    "bytes": 39217,
+    "fetchedAt": "2026-11-12T21:21:15.949986+00:00",
+    "format": "html"
+  },
+  {
+    "key": "ok-current",
+    "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os71.pdf",
+    "status": "fetched-for-review",
+    "sha256": "450d52dd68f6b4953849770a79ba1e3a8cf03710d4fad0a6dff304fc76e08d1a",
+    "bytes": 1045961,
+    "fetchedAt": "2026-11-12T21:22:14.460820+00:00",
+    "format": "pdf"
+  },
+  {
+    "key": "pa-current",
+    "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?ActNum=0084.&SessInd=0&SessYr=1983&txtType=PDF",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "tn-ag",
+    "url": "https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/resources/laws.html",
+    "status": "blocked",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "key": "dc-code",
+    "url": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3904",
+    "status": "blocked",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "ut-current",
+    "url": "https://le.utah.gov/xcode/Title13/Chapter15/C13-15-S201_2026050620260506.pdf",
+    "status": "fetched-for-review",
+    "sha256": "34052dd12f6cf453b2ea3cb2c9176a4a16cd99576ea8ea21147b0e649d4d3c18",
+    "bytes": 7775,
+    "fetchedAt": "2026-11-12T21:22:13.571696+00:00",
+    "format": "pdf"
+  }
+]

@@ -1,0 +1,341 @@
+[
+  {
+    "id": "b2-blocked-clia-scope",
+    "title": "Identify clinical-testing certificate scope",
+    "topic": "premises-opening",
+    "jurisdiction": "Federal",
+    "activity": "Laboratory testing for human health assessment, diagnosis, prevention or treatment",
+    "affectedParty": "Proposed laboratory operator",
+    "applicability": "Actual human testing, method complexity, certificate category and exemptions.",
+    "requirement": "Resolve CLIA certificate and laboratory responsibilities before offering the testing activity.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before service design, premises and testing commitments",
+    "deadline": "Before covered testing",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Test/menu list",
+      "Complexity evidence",
+      "Certificate pathway",
+      "Laboratory director and state questions"
+    ],
+    "sourceIds": [
+      "b2-blocked-clia"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No medical-practice, professional or state laboratory authorisation conclusion."
+    ],
+    "dependentPaths": [
+      "/industries/clinical-testing-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-homecare-split",
+    "title": "Separate home-care regulatory text from enforcement discretion",
+    "topic": "employment",
+    "jurisdiction": "Federal",
+    "activity": "Staffing domestic home-care services",
+    "affectedParty": "Operating employer and payroll lead",
+    "applicability": "Actual duties, employer relationships, work location and applicable current law.",
+    "requirement": "Evaluate current552.109 text and FAB2025-4 separately; do not treat WHD nonenforcement as an exemption decision.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before staffing and pricing",
+    "deadline": "Before employing workers or relying on an exemption",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Task and employer map",
+      "Wage/time model",
+      "Current text and policy versions",
+      "State and private-enforcement review"
+    ],
+    "sourceIds": [
+      "b2-blocked-homecare-regulation",
+      "b2-blocked-homecare-enforcement"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective-regulatory-text-with-separate-enforcement-policy",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "Current regulatory text and agency enforcement policy take different approaches; they concern different legal functions."
+    ],
+    "interpretationLimits": [
+      "Agency enforcement discretion does not repeal a regulation.",
+      "Final-rule, litigation and state-law status need review."
+    ],
+    "dependentPaths": [
+      "/industries/home-care-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-rrp-scope",
+    "title": "Review lead-renovation scope before covered advertising or work",
+    "topic": "premises-opening",
+    "jurisdiction": "Federal",
+    "activity": "Paid work disturbing paint in relevant pre1978 property",
+    "affectedParty": "Renovation firm and responsible renovator",
+    "applicability": "Target housing/child-occupied facility, work type, age, paint and exceptions.",
+    "requirement": "Confirm firm certification, qualified people, education and work-practice requirements for the actual job.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before advertising and undertaking covered renovation",
+    "deadline": "Before covered advertising or work",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Building age/use",
+      "Task scope",
+      "Paint/exemption evidence",
+      "Firm and individual certification"
+    ],
+    "sourceIds": [
+      "b2-blocked-rrp"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Minor-work, lead-free and other exceptions require their actual conditions.",
+      "State-authorised programs and contractor licensing are separate."
+    ],
+    "dependentPaths": [
+      "/industries/home-renovation/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-hvac-scope",
+    "title": "Check Section 608 technician scope for the equipment",
+    "topic": "employment",
+    "jurisdiction": "Federal",
+    "activity": "Service or disposal that could release relevant refrigerant",
+    "affectedParty": "Operating employer and technician",
+    "applicability": "Equipment/refrigerant/task within applicable certification rule.",
+    "requirement": "Identify the actual certification category and qualified technician before assigning covered work.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before dispatching service or purchasing capability",
+    "deadline": "Before covered work",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Equipment/refrigerant list",
+      "Task definition",
+      "Technician certification category",
+      "Recovery process"
+    ],
+    "sourceIds": [
+      "b2-blocked-hvac"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This overview does not establish the rules for every substitute refrigerant or state trade."
+    ],
+    "dependentPaths": [
+      "/industries/hvac-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-salon-products",
+    "title": "Resolve worker exposure when selecting salon products",
+    "topic": "employment",
+    "jurisdiction": "Federal",
+    "activity": "Salon use of products containing or releasing formaldehyde",
+    "affectedParty": "Salon employer",
+    "applicability": "Actual products and work practices create applicable formaldehyde/hazard communication duties.",
+    "requirement": "Determine and implement applicable exposure, information, training and protection requirements before product rollout.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before approving product and treatment process",
+    "deadline": "Before applicable exposure",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Product/SDS inventory",
+      "Treatment process",
+      "Exposure evaluation",
+      "Worker training and protection"
+    ],
+    "sourceIds": [
+      "b2-blocked-beauty"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No specific product safety or professional licensing conclusion."
+    ],
+    "dependentPaths": [
+      "/industries/hair-salons/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-usedoil-role",
+    "title": "Identify used-oil handling role and requirements",
+    "topic": "products-supply",
+    "jurisdiction": "Federal",
+    "activity": "Generating, storing or handling used oil",
+    "affectedParty": "Vehicle-service operator",
+    "applicability": "Actual material and generator/collection/transporter/processor role, with state overlays.",
+    "requirement": "Determine applicable Part279 controls, containers and waste-stream separation before shop operation.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Premises and waste-service design",
+    "deadline": "Before handling covered oil",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Waste-stream map",
+      "Container/handling plan",
+      "Contractor scope",
+      "State environmental requirements"
+    ],
+    "sourceIds": [
+      "b2-blocked-usedoil"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Waste mixtures, disposal, transport and other wastes require independent analysis."
+    ],
+    "dependentPaths": [
+      "/industries/vehicle-maintenance/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-foodfacility-scope",
+    "title": "Evaluate the actual food facility and product pathway",
+    "topic": "products-supply",
+    "jurisdiction": "Federal",
+    "activity": "Manufacturing, processing, packing, holding or importing food",
+    "affectedParty": "Relevant food operator/importer",
+    "applicability": "Product category, facility activity, interstate/import flow and actual exemptions.",
+    "requirement": "Determine applicable FDA/USDA responsibilities and food-facility registration/exemption path before launch.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before supply and production commitments",
+    "deadline": "Before covered activities",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Product and process",
+      "Facility roles",
+      "Importer allocation",
+      "Registration/exemption evidence"
+    ],
+    "sourceIds": [
+      "b2-blocked-foodfacility"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Food registration is not product approval.",
+      "Local retail permissions and product-specific requirements remain independent."
+    ],
+    "dependentPaths": [
+      "/industries/packaged-food-production/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-internet-renewals",
+    "title": "Review Internet negative-option consent and cancellation",
+    "topic": "relationship",
+    "jurisdiction": "Federal",
+    "activity": "Charging consumers through an Internet negative-option transaction",
+    "affectedParty": "Seller charging the consumer",
+    "applicability": "Transaction is within15U.S.C.8403, with other laws analysed separately.",
+    "requirement": "Disclose material terms before billing information, obtain express informed consent before charging and provide simple mechanisms to stop recurring charges.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Designing checkout and renewal process",
+    "deadline": "At the statutory pre-billing/pre-charge stages and during recurring charges",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Terms/version",
+      "Consent record",
+      "Stop-charge workflow",
+      "Payment responsibility"
+    ],
+    "sourceIds": [
+      "b2-blocked-rosca-current"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete state health-club, auto-renewal or FTC-rule analysis."
+    ],
+    "dependentPaths": [
+      "/industries/fitness-studios/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-blocked-alcohol-retail",
+    "title": "Check alcohol dealer registration and local licensing separately",
+    "topic": "premises-opening",
+    "jurisdiction": "Federal",
+    "activity": "Retail sale or offer of beverage alcohol",
+    "affectedParty": "Actual selling entity",
+    "applicability": "Business and location within TTB retailer registration rules; producer-specific treatment separate.",
+    "requirement": "Resolve required federal dealer registration and receipt records while separately checking state/local selling authority.",
+    "exceptions": "Actual exceptions depend on the governing provision and facts.",
+    "trigger": "Before adding alcohol or a location",
+    "deadline": "Before engaging in covered business",
+    "fee": null,
+    "renewal": "Confirm current authority and activity-specific renewal rules.",
+    "dependencies": [],
+    "evidence": [
+      "Selling entity/location",
+      "Dealer registration",
+      "Supplier/receipt records",
+      "State/local authorisation path"
+    ],
+    "sourceIds": [
+      "b2-blocked-alcohol-current"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:29:10.023446+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Federal dealer registration is not a state licence, import permit or authority for all channels."
+    ],
+    "dependentPaths": [
+      "/industries/alcohol-retail/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

@@ -1,0 +1,672 @@
+[
+  {
+    "id": "b2-territories-federal-location",
+    "title": "Federal Franchise Rule location language includes U.S. territories",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal / territories",
+    "activity": "Proposing a franchise operation in a U.S. territory",
+    "affectedParty": "Franchisor and franchise-sales lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "16 CFR § 436.2 expressly addresses offers/sales of franchises to be located in the United States of America or its territories, subject to applicable federal exemptions. Territorial and transaction-specific analyses remain separate.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Proposing a franchise operation in a U.S. territory",
+    "deadline": "Resolve classification/exemptions and disclosure timing before the relevant offer/sale commitments.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Proposed outlet location and relationship factsheet",
+      "Federal definition/exemption analysis",
+      "Current FDD and delivery record if required"
+    ],
+    "sourceIds": [
+      "fed-timing",
+      "fed-exemptions"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/american-samoa/",
+      "/territories/guam/",
+      "/territories/northern-mariana-islands/",
+      "/territories/puerto-rico/",
+      "/territories/us-virgin-islands/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-customs-location",
+    "title": "Customs territory differs from political territory",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. customs territory",
+    "activity": "Choosing supply routes and landed-cost assumptions",
+    "affectedParty": "Supply-chain lead and importer",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "19 CFR § 101.1 includes only the states, District of Columbia and Puerto Rico within the U.S. customs territory. Do not apply a mainland import route or rate to another territory solely because it is U.S. territory.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Choosing supply routes and landed-cost assumptions",
+    "deadline": "Before quoting landed cost, ordering regulated goods or shipping.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Product specification, origin, HS classification and route",
+      "Identity of importer and receiving entity",
+      "Applicable territorial and federal customs/quarantine instructions"
+    ],
+    "sourceIds": [
+      "b2-territories-customs-boundary"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/comparisons/us-territories-customs-boundaries/",
+      "/territories/american-samoa/",
+      "/territories/guam/",
+      "/territories/northern-mariana-islands/",
+      "/territories/puerto-rico/",
+      "/territories/us-virgin-islands/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-pr-dealer-relationship",
+    "title": "Puerto Rico Law 75 requires a separate dealer relationship review",
+    "topic": "relationship",
+    "jurisdiction": "Puerto Rico",
+    "activity": "Appointing, changing, declining to renew or terminating a Puerto Rico dealer/service arrangement",
+    "affectedParty": "Brand owner/principal and relationship-contract lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "The official consolidated Law 75 text defines a dealer relationship by actual Puerto Rico distribution/service responsibilities and addresses termination, impairment and nonrenewal without just cause. Contract labels and a fixed term do not alone resolve this workstream.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Appointing, changing, declining to renew or terminating a Puerto Rico dealer/service arrangement",
+    "deadline": "Before the proposed contractual commitment or relationship change.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Actual Puerto Rico market-development and service responsibilities",
+      "Existing contract and proposed changes",
+      "Performance and market evidence supporting proposed action"
+    ],
+    "sourceIds": [
+      "state-pr-law"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Official Spanish consolidation revised November 2020; controlling cases, later amendments and transaction-specific dealer status remain to be checked.",
+      "Do not infer that every franchise qualifies, that every change is prohibited, that statutory damage factors are automatically awarded, or that all forum/arbitration clauses are invalid."
+    ],
+    "dependentPaths": [
+      "/territories/puerto-rico/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-guam-qualification",
+    "title": "Guam foreign-corporation authority and business license are separate",
+    "topic": "corporate-tax",
+    "jurisdiction": "Guam",
+    "activity": "An off-island corporation proposes Guam activity",
+    "affectedParty": "The corporation proposing to transact business and company secretary",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "18 GCA § 7102(a) requires both business license and certificate of authority before a foreign corporation transacts business in Guam, with enumerated activities that alone are not transacting business. Entity form/activity must be assessed first.",
+    "exceptions": "Review § 7102(b)–(c) and the correct rules for the actual entity form; a licensing label is not an activity analysis.",
+    "trigger": "An off-island corporation proposes Guam activity",
+    "deadline": "Before transacting the covered business.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-guam-foreign"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/guam/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-guam-service-license",
+    "title": "Guam B2B services need the correct operating-license classification",
+    "topic": "premises-opening",
+    "jurisdiction": "Guam",
+    "activity": "Selecting a Guam service activity and premises",
+    "affectedParty": "Local operating entity and operating lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "11 GCA Chapter 76 describes an annual service license for covered non-professional service activities, excludes employee services from that description and provides an exemption where other provisions require the service license. Chapter 70 separately sets general licensing obligations.",
+    "exceptions": "Review service definition, § 76103 and profession/trade/sector rules; no blanket classification for all cleaning, technical or professional services.",
+    "trigger": "Selecting a Guam service activity and premises",
+    "deadline": "Before covered business starts; recheck annual license obligations.",
+    "fee": null,
+    "renewal": "Annual under the cited service-license provision; confirm current operational renewal process.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-guam-license",
+      "b2-territories-guam-service",
+      "b2-territories-guam-blpc"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/guam/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-usvi-license-sequence",
+    "title": "USVI business licensing coordinates separate agency evidence",
+    "topic": "premises-opening",
+    "jurisdiction": "U.S. Virgin Islands",
+    "activity": "Applying for a Virgin Islands business license or changing principals",
+    "affectedParty": "Local operator, company secretary and premises lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "DLCA lists entity/trade-name registration, initial tax-clearance, police review, zoning and applicable fire/health/professional review as licensing workstreams. Applicability depends on the license category and location; its renewal tax-clearance instruction differs from initial issue.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Applying for a Virgin Islands business license or changing principals",
+    "deadline": "Required material must be on file before license issuance, subject to the published renewal distinction.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Operating entity/name registration",
+      "Category-specific DLCA application and review records",
+      "Applicable tax, zoning, fire, health or board evidence"
+    ],
+    "sourceIds": [
+      "b2-territories-usvi-licensing"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "DLCA page has some old agency links; confirm current filing endpoints.",
+      "No conclusion here about franchise registration, dealer-law protections, federal/territorial tax allocation or every profession."
+    ],
+    "dependentPaths": [
+      "/territories/us-virgin-islands/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-cnmi-location-license",
+    "title": "CNMI licenses attach to each business line and location",
+    "topic": "premises-opening",
+    "jurisdiction": "Northern Mariana Islands",
+    "activity": "Adding a line of business, taking over an operation or opening another CNMI location",
+    "affectedParty": "Operating entity and local operating lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "4 CMC § 5611 requires a license before engaging in or continuing a business and one general license for each line of business at each Commonwealth location. Licenses are valid one year and nontransferable; fees are established by regulation.",
+    "exceptions": "The same section separately addresses temporary-event licenses and other licensing fields; investigate the actual category.",
+    "trigger": "Adding a line of business, taking over an operation or opening another CNMI location",
+    "deadline": "Before engaging in or continuing the covered business.",
+    "fee": null,
+    "renewal": "One-year term; renewal on expiration under § 5611(e). Confirm the current Finance process.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-cnmi-5611"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/northern-mariana-islands/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-cnmi-cw1-sequence",
+    "title": "CNMI CW-1 staffing involves labor certification before the USCIS petition",
+    "topic": "immigration",
+    "jurisdiction": "Northern Mariana Islands",
+    "activity": "A CNMI employer proposes to sponsor a worker under CW-1",
+    "affectedParty": "Petitioning employer and people lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "For the CW-1 route, the DOL describes employer prerequisites, prevailing-wage determination, temporary labor certification and U.S. worker recruitment. The employer needs approved temporary labor certification before the USCIS petition; certification does not itself authorise employment.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "A CNMI employer proposes to sponsor a worker under CW-1",
+    "deadline": "Sequence the program requirements before filing/work; exact case timing and availability remain unresolved.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Job description, place of employment and employer relationship",
+      "Prevailing-wage determination",
+      "Recruitment and labor-certification records",
+      "Separate USCIS approval/status evidence"
+    ],
+    "sourceIds": [
+      "b2-territories-cnmi-cw1"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/northern-mariana-islands/",
+      "/territories/northern-mariana-islands/cw1-staffing-dependencies/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-as-corporation-permit",
+    "title": "American Samoa foreign corporations have a separate permit workstream",
+    "topic": "corporate-tax",
+    "jurisdiction": "American Samoa",
+    "activity": "A foreign business corporation proposes to transact business in American Samoa",
+    "affectedParty": "Company secretary and operating entity",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "The Attorney General’s checklist describes the ASCA foreign-corporation permit application, including certified company documents, authorisation and resident-agent information, and separately requires business licensing before transacting business.",
+    "exceptions": "The checklist excludes domestic and nonprofit corporations from the named foreign-corporation law; check correct entity-specific rules.",
+    "trigger": "A foreign business corporation proposes to transact business in American Samoa",
+    "deadline": "Before transacting covered business.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-as-foreign"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/american-samoa/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-as-ownership-review",
+    "title": "American Samoa licensing can require ownership-linked commission review",
+    "topic": "premises-opening",
+    "jurisdiction": "American Samoa",
+    "activity": "Designing ownership and applying for a territorial operating license",
+    "affectedParty": "Applicant entity and expansion lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "The official 2024 administrative compilation describes Territorial Planning Commission review linked to the applicant and ownership structure, and separate immigration-board review of business licenses submitted by aliens. Current definitions and exact category require confirmation.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Designing ownership and applying for a territorial operating license",
+    "deadline": "Resolve the applicable review route before operation; do not assume incorporation or a brand license removes it.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-as-commission",
+      "b2-territories-as-license-renewal"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The administrative compilation is the 2024 edition; statutory definitions and later regulations must be reviewed for the actual applicant.",
+      "No applicant is classified as American Samoan, resident, alien or otherwise eligible by this website."
+    ],
+    "dependentPaths": [
+      "/territories/american-samoa/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-as-renewal",
+    "title": "American Samoa Commerce identifies calendar-year license renewal",
+    "topic": "premises-opening",
+    "jurisdiction": "American Samoa",
+    "activity": "Maintaining a licensed American Samoa business",
+    "affectedParty": "Operating lead and finance lead",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "The current Department of Commerce page states business licenses expire at calendar-year end and the renewal period runs October 1–December 31. It separately describes late-fee and suspension consequences; keep the issued license and current renewal instructions.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Maintaining a licensed American Samoa business",
+    "deadline": "Renew during the published October 1–December 31 period; check actual current license conditions.",
+    "fee": null,
+    "renewal": "Annually; the cited Commerce page explains post-January 1 late fee and January 31 suspension treatment.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-as-license-renewal"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/american-samoa/",
+      "/territories/american-samoa/people-and-operating-approvals/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-as-mobility",
+    "title": "American Samoa has a separate entry and residency approval process",
+    "topic": "immigration",
+    "jurisdiction": "American Samoa",
+    "activity": "A person proposes travel, residence or physical work in American Samoa",
+    "affectedParty": "People lead, eligible sponsor and proposed worker",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "Territorial Legal Affairs explains that entry rules differ from the U.S. and identifies separate visitor and employment/family-based residency routes. Its residency page instructs that petitions be approved before entry. A mainland visa or business license does not by itself resolve this.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "A person proposes travel, residence or physical work in American Samoa",
+    "deadline": "Check the actual route and approvals before travel or work; no eligibility conclusion is made.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Nationality and current status as factual inputs, without uploading identity documents to this site",
+      "Exact proposed activity, duration and employer/sponsor",
+      "Territorial approval evidence held outside this educational tool"
+    ],
+    "sourceIds": [
+      "b2-territories-as-entry",
+      "b2-territories-as-residence"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/territories/american-samoa/",
+      "/territories/american-samoa/people-and-operating-approvals/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-local-pittsburgh",
+    "title": "Pittsburgh: an outside service business may still need city registration",
+    "topic": "premises-opening",
+    "jurisdiction": "Pittsburgh",
+    "activity": "Performing covered work/services in Pittsburgh or establishing a covered place of business.",
+    "affectedParty": "Local operating entity; operating, finance and premises leads",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "City registration can cover a business located outside Pittsburgh that performs work or services in whole or part in the city. The official page quotes a 15-day registration provision and says registration is not complete until Finance issues verification.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Performing covered work/services in Pittsburgh or establishing a covered place of business.",
+    "deadline": "Before relying on registration; investigate the cited 15-day rule against actual commencement facts.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-local-pittsburgh"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/cities/pittsburgh/outside-service-registration/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-local-atlanta",
+    "title": "Atlanta: connect zoning approval to the occupation-tax application",
+    "topic": "premises-opening",
+    "jurisdiction": "Atlanta",
+    "activity": "Applying for a new Atlanta occupation-tax certificate at the actual city location.",
+    "affectedParty": "Local operating entity; operating, finance and premises leads",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "The current ATL311 instruction separates the ATLBIZ occupation-tax application from a location zoning review through Accela and applicable regulatory permits. Issuance follows required documents and payment; a submitted account is not the certificate.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Applying for a new Atlanta occupation-tax certificate at the actual city location.",
+    "deadline": "Before covered operation; complete the applicable prerequisites rather than treating a submitted form as issuance.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-local-atlanta"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/cities/atlanta/zoning-and-occupation-tax/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-local-miami",
+    "title": "City of Miami: separate the use certificate, city receipt and county receipt",
+    "topic": "premises-opening",
+    "jurisdiction": "Miami",
+    "activity": "Opening or conducting covered business within the City of Miami; identify whether the stated CU exception applies.",
+    "affectedParty": "Local operating entity; operating, finance and premises leads",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "The City of Miami generally sequences a Certificate of Use before a Business Tax Receipt, with stated exceptions. It also directs businesses to a separate Miami-Dade County local business tax receipt.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Opening or conducting covered business within the City of Miami; identify whether the stated CU exception applies.",
+    "deadline": "Obtain the applicable city/county records before covered operation.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-local-miami"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/cities/miami/city-county-business-tax/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-local-jacksonville",
+    "title": "Jacksonville: a tax receipt does not finish the Certificate of Use task",
+    "topic": "premises-opening",
+    "jurisdiction": "Jacksonville",
+    "activity": "Starting covered business activity or expanding a commercial operation in Jacksonville/Duval County.",
+    "affectedParty": "Local operating entity; operating, finance and premises leads",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "Jacksonville’s tax page explicitly separates its Certificate of Use for new/expanding commercial business from obtaining the Local Business Tax Receipt. Beach municipalities and Baldwin have additional municipal tax routes.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Starting covered business activity or expanding a commercial operation in Jacksonville/Duval County.",
+    "deadline": "Local tax receipt before covered business; Certificate of Use and other approvals have their own applicable gates.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-local-jacksonville"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/cities/jacksonville/tax-receipt-versus-use/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-local-kansas-city",
+    "title": "Kansas City, Missouri: zoning, business license and trade permissions stay separate",
+    "topic": "premises-opening",
+    "jurisdiction": "Kansas City",
+    "activity": "New KCMO business, address change or regulated activity.",
+    "affectedParty": "Local operating entity; operating, finance and premises leads",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "Kansas City’s official BizCare guide identifies zoning clearance for new KCMO-address businesses and address changes, city registration/licensing, and additional industry requirements. The general guide acknowledges state-law exemptions; actual category still needs checking.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "New KCMO business, address change or regulated activity.",
+    "deadline": "Resolve applicable prerequisites before license issuance and operation.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-local-kansas-city"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/cities/kansas-city/zoning-license-sector/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b2-territories-local-baltimore",
+    "title": "Baltimore City: choose the correct clerk and license category",
+    "topic": "premises-opening",
+    "jurisdiction": "Baltimore",
+    "activity": "Selecting the business-license category for a business located in the independent City of Baltimore.",
+    "affectedParty": "Local operating entity; operating, finance and premises leads",
+    "applicability": "Only the stated statutory or administrative process and its conditions; no overall clearance.",
+    "requirement": "Maryland’s Comptroller separates sales/use-tax registration from potentially applicable Clerk of Circuit Court business-license categories, issued in the county or Baltimore City where the business is located. Confirm the exact activity and the city versus county office.",
+    "exceptions": "Applicability and any separate exemption require review against the actual activity and parties.",
+    "trigger": "Selecting the business-license category for a business located in the independent City of Baltimore.",
+    "deadline": "Before covered licensed activity; category applicability remains to be confirmed.",
+    "fee": null,
+    "renewal": "Recheck when activity, location, ownership or law changes.",
+    "dependencies": [],
+    "evidence": [
+      "Activity, location and legal-entity factsheet",
+      "Dated official instructions",
+      "Issued record or documented applicability analysis"
+    ],
+    "sourceIds": [
+      "b2-territories-local-baltimore",
+      "b2-territories-baltimore-clerk"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12T21:28:57Z",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete territorial legal, tax, employment, immigration or sector review."
+    ],
+    "dependentPaths": [
+      "/cities/baltimore/city-versus-county-licenses/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

@@ -7,7 +7,13 @@ const flag=name=>{const i=args.indexOf(name);return i>=0?args[i+1]:undefined};
 function datasetPath(name){if(name!==basename(name)||!name.endsWith('.json'))throw Error('Dataset must be a JSON filename inside src/data');return resolve('src/data',name);}
 async function loadAll(){let all=[];for(const f of (await readdir('src/data')).filter(f=>f.endsWith('.json')))all.push(...await read(datasetPath(f)));return all;}
 try{
- if(command==='propose'){
+ if(command==='resolve-source'){
+  const issueId=args[1],reviewer=flag('--reviewer'),date=flag('--date'),evidence=flag('--evidence'),decision=flag('--decision');
+  const allowed=['retrieval-confirmed','no-material-change','interpretation-updated','not-a-source-change'];
+  if(!issueId||!reviewer||!/^\d{4}-\d{2}-\d{2}$/.test(date??'')||!evidence?.trim()||!allowed.includes(decision)||!args.includes('--review-complete'))throw Error('Resolve requires ISSUE_ID --reviewer ID --date YYYY-MM-DD --evidence REFERENCE --decision retrieval-confirmed|no-material-change|interpretation-updated|not-a-source-change --review-complete');
+  const queuePath=resolve(process.env.SOURCE_REVIEW_DIRECTORY||'artifacts','editorial-review-queue.json');const queue=await read(queuePath);const item=queue.find(r=>r.id===issueId);if(!item)throw Error('Review issue not found');if(item.status==='resolved')throw Error('Review issue already resolved');
+  item.status='resolved';item.resolution={reviewer,date,evidence,decision,recordedAt:new Date().toISOString(),substantiveVerificationChanged:false,publicContentChanged:false};await writeFile(queuePath,JSON.stringify(queue,null,2)+'\n');console.log(JSON.stringify({issueId,status:'resolved',publicContentChanged:false,substantiveVerificationChanged:false}));
+ }else if(command==='propose'){
   const [file,id,patchPath]=args.slice(1);if(!file||!id||!patchPath)throw Error('Usage: node scripts/editorial.mjs propose DATASET.json RECORD_ID PATCH.json');
   const records=await read(datasetPath(file)),record=records.find(r=>r.id===id);if(!record)throw Error('Record not found');const patch=await read(resolve(patchPath));if(Array.isArray(patch)||!patch||typeof patch!=='object'||patch.id&&patch.id!==id)throw Error('Patch must be an object and cannot change record ID');
   const proposal={id:randomUUID(),createdAt:new Date().toISOString(),dataset:file,recordId:id,originalHash:hash(record),before:record,after:{...record,...patch,id},status:'proposed'};await writeFile(resolve(dir,proposal.id+'.json'),JSON.stringify(proposal,null,2)+'\n');console.log(JSON.stringify({proposalId:proposal.id,status:'proposed',publicContentChanged:false}));

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "github-initial",
+    "runAt": "2026-11-12T21:03:07.295Z",
+    "environment": "GitHub Actions",
+    "checked": 102,
+    "retrievalFailures": 11,
+    "hashChanges": 0,
+    "openReviewItems": 11,
+    "workflow": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43306317917",
+    "issues": [
+      {
+        "sourceId": "fed-treaties",
+        "error": "HTTP 403",
+        "paths": [
+          "/cases/singapore-subsidiary-e2-ownership/",
+          "/us-expansion/e2-nationality-investment/",
+          "/from/singapore/",
+          "/from/malaysia/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-san-francisco",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/cities/san-francisco/service-business-registration/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-raleigh",
+        "error": "HTTP 403",
+        "paths": [
+          "/cities/raleigh/business-license-and-permits/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-charlotte",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/cities/charlotte/city-county-permitting/"
+        ]
+      },
+      {
+        "sourceId": "geo-treaty-countries",
+        "error": "HTTP 403",
+        "paths": [
+          "/from/singapore/",
+          "/from/malaysia/"
+        ]
+      },
+      {
+        "sourceId": "pr-lockout",
+        "error": "HTTP 403",
+        "paths": [
+          "/industries/industrial-maintenance/"
+        ]
+      },
+      {
+        "sourceId": "pr-cleaning",
+        "error": "HTTP 403",
+        "paths": [
+          "/cases/cleaning-product-us-supply/",
+          "/industries/commercial-cleaning/"
+        ]
+      },
+      {
+        "sourceId": "state-tx-faq",
+        "error": "HTTP 403",
+        "paths": [
+          "/states/texas/"
+        ]
+      },
+      {
+        "sourceId": "state-mn-assurance",
+        "error": "Only public HTTPS source hosts on port 443 are allowed",
+        "paths": [
+          "/states/minnesota/",
+          "/states/minnesota/franchise-support-funding/"
+        ]
+      },
+      {
+        "sourceId": "state-mi-notice",
+        "error": "The operation was aborted due to timeout",
+        "paths": [
+          "/states/michigan/"
+        ]
+      },
+      {
+        "sourceId": "state-mi-disclosure",
+        "error": "The operation was aborted due to timeout",
+        "paths": [
+          "/states/michigan/",
+          "/states/michigan/franchise-disclosure-timing/"
+        ]
+      }
+    ],
+    "scope": "Technical source fetch and hash baseline only. No substantive review date or public interpretation changed."
+  },
+  {
+    "id": "cloud-continuation",
+    "runAt": "2026-11-12T21:45:27.952Z",
+    "environment": "Cloud continuation review",
+    "checked": 247,
+    "retrievalFailures": 6,
+    "hashChanges": 0,
+    "openReviewItems": 6,
+    "workflow": null,
+    "issues": [
+      {
+        "sourceId": "b2-east-co-2026labor",
+        "error": "Source exceeds 4 MiB evidence cap",
+        "paths": [
+          "/states/colorado/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-indonesia-faq",
+        "error": "getaddrinfo ENOTFOUND ditjenpen.kemendag.go.id",
+        "paths": [
+          "/from/indonesia/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-timor-agency",
+        "error": "getaddrinfo ENOTFOUND tradeinvest.tl",
+        "paths": [
+          "/from/timor-leste/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-guam-blpc",
+        "error": "getaddrinfo ENOTFOUND bsp.guam.gov",
+        "paths": [
+          "/territories/guam/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-as-commission",
+        "error": "Source exceeds 4 MiB evidence cap",
+        "paths": [
+          "/territories/american-samoa/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-tn-consumer-index",
+        "error": "HTTP 403",
+        "paths": [
+          "/states/tennessee/"
+        ]
+      }
+    ],
+    "scope": "Initial continuation technical pass: 241 baselines and six retrieval issues. One large official PDF was subsequently fetched after increasing the bounded PDF allowance; its technical resolution is retained separately. Three public agency pages were also retrieved through the inherited proxy despite local DNS precheck failures. No substantive verification date or public interpretation was changed by a fetch."
+  }
+]

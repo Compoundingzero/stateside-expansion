@@ -1,5 +1,5 @@
 {
-  "name": "stateside-expansion-desk",
+  "name": "eln-expansion-network",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -10,7 +10,7 @@
     "dev": "astro dev --host 0.0.0.0",
     "build": "node scripts/validate-data.mjs && astro build",
     "preview": "astro preview --host 0.0.0.0",
-    "start": "node server.mjs",
+    "start": "node --env-file-if-exists=.env server.mjs",
     "test": "tsx --test src/lib/*.test.ts tests/*.test.ts",
     "check:sources": "node scripts/check-sources.mjs",
     "report": "node scripts/report.mjs"

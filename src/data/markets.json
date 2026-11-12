@@ -176,12 +176,9 @@
     "sourceIds": [],
     "processes": [],
     "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+      "Primary full-text process still unavailable in continuation batch: official pages/PDFs returned403",
+      "Obtain an accessible official instruction/form/code text before publishing process claims. Search snippets were not counted as verification.",
+      "All address, sector, tax, employment and operating requirements remain unresearched."
     ],
     "status": "not-researched",
     "topics": {
@@ -1031,17 +1028,36 @@
     "county": "Allegheny County",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 404: Not Found. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-local-pittsburgh"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "New Business Registration",
+        "trigger": "Performing covered work/services in Pittsburgh or establishing a covered place of business.",
+        "authority": "Pittsburgh Department of Finance",
+        "summary": "City registration can cover a business located outside Pittsburgh that performs work or services in whole or part in the city. The official page quotes a 15-day registration provision and says registration is not complete until Finance issues verification.",
+        "url": "https://www.pittsburghpa.gov/City-Government/Finance-Budget/New-Business-Registration",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-local-pittsburgh"
+        ],
+        "affectedParty": "The operating entity, not automatically the foreign brand owner.",
+        "responsibleRole": "Local operating lead with finance/premises/sector support.",
+        "evidence": [
+          "Dated instructions and activity/address factsheet",
+          "Applicable application, approval and issued record"
+        ],
+        "deadline": "Before relying on registration; investigate the cited 15-day rule against actual commencement facts.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, municipal boundaries and site use",
+      "Independent county/special-district, sector and professional requirements",
+      "Current fees, taxes, employment and insurance requirements beyond the narrow reviewed process"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1050,7 +1066,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -1064,17 +1080,28 @@
     "county": "Cook and DuPage counties; parcel-specific county needed",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-chicago-clerk-role"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Identify BACP versus Clerk roles",
+        "trigger": "Choosing where to obtain ordinary business-license application/review help.",
+        "authority": "Chicago Office of the City Clerk / BACP",
+        "summary": "The Clerk prints/issues already-approved licenses but does not review ordinary applications or accept payment; it refers those questions to BACP. This narrow authority distinction does not establish the application prerequisites.",
+        "url": "https://www.chicityclerk.com/business-licenses",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-chicago-clerk-role"
+        ]
+      }
+    ],
+    "unresolved": [
+      "Current BACP category-specific application, zoning, permit, inspection, fee and renewal process",
+      "Exact premises and any professional/trade rules",
+      "Clerk amusement-device exception if relevant"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1083,10 +1110,11 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
-    }
+    },
+    "evidenceScope": "Authority referral and print/issuance role only; BACP category-specific application process is not yet researched."
   },
   {
     "id": "local-minneapolis",
@@ -1155,12 +1183,9 @@
     "sourceIds": [],
     "processes": [],
     "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+      "Primary full-text process still unavailable in continuation batch: official pages/PDFs returned403",
+      "Obtain an accessible official instruction/form/code text before publishing process claims. Search snippets were not counted as verification.",
+      "All address, sector, tax, employment and operating requirements remain unresearched."
     ],
     "status": "not-researched",
     "topics": {
@@ -1243,12 +1268,9 @@
     "sourceIds": [],
     "processes": [],
     "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: JavaScript-only or unavailable page. Queue a fresh primary-source review; no local clearance is inferred."
+      "Primary full-text process still unavailable in continuation batch: official page exposed only a JavaScript shell, not substantive text",
+      "Obtain an accessible official instruction/form/code text before publishing process claims. Search snippets were not counted as verification.",
+      "All address, sector, tax, employment and operating requirements remain unresearched."
     ],
     "status": "not-researched",
     "topics": {
@@ -1273,17 +1295,36 @@
     "county": "Fulton and DeKalb counties; parcel-specific county needed",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-local-atlanta"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Registering a New Business in the City of Atlanta",
+        "trigger": "Applying for a new Atlanta occupation-tax certificate at the actual city location.",
+        "authority": "City of Atlanta ATL311 / Office of Revenue",
+        "summary": "The current ATL311 instruction separates the ATLBIZ occupation-tax application from a location zoning review through Accela and applicable regulatory permits. Issuance follows required documents and payment; a submitted account is not the certificate.",
+        "url": "https://www.atl311.com/en-us/knowledgearticle/?code=KB0012728",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-local-atlanta"
+        ],
+        "affectedParty": "The operating entity, not automatically the foreign brand owner.",
+        "responsibleRole": "Local operating lead with finance/premises/sector support.",
+        "evidence": [
+          "Dated instructions and activity/address factsheet",
+          "Applicable application, approval and issued record"
+        ],
+        "deadline": "Before covered operation; complete the applicable prerequisites rather than treating a submitted form as issuance.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, municipal boundaries and site use",
+      "Independent county/special-district, sector and professional requirements",
+      "Current fees, taxes, employment and insurance requirements beyond the narrow reviewed process"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1292,7 +1333,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -1471,17 +1512,36 @@
     "county": "Miami-Dade County",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 503: Service Unavailable. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-local-miami"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Get a Business Tax Receipt",
+        "trigger": "Opening or conducting covered business within the City of Miami; identify whether the stated CU exception applies.",
+        "authority": "City of Miami Business Licensing",
+        "summary": "The City of Miami generally sequences a Certificate of Use before a Business Tax Receipt, with stated exceptions. It also directs businesses to a separate Miami-Dade County local business tax receipt.",
+        "url": "https://www.miami.gov/Business-Licenses/Business-Licensing/Get-a-Business-Tax-Receipt-BTR",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-local-miami"
+        ],
+        "affectedParty": "The operating entity, not automatically the foreign brand owner.",
+        "responsibleRole": "Local operating lead with finance/premises/sector support.",
+        "evidence": [
+          "Dated instructions and activity/address factsheet",
+          "Applicable application, approval and issued record"
+        ],
+        "deadline": "Obtain the applicable city/county records before covered operation.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, municipal boundaries and site use",
+      "Independent county/special-district, sector and professional requirements",
+      "Current fees, taxes, employment and insurance requirements beyond the narrow reviewed process"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1490,7 +1550,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -1614,17 +1674,36 @@
     "county": "Duval County; beach municipalities need separate check",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Southeast (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 404: Not Found. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-local-jacksonville"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Local Business Tax Receipt",
+        "trigger": "Starting covered business activity or expanding a commercial operation in Jacksonville/Duval County.",
+        "authority": "Duval County Tax Collector",
+        "summary": "Jacksonville’s tax page explicitly separates its Certificate of Use for new/expanding commercial business from obtaining the Local Business Tax Receipt. Beach municipalities and Baldwin have additional municipal tax routes.",
+        "url": "https://taxcollector.jacksonville.gov/taxes/local-business-tax",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-local-jacksonville"
+        ],
+        "affectedParty": "The operating entity, not automatically the foreign brand owner.",
+        "responsibleRole": "Local operating lead with finance/premises/sector support.",
+        "evidence": [
+          "Dated instructions and activity/address factsheet",
+          "Applicable application, approval and issued record"
+        ],
+        "deadline": "Local tax receipt before covered business; Certificate of Use and other approvals have their own applicable gates.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, municipal boundaries and site use",
+      "Independent county/special-district, sector and professional requirements",
+      "Current fees, taxes, employment and insurance requirements beyond the narrow reviewed process"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1633,7 +1712,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -1812,17 +1891,38 @@
     "county": "Independent City of Baltimore; not Baltimore County",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Mid-Atlantic (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 404: Not Found. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-local-baltimore",
+      "b2-territories-baltimore-clerk"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Sales and Use Tax Questions Help: other licenses",
+        "trigger": "Selecting the business-license category for a business located in the independent City of Baltimore.",
+        "authority": "Comptroller of Maryland",
+        "summary": "Maryland’s Comptroller separates sales/use-tax registration from potentially applicable Clerk of Circuit Court business-license categories, issued in the county or Baltimore City where the business is located. Confirm the exact activity and the city versus county office.",
+        "url": "https://interactive.marylandtaxes.gov/webapps/comptrollercra/help/Help8.htm",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-local-baltimore",
+          "b2-territories-baltimore-clerk"
+        ],
+        "affectedParty": "The operating entity, not automatically the foreign brand owner.",
+        "responsibleRole": "Local operating lead with finance/premises/sector support.",
+        "evidence": [
+          "Dated instructions and activity/address factsheet",
+          "Applicable application, approval and issued record"
+        ],
+        "deadline": "Before covered licensed activity; category applicability remains to be confirmed.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, municipal boundaries and site use",
+      "Independent county/special-district, sector and professional requirements",
+      "Current fees, taxes, employment and insurance requirements beyond the narrow reviewed process"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1831,7 +1931,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -1955,17 +2055,36 @@
     "county": "Jackson, Clay, Platte and Cass counties; parcel-specific county needed",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Midwest (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Exact street address, incorporated/unincorporated status and county allocation",
-      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
-      "Sector and professional licenses; local/state employment and tax obligations",
-      "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed",
-      "Official source retrieval failed or did not expose substantive content: HTTP Error 403: Forbidden. Queue a fresh primary-source review; no local clearance is inferred."
+    "sourceIds": [
+      "b2-territories-local-kansas-city"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "KCMO Business Registration Guide",
+        "trigger": "New KCMO business, address change or regulated activity.",
+        "authority": "Kansas City Missouri BizCare",
+        "summary": "Kansas City’s official BizCare guide identifies zoning clearance for new KCMO-address businesses and address changes, city registration/licensing, and additional industry requirements. The general guide acknowledges state-law exemptions; actual category still needs checking.",
+        "url": "https://bizcare.kcmo.gov/biz-reg-guide",
+        "status": "verified",
+        "sourceIds": [
+          "b2-territories-local-kansas-city"
+        ],
+        "affectedParty": "The operating entity, not automatically the foreign brand owner.",
+        "responsibleRole": "Local operating lead with finance/premises/sector support.",
+        "evidence": [
+          "Dated instructions and activity/address factsheet",
+          "Applicable application, approval and issued record"
+        ],
+        "deadline": "Resolve applicable prerequisites before license issuance and operation.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact street address, municipal boundaries and site use",
+      "Independent county/special-district, sector and professional requirements",
+      "Current fees, taxes, employment and insurance requirements beyond the narrow reviewed process"
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1974,7 +2093,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }

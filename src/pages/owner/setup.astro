@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import OwnerBoard from '../../components/OwnerBoard';
+import '../../styles/submissions.css';
+---
+<Base title="Set up ELN owner access" description="Set the password for private ELN owner access." noindex hideAction>
+  <div class="container owner-page"><div class="page-intro"><span class="eyebrow">ELN · PRIVATE SETUP</span><h1>Set owner access.</h1><p class="lede">Choose a password for the private submissions board.</p></div><OwnerBoard mode="setup" client:load/></div>
+</Base>

@@ -1,0 +1,38 @@
+[
+  {
+    "publicationDate": null,
+    "effectiveDate": null,
+    "fetchedAt": "2026-11-12T21:30:25.830143Z",
+    "substantiveVerifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "legalStatus": "Current published provider document; account-specific application remains to be confirmed",
+    "reviewerStatus": "AI-assisted primary-provider source review; no professional legal review",
+    "accessStatus": "retrieved-and-read",
+    "id": "ops-railway-logs",
+    "url": "https://docs.railway.com/observability/logs",
+    "title": "Railway Logs documentation \u2014 log retention",
+    "authority": "Railway",
+    "type": "official-guidance",
+    "section": "Log retention",
+    "supportingPassage": "Upgrading plans will immediately restore logs that were previously outside of the retention period.",
+    "notes": "The table gives Hobby a seven-day history. Because upgrades restore older history, this is not proof of permanent deletion of every provider record after seven days. Separate operational/account/security processing remains subject to applicable provider terms."
+  },
+  {
+    "publicationDate": null,
+    "effectiveDate": null,
+    "fetchedAt": "2026-11-12T21:30:25.830143Z",
+    "substantiveVerifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "legalStatus": "Current published provider document; account-specific application remains to be confirmed",
+    "reviewerStatus": "AI-assisted primary-provider source review; no professional legal review",
+    "accessStatus": "retrieved-and-read",
+    "id": "ops-railway-dpa",
+    "url": "https://railway.com/legal/dpa",
+    "title": "Railway Data Processing Addendum",
+    "authority": "Railway Corporation",
+    "type": "primary",
+    "section": "Company\u2019s Role as a Controller; Execution; Exhibit A",
+    "supportingPassage": "This DPA will become legally binding upon Company\u2019s execution in the signature block below.",
+    "notes": "Read the provider document\u2019s separate roles for customer data versus company account/usage data, execution provision and processing duration. Publication of a DPA does not prove execution for this account. No agreement was signed by the assistant."
+  }
+]

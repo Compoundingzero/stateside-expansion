@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import SubmissionForm from '../components/SubmissionForm';
+import '../styles/submissions.css';
+---
+<Base title="Contact ELN" description="Send an enquiry to ELN, the Enterprise Licensing Network." hideAction>
+  <div class="container submission-page"><div class="submission-layout"><div class="page-intro"><span class="eyebrow">ENTERPRISE LICENSING NETWORK</span><h1>Contact ELN.</h1><p class="lede">Leave your comments and an email address for a reply.</p></div><div class="submission-panel"><SubmissionForm kind="enquiry" client:load/></div></div></div>
+</Base>

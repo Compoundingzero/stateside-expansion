@@ -1,0 +1,84 @@
+[
+  {
+    "id": "us-california",
+    "name": "California",
+    "slug": "california",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b2-blocked-ca-statutes",
+      "b2-blocked-ca-franchise-relationship"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "unresolved",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation2026-11-12: actual DFPI instructions/franchise/brokerFAQ and legislature fulltext routes returned403, including bounded publicAPI/legacy alternatives. All independent dimensions remain unresolved/not-researched; cached snippets did not establish financial-assurance or current broker obligations. Reacquire actual current text and investigate any2026 funding/effective-date developments.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Official source access returned 403. Await full-source review; snippets do not establish current obligations.",
+        "sourceIds": [
+          "state-ca-instructions",
+          "state-ca-section"
+        ]
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Official source access returned 403. Await full-source review; snippets do not establish current obligations.",
+        "sourceIds": [
+          "state-ca-instructions",
+          "state-ca-section"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Official source access returned 403. Await full-source review; snippets do not establish current obligations.",
+        "sourceIds": [
+          "state-ca-instructions",
+          "state-ca-section"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "state-ca-instructions",
+        "state-ca-franchises",
+        "state-ca-section",
+        "state-ca-guidelines"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed.",
+        "Continuation source audit: no substantive California full-text verification was completed; no broker launch date or assurance choice is asserted."
+      ]
+    }
+  }
+]

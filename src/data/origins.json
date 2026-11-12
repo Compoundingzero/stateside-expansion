@@ -349,21 +349,25 @@
     "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-germany-ss",
+      "b2-origins-irs-treaties",
+      "geo-treaty-countries",
+      "fed-l1"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
-      "employment": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
+      "employment": "conditional",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: SSA Germany-specific certificate route and remote/local/visiting support allocation; coverage entitlement, work permission, tax and sector rules remain independent. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-greece",
@@ -479,21 +483,24 @@
     "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-ireland-full",
+      "b2-origins-irs-treaties",
+      "geo-treaty-countries"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Irish services export-readiness programme scope with Northern Ireland-specific conditions kept separate; no programme award or tax/visa determination. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-italy",
@@ -505,21 +512,25 @@
     "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-italy-ministry",
+      "b2-origins-italy-ice",
+      "b2-origins-irs-treaties",
+      "geo-treaty-countries"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Diplomatic/ICE/private-chamber support roles versus independent partner evidence, with treaty-table triage; no certification or legal clearance. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-latvia",
@@ -1027,21 +1038,24 @@
     "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-spain-2026",
+      "geo-treaty-countries",
+      "b2-origins-irs-treaties"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: 2026 ICEX Next official call conditions and closed 30 October deadline, plus separate treaty-table triage; no future programme or eligibility is promised. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-sweden",
@@ -1159,21 +1173,25 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-brunei-bedb",
+      "b2-origins-brunei-customs",
+      "geo-treaty-countries",
+      "fed-e2"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
       "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "immigration": "conditional",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "conditional",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: BEDB readiness/introductions, a goods-export RCED boundary and E-1-only treaty-table triage; not full tax or operating coverage. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-cambodia",
@@ -1185,21 +1203,23 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-cambodia-eco",
+      "fed-e2"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
       "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "immigration": "conditional",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "conditional",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: 2026 electronic-origin announcement and goods-versus-licensing boundary; full origin Prakas, home tax/FX and product requirements remain unreviewed. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-indonesia",
@@ -1211,21 +1231,25 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-indonesia-faq",
+      "b2-origins-irs-treaties",
+      "geo-treaty-countries",
+      "fed-irs-withholding"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Inaexport buyer-research route, IRS treaty-index triage and absence from the reviewed E-treaty table; no treaty entitlement or partner clearance. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-laos",
@@ -1237,21 +1261,24 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-laos-old",
+      "b2-origins-laos-registration",
+      "b2-origins-laos-2025"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
+      "corporate-tax": "unresolved",
       "immigration": "not-researched",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "unresolved",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Unpublished draft: 2023 portal documents could not be reconciled with inaccessible later BOL 2025 text; goods/services registration scope also unresolved. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-malaysia",
@@ -1290,7 +1317,10 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-burma-reg",
+      "b2-origins-ofac-50",
+      "b2-origins-myanmar-ofac"
     ],
     "topics": {
       "classification": "not-researched",
@@ -1299,12 +1329,12 @@
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "conditional",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Scoped U.S. Burma sanctions/property/ownership and bank-dependency issue identification; no party screening or Myanmar domestic FX/tax conclusion. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-philippines",
@@ -1316,21 +1346,25 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-philippines-bsp",
+      "b2-origins-philippines-tradeline",
+      "b2-origins-irs-treaties",
+      "geo-treaty-countries"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: BSP May 2025 receipt/outward-investment sections, Tradeline market research and treaty-table triage; later circulars and transaction-bank documentation remain to verify. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-singapore",
@@ -1370,21 +1404,26 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-thailand-current",
+      "b2-origins-thailand-2026",
+      "b2-origins-thailand-summary",
+      "b2-origins-irs-treaties",
+      "geo-treaty-countries"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Current Thai BOT10 million summary and dated2026 release reconciled against stale English 1 million; exact bank category, forms, exceptions and all tax remain separate. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-timor-leste",
@@ -1396,21 +1435,24 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-timor-guide",
+      "b2-origins-timor-agency",
+      "geo-treaty-countries"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
       "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "immigration": "conditional",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "conditional",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
-      "commercial-feasibility": "not-researched"
+      "commercial-feasibility": "conditional"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Named goods-export authorities, TradeInvest scope and treaty-table triage; no regional trade/visa assumptions or complete service/export review. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-vietnam",
@@ -1422,21 +1464,25 @@
     "convention": "UN M49 South-eastern Asia: all eleven countries.",
     "originType": "country",
     "sourceIds": [
-      "geo-un-m49"
+      "geo-un-m49",
+      "b2-origins-vietnam-export",
+      "b2-origins-treasury-treaties",
+      "b2-origins-irs-treaties",
+      "fed-irs-withholding"
     ],
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
+      "corporate-tax": "conditional",
       "immigration": "not-researched",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "conditional",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion."
+    "notes": "Batch2 scoped research: Commercial goods-export pathway and signed-agreement-versus-effective-tax-benefit evidence task; no exact commodity or treaty-rate conclusion. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, U.S. selling entity and personnel work location remain separate facts. All unchanged topic statuses remain not researched; conditional never means complete coverage."
   },
   {
     "id": "origin-armenia",

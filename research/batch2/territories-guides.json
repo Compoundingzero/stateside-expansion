@@ -1,0 +1,1145 @@
+[
+  {
+    "id": "b2-puerto-rico-dealer",
+    "path": "/territories/puerto-rico/",
+    "title": "Puerto Rico: review the dealer relationship before promising a territory",
+    "description": "Law 75 can make the actual distribution or service role matter to renewal, changes and exit.",
+    "family": "territory",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Puerto Rico"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-pr-dealer-relationship",
+      "b2-territories-federal-location",
+      "b2-territories-customs-location"
+    ],
+    "sections": [
+      {
+        "heading": "A contract label does not settle the Puerto Rico relationship",
+        "paragraphs": [
+          "Puerto Rico\u2019s official Spanish Law 75 consolidation defines distribution agreements by the relationship actually established. Its definition includes taking real responsibility for goods distribution or service provision by concession or franchise in the Puerto Rico market. The management task is to describe what the local party will actually build and operate, then assess whether that relationship falls within the law.",
+          "In the official consolidated text reviewed here, Article 2 addresses termination, impairment and nonrenewal without just cause, even where a contract reserves a unilateral exit. This is a reason to examine the relationship before making changes; it is not a verdict that every franchise is a protected dealer or that every exit is unlawful."
+        ],
+        "sourceIds": [
+          "state-pr-law"
+        ]
+      },
+      {
+        "heading": "Fictional B2B example: a maintenance partner develops key accounts",
+        "paragraphs": [
+          "A European industrial-maintenance brand appoints a Puerto Rico partner to develop accounts, recruit a service team and support installed equipment. Two years later, the brand wants to reserve the largest account for direct service. Before issuing a notice, the COO documents who created the account, existing allocation terms, actual service responsibilities and the proposed change.",
+          "The team should not treat this as merely changing a sales spreadsheet. Article 2A describes specific impairment presumptions and qualifications. Counsel needs the actual conduct, contract and market evidence. A court remedy or damages award is not an automatic repayment of every investment."
+        ],
+        "sourceIds": [
+          "state-pr-law"
+        ]
+      },
+      {
+        "heading": "Prepare the relationship-change file",
+        "paragraphs": [],
+        "bullets": [
+          "Expansion lead: list the local party\u2019s market-development, customer, stock, service and investment responsibilities.",
+          "COO: preserve actual performance, service quality, complaints and any cure discussions.",
+          "Commercial lead: identify exclusivity, national accounts, direct sales and proposed allocation changes.",
+          "Relationship adviser: assess dealer status, just cause and current controlling cases before an appointment, nonrenewal, impairment or termination.",
+          "CFO: identify investments and costs actually committed to this relationship; do not insert statutory damage factors as a forecast."
+        ]
+      },
+      {
+        "heading": "Keep the other territorial workstreams open",
+        "paragraphs": [
+          "Federal \u00a7 436.2 expressly includes a franchise to be located in U.S. territories, subject to its exemptions. That federal location rule does not decide independent territorial definitions, registration/notice obligations, relationship protections, tax or operating permissions.",
+          "Puerto Rico is inside the U.S. customs territory under 19 CFR\u00a7 101.1. That fact does not determine local excise/sales taxes, a product\u2019s origin or customs classification. Operating permits, entity qualification, employment and people-mobility questions remain separate."
+        ],
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions",
+          "b2-territories-customs-boundary"
+        ]
+      },
+      {
+        "heading": "What remains unresolved",
+        "paragraphs": [
+          "The government PDF is a Spanish consolidation revised 13 November 2020; this English explanation is an AI-assisted summary. Current case law, any later amendments and the facts defining a protected dealer need review. The PDF\u2019s forum/arbitration language must also be assessed against applicable federal law and controlling decisions; this guide does not declare every out-of-territory arbitration clause invalid."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-pr-law",
+      "fed-timing",
+      "fed-exemptions",
+      "b2-territories-customs-boundary"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A documented local relationship and a change/renewal decision file.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-usvi-license",
+    "path": "/territories/us-virgin-islands/",
+    "title": "U.S. Virgin Islands: build the operating-license evidence chain",
+    "description": "Separate the local operator, its premises reviews and any professional permissions from the franchise-sales analysis.",
+    "family": "territory",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "U.S. Virgin Islands"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-usvi-license-sequence",
+      "b2-territories-federal-location",
+      "b2-territories-customs-location"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the entity, activity and island",
+        "paragraphs": [
+          "DLCA\u2019s official steps identify several records that can be needed before a business license is issued: entity/trade-name registration, initial tax-clearance, police review, zoning and applicable fire, health and board certification. Some reviews are conducted electronically on the applicant\u2019s behalf. A license application is not evidence that the reviews have cleared.",
+          "Identify the actual operating entity and site on St. Thomas, St. Croix or St. John and the precise service. A professional or construction activity can require a board workstream in addition to the ordinary business license."
+        ],
+        "sourceIds": [
+          "b2-territories-usvi-licensing"
+        ]
+      },
+      {
+        "heading": "Fictional example: a facilities operator includes HVAC work",
+        "paragraphs": [
+          "A local partner offers cleaning plus heating, ventilation and air-conditioning maintenance. The team separates ordinary cleaning from the technician\u2019s mechanical work rather than assuming one brand license covers both. DLCA specifically lists mechanical/HVAC professions among its board-certification categories; the actual personnel, scope and current board rules need checking.",
+          "The premises lead records which fire or health review applies to the actual location. A health inspection is not added automatically to every service operation merely because it appears in a general licensing list."
+        ],
+        "sourceIds": [
+          "b2-territories-usvi-licensing"
+        ]
+      },
+      {
+        "heading": "Use separate release gates",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Workstream",
+            "Task owner",
+            "Evidence to retain"
+          ],
+          "rows": [
+            [
+              "Entity and trade name",
+              "Company secretary",
+              "Registered entity/name record"
+            ],
+            [
+              "Business license category",
+              "Local operating lead",
+              "DLCA classification and issued license"
+            ],
+            [
+              "Zoning/site and applicable inspections",
+              "Premises lead",
+              "Approval and inspection records"
+            ],
+            [
+              "Regulated work",
+              "Technical lead",
+              "Applicable board/individual credentials"
+            ],
+            [
+              "Tax and renewal",
+              "CFO",
+              "Current initial or renewal instructions and confirmation"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Initial issue and renewal are not identical",
+        "paragraphs": [
+          "DLCA\u2019s page says renewal applicants receive a license without confirmation of tax clearance, while remaining responsible for current tax obligations and possible later action. Do not use that renewal instruction to assume initial applications have no tax-clearance workstream."
+        ],
+        "sourceIds": [
+          "b2-territories-usvi-licensing"
+        ]
+      },
+      {
+        "heading": "Separate sales law, relationship law and customs",
+        "paragraphs": [
+          "Federal \u00a7 436.2 expressly includes a franchise to be located in U.S. territories, subject to its exemptions. That federal location rule does not decide independent territorial definitions, registration/notice obligations, relationship protections, tax or operating permissions.",
+          "Independent territorial franchise/dealer relationship text is still an unresolved research item in this batch. The territory is outside the U.S. customs territory; product and import analysis needs its own route-specific work. Do not mark either workstream complete from a DLCA business license."
+        ],
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions",
+          "b2-territories-customs-boundary"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-usvi-licensing",
+      "fed-timing",
+      "fed-exemptions",
+      "b2-territories-customs-boundary"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A licensing evidence chain with named operators and category-specific questions.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-guam-service-setup",
+    "path": "/territories/guam/",
+    "title": "Guam: separate foreign-company authority from a service operating license",
+    "description": "An off-island entity, its actual Guam activity and the type of service drive different checks.",
+    "family": "territory",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Guam"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-guam-qualification",
+      "b2-territories-guam-service-license",
+      "b2-territories-federal-location",
+      "b2-territories-customs-location"
+    ],
+    "sections": [
+      {
+        "heading": "An off-island company has two distinct questions",
+        "paragraphs": [
+          "18 GCA\u00a7 7102(a) says a foreign corporation must obtain both a business license and a certificate of authority before transacting business in Guam. The same section lists activities that, alone, are not transacting business. Map the proposed facts before deciding whether the foreign parent, a local subsidiary, the partner or more than one entity has a qualification task.",
+          "A company based in a U.S. state is still off-island for this corporate-law question. Conversely, owning a subsidiary alone is not automatically treated as the parent transacting business under the cited section. This distinction does not decide tax nexus or franchise classification."
+        ],
+        "sourceIds": [
+          "b2-territories-guam-foreign"
+        ]
+      },
+      {
+        "heading": "The service category matters",
+        "paragraphs": [
+          "11 GCA Chapter 76 describes annual service licensing for covered non-professional service activity, excluding services an employee renders to the employer from that description. Section 76103 separately addresses services licensed under other provisions. Identify a licensed profession or trade before choosing the general-service route.",
+          "Chapter 70\u2019s general license rule and the Business License and Permit Center\u2019s agency resources are additional leads. Site, environmental, fire, health and sector questions must be mapped for the actual operation; the agency directory is not a list of permits every business must obtain."
+        ],
+        "sourceIds": [
+          "b2-territories-guam-license",
+          "b2-territories-guam-service",
+          "b2-territories-guam-blpc"
+        ]
+      },
+      {
+        "heading": "Fictional example: a Singapore maintenance brand",
+        "paragraphs": [
+          "The Singapore parent trains a Guam partner and sends a technical manager for commissioning. The local company intends to employ technicians, store equipment and repair customer systems. Record the parent\u2019s activities, the partner\u2019s activities, each premises and each person\u2019s actual work separately. Do not assume a general-service license authorises a regulated electrical or engineering task."
+        ]
+      },
+      {
+        "heading": "Prepare an entity/activity/license matrix",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Actor",
+            "Facts",
+            "Separate decision"
+          ],
+          "rows": [
+            [
+              "Foreign parent",
+              "Contracts, visits, services and control",
+              "Whether it transacts covered Guam business"
+            ],
+            [
+              "Local operator",
+              "Entity form, customers and premises",
+              "Business/service/sector license route"
+            ],
+            [
+              "Technicians and advisers",
+              "Exact professional work",
+              "Trade or professional permissions"
+            ],
+            [
+              "Importer",
+              "Product, origin, shipping route",
+              "Guam customs and quarantine requirements"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Supply and franchise sales need their own work",
+        "paragraphs": [
+          "Federal \u00a7 436.2 expressly includes a franchise to be located in U.S. territories, subject to its exemptions. That federal location rule does not decide independent territorial definitions, registration/notice obligations, relationship protections, tax or operating permissions.",
+          "Guam lies outside the U.S. customs territory. A mainland landed-cost template cannot supply Guam tariff or quarantine treatment. Leave those amounts unknown until the supply route and official product rules are checked. Immigration and local employment requirements remain separate from entity and service licensing."
+        ],
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions",
+          "b2-territories-customs-boundary"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-guam-foreign",
+      "b2-territories-guam-license",
+      "b2-territories-guam-service",
+      "b2-territories-guam-blpc",
+      "fed-timing",
+      "fed-exemptions",
+      "b2-territories-customs-boundary"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An actor-by-activity matrix assigning qualification and operating-license questions.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-cnmi-line-location",
+    "path": "/territories/northern-mariana-islands/",
+    "title": "CNMI: license each business line and location, then test staffing dependencies",
+    "description": "Company registration, the Finance business license and permission to employ a worker are separate records.",
+    "family": "territory",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Northern Mariana Islands"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-cnmi-location-license",
+      "b2-territories-cnmi-cw1-sequence",
+      "b2-territories-federal-location",
+      "b2-territories-customs-location"
+    ],
+    "sections": [
+      {
+        "heading": "A business line and a site are separate inputs",
+        "paragraphs": [
+          "4 CMC\u00a7 5611 requires a license before engaging in or continuing a business. It calls for one general business license for each business line at each Commonwealth location; licenses have a one-year term and are nontransferable. Fees are established by regulation, so an unknown application cost is not zero.",
+          "The Registrar\u2019s official document list separately covers domestic and foreign entity registration, including foreign-company authority/good-standing documents. Registration of the entity does not substitute for a Finance business license."
+        ],
+        "sourceIds": [
+          "b2-territories-cnmi-5611",
+          "b2-territories-cnmi-registrar"
+        ]
+      },
+      {
+        "heading": "Fictional example: one partner, two islands and two activities",
+        "paragraphs": [
+          "A facilities-services partner proposes an office on Saipan, a second location on Tinian and a new equipment-rental line. The operating lead builds a line-by-location list and asks Finance to confirm the required license set. Buying the predecessor\u2019s equipment is not treated as a transfer of its license.",
+          "The team names customer sites separately from business locations and asks how the actual operating pattern is classified. A commercial region or a master-franchise territory map does not answer that administrative question."
+        ]
+      },
+      {
+        "heading": "Staffing can be an early feasibility dependency",
+        "paragraphs": [
+          "The DOL\u2019s CW-1 program page describes a CNMI employer route with prevailing-wage, labor-certification and U.S. worker recruitment requirements. The employer needs approved temporary labor certification before the separate USCIS petition. This route is not a generic promise that overseas staff can be moved to the mainland or Guam.",
+          "For a management-run service business, test the local recruiting plan and manager cost first. If a named overseas specialist is essential, put the unresolved work-authorisation path before a delivery commitment."
+        ],
+        "sourceIds": [
+          "b2-territories-cnmi-cw1"
+        ]
+      },
+      {
+        "heading": "Build the launch register",
+        "paragraphs": [],
+        "bullets": [
+          "Company secretary: confirm the entity form, authority and registered documents.",
+          "Operating lead: list each business line, location and licensed name, and verify the current Finance application/regulations.",
+          "People lead: map the actual employer, worksite, job and proposed start date; separate recruiting, certification, petition and employment permission.",
+          "CFO: source current license costs and wage/benefit assumptions rather than using mainland defaults.",
+          "Supply lead: treat imports and quarantine separately because CNMI is outside the U.S. customs territory."
+        ],
+        "sourceIds": [
+          "b2-territories-cnmi-5611",
+          "b2-territories-cnmi-registrar",
+          "b2-territories-cnmi-cw1",
+          "b2-territories-customs-boundary"
+        ]
+      },
+      {
+        "heading": "Franchise and other local laws remain independent",
+        "paragraphs": [
+          "Federal \u00a7 436.2 expressly includes a franchise to be located in U.S. territories, subject to its exemptions. That federal location rule does not decide independent territorial definitions, registration/notice obligations, relationship protections, tax or operating permissions.",
+          "This batch does not establish the absence of territorial registration, dealer, relationship, advertising or sector rules. Those dimensions stay unresearched rather than becoming \u201cno requirement.\u201d"
+        ],
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-cnmi-5611",
+      "b2-territories-cnmi-registrar",
+      "b2-territories-cnmi-cw1",
+      "fed-timing",
+      "fed-exemptions",
+      "b2-territories-customs-boundary"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A line-by-location license list and a staffing dependency register.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-american-samoa-approvals",
+    "path": "/territories/american-samoa/",
+    "title": "American Samoa: map the company, ownership review and people approvals separately",
+    "description": "A foreign-corporation permit, business license and entry/residency approval answer different questions.",
+    "family": "territory",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "American Samoa"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-as-corporation-permit",
+      "b2-territories-as-ownership-review",
+      "b2-territories-as-renewal",
+      "b2-territories-as-mobility",
+      "b2-territories-federal-location",
+      "b2-territories-customs-location"
+    ],
+    "sections": [
+      {
+        "heading": "Do not collapse three approvals into one",
+        "paragraphs": [
+          "The Attorney General\u2019s official foreign-corporation checklist describes a permit to transact business, with certified company documents, corporate authorisation and resident-agent information. It separately directs corporations to business licensing before transacting business. The correct route depends on entity type; the checklist identifies exceptions to that named foreign-corporation law.",
+          "Commerce also says activity, location and citizenship can affect regulation by different agencies, boards and commissions. Its current page gives a calendar-year business-license expiry and an October 1\u2013December 31 renewal period."
+        ],
+        "sourceIds": [
+          "b2-territories-as-foreign",
+          "b2-territories-as-license-renewal"
+        ]
+      },
+      {
+        "heading": "Ownership can change the licensing route",
+        "paragraphs": [
+          "The official 2024 Administrative Code describes Territorial Planning Commission review tied to applicant and ownership facts and a separate immigration-board policy for business licenses submitted by aliens. These administrative provisions must be read with statutory definitions and any subsequent changes. The site does not decide an applicant\u2019s American Samoan, residency or other legal status.",
+          "Prepare an ownership and control diagram, entity form, proposed activity and local management responsibilities. Ask the responsible agencies which review applies before promising an opening date."
+        ],
+        "sourceIds": [
+          "b2-territories-as-commission"
+        ]
+      },
+      {
+        "heading": "Fictional example: a foreign service brand and a local operator",
+        "paragraphs": [
+          "An established Asian facilities brand wants a partner to run local contracts while its founder stays abroad. The company secretary maps which entity will sign customers and employ staff. The COO identifies any supervisor or trainer who must be physically present. The brand agreement, business permit, business license and each person\u2019s entry/work question remain separate entries."
+        ]
+      },
+      {
+        "heading": "Entry is not a mainland visa checkbox",
+        "paragraphs": [
+          "Territorial Legal Affairs states that entry laws differ from the U.S. Its residency page describes employment and family-based petitions and instructs that these be approved before entry. A mainland U.S. visa, ESTA assumption or corporation filing must not be treated as a territorial work/residency approval.",
+          "No passport, immigration file or confidential contract is collected for this educational worksheet. Record only non-sensitive activity, duration, employer/sponsor and approval-status summaries; the actual supporting documents belong in the authorised professional process."
+        ],
+        "sourceIds": [
+          "b2-territories-as-entry",
+          "b2-territories-as-residence"
+        ]
+      },
+      {
+        "heading": "Use a four-column approval map",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Decision",
+            "Responsible role",
+            "Evidence",
+            "Dependency"
+          ],
+          "rows": [
+            [
+              "Foreign-corporation route",
+              "Company secretary",
+              "Applicable permit/company records",
+              "Entity/activity facts"
+            ],
+            [
+              "Business license and ownership review",
+              "Local operating lead",
+              "Issued license and required agency decisions",
+              "Ownership/location/activity"
+            ],
+            [
+              "Travel, residence and work",
+              "People lead/sponsor",
+              "Applicable territorial approval",
+              "Specific person and activities"
+            ],
+            [
+              "Imports and site opening",
+              "Supply/premises leads",
+              "Product and premises approvals",
+              "Route and exact site"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Keep sales law and imports visible",
+        "paragraphs": [
+          "Federal \u00a7 436.2 expressly includes a franchise to be located in U.S. territories, subject to its exemptions. That federal location rule does not decide independent territorial definitions, registration/notice obligations, relationship protections, tax or operating permissions.",
+          "American Samoa is outside the U.S. customs territory. Local customs, quarantine, employment and sector rules are not supplied by a mainland template. Unreviewed dealer/relationship and franchise-filing dimensions remain open."
+        ],
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions",
+          "b2-territories-customs-boundary"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-as-foreign",
+      "b2-territories-as-license-renewal",
+      "b2-territories-as-commission",
+      "b2-territories-as-entry",
+      "b2-territories-as-residence",
+      "fed-timing",
+      "fed-exemptions",
+      "b2-territories-customs-boundary"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A company/ownership/people approval map with pending decisions identified.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-territorial-customs",
+    "path": "/comparisons/us-territories-customs-boundaries/",
+    "title": "A U.S. territory is not always inside the U.S. customs territory",
+    "description": "Use the receiving jurisdiction and product route before adding duty or import assumptions to a financial model.",
+    "family": "comparison",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Puerto Rico",
+      "U.S. Virgin Islands",
+      "Guam",
+      "Northern Mariana Islands",
+      "American Samoa"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-customs-location"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the defined boundary",
+        "paragraphs": [
+          "19 CFR\u00a7 101.1 defines the U.S. customs territory as the states, District of Columbia and Puerto Rico. Guam, CNMI, American Samoa and the U.S. Virgin Islands therefore need separate customs-route workstreams; political status alone does not supply their import process.",
+          "The definition does not tell you a duty rate, commodity classification, admissibility or tax amount. Nor does it decide the rules for shipping goods from a territory into the mainland."
+        ],
+        "sourceIds": [
+          "b2-territories-customs-boundary"
+        ]
+      },
+      {
+        "heading": "Comparison for supply planning",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Destination",
+            "Boundary finding",
+            "What remains unresolved"
+          ],
+          "rows": [
+            [
+              "Puerto Rico",
+              "Inside the defined U.S. customs territory",
+              "Product origin/classification, duties, territorial taxes and permits"
+            ],
+            [
+              "Guam / CNMI / American Samoa",
+              "Outside that defined customs territory",
+              "Territorial import/quarantine process and applicable federal overlays"
+            ],
+            [
+              "U.S. Virgin Islands",
+              "Outside that defined customs territory",
+              "Territorial customs process, product treatment and taxes"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Fictional example: imported service equipment",
+        "paragraphs": [
+          "A Dutch service brand sends replacement equipment to its Puerto Rico partner and assumes the same landed-cost workbook will work for Guam. The supply lead stops the copied duty formula, identifies each importer and route, and obtains destination-specific instructions. The model shows \u201cunknown\u201d until classification and applicable charges are sourced."
+        ]
+      },
+      {
+        "heading": "Prepare a shipment factsheet",
+        "paragraphs": [],
+        "bullets": [
+          "Product specification and intended use.",
+          "Country of origin, manufacturer and proposed customs classification.",
+          "Exporting party, importer of record and receiving legal entity.",
+          "Actual route, territory, port and any onward mainland shipment.",
+          "Current official customs/quarantine source and dated quote or ruling where needed.",
+          "Separate legal charges from freight, broker costs and an assumed contingency."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-customs-boundary"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A route-specific shipment factsheet before landed cost is approved.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-cnmi-cw1-staffing",
+    "path": "/territories/northern-mariana-islands/cw1-staffing-dependencies/",
+    "title": "CNMI CW-1 staffing: put the certification and petition in the right order",
+    "description": "A potential hiring route is a dependency to investigate, not a staffing guarantee.",
+    "family": "territory",
+    "topic": "immigration",
+    "jurisdictions": [
+      "Northern Mariana Islands"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-cnmi-cw1-sequence"
+    ],
+    "sections": [
+      {
+        "heading": "The employer and the job need their own facts",
+        "paragraphs": [
+          "The DOL describes CW-1 as a temporary CNMI-worker program for employers meeting its requirements. Its page identifies a physical CNMI business location, an employer relationship and a Federal Employer Identification Number among participation conditions.",
+          "It also describes prevailing-wage, labor-certification and recruitment steps before the separate USCIS petition. A certified labor application does not itself establish that a worker may begin employment."
+        ],
+        "sourceIds": [
+          "b2-territories-cnmi-cw1"
+        ]
+      },
+      {
+        "heading": "Fictional example: a technical-service pilot",
+        "paragraphs": [
+          "A service brand expects to recruit a local manager but relies on a particular overseas technician for commissioning. The team documents both jobs separately: actual employer, worksite, duties, wage, recruitment evidence and necessary date. If the specialist\u2019s lawful work path is unresolved, the customer launch date remains conditional."
+        ]
+      },
+      {
+        "heading": "A practical dependency chain",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Workstream",
+            "Evidence question",
+            "Owner"
+          ],
+          "rows": [
+            [
+              "Route and employer",
+              "Does this employer/job/person fit the current route?",
+              "People lead and immigration adviser"
+            ],
+            [
+              "Prevailing wage",
+              "Current valid determination for actual duties/worksite?",
+              "Employer"
+            ],
+            [
+              "Recruitment and labor certification",
+              "Required process and approved certification recorded?",
+              "Employer"
+            ],
+            [
+              "USCIS petition and status",
+              "Separate current approval/permission verified?",
+              "Employer and individual"
+            ],
+            [
+              "Delivery commitment",
+              "Does the supported start date match customer obligations?",
+              "COO"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Model the costs without inventing a rate",
+        "paragraphs": [
+          "Record the actual wage, benefits, employer-paid obligations, recruiting costs and time assumptions from current sources. Do not use this guide to choose an occupation code, predict a cap allocation or approve a person. The team may instead revise scope, recruit differently or pause the pilot if the dependency is not supported."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-cnmi-cw1"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A job-specific staffing dependency chain with a conditional start date.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-as-people-approvals",
+    "path": "/territories/american-samoa/people-and-operating-approvals/",
+    "title": "American Samoa: a business license and a person\u2019s entry approval are separate",
+    "description": "Prepare a people-and-work factsheet before sending a trainer or manager.",
+    "family": "territory",
+    "topic": "immigration",
+    "jurisdictions": [
+      "American Samoa"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-as-mobility",
+      "b2-territories-as-renewal"
+    ],
+    "sections": [
+      {
+        "heading": "Identify what the person will actually do",
+        "paragraphs": [
+          "American Samoa Legal Affairs says its entry laws differ from the U.S. and provides separate visitor and residency routes. Its residency page describes employment and family-based petitions and says they must be completed and approved before entry.",
+          "Treat a proposed visit, residence and physical work as distinct facts. Do not infer territorial permission from a mainland visa, an online travel authorisation, a franchise contract or a corporation\u2019s business license."
+        ],
+        "sourceIds": [
+          "b2-territories-as-entry",
+          "b2-territories-as-residence"
+        ]
+      },
+      {
+        "heading": "Fictional example: four weeks of live customer training",
+        "paragraphs": [
+          "A European facilities brand calls a supervisor\u2019s trip \u201ctraining,\u201d but the schedule includes supervising local crews and resolving customer problems. The people lead records those actual tasks, their duration, the local sponsor/employer and who directs the work. The applicable territorial route remains unresolved until the responsible process is checked."
+        ]
+      },
+      {
+        "heading": "Prepare a non-sensitive work brief",
+        "paragraphs": [],
+        "bullets": [
+          "Person\u2019s nationality/status as a factual self-report; no passport upload.",
+          "Dates, work location and all proposed activities, including customer-facing work.",
+          "Contracting entity, local employer/sponsor and reporting line.",
+          "Applicable visitor/residency/work process still to confirm.",
+          "Responsible adviser/agency, decision date and a short approval-status note.",
+          "Alternative delivery plan if the necessary person cannot start on time."
+        ]
+      },
+      {
+        "heading": "Maintain the operating license independently",
+        "paragraphs": [
+          "Commerce\u2019s business-license renewal instructions continue to matter for the operating entity. A renewed business license is not the individual\u2019s immigration evidence. Keep the annual operating-license calendar and the person-specific approval register separate, with responsible owners."
+        ],
+        "sourceIds": [
+          "b2-territories-as-license-renewal"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-as-entry",
+      "b2-territories-as-residence",
+      "b2-territories-as-license-renewal"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A people-and-work factsheet linked to the launch dependency plan.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-local-pittsburgh",
+    "path": "/cities/pittsburgh/outside-service-registration/",
+    "title": "Pittsburgh: an outside service business may still need city registration",
+    "description": "A customer-site contract can trigger a city registration question even when the office sits elsewhere.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Pennsylvania",
+      "Pittsburgh"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-local-pittsburgh"
+    ],
+    "sections": [
+      {
+        "heading": "The narrow decision",
+        "paragraphs": [
+          "City registration can cover a business located outside Pittsburgh that performs work or services in whole or part in the city. The official page quotes a 15-day registration provision and says registration is not complete until Finance issues verification.",
+          "Use the actual operating entity and activity. An operating registration, tax receipt, site approval and professional credential are different records, even where they appear on one agency checklist."
+        ],
+        "sourceIds": [
+          "b2-territories-local-pittsburgh"
+        ]
+      },
+      {
+        "heading": "Fictional management example",
+        "paragraphs": [
+          "A foreign brand\u2019s local partner keeps its office in a neighbouring municipality but sends crews to a Pittsburgh customer. The COO logs the actual city work and start date; Finance investigates city registration rather than assuming the office location ends the analysis. The verification letter is recorded separately from sending the form."
+        ]
+      },
+      {
+        "heading": "Prepare the evidence file",
+        "paragraphs": [],
+        "bullets": [
+          "COO: record each operating/customer site, activity, start date and contracting entity.",
+          "Premises lead: identify zoning/use and inspection decisions for the actual address.",
+          "Finance lead: separate tax registration, application payment and the issued license/receipt.",
+          "Sector lead: verify any professional/trade or activity-specific permission.",
+          "Launch owner: confirm required evidence before the relevant commitment, and calendar updates/renewal."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "Only the named official process has been reviewed. Unknown fees and unrelated legal requirements stay unknown. A city or county administrative record does not settle franchise-sales law or classify the commercial relationship."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-local-pittsburgh"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An address-specific registration/approval evidence task with a named owner.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-local-atlanta",
+    "path": "/cities/atlanta/zoning-and-occupation-tax/",
+    "title": "Atlanta: connect zoning approval to the occupation-tax application",
+    "description": "Two systems can supply different evidence for one opening plan.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Georgia",
+      "Atlanta"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-local-atlanta"
+    ],
+    "sections": [
+      {
+        "heading": "The narrow decision",
+        "paragraphs": [
+          "The current ATL311 instruction separates the ATLBIZ occupation-tax application from a location zoning review through Accela and applicable regulatory permits. Issuance follows required documents and payment; a submitted account is not the certificate.",
+          "Use the actual operating entity and activity. An operating registration, tax receipt, site approval and professional credential are different records, even where they appear on one agency checklist."
+        ],
+        "sourceIds": [
+          "b2-territories-local-atlanta"
+        ]
+      },
+      {
+        "heading": "Fictional management example",
+        "paragraphs": [
+          "A partner creates an ATLBIZ account and pays an application charge but has not obtained the location\u2019s zoning approval. The launch planner keeps the certificate task open and assigns the zoning approval/evidence upload to the premises lead. A processing estimate is not an opening guarantee."
+        ]
+      },
+      {
+        "heading": "Prepare the evidence file",
+        "paragraphs": [],
+        "bullets": [
+          "COO: record each operating/customer site, activity, start date and contracting entity.",
+          "Premises lead: identify zoning/use and inspection decisions for the actual address.",
+          "Finance lead: separate tax registration, application payment and the issued license/receipt.",
+          "Sector lead: verify any professional/trade or activity-specific permission.",
+          "Launch owner: confirm required evidence before the relevant commitment, and calendar updates/renewal."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "Only the named official process has been reviewed. Unknown fees and unrelated legal requirements stay unknown. A city or county administrative record does not settle franchise-sales law or classify the commercial relationship."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-local-atlanta"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An address-specific registration/approval evidence task with a named owner.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-local-miami",
+    "path": "/cities/miami/city-county-business-tax/",
+    "title": "City of Miami: separate the use certificate, city receipt and county receipt",
+    "description": "A Miami mailing address does not tell you whether City of Miami or another local route applies.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Florida",
+      "Miami"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-local-miami"
+    ],
+    "sections": [
+      {
+        "heading": "The narrow decision",
+        "paragraphs": [
+          "The City of Miami generally sequences a Certificate of Use before a Business Tax Receipt, with stated exceptions. It also directs businesses to a separate Miami-Dade County local business tax receipt.",
+          "Use the actual operating entity and activity. An operating registration, tax receipt, site approval and professional credential are different records, even where they appear on one agency checklist."
+        ],
+        "sourceIds": [
+          "b2-territories-local-miami"
+        ]
+      },
+      {
+        "heading": "Fictional management example",
+        "paragraphs": [
+          "A service operator stores equipment in a City of Miami unit and serves customers across Miami-Dade. It identifies the actual municipality, reviews whether the use certificate is needed, and records city and county receipts separately. It does not copy the county\u2019s unincorporated-area route onto a city premises."
+        ]
+      },
+      {
+        "heading": "Prepare the evidence file",
+        "paragraphs": [],
+        "bullets": [
+          "COO: record each operating/customer site, activity, start date and contracting entity.",
+          "Premises lead: identify zoning/use and inspection decisions for the actual address.",
+          "Finance lead: separate tax registration, application payment and the issued license/receipt.",
+          "Sector lead: verify any professional/trade or activity-specific permission.",
+          "Launch owner: confirm required evidence before the relevant commitment, and calendar updates/renewal."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "Only the named official process has been reviewed. Unknown fees and unrelated legal requirements stay unknown. A city or county administrative record does not settle franchise-sales law or classify the commercial relationship."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-local-miami"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An address-specific registration/approval evidence task with a named owner.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-local-jacksonville",
+    "path": "/cities/jacksonville/tax-receipt-versus-use/",
+    "title": "Jacksonville: a tax receipt does not finish the Certificate of Use task",
+    "description": "Administrative sequencing differs from assuming one receipt authorises opening.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Florida",
+      "Jacksonville"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-local-jacksonville"
+    ],
+    "sections": [
+      {
+        "heading": "The narrow decision",
+        "paragraphs": [
+          "Jacksonville\u2019s tax page explicitly separates its Certificate of Use for new/expanding commercial business from obtaining the Local Business Tax Receipt. Beach municipalities and Baldwin have additional municipal tax routes.",
+          "Use the actual operating entity and activity. An operating registration, tax receipt, site approval and professional credential are different records, even where they appear on one agency checklist."
+        ],
+        "sourceIds": [
+          "b2-territories-local-jacksonville"
+        ]
+      },
+      {
+        "heading": "Fictional management example",
+        "paragraphs": [
+          "A new commercial depot gets its local tax receipt while its use certificate is still unresolved. The CFO can mark the receipt evidence recorded, but the COO cannot mark the opening released. A second operation in Jacksonville Beach also raises that municipality\u2019s separate local-tax question."
+        ]
+      },
+      {
+        "heading": "Prepare the evidence file",
+        "paragraphs": [],
+        "bullets": [
+          "COO: record each operating/customer site, activity, start date and contracting entity.",
+          "Premises lead: identify zoning/use and inspection decisions for the actual address.",
+          "Finance lead: separate tax registration, application payment and the issued license/receipt.",
+          "Sector lead: verify any professional/trade or activity-specific permission.",
+          "Launch owner: confirm required evidence before the relevant commitment, and calendar updates/renewal."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "Only the named official process has been reviewed. Unknown fees and unrelated legal requirements stay unknown. A city or county administrative record does not settle franchise-sales law or classify the commercial relationship."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-local-jacksonville"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An address-specific registration/approval evidence task with a named owner.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-local-kansas-city",
+    "path": "/cities/kansas-city/zoning-license-sector/",
+    "title": "Kansas City, Missouri: zoning, business license and trade permissions stay separate",
+    "description": "Use the Missouri city and the actual site; do not apply these instructions to Kansas City, Kansas.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Missouri",
+      "Kansas City"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-local-kansas-city"
+    ],
+    "sections": [
+      {
+        "heading": "The narrow decision",
+        "paragraphs": [
+          "Kansas City\u2019s official BizCare guide identifies zoning clearance for new KCMO-address businesses and address changes, city registration/licensing, and additional industry requirements. The general guide acknowledges state-law exemptions; actual category still needs checking.",
+          "Use the actual operating entity and activity. An operating registration, tax receipt, site approval and professional credential are different records, even where they appear on one agency checklist."
+        ],
+        "sourceIds": [
+          "b2-territories-local-kansas-city"
+        ]
+      },
+      {
+        "heading": "Fictional management example",
+        "paragraphs": [
+          "An industrial-services partner rents a workshop at a KCMO address and intends to perform a regulated construction trade. The team assigns zoning clearance, city licensing and the correct contractor/trade permission to different owners. A Kansas address would require a different jurisdiction analysis."
+        ]
+      },
+      {
+        "heading": "Prepare the evidence file",
+        "paragraphs": [],
+        "bullets": [
+          "COO: record each operating/customer site, activity, start date and contracting entity.",
+          "Premises lead: identify zoning/use and inspection decisions for the actual address.",
+          "Finance lead: separate tax registration, application payment and the issued license/receipt.",
+          "Sector lead: verify any professional/trade or activity-specific permission.",
+          "Launch owner: confirm required evidence before the relevant commitment, and calendar updates/renewal."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "Only the named official process has been reviewed. Unknown fees and unrelated legal requirements stay unknown. A city or county administrative record does not settle franchise-sales law or classify the commercial relationship."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-local-kansas-city"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An address-specific registration/approval evidence task with a named owner.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  },
+  {
+    "id": "b2-local-baltimore",
+    "path": "/cities/baltimore/city-versus-county-licenses/",
+    "title": "Baltimore City: choose the correct clerk and license category",
+    "description": "A state tax account and a local clerk-issued business license answer different questions.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Maryland",
+      "Baltimore"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-territories-local-baltimore"
+    ],
+    "sections": [
+      {
+        "heading": "The narrow decision",
+        "paragraphs": [
+          "Maryland\u2019s Comptroller separates sales/use-tax registration from potentially applicable Clerk of Circuit Court business-license categories, issued in the county or Baltimore City where the business is located. Confirm the exact activity and the city versus county office.",
+          "Use the actual operating entity and activity. An operating registration, tax receipt, site approval and professional credential are different records, even where they appear on one agency checklist."
+        ],
+        "sourceIds": [
+          "b2-territories-local-baltimore",
+          "b2-territories-baltimore-clerk"
+        ]
+      },
+      {
+        "heading": "Fictional management example",
+        "paragraphs": [
+          "A service operator adds a workshop selling equipment in Baltimore City while its accountant uses a Baltimore County contact sheet. The company secretary confirms the independent city jurisdiction and asks which clerk-issued category fits the actual mix of goods and services. A sales-tax account is retained as separate evidence."
+        ]
+      },
+      {
+        "heading": "Prepare the evidence file",
+        "paragraphs": [],
+        "bullets": [
+          "COO: record each operating/customer site, activity, start date and contracting entity.",
+          "Premises lead: identify zoning/use and inspection decisions for the actual address.",
+          "Finance lead: separate tax registration, application payment and the issued license/receipt.",
+          "Sector lead: verify any professional/trade or activity-specific permission.",
+          "Launch owner: confirm required evidence before the relevant commitment, and calendar updates/renewal."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "Only the named official process has been reviewed. Unknown fees and unrelated legal requirements stay unknown. A city or county administrative record does not settle franchise-sales law or classify the commercial relationship."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-territories-local-baltimore",
+      "b2-territories-baltimore-clerk"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An address-specific registration/approval evidence task with a named owner.",
+    "limitations": [
+      "This guide covers named issues only. It does not establish that an offer, sale, work assignment, import or opening is authorised. Local, sector and current transaction-specific questions remain to be reviewed."
+    ]
+  }
+]

@@ -5,11 +5,14 @@
     "slug": "alabama",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-al-2026",
+      "b2-east-al-status"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -18,42 +21,64 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Effective 2026 Act 2026-591 has operating-day protections/exceptions; defined-party, sector and agreement facts require review.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-al-2026",
+        "b2-east-al-status"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -63,11 +88,14 @@
     "slug": "alaska",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ak-app",
+      "b2-east-ak-bizopp"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -76,42 +104,62 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Agency guidance describes covered business-opportunity registration; linked 2005 form/process needs current statutory reconciliation.",
+        "sourceIds": [
+          "b2-east-ak-bizopp",
+          "b2-east-ak-app"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ak-app",
+          "b2-east-ak-bizopp"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency points to AS 45.66.220 but current full exemption list was not retrieved. No franchise exemption is assumed.",
+        "sourceIds": [
+          "b2-east-ak-bizopp"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Agency explains covered-opportunity disclosure at least 10 days before agreement/payment; independent federal rule and current statutory applicability remain separate.",
+        "sourceIds": [
+          "b2-east-ak-bizopp"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Dated linked application requests promotional materials; exact current advertising/registration scope requires process confirmation.",
+        "sourceIds": [
+          "b2-east-ak-app",
+          "b2-east-ak-bizopp"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ak-app",
+          "b2-east-ak-bizopp"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ak-app",
+        "b2-east-ak-bizopp"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -121,11 +169,15 @@
     "slug": "arizona",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-az-definition",
+      "b2-east-az-disclosure",
+      "b2-east-az-registration"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -134,42 +186,65 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "44-1272 covers sellers defined by the article, before covered solicitation; federal-defined franchises excluded from business-opportunity definition are analysed separately.",
+        "sourceIds": [
+          "b2-east-az-registration",
+          "b2-east-az-definition"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-az-definition",
+          "b2-east-az-disclosure",
+          "b2-east-az-registration"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "verified",
+        "summary": "44-1271(1)(c)(iii) excludes federal-rule-defined franchises from this business-opportunity definition. This is not a universal state exemption.",
+        "sourceIds": [
+          "b2-east-az-definition"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "44-1276.01 sets 5 businessdays for specified registered business-opportunity sellers; do not impose that track automatically on excluded franchises.",
+        "sourceIds": [
+          "b2-east-az-disclosure",
+          "b2-east-az-definition"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered sellers submit specified scripts/materials with registration and new/revised material before use under 44-1272; other advertising rules not comprehensively reviewed.",
+        "sourceIds": [
+          "b2-east-az-registration"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-az-definition",
+          "b2-east-az-disclosure",
+          "b2-east-az-registration"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-az-definition",
+        "b2-east-az-disclosure",
+        "b2-east-az-registration"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -179,11 +254,14 @@
     "slug": "arkansas",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -192,42 +270,63 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Act 847 amends relationship-law exclusions and timing. Federal disclosure coverage is not itself a relationship-law exclusion; sales exemptions remain independently unresolved.",
+        "sourceIds": [
+          "b2-east-ar-2023"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Act 847 of 2023 adds/amends relationship protections with place, date and scope conditions.2025HB 1177 died; it is not law.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ar-2023",
+        "b2-east-ar-2025"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -241,7 +340,11 @@
       "state-ca-instructions",
       "state-ca-franchises",
       "state-ca-section",
-      "state-ca-guidelines"
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b2-blocked-ca-statutes",
+      "b2-blocked-ca-franchise-relationship"
     ],
     "topics": {
       "classification": "not-researched",
@@ -255,7 +358,7 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation2026-11-12: actual DFPI instructions/franchise/brokerFAQ and legislature fulltext routes returned403, including bounded publicAPI/legacy alternatives. All independent dimensions remain unresolved/not-researched; cached snippets did not establish financial-assurance or current broker obligations. Reacquire actual current text and investigate any2026 funding/effective-date developments.",
     "franchise": {
       "registration": {
         "status": "unresolved",
@@ -304,7 +407,8 @@
       ],
       "limitations": [
         "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Unknown values are not zero or permission to proceed.",
+        "Continuation source audit: no substantive California full-text verification was completed; no broker launch date or assurance choice is asserted."
       ]
     }
   },
@@ -314,55 +418,80 @@
     "slug": "colorado",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-co-2026labor",
+      "b2-east-co-downloads"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
-      "employment": "not-researched",
+      "employment": "conditional",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-co-2026labor",
+        "b2-east-co-downloads"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -372,11 +501,14 @@
     "slug": "connecticut",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ct-form",
+      "b2-east-ct-guidelines"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -385,42 +517,62 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Agency registration/exclusion guidance and current trademark-claim form reviewed; statutory full text unavailable 503 and current submission details require reconciliation.",
+        "sourceIds": [
+          "b2-east-ct-guidelines",
+          "b2-east-ct-form"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Form CT-BOIA-EX effective 2025-09-30 is a trademark-exclusion claim notice; posting does not validate it.",
+        "sourceIds": [
+          "b2-east-ct-form"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Federal registration and seller ownership/assignment/sublicensing facts are required for the described marketing-program claim; broader scope not determined.",
+        "sourceIds": [
+          "b2-east-ct-form",
+          "b2-east-ct-guidelines"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Guidelines permit specified federal-format substitutions with state material; complete current statutory delivery/other-trigger review remains unresolved.",
+        "sourceIds": [
+          "b2-east-ct-guidelines"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ct-form",
+          "b2-east-ct-guidelines"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ct-form",
+          "b2-east-ct-guidelines"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ct-form",
+        "b2-east-ct-guidelines"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -430,11 +582,13 @@
     "slug": "delaware",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-de-law"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -443,42 +597,57 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "2555 requires at least 90 days for covered termination/nonrenewal; establish defined distributor scope. This is an exit notice, not a sales exemption notice.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Defined tangible-product/distributor scope and narrow worker-classification clause reviewed; no general sales-registration exemption established.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "2551\u20132556 address covered distributor scope, good cause/bad faith, notice and remedies; generic service-brand applicability is not assumed.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-de-law"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -488,11 +657,14 @@
     "slug": "florida",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-fl-agency",
+      "b2-east-fl-statute"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -501,42 +673,61 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "FDACS distinguishes discontinued registration documents from a continuing franchise-exemption notice under 559.802. Non-exempt and sector regimes remain separate.",
+        "sourceIds": [
+          "b2-east-fl-agency",
+          "b2-east-fl-statute"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "verified",
+        "summary": "559.802 requires the described notice before a covered Florida-location or Florida-resident offer/sale and annual renewal. Actual fee remains unverified; statute cap is not a payable quote.",
+        "sourceIds": [
+          "b2-east-fl-statute"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Requires federal franchise definition, substantial FTC compliance notice and fee; not a website approval of exemption.",
+        "sourceIds": [
+          "b2-east-fl-statute"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Substantial FTC compliance is a condition of the 559.802 route. Other Florida disclosure/representation laws not fully reviewed.",
+        "sourceIds": [
+          "b2-east-fl-statute"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-fl-agency",
+          "b2-east-fl-statute"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-fl-agency",
+          "b2-east-fl-statute"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-fl-agency",
+        "b2-east-fl-statute"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -546,55 +737,88 @@
     "slug": "georgia",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ga-agency",
+      "b2-east-ga-forms",
+      "b2-east-ga-mark"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
-      "ip-data": "not-researched",
+      "ip-data": "conditional",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ga-agency",
+        "b2-east-ga-forms",
+        "b2-east-ga-mark"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -673,55 +897,80 @@
     "slug": "idaho",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-id-agency",
+      "b2-east-id-consumer"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-id-agency",
+        "b2-east-id-consumer"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -863,11 +1112,16 @@
     "slug": "iowa",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ia-amendments",
+      "b2-east-ia-bizopp",
+      "b2-east-ia-currentrelationship",
+      "b2-east-ia-franchise"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -876,42 +1130,62 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current 551A uses disclosure and consent-to-service provisions; no complete statewide FDD registration absence is inferred from this chapter.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "551A.7 consent-to-service before covered contract/sale remains distinct from a 551A.3 disclosure exemption.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "551A.1 exclusions differ from 551A.4 franchise-disclosure exemption; establish actual route and burden.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "551A.4 franchise route uses earlier first personal meeting or 14 days before stated commitment/payment. Non-exempt 551A.3 has a separate 10-business-day rule.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "551A defines offers/advertising and prohibits fraudulent practices; no general no-filing conclusion.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "537A.10 is current regime for specified Iowa-operated agreements on/after 2000-07-01; 523H.2A temporal limit and future 2027 amendment separately recorded.",
+        "sourceIds": [
+          "b2-east-ia-currentrelationship",
+          "b2-east-ia-franchise",
+          "b2-east-ia-amendments"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ia-amendments",
+        "b2-east-ia-bizopp",
+        "b2-east-ia-currentrelationship",
+        "b2-east-ia-franchise"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -921,12 +1195,15 @@
     "slug": "kansas",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ks-register",
+      "b2-east-ks-sos"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
-      "corporate-tax": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
@@ -934,42 +1211,64 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ks-register",
+        "b2-east-ks-sos"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -979,11 +1278,19 @@
     "slug": "kentucky",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ky-advertising",
+      "b2-east-ky-cancel",
+      "b2-east-ky-contract",
+      "b2-east-ky-earnings",
+      "b2-east-ky-exemption",
+      "b2-east-ky-registration",
+      "b2-east-ky-rules"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -992,42 +1299,75 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "367.805 requires non-exempt registration before offering; current 40 KAR 12:410 also requires approval before covered resident sales. Franchise-exemption route is separate.",
+        "sourceIds": [
+          "b2-east-ky-registration",
+          "b2-east-ky-rules",
+          "b2-east-ky-exemption"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Current portal/exempt-offeror evidence and material-change duties apply by route. Registered-seller statute says immediately, compared with rule 14 days.",
+        "sourceIds": [
+          "b2-east-ky-rules",
+          "b2-east-ky-registration",
+          "b2-east-ky-exemption"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "367.807 federal-definition/compliance and written-notice route; current 2026 rule specifies evidence and portal.",
+        "sourceIds": [
+          "b2-east-ky-exemption",
+          "b2-east-ky-rules"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Non-exempt registration evidence, earnings and written-contract duties reviewed. Exact franchise-exemption/federal applicability stays separate; no invented universal waiting period.",
+        "sourceIds": [
+          "b2-east-ky-registration",
+          "b2-east-ky-earnings",
+          "b2-east-ky-contract",
+          "b2-east-ky-exemption"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Non-exempt registrant must include registration number under 367.809; covered earnings representations governed by 367.811. Exemption scope must be established.",
+        "sourceIds": [
+          "b2-east-ky-advertising",
+          "b2-east-ky-earnings",
+          "b2-east-ky-exemption"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Non-exempt contract/avoidance text has 30 businessdays in 367.816 notice versus 30 calendar days in 367.819; reconcile before calculating a deadline. Ongoing franchise protections separately incomplete.",
+        "sourceIds": [
+          "b2-east-ky-contract",
+          "b2-east-ky-cancel",
+          "b2-east-ky-exemption"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ky-advertising",
+        "b2-east-ky-cancel",
+        "b2-east-ky-contract",
+        "b2-east-ky-earnings",
+        "b2-east-ky-exemption",
+        "b2-east-ky-registration",
+        "b2-east-ky-rules"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -1037,11 +1377,16 @@
     "slug": "louisiana",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-la-definition",
+      "b2-east-la-prohibitions",
+      "b2-east-la-realestate",
+      "b2-east-la-registration"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1050,42 +1395,65 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Covered bond filing under 51:1822 is not an FDD registration classification. Complete franchise/sales registration absence not established.",
+        "sourceIds": [
+          "b2-east-la-registration",
+          "b2-east-la-definition"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "51:1823 requires covered opportunity seller service-of-process appointment; 51:1822 has limited-scope prebusiness bond filing.",
+        "sourceIds": [
+          "b2-east-la-prohibitions",
+          "b2-east-la-registration"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Registered-mark wording qualifies 51:1821(1)(d); independent (a)\u2013(c) triggers and 51:1822(G) bond scope require separate analysis.",
+        "sourceIds": [
+          "b2-east-la-definition",
+          "b2-east-la-registration"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "51:1823 requires documented earnings support and written promises for covered opportunities; no general FDD delivery-period conclusion.",
+        "sourceIds": [
+          "b2-east-la-prohibitions"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "51:1823 addresses earnings claims, seller identification and compliance references; covered bond filing may precede advertising.",
+        "sourceIds": [
+          "b2-east-la-prohibitions",
+          "b2-east-la-registration"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered written promises/nonwaiverability reviewed; professional-sector real-estate rule is separate. General termination/renewal survey remains incomplete.",
+        "sourceIds": [
+          "b2-east-la-prohibitions",
+          "b2-east-la-realestate"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-la-definition",
+        "b2-east-la-prohibitions",
+        "b2-east-la-realestate",
+        "b2-east-la-registration"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -1095,11 +1463,13 @@
     "slug": "maine",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-me-law"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1108,42 +1478,57 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "verified",
+        "summary": "For covered business opportunities 4696 requires registration before selling, offering, advertising or promotion; applicability/exclusions and security separately tested.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "4691 registered-mark language qualifies marketing-program limb; other triggers independently reviewed. Permanent-place security exception is not a universal sales exemption.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "4692 uses earliest specified 72-hour pre-agreement/pre-payment point or first face-to-face sales meeting for covered opportunities.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "4696 registration precedes covered promotion; 4699 earnings rules include geographic relevance/basis. Not a complete no-filing classification.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered business-opportunity avoidance and contract duties reviewed; general franchise renewal/termination scope remains unresolved.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-me-law"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -1195,7 +1580,7 @@
       },
       "disclosure": {
         "status": "conditional",
-        "summary": "Specified D–G exemptions preserve first-personal-meeting / ten-business-day disclosure requirements absent contrary order. Legacy form terminology requires reconciliation.",
+        "summary": "Specified D\u2013G exemptions preserve first-personal-meeting / ten-business-day disclosure requirements absent contrary order. Legacy form terminology requires reconciliation.",
         "sourceIds": [
           "state-md-rules"
         ]
@@ -1228,55 +1613,72 @@
     "slug": "massachusetts",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ma-classification"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
-      "employment": "not-researched",
+      "employment": "conditional",
       "products-supply": "not-researched",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Worker-classification statute does not establish state franchise-sales or relationship clearance.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ma-classification"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -1438,11 +1840,14 @@
     "slug": "mississippi",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1451,42 +1856,64 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: no; current consolidated primary authority remains unresolved. 2018 historical enacted text is not a current 2026 comprehensive legal survey.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "2018 enacted text contains notice language, but current 2026 consolidated official authority and later amendments/cases remain unverified.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Historical 2018 law and enactment verified; present applicability, current text and exceptions cannot be cleared from that alone.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-ms-2018",
+        "b2-east-ms-status"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -1496,11 +1923,16 @@
     "slug": "missouri",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-east-mo-bizopp",
+      "b2-east-mo-definition",
+      "b2-east-mo-prohibitions",
+      "b2-east-mo-relationship"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1509,42 +1941,68 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-mo-bizopp",
+          "b2-east-mo-definition",
+          "b2-east-mo-prohibitions",
+          "b2-east-mo-relationship"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Current 407.40590-daywritten exit notice and stated exceptions require 407.400 relationship coverage. This is separate from any sales filing.",
+        "sourceIds": [
+          "b2-east-mo-definition",
+          "b2-east-mo-relationship"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Independent 407.400 and 409.1000 definitions/exclusions reviewed; no universal franchise-registration exemption or absence conclusion.",
+        "sourceIds": [
+          "b2-east-mo-definition",
+          "b2-east-mo-bizopp"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "409.1003 covered written-contract and investment/support/profit/rights representations reviewed; no universal FDD delivery-period conclusion.",
+        "sourceIds": [
+          "b2-east-mo-prohibitions",
+          "b2-east-mo-bizopp"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered business-opportunity misrepresentation and overlapping exclusive-territory prohibitions reviewed; routine filing absence not established.",
+        "sourceIds": [
+          "b2-east-mo-prohibitions",
+          "b2-east-mo-bizopp"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "407.400 scope and 407.405 exit notice/exceptions reviewed; sector-dealer and current case-law application remain independent.",
+        "sourceIds": [
+          "b2-east-mo-definition",
+          "b2-east-mo-relationship"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-east-mo-bizopp",
+        "b2-east-mo-definition",
+        "b2-east-mo-prohibitions",
+        "b2-east-mo-relationship"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
       ]
     }
   },
@@ -1554,11 +2012,17 @@
     "slug": "montana",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-a-mt-dealer-def",
+      "b2-west-a-mt-goodcause",
+      "b2-west-a-mt-dealer-end",
+      "b2-west-a-mt-def",
+      "b2-west-a-mt-repurchase"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1567,42 +2031,55 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Narrow construction-equipment and inventory-exit research completed; general franchise sales matrix remains open.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "exemptions": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Construction-equipment dealership good-cause/notice rules reviewed; separate defined-inventory repurchase provisions identified. Eligibility and other relationship statutes remain fact-dependent.",
+        "sourceIds": [
+          "b2-west-a-mt-dealer-def",
+          "b2-west-a-mt-goodcause",
+          "b2-west-a-mt-dealer-end",
+          "b2-west-a-mt-def",
+          "b2-west-a-mt-repurchase"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-a-mt-dealer-def",
+        "b2-west-a-mt-goodcause",
+        "b2-west-a-mt-dealer-end",
+        "b2-west-a-mt-def",
+        "b2-west-a-mt-repurchase"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
       ]
     }
   },
@@ -1612,11 +2089,22 @@
     "slug": "nebraska",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-a-ne-def",
+      "b2-west-a-ne-exempt",
+      "b2-west-a-ne-agency",
+      "b2-west-a-ne-file",
+      "b2-west-a-ne-disclose",
+      "b2-west-a-ne-ads",
+      "b2-west-a-ne-claims",
+      "b2-west-a-ne-rel-def",
+      "b2-west-a-ne-rel-scope",
+      "b2-west-a-ne-rel-end"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1625,42 +2113,73 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "All six franchise dimensions have source-backed scoped findings; none establishes transaction clearance or a complete tax/employment/sector/local survey.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Nonexempt SAMP filing 59-1724 requires prior disclosure filing, amendments and annual updates. Qualifying 59-1722 franchises use a separate notice-exemption track.",
+        "sourceIds": [
+          "b2-west-a-ne-file",
+          "b2-west-a-ne-exempt"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Qualifying franchise exemption needs prior notice+$100 before specified Nebraska-based advertising/offers/representations. Agency describes a one-time filing; other changes may require new filing.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt",
+          "b2-west-a-ne-agency"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "59-1722 requires compliance with specified federal provisions incorporated as of 2026-01-01, notice and fee; specified prohibitions survive. Other exclusions were not exhaustively reviewed.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Exempt-franchise and nonexempt SAMP tracks differ. Nonexempt 59-1732 requires first specified communication disclosure and at least 48 hours before contract/consideration; federal clock independent.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt",
+          "b2-west-a-ne-disclose"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "59-1722 notice precedes specified Nebraska-based advertising. Nonexempt 59-1731 requires seller identity/address; 59-1729 income claims need substantiation. Establish exemption scope first.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt",
+          "b2-west-a-ne-ads",
+          "b2-west-a-ne-claims"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Independent 87-402/403 definition and application criteria plus 87-404 termination/notice rules reviewed; beverage/noncompete branches and transaction facts require separate analysis.",
+        "sourceIds": [
+          "b2-west-a-ne-rel-def",
+          "b2-west-a-ne-rel-scope",
+          "b2-west-a-ne-rel-end"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-a-ne-def",
+        "b2-west-a-ne-exempt",
+        "b2-west-a-ne-agency",
+        "b2-west-a-ne-file",
+        "b2-west-a-ne-disclose",
+        "b2-west-a-ne-ads",
+        "b2-west-a-ne-claims",
+        "b2-west-a-ne-rel-def",
+        "b2-west-a-ne-rel-scope",
+        "b2-west-a-ne-rel-end"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
       ]
     }
   },
@@ -1670,11 +2189,13 @@
     "slug": "nevada",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-a-nv-dealers"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1683,42 +2204,47 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Primary farm-equipment dealer provisions read via official websource; general franchise sales-law dimensions remain open.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "exemptions": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Farm-equipment dealer good-cause, notice, repurchase and nonwaiver layer reviewed under NRS 597.112\u2013597.118. This is not a general service-franchise relationship finding.",
+        "sourceIds": [
+          "b2-west-a-nv-dealers"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-a-nv-dealers"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
       ]
     }
   },
@@ -1728,11 +2254,14 @@
     "slug": "new-hampshire",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-a-nh-chain",
+      "b2-west-a-nh-vehicle"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1741,42 +2270,51 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Specific chain-distributor and equipment-dealer overlays reviewed; general franchise registration, exemption and disclosure questions remain open.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "exemptions": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "RSA 358-Bprohibits promotion/offer/grant of a defined chain-distributor scheme. This is not a conclusion about general franchise advertising filings.",
+        "sourceIds": [
+          "b2-west-a-nh-chain"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "RSA 357-Cspecified equipment/dealer definitions and relationship protections reviewed; exceptions and eligibility matter. RSA 358-Bchain-distributor prohibition independently reviewed.",
+        "sourceIds": [
+          "b2-west-a-nh-chain",
+          "b2-west-a-nh-vehicle"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-a-nh-chain",
+        "b2-west-a-nh-vehicle"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
       ]
     }
   },
@@ -1786,11 +2324,14 @@
     "slug": "new-jersey",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-a-nj-amendment",
+      "b2-west-a-nj-otg"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1799,42 +2340,49 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "B2Blocation issue supported by enacted amendment; current legislature LIS access failed. No complete 2026 Franchise Practices Act or filing conclusion.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "exemptions": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Enacted 2010 B2Bplace-of-business amendment and 2025 primary district-court definition discussion reviewed. Complete current codification and application criteria remain unresolved.",
+        "sourceIds": [
+          "b2-west-a-nj-amendment",
+          "b2-west-a-nj-otg"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-a-nj-amendment",
+        "b2-west-a-nj-otg"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
       ]
     }
   },
@@ -1844,11 +2392,14 @@
     "slug": "new-mexico",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-a-nm-2026",
+      "b2-west-a-nm-fir"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "unresolved",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1857,42 +2408,49 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Failed-proposal status verified. Existing enacted Franchise Termination Act and general franchise dimensions remain unresolved, not absent.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "exemptions": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
         "sourceIds": []
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Official 2026 SB 115 status is Died (API); proposed protections are not enacted through that bill. Current codified dealer/franchise termination scope not yet retrieved.",
+        "sourceIds": [
+          "b2-west-a-nm-2026",
+          "b2-west-a-nm-fir"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-a-nm-2026",
+        "b2-west-a-nm-fir"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
       ]
     }
   },
@@ -1970,11 +2528,13 @@
     "slug": "north-carolina",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-nc-article19"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -1983,42 +2543,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered Article 19 filing before advertising or other representations; classification and exceptions first.",
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Responsible-seller exemption has its own sworn-filing conditions; no universal franchise notice conclusion.",
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Registered-mark exception only in \u00a766-94(4); other triggers and exclusions independent.",
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered branch: 48 hours before earlier signature/consideration; federal timing separate.",
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Pre-ad filing and \u00a766-98 substantiation/state-reference restrictions reviewed.",
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Written-contract content and specified remedies reviewed; not a full ongoing relationship survey.",
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-nc-article19"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2096,11 +2670,13 @@
     "slug": "ohio",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-oh-chapter1334"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -2109,42 +2685,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Chapter 1334 reviewed; complete state filing and sector-registration survey unresolved.",
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "No separate franchise notice-filing conclusion.",
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "FTC-compliance exemption preserves \u00a7\u00a71334.03(H) and 1334.04. Under \u00a71334.14, proof rests with the claimant in cases under \u00a7\u00a71334.08 or 1334.09.",
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Nonexempt default: ten defined business days before agreement.",
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Nonexempt claim-substantiation rules reviewed; surviving guarantee branch separate.",
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Nonexempt contract/cancellation and anti-waiver provisions reviewed; other relationship laws separate.",
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-oh-chapter1334"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2154,11 +2744,13 @@
     "slug": "oklahoma",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-ok-title71"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -2167,42 +2759,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered offers/sales need registration unless exempt; \u00a7807 completeness/effectiveness conditions reviewed.",
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Consent-to-service reviewed; no universal exemption-notice conclusion. Current agency rules/forms unavailable.",
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "\u00a7803(6) disclosure route exempts \u00a7\u00a7806\u2013811 only; \u00a7802 exclusions and \u00a7805 burden separate.",
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Registered branch: ten business days; \u00a7803(6) route: 14 calendar days, with document conditions.",
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Anti-fraud and misleading-advertising rules reviewed; current pre-use filing rule/order unresolved.",
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Contract content and anti-waiver/remedies reviewed; not full ongoing relationship coverage.",
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-ok-title71"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2278,11 +2884,14 @@
     "slug": "pennsylvania",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-pa-section316",
+      "b2-west-pa-vehicles"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -2291,42 +2900,63 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "General franchise-sales registration not determined from this sector relationship chapter.",
+        "sourceIds": [
+          "b2-west-pa-section316",
+          "b2-west-pa-vehicles"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Termination notice is tracked under relationship; franchise-sales notice filing not determined.",
+        "sourceIds": [
+          "b2-west-pa-section316",
+          "b2-west-pa-vehicles"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Sector definitions/exclusions reviewed; no general franchise exemption conclusion.",
+        "sourceIds": [
+          "b2-west-pa-section316",
+          "b2-west-pa-vehicles"
+        ]
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Presale franchise disclosure overlays not determined in this sector branch.",
+        "sourceIds": [
+          "b2-west-pa-section316",
+          "b2-west-pa-vehicles"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Complete franchise-recruitment advertising requirements not determined.",
+        "sourceIds": [
+          "b2-west-pa-section316",
+          "b2-west-pa-vehicles"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Section 316 generally requires return of covered vehicle-dealer property within 90 days of the relevant termination/nonrenewal and repurchase/payment within 60 days of tender, subject to item eligibility, age, condition, category and exceptions.",
+        "sourceIds": [
+          "b2-west-pa-section316",
+          "b2-west-pa-vehicles"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-pa-section316",
+        "b2-west-pa-vehicles"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2407,11 +3037,13 @@
     "slug": "south-carolina",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-sc-chapter57"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -2420,42 +3052,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered Chapter 57 filing before advertisements/representations; material updates and at least biennial renewal.",
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "No separate universal franchise notice conclusion.",
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Registered-mark language confined to \u00a739-57-20(4); other triggers and exclusions independent.",
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered branch: 48 hours before earlier signature/consideration; federal timing separate.",
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Pre-ad filing, assigned number and \u00a739-57-60 claim restrictions reviewed.",
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Written-contract content and specified \u00a739-57-80 remedies reviewed; broader relationship survey incomplete.",
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-sc-chapter57"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2543,12 +3189,16 @@
     "slug": "tennessee",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-tn-consumer-index",
+      "b2-west-tn-fe1",
+      "b2-west-tn-fe4"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
-      "corporate-tax": "not-researched",
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
@@ -2556,42 +3206,70 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Narrow tax FAQ review complete; franchise-law source-access gap remains. No absence or all-clear inferred.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current primary franchise-law text unreadable in this review. No absence, exemption or permission inferred. Tax FAQ does not close this dimension.",
+        "sourceIds": [
+          "b2-west-tn-fe1",
+          "b2-west-tn-fe4",
+          "b2-west-tn-consumer-index"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current primary franchise-law text unreadable in this review. No absence, exemption or permission inferred. Tax FAQ does not close this dimension.",
+        "sourceIds": [
+          "b2-west-tn-fe1",
+          "b2-west-tn-fe4",
+          "b2-west-tn-consumer-index"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current primary franchise-law text unreadable in this review. No absence, exemption or permission inferred. Tax FAQ does not close this dimension.",
+        "sourceIds": [
+          "b2-west-tn-fe1",
+          "b2-west-tn-fe4",
+          "b2-west-tn-consumer-index"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current primary franchise-law text unreadable in this review. No absence, exemption or permission inferred. Tax FAQ does not close this dimension.",
+        "sourceIds": [
+          "b2-west-tn-fe1",
+          "b2-west-tn-fe4",
+          "b2-west-tn-consumer-index"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current primary franchise-law text unreadable in this review. No absence, exemption or permission inferred. Tax FAQ does not close this dimension.",
+        "sourceIds": [
+          "b2-west-tn-fe1",
+          "b2-west-tn-fe4",
+          "b2-west-tn-consumer-index"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Current primary franchise-law text unreadable in this review. No absence, exemption or permission inferred. Tax FAQ does not close this dimension.",
+        "sourceIds": [
+          "b2-west-tn-fe1",
+          "b2-west-tn-fe4",
+          "b2-west-tn-consumer-index"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-tn-consumer-index",
+        "b2-west-tn-fe1",
+        "b2-west-tn-fe4"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2671,10 +3349,13 @@
     "slug": "utah",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-ut-chapter15",
+      "b2-west-ut-section201"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
       "relationship": "not-researched",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
@@ -2684,42 +3365,63 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "General business-opportunity route requires proof of disclosure receipt under \u00a7201(1).",
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
       },
       "notice": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Franchise route requires pre-offer notice receipt; one-year term, renewal at least 30 days before expiry, changes within 30 days.",
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Qualifying franchise uses notice route; not an exemption from every filing or law.",
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "\u00a7\u00a7202\u2013203 govern general disclosure route; federal franchise disclosure remains separate.",
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "No state-approval representation permitted; pre-offer receipt duty reviewed, not all advertising rules.",
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Statutory remedies read; complete termination, renewal, transfer and dealer protections not established.",
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-ut-chapter15",
+        "b2-west-ut-section201"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2729,11 +3431,13 @@
     "slug": "vermont",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-vt-chapter107"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -2742,42 +3446,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "General franchise-sales registration not determined from this sector relationship chapter.",
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Termination notice is tracked under relationship; franchise-sales notice filing not determined.",
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Sector definitions/exclusions reviewed; no general franchise exemption conclusion.",
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Presale franchise disclosure overlays not determined in this sector branch.",
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Complete franchise-recruitment advertising requirements not determined.",
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "For covered dealers, \u00a74072 generally requires cause, 120-day notice and 60-day cure. Market-penetration failures and specified events use different branches. Sections 4073\u20134074 impose conditional inventory repurchase and timing duties.",
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-vt-chapter107"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -2932,11 +3650,13 @@
     "slug": "west-virginia",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-wv-47-11f"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -2945,42 +3665,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "General franchise-sales registration not determined from this sector relationship chapter.",
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Termination notice is tracked under relationship; franchise-sales notice filing not determined.",
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Sector definitions/exclusions reviewed; no general franchise exemption conclusion.",
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Presale franchise disclosure overlays not determined in this sector branch.",
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Complete franchise-recruitment advertising requirements not determined.",
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "For covered relationships, \u00a747-11F-3 generally requires six months\u2019 termination notice and prescribed written service, with listed exceptions and mutual consent. Sections 4\u20135 contain separate inventory repurchase, valuation, deadline and exclusion rules.",
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-wv-47-11f"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -3060,11 +3794,13 @@
     "slug": "wyoming",
     "kind": "state",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-wy-equipment"
+    ],
     "topics": {
-      "classification": "not-researched",
+      "classification": "conditional",
       "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
@@ -3073,42 +3809,56 @@
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "General franchise-sales registration not determined from this sector relationship chapter.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Termination notice is tracked under relationship; franchise-sales notice filing not determined.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Sector definitions/exclusions reviewed; no general franchise exemption conclusion.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
       },
       "disclosure": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Presale franchise disclosure overlays not determined in this sector branch.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "Complete franchise-recruitment advertising requirements not determined.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "General \u00a7\u00a740-20-115/117 and single-line \u00a7116 regimes differ: ordinary general notice is 180 days with 60-day cure; ordinary single-line notice is 90 days with 60-day cure. Specified events and performance failures have separate conditions. Repurchase under \u00a7\u00a7120\u2013121 is a separate branch.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-wy-equipment"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -3118,55 +3868,87 @@
     "slug": "district-of-columbia",
     "kind": "district",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-west-dc-3901",
+      "b2-west-dc-3904",
+      "b2-west-dc-license"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
       "relationship": "not-researched",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Research queued; this record is a scope entry, not a published legal guide.",
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible.",
     "franchise": {
       "registration": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "Operating licence/corporate registration is separate; complete franchise-sales filing conclusion unresolved.",
+        "sourceIds": [
+          "b2-west-dc-3901",
+          "b2-west-dc-3904",
+          "b2-west-dc-license"
+        ]
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "summary": "No specific franchise notice-filing conclusion.",
+        "sourceIds": [
+          "b2-west-dc-3901",
+          "b2-west-dc-3904",
+          "b2-west-dc-license"
+        ]
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "CPPA scope is transaction-specific; not a franchise exemption finding.",
+        "sourceIds": [
+          "b2-west-dc-3901",
+          "b2-west-dc-3904",
+          "b2-west-dc-license"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered CPPA material omissions/misstatements reviewed; FDD timing and other sales duties separate.",
+        "sourceIds": [
+          "b2-west-dc-3901",
+          "b2-west-dc-3904",
+          "b2-west-dc-license"
+        ]
       },
       "advertising": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Covered CPPA material-claim restrictions reviewed; complete advertising-filing survey unresolved.",
+        "sourceIds": [
+          "b2-west-dc-3901",
+          "b2-west-dc-3904",
+          "b2-west-dc-license"
+        ]
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Not yet researched. No absence of requirements is inferred.",
-        "sourceIds": []
+        "status": "unresolved",
+        "summary": "No complete termination, renewal, transfer or non-waivable protections review.",
+        "sourceIds": [
+          "b2-west-dc-3901",
+          "b2-west-dc-3904",
+          "b2-west-dc-license"
+        ]
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-west-dc-3901",
+        "b2-west-dc-3904",
+        "b2-west-dc-license"
+      ],
       "limitations": [
-        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
-        "Unknown values are not zero or permission to proceed."
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
       ]
     }
   },
@@ -3177,57 +3959,71 @@
     "kind": "territory",
     "country": "United States",
     "sourceIds": [
-      "state-pr-law"
+      "state-pr-law",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
     ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "unresolved",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
-      "products-supply": "not-researched",
+      "products-supply": "conditional",
       "premises-opening": "not-researched",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Separate territorial workstream. Mainland definitions, tax, customs, immigration, employment and remedies are not assumed. Dealer-contract legislation text accessed; case law, amendments and specific applicability require review.",
+    "notes": "Separate territorial workstream. Federal \u00a7 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. Law 75 official Spanish text reviewed for actual dealer/service role, termination/impairment/nonrenewal; consolidation revised2020, current controlling cases/later amendments unresolved.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "16 CFR\u00a7 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Law 75 dealer/service relationship provisions reviewed in official Spanish consolidation; current cases, later amendments and actual dealer status remain unresolved.",
+        "sourceIds": [
+          "state-pr-law"
+        ]
       },
       "sourceIds": [
-        "state-pr-law"
+        "state-pr-law",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
       ],
       "limitations": [
-        "Not treated as a state. Separate legal, customs and tax workstreams."
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
       ]
     }
   },
@@ -3237,54 +4033,70 @@
     "slug": "us-virgin-islands",
     "kind": "territory",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-territories-usvi-licensing",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
-      "relationship": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
       "corporate-tax": "not-researched",
       "immigration": "not-researched",
       "employment": "not-researched",
-      "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Separate territorial workstream. Mainland definitions, tax, customs, immigration, employment and remedies are not assumed. Local law and authority research pending.",
+    "notes": "Separate territorial workstream. Federal \u00a7 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. DLCA initial/renewal licensing, applicable professional/site approvals reviewed. Local franchise/dealer relationship text remains unresolved; a nonofficial citation is a research lead only.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "16 CFR\u00a7 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "relationship": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "status": "unresolved",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
         "sourceIds": []
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-territories-usvi-licensing",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
       "limitations": [
-        "Not treated as a state. Separate legal, customs and tax workstreams."
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
       ]
     }
   },
@@ -3294,54 +4106,76 @@
     "slug": "guam",
     "kind": "territory",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-territories-guam-foreign",
+      "b2-territories-guam-license",
+      "b2-territories-guam-service",
+      "b2-territories-guam-blpc",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
+      "corporate-tax": "conditional",
       "immigration": "not-researched",
       "employment": "not-researched",
-      "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Separate territorial workstream. Mainland definitions, tax, customs, immigration, employment and remedies are not assumed. Local law and authority research pending.",
+    "notes": "Separate territorial workstream. Federal \u00a7 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. Current official compiler Chapter 18\u00a7 7102 and Title 11 Chapters 70/76 read. Corporate authority, general/service licensing and sector exceptions separated; no income-tax, employment or immigration conclusions.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "16 CFR\u00a7 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "relationship": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
         "sourceIds": []
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-territories-guam-foreign",
+        "b2-territories-guam-license",
+        "b2-territories-guam-service",
+        "b2-territories-guam-blpc",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
       "limitations": [
-        "Not treated as a state. Separate legal, customs and tax workstreams."
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
       ]
     }
   },
@@ -3351,54 +4185,74 @@
     "slug": "northern-mariana-islands",
     "kind": "territory",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-territories-cnmi-5611",
+      "b2-territories-cnmi-registrar",
+      "b2-territories-cnmi-cw1",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
-      "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Separate territorial workstream. Mainland definitions, tax, customs, immigration, employment and remedies are not assumed. Local law and authority research pending.",
+    "notes": "Separate territorial workstream. Federal \u00a7 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. 4 CMC\u00a7 5611 business lines/locations, registrar entity-document list and DOL CW-1 sequence reviewed. Corporate-tax status is partial entity-registration coverage only; tax computation unresearched.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "16 CFR\u00a7 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "relationship": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
         "sourceIds": []
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-territories-cnmi-5611",
+        "b2-territories-cnmi-registrar",
+        "b2-territories-cnmi-cw1",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
       "limitations": [
-        "Not treated as a state. Separate legal, customs and tax workstreams."
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
       ]
     }
   },
@@ -3408,54 +4262,78 @@
     "slug": "american-samoa",
     "kind": "territory",
     "country": "United States",
-    "sourceIds": [],
+    "sourceIds": [
+      "b2-territories-as-foreign",
+      "b2-territories-as-license-renewal",
+      "b2-territories-as-commission",
+      "b2-territories-as-entry",
+      "b2-territories-as-residence",
+      "b2-territories-customs-boundary",
+      "fed-timing",
+      "fed-exemptions"
+    ],
     "topics": {
-      "classification": "not-researched",
-      "sales-disclosure": "not-researched",
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
       "relationship": "not-researched",
-      "corporate-tax": "not-researched",
-      "immigration": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "conditional",
       "employment": "not-researched",
-      "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     },
-    "notes": "Separate territorial workstream. Mainland definitions, tax, customs, immigration, employment and remedies are not assumed. Local law and authority research pending.",
+    "notes": "Separate territorial workstream. Federal \u00a7 436.2 territory-location scope and customs-boundary text reviewed; the classification/disclosure family is conditional because this is not an independent local-law survey. AG foreign-company checklist, Commerce renewal guidance, 2024 administrative licensing reviews and territorial entry/residency guidance read. Identity/status definitions, later regulatory changes and individual eligibility need separate review.",
     "franchise": {
       "registration": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales registration obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "notice": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales notice obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "exemptions": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "Federal exemptions must be considered separately; this batch does not verify an independent territorial franchise exemption.",
+        "sourceIds": [
+          "fed-exemptions"
+        ]
       },
       "disclosure": {
-        "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
-        "sourceIds": []
+        "status": "conditional",
+        "summary": "16 CFR\u00a7 436.2 expressly includes franchises to be located in U.S. territories, subject to federal exemptions. Independent territorial disclosure overlays remain unresearched.",
+        "sourceIds": [
+          "fed-timing",
+          "fed-exemptions"
+        ]
       },
       "advertising": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise-sales advertising obligations remain unresearched. An operating/business license is a different requirement.",
         "sourceIds": []
       },
       "relationship": {
         "status": "not-researched",
-        "summary": "Territorial analysis pending; no mainland assumption.",
+        "summary": "Independent territorial franchise/dealer/relationship law has not been established by reviewed primary text; do not infer no protection.",
         "sourceIds": []
       },
-      "sourceIds": [],
+      "sourceIds": [
+        "b2-territories-as-foreign",
+        "b2-territories-as-license-renewal",
+        "b2-territories-as-commission",
+        "b2-territories-as-entry",
+        "b2-territories-as-residence",
+        "b2-territories-customs-boundary",
+        "fed-timing",
+        "fed-exemptions"
+      ],
       "limitations": [
-        "Not treated as a state. Separate legal, customs and tax workstreams."
+        "Not treated as a state. Federal, territorial, customs, tax, people and operating analyses stay separate.",
+        "A reviewed issue does not make an entire topic family complete. Unknown fees, requirements and local overlays remain unknown."
       ]
     }
   }

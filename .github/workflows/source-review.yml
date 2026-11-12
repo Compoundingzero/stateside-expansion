@@ -28,6 +28,9 @@ jobs:
             source-review-
       - name: Check cited public sources
         run: node scripts/check-sources.mjs
+      - name: Publish readable review summary
+        if: always()
+        run: cat artifacts/editorial-review-report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Record current baseline and unresolved queue
         if: always()
         uses: actions/cache/save@v4

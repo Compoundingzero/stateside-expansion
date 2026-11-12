@@ -1,0 +1,577 @@
+{
+  "reviewDate": "2026-11-12",
+  "assignedStates": [
+    "Alabama",
+    "Alaska",
+    "Arizona",
+    "Arkansas",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "Florida",
+    "Georgia",
+    "Idaho",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Maine",
+    "Massachusetts",
+    "Mississippi",
+    "Missouri"
+  ],
+  "fetchCounts": {
+    "attempted": 61,
+    "httpErrors": 9,
+    "rawSuccessful": 52
+  },
+  "primaryPassageAuditErrors": [],
+  "sources": [
+    {
+      "id": "b2-east-ak-bizopp",
+      "url": "https://www.law.alaska.gov/consumer/BizOpps.html",
+      "sha256": "3064163621b5abb0eda72bff110c68da8be7545be0f5b184bd09544271446930",
+      "fetchedAt": "2026-11-12T21:20:07.032224+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Disclosure, written contract and exemptions",
+      "supportingPassage": "The seller must give a potential buyer a disclosure statement at least 10 days before the buyer signs a contract"
+    },
+    {
+      "id": "b2-east-ak-app",
+      "url": "https://law.alaska.gov/pdf/consumer/busopp-reg-and-renewal.pdf",
+      "sha256": "30f57c896e3723e9bd8340f01379cd6ff8ea12b677044cc0cfee5c3f8ac36f7b",
+      "fetchedAt": "2026-11-12T21:20:07.133129+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Instructions and promotional-material attachments",
+      "supportingPassage": "Sellers of business opportunities must register with the State of Alaska at least 30 days"
+    },
+    {
+      "id": "b2-east-az-definition",
+      "url": "https://www.azleg.gov/ars/44/01271.htm",
+      "sha256": "664e67393747d49d2efd29135aae661054e5c8ade345780b49bcc3bdf0eea402",
+      "fetchedAt": "2026-11-12T21:20:07.128961+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "1(c)(iii); definitions of seller and business opportunity",
+      "supportingPassage": "The sale of a franchise as defined by the federal trade commission regulations"
+    },
+    {
+      "id": "b2-east-az-registration",
+      "url": "https://www.azleg.gov/ars/44/01272.htm",
+      "sha256": "ca0d134b4d1bec358bb279ab2a74a91519756db46085230fecdd62d706c92bd0",
+      "fetchedAt": "2026-11-12T21:20:07.115228+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "A, B, C(12) and F",
+      "supportingPassage": "The registration statement expires on June 30 of each year"
+    },
+    {
+      "id": "b2-east-az-disclosure",
+      "url": "https://www.azleg.gov/ars/44/01276-01.htm",
+      "sha256": "8e4284f7d7c774d3fbf954105e514106c7334866a29d51cdc88b96367aa9a2eb",
+      "fetchedAt": "2026-11-12T21:20:07.125706+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "A–C: business-opportunity disclosure",
+      "supportingPassage": "at least five business days before the earlier of the consumer’s execution of a contract"
+    },
+    {
+      "id": "b2-east-ar-2023",
+      "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2FACT847.pdf",
+      "sha256": "9197a7b4740448acbacd2d9ed6723bff0511021becd1add64272a4e6b4a06096",
+      "fetchedAt": "2026-11-12T21:20:07.721595+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Sections 3, 5 and 7; approval notation",
+      "supportingPassage": "APPROVED: 4/13/23"
+    },
+    {
+      "id": "b2-east-ar-2025",
+      "url": "https://arkleg.state.ar.us/Bills/Detail?ddBienniumSession=2025%2F2025R&id=HB1177",
+      "sha256": "17e90d1fe7ebef914796212595ea43ec81ab51acf0694491f66bdf5879c5941d",
+      "fetchedAt": "2026-11-12T21:20:08.027634+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "not-enacted",
+      "section": "Bill status",
+      "supportingPassage": "House -- Died in House Committee at Sine Die adjournment."
+    },
+    {
+      "id": "b2-east-ct-guidelines",
+      "url": "https://portal.ct.gov/dob/business-opportunities/bus-opps/guidelines-for-business-opportunity-registration-in-connecticut",
+      "sha256": "cdab540b49ad439342c2a717167da0e9e773e0785456f8f237549577cc344e09",
+      "fetchedAt": "2026-11-12T21:20:08.982599+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Business opportunity exclusions and trademark rights",
+      "supportingPassage": "The burden of proving any of these exclusions and exemptions is upon the person claiming it."
+    },
+    {
+      "id": "b2-east-ct-form",
+      "url": "https://portal.ct.gov/-/media/dob/business-opportunities/form-ct-boia-ex-eff-09-30-2025.pdf",
+      "sha256": "cfe1d4b6d56a95ef0ae422e1a385637d701c76e2c80e0f95472a7e9de81604ff",
+      "fetchedAt": "2026-11-12T21:20:09.237370+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Trademark exclusion claim; effective 9/30/2025",
+      "supportingPassage": "The Department will post exclusionary claims to its online licensing portal but cannot approve or validate an exclusionary claim"
+    },
+    {
+      "id": "b2-east-fl-agency",
+      "url": "https://www.fdacs.gov/Business-Services/Sellers-of-Business-Franchises",
+      "sha256": "b14b066d2aaa9ce5851f8dd7cc741ec16d117f331f69ae813e4bce6a13bb2754",
+      "fetchedAt": "2026-11-12T21:20:08.949053+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Annual Franchise Exemption filing",
+      "supportingPassage": "The Franchise Exemption filing remains in place."
+    },
+    {
+      "id": "b2-east-fl-statute",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0559/Sections/0559.802.html",
+      "sha256": "e71a18597c1f196a24800af01cd1b67978a7b1bf809df404165fa110eb1e2592",
+      "fetchedAt": "2026-11-12T21:20:07.966450+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsections 1–3",
+      "supportingPassage": "Before offering for sale or selling a franchise to be located in this state or to a resident of this state"
+    },
+    {
+      "id": "b2-east-ga-agency",
+      "url": "https://consumer.georgia.gov/business-services/multilevel-distribution-companies-sale-business-opportunities",
+      "sha256": "0d96e0f6cdaaa4a85cd1602ef66ec3efdfc7c07248d62eec89b10565d4517fe1",
+      "fetchedAt": "2026-11-12T21:20:07.909009+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "historical",
+      "section": "Express source currency statement",
+      "supportingPassage": "Current through the 2006 Regular Session"
+    },
+    {
+      "id": "b2-east-ga-mark",
+      "url": "https://sos.ga.gov/page/trademarks-and-service-marks-faq",
+      "sha256": "062e75586d5c8f34f7ab91851b9eaa08ac7460562186bd47dbe83070667b518a",
+      "fetchedAt": "2026-11-12T21:22:31.472941+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Trade name versus trademark/service mark",
+      "supportingPassage": "A trade name (also known as a “DBA” or “fictitious name”)"
+    },
+    {
+      "id": "b2-east-id-agency",
+      "url": "https://business.idaho.gov/licenses/?sbdcrw=50828bb920ca7f0d26781272f589e998",
+      "sha256": "511a26973b995abe4ec9fcd08b391606e7e2b4c9437761b872f7a6987d175cf2",
+      "fetchedAt": "2026-11-12T21:20:09.129342+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Business registration; state licence; city/county requirements",
+      "supportingPassage": "Registering your business is a registration, not a license."
+    },
+    {
+      "id": "b2-east-id-consumer",
+      "url": "https://www.ag.idaho.gov/consumer-protection/consumer-complaints/",
+      "sha256": "e5ccdd28965381bd64085adecbc1c38680283d11bad899e09e2d28ef6f413fe3",
+      "fetchedAt": "2026-11-12T21:22:31.760875+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Consumer complaints information",
+      "supportingPassage": "unfair competition and unfair and deceptive business practices in trade and commerce."
+    },
+    {
+      "id": "b2-east-ia-bizopp",
+      "url": "https://www.legis.iowa.gov/docs/publications/ICC/2026/attachments/551A_ADA.pdf",
+      "sha256": "31d2f3482103927fb27014fa2ef3f7153fcd0aad1f2e8d80ee60d0a8a04a212c",
+      "fetchedAt": "2026-11-12T21:20:07.885337+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "551A.1–.4, .6–.7 and .9",
+      "supportingPassage": "The seller shall file the irrevocable consent prior to executing a business opportunity contract"
+    },
+    {
+      "id": "b2-east-ia-franchise",
+      "url": "https://www.legis.iowa.gov/docs/publications/ICC/2026/attachments/523H_ADA.pdf",
+      "sha256": "ab6a462f8df752609129da0630ccbdf3740b97001977a363667d7b4a09cd597b",
+      "fetchedAt": "2026-11-12T21:20:07.965884+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "523H.2A",
+      "supportingPassage": "this chapter does not apply to a franchise agreement which is entered into on or after July 1, 2000."
+    },
+    {
+      "id": "b2-east-ia-currentrelationship",
+      "url": "https://www.legis.iowa.gov/docs/code/2026/537A.10.pdf",
+      "sha256": "4a16dc4d9d2bb1eb6b14fca8a16d842fb96dc41a84b576fc3c2765a47b666efa",
+      "fetchedAt": "2026-11-12T21:22:31.034764+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsections 1–4,6–8 and 12",
+      "supportingPassage": "this section applies to a new or existing franchise that is operated in this state"
+    },
+    {
+      "id": "b2-east-ia-amendments",
+      "url": "https://www.legis.iowa.gov/law/statutory/acts/amended?year=2026",
+      "sha256": "69bb6dd233f8332d59aea98d4b645e4445dd0acc765da719899b414adf1a9268",
+      "fetchedAt": "2026-11-12T21:22:31.315254+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "enacted-not-effective",
+      "section": "Row for 537A.10(7)(c)(2), SF 2497sections 29,32",
+      "supportingPassage": "2026 Code - 537A.10 (7)(c)(2)"
+    },
+    {
+      "id": "b2-east-ky-exemption",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=54557",
+      "sha256": "6633707b0734d5b4de05f50d8ae376094729e37fa4dcbfcb6a873725f67c497e",
+      "fetchedAt": "2026-11-12T21:20:08.371522+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsection 1(a)",
+      "supportingPassage": "has complied with these and filed written notice so stating with the office"
+    },
+    {
+      "id": "b2-east-ky-rules",
+      "url": "https://apps.legislature.ky.gov/law/kar/titles/040/012/410/",
+      "sha256": "8cf9f010ca08778760501d5eca9d996d37738c82e85e2f9d48b440f918a3750e",
+      "fetchedAt": "2026-11-12T21:20:08.864930+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Current sections 1–5 and history",
+      "supportingPassage": "shall submit a notice of exemption using the Franchise Exemption Notice portal"
+    },
+    {
+      "id": "b2-east-la-definition",
+      "url": "https://legis.la.gov/legis/Law.aspx?d=104155&p=y",
+      "sha256": "2c65f0391d5673b2ae59deab57db0cc29f9bbe213d85a873aa20dcc5a952fe77",
+      "fetchedAt": "2026-11-12T21:20:08.496453+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Business opportunity definition, subsection 1",
+      "supportingPassage": "This provision shall not apply to the sale or lease of a sales plan or marketing program"
+    },
+    {
+      "id": "b2-east-la-registration",
+      "url": "https://legis.la.gov/legis/Law.aspx?d=104156&p=y",
+      "sha256": "986fec52e18c8ed6ccdd530a9755ebb03d551846104d091d4e987b7541d0884a",
+      "fetchedAt": "2026-11-12T21:25:23.546710+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "A, B, E and G: covered sellers/agents and prebusiness filing",
+      "supportingPassage": "including advertising or soliciting"
+    },
+    {
+      "id": "b2-east-la-prohibitions",
+      "url": "https://www.legis.la.gov/legis/LawPrint.aspx?d=104157",
+      "sha256": "b2121cdb3393fe6fe7626228f47665170b7fd9306ac956af7bbc59f9dc064736",
+      "fetchedAt": "2026-11-12T21:20:08.395106+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsections 1–9",
+      "supportingPassage": "documented data to substantiate the claims of income or earning potential"
+    },
+    {
+      "id": "b2-east-la-realestate",
+      "url": "https://www.legis.la.gov/legis/Law.aspx?d=93305",
+      "sha256": "291b4aabe814d1698a8ead863f0185a373dcff44ca3ef78c8a85e7b58ca8b4ae",
+      "fetchedAt": "2026-11-12T21:20:08.456624+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Real estate franchises",
+      "supportingPassage": "unless the franchisor has appointed a Louisiana licensed real estate broker"
+    },
+    {
+      "id": "b2-east-me-law",
+      "url": "https://legislature.maine.gov/statutes/32/title32ch69-B.pdf",
+      "sha256": "35823538a78d0cdfd68a0faab040ea140f922997aa7f528cb476282e65c12618",
+      "fetchedAt": "2026-11-12T21:20:09.651781+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "4691–4699; source currency through 2026-10-01",
+      "supportingPassage": "Every seller shall register with the Securities Administrator prior to selling, offering to sell, advertising"
+    },
+    {
+      "id": "b2-east-ma-classification",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter149/Section148B",
+      "sha256": "41bf846f08db0ad2c6b8b9754b2a473ffde9591b68f365e71b93d94332ade937",
+      "fetchedAt": "2026-11-12T21:20:09.748838+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsectiona: performing services and three conditions",
+      "supportingPassage": "an individual performing any service, except as authorized under this chapter"
+    },
+    {
+      "id": "b2-east-mo-definition",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.400",
+      "sha256": "d0cfb2e06c788b1051a940c7075c6ffb3f16ab5aa0969e4d3d3a5f3a6ad4528a",
+      "fetchedAt": "2026-11-12T21:20:08.572674+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Franchise definition, community of interest and place of business",
+      "supportingPassage": "a commercial relationship that does not contemplate the establishment or maintenance of a place of business"
+    },
+    {
+      "id": "b2-east-mo-relationship",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=407.405",
+      "sha256": "5dde258a0a28adc93ea10df04143ddc2401756398b43d58a263903dd9dc7e074",
+      "fetchedAt": "2026-11-12T21:20:08.526421+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Franchise cancellation/termination/nonrenewal notice",
+      "supportingPassage": "in writing at least ninety days in advance"
+    },
+    {
+      "id": "b2-east-mo-bizopp",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=409.1000",
+      "sha256": "3398d6c89814ef621e003f5227079aa5b11a9d1c7c989828cc8e1fdfda890ed1",
+      "fetchedAt": "2026-11-12T21:20:08.576327+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Business opportunity definition and exclusions",
+      "supportingPassage": "That the business opportunity is free from risk or certain to produce profits"
+    },
+    {
+      "id": "b2-east-mo-prohibitions",
+      "url": "https://revisor.mo.gov/main/OneSection.aspx?section=409.1003",
+      "sha256": "d990844cc450d80fb69e9bc309f1880e0a74aaec81045ac185623d996574b919",
+      "fetchedAt": "2026-11-12T21:20:08.667978+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Prohibited practices",
+      "supportingPassage": "Assign a so-called exclusive territory encompassing the same area to more than one business opportunity purchaser;"
+    },
+    {
+      "id": "b2-east-al-2026",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB138-enr.pdf",
+      "sha256": "5612b2450e9fc9934dab87bcded81dbe1a1756783586b9e394df7a1aedf5b9e5",
+      "fetchedAt": "2026-11-12T21:20:09.478641+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Section 1b–c and section 2",
+      "supportingPassage": "This act shall become effective on June 1,"
+    },
+    {
+      "id": "b2-east-al-status",
+      "url": "https://alison.legislature.state.al.us/files/pdf/2026RS/EndOfDay/H-Calendar-21.pdf",
+      "sha256": "1959d777e8e2b832062ebf87160618f9dcc363f1334e73bd6a36e7fce0eaedbc",
+      "fetchedAt": "2026-11-12T21:20:10.090562+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "SB 138 fiscal note",
+      "supportingPassage": "SB138 (Act 2026-591) as enacted"
+    },
+    {
+      "id": "b2-east-de-law",
+      "url": "https://delcode.delaware.gov/title6/c025/sc05/index.html",
+      "sha256": "8e2c171367515b9cfa47138a26cdcbb4d081a8e6b7eec1d256467203dacef840",
+      "fetchedAt": "2026-11-12T21:20:09.048554+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "2551–2556: franchise security and narrow worker-classification clause",
+      "supportingPassage": "any termination of a franchise or election not to renew a franchise must be made on at least 90 days’ notice."
+    },
+    {
+      "id": "b2-east-co-2026labor",
+      "url": "https://olls.info/crs/crs2026-title-08.htm",
+      "sha256": "80be0b305002b6f76bd65e1225c1cc0a20793a40d2e9e636279d943e5cf2d6be",
+      "fetchedAt": "2026-11-12T21:22:32.548710+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "8-2-113(2)–(4)",
+      "supportingPassage": "covenant not to compete that restricts the right of an individual to receive compensation for performance of labor is void."
+    },
+    {
+      "id": "b2-east-co-downloads",
+      "url": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+      "sha256": "49235b657663b8ee46c4e930cf8c1ac1b0715388c3be7198039c80e83c9050c8",
+      "fetchedAt": "2026-11-12T21:25:23.278709+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Title 8 HTML/PDF links",
+      "supportingPassage": "2026"
+    },
+    {
+      "id": "b2-east-ks-sos",
+      "url": "https://sos.ks.gov/businesses/register-a-business.html",
+      "sha256": "849c1da02660e1beda8fcc4b27735e78a6e4425c9efb0a2f32112660e6856005",
+      "fetchedAt": "2026-11-12T21:25:23.501470+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Foreign qualification and non-Kansas forms",
+      "supportingPassage": "Foreign (non-Kansas) businesses doing business in Kansas must also register with the Kansas Secretary of State."
+    },
+    {
+      "id": "b2-east-ks-register",
+      "url": "https://ksbiz.kansas.gov/plan/register-a-business/",
+      "sha256": "ee7712fadd4f48137887161a39a3ae6e12b11333317b629b08f788f446666a71",
+      "fetchedAt": "2026-11-12T21:23:35.040775+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Resident agent and registered office",
+      "supportingPassage": "The registered office is the physical Kansas address where the resident agent may be regularly reached"
+    },
+    {
+      "id": "b2-east-ms-2018",
+      "url": "https://billstatus.ls.state.ms.us/documents/2018/html/SB/2800-2899/SB2805SG.htm",
+      "sha256": "7fa7416ca9d62139dc2bf42ea01a4d104601c56936a63b2e64d2f7546f90f1d8",
+      "fetchedAt": "2026-11-12T21:22:31.052123+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "historical",
+      "section": "Sections 5–6: franchise definitions and notice language",
+      "supportingPassage": "at least ninety (90) days in advance"
+    },
+    {
+      "id": "b2-east-ms-status",
+      "url": "https://billstatus.ls.state.ms.us/2018/pdf/history/SB/SB2805.xml",
+      "sha256": "999f80f734244489e3f11b00c55efc4d51a0f14164a7856250371d115ffdae76",
+      "fetchedAt": "2026-11-12T21:23:34.299914+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "historical",
+      "section": "Law status, chapter 394 and governor approval",
+      "supportingPassage": "03/19 Approved by Governor"
+    },
+    {
+      "id": "b2-east-ga-forms",
+      "url": "https://sos.ga.gov/page/trademark-and-service-mark-application-and-forms",
+      "sha256": "9aa73f5f6d7768d3037b5e52aadf8acc57b80ae77cbadcc1ad042c0dd6c6570f",
+      "fetchedAt": "2026-11-12T21:27:43.458206+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Limits of office search and legal significance",
+      "supportingPassage": "This office does not search records of federal or other state trademark registrations"
+    },
+    {
+      "id": "b2-east-ky-registration",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=54556",
+      "sha256": "d7437f6bd11c51e68a085738212282323389cb3e5fb4215658bc240c8518a09c",
+      "fetchedAt": "2026-11-12T21:27:43.476161+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsections 1–3",
+      "supportingPassage": "The offeror shall immediately notify the office of any material change"
+    },
+    {
+      "id": "b2-east-ky-advertising",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=54558",
+      "sha256": "2fa678effbf696addb14b33ecf77261656718d7037adaa9f214da536f4903c3f",
+      "fetchedAt": "2026-11-12T21:27:43.624853+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Registration number in advertising",
+      "supportingPassage": "It shall be unlawful for the registrant to fail to include the registration number in any advertising."
+    },
+    {
+      "id": "b2-east-ky-earnings",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=54559",
+      "sha256": "faa2d56c1042fd3be166ae87d375bf809fa41fe197821d70525333ad4f931084",
+      "fetchedAt": "2026-11-12T21:27:43.569422+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Actual/hypothetical earnings representations",
+      "supportingPassage": "examples based upon the actual earnings made by existing consumer/investors"
+    },
+    {
+      "id": "b2-east-ky-contract",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=35072",
+      "sha256": "338013e895f90dfb47e2a12656c7d83e9d8fc7445b10982dc53a90e643bad53a",
+      "fetchedAt": "2026-11-12T21:27:43.631028+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsections 1–2 and 4–7",
+      "supportingPassage": "You have thirty (30) business days in which you may cancel this contract for any reason."
+    },
+    {
+      "id": "b2-east-ky-cancel",
+      "url": "https://apps.legislature.ky.gov/law/Statutes/statute.aspx?id=35074",
+      "sha256": "0fa594ac6257d17d5bdc256aa5fc9490d5db923b555ecbc17abc78b0fb0b650b",
+      "fetchedAt": "2026-11-12T21:27:43.554811+00:00",
+      "reviewedAt": "2026-11-12T21:34:38.072039+00:00",
+      "legalStatus": "effective",
+      "section": "Subsections 1–6",
+      "supportingPassage": "prior to midnight of the thirtieth calendar day after signing a contract"
+    }
+  ],
+  "unusableFetches": [
+    {
+      "id": "ak-law",
+      "url": "https://www.akleg.gov/basis/statutes.asp#45.66",
+      "finalUrl": "https://www.akleg.gov/basis/statutes.asp#45.66",
+      "http": 200,
+      "bytes": 14353,
+      "sha256": "390abaa20d38944a7e7af527f1d48e9f85078ed0bba68d0a897260789ce0021a",
+      "fetchedAt": "2026-11-12T21:20:07.377142+00:00",
+      "firstLine": "Alaska Statutes 2025\nhome\nsenate\nhouse\nbills &\tlaws\nmedia center\npublications\nget started\nThis page "
+    },
+    {
+      "id": "ct-act",
+      "url": "https://www.cga.ct.gov/current/pub/chap_672c.htm",
+      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-12T21:20:07.256858+00:00"
+    },
+    {
+      "id": "fl-guide",
+      "url": "https://ccmedia.fdacs.gov/content/download/116040/file/Franchise-Exemption-Application-Packet-Guide.pdf",
+      "finalUrl": "https://ccmedia.fdacs.gov/login",
+      "http": 200,
+      "bytes": 1555,
+      "sha256": "9b6d581d86dee59a2a28669350620571e6942c3ad2554f59f4bbc18e0dbdca3e",
+      "fetchedAt": "2026-11-12T21:20:08.145482+00:00",
+      "firstLine": "Home\nLogin\nUsername:\nPassword:\nLogin"
+    },
+    {
+      "id": "ks-agency",
+      "url": "https://www.ag.ks.gov/divisions/consumer-protection",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-12T21:20:09.134871+00:00"
+    },
+    {
+      "id": "ks-opinion",
+      "url": "https://www.ag.ks.gov/home/showpublisheddocument/22944/638784276862300000",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-12T21:22:30.957761+00:00"
+    },
+    {
+      "id": "ga-database",
+      "url": "https://ecorp.sos.ga.gov/TrademarksSearch",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-12T21:25:23.528447+00:00"
+    },
+    {
+      "id": "me-agency",
+      "url": "https://www.maine.gov/pfr/securities/registration_programs/business_opportunities/index.htm",
+      "error": "HTTP Error 403: Forbidden",
+      "attemptedAt": "2026-11-12T21:25:23.852617+00:00"
+    },
+    {
+      "id": "ak-fullcode",
+      "url": "https://www.akleg.gov/statutesPDF/title45.pdf",
+      "error": "HTTP Error 404: Not Found",
+      "attemptedAt": "2026-11-12T21:23:34.333971+00:00"
+    },
+    {
+      "id": "co-officialcode",
+      "url": "https://leg.colorado.gov/sites/default/files/images/olls/crs2026-title-08.pdf",
+      "error": "HTTP Error 404: Not Found",
+      "attemptedAt": "2026-11-12T21:23:34.876759+00:00"
+    },
+    {
+      "id": "ks-opinioncopy",
+      "url": "https://ksag.washburnlaw.edu/opinions/2025/2025-007.pdf",
+      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-12T21:23:34.578046+00:00"
+    },
+    {
+      "id": "ma-case",
+      "url": "https://masscases.com/cases/sjc/494/494mass562.html",
+      "finalUrl": "https://masscases.com/cases/sjc/494/494mass562.html",
+      "http": 200,
+      "bytes": 27511,
+      "sha256": "f156c75da4a2718e2978a33d44ecbdedc25f1e3eff5632612090a0eac2f3a1a9",
+      "fetchedAt": "2026-11-12T21:23:34.554586+00:00",
+      "firstLine": "Do Not Sell or Share My Personal Information"
+    },
+    {
+      "id": "ct-sup",
+      "url": "https://www.cga.ct.gov/current/pub/chap_672c.htm#sec_36b-61",
+      "error": "HTTP Error 503: Service Unavailable",
+      "attemptedAt": "2026-11-12T21:23:34.417638+00:00"
+    }
+  ]
+}

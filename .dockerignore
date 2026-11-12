@@ -7,3 +7,9 @@ artifacts
 research/raw
 playwright-report
 test-results
+
+/data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*

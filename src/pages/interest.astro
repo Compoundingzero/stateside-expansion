@@ -1,0 +1,8 @@
+---
+import Base from '../layouts/Base.astro';
+import SubmissionForm from '../components/SubmissionForm';
+import '../styles/submissions.css';
+---
+<Base title="Register interest in ELN" description="Register your interest in ELN, the Enterprise Licensing Network." hideAction>
+  <div class="container submission-page"><div class="submission-layout"><div class="page-intro"><span class="eyebrow">ENTERPRISE LICENSING NETWORK</span><h1>Register your<br/>interest in ELN.</h1><p class="lede">Tell us a little about your business.</p><p class="submission-intro-note">ARR is optional. You can say “not recurring” or “not known.”</p></div><div class="submission-panel"><SubmissionForm kind="interest" client:load/></div></div></div>
+</Base>
