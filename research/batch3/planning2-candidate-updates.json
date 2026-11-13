@@ -1,0 +1,281 @@
+[
+  {
+    "candidateId": "candidate-us-expansion-worker-classification",
+    "path": "/us-expansion/worker-classification/",
+    "family": "federal",
+    "title": "Which worker-classification tests need independent review?",
+    "decision": "publish",
+    "reason": "Publish the newly researched, deliberately scoped primary-source guide. It separates current operative text, agency policy, proposals and documented case posture, with a useful evidence output and explicit adjacent gaps.",
+    "canonicalPath": "/us-expansion/worker-classification/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which worker-classification tests need independent review?",
+    "originalPracticalOutput": "Source-linked responsibility and evidence checklist",
+    "scope": "A worker-facts dossier and dated rule/policy/proposal/court/tax test register.",
+    "unresolvedResearch": [
+      "No individual worker, state-law, exemption or tax-relief conclusion.",
+      "Latest appellate docket/status is not independently verified; the 2026 NPRM’s case account is dated historical agency reporting.",
+      "FAB and NPRM cite different associated opinion numbers; this guide does not reconcile or apply those opinions."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Only the named published scope; no universal transaction, state or sector clearance.",
+    "sourceChecklist": [
+      "DOL, IRS and current court status",
+      "Effective date, current legal status and contrary official sources",
+      "Relevant state/local overlay if applicable"
+    ],
+    "sourceIds": [
+      "b3-planning2-dol-rule795",
+      "b3-planning2-dol-fab2025",
+      "b3-planning2-contractor-nprm",
+      "b3-planning2-irs-contractor",
+      "b3-planning2-colt-order"
+    ],
+    "ruleIds": [
+      "b3-planning2-worker-status"
+    ],
+    "evidencePaths": [
+      "/us-expansion/worker-classification/"
+    ],
+    "publicationState": "proposed"
+  },
+  {
+    "candidateId": "candidate-us-expansion-joint-employer",
+    "path": "/us-expansion/joint-employer/",
+    "family": "federal",
+    "title": "How should a brand monitor current joint-employer developments?",
+    "decision": "publish",
+    "reason": "Publish the newly researched, deliberately scoped primary-source guide. It separates current operative text, agency policy, proposals and documented case posture, with a useful evidence output and explicit adjacent gaps.",
+    "canonicalPath": "/us-expansion/joint-employer/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "How should a brand monitor current joint-employer developments?",
+    "originalPracticalOutput": "Source-linked responsibility and evidence checklist",
+    "scope": "An entity/worker control-and-hours map with separate NLRA, FLSA and state questions.",
+    "unresolvedResearch": [
+      "No joint-employer finding, full circuit survey, bargaining-unit analysis or state-law clearance.",
+      "The 2026 FLSA proposal is not an effective franchise exemption or a substitute for current governing law."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Only the named published scope; no universal transaction, state or sector clearance.",
+    "sourceChecklist": [
+      "NLRB and DOL current rules, litigation and effective status",
+      "Effective date, current legal status and contrary official sources",
+      "Relevant state/local overlay if applicable"
+    ],
+    "sourceIds": [
+      "b3-planning2-nlrb-joint-rule",
+      "b3-planning2-nlrb-withdrawal",
+      "b3-planning2-nlrb-court",
+      "b3-planning2-dol-joint791",
+      "b3-planning2-joint-nprm",
+      "b3-planning2-dol-opinion2025-5",
+      "fed-definition"
+    ],
+    "ruleIds": [
+      "b3-planning2-joint-status"
+    ],
+    "evidencePaths": [
+      "/us-expansion/joint-employer/"
+    ],
+    "publicationState": "proposed"
+  },
+  {
+    "candidateId": "candidate-us-expansion-product-safety",
+    "path": "/us-expansion/product-safety/",
+    "family": "federal",
+    "title": "Which consumer-product rules apply to imported equipment or stock?",
+    "decision": "publish",
+    "reason": "Publish the newly researched, deliberately scoped primary-source guide. It separates current operative text, agency policy, proposals and documented case posture, with a useful evidence output and explicit adjacent gaps.",
+    "canonicalPath": "/us-expansion/product-safety/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which consumer-product rules apply to imported equipment or stock?",
+    "originalPracticalOutput": "Source-linked responsibility and evidence checklist",
+    "scope": "A product-scope and certificate-responsibility matrix plus a complaint/reporting escalation workflow.",
+    "unresolvedResearch": [
+      "No particular product jurisdiction, standard/test result, approval, recall decision or shipment clearance.",
+      "CPSC import overview returned 403; current certification rule/final action/FAQ and actual statutes were readable and used instead.",
+      "eFiling enforcement language is time-sensitive and does not waive the underlying certificate or safety requirements."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Only the named published scope; no universal transaction, state or sector clearance.",
+    "sourceChecklist": [
+      "CPSC category-specific statutes and guidance",
+      "Effective date, current legal status and contrary official sources",
+      "Relevant state/local overlay if applicable"
+    ],
+    "sourceIds": [
+      "b3-planning2-cpsc-def",
+      "b3-planning2-cpsc-certificates",
+      "b3-planning2-cpsc-final-rule",
+      "b3-planning2-cpsc-faq",
+      "b3-planning2-cpsc-section15",
+      "b3-planning2-cpsc-reporting"
+    ],
+    "ruleIds": [
+      "b3-planning2-product-scope"
+    ],
+    "evidencePaths": [
+      "/us-expansion/product-safety/"
+    ],
+    "publicationState": "proposed"
+  },
+  {
+    "candidateId": "candidate-us-expansion-cross-border-data",
+    "path": "/us-expansion/cross-border-data/",
+    "family": "federal",
+    "title": "Which cross-border data flows require a separate privacy review?",
+    "decision": "publish",
+    "reason": "Publish the newly researched, deliberately scoped primary-source guide. It separates current operative text, agency policy, proposals and documented case posture, with a useful evidence output and explicit adjacent gaps.",
+    "canonicalPath": "/us-expansion/cross-border-data/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which cross-border data flows require a separate privacy review?",
+    "originalPracticalOutput": "Source-linked responsibility and evidence checklist",
+    "scope": "A federal DSP data/actor/access/agreement screen with explicit volumes, exemptions and unresolved controls.",
+    "unresolvedResearch": [
+      "No transaction authorisation, exemption finding, security attestation or complete privacy-law clearance.",
+      "CISA resource returned 403; detailed technical security requirements and their implementation remain unresolved.",
+      "DOJ overview says October 5 for a later phase; operative §§ 202.1001–1002 and its implementation policy say October 6. The guide follows those actual operative provisions."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Only the named published scope; no universal transaction, state or sector clearance.",
+    "sourceChecklist": [
+      "Actual origin privacy authority and relevant U.S. state statutes",
+      "Effective date, current legal status and contrary official sources",
+      "Relevant state/local overlay if applicable"
+    ],
+    "sourceIds": [
+      "b3-planning2-doj-rule202",
+      "b3-planning2-doj-dsp",
+      "b3-planning2-doj-enforcement"
+    ],
+    "ruleIds": [
+      "b3-planning2-data-gate"
+    ],
+    "evidencePaths": [
+      "/us-expansion/cross-border-data/"
+    ],
+    "publicationState": "proposed"
+  },
+  {
+    "candidateId": "candidate-us-expansion-pesticide-products",
+    "path": "/us-expansion/pesticide-products/",
+    "family": "federal",
+    "title": "Why must cleaning and pest-control product claims be checked?",
+    "decision": "merge",
+    "reason": "The existing supply case already provides product/import/establishment/arrival and import-versus-U.S.-substitute evidence. The narrow proposed addition now reads actual 40 CFR §§152.10/152.15 claims, ingredient/commercial-use and actual/constructive-knowledge conditions, so the same decision has a precise current primary screen without a duplicate federal page.",
+    "canonicalPath": "/cases/cleaning-product-us-supply/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Why must cleaning and pest-control product claims be checked?",
+    "originalPracticalOutput": "Source-linked responsibility and evidence checklist",
+    "scope": "Existing supply decision plus a proposed actual-claims/pesticidal-intent subsection; retain the case’s fictional scenario label.",
+    "unresolvedResearch": [
+      "No actual product determination, registration/import exception, state/applicator/business licence or final tariff decision.",
+      "Merge depends on root applying planning2-existing-guide-patches.json, not on the old scenario assumption alone."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Scoped intent/import evidence only; product-specific and jurisdiction requirements remain open.",
+    "sourceChecklist": [
+      "EPA FIFRA registration and label instructions",
+      "Effective date, current legal status and contrary official sources",
+      "Relevant state/local overlay if applicable"
+    ],
+    "sourceIds": [
+      "pr-pesticide-import",
+      "b3-planning2-epa-cleaners",
+      "b3-planning2-epa-intent"
+    ],
+    "ruleIds": [
+      "practice-pesticide-import",
+      "b3-planning2-pesticidal-intent"
+    ],
+    "evidencePaths": [
+      "/cases/cleaning-product-us-supply/"
+    ],
+    "publicationState": "existing; proposed scope enhancement"
+  },
+  {
+    "candidateId": "candidate-comparisons-employee-vs-contractor",
+    "path": "/comparisons/employee-vs-contractor/",
+    "family": "comparison",
+    "title": "How should a management team compare employee with contractor?",
+    "decision": "merge",
+    "reason": "The new guide directly distinguishes the FLSA codified interpretation, investigation policy, proposal and IRS employment-tax test, with a shared worker-facts dossier and separate state/court questions. A second generic comparison would repeat that exact decision output.",
+    "canonicalPath": "/us-expansion/worker-classification/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "How should a management team compare employee with contractor?",
+    "originalPracticalOutput": "Side-by-side decision table and evidence request",
+    "scope": "Conceptual comparison and evidence preparation only; actual state/court applicability remains separate.",
+    "unresolvedResearch": [
+      "No individual worker, state-law, exemption or tax-relief conclusion.",
+      "Latest appellate docket/status is not independently verified; the 2026 NPRM’s case account is dated historical agency reporting.",
+      "FAB and NPRM cite different associated opinion numbers; this guide does not reconcile or apply those opinions."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Editorial merge does not complete every employment-law test or individual status analysis.",
+    "sourceChecklist": [
+      "Primary authority for each legal proposition on both sides",
+      "Distinct actor, trigger, jurisdiction and dates",
+      "Original numerical example if economics is compared"
+    ],
+    "sourceIds": [
+      "b3-planning2-dol-rule795",
+      "b3-planning2-dol-fab2025",
+      "b3-planning2-contractor-nprm",
+      "b3-planning2-irs-contractor",
+      "b3-planning2-colt-order"
+    ],
+    "ruleIds": [
+      "b3-planning2-worker-status"
+    ],
+    "evidencePaths": [
+      "/us-expansion/worker-classification/"
+    ],
+    "publicationState": "proposed"
+  },
+  {
+    "candidateId": "candidate-comparisons-brand-standard-vs-employer-control",
+    "path": "/comparisons/brand-standard-vs-employer-control/",
+    "family": "comparison",
+    "title": "How should a management team compare brand standard with employer control?",
+    "decision": "merge",
+    "reason": "The new guide directly separates brand/service standards from actual employment decisions and maps them to current NLRA/FLSA status, shared-worker evidence and separate franchise analysis. It does not clear any actual employer relationship.",
+    "canonicalPath": "/us-expansion/joint-employer/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "How should a management team compare brand standard with employer control?",
+    "originalPracticalOutput": "Side-by-side decision table and evidence request",
+    "scope": "Conceptual comparison and evidence preparation only; actual state/court applicability remains separate.",
+    "unresolvedResearch": [
+      "No joint-employer finding, full circuit survey, bargaining-unit analysis or state-law clearance.",
+      "The 2026 FLSA proposal is not an effective franchise exemption or a substitute for current governing law."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "Editorial merge does not complete every employment-law test or individual status analysis.",
+    "sourceChecklist": [
+      "Primary authority for each legal proposition on both sides",
+      "Distinct actor, trigger, jurisdiction and dates",
+      "Original numerical example if economics is compared"
+    ],
+    "sourceIds": [
+      "b3-planning2-nlrb-joint-rule",
+      "b3-planning2-nlrb-withdrawal",
+      "b3-planning2-nlrb-court",
+      "b3-planning2-dol-joint791",
+      "b3-planning2-joint-nprm",
+      "b3-planning2-dol-opinion2025-5",
+      "fed-definition"
+    ],
+    "ruleIds": [
+      "b3-planning2-joint-status"
+    ],
+    "evidencePaths": [
+      "/us-expansion/joint-employer/"
+    ],
+    "publicationState": "proposed"
+  }
+]

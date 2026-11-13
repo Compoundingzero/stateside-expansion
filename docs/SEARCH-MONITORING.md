@@ -30,10 +30,27 @@ visible only in their authenticated property reports.
 Private owner, API and planning routes are excluded from the sitemap; owner pages
 also carry noindex directives. Do not use private board URLs in inspection requests.
 
-Current status: technical support implemented; provider-issued tokens and account
-verification are pending. The cloud browser connection is unavailable, and no
-connected tool provides ownership verification for these accounts.
+IndexNow support uses the public ownership file `/eln-indexnow.txt`, with its
+public identifier retained in `config/search-monitoring.json`. After deploying a
+content release, run `node scripts/submit-indexnow.mjs` to preview the live public
+URLs, then add `--submit` to notify participating search engines. For later
+releases, use `--paths-file` with a JSON array of the added/changed public paths;
+do not repeatedly resubmit unchanged URLs. The script verifies the live ownership
+file and sitemap before submitting, excludes private routes, and records the
+actual HTTP response. HTTP 200 confirms receipt; 202 leaves key validation pending.
+Neither confirms indexing. Google does not use this protocol; it does not replace
+Google/Bing account-property verification or their search performance reports.
+
+Current account status: technical support implemented; provider-issued tokens and
+account verification remain pending. The user asked the agent to perform setup.
+The cloud browser fails before opening a tab (`gaas-browser node_repl sandbox
+cannot be disabled`), while the app's Desktop viewer does not recognize this
+chat's available cloud environment. No connected tool can verify these accounts;
+discovered Search Console integrations supply reporting, not ownership creation.
+Do not claim successful account verification until access is restored and the
+provider reports success.
 
 Official instructions:
 - https://support.google.com/webmasters/answer/9008080
 - https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b
+- https://www.indexnow.org/documentation

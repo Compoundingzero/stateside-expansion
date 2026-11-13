@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T22:01:24.217Z",
+  "generatedAt": "2026-11-13T02:01:51.321Z",
   "definitions": {
     "published": "Unique canonical guide records with status published; tools and landing pages counted separately.",
     "reviewed": "Published guides with a recorded substantive review date. This is AI-assisted source review, not professional legal review.",
@@ -7,29 +7,29 @@
     "notResearched": "Explicit missing research status. It does not mean no requirement."
   },
   "guides": {
-    "total": 186,
+    "total": 290,
     "byStatus": {
-      "blocked": 2,
+      "blocked": 3,
       "draft": 9,
-      "published": 175
+      "published": 278
     },
-    "published": 175,
-    "sourceReviewedPublished": 175,
-    "reviewedAllGuideRecords": 178,
+    "published": 278,
+    "sourceReviewedPublished": 278,
+    "reviewedAllGuideRecords": 281,
     "sourceReviewedDrafts": 3,
     "mergedDrafts": 7,
     "professionallyReviewed": 0,
     "byFamily": {
-      "case": 12,
-      "comparison": 2,
+      "case": 13,
+      "comparison": 5,
       "decision": 6,
       "fdd": 23,
-      "federal": 20,
-      "industry": 17,
-      "local": 16,
-      "origin": 17,
-      "state": 52,
-      "state-issue": 3,
+      "federal": 47,
+      "industry": 35,
+      "local": 23,
+      "origin": 48,
+      "state": 58,
+      "state-issue": 13,
       "territory": 7
     }
   },
@@ -48,22 +48,24 @@
     ]
   },
   "sources": {
-    "total": 289,
+    "total": 640,
     "byAccessStatus": {
       "access-blocked": 1,
-      "blocked": 4,
+      "blocked": 5,
       "blocked-403": 7,
-      "read": 188,
-      "retrieved-and-read": 89
+      "read": 396,
+      "retrieved-and-read": 226,
+      "retrieved-and-read-via-public-reader": 4,
+      "retrieved-outdated-translation": 1
     },
-    "substantivelyVerified": 277
+    "substantivelyVerified": 627
   },
   "rules": {
-    "total": 177,
+    "total": 390,
     "byStatus": {
-      "conditional": 107,
-      "unresolved": 2,
-      "verified": 68
+      "conditional": 273,
+      "unresolved": 3,
+      "verified": 114
     }
   },
   "coverage": {
@@ -72,14 +74,13 @@
     "origins": 70,
     "markets": 40,
     "marketsByStatus": {
-      "conditional": 37,
-      "not-researched": 3
+      "conditional": 40
     },
     "independentTopicDimensions": {
       "verified": 0,
-      "conditional": 154,
-      "unresolved": 36,
-      "not-researched": 1070,
+      "conditional": 305,
+      "unresolved": 30,
+      "not-researched": 925,
       "not-applicable": 0
     }
   },
@@ -99,10 +100,15 @@
       "tool": 15
     },
     "byStatus": {
-      "not-researched": 703
+      "implemented-tool": 9,
+      "merged": 202,
+      "not-researched": 237,
+      "published": 182,
+      "retired": 73
     },
-    "matchingPublishedPaths": 100,
-    "outstandingResearchCandidates": 603,
-    "unpublishedCandidatePaths": 603
+    "matchingPublishedPaths": 181,
+    "reviewedEditorialDecisions": 703,
+    "outstandingResearchCandidates": 237,
+    "unpublishedCandidatePaths": 522
   }
 }

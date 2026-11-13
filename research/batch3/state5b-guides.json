@@ -1,0 +1,78 @@
+[
+  {
+    "id": "b2-west-oklahoma",
+    "path": "/states/oklahoma/",
+    "title": "Oklahoma: distinguish the disclosure exemption from registration and advertising",
+    "description": "Use the actual exemption text and the offer-location rules before deciding which filing process applies.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Oklahoma"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-ok-exemption",
+      "b2-west-ok-registration",
+      "b2-west-ok-advertising"
+    ],
+    "sections": [
+      {
+        "heading": "Choose and document the route",
+        "paragraphs": [
+          "The Oklahoma Business Opportunity Sales Act prohibits covered offers or sales without registration or an exemption. Section 803(6) provides a disclosure-based exemption for specified business opportunities or franchises when the stated document is delivered 14 calendar days before the earlier binding agreement or consideration. It exempts §§806–811, rather than the entire Act."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
+      },
+      {
+        "heading": "Do not replace the state definition with the federal test",
+        "paragraphs": [
+          "Section 802 contains state definitions of business opportunity, franchise and marketing plan. Account-finding and training promises can be relevant facts. A separate registered-mark/net-worth exclusion has additional conditions; mark registration alone is insufficient. Section 805 assigns the burden of proving an exemption, exclusion or exception to its claimant."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
+      },
+      {
+        "heading": "Fictional example: an industrial-services campaign",
+        "paragraphs": [
+          "A Dutch brand prepares an FDD and expects responses in Oklahoma for a proposed operation nearby. The expansion lead should map offer origin and receipt, acceptance, domicile and operating location under §818. Finance must list early commitments and payments. An internet campaign needs analysis of its actual communications, rather than an invented blanket rule about discovery calls."
+        ]
+      },
+      {
+        "heading": "Registration and advertising are independent tasks",
+        "paragraphs": [
+          "For the registration route, §807 describes a complete filing, effectiveness normally after 15 full business days absent the stated orders/proceedings, and a one-year duration. Sections 819–822 address fraud and misleading claims, including portraying filing as approval. The current administrative advertising-filing rule could not be confirmed because the agency site failed; that task remains unresolved."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Legal reviewer: identify the exact definition and exemption paragraph, and what survives it.",
+          "Sales coordinator: retain document version, recipient, delivery and earliest commitment.",
+          "Company secretary: confirm completeness, effectiveness and renewal if registration applies.",
+          "Marketing lead: retain claim substantiation and a separate advertising-rule review.",
+          "Expansion lead: preserve the parties and offer/acceptance locations."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-ok-title71"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "An Oklahoma transaction map, route rationale and independent advertising task.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "contentModifiedAt": "2026-11-13T01:42:57.352694+00:00"
+  }
+]

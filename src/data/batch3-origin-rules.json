@@ -1,0 +1,306 @@
+[
+  {
+    "id": "b3-origin-sweden-scope",
+    "title": "Swedish service fees: prove the U.S. buyer and receiving establishment before VAT box 40",
+    "topic": "corporate-tax",
+    "jurisdiction": "Sweden",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "For a Swedish seller’s service covered by the taxable-person general rule, establish that the buyer purchases for its business and identify the receiving establishment. Skatteverket says not to charge Swedish VAT when that rule places the service abroad and to report non-EU taxable-person sales in Swedish kronor in box 40. Service exceptions must be checked first.",
+    "exceptions": "Property, admission, transport, catering and other special services can change the general result; private use changes customer treatment.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Buyer status and business-use evidence",
+      "Receiving-establishment record",
+      "Service classification and exception analysis",
+      "SEK box 40 reporting record"
+    ],
+    "sourceIds": [
+      "b3-origin-sweden-vat-services"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a narrow home-country VAT guide, not a full corporate-income-tax, withholding, transfer-pricing, foreign-exchange or U.S. tax analysis.",
+      "Service type, business/private use, receiving establishment, physical location and any special rule must be established. A U.S. address or incorporation certificate alone does not approve the result.",
+      "Franchise classification, state sales rules, staffing permissions, U.S. work authorization, data transfers and local operating requirements remain independent research tasks."
+    ],
+    "dependentPaths": [
+      "/from/sweden/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-origin-denmark-scope",
+    "title": "Danish U.S. service sales: check Danish use before removing VAT",
+    "topic": "corporate-tax",
+    "jurisdiction": "Denmark",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "Document the non-EU business customer and service classification before omitting Danish VAT. The Danish Tax Agency lists exceptions for Danish property/events and Danish use of specified rights, consultancy and other services. Maintain separate non-EU service accounts and report the value of qualifying VAT-exempt non-EU sales in box C.",
+    "exceptions": "Danish property/events and the stated Danish-use categories can change the normal business-service result; unidentified business status requires the consumer track.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Saved customer identity/business proof",
+      "Service and use-location analysis",
+      "Separate non-EU service account",
+      "Box C support and independent destination-tax review"
+    ],
+    "sourceIds": [
+      "b3-origin-denmark-vat-services"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a narrow home-country VAT guide, not a full corporate-income-tax, withholding, transfer-pricing, foreign-exchange or U.S. tax analysis.",
+      "Service type, business/private use, receiving establishment, physical location and any special rule must be established. A U.S. address or incorporation certificate alone does not approve the result.",
+      "Franchise classification, state sales rules, staffing permissions, U.S. work authorization, data transfers and local operating requirements remain independent research tasks."
+    ],
+    "dependentPaths": [
+      "/from/denmark/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-origin-norway-scope",
+    "title": "Norwegian U.S. service revenue: test remote-service nature and document the recipient",
+    "topic": "corporate-tax",
+    "jurisdiction": "Norway",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "Under the agency’s current reproduction of VAT Act § 6-22, remotely deliverable services are exempt from Norwegian VAT when the recipient is domiciled outside the VAT area, subject to the fixed-terminal communication exception. Determine the service by its nature and preserve sales documentation showing the relevant recipient address. The wholly-used-abroad track for other services is distinct.",
+    "exceptions": "Wholly-used-abroad services and electronic communications through fixed terminals have distinct rules. Current recipient treatment changed in 2023; historical consumer language is not carried forward.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Service-nature analysis",
+      "Actual foreign-recipient sales document",
+      "Work/use-location facts",
+      "Current source and historical-case separation"
+    ],
+    "sourceIds": [
+      "b3-origin-norway-export-statute",
+      "b3-origin-norway-export-guide",
+      "b3-origin-norway-remote-cases",
+      "b3-origin-norway-export-case"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a narrow home-country VAT guide, not a full corporate-income-tax, withholding, transfer-pricing, foreign-exchange or U.S. tax analysis.",
+      "Service type, business/private use, receiving establishment, physical location and any special rule must be established. A U.S. address or incorporation certificate alone does not approve the result.",
+      "Franchise classification, state sales rules, staffing permissions, U.S. work authorization, data transfers and local operating requirements remain independent research tasks.",
+      "Norwegian source text was interpreted with AI assistance. The 2014 case is explicitly historical and subsequent case history is not verified."
+    ],
+    "dependentPaths": [
+      "/from/norway/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-origin-finland-scope",
+    "title": "Finnish service sales: identify the receiving establishment and keep the VAT-return entry",
+    "topic": "corporate-tax",
+    "jurisdiction": "Finland",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "For a Finnish seller’s business service within the general rule, identify the buyer’s receiving fixed establishment or, absent one, its business establishment. Vero requires certain sales placed outside Finland, including general-rule non-EU services, under “Turnover taxable at zero VAT rate”. Do not infer U.S. reverse charge or an income-tax permanent establishment from that VAT analysis.",
+    "exceptions": "Private use and special services can alter the general rule. VAT fixed establishment and corporate-income-tax permanent establishment are different inquiries.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Service classification",
+      "Receiving-establishment and resource facts",
+      "Invoice and Finnish return entry",
+      "Separate destination-tax review"
+    ],
+    "sourceIds": [
+      "b3-origin-finland-vat-services"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a narrow home-country VAT guide, not a full corporate-income-tax, withholding, transfer-pricing, foreign-exchange or U.S. tax analysis.",
+      "Service type, business/private use, receiving establishment, physical location and any special rule must be established. A U.S. address or incorporation certificate alone does not approve the result.",
+      "Franchise classification, state sales rules, staffing permissions, U.S. work authorization, data transfers and local operating requirements remain independent research tasks."
+    ],
+    "dependentPaths": [
+      "/from/finland/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-origin-austria-scope",
+    "title": "Austrian U.S. service invoices: establish the customer and recipient place before using EU routines",
+    "topic": "corporate-tax",
+    "jurisdiction": "Austria",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "UStG § 3a(6) generally locates a business service at the recipient’s business or receiving establishment, subject to the statutory exceptions. Establish the third-country customer’s business status/use through appropriate evidence and review service exceptions. EU UID, recapitulative-statement and reverse-charge workflows do not themselves determine U.S. obligations.",
+    "exceptions": "UStG § 3a(8)–(16) and other special provisions can displace the general rule. Private-use purchases have separate treatment.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Third-country customer evidence",
+      "Business-use and receiving-establishment facts",
+      "Service-exception check",
+      "Separate Austrian and U.S. tax tasks"
+    ],
+    "sourceIds": [
+      "b3-origin-austria-vat-3a-web",
+      "b3-origin-austria-service-place",
+      "b3-origin-austria-wko-b2b"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a narrow home-country VAT guide, not a full corporate-income-tax, withholding, transfer-pricing, foreign-exchange or U.S. tax analysis.",
+      "Service type, business/private use, receiving establishment, physical location and any special rule must be established. A U.S. address or incorporation certificate alone does not approve the result.",
+      "Franchise classification, state sales rules, staffing permissions, U.S. work authorization, data transfers and local operating requirements remain independent research tasks.",
+      "German source text was interpreted with AI assistance. Only the cited primary-rule scope is established; the full range of statutory exceptions and implementing regulations is not surveyed."
+    ],
+    "dependentPaths": [
+      "/from/austria/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-origin-belgium-scope",
+    "title": "Belgian brands entering the U.S.: map the Benelux or EU base before the Madrid route",
+    "topic": "ip-data",
+    "jurisdiction": "Belgium",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "Identify the owner, sign, goods/services and territorial scope of the basic Benelux or EU application/registration. The Belgian IP office directs an international Madrid application through the office holding that base, with the desired countries designated. National examination/refusal remains possible; a Benelux/EU title or Madrid filing is not automatic U.S. protection.",
+    "exceptions": "Madrid eligibility, current basic-mark facts and each designated country’s requirements remain conditional; direct national filing can be an alternative.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Basic Benelux/EU mark record",
+      "Owner and actual-use map",
+      "Goods/services and territorial schedule",
+      "Office-of-origin and U.S. examination plan"
+    ],
+    "sourceIds": [
+      "b3-origin-belgium-trademark-before-web",
+      "b3-origin-belgium-trademark-international-web"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a Belgian home-country trademark-route guide. It does not clear a mark, establish U.S. registrability, choose a filing basis or file an application.",
+      "Current ownership, basic-mark status, service classes, prior rights, national requirements and actual fees must be checked for the intended filing.",
+      "Data protection, franchise classification, tax, personnel, treaty eligibility and operating permissions remain independent."
+    ],
+    "dependentPaths": [
+      "/from/belgium/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-origin-switzerland-scope",
+    "title": "Swiss U.S. expansion data: verify the recipient’s Swiss-U.S. certification or another transfer route",
+    "topic": "ip-data",
+    "jurisdiction": "Switzerland",
+    "activity": "Preparing a home-country-dependent part of U.S. expansion",
+    "affectedParty": "Home-country operating entity and responsible finance, legal or data owner",
+    "applicability": "Apply the cited country-specific rule to the actual seller, customer, service, data or right and relevant establishments.",
+    "requirement": "Before a Swiss personal-data disclosure abroad, establish the relevant FADP transfer route. The current FOJ list qualifies U.S. adequacy by Swiss-U.S. Data Privacy Framework certification of the recipient organization. Verify the actual recipient and covered processing; otherwise assess another permitted safeguard or exception. Information and inventory duties remain relevant.",
+    "exceptions": "Other safeguards or narrow Article 17 exceptions may be available subject to their own conditions; adequacy does not dispense with other applicable duties.",
+    "trigger": "Before relying on the invoice, filing or transfer arrangement",
+    "deadline": "Before the covered invoice, trademark route or data transfer; recheck material changes",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual legal entities and establishments",
+      "Documented transaction or data-flow facts"
+    ],
+    "evidence": [
+      "Actual recipient and data-flow map",
+      "Current relevant certification evidence or safeguard analysis",
+      "Notice and inventory records where required",
+      "Recipient/supplementary-measures assessment and change owner"
+    ],
+    "sourceIds": [
+      "b3-origin-swiss-data-transfer",
+      "b3-origin-swiss-adequacy",
+      "b3-origin-swiss-dpf-decision"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective guidance for the named issue",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is a Swiss cross-border personal-data transfer guide, not a complete FADP/GDPR compliance program or a specific company certification check.",
+      "Swiss-U.S. certification must be current and relevant to the actual recipient and processing. The official 2024 assessment is historical support; the live FOJ list and FDPIC guidance provide the present reviewed context.",
+      "Lawful processing, contracts, security, sensitive/employee data, onward disclosures and all other applicable legal requirements need their own fact review. Tax, franchise and staffing permission are separate."
+    ],
+    "dependentPaths": [
+      "/from/switzerland/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  }
+]

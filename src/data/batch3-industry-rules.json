@@ -1,0 +1,265 @@
+[
+  {
+    "id": "b3-ind-ca-ppo-entity",
+    "title": "Match California security operation to its licensed entity and qualified manager",
+    "topic": "premises-opening",
+    "jurisdiction": "California",
+    "activity": "Business of a Private Patrol Operator",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Obtain the appropriate PPO company license, designate the qualified manager, and resolve new-entity/name approval before covered operations. A brand or transfer agreement does not transfer the license.",
+    "exceptions": "Actual statutory exemptions and a different security activity require separate analysis.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Entity/ownership record",
+      "Qualified-manager credentials and active-charge duties",
+      "Business-name authorization",
+      "Company license evidence"
+    ],
+    "sourceIds": [
+      "b3-ind-ca-ppo"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This guide does not clear armed work, guard registration, alarm work, investigators, branch offices or another state."
+    ],
+    "dependentPaths": [
+      "/industries/security-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-ind-ca-ppo-coverage",
+    "title": "Maintain California PPO occurrence liability coverage",
+    "topic": "premises-opening",
+    "jurisdiction": "California",
+    "activity": "Initial licensure and continued PPO licensing",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Maintain general liability coverage of at least $1,000,000 per occurrence and the required Certificate of Liability; the Bureau requires occurrence rather than claims-made coverage.",
+    "exceptions": "No blanket exception asserted; confirm actual policy/application circumstances with BSIS.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Policy and occurrence form",
+      "Matching entity name",
+      "Certificate and coverage dates",
+      "Renewal/notice owner"
+    ],
+    "sourceIds": [
+      "b3-ind-ca-ppo-insurance",
+      "b3-ind-ca-ppo"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Coverage limit is a regulatory minimum, not an insurance premium or a declaration that a customer risk is adequately insured."
+    ],
+    "dependentPaths": [
+      "/industries/security-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-ind-nyc-agency-scope",
+    "title": "Distinguish NYC employment placement from actual staffing",
+    "topic": "premises-opening",
+    "jurisdiction": "New York City",
+    "activity": "Fee-based job assistance from an NYC-located agency",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Classify placement, employer-paid search or staffing against DCWP’s actual licence criteria. Apply for a licence when required; the listed employer-paid exception does not remove applicable Employment Agency Law duties.",
+    "exceptions": "DCWP identifies actual staffing employers with W-2 employees and certain no-applicant-fee search agencies as not requiring this particular licence, subject to stated criteria.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Who employs and pays worker",
+      "All applicant/employer fees",
+      "Job classes",
+      "Office location/use",
+      "Licence or documented exception analysis"
+    ],
+    "sourceIds": [
+      "b3-ind-nyc-employment"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No tax/employment classification ruling or exemption from all regulation. NYC location condition matters; out-of-city or cross-border agency activity is unresolved."
+    ],
+    "dependentPaths": [
+      "/industries/staffing-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-ind-temp-worker-safety",
+    "title": "Allocate and verify supplied-worker safety duties",
+    "topic": "premises-opening",
+    "jurisdiction": "Federal",
+    "activity": "Workers paid by a staffing agency and supplied to a host workplace",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Identify and fulfil the staffing and host employers’ fact-dependent OSHA responsibilities; inquire into host conditions and verify safety protections. Written allocation does not remove legal responsibility.",
+    "exceptions": "Specific standards, facts and any applicable State Plan need separate review.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Host hazard/task review",
+      "General/site-specific training evidence",
+      "Incident/escalation process",
+      "Responsibility schedule"
+    ],
+    "sourceIds": [
+      "b3-ind-osha-staffing"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "OSHA safety analysis is not a joint-employer determination under wage, discrimination, benefits or other laws."
+    ],
+    "dependentPaths": [
+      "/industries/staffing-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-ind-ca-childcare-path",
+    "title": "Resolve the California child-care category before opening",
+    "topic": "premises-opening",
+    "jurisdiction": "California",
+    "activity": "Care and supervision of children in a home or centre",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Determine whether the actual arrangement needs a licence or fits a specific exemption. For a licensed centre, complete the applicable orientation/application, background-clearance, local fire-clearance and pre-licensing process before operating.",
+    "exceptions": "CDSS identifies limited license-exempt arrangements; its overview is not an exhaustive exemption analysis.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Care/age/hour description",
+      "Operator and proposed premises",
+      "Exemption or licence route",
+      "Background-check roster",
+      "Fire/inspection dependencies"
+    ],
+    "sourceIds": [
+      "b3-ind-ca-child-scope",
+      "b3-ind-ca-child-process"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No approval of a named facility, capacity, age-specific staffing ratio, safeguarding plan or medical service."
+    ],
+    "dependentPaths": [
+      "/industries/childcare/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-ind-ca-postsecondary",
+    "title": "Determine California postsecondary approval or a supported exemption",
+    "topic": "premises-opening",
+    "jurisdiction": "California",
+    "activity": "Private entity physically present in California offering postsecondary education to the public for an institutional charge",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Apply the statutory definitions and actual exemption conditions. Unless exempt or covered by the stated transition provisions, obtain BPPE approval before opening, conducting or doing business as the covered institution.",
+    "exceptions": "Education Code 94874 and associated limitations contain fact-specific exemptions; not every training programme qualifies.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Learner/programme/credential description",
+      "Physical presence and charging entity",
+      "Full course catalogue and fees",
+      "Exact exemption conditions or approval evidence"
+    ],
+    "sourceIds": [
+      "b3-ind-ca-education"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No determination for K–12 schooling, childcare, out-of-state distance education, financial aid or occupational licensing."
+    ],
+    "dependentPaths": [
+      "/industries/education-centres/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-ind-ca-education-claims",
+    "title": "Review covered California school marketing separately from brand promotion",
+    "topic": "premises-opening",
+    "jurisdiction": "California",
+    "activity": "Advertising and student recruitment by an institution subject to the cited Act",
+    "affectedParty": "Proposed local operating entity and responsible management",
+    "applicability": "Actual activities, operating entity, location and stated statutory or regulatory conditions.",
+    "requirement": "Do not promise/guarantee employment or overstate jobs; job/skill/duration advertising must be accurate and not misleading. Use accreditation and approval claims only as the Act permits.",
+    "exceptions": "Apply only after resolving the institution’s statutory status and the relevant section; no blanket rule for every exempt education activity asserted.",
+    "trigger": "Before offering or commencing the covered activity",
+    "deadline": "Obtain the applicable authority before the covered operation; verify current application timing.",
+    "fee": null,
+    "renewal": "Maintain the applicable approval and verify current renewal/continuing conditions.",
+    "dependencies": [],
+    "evidence": [
+      "Programme and credential wording",
+      "Substantiation for job/skill/duration claims",
+      "Approval/accreditation status",
+      "Student recruitment materials"
+    ],
+    "sourceIds": [
+      "b3-ind-ca-education"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current requirement within stated scope",
+    "verifiedAt": "2026-11-13T00:40:14.408038+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No verification of an actual school, job placement rate, credential recognition or accreditation claim."
+    ],
+    "dependentPaths": [
+      "/industries/education-centres/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

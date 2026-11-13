@@ -1,0 +1,60 @@
+[
+  {
+    "id": "case-link-qargo-definition",
+    "caseGuideId": "b2-qargo-bounded",
+    "ruleIds": [
+      "fed-relationship-definition"
+    ],
+    "guideIds": [],
+    "explanation": "The FTC's historical complaint describes the brand, fees, control and support behind a license label. These are allegations; official reports record settlement, while signed final-order remedy terms remain unreviewed."
+  },
+  {
+    "id": "case-link-burgerim-claims",
+    "caseGuideId": "case-burgerim",
+    "ruleIds": [
+      "fed-fdd-item-19",
+      "b3-planning-advertising-controls"
+    ],
+    "guideIds": [],
+    "explanation": "The January 2024 entity default judgment addresses income, payback and support representations. It is a historical default judgment, not a contested trial or proof that ordered money was collected."
+  },
+  {
+    "id": "case-link-tower-earnings",
+    "caseGuideId": "case-tower",
+    "ruleIds": [
+      "fed-fdd-item-19"
+    ],
+    "guideIds": [
+      "industry-cleaning"
+    ],
+    "explanation": "The 1996 commercial-cleaning consent decree connects earnings claims and records. It used the earlier disclosure framework, resolved disputed issues without admission, and does not replace today's Item 19 rules."
+  },
+  {
+    "id": "case-link-alacrity-payroll",
+    "caseGuideId": "b2-alacrity-case",
+    "ruleIds": [
+      "b3-planning-flsa-baseline",
+      "b3-planning2-worker-status"
+    ],
+    "guideIds": [
+      "industry-cleaning",
+      "b2-homecare"
+    ],
+    "explanation": "The identified 2025 janitorial consent judgment records admissions concerning classification, overtime and payroll records. Its terms and admissions belong to that case; they are not an automatic outcome for another employer."
+  },
+  {
+    "id": "case-link-pma-management-evidence",
+    "caseGuideId": "b3-recent-pma-management-claims",
+    "ruleIds": [
+      "fed-fdd-item-19",
+      "fed-fdd-item-2",
+      "b3-planning-seller-prohibitions",
+      "b3-planning-advertising-controls"
+    ],
+    "guideIds": [
+      "guide-management",
+      "guide-fdd-comparison"
+    ],
+    "explanation": "The FTC’s 2026 complaint alleges unsupported semi-absentee claims, incomparable earnings cohorts and omitted external sales-management personnel. The reviewed settlement papers are proposed filings with blank judicial signature fields; no entered judgment or collected money is verified."
+  }
+]

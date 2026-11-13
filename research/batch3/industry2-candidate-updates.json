@@ -1,0 +1,626 @@
+[
+  {
+    "candidateId": "candidate-industries-landscaping",
+    "path": "/industries/landscaping/",
+    "family": "industry",
+    "title": "How should a landscaping business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/landscaping/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a landscaping business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A service menu that links actual landscape/pesticide tasks to operator, person and site evidence. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "California sources only; no actual exemption, pesticide use or local permit decision.",
+      "Actual contract task, permit, price, advertising and staffing facts for the California contractor/exemption decision.",
+      "Actual pesticide category, QAL/QAC and county/product-use permissions; local irrigation, tree, water, noise and waste conditions."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State pesticide authorities and local water restrictions",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-ca-landscape",
+      "b3-i2-ca-pesticide",
+      "b3-i2-ca-law2026"
+    ],
+    "ruleIds": [
+      "b3-i2-landscape-task",
+      "b3-i2-landscape-pesticide",
+      "b3-i2-landscape-trigger"
+    ],
+    "evidencePaths": [
+      "/industries/landscaping/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-commercial-laundry",
+    "path": "/industries/commercial-laundry/",
+    "family": "industry",
+    "title": "How should a commercial laundry business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/commercial-laundry/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a commercial laundry business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "An operator/process/site file separating industrial-laundry licensing from wastewater classification and plant costs. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "NYC business and federal pretreatment framework only; no actual-site or categorical/SIU determination.",
+      "Actual receiving POTW/control authority and site discharge, categorical/SIU status, local limits and monitoring/control determination.",
+      "Dry-cleaning or direct-discharge activity; actual boiler, fire/building, worker/chemical and plant-cost evidence."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "Local industrial wastewater authority and OSHA",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-nyc-laundry",
+      "b3-i2-pretreat-def",
+      "b3-i2-pretreat-control"
+    ],
+    "ruleIds": [
+      "b3-i2-laundry-license",
+      "b3-i2-laundry-water"
+    ],
+    "evidencePaths": [
+      "/industries/commercial-laundry/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-waste-services",
+    "path": "/industries/waste-services/",
+    "family": "industry",
+    "title": "How should a waste services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/waste-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a waste services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A waste-stream acceptance and transport handoff file with named generator, transporter and recipient evidence. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Federal hazardous-waste transportation only; no site/stream/municipal collection clearance.",
+      "Competent classification of each actual stream, state/DOT transport requirements, manifest exceptions and designated recipient acceptance.",
+      "Municipal collection/private-franchise rights, nonhazardous routes, transfer/storage/treatment/disposal and international shipment permissions."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State environmental agency and municipal franchise agreements",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-epa-waste"
+    ],
+    "ruleIds": [
+      "b3-i2-waste-transporter"
+    ],
+    "evidencePaths": [
+      "/industries/waste-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-electrical-services",
+    "path": "/industries/electrical-services/",
+    "family": "industry",
+    "title": "How should a electrical services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/electrical-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a electrical services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A Texas electrical entity/master roster plus project and continuity release checks. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Texas contractor application only; no nationwide or job-specific authorisation.",
+      "Actual task/category/exemption, individual eligibility and issued credentials, master assignment facts and continuity procedure.",
+      "Local job permit/inspection, specialised sign/appliance/maintenance categories, renewal and actual coverage/premium terms."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State electrical licensing board and local permit authority",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-tx-electric"
+    ],
+    "ruleIds": [
+      "b3-i2-electrical-company"
+    ],
+    "evidencePaths": [
+      "/industries/electrical-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-plumbing-services",
+    "path": "/industries/plumbing-services/",
+    "family": "industry",
+    "title": "How should a plumbing services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/plumbing-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a plumbing services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A company/RMP/workforce/job responsibility chain with permit and inspection evidence. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Texas RMP branch only; no actual job or all-professional qualification decision.",
+      "Actual company/RMP/workforce status, scope/exemption and job-specific direct supervision.",
+      "Local code, permit and inspection authority/outcomes, actual coverage/renewal and other states’ rules."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State plumbing board and municipal building department",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-tx-plumbing"
+    ],
+    "ruleIds": [
+      "b3-i2-plumbing-rmp"
+    ],
+    "evidencePaths": [
+      "/industries/plumbing-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-equipment-servicing",
+    "path": "/industries/equipment-servicing/",
+    "family": "industry",
+    "title": "How should a equipment servicing business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/equipment-servicing/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a equipment servicing business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A job-specific host/contractor procedure and authorised-person handoff, without prescribing the actual isolation method. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Defined OSHA scope only; not a safe-work recipe or all-equipment licence.",
+      "Actual equipment/task/energy exposures and applicable OSHA scope, employer-specific program, training and qualified safe-work procedures.",
+      "Construction, electrical, refrigerant, pressure-equipment and state/local trade/person permissions require separate authority."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "OSHA equipment-specific standards and product certification authority",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-lockout"
+    ],
+    "ruleIds": [
+      "b3-i2-equipment-energy"
+    ],
+    "evidencePaths": [
+      "/industries/equipment-servicing/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-logistics-services",
+    "path": "/industries/logistics-services/",
+    "family": "industry",
+    "title": "How should a logistics services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/logistics-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a logistics services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A contract-based logistics role decision and continuing broker-security/authority evidence file. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Federal property-broker scope only; no all-logistics or actual-registration conclusion.",
+      "Actual contract/traffic-allocation facts deciding broker, carrier or qualified bona fide agent; applicable current authority/filings and BMC security.",
+      "Carrier, forwarder, warehouse, customs, intrastate and insurance/commodity requirements; no current portal or timing promise."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "FMCSA registration and operating-authority rules",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-broker-definition",
+      "b3-i2-broker-security"
+    ],
+    "ruleIds": [
+      "b3-i2-logistics-role",
+      "b3-i2-logistics-security"
+    ],
+    "evidencePaths": [
+      "/industries/logistics-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-bookkeeping-services",
+    "path": "/industries/bookkeeping-services/",
+    "family": "industry",
+    "title": "How should a bookkeeping services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/bookkeeping-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a bookkeeping services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A service scope and named-credential schedule separating ledger work, paid returns and CPA/attest services. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "No blanket bookkeeping exemption or professional authority; current year and actual tasks control.",
+      "Actual bookkeeping/payroll/tax-preparation/attest tasks, applicable-year PTIN and any separate e-file/representation authority.",
+      "Applicable state title/practice and firm rules, actual CPA restrictions, privacy/security and foreign outsourcing; no national bookkeeping exemption."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State accountancy boards and FTC safeguards applicability",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-ptin",
+      "b3-i2-cpa-handbook"
+    ],
+    "ruleIds": [
+      "b3-i2-bookkeeping-ptin",
+      "b3-i2-bookkeeping-cpa"
+    ],
+    "evidencePaths": [
+      "/industries/bookkeeping-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-marketing-services",
+    "path": "/industries/marketing-services/",
+    "family": "industry",
+    "title": "How should a marketing services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/marketing-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a marketing services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A client/agency campaign-release record with tested opt-out and suppression ownership. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Commercial email only; no blanket consent, privacy, telemarketing or advertising-claim clearance.",
+      "Actual message primary purpose, client/sender duties, working opt-out and tested suppression/monitoring across tools.",
+      "Calls/SMS, lead collection, state privacy, endorsements, regulated-client claims and franchise-recruitment advertising."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "FTC advertising rules and state privacy authorities",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-marketing"
+    ],
+    "ruleIds": [
+      "b3-i2-marketing-email"
+    ],
+    "evidencePaths": [
+      "/industries/marketing-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-pet-services",
+    "path": "/industries/pet-services/",
+    "family": "industry",
+    "title": "How should a pet services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/pet-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a pet services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A premises/supervisor opening file and animal-specific admission/record checklist. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Defined NYC boarding/grooming branch only; no veterinary or all-pet-business clearance.",
+      "Actual site/species/service category, current permit/forms, inspection and supervising certificate; admission/exemption and retained-record facts.",
+      "Local zoning and current technical workflow/fees, veterinary practice, retail animal sales, other species and other localities."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "Local animal services and zoning authority",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-nyc-boarding",
+      "b3-i2-pet-code"
+    ],
+    "ruleIds": [
+      "b3-i2-pets-opening",
+      "b3-i2-pets-records"
+    ],
+    "evidencePaths": [
+      "/industries/pet-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-retail",
+    "path": "/industries/retail/",
+    "family": "industry",
+    "title": "How should a retail business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/retail/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a retail business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "An item-specific recall/notice/qualification and inventory-release log. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Federal consumer-product resale only; no product approval, general testing exemption or actual remedy decision.",
+      "Actual item identity, governing product category, corrective action/order/ban, remedy and any relied-on statutory qualification.",
+      "Separate product standards/certificates/reporting, food/drug or other specialised regimes, tax and premises; no broad used-goods testing exemption."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "CPSC, state revenue and local building authority",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-retail-sale-law",
+      "b3-i2-retail-resale-faq"
+    ],
+    "ruleIds": [
+      "b3-i2-retail-recall"
+    ],
+    "evidencePaths": [
+      "/industries/retail/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-healthcare-adjacent-services",
+    "path": "/industries/healthcare-adjacent-services/",
+    "family": "industry",
+    "title": "How should a healthcare adjacent services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Publish this distinct, explicitly bounded operator decision with actual named authority; remaining sectors/activities in the original broad lead stay in unresolvedResearch.",
+    "canonicalPath": "/industries/healthcare-adjacent-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a healthcare adjacent services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A nonclinical billing role/PHI/subcontractor map with required contract and operating responsibilities. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Defined federal data-role branch only; no clinical authority or compliance certification.",
+      "Actual covered client/function/PHI and exception facts, BAA/subcontractor access chain and technical safeguards.",
+      "State privacy/cross-border transfer, professional/clinic ownership or practice, reimbursement and complete HIPAA duties."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State professional boards and health department",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-medbilling"
+    ],
+    "ruleIds": [
+      "b3-i2-medbilling-phi"
+    ],
+    "evidencePaths": [
+      "/industries/healthcare-adjacent-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-restoration-services",
+    "path": "/industries/restoration-services/",
+    "family": "industry",
+    "title": "How should a restoration services business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Do not merge into the EPA lead-only home-renovation page: Texas mold company/person/same-project decisions are distinct. Publish the defined mold branch and retain cleaning, rebuilding, lead, asbestos, insurance and actual exemption gaps.",
+    "canonicalPath": "/industries/restoration-services/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a restoration services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A Texas mold operator/person/project role file with a documented exemption and protocol decision. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Defined Texas mold branch only; no actual exemption, cleanup clearance or general restoration permission.",
+      "Actual Texas task/property/area/exemption and issued company/person credentials; project separation, protocol, notice and clearance duties.",
+      "Ordinary drying/cleaning, rebuilding, lead, asbestos and insurance adjusting/outcomes need separate activity-specific research."
+    ],
+    "relatedPaths": [
+      "/industries/home-renovation/"
+    ],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State contractor board and EPA lead/asbestos rules",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-mold-company",
+      "b3-i2-mold-contractor",
+      "b3-i2-mold-faq"
+    ],
+    "ruleIds": [
+      "b3-i2-mold-operator",
+      "b3-i2-mold-project"
+    ],
+    "evidencePaths": [
+      "/industries/restoration-services/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-specialty-food-products",
+    "path": "/industries/specialty-food-products/",
+    "family": "industry",
+    "title": "How should a specialty food products business prepare a partner-operated U.S. model?",
+    "decision": "publish",
+    "reason": "Do not claim the general packaged-food facility page clears a specialty commodity. Publish only the defined acidified-food classification/processor/process-filing question; retain all other commodity, label, import and state/local gaps.",
+    "canonicalPath": "/industries/specialty-food-products/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a specialty food products business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A qualified product-category brief and actual processor/product/container filing responsibility file. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Defined federal acidified-food scope only; no food-safety, import or product-approval assurance.",
+      "Actual formulation/process/storage category, competent process evidence, processor/product/container and filing/supervision/record responsibilities; additional 21 CFR 114.83 process requirements.",
+      "Other commodities, USDA allocation, FSVP/prior notice, labels, state manufacturing/premises, process validation and actual costs."
+    ],
+    "relatedPaths": [
+      "/industries/packaged-food-production/"
+    ],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "FDA/USDA exact product authority and CBP classification",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b3-i2-acid-define",
+      "b3-i2-acid-reg"
+    ],
+    "ruleIds": [
+      "b3-i2-acid-scope",
+      "b3-i2-acid-filing"
+    ],
+    "evidencePaths": [
+      "/industries/specialty-food-products/"
+    ],
+    "publicationState": "new-scoped-proposal",
+    "requiresGuideRevision": false
+  },
+  {
+    "candidateId": "candidate-industries-salons",
+    "path": "/industries/salons/",
+    "family": "industry",
+    "title": "How should a salons business prepare a partner-operated U.S. model?",
+    "decision": "merge",
+    "reason": "Merge this name alias only after accepting the proposed update to the existing guide ID/path; the new named-state evidence answers the missing operator/person branch while the original limited material is retained.",
+    "canonicalPath": "/industries/hair-salons/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a salons business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A California establishment/person/service roster joined to a treatment, chemical and worker-responsibility sheet. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "Named California licensing branch plus the existing federal exposure baseline only. No all-state/all-service beauty permission.",
+      "Actual local use/sanitation, individual eligibility, product import and exposure results remain to be established.",
+      "Actual owner/location and service-by-person issued California records, local sanitation/use and added service scope.",
+      "Other states, individual eligibility, medical treatments, product import and actual worker/product exposure results."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State cosmetology board",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b2-blocked-beauty",
+      "b3-i2-salon-faq"
+    ],
+    "ruleIds": [
+      "b2-blocked-salon-products",
+      "b3-i2-salon-licensing"
+    ],
+    "evidencePaths": [
+      "/industries/hair-salons/"
+    ],
+    "publicationState": "revision-proposed",
+    "requiresGuideRevision": true
+  },
+  {
+    "candidateId": "candidate-industries-automotive-services",
+    "path": "/industries/automotive-services/",
+    "family": "industry",
+    "title": "How should a automotive services business prepare a partner-operated U.S. model?",
+    "decision": "merge",
+    "reason": "Merge this name alias only after accepting the proposed update to the existing guide ID/path; the new named-state evidence answers the missing operator/person branch while the original limited material is retained.",
+    "canonicalPath": "/industries/vehicle-maintenance/",
+    "decidedAt": "2026-11-13",
+    "decisionReview": "AI-assisted primary-source review; no professional legal review",
+    "originalQuestion": "How should a automotive services business prepare a partner-operated U.S. model?",
+    "originalPracticalOutput": "Sector responsibility map, cost assumptions and validation plan",
+    "scope": "A California business/station/person and covered-job record joined to the waste-stream/actor matrix. Only the named activity/jurisdiction is answered.",
+    "unresolvedResearch": [
+      "California licensing/defined job-documentation branch and existing federal used-oil baseline only.",
+      "No actual exemption, complete repair template, all emissions/inspection, local permit, waste classification or cleanup approval.",
+      "Actual California business/station/person category and exceptions, covered transaction scope and complete linked job-record implementation.",
+      "Local permits, specialised smog/safety roles, actual waste streams, emissions, cleanup and other states’ requirements."
+    ],
+    "relatedPaths": [],
+    "researchCompleteness": "scoped-primary-review; no overall sector clearance",
+    "sourceChecklist": [
+      "State automotive regulator and environmental agency",
+      "FTC Franchise Rule and relevant state definition",
+      "Named customer procurement or insurer terms, separately labelled"
+    ],
+    "sourceIds": [
+      "b2-blocked-usedoil",
+      "b3-i2-auto-license",
+      "b3-i2-auto-apply-reader",
+      "b3-i2-auto-wir-reader"
+    ],
+    "ruleIds": [
+      "b2-blocked-usedoil-role",
+      "b3-i2-auto-licensing",
+      "b3-i2-auto-job-records"
+    ],
+    "evidencePaths": [
+      "/industries/vehicle-maintenance/"
+    ],
+    "publicationState": "revision-proposed",
+    "requiresGuideRevision": true
+  }
+]

@@ -749,7 +749,8 @@
     "reviewStatus": "AI-assisted source review; no professional legal review",
     "readMinutes": 3,
     "ruleIds": [
-      "practice-pesticide-import"
+      "practice-pesticide-import",
+      "b3-planning2-pesticidal-intent"
     ],
     "sections": [
       {
@@ -765,6 +766,17 @@
         ],
         "sourceIds": [
           "pr-pesticide-import"
+        ]
+      },
+      {
+        "heading": "Check actual claims before using the scenario’s assumption",
+        "paragraphs": [
+          "The fictional case assumes a regulated pesticide; a real product needs its own category check. Section 152.10 lists cleaners, deodorisers and bleaches under its nonpesticidal-purpose/claim conditions. Section 152.15 also examines claims or implications on labeling or otherwise, ingredients with no other significant commercially valuable use, and actual or constructive knowledge of pesticidal intended use. A familiar formula, a foreign approval or the absence of one word on the bottle is not the whole analysis.",
+          "Keep the actual label, website/sales representations, composition, intended sites/uses and supporting product record together. Product status, import/establishment/arrival duties and applicator/business authorisations remain separate workstreams."
+        ],
+        "sourceIds": [
+          "b3-planning2-epa-cleaners",
+          "b3-planning2-epa-intent"
         ]
       },
       {
@@ -825,7 +837,9 @@
     ],
     "sourceIds": [
       "pr-pesticide-import",
-      "pr-cleaning"
+      "pr-cleaning",
+      "b3-planning2-epa-cleaners",
+      "b3-planning2-epa-intent"
     ],
     "nextStage": 5,
     "practicalOutput": "A supply specification and import-versus-substitute comparison",
@@ -1090,7 +1104,7 @@
     ],
     "status": "blocked",
     "lastReviewed": null,
-    "reviewStatus": "Editorial hold; source or procedural review incomplete",
+    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
     "readMinutes": 3,
     "ruleIds": [],
     "sections": [
@@ -1114,8 +1128,8 @@
     "nextStage": 5,
     "practicalOutput": "Source-access and later-order review task",
     "limitations": [
-      "Publication blocked: complete order inaccessible.",
-      "Continuation 2026-11-12 bounded retrieval attempts remain blocked; exact URL/outcome audit retained in research/batch 2/blocked-fetch-log.json."
+      "Publication blocked: the complete original consent-order PDF remains inaccessible. Ordinary curl and web retrieval returned HTTP 403 again on November 13, 2026.",
+      "No complete alternate official copy or later-order reconciliation was obtained. Indexed excerpts and the agency summary do not establish the complete operative terms, compliance performance or present status."
     ],
     "scenarioType": "real",
     "label": "Real case — historical documents and stated procedural limits"

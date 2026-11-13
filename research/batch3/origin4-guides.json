@@ -1,0 +1,775 @@
+[
+  {
+    "id": "b3-o4-serbia",
+    "path": "/from/serbia/",
+    "title": "Serbia to a U.S. subsidiary: put DI-2 beside the capital transfer",
+    "description": "Separate the bank movement from quarterly resident investment reporting and its accounting evidence.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Serbia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-rs-di2"
+    ],
+    "sourceIds": [
+      "b3-o4-rs-law",
+      "b3-o4-rs-report",
+      "b3-o4-rs-instructions"
+    ],
+    "sections": [
+      {
+        "heading": "Classify the investment before choosing the report",
+        "paragraphs": [
+          "Serbia’s NBS-hosted Foreign Exchange Operations Law distinguishes direct investment from other capital and credit transactions. Its definition looks at the investment and management relationship and includes specified company/branch transactions and some long subordinated financing. Do not decide a parent loan or a sequence of share acquisitions from a single percentage alone.",
+          "Article 11 treats outward direct-investment payments by residents as freely executed in accordance with foreign-trade law. That is a limited payment provision. It does not mean that making the bank transfer completes the resident’s reporting obligations."
+        ],
+        "sourceIds": [
+          "b3-o4-rs-law"
+        ]
+      },
+      {
+        "heading": "DI-2 has its own period and reconciliation",
+        "paragraphs": [
+          "The NBS reporting decision retains reporting for direct investment by residents abroad and makes the reporting entity responsible for accuracy and supporting records. Its currently linked guidance specifies DI-2 balance-and-transaction reporting quarterly, no later than ten days after the reporting period ends.",
+          "The guidance expresses amounts in U.S. dollars at the official middle exchange rate on the reporting period’s last day. Finance should therefore reconcile the investment ledger to the quarter’s report rather than copy only a transfer confirmation. Confirm the current form and delivery instructions for the filing quarter."
+        ],
+        "sourceIds": [
+          "b3-o4-rs-report",
+          "b3-o4-rs-instructions"
+        ]
+      },
+      {
+        "heading": "Fictional example: the U.S. company receives capital in September",
+        "paragraphs": [
+          "A Serbian operating company contributes capital to its U.S. subsidiary in September. Its controller records the event and checks whether it falls within direct investment. The bank records the payment; the reporting owner separately reconciles the quarter’s investment balance and transactions, applies the prescribed reporting conversion and retains the DI-2 submission evidence. A later top-up or shareholder loan is classified on its own facts."
+        ],
+        "sourceIds": [
+          "b3-o4-rs-law",
+          "b3-o4-rs-instructions"
+        ]
+      },
+      {
+        "heading": "Create a report owner before the first contribution",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-rs-report",
+          "b3-o4-rs-instructions"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Management",
+              "Investor, U.S. entity and ownership/voting/control facts"
+            ],
+            [
+              "Accounting",
+              "Capital movements and period-end investment balance"
+            ],
+            [
+              "Reporting owner",
+              "DI-2, prescribed period-end conversion and current filing instructions"
+            ],
+            [
+              "Controller",
+              "Submission evidence and books supporting reported values"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "What remains open",
+        "paragraphs": [
+          "This is the resident direct-investment reporting branch. Foreign-trade conditions, a separate credit or overseas-account report, transaction-specific bank evidence, Serbian tax and U.S. corporate, franchise and personnel rules remain separate. The official English consolidation includes 2025 amendments; the Serbian original governs."
+        ],
+        "sourceIds": [
+          "b3-o4-rs-law",
+          "b3-o4-rs-report",
+          "b3-o4-rs-instructions"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A quarterly DI-2 control sheet connecting the U.S. investment, period-end balance, USD conversion and submission proof.",
+    "limitations": [
+      "Apply the actual investment definition and current-quarter filing instructions.",
+      "No overall Serbian or U.S. expansion clearance."
+    ]
+  },
+  {
+    "id": "b3-o4-north-macedonia",
+    "path": "/from/north-macedonia/",
+    "title": "North Macedonia: map a U.S. investment change to the right registry entry",
+    "description": "A first investment, a change to an existing one and a mixed transfer event need different filing decisions.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "North Macedonia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-mk-change"
+    ],
+    "sourceIds": [
+      "b3-o4-mk-change"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the registered investment, not just the new payment",
+        "paragraphs": [
+          "The Central Registry’s outward-investment amendment service distinguishes the first registration from an amendment or deletion of an existing investment. Its named change categories include investor or investee identity details, increases or reductions, transfer or sale, liquidation and repayment of an investment loan.",
+          "That distinction matters when a U.S. company changes its name, receives more capital or moves between investors. A new bank transfer does not by itself tell the registry whether the correct entry is new, changed or deleted."
+        ],
+        "sourceIds": [
+          "b3-o4-mk-change"
+        ]
+      },
+      {
+        "heading": "Some events need more than one entry",
+        "paragraphs": [
+          "The agency expressly warns that part of an already registered investment moving to a new investor can require more than one kind of entry. Build a before-and-after table using the existing registration reference, the investor and U.S. entity identifiers, the amounts and the legal event. Have the filing owner check the current service and required evidence for each resulting entry."
+        ],
+        "sourceIds": [
+          "b3-o4-mk-change"
+        ]
+      },
+      {
+        "heading": "Fictional example: part of a U.S. holding is sold",
+        "paragraphs": [
+          "A resident investor sells part of a registered U.S. holding to a second investor. Treating the whole event as a fresh investment could lose the connection to the old entry; treating everything as a deletion could erase the retained holding. The practical task is to reconcile the old investment, the retained part and the acquiring investor’s position, then confirm which new/amendment entries the Registry requires."
+        ],
+        "sourceIds": [
+          "b3-o4-mk-change"
+        ]
+      },
+      {
+        "heading": "Assemble the filing questions",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-mk-change"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Existing entry",
+              "Registration reference and investor/investee identifiers"
+            ],
+            [
+              "Event",
+              "Transfer, capital change, identity change, loan repayment or closure documents"
+            ],
+            [
+              "Reconciliation",
+              "Amounts and interests before and after the event"
+            ],
+            [
+              "Filing owner",
+              "Current entry types, deadline, form, attachments, fee and confirmation procedure"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Limits of this service review",
+        "paragraphs": [
+          "The full English service explanation was read. Its detailed filing tabs could not be independently retrieved in this pass, so this guide supplies no unverified day count, fee or complete attachment list. It also does not decide bank transfer permission or NBRM reporting. One translated subsidiary example points in the opposite direction from the page heading; no conclusion here depends on it. Confirm the authoritative language and actual filing instructions before submitting."
+        ],
+        "sourceIds": [
+          "b3-o4-mk-change"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "An event-to-registry-entry map with existing investment IDs, before/after ownership facts and current filing questions.",
+    "limitations": [
+      "Agency entry-classification guide only; current timing and full procedural evidence remain to be confirmed.",
+      "No automatic investment eligibility, transfer approval or NBRM-reporting result."
+    ]
+  },
+  {
+    "id": "b3-o4-albania",
+    "path": "/from/albania/",
+    "title": "Albania to a U.S. processor: plan authorization and the return evidence",
+    "description": "Outward processing is a conditional customs procedure for goods that will return after work abroad.",
+    "family": "origin",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Albania"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-al-processing"
+    ],
+    "sourceIds": [
+      "b3-o4-al-process",
+      "b3-o4-al-exit"
+    ],
+    "sections": [
+      {
+        "heading": "Decide whether goods will return after processing",
+        "paragraphs": [
+          "Albanian Customs describes outward processing as temporary export of Albanian goods for work abroad, followed by return of the resulting products under a potential import-duty-relief procedure. It is a different planning branch from permanently equipping a U.S. outlet. A general plan to expand abroad does not choose the procedure.",
+          "Its native agency guidance lists exclusions and authorization conditions. A business should not budget full relief merely because a shipment will eventually return."
+        ],
+        "sourceIds": [
+          "b3-o4-al-process"
+        ]
+      },
+      {
+        "heading": "Identification and the return period are part of the plan",
+        "paragraphs": [
+          "The agency says authorization is requested by the person arranging the processing and is subject to establishment, identification and economic conditions. The file must make it possible to connect the returning products with the temporarily exported goods. Descriptions, serial or batch references and the processor’s work records are practical ways to prepare that factual connection; the accepted evidence must be confirmed with Customs.",
+          "Customs sets the reimport period. The agency describes an extension on a properly reasoned request, rather than a universal number of days. Put the actual authorization’s deadline and extension owner in the logistics calendar."
+        ],
+        "sourceIds": [
+          "b3-o4-al-process"
+        ]
+      },
+      {
+        "heading": "Fictional example: specialist repair of production tooling",
+        "paragraphs": [
+          "An Albanian business sends identifiable tooling to a U.S. specialist and expects it back after processing. Operations first confirms the intended procedure and conditions with Customs, records the tooling’s identity and the work to be performed, and plans the return evidence. A machine intended to stay permanently at a U.S. outlet goes into a separate export decision."
+        ],
+        "sourceIds": [
+          "b3-o4-al-process",
+          "b3-o4-al-exit"
+        ]
+      },
+      {
+        "heading": "Prepare before dispatch",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-al-process",
+          "b3-o4-al-exit"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Operations",
+              "Goods identity, intended work and resulting products"
+            ],
+            [
+              "Customs owner",
+              "Eligibility, exclusions, authorization and applicable exit formalities"
+            ],
+            [
+              "Processor",
+              "Contract and records connecting inputs to returned goods"
+            ],
+            [
+              "Logistics",
+              "Authorized return period, exit/return evidence and extension trigger"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "What this does not establish",
+        "paragraphs": [
+          "The native Customs pages identify the relevant 2014 Code and 2017 implementing provisions; their full relevant process bodies were read. This English explanation is AI assisted. Confirm current legal amendments and the shipment’s authorization conditions before acting. No U.S. import duty, product approval, ATA eligibility, Albanian VAT result or automatic relief is determined here."
+        ],
+        "sourceIds": [
+          "b3-o4-al-process",
+          "b3-o4-al-exit"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A goods-and-return dossier linking the temporary export, authorized processing, identifiable resulting products and Customs-set return period.",
+    "limitations": [
+      "Conditional agency process, with shipment-specific authority and current text confirmation required.",
+      "U.S. import, product and tax questions remain separate."
+    ]
+  },
+  {
+    "id": "b3-o4-montenegro",
+    "path": "/from/montenegro/",
+    "title": "Montenegro invoices: choose the applicable VAT text before the U.S. recipient rule",
+    "description": "Keep the pre-accession service rules separate from the new law’s accession-linked application.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Montenegro"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-me-applicable-vat"
+    ],
+    "sourceIds": [
+      "b3-o4-me-old-law",
+      "b3-o4-me-new-law",
+      "b3-o4-me-notice",
+      "b3-o4-me-eu-status"
+    ],
+    "sections": [
+      {
+        "heading": "Publication and application are different dates",
+        "paragraphs": [
+          "Montenegro published a new VAT Act in Gazette 104/2026 in July 2026. Its final provisions distinguish entry into force from application: Article 213 links application to EU accession, while Article 212 links repeal of the older act to the start of that application. The Tax Administration’s July notice repeats that condition.",
+          "Do not switch invoice logic merely because the newer PDF appears first in a search. The same notice gives a different application date for corporate-tax amendments. Each act needs its own date check.",
+          "The Council of the EU’s 6 November 2026 release still describes continuing accession negotiations and provisional chapter closures. That dated status does not fix a future accession date or itself trigger the new VAT law’s application."
+        ],
+        "sourceIds": [
+          "b3-o4-me-new-law",
+          "b3-o4-me-notice",
+          "b3-o4-me-eu-status"
+        ]
+      },
+      {
+        "heading": "For services, identify the recipient and the actual receiving establishment",
+        "paragraphs": [
+          "In the government-hosted consolidation through Gazette issue 12/2026, Article 17 starts with the taxable recipient’s establishment, including the branch for an actual receiving fixed establishment elsewhere. It separately treats non-taxable recipients. A U.S. billing address alone is therefore not the full analysis.",
+          "Read the special service-place rules as well. Article 17a, for example, uses the location of the property for covered property-related services. A U.S. customer commissioning work on Montenegrin property does not turn that fact into ordinary remote support delivered to its U.S. establishment."
+        ],
+        "sourceIds": [
+          "b3-o4-me-old-law"
+        ]
+      },
+      {
+        "heading": "Fictional example: two contracts, different place questions",
+        "paragraphs": [
+          "A supplier has one contract for ordinary remote business support received by a U.S. business establishment and another for covered services directly tied to Montenegrin property. Finance records the recipient, receiving establishment and service category for each. It then applies the actual governing law and exceptions, rather than applying a single “foreign customer” tax code to both invoices."
+        ],
+        "sourceIds": [
+          "b3-o4-me-old-law"
+        ]
+      },
+      {
+        "heading": "Keep a dated decision sheet",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-me-old-law",
+          "b3-o4-me-new-law",
+          "b3-o4-me-notice"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Legal version",
+              "Applicable act and application/commencement trigger at invoice date"
+            ],
+            [
+              "Customer facts",
+              "Taxable status and actual receiving establishment"
+            ],
+            [
+              "Service facts",
+              "Ordinary service or specific property/event/other exception"
+            ],
+            [
+              "Finance decision",
+              "Place/rate/registration review and evidence supporting the invoice treatment"
+            ],
+            [
+              "Monitoring",
+              "Recheck actual accession-linked application; no assumed future accession date"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Limits",
+        "paragraphs": [
+          "The native current-text service provisions and the new act’s final provisions were read; this is an AI-assisted English explanation. This guide supplies no VAT rate, registration threshold, deduction, refund or blanket export exemption. Recheck the governing text and actual application conditions at the transaction date."
+        ],
+        "sourceIds": [
+          "b3-o4-me-old-law",
+          "b3-o4-me-new-law"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A dated VAT applicability sheet recording the governing text, recipient establishment, service exception and future application trigger.",
+    "limitations": [
+      "No assumed EU accession date or automatic July 2026 replacement of invoice rules.",
+      "Transaction-specific VAT outcome remains to be decided."
+    ]
+  },
+  {
+    "id": "b3-o4-moldova",
+    "path": "/from/moldova/",
+    "title": "Moldova: distinguish an export-collection account from general U.S. treasury",
+    "description": "Document the account holder, purpose and statutory exception before opening a resident’s foreign bank account.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Moldova"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-md-bank-account"
+    ],
+    "sourceIds": [
+      "b3-o4-md-native-law",
+      "b3-o4-md-law"
+    ],
+    "sections": [
+      {
+        "heading": "Start with whose account it is",
+        "paragraphs": [
+          "Article 13 of Moldova’s Foreign Exchange Regulation Law concerns resident accounts at non-resident banks. Record the legal account holder, bank and account type. A Moldovan parent’s own proposed foreign account should not be treated as the same fact as its separately incorporated U.S. subsidiary’s account; the subsidiary’s residence and other rules need their own analysis.",
+          "The general branch requires NBM authorization, subject to listed exceptions. Convenience, customer preference or an international expansion plan is not itself one of those exceptions."
+        ],
+        "sourceIds": [
+          "b3-o4-md-native-law"
+        ]
+      },
+      {
+        "heading": "The export-collection exception is purpose-limited",
+        "paragraphs": [
+          "The current Romanian consolidation includes Article 13(5)(b1), added in 2025: a resident’s account for collecting sales proceeds from goods and/or services exclusively for export, with final crediting to accounts at licensed banks in Moldova. That is a money-flow condition to build into operations, rather than a general permission to retain an overseas treasury balance.",
+          "Another exception concerns direct-investment or real-estate accounts where foreign law makes the investor’s own account compulsory. A bank offering a convenient account does not establish that legal requirement. Article 13(6) also allows further NBM conditions on operations, balances and retention."
+        ],
+        "sourceIds": [
+          "b3-o4-md-native-law",
+          "b3-o4-md-law"
+        ]
+      },
+      {
+        "heading": "Fictional example: American customers want a local collection account",
+        "paragraphs": [
+          "A Moldovan services supplier considers an account in its own name to collect U.S. customer payments. Finance documents the export-only collection purpose, proposed onward flow to a licensed Moldovan bank and the current implementing conditions. If the plan instead mixes local spending, unrelated receipts or retained treasury funds, it needs a fresh authorization/exception analysis."
+        ],
+        "sourceIds": [
+          "b3-o4-md-native-law"
+        ]
+      },
+      {
+        "heading": "Build the account file",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-md-native-law",
+          "b3-o4-md-law"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Identity",
+              "Exact resident account holder, bank legal entity and account type"
+            ],
+            [
+              "Purpose",
+              "Export collection, legally compulsory investment account or another fully identified branch"
+            ],
+            [
+              "Evidence",
+              "Contracts/invoices and the current legal authority for the chosen exception"
+            ],
+            [
+              "Money flow",
+              "Collection, permitted operations and final crediting in Moldova"
+            ],
+            [
+              "Control",
+              "Current NBM conditions, any authorization and retained bank statements"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Current text and limits",
+        "paragraphs": [
+          "The Romanian consolidation through 327/2025 was compared with NBM’s English text, which is expressly unofficial. The newer export-collection branch is missing from the general FAQ’s exception list, so the FAQ was not used as a substitute for the statutory text. Payment institutions, electronic wallets, other exceptions and actual reporting/retention instructions remain separate checks."
+        ],
+        "sourceIds": [
+          "b3-o4-md-native-law",
+          "b3-o4-md-law"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "An account-purpose and money-flow map with a cited authorization/exception decision and final-crediting evidence.",
+    "limitations": [
+      "Romanian original governs; English explanation is AI assisted.",
+      "No general offshore account or capital-transfer permission."
+    ]
+  },
+  {
+    "id": "b3-o4-turkiye",
+    "path": "/from/turkiye/",
+    "title": "Türkiye to a U.S. company: separate capital-event notices from the annual survey",
+    "description": "Assign the first capital-export and closure notifications before relying on the investment survey calendar.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Türkiye"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-tr-capital-notice"
+    ],
+    "sourceIds": [
+      "b3-o4-tr-report"
+    ],
+    "sections": [
+      {
+        "heading": "An event notice starts from the first capital export",
+        "paragraphs": [
+          "The Ministry of Trade’s 13 May 2026 guidance addresses Türkiye-resident individuals and legal entities exporting their first cash or in-kind capital to establish a foreign company, join an existing one or open a branch. It describes an information form sent to both the Ministry of Treasury and Finance and the Ministry of Trade within three months after that first event.",
+          "Name the investor and record the cash/in-kind event before someone assumes that a later annual survey will cover it. Confirm the actual form, event-date calculation and submission route for the transaction."
+        ],
+        "sourceIds": [
+          "b3-o4-tr-report"
+        ]
+      },
+      {
+        "heading": "Closure and the survey are separate diary entries",
+        "paragraphs": [
+          "The same current page describes a notice about the status of a liquidated or transferred foreign company, participation or branch to both ministries no later than three months after completion. It separately describes an outward-investment survey conducted each April–May.",
+          "A survey response and an event notice serve different tasks. This guide uses the currently read ministry process and does not import a March annual deadline from older summaries. Keep the current legal/form instructions with the file."
+        ],
+        "sourceIds": [
+          "b3-o4-tr-report"
+        ]
+      },
+      {
+        "heading": "Fictional example: a new U.S. subsidiary receives capital",
+        "paragraphs": [
+          "A Türkiye-resident company makes its first capital contribution to a U.S. subsidiary. Its finance owner records that date, obtains the applicable form and retains proof of delivery to both named ministries. The company separately assigns the annual investment-survey response. If the investment is later transferred or liquidated, the completion event is checked for its own notice."
+        ],
+        "sourceIds": [
+          "b3-o4-tr-report"
+        ]
+      },
+      {
+        "heading": "Create the event diary",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-tr-report"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Initial event",
+              "Investor, foreign entity/branch, first cash/in-kind capital export and evidence"
+            ],
+            [
+              "Delivery",
+              "Current form and records for both ministry recipients"
+            ],
+            [
+              "Annual task",
+              "Current investment-survey owner and April–May process check"
+            ],
+            [
+              "Exit event",
+              "Liquidation/transfer completion facts and separate notice deadline"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "What remains separate",
+        "paragraphs": [
+          "This is an AI-assisted English explanation of the named Turkish ministry guidance. It does not establish general capital-transfer freedom, replace bank reporting, decide tax treatment or authorize U.S. franchise sales, immigration or operations. Ordinary service invoices and export proceeds are different money-flow questions from an outward capital contribution."
+        ],
+        "sourceIds": [
+          "b3-o4-tr-report"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "An event diary with first capital-export and closure dates, current forms, both ministry recipients and a separate survey owner.",
+    "limitations": [
+      "Current guidance process only; confirm operative legal/form details and event dates."
+    ]
+  },
+  {
+    "id": "b3-o4-bosnia",
+    "path": "/from/bosnia-and-herzegovina/",
+    "title": "Federation of BiH: prepare the written file before netting U.S. invoices",
+    "description": "The 2026 foreign-exchange amendment specifies an agreement and evidence trail for covered current-account settlements.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Bosnia and Herzegovina"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-ba-setoff"
+    ],
+    "sourceIds": [
+      "b3-o4-ba-base",
+      "b3-o4-ba-enacted",
+      "b3-o4-ba-reform"
+    ],
+    "sections": [
+      {
+        "heading": "Fix the applicable entity law and settlement category",
+        "paragraphs": [
+          "This guide addresses transactions to which the Federation of Bosnia and Herzegovina’s foreign-exchange law applies. It is not a country-wide rule for Republika Srpska or Brčko. Start by recording the actual resident/non-resident parties and whether the proposed settlement is a current transaction rather than a capital contribution, loan or another capital transaction.",
+          "The Parliament’s enacted 2026 amendment changes Article 7’s treatment of setoff, assignment, debt assumption and similar settlement of current transactions. Its published-act entry is distinct from the earlier proposal on the same parliamentary page."
+        ],
+        "sourceIds": [
+          "b3-o4-ba-base",
+          "b3-o4-ba-enacted"
+        ]
+      },
+      {
+        "heading": "A spreadsheet net balance is not the whole statutory file",
+        "paragraphs": [
+          "The amended provision calls for a written agreement under obligations law. Its mandatory data include party identities, the underlying bases of the claims and debts, debtor/creditor information, currency and amounts. Keep the invoice/contract trail that explains those entries and reconciles the net settlement.",
+          "The amendment also restricts this route for a resident whose accounts are blocked for compulsory collection, unless another law provides otherwise. Do not assume netting is available merely because it reduces a cash transfer."
+        ],
+        "sourceIds": [
+          "b3-o4-ba-enacted"
+        ]
+      },
+      {
+        "heading": "Fictional example: support receivable and equipment payable",
+        "paragraphs": [
+          "A Federation business has a support receivable from a U.S. operator and owes an equipment amount. Before proposing a net settlement, its owner identifies the legal creditor and debtor of each item, confirms the category and applicable law, checks account-block status and prepares the written agreement. Matching invoice totals alone does not establish that all parties, claims or conditions fit."
+        ],
+        "sourceIds": [
+          "b3-o4-ba-enacted"
+        ]
+      },
+      {
+        "heading": "Keep the implementation check visible",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-o4-ba-enacted",
+          "b3-o4-ba-reform"
+        ],
+        "table": {
+          "headers": [
+            "Decision or owner",
+            "Record to prepare"
+          ],
+          "rows": [
+            [
+              "Scope",
+              "Federation-law basis, parties and current/capital classification"
+            ],
+            [
+              "Underlying evidence",
+              "Invoices/contracts and creditor/debtor matrix"
+            ],
+            [
+              "Agreement",
+              "Identity, claim/debt basis, currency and amounts required by the amendment"
+            ],
+            [
+              "Controls",
+              "Blocked-account check, settlement ledger and operative implementation"
+            ],
+            [
+              "Version",
+              "Current regulation, gazette publication and commencement evidence"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "The 11 November change is not an operative-text substitute",
+        "paragraphs": [
+          "On 11 November 2026 the Federation government announced a new implementing regulation addressing settlement and overseas-account matters and decisions ending older implementation. The full announcement was read, but the newly gazetted operative regulation and its commencement were not retrieved in this pass. Confirm that text before executing the settlement; the announcement is not treated as proof of the new procedure’s immediate application. Other entity regimes, tax and accounting consequences remain open."
+        ],
+        "sourceIds": [
+          "b3-o4-ba-reform",
+          "b3-o4-ba-enacted"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Federation-scoped setoff dossier connecting each underlying claim/debt, party, currency, amount and settlement control.",
+    "limitations": [
+      "Federation scope only; Republika Srpska/Brčko remain not researched.",
+      "Actual new implementing regulation and commencement require confirmation before execution."
+    ]
+  },
+  {
+    "id": "b3-o4-ukraine",
+    "path": "/from/ukraine/",
+    "title": "Ukraine outward funding: current wartime permission is still a research hold",
+    "description": "Full current primary text could not be retrieved; no transfer cap or exception is being assumed.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Ukraine"
+    ],
+    "status": "blocked",
+    "lastReviewed": null,
+    "reviewStatus": "Blocked: current primary authority could not be read; no professional-review requirement imposed",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-o4-ua-current-control"
+    ],
+    "sourceIds": [
+      "b3-o4-ua-law"
+    ],
+    "sections": [
+      {
+        "heading": "Why this guide is held",
+        "paragraphs": [
+          "The current official Rada consolidation of NBU Resolution 18 could not be read in full: ordinary proxy retrieval and curl returned 503, while web opens timed out. Relevant NBU pages and the older English framework PDF returned 403. The access attempts are saved in the research audit.",
+          "Search snippets and secondary accounts of 2026 changes are leads only. They do not establish the currently effective exception or conditions for a proposed outward capital contribution, loan, branch payment or other transfer."
+        ],
+        "sourceIds": [
+          "b3-o4-ua-law"
+        ]
+      },
+      {
+        "heading": "Evidence needed to finish",
+        "paragraphs": [
+          "Retrieve the current full official resolution, its effective amendment history and the exact operative branch. Then map the actual payer/payee, source of funds, transaction type, date, amount and all exception conditions, and reconcile the result with the bank’s current implementation requirements. A bank’s willingness or transport success alone would not establish legal currency."
+        ],
+        "sourceIds": [
+          "b3-o4-ua-law"
+        ]
+      }
+    ],
+    "nextStage": 0,
+    "practicalOutput": "A source-access and transaction-branch research checklist, not a bank instruction or permission decision.",
+    "limitations": [
+      "Objective current-primary access block; no professional human review is required to continue research.",
+      "No publication, current permission, transfer limit or absence claim until actual primary text and applicability are verified."
+    ]
+  }
+]

@@ -15,7 +15,7 @@ The public brand is **ELN — Enterprise Licensing Network**. The existing GitHu
 
 ## Inventory
 
-The current `docs/coverage-report.json` is authoritative. At this release preparation: **175 published guides**, **9 drafts** (7 merged editorial aliases and 2 actual unpublished research guides), **2 blocked guides**, **289 source records**, **177 canonical rules** and **9 planning tools**. All 175 published guides have dated AI-assisted source review; none has professional legal review.
+Historical snapshot for commit `6087c53`; superseded by `RESEARCH-RELEASE.md` and the current `docs/coverage-report.json`. At that release preparation: **175 published guides**, **9 drafts** (7 merged editorial aliases and 2 actual unpublished research guides), **2 blocked guides**, **289 source records**, **177 canonical rules** and **9 planning tools**. All 175 published guides have dated AI-assisted source review; none has professional legal review.
 
 There are 603 outstanding candidate paths after excluding matches to published guides. Candidates never generate public article routes. The register still contains all 50 states and D.C., five separate territories, 70 origins/dependencies and 40 market records. Thirty-six markets have narrowly researched procedures, one has authority-referral evidence only, and three remain blocked. Seventeen origin guides are published; the Lao currency guide remains unpublished because later primary text could not be read.
 

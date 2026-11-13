@@ -1,0 +1,241 @@
+[
+  {
+    "id": "b3-local-sj-takeover",
+    "title": "A food-facility purchase does not transfer the county operating permit",
+    "topic": "premises-opening",
+    "jurisdiction": "San Jose / Santa Clara County, California",
+    "activity": "Taking over an existing fixed retail food facility",
+    "affectedParty": "The local operating entity and the named premises or technical task owner",
+    "applicability": "The named activity and competent authority only; no complete opening or franchise-sales clearance.",
+    "requirement": "County DEH requires a new owner to request a facility evaluation and obtain its own operating permit before operating. Submit the menu where food preparation occurs; evaluation can redirect substantial deficiencies or changed operations to plan review.",
+    "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
+    "trigger": "Taking over an existing fixed retail food facility",
+    "deadline": "Obtain the applicable permit before operation; request evaluation during purchase diligence.",
+    "fee": null,
+    "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
+    "dependencies": [],
+    "evidence": [
+      "New operator/entity and takeover date",
+      "Current menu and proposed changes",
+      "Completed evaluation packet and inspection outcome",
+      "Issued operating permit and paid applicable fees"
+    ],
+    "sourceIds": [
+      "b3-local-sj-food",
+      "b3-local-sj-evaluation",
+      "b3-local-sj-owner-form"
+    ],
+    "status": "verified",
+    "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
+    "verifiedAt": "2026-11-13T00:48:17.846794+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "County health scope only; San Jose business tax, zoning, building/fire and utility requirements remain unresolved.",
+      "A previously issued permit, green placard or successful inspection does not authorize the new owner."
+    ],
+    "dependentPaths": [
+      "/cities/san-jose/food-facility-takeover/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local-sj-plan",
+    "title": "Food equipment and layout changes can change the county review route",
+    "topic": "premises-opening",
+    "jurisdiction": "San Jose / Santa Clara County, California",
+    "activity": "Building, remodeling or changing a fixed retail food facility",
+    "affectedParty": "The local operating entity and the named premises or technical task owner",
+    "applicability": "The named activity and competent authority only; no complete opening or franchise-sales clearance.",
+    "requirement": "County guidance calls for plan review for listed new facilities, remodeling, hood/equipment changes and evaluation-directed work. Complete scope/menu/equipment plans and required payment precede the review queue; applicable construction inspections and operating-permit steps follow approved plans.",
+    "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
+    "trigger": "Building, remodeling or changing a fixed retail food facility",
+    "deadline": "Resolve the review route before committing to equipment/layout; complete applicable approvals before operation.",
+    "fee": null,
+    "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
+    "dependencies": [],
+    "evidence": [
+      "Written proposed menu/process/equipment delta",
+      "Complete plan application and required documents",
+      "Stamped plans and construction inspection records",
+      "Separate operating-permit application and issued record"
+    ],
+    "sourceIds": [
+      "b3-local-sj-food",
+      "b3-local-sj-plan",
+      "b3-local-sj-owner-form"
+    ],
+    "status": "verified",
+    "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
+    "verifiedAt": "2026-11-13T00:48:17.846794+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "County review does not replace a city building/fire/use decision.",
+      "Specialized processes listed in the packet can require additional approvals; their separate rules are not researched here.",
+      "No fee amount, guaranteed queue duration or opening date is verified."
+    ],
+    "dependentPaths": [
+      "/cities/san-jose/food-facility-takeover/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local-indy-fire",
+    "title": "Fire-extinguisher service requires separate company and person licensing files",
+    "topic": "premises-opening",
+    "jurisdiction": "Indianapolis, Indiana",
+    "activity": "Offering covered fire-extinguisher service through a local operating company and technicians",
+    "affectedParty": "The local operating entity and the named premises or technical task owner",
+    "applicability": "The named activity and competent authority only; no complete opening or franchise-sales clearance.",
+    "requirement": "The official business-license page says the business and each service person must hold a license and identifies Fire Department certification stamping for service persons. Linked forms separately identify the company/legal entity and the individual linked business. Confirm current category, certification and issued records before dispatch.",
+    "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
+    "trigger": "Offering covered fire-extinguisher service through a local operating company and technicians",
+    "deadline": "Before covered service is performed; obtain current forms and applicability confirmation first.",
+    "fee": null,
+    "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
+    "dependencies": [],
+    "evidence": [
+      "Defined equipment/service scope and actual customer jurisdictions",
+      "Company application and issued company license",
+      "Technician roster, Fire Department certification proof and issued person licenses"
+    ],
+    "sourceIds": [
+      "b3-local-indy-business",
+      "b3-local-indy-fire-business",
+      "b3-local-indy-fire-person"
+    ],
+    "status": "verified",
+    "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
+    "verifiedAt": "2026-11-13T00:48:17.846794+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is not a general fire-alarm, sprinkler, construction, professional-engineering or statewide license conclusion.",
+      "Application PDFs are marked 10/2023; current fees, term and any updated form need confirmation.",
+      "The city/county page does not settle excluded municipalities or work performed outside Indianapolis."
+    ],
+    "dependentPaths": [
+      "/cities/indianapolis/fire-extinguisher-licenses/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local-indy-completion",
+    "title": "Indianapolis uses a permit-linked completion file rather than the reviewed Certificate of Occupancy",
+    "topic": "premises-opening",
+    "jurisdiction": "Indianapolis / Marion County, Indiana",
+    "activity": "Completing covered permitted construction before premises occupancy or use",
+    "affectedParty": "The local operating entity and the named premises or technical task owner",
+    "applicability": "The named activity and competent authority only; no complete opening or franchise-sales clearance.",
+    "requirement": "The official 2026 letter says the city/county does not currently issue a Certificate of Occupancy and describes the permit holder’s Certificate of Completion and Compliance within 14 days after covered construction and before occupancy/use. It states a structural-permit exception when a registered architect/engineer properly files the specified certificate.",
+    "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
+    "trigger": "Completing covered permitted construction before premises occupancy or use",
+    "deadline": "Within 14 days after covered construction and before occupancy/use; confirm the actual permit and responsible filer.",
+    "fee": null,
+    "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
+    "dependencies": [],
+    "evidence": [
+      "Actual site jurisdiction and permit numbers",
+      "Responsible permit-holder/architect/engineer assignment",
+      "Applicable completion/compliance certificate and filed receipt",
+      "Outstanding building/fire/use conditions confirmed"
+    ],
+    "sourceIds": [
+      "b3-local-indy-co-letter"
+    ],
+    "status": "verified",
+    "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
+    "verifiedAt": "2026-11-13T00:48:17.846794+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No conclusion that construction, occupancy, zoning or sector approvals are unnecessary.",
+      "The 30 day permit-expiry administrative-fee trigger is not an occupancy grace period.",
+      "Letter is expressly for 2026; recheck future-year instructions and the actual parcel authority."
+    ],
+    "dependentPaths": [
+      "/cities/indianapolis/fire-extinguisher-licenses/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local-detroit-food-route",
+    "title": "Detroit food-service license removal is department- and category-specific",
+    "topic": "premises-opening",
+    "jurisdiction": "Detroit, Michigan",
+    "activity": "Opening a named restaurant, coffee-house or other listed food-service operation",
+    "affectedParty": "The local operating entity and the named premises or technical task owner",
+    "applicability": "The named activity and competent authority only; no complete opening or franchise-sales clearance.",
+    "requirement": "Detroit’s 16 July 2025 notice says the listed restaurant/MLCC restaurant/bar class C/mobile food/coffee-house categories no longer need a BSEED license, but a Detroit Health license is still required. Michigan guidance separately routes food service to local health and primarily selling/storing/manufacturing food to MDARD. Confirm the actual combined activity and competent authority.",
+    "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
+    "trigger": "Opening a named restaurant, coffee-house or other listed food-service operation",
+    "deadline": "Confirm category and applicable health licensing before opening; no wider permit waiver inferred.",
+    "fee": null,
+    "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
+    "dependencies": [],
+    "evidence": [
+      "Actual operator, site, menu and food-service/retail/manufacturing activities",
+      "Written current department/category applicability answer",
+      "Applicable food-service license application and issued record"
+    ],
+    "sourceIds": [
+      "b3-local-detroit-notice",
+      "b3-local-detroit-service"
+    ],
+    "status": "verified",
+    "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
+    "verifiedAt": "2026-11-13T00:48:17.846794+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Dated city notice only for named categories; it does not remove zoning, construction, fire, alcohol or other operating permissions.",
+      "Broader BSEED listings, commercial-inspection cadence and current local fees could not be read. They remain unresolved rather than contradicted by snippets."
+    ],
+    "dependentPaths": [
+      "/cities/detroit/food-license-and-preopening/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local-detroit-food-plan",
+    "title": "Food-service plan review and preopening checks survive a removed business-license step",
+    "topic": "premises-opening",
+    "jurisdiction": "Detroit, Michigan / Michigan Food Law",
+    "activity": "Constructing, altering, converting or remodeling a food-service establishment",
+    "affectedParty": "The local operating entity and the named premises or technical task owner",
+    "applicability": "The named activity and competent authority only; no complete opening or franchise-sales clearance.",
+    "requirement": "Michigan Food Law distinguishes plan-review exemptions from licensing, requires a project/owner transmittal and applicable fees where plans are submitted, and requires the named post-construction notification, license application and preopening evaluation before opening. Retail-grocery exemption does not automatically cover food service within a grocery.",
+    "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
+    "trigger": "Constructing, altering, converting or remodeling a food-service establishment",
+    "deadline": "Confirm plan-review applicability before work; after covered work and before opening, complete the statutory preopening steps and local request timing.",
+    "fee": null,
+    "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
+    "dependencies": [],
+    "evidence": [
+      "Written category and plan-review/exemption determination",
+      "Submitted project/owner plans file and required fees",
+      "Approved relevant plans and actual construction scope",
+      "Preopening request, evaluation outcome and applicable issued health license"
+    ],
+    "sourceIds": [
+      "b3-local-detroit-service",
+      "b3-local-detroit-6103",
+      "b3-local-detroit-6105",
+      "b3-local-detroit-6115"
+    ],
+    "status": "verified",
+    "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
+    "verifiedAt": "2026-11-13T00:48:17.846794+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No blanket assertion that every food business needs the same plan-review route.",
+      "Food Code details, Detroit forms/inspection lead times, fees and premises approvals remain unresolved."
+    ],
+    "dependentPaths": [
+      "/cities/detroit/food-license-and-preopening/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

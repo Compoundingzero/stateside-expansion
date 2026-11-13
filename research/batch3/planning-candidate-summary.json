@@ -1,0 +1,59 @@
+{
+  "total": 603,
+  "decisions": {
+    "needs-research": 427,
+    "publish": 46,
+    "merge": 71,
+    "retire": 59
+  },
+  "byFamily": {
+    "case": {
+      "merge": 8,
+      "needs-research": 2,
+      "retire": 59
+    },
+    "comparison": {
+      "merge": 40,
+      "needs-research": 9,
+      "publish": 1
+    },
+    "federal": {
+      "merge": 18,
+      "publish": 23,
+      "needs-research": 5
+    },
+    "industry": {
+      "merge": 4,
+      "publish": 4,
+      "needs-research": 16
+    },
+    "local-hub": {
+      "needs-research": 38,
+      "publish": 2
+    },
+    "local-sector": {
+      "needs-research": 120
+    },
+    "origin": {
+      "publish": 7,
+      "needs-research": 26
+    },
+    "state-hub": {
+      "needs-research": 2
+    },
+    "state-issue": {
+      "needs-research": 204
+    },
+    "tool": {
+      "publish": 9,
+      "needs-research": 5,
+      "merge": 1
+    }
+  },
+  "interpretation": "Editorial dispositions are not jurisdiction/topic research completion. Published proposals and existing tools are distinct; retired hypothetical slots retain unresolvedResearch.",
+  "authoredPlanningGuides": 26,
+  "existingToolsPublished": 9,
+  "otherPublishedExactCandidates": 11,
+  "distinctResidualCandidates": 427,
+  "date": "2026-11-12"
+}

@@ -1,0 +1,329 @@
+{
+  "reviewDate": "2026-11-12",
+  "reviewTimezone": "America/Los_Angeles",
+  "timestampTimezone": "UTC",
+  "retrievals": [
+    {
+      "key": "business-opportunity",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-437",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-437",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.975422+00:00",
+      "sha256": "79cfd1a27ed0b64d496d36df6487ed5cd5ddf43fbd7f83022c40e712c2826636",
+      "bytes": 123790,
+      "textLength": 27303
+    },
+    {
+      "key": "franchise-definitions",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-A/section-436.1",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-A/section-436.1",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.976347+00:00",
+      "sha256": "0ac1869771fe38ff1ebbd7732af1fc03007bd1c33dadbe9a09a8ba38563f0e84",
+      "bytes": 85648,
+      "textLength": 12727
+    },
+    {
+      "key": "franchise-prohibitions",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-F/section-436.9",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-F/section-436.9",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.977120+00:00",
+      "sha256": "f5f427a15425be465a7427c195f59a3c2f9bbf5a62461cb4f670ce6518281e24",
+      "bytes": 78541,
+      "textLength": 8587
+    },
+    {
+      "key": "irs-llc",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc",
+      "resolvedUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/limited-liability-company-llc",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.977913+00:00",
+      "sha256": "0338d4c9c845731ad28f706707232e68a1fee971b0fa40cebacfa0fece0f3211",
+      "bytes": 108778,
+      "textLength": 7950
+    },
+    {
+      "key": "irs-8832",
+      "url": "https://www.irs.gov/pub/irs-pdf/f8832.pdf",
+      "resolvedUrl": "https://www.irs.gov/pub/irs-pdf/f8832.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.978924+00:00",
+      "sha256": "bc7f2715e631b5bc3fc60eedaace27f68bd71cfc9236589f1e08f600dc37507f",
+      "bytes": 544716,
+      "textLength": 56441
+    },
+    {
+      "key": "entity-cfr",
+      "url": "https://www.ecfr.gov/current/title-26/section-301.7701-3",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-26/chapter-I/subchapter-F/part-301/subpart-ECFR5ffaf3310af6b61/section-301.7701-3",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.980817+00:00",
+      "sha256": "380b0aa0e018470d57f2d8646fce16e57cf48a1dee74c2e3ec56294230fdc5b8",
+      "bytes": 212292,
+      "textLength": 39397
+    },
+    {
+      "key": "pricing-cfr",
+      "url": "https://www.ecfr.gov/current/title-26/section-1.482-1",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/subject-group-ECFR2ae24c447fd0f0a/section-1.482-1",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.982199+00:00",
+      "sha256": "979c89cce749b0bd6e9a7cbe6b3189fc8be6e6efd19dd1e76a6e14575799f2b7",
+      "bytes": 675685,
+      "textLength": 116767
+    },
+    {
+      "key": "flsa-coverage",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/14-flsa-coverage",
+      "resolvedUrl": "https://www.dol.gov/agencies/whd/fact-sheets/14-flsa-coverage",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:12.983021+00:00",
+      "sha256": "65b61fbffe77c152592c5827706bc18b26f8b352c7b99c061cc68e8eca2d05e3",
+      "bytes": 76298,
+      "textLength": 5721
+    },
+    {
+      "key": "flsa-overtime",
+      "url": "https://www.dol.gov/agencies/whd/fact-sheets/23-flsa-overtime-pay",
+      "resolvedUrl": "https://www.dol.gov/agencies/whd/fact-sheets/23-flsa-overtime-pay",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.286750+00:00",
+      "sha256": "a4293e575081cd8d3dc16830616f0a5cc2507a9baca4e744ae00c26d0ff0cfce",
+      "bytes": 78994,
+      "textLength": 8457
+    },
+    {
+      "key": "i9-instructions",
+      "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf",
+      "attemptedAt": "2026-11-13T00:18:13.453519+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "i9-cfr",
+      "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.2",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.2",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.454024+00:00",
+      "sha256": "b5b3bf83f91c2adaf6ebb50c9d1369a4fe08305e53e24e78a0d0e8f1edd4f4f8",
+      "bytes": 146950,
+      "textLength": 47225
+    },
+    {
+      "key": "osha-duties",
+      "url": "https://www.osha.gov/laws-regs/oshact/section5-duties",
+      "resolvedUrl": "https://www.osha.gov/laws-regs/oshact/section5-duties",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.468206+00:00",
+      "sha256": "a7a5bf4dba7f472c08af9c7f6f1f4c6b82c95d1a203a851a1e9e20b7c28d1ce8",
+      "bytes": 98136,
+      "textLength": 5240
+    },
+    {
+      "key": "osha-responsibilities",
+      "url": "https://www.osha.gov/workers/employer-responsibilities",
+      "resolvedUrl": "https://www.osha.gov/workers/employer-responsibilities",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.626523+00:00",
+      "sha256": "e4da737769e0d61fc8e00ed41f5edc79204e06d8d8b70b0cbf12609c0e0abe09",
+      "bytes": 100339,
+      "textLength": 8442
+    },
+    {
+      "key": "uspto-clearance",
+      "url": "https://www.uspto.gov/trademarks/search/comprehensive-clearance-search-similar-trademarks",
+      "resolvedUrl": "https://www.uspto.gov/trademarks/search/comprehensive-clearance-search-similar-trademarks",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.627300+00:00",
+      "sha256": "3dbe133e1f904c8eda5868e6132a345ebb465368a86e965719022d44aeab7681",
+      "bytes": 133992,
+      "textLength": 12706
+    },
+    {
+      "key": "secret-definition",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1839&num=0&edition=prelim",
+      "attemptedAt": "2026-11-13T00:18:13.635449+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "secret-immunity",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title18-section1833&num=0&edition=prelim",
+      "attemptedAt": "2026-11-13T00:18:13.657376+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "customs-entry",
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-141/subpart-B/section-141.11",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-19/chapter-I/part-141/subpart-B/section-141.11",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.867712+00:00",
+      "sha256": "b147dc5d43c94679b48d2ab0827123b0f10fe9b0d2b0e9c3106cb8d71785ed8d",
+      "bytes": 87902,
+      "textLength": 11213
+    },
+    {
+      "key": "customs-retention",
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-163/section-163.4",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-19/chapter-I/part-163/section-163.4",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.885574+00:00",
+      "sha256": "5ff7406d1182499d9c7cfb059b7ee7ac8144c164332d9c6bf2c72f9b98b907c1",
+      "bytes": 77093,
+      "textLength": 7555
+    },
+    {
+      "key": "cbp-importing",
+      "url": "https://www.cbp.gov/trade/basic-import-export/importing-into-united-states",
+      "attemptedAt": "2026-11-13T00:18:13.906741+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "fsvp-cfr",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-L",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-L",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.912278+00:00",
+      "sha256": "f181259a0d810fa42aa1baecc004a923bedd3738949764561e0b854f3f47e67d",
+      "bytes": 254421,
+      "textLength": 87567
+    },
+    {
+      "key": "fsvp-guide",
+      "url": "https://www.fda.gov/food/food-safety-modernization-act-fsma/final-rule-foreign-supplier-verification-programs-fsvp-glance",
+      "resolvedUrl": "https://www.fda.gov/food/food-safety-modernization-act-fsma/final-rule-foreign-supplier-verification-programs-fsvp-glance",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.967926+00:00",
+      "sha256": "6b4d33d2c8e5477a221ba31d0112cb5eb8213f9abb109ff7842c9e6fd5a79eb9",
+      "bytes": 42882,
+      "textLength": 10026
+    },
+    {
+      "key": "sba-register",
+      "url": "https://www.sba.gov/business-guide/launch-your-business/register-your-business",
+      "resolvedUrl": "https://www.sba.gov/counseling/launch-your-business/#register-business",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:18:13.969350+00:00",
+      "sha256": "7b72d6ae335d4f7b56638cdc85b8a5e776c9f00e6ae3c5e446926e601240f670",
+      "bytes": 254406,
+      "textLength": 47218
+    },
+    {
+      "key": "secret-definition",
+      "url": "https://uscode.house.gov/us/usc/119-124/t18/s1839/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t18/s1839/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.291134+00:00",
+      "sha256": "ce1874273153fafbb6a74079f913004d2491fc0767356d15ace414d41c4ff0b4",
+      "bytes": 13679,
+      "textLength": 5783
+    },
+    {
+      "key": "secret-immunity",
+      "url": "https://uscode.house.gov/us/usc/119-120/t18/s1833/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-120/t18/s1833/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.293652+00:00",
+      "sha256": "445b6d3286548fca057700315c014aebba7924fbc94f1c749ef39e2cc77097c3",
+      "bytes": 14619,
+      "textLength": 6300
+    },
+    {
+      "key": "customs-statute",
+      "url": "https://uscode.house.gov/us/usc/119-124/t19/s1484/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t19/s1484/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.295144+00:00",
+      "sha256": "6549d0656eace8345050e1e0f02202cc0a48962788ab5ba7be58399ee4859988",
+      "bytes": 57633,
+      "textLength": 41406
+    },
+    {
+      "key": "customs-marking",
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-134/section-134.11",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-19/chapter-I/part-134/subpart-B/section-134.11",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.295998+00:00",
+      "sha256": "60e1cf2e8ca61626e66d9aeed5d2787f4301222e1f50c93ff3ac9b400e793fa3",
+      "bytes": 74939,
+      "textLength": 6739
+    },
+    {
+      "key": "customs-origin",
+      "url": "https://www.ecfr.gov/current/title-19/chapter-I/part-134/section-134.1",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-19/chapter-I/part-134/subpart-A/section-134.1",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.296875+00:00",
+      "sha256": "93ad5ac4ff5a803a1f19b1cd31cd904699b0120909e57bdddad2996baf253489",
+      "bytes": 83992,
+      "textLength": 10767
+    },
+    {
+      "key": "hts-help",
+      "url": "https://www.usitc.gov/tariff_affairs/hts_help",
+      "resolvedUrl": "https://www.usitc.gov/tariff_affairs/hts_help",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.297443+00:00",
+      "sha256": "abe1d1781f4c53432cfdcc12a89fab770abcb5dac30a296dffbdff7840257ff3",
+      "bytes": 68760,
+      "textLength": 6092
+    },
+    {
+      "key": "visitor-visa",
+      "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+      "resolvedUrl": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.298807+00:00",
+      "sha256": "ba029ad6a5f456be54134943ddf2a61338fa56213c7c15216367dc3c178d9769",
+      "bytes": 164310,
+      "textLength": 18798
+    },
+    {
+      "key": "houston-occupancy",
+      "url": "https://www.houstonpermittingcenter.org/media/2231/download",
+      "attemptedAt": "2026-11-13T00:23:04.299858+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "houston-process",
+      "url": "https://www.houstonpermittingcenter.org/media/6036/download",
+      "attemptedAt": "2026-11-13T00:23:04.509681+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "houston-plan",
+      "url": "https://www.houstontx.gov/business/plan/permits-inspections.html",
+      "resolvedUrl": "https://www.houstontx.gov/business/plan/permits-inspections.html",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.685896+00:00",
+      "sha256": "5ee631423b0ceed8f6e5486d7227d173ae8fa95d9903f5e0bd5d78a073168933",
+      "bytes": 37335,
+      "textLength": 5868
+    },
+    {
+      "key": "nyc-occupancy",
+      "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page",
+      "resolvedUrl": "https://www.nyc.gov/site/buildings/property-or-business-owner/certificate-of-occupancy.page",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.689973+00:00",
+      "sha256": "b4c530e88c767dbf1c8d8e506bd7dcb12c05d53b7915eb52ce24ae3b46d3d3f2",
+      "bytes": 26929,
+      "textLength": 4304
+    },
+    {
+      "key": "nyc-letter",
+      "url": "https://www.nyc.gov/site/buildings/property-or-business-owner/letter-of-no-objection-or-completion.page",
+      "resolvedUrl": "https://www.nyc.gov/site/buildings/property-or-business-owner/letter-of-no-objection-or-completion.page",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:23:04.706134+00:00",
+      "sha256": "b10e9ed51bf19f185247810e3edf830eb8a25b550adfcd86103aefaa021bb629",
+      "bytes": 29589,
+      "textLength": 5893
+    },
+    {
+      "key": "fsis-import",
+      "url": "https://www.fsis.usda.gov/inspection/import-export/import-guidance",
+      "attemptedAt": "2026-11-13T00:23:04.764036+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

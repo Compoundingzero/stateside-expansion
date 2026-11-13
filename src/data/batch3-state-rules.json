@@ -1,0 +1,257 @@
+[
+  {
+    "id": "b3-state-ca-janitorial-registration",
+    "title": "California janitorial employer registration covers defined contractor and franchise arrangements",
+    "topic": "employment",
+    "jurisdiction": "California",
+    "activity": "Employing or arranging work in the state",
+    "affectedParty": "Operating entity and responsible payroll or compliance manager",
+    "applicability": "Persons or entities within the janitorial employer definition, including covered contractual, subcontractual and franchise arrangements.",
+    "requirement": "A defined janitorial employer must register with the Labor Commissioner even where covered workers perform predominantly janitorial work as contractors or franchisees. Current program guidance states a $500 initial fee, annual $500 renewal and three-year records; determine the actual provider and recipient roles before applying the FAQ exclusions.",
+    "exceptions": "The agency FAQ excludes residential-only cleaning providers and service recipients acting as recipients, and interprets the program as applying to private entities. Covered-worker and actual-role facts remain necessary.",
+    "trigger": "Providing covered janitorial services or arranging their provision as a defined employer",
+    "deadline": "Register for covered operations; renewal due annually by the original issuance month and day",
+    "fee": {
+      "value": 500,
+      "currency": "USD",
+      "asOf": "2026-11-13"
+    },
+    "renewal": "Annual; agency states a $500 renewal fee.",
+    "dependencies": [
+      "Actual worksite and worker facts",
+      "Named responsible entity"
+    ],
+    "evidence": [
+      "Role and entity map",
+      "Current registration number and expiry",
+      "Required application documents",
+      "Covered-worker records retained three years"
+    ],
+    "sourceIds": [
+      "b3-state-ca-janitorial",
+      "b3-state-ca-janitorial-faq",
+      "b3-state-ca-janitorial-registration-rule"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Narrow stated issue; not comprehensive state, federal, sector or local clearance."
+    ],
+    "dependentPaths": [
+      "/states/california/janitorial-employer-registration/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-state-ca-janitorial-training",
+    "title": "California janitorial training has frequency, provider and evidence requirements",
+    "topic": "employment",
+    "jurisdiction": "California",
+    "activity": "Employing or arranging work in the state",
+    "affectedParty": "Operating entity and responsible payroll or compliance manager",
+    "applicability": "Covered janitorial employers and their nonsupervisory covered workers and supervisors; covered workers can include contractors and franchisees.",
+    "requirement": "For covered janitorial employers, ensure at least two hours of sexual-violence and harassment prevention training at least every two years for nonsupervisory covered workers and their supervisors, and within six months of a new position. Use the required content and qualified-provider route; retain required evidence for at least three years. The employer bears the proof burden even when another entity provides training.",
+    "exceptions": "Section 13821(a)(1) permits a defined covered successor employer to use a retained worker’s documented last-training date only if its workforce-retention, seniority, wage and policy conditions are satisfied.",
+    "trigger": "Before committing to the covered work or payroll arrangement",
+    "deadline": "At least every two years; within six months of assuming a new covered position",
+    "fee": null,
+    "renewal": "Training cycle is separate from annual janitorial registration renewal.",
+    "dependencies": [
+      "Actual worksite and worker facts",
+      "Named responsible entity"
+    ],
+    "evidence": [
+      "Training roster and position-start dates",
+      "Qualified organization/provider evidence",
+      "Start/end signed attendance and certificates",
+      "Content, signed DLSE 800 form and required payment certification",
+      "Records retained at least three years"
+    ],
+    "sourceIds": [
+      "b3-state-ca-janitorial-faq",
+      "b3-state-ca-rule13821",
+      "b3-state-ca-janitorial-training-rule",
+      "b3-state-ca-janitorial-training"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Narrow stated issue; not comprehensive state, federal, sector or local clearance."
+    ],
+    "dependentPaths": [
+      "/states/california/janitorial-training-records/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-state-ca-general-minimum-wage-2026",
+    "title": "California 2026 general minimum wage is a floor requiring location and industry checks",
+    "topic": "employment",
+    "jurisdiction": "California",
+    "activity": "Employing or arranging work in the state",
+    "affectedParty": "Operating entity and responsible payroll or compliance manager",
+    "applicability": "Apply the named rule to the actual work, entity, worker and location facts.",
+    "requirement": "MW-2026 sets the general state minimum at $16.90 per hour from January 1, 2026, subject to its applicability provisions. Higher applicable industry or local requirements must be checked for each actual worksite; do not use this figure as an all-in labor cost.",
+    "exceptions": "MW-2026 contains applicability exceptions and identifies separate fast-food and healthcare requirements. Local rates may exceed the general state floor.",
+    "trigger": "Before committing to the covered work or payroll arrangement",
+    "deadline": "For covered hours from January 1, 2026",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual worksite and worker facts",
+      "Named responsible entity"
+    ],
+    "evidence": [
+      "Worksite addresses and applicable industry/wage order",
+      "Dated rate and effective-period record",
+      "Payroll and hours records"
+    ],
+    "sourceIds": [
+      "b3-state-ca-wage-order",
+      "b3-state-ca-dir-2026"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Narrow stated issue; not comprehensive state, federal, sector or local clearance."
+    ],
+    "dependentPaths": [
+      "/states/california/pay-floor-and-manager-duties/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-state-ca-executive-exemption-screen",
+    "title": "California executive exemption requires actual duties as well as salary",
+    "topic": "employment",
+    "jurisdiction": "California",
+    "activity": "Employing or arranging work in the state",
+    "affectedParty": "Operating entity and responsible payroll or compliance manager",
+    "applicability": "Apply the named rule to the actual work, entity, worker and location facts.",
+    "requirement": "DLSE describes cumulative executive-exemption conditions: management of the enterprise or a recognized unit, regular direction of two or more employees, hiring/firing authority or weighted recommendations, discretion and independent judgment, primarily exempt duties, and a salary of at least twice the state minimum wage for full-time employment. A manager title or total employment budget does not establish this exemption.",
+    "exceptions": "Other exemptions and the correct wage order require separate analysis; this record does not decide the administrative, professional, outside-sales or computer exemptions.",
+    "trigger": "Before committing to the covered work or payroll arrangement",
+    "deadline": "Before the covered arrangement; ongoing compliance as applicable",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual worksite and worker facts",
+      "Named responsible entity"
+    ],
+    "evidence": [
+      "Actual duties and time allocation",
+      "Organization chart and authority",
+      "Guaranteed salary terms distinguished from benefits and employer costs",
+      "Applicable wage order"
+    ],
+    "sourceIds": [
+      "b3-state-ca-glossary",
+      "b3-state-ca-wage-order"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Narrow stated issue; not comprehensive state, federal, sector or local clearance."
+    ],
+    "dependentPaths": [
+      "/states/california/pay-floor-and-manager-duties/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-state-tx-tuca-classification",
+    "title": "Texas TWC unemployment-tax classification turns on actual direction and control",
+    "topic": "employment",
+    "jurisdiction": "Texas",
+    "activity": "Employing or arranging work in the state",
+    "affectedParty": "Operating entity and responsible payroll or compliance manager",
+    "applicability": "Texas Unemployment Compensation Act worker classification as explained by the Texas Workforce Commission.",
+    "requirement": "For Texas unemployment-tax purposes, TWC identifies service, wages and direction/control and applies a 20-factor common-law guide. The right to control can suffice without actual exercise. Factor relevance and weight vary with the facts; a 1099 or contractor agreement does not determine status.",
+    "exceptions": "This is not a determination under federal wage law, federal tax law, another state’s law, or a transaction-specific ruling.",
+    "trigger": "Before committing to the covered work or payroll arrangement",
+    "deadline": "Before the covered arrangement; ongoing compliance as applicable",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual worksite and worker facts",
+      "Named responsible entity"
+    ],
+    "evidence": [
+      "Actual control and performance facts for each relevant factor",
+      "Contracts and operating manuals",
+      "Scheduling, training, tools, payment and substitution evidence",
+      "Reasoned assessment or TWC inquiry rather than a numeric factor score"
+    ],
+    "sourceIds": [
+      "b3-state-tx-classification"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Narrow stated issue; not comprehensive state, federal, sector or local clearance."
+    ],
+    "dependentPaths": [
+      "/states/texas/worker-classification-unemployment-tax/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "b3-state-ny-2026-region-industry-wage",
+    "title": "New York 2026 payroll planning requires the actual region and wage order",
+    "topic": "employment",
+    "jurisdiction": "New York",
+    "activity": "Employing or arranging work in the state",
+    "affectedParty": "Operating entity and responsible payroll or compliance manager",
+    "applicability": "Apply the named rule to the actual work, entity, worker and location facts.",
+    "requirement": "Dated NYDOL 2026 miscellaneous and building-service posters state $17 per hour for New York City, Long Island and Westchester County and $16 elsewhere in New York State. Determine the correct industry and worker category; the building-service poster has distinct residential janitor provisions and extra-pay/credit rules. Rates alone do not settle overtime, uniform maintenance, call-in pay or exemption eligibility.",
+    "exceptions": "Industry-specific rates, residential janitor arrangements, allowed credits and exemptions require their own conditions. No hospitality tip credit is imported into miscellaneous or building-service work.",
+    "trigger": "Before committing to the covered work or payroll arrangement",
+    "deadline": "Cited 2026 posters apply January 1 through December 31, 2026; recheck for the actual payroll period",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [
+      "Actual worksite and worker facts",
+      "Named responsible entity"
+    ],
+    "evidence": [
+      "Actual worksite and regional classification",
+      "Correct wage order and worker category",
+      "Rate version and effective dates",
+      "Hours, extra-pay, uniform and credit review"
+    ],
+    "sourceIds": [
+      "b3-state-ny-wage-pdf",
+      "b3-state-ny-building-pdf",
+      "b3-state-ny-minimum"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [
+      "The current overview displays a 2027 table and separately describes an announced continuation and a Governor’s proposal. The dated 2026 posters are used for 2026 payroll; a proposal is not treated as enacted."
+    ],
+    "interpretationLimits": [
+      "Narrow stated issue; not comprehensive state, federal, sector or local clearance."
+    ],
+    "dependentPaths": [
+      "/states/new-york/wage-region-and-industry/"
+    ],
+    "reviewerStatus": "AI-assisted source review; no professional legal review"
+  }
+]

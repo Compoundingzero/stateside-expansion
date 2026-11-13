@@ -1,0 +1,339 @@
+[
+  {
+    "id": "b3-planning-staff-transfers",
+    "title": "An L-1 staff plan needs a qualifying job and employment history",
+    "topic": "immigration",
+    "jurisdiction": "U.S. federal",
+    "activity": "An L-1 staff plan needs a qualifying job and employment history",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Section 214.2(l) separately requires qualifying-organisation, continuous prior foreign employment and executive/managerial/specialised-knowledge role evidence; new-office and owner/major-stockholder cases add specified evidence.",
+    "exceptions": "This is an evidence-preparation guide, not eligibility, petition or admission approval. Individual and blanket routes, forms, fees and all category-specific conditions require their own current check.",
+    "trigger": "An L-1 staff plan needs a qualifying job and employment history",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Actual foreign/U.S. role descriptions",
+      "Continuous employment and travel calendar",
+      "Qualifying entity/business evidence",
+      "U.S. staffing/functions plan",
+      "New-office premises/funding evidence",
+      "Owner temporary-assignment evidence where applicable"
+    ],
+    "sourceIds": [
+      "b3-planning-l1-cfr",
+      "fed-l1"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Scoped8CFR review; no current form edition, fee, processing time, role qualification, petition approval or admission conclusion.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/staff-transfers/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-state-tax-nexus",
+    "title": "A service business cannot borrow a blanket P.L. 86-272 exemption",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "A service business cannot borrow a blanket P.L. 86-272 exemption",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "15 USC § 381 limits state net-income taxation only for the specified interstate tangible-property solicitation activities and conditions. It is not an all-tax or all-service safe harbour.",
+    "exceptions": "The section has state-incorporated/resident exceptions and defined independent-contractor rules. Actual state/local nexus, sourcing, apportionment and filing obligations remain separate and unresearched here.",
+    "trigger": "A service business cannot borrow a blanket P.L. 86-272 exemption",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Entity/state/activity register",
+      "Tax type and taxing authority",
+      "Goods/services split",
+      "Approval/fulfilment and personnel facts",
+      "State-specific nexus/sourcing task"
+    ],
+    "sourceIds": [
+      "b3-planning-pl86272"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Federal statutory boundary only; current individual state/local nexus, economic thresholds, taxability, sourcing, apportionment and returns remain unresearched.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/state-tax-nexus/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-sales-tax-services",
+    "title": "Texas service taxability depends on the task, not the “IT” label",
+    "topic": "corporate-tax",
+    "jurisdiction": "Texas",
+    "activity": "Texas service taxability depends on the task, not the “IT” label",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Texas Tax Code § 151.0101(a)(12) includes data processing services, as defined with exclusions in § 151.0035, among taxable services. Section 151.351 exempts 20 percent of the value of information services and data processing services; Comptroller guidance distinguishes professional-service computer use, mixed services and multistate use.",
+    "exceptions": "Do not extend one publication to all services or states. Current statute/rule completeness, exemptions, tax base, local sourcing, permit/nexus and effective rates need their own verification.",
+    "trigger": "Texas service taxability depends on the task, not the “IT” label",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Service deliverables and customer data",
+      "Professional judgement versus processing facts",
+      "Reasonable separate charges",
+      "Customer use locations/allocation evidence",
+      "Current tax-base/exemption and registration questions"
+    ],
+    "sourceIds": [
+      "b3-planning-texas-data",
+      "b3-planning2-texas-tax-full"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No final tax percentage, Texas permit/nexus/sourcing determination or other-state taxability conclusion.",
+      "AI-assisted source review; no professional legal review.",
+      "The 20% provision exempts qualifying service value; it is not a 20% tax rate. No actual bundle, nexus, sourcing or final tax amount is determined."
+    ],
+    "dependentPaths": [
+      "/us-expansion/sales-tax-services/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-treaty-ownership",
+    "title": "A UK company address does not establish U.S.–UK treaty benefits",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "A UK company address does not establish U.S.–UK treaty benefits",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "IRS guidance conditions reduced treaty withholding on the relevant residence, beneficial ownership, income derivation and applicable LOB provisions. The U.S.–UK convention separates residence inArticle 4, royalties inArticle 12 and LOB inArticle 23, as amended by the protocol.",
+    "exceptions": "Specific treaty text, income character, permanent-establishment, special-relationship and conduit conditions matter. No company, payment or ownership chain is found eligible and no treaty rate is quoted.",
+    "trigger": "A UK company address does not establish U.S.–UK treaty benefits",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Actual payee and tax residence",
+      "Payment/right character",
+      "Beneficial-owner and derivation facts",
+      "LOB pathway and evidence period",
+      "Protocol/current-text check",
+      "Withholding documentation owner"
+    ],
+    "sourceIds": [
+      "b3-planning-irs-treaty-benefits",
+      "b3-planning-uk-documents",
+      "b3-planning-uk-treasury",
+      "b3-planning-uk-protocol"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "U.S.–UK illustration only; no withholding rate, treaty entitlement, permanent-establishment, conduit, equivalent-beneficiary or post-Brexit determination.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/treaty-ownership/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-tax-residence-vs-owner-nationality",
+    "title": "Keep owner nationality, personal tax residence and company residence separate",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Keep owner nationality, personal tax residence and company residence separate",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "IRS individual-residence guidance distinguishes noncitizen green-card/substantial-presence tests and exceptions; treaty residence uses its own text. Immigration treaty nationality is a separate inquiry, and entity residence is not the owner’s personal tax status.",
+    "exceptions": "No individual day-count, treaty tiebreak, company residence or E-2 entitlement is determined. U.S.–UKArticle 4 is an illustration, not a universal treaty definition.",
+    "trigger": "Keep owner nationality, personal tax residence and company residence separate",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Person and entity identifiers",
+      "Citizenship/ownership evidence",
+      "Personal tax-residence facts",
+      "Entity tax-residence facts",
+      "Applicable treaty/article and period"
+    ],
+    "sourceIds": [
+      "b3-planning-irs-residency",
+      "b3-planning-uk-treasury",
+      "b3-planning-uk-protocol",
+      "fed-e2"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No personal tax-residency/day count, treaty tiebreak, entity-residence or immigration approval. UK treaty illustration is not transferable to every country.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/comparisons/tax-residence-vs-owner-nationality/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-trademark-quality-control",
+    "title": "Plan trademark quality controls separately from franchise classification",
+    "topic": "ip-data",
+    "jurisdiction": "U.S. federal",
+    "activity": "Plan trademark quality controls separately from franchise classification",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Section 1127 defines a related company by owner control over the nature/quality of marked goods/services; § 1055 addresses legitimate related-company and controlled first use. The FTC franchise framework separately examines significant operating control/assistance.",
+    "exceptions": "The statutory trademark provisions do not supply a complete licence-validity or abandonment case-law opinion. A claimed quality purpose does not automatically exempt significant operating controls from franchise analysis.",
+    "trigger": "Plan trademark quality controls separately from franchise classification",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Mark/right owner and authorised users",
+      "Quality attributes and measurement",
+      "Inspection/correction evidence",
+      "Operating-control/assistance inventory",
+      "Separate trademark/franchise questions"
+    ],
+    "sourceIds": [
+      "b3-planning-related-marks",
+      "b3-planning-mark-definitions",
+      "fed-definition",
+      "fed-compliance"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Statutory distinction only; no complete trademark case-law, licence-validity, abandonment or franchise-coverage determination.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/trademark-quality-control/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-sanctions-screening",
+    "title": "A name search is one part of sanctions and export diligence",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "A name search is one part of sanctions and export diligence",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Commerce describes CSL as an aid requiring source-list and match diligence. OFAC’s 50 Percent Rule can block entities owned 50% or more in aggregate by blocked persons even without a separate name listing; ownership and control are distinct underFAQ 398.",
+    "exceptions": "Country/programme, goods/technology, destination/end-use, signatory, ownership and licence facts can impose separate restrictions. No entity, list search, programme, authorisation or transaction is cleared.",
+    "trigger": "A name search is one part of sanctions and export diligence",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Legal names/aliases/identifiers",
+      "Dated official-list match record",
+      "Ownership chain and aggregation",
+      "Transaction/goods/end-user map",
+      "Programme/licence question and escalation owner"
+    ],
+    "sourceIds": [
+      "b3-planning-csl",
+      "b2-origins-ofac-50",
+      "b3-planning-ofac398"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No live name search, current designation result, country/programme, export classification, licence or transaction clearance.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/sanctions-screening/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-competition-pricing",
+    "title": "Separate price policy, vertical restraints and competitor coordination",
+    "topic": "relationship",
+    "jurisdiction": "U.S. federal",
+    "activity": "Separate price policy, vertical restraints and competitor coordination",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "The2007 Leegin majority replaced federal per-se treatment of vertical minimum resale-price restraints with rule-of-reason review and reversed/remanded. FTC guidance distinguishes state-law differences and competitor coordination; a vertical label does not immunise horizontal effects.",
+    "exceptions": "Actual agreement, market structure, competitive effects and state/international laws matter. No policy, territory, MAP, MFN, customer allocation or collective pricing arrangement is approved.",
+    "trigger": "Separate price policy, vertical restraints and competitor coordination",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Who competes/supplies whom",
+      "Actual price/territory policy and communications",
+      "Agreement/unilateral facts",
+      "Market/effects evidence",
+      "State/international law and customer-contract questions"
+    ],
+    "sourceIds": [
+      "b3-planning-pricing-ftc",
+      "b3-planning-leegin-loc"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No antitrust clearance or later Leegin merits outcome; source review uses the 2007 majority’s standard/disposition plus current FTC guidance, not a full jurisdiction/case-law survey.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/competition-pricing/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  }
+]

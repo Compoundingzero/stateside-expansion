@@ -1,5 +1,10 @@
 # Professional review handoff
 
+This is an optional handoff, not a launch requirement. The operator clarified
+that ELN should present official rules and relevant actual case studies, without
+requiring human legal sign-off. Continue source-backed publication within that
+scope and keep review descriptions accurate.
+
 ELN's published legal content has AI-assisted source review. No professional
 legal review, attorney identity, engagement or legal sign-off has been recorded.
 The site continues to disclose that limitation. Software work cannot provide

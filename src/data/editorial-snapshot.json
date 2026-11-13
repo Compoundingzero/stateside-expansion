@@ -150,5 +150,280 @@
       }
     ],
     "scope": "Initial continuation technical pass: 241 baselines and six retrieval issues. One large official PDF was subsequently fetched after increasing the bounded PDF allowance; its technical resolution is retained separately. Three public agency pages were also retrieved through the inherited proxy despite local DNS precheck failures. No substantive verification date or public interpretation was changed by a fetch."
+  },
+  {
+    "id": "cloud-final-full-591",
+    "runAt": "2026-11-13T01:57:23.281Z",
+    "environment": "Cloud final full sweep",
+    "checked": 591,
+    "retrievalFailures": 15,
+    "hashChanges": 0,
+    "openReviewItems": 15,
+    "workflow": null,
+    "issues": [
+      {
+        "sourceId": "b2-origins-brunei-bedb",
+        "error": "getaddrinfo ENOTFOUND www.bedb.gov.bn",
+        "paths": [
+          "/from/brunei/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-detroit-notice",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/cities/detroit/food-license-and-preopening/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-origin3-hungary-invoicing-2026",
+        "error": "getaddrinfo ENOTFOUND nav.gov.hu",
+        "paths": [
+          "/from/hungary/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-origin3-romania-trademark-faq",
+        "error": "getaddrinfo ENOTFOUND osim.ro",
+        "paths": [
+          "/from/romania/"
+        ]
+      },
+      {
+        "sourceId": "b3-origin3-bulgaria-export-register",
+        "error": "getaddrinfo ENOTFOUND iisda.government.bg",
+        "paths": [
+          "/from/bulgaria/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-rs-law",
+        "error": "getaddrinfo ENOTFOUND www.nbs.rs",
+        "paths": [
+          "/from/serbia/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-al-process",
+        "error": "fetch failed",
+        "paths": [
+          "/from/albania/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-mk-change",
+        "error": "getaddrinfo ENOTFOUND www.crm.com.mk",
+        "paths": [
+          "/from/north-macedonia/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-al-exit",
+        "error": "getaddrinfo ENOTFOUND dogana.gov.al",
+        "paths": [
+          "/from/albania/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-md-law",
+        "error": "getaddrinfo ENOTFOUND bnm.md",
+        "paths": [
+          "/from/moldova/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-tr-report",
+        "error": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
+        "paths": [
+          "/from/turkiye/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-ba-base",
+        "error": "getaddrinfo ENOTFOUND finpol.gov.ba",
+        "paths": [
+          "/from/bosnia-and-herzegovina/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-ba-enacted",
+        "error": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
+        "paths": [
+          "/from/bosnia-and-herzegovina/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-planning2-dol-joint791",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/us-expansion/joint-employer/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-state4-or-law",
+        "error": "HTTP 403",
+        "paths": [
+          "/states/oregon/renewal-and-additional-unit-disclosure/",
+          "/states/oregon/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      }
+    ],
+    "scope": "Full sweep for 278 published guides plus public tool and site dependencies: 591 cited source records out of 640 total. The 49 uncited records were outside scope. The run completed at 2026-11-13T02:03:19Z: 576 retrieved, 15 retrieval failures, zero missing-passage alerts and zero content-hash alerts. The strict check exited 1. Normalizer migration was independently audited and was not treated as a legal update. This original result remains retained after later followups."
+  },
+  {
+    "id": "cloud-final-reviewed-591",
+    "runAt": "2026-11-13T02:14:41.731Z",
+    "fullSweepRunAt": "2026-11-13T01:57:23.281Z",
+    "environment": "Cloud final cohort after bounded followups",
+    "checked": 591,
+    "retrievalFailures": 8,
+    "hashChanges": 0,
+    "openReviewItems": 8,
+    "resolvedReviewItems": 159,
+    "workflow": null,
+    "issues": [
+      {
+        "sourceId": "b3-local-detroit-notice",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "initialError": "HTTP 403",
+        "createdAt": "2026-11-13T01:12:25.883Z",
+        "paths": [
+          "/cities/detroit/food-license-and-preopening/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-local-detroit-food-route"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-al-process",
+        "error": "fetch failed",
+        "initialError": "fetch failed",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/from/albania/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-al-processing"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-mk-change",
+        "error": "HTTP 503; saved response says upstream connection timeout",
+        "initialError": "getaddrinfo ENOTFOUND www.crm.com.mk",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/from/north-macedonia/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-mk-change"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-al-exit",
+        "error": "fetch failed",
+        "initialError": "getaddrinfo ENOTFOUND dogana.gov.al",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/from/albania/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-al-processing"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-tr-report",
+        "error": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
+        "initialError": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/from/turkiye/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-tr-capital-notice"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-ba-base",
+        "error": "getaddrinfo ENOTFOUND finpol.gov.ba",
+        "initialError": "getaddrinfo ENOTFOUND finpol.gov.ba",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/from/bosnia-and-herzegovina/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-ba-setoff"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-ba-enacted",
+        "error": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
+        "initialError": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/from/bosnia-and-herzegovina/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-ba-setoff"
+        ]
+      },
+      {
+        "sourceId": "b3-state4-or-law",
+        "error": "HTTP 403",
+        "initialError": "HTTP 403",
+        "createdAt": "2026-11-13T01:57:23.281Z",
+        "paths": [
+          "/states/oregon/renewal-and-additional-unit-disclosure/",
+          "/states/oregon/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-state4-or-renewal"
+        ]
+      }
+    ],
+    "scope": "Mixed-time completion of the same 591 cited-source cohort for 278 published guides. The full sweep began at 2026-11-13T01:57:23Z and had 15 failures. A 12-record network retry began at 02:05:32Z and retrieved six. A one-record reserved eCFR Part 791 check began at 02:08:30Z and retrieved its complete XML after a narrow readability repair. Seven exact occurrences were resolved; eight remain open. This is not a second whole-corpus sweep or a new legal review. Source substantive-review dates are preserved. The 49 uncited records, held guides and other unresolved research are outside this technical check."
   }
 ]

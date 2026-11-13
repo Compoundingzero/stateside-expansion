@@ -1,0 +1,316 @@
+[
+  {
+    "id": "b3-o4-rs-di2",
+    "title": "Serbian outward direct investment has a resident DI-2 reporting workstream",
+    "topic": "corporate-tax",
+    "jurisdiction": "Serbia",
+    "activity": "A Serbian resident makes an outward investment falling within the law’s direct-investment definition",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A Serbian resident makes an outward investment falling within the law’s direct-investment definition",
+    "requirement": "Article 11’s outward-payment treatment does not remove reporting. Current NBS-linked guidance specifies DI-2 balance/transaction reporting quarterly, USD at the reporting period’s final-day official middle rate, submitted no later than ten days after period end. Retain accounting support for accuracy.",
+    "exceptions": "Other capital/credit transactions need their own classification; no universal no-approval conclusion.",
+    "trigger": "A Serbian resident makes an outward investment falling within the law’s direct-investment definition",
+    "deadline": "No later than ten days after the quarterly reporting period under the named current NBS guidance; confirm actual filing instructions.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Investment classification and ownership/voting facts",
+      "Capital-event and period-end balance ledger",
+      "DI-2 and reporting-period exchange-rate working",
+      "Submission receipt and supporting accounting records"
+    ],
+    "sourceIds": [
+      "b3-o4-rs-law",
+      "b3-o4-rs-report",
+      "b3-o4-rs-instructions"
+    ],
+    "status": "verified",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Apply the full direct-investment definition; do not apply a simple stake percentage to every loan or incorporation case.",
+      "Foreign-trade law, bank requirements, separate credit/account reports and U.S. obligations remain separate."
+    ],
+    "dependentPaths": [
+      "/from/serbia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-mk-change",
+    "title": "A Macedonian outward investment change is not automatically a new registration",
+    "topic": "corporate-tax",
+    "jurisdiction": "North Macedonia",
+    "activity": "A resident’s previously registered outward direct investment changes, is transferred, sold or closed",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A resident’s previously registered outward direct investment changes, is transferred, sold or closed",
+    "requirement": "The Central Registry service distinguishes first registration from amendment/deletion, including investor/entity name or ID changes, investment increases/reductions, transfers/sales, liquidation and repayment of an investment loan. Some events require both new and amendment entries. Build the event-to-entry map before filing.",
+    "exceptions": "A first investment uses the new-registration service; mixed events may require multiple entries.",
+    "trigger": "A resident’s previously registered outward direct investment changes, is transferred, sold or closed",
+    "deadline": "Confirm the applicable current statutory/registry deadline immediately from the actual event; this guide does not supply an unverified day count.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Existing investment registration reference",
+      "Before/after investor and foreign-entity identifiers",
+      "Event documents and amount reconciliation",
+      "New/amendment/deletion decision and current registry checklist"
+    ],
+    "sourceIds": [
+      "b3-o4-mk-change"
+    ],
+    "status": "conditional",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Full detailed tab documents, fee and 60-day statutory timing were not independently retrieved; confirm before submission.",
+      "Do not infer NBRM statistical/loan reports, transfer permission or all qualifying investment types from this service summary."
+    ],
+    "dependentPaths": [
+      "/from/north-macedonia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-al-processing",
+    "title": "Albanian outward processing needs authorization and return-identification planning",
+    "topic": "products-supply",
+    "jurisdiction": "Albania",
+    "activity": "An Albanian-established business sends Albanian goods abroad for processing and intends to bring back resulting goods",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "An Albanian-established business sends Albanian goods abroad for processing and intends to bring back resulting goods",
+    "requirement": "The native Customs agency process describes outward processing as a conditional authorization route, not ordinary permanent export. It requires eligibility, ability to identify the resulting products with the temporarily exported goods and economic-condition review; exclusions apply. Customs sets the reimport period and may extend it on a reasoned request.",
+    "exceptions": "Native agency guidance lists excluded goods; applicable end-use, refunds/financial benefits and economic conditions must be checked.",
+    "trigger": "An Albanian-established business sends Albanian goods abroad for processing and intends to bring back resulting goods",
+    "deadline": "Obtain the applicable authorization before using the procedure; meet the return period set by Customs and seek any extension with reasons.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Description, identity/serial or batch evidence for goods",
+      "Processing contract and expected resulting products",
+      "Eligibility/exclusion assessment and authorization",
+      "Customs-set return deadline, exit and return records"
+    ],
+    "sourceIds": [
+      "b3-o4-al-process",
+      "b3-o4-al-exit"
+    ],
+    "status": "conditional",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Agency process guidance only; no automatic authorization, full duty relief, ATA eligibility or U.S. customs result.",
+      "Confirm current consolidated legal/implementing provisions and shipment-specific conditions before acting."
+    ],
+    "dependentPaths": [
+      "/from/albania/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-me-applicable-vat",
+    "title": "Montenegro’s July 2026 VAT law has accession-linked application",
+    "topic": "corporate-tax",
+    "jurisdiction": "Montenegro",
+    "activity": "A Montenegrin supplier configures VAT treatment for a U.S. business service during the pre-accession period",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A Montenegrin supplier configures VAT treatment for a U.S. business service during the pre-accession period",
+    "requirement": "Use the applicable text and transaction facts. In the government-hosted consolidation through 12/2026, Article 17 gives the taxable-recipient/receiving-establishment framework, subject to service-specific exceptions such as property services. New Act 104/2026 Articles 212–213 tie old-act repeal to application and new application to EU accession; July publication alone does not start that regime.",
+    "exceptions": "Special service-place rules and actual fixed establishments can displace the simple headquarters branch.",
+    "trigger": "A Montenegrin supplier configures VAT treatment for a U.S. business service during the pre-accession period",
+    "deadline": "Decide applicable law and receiving establishment before invoicing; recheck when actual commencement/application conditions change.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Dated applicable-act record with application trigger",
+      "Recipient status and actual receiving establishment",
+      "Service classification and exception review",
+      "Invoice treatment decision with authority and recheck trigger"
+    ],
+    "sourceIds": [
+      "b3-o4-me-old-law",
+      "b3-o4-me-new-law",
+      "b3-o4-me-notice",
+      "b3-o4-me-eu-status"
+    ],
+    "status": "conditional",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No EU accession date is assumed; recheck actual legal and application status at invoice date.",
+      "No rate, registration, deduction or blanket export exemption is determined. Native text controls the AI-assisted explanation."
+    ],
+    "dependentPaths": [
+      "/from/montenegro/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-md-bank-account",
+    "title": "A Moldovan resident’s foreign bank account needs its own authorization/exception analysis",
+    "topic": "corporate-tax",
+    "jurisdiction": "Moldova",
+    "activity": "A Moldovan resident proposes an account in its own name at a non-resident bank",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A Moldovan resident proposes an account in its own name at a non-resident bank",
+    "requirement": "Article 13(4) generally requires NBM authorization with listed exceptions. The export-collection exception in 13(5)(b1) concerns goods/services exclusively for export and requires final crediting to accounts at licensed Moldovan banks. The separate direct-investment/real-estate exception in (b) requires the investor’s account to be compulsory under foreign law. Article 13(6) allows further NBM account conditions; do not treat either branch as a general offshore treasury permission.",
+    "exceptions": "All Article 13(5) branches remain available only on their actual facts; no inference that convenience makes an account compulsory.",
+    "trigger": "A Moldovan resident proposes an account in its own name at a non-resident bank",
+    "deadline": "Resolve authorization or a fully evidenced exception before opening the resident’s foreign-bank account.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Account holder, bank legal entity and account type",
+      "Documented purpose and money-flow map",
+      "Exact statutory exception or NBM authorization",
+      "Current implementing conditions and Moldovan final-crediting evidence"
+    ],
+    "sourceIds": [
+      "b3-o4-md-native-law",
+      "b3-o4-md-law"
+    ],
+    "status": "conditional",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "An overseas subsidiary account and a resident parent’s own account must be factually separated; this guide does not decide the subsidiary’s residence.",
+      "Payment institutions, electronic wallets, other exceptions and current implementing reporting/retention conditions require separate analysis."
+    ],
+    "dependentPaths": [
+      "/from/moldova/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-tr-capital-notice",
+    "title": "Türkiye’s initial/closure notices and annual investment survey are separate tasks",
+    "topic": "corporate-tax",
+    "jurisdiction": "Türkiye",
+    "activity": "A Türkiye-resident person first exports cash/in-kind capital to establish/acquire a foreign company or open a branch, or completes its liquidation/transfer",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A Türkiye-resident person first exports cash/in-kind capital to establish/acquire a foreign company or open a branch, or completes its liquidation/transfer",
+    "requirement": "The Ministry’s 13 May 2026 guidance describes initial capital-export information to Treasury and Finance and Trade within three months; completed liquidation/transfer status also to both within three months. It separately describes an annual April–May outward-investment survey. The survey is not a substitute for the event notice.",
+    "exceptions": "This is the named company/participation/branch capital-export process; ordinary service revenue, invoice receipts and other capital movements are different fact patterns.",
+    "trigger": "A Türkiye-resident person first exports cash/in-kind capital to establish/acquire a foreign company or open a branch, or completes its liquidation/transfer",
+    "deadline": "Initial event: within three months after first capital export; closure/transfer: no later than three months after completion, per named ministry guidance. Confirm event/date computation.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Resident investor and foreign company/branch facts",
+      "First cash/in-kind capital event evidence",
+      "Applicable current form, two-recipient delivery records",
+      "Separate survey owner and liquidation/transfer event diary"
+    ],
+    "sourceIds": [
+      "b3-o4-tr-report"
+    ],
+    "status": "conditional",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The current guidance does not establish general transfer freedom, bank reporting, a tax result or U.S. permission.",
+      "Do not import an older March annual deadline from secondary summaries; confirm exact current legal/form requirements for the event."
+    ],
+    "dependentPaths": [
+      "/from/turkiye/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-ba-setoff",
+    "title": "A Federation resident’s cross-border current-account setoff needs a written evidence trail",
+    "topic": "corporate-tax",
+    "jurisdiction": "Bosnia and Herzegovina",
+    "activity": "A current transaction subject to Federation of BiH foreign-exchange law is settled with a non-resident by setoff, assignment, debt assumption or a similar method",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A current transaction subject to Federation of BiH foreign-exchange law is settled with a non-resident by setoff, assignment, debt assumption or a similar method",
+    "requirement": "2026 amendment Article 5 adds Act 7(4)–(6): use a written agreement under obligations law with party identities, underlying claim/debt basis, debtor/creditor facts, currency and amounts. A resident whose accounts are blocked for compulsory collection may not enter/use this settlement method unless another law provides otherwise. Confirm operative implementation before execution.",
+    "exceptions": "Blocked-account statutory restriction applies subject to another law; no exception is presumed.",
+    "trigger": "A current transaction subject to Federation of BiH foreign-exchange law is settled with a non-resident by setoff, assignment, debt assumption or a similar method",
+    "deadline": "Complete the written agreement and current implementation check before settlement; do not use netting to bypass a blocked-account rule.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Federation-law applicability and resident/non-resident facts",
+      "Underlying invoices/contracts and creditor/debtor matrix",
+      "Written agreement with mandatory identity/basis/currency/amount data",
+      "Account-block status, current implementation and settlement ledger"
+    ],
+    "sourceIds": [
+      "b3-o4-ba-base",
+      "b3-o4-ba-enacted",
+      "b3-o4-ba-reform"
+    ],
+    "status": "conditional",
+    "legalStatus": "limited named statutory or agency process; no overall expansion permission",
+    "verifiedAt": "2026-11-13T01:13:11.201016+00:00",
+    "nextReview": "2026-11-20",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Federation law only; Republika Srpska and Brčko procedures are not researched.",
+      "Government announced new implementation on 11 November 2026; actual gazetted text/commencement was not read. No operational permission is inferred from the announcement.",
+      "Current versus capital classification and obligations/tax/accounting rules remain separate."
+    ],
+    "dependentPaths": [
+      "/from/bosnia-and-herzegovina/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o4-ua-current-control",
+    "title": "Ukraine outward-funding permission remains unverified without current wartime primary text",
+    "topic": "corporate-tax",
+    "jurisdiction": "Ukraine",
+    "activity": "A Ukrainian business plans an outward equity contribution, loan, branch funding or another U.S.-related transfer",
+    "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
+    "applicability": "A Ukrainian business plans an outward equity contribution, loan, branch funding or another U.S.-related transfer",
+    "requirement": "No current permission, monetary cap or exception is established in this research pass. Obtain the actual consolidated Resolution 18, current effective amendments and the exact transaction branch before building the bank instruction.",
+    "exceptions": "Unresolved; no exemption or permission assumed.",
+    "trigger": "A Ukrainian business plans an outward equity contribution, loan, branch funding or another U.S.-related transfer",
+    "deadline": "Research and verify the actual current legal branch before committing to a funding date.",
+    "fee": null,
+    "renewal": "Recheck after a transaction, legal, form or agency-instruction change; retain the actual event/period evidence.",
+    "dependencies": [],
+    "evidence": [
+      "Current full official resolution and amendment/commencement history",
+      "Exact proposed transfer category, payer/payee and bank",
+      "Evidence for each condition of a named current exception",
+      "Written bank implementation checklist and version date"
+    ],
+    "sourceIds": [
+      "b3-o4-ua-law"
+    ],
+    "status": "unresolved",
+    "legalStatus": "unresolved current primary authority",
+    "verifiedAt": null,
+    "nextReview": "2026-11-20",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Current Rada text and NBU guidance were inaccessible in full through ordinary retrieval.",
+      "Search results and older/secondary summaries do not establish current permission or a no-requirement conclusion."
+    ],
+    "dependentPaths": [
+      "/from/ukraine/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

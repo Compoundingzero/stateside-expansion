@@ -1,0 +1,433 @@
+{
+  "reviewDate": "2026-11-12",
+  "reviewTimezone": "America/Los_Angeles",
+  "timestampTimezone": "UTC",
+  "retrievals": [
+    {
+      "key": "nlrb-court",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-txed-6_23-cv-00553/pdf/USCOURTS-txed-6_23-cv-00553-0.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-txed-6_23-cv-00553/pdf/USCOURTS-txed-6_23-cv-00553-0.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:11:22.865508+00:00",
+      "sha256": "8ec3b6c72d1417b6a20989a1910c872d6b6522aeda7ecb40025fdaa0bbd72e1b",
+      "bytes": 388339,
+      "textLength": 81763
+    },
+    {
+      "key": "cpsc-def",
+      "url": "https://uscode.house.gov/us/usc/119-124/t15/s2052/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t15/s2052/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:11:22.866381+00:00",
+      "sha256": "008641979b84a44904a6c70ca8c05e6f461876a7a85835473ad08f095467ca90",
+      "bytes": 28735,
+      "textLength": 16994
+    },
+    {
+      "key": "cpsc-section15",
+      "url": "https://uscode.house.gov/us/usc/119-124/t15/s2064/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t15/s2064/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:11:22.867128+00:00",
+      "sha256": "9ef0a6d1a2ce5ccbe1146e86912c07b3aabe6ee023d8a8e86316af06286e8141",
+      "bytes": 39947,
+      "textLength": 26553
+    },
+    {
+      "key": "epa-import-existing",
+      "url": "https://www.epa.gov/compliance/importing-and-exporting-pesticides-and-devices",
+      "resolvedUrl": "https://www.epa.gov/compliance/importing-and-exporting-pesticides-and-devices",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:13:24.567283+00:00",
+      "sha256": "caa53825f6a111f05aafd80e491c1c489498a73cfb717d06eb8c39ee1f95086a",
+      "bytes": 70577,
+      "textLength": 11119
+    },
+    {
+      "key": "cpsc-fr-correct",
+      "url": "https://www.federalregister.gov/documents/2025/01/08/2024-31663/certificates-of-compliance",
+      "resolvedUrl": "https://www.federalregister.gov/documents/2025/01/06/2024-31663/proposed-collection-comment-request",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:13:24.568672+00:00",
+      "sha256": "2a80337a2755bd3c2a826a6b72144d40509f158815a6929d4d274c429279fc0f",
+      "bytes": 72257,
+      "textLength": 15574,
+      "substantiveStatus": "not-used: error page or redirect to unrelated document; HTTP200 is not verification"
+    },
+    {
+      "key": "texas-tax-full",
+      "url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.151.htm",
+      "resolvedUrl": "https://tcss.legis.texas.gov/resources/TX/htm/TX.151.htm",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:07:46.671813+00:00",
+      "sha256": "0c78e7560e88c502c1e24a0fa4258d2c897b5be9e08b14ebee881e6452ff08b1",
+      "bytes": 650444,
+      "textLength": 430084
+    },
+    {
+      "key": "contractor-nprm",
+      "url": "https://www.federalregister.gov/documents/2026/02/27/2026-03962/employee-or-independent-contractor-status-under-the-fair-labor-standards-act-family-and-medical",
+      "resolvedUrl": "https://www.federalregister.gov/documents/2026/02/27/2026-03962/employee-or-independent-contractor-status-under-the-fair-labor-standards-act-family-and-medical",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:07:46.673125+00:00",
+      "sha256": "80151e801a2859340146fe287678af8c77b7ba09594292dbed9ebeef9e275600",
+      "bytes": 667111,
+      "textLength": 350378
+    },
+    {
+      "key": "joint-nprm",
+      "url": "https://www.federalregister.gov/documents/2026/04/23/2026-07959/joint-employer-status-under-the-fair-labor-standards-act-family-and-medical-leave-act-and-migrant",
+      "resolvedUrl": "https://www.federalregister.gov/documents/2026/04/23/2026-07959/joint-employer-status-under-the-fair-labor-standards-act-family-and-medical-leave-act-and-migrant",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:07:46.673969+00:00",
+      "sha256": "4f25595b3c9f3ad903df6d25f35f39511c4141d28f734c685adf0307f114db32",
+      "bytes": 698731,
+      "textLength": 326855
+    },
+    {
+      "key": "nlrb-fr-api",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=national-labor-relations-board&conditions%5Bterm%5D=joint%20employer&per_page=20&order=newest",
+      "resolvedUrl": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=national-labor-relations-board&conditions%5Bterm%5D=joint%20employer&per_page=20&order=newest",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:07:46.674976+00:00",
+      "sha256": "2eb61b76b634ff12789c6fe93abb330759deab2da8601eedb98f2b22e8fea5c3",
+      "bytes": 49575,
+      "textLength": 45883
+    },
+    {
+      "key": "dsp-faq",
+      "url": "https://www.justice.gov/nsd/data-security/faq",
+      "attemptedAt": "2026-11-13T01:07:46.676556+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "irs-contractor",
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee",
+      "resolvedUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:12:53.486600+00:00",
+      "sha256": "10e8eda1ddb20a5a8b704e324b8a19166afe116f41b52bd535842cb97a3b5eb5",
+      "bytes": 121867,
+      "textLength": 13941
+    },
+    {
+      "key": "doj-faq-pdf",
+      "url": "https://justice.gov/nsd/media/1415006/dl",
+      "resolvedUrl": "https://www.justice.gov/nsd/media/1415006/dl",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:12:53.493611+00:00",
+      "sha256": "b45fa1671d25fd05f0b1ef857f295f806b6bed364789bebe99ffe1009f88aecc",
+      "bytes": 551506,
+      "textLength": 118298
+    },
+    {
+      "key": "cpsc-old-rule",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/pdf/2024-31663.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/error",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:12:53.494998+00:00",
+      "sha256": "ab214ce9f7a706cc4ee93703502f950222090c2547e47fafd75a299545919743",
+      "bytes": 44172,
+      "textLength": 1501,
+      "substantiveStatus": "not-used: error page or redirect to unrelated document; HTTP200 is not verification"
+    },
+    {
+      "key": "dol-opinion2025-5",
+      "url": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA-2025-05.pdf",
+      "resolvedUrl": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA-2025-05.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:13:59.147711+00:00",
+      "sha256": "aa18afd8e6e95850719ab02ee3bb03c300b8eb043485ca080a3f3467e43eee56",
+      "bytes": 242799,
+      "textLength": 9326
+    },
+    {
+      "key": "cpsc-final-rule",
+      "url": "https://www.federalregister.gov/documents/2025/01/08/2024-30826/certificates-of-compliance",
+      "resolvedUrl": "https://www.federalregister.gov/documents/2025/01/08/2024-30826/certificates-of-compliance",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:13:59.148792+00:00",
+      "sha256": "41b9af88091a14f0288d3ad3854d29b58c17cf32a8cc84d1d8c07304c7961550",
+      "bytes": 624543,
+      "textLength": 326297
+    },
+    {
+      "key": "cpsc-final-pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/pdf/2024-30826.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/pdf/2024-30826.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:13:59.149807+00:00",
+      "sha256": "f902940cf755de89848303380afe8283ad7bcb50c290ab51b8c4d083ab4c4a34",
+      "bytes": 1378486,
+      "textLength": 676928
+    },
+    {
+      "key": "nlrb-withdrawal",
+      "url": "https://www.federalregister.gov/documents/2026/02/27/2026-03955/withdrawal-of-2023-standard-for-determining-joint-employer-status",
+      "resolvedUrl": "https://www.federalregister.gov/documents/2026/02/27/2026-03955/withdrawal-of-2023-standard-for-determining-joint-employer-status",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.020161+00:00",
+      "sha256": "a7eb19789a2e802e54d09c356a58f5fc93a8621c8f698e170e77a919166326b5",
+      "bytes": 80338,
+      "textLength": 20334
+    },
+    {
+      "key": "nlrb-withdrawal-pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/pdf/2026-03955.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/pdf/2026-03955.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.021939+00:00",
+      "sha256": "97ff9c9693a4cd2f36aefcbce7422c9b67b57c5b32a85d5583fdb43531fb39ca",
+      "bytes": 223958,
+      "textLength": 47283
+    },
+    {
+      "key": "contractor-nprm-pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/pdf/2026-03962.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/pdf/2026-03962.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.022673+00:00",
+      "sha256": "a439ff36f6f5941a941e9a6a65b2e9f25609454fe160687808303500d3cd1850",
+      "bytes": 515785,
+      "textLength": 686363
+    },
+    {
+      "key": "joint-nprm-pdf",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-04-23/pdf/2026-07959.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/content/pkg/FR-2026-04-23/pdf/2026-07959.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.023855+00:00",
+      "sha256": "94f03ea7158c14ffc7dc9db62b3c27400cf6550c5b9b1273c31f4eb0acf98669",
+      "bytes": 750224,
+      "textLength": 646167
+    },
+    {
+      "key": "cpsc-faq",
+      "url": "https://www.cpsc.gov/FAQ/eFiling-Frequently-Asked-Questions-FAQ",
+      "resolvedUrl": "https://www.cpsc.gov/FAQ/eFiling-Frequently-Asked-Questions-FAQ",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.025154+00:00",
+      "sha256": "0491b7d0fe0a0fd54258c3d1b9a050db7fba30fe5f1228bcbe9f4adba96e15c2",
+      "bytes": 85760,
+      "textLength": 21747
+    },
+    {
+      "key": "cpsc-importer",
+      "url": "https://www.cpsc.gov/efiling/importers",
+      "resolvedUrl": "https://www.cpsc.gov/efiling/importers",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.026559+00:00",
+      "sha256": "34c4a70049d6be6289b767f07e24a26721e2085494a3ac0970cc056120ea5052",
+      "bytes": 52642,
+      "textLength": 4249
+    },
+    {
+      "key": "cpsc-help",
+      "url": "https://www.cpsc.gov/efiling/help",
+      "resolvedUrl": "https://www.cpsc.gov/efiling/help",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.031593+00:00",
+      "sha256": "0abbd4d5604a77ad2e5469b7b15005911e1da56aff03f41499ea23750c81d976",
+      "bytes": 54426,
+      "textLength": 4098
+    },
+    {
+      "key": "doj-guide",
+      "url": "https://www.justice.gov/opa/media/1396356/dl",
+      "resolvedUrl": "https://www.justice.gov/opa/media/1396356/dl",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.033778+00:00",
+      "sha256": "3572ac1d8fc64c293e4df7d4bacb58b5524926316e52f0e0a0fe24341d42de24",
+      "bytes": 760366,
+      "textLength": 72051
+    },
+    {
+      "key": "doj-enforcement",
+      "url": "https://www.justice.gov/opa/media/1396346/dl?inline",
+      "resolvedUrl": "https://www.justice.gov/opa/media/1396346/dl?inline",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.293597+00:00",
+      "sha256": "8fe88aa4c38f7a644f7a56e61bebfd0a3adebe765b6768aab7e14b620c3aa11a",
+      "bytes": 566244,
+      "textLength": 9313
+    },
+    {
+      "key": "cisa-security",
+      "url": "https://www.cisa.gov/resources-tools/resources/EO-14117-security-requirements",
+      "attemptedAt": "2026-11-13T01:09:11.304761+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "colt-order",
+      "url": "https://www.govinfo.gov/content/pkg/USCOURTS-nmd-1_24-cv-00391/pdf/USCOURTS-nmd-1_24-cv-00391-0.pdf",
+      "resolvedUrl": "https://www.govinfo.gov/content/pkg/USCOURTS-nmd-1_24-cv-00391/pdf/USCOURTS-nmd-1_24-cv-00391-0.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:09:11.305082+00:00",
+      "sha256": "87681dcd4690bd5f65e113a0bac5e2ad9411e4ea67c184a3b62ff6dc814153ab",
+      "bytes": 370178,
+      "textLength": 82248
+    },
+    {
+      "key": "dol-independent-current",
+      "url": "https://www.dol.gov/agencies/whd/flsa/misclassification",
+      "resolvedUrl": "https://www.dol.gov/agencies/whd/flsa/misclassification",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.587210+00:00",
+      "sha256": "cc2994d6f4977e28b5a890b2ef8053a97b3813ff67b3bfb34194f3748a2b7bca",
+      "bytes": 72599,
+      "textLength": 4558
+    },
+    {
+      "key": "dol-fab2025",
+      "url": "https://www.dol.gov/sites/dolgov/files/WHD/fab/fab2025-1.pdf",
+      "resolvedUrl": "https://www.dol.gov/sites/dolgov/files/WHD/fab/fab2025-1.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.588711+00:00",
+      "sha256": "0dd24d58c251dc17bca3a78237ce19f99cbc7f257a8153d2e0a9a9b60934fff1",
+      "bytes": 556613,
+      "textLength": 6851
+    },
+    {
+      "key": "dol-rule795",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-795",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-795",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.589543+00:00",
+      "sha256": "f137c3695d11e9a8f3dd0f353d3a2922173bb56aabbaef13a1ee30459292301b",
+      "bytes": 93528,
+      "textLength": 17938
+    },
+    {
+      "key": "dol-joint791",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-791",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-791",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.590618+00:00",
+      "sha256": "48afdaada023c53f9ca3282093489b1c0968cf5062629d0b0757df6b19b4f1f5",
+      "bytes": 72099,
+      "textLength": 5703
+    },
+    {
+      "key": "nlrb-joint-rule",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-I/subchapter-A/part-103/subpart-D/section-103.40",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-I/part-103/subpart-E/section-103.40",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.591561+00:00",
+      "sha256": "12ee66437083fd6781cbf685ce7a08dbc19aa58ca0ad8ed8abe6af8b46d80952",
+      "bytes": 85581,
+      "textLength": 12307
+    },
+    {
+      "key": "nlrb-joint-info",
+      "url": "https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/joint-employer-standard",
+      "attemptedAt": "2026-11-13T01:06:39.595578+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "cpsc-import",
+      "url": "https://www.cpsc.gov/Business--Manufacturing/Import-Safety",
+      "attemptedAt": "2026-11-13T01:06:39.597579+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "key": "cpsc-efiling",
+      "url": "https://www.cpsc.gov/eFiling",
+      "resolvedUrl": "https://www.cpsc.gov/eFiling",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.605209+00:00",
+      "sha256": "4fb54e503e4fe7d009f152e5aea8d2a588a6e18c95d42711957425bb584dcb2c",
+      "bytes": 60394,
+      "textLength": 3476
+    },
+    {
+      "key": "cpsc-certificates",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1110",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1110",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.814031+00:00",
+      "sha256": "1bd427e54d2d5b2b1c94870dc0bf2521cf1f9b0fd79f41be89a8c121dc6cbd1e",
+      "bytes": 116852,
+      "textLength": 26164
+    },
+    {
+      "key": "cpsc-reporting",
+      "url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1115",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1115",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.875862+00:00",
+      "sha256": "55765a32e3a2ba97e714f674905ae8dec4381a92526c1143375e4d7d197a91ce",
+      "bytes": 236719,
+      "textLength": 88620
+    },
+    {
+      "key": "epa-intent",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-152/subpart-B/section-152.15",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-152/subpart-A/section-152.15",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.950429+00:00",
+      "sha256": "2752c5af1aed840f05ae36e2e08add2a38658a0b19ba916e790786f76dd7dda2",
+      "bytes": 77050,
+      "textLength": 7187
+    },
+    {
+      "key": "epa-cleaners",
+      "url": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-152/subpart-B/section-152.10",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-40/chapter-I/subchapter-E/part-152/subpart-A/section-152.10",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:39.990957+00:00",
+      "sha256": "ab47312a650c7f2bdde45cf749dbc0c8f75d35bdcb9657eec4642f3223ee39c6",
+      "bytes": 75648,
+      "textLength": 6656
+    },
+    {
+      "key": "epa-imports",
+      "url": "https://www.epa.gov/pesticides/international-activities-related-pesticides",
+      "resolvedUrl": "https://www.epa.gov/pesticides/international-activities-related-pesticides",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:40.189896+00:00",
+      "sha256": "a7cdf3fd7da46727b81a5643d3fe7365c1e5bf6094b49ff172cc89187e7931dd",
+      "bytes": 64951,
+      "textLength": 11208
+    },
+    {
+      "key": "doj-dsp",
+      "url": "https://www.justice.gov/nsd/data-security",
+      "resolvedUrl": "https://www.justice.gov/nsd/data-security",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:40.249538+00:00",
+      "sha256": "7afad176f5d5b9bbc0f64543627202ce9726033a45c45748277b4a2975ce7475",
+      "bytes": 101645,
+      "textLength": 8602
+    },
+    {
+      "key": "doj-rule202",
+      "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-202",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-28/chapter-I/part-202",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:40.347996+00:00",
+      "sha256": "3d42280fe259f1e15d79bc643b1adfbe1a8f700ff19f7f4871340c032a58cbad",
+      "bytes": 710634,
+      "textLength": 282345
+    },
+    {
+      "key": "texas-api",
+      "url": "https://tcss.legis.texas.gov/api/GetStatute/GetStatute/TX/TX.151/151.351/null/null/null/null/null/null/null/htm",
+      "resolvedUrl": "https://tcss.legis.texas.gov/api/GetStatute/GetStatute/TX/TX.151/151.351/null/null/null/null/null/null/null/htm",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:40.369667+00:00",
+      "sha256": "99a0eda2a30daae478829083e627e34c68ca4a84b410f9d6351707657ad9b100",
+      "bytes": 64,
+      "textLength": 64
+    },
+    {
+      "key": "fr-independent-api",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=independent%20contractor&conditions%5Bagencies%5D%5B%5D=wage-and-hour-division&per_page=20&order=newest",
+      "resolvedUrl": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=independent%20contractor&conditions%5Bagencies%5D%5B%5D=wage-and-hour-division&per_page=20&order=newest",
+      "status": 200,
+      "fetchedAt": "2026-11-13T01:06:40.472342+00:00",
+      "sha256": "310ce5d4bdcaec91bb12c6c91b7aea1cda775b4d8316ab15876c79041006a39e",
+      "bytes": 54159,
+      "textLength": 51398
+    }
+  ]
+}

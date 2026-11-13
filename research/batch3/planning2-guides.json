@@ -1,0 +1,282 @@
+[
+  {
+    "id": "b3-planning-worker-classification",
+    "path": "/us-expansion/worker-classification/",
+    "title": "Separate the contractor rule, enforcement policy and tax test",
+    "description": "Prepare actual worker facts without treating a label, a proposed rule or an agency enforcement choice as one universal test.",
+    "family": "federal",
+    "topic": "employment",
+    "jurisdictions": [
+      "U.S. federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-planning2-worker-status"
+    ],
+    "sections": [
+      {
+        "heading": "Use a status table before a factor checklist",
+        "paragraphs": [
+          "As reviewed on November 12, 2026, the current eCFR Part 795 still displays the 2024 economic-reality interpretation. It uses the whole activity and six nonexclusive factors; no single factor or subset is necessarily dispositive. The May 1, 2025 WHD bulletin tells investigators not to apply that analysis in its stated scope and expressly says it does not change employees’ rights or employers’ responsibilities. Those are different source types."
+        ],
+        "table": {
+          "headers": [
+            "Source",
+            "What it is",
+            "Do not infer"
+          ],
+          "rows": [
+            [
+              "Current 29 CFR Part 795",
+              "Codified agency interpretation; whole-activity analysis",
+              "That agency policy replaces governing court law"
+            ],
+            [
+              "WHD FAB 2025-1",
+              "Investigation policy using 2008 Fact Sheet 13, subject to scope/discretion",
+              "A repeal, private-right waiver or closed-case reopening"
+            ],
+            [
+              "February 27, 2026 NPRM",
+              "Proposed rescission/replacement and proposed expansion to FMLA/MSPA",
+              "An effective replacement simply because comments closed"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Collect facts that survive a change of framework",
+        "paragraphs": [
+          "Record who sets prices/schedules, accepts jobs, hires helpers, buys entrepreneurial assets, markets to others and bears a genuine opportunity for profit or loss. Record actual practice as well as reserved rights. Under the codified interpretation, specialised skill alone does not establish an independent business, and a licence, contract label or remote work location does not settle the status. Do not turn the factors into a point score."
+        ]
+      },
+      {
+        "heading": "Keep federal employment tax and state tests separate",
+        "paragraphs": [
+          "IRS guidance groups common-law evidence into behavioural control, financial control and the type of relationship. It requires the whole relationship, not a magic number of factors; the right to control can matter for remote workers. A payroll-tax determination or relief provision is not a universal FLSA or state unemployment answer. Give each actual jurisdiction/test its own source and unresolved task."
+        ]
+      },
+      {
+        "heading": "What the actual litigation record establishes",
+        "paragraphs": [
+          "In its January 9, 2025 Colt & Joe Trucking opinion/order, the New Mexico district court found that the challenger lacked standing and explained that its arguments would otherwise fail or were waived. That is a procedural outcome in a rule challenge, not a classification of every driver or service technician. The February 2026 NPRM reports appeals/stays in this and other challenges as of that publication; this guide does not claim an independently checked current appellate docket or an unqualified nationwide merits outcome."
+        ]
+      },
+      {
+        "heading": "Output",
+        "paragraphs": [
+          "Prepare one worker-facts dossier and a separate test/status register with source, date, actor, missing evidence and responsible person. Keep the proposed 2026 analysis labelled proposed and obtain the governing current court/state answer for the actual arrangement before relying on contractor treatment."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-planning2-dol-rule795",
+      "b3-planning2-dol-fab2025",
+      "b3-planning2-contractor-nprm",
+      "b3-planning2-irs-contractor",
+      "b3-planning2-colt-order"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A worker-facts dossier and dated rule/policy/proposal/court/tax test register.",
+    "limitations": [
+      "No individual worker, state-law, exemption or tax-relief conclusion.",
+      "Latest appellate docket/status is not independently verified; the 2026 NPRM’s case account is dated historical agency reporting.",
+      "FAB and NPRM cite different associated opinion numbers; this guide does not reconcile or apply those opinions."
+    ]
+  },
+  {
+    "id": "b3-planning-joint-employer",
+    "path": "/us-expansion/joint-employer/",
+    "title": "A brand control clause does not answer every joint-employer test",
+    "description": "Separate the current NLRA text from FLSA duties, proposed changes and actual employment conduct.",
+    "family": "federal",
+    "topic": "employment",
+    "jurisdictions": [
+      "U.S. federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-planning2-joint-status"
+    ],
+    "sections": [
+      {
+        "heading": "The current NLRA rule was actually restored",
+        "paragraphs": [
+          "The NLRB’s February 27, 2026 final action says the 2023 rule never took effect after district-court vacatur and restores the 2020 text immediately. Current§ 103.40 matches that action: substantial direct and immediate control over one or more listed essential employment terms is central; indirect or unexercised reserved authority has the rule’s qualified supplementary role. This is the NLRA inquiry, not a rule for every employment statute."
+        ]
+      },
+      {
+        "heading": "Read the documented court step accurately",
+        "paragraphs": [
+          "The Chamber of Commerce v.NLRB opinion/order was ordered March 8, 2024 and filed as Document 47 on March 18. Its remedy discussion states that a final judgment will vacate the 2023 replacement and its removal of the earlier text. The 2026 final rule independently confirms the resulting current regulatory action. This guide does not treat the district opinion as a complete current docket search or a ruling that a brand can never be an employer."
+        ]
+      },
+      {
+        "heading": "FLSA liability did not disappear with a reserved CFR part",
+        "paragraphs": [
+          "Current FLSA Part 791 is reserved. DOL’s April 23, 2026 joint-employer publication is a proposed rule; its proposed factors and franchise examples must not be applied as an effective safe harbour. The source’s background distinguishes the 2020 FLSA rule, its rescission and litigation history from the NLRA framework. Actual governing FLSA court law and the employment facts still matter."
+        ]
+      },
+      {
+        "heading": "A real agency example: two businesses sharing a worker",
+        "paragraphs": [
+          "DOL Opinion Letter FLSA2025-05 concerns a restaurant and members club with represented shared operations, managers and workers. On those stated facts, DOL concluded the worker’s hours had to be combined and both employers were responsible for FLSA compliance. The letter expressly limits itself to the supplied facts. Separate incorporation or payroll systems alone did not answer that actual agency inquiry; the letter is not a judgment about all network operators."
+        ]
+      },
+      {
+        "heading": "Output: a control and hours map",
+        "paragraphs": [
+          "For each entity, record who actually selects workers, sets pay and individual schedules, supervises how work is done, disciplines and terminates. Keep ordinary brand/service standards and employment decisions in separate columns, including any mixed-purpose control. Add shared-worker hours and management evidence. Ask the NLRA, FLSA and relevant state questions separately; the franchise-definition analysis is another workstream."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-planning2-nlrb-joint-rule",
+      "b3-planning2-nlrb-withdrawal",
+      "b3-planning2-nlrb-court",
+      "b3-planning2-dol-joint791",
+      "b3-planning2-joint-nprm",
+      "b3-planning2-dol-opinion2025-5",
+      "fed-definition"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An entity/worker control-and-hours map with separate NLRA, FLSA and state questions.",
+    "limitations": [
+      "No joint-employer finding, full circuit survey, bargaining-unit analysis or state-law clearance.",
+      "The 2026 FLSA proposal is not an effective franchise exemption or a substitute for current governing law."
+    ]
+  },
+  {
+    "id": "b3-planning-product-safety",
+    "path": "/us-expansion/product-safety/",
+    "title": "Assign the consumer-product certificate and safety-reporting jobs",
+    "description": "Check the actual product, responsible importer and 2026 eFiling phase before shipping branded equipment or stock.",
+    "family": "federal",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "U.S. federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-planning2-product-scope"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the product and intended use",
+        "paragraphs": [
+          "The consumer-product definition and exclusions require an actual scope check. A B2B invoice, brand licence or equipment label does not decide the question. Identify the article, ordinary users, intended use, materials and other applicable agencies. This guide addresses the CPSC certificate/reporting pathway; it does not establish an electrical, machinery, food, pesticide or workplace standard for an unidentified product."
+        ]
+      },
+      {
+        "heading": "Certification and filing are assigned jobs",
+        "paragraphs": [
+          "For covered imported finished products, Part 1110 defines the importer/certifier role, required certificate data and eFiling process. It allows specified broker/owner/purchaser/consignee allocations, but the identified certifier remains legally responsible for validity, accuracy, completeness and availability. Identify the applicable rules and actual testing basis; buying a certificate template is not compliance. The part also has five-year supporting-record requirements and conditions for access/furnishing."
+        ]
+      },
+      {
+        "heading": "Use the actual effective phase and policy distinction",
+        "paragraphs": [
+          "The final rule makes its requirements effective July 8, 2026 for most covered products; specified FTZ entries have a January 8, 2027 phase. As of this review, the latter date is future. CPSC’s FAQ describes an initial policy of not seeking entry denial solely for missing eFiling data while continuing certificate enforcement. That enforcement description is not an exemption, a guaranteed entry outcome or permission to ignore applicable safety rules."
+        ]
+      },
+      {
+        "heading": "Keep a separate incident/reporting route",
+        "paragraphs": [
+          "Under 15 USC § 2064(b), reasonably supported noncompliance, a potentially substantial product hazard or unreasonable serious-injury/death risk can trigger immediate reporting by the covered firms. Section 1115.14 interprets immediate as 24 hours, with its weekend/holiday computation, and warns against waiting for complete risk estimates. A reasonable investigation is not automatic permission to delay once reportable information is known. Name who receives complaints, preserves evidence and escalates promptly; a supplier’s promise to handle it does not answer every entity’s duty."
+        ]
+      },
+      {
+        "heading": "Output",
+        "paragraphs": [
+          "Build a product/jurisdiction/standard/certifier matrix and a linked complaint-to-reporting workflow before distribution. Leave unverified standards, test exclusions, fees and authorisations unresolved. Obtain the actual product-specific evidence before dispatch and repeat the check when product, supplier, use or rule changes."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-planning2-cpsc-def",
+      "b3-planning2-cpsc-certificates",
+      "b3-planning2-cpsc-final-rule",
+      "b3-planning2-cpsc-faq",
+      "b3-planning2-cpsc-section15",
+      "b3-planning2-cpsc-reporting"
+    ],
+    "nextStage": 6,
+    "practicalOutput": "A product-scope and certificate-responsibility matrix plus a complaint/reporting escalation workflow.",
+    "limitations": [
+      "No particular product jurisdiction, standard/test result, approval, recall decision or shipment clearance.",
+      "CPSC import overview returned 403; current certification rule/final action/FAQ and actual statutes were readable and used instead.",
+      "eFiling enforcement language is time-sensitive and does not waive the underlying certificate or safety requirements."
+    ]
+  },
+  {
+    "id": "b3-planning-cross-border-data",
+    "path": "/us-expansion/cross-border-data/",
+    "title": "Test the federal data-security gate before overseas access",
+    "description": "Map actual data, volumes, people and agreements; an overseas support login can matter even without a file download.",
+    "family": "federal",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "U.S. federal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-planning2-data-gate"
+    ],
+    "sections": [
+      {
+        "heading": "Map access, not only transmission",
+        "paragraphs": [
+          "Part 202 defines access broadly enough to include reading, viewing, editing or otherwise receiving data through systems and cloud platforms. The first screen is the actual U.S. person, foreign/covered person, data, volume and agreement. A remote support account may matter even if the database stays in the United States. Conversely, a foreign address alone does not establish a prohibited transaction."
+        ]
+      },
+      {
+        "heading": "Use the real data and party thresholds",
+        "paragraphs": [
+          "The rule separates government-related data, which has specified regardless-of-volume criteria, from bulk U.S. sensitive personal data. Bulk aggregation uses the preceding 12 months and the specified same-party conditions, not a per-invoice reset. Exact category thresholds say more than 100 U.S. persons for human genomic data, more than 1,000 for other human-omic/biometric data, more than 1,000 U.S. devices for precise geolocation, more than 10,000 persons for health/financial data, and more than 100,000 persons for covered identifiers. Mixed datasets have their own rule. These counts alone are not a safe harbour for government-related data or other laws."
+        ]
+      },
+      {
+        "heading": "Do not substitute citizenship or an OFAC result",
+        "paragraphs": [
+          "Part 202’s countries-of-concern and covered-person definitions include their own ownership, organisation, employment, primary-residence and designation rules. The current list names China, Cuba, Iran, North Korea, Russia and Venezuela; China has its stated Hong Kong/Macau definition. Citizenship alone is not the complete test. An OFAC name result is not the same determination, and an unlisted entity can still meet a defined category."
+        ]
+      },
+      {
+        "heading": "Separate prohibition, restriction and exemption",
+        "paragraphs": [
+          "Data brokerage and specified human-omic transactions have prohibitions; relevant vendor, employment and investment transactions may be restricted subject to the actual security and other conditions. Corporate-group administrative/ancillary operations have a bounded exemption; an ordinary independent franchise/license partner is not assumed to be a qualifying subsidiary or affiliate. Restricted transactions require the current diligence program and annual audit conditions. Do not replace the prescribed security requirements with controls the business merely believes are equivalent."
+        ]
+      },
+      {
+        "heading": "Current dates and output",
+        "paragraphs": [
+          "The program took effect April 8, 2025. The operative diligence/audit provisions refer to October 6, 2025; DOJ’s old good-faith enforcement-priority policy ran only through July 8, 2025 and is not continuing grace. Build a data/actor/access/agreement matrix, identify any supported exemption and assign unresolved technical controls and reporting. Keep customer/employee data in authorised systems outside this site."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-planning2-doj-rule202",
+      "b3-planning2-doj-dsp",
+      "b3-planning2-doj-enforcement"
+    ],
+    "nextStage": 6,
+    "practicalOutput": "A federal DSP data/actor/access/agreement screen with explicit volumes, exemptions and unresolved controls.",
+    "limitations": [
+      "No transaction authorisation, exemption finding, security attestation or complete privacy-law clearance.",
+      "CISA resource returned 403; detailed technical security requirements and their implementation remain unresolved.",
+      "DOJ overview says October 5 for a later phase; operative §§ 202.1001–1002 and its implementation policy say October 6. The guide follows those actual operative provisions."
+    ]
+  }
+]

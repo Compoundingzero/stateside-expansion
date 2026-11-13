@@ -1,7 +1,8 @@
 name: Editorial source review
 on:
   schedule:
-    - cron: '37 7 * * *'
+    # 02:37 CET / 03:37 CEST: within RIS OGD's advertised overnight window.
+    - cron: '37 1 * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -27,7 +28,7 @@ jobs:
           restore-keys: |
             source-review-
       - name: Check cited public sources
-        run: node scripts/check-sources.mjs
+        run: node scripts/check-sources.mjs --fail-on-fetch-error --fail-on-review-items
       - name: Publish readable review summary
         if: always()
         run: cat artifacts/editorial-review-report.md >> "$GITHUB_STEP_SUMMARY"

@@ -9,6 +9,13 @@ const unique=(arr,label,key='id')=>{const seen=new Set();for(const r of arr){if(
 unique(guides,'guide');unique(guides,'guide path','path');unique(sources,'source');unique(rules,'rule');
 const smap=new Map(sources.map(s=>[s.id,s])),rmap=new Map(rules.map(r=>[r.id,r]));const published=guides.filter(g=>g.status==='published');
 const iso=v=>typeof v==='string'&&/^\d{4}-\d{2}-\d{2}(?:T.*)?$/.test(v)&&!Number.isNaN(Date.parse(v));
+const caseConnections=datasets['case-connections.json']??[];unique(caseConnections,'case connection');
+for(const link of caseConnections){
+ if(!published.some(g=>g.id===link.caseGuideId&&g.family==='case'&&g.scenarioType==='real'))errors.push(link.id+': must link a published documented case');
+ for(const id of link.ruleIds??[])if(!rmap.has(id))errors.push(link.id+': unknown linked rule '+id);
+ for(const id of link.guideIds??[])if(!published.some(g=>g.id===id))errors.push(link.id+': unknown linked guide '+id);
+ if(!link.explanation)errors.push(link.id+': case connection needs a scoped explanation');
+}
 for(const g of guides){
  const name=g.id??'unnamed guide';
  if(!/^\/[a-z0-9/-]+\/$/.test(g.path??''))errors.push(name+': canonical path must be lowercase leading/trailing slash');

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "local-los-angeles",
+    "name": "Los Angeles",
+    "slug": "los-angeles",
+    "state": "California",
+    "municipality": "Los Angeles",
+    "county": "Los Angeles County",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-los-angeles",
+      "b3-local2-la-plan",
+      "b3-local2-la-permit",
+      "b3-local2-la-takeover",
+      "b3-local2-la-boundary"
+    ],
+    "processes": [
+      {
+        "title": "Business Tax Registration Certificate",
+        "trigger": "Starting business activity in the City of Los Angeles; confirm exemptions and nexus with the Office of Finance.",
+        "authority": "Los Angeles Office of Finance",
+        "summary": "Registration process asks for entity identification, activity, address and contact details. The city describes separate police, fire and tobacco permits that may apply. A tax registration record does not settle use permission.",
+        "url": "https://finance.lacity.gov/business-registration-process",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-los-angeles"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      },
+      {
+        "title": "Restaurant ownership/change and food plan review",
+        "trigger": "Buying a restaurant, new food space, or changing the covered menu/equipment/operation",
+        "authority": "Los Angeles County Public Health / actual City of Los Angeles planning and building authority",
+        "summary": "The county health permit is nontransferable. Purchase instructions distinguish the district-office route from new/major-modification plan review; the actual change/menu/equipment and city premises approvals remain separate.",
+        "url": "https://admin.publichealth.lacounty.gov/eh/inspection/retail-plan-check.htm",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local2-la-plan",
+          "b3-local2-la-permit",
+          "b3-local2-la-takeover",
+          "b3-local2-la-boundary"
+        ]
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "County food-service jurisdiction is not every Los Angeles-area city: Pasadena, Long Beach and Vernon use separate routes.",
+      "Actual restaurant address, alcohol, grease/fire/accessibility, current fees/forms and operating approvals remain unresolved."
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  },
+  {
+    "id": "local-houston",
+    "name": "Houston",
+    "slug": "houston",
+    "state": "Texas",
+    "municipality": "Houston",
+    "county": "Harris, Fort Bend and Montgomery counties; parcel-specific county needed",
+    "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
+    "commercialRegion": "Texas (commercial comparison label, not a lawmaking jurisdiction)",
+    "sourceIds": [
+      "geo-local-houston",
+      "b3-local2-houston-faq",
+      "b3-local2-houston-survey"
+    ],
+    "processes": [
+      {
+        "title": "Activity-specific commercial permitting",
+        "trigger": "Proposing an activity listed by Houston Regulatory Permitting; identify the exact permit and application route.",
+        "authority": "Houston Administration & Regulatory Affairs",
+        "summary": "Houston lists specific licensing categories and application routes through its Permitting Center, including online account activation for first access. The cited page is a category gateway, not a general operating clearance.",
+        "url": "https://www.houstontx.gov/ara/business-licensing.html",
+        "status": "verified",
+        "sourceIds": [
+          "geo-local-houston"
+        ],
+        "affectedParty": "The entity carrying out the local activity; franchisor obligations are a separate analysis.",
+        "responsibleRole": "Local operating lead, with finance and premises advisers as needed.",
+        "evidence": [
+          "Dated copy of applicable official instructions",
+          "Application/permit record where applicable",
+          "Written confirmation of unresolved address or activity classification"
+        ],
+        "deadline": "Event-specific; verify against the official process before commitment.",
+        "fee": null
+      },
+      {
+        "title": "Laundry industrial-wastewater classification and surveys",
+        "trigger": "Proposed laundry discharge to the city sewer or receipt of an IWS survey",
+        "authority": "City of Houston Public Works Industrial Wastewater Service",
+        "summary": "The FAQ distinguishes self-service/commercial (not industrial) laundry while retaining an IWS determination for industrial-waste discharge. Proposed non-domestic discharge follows IWS contact/survey review; a received survey has a separate mandatory response. Neither survey is an issued permit.",
+        "url": "https://houstonpublicworks.org/industrial-and-pretreatment-faqs",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local2-houston-faq",
+          "b3-local2-houston-survey"
+        ]
+      }
+    ],
+    "unresolved": [
+      "Exact street address, incorporated/unincorporated status and county allocation",
+      "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
+      "Sector and professional licenses; local/state employment and tax obligations",
+      "Special districts, environmental conditions and customer-site obligations",
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Actual receiving sewer jurisdiction, laundry process/flow/chemicals and IWS classification are not determined.",
+      "Actual discharge limits/control, treatment, state/federal categories, fire/boiler/occupancy and costs remain unresolved."
+    ],
+    "status": "conditional",
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    }
+  }
+]

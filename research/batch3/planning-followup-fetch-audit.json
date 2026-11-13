@@ -1,0 +1,287 @@
+{
+  "reviewDate": "2026-11-12",
+  "reviewTimezone": "America/Los_Angeles",
+  "timestampTimezone": "UTC",
+  "retrievals": [
+    {
+      "key": "uk-treasury",
+      "url": "https://home.treasury.gov/system/files/131/Treaty-UK-7-24-2001.pdf",
+      "resolvedUrl": "https://home.treasury.gov/system/files/131/Treaty-UK-7-24-2001.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:55:05.389620+00:00",
+      "sha256": "08788d92f1ad8e900850d14e8dcbdd8597f00b205fbba6a65d3fba999c82300a",
+      "bytes": 280707,
+      "textLength": 110564
+    },
+    {
+      "key": "uk-protocol",
+      "url": "https://home.treasury.gov/system/files/131/Treaty-UK-Protocol-7-19-2002.pdf",
+      "resolvedUrl": "https://home.treasury.gov/system/files/131/Treaty-UK-Protocol-7-19-2002.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:55:05.390773+00:00",
+      "sha256": "468177e0b849de4c17ed1804cd690db527e3f1ff77cce3cc26be4da361fdbe49",
+      "bytes": 35542,
+      "textLength": 11240
+    },
+    {
+      "key": "texas-tax-pdf",
+      "url": "https://statutes.capitol.texas.gov/Docs/TX/pdf/TX.151.pdf",
+      "resolvedUrl": "https://statutes.capitol.texas.gov/Docs/TX/pdf/TX.151.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:55:05.391448+00:00",
+      "sha256": "dbfba8a96dc3cd584157ca66aaafdf67e0ed15dd5a0c8a58f3d4bd0f109fc646",
+      "bytes": 250874,
+      "textLength": 1354
+    },
+    {
+      "key": "l1-cfr",
+      "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/section-214.2",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-214/subpart-A/section-214.2",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.244172+00:00",
+      "sha256": "e42c7beae32e5f9d8c88eecac5ac2cd2169ad8e1540fa03a9011fb00aa35d96c",
+      "bytes": 1360076,
+      "textLength": 725460
+    },
+    {
+      "key": "related-marks",
+      "url": "https://uscode.house.gov/us/usc/119-124/t15/s1055/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t15/s1055/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.246032+00:00",
+      "sha256": "14e5c8969489cbea353f740ae355f9d6375640b5e48103b04a351c9859ca092f",
+      "bytes": 9259,
+      "textLength": 2843
+    },
+    {
+      "key": "mark-definitions",
+      "url": "https://uscode.house.gov/us/usc/119-124/t15/s1127/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t15/s1127/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.246880+00:00",
+      "sha256": "b9866ca18fee28ac633123f7c61247bcb5f96ca7e5dce9854a9307dc644be015",
+      "bytes": 32938,
+      "textLength": 22231
+    },
+    {
+      "key": "pl86272",
+      "url": "https://uscode.house.gov/us/usc/119-124/t15/s381/",
+      "resolvedUrl": "https://uscode.house.gov/us/usc/119-124/t15/s381/",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.247705+00:00",
+      "sha256": "25eb3bb46118d2678c46f45751d9a3e1bb6e594a60f7d7562e36525218a74737",
+      "bytes": 11190,
+      "textLength": 4734
+    },
+    {
+      "key": "wayfair",
+      "url": "https://www.supremecourt.gov/opinions/17pdf/17-494_j4el.pdf",
+      "attemptedAt": "2026-11-13T00:52:28.248330+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "leegin",
+      "url": "https://www.supremecourt.gov/opinions/06pdf/06-480.pdf",
+      "attemptedAt": "2026-11-13T00:52:28.248844+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "pricing-ftc",
+      "url": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-supply-chain/manufacturer-imposed-requirements",
+      "resolvedUrl": "https://www.ftc.gov/advice-guidance/competition-guidance/guide-antitrust-laws/dealings-supply-chain/manufacturer-imposed-requirements",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.250117+00:00",
+      "sha256": "1ffc148a57491687f930c88e25714ffc2c4bec5ecfc2b7ee160a68af38994ab9",
+      "bytes": 997234,
+      "textLength": 17156
+    },
+    {
+      "key": "ofac401",
+      "url": "https://ofac.treasury.gov/faqs/401",
+      "resolvedUrl": "https://ofac.treasury.gov/faqs/401",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.251339+00:00",
+      "sha256": "e819864728a4dc724e1302e7267c0be7e3bb891241e0a4f6693a3665c8d6c394",
+      "bytes": 39318,
+      "textLength": 6264
+    },
+    {
+      "key": "ofac402",
+      "url": "https://ofac.treasury.gov/faqs/402",
+      "resolvedUrl": "https://ofac.treasury.gov/faqs/402",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.441469+00:00",
+      "sha256": "f2db8ecbc2217e2411b4abbff33d9c4a7082603cb59a1614d31eb431d4c1e632",
+      "bytes": 39966,
+      "textLength": 6811
+    },
+    {
+      "key": "csl",
+      "url": "https://www.trade.gov/consolidated-screening-list",
+      "resolvedUrl": "https://www.trade.gov/consolidated-screening-list",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.519030+00:00",
+      "sha256": "c306c64fe0437d892ba6dcbc77ef083a6e64b79907cfd7fba4152863f8ee2995",
+      "bytes": 265543,
+      "textLength": 21162
+    },
+    {
+      "key": "texas-data",
+      "url": "https://comptroller.texas.gov/taxes/publications/94-127.php",
+      "resolvedUrl": "https://comptroller.texas.gov/taxes/publications/94-127.php",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.593032+00:00",
+      "sha256": "5a0a10f164c186b44a3c6bbfe4c285517ae27723c59b889929fcc8e5d6c2b22d",
+      "bytes": 84315,
+      "textLength": 12401
+    },
+    {
+      "key": "wa-services",
+      "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.050",
+      "resolvedUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=82.04.050",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.616153+00:00",
+      "sha256": "9bd815509915b055f0bf020bae1a3ba3e6aa0dd1d66eed4e1d9e45daa80c656b",
+      "bytes": 310062,
+      "textLength": 136430
+    },
+    {
+      "key": "irs-treaty-benefits",
+      "url": "https://www.irs.gov/individuals/international-taxpayers/claiming-tax-treaty-benefits",
+      "resolvedUrl": "https://www.irs.gov/individuals/international-taxpayers/claiming-tax-treaty-benefits",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.728583+00:00",
+      "sha256": "a7ff601dc1e625a19e28a2c051ab5952430665d77ad1ce4e740ee093fa625f52",
+      "bytes": 111347,
+      "textLength": 14343
+    },
+    {
+      "key": "irs-residency",
+      "url": "https://www.irs.gov/individuals/international-taxpayers/determining-an-individuals-tax-residency-status",
+      "resolvedUrl": "https://www.irs.gov/individuals/international-taxpayers/determining-an-individuals-tax-residency-status",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.765952+00:00",
+      "sha256": "285a923164ce903fad7a5a9c6d1bdecd71c94574501894404f08452fdf13e838",
+      "bytes": 107528,
+      "textLength": 6701
+    },
+    {
+      "key": "uk-treaty",
+      "url": "https://www.irs.gov/pub/irs-trty/uktax.pdf",
+      "attemptedAt": "2026-11-13T00:52:28.866472+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "classification-dol",
+      "url": "https://www.dol.gov/agencies/whd/flsa/misclassification",
+      "resolvedUrl": "https://www.dol.gov/agencies/whd/flsa/misclassification",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:52:28.903395+00:00",
+      "sha256": "a8fe334a908ff39709d05e3f6c22596949ead97e029a900644ee0946fc841ae7",
+      "bytes": 72599,
+      "textLength": 4558
+    },
+    {
+      "key": "uk-documents",
+      "url": "https://www.irs.gov/businesses/international-businesses/united-kingdom-uk-tax-treaty-documents",
+      "resolvedUrl": "https://www.irs.gov/businesses/international-businesses/united-kingdom-uk-tax-treaty-documents",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:53:26.076635+00:00",
+      "sha256": "a7c8a47c266e94c6caa0f4e70d9a499cb7f05879641b2979b2aecbcce5ef60a1",
+      "bytes": 102002,
+      "textLength": 5902
+    },
+    {
+      "key": "uk-convention",
+      "url": "https://www.irs.gov/pub/irs-trty/ukconvention.pdf",
+      "attemptedAt": "2026-11-13T00:53:26.077685+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "wayfair-loc",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep585/usrep585162/usrep585162.pdf",
+      "attemptedAt": "2026-11-13T00:53:26.078643+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "leegin-loc",
+      "url": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep551/usrep551877/usrep551877.pdf",
+      "resolvedUrl": "https://tile.loc.gov/storage-services/service/ll/usrep/usrep551/usrep551877/usrep551877.pdf",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:53:26.079314+00:00",
+      "sha256": "1954efb77cd3bb5f859f32fbd774c3dbc76c6c8e8b9ec27efd01fa3c58abc874",
+      "bytes": 277397,
+      "textLength": 120297
+    },
+    {
+      "key": "classification-rulemaking",
+      "url": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking",
+      "resolvedUrl": "https://www.dol.gov/agencies/whd/flsa/misclassification/rulemaking",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:53:26.079960+00:00",
+      "sha256": "a6a32553978cc7d7ccc4967937a2f9bb9922ada730cec3ca375c56a506d2be6a",
+      "bytes": 74007,
+      "textLength": 5153
+    },
+    {
+      "key": "classification-fab",
+      "url": "https://www.dol.gov/agencies/whd/field-assistance-bulletins/2025-1",
+      "attemptedAt": "2026-11-13T00:53:26.080955+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "ofac398",
+      "url": "https://ofac.treasury.gov/faqs/398",
+      "resolvedUrl": "https://ofac.treasury.gov/faqs/398",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:53:26.087598+00:00",
+      "sha256": "fd38dd45d947741798d48cb5f50588ae3d9e2d4ba44c51944cb0295c8d09e58c",
+      "bytes": 37076,
+      "textLength": 4028
+    },
+    {
+      "key": "wa-tax2025",
+      "url": "https://dor.wa.gov/taxes-rates/retail-sales-tax/services-newly-subject-retail-sales-tax-2025",
+      "attemptedAt": "2026-11-13T00:53:26.088797+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "texas-tax-code",
+      "url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.151.htm#151.351",
+      "resolvedUrl": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.151.htm#151.351",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:54:34.645747+00:00",
+      "sha256": "dbfba8a96dc3cd584157ca66aaafdf67e0ed15dd5a0c8a58f3d4bd0f109fc646",
+      "bytes": 250874,
+      "textLength": 1354
+    },
+    {
+      "key": "wa-remote",
+      "url": "https://dor.wa.gov/education/industry-guides/out-state-businesses/reporting-thresholds-and-nexus",
+      "attemptedAt": "2026-11-13T00:54:34.646824+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "uk-index-pdf",
+      "url": "https://www.irs.gov/pub/irs-trty/uk.pdf",
+      "attemptedAt": "2026-11-13T00:54:34.647800+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "dol795",
+      "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-795",
+      "resolvedUrl": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-795",
+      "status": 200,
+      "fetchedAt": "2026-11-13T00:54:34.648774+00:00",
+      "sha256": "775497e45ac0f33b9f779bd697cc23ff67bbbf41e291d54e1f8233f6dde95dab",
+      "bytes": 93528,
+      "textLength": 17938
+    },
+    {
+      "key": "dol-enforcement",
+      "url": "https://www.dol.gov/agencies/whd/field-assistance-bulletins/2025-1",
+      "attemptedAt": "2026-11-13T00:54:34.649860+00:00",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

@@ -1,0 +1,1384 @@
+[
+  {
+    "id": "us-alaska",
+    "name": "Alaska",
+    "slug": "alaska",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ak-app",
+      "b2-east-ak-bizopp",
+      "b3-emp-ak-ui",
+      "b3-emp-ak-guide",
+      "b3-s5-ak-chapter66",
+      "b3-s5-ak-aac16",
+      "b3-s5-ak-compilation-index"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "conditional",
+        "summary": "Served AS 45.66.010/.020 requires nonexempt registration complete at least 30 days before offer/sale; completion depends on received acknowledgement. 9 AAC 16 expressly incorporates the 2005 form.",
+        "sourceIds": [
+          "b3-s5-ak-chapter66",
+          "b3-s5-ak-aac16"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "AS 45.66 has the nonexempt registration/acknowledgement track and an express Part 436 exclusion. No independent franchise notice filing or statewide notice absence is established.",
+        "sourceIds": [
+          "b3-s5-ak-chapter66",
+          "b3-s5-ak-aac16"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Complete served .220 read, including (2) franchise under 16 CFR Part 436 and separate (11) mark/financial conditions. Only this chapter exclusion is established; actual scope and later session laws remain separate.",
+        "sourceIds": [
+          "b3-s5-ak-chapter66",
+          "b3-s5-ak-aac16"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "For nonexempt .070-connected opportunities, .080 and 9 AAC 16.020 require at least 10 calendar days before the earlier stated signature/consideration event, with receipt evidence; federal duties independent.",
+        "sourceIds": [
+          "b3-s5-ak-chapter66",
+          "b3-s5-ak-aac16"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "Nonexempt .020 registration packet includes advertising/promotion; .140–.160 regulate claims and prohibit treating acknowledgement as approval. No blanket exemption from other advertising law.",
+        "sourceIds": [
+          "b3-s5-ak-chapter66",
+          "b3-s5-ak-aac16"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Only nonexempt .090/.130/.170 written contract, buyer cancellation/refund and nonwaiver rights reviewed. Part 436 chapter exclusion and generic franchise renewal/termination/sector questions remain separate.",
+        "sourceIds": [
+          "b3-s5-ak-chapter66",
+          "b3-s5-ak-aac16"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ak-app",
+        "b2-east-ak-bizopp",
+        "b3-s5-ak-chapter66",
+        "b3-s5-ak-aac16",
+        "b3-s5-ak-compilation-index"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review.",
+        "BASIS labels the served statutory compilation 2025; later-2026 session-law and relevant case-law reconciliation is not represented.",
+        "Other state franchise/dealer/sector laws and federal application remain separate."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-researched",
+        "sourceIds": [],
+        "summary": "An Alaska personal-income-tax withholding conclusion was not established in this review. Do not infer the absence of other employee deductions or payroll obligations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ak-ui",
+          "b3-emp-ak-guide"
+        ],
+        "summary": "TaxWeb registers new businesses; the agency handbook requires UI accounts for workers hired and working in Alaska and says workers brought from elsewhere may also need reporting. The registration requests entity type and first wage date."
+      },
+      "limitations": [
+        "The retrieved handbook says last updated April 2024. This review uses its account/localization instructions, not annual contribution rates or a complete current exemption determination.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-arkansas",
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025",
+      "b3-emp-ar-wh",
+      "b3-emp-ar-ui"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Act 847 amends relationship-law exclusions and timing. Federal disclosure coverage is not itself a relationship-law exclusion; sales exemptions remain independently unresolved.",
+        "sourceIds": [
+          "b2-east-ar-2023"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Act 847 of 2023 adds/amends relationship protections with place, date and scope conditions. 2025 HB 1177 died; it is not law.",
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ar-2023",
+        "b2-east-ar-2025"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ar-wh"
+        ],
+        "summary": "The 2026 DFA instructions require withholding registration through AR-1R and identify ATAP online registration. They distinguish work in Arkansas from work outside it and allocate nonresident partly in-state services to Arkansas workdays."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ar-ui"
+        ],
+        "summary": "The Reemployment agency uses Tax 21 and describes ordinary employer status after one or more workers perform services on ten or more days in a calendar year, plus acquisition, domestic, agricultural and voluntary-coverage categories."
+      },
+      "limitations": [
+        "Special employer categories have separate tests; the ten-day statement is not a universal threshold. The withholding PDF's employment-verification statements were not relied upon for federal I-9 rules.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-california",
+    "name": "California",
+    "slug": "california",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b2-blocked-ca-statutes",
+      "b2-blocked-ca-franchise-relationship",
+      "b3-state-ca-janitorial",
+      "b3-state-ca-janitorial-faq",
+      "b3-state-ca-janitorial-registration-rule",
+      "b3-state-ca-rule13821",
+      "b3-state-ca-janitorial-training-rule",
+      "b3-state-ca-janitorial-training",
+      "b3-state-ca-wage-order",
+      "b3-state-ca-dir-2026",
+      "b3-state-ca-glossary",
+      "b3-state-ca-budget-final",
+      "b3-state-ca-budget-may",
+      "b3-emp-ca-register",
+      "b3-emp-ca-threshold"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "unresolved",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation2026-11-12: actual DFPI instructions/franchise/brokerFAQ and legislature fulltext routes returned403, including bounded publicAPI/legacy alternatives. All independent dimensions remain unresolved/not-researched; cached snippets did not establish financial-assurance or current broker obligations. Reacquire actual current text and investigate any2026 funding/effective-date developments. November 13, 2026: narrow janitorial registration/training and 2026 general wage/executive-duty screens reviewed; employment remains conditional with local, sector and other worker issues open. Franchise-sales core remains blocked, including financial-assurance guidance and current broker implementation. The final 2026 budget report is a new broker-review lead, not a resolved operative date. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Official source access returned 403. Await full-source review; snippets do not establish current obligations.",
+        "sourceIds": [
+          "state-ca-instructions",
+          "state-ca-section"
+        ]
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Official source access returned 403. Await full-source review; snippets do not establish current obligations.",
+        "sourceIds": [
+          "state-ca-instructions",
+          "state-ca-section"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Official source access returned 403. Await full-source review; snippets do not establish current obligations.",
+        "sourceIds": [
+          "state-ca-instructions",
+          "state-ca-section"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "state-ca-instructions",
+        "state-ca-franchises",
+        "state-ca-section",
+        "state-ca-guidelines"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed.",
+        "Continuation source audit: no substantive California full-text verification was completed; no broker launch date or assurance choice is asserted."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ca-register",
+          "b3-emp-ca-threshold"
+        ],
+        "summary": "EDD registers employer payroll tax accounts through e-Services for Business and supplies distinct commercial, household, agricultural, nonprofit and other forms. Select the correct account category rather than treating incorporation as payroll enrollment."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ca-register",
+          "b3-emp-ca-threshold"
+        ],
+        "summary": "EDD Step 1 requires a business that hires employees and pays more than $100 in wages in a calendar quarter to register within 15 days. Household employment has a separate $750 cash-wage threshold; use the appropriate account category."
+      },
+      "limitations": [
+        "Annual tax rates, wage bases, excluded employment, disability and paid-leave contributions require their own current review. Registration does not resolve worker classification.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-delaware",
+    "name": "Delaware",
+    "slug": "delaware",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-de-law",
+      "b3-emp-de-wh",
+      "b3-emp-de-ui"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "2555 requires at least 90 days for covered termination/nonrenewal; establish defined distributor scope. This is an exit notice, not a sales exemption notice.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Defined tangible-product/distributor scope and narrow worker-classification clause reviewed; no general sales-registration exemption established.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "2551–2556 address covered distributor scope, good cause/bad faith, notice and remedies; generic service-brand applicability is not assumed.",
+        "sourceIds": [
+          "b2-east-de-law"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-de-law"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-de-wh"
+        ],
+        "summary": "One Stop distinguishes an employer conducting business in Delaware from an out-of-state business that may register as a withholding agent only for a Delaware resident as a courtesy. Do not turn that optional resident-service route into a universal duty."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-de-ui"
+        ],
+        "summary": "One Stop directs businesses hiring one or more employees in Delaware to file UC-1 to determine unemployment liability and identifies withholding and workers' compensation as separate employer workstreams."
+      },
+      "limitations": [
+        "Only agency routing and the residence/work distinction were relied upon; older form names and broad withholding language on One Stop were not treated as complete current computation guidance.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-iowa",
+    "name": "Iowa",
+    "slug": "iowa",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ia-amendments",
+      "b2-east-ia-bizopp",
+      "b2-east-ia-currentrelationship",
+      "b2-east-ia-franchise",
+      "b3-emp-ia-wh",
+      "b3-emp-ia-ui"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Current 551A uses disclosure and consent-to-service provisions; no complete statewide FDD registration absence is inferred from this chapter.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "551A.7 consent-to-service before covered contract/sale remains distinct from a 551A.3 disclosure exemption.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "551A.1 exclusions differ from 551A.4 franchise-disclosure exemption; establish actual route and burden.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "551A.4 franchise route uses earlier first personal meeting or 14 days before stated commitment/payment. Non-exempt 551A.3 has a separate 10-business-day rule.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "551A defines offers/advertising and prohibits fraudulent practices; no general no-filing conclusion.",
+        "sourceIds": [
+          "b2-east-ia-bizopp"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "537A.10 is current regime for specified Iowa-operated agreements on/after 2000-07-01; 523H.2A temporal limit and future 2027 amendment separately recorded.",
+        "sourceIds": [
+          "b2-east-ia-currentrelationship",
+          "b2-east-ia-franchise",
+          "b2-east-ia-amendments"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ia-amendments",
+        "b2-east-ia-bizopp",
+        "b2-east-ia-currentrelationship",
+        "b2-east-ia-franchise"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ia-wh"
+        ],
+        "summary": "IDR links withholding to an office or business in Iowa, federal withholding and services performed in Iowa; obtain FEIN before Iowa registration. Residence and multi-state services still require the applicable sourcing review."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ia-ui"
+        ],
+        "summary": "IWD says register through myIowaUI within 30 days of first Iowa wages or acquisition; out-of-state employers must register as soon as Iowa wages are paid. It separately discusses base-of-operations and direction/control for multi-state workers."
+      },
+      "limitations": [
+        "The agency page has a 2026 note changing out-of-state wage credits alongside older text; no wage-credit amount is asserted here. Account routing is not full employment-law coverage.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-kansas",
+    "name": "Kansas",
+    "slug": "kansas",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ks-register",
+      "b2-east-ks-sos",
+      "b3-emp-ks-wh"
+    ],
+    "topics": {
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "Foreign-qualification sources do not establish absence of franchise-sales or relationship duties; obtain targeted current legal review.",
+        "sourceIds": [
+          "b2-east-ks-register",
+          "b2-east-ks-sos"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ks-register",
+        "b2-east-ks-sos"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ks-wh"
+        ],
+        "summary": "KDOR's KW-100 directs covered employers/payers to register through its Customer Service Center and separately addresses Kansas-resident and Kansas-work wages. It distinguishes wage withholding from nonresident-owner accounts and reporting-agent accounts."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [],
+        "summary": "The KDOL employer-services page returned HTTP 403; the current UI account route, timing and liability test were not substantively verified."
+      },
+      "limitations": [
+        "KW-100 displays revision 24.08. Its registration and account distinctions were reviewed, not current rates or a comprehensive 2026 wage-sourcing exception inventory.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-kentucky",
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ky-advertising",
+      "b2-east-ky-cancel",
+      "b2-east-ky-contract",
+      "b2-east-ky-earnings",
+      "b2-east-ky-exemption",
+      "b2-east-ky-registration",
+      "b2-east-ky-rules",
+      "b3-emp-ky-wh",
+      "b3-emp-ky-employer",
+      "b3-emp-ky-portal"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "conditional",
+        "summary": "367.805 requires non-exempt registration before offering; current 40 KAR 12:410 also requires approval before covered resident sales. Franchise-exemption route is separate.",
+        "sourceIds": [
+          "b2-east-ky-registration",
+          "b2-east-ky-rules",
+          "b2-east-ky-exemption"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Current portal/exempt-offeror evidence and material-change duties apply by route. Registered-seller statute says immediately, compared with rule 14 days.",
+        "sourceIds": [
+          "b2-east-ky-rules",
+          "b2-east-ky-registration",
+          "b2-east-ky-exemption"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "367.807 federal-definition/compliance and written-notice route; current 2026 rule specifies evidence and portal.",
+        "sourceIds": [
+          "b2-east-ky-exemption",
+          "b2-east-ky-rules"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "Non-exempt registration evidence, earnings and written-contract duties reviewed. Exact franchise-exemption/federal applicability stays separate; no invented universal waiting period.",
+        "sourceIds": [
+          "b2-east-ky-registration",
+          "b2-east-ky-earnings",
+          "b2-east-ky-contract",
+          "b2-east-ky-exemption"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "Non-exempt registrant must include registration number under 367.809; covered earnings representations governed by 367.811. Exemption scope must be established.",
+        "sourceIds": [
+          "b2-east-ky-advertising",
+          "b2-east-ky-earnings",
+          "b2-east-ky-exemption"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "Non-exempt contract/avoidance text has 30 businessdays in 367.816 notice versus 30 calendar days in 367.819; reconcile before calculating a deadline. Ongoing franchise protections separately incomplete.",
+        "sourceIds": [
+          "b2-east-ky-contract",
+          "b2-east-ky-cancel",
+          "b2-east-ky-exemption"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ky-advertising",
+        "b2-east-ky-cancel",
+        "b2-east-ky-contract",
+        "b2-east-ky-earnings",
+        "b2-east-ky-exemption",
+        "b2-east-ky-registration",
+        "b2-east-ky-rules"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ky-wh"
+        ],
+        "summary": "DOR identifies resident/nonresident wage withholding subject to exemptions and directs registration, filing and payment through MyTaxes. Its 2026 instructions require electronic filing/payment for all employer filing frequencies."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ky-employer",
+          "b3-emp-ky-portal"
+        ],
+        "summary": "The official employer page routes liable employers to an Employer Reserve Account, including acquisitions. The January 2026 KUIP FAQ says an account number and report filing are available immediately after completed registration."
+      },
+      "limitations": [
+        "The attempted UI-1 link returned non-substantive content; the separate official employer page and January 2026 KUIP FAQ were read. Liability thresholds, local occupational taxes and current rates remain separate.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-louisiana",
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-la-definition",
+      "b2-east-la-prohibitions",
+      "b2-east-la-realestate",
+      "b2-east-la-registration",
+      "b3-emp-la-wh",
+      "b3-emp-la-register",
+      "b3-s5-la-bond-continuity"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Covered bond filing under 51:1822 is not an FDD registration classification. Complete franchise/sales registration absence not established.",
+        "sourceIds": [
+          "b2-east-la-registration",
+          "b2-east-la-definition"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "51:1823 requires covered opportunity seller service-of-process appointment; 51:1822 has limited-scope prebusiness bond filing.",
+        "sourceIds": [
+          "b2-east-la-prohibitions",
+          "b2-east-la-registration"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Registered-mark wording qualifies 51:1821(1)(d); independent (a)–(c) triggers and 51:1822(G) bond scope require separate analysis.",
+        "sourceIds": [
+          "b2-east-la-definition",
+          "b2-east-la-registration"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "51:1823 requires documented earnings support and written promises for covered opportunities; no general FDD delivery-period conclusion.",
+        "sourceIds": [
+          "b2-east-la-prohibitions"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "51:1823 addresses earnings claims, seller identification and compliance references; covered bond filing may precede advertising.",
+        "sourceIds": [
+          "b2-east-la-prohibitions",
+          "b2-east-la-registration"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Covered RS 51:1823 written material promises/nonwaiver and 51:1822 continuous-bond administration reviewed. The surety notice is not a franchise exit period; general termination/transfer/renewal rules remain incomplete.",
+        "sourceIds": [
+          "b2-east-la-prohibitions",
+          "b2-east-la-realestate",
+          "b3-s5-la-bond-continuity"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-la-definition",
+        "b2-east-la-prohibitions",
+        "b2-east-la-realestate",
+        "b2-east-la-registration",
+        "b3-s5-la-bond-continuity"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-la-wh"
+        ],
+        "summary": "LDR requires a withholding account before filing/remitting, but specifically warns not to register until Louisiana wage withholding begins. LaTAP registers a new business or adds an account; Secretary of State registration and EIN do not create it."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-la-register"
+        ],
+        "summary": "LWC's LAWATS login instructions require an existing seven-digit Employer Account Number and FEIN; a business without the EAN must apply for the unemployment tax account first. The owner then grants a third-party administrator access."
+      },
+      "limitations": [
+        "The LAWATS login guide is dated April 11, 2024. It distinguishes portal access from the tax account but does not establish current UI liability thresholds or sourcing exemptions.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-maine",
+    "name": "Maine",
+    "slug": "maine",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-me-law",
+      "b3-emp-me-withholding",
+      "b3-emp-me-ui-mirror"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "For covered business opportunities 4696 requires registration before selling, offering, advertising or promotion; applicability/exclusions and security separately tested. Sections 4696–4697 separately require material disclosure updates and annual renewal before the one-year effectiveness expires.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "4691 registered-mark language qualifies marketing-program limb; other triggers independently reviewed. Permanent-place security exception is not a universal sales exemption.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "4692 uses earliest specified 72-hour pre-agreement/pre-payment point or first face-to-face sales meeting for covered opportunities.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "4696 registration precedes covered promotion; 4699 earnings rules include geographic relevance/basis. Not a complete no-filing classification.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Covered business-opportunity avoidance and contract duties reviewed; general franchise renewal/termination scope remains unresolved.",
+        "sourceIds": [
+          "b2-east-me-law"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-me-law"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-me-withholding"
+        ],
+        "summary": "MRS's April 2026 FAQ routes new withholding accounts through the Maine Tax Portal and separately tests an out-of-state employer's Maine office/business, taxable payments and federal withholding. Courtesy withholding can differ from mandatory withholding."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-me-ui-mirror"
+        ],
+        "summary": "The official ReEmployME guide distinguishes registration of a business without an EAN from creating access to an existing account. It states general and separate nonprofit/agricultural coverage tests and says a future date cannot be used to set up an account."
+      },
+      "limitations": [
+        "Official www1.maine.gov mirrors supplied the MRS FAQ and ReEmployME system guide after the main host blocked access. No annual rate, complete UI exclusion list or full remote-work sourcing determination is supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-massachusetts",
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ma-classification",
+      "b3-emp-ma-wh",
+      "b3-emp-ma-ui"
+    ],
+    "topics": {
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Worker-classification statute does not establish state franchise-sales or relationship clearance. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "Worker-classification statute does not establish state franchise-sales or relationship clearance.",
+        "sourceIds": [
+          "b2-east-ma-classification"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ma-classification"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ma-wh"
+        ],
+        "summary": "DOR's August 2026 guide distinguishes resident and nonresident wages and directs employers to register before filing/payment through MassTaxConnect. A sole proprietor is generally not an employee solely for paying their own personal tax."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ma-ui"
+        ],
+        "summary": "DUA lists general contribution tests and distinct domestic/agricultural categories; it specifically states an out-of-state employer test of $200 gross Massachusetts wages in a quarter. Its account route is Unemployment Services for Employers."
+      },
+      "limitations": [
+        "The $200 statement is the agency's out-of-state-employer category, not a universal tax-free allowance or a withholding threshold. No annual rates or full sourcing exceptions are supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-mississippi",
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status",
+      "b3-state-ms-code-sos",
+      "b3-emp-ms-wh",
+      "b3-emp-ms-ui"
+    ],
+    "topics": {
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: no; current consolidated primary authority remains unresolved. 2018 historical enacted text is not a current 2026 comprehensive legal survey. November 13, 2026: official SOS-to-Lexis access route verified, but only the browser/cookie bootstrap was retrieved; current general franchise relationship law and later cases remain unresolved. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "2018 enacted text contains notice language, but current 2026 consolidated official authority and later amendments/cases remain unverified.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "2018 historical enacted text is not a current 2026 comprehensive legal survey.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "Historical 2018 law and enactment verified; present applicability, current text and exceptions cannot be cleared from that alone.",
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ms-2018",
+        "b2-east-ms-status"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ms-wh"
+        ],
+        "summary": "DOR requires a withholding account for employers subject to Mississippi withholding, with online application through TAP. Its instructions require acquisition/entity changes to be assessed rather than using the predecessor's addressed return."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ms-ui"
+        ],
+        "summary": "MDES separates employment-service registration from the New Business unemployment-tax registration, and separately offers online access for an already assigned account. An employer needing both service categories must register for both."
+      },
+      "limitations": [
+        "This does not establish UI liability thresholds or all resident/nonresident sourcing rules. No annual withholding/UI rate is supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-nebraska",
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-west-a-ne-def",
+      "b2-west-a-ne-exempt",
+      "b2-west-a-ne-agency",
+      "b2-west-a-ne-file",
+      "b2-west-a-ne-disclose",
+      "b2-west-a-ne-ads",
+      "b2-west-a-ne-claims",
+      "b2-west-a-ne-rel-def",
+      "b2-west-a-ne-rel-scope",
+      "b2-west-a-ne-rel-end",
+      "b3-emp-ne-faq",
+      "b3-emp-ne-withholding",
+      "b3-emp-ne-ui"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "All six franchise dimensions have source-backed scoped findings; none establishes transaction clearance or a complete tax/employment/sector/local survey. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "conditional",
+        "summary": "Nonexempt SAMP filing 59-1724 requires prior disclosure filing, amendments and annual updates. Qualifying 59-1722 franchises use a separate notice-exemption track.",
+        "sourceIds": [
+          "b2-west-a-ne-file",
+          "b2-west-a-ne-exempt"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Qualifying franchise exemption needs prior notice+$100 before specified Nebraska-based advertising/offers/representations. Agency describes a one-time filing; other changes may require new filing.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt",
+          "b2-west-a-ne-agency"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "59-1722 requires compliance with specified federal provisions incorporated as of 2026-01-01, notice and fee; specified prohibitions survive. Other exclusions were not exhaustively reviewed.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "Exempt-franchise and nonexempt SAMP tracks differ. Nonexempt 59-1732 requires first specified communication disclosure and at least 48 hours before contract/consideration; federal clock independent.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt",
+          "b2-west-a-ne-disclose"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "59-1722 notice precedes specified Nebraska-based advertising. Nonexempt 59-1731 requires seller identity/address; 59-1729 income claims need substantiation. Establish exemption scope first.",
+        "sourceIds": [
+          "b2-west-a-ne-exempt",
+          "b2-west-a-ne-ads",
+          "b2-west-a-ne-claims"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Independent 87-402/403 definition and application criteria plus 87-404 termination/notice rules reviewed; beverage/noncompete branches and transaction facts require separate analysis.",
+        "sourceIds": [
+          "b2-west-a-ne-rel-def",
+          "b2-west-a-ne-rel-scope",
+          "b2-west-a-ne-rel-end"
+        ]
+      },
+      "sourceIds": [
+        "b2-west-a-ne-def",
+        "b2-west-a-ne-exempt",
+        "b2-west-a-ne-agency",
+        "b2-west-a-ne-file",
+        "b2-west-a-ne-disclose",
+        "b2-west-a-ne-ads",
+        "b2-west-a-ne-claims",
+        "b2-west-a-ne-rel-def",
+        "b2-west-a-ne-rel-scope",
+        "b2-west-a-ne-rel-end"
+      ],
+      "limitations": [
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ne-faq",
+          "b3-emp-ne-withholding"
+        ],
+        "summary": "DOR requires Form 20 and a Nebraska withholding number before state deductions. The employer remains responsible for the application when using a payroll service; provide that service the issued Withholding Certificate."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-ne-ui"
+        ],
+        "summary": "Nebraska One Stop identifies the DOL unemployment tax-account application, but its short listing supplies no thresholds or complete instructions. Substantive coverage and registration inputs remain open."
+      },
+      "limitations": [
+        "The FAQ retains older rate and pandemic passages; those are not relied on. Current numeric rates and UI liability are not established here.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-nevada",
+    "name": "Nevada",
+    "slug": "nevada",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-west-a-nv-dealers",
+      "b3-emp-nv-constitution",
+      "b3-emp-nv-ui"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "not-researched",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Primary farm-equipment dealer provisions read via official websource; general franchise sales-law dimensions remain open. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State5 editorial/primary audit reviewed 2026-11-12: candidate dispositions consolidate only their named statutory scope; unresolved branches are not findings of no law.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "disclosure": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Only the defined farm-equipment dealer layer in NRS 597.112–597.118: good cause for termination/nonrenewal/substantial changes, action-specific notice/correction, repurchase and nonwaiver. No universal amendment notice or generic service-franchise conclusion.",
+        "sourceIds": [
+          "b2-west-a-nv-dealers"
+        ]
+      },
+      "sourceIds": [
+        "b2-west-a-nv-dealers"
+      ],
+      "limitations": [
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-nv-constitution"
+        ],
+        "summary": "Nevada Constitution Article 10,section 1(9) prohibits income tax on natural persons' wages/personal income while permitting business-income/revenue taxes. Personal wage-income withholding is therefore distinct from UI, Modified Business Tax and other business taxes."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nv-ui"
+        ],
+        "summary": "DETR says generally an employing unit paying $225 or more for Nevada employment in a calendar quarter must register with Employment Security and pay UI tax. Its employing-unit definition includes entities and individuals."
+      },
+      "limitations": [
+        "The $225 statement is a general UI coverage rule, not a tax-free allowance or an MBT/other-tax conclusion. Annual rates and all exceptions were not reviewed.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  }
+]

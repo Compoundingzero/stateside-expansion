@@ -16,7 +16,7 @@ test('all generated public local links and fragments resolve; unpublished guides
  const paths=(await readFile(resolve(dist,'sitemap.xml'),'utf8')).match(/<loc>[^<]+<\/loc>/g)??[];
  assert.ok(paths.length>100);assert.ok(paths.every(p=>!p.includes('/plan/')));
  assert.ok((await readFile(resolve(dist,'plan/index.html'),'utf8')).includes('noindex,nofollow'));
- assert.ok(!files.some(f=>f.includes('/states/california/')));
+ assert.equal(await stat(resolve(dist,'states/california/index.html')).catch(()=>null),null);
 });
 test('guides are readable without JavaScript and carry sources and canonical metadata',async()=>{
  for(const path of ['states/texas','fdd/item-15','us-expansion/minimum-payment-exemption','cases/cleaning-manager-royalty']){

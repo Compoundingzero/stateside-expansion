@@ -127,7 +127,7 @@
     "legalStatus": "effective",
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
     "accessStatus": "read",
-    "notes": "Complete relevant chapter read. Website labels it an unofficial copy including 2025 session actions. Inventory, dealer and exclusion conditions matter; not every branded service is covered.",
+    "notes": "Complete relevant chapter read. The saved official online body reviewed in the state5b audit says it includes actions of the 2026 session and labels itself an unofficial copy of Vermont Statutes Annotated. Inventory, dealer and exclusion conditions matter; not every branded service is covered. This metadata correction preserves original retrieval and verification dates; it does not claim a new live fetch.",
     "contentHash": "e20385fcc8f195762d6a5977b239081705bbf8a11b6f3f5cb062b60f1d3fef4a"
   },
   {
@@ -188,7 +188,7 @@
   },
   {
     "id": "b2-west-pa-section316",
-    "url": "https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/1983/0/0084.003.000.016.000..HTM",
+    "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?ActNum=0084.&SessInd=0&SessYr=1983&txtType=PDF",
     "title": "Pennsylvania Board of Vehicles Act §316",
     "authority": "Pennsylvania General Assembly",
     "type": "primary",
@@ -202,7 +202,8 @@
     "legalStatus": "effective",
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
     "accessStatus": "read",
-    "notes": "Complete official section read. Eligibility, condition, age and category limits matter. Statutory remedy is not evidence of actual recovery."
+    "notes": "Section 316(a)-(c) was located and read in the current official Board of Vehicles Act PDF after the legacy www.legis.state.pa.us section host returned local DNS ENOTFOUND. The same quoted 60-day language and eligibility/condition/age/category limits are retained. The original substantive review date is preserved; this is a documented source-route comparison, not an expanded relationship-law conclusion. Legacy URL and prior body remain in Git/batch2 audit history.",
+    "retrievalReviewedAt": "2026-11-13T00:58:05.722851+00:00"
   },
   {
     "id": "b2-west-dc-3901",
@@ -296,21 +297,21 @@
   },
   {
     "id": "b2-west-tn-consumer-index",
-    "url": "https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/resources/laws.html",
-    "title": "Tennessee Attorney General consumer-law resources",
-    "authority": "Tennessee Attorney General",
+    "url": "https://tndca.zendesk.com/hc/en-us/articles/4402426023707-What-about-formal-actions",
+    "title": "Tennessee Attorney General / Division of Consumer Affairs: formal actions",
+    "authority": "Tennessee Attorney General, Division of Consumer Affairs official help center",
     "type": "official-guidance",
-    "section": "TCPA resource and Lexis links",
-    "supportingPassage": "The Tennessee Consumer Protection Act of 1977 and other related laws",
-    "publicationDate": null,
+    "section": "Consumer-protection enforcement role; individual claims and recovery limits",
+    "supportingPassage": "which enforces the Consumer Protection Act and other state and federal consumer protection laws on behalf of the State.",
+    "publicationDate": "2021-06-18",
     "effectiveDate": null,
-    "fetchedAt": "2026-11-12T21:27:50.582731+00:00",
-    "substantiveVerifiedAt": "2026-11-12",
-    "nextReview": "2026-12-12",
-    "legalStatus": "effective",
-    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
-    "accessStatus": "read",
-    "notes": "Complete Attorney General resource read. Linked official code container returned no readable text. Attempted court PDF returned browser-validation HTML with HTTP 200 and was rejected as evidence. Franchise-law dimensions remain unresolved."
+    "fetchedAt": "2026-11-13T00:58:05.722851+00:00",
+    "substantiveVerifiedAt": "2026-11-13T00:58:05.722851+00:00",
+    "nextReview": "2026-12-13",
+    "legalStatus": "historical-agency-resource",
+    "reviewerStatus": "AI-assisted primary-source review of dated agency role/resource guidance; no professional legal review",
+    "accessStatus": "retrieved-and-read",
+    "notes": "The Consumer Laws index and subsequent Protecting Consumers overview intermittently returned 403/503. This complete official DCA help-center article was read; its displayed update is 18 June 2021. It explains agency versus individual actions and expressly says restitution is not assured. It is not current franchise statutory text and does not close any Tennessee franchise-law dimension. Prior agency URLs, successful bodies and later access failures remain in the editorial audit/Git history."
   },
   {
     "id": "b2-west-a-mt-dealer-def",

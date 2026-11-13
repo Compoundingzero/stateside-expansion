@@ -1,0 +1,742 @@
+[
+  {
+    "id": "b3-planning-seller-prohibitions",
+    "title": "Give franchise brokers a controlled sales workflow",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Give franchise brokers a controlled sales workflow",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "The federal definition of franchise seller includes relevant third-party brokers and other people involved in franchise sales. Section 436.9 prohibits sellers from specified inconsistent, misleading and unsubstantiated representations; franchisor disclosure duties remain distinct.",
+    "exceptions": "A broker contract does not establish federal/state exemption or transfer every franchisor duty to the broker. Independent state registration, advertising and seller rules remain separate.",
+    "trigger": "Give franchise brokers a controlled sales workflow",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Seller-role map",
+      "Approved pitch and earnings-claim inventory",
+      "Dated FDD handoff and receipt evidence",
+      "Escalation owner"
+    ],
+    "sourceIds": [
+      "fed-definition",
+      "fed-prohibitions",
+      "fed-timing"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Federal seller definition and prohibited conduct only; state broker/licensing and sales-authorization requirements are not researched here.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/broker-responsibilities/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-advertising-controls",
+    "title": "Review franchise advertising against the actual disclosure record",
+    "topic": "sales-disclosure",
+    "jurisdiction": "U.S. federal",
+    "activity": "Review franchise advertising against the actual disclosure record",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Section 436.9 prohibits franchise sellers from claims that contradict required disclosures and from financial-performance representations that do not meet its basis, substantiation and disclosure conditions.",
+    "exceptions": "Not every brand message is a financial-performance representation. State filing, legend, broker, advertising and sales rules require independent review.",
+    "trigger": "Review franchise advertising against the actual disclosure record",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Screenshot/transcript and date",
+      "Actual audience and channel",
+      "Item 19 comparison",
+      "Claim substantiation and approval owner"
+    ],
+    "sourceIds": [
+      "fed-prohibitions",
+      "fed-fdd-19",
+      "fed-updates"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Does not decide a particular advertisement or authorize state sales. Current state advertising filing and legend rules remain open.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/advertising-controls/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-business-opportunity-rule",
+    "title": "Check customer-provision promises against the Business Opportunity Rule",
+    "topic": "classification",
+    "jurisdiction": "U.S. federal",
+    "activity": "Check customer-provision promises against the Business Opportunity Rule",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Part 437 covers the defined combination of a prospective purchaser entering a new business, required payment and specified seller representations about locations, customers/accounts or buybacks. Covered sellers must provide the prescribed disclosures at least seven calendar days before the earlier contract or payment.",
+    "exceptions": "General business advice, training and advertising alone are excluded from the customer-provision definition. Part 437 scope and its franchise-exemption interaction must be resolved on actual facts; state rules can add protection.",
+    "trigger": "Check customer-provision promises against the Business Opportunity Rule",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Purchaser current/new activity",
+      "All required payments",
+      "Exact customer/location/buyback promises",
+      "Part437 scope decision and disclosure calendar"
+    ],
+    "sourceIds": [
+      "b3-planning-business-opportunity"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [
+      "Current §437.8 literally refers to $500 and §436.8(a)(1); the current franchise minimum-payment exemption uses a different threshold. No reconciliation inferred."
+    ],
+    "interpretationLimits": [
+      "The literal $500/§436.8(a)(1) cross-reference interaction is unresolved; no exemption conclusion is provided.",
+      "State business-opportunity and franchise laws require independent review.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/business-opportunity-rule/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-formation-vs-qualification",
+    "title": "Separate company formation from permission to do business in another state",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Separate company formation from permission to do business in another state",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "SBA guidance distinguishes formation in one state from possible foreign qualification in other states where the entity is active. The relevant state office determines its requirements and fees.",
+    "exceptions": "This guidance does not establish any state’s doing-business threshold. Corporate qualification, tax nexus, franchise sales, professional licensing and local premises permission are separate tests.",
+    "trigger": "Separate company formation from permission to do business in another state",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Entity and formation state",
+      "Actual activity by state",
+      "Secretary-of-State requirement check",
+      "Tax and licensing questions assigned separately"
+    ],
+    "sourceIds": [
+      "b3-planning-sba-register"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "SBA overview only; no individual state threshold, exemption, filing fee or tax-nexus determination was researched.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/formation-vs-qualification/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-entity-election",
+    "title": "An LLC’s legal form does not settle its federal tax classification",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "An LLC’s legal form does not settle its federal tax classification",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Eligible entities apply the classification rules in §301.7701-3, including domestic/foreign defaults and valid elections. A Form 8832 election generally cannot be effective more than 75 days before filing or more than 12 months after it.",
+    "exceptions": "Not every entity is eligible to elect. Foreign defaults differ from domestic defaults; change-election restrictions, exceptions, late relief, other elections and foreign-owned reporting require separate analysis.",
+    "trigger": "An LLC’s legal form does not settle its federal tax classification",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Legal entity and jurisdiction",
+      "Owner count and liability facts",
+      "Default versus proposed classification",
+      "EIN, election/return calendar and reporting owner"
+    ],
+    "sourceIds": [
+      "b3-planning-irs-llc",
+      "b3-planning-entity-cfr",
+      "b3-planning-irs-8832",
+      "fed-irs-reporting"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a recommendation to form an LLC or elect corporate/partnership treatment. No tax savings, treaty or immigration result is promised.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/entity-tax-election/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-transfer-pricing",
+    "title": "Build evidence for royalties and services between related companies",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Build evidence for royalties and services between related companies",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Section 1.482-1 applies the arm’s-length standard to controlled transactions and requires the most reliable method under the facts and circumstances, considering comparability and data quality.",
+    "exceptions": "Different transaction categories have additional specific rules. This guide does not select a method, determine a rate, price an intangible or establish a documentation penalty defence.",
+    "trigger": "Build evidence for royalties and services between related companies",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Related-party and transaction map",
+      "Functions/assets/risks evidence",
+      "Actual services and IP rights",
+      "Comparable-data and method questions",
+      "Payment and withholding ledger"
+    ],
+    "sourceIds": [
+      "b3-planning-pricing-cfr"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Review limited to §1.482-1(a)–(c); transaction-specific methods, documentation rules, treaties and foreign-country transfer pricing are not comprehensively researched.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/transfer-pricing/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-business-visits",
+    "title": "Separate a U.S. business visit from doing the operating work",
+    "topic": "immigration",
+    "jurisdiction": "U.S. federal",
+    "activity": "Separate a U.S. business visit from doing the operating work",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "State Department visitor guidance lists consulting business associates, attending conferences and negotiating contracts as business examples, and lists employment among activities not permitted on visitor visas.",
+    "exceptions": "The examples are not an individual eligibility or admission decision. Borderline training, installation, service delivery, payment arrangements, nationality exceptions and other categories need specific assessment.",
+    "trigger": "Separate a U.S. business visit from doing the operating work",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Day-by-day activity schedule",
+      "Who performs customer work",
+      "Payment/employer facts",
+      "Supporting invitations and meeting purpose",
+      "Activity-specific immigration question"
+    ],
+    "sourceIds": [
+      "b3-planning-visitor-visa"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No individual visa, ESTA, admission, productive-training or hands-on service conclusion is provided.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/business-visits/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-flsa-baseline",
+    "title": "Budget a hired manager and team using the federal workweek rules",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Budget a hired manager and team using the federal workweek rules",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "For covered nonexempt employees, FLSA overtime is generally at least one and one-half the regular rate for hours over 40 in a fixed workweek. Hours cannot be averaged across workweeks. Enterprise and individual coverage must be assessed separately.",
+    "exceptions": "A salary or manager title alone does not establish exemption. State/local wage, overtime, leave, salary exemptions and classification tests may differ and remain separate.",
+    "trigger": "Budget a hired manager and team using the federal workweek rules",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Actual job duties and employer",
+      "Enterprise/individual coverage evidence",
+      "Hours by fixed workweek",
+      "Regular-rate components",
+      "Separate state/local wage check"
+    ],
+    "sourceIds": [
+      "b3-planning-flsa-coverage",
+      "b3-planning-flsa-overtime"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No current executive/administrative/professional salary threshold, independent-contractor or joint-employer conclusion.",
+      "Federal fact sheets are scoped guidance; current state/local obligations and all compensation components require separate review.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/federal-wage/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-workplace-safety",
+    "title": "Assign safety responsibilities before the first customer-site job",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Assign safety responsibilities before the first customer-site job",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "OSH Act §5(a) requires each covered employer to provide a workplace free of recognised hazards causing or likely to cause death or serious physical harm and to comply with applicable occupational safety and health standards.",
+    "exceptions": "Employer identity, federal/state-plan jurisdiction and task-specific standards are fact-dependent. A brand manual or customer contract alone does not decide joint-employer responsibility or satisfy all duties.",
+    "trigger": "Assign safety responsibilities before the first customer-site job",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Employer and site map",
+      "Task/hazard inventory",
+      "Applicable standards and state-plan check",
+      "Training/equipment evidence",
+      "Incident and escalation owner"
+    ],
+    "sourceIds": [
+      "b3-planning-osha-duties",
+      "b3-planning-osha-responsibilities"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No task-specific OSHA standard, state-plan rule, incident-reporting deadline or joint-employer determination has been researched here.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/workplace-safety/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-i9-duty",
+    "title": "Give the local employer an I-9 timing and retention owner",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Give the local employer an I-9 timing and retention owner",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Under §274a.2, Section 1 is completed at hire and the employer generally examines acceptable evidence and completes Section 2 within three business days of hire; employment lasting less than three business days has an at-hire rule. Employers retain the I-9 for three years after hire or one year after termination, whichever is later.",
+    "exceptions": "Use the current official form and instructions. Authorised alternative examination is subject to its conditions; remote ownership is not itself authorisation. Current USCIS form-instruction PDF access was blocked in this review.",
+    "trigger": "Give the local employer an I-9 timing and retention owner",
+    "deadline": "At hire/within three business days as applicable; retention uses the later statutory date",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Hire/start date",
+      "Named employer representative",
+      "Current form and lawful document process",
+      "Section2 due date",
+      "Termination-linked retention/destruction date"
+    ],
+    "sourceIds": [
+      "b3-planning-i9-cfr"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Current USCIS form edition and detailed acceptable-document/remote-procedure instructions could not be read because the PDF returned 403.",
+      "No individual work-authorisation, anti-discrimination, E-Verify or immigration-category determination.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/employment-verification/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-customs-importer",
+    "title": "Name the importer of record before shipping branded equipment or stock",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Name the importer of record before shipping branded equipment or stock",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "19 USC §1484 assigns the importer-of-record entry/completion functions using reasonable care and identifies eligible filers. Section 141.11 sets evidence of right to make entry; §163.4 has a general five-year retention rule with express exceptions.",
+    "exceptions": "Product agencies, bonds, nonresident importers, valuation, country-specific duties and record-category exceptions need separate review. Logistics labels and delivery terms alone do not establish statutory importer identity.",
+    "trigger": "Name the importer of record before shipping branded equipment or stock",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Seller/buyer/owner/purchaser map",
+      "Broker authority",
+      "Entry-right shipping documents",
+      "Classification/value/origin evidence",
+      "Record-category retention schedule"
+    ],
+    "sourceIds": [
+      "b3-planning-customs-statute",
+      "b3-planning-customs-entry",
+      "b3-planning-customs-retention"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No product classification, customs value, bond, nonresident-importer eligibility or agency admissibility determination.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/customs-importer/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-tariff-classification",
+    "title": "Build a dated tariff evidence ledger instead of guessing an all-in rate",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Build a dated tariff evidence ledger instead of guessing an all-in rate",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Section 1484 calls for classification and rate-of-duty information in entry completion. USITC’s official HTS help directs users through classification, legal notes, schedule provisions and CBP ruling resources.",
+    "exceptions": "No product code, current duty rate, Chapter99 application, exclusion, preference or trade-remedy result has been verified in this guide. A commercial calculator is not a binding classification ruling.",
+    "trigger": "Build a dated tariff evidence ledger instead of guessing an all-in rate",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Technical product description",
+      "Candidate HTS and legal notes",
+      "Manufacture/origin evidence",
+      "Dated schedule/Chapter99 review",
+      "Ruling or broker question",
+      "Assumption-separated landed-cost model"
+    ],
+    "sourceIds": [
+      "b3-planning-hts-help",
+      "b3-planning-customs-statute"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Workflow only: no current tariff rate, temporary measure, exclusion, product code or origin preference has been substantively verified.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/tariff-classification/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "conditional-legal-requirement"
+  },
+  {
+    "id": "b3-planning-country-of-origin",
+    "title": "Separate origin marking from tariff and brand nationality",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Separate origin marking from tariff and brand nationality",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Section 134.11 states the general imported-article origin-marking requirement subject to exceptions. Section 134.1(b) defines marking origin by manufacture/production/growth and substantial transformation, with a specific part102 rule for relevant NAFTA/USMCA-country goods.",
+    "exceptions": "Marking exceptions, part102 analysis, preferential origin, trade remedies and product-specific labels require separate review. A trademark owner’s nationality or shipment country is not an all-purpose origin answer.",
+    "trigger": "Separate origin marking from tariff and brand nationality",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Manufacturing steps by country",
+      "Materials and transformations",
+      "Proposed marking/photo",
+      "Ultimate purchaser and packaging",
+      "Product-specific origin question"
+    ],
+    "sourceIds": [
+      "b3-planning-customs-origin",
+      "b3-planning-customs-marking"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No product-specific origin determination, marking exception, part 102 analysis, preferential eligibility or trade-remedy result.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/country-of-origin/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-food-imports",
+    "title": "Identify the food FSVP importer before the first shipment",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Identify the food FSVP importer before the first shipment",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "FSVP generally requires the defined importer to develop, maintain and follow a program for each food, subject to exemptions/modified requirements. The importer is the U.S. owner/consignee at entry or, if none, the designated U.S. agent/representative of the foreign owner/consignee with signed consent.",
+    "exceptions": "The exact food, hazards, supplier and exemption facts control. Certain USDA-regulated meat/poultry/egg products are outside FSVP; that does not remove their separate import requirements. Modified requirements are not assumed.",
+    "trigger": "Identify the food FSVP importer before the first shipment",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Food/category and supplier map",
+      "U.S. owner/consignee determination",
+      "Signed agent consent if applicable",
+      "Qualified-individual/program owner",
+      "Entry name/email/recognised UFI",
+      "Exemption or modified-duty evidence"
+    ],
+    "sourceIds": [
+      "b3-planning-fsvp-cfr",
+      "b3-planning-fsvp-guide"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No complete food-category, hazard, small-importer, dietary-supplement, labelling, prior-notice, facility-registration or USDA import analysis.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/food-imports/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-trademark-clearance",
+    "title": "Search U.S. trademark rights beyond an exact federal name match",
+    "topic": "ip-data",
+    "jurisdiction": "U.S. federal",
+    "activity": "Search U.S. trademark rights beyond an exact federal name match",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "USPTO guidance recommends a comprehensive search for confusingly similar marks used for related goods/services, including federal records and relevant state/common-law use.",
+    "exceptions": "A search is not official clearance, a registration guarantee or a licence-quality-control opinion. The source does not decide likelihood of confusion for a proposed mark.",
+    "trigger": "Search U.S. trademark rights beyond an exact federal name match",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Mark variants and translations",
+      "Actual goods/services",
+      "Federal pending/registered results",
+      "State/common-law/internet evidence",
+      "Use dates/regions and uncertainty",
+      "Review owner"
+    ],
+    "sourceIds": [
+      "b3-planning-uspto-clearance"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No legal clearance, likelihood-of-confusion finding, registration guarantee, ownership-chain audit or licence quality-control determination.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/trademark-clearance/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "official-guidance"
+  },
+  {
+    "id": "b3-planning-trade-secret-transfer",
+    "title": "Transfer operating know-how with evidence of secrecy and lawful access",
+    "topic": "ip-data",
+    "jurisdiction": "U.S. federal",
+    "activity": "Transfer operating know-how with evidence of secrecy and lawful access",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "18 USC §1839 requires reasonable secrecy measures and independent economic value from secrecy for trade-secret status. Section1833 protects specified confidential law-reporting disclosures and requires covered employer agreements to give the statutory immunity notice, with specified remedy consequences if omitted.",
+    "exceptions": "Public information, lawful independent derivation and reverse engineering are not automatically misappropriation. Employee includes individual contractors/consultants for §1833; not every entity-to-entity franchise contract is an employer agreement.",
+    "trigger": "Transfer operating know-how with evidence of secrecy and lawful access",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Know-how inventory and value/secrecy basis",
+      "Access permissions and training",
+      "Contract/version and recipient map",
+      "Covered immunity notice/policy reference check",
+      "Exit/access-revocation evidence"
+    ],
+    "sourceIds": [
+      "b3-planning-secret-definition",
+      "b3-planning-secret-immunity"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No finding that specific information is a trade secret or that a particular contract is covered; state law, remedies and cross-border privacy remain separate.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/trade-secret-transfer/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-houston-occupancy",
+    "title": "Houston: confirm the lease space’s occupancy path before committing",
+    "topic": "premises-opening",
+    "jurisdiction": "Houston, Texas",
+    "activity": "Houston: confirm the lease space’s occupancy path before committing",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Houston’s official business page states that a certificate of occupancy is required before a commercial building or individual lease space is occupied or its occupancy classification changes; building and related permit work may require inspection.",
+    "exceptions": "Named municipal guidance only. Detailed permitting PDFs were blocked; no parcel, classification, fee, enforcement deadline or complete permit determination is made.",
+    "trigger": "Houston: confirm the lease space’s occupancy path before committing",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Exact parcel and municipal boundary",
+      "Current CO and legal use",
+      "Proposed activity/layout/equipment",
+      "Change-of-use question",
+      "Written permit/inspection sequence"
+    ],
+    "sourceIds": [
+      "b3-planning-houston-plan"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "City of Houston guidance only; exact boundary, parcel, building/fire/environmental/sector conditions and fees remain unverified.",
+      "Detailed official permitting PDFs were access-blocked; no complete procedure is claimed.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/cities/houston/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning-nyc-occupancy",
+    "title": "New York City: distinguish the CO, TCO, LNO and completion letter",
+    "topic": "premises-opening",
+    "jurisdiction": "New York City, New York",
+    "activity": "New York City: distinguish the CO, TCO, LNO and completion letter",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "NYC DOB describes the CO as establishing legal use/occupancy, with new/amended certificates for applicable building/use changes. TCO, LNO and Letter of Completion have different purposes and conditions.",
+    "exceptions": "Some lawful pre-1938 buildings can lack a CO, subject to later-change conditions. Age alone is not an exemption. The exact building, proposed activity, open permits and violations require separate review.",
+    "trigger": "New York City: distinguish the CO, TCO, LNO and completion letter",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Exact property/unit and record lookup",
+      "Current CO/TCO or documented pre1938 path",
+      "Proposed legal use/occupancy",
+      "LNO/completion document purpose",
+      "Open applications/violations/signoffs"
+    ],
+    "sourceIds": [
+      "b3-planning-nyc-occupancy",
+      "b3-planning-nyc-letter"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "NYC DOB occupancy documents only; no property clearance, capacity calculation, licence, fire, accessibility, lease or sector conclusion.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/cities/new-york-city/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  }
+]

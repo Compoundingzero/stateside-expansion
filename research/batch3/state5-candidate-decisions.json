@@ -1,0 +1,2257 @@
+[
+  {
+    "candidateId": "candidate-states-alaska-relationship-definition",
+    "path": "/states/alaska/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Alaska require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/alaska/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Alaska require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "AS 45.66.900 business-opportunity triggers, .070 connections and .220 exclusions, including the express Part 436 franchise exclusion in the complete served official compilation; no complete Alaska-law classification.",
+    "unresolvedResearch": [
+      "BASIS labels the served statutory compilation 2025; later-2026 session-law and relevant case-law reconciliation is not represented.",
+      "Other state franchise/dealer/sector laws and federal application remain separate."
+    ],
+    "relatedPaths": [
+      "/states/alaska/"
+    ],
+    "researchCompleteness": "scoped-primary-verified-with-compilation-currency-limit",
+    "sourceChecklist": [
+      "Alaska official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Alaska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b3-s5-ak-chapter66",
+      "b3-s5-ak-aac16",
+      "b3-s5-ak-compilation-index"
+    ],
+    "ruleIds": [
+      "b3-s5-ak-definition-exclusions"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ak-statute25.txt",
+      "research/raw/batch3/state5/ak-regulation.txt",
+      "research/raw/batch3/state5/ak-statute.txt",
+      "research/raw/batch2/east/ak-app.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-alaska-offer-and-sale-process",
+    "path": "/states/alaska/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Alaska?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/alaska/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Alaska?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The nonexempt AS 45.66.010/.020 acknowledgement-based 30-day registration gate and .080/9 AAC 16.020 purchaser disclosure clock, after establishing whether the chapter applies.",
+    "unresolvedResearch": [
+      "BASIS labels the served statutory compilation 2025; later-2026 session-law and relevant case-law reconciliation is not represented.",
+      "Other state franchise/dealer/sector laws and federal application remain separate."
+    ],
+    "relatedPaths": [
+      "/states/alaska/"
+    ],
+    "researchCompleteness": "scoped-primary-verified-with-compilation-currency-limit",
+    "sourceChecklist": [
+      "Alaska official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Alaska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b3-s5-ak-chapter66",
+      "b3-s5-ak-aac16",
+      "b3-s5-ak-compilation-index"
+    ],
+    "ruleIds": [
+      "b3-s5-ak-definition-exclusions",
+      "b3-s5-ak-registration-delivery"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ak-statute25.txt",
+      "research/raw/batch3/state5/ak-regulation.txt",
+      "research/raw/batch3/state5/ak-statute.txt",
+      "research/raw/batch2/east/ak-app.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-alaska-relationship-protections",
+    "path": "/states/alaska/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Alaska?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/alaska/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Alaska?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "Nonexempt AS 45.66.090/.130/.170 written-contract, buyer cancellation/refund and nonwaiver branch; not a general Alaska franchise termination or transfer regime.",
+    "unresolvedResearch": [
+      "BASIS labels the served statutory compilation 2025; later-2026 session-law and relevant case-law reconciliation is not represented.",
+      "Other state franchise/dealer/sector laws and federal application remain separate."
+    ],
+    "relatedPaths": [
+      "/states/alaska/"
+    ],
+    "researchCompleteness": "scoped-primary-verified-with-compilation-currency-limit",
+    "sourceChecklist": [
+      "Alaska official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Alaska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b3-s5-ak-chapter66",
+      "b3-s5-ak-aac16",
+      "b3-s5-ak-compilation-index"
+    ],
+    "ruleIds": [
+      "b3-s5-ak-definition-exclusions",
+      "b3-s5-ak-buyer-contract-rights"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ak-statute25.txt",
+      "research/raw/batch3/state5/ak-regulation.txt",
+      "research/raw/batch3/state5/ak-statute.txt",
+      "research/raw/batch2/east/ak-app.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-alaska-updates-and-renewals",
+    "path": "/states/alaska/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Alaska?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/alaska/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Alaska?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Nonexempt AS 45.66.030 annual anniversary renewal, .050/9 AAC 16.060 material changes and 9 AAC 16.030 bond duration; the 2005 forms are expressly incorporated in served regulations.",
+    "unresolvedResearch": [
+      "BASIS labels the served statutory compilation 2025; later-2026 session-law and relevant case-law reconciliation is not represented.",
+      "Other state franchise/dealer/sector laws and federal application remain separate."
+    ],
+    "relatedPaths": [
+      "/states/alaska/"
+    ],
+    "researchCompleteness": "scoped-primary-verified-with-compilation-currency-limit",
+    "sourceChecklist": [
+      "Alaska official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Alaska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b3-s5-ak-chapter66",
+      "b3-s5-ak-aac16",
+      "b3-s5-ak-compilation-index"
+    ],
+    "ruleIds": [
+      "b3-s5-ak-definition-exclusions",
+      "b3-s5-ak-renewal-change-security"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ak-statute25.txt",
+      "research/raw/batch3/state5/ak-regulation.txt",
+      "research/raw/batch3/state5/ak-statute.txt",
+      "research/raw/batch2/east/ak-app.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-arkansas-relationship-definition",
+    "path": "/states/arkansas/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Arkansas require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/arkansas/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Arkansas require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "Enacted Act 847 of 2023 place-of-business, date and relationship-law exclusion changes, compared with the failed 2025 HB 1177; the complete current underlying franchise definition is not represented.",
+    "unresolvedResearch": [
+      "Complete current consolidated Act, underlying definition and later controlling cases were not read in this audit.",
+      "No initial state sales-registration, exemption, disclosure or advertising process is established by Act 847 alone; exact general effective-date calculation remains unasserted."
+    ],
+    "relatedPaths": [
+      "/states/arkansas/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Arkansas official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Arkansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025"
+    ],
+    "ruleIds": [
+      "b2-east-ar-applicability",
+      "b2-east-ar-failed-proposal"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ar-2023.txt",
+      "research/raw/batch2/east/ar-2025.txt",
+      "research/raw/batch2/east/ar-act847-p3.png"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-arkansas-offer-and-sale-process",
+    "path": "/states/arkansas/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Arkansas?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Arkansas?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Complete current consolidated Act, underlying definition and later controlling cases were not read in this audit.",
+      "No initial state sales-registration, exemption, disclosure or advertising process is established by Act 847 alone; exact general effective-date calculation remains unasserted."
+    ],
+    "relatedPaths": [
+      "/states/arkansas/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Arkansas official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Arkansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025"
+    ],
+    "ruleIds": [
+      "b2-east-ar-applicability",
+      "b2-east-ar-failed-proposal"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ar-2023.txt",
+      "research/raw/batch2/east/ar-2025.txt",
+      "research/raw/batch2/east/ar-act847-p3.png"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-arkansas-relationship-protections",
+    "path": "/states/arkansas/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Arkansas?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/arkansas/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Arkansas?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The enacted 2023 relationship-amendment review, including its agreement-date limits, rather than treating federal disclosure coverage as a state relationship exclusion.",
+    "unresolvedResearch": [
+      "Complete current consolidated Act, underlying definition and later controlling cases were not read in this audit.",
+      "No initial state sales-registration, exemption, disclosure or advertising process is established by Act 847 alone; exact general effective-date calculation remains unasserted."
+    ],
+    "relatedPaths": [
+      "/states/arkansas/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Arkansas official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Arkansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025"
+    ],
+    "ruleIds": [
+      "b2-east-ar-applicability",
+      "b2-east-ar-failed-proposal"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ar-2023.txt",
+      "research/raw/batch2/east/ar-2025.txt",
+      "research/raw/batch2/east/ar-act847-p3.png"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-arkansas-updates-and-renewals",
+    "path": "/states/arkansas/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Arkansas?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/arkansas/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Arkansas?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Agreement entry/renewal chronology controls which 2023 amendment provisions apply; failed HB 1177 is not an update to operating law. This is a contract-version task, not a sales-registration renewal calendar.",
+    "unresolvedResearch": [
+      "Complete current consolidated Act, underlying definition and later controlling cases were not read in this audit.",
+      "No initial state sales-registration, exemption, disclosure or advertising process is established by Act 847 alone; exact general effective-date calculation remains unasserted."
+    ],
+    "relatedPaths": [
+      "/states/arkansas/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Arkansas official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Arkansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025"
+    ],
+    "ruleIds": [
+      "b2-east-ar-applicability",
+      "b2-east-ar-failed-proposal"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ar-2023.txt",
+      "research/raw/batch2/east/ar-2025.txt",
+      "research/raw/batch2/east/ar-act847-p3.png"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-california-relationship-definition",
+    "path": "/states/california/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in California require franchise or business-opportunity analysis?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in California require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Current full DFPI application/financial-assurance instructions and cited Leginfo/CCR bodies remain inaccessible through recorded ordinary public routes.",
+      "Definition, relationship and advertising branches are also substantively incomplete; the budget reports do not establish live broker workflows, appropriation-date calculations or a general sales permission.",
+      "Published janitorial, wage and training guides answer separate operating questions."
+    ],
+    "relatedPaths": [
+      "/states/california/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched-with-related-site-access-blocks",
+    "sourceChecklist": [
+      "California official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "California regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b3-state-ca-budget-final",
+      "b3-state-ca-budget-may"
+    ],
+    "ruleIds": [],
+    "evidencePaths": [
+      "research/batch3/STATE-REVIEW.md",
+      "research/raw/batch3/state/ca-budget-final.txt",
+      "research/raw/batch3/state/ca-budget-may.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "Unresearched statutory branch; related DFPI/Leginfo access blocks are separate context."
+  },
+  {
+    "candidateId": "candidate-states-california-offer-and-sale-process",
+    "path": "/states/california/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with California?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with California?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Current full DFPI application/financial-assurance instructions and cited Leginfo/CCR bodies remain inaccessible through recorded ordinary public routes.",
+      "Definition, relationship and advertising branches are also substantively incomplete; the budget reports do not establish live broker workflows, appropriation-date calculations or a general sales permission.",
+      "Published janitorial, wage and training guides answer separate operating questions."
+    ],
+    "relatedPaths": [
+      "/states/california/"
+    ],
+    "researchCompleteness": "objective-current-primary-access-block",
+    "sourceChecklist": [
+      "California official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "California regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b3-state-ca-budget-final",
+      "b3-state-ca-budget-may"
+    ],
+    "ruleIds": [],
+    "evidencePaths": [
+      "research/batch3/STATE-REVIEW.md",
+      "research/raw/batch3/state/ca-budget-final.txt",
+      "research/raw/batch3/state/ca-budget-may.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-california-relationship-protections",
+    "path": "/states/california/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in California?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in California?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Current full DFPI application/financial-assurance instructions and cited Leginfo/CCR bodies remain inaccessible through recorded ordinary public routes.",
+      "Definition, relationship and advertising branches are also substantively incomplete; the budget reports do not establish live broker workflows, appropriation-date calculations or a general sales permission.",
+      "Published janitorial, wage and training guides answer separate operating questions."
+    ],
+    "relatedPaths": [
+      "/states/california/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched-with-related-site-access-blocks",
+    "sourceChecklist": [
+      "California official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "California regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b3-state-ca-budget-final",
+      "b3-state-ca-budget-may"
+    ],
+    "ruleIds": [],
+    "evidencePaths": [
+      "research/batch3/STATE-REVIEW.md",
+      "research/raw/batch3/state/ca-budget-final.txt",
+      "research/raw/batch3/state/ca-budget-may.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "Unresearched statutory branch; related DFPI/Leginfo access blocks are separate context."
+  },
+  {
+    "candidateId": "candidate-states-california-updates-and-renewals",
+    "path": "/states/california/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in California?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in California?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Current full DFPI application/financial-assurance instructions and cited Leginfo/CCR bodies remain inaccessible through recorded ordinary public routes.",
+      "Definition, relationship and advertising branches are also substantively incomplete; the budget reports do not establish live broker workflows, appropriation-date calculations or a general sales permission.",
+      "Published janitorial, wage and training guides answer separate operating questions."
+    ],
+    "relatedPaths": [
+      "/states/california/"
+    ],
+    "researchCompleteness": "objective-current-primary-access-block",
+    "sourceChecklist": [
+      "California official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "California regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b3-state-ca-budget-final",
+      "b3-state-ca-budget-may"
+    ],
+    "ruleIds": [],
+    "evidencePaths": [
+      "research/batch3/STATE-REVIEW.md",
+      "research/raw/batch3/state/ca-budget-final.txt",
+      "research/raw/batch3/state/ca-budget-may.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-delaware-relationship-definition",
+    "path": "/states/delaware/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Delaware require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/delaware/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Delaware require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "Title 6 Chapter 25 Subchapter V defined in-state franchised distributor and tangible-product scope.",
+    "unresolvedResearch": [
+      "Only the defined franchised-distributor/tangible-product branch was reviewed.",
+      "Generic service models, sales filings, other sectors and relevant current cases remain independent."
+    ],
+    "relatedPaths": [
+      "/states/delaware/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Delaware official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Delaware regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-de-law"
+    ],
+    "ruleIds": [
+      "b2-east-de-distributors"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/de-law.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-delaware-offer-and-sale-process",
+    "path": "/states/delaware/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Delaware?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Delaware?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Only the defined franchised-distributor/tangible-product branch was reviewed.",
+      "Generic service models, sales filings, other sectors and relevant current cases remain independent."
+    ],
+    "relatedPaths": [
+      "/states/delaware/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Delaware official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Delaware regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-de-law"
+    ],
+    "ruleIds": [
+      "b2-east-de-distributors"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/de-law.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-delaware-relationship-protections",
+    "path": "/states/delaware/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Delaware?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/delaware/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Delaware?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "Covered distributor good cause/bad faith, unjust termination/nonrenewal and statutory notice under §§2552–2555; the worker clause is limited to Title 19 Chapter 11.",
+    "unresolvedResearch": [
+      "Only the defined franchised-distributor/tangible-product branch was reviewed.",
+      "Generic service models, sales filings, other sectors and relevant current cases remain independent."
+    ],
+    "relatedPaths": [
+      "/states/delaware/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Delaware official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Delaware regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-de-law"
+    ],
+    "ruleIds": [
+      "b2-east-de-distributors"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/de-law.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-delaware-updates-and-renewals",
+    "path": "/states/delaware/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Delaware?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/delaware/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Delaware?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Covered distributor nonrenewal and at-least-90-day exit notice under §§2552 and 2555; no sales-filing update or annual registration rule is established.",
+    "unresolvedResearch": [
+      "Only the defined franchised-distributor/tangible-product branch was reviewed.",
+      "Generic service models, sales filings, other sectors and relevant current cases remain independent."
+    ],
+    "relatedPaths": [
+      "/states/delaware/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Delaware official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Delaware regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-de-law"
+    ],
+    "ruleIds": [
+      "b2-east-de-distributors"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/de-law.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-iowa-relationship-definition",
+    "path": "/states/iowa/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Iowa require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/iowa/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Iowa require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "2026 Chapter 551A definition/exclusion versus disclosure exemption and independent §537A.10 franchise/location/agreement-date scope.",
+    "unresolvedResearch": [
+      "Definition/exclusion, disclosure exemption and the current versus older relationship regimes have different conditions.",
+      "The January 1, 2027 amendment is future from the November 12, 2026 Pacific review date; no complete other-sector/local or statewide registration-absence conclusion is made."
+    ],
+    "relatedPaths": [
+      "/states/iowa/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Iowa official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Iowa regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ia-amendments",
+      "b2-east-ia-bizopp",
+      "b2-east-ia-currentrelationship",
+      "b2-east-ia-franchise"
+    ],
+    "ruleIds": [
+      "b2-east-ia-business-opportunity",
+      "b2-east-ia-current-relationship",
+      "b2-east-ia-future-review"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ia-bizopp.txt",
+      "research/raw/batch2/east/ia-currentrelationship.txt",
+      "research/raw/batch2/east/ia-franchise.txt",
+      "research/raw/batch2/east/ia-amendments.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-iowa-offer-and-sale-process",
+    "path": "/states/iowa/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Iowa?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/iowa/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Iowa?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The §551A.4 franchise disclosure route and separate §551A.7 consent filing, distinct from the registered-mark/net-worth exclusion and nonexempt §551A.3 route.",
+    "unresolvedResearch": [
+      "Definition/exclusion, disclosure exemption and the current versus older relationship regimes have different conditions.",
+      "The January 1, 2027 amendment is future from the November 12, 2026 Pacific review date; no complete other-sector/local or statewide registration-absence conclusion is made."
+    ],
+    "relatedPaths": [
+      "/states/iowa/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Iowa official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Iowa regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ia-amendments",
+      "b2-east-ia-bizopp",
+      "b2-east-ia-currentrelationship",
+      "b2-east-ia-franchise"
+    ],
+    "ruleIds": [
+      "b2-east-ia-business-opportunity",
+      "b2-east-ia-current-relationship",
+      "b2-east-ia-future-review"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ia-bizopp.txt",
+      "research/raw/batch2/east/ia-currentrelationship.txt",
+      "research/raw/batch2/east/ia-franchise.txt",
+      "research/raw/batch2/east/ia-amendments.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-iowa-relationship-protections",
+    "path": "/states/iowa/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Iowa?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/iowa/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Iowa?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "Current §537A.10 defined Iowa-operated agreements on/after July 1, 2000, and the explicit §523H.2A older-agreement limit, with sector and location exclusions.",
+    "unresolvedResearch": [
+      "Definition/exclusion, disclosure exemption and the current versus older relationship regimes have different conditions.",
+      "The January 1, 2027 amendment is future from the November 12, 2026 Pacific review date; no complete other-sector/local or statewide registration-absence conclusion is made."
+    ],
+    "relatedPaths": [
+      "/states/iowa/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Iowa official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Iowa regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ia-amendments",
+      "b2-east-ia-bizopp",
+      "b2-east-ia-currentrelationship",
+      "b2-east-ia-franchise"
+    ],
+    "ruleIds": [
+      "b2-east-ia-business-opportunity",
+      "b2-east-ia-current-relationship",
+      "b2-east-ia-future-review"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ia-bizopp.txt",
+      "research/raw/batch2/east/ia-currentrelationship.txt",
+      "research/raw/batch2/east/ia-franchise.txt",
+      "research/raw/batch2/east/ia-amendments.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-iowa-updates-and-renewals",
+    "path": "/states/iowa/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Iowa?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/iowa/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Iowa?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Current-versus-future source control for the signed §537A.10(7)(c)(2) amendment effective January 1, 2027 and relevant agreement/renewal chronology; no universal annual filing duty is inferred.",
+    "unresolvedResearch": [
+      "Definition/exclusion, disclosure exemption and the current versus older relationship regimes have different conditions.",
+      "The January 1, 2027 amendment is future from the November 12, 2026 Pacific review date; no complete other-sector/local or statewide registration-absence conclusion is made."
+    ],
+    "relatedPaths": [
+      "/states/iowa/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Iowa official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Iowa regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ia-amendments",
+      "b2-east-ia-bizopp",
+      "b2-east-ia-currentrelationship",
+      "b2-east-ia-franchise"
+    ],
+    "ruleIds": [
+      "b2-east-ia-business-opportunity",
+      "b2-east-ia-current-relationship",
+      "b2-east-ia-future-review"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ia-bizopp.txt",
+      "research/raw/batch2/east/ia-currentrelationship.txt",
+      "research/raw/batch2/east/ia-franchise.txt",
+      "research/raw/batch2/east/ia-amendments.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kansas-relationship-definition",
+    "path": "/states/kansas/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Kansas require franchise or business-opportunity analysis?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Kansas require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The existing hub establishes an entity-activity/foreign-qualification worksheet only.",
+      "Current franchise/business-opportunity definition, sale process, relationship and update authorities were not substantively researched; absence is not inferred."
+    ],
+    "relatedPaths": [
+      "/states/kansas/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Kansas official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Kansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ks-register",
+      "b2-east-ks-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ks-foreign-qualification"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ks-sos.txt",
+      "research/raw/batch2/east/ks-register.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kansas-offer-and-sale-process",
+    "path": "/states/kansas/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Kansas?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Kansas?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The existing hub establishes an entity-activity/foreign-qualification worksheet only.",
+      "Current franchise/business-opportunity definition, sale process, relationship and update authorities were not substantively researched; absence is not inferred."
+    ],
+    "relatedPaths": [
+      "/states/kansas/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Kansas official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Kansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ks-register",
+      "b2-east-ks-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ks-foreign-qualification"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ks-sos.txt",
+      "research/raw/batch2/east/ks-register.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kansas-relationship-protections",
+    "path": "/states/kansas/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Kansas?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Kansas?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The existing hub establishes an entity-activity/foreign-qualification worksheet only.",
+      "Current franchise/business-opportunity definition, sale process, relationship and update authorities were not substantively researched; absence is not inferred."
+    ],
+    "relatedPaths": [
+      "/states/kansas/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Kansas official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Kansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ks-register",
+      "b2-east-ks-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ks-foreign-qualification"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ks-sos.txt",
+      "research/raw/batch2/east/ks-register.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kansas-updates-and-renewals",
+    "path": "/states/kansas/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Kansas?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Kansas?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The existing hub establishes an entity-activity/foreign-qualification worksheet only.",
+      "Current franchise/business-opportunity definition, sale process, relationship and update authorities were not substantively researched; absence is not inferred."
+    ],
+    "relatedPaths": [
+      "/states/kansas/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Kansas official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Kansas regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ks-register",
+      "b2-east-ks-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ks-foreign-qualification"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ks-sos.txt",
+      "research/raw/batch2/east/ks-register.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kentucky-relationship-definition",
+    "path": "/states/kentucky/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Kentucky require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/kentucky/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Kentucky require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "The KRS 367.807(1)(a) federal-definition/compliance and written-notice exemption route, rather than an unqualified franchise label; other state opportunity definitions remain separately scoped.",
+    "unresolvedResearch": [
+      "Nonexempt cancellation provisions preserve differing 30-business-day and 30-calendar-day wording; no single deadline is calculated.",
+      "Full ongoing franchise relationship protections and other dealer/professional laws remain independently incomplete."
+    ],
+    "relatedPaths": [
+      "/states/kentucky/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Kentucky official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Kentucky regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ky-advertising",
+      "b2-east-ky-cancel",
+      "b2-east-ky-contract",
+      "b2-east-ky-earnings",
+      "b2-east-ky-exemption",
+      "b2-east-ky-registration",
+      "b2-east-ky-rules"
+    ],
+    "ruleIds": [
+      "b2-east-ky-franchise-notice",
+      "b2-east-ky-material-changes",
+      "b2-east-ky-nonexempt"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ky-exemption.txt",
+      "research/raw/batch2/east/ky-registration.txt",
+      "research/raw/batch2/east/ky-rules.txt",
+      "research/raw/batch2/east/ky-contract.txt",
+      "research/raw/batch2/east/ky-cancel.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kentucky-offer-and-sale-process",
+    "path": "/states/kentucky/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Kentucky?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/kentucky/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Kentucky?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "Current KRS 367.807 and 40 KAR 12:410 §3 franchise exemption evidence and notice process, separate from nonexempt registration and approval.",
+    "unresolvedResearch": [
+      "Nonexempt cancellation provisions preserve differing 30-business-day and 30-calendar-day wording; no single deadline is calculated.",
+      "Full ongoing franchise relationship protections and other dealer/professional laws remain independently incomplete."
+    ],
+    "relatedPaths": [
+      "/states/kentucky/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Kentucky official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Kentucky regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ky-advertising",
+      "b2-east-ky-cancel",
+      "b2-east-ky-contract",
+      "b2-east-ky-earnings",
+      "b2-east-ky-exemption",
+      "b2-east-ky-registration",
+      "b2-east-ky-rules"
+    ],
+    "ruleIds": [
+      "b2-east-ky-franchise-notice",
+      "b2-east-ky-material-changes",
+      "b2-east-ky-nonexempt"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ky-exemption.txt",
+      "research/raw/batch2/east/ky-registration.txt",
+      "research/raw/batch2/east/ky-rules.txt",
+      "research/raw/batch2/east/ky-contract.txt",
+      "research/raw/batch2/east/ky-cancel.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kentucky-relationship-protections",
+    "path": "/states/kentucky/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Kentucky?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Kentucky?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Nonexempt cancellation provisions preserve differing 30-business-day and 30-calendar-day wording; no single deadline is calculated.",
+      "Full ongoing franchise relationship protections and other dealer/professional laws remain independently incomplete."
+    ],
+    "relatedPaths": [
+      "/states/kentucky/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Kentucky official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Kentucky regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ky-advertising",
+      "b2-east-ky-cancel",
+      "b2-east-ky-contract",
+      "b2-east-ky-earnings",
+      "b2-east-ky-exemption",
+      "b2-east-ky-registration",
+      "b2-east-ky-rules"
+    ],
+    "ruleIds": [
+      "b2-east-ky-franchise-notice",
+      "b2-east-ky-material-changes",
+      "b2-east-ky-nonexempt"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ky-exemption.txt",
+      "research/raw/batch2/east/ky-registration.txt",
+      "research/raw/batch2/east/ky-rules.txt",
+      "research/raw/batch2/east/ky-contract.txt",
+      "research/raw/batch2/east/ky-cancel.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-kentucky-updates-and-renewals",
+    "path": "/states/kentucky/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Kentucky?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/kentucky/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Kentucky?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Current 40 KAR 12:410 material-change reporting for exempt offerors and registrants, with the stricter KRS 367.805 immediate-notification wording retained for registrants; no universal 14-day safe harbor.",
+    "unresolvedResearch": [
+      "Nonexempt cancellation provisions preserve differing 30-business-day and 30-calendar-day wording; no single deadline is calculated.",
+      "Full ongoing franchise relationship protections and other dealer/professional laws remain independently incomplete."
+    ],
+    "relatedPaths": [
+      "/states/kentucky/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Kentucky official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Kentucky regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ky-advertising",
+      "b2-east-ky-cancel",
+      "b2-east-ky-contract",
+      "b2-east-ky-earnings",
+      "b2-east-ky-exemption",
+      "b2-east-ky-registration",
+      "b2-east-ky-rules"
+    ],
+    "ruleIds": [
+      "b2-east-ky-franchise-notice",
+      "b2-east-ky-material-changes",
+      "b2-east-ky-nonexempt"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ky-exemption.txt",
+      "research/raw/batch2/east/ky-registration.txt",
+      "research/raw/batch2/east/ky-rules.txt",
+      "research/raw/batch2/east/ky-contract.txt",
+      "research/raw/batch2/east/ky-cancel.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-louisiana-relationship-definition",
+    "path": "/states/louisiana/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Louisiana require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/louisiana/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Louisiana require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "RS 51:1821 trigger-by-trigger opportunity definition and the limited registered-mark language, with §1822(G) bond scope.",
+    "unresolvedResearch": [
+      "The mark language and bond obligation have distinct definition-limb limits.",
+      "No complete general franchise sales-registration, FDD period, termination, transfer or contract-renewal survey is represented."
+    ],
+    "relatedPaths": [
+      "/states/louisiana/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Louisiana official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Louisiana regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-la-definition",
+      "b2-east-la-prohibitions",
+      "b2-east-la-realestate",
+      "b2-east-la-registration",
+      "b3-s5-la-bond-continuity"
+    ],
+    "ruleIds": [
+      "b2-east-la-definition",
+      "b2-east-la-bonds",
+      "b2-east-la-claims",
+      "b2-east-la-real-estate",
+      "b3-s5-la-bond-continuity"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/la-definition.txt",
+      "research/raw/batch2/east/la-prohibitions.txt",
+      "research/raw/batch2/east/la-realestate.txt",
+      "research/raw/batch3/state5/la-bond-current.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-louisiana-offer-and-sale-process",
+    "path": "/states/louisiana/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Louisiana?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/louisiana/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Louisiana?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "Covered opportunity prebusiness seller/agent bond filing, advertising/earnings substantiation, written promises and service-of-process appointment, plus the separate real-estate franchisor representative condition.",
+    "unresolvedResearch": [
+      "The mark language and bond obligation have distinct definition-limb limits.",
+      "No complete general franchise sales-registration, FDD period, termination, transfer or contract-renewal survey is represented."
+    ],
+    "relatedPaths": [
+      "/states/louisiana/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Louisiana official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Louisiana regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-la-definition",
+      "b2-east-la-prohibitions",
+      "b2-east-la-realestate",
+      "b2-east-la-registration",
+      "b3-s5-la-bond-continuity"
+    ],
+    "ruleIds": [
+      "b2-east-la-definition",
+      "b2-east-la-bonds",
+      "b2-east-la-claims",
+      "b2-east-la-real-estate",
+      "b3-s5-la-bond-continuity"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/la-definition.txt",
+      "research/raw/batch2/east/la-prohibitions.txt",
+      "research/raw/batch2/east/la-realestate.txt",
+      "research/raw/batch3/state5/la-bond-current.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-louisiana-relationship-protections",
+    "path": "/states/louisiana/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Louisiana?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/louisiana/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Louisiana?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "Covered RS 51:1823(6) written material promises and (7) purchaser-rights nonwaiver branch; no general franchise good-cause, transfer or termination protection is asserted.",
+    "unresolvedResearch": [
+      "The mark language and bond obligation have distinct definition-limb limits.",
+      "No complete general franchise sales-registration, FDD period, termination, transfer or contract-renewal survey is represented."
+    ],
+    "relatedPaths": [
+      "/states/louisiana/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Louisiana official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Louisiana regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-la-definition",
+      "b2-east-la-prohibitions",
+      "b2-east-la-realestate",
+      "b2-east-la-registration",
+      "b3-s5-la-bond-continuity"
+    ],
+    "ruleIds": [
+      "b2-east-la-definition",
+      "b2-east-la-bonds",
+      "b2-east-la-claims",
+      "b2-east-la-real-estate",
+      "b3-s5-la-bond-continuity"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/la-definition.txt",
+      "research/raw/batch2/east/la-prohibitions.txt",
+      "research/raw/batch2/east/la-realestate.txt",
+      "research/raw/batch3/state5/la-bond-current.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-louisiana-updates-and-renewals",
+    "path": "/states/louisiana/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Louisiana?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/louisiana/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Louisiana?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Continuous required-bond administration under RS 51:1822(H), with scope in (G), replacement/new-bond duties under (E) and the surety notice distinguished from contract nonrenewal.",
+    "unresolvedResearch": [
+      "The mark language and bond obligation have distinct definition-limb limits.",
+      "No complete general franchise sales-registration, FDD period, termination, transfer or contract-renewal survey is represented."
+    ],
+    "relatedPaths": [
+      "/states/louisiana/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Louisiana official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Louisiana regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-la-definition",
+      "b2-east-la-prohibitions",
+      "b2-east-la-realestate",
+      "b2-east-la-registration",
+      "b3-s5-la-bond-continuity"
+    ],
+    "ruleIds": [
+      "b2-east-la-definition",
+      "b2-east-la-bonds",
+      "b2-east-la-claims",
+      "b2-east-la-real-estate",
+      "b3-s5-la-bond-continuity"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/la-definition.txt",
+      "research/raw/batch2/east/la-prohibitions.txt",
+      "research/raw/batch2/east/la-realestate.txt",
+      "research/raw/batch3/state5/la-bond-current.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-maine-relationship-definition",
+    "path": "/states/maine/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Maine require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/maine/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Maine require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "Title 32 Chapter 69-B §4691 business-opportunity promises and limited mark exception, in the official text current through October 1, 2026.",
+    "unresolvedResearch": [
+      "The official PDF states current through October 1, 2026 and is not the certified annotated text.",
+      "General franchise ongoing relationship/dealer protections, current forms and transaction-specific interpretation remain separate from the covered opportunity chapter."
+    ],
+    "relatedPaths": [
+      "/states/maine/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Maine official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Maine regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-me-law"
+    ],
+    "ruleIds": [
+      "b2-east-me-opportunities",
+      "b2-east-me-contract-cancellation",
+      "b3-s5-me-change-cycle"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/me-law.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-maine-offer-and-sale-process",
+    "path": "/states/maine/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Maine?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/maine/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Maine?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "Covered §4696 pre-promotion registration, §4692 earliest 72-hour or first face-to-face meeting disclosure trigger and §4698 contract-avoidance task.",
+    "unresolvedResearch": [
+      "The official PDF states current through October 1, 2026 and is not the certified annotated text.",
+      "General franchise ongoing relationship/dealer protections, current forms and transaction-specific interpretation remain separate from the covered opportunity chapter."
+    ],
+    "relatedPaths": [
+      "/states/maine/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Maine official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Maine regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-me-law"
+    ],
+    "ruleIds": [
+      "b2-east-me-opportunities",
+      "b2-east-me-contract-cancellation",
+      "b3-s5-me-change-cycle"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/me-law.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-maine-relationship-protections",
+    "path": "/states/maine/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Maine?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Maine?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The official PDF states current through October 1, 2026 and is not the certified annotated text.",
+      "General franchise ongoing relationship/dealer protections, current forms and transaction-specific interpretation remain separate from the covered opportunity chapter."
+    ],
+    "relatedPaths": [
+      "/states/maine/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Maine official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Maine regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-me-law"
+    ],
+    "ruleIds": [
+      "b2-east-me-opportunities",
+      "b2-east-me-contract-cancellation",
+      "b3-s5-me-change-cycle"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/me-law.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-maine-updates-and-renewals",
+    "path": "/states/maine/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Maine?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/maine/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Maine?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Covered §§4696–4697 material disclosure updates, one-year registration effectiveness and annual renewal using current disclosure/security evidence.",
+    "unresolvedResearch": [
+      "The official PDF states current through October 1, 2026 and is not the certified annotated text.",
+      "General franchise ongoing relationship/dealer protections, current forms and transaction-specific interpretation remain separate from the covered opportunity chapter."
+    ],
+    "relatedPaths": [
+      "/states/maine/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Maine official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Maine regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-me-law"
+    ],
+    "ruleIds": [
+      "b2-east-me-opportunities",
+      "b2-east-me-contract-cancellation",
+      "b3-s5-me-change-cycle"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/me-law.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-massachusetts-relationship-definition",
+    "path": "/states/massachusetts/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Massachusetts require franchise or business-opportunity analysis?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Massachusetts require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Section 148B employment classification answers a different question from state franchise definition or sale permission.",
+      "Franchise/business-opportunity, dealer and relationship authorities were not substantively researched in the existing hub; no absence follows from its employment analysis."
+    ],
+    "relatedPaths": [
+      "/states/massachusetts/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Massachusetts official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Massachusetts regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ma-classification"
+    ],
+    "ruleIds": [
+      "b2-east-ma-services"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ma-classification.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-massachusetts-offer-and-sale-process",
+    "path": "/states/massachusetts/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Massachusetts?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Massachusetts?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Section 148B employment classification answers a different question from state franchise definition or sale permission.",
+      "Franchise/business-opportunity, dealer and relationship authorities were not substantively researched in the existing hub; no absence follows from its employment analysis."
+    ],
+    "relatedPaths": [
+      "/states/massachusetts/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Massachusetts official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Massachusetts regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ma-classification"
+    ],
+    "ruleIds": [
+      "b2-east-ma-services"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ma-classification.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-massachusetts-relationship-protections",
+    "path": "/states/massachusetts/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Massachusetts?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Massachusetts?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Section 148B employment classification answers a different question from state franchise definition or sale permission.",
+      "Franchise/business-opportunity, dealer and relationship authorities were not substantively researched in the existing hub; no absence follows from its employment analysis."
+    ],
+    "relatedPaths": [
+      "/states/massachusetts/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Massachusetts official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Massachusetts regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ma-classification"
+    ],
+    "ruleIds": [
+      "b2-east-ma-services"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ma-classification.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-massachusetts-updates-and-renewals",
+    "path": "/states/massachusetts/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Massachusetts?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Massachusetts?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Section 148B employment classification answers a different question from state franchise definition or sale permission.",
+      "Franchise/business-opportunity, dealer and relationship authorities were not substantively researched in the existing hub; no absence follows from its employment analysis."
+    ],
+    "relatedPaths": [
+      "/states/massachusetts/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Massachusetts official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Massachusetts regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ma-classification"
+    ],
+    "ruleIds": [
+      "b2-east-ma-services"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ma-classification.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-mississippi-relationship-definition",
+    "path": "/states/mississippi/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Mississippi require franchise or business-opportunity analysis?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Mississippi require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The 2018 enrolled Act and enactment record establish historical provisions only.",
+      "The SOS-linked current official publisher route returned a browser/cookie bootstrap; present §§75-24-51–63 and later amendments/cases were not read.",
+      "No current franchise classification, sales, termination or nonrenewal conclusion is supplied from historical text alone."
+    ],
+    "relatedPaths": [
+      "/states/mississippi/"
+    ],
+    "researchCompleteness": "objective-current-primary-access-block",
+    "sourceChecklist": [
+      "Mississippi official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Mississippi regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status",
+      "b3-state-ms-code-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ms-historical-notice"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ms-2018.txt",
+      "research/raw/batch2/east/ms-status.txt",
+      "research/raw/batch3/state/ms-code-sos.txt",
+      "research/raw/batch3/state/ms-code-public-shell.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-mississippi-offer-and-sale-process",
+    "path": "/states/mississippi/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Mississippi?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Mississippi?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The 2018 enrolled Act and enactment record establish historical provisions only.",
+      "The SOS-linked current official publisher route returned a browser/cookie bootstrap; present §§75-24-51–63 and later amendments/cases were not read.",
+      "No current franchise classification, sales, termination or nonrenewal conclusion is supplied from historical text alone."
+    ],
+    "relatedPaths": [
+      "/states/mississippi/"
+    ],
+    "researchCompleteness": "current-primary-access-block-plus-unresearched-sales-process",
+    "sourceChecklist": [
+      "Mississippi official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Mississippi regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status",
+      "b3-state-ms-code-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ms-historical-notice"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ms-2018.txt",
+      "research/raw/batch2/east/ms-status.txt",
+      "research/raw/batch3/state/ms-code-sos.txt",
+      "research/raw/batch3/state/ms-code-public-shell.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "Current §§75-24-51–63 access block; other initial sales-process branches also unresearched."
+  },
+  {
+    "candidateId": "candidate-states-mississippi-relationship-protections",
+    "path": "/states/mississippi/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Mississippi?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Mississippi?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The 2018 enrolled Act and enactment record establish historical provisions only.",
+      "The SOS-linked current official publisher route returned a browser/cookie bootstrap; present §§75-24-51–63 and later amendments/cases were not read.",
+      "No current franchise classification, sales, termination or nonrenewal conclusion is supplied from historical text alone."
+    ],
+    "relatedPaths": [
+      "/states/mississippi/"
+    ],
+    "researchCompleteness": "objective-current-primary-access-block",
+    "sourceChecklist": [
+      "Mississippi official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Mississippi regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status",
+      "b3-state-ms-code-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ms-historical-notice"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ms-2018.txt",
+      "research/raw/batch2/east/ms-status.txt",
+      "research/raw/batch3/state/ms-code-sos.txt",
+      "research/raw/batch3/state/ms-code-public-shell.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-mississippi-updates-and-renewals",
+    "path": "/states/mississippi/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Mississippi?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Mississippi?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "The 2018 enrolled Act and enactment record establish historical provisions only.",
+      "The SOS-linked current official publisher route returned a browser/cookie bootstrap; present §§75-24-51–63 and later amendments/cases were not read.",
+      "No current franchise classification, sales, termination or nonrenewal conclusion is supplied from historical text alone."
+    ],
+    "relatedPaths": [
+      "/states/mississippi/"
+    ],
+    "researchCompleteness": "objective-current-primary-access-block",
+    "sourceChecklist": [
+      "Mississippi official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Mississippi regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status",
+      "b3-state-ms-code-sos"
+    ],
+    "ruleIds": [
+      "b2-east-ms-historical-notice"
+    ],
+    "evidencePaths": [
+      "research/raw/batch2/east/ms-2018.txt",
+      "research/raw/batch2/east/ms-status.txt",
+      "research/raw/batch3/state/ms-code-sos.txt",
+      "research/raw/batch3/state/ms-code-public-shell.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "currency-or-access-plus-independent-scope"
+  },
+  {
+    "candidateId": "candidate-states-nebraska-relationship-definition",
+    "path": "/states/nebraska/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Nebraska require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nebraska/franchise-relationship-scope/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Nebraska require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "Independent Franchise Practices Act §§87-402–403 definition and cumulative place-of-business, between-party sales and franchisee sales-share criteria; SAMP classification remains a separate track.",
+    "unresolvedResearch": [
+      "Franchise Practices Act coverage and SAMP filing/exemption coverage are independent; their definitions and territorial/activity criteria must be tested separately.",
+      "Nonalcoholic beverage, petroleum and noncompete branches have additional scope details; no complete industry or federal/state/local clearance."
+    ],
+    "relatedPaths": [
+      "/states/nebraska/",
+      "/states/nebraska/franchise-relationship-scope/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nebraska official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Nebraska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-rel-def",
+      "b2-west-a-ne-rel-scope",
+      "b2-west-a-ne-rel-end"
+    ],
+    "ruleIds": [
+      "b2-west-a-ne-relationship-scope"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ne-def.txt",
+      "research/raw/batch3/state5/ne-scope.txt",
+      "research/raw/batch3/state5/ne-end.txt",
+      "research/raw/batch2/west-a/ne-exempt.txt",
+      "research/raw/batch2/west-a/ne-agency.txt",
+      "research/raw/batch2/west-a/ne-file.txt",
+      "research/raw/batch2/west-a/ne-disclose.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nebraska-offer-and-sale-process",
+    "path": "/states/nebraska/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Nebraska?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nebraska/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Nebraska?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "§59-1722 conditional franchise notice before the specified Nebraska advertising/offers, distinct from nonexempt SAMP filing and disclosure under §§59-1724 and 59-1732.",
+    "unresolvedResearch": [
+      "Franchise Practices Act coverage and SAMP filing/exemption coverage are independent; their definitions and territorial/activity criteria must be tested separately.",
+      "Nonalcoholic beverage, petroleum and noncompete branches have additional scope details; no complete industry or federal/state/local clearance."
+    ],
+    "relatedPaths": [
+      "/states/nebraska/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nebraska official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Nebraska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-def",
+      "b2-west-a-ne-exempt",
+      "b2-west-a-ne-agency",
+      "b2-west-a-ne-file",
+      "b2-west-a-ne-disclose"
+    ],
+    "ruleIds": [
+      "b2-west-a-ne-franchise-notice",
+      "b2-west-a-ne-samp-filing"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ne-def.txt",
+      "research/raw/batch3/state5/ne-scope.txt",
+      "research/raw/batch3/state5/ne-end.txt",
+      "research/raw/batch2/west-a/ne-exempt.txt",
+      "research/raw/batch2/west-a/ne-agency.txt",
+      "research/raw/batch2/west-a/ne-file.txt",
+      "research/raw/batch2/west-a/ne-disclose.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nebraska-relationship-protections",
+    "path": "/states/nebraska/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Nebraska?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nebraska/franchise-relationship-scope/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Nebraska?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "Independent §§87-402–404 good-cause, notice and exception review, including the contractual nonrenewability/reasonable-condition reservation and separate noncompete scope.",
+    "unresolvedResearch": [
+      "Franchise Practices Act coverage and SAMP filing/exemption coverage are independent; their definitions and territorial/activity criteria must be tested separately.",
+      "Nonalcoholic beverage, petroleum and noncompete branches have additional scope details; no complete industry or federal/state/local clearance."
+    ],
+    "relatedPaths": [
+      "/states/nebraska/",
+      "/states/nebraska/franchise-relationship-scope/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nebraska official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Nebraska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-rel-def",
+      "b2-west-a-ne-rel-scope",
+      "b2-west-a-ne-rel-end"
+    ],
+    "ruleIds": [
+      "b2-west-a-ne-relationship-scope"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ne-def.txt",
+      "research/raw/batch3/state5/ne-scope.txt",
+      "research/raw/batch3/state5/ne-end.txt",
+      "research/raw/batch2/west-a/ne-exempt.txt",
+      "research/raw/batch2/west-a/ne-agency.txt",
+      "research/raw/batch2/west-a/ne-file.txt",
+      "research/raw/batch2/west-a/ne-disclose.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nebraska-updates-and-renewals",
+    "path": "/states/nebraska/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Nebraska?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nebraska/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Nebraska?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Agency distinction between a one-time qualifying franchise notice and changes requiring another filing, compared with nonexempt SAMP material-change and annual disclosure filings.",
+    "unresolvedResearch": [
+      "Franchise Practices Act coverage and SAMP filing/exemption coverage are independent; their definitions and territorial/activity criteria must be tested separately.",
+      "Nonalcoholic beverage, petroleum and noncompete branches have additional scope details; no complete industry or federal/state/local clearance."
+    ],
+    "relatedPaths": [
+      "/states/nebraska/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nebraska official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Nebraska regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-def",
+      "b2-west-a-ne-exempt",
+      "b2-west-a-ne-agency",
+      "b2-west-a-ne-file",
+      "b2-west-a-ne-disclose"
+    ],
+    "ruleIds": [
+      "b2-west-a-ne-franchise-notice",
+      "b2-west-a-ne-samp-filing"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/ne-def.txt",
+      "research/raw/batch3/state5/ne-scope.txt",
+      "research/raw/batch3/state5/ne-end.txt",
+      "research/raw/batch2/west-a/ne-exempt.txt",
+      "research/raw/batch2/west-a/ne-agency.txt",
+      "research/raw/batch2/west-a/ne-file.txt",
+      "research/raw/batch2/west-a/ne-disclose.txt"
+    ],
+    "publicationState": "existing",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nevada-relationship-definition",
+    "path": "/states/nevada/relationship-definition/",
+    "family": "state-issue",
+    "title": "When does a partner model in Nevada require franchise or business-opportunity analysis?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nevada/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "When does a partner model in Nevada require franchise or business-opportunity analysis?",
+    "originalPracticalOutput": "State-specific relationship factsheet",
+    "scope": "NRS 597.112–597.114 defined farm-equipment inventory, supplier and dealer agreement, distinct from a generic service franchise.",
+    "unresolvedResearch": [
+      "Only the farm-equipment dealer chapter was researched; generic service-franchise sales, filings, disclosure and other dealer sectors remain separate.",
+      "Notice, correction, inventory eligibility and return/payment conditions differ by the action; no universal amendment notice is inferred."
+    ],
+    "relatedPaths": [
+      "/states/nevada/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nevada official legislation: Definitions, exclusions, required payments and business-opportunity provisions",
+      "Nevada regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-nv-dealers"
+    ],
+    "ruleIds": [
+      "b2-west-a-nv-farm-dealer",
+      "b3-s5-nv-substantial-change"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/nv-dealers-audit.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nevada-offer-and-sale-process",
+    "path": "/states/nevada/offer-and-sale-process/",
+    "family": "state-issue",
+    "title": "What must happen before a franchise offer, agreement or payment connected with Nevada?",
+    "decision": "needs-research",
+    "reason": "The existing hub does not establish this distinct current franchise-law decision. Its other topic, historical text, failed-source audit or narrower statutory branch is not substituted for the missing authority.",
+    "canonicalPath": null,
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "What must happen before a franchise offer, agreement or payment connected with Nevada?",
+    "originalPracticalOutput": "Pre-offer / pre-payment dependency timeline",
+    "scope": "The named current franchise-law branch remains unresolved; related content supplies context only.",
+    "unresolvedResearch": [
+      "Only the farm-equipment dealer chapter was researched; generic service-franchise sales, filings, disclosure and other dealer sectors remain separate.",
+      "Notice, correction, inventory eligibility and return/payment conditions differ by the action; no universal amendment notice is inferred."
+    ],
+    "relatedPaths": [
+      "/states/nevada/"
+    ],
+    "researchCompleteness": "distinct-branch-not-substantively-researched",
+    "sourceChecklist": [
+      "Nevada official legislation: Current sales-law statute, regulator forms, exemption terms and effective dates",
+      "Nevada regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-nv-dealers"
+    ],
+    "ruleIds": [
+      "b2-west-a-nv-farm-dealer",
+      "b3-s5-nv-substantial-change"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/nv-dealers-audit.txt"
+    ],
+    "publicationState": "unresolved",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nevada-relationship-protections",
+    "path": "/states/nevada/relationship-protections/",
+    "family": "state-issue",
+    "title": "Which ongoing relationship terms need separate review in Nevada?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nevada/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which ongoing relationship terms need separate review in Nevada?",
+    "originalPracticalOutput": "Contract-issues table with source and trigger",
+    "scope": "NRS 597.1143–597.118 covered good cause, termination/nonrenewal exceptions, conditional inventory repurchase and nonwaiver.",
+    "unresolvedResearch": [
+      "Only the farm-equipment dealer chapter was researched; generic service-franchise sales, filings, disclosure and other dealer sectors remain separate.",
+      "Notice, correction, inventory eligibility and return/payment conditions differ by the action; no universal amendment notice is inferred."
+    ],
+    "relatedPaths": [
+      "/states/nevada/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nevada official legislation: Relationship statutes, sector dealer laws and current official court decisions",
+      "Nevada regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-nv-dealers"
+    ],
+    "ruleIds": [
+      "b2-west-a-nv-farm-dealer",
+      "b3-s5-nv-substantial-change"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/nv-dealers-audit.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  },
+  {
+    "candidateId": "candidate-states-nevada-updates-and-renewals",
+    "path": "/states/nevada/updates-and-renewals/",
+    "family": "state-issue",
+    "title": "Which franchise updates, renewals or amendments may be triggered in Nevada?",
+    "decision": "merge",
+    "reason": "The existing canonical decision guide, with the stated focused correction where proposed, answers this named question within the precise source-supported scope below. A second generic state-issue page would duplicate that answer; independent gaps remain visible.",
+    "canonicalPath": "/states/nevada/",
+    "decidedAt": "2026-11-12",
+    "decisionReview": "AI-assisted editorial and primary-source review; no professional legal review",
+    "originalQuestion": "Which franchise updates, renewals or amendments may be triggered in Nevada?",
+    "originalPracticalOutput": "Annual and event-driven compliance calendar",
+    "scope": "Covered farm-equipment substantial term change and nonrenewal under .1143/.115/.118; the 180-day termination/nonrenewal period is not applied to every amendment or sales filing.",
+    "unresolvedResearch": [
+      "Only the farm-equipment dealer chapter was researched; generic service-franchise sales, filings, disclosure and other dealer sectors remain separate.",
+      "Notice, correction, inventory eligibility and return/payment conditions differ by the action; no universal amendment notice is inferred."
+    ],
+    "relatedPaths": [
+      "/states/nevada/"
+    ],
+    "researchCompleteness": "scoped-primary-verified",
+    "sourceChecklist": [
+      "Nevada official legislation: Current filing instructions, fee schedule, amendment and renewal rules",
+      "Nevada regulator current form and instructions",
+      "Relevant federal source and independent state overlay"
+    ],
+    "sourceIds": [
+      "b2-west-a-nv-dealers"
+    ],
+    "ruleIds": [
+      "b2-west-a-nv-farm-dealer",
+      "b3-s5-nv-substantial-change"
+    ],
+    "evidencePaths": [
+      "research/raw/batch3/state5/nv-dealers-audit.txt"
+    ],
+    "publicationState": "proposed-update",
+    "researchGapKind": "independent-scope-not-absence"
+  }
+]

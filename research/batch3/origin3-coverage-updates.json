@@ -1,0 +1,255 @@
+[
+  {
+    "id": "origin-bulgaria",
+    "name": "Bulgaria",
+    "slug": "bulgaria",
+    "kind": "origin",
+    "country": "Bulgaria",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-bulgaria-export-register",
+      "b3-origin3-bulgaria-export-current-law"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Bulgarian controlled exports: prepare the national authorization packet after classification. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-croatia",
+    "name": "Croatia",
+    "slug": "croatia",
+    "kind": "origin",
+    "country": "Croatia",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-croatia-current-transfers",
+      "b3-origin3-croatia-dpf-2023",
+      "b3-origin3-commission-adequacy-current"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Croatian U.S. data transfers: check the later framework and the actual recipient. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-hungary",
+    "name": "Hungary",
+    "slug": "hungary",
+    "kind": "origin",
+    "country": "Hungary",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-hungary-invoicing-2026",
+      "b3-origin3-hungary-online-invoices"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Hungarian U.S. invoices: a foreign service location can still leave Hungarian invoice and reporting duties. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-iceland",
+    "name": "Iceland",
+    "slug": "iceland",
+    "kind": "origin",
+    "country": "Iceland",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-iceland-current-law",
+      "b3-origin3-iceland-vat"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Icelandic U.S. service sales: use the current business-customer rule and its local exceptions. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-malta",
+    "name": "Malta",
+    "slug": "malta",
+    "kind": "origin",
+    "country": "Malta",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-malta-vat-latest",
+      "b3-origin3-malta-services"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Maltese U.S. service work: separate the customer test from Article 12 registration. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-romania",
+    "name": "Romania",
+    "slug": "romania",
+    "kind": "origin",
+    "country": "Romania",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-romania-trademark-faq"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Romanian brands: separate the company name, domain and trademark before the U.S. licence. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-slovakia",
+    "name": "Slovakia",
+    "slug": "slovakia",
+    "kind": "origin",
+    "country": "Slovakia",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-slovakia-place"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Slovak service exports: an EU VAT number does not prove the U.S. customer facts. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-slovenia",
+    "name": "Slovenia",
+    "slug": "slovenia",
+    "kind": "origin",
+    "country": "Slovenia",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-slovenia-furs-records",
+      "b3-origin3-slovenia-vat-qna",
+      "b3-origin3-slovenia-atypical-examples"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Slovenian U.S. launch spending: check reverse-charge records and whether eDavki accepted them. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  },
+  {
+    "id": "origin-cyprus",
+    "name": "Cyprus",
+    "slug": "cyprus",
+    "kind": "origin",
+    "country": "Cyprus",
+    "region": "Supplemental / dependency",
+    "convention": "Supplemental business-origin record outside the core M49 Europe group, except Kosovo separately tracked for planning; no political-recognition determination.",
+    "originType": "supplemental",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin3-cyprus-madrid-before",
+      "b3-origin3-cyprus-madrid-apply",
+      "b3-origin3-wipo-mm18"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026: narrow country-specific decision reviewed: Cyprus-to-U.S. Madrid filing: prepare the office-of-origin packet and the MM18 declaration. Only the named issue is conditionally covered. All other topic statuses are preserved; the source conflicts and remaining primary-law/procedure gaps are recorded in the guide and rules. No complete country or U.S. clearance."
+  }
+]

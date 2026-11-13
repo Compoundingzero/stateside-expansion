@@ -1,0 +1,642 @@
+[
+  {
+    "id": "b3-state4-wa-relationship",
+    "title": "Washington distinguishes termination, nonrenewal and exclusive territory",
+    "topic": "relationship",
+    "jurisdiction": "Washington",
+    "activity": "Changing a covered franchise relationship or preparing exit",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Apply RCW 19.100.180 good faith, exclusive-territory, supplier and conduct provisions. Separate pre-expiry termination for good cause, written notice/reasonable cure and exceptions from nonrenewal compensation. Inventory recovery differs between termination and nonrenewal.",
+    "exceptions": "Cure need not exceed 30 days, but where cure cannot reasonably finish then, initiation within 30 days of substantial continuing cure matters. The repeated-breach exception requires three prior willful and material breaches of the same term within 12 months with the required notice/cure opportunities, followed by a subsequent willful and material breach of that same term within that same period. Listed immediate grounds have separate conditions. One-year nonrenewal notice plus written release of a competing covenant removes the stated goodwill compensation branch, not all compensation.",
+    "trigger": "Changing a covered franchise relationship or preparing exit",
+    "deadline": "Identify the exact action before notice; no universal 30-day termination or one-year exit rule",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Defined franchise and state connections",
+      "Contract territory",
+      "Alleged ground and materiality",
+      "Notice/cure history",
+      "Asset source/value",
+      "Nonrenewal notice and competing-covenant writing"
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/washington/relationship-change-and-exit/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-wi-dealership",
+    "title": "Wisconsin Fair Dealership Law has independent scope and notice/cure periods",
+    "topic": "relationship",
+    "jurisdiction": "Wisconsin",
+    "activity": "Termination, nonrenewal or substantial competitive change in a qualifying dealership",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Test Chapter 135 dealership situated in Wisconsin and community-of-interest definitions independently of franchise sales registration. Covered actions require good cause, with burden on grantor; ordinary written notice is 90 days with 60-day rectification. Nonpayment has 10-day cure while 90-day notice remains.",
+    "exceptions": "Section 135.07 excludes specified motor-vehicle parties in that capacity, insurance and door-to-door marketing. Insolvency, assignment for creditors and bankruptcy have statutory notice exceptions. Liquor and arbitration branches require separate analysis.",
+    "trigger": "Termination, nonrenewal or substantial competitive change in a qualifying dealership",
+    "deadline": "Ordinary 90-day advance notice / 60-day rectification; nonpayment 10-day cure from delivery or posting, preserving advance notice",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "State-situated dealership",
+      "Granted sale/distribution/brand rights",
+      "Continuing financial interest",
+      "Excluded sectors",
+      "Cause and comparable requirements",
+      "Notice delivery and cure"
+    ],
+    "sourceIds": [
+      "b3-state4-wi-dealership",
+      "b3-state4-wi-jury"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/wisconsin/fair-dealership-change-and-exit/",
+      "/states/wisconsin/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-va-2026-contract",
+    "title": "Virginia 2026 law changes governing-law and post-term competition clauses",
+    "topic": "relationship",
+    "jurisdiction": "Virginia",
+    "activity": "Offering or entering a covered Virginia franchise agreement after July 1, 2026",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Apply current 13.1-559 scope and mandatory Virginia governing law; 13.1-563(A)(4) prohibits the stated post-termination/expiration retail competition restriction. Follow SCC July 1, 2026 FDD and amendment directions. Separately review reasonable-cause cancellation and undue influence under 13.1-564.",
+    "exceptions": "13.1-563(B) permits the specified restriction on a franchisee sale at a mutually agreed price to a third party or back to franchisor, for no more than two years after sale. This is not a general exception for every expired agreement or a holding about pre-July agreements.",
+    "trigger": "Offering or entering a covered Virginia franchise agreement after July 1, 2026",
+    "deadline": "Changes effective July 1, 2026; previously registered offering expecting a covered sale on/after that date needs the SCC-described amendment first",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Written agreement",
+      "Retail plan/brand/fee facts",
+      "Virginia place of business",
+      "Offer/sale dates",
+      "FDD Items 17/addendum",
+      "Actual negotiated sale price and buyer"
+    ],
+    "sourceIds": [
+      "b3-state4-va-law",
+      "b3-state4-va-2026-notice"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/virginia/contract-law-and-competition-clauses/",
+      "/states/virginia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-ct-relationship",
+    "title": "Connecticut relationship law separates good cause, notice and premises recovery",
+    "topic": "relationship",
+    "jurisdiction": "Connecticut",
+    "activity": "Ending or declining to renew a franchise within 42-133e through 42-133h",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Apply the separate marketing-plan/brand definition and Connecticut place-of-business/date conditions. Covered termination, cancellation and nonrenewal require good cause and ordinarily 60-day written notice stating cause. Special leased-premises notice/service, compensation and minimum-term rules require separate testing.",
+    "exceptions": "Voluntary abandonment uses 30-day notice; specified related conviction can permit effective-on-delivery/written-receipt notice. Subsection 42-133f(e) real-property nonrenewal uses six months. Do not infer a universal statutory cure period from the advance-notice rule.",
+    "trigger": "Ending or declining to renew a franchise within 42-133e through 42-133h",
+    "deadline": "Ordinary 60 days, specified real-property nonrenewal six months, abandonment 30 days; criminal branch and premises service have their own conditions",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Plan/brand rights",
+      "Connecticut business location",
+      "Agreement/renewal/amendment dates",
+      "Actual cause and exception",
+      "Franchisor lease",
+      "Service and receipt",
+      "Eligible asset compensation"
+    ],
+    "sourceIds": [
+      "b3-state4-ct-franchise-current-alt"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/connecticut/termination-and-premises-notice/",
+      "/states/connecticut/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-fl-representations",
+    "title": "Florida 817.416 independently screens investment and market representations",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Florida",
+    "activity": "Selling or establishing a qualifying franchise or distributorship in Florida",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Test 817.416’s actual four-part commercial/distribution/independent-business/basic-goods-supply relationship. For covered relationships, do not intentionally misrepresent success prospects, known total investment or the stated excess-franchise market-sustainability facts.",
+    "exceptions": "The statute’s definition is independent of FTC classification and 559.802 exemption notice. A civil statutory showing is needed; invested-money judgment and fees/costs wording are not an automatic forecast. Ordinary contract performance, good-cause termination and all service models are not determined.",
+    "trigger": "Selling or establishing a qualifying franchise or distributorship in Florida",
+    "deadline": "Review actual representations and omitted facts before selling or establishing the covered arrangement",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Actual basic goods supply and reliance",
+      "Commercial/distribution role",
+      "Known total investment",
+      "Success claims and intention evidence",
+      "Market area and planned outlet count"
+    ],
+    "sourceIds": [
+      "b3-state4-fl-representation"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/florida/investment-and-market-representations/",
+      "/states/florida/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-or-renewal",
+    "title": "Oregon renewal and additional-unit disclosure exceptions have different facts",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Oregon",
+    "activity": "Renewing, amending, expanding or transferring an existing Oregon franchise",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Apply OAR 441-325-0030 separately for renewal/extension/amendment/modification, additional units and owner resale. The renewal branch requires no relationship interruption and no adverse material change in either relationship or prior disclosure information. Additional units require prior disclosure and no adverse material information change.",
+    "exceptions": "Franchisee resale and entire-area resale have their own no-franchisor-involvement and other conditions. Under 0030(4), specified full-record access is required 14 calendar days before the earlier covered agreement/consideration event. 0040 chapter exemption is a separate text; no universal transfer clearance.",
+    "trigger": "Renewing, amending, expanding or transferring an existing Oregon franchise",
+    "deadline": "Test exemption before transaction; otherwise apply 14-calendar-day rule including refundable deposits and all proposed agreements",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Existing relationship and operation",
+      "Prior disclosure version",
+      "Adverse relationship/information changes",
+      "Prior additional-unit disclosure",
+      "Franchisor sale involvement",
+      "Deposit and agreement dates"
+    ],
+    "sourceIds": [
+      "b3-state4-or-law",
+      "b3-state4-or-rules"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/oregon/renewal-and-additional-unit-disclosure/",
+      "/states/oregon/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-wa-scope",
+    "title": "Washington franchise facts are independent of federal classification",
+    "topic": "classification",
+    "jurisdiction": "Washington",
+    "activity": "Granting a branded marketing-plan relationship connected with Washington",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Apply RCW 19.100.010 marketing-plan/brand/fee test, indirect and mandatory-payment provisions, precise fee exclusions and separate sector exclusions.",
+    "exceptions": "Specified insurance and motor-vehicle relationships are excluded from this definition. Business-opportunity law and actual territorial connections require separate review.",
+    "trigger": "Granting a branded marketing-plan relationship connected with Washington",
+    "deadline": "Before relying on registration or definition exclusions",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Actual marketing plan",
+      "Brand association",
+      "Required purchases/training/fees",
+      "Goods/property price basis",
+      "Sector and connection facts"
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/washington/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-wa-updates",
+    "title": "Washington renewal and material-change amendments have different triggers",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Washington",
+    "activity": "Maintaining a registered Washington franchise offering",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "RCW 19.100.070 gives the ordinary one-year registration/identified exemption-claim period. File registration renewal no later than 20 calendar days before expiry. Amend a material adverse franchisor/subfranchisor change or material disclosure change as soon as reasonably possible and before another franchise sale.",
+    "exceptions": "The director may specify a different period. Exemption routes, negotiated franchisee-initiated agreement changes and agency orders require their own analysis.",
+    "trigger": "Maintaining a registered Washington franchise offering",
+    "deadline": "Ordinary renewal at least 20 calendar days before expiry; material amendment as soon as reasonably possible and before further sale",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Effective date",
+      "Renewal due date",
+      "Material-change event/date",
+      "Filed and delivered version",
+      "Next sale date"
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/washington/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-va-exemption-process",
+    "title": "Virginia exemption filing, disclosure and renewal remain separate",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Virginia",
+    "activity": "Using the existing-franchisee, seasoned, institutional or substantial-investment exemption route",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "21VAC5-110-75(7) preserves 14-calendar-day document/agreement delivery for routes 3–6. Seasoned and substantial-investment routes require the specified pre-offer Form H package and annual renewal; the institutional route requires the package at least 10 business days before each offer or sale of each franchise. Material changes require exemption amendment.",
+    "exceptions": "Each route has distinct cumulative conditions. Route 2 unchanged uninterrupted renewal differs. Subdivisions 4(c)/6(d) use 10 business days for annual renewal; 8(c)(1) says 10 days. Preserve that wording rather than assuming calendar days satisfy the specific route. Current submission channel needs confirmation.",
+    "trigger": "Using the existing-franchisee, seasoned, institutional or substantial-investment exemption route",
+    "deadline": "Selected Form H routes at least 10 business days before covered offer/sale; 14 calendar days before agreement/payment for 3–6",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Exact exemption paragraph",
+      "Entity financial/history evidence",
+      "Buyer and counsel facts",
+      "Actual filing receipt",
+      "Document delivery",
+      "Material changes",
+      "Anniversary"
+    ],
+    "sourceIds": [
+      "b3-state4-va-rule",
+      "b3-state4-va-law"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [
+      "The same current regulation uses 10 business days in specific annual routes and 10 days in general renewal-filing paragraph; both are displayed and route-specific timing must be resolved."
+    ],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/virginia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-ri-scope",
+    "title": "Rhode Island franchise and territorial definitions require separate facts",
+    "topic": "classification",
+    "jurisdiction": "Rhode Island",
+    "activity": "Screening a Rhode Island branded business or master-franchise arrangement",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "19-28.1-3 uses the marketing-plan/brand/fee-above-$500 test or master-franchise alternative. Apply 19-28.1-4 offer/acceptance and the outside-state resident-plus-operation branch independently.",
+    "exceptions": "Fee exclusions include bona fide wholesale price for a reasonable quantity of tangible resale goods. Publication/broadcast and claimed registration exemptions have their own conditions. Business-opportunity/sector law is not exhausted.",
+    "trigger": "Screening a Rhode Island branded business or master-franchise arrangement",
+    "deadline": "Before relying on a label, low payment or outlet location",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Rights and plan",
+      "Brand",
+      "Direct/indirect fees",
+      "Master-franchise right",
+      "Offer/acceptance locations",
+      "Residence and planned operation"
+    ],
+    "sourceIds": [
+      "b3-state4-ri-definition",
+      "b3-state4-ri-jurisdiction"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/rhode-island/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-ri-disclosure",
+    "title": "Rhode Island delivery exemptions are not every registration exemption",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Rhode Island",
+    "activity": "Selling a Rhode Island franchise within the delivery rule",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "19-28.1-8 requires a disclosure document reflecting material changes and all proposed agreements at least 14 calendar days before the covered agreement/payment event.",
+    "exceptions": "The statute excepts 19-28.1-6(2),(3),(6),(8); active fractional rule has its own qualified registration/delivery route. Do not convert every claimed registration exemption into delivery exemption.",
+    "trigger": "Selling a Rhode Island franchise within the delivery rule",
+    "deadline": "At least 14 calendar days before execution or consideration under the applicable branch",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Exemption authority and conditions",
+      "Current material-change document",
+      "All proposed agreements",
+      "Delivery and signing/payment evidence"
+    ],
+    "sourceIds": [
+      "b3-state4-ri-disclosure",
+      "state-ri-rule"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/rhode-island/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-ri-updates",
+    "title": "Rhode Island active annual rule and prompt amendments are independent",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Rhode Island",
+    "activity": "Maintaining Rhode Island registration or exemption",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "Apply active regulation 1.4 annual duration rather than blindly using 19-28.1-9(d) fiscal default. Registration runs 365 days from initial effectiveness; exemption 365 days from notice receipt. Statute requires renewal filing 30 days before expiry and prompt material-change amendments under section 11.",
+    "exceptions": "Director rules/orders and effectiveness/additional-information conditions can affect the specific registration. The rule’s fractional exemption has its own filing language.",
+    "trigger": "Maintaining Rhode Island registration or exemption",
+    "deadline": "Renewal filing 30 days before applicable expiry; material changes promptly",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Actual effectiveness/receipt",
+      "Director order",
+      "Renewal filing",
+      "Material-change date and amendment"
+    ],
+    "sourceIds": [
+      "b3-state4-ri-renew",
+      "b3-state4-ri-amend",
+      "state-ri-rule"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/rhode-island/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-sd-delivery",
+    "title": "South Dakota disclosure, delivery and signed receipt are different records",
+    "topic": "sales-disclosure",
+    "jurisdiction": "South Dakota",
+    "activity": "Delivering a covered South Dakota franchise disclosure package",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "37-5B-17 requires current disclosure 14 calendar days before covered signature/payment, with a separate seven-day unilateral material-agreement-change branch. Sections 18 and 11 address actual delivery methods and signed receipt kept three years.",
+    "exceptions": "Sections 12–16 exemptions require separate testing. Prospect-initiated negotiations are excepted from section 17(2), but section 26(7) separately addresses materially different signing terms and must also be assessed.",
+    "trigger": "Delivering a covered South Dakota franchise disclosure package",
+    "deadline": "14-calendar-day initial and applicable seven-day revised-agreement rules; first-class mailing at least three days before the required delivery date, not merely before signature",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Selected exemption",
+      "Document and all agreements",
+      "Version/change initiator",
+      "Delivery/access/mailing date",
+      "Signed receipt and retention"
+    ],
+    "sourceIds": [
+      "b3-state4-sd-17",
+      "b3-state4-sd-disclosure",
+      "b3-state4-sd-11",
+      "b3-state4-sd-26"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/south-dakota/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-sd-updates",
+    "title": "South Dakota annual and quarterly disclosure updates do not require ordinary update filing",
+    "topic": "sales-disclosure",
+    "jurisdiction": "South Dakota",
+    "activity": "Maintaining a South Dakota franchise disclosure package",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "37-5B-7 requires annual revised disclosure within 120 days after fiscal close and reasonable-time quarterly material-change revisions, with current delivery and known financial-performance changes. Ordinary disclosure updates need no division filing under that section.",
+    "exceptions": "Annual notice renewal remains separate. Section 6 permits director-required changes. Section 26 includes reasonable-request disclosure/substantiation and signing-difference duties.",
+    "trigger": "Maintaining a South Dakota franchise disclosure package",
+    "deadline": "Annual revision within 120 days; quarterly changes within reasonable time; known financial-performance changes at disclosure",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Fiscal close",
+      "Annual version",
+      "Quarterly revision",
+      "Prospect delivery",
+      "Financial-performance changes",
+      "Director request"
+    ],
+    "sourceIds": [
+      "b3-state4-sd-change",
+      "b3-state4-sd-6",
+      "b3-state4-sd-26"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/south-dakota/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-ct-business-track",
+    "title": "Connecticut trademark exclusion does not answer other business-opportunity triggers",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Connecticut",
+    "activity": "Offering a Connecticut business opportunity or relying on the mark-related marketing-program exclusion",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "36b-61(2) has separate device-location, buyback, income/refund and marketing-program limbs. For a covered non-exempt opportunity, 36b-62 registration precedes offer/sale and effectiveness requires commissioner order. 36b-63 uses ten business days before the earlier contract/money-or-value event, including state cover/additional-content requirements. Material changes and annual renewal remain separate.",
+    "exceptions": "Mark-related marketing-program exclusion and 36b-65 exemptions need actual facts and current form evidence. The statutory burden rests on the claimant. No general exemption for every FTC-compliant franchise or for ordinary customer-location assistance.",
+    "trigger": "Offering a Connecticut business opportunity or relying on the mark-related marketing-program exclusion",
+    "deadline": "Registration before covered offer/sale; disclosure at least ten business days before earlier contract/value event; material-change notice immediately; registered opportunity renewal within 120 days of fiscal close",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Exact definition limb",
+      "Current mark/licence claim",
+      "Selected exemption",
+      "Commissioner effectiveness order",
+      "Ten-business-day delivery evidence",
+      "Material changes",
+      "Fiscal-year renewal"
+    ],
+    "sourceIds": [
+      "b3-state4-ct-business-current-alt",
+      "b2-east-ct-form"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/connecticut/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state4-ct-business-claims",
+    "title": "Connecticut covered business-opportunity claims need separate evidence",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Connecticut",
+    "activity": "Advertising or selling a covered Connecticut business opportunity",
+    "affectedParty": "Parties within the precise cited statutory or regulatory definitions",
+    "applicability": "Apply the cited state-specific definitions, territorial connections, selected exemption and actual transaction facts; no universal state-law clearance.",
+    "requirement": "36b-67 requires documented income/earnings data and disclosure of that data when such claims are made, prohibits inconsistent advertising/oral representations, and prohibits the stated advertising/prospect-contact reference to Act compliance. Section 80 separately addresses false/misleading statements and material omissions within its scope.",
+    "exceptions": "Apply actual business-opportunity definition/exclusion and precise exemption scope; neither a filing nor permission to use a mark validates success claims. Section 65 exemptions do not universally exempt every sales-practice subdivision.",
+    "trigger": "Advertising or selling a covered Connecticut business opportunity",
+    "deadline": "Substantiate and disclose required income data at the time of the representation; review actual advertising/prospect contact before use",
+    "fee": null,
+    "renewal": "Apply the stated annual, event-driven or contract-change branch; no uniform period applies to all routes.",
+    "dependencies": [],
+    "evidence": [
+      "Definition/exemption facts",
+      "Actual advertisement and oral script",
+      "Documented income data",
+      "Timing of data delivery",
+      "Compliance wording",
+      "Document consistency"
+    ],
+    "sourceIds": [
+      "b3-state4-ct-business-current-alt"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current official statutory/rule/guidance branch within stated scope",
+    "verifiedAt": "2026-11-13T01:31:11.469294+00:00",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction-specific finding, professional legal review or complete sector-law survey."
+    ],
+    "dependentPaths": [
+      "/states/connecticut/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

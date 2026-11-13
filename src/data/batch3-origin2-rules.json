@@ -1,0 +1,388 @@
+[
+  {
+    "id": "b3-o2-pl-ksef-delivery",
+    "title": "A foreign customer does not remove the Polish KSeF invoice-delivery workstream",
+    "topic": "corporate-tax",
+    "jurisdiction": "Poland",
+    "activity": "Issuing a covered Polish online KSeF invoice to a U.S. customer without Polish NIP",
+    "affectedParty": "The covered Polish invoice issuer, accounting-system owner and customer-billing lead",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "For a covered online invoice, the ministry FAQ describes issuance in KSeF, a consistent foreign-recipient visualisation through an agreed channel and the applicable QR/KSeF reference. Additional acceptance/shipping documents remain outside KSeF. Confirm issuer scope and transitional exceptions separately.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Issuing a covered Polish online KSeF invoice to a U.S. customer without Polish NIP",
+    "deadline": "Resolve scope and delivery channel before the first covered invoice; apply current mode-specific issuance timing.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Issuer/transaction KSeF applicability decision",
+      "KSeF invoice and reference/acceptance record",
+      "Consistent agreed-channel customer copy and delivery record",
+      "Separate service acceptance or transport evidence"
+    ],
+    "sourceIds": [
+      "b3-o2-pl-faq"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a VAT place/rate/exemption determination or a rule for every foreign establishment.",
+      "Ordinary online case only; offline/outage modes and their different QR/timing rules remain to be designed.",
+      "2026 transitional exceptions require current fact-specific confirmation."
+    ],
+    "dependentPaths": [
+      "/from/poland/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-cz-report-map",
+    "title": "The Czech VAT Control Statement is a separate transaction-level report",
+    "topic": "corporate-tax",
+    "jurisdiction": "Czechia",
+    "activity": "Reconciling a Czech VAT payer’s U.S. pilot invoices and local input records",
+    "affectedParty": "The Czech VAT-registered entity and its tax-return/Control Statement preparer",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "Official guidance distinguishes the VAT Control Statement, VAT return and intra-EU Recapitulative Statement. The Control Statement follows named reportable domestic/acquisition/input categories; an absence of those categories does not itself remove the VAT-return obligation.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Reconciling a Czech VAT payer’s U.S. pilot invoices and local input records",
+    "deadline": "Classify the period before preparing each applicable filing; confirm actual current period/deadline and corrections.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "VAT-payer status and period",
+      "Issued/received invoice classification into reportable categories",
+      "Separate return/control/recapitulative applicability matrix",
+      "Filed outputs, acknowledgements and correction log"
+    ],
+    "sourceIds": [
+      "b3-o2-cz-vat"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No conclusion about the VAT place of a U.S. service, every taxpayer registration or a nil filing.",
+      "English page includes historic introduction/sanction material; no monetary penalty or unreviewed current deadline is reproduced."
+    ],
+    "dependentPaths": [
+      "/from/czechia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-pt-trademark",
+    "title": "A Portuguese trademark does not itself create U.S. brand protection",
+    "topic": "ip-data",
+    "jurisdiction": "Portugal",
+    "activity": "Choosing an international trademark filing route before licensing a Portuguese brand in America",
+    "affectedParty": "The actual trademark owner/applicant and international IP filing lead",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "The current INPI service page limits Portuguese rights to Portugal and describes national/EU/Madrid routes. For its international route, retain a Portuguese application/registration, designated countries and matching request, including the named U.S. intention-to-use declaration when designating the U.S. A priority claim from the Portuguese filing has a six-month window.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Choosing an international trademark filing route before licensing a Portuguese brand in America",
+    "deadline": "Before relying on U.S. protection in an appointment; if claiming Portuguese priority, file within the stated six-month period.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Actual mark owner, mark representation and goods/services",
+      "Portuguese basic filing/registration and filing date",
+      "Chosen countries/route and U.S. declaration",
+      "Priority calendar and application/decision records"
+    ],
+    "sourceIds": [
+      "b3-o2-pt-international"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "An application or Madrid designation is not an automatic U.S. grant or clearance of conflicts.",
+      "Eligibility, classes, representations, fees, objections and current U.S. examination remain transaction-specific."
+    ],
+    "dependentPaths": [
+      "/from/portugal/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-gr-breach-clock",
+    "title": "Greek-controller breach handling needs an awareness and risk record",
+    "topic": "ip-data",
+    "jurisdiction": "Greece",
+    "activity": "Responding to a U.S. partner incident affecting data under a Greek controller’s responsibility",
+    "affectedParty": "The Greek controller/privacy lead and its authorised notification filer, subject to competent-authority analysis",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "Where HDPA is competent, its guidance describes risk-based supervisory notification without undue delay and where feasible within 72 hours of controller awareness; incomplete information can be provided initially and supplemented. Even a breach not notified must be internally recorded; high-risk individual communication is separate.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Responding to a U.S. partner incident affecting data under a Greek controller’s responsibility",
+    "deadline": "Start the awareness/risk record immediately; apply the competent authority’s notification and update requirements.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Controller/processor roles and competent authority decision",
+      "Awareness time, affected data/persons and risk assessment",
+      "Notification/non-notification decision with reasons",
+      "Initial/supplementary notices and separate individual-communication assessment"
+    ],
+    "sourceIds": [
+      "b3-o2-gr-breach"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not every security incident is a personal-data breach or reportable breach.",
+      "Greek origin alone does not settle cross-border lead-authority competence; individual-notice exceptions and sector rules need review."
+    ],
+    "dependentPaths": [
+      "/from/greece/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-gr-portal",
+    "title": "A Greek-established controller should prepare the HDPA portal route",
+    "topic": "ip-data",
+    "jurisdiction": "Greece",
+    "activity": "Preparing who can file a breach notification for a Greek-established controller",
+    "affectedParty": "The Greek controller/privacy lead and its authorised notification filer, subject to competent-authority analysis",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "HDPA instructions require portal submission using Taxisnet credentials available to Greek-established controllers. Its English/email alternative is described for specified cross-border/extraterritorial cases and non-Greek-established controllers unable to use Taxisnet; it is not an unrestricted substitute for the Greek portal.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Preparing who can file a breach notification for a Greek-established controller",
+    "deadline": "Assign an authorised local filer before an incident; do not delay a required initial notice for a complete investigation.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Authorised filer and portal-readiness record without sharing credentials",
+      "Controller establishment and authority/route decision",
+      "Prepared incident facts/template and secure transmission procedure"
+    ],
+    "sourceIds": [
+      "b3-o2-gr-submit",
+      "b3-o2-gr-breach"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This research did not log in, submit a notice or test credentials.",
+      "Do not transfer Taxisnet credentials to a U.S. partner; route/authority and actual notification remain the controller’s decision."
+    ],
+    "dependentPaths": [
+      "/from/greece/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-lu-recap-boundary",
+    "title": "Luxembourg’s other-EU recapitulative report is distinct from U.S. customer billing",
+    "topic": "corporate-tax",
+    "jurisdiction": "Luxembourg",
+    "activity": "Mapping a Luxembourg supplier’s U.S. and other-EU service customers to filings",
+    "affectedParty": "The Luxembourg VAT supplier and its customer-classification/eCDF reporting preparer",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "Guichet describes recapitulative statements in addition to VAT returns for qualifying goods/services involving customers in other EU Member States, with customer country/VAT identifiers and values through eCDF. It separately describes the general B2B receiving-establishment principle. A customer’s foreign name or U.S. headquarters alone does not classify the actual receiving establishment or report.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Mapping a Luxembourg supplier’s U.S. and other-EU service customers to filings",
+    "deadline": "Identify actual recipient, service and receiving establishment before invoice/report classification; confirm current eCDF period and cutoff.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Actual contracting/receiving entity and establishment",
+      "Service classification and applicable exception analysis",
+      "Other-EU identifier and reporting row if applicable",
+      "Separate VAT-return/recapitulative reconciliation and eCDF acknowledgement"
+    ],
+    "sourceIds": [
+      "b3-o2-lu-services",
+      "b3-o2-lu-recap"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Guichet pages are dated January 2023; later statutory and digital/event exceptions are not comprehensively reconciled here.",
+      "No blanket no-Luxembourg-VAT, no-return or no-U.S.-tax conclusion.",
+      "A U.S. group’s EU receiving branch may change the analysis."
+    ],
+    "dependentPaths": [
+      "/from/luxembourg/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-ee-received-services",
+    "title": "An Estonian U.S. pilot can trigger limited VAT registration through its purchases",
+    "topic": "corporate-tax",
+    "jurisdiction": "Estonia",
+    "activity": "A defined Estonian non-VAT-registered business receives listed services from a foreign business not registered for VAT in Estonia",
+    "affectedParty": "The defined Estonian purchaser or Estonian permanent establishment and its finance/tax lead",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "The Tax and Customs Board describes registration with limited VAT liability from receipt of the specified foreign services, including listed advertising, consulting/data-processing, IP-use and electronically supplied services. The application is due within three working days of the registration obligation. The separate intra-EU goods threshold is not a services exemption.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "A defined Estonian non-VAT-registered business receives listed services from a foreign business not registered for VAT in Estonia",
+    "deadline": "Review before receiving the service; where triggered, apply within three working days from the obligation date.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Actual purchaser’s VAT status and establishment",
+      "Foreign supplier’s Estonian VAT-registration status",
+      "Service description/classification and receipt date",
+      "Registration decision/application/confirmation"
+    ],
+    "sourceIds": [
+      "b3-o2-ee-limited",
+      "b3-o2-ee-register-limited"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The rule excludes already-taxable persons and non-business natural persons as described in the source.",
+      "Actual service classification and place/supplier facts require confirmation; not every invoice is identical."
+    ],
+    "dependentPaths": [
+      "/from/estonia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-ee-cost-record",
+    "title": "Limited Estonian VAT liability is not a free input-tax recovery status",
+    "topic": "corporate-tax",
+    "jurisdiction": "Estonia",
+    "activity": "Budgeting and recording transactions after limited VAT registration",
+    "affectedParty": "The defined Estonian purchaser or Estonian permanent establishment and its finance/tax lead",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "Official guidance says a limited-liability VAT person has no input-tax deduction, must account/pay applicable VAT and preserve records, and files returns in relevant transaction periods. Do not model the resulting tax as automatically deductible or treat the number as full VAT registration.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Budgeting and recording transactions after limited VAT registration",
+    "deadline": "Reflect the actual tax cost in purchase approval and follow applicable period/payment/record requirements.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Applicable foreign-service invoice and tax calculation",
+      "Non-deduction/cost treatment decision",
+      "Records, returns and payment acknowledgement"
+    ],
+    "sourceIds": [
+      "b3-o2-ee-limited",
+      "b3-o2-ee-reminder"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No universal rate, filing deadline or choice between limited/full registration is prescribed here.",
+      "Later intra-EU goods purchases and use of the limited-registration number have separate consequences."
+    ],
+    "dependentPaths": [
+      "/from/estonia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-lv-export-proof",
+    "title": "Latvian export zero-rating needs proof and an advance-payment clock",
+    "topic": "products-supply",
+    "jurisdiction": "Latvia",
+    "activity": "A Latvian registered supplier sells and exports goods for a U.S. pilot",
+    "affectedParty": "The Latvian registered taxpayer exporting the goods and its logistics/tax lead",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "Current Latvian VAT Law § 43(1) applies a zero rate to goods exports; § 51 denies it without the required supporting documents, whose categories are set by Cabinet. § 51(4) also addresses advances where goods are not dispatched/service not started within six months, with § 51(5) exceptions including specified longer manufacturing and already-started supplies/services.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "A Latvian registered supplier sells and exports goods for a U.S. pilot",
+    "deadline": "Resolve evidence before relying on zero-rating; track any applicable advance six-month condition and exceptions.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Specific goods transaction, seller, consignee and route",
+      "Applicable current Cabinet evidence list and actual export records",
+      "Invoice/payment-to-shipment reconciliation",
+      "Advance date, shipment/start date and any documented statutory exception"
+    ],
+    "sourceIds": [
+      "b3-o2-lv-law-current"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Current Latvian text read; available official English translation is outdated and not used as current law.",
+      "Complete current Cabinet documentary list and U.S. import/classification/tariff obligations are not reviewed.",
+      "A U.S. buyer or service-fee label alone does not establish goods export or a zero rate."
+    ],
+    "dependentPaths": [
+      "/from/latvia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-o2-lt-isaf-types",
+    "title": "Lithuanian i.SAF needs document-type classification, not one undifferentiated U.S. invoice folder",
+    "topic": "corporate-tax",
+    "jurisdiction": "Lithuania",
+    "activity": "Classifying a Lithuanian VAT filer’s issued, foreign-purchase, advance and import documents",
+    "affectedParty": "The Lithuanian VAT filer and its accounts-payable/receivable and tax preparer",
+    "applicability": "Only the named country-specific process and its actual prerequisites; no overall U.S. expansion clearance.",
+    "requirement": "VMI KM1945 distinguishes issued VAT invoices, foreign purchase documents creating a Lithuanian VAT-accounting obligation, customs declarations, proformas and actual advance VAT invoices. KM1947 specifies EUR taxable/VAT amounts; KM1943 explains why registers and the final VAT return can differ. Determine the actual document/tax classification before populating registers.",
+    "exceptions": "Confirm actual entity/status, transaction, receiving party and any specific statutory exceptions. Do not copy a result to another country or activity.",
+    "trigger": "Classifying a Lithuanian VAT filer’s issued, foreign-purchase, advance and import documents",
+    "deadline": "Classify in the correct reporting period and confirm current register codes, submission deadline and correction procedure.",
+    "fee": null,
+    "renewal": "Recheck when the facts, reporting period, system instructions or governing rule change.",
+    "dependencies": [],
+    "evidence": [
+      "Actual issuer/recipient, tax status and document type",
+      "Foreign invoice Lithuanian-VAT obligation decision",
+      "Separate customs/advance/proforma records",
+      "EUR amount/translation workpaper and register-to-return reconciliation"
+    ],
+    "sourceIds": [
+      "b3-o2-lt-registers"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official guidance or specified current statutory text",
+    "verifiedAt": "2026-11-13T00:59:21Z",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Lithuanian-language official FAQ summarised in English; KM1945 is dated 10 July 2025 and the cited currency/reconciliation answers 22 November 2018.",
+      "The guide does not determine place of supply or assign a current classification code, tax rate or deadline.",
+      "Not every foreign invoice is obligatorily included and not every accounting document is a VAT invoice."
+    ],
+    "dependentPaths": [
+      "/from/lithuania/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

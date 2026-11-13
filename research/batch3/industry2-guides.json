@@ -1,0 +1,1717 @@
+[
+  {
+    "id": "b3-i2-landscaping",
+    "path": "/industries/landscaping/",
+    "title": "California landscaping: split the contract into landscape and pesticide tasks",
+    "description": "Use the actual work menu to identify contractor and pesticide credential decisions.",
+    "family": "industry",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-landscape-task",
+      "b3-i2-landscape-pesticide",
+      "b3-i2-landscape-trigger"
+    ],
+    "sourceIds": [
+      "b3-i2-ca-landscape",
+      "b3-i2-ca-pesticide",
+      "b3-i2-ca-law2026"
+    ],
+    "sections": [
+      {
+        "heading": "A maintenance label does not describe every task",
+        "paragraphs": [
+          "CSLB’s C-27 classification describes landscape systems and facilities work, including construction, maintenance, repair, installation and associated grading. A contract sold as garden care may contain several different tasks. Record them before choosing a contractor category or deciding whether a specific exemption applies.",
+          "This classification text does not establish that every mowing job requires a C-27 licence. The actual contract, operator, task, exemption and permitting facts still have to be checked."
+        ],
+        "sourceIds": [
+          "b3-i2-ca-landscape"
+        ]
+      },
+      {
+        "heading": "A small price is not the whole exemption",
+        "paragraphs": [
+          "After identifying contractor work, the 2026 law book’s Section 7048 requires an aggregate project price below $1,000 including labour, materials and all items, casual/minor/inconsequential work and no building permit. It also excludes the stated larger-project/splitting situations, contractor-indicating advertising and employing anyone to perform or assist.",
+          "Record those facts together. Do not divide a larger installation into small invoices or assume a small contract qualifies when staff assist. This still does not classify routine nonconstruction gardening by itself."
+        ],
+        "sourceIds": [
+          "b3-i2-ca-law2026"
+        ]
+      },
+      {
+        "heading": "Adding a pesticide service creates another credential branch",
+        "paragraphs": [
+          "California DPR separately licenses or certifies listed pesticide businesses and qualified applicators. Its categories include maintenance gardener pest-control businesses. An operator’s trade credential, product supplier or brand training does not decide which pesticide business and person category applies.",
+          "Identify the treatment, product, application method and actual person/business. Obtain the category and applicable county/product-use answers before including treatment in the standard service menu; those detailed determinations are not supplied here."
+        ],
+        "sourceIds": [
+          "b3-i2-ca-pesticide"
+        ]
+      },
+      {
+        "heading": "Fictional example: a route adds irrigation and chemical treatment",
+        "paragraphs": [
+          "A landscape partner begins with routine grounds care, then proposes irrigation installation and pest treatment for commercial customers. Operations separates those tasks in the quote, obtains the relevant contractor/pesticide answers and assigns the actual qualified people. The old route checklist is not treated as authority for the expanded work."
+        ],
+        "sourceIds": [
+          "b3-i2-ca-landscape",
+          "b3-i2-ca-pesticide"
+        ]
+      },
+      {
+        "heading": "Build a priced task-and-credential menu",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Sales",
+              "Exact maintenance, grading, irrigation, tree and treatment tasks"
+            ],
+            [
+              "Operator",
+              "Actual contractor category/exemption and issued records where required"
+            ],
+            [
+              "Pesticide lead",
+              "Business/person categories, product/use and county answers"
+            ],
+            [
+              "Site lead",
+              "Water/noise, access, local permissions and disposal conditions"
+            ],
+            [
+              "Finance",
+              "Scoped qualification, equipment and treatment costs; unknowns retained"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-ca-landscape",
+          "b3-i2-ca-pesticide"
+        ]
+      },
+      {
+        "heading": "Limits of this California example",
+        "paragraphs": [
+          "This is a classification and credential-planning branch, not nationwide landscaping permission. Current thresholds/exemptions, irrigation/tree specifics, county pesticide registration, water restrictions and every actual site condition remain to be resolved."
+        ],
+        "sourceIds": [
+          "b3-i2-ca-landscape",
+          "b3-i2-ca-pesticide"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A service menu that links actual landscape/pesticide tasks to operator, person and site evidence.",
+    "limitations": [
+      "California sources only; no actual exemption, pesticide use or local permit decision."
+    ]
+  },
+  {
+    "id": "b3-i2-commercial-laundry",
+    "path": "/industries/commercial-laundry/",
+    "title": "NYC commercial laundry: separate the business licence from the discharge decision",
+    "description": "Confirm the client/process category and the actual receiving wastewater authority before committing to a plant.",
+    "family": "industry",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "New York City",
+      "Federal pretreatment"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-laundry-license",
+      "b3-i2-laundry-water"
+    ],
+    "sourceIds": [
+      "b3-i2-nyc-laundry",
+      "b3-i2-pretreat-def",
+      "b3-i2-pretreat-control"
+    ],
+    "sections": [
+      {
+        "heading": "Commercial service and an institution’s own laundry are different facts",
+        "paragraphs": [
+          "NYC DCWP describes an Industrial Laundry licence for the named commercial-client/institutional activities. Its definition covers washing, drying, starching or ironing for a fee and excludes dry cleaning. It also lists hospital and exclusively residential facility exclusions. A contractor serving a hospital should not assume it is the hospital’s own exempt laundry.",
+          "The application file separates the operating entity/owner self-certification, delivery information where relevant, tax and required insurance evidence. An ordinary general-liability certificate is not automatically every required workers/disability or additional-insured document."
+        ],
+        "sourceIds": [
+          "b3-i2-nyc-laundry"
+        ]
+      },
+      {
+        "heading": "A sewer connection is not the industrial-discharge classification",
+        "paragraphs": [
+          "Federal pretreatment definitions distinguish the receiving control authority, indirect industrial discharge and significant-user criteria. Section 403.8 describes the program’s permits/equivalent controls and qualified general-control alternatives. These provisions do not make every laundry a significant industrial user.",
+          "Provide the actual process, discharge route, design/operating flow, chemicals and pollutants to the competent receiving authority. Obtain the site’s classification, limits and any monitoring/control requirements rather than treating the laundry licence as a discharge authorisation."
+        ],
+        "sourceIds": [
+          "b3-i2-pretreat-def",
+          "b3-i2-pretreat-control"
+        ]
+      },
+      {
+        "heading": "Fictional example: outsourced hotel and hospital linen",
+        "paragraphs": [
+          "A partner proposes one NYC plant for hotel and hospital linen. It classifies the commercial service rather than claiming a client’s hospital exemption. Its engineer identifies the actual receiving system and process water before equipment and lease commitments; operations keeps business licensing and wastewater decisions as separate release records."
+        ],
+        "sourceIds": [
+          "b3-i2-nyc-laundry",
+          "b3-i2-pretreat-def"
+        ]
+      },
+      {
+        "heading": "Prepare a plant decision file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Clients, ownership and precise laundry/delivery process"
+            ],
+            [
+              "Licence lead",
+              "Applicable DCWP file and issued record"
+            ],
+            [
+              "Engineer",
+              "Flow, chemistry, receiving POTW/control authority and written determination"
+            ],
+            [
+              "Premises lead",
+              "Boiler, fire/building, utilities and actual discharge/site conditions"
+            ],
+            [
+              "Finance",
+              "Separate licence, coverage, treatment and monitoring allowances"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-nyc-laundry",
+          "b3-i2-pretreat-control"
+        ]
+      },
+      {
+        "heading": "What is not cleared",
+        "paragraphs": [
+          "This review does not establish the site’s actual NYC discharge permit or local limits. Boiler/fire/building, textile/chemical handling and detailed workplace requirements remain separate. Dry cleaning and direct discharge need their own route."
+        ],
+        "sourceIds": [
+          "b3-i2-nyc-laundry",
+          "b3-i2-pretreat-def"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An operator/process/site file separating industrial-laundry licensing from wastewater classification and plant costs.",
+    "limitations": [
+      "NYC business and federal pretreatment framework only; no actual-site or categorical/SIU determination."
+    ]
+  },
+  {
+    "id": "b3-i2-waste-services",
+    "path": "/industries/waste-services/",
+    "title": "A waste-hauling proposal: classify the stream before building the transporter file",
+    "description": "A hazardous-waste route has specific actors, records and handoffs; it is not the whole waste-services market.",
+    "family": "industry",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Federal hazardous-waste transportation"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-waste-transporter"
+    ],
+    "sourceIds": [
+      "b3-i2-epa-waste"
+    ],
+    "sections": [
+      {
+        "heading": "The material and movement come before the truck",
+        "paragraphs": [
+          "EPA’s hazardous-waste transportation guidance distinguishes off-site movement from specified on-site/contiguous-property situations. The transporter role depends on the actual classified waste and movement, not the name waste collection on a franchise brochure.",
+          "For covered hazardous-waste transport, EPA describes an identification number assigned to the transporting company, not a different transporter number for every truck. That does not determine the generator’s site-specific role or a state/local hauling permission."
+        ],
+        "sourceIds": [
+          "b3-i2-epa-waste"
+        ]
+      },
+      {
+        "heading": "Trace acceptance through the named destination",
+        "paragraphs": [
+          "The guidance describes applicable manifest acceptance, signatures, delivery and retention, with stated exceptions and transport-mode differences. Identify the generator, transporting company, intermediate actors and designated recipient. An invoice showing collection occurred does not demonstrate the required shipment trail.",
+          "Temporary holding and storage/transfer facilities have separate conditions; do not assume a depot can become a storage operation because a truck is parked there. DOT hazardous-material requirements and authorised-state duties remain separate workstreams."
+        ],
+        "sourceIds": [
+          "b3-i2-epa-waste"
+        ]
+      },
+      {
+        "heading": "Fictional example: a facilities route adds a customer’s solvent waste",
+        "paragraphs": [
+          "A facilities partner that previously collected ordinary rubbish proposes collecting a customer’s solvent waste. It obtains a competent waste classification and resolves transporter, packaging, manifest and destination responsibilities before accepting the job. It does not reuse an ordinary rubbish contract or promise that one federal record covers local collection rights."
+        ],
+        "sourceIds": [
+          "b3-i2-epa-waste"
+        ]
+      },
+      {
+        "heading": "Build a stream-and-actor acceptance sheet",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Customer/generator",
+              "Actual materials, use/contamination history and classification"
+            ],
+            [
+              "Transport operator",
+              "Company ID and applicable state/DOT permissions"
+            ],
+            [
+              "Dispatcher",
+              "Applicable manifest/exception and designated route/recipient"
+            ],
+            [
+              "Receiving facility",
+              "Scope of acceptance and signed delivery evidence"
+            ],
+            [
+              "Site lead",
+              "Any transfer/storage conditions and emergency response interface"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-epa-waste"
+        ]
+      },
+      {
+        "heading": "Keep the other waste businesses open",
+        "paragraphs": [
+          "This does not classify a real waste stream or clear municipal private-hauling/franchise rules, storage, treatment or disposal. Nonhazardous waste and international shipments require different research. Unknown classification, insurance and disposal costs remain unknown."
+        ],
+        "sourceIds": [
+          "b3-i2-epa-waste"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A waste-stream acceptance and transport handoff file with named generator, transporter and recipient evidence.",
+    "limitations": [
+      "Federal hazardous-waste transportation only; no site/stream/municipal collection clearance."
+    ]
+  },
+  {
+    "id": "b3-i2-electrical-services",
+    "path": "/industries/electrical-services/",
+    "title": "Texas electrical contracting: connect the business licence to its master of record",
+    "description": "A licensed individual and a contracting business are separate pieces of the operating file.",
+    "family": "industry",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Texas"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-electrical-company"
+    ],
+    "sourceIds": [
+      "b3-i2-tx-electric"
+    ],
+    "sections": [
+      {
+        "heading": "Name the contracting entity and employed master",
+        "paragraphs": [
+          "TDLR’s Electrical Contractor application describes the contracting business and an employed licensed Master Electrician of record; the master may also be the owner. Its assignment rule includes a stated majority-ownership exception, so neither one-master-per-entire-brand nor unlimited sharing is a sound starting assumption.",
+          "Map the actual work and applicable category/exemption first. Sign, appliance, maintenance and other specialised categories are not automatically resolved by the general contractor page."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-electric"
+        ]
+      },
+      {
+        "heading": "A change of responsible person is an operating event",
+        "paragraphs": [
+          "The page sets out notification/replacement steps when the master leaves, alongside required business-liability and worker-coverage documentation. Put the responsible-person relationship in the business continuity file rather than treating the first application as the last check.",
+          "The contractor record also does not establish every employee’s qualification or a project’s local permit/inspection conditions. Assign those actual job checks before dispatch."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-electric"
+        ]
+      },
+      {
+        "heading": "Fictional example: a technical brand appoints two Texas operators",
+        "paragraphs": [
+          "A technical brand wants two separately owned partners to sell electrical installations. Each identifies its actual contracting entity, master relationship and applicable licensing route. The brand’s senior trainer is not simply nominated across the network without checking the assignment facts and licence rules."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-electric"
+        ]
+      },
+      {
+        "heading": "Prepare the entity/person/job roster",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Commercial lead",
+              "Exact services and actual contracting entity"
+            ],
+            [
+              "Operator",
+              "Contractor/category/exemption and issued record"
+            ],
+            [
+              "Master/HR lead",
+              "Employment, assignment, current status and departure procedure"
+            ],
+            [
+              "Finance",
+              "Required coverage evidence and separate cost quote"
+            ],
+            [
+              "Job lead",
+              "Personnel credentials and actual local permit/inspection answers"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-tx-electric"
+        ]
+      },
+      {
+        "heading": "Limited Texas scope",
+        "paragraphs": [
+          "No reciprocity, technician eligibility, actual exemption, insurance sufficiency or local permit approval is given. Current application/renewal terms and specialised task rules must be checked for the business and job."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-electric"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A Texas electrical entity/master roster plus project and continuity release checks.",
+    "limitations": [
+      "Texas contractor application only; no nationwide or job-specific authorisation."
+    ]
+  },
+  {
+    "id": "b3-i2-plumbing-services",
+    "path": "/industries/plumbing-services/",
+    "title": "Texas plumbing: make the RMP and company responsibilities visible",
+    "description": "Connect the responsible master, workforce and job permits rather than relying on a brand certificate.",
+    "family": "industry",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Texas"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-plumbing-rmp"
+    ],
+    "sourceIds": [
+      "b3-i2-tx-plumbing"
+    ],
+    "sections": [
+      {
+        "heading": "A master licence and the RMP designation are not the same record",
+        "paragraphs": [
+          "The Texas board describes prerequisites for the Responsible Master Plumber designation, including a current Texas master licence, good standing and the required coverage evidence. It states that an RMP may be of record for only one company at a time.",
+          "Identify the actual operating company and responsible person before offering the contracts. A partnership chart, overseas qualification or brand-training certificate is not the issued RMP record."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-plumbing"
+        ]
+      },
+      {
+        "heading": "The responsible role reaches employees and subcontractors",
+        "paragraphs": [
+          "The board’s scope description includes general supervision/management of work under the licence, required permits/inspections, current worker licences/registrations and specified direct supervision where registrants work. Subcontractor status does not remove that stated management branch.",
+          "Put each actual worker and supervisor against the job. Local permit and inspection requirements still depend on the actual code authority; the state designation is not the site’s inspection result."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-plumbing"
+        ]
+      },
+      {
+        "heading": "Fictional example: a maintenance network adds plumbing calls",
+        "paragraphs": [
+          "A maintenance network proposes a Texas plumbing service. It identifies the company/RMP relationship and separates licensed staff, registrants and subcontractors in the dispatch roster. Before accepting a call, the job lead confirms scope and permit/inspection responsibility instead of assuming the facilities-service contract supplies trade authority."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-plumbing"
+        ]
+      },
+      {
+        "heading": "Use a company-to-job evidence sheet",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Company of record and actual contract scope"
+            ],
+            [
+              "RMP",
+              "Designation, current master status and required coverage"
+            ],
+            [
+              "Dispatch",
+              "Worker credentials and job-specific supervision"
+            ],
+            [
+              "Permit lead",
+              "Actual local permit requests and inspection outcomes"
+            ],
+            [
+              "Fleet/admin",
+              "Required business/licence identification and change records"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-tx-plumbing"
+        ]
+      },
+      {
+        "heading": "What remains specific",
+        "paragraphs": [
+          "This page does not decide an exemption, approve a worker’s eligibility or provide nationwide plumbing permission. Local code, particular permits, insurance terms, renewal and actual service scope remain to be confirmed."
+        ],
+        "sourceIds": [
+          "b3-i2-tx-plumbing"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A company/RMP/workforce/job responsibility chain with permit and inspection evidence.",
+    "limitations": [
+      "Texas RMP branch only; no actual job or all-professional qualification decision."
+    ]
+  },
+  {
+    "id": "b3-i2-equipment-servicing",
+    "path": "/industries/equipment-servicing/",
+    "title": "Equipment servicing: agree the host–contractor energy-control handoff",
+    "description": "For covered OSHA work, both employers need a procedure interface before the technician starts.",
+    "family": "industry",
+    "topic": "employment",
+    "jurisdictions": [
+      "Federal OSHA general-industry scope"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-equipment-energy"
+    ],
+    "sourceIds": [
+      "b3-i2-lockout"
+    ],
+    "sections": [
+      {
+        "heading": "The client’s isolation process and the service company’s process must meet",
+        "paragraphs": [
+          "For servicing within 29 CFR 1910.147’s scope, paragraph (f)(2) requires the on-site and outside employers to inform each other of their lockout/tagout procedures. The on-site employer must ensure its employees understand the restrictions of the outside employer’s energy-control program.",
+          "The rule sits inside a defined scope with exclusions and other standards. First identify the equipment, task and unexpected energisation/stored-energy exposure. Do not assign one generic procedure to construction, electrical, refrigerant or every maintenance task."
+        ],
+        "sourceIds": [
+          "b3-i2-lockout"
+        ]
+      },
+      {
+        "heading": "A procedure exchange is not the whole safety program",
+        "paragraphs": [
+          "The standard also addresses the employer program, authorised/affected employees, training and relevant isolation/verification, group and shift interfaces. A client induction or signed brand checklist is not by itself evidence that these actual requirements have been met.",
+          "Prepare a job-specific handoff identifying the relevant procedures, responsible personnel and coordination points. Qualified people must develop/apply the actual safe-work method; this page is not an instruction for isolating a machine."
+        ],
+        "sourceIds": [
+          "b3-i2-lockout"
+        ]
+      },
+      {
+        "heading": "Fictional example: a contractor clears a customer’s production machine",
+        "paragraphs": [
+          "An equipment-service partner sends staff to clear a customer’s jammed machine. Before covered work, the two employers establish the applicable energy-control interface and authorised roles, including any handover between crews. The service manager does not treat the customer’s stopped control button as the entire isolation decision."
+        ],
+        "sourceIds": [
+          "b3-i2-lockout"
+        ]
+      },
+      {
+        "heading": "Retain a two-employer handoff",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Job lead",
+              "Equipment/task/energy and applicable-standard assessment"
+            ],
+            [
+              "Host employer",
+              "Relevant procedure and affected-worker interface"
+            ],
+            [
+              "Service employer",
+              "Outside procedure, authorised people and training evidence"
+            ],
+            [
+              "Supervisors",
+              "Isolation/verification and group/shift responsibilities"
+            ],
+            [
+              "Contract manager",
+              "Unresolved trade, access and emergency conditions"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-lockout"
+        ]
+      },
+      {
+        "heading": "Do not confuse a safety interface with a trade licence",
+        "paragraphs": [
+          "Workplace procedures do not authorise electrical, pressure-system or refrigerant work. Other standards, State Plans, task exclusions and customer-site conditions need their own evidence."
+        ],
+        "sourceIds": [
+          "b3-i2-lockout"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A job-specific host/contractor procedure and authorised-person handoff, without prescribing the actual isolation method.",
+    "limitations": [
+      "Defined OSHA scope only; not a safe-work recipe or all-equipment licence."
+    ]
+  },
+  {
+    "id": "b3-i2-logistics-services",
+    "path": "/industries/logistics-services/",
+    "title": "Logistics expansion: decide the broker role before the security and authority file",
+    "description": "Separate paid transport arrangement from carrying, forwarding and warehousing.",
+    "family": "industry",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Federal FMCSA property brokerage"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-logistics-role",
+      "b3-i2-logistics-security"
+    ],
+    "sourceIds": [
+      "b3-i2-broker-definition",
+      "b3-i2-broker-security"
+    ],
+    "sections": [
+      {
+        "heading": "A dispatcher label does not settle the actual role",
+        "paragraphs": [
+          "49 CFR 371.2 defines compensated arrangement of property transport by an authorised motor carrier and gives qualified carrier/bona-fide-agent distinctions. Record who contracts, accepts transport responsibility, receives compensation and decides how traffic is allocated.",
+          "A pre-existing carrier relationship is not automatically the qualified agent arrangement. Equally, do not declare every service desk a broker without examining the actual facts. Warehousing, forwarding, customs and intrastate activity need separate classifications."
+        ],
+        "sourceIds": [
+          "b3-i2-broker-definition"
+        ]
+      },
+      {
+        "heading": "The broker’s financial security is ongoing",
+        "paragraphs": [
+          "The current 387.307 section is effective 16 January 2026 and requires the stated $75,000 bond/trust security with BMC-84/BMC-85 evidence. It includes acceptable trust assets, continuing effect and notice/suspension conditions. The security amount is not an application fee, premium or complete insurance budget.",
+          "Assign someone to monitor coverage, claims/notices and the actual active authority. An older registration page’s portal and processing-time description is not used here as current instruction."
+        ],
+        "sourceIds": [
+          "b3-i2-broker-security"
+        ]
+      },
+      {
+        "heading": "Fictional example: a foreign brand sells a U.S. load-arranging service",
+        "paragraphs": [
+          "A logistics brand proposes that a U.S. partner arrange loads for several independent carriers. Its commercial lead maps the actual contracts, responsibility and allocation discretion before choosing the regulatory role. If the broker route applies, finance builds the actual entity’s continuing security/filing file rather than counting a franchise joining fee as the required financial evidence."
+        ],
+        "sourceIds": [
+          "b3-i2-broker-definition",
+          "b3-i2-broker-security"
+        ]
+      },
+      {
+        "heading": "Prepare a role-and-continuity file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Commercial lead",
+              "Contracts, compensation and traffic-allocation facts"
+            ],
+            [
+              "Regulatory lead",
+              "Actual broker/carrier/agent/forwarder decision"
+            ],
+            [
+              "Finance/provider",
+              "Required security, forms and current provider/asset evidence"
+            ],
+            [
+              "Operator",
+              "Current authority and notice/cancellation response"
+            ],
+            [
+              "Scope owner",
+              "Separate warehouse, customs, intrastate and hazardous-material questions"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-broker-definition",
+          "b3-i2-broker-security"
+        ]
+      },
+      {
+        "heading": "The model still needs actual registration review",
+        "paragraphs": [
+          "No particular authority application, agent exception, current portal or processing duration is approved. Carrier safety/insurance, customs brokerage, forwarding and premises are distinct from this property-broker branch."
+        ],
+        "sourceIds": [
+          "b3-i2-broker-definition",
+          "b3-i2-broker-security"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A contract-based logistics role decision and continuing broker-security/authority evidence file.",
+    "limitations": [
+      "Federal property-broker scope only; no all-logistics or actual-registration conclusion."
+    ]
+  },
+  {
+    "id": "b3-i2-bookkeeping-services",
+    "path": "/industries/bookkeeping-services/",
+    "title": "Bookkeeping expansion: mark where return-preparer and CPA jobs begin",
+    "description": "Use service boundaries and actual credentials before adding tax preparation or attest claims.",
+    "family": "industry",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Federal IRS",
+      "California CPA example"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-bookkeeping-ptin",
+      "b3-i2-bookkeeping-cpa"
+    ],
+    "sourceIds": [
+      "b3-i2-ptin",
+      "b3-i2-cpa-handbook"
+    ],
+    "sections": [
+      {
+        "heading": "List the work before promising professional authority",
+        "paragraphs": [
+          "Separate transaction recording, payroll support, federal-return preparation, client representation and financial-statement/attest services. IRS’s current preparer page describes valid applicable-year PTIN requirements for compensated federal-return preparation. A bookkeeping label does not decide whether a person is doing that work.",
+          "The page is in the 2027 application cycle; check the actual preparation year rather than copying that year onto every current job. A PTIN is not itself CPA licensing, e-file approval or a grant of every representation right."
+        ],
+        "sourceIds": [
+          "b3-i2-ptin"
+        ]
+      },
+      {
+        "heading": "Verify the actual CPA and the authority of the service",
+        "paragraphs": [
+          "California’s Board of Accountancy handbook distinguishes current/restricted licence checks and the A/G attest-authority indication. An active CPA record does not mean every service or report is authorised for every person.",
+          "The handbook recommends an engagement letter specifying scope, who performs the work, outsourcing, client duties, cost and timing. Treat that as a useful service-design recommendation, not a finding that every bookkeeping contract has the same mandatory terms."
+        ],
+        "sourceIds": [
+          "b3-i2-cpa-handbook"
+        ]
+      },
+      {
+        "heading": "Fictional example: a home-country bookkeeping team adds U.S. tax work",
+        "paragraphs": [
+          "A bookkeeping brand begins with ledger support and proposes adding paid U.S. returns and a CPA-branded financial report. It assigns actual preparers and professionals to the separate functions, verifies the applicable-year and California authority records and records the outsourcing boundary. It does not present the original bookkeeping training as all three permissions."
+        ],
+        "sourceIds": [
+          "b3-i2-ptin",
+          "b3-i2-cpa-handbook"
+        ]
+      },
+      {
+        "heading": "Build a service-and-credential schedule",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Service lead",
+              "Specific bookkeeping, preparation, representation and attest tasks"
+            ],
+            [
+              "Tax preparer",
+              "Applicable-year PTIN and other actual tax-practice/e-file requirements"
+            ],
+            [
+              "Professional lead",
+              "Actual CPA/firm status, restrictions and attest authority"
+            ],
+            [
+              "Client lead",
+              "Written scope, outsourcing and client-responsibility agreement"
+            ],
+            [
+              "Data lead",
+              "Actual access, confidentiality and other privacy/security obligations"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-ptin",
+          "b3-i2-cpa-handbook"
+        ]
+      },
+      {
+        "heading": "No universal bookkeeping licence conclusion",
+        "paragraphs": [
+          "These are a federal preparer trigger and a California CPA example. They do not establish that ordinary bookkeeping is licence-free nationwide or resolve every state title, professional-practice, payroll, data-security or foreign-outsourcing rule."
+        ],
+        "sourceIds": [
+          "b3-i2-ptin",
+          "b3-i2-cpa-handbook"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A service scope and named-credential schedule separating ledger work, paid returns and CPA/attest services.",
+    "limitations": [
+      "No blanket bookkeeping exemption or professional authority; current year and actual tasks control."
+    ]
+  },
+  {
+    "id": "b3-i2-marketing-services",
+    "path": "/industries/marketing-services/",
+    "title": "Marketing services: assign the client–agency commercial-email duties",
+    "description": "B2B campaigns and outsourced sending still need an actual sender and opt-out workflow.",
+    "family": "industry",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Federal CAN-SPAM"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-marketing-email"
+    ],
+    "sourceIds": [
+      "b3-i2-marketing"
+    ],
+    "sections": [
+      {
+        "heading": "B2B is not a general commercial-email exception",
+        "paragraphs": [
+          "FTC’s CAN-SPAM guide says the law is not limited to bulk messages and makes no exception for B2B email. Its primary-purpose distinction matters when a message mixes promotion with transactional or relationship information. An existing customer account does not make every promotion a transactional notice.",
+          "Classify the actual campaign and identify the promoted business and sender. Review headers, subject, required identification/address and opt-out information against that purpose rather than importing a home-market template."
+        ],
+        "sourceIds": [
+          "b3-i2-marketing"
+        ]
+      },
+      {
+        "heading": "Outsourcing sending does not contract away responsibility",
+        "paragraphs": [
+          "FTC says the promoted company and actual sender may both be responsible. Its guide describes an opt-out mechanism available for the stated period and honouring requests within 10 business days, without the prohibited fees or extra steps.",
+          "Test how the agency receives a request, how the client suppression list changes and how other sending tools are updated. A clause assigning email to the agency is not evidence that the opt-out actually worked."
+        ],
+        "sourceIds": [
+          "b3-i2-marketing"
+        ]
+      },
+      {
+        "heading": "Fictional example: a service agency runs a client launch",
+        "paragraphs": [
+          "A marketing partner sends a U.S. client’s launch campaign to business contacts. Before sending, the teams classify the message, approve the identity/address/opt-out fields and test request flow across the campaign platform and client list. The next campaign is held until the suppression test shows the requested addresses are treated correctly."
+        ],
+        "sourceIds": [
+          "b3-i2-marketing"
+        ]
+      },
+      {
+        "heading": "Keep a campaign release and suppression record",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Client",
+              "Promoted business, claims and actual campaign purpose"
+            ],
+            [
+              "Agency",
+              "Sending identity, subject and required message fields"
+            ],
+            [
+              "Operations",
+              "Working opt-out and request/action timestamps"
+            ],
+            [
+              "Platform owner",
+              "Suppression across the relevant systems"
+            ],
+            [
+              "Account owner",
+              "Client/vendor monitoring and change responsibility"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-marketing"
+        ]
+      },
+      {
+        "heading": "Other marketing channels and laws remain separate",
+        "paragraphs": [
+          "This covers a named commercial-email workflow only. SMS/calls, lead collection, state privacy, sensitive/regulated-client advertising, endorsements and franchise recruitment claims require separate review."
+        ],
+        "sourceIds": [
+          "b3-i2-marketing"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A client/agency campaign-release record with tested opt-out and suppression ownership.",
+    "limitations": [
+      "Commercial email only; no blanket consent, privacy, telemarketing or advertising-claim clearance."
+    ]
+  },
+  {
+    "id": "b3-i2-pet-services",
+    "path": "/industries/pet-services/",
+    "title": "NYC small-animal boarding: connect the permit, supervisor and admission record",
+    "description": "A booking platform does not replace the actual site, animal-care and inspection workstreams.",
+    "family": "industry",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "New York City"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-pets-opening",
+      "b3-i2-pets-records"
+    ],
+    "sourceIds": [
+      "b3-i2-nyc-boarding",
+      "b3-i2-pet-code"
+    ],
+    "sections": [
+      {
+        "heading": "Define the boarding operation and supervising person",
+        "paragraphs": [
+          "NYC’s boarding instructions and Health Code describe the premises permit and required animal-care/handling course certificate for the supervising role. The permit instructions require inspection and manager certification before operation. A personal pet-ownership record or brand animal-care class is not that evidence.",
+          "Keep the exact site/service/species facts. Article 161.15 restricts the specified paid boarding/grooming/training in an occupied dwelling; do not choose premises solely because a booking platform describes the service as home boarding."
+        ],
+        "sourceIds": [
+          "b3-i2-nyc-boarding",
+          "b3-i2-pet-code"
+        ]
+      },
+      {
+        "heading": "Admission is an evidence decision too",
+        "paragraphs": [
+          "The reviewed code specifies animal/service records and vaccination or qualified-exemption evidence for the stated activities. Assign who verifies the applicable admission documents and retains the records, alongside veterinary/incident escalation.",
+          "This is not a universal vaccination list or a veterinary diagnosis. Species, service, exemptions and current public-health/local conditions must be checked. Retail animal sales and veterinary practice are separate branches."
+        ],
+        "sourceIds": [
+          "b3-i2-pet-code"
+        ]
+      },
+      {
+        "heading": "Fictional example: a boarding brand adds a New York location",
+        "paragraphs": [
+          "A boarding brand’s partner selects a NYC site and a supervising manager. It confirms the actual premises category, permit/inspection and required certificate, then tests an admission file for one fictional animal. The reservation is not released just because the customer paid; required documents and site readiness have separate owners."
+        ],
+        "sourceIds": [
+          "b3-i2-nyc-boarding",
+          "b3-i2-pet-code"
+        ]
+      },
+      {
+        "heading": "Use a site-to-animal opening file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual site, species and service category"
+            ],
+            [
+              "Licence lead",
+              "Applicable permit and inspection record"
+            ],
+            [
+              "Supervisor",
+              "Required certificate and displayed evidence"
+            ],
+            [
+              "Admission lead",
+              "Animal/owner identity and required vaccination/exemption records"
+            ],
+            [
+              "Operations",
+              "Retention, incident/veterinary escalation and reporting duties"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-nyc-boarding",
+          "b3-i2-pet-code"
+        ]
+      },
+      {
+        "heading": "Source and operating limits",
+        "paragraphs": [
+          "The city portal contains legacy technical renewal/upload text, which is not used as current instruction. No fee or all-species/veterinary/retail-sale/zoning permission is supplied; obtain current forms and site-specific conditions."
+        ],
+        "sourceIds": [
+          "b3-i2-nyc-boarding",
+          "b3-i2-pet-code"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A premises/supervisor opening file and animal-specific admission/record checklist.",
+    "limitations": [
+      "Defined NYC boarding/grooming branch only; no veterinary or all-pet-business clearance."
+    ]
+  },
+  {
+    "id": "b3-i2-retail",
+    "path": "/industries/retail/",
+    "title": "Consumer-product resale: keep a recall and inventory-release record",
+    "description": "A used or donated item still needs the actual product and corrective-action decision.",
+    "family": "industry",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Federal CPSC: consumer-product resale"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-retail-recall"
+    ],
+    "sourceIds": [
+      "b3-i2-retail-sale-law",
+      "b3-i2-retail-resale-faq"
+    ],
+    "sections": [
+      {
+        "heading": "A resale label does not clear the item",
+        "paragraphs": [
+          "CPSC’s resale FAQ says resellers are not required to test used products, while making clear that this does not permit unlawful products. Identify the actual item and applicable product regime before treating that statement as permission to put it on a shelf or online listing.",
+          "Current 15 USC 2068(a)(2) describes prohibited sale/distribution categories under specified corrective-action, order and ban conditions. Subsection(b) contains qualified certificate/good-faith provisions. Assess those conditions rather than repeating an unlimited slogan about every informal recall."
+        ],
+        "sourceIds": [
+          "b3-i2-retail-resale-faq",
+          "b3-i2-retail-sale-law"
+        ]
+      },
+      {
+        "heading": "Match the evidence to the item and disposition",
+        "paragraphs": [
+          "Record model, serial/lot information and the actual notice/order or product requirement. Hold an unresolved item out of the sale workflow while the responsible person obtains the applicable disposition/remedy answer. This internal hold is an operating recommendation, not a substitute for the legal analysis.",
+          "The certificate, broader product-safety and reporting jobs have a separate general guide. This page addresses the distinct intake/listing/release decision; it does not duplicate a complete consumer-product certification or incident-reporting workflow."
+        ],
+        "sourceIds": [
+          "b3-i2-retail-sale-law",
+          "b3-i2-retail-resale-faq"
+        ]
+      },
+      {
+        "heading": "Fictional example: a resale shop receives returned consumer goods",
+        "paragraphs": [
+          "A retail partner receives used goods with incomplete model information and a supplier assurance. Its inventory lead identifies the items, checks the actual corrective-action information and records the legal/remedy basis before release. A receipt labelled used or a donation record is not treated as the product decision."
+        ],
+        "sourceIds": [
+          "b3-i2-retail-resale-faq"
+        ]
+      },
+      {
+        "heading": "Maintain an item-release log",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Intake",
+              "Exact product/model/serial/lot and supplier/source"
+            ],
+            [
+              "Product lead",
+              "Applicable category and actual notice/order/ban"
+            ],
+            [
+              "Decision owner",
+              "Any statutory qualification and remedy evidence"
+            ],
+            [
+              "Inventory",
+              "Hold/release/disposition status and date"
+            ],
+            [
+              "Management",
+              "Separate product reporting, certificate, tax and premises workstreams"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-retail-sale-law",
+          "b3-i2-retail-resale-faq"
+        ]
+      },
+      {
+        "heading": "Defined retail scope",
+        "paragraphs": [
+          "The official statute is compiled through Public Law 119-124 of 15 October 2026. No particular item is cleared, and a supplier assurance is not automatically the statutory good-faith/certificate exception. Food/drug, other excluded/special products, tax and premises remain separate."
+        ],
+        "sourceIds": [
+          "b3-i2-retail-sale-law"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An item-specific recall/notice/qualification and inventory-release log.",
+    "limitations": [
+      "Federal consumer-product resale only; no product approval, general testing exemption or actual remedy decision."
+    ]
+  },
+  {
+    "id": "b3-i2-healthcare-adjacent-services",
+    "path": "/industries/healthcare-adjacent-services/",
+    "title": "Nonclinical medical billing: map the HIPAA business-associate data chain",
+    "description": "The actual client, function and PHI determine the arrangement; a health-adjacent label does not.",
+    "family": "industry",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Federal HIPAA: defined medical billing"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-medbilling-phi"
+    ],
+    "sourceIds": [
+      "b3-i2-medbilling"
+    ],
+    "sections": [
+      {
+        "heading": "Define the nonclinical function and the information",
+        "paragraphs": [
+          "HHS lists billing and claims processing among possible business-associate functions when the covered-entity and protected-health-information facts apply. Identify the actual client, function and data access rather than treating every health-related business as a HIPAA covered entity or every vendor as a business associate.",
+          "Keep medical practice and diagnostic decisions outside the proposed billing scope. This federal data-role analysis does not establish a state professional, clinic, ownership or reimbursement authorisation."
+        ],
+        "sourceIds": [
+          "b3-i2-medbilling"
+        ]
+      },
+      {
+        "heading": "Follow the subcontractor data chain",
+        "paragraphs": [
+          "The reviewed HHS guidance describes required written arrangements addressing permitted uses/disclosures and applicable safeguards. A business associate also needs the stated arrangement before giving PHI to a downstream subcontractor for the covered work.",
+          "Record which systems and people create, receive, maintain or transmit PHI, including a proposed home-country support team. A signed agreement alone does not perform security, incident handling, access or return/destruction duties, and brand ownership alone does not decide the role."
+        ],
+        "sourceIds": [
+          "b3-i2-medbilling"
+        ]
+      },
+      {
+        "heading": "Fictional example: a billing operator proposes offshore support",
+        "paragraphs": [
+          "A nonclinical billing partner for an actual covered provider proposes sending claim records to a separate support vendor. Before access is granted, the parties classify the roles, permitted data/function and required subcontractor arrangement. The rollout file names access and incident owners; it does not advertise a generic HIPAA certification."
+        ],
+        "sourceIds": [
+          "b3-i2-medbilling"
+        ]
+      },
+      {
+        "heading": "Prepare a function-and-PHI flow file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Client lead",
+              "Actual covered-entity/function/PHI determination"
+            ],
+            [
+              "Operations",
+              "Permitted nonclinical tasks and access map"
+            ],
+            [
+              "Contract lead",
+              "Applicable BAA and downstream vendor arrangements"
+            ],
+            [
+              "Security lead",
+              "Access, safeguards and incident responsibilities"
+            ],
+            [
+              "Exit owner",
+              "Applicable return/destruction and continued-protection obligations"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-medbilling"
+        ]
+      },
+      {
+        "heading": "What is not researched",
+        "paragraphs": [
+          "No professional-practice, ownership, claims-payment, complete HIPAA or cross-border-data-transfer determination is made. Actual exceptions, client facts, state privacy and technical safeguards need their own evidence."
+        ],
+        "sourceIds": [
+          "b3-i2-medbilling"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A nonclinical billing role/PHI/subcontractor map with required contract and operating responsibilities.",
+    "limitations": [
+      "Defined federal data-role branch only; no clinical authority or compliance certification."
+    ]
+  },
+  {
+    "id": "b3-i2-restoration-services",
+    "path": "/industries/restoration-services/",
+    "title": "Texas mold restoration: separate the company, licensed person and project roles",
+    "description": "Mold assessment/remediation is a distinct question from a general renovation lead-work guide.",
+    "family": "industry",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Texas: defined mold activities"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-mold-operator",
+      "b3-i2-mold-project"
+    ],
+    "sourceIds": [
+      "b3-i2-mold-company",
+      "b3-i2-mold-contractor",
+      "b3-i2-mold-faq"
+    ],
+    "sections": [
+      {
+        "heading": "A remediation company and its responsible person are separate records",
+        "paragraphs": [
+          "TDLR’s company application distinguishes the assessment consultant and remediation contractor responsible-person roles, an in-state office and required coverage or permitted alternatives. The individual contractor route separately addresses training/experience, application, background and examination.",
+          "Choose the actual covered work and exemption first. A restoration franchise certificate, general construction background or company application is not the individual’s issued credential."
+        ],
+        "sourceIds": [
+          "b3-i2-mold-company",
+          "b3-i2-mold-contractor"
+        ]
+      },
+      {
+        "heading": "Do not combine assessment and remediation just because one brand can do both",
+        "paragraphs": [
+          "TDLR’s FAQ describes same-project separation even where both licences are held, with a stated school-district qualification. It also explains why licensed small-project work is not automatically outside the regulatory duties and discusses protocol/work-plan requirements.",
+          "Record project facts and the lawful assessment/protocol/remediation assignments. Do not apply a small-area, property or homeowner exception without its conditions; this guide does not decide one."
+        ],
+        "sourceIds": [
+          "b3-i2-mold-faq"
+        ]
+      },
+      {
+        "heading": "Fictional example: a water-damage operator adds mold work",
+        "paragraphs": [
+          "A restoration partner proposes mold assessment and cleanup after a water event. It separates the actual assessment and remediation roles, verifies company/person records and resolves applicable project/protocol duties before promising a combined package. Rebuilding, lead, asbestos and insurance-adjusting work are not silently included."
+        ],
+        "sourceIds": [
+          "b3-i2-mold-company",
+          "b3-i2-mold-contractor",
+          "b3-i2-mold-faq"
+        ]
+      },
+      {
+        "heading": "Prepare a defined mold-project release file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Scope lead",
+              "Actual task/property/area and exemption facts"
+            ],
+            [
+              "Company",
+              "Issued category, Texas office and coverage evidence"
+            ],
+            [
+              "Responsible person",
+              "Current issued credential and workforce roles"
+            ],
+            [
+              "Project lead",
+              "Assessment/protocol, remediation plan and lawful separation"
+            ],
+            [
+              "Client lead",
+              "Applicable notifications, records and separate adjacent-work decisions"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-mold-company",
+          "b3-i2-mold-contractor",
+          "b3-i2-mold-faq"
+        ]
+      },
+      {
+        "heading": "Why this is not a renovation alias",
+        "paragraphs": [
+          "The existing renovation guide addresses EPA lead-work screening; these Texas company/person/project decisions are different. Cleaning/drying, construction, lead, asbestos, clearance and insurance outcomes still need their own scope-specific authority."
+        ],
+        "sourceIds": [
+          "b3-i2-mold-faq"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A Texas mold operator/person/project role file with a documented exemption and protocol decision.",
+    "limitations": [
+      "Defined Texas mold branch only; no actual exemption, cleanup clearance or general restoration permission."
+    ]
+  },
+  {
+    "id": "b3-i2-specialty-food-products",
+    "path": "/industries/specialty-food-products/",
+    "title": "Defined acidified foods: separate classification, processor registration and process filing",
+    "description": "Use the actual shelf-stable product and processor/container records before promising a U.S. production route.",
+    "family": "industry",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Federal FDA: defined acidified foods"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-i2-acid-scope",
+      "b3-i2-acid-filing"
+    ],
+    "sourceIds": [
+      "b3-i2-acid-define",
+      "b3-i2-acid-reg"
+    ],
+    "sections": [
+      {
+        "heading": "The product name does not establish the acidified-food category",
+        "paragraphs": [
+          "21 CFR 114.3 distinguishes acidified foods from naturally acid and other excluded foods using the actual formulation, water activity, finished equilibrium pH and storage/process facts. Not every product called sauce or pickle follows the same route; refrigerated and other stated exclusions matter.",
+          "Have a competent food/process lead establish the category from actual evidence. This is not a recipe instruction or an assurance that adding acid or measuring pH informally produces a lawful shelf-stable product."
+        ],
+        "sourceIds": [
+          "b3-i2-acid-define"
+        ]
+      },
+      {
+        "heading": "Processor registration and scheduled-process filing do different jobs",
+        "paragraphs": [
+          "For covered activity, 108.25 distinguishes U.S. establishment registration timing, foreign registration before import offering and scheduled-process filing for the relevant food/container. It expressly says filing is not FDA approval. Do not treat a registration number as the product’s scientific or market clearance.",
+          "The section also addresses adherence to scheduled processes, trained operating supervision, records and recall procedures. Assign the actual processor and brand/co-packer interface; general food-facility or franchise documents do not silently supply these records."
+        ],
+        "sourceIds": [
+          "b3-i2-acid-reg"
+        ]
+      },
+      {
+        "heading": "Fictional example: a brand considers a shelf-stable acidified product",
+        "paragraphs": [
+          "A specialty-food brand compares its foreign processor with a U.S. co-packer for a proposed product. First it obtains a qualified classification and process answer, then records the actual establishment, product/container and filing/supervision responsibilities. It does not apply the rule merely because the sales description says pickled."
+        ],
+        "sourceIds": [
+          "b3-i2-acid-define",
+          "b3-i2-acid-reg"
+        ]
+      },
+      {
+        "heading": "Prepare a product–processor filing file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Food/process lead",
+              "Actual formulation, storage and category/exclusion evidence"
+            ],
+            [
+              "Processor",
+              "Applicable establishment registration and timing"
+            ],
+            [
+              "Technical lead",
+              "Scheduled process and actual product/container filing"
+            ],
+            [
+              "Operations",
+              "Required supervision, process/deviation and record system"
+            ],
+            [
+              "Supply lead",
+              "Separate import, label, facility and state/local requirements"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-acid-define",
+          "b3-i2-acid-reg"
+        ]
+      },
+      {
+        "heading": "Keep the category narrow",
+        "paragraphs": [
+          "This answers a defined acidified-food branch, not all specialty food. No product approval, process validation, FSVP/prior-notice, USDA allocation, label or state manufacturing permission is decided. The separate process requirements in 21 CFR 114.83 have not been fully reviewed here."
+        ],
+        "sourceIds": [
+          "b3-i2-acid-define",
+          "b3-i2-acid-reg"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A qualified product-category brief and actual processor/product/container filing responsibility file.",
+    "limitations": [
+      "Defined federal acidified-food scope only; no food-safety, import or product-approval assurance."
+    ]
+  },
+  {
+    "id": "b2-salons",
+    "path": "/industries/hair-salons/",
+    "title": "Salon expansion: separate California licences from treatment and worker exposure",
+    "description": "Connect the actual establishment and service personnel to the existing product/process safety file.",
+    "family": "industry",
+    "topic": "employment",
+    "jurisdictions": [
+      "Federal",
+      "California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-blocked-salon-products",
+      "b3-i2-salon-licensing"
+    ],
+    "sections": [
+      {
+        "heading": "California owner, location and practitioner records are different",
+        "paragraphs": [
+          "The California Board FAQ ties an establishment licence to its actual owner and location. It describes a new application and prior closure record for the named ownership changes, and a new application after moving. Buying a fitted salon is not buying a transferable establishment permission.",
+          "Verify the actual establishment record and each person’s appropriate service scope. The Board’s examples distinguish its regulated services from other activities; supervision by a doctor does not expand a beauty licence into medical work. Obtain the relevant authority’s answer for any added service."
+        ],
+        "sourceIds": [
+          "b3-i2-salon-faq"
+        ]
+      },
+      {
+        "heading": "Add a licensing branch to the treatment file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual owner/site and current establishment evidence"
+            ],
+            [
+              "Service lead",
+              "Person-by-person verified licence and task scope"
+            ],
+            [
+              "Premises lead",
+              "Current sanitation/inspection and local use questions"
+            ],
+            [
+              "Safety lead",
+              "Separate actual chemical/process and worker-exposure assessment"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-salon-faq"
+        ]
+      },
+      {
+        "heading": "A product claim is not the exposure assessment",
+        "paragraphs": [
+          "OSHA explains that salon products containing or releasing formaldehyde can trigger formaldehyde and hazard-communication requirements. Its guidance describes assessment, protection and training steps. Historic product tests on the page are not evidence that any named product has the same formulation or status today."
+        ],
+        "sourceIds": [
+          "b2-blocked-beauty"
+        ]
+      },
+      {
+        "heading": "Map the whole treatment process",
+        "paragraphs": [
+          "Record actual products, safety data sheets, ingredients, heating/mixing steps, frequency, room layout, ventilation and worker roles. A bottle labelled formaldehyde-free is not the only evidence to examine. Use a competent assessment for actual conditions rather than substitute a brand’s quality checklist."
+        ]
+      },
+      {
+        "heading": "Professional and premises rules remain separate",
+        "paragraphs": [
+          "Identify who employs staff and who may perform each service under the operating jurisdiction’s professional and establishment rules. The California example does not determine other states’ professional or establishment rules. Import and U.S. product-distribution responsibilities are additional workstreams if the brand supplies products."
+        ]
+      },
+      {
+        "heading": "Fictional product decision",
+        "paragraphs": [
+          "Fictional example: a Singapore salon brand requires one smoothing treatment across its network. The U.S. operations lead compares the actual formulation and process with an alternative, recording worker protection, client specifications and training evidence before changing the approved list."
+        ]
+      },
+      {
+        "heading": "Prepare the product/process evidence sheet",
+        "paragraphs": [
+          "Output: a treatment and worker-protection map owned by operations and safety."
+        ],
+        "bullets": [
+          "Identify actual product and current safety information.",
+          "Record tasks and conditions that determine exposure.",
+          "Assign assessment, training and protective measures where applicable.",
+          "Separate state professional and establishment licensing questions.",
+          "Approve sourcing changes only after technical and compliance review."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-blocked-beauty",
+      "b3-i2-salon-faq"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A California establishment/person/service roster joined to a treatment, chemical and worker-responsibility sheet.",
+    "limitations": [
+      "Named California licensing branch plus the existing federal exposure baseline only. No all-state/all-service beauty permission.",
+      "Actual local use/sanitation, individual eligibility, product import and exposure results remain to be established."
+    ],
+    "contentModifiedAt": "2026-11-13"
+  },
+  {
+    "id": "b2-auto",
+    "path": "/industries/vehicle-maintenance/",
+    "title": "Vehicle-service expansion: join California job records to the waste plan",
+    "description": "Keep dealer/station/person authority, covered job records and waste responsibilities distinct.",
+    "family": "industry",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Federal",
+      "California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-blocked-usedoil-role",
+      "b3-i2-auto-licensing",
+      "b3-i2-auto-job-records"
+    ],
+    "sections": [
+      {
+        "heading": "California business and inspection roles need separate records",
+        "paragraphs": [
+          "BAR separates the repair business, station and regulated inspection roles. Its application page says general automotive repair mechanics do not need a BAR individual licence; Smog/safety roles differ. Check the actual business exceptions and service before assigning records."
+        ],
+        "sourceIds": [
+          "b3-i2-auto-apply-reader",
+          "b3-i2-auto-license"
+        ]
+      },
+      {
+        "heading": "For covered jobs, retain authority before work and extras",
+        "paragraphs": [
+          "The January 2026 Write It Right guide describes estimates and recorded customer authority before covered repairs or extras, with linked retained transaction records. Its preventive-maintenance conditions and commercial-agreement/roadside exclusions require their own scope decision."
+        ],
+        "sourceIds": [
+          "b3-i2-auto-wir-reader"
+        ]
+      },
+      {
+        "heading": "Add a California job-record branch",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual business/service category and applicable records"
+            ],
+            [
+              "Technical lead",
+              "Station/person requirements where relevant"
+            ],
+            [
+              "Service desk",
+              "Covered-job scope and linked approval records"
+            ],
+            [
+              "Operations",
+              "Separate waste, site and specialised-service evidence"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-auto-license",
+          "b3-i2-auto-apply-reader",
+          "b3-i2-auto-wir-reader"
+        ]
+      },
+      {
+        "heading": "Used oil is an operating responsibility",
+        "paragraphs": [
+          "EPA’s used-oil guidance points businesses to 40 CFR Part 279 and explains distinct generator, collection, transport and processing roles. It warns that state requirements can be stricter. A shop’s service-brand agreement does not settle what materials it handles or what environmental rules apply."
+        ],
+        "sourceIds": [
+          "b2-blocked-usedoil"
+        ]
+      },
+      {
+        "heading": "Separate the streams and the actors",
+        "paragraphs": [
+          "Map lubricating oil, solvents, antifreeze, filters, batteries and other materials rather than call them all waste oil. Record who stores, collects, transports and receives each stream. Mixtures and disposal can change the analysis. A contractor invoice is evidence of a service, not blanket proof that the operator has satisfied every obligation."
+        ]
+      },
+      {
+        "heading": "Choose premises using the actual process",
+        "paragraphs": [
+          "Record bays, containers, drainage, spill response, fire/building requirements and collection access as tasks for the appropriate authorities and competent reviewers. EPA describes good-condition, nonleaking container expectations in the cited guidance; other waste and state/local rules need their own evidence."
+        ]
+      },
+      {
+        "heading": "Fictional delivery question",
+        "paragraphs": [
+          "Fictional example: a European quick-service brand investigates an existing U.S. workshop. Before adopting the home-market process, the operator maps where each material goes and obtains properly scoped handling and collection evidence. Unknown disposal, insurance and site-remediation costs stay unknown."
+        ]
+      },
+      {
+        "heading": "Prepare the waste-role worksheet",
+        "paragraphs": [
+          "Output: a material/actor/evidence map owned by the shop operations lead."
+        ],
+        "bullets": [
+          "Identify actual materials and their use/contamination history.",
+          "Assign handling role and applicable source for each stream.",
+          "Document containers, storage, spill and collection arrangements.",
+          "Check state environmental and local premises requirements.",
+          "Keep recommendations separate from legal duties and case-specific conclusions."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-blocked-usedoil",
+      "b3-i2-auto-license",
+      "b3-i2-auto-apply-reader",
+      "b3-i2-auto-wir-reader"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A California business/station/person and covered-job record joined to the waste-stream/actor matrix.",
+    "limitations": [
+      "California licensing/defined job-documentation branch and existing federal used-oil baseline only.",
+      "No actual exemption, complete repair template, all emissions/inspection, local permit, waste classification or cleanup approval."
+    ],
+    "contentModifiedAt": "2026-11-13"
+  }
+]

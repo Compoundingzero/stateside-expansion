@@ -1,0 +1,1628 @@
+[
+  {
+    "id": "us-alabama",
+    "sourceIds": [
+      "b3-emp-al-wh",
+      "b3-emp-al-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-al-wh"
+        ],
+        "summary": "ALDOR directs employers with employees working in Alabama to obtain a withholding account through My Alabama Taxes. Its FAQ separately addresses Alabama residents working elsewhere, including withholding for the work state."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-al-ui"
+        ],
+        "summary": "The Labor eGov Employer Registration service accepts Form SR-2 to determine SUI liability and obtain an account; a portal login is not itself a liability determination."
+      },
+      "limitations": [
+        "The eGov page contains older dated notices; only its identified registration function was relied on. UI thresholds, classification exceptions and current rates were not verified.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-alaska",
+    "sourceIds": [
+      "b3-emp-ak-ui",
+      "b3-emp-ak-guide"
+    ],
+    "topics": {
+      "employment": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-researched",
+        "sourceIds": [],
+        "summary": "An Alaska personal-income-tax withholding conclusion was not established in this review. Do not infer the absence of other employee deductions or payroll obligations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ak-ui",
+          "b3-emp-ak-guide"
+        ],
+        "summary": "TaxWeb registers new businesses; the agency handbook requires UI accounts for workers hired and working in Alaska and says workers brought from elsewhere may also need reporting. The registration requests entity type and first wage date."
+      },
+      "limitations": [
+        "The retrieved handbook says last updated April 2024. This review uses its account/localization instructions, not annual contribution rates or a complete current exemption determination.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-arizona",
+    "sourceIds": [
+      "b3-emp-az-ui"
+    ],
+    "topics": {
+      "employment": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-az-ui"
+        ],
+        "summary": "DES identifies the Joint Tax Application JT-1/UC-001 and an existing-withholding-account route, but the separate DOR withholding-obligations page returned HTTP 403. Withholding liability and sourcing remain unresolved."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-az-ui"
+        ],
+        "summary": "Submit JT-1/UC-001 through DOR; DES uses it to decide UI liability and separately issues a determination stating the coverage start date, rate and eight-digit account number. The EIN is required for processing."
+      },
+      "limitations": [
+        "This records the DES process and separate review, not a conclusion that every Arizona business owes UI or withholding. DOR substantive withholding access remains blocked.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-arkansas",
+    "sourceIds": [
+      "b3-emp-ar-wh",
+      "b3-emp-ar-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ar-wh"
+        ],
+        "summary": "The 2026 DFA instructions require withholding registration through AR-1R and identify ATAP online registration. They distinguish work in Arkansas from work outside it and allocate nonresident partly in-state services to Arkansas workdays."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ar-ui"
+        ],
+        "summary": "The Reemployment agency uses Tax 21 and describes ordinary employer status after one or more workers perform services on ten or more days in a calendar year, plus acquisition, domestic, agricultural and voluntary-coverage categories."
+      },
+      "limitations": [
+        "Special employer categories have separate tests; the ten-day statement is not a universal threshold. The withholding PDF's employment-verification statements were not relied upon for federal I-9 rules.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-california",
+    "sourceIds": [
+      "b3-emp-ca-register",
+      "b3-emp-ca-threshold"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ca-register",
+          "b3-emp-ca-threshold"
+        ],
+        "summary": "EDD registers employer payroll tax accounts through e-Services for Business and supplies distinct commercial, household, agricultural, nonprofit and other forms. Select the correct account category rather than treating incorporation as payroll enrollment."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ca-register",
+          "b3-emp-ca-threshold"
+        ],
+        "summary": "EDD Step 1 requires a business that hires employees and pays more than $100 in wages in a calendar quarter to register within 15 days. Household employment has a separate $750 cash-wage threshold; use the appropriate account category."
+      },
+      "limitations": [
+        "Annual tax rates, wage bases, excluded employment, disability and paid-leave contributions require their own current review. Registration does not resolve worker classification.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-colorado",
+    "sourceIds": [
+      "b3-emp-co-wh"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-co-wh"
+        ],
+        "summary": "DOR requires a withholding-agent account when Colorado withholding is required. Its instructions distinguish in-state businesses using MyBizColorado or CR 0100 from out-of-state businesses using CR 0100; the account has no fee or renewal requirement."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [],
+        "summary": "The attempted CDLE registration page returned HTTP 403. The UI account procedure, liability thresholds and multi-state allocation were not substantively verified."
+      },
+      "limitations": [
+        "This establishes a conditional withholding-account process, not the underlying wage sourcing test, UI clearance or freedom from local occupational/payroll taxes.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-connecticut",
+    "sourceIds": [
+      "b3-emp-ct-wh",
+      "b3-emp-ct-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ct-wh"
+        ],
+        "summary": "DRS links withholding to maintaining an office or transacting business in Connecticut and federal employer status, regardless of payroll department location. Register through myconneCT or add withholding to an existing DRS account."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ct-ui"
+        ],
+        "summary": "DOL requires online ReEmployCT registration for employers of one or more people and separately describes liability thresholds. It expressly distinguishes sole proprietors, partners, paid corporate officers and LLC members according to relevant tax filing treatment."
+      },
+      "limitations": [
+        "The agency's LLC/officer discussion is Connecticut-specific. Family, nonprofit, domestic and other special coverage conditions still need fact-specific review.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-delaware",
+    "sourceIds": [
+      "b3-emp-de-wh",
+      "b3-emp-de-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-de-wh"
+        ],
+        "summary": "One Stop distinguishes an employer conducting business in Delaware from an out-of-state business that may register as a withholding agent only for a Delaware resident as a courtesy. Do not turn that optional resident-service route into a universal duty."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-de-ui"
+        ],
+        "summary": "One Stop directs businesses hiring one or more employees in Delaware to file UC-1 to determine unemployment liability and identifies withholding and workers' compensation as separate employer workstreams."
+      },
+      "limitations": [
+        "Only agency routing and the residence/work distinction were relied upon; older form names and broad withholding language on One Stop were not treated as complete current computation guidance.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-florida",
+    "sourceIds": [
+      "b3-emp-fl-tax-guide",
+      "b3-emp-fl-guide"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-fl-tax-guide"
+        ],
+        "summary": "DOR expressly states Florida does not impose personal income tax. This closes only the state personal wage-income withholding branch; reemployment tax, corporate tax, sales tax and other payroll/business obligations remain separate."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-fl-guide"
+        ],
+        "summary": "DOR's reemployment guide requires DR-1 to determine liability; quarterly reports alone do not register an employer. It states general $1,500 quarterly wages, one employee in 20 weeks, or federal unemployment-tax liability tests, with separate special-employer categories."
+      },
+      "limitations": [
+        "Guide revised March 2025; annual rates were not relied on. A personal-income-tax absence conclusion, worker-classification decision and complete current exclusion review remain outside this record.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-georgia",
+    "sourceIds": [
+      "b3-emp-ga-wh",
+      "b3-emp-ga-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ga-wh"
+        ],
+        "summary": "DOR identifies employee-wage withholding, a separate registration-for-withholding-number route and Form G-4. Its page also covers other payment types, so a payroll number is not a determination of every nonresident-payment duty."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ga-ui"
+        ],
+        "summary": "GDOL directs employing units with people performing services in Georgia to submit DOL-1A immediately after the first Georgia payroll. The FAQ separately states general liability and domestic/agricultural tests."
+      },
+      "limitations": [
+        "The DOR page contains a general rate description and the UI FAQ contains older wage-base text; neither was relied on as current rates or wage bases.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-hawaii",
+    "sourceIds": [
+      "b3-emp-hi-withholding",
+      "b3-emp-hi-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-hi-withholding"
+        ],
+        "summary": "DOTAX states withholding applies to services in Hawaii and specified services outside it linked to the regular workplace or paying office. Obtain the WH account using BB-1 or add it in Hawaii Tax Online; the account has no opening fee."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-hi-ui"
+        ],
+        "summary": "The UI agency generally links tax to employees working in Hawaii and requires business owners to create the employer profile, after which they may authorize staff or service companies. Nonprofit, family-corporation and successor elections have separate conditions."
+      },
+      "limitations": [
+        "The withholding page contains inconsistent older return-form guidance; only its account and sourcing sections support this entry. Special UI elections are applications, not automatic exclusions.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-idaho",
+    "sourceIds": [
+      "b3-emp-id-wh",
+      "b3-emp-id-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-id-wh",
+          "b3-emp-id-register"
+        ],
+        "summary": "Obtain the EIN first, then use Idaho Business Registration. The Tax Commission says a withholding account is not transferable and requires a new account on business acquisition, a new EIN or a change of entity."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-id-register"
+        ],
+        "summary": "The Tax Commission's IBR guide routes businesses with employees to income-tax withholding and employee-related permits from Labor and the Industrial Commission. Prepare expected employee count, first paycheck and hire dates."
+      },
+      "limitations": [
+        "The separate UI handbook URL returned 404; IBR routing is verified, but Labor's substantive UI liability thresholds and localization are unresolved.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-illinois",
+    "sourceIds": [
+      "b3-emp-il-wh",
+      "b3-emp-il-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-il-wh"
+        ],
+        "summary": "IDOR requires registration when Illinois withholding is mandatory or voluntarily undertaken and asks when Illinois payroll begins. MyTax Illinois/REG-1 handles registration; household employment has separate guidance."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-il-ui"
+        ],
+        "summary": "IDES directs newly created employing units to register within 30 days of startup through MyTax Illinois or the liability form. A merger, acquisition or entity change has a separate succession/update workstream."
+      },
+      "limitations": [
+        "The 30-day statement is the agency's employing-unit registration rule, not a conclusion about every entity's tax liability. No current rate or full reciprocal-state analysis was performed.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-indiana",
+    "sourceIds": [
+      "b3-emp-in-wh",
+      "b3-emp-in-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-in-wh"
+        ],
+        "summary": "DOR directs employee businesses to collect state and county wage withholding, obtain an EIN and register through INBiz. It expressly points to county-specific rates rather than one statewide payroll setting."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-in-ui"
+        ],
+        "summary": "DWD's Uplink ESS registration requires FEIN, legal name, NAICS, Indiana work location, first payroll date and responsible-party details; the SUTA number follows completed and approved registration."
+      },
+      "limitations": [
+        "This records account inputs and the existence of county withholding. It does not select an employee's county rate, settle reciprocity or verify every UI coverage exception.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-iowa",
+    "sourceIds": [
+      "b3-emp-ia-wh",
+      "b3-emp-ia-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ia-wh"
+        ],
+        "summary": "IDR links withholding to an office or business in Iowa, federal withholding and services performed in Iowa; obtain FEIN before Iowa registration. Residence and multi-state services still require the applicable sourcing review."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ia-ui"
+        ],
+        "summary": "IWD says register through myIowaUI within 30 days of first Iowa wages or acquisition; out-of-state employers must register as soon as Iowa wages are paid. It separately discusses base-of-operations and direction/control for multi-state workers."
+      },
+      "limitations": [
+        "The agency page has a 2026 note changing out-of-state wage credits alongside older text; no wage-credit amount is asserted here. Account routing is not full employment-law coverage.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-kansas",
+    "sourceIds": [
+      "b3-emp-ks-wh"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ks-wh"
+        ],
+        "summary": "KDOR's KW-100 directs covered employers/payers to register through its Customer Service Center and separately addresses Kansas-resident and Kansas-work wages. It distinguishes wage withholding from nonresident-owner accounts and reporting-agent accounts."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [],
+        "summary": "The KDOL employer-services page returned HTTP 403; the current UI account route, timing and liability test were not substantively verified."
+      },
+      "limitations": [
+        "KW-100 displays revision 24.08. Its registration and account distinctions were reviewed, not current rates or a comprehensive 2026 wage-sourcing exception inventory.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-kentucky",
+    "sourceIds": [
+      "b3-emp-ky-wh",
+      "b3-emp-ky-employer",
+      "b3-emp-ky-portal"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ky-wh"
+        ],
+        "summary": "DOR identifies resident/nonresident wage withholding subject to exemptions and directs registration, filing and payment through MyTaxes. Its 2026 instructions require electronic filing/payment for all employer filing frequencies."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ky-employer",
+          "b3-emp-ky-portal"
+        ],
+        "summary": "The official employer page routes liable employers to an Employer Reserve Account, including acquisitions. The January 2026 KUIP FAQ says an account number and report filing are available immediately after completed registration."
+      },
+      "limitations": [
+        "The attempted UI-1 link returned non-substantive content; the separate official employer page and January 2026 KUIP FAQ were read. Liability thresholds, local occupational taxes and current rates remain separate.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-louisiana",
+    "sourceIds": [
+      "b3-emp-la-wh",
+      "b3-emp-la-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-la-wh"
+        ],
+        "summary": "LDR requires a withholding account before filing/remitting, but specifically warns not to register until Louisiana wage withholding begins. LaTAP registers a new business or adds an account; Secretary of State registration and EIN do not create it."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-la-register"
+        ],
+        "summary": "LWC's LAWATS login instructions require an existing seven-digit Employer Account Number and FEIN; a business without the EAN must apply for the unemployment tax account first. The owner then grants a third-party administrator access."
+      },
+      "limitations": [
+        "The LAWATS login guide is dated April 11, 2024. It distinguishes portal access from the tax account but does not establish current UI liability thresholds or sourcing exemptions.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-maine",
+    "sourceIds": [
+      "b3-emp-me-withholding",
+      "b3-emp-me-ui-mirror"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-me-withholding"
+        ],
+        "summary": "MRS's April 2026 FAQ routes new withholding accounts through the Maine Tax Portal and separately tests an out-of-state employer's Maine office/business, taxable payments and federal withholding. Courtesy withholding can differ from mandatory withholding."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-me-ui-mirror"
+        ],
+        "summary": "The official ReEmployME guide distinguishes registration of a business without an EAN from creating access to an existing account. It states general and separate nonprofit/agricultural coverage tests and says a future date cannot be used to set up an account."
+      },
+      "limitations": [
+        "Official www1.maine.gov mirrors supplied the MRS FAQ and ReEmployME system guide after the main host blocked access. No annual rate, complete UI exclusion list or full remote-work sourcing determination is supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-maryland",
+    "sourceIds": [
+      "b3-emp-md-withholding",
+      "b3-emp-md-register",
+      "b3-emp-md-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-md-withholding",
+          "b3-emp-md-register"
+        ],
+        "summary": "The 2026 Comptroller guide requires CRA registration and a Central Registration Number, warns not to wait until withholding is due, and says an acquirer must not use the seller's number. The September 2026 CRA guide routes applications through Maryland Tax Connect."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-md-ui"
+        ],
+        "summary": "Labor requires an employer UI account through BEACON, distinguishes covered from excluded work and expressly includes paid corporate officers in covered employment. Other tax registration and UI are separate."
+      },
+      "limitations": [
+        "Withholding and UI registration are separate from Maryland FAMLI, local withholding computations, worker exclusions and full wage sourcing. No annual rate or paid-leave date is asserted.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-massachusetts",
+    "sourceIds": [
+      "b3-emp-ma-wh",
+      "b3-emp-ma-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ma-wh"
+        ],
+        "summary": "DOR's August 2026 guide distinguishes resident and nonresident wages and directs employers to register before filing/payment through MassTaxConnect. A sole proprietor is generally not an employee solely for paying their own personal tax."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ma-ui"
+        ],
+        "summary": "DUA lists general contribution tests and distinct domestic/agricultural categories; it specifically states an out-of-state employer test of $200 gross Massachusetts wages in a quarter. Its account route is Unemployment Services for Employers."
+      },
+      "limitations": [
+        "The $200 statement is the agency's out-of-state-employer category, not a universal tax-free allowance or a withholding threshold. No annual rates or full sourcing exceptions are supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-michigan",
+    "sourceIds": [
+      "b3-emp-mi-wh",
+      "b3-emp-mi-ui"
+    ],
+    "topics": {
+      "employment": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-mi-wh"
+        ],
+        "summary": "Treasury's MTO business-tax eRegistration process and separate user/business-account linkage were read, but that general page does not establish withholding liability, sourcing or account-selection criteria. Those remain unresolved."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mi-ui"
+        ],
+        "summary": "UIA's current help center says MiUI is live for all tax/benefit functions and employers should hold their own MiUI account even when using a third-party administrator. It separately routes business registration and account authorization."
+      },
+      "limitations": [
+        "The reviewed Treasury page covers business registration generally; withholding liability and sourcing require a separate substantive tax analysis. No broad Michigan tax clearance is implied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-minnesota",
+    "sourceIds": [
+      "b3-emp-mn-wh",
+      "b3-emp-mn-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mn-wh"
+        ],
+        "summary": "DOR's new-employer guide requires a Minnesota ID and withholding account before tax is withheld. It distinguishes that number from DEED's UI account used for state unemployment reporting."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mn-ui"
+        ],
+        "summary": "The UI handbook says register after covered wages have actually been paid and before the first required quarterly wage-detail report is due. It asks entity type, owner/officer interests, Minnesota work dates and acquisition facts, with special categories treated separately."
+      },
+      "limitations": [
+        "Covered employment, owner/officer elections, nonprofit and other special categories still require their own tests. This is not a Paid Leave registration or full employment-law determination.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-mississippi",
+    "sourceIds": [
+      "b3-emp-ms-wh",
+      "b3-emp-ms-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ms-wh"
+        ],
+        "summary": "DOR requires a withholding account for employers subject to Mississippi withholding, with online application through TAP. Its instructions require acquisition/entity changes to be assessed rather than using the predecessor's addressed return."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ms-ui"
+        ],
+        "summary": "MDES separates employment-service registration from the New Business unemployment-tax registration, and separately offers online access for an already assigned account. An employer needing both service categories must register for both."
+      },
+      "limitations": [
+        "This does not establish UI liability thresholds or all resident/nonresident sourcing rules. No annual withholding/UI rate is supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-missouri",
+    "sourceIds": [
+      "b3-emp-mo-wh",
+      "b3-emp-mo-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mo-wh"
+        ],
+        "summary": "DOR's 2026 guide directs employers paying wages to employees working in Missouri to register online or using Form 2643. The permanent withholding number is not transferable; transient-employer requirements are a separate category."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mo-ui"
+        ],
+        "summary": "Labor's new-employer guide distinguishes Secretary of State formation from DOR tax registration and directs the employer to a separate UI liability review. New liable employers receive an industrial classification for UI."
+      },
+      "limitations": [
+        "The Labor checklist is an official route to the separate liability process, not a complete UI threshold finding. Transient-employer security amounts and exemptions remain unresolved.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-montana",
+    "sourceIds": [
+      "b3-emp-mt-wh",
+      "b3-emp-mt-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mt-wh"
+        ],
+        "summary": "DOR requires a withholding account when a business issues Montana wages, W-2s with or without withholding, or 1099s with withholding. Apply through TAP or GenReg with FEIN and the date employees started Montana work."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-mt-ui"
+        ],
+        "summary": "DLI's UI eServices is the named employer registration/reporting portal, with separate UI Contributions Bureau assistance. The page establishes the account route, not the coverage or localization test."
+      },
+      "limitations": [
+        "No UI threshold, worker exclusion, tax rate or multi-state allocation is established by the portal overview. Other state payroll deductions remain separate.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-nebraska",
+    "sourceIds": [
+      "b3-emp-ne-faq",
+      "b3-emp-ne-withholding",
+      "b3-emp-ne-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ne-faq",
+          "b3-emp-ne-withholding"
+        ],
+        "summary": "DOR requires Form 20 and a Nebraska withholding number before state deductions. The employer remains responsible for the application when using a payroll service; provide that service the issued Withholding Certificate."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-ne-ui"
+        ],
+        "summary": "Nebraska One Stop identifies the DOL unemployment tax-account application, but its short listing supplies no thresholds or complete instructions. Substantive coverage and registration inputs remain open."
+      },
+      "limitations": [
+        "The FAQ retains older rate and pandemic passages; those are not relied on. Current numeric rates and UI liability are not established here.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-nevada",
+    "sourceIds": [
+      "b3-emp-nv-constitution",
+      "b3-emp-nv-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-nv-constitution"
+        ],
+        "summary": "Nevada Constitution Article 10,section 1(9) prohibits income tax on natural persons' wages/personal income while permitting business-income/revenue taxes. Personal wage-income withholding is therefore distinct from UI, Modified Business Tax and other business taxes."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nv-ui"
+        ],
+        "summary": "DETR says generally an employing unit paying $225 or more for Nevada employment in a calendar quarter must register with Employment Security and pay UI tax. Its employing-unit definition includes entities and individuals."
+      },
+      "limitations": [
+        "The $225 statement is a general UI coverage rule, not a tax-free allowance or an MBT/other-tax conclusion. Annual rates and all exceptions were not reviewed.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-new-hampshire",
+    "sourceIds": [
+      "b3-emp-nh-costs",
+      "b3-emp-nh-rules"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-nh-costs"
+        ],
+        "summary": "NH Economy's state economic-development guidance states there is no state income tax in its salary/cost-of-living context. This is limited to personal wage-income withholding; business-profits and business-enterprise taxes and other employer duties remain separate."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nh-rules"
+        ],
+        "summary": "Emp 303.01, amended effective June 26, 2026, requires an Employer Status Report within 30 days of furnishing employment, becoming an employer, specified status changes or business/workforce transfers. It requests entity, NH work and wage dates, locations and acquisition facts."
+      },
+      "limitations": [
+        "The operative current rule was read from the official administrative-code text; the NHES agency handbook download was blocked. Portal steps, underlying statutory coverage and all exceptions need separate confirmation.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-new-jersey",
+    "sourceIds": [
+      "b3-emp-nj-wh",
+      "b3-emp-nj-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nj-wh"
+        ],
+        "summary": "NJ-WT requires FEIN and, for a corporate entity, the state's ten-digit corporate ID for registration. It distinguishes resident/nonresident work, Pennsylvania reciprocity certificates and certain convenience-of-employer sourcing."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nj-ui"
+        ],
+        "summary": "Employer Accounts directs NJ-REG first and describes employer status after one or more workers and $1,000 annual wages, with automatic coverage for FUTA-subject employing units. UI, disability and family-leave contributions are named separately."
+      },
+      "limitations": [
+        "NJ-WT is marked September 2025. No full convenience-rule, reciprocity, worker-classification or annual-rate determination is made. Historical case excerpts on the UI page are not treated as independently reviewed court decisions.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-new-mexico",
+    "sourceIds": [
+      "b3-emp-nm-wh"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nm-wh"
+        ],
+        "summary": "TRD requires employer registration to file wage withholding and describes resident/out-of-state-work and nonresident/in-state-work definitions with limited exceptions. It distinguishes wage from non-wage withholding and the workers' compensation administrative fee."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-nm-wh"
+        ],
+        "summary": "TRD routes UI to Workforce Solutions, but the attempted DWS pages and handbook returned a short challenge response rather than substantive text. UI registration and coverage remain unresolved."
+      },
+      "limitations": [
+        "No UI liability finding, full nonresident exception analysis, insurance premium or current fee computation is provided.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-new-york",
+    "sourceIds": [
+      "b3-emp-ny-wh",
+      "b3-emp-ny-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ny-wh"
+        ],
+        "summary": "NYS-50 identifies online registration or NYS-100 for the combined withholding, wage-reporting and UI program, with separate forms for some employer types. An existing entity filing is not that payroll registration."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ny-register"
+        ],
+        "summary": "NYSDOL says liable employers pay into the fund through Tax and Finance but must register with Labor. Its current system separately manages employer, PEO and third-party representative accounts; UI contributions cannot be deducted from employees."
+      },
+      "limitations": [
+        "The current DOL page redirects to the upgraded system. No full UI liability, New York City/Yonkers, convenience-rule, paid-leave or wage-sourcing determination is made.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-north-carolina",
+    "sourceIds": [
+      "b3-emp-nc-wh",
+      "b3-emp-nc-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nc-wh"
+        ],
+        "summary": "NCDOR directs payroll withholding applicants to NC-BR and distinguishes wage from nonwage accounts. Its FAQ notes a possible account exception when employees' state withholding certificates mean no wage withholding is required."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nc-ui"
+        ],
+        "summary": "DES states general $1,500-quarter/20-week tests and separate employer categories, acquisitions and FUTA coverage. NCSUITS registration yields an Employer ID and liability status, followed by a liability-date/rate letter."
+      },
+      "limitations": [
+        "The withholding-certificate note is not a general exemption from payroll registration. Nonwage sourcing, worker classification and all UI exceptions remain separate.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-north-dakota",
+    "sourceIds": [
+      "b3-emp-nd-wh",
+      "b3-emp-nd-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-nd-wh"
+        ],
+        "summary": "The Tax Commissioner directs employers to register an income-tax withholding account through ND TAP, and distinguishes exemptions and wage-return filing. The account process does not itself resolve resident/nonresident or reciprocal-state treatment."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-nd-register"
+        ],
+        "summary": "Job Service's UI EASY page establishes reporting/payment and account-access functions and requires certified submission to obtain a receipt. The new-employer application and substantive liability criteria were not established by that overview."
+      },
+      "limitations": [
+        "No UI coverage threshold or complete reciprocal-state/withholding exemption inventory is asserted.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-ohio",
+    "sourceIds": [
+      "b3-emp-oh-guide"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-oh-guide"
+        ],
+        "summary": "The 2026 DOR guide directs qualifying employers with Ohio work, including remote work, to register through OH|TAX eServices using an FEIN. It separately identifies resident school-district withholding, using the employer's same withholding account."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [
+          "b3-emp-oh-guide"
+        ],
+        "summary": "The DOR guide identifies JFS unemployment-tax reporting as a separate workstream, but the attempted JFS new-employer pages returned 404. The current UI application, liability and timing remain unresolved."
+      },
+      "limitations": [
+        "The official CDN supplied the 2026 PDF while the attempted public HTML routes failed. No school-district rate, municipal withholding, full reciprocity or UI exemption is determined.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-oklahoma",
+    "sourceIds": [
+      "b3-emp-ok-withholding",
+      "b3-emp-ok-wh",
+      "b3-emp-ok-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ok-withholding",
+          "b3-emp-ok-wh"
+        ],
+        "summary": "OTC identifies employee-wage withholding and directs filing/payment through OkTAP; the New Business Center separately routes applications for required tax accounts. The reviewed pages do not resolve this employer's sourcing or exemption facts."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ok-ui"
+        ],
+        "summary": "OESC states general $1,500-quarter or one-worker/20-week contribution tests, with special categories. It explains a phased transition between EZ Tax and the new Employer Portal rather than implying every function is already in the new portal."
+      },
+      "limitations": [
+        "OkTAP filing and the tax-account application route are identified; underlying wage sourcing, exemptions, acquisition effects and special UI categories still require review.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-oregon",
+    "sourceIds": [
+      "b3-emp-or-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-or-register"
+        ],
+        "summary": "DOR directs paid-employee employers to obtain a BIN before issuing paychecks using Revenue Online or Combined Employer's Registration. It also addresses corporations reporting officer compensation and says a structure change can require a new BIN."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-or-register"
+        ],
+        "summary": "Oregon's Combined Payroll Tax Reporting System uses the BIN for withholding, unemployment and named additional payroll programs. The common identifier does not make every program's wage or coverage test identical."
+      },
+      "limitations": [
+        "Transit taxes, Workers' Benefit Fund, paid leave and excluded employment require their own applicability analysis. Portal processing estimates are not an opening guarantee.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-pennsylvania",
+    "sourceIds": [
+      "b3-emp-pa-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-pa-register"
+        ],
+        "summary": "The state Business One-Stop guidance for an out-of-state employer hiring a remote Pennsylvania employee requires employer-withholding and UC accounts through myPATH, and separately identifies local earned-income/services-tax administration."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-pa-register"
+        ],
+        "summary": "The same official remote-hire guide routes unemployment-compensation registration through myPATH and keeps workers' compensation information and new-hire reporting as separate tasks."
+      },
+      "limitations": [
+        "This is the agency's remote-hire registration branch, not a universal local-tax rate, full UC liability test or workers' compensation coverage conclusion.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-rhode-island",
+    "sourceIds": [
+      "b3-emp-ri-register",
+      "b3-emp-ri-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ri-register"
+        ],
+        "summary": "Taxation's online business registration can establish an income-tax withholding account and an unemployment account. It distinguishes retail-permit registration fees from the listed payroll-account registrations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ri-ui"
+        ],
+        "summary": "DLT directs a BAR application and says the UI account number follows the first Rhode Island payroll/liability date. It separately addresses proprietor/partner-only businesses and the localization of multi-state work."
+      },
+      "limitations": [
+        "No current contribution rate, complete excluded-employment list or resolution of disability/job-development contributions is provided.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-south-carolina",
+    "sourceIds": [
+      "b3-emp-sc-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-sc-register"
+        ],
+        "summary": "Business One Stop directs businesses to obtain an SCDOR employer withholding account through MyDORWAY and says there is no account-registration charge. It keeps withholding separate from unemployment and new-hire reporting."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-sc-register"
+        ],
+        "summary": "The same official guide says a business with at least one employee must file with SCDEW, which determines UI liability or non-liability. The employer account route is SUITS."
+      },
+      "limitations": [
+        "The one-employee filing statement is not a universal contribution threshold. Wage sourcing, exemptions, rates and the guide's separate immigration/workers' compensation statements were not verified here.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-south-dakota",
+    "sourceIds": [
+      "b3-emp-sd-tax-guide",
+      "b3-emp-sd-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-sd-tax-guide"
+        ],
+        "summary": "DOR's July 2026 Tax Basics states South Dakota has no personal income tax. That narrow income-tax branch does not remove reemployment assistance, sales/use, municipal or other business obligations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-sd-ui"
+        ],
+        "summary": "DLR requires registration of new/acquired businesses and new registration after entity or ownership changes. Most use Form 1; nonprofit and political-subdivision forms differ. General and special liability tests are separate from the registration instruction."
+      },
+      "limitations": [
+        "The agency's temporary/out-of-state overview uses a 90-day distinction; this review does not resolve its exact boundary or replace localization analysis. No annual rate or full exclusion list is asserted.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-tennessee",
+    "sourceIds": [
+      "b3-emp-tn-suspicious",
+      "b3-emp-tn-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-tn-suspicious"
+        ],
+        "summary": "Tennessee Revenue expressly states it has no general personal income tax. That narrow personal wage-income branch does not remove UI or other state business/payroll duties; the cited FAQ is dated June 15, 2021."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-tn-ui"
+        ],
+        "summary": "TDLWD distinguishes existing employers signing up for e-Services using FEIN and a recent Letter ID from new employers choosing Register my business. PEOs and third-party administrators have separate identity/registration branches."
+      },
+      "limitations": [
+        "This source establishes account-access/application routing, not the underlying UI liability threshold, localization or an income-tax absence finding.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-texas",
+    "sourceIds": [
+      "b3-emp-tx-current-constitution",
+      "b3-emp-tx-tax-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-tx-current-constitution"
+        ],
+        "summary": "Texas Constitution Article 8,section 24-a prohibits a tax on individuals' net incomes. This closes the personal wage-income withholding branch only; unemployment and Texas business/franchise or other taxes remain separate."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-tx-tax-register"
+        ],
+        "summary": "TWC requires registration within 10 days of becoming liable. UTR gathers ownership/payroll facts, determines liability and issues an account number to liable employers; some categories cannot register online. UTS is the later reporting/payment service."
+      },
+      "limitations": [
+        "No universal first-hire liability test or online eligibility list is established here. The stated 10-day deadline begins with liability, not automatically entity formation.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-utah",
+    "sourceIds": [
+      "b3-emp-ut-wh",
+      "b3-emp-ut-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ut-wh"
+        ],
+        "summary": "The Tax Commission directs an online TC-69 application through TAP to obtain the withholding number, then a separate TAP login. It warns that TAP is unavailable in most countries outside the U.S. and offers an agency contact."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ut-ui"
+        ],
+        "summary": "DWS requires a Status Report/Form 1 for new or acquired businesses and after ownership/entity changes to determine coverage. Online registration issues initial account information, followed by status-examiner finalization."
+      },
+      "limitations": [
+        "The handbook contains broader benefits and historical material; only employer registration/change-of-entity sections support this entry. No UI rate, liability exception or special bond amount is asserted.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-vermont",
+    "sourceIds": [
+      "b3-emp-vt-withholding-law"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-vt-withholding-law"
+        ],
+        "summary": "32 V.S.A. § 5841 links withholding to federal withholding and payments also subject to Vermont income tax. That statutory duty was read, but the Taxes Department account-registration pages returned 403; the application procedure remains unresolved."
+      },
+      "unemployment": {
+        "status": "unresolved",
+        "sourceIds": [],
+        "summary": "The Labor registration page returned 403. The current UI registration application, account timing, liability and localization rules were not substantively verified."
+      },
+      "limitations": [
+        "The Legislature's online statute says it incorporates the 2026 session and is an unofficial convenience copy. Only the conditional withholding duty is established; no account process, rate or broad employment-law clearance.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-virginia",
+    "sourceIds": [
+      "b3-emp-va-wh",
+      "b3-emp-va-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-va-wh"
+        ],
+        "summary": "Virginia Tax requires withholding registration, returns and payment for employers required to file. It distinguishes the household-employer annual option from business employees, including employees of a business operated from home."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-va-ui"
+        ],
+        "summary": "VEC offers ESS registration or FC-27 by mail, but says not to submit the mailed form until a qualifying condition in questions 7a–10 is met. It assigns the account only when a criterion is satisfied and sends New Employer notices."
+      },
+      "limitations": [
+        "No full reciprocity, resident/nonresident sourcing, UI eligibility or annual filing-frequency determination is made.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-washington",
+    "sourceIds": [
+      "b3-emp-wa-hire",
+      "b3-emp-wa-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-wa-hire"
+        ],
+        "summary": "DOR states Washington has no personal income tax and does not require W-2 copies for income-tax purposes. This narrow wage-income-tax statement does not remove UI, workers' compensation, paid-leave or other business/payroll obligations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wa-hire",
+          "b3-emp-wa-register"
+        ],
+        "summary": "DOR routes in-state and out-of-state employers through a Business License Application marked Hire Employees, no sooner than 90 days before hiring. The application notifies ESD and L&I; each agency separately sends employer-account and reporting instructions."
+      },
+      "limitations": [
+        "The personal-income-tax statement is limited to the agency's stated wage/W-2 context, not all state taxes or future laws. Paid leave and other contribution programs need separate applicability review.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-west-virginia",
+    "sourceIds": [
+      "b3-emp-wv-register",
+      "b3-emp-wv-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wv-register"
+        ],
+        "summary": "The Tax Division's business-registration instructions distinguish an out-of-state withholding-only account from other business/entity registrations and direct appropriate BUS-APP/online registration. A withholding-only applicant still completes specified UI-section items."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wv-register",
+          "b3-emp-wv-ui"
+        ],
+        "summary": "The guide directs new businesses, acquisitions, mergers, reorganizations and entity changes through its UI registration section. WorkForce's reporting page separately requires account/FEIN and employee county and job/SOC information for quarterly reporting."
+      },
+      "limitations": [
+        "The guide is dated June 2025. Its broad coverage overview does not resolve every exemption, sourcing question, private workers' compensation policy or current rate.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-wisconsin",
+    "sourceIds": [
+      "b3-emp-wi-wh",
+      "b3-emp-wi-ui"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wi-wh"
+        ],
+        "summary": "DOR requires a withholding number when Wisconsin withholding is required and permits application through My Tax Account or business registration. Its FAQ separately identifies exempt-wage/no-withholding conditions and reciprocity documentation."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wi-ui"
+        ],
+        "summary": "DWD's current employer page routes a new UI account application through the UI Employer Portal, with reporting/account changes as separate functions. It flags a forthcoming portal change, so old navigation checklists need confirmation."
+      },
+      "limitations": [
+        "No current application/renewal fee, UI threshold, contribution rate or complete wage-exemption determination is supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-wyoming",
+    "sourceIds": [
+      "b3-emp-wy-business",
+      "b3-emp-wy-register"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-wy-business"
+        ],
+        "summary": "The Wyoming Business Council expressly identifies no personal state income tax. This narrow wage-income branch does not remove the joint DWS registration, coverage determination or other taxes; the Council is the economic-development source, not a payroll-tax ruling."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wy-register"
+        ],
+        "summary": "DWS requires joint business registration for its workers' compensation/UI determination, including out-of-state employers. The page says even potentially non-liable/optional businesses register so DWS can decide; out-of-state applicants also complete a questionnaire."
+      },
+      "limitations": [
+        "The cited page is the joint DWS process; it does not make every proprietor UI-tax liable or establish an income-tax absence. Workers' compensation pre-work coverage and the UI contribution test are distinct.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-district-of-columbia",
+    "sourceIds": [
+      "b3-emp-dc-wh",
+      "b3-emp-dc-registration"
+    ],
+    "topics": {
+      "employment": "conditional",
+      "corporate-tax": "conditional"
+    },
+    "notesAppend": "Employer payroll-registration review 2026-11-13: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate.",
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-dc-wh"
+        ],
+        "summary": "OTR's FR-500 process requests the legal form, business locations and principal/officer identification, and directs withholding registrants to DOES for UI. Account registration and the business license remain separate steps."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-dc-registration"
+        ],
+        "summary": "DOES uses FR-500 ownership, location and acquisition facts to determine UI liability, then advises the employer of liability and effective quarters. Its six-digit UI number differs from the FEIN and OTR business number."
+      },
+      "limitations": [
+        "Registration evidence does not establish wage sourcing, tax rates, licensing completion or a UI exemption.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  }
+]

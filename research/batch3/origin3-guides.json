@@ -1,0 +1,739 @@
+[
+  {
+    "id": "b3-origin3-guide-slovakia",
+    "path": "/from/slovakia/",
+    "title": "Slovak service exports: an EU VAT number does not prove the U.S. customer facts",
+    "description": "The Financial Administration’s third-country example requires checking the recipient’s actual status and establishment, then the service-specific rule.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Slovakia",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-slovakia-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Prove the relevant customer facts",
+        "paragraphs": [
+          "The Slovak Financial Administration gives a concrete example: a Swiss business orders a service using a German VAT number. The supplier must verify the customer’s taxable-person status in the relevant third country; that German number is not enough. For a U.S. customer, identify the actual legal entity, business purpose and establishment receiving the service rather than treating a group identifier as proof."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovakia-place"
+        ]
+      },
+      {
+        "heading": "Classify the supply before applying the general rule",
+        "paragraphs": [
+          "The agency lists rights, advertising, consulting, technical and similar services among general-rule business services. It separately treats property services and other exceptions. Cleaning a named building, a territory licence and general operating support can therefore raise different questions even when the same U.S. business pays."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovakia-place"
+        ]
+      },
+      {
+        "heading": "Fictional example: U.S. parent, European identification number",
+        "paragraphs": [
+          "A Bratislava brand receives a support order from a U.S. group company quoting its German VAT identification. The controller obtains the relevant third-country business evidence and establishes which entity and establishment receives the support. An unrelated EU registration does not finish that task. No U.S. tax result follows merely from establishing the Slovak place of supply."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovakia-place"
+        ]
+      },
+      {
+        "heading": "The invoice decision packet",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-slovakia-place"
+        ],
+        "bullets": [
+          "Legal buyer, business purpose and establishment evidence.",
+          "Exact service breakdown and any property, admission or other special-rule question.",
+          "Contract, delivery facts and supported Slovak invoice/reporting decision.",
+          "A named owner for destination-tax questions; EU reporting examples do not automatically apply to the United States."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-slovakia-place"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Slovak customer-status and receiving-establishment memo tied to each service and its exception check.",
+    "limitations": [
+      "Narrow Slovak VAT buyer-evidence guide; no complete return, registration, income-tax or U.S. tax analysis.",
+      "Slovak interpretation was AI-assisted. Actual service exceptions and establishment facts remain conditional.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-hungary",
+    "path": "/from/hungary/",
+    "title": "Hungarian U.S. invoices: a foreign service location can still leave Hungarian invoice and reporting duties",
+    "description": "NAV’s 2026 booklet separates the place of the supply from which country’s invoice rules apply. Preserve that distinction in the billing system.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Hungary",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-hungary-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Separate the supply location from the invoice-law question",
+        "paragraphs": [
+          "Section 1.1 of NAV’s March 2026 booklet explains cases where Hungarian invoice rules still apply although the VAT place of supply is outside the EU. The relevant connection is the supplier’s Hungarian business or establishment involved in that transaction. A U.S. customer or dollar price does not by itself remove the Hungarian invoice-law analysis."
+        ],
+        "sourceIds": [
+          "b3-origin3-hungary-invoicing-2026"
+        ]
+      },
+      {
+        "heading": "Build the reporting step into the issue workflow",
+        "paragraphs": [
+          "The booklet links NAV’s invoice-data guidance, which includes foreign taxable customers and qualifying transactions outside the EU. The issuer remains responsible when another person issues the invoice on its behalf, although an authorized user can carry out reporting. Assign both invoice issue and the applicable data submission before selecting software or a billing agent. This guide does not supply a universal submission deadline or resolve every reporting exemption."
+        ],
+        "sourceIds": [
+          "b3-origin3-hungary-invoicing-2026",
+          "b3-origin3-hungary-online-invoices"
+        ]
+      },
+      {
+        "heading": "An English invoice still needs the required structure",
+        "paragraphs": [
+          "NAV says an invoice may be in Hungarian or another living language and explains circumstances where a certified Hungarian translation may be required during an audit. Its software guidance also calls for appropriate numbering, data export and online submission capability for covered invoices. An emailed English PDF is a customer document; retain the separate compliance evidence required for the actual invoice."
+        ],
+        "sourceIds": [
+          "b3-origin3-hungary-invoicing-2026"
+        ]
+      },
+      {
+        "heading": "Fictional example: the U.S. buyer receives a support invoice",
+        "paragraphs": [
+          "A Budapest company determines that a support supply is outside Hungarian VAT and asks its U.S. affiliate to generate an invoice from a generic template. The controller separately checks the relevant Hungarian establishment and invoice rules, then assigns numbering, content, data reporting and retention. The place-of-supply decision alone does not close those steps."
+        ],
+        "sourceIds": [
+          "b3-origin3-hungary-invoicing-2026",
+          "b3-origin3-hungary-online-invoices"
+        ]
+      },
+      {
+        "heading": "What the controller should keep",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-hungary-invoicing-2026",
+          "b3-origin3-hungary-online-invoices"
+        ],
+        "bullets": [
+          "Supplier and establishment responsible for the actual transaction.",
+          "Documented invoice-law and VAT treatment, including the customer’s capacity.",
+          "Applicable invoice content and reporting configuration, responsible user and correction process.",
+          "Issued invoice and successful submission evidence, with any remaining deadline/exemption question assigned."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-hungary-invoicing-2026",
+      "b3-origin3-hungary-online-invoices"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Hungary-to-U.S. billing workflow with the relevant establishment, invoice-law basis, data-reporting check and retained issue evidence.",
+    "limitations": [
+      "Narrow Hungarian invoicing and reporting-scope guide, not a determination that a specific supply is VAT-free.",
+      "The original 2021 reporting page is read with the 2026 booklet that links it; unrelated historical details are not treated as a full current survey. Hungarian interpretation was AI-assisted.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-romania",
+    "path": "/from/romania/",
+    "title": "Romanian brands: separate the company name, domain and trademark before the U.S. licence",
+    "description": "OSIM distinguishes Trade Register acceptance from trademark protection and says its registration gives national protection. Build the rights packet first.",
+    "family": "origin",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Romania",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-romania-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Company registration and trademark review answer different questions",
+        "paragraphs": [
+          "OSIM explains that a company name accepted by the Trade Register may still fail trademark requirements, for example because it is generic or conflicts with relevant earlier rights. Its FAQ also treats a website name separately. Collect the actual mark record instead of treating the incorporation certificate or domain receipt as proof of exclusive brand rights."
+        ],
+        "sourceIds": [
+          "b3-origin3-romania-trademark-faq"
+        ]
+      },
+      {
+        "heading": "Record the territory and the right that is actually held",
+        "paragraphs": [
+          "The office states that an OSIM registration gives national protection. It identifies different national, international and EU search resources and recommends checking prior rights. A search entry or Romanian title does not itself establish U.S. availability. Record the exact sign, owner, goods/services and current status before choosing a U.S. filing or licensing route."
+        ],
+        "sourceIds": [
+          "b3-origin3-romania-trademark-faq"
+        ]
+      },
+      {
+        "heading": "Fictional example: founder name versus company asset",
+        "paragraphs": [
+          "A Romanian founder registered the business name and owns its domain personally, while the operating company plans to license the brand to a U.S. partner. The expansion packet identifies whether a trademark exists, who owns it and what the company is authorized to grant. The planning task is to resolve the rights chain and intended territory before promising exclusivity."
+        ],
+        "sourceIds": [
+          "b3-origin3-romania-trademark-faq"
+        ]
+      },
+      {
+        "heading": "The owner’s evidence packet",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-romania-trademark-faq"
+        ],
+        "bullets": [
+          "Company name and domain records as separate items.",
+          "Actual trademark application/registration and current owner.",
+          "The exact sign, goods/services and territorial rights.",
+          "Licensing or assignment evidence and separate U.S. search/filing questions."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-romania-trademark-faq"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "An IP ownership-and-territory schedule separating the Romanian company name, domain, OSIM mark and proposed U.S. licensing rights.",
+    "limitations": [
+      "Narrow agency-backed Romanian trademark-evidence guide. No live mark search, assignment, licence or U.S. filing is approved.",
+      "The latest consolidated-law route returned502; this guide does not state filing deadlines, tariffs or a definitive international-procedure rule from that unavailable text. Romanian interpretation was AI-assisted.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-bulgaria",
+    "path": "/from/bulgaria/",
+    "title": "Bulgarian controlled exports: prepare the national authorization packet after classification",
+    "description": "The current administrative service lists registration, end-user and technical evidence. Establish the actual authorization route before budgeting a shipment.",
+    "family": "origin",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Bulgaria",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-bulgaria-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the item, technology and transaction",
+        "paragraphs": [
+          "A national export-authorization packet is relevant only after determining what is being supplied and which current controls apply. The official 2024 compilation describes distinct export, transfer, transit and technical-assistance regimes under Regulation 2021/821. Do not assume every service manual is controlled, or that a technology-related transaction is cleared because it is sold under a brand licence."
+        ],
+        "sourceIds": [
+          "b3-origin3-bulgaria-export-current-law",
+          "b3-origin3-bulgaria-export-register"
+        ]
+      },
+      {
+        "heading": "The national application needs more than a customer order",
+        "paragraphs": [
+          "The administrative register’s export service describes individual and global applications by persons holding the relevant registration. Its packet includes the application and authorization forms, end-user/end-use or import-certificate evidence, contract or order and transaction participants, participants’ activity rights, manufacturer technical information and origin/acquisition evidence. Foreign-language documents require certified Bulgarian translations. Establish any general-authorization or other alternative before selecting this national route."
+        ],
+        "sourceIds": [
+          "b3-origin3-bulgaria-export-register"
+        ]
+      },
+      {
+        "heading": "Check the current forms and reconcile the legacy references",
+        "paragraphs": [
+          "The live service entry points to forms under the ministerial order of May 21, 2026, including forms 38/39 and 40/41. It also retains an older re-export reference to Regulation 428/2009, while the 2024 law compilation and newer forms refer to Regulation 2021/821. Resolve the applicable current framework with the responsible authority before filing. Mixed fee descriptions are not used here as a verified budget amount."
+        ],
+        "sourceIds": [
+          "b3-origin3-bulgaria-export-register",
+          "b3-origin3-bulgaria-export-current-law"
+        ]
+      },
+      {
+        "heading": "Fictional example: equipment bundled with operating know-how",
+        "paragraphs": [
+          "A Bulgarian business plans to supply a U.S. operator with technical equipment, software and support under one commercial agreement. It assigns classification and the actual export/technology route before promising a delivery date. If national authorization is required, its operations owner collects the end-user, technical and transaction evidence instead of treating a paid invoice as permission to export."
+        ],
+        "sourceIds": [
+          "b3-origin3-bulgaria-export-register",
+          "b3-origin3-bulgaria-export-current-law"
+        ]
+      },
+      {
+        "heading": "The conditional release packet",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-bulgaria-export-register"
+        ],
+        "bullets": [
+          "Items, software/technology, destination, end user and intended use.",
+          "Current classification, authorization route and responsible reviewer.",
+          "Relevant applicant registration and current application forms.",
+          "Contract/participant and technical/origin documents, translations and actual authorization evidence before a covered release."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-bulgaria-export-register",
+      "b3-origin3-bulgaria-export-current-law"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A conditional Bulgarian export-permission task with classification owner, route, end-user evidence, technical file and translation requirements.",
+    "limitations": [
+      "Narrow Bulgarian administrative-packet guide for a conditionally covered controlled-export transaction; no classification, licence or exemption determination.",
+      "The official primary compilation ends at May 2024 amendments. Later implementing-law scope and mixed legacy references remain open; the current 2026 forms do not prove every substantive rule is unchanged. Bulgarian interpretation was AI-assisted.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-croatia",
+    "path": "/from/croatia/",
+    "title": "Croatian U.S. data transfers: check the later framework and the actual recipient",
+    "description": "AZOP’s 2022 transfer page predates its 2023 framework explanation. Use the current qualified route instead of treating an old page as the whole answer.",
+    "family": "origin",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Croatia",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-croatia-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Read the date on the guidance itself",
+        "paragraphs": [
+          "AZOP’s general transfer article explicitly says updated September 6, 2022. Its Privacy Shield and Schrems II account therefore predates the July 2023 EU-U.S. framework. Current news widgets do not turn that older article into a complete statement of present options. The regulator’s later 2023 explanation and the Commission’s live adequacy list provide the relevant additional context."
+        ],
+        "sourceIds": [
+          "b3-origin3-croatia-current-transfers",
+          "b3-origin3-croatia-dpf-2023",
+          "b3-origin3-commission-adequacy-current"
+        ]
+      },
+      {
+        "heading": "The adequacy route concerns participating recipients",
+        "paragraphs": [
+          "AZOP’s later explanation describes transfers to U.S. organizations participating in the EU-U.S. Data Privacy Framework and points to checking the public list. The Commission’s current list has the same qualification. Identify the receiving legal entity, relevant participation and covered data rather than enter “United States—adequate” for every vendor or group affiliate. This guide has not checked any organization’s certification."
+        ],
+        "sourceIds": [
+          "b3-origin3-croatia-dpf-2023",
+          "b3-origin3-commission-adequacy-current"
+        ]
+      },
+      {
+        "heading": "A transfer basis does not complete the operating data review",
+        "paragraphs": [
+          "AZOP’s guidance explains other Chapter V tools and the need for appropriate safeguards where relevant adequacy does not apply. Record the actual route and its conditions, including any additional assessment or measures needed. Keep the processing purpose, data categories, access, contracts and security questions visible; a certification label is not a complete compliance program."
+        ],
+        "sourceIds": [
+          "b3-origin3-croatia-current-transfers",
+          "b3-origin3-croatia-dpf-2023"
+        ]
+      },
+      {
+        "heading": "Fictional example: Zagreb support records in a U.S. system",
+        "paragraphs": [
+          "A Zagreb operator plans to send customer service records to its new U.S. affiliate and a software provider. The data owner maps both recipients, checks the relevant participation or another transfer route separately, and records the evidence. The affiliate’s incorporation and the vendor’s marketing page do not establish both routes."
+        ],
+        "sourceIds": [
+          "b3-origin3-croatia-dpf-2023",
+          "b3-origin3-commission-adequacy-current"
+        ]
+      },
+      {
+        "heading": "The data owner’s release record",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-croatia-dpf-2023",
+          "b3-origin3-commission-adequacy-current"
+        ],
+        "bullets": [
+          "Exact exporter, recipients and access paths.",
+          "Data categories, purpose and relevant framework participation checked on a dated basis.",
+          "Alternative safeguard or exception analysis where that participation does not cover the transfer.",
+          "Contract/security and information tasks, with an owner to recheck material changes."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-croatia-current-transfers",
+      "b3-origin3-croatia-dpf-2023",
+      "b3-origin3-commission-adequacy-current"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Croatian-to-U.S. transfer register with the actual recipient, relevant current participation check or alternative route, and responsible data owner.",
+    "limitations": [
+      "Narrow Croatian-regulator transfer-route guide; no actual recipient, onward-transfer or full GDPR assessment was performed.",
+      "The 2022 article is historical context; it is not promoted to current exclusive advice. Croatian interpretation was AI-assisted.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-slovenia",
+    "path": "/from/slovenia/",
+    "title": "Slovenian U.S. launch spending: check reverse-charge records and whether eDavki accepted them",
+    "description": "A U.S. vendor’s invoice can create Slovenian VAT work. FURS distinguishes an atypical taxpayer’s records and warns that error-bearing submissions count as not filed.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Slovenia",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-slovenia-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Foreign launch spending can need a local VAT assessment",
+        "paragraphs": [
+          "FURS’s official teaching examples include a Slovenian atypical taxpayer receiving U.S. advertising services. Under those stated facts the recipient self-assesses VAT and cannot deduct it. A supplier’s invoice without Slovenian VAT does not establish that the purchase has no Slovenian VAT consequence. Determine the actual registration status, supply and place-of-supply conditions before using that example."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovenia-atypical-examples"
+        ]
+      },
+      {
+        "heading": "The taxpayer’s status changes the record treatment",
+        "paragraphs": [
+          "The October 2026 FURS Q&A describes the records for an atypical taxpayer receiving covered reverse-charge services. It calls for recording the relevant transaction in both VAT records in the same tax period and identifies the non-deductible VAT treatment for that status. Keep a tax code and the actual status with each purchase rather than importing the treatment of a normally registered company."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovenia-vat-qna"
+        ]
+      },
+      {
+        "heading": "An upload is not the final submission check",
+        "paragraphs": [
+          "FURS’s February 5, 2026 notice says covered taxpayers must submit electronic output- and input-VAT records for tax periods from July 1, 2025. It directs users to check the sent records in eDavki and states that records containing errors are treated as not submitted. Preserve the successful result for both required records and assign any correction before closing the filing task."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovenia-furs-records"
+        ]
+      },
+      {
+        "heading": "Fictional example: a small firm buys U.S. advertising",
+        "paragraphs": [
+          "A Ljubljana brand buys an online campaign for its U.S. expansion and assumes its small-business domestic treatment removes VAT work. The controller checks whether the foreign purchase requires different identification and self-assessment, records the supported treatment, and verifies the electronic filing result. The business should not treat a failed upload as a finished period."
+        ],
+        "sourceIds": [
+          "b3-origin3-slovenia-atypical-examples",
+          "b3-origin3-slovenia-vat-qna",
+          "b3-origin3-slovenia-furs-records"
+        ]
+      },
+      {
+        "heading": "The launch-finance checklist",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-slovenia-furs-records",
+          "b3-origin3-slovenia-vat-qna",
+          "b3-origin3-slovenia-atypical-examples"
+        ],
+        "bullets": [
+          "Actual taxpayer/identification status and each foreign purchase.",
+          "Supplier, service, receipt date and supported tax/credit treatment.",
+          "Both required record entries and the correct reporting period.",
+          "eDavki acceptance evidence, errors and correction owner; destination sales and U.S. tax remain separate."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-slovenia-furs-records",
+      "b3-origin3-slovenia-vat-qna",
+      "b3-origin3-slovenia-atypical-examples"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A launch-purchase VAT ledger linked to the taxpayer’s status, both required records and successful eDavki submission evidence.",
+    "limitations": [
+      "Narrow Slovenian inbound-service and record-status guide, not a complete registration, return, outbound-service or deduction ruling.",
+      "FURS examples are teaching scenarios, not enforcement cases; their 2025 exchange rates are not reused as current. Slovenian interpretation was AI-assisted.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-malta",
+    "path": "/from/malta/",
+    "title": "Maltese U.S. service work: separate the customer test from Article 12 registration",
+    "description": "A U.S. buyer may substantiate business status without an EU VAT number. The seller still needs a separate inbound-service and registration check.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Malta",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-malta-decision"
+    ],
+    "sections": [
+      {
+        "heading": "A U.S. business does not need an EU number to prove every relevant fact",
+        "paragraphs": [
+          "The current VAT Act’s Third Schedule item 2(a) generally follows the business customer or receiving fixed establishment, subject to exceptions. MTCA’s U.S.-buyer illustration assumes sufficient appropriate evidence that the customer purchases for its business even without an EU VAT number. Establish those facts and the actual service instead of assuming either consumer status or an automatic export result."
+        ],
+        "sourceIds": [
+          "b3-origin3-malta-vat-latest",
+          "b3-origin3-malta-services"
+        ]
+      },
+      {
+        "heading": "Keep outbound sales and inbound purchases in separate rows",
+        "paragraphs": [
+          "Article 12(3) applies to a Malta-established taxable person outside Article 10 registration that receives a service for which it is liable under Article 20(2); it requires registration by the date of receiving that service. Article 12(3a), separately, addresses specified reverse-charge services supplied into another EU Member State. A U.S. customer is not that other Member State. Review foreign software, advertising or support purchases independently from the treatment of U.S. revenue."
+        ],
+        "sourceIds": [
+          "b3-origin3-malta-vat-latest"
+        ]
+      },
+      {
+        "heading": "Use the canonical current law and understand the notes’ status",
+        "paragraphs": [
+          "The canonical statutory PDF lists amendments through 2026. An older hashed search-result PDF ended at 2022 and is not the version used here. MTCA’s explanatory notes expressly say they are not binding and are not Article 75 instructions. Their printed publication/update dates are inconsistent, so the legal point is checked against the current Act rather than inferred from a PDF timestamp."
+        ],
+        "sourceIds": [
+          "b3-origin3-malta-vat-latest",
+          "b3-origin3-malta-services"
+        ]
+      },
+      {
+        "heading": "Fictional example: an Article 11 business starts U.S. support work",
+        "paragraphs": [
+          "A Maltese support business invoices a U.S. commercial customer and buys a foreign cloud subscription for delivery. The controller documents the customer’s capacity and the actual supplies, then separately checks the seller’s registration and any inbound-service liability. Its domestic exemption label cannot answer both rows."
+        ],
+        "sourceIds": [
+          "b3-origin3-malta-vat-latest",
+          "b3-origin3-malta-services"
+        ]
+      },
+      {
+        "heading": "The controller’s matrix",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-malta-vat-latest",
+          "b3-origin3-malta-services"
+        ],
+        "bullets": [
+          "Actual Article 10/11/12 status and relevant establishments.",
+          "Customer’s business-purpose evidence and service-specific place rule.",
+          "Foreign purchases and whether Article 20(2) liability/Article 12(3) is triggered.",
+          "Current-law reference, registration evidence and separate invoice/reporting tasks."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-malta-vat-latest",
+      "b3-origin3-malta-services"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Maltese service-and-registration matrix separating U.S. customer evidence, outbound service classification and covered foreign purchases.",
+    "limitations": [
+      "Narrow Maltese place-of-supply/registration separation; no exemption, credit, invoice or full VAT ruling.",
+      "The official notes’ date inconsistency and non-binding status are preserved. No current threshold is invented from older materials.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-cyprus",
+    "path": "/from/cyprus/",
+    "title": "Cyprus-to-U.S. Madrid filing: prepare the office-of-origin packet and the MM18 declaration",
+    "description": "The Cyprus office identifies MM2 and a U.S.-specific MM18 accompaniment. The current WIPO form requires an authorized, evidence-supported declaration.",
+    "family": "origin",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Cyprus",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-cyprus-decision"
+    ],
+    "sections": [
+      {
+        "heading": "Establish the applicant’s Cyprus connection",
+        "paragraphs": [
+          "The Cyprus office’s preparation page lists an eligible connection through a Cyprus national, a legal person established in Cyprus, or an actual active industrial or commercial establishment there. Record the actual applicant and mark. Establish the basic application/registration route with the office; the page’s imprecise first-condition wording is not used here to decide a disputed eligibility fact."
+        ],
+        "sourceIds": [
+          "b3-origin3-cyprus-madrid-before"
+        ]
+      },
+      {
+        "heading": "U.S. designation adds a specific declaration task",
+        "paragraphs": [
+          "The application page describes English MM2 filed through the Intellectual Property Section as office of origin, accompanied by MM18 where U.S. protection is sought. The current WIPO form is a declaration of intention to use the mark, not a confirmation that U.S. protection has already been obtained."
+        ],
+        "sourceIds": [
+          "b3-origin3-cyprus-madrid-apply",
+          "b3-origin3-wipo-mm18"
+        ]
+      },
+      {
+        "heading": "The signatory needs authority and a supportable factual basis",
+        "paragraphs": [
+          "The March 2026 MM18 form includes bona fide intent to use, authority to execute for the applicant and statements based on reasonable inquiry with evidentiary support. It requires the prescribed English declaration without alterations and mandatory signature/execution details. Assign the owner and evidence review before anyone signs; this guide has not evaluated or prepared a declaration."
+        ],
+        "sourceIds": [
+          "b3-origin3-wipo-mm18"
+        ]
+      },
+      {
+        "heading": "Fictional example: the brand owner and U.S. operator differ",
+        "paragraphs": [
+          "A Cyprus parent owns the basic mark while its new U.S. subsidiary will operate the business. The IP owner records the actual applicant, ownership and intended goods/services, then obtains the correct authority and evidence for the U.S. declaration. The subsidiary’s new incorporation does not automatically establish the parent’s declaration facts."
+        ],
+        "sourceIds": [
+          "b3-origin3-cyprus-madrid-before",
+          "b3-origin3-cyprus-madrid-apply",
+          "b3-origin3-wipo-mm18"
+        ]
+      },
+      {
+        "heading": "The filing-review packet",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-cyprus-madrid-apply",
+          "b3-origin3-wipo-mm18"
+        ],
+        "bullets": [
+          "Applicant nexus, owner and basic-mark record.",
+          "The proposed sign and actual U.S. goods/services and route.",
+          "Current office forms and the authorized MM18 signatory/evidence review.",
+          "Current official fee calculation, national examination budget and response owner; no filing or mark clearance is supplied."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-cyprus-madrid-before",
+      "b3-origin3-cyprus-madrid-apply",
+      "b3-origin3-wipo-mm18"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Cyprus office-of-origin filing checklist with applicant nexus, basic mark, intended U.S. goods/services and an authorized MM18 evidence/signature task.",
+    "limitations": [
+      "Narrow Cyprus office-of-origin preparation guide; no mark search, eligibility decision, use-intent finding or filing is approved.",
+      "Confirm current submission procedures and the basic-mark requirements for the actual applicant. A designation remains subject to U.S. examination and other applicable rules.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-iceland",
+    "path": "/from/iceland/",
+    "title": "Icelandic U.S. service sales: use the current business-customer rule and its local exceptions",
+    "description": "The current parliamentary VAT text distinguishes foreign-business services from other recipients. Older English export guidance does not supply the complete present test.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Iceland",
+      "United States"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-origin3-iceland-decision"
+    ],
+    "sections": [
+      {
+        "heading": "The current primary text supplies the business-customer starting point",
+        "paragraphs": [
+          "The current Alþingi compilation’s Article 12 distinguishes services sold to a business outside the stated Icelandic domicile/establishment connections from a separate track for other recipients. The first task is to establish the real recipient, its business capacity and Icelandic connections. The statutory text controls this starting point; a U.S. billing address alone does not establish it."
+        ],
+        "sourceIds": [
+          "b3-origin3-iceland-current-law"
+        ]
+      },
+      {
+        "heading": "The general business rule has named local-service exceptions",
+        "paragraphs": [
+          "Point 2 lists exceptions including Icelandic property-related services and accommodation, local passenger transport, event admission and related access services, catering, vehicles delivered in Iceland, and specified other locally connected services. Review the actual bundle. A management-support service, cleaning an Icelandic property and attendance at a local event should not be assigned one unchecked export result."
+        ],
+        "sourceIds": [
+          "b3-origin3-iceland-current-law"
+        ]
+      },
+      {
+        "heading": "Why the older English explanation is not applied as the whole B2B test",
+        "paragraphs": [
+          "The English agency page describes a wholly-used-abroad or hypothetical input-credit approach for listed services, while the current parliamentary point 2 has the business-recipient rule and enumerated exceptions. The old English translation of Regulation 194/1990 is also not treated as a current consolidated rule. No old two-year certificate requirement or universal use-abroad condition is imported into this guide’s current B2B analysis."
+        ],
+        "sourceIds": [
+          "b3-origin3-iceland-current-law",
+          "b3-origin3-iceland-vat"
+        ]
+      },
+      {
+        "heading": "Fictional example: support and work on an Icelandic building",
+        "paragraphs": [
+          "A Reykjavík brand supplies general operating support to a U.S. business and separately provides work connected with an Icelandic building used by that group. The controller documents the actual recipient and establishment facts and tests the local-property exception for the second supply. A common foreign payer does not establish a common result."
+        ],
+        "sourceIds": [
+          "b3-origin3-iceland-current-law"
+        ]
+      },
+      {
+        "heading": "What the tax owner should retain",
+        "paragraphs": [],
+        "sourceIds": [
+          "b3-origin3-iceland-current-law"
+        ],
+        "bullets": [
+          "Actual buyer, business capacity and Icelandic domicile/establishment facts.",
+          "A supply breakdown and the exact current Article 12 point considered.",
+          "Each local-service exception and any separate other-recipient question.",
+          "The dated current-law analysis, invoice/return questions and unresolved implementing-rule evidence."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-origin3-iceland-current-law",
+      "b3-origin3-iceland-vat"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "An Icelandic customer-and-service classification memo based on the current statutory point 2/point 3 distinction and documented local-exception review.",
+    "limitations": [
+      "Narrow Icelandic statutory export-service screen; no complete VAT registration, reporting, input-credit or income-tax ruling.",
+      "Icelandic interpretation was AI-assisted. The current consolidated Regulation 194/1990 route returned403; no unresolved procedural requirement from that regulation is declared absent.",
+      "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+    ]
+  }
+]

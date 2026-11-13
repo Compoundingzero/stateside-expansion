@@ -1,0 +1,111 @@
+{
+  "kind": "narrow-primary-recovery-proposal",
+  "canonicalArraysEdited": false,
+  "sources": [
+    {
+      "type": "primary",
+      "authority": "New York State Senate, Open Legislation",
+      "publicationDate": null,
+      "effectiveDate": null,
+      "fetchedAt": "2026-11-13",
+      "substantiveVerifiedAt": "2026-11-13T01:47:12Z",
+      "nextReview": "2026-12-13",
+      "legalStatus": "Current legislative text as served on review date",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "accessStatus": "read",
+      "id": "b3-state3-ny-definition-recovered",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/681",
+      "title": "New York General Business Law § 681 — Definitions",
+      "section": "Complete § 681; especially subdivisions 3, 6–7, 11–12 and 18",
+      "supportingPassage": "and the franchisee is required to pay, directly or indirectly, a franchise fee, or",
+      "notes": "Complete actual public-reader body read. Page explicitly displays Viewing most recent revision (from 2014-09-22); that revision date is not treated as original publication or a new 2026 enactment. Two alternative franchise limbs are marketing-plan plus fee OR commercial-symbol association plus fee. Fee exclusions, area/subfranchise, renewal and territorial definitions are retained for actual-facts analysis. Saved exact reader response: research/raw/batch3/state3/ny-current-statutes-reader.json. Original direct HTTP failure remains historical; no successful local raw-HTML fetch/hash is claimed. Retrieval tool supplies known day precision, not exact request time."
+    },
+    {
+      "type": "primary",
+      "authority": "New York State Senate, Open Legislation",
+      "publicationDate": null,
+      "effectiveDate": null,
+      "fetchedAt": "2026-11-13",
+      "substantiveVerifiedAt": "2026-11-13T01:47:12Z",
+      "nextReview": "2026-12-13",
+      "legalStatus": "Current legislative text as served on review date",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "accessStatus": "read",
+      "id": "b3-state3-ny-disclosure-recovered",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/683",
+      "title": "New York General Business Law § 683 — Disclosure requirements",
+      "section": "Complete § 683; particularly subdivisions 7–10 and 14–15",
+      "supportingPassage": "at least ten days prior to the receipt of any consideration",
+      "notes": "Complete actual public-reader body read, including tail in ny-current-statutes-reader-tail.json. Page displays most recent revision from 2014-09-22. Subdivision 8 separately says first personal meeting, ten business days before binding agreement, and ten days before consideration. The current AG addendum uses ten-business-day phrasing for the payment branch; preserve the literal distinction rather than silently harmonizing it. The independent federal 14-calendar-day duty remains separate. Amendment/acceptance and no-endorsement provisions are not transaction approval. Saved exact reader response: research/raw/batch3/state3/ny-current-statutes-reader.json. Day-precision retrieval only; no local raw-HTML hash claimed."
+    },
+    {
+      "type": "primary",
+      "authority": "New York State Senate, Open Legislation",
+      "publicationDate": null,
+      "effectiveDate": null,
+      "fetchedAt": "2026-11-13",
+      "substantiveVerifiedAt": "2026-11-13T01:47:12Z",
+      "nextReview": "2026-12-13",
+      "legalStatus": "Current legislative text as served on review date",
+      "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+      "accessStatus": "read",
+      "id": "b3-state3-ny-rights-recovered",
+      "url": "https://www.nysenate.gov/legislation/laws/GBS/687",
+      "title": "New York General Business Law § 687 — Fraudulent and unlawful practices",
+      "section": "Complete § 687; especially subdivisions 4–5",
+      "supportingPassage": "Any condition, stipulation, or provision purporting to bind any person acquiring any franchise to waive compliance",
+      "notes": "Complete actual public-reader body read. Page displays most recent revision from 2014-09-22, not a selected historical revision. Subdivisions 4–5 address waiver of statutory compliance and required release/assignment/novation/waiver/estoppel relieving statutory duty or liability. No conclusion about every later negotiated dispute, venue provision, cause of action or remedy. Saved exact reader response: research/raw/batch3/state3/ny-current-statutes-reader.json. Day-precision retrieval only; no local raw-HTML hash claimed."
+    }
+  ],
+  "guidePath": "/states/new-york/",
+  "guidePatchInstructions": [
+    {
+      "heading": "Start with the state’s actual model and sales facts",
+      "paragraphs": [
+        "The Attorney General says offerings must be registered before franchises are offered or sold in or from New York unless an exemption applies. Current GBL 681(3) has two alternative franchise branches: a substantially prescribed marketing plan plus a required direct or indirect fee, or substantial association with the designated commercial symbol plus that fee. It does not require both plan and symbol elements in every covered arrangement.",
+        "Section 681 separately defines fee exclusions, area and subfranchise roles, uninterrupted renewals and territorial connections. Part 200.1 supplies further fee and advice/training meanings. Map the actual seller, rights, payments, support, offer/acceptance and operating facts before applying a branch or exemption. This guide determines no actual classification or exemption."
+      ],
+      "sourceIds": [
+        "b3-state3-ny-definition-recovered",
+        "b3-state3-ny-regulations",
+        "b3-state3-ny-overview"
+      ]
+    },
+    {
+      "heading": "A meeting can be earlier than the planned signature",
+      "paragraphs": [
+        "GBL 683(8) requires the offering prospectus and proposed agreements at the earliest of the first personal meeting, at least ten business days before a binding franchise or other agreement, or at least ten days before receipt of consideration. It defines the covered first face-to-face meeting by its purpose of discussing a franchise sale or possible sale.",
+        "The currently linked AG addendum, revised April 2, 2024, instead uses ten-business-day phrasing alongside agreement execution or related payment. Preserve that literal source difference and the independent federal 14-calendar-day requirement. Do not silently replace the statute’s ten-day payment wording with ten business days or use the federal signature countdown as the only meeting/payment gate. Record actual documents, meetings, delivery, signatures and money before applying the requirements."
+      ],
+      "sourceIds": [
+        "b3-state3-ny-disclosure-recovered",
+        "b3-state3-ny-addendum"
+      ]
+    }
+  ],
+  "rulePatchInstructions": [
+    {
+      "id": "b3-state3-ny-inputs",
+      "addSourceIds": [
+        "b3-state3-ny-definition-recovered"
+      ],
+      "requirement": "GBL 681(3) uses alternative marketing-plan-plus-fee OR commercial-symbol-plus-fee branches. Apply its actual fee exclusions, area/subfranchise and offer/nexus definitions alongside the further Part 200.1 meanings; no actual model or exemption is decided.",
+      "removeUnretrievedCurrentDefinitionLimit": true
+    },
+    {
+      "id": "b3-state3-ny-addendum",
+      "addSourceIds": [
+        "b3-state3-ny-disclosure-recovered",
+        "b3-state3-ny-rights-recovered"
+      ],
+      "requirement": "Keep GBL 683(8)’s first-personal-meeting, ten-business-day agreement and ten-day consideration branches distinct. The current AG addendum’s payment wording uses ten business days; preserve that source difference alongside the independent federal clock. GBL 687(4)–(5) and the addendum supply their own qualified rights/release and questionnaire rules.",
+      "removeUnretrievedCurrentStatuteLimit": true
+    }
+  ],
+  "metadataPatch": {
+    "sourceId": "b3-state3-ny-addendum",
+    "publicationDate": null,
+    "retainRevisionDateInTitleAndNotes": "2024-04-02"
+  },
+  "preserve": "Preserve root’s concurrent prose, other sections, historical retrieval evidence and unrelated coverage dimensions. Root decides final source/rule/coverage/candidate integration."
+}

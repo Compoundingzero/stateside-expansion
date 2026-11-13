@@ -1,0 +1,358 @@
+[
+  {
+    "id": "b3-local-san-jose-food",
+    "path": "/cities/san-jose/food-facility-takeover/",
+    "title": "San Jose food takeover: separate the purchase from permission to operate",
+    "description": "Use Santa Clara County’s ownership evaluation and plan-review branches before inheriting a seller’s opening assumptions.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "San Jose, California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-local-sj-takeover",
+      "b3-local-sj-plan"
+    ],
+    "sourceIds": [
+      "b3-local-sj-food",
+      "b3-local-sj-evaluation",
+      "b3-local-sj-plan",
+      "b3-local-sj-owner-form",
+      "b3-local-sj-food-scope"
+    ],
+    "sections": [
+      {
+        "heading": "The seller’s operating permit does not follow the sale",
+        "paragraphs": [
+          "For a proposed fixed retail food site in San Jose, build a separate County of Santa Clara Department of Environmental Health workstream. Its current instructions say food operating permits cannot pass to a new owner. A takeover requires a facility evaluation; the new operator must obtain its own health permit before operating.",
+          "The county expressly offers evaluation before a purchase. That makes the request useful acquisition diligence: find out whether the actual premises and operation can qualify before treating the seller’s trading history as proof that a new operator can open."
+        ],
+        "sourceIds": [
+          "b3-local-sj-evaluation",
+          "b3-local-sj-food"
+        ]
+      },
+      {
+        "heading": "Describe the menu and equipment changes before choosing the route",
+        "paragraphs": [
+          "The county’s October 2026 evaluation packet asks about the new owner, start and ownership-change dates, food preparation, menu, equipment and proposed remodeling. It warns that a changed menu, new equipment or major structural deficiencies can send the project to plan review. An existing food address is therefore not enough to select the evaluation-only route.",
+          "The current plan-review page lists scope of work, equipment, finishes, mechanical/plumbing/electrical information, applicable hoods, menu and equipment specifications. Complete application items and payment are needed before a project enters the review queue. Approved plans are followed by construction inspections appropriate to the project and separate operating-permit steps."
+        ],
+        "sourceIds": [
+          "b3-local-sj-owner-form",
+          "b3-local-sj-plan"
+        ]
+      },
+      {
+        "heading": "Fictional example: a café purchase adds a hot-food menu",
+        "paragraphs": [
+          "A foreign café brand buys an existing San Jose café. The purchase plan retains the counter but adds cooking equipment and a new hot-food menu. The expansion lead records the current menu, proposed cooking process, equipment and hood changes, then asks County DEH to confirm evaluation versus plan review. The buyer does not budget an evaluation as the entire approval route.",
+          "Before paying a nonrefundable fit-out deposit, the premises lead also obtains the city’s actual use/building/fire requirements for this address. County food approval and city premises permission are different release conditions; this guide verifies the county food branch only."
+        ],
+        "sourceIds": [
+          "b3-local-sj-food",
+          "b3-local-sj-owner-form",
+          "b3-local-sj-plan"
+        ]
+      },
+      {
+        "heading": "Build a takeover decision file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Acquisition lead",
+              "Exact site, actual operator, ownership-change date and purchase conditions"
+            ],
+            [
+              "Operations lead",
+              "Current and proposed menu, food processes, equipment and layout changes"
+            ],
+            [
+              "County health lead",
+              "Evaluation packet, menu where applicable, inspection result and any plan-review referral"
+            ],
+            [
+              "Premises lead",
+              "City zoning/use/building/fire and landlord constraints; separate written answers"
+            ],
+            [
+              "Finance lead",
+              "Separate evaluation, plan-review, construction and operating-permit estimates; amounts still unverified"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-local-sj-owner-form",
+          "b3-local-sj-plan"
+        ]
+      },
+      {
+        "heading": "Inspect past records without treating them as future clearance",
+        "paragraphs": [
+          "SCCDineOut is the county’s official inspection-record application and can help identify prior observations and closure history for a candidate food facility. Record the facility identity and inspection date. A seller’s previous score or placard does not transfer its permit, settle a proposed menu change or prove a new owner is ready to open."
+        ],
+        "sourceIds": [
+          "b3-local-sj-food-scope",
+          "b3-local-sj-evaluation"
+        ]
+      },
+      {
+        "heading": "Keep the unresolved branches visible",
+        "paragraphs": [
+          "San Jose city tax and building pages remained inaccessible in this research run, so no city registration deadline, fee, exemption or zoning conclusion is asserted. Confirm parcel jurisdiction, proposed use, city construction/fire requirements and the county’s applicability to the actual site.",
+          "The evaluation packet lists specialized food processes that may need additional approvals. Reduced-oxygen packaging, manufacturing or other specialized operations require their own review; this page does not grant those permissions. Current fees, taxes, employment, supply and franchise-sales obligations remain separate."
+        ],
+        "sourceIds": [
+          "b3-local-sj-owner-form"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An operator-specific food takeover file with a confirmed county review route, unresolved city gates and separate cost allowances.",
+    "limitations": [
+      "County fixed-food processes only; San Jose city tax/zoning/building/fire authority and address-specific outcome remain unverified.",
+      "No current numeric fee or guaranteed approval duration; a department contact/queue statement is not an opening commitment.",
+      "Fictional example, not a documented business outcome."
+    ]
+  },
+  {
+    "id": "b3-local-indianapolis-fire",
+    "path": "/cities/indianapolis/fire-extinguisher-licenses/",
+    "title": "Indianapolis fire-extinguisher service: license the company and each technician",
+    "description": "Build separate business, person and premises records before a facilities-services partner dispatches a team.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Indianapolis, Indiana"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-local-indy-fire",
+      "b3-local-indy-completion"
+    ],
+    "sourceIds": [
+      "b3-local-indy-business",
+      "b3-local-indy-fire-business",
+      "b3-local-indy-fire-person",
+      "b3-local-indy-co-letter"
+    ],
+    "sections": [
+      {
+        "heading": "A facilities-services contract does not license its technical work",
+        "paragraphs": [
+          "Indianapolis’s official Business Licenses page identifies fire-prevention equipment service as a licensed activity and says both the business and each service person must hold a license. It also calls for service-person applications to be stamped by the Indianapolis Fire Department as proof of certification.",
+          "Start with the exact work: portable fire-extinguisher service, equipment sales, alarms, sprinklers, installation and ordinary facilities maintenance are different scopes. The retrieved company/person forms concern fire-extinguisher service; they do not establish authority for every other fire-protection activity or every customer jurisdiction."
+        ],
+        "sourceIds": [
+          "b3-local-indy-business",
+          "b3-local-indy-fire-business",
+          "b3-local-indy-fire-person"
+        ]
+      },
+      {
+        "heading": "Match company and technician records to the operator",
+        "paragraphs": [
+          "The company application asks for the business’s legal status, responsible applicant, officers or partners, registered-agent details where relevant and an authorized signature. The separate person application names the individual and associated business. A brand training record or a parent company’s license is not a substitute for identifying which local entity and people will perform the covered work.",
+          "The PDFs currently linked by the city are marked Last Modified 10/2023. Keep those revision dates in the evidence file and confirm current forms, fees, certification route and term with Business and Neighborhood Services and the Fire Department. No 2026 fee or renewal cadence is inferred from those older printed forms."
+        ],
+        "sourceIds": [
+          "b3-local-indy-fire-business",
+          "b3-local-indy-fire-person",
+          "b3-local-indy-business"
+        ]
+      },
+      {
+        "heading": "For the premises, request the actual completion file",
+        "paragraphs": [
+          "The city/county’s signed 2026 letter says it does not currently issue a Certificate of Occupancy. It instead describes the permit holder’s Certificate of Completion and Compliance for covered construction, due within 14 days after completion and before occupancy or use. It also describes a structural-permit exception for the specified architect/engineer certificate.",
+          "That is a record-identification instruction, not permission to occupy without approvals. Identify the actual permits, responsible filer and outstanding conditions. The letter’s separate administrative-fee trigger 30 days after permit expiry is not an opening grace period. Confirm whether the parcel is under the consolidated city/county or an excluded municipality."
+        ],
+        "sourceIds": [
+          "b3-local-indy-co-letter"
+        ]
+      },
+      {
+        "heading": "Fictional example: an industrial-service partner adds extinguisher maintenance",
+        "paragraphs": [
+          "A European industrial-service brand appoints a local partner to maintain customer premises. Its initial team includes cleaning staff and two technicians who will service portable extinguishers. The COO separates ordinary cleaning from that technical scope, obtains the company licensing answer and builds an individual certification/license file for each technician before dispatch.",
+          "The premises lead separately researches the workshop’s construction permits and applicable completion certificates. The team does not use an absence of a city-issued Certificate of Occupancy as evidence that its workshop, chemical storage or customer-site activity is approved. Those additional uses remain to be investigated."
+        ],
+        "sourceIds": [
+          "b3-local-indy-business",
+          "b3-local-indy-co-letter"
+        ]
+      },
+      {
+        "heading": "Use a release checklist tied to named people",
+        "paragraphs": [],
+        "bullets": [
+          "Commercial lead: define the work sold and each actual service location; do not promise unreviewed technical scope.",
+          "Local operator: confirm the correct company license category and retain the issued record.",
+          "Technical lead: record each technician’s certification, required Fire Department step and issued person license.",
+          "Premises lead: identify permits, responsible completion-certificate filer and remaining zoning/fire/use conditions.",
+          "Finance lead: obtain current fee and renewal instructions; keep numeric cost unknown until confirmed."
+        ],
+        "sourceIds": [
+          "b3-local-indy-business",
+          "b3-local-indy-fire-business",
+          "b3-local-indy-fire-person",
+          "b3-local-indy-co-letter"
+        ]
+      },
+      {
+        "heading": "What this guide has not cleared",
+        "paragraphs": [
+          "This is a narrow administrative opening and technical-service guide. The operative ordinance definitions, current professional qualifications, insurance, environmental/storage conditions, customer-site permissions and actual municipal boundaries still require review. It is not statewide permission for fire-protection work. Entity qualification, employment, tax and franchise-sale duties remain separate."
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A company-and-technician licensing roster plus a permit-linked premises completion file.",
+    "limitations": [
+      "Official administrative guidance and linked applications; underlying current ordinance and specific service facts still need checking.",
+      "The premises letter applies to 2026; current fee/renewal terms and excluded-municipality boundaries are unresolved.",
+      "Fictional worked example, not a documented business outcome."
+    ]
+  },
+  {
+    "id": "b3-local-detroit-food",
+    "path": "/cities/detroit/food-license-and-preopening/",
+    "title": "Detroit food openings: keep the health and preopening gates after the BSEED change",
+    "description": "A removed department license for named food businesses does not settle their health license, plans or opening date.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Detroit, Michigan"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b3-local-detroit-food-route",
+      "b3-local-detroit-food-plan"
+    ],
+    "sourceIds": [
+      "b3-local-detroit-notice",
+      "b3-local-detroit-service",
+      "b3-local-detroit-6103",
+      "b3-local-detroit-6105",
+      "b3-local-detroit-6115"
+    ],
+    "sections": [
+      {
+        "heading": "Read the department and category in the 2025 change",
+        "paragraphs": [
+          "Detroit’s 16 July 2025 Restaurants notice says restaurants, restaurants with an MLCC license, bar class C, mobile food vendors and coffee houses no longer need a license from Buildings, Safety Engineering and Environmental Department. The same notice says a Detroit Health Department license is still required.",
+          "This is a specific department-license change. It is not a statement that the premises, food operation, alcohol service or every other business activity is ready to open. Keep the actual operator, site and activity classification alongside the notice rather than treating a removed checklist item as an approval."
+        ],
+        "sourceIds": [
+          "b3-local-detroit-notice"
+        ]
+      },
+      {
+        "heading": "Choose the food authority from what the business actually does",
+        "paragraphs": [
+          "Michigan’s current Food Service Licenses guidance routes establishments primarily serving food for immediate consumption to the local health department. It separately routes businesses primarily selling, storing or manufacturing food to MDARD. Restaurants, coffee shops and catering kitchens are examples of food service; a grocery store or food warehouse should not simply copy the café route.",
+          "A hybrid operation needs a scope decision. Record any separately operated preparation area, customer seating, mobile unit or manufacturing process and ask the relevant authority to confirm the category. This guide does not turn the city’s restaurant notice into a rule for all businesses handling food."
+        ],
+        "sourceIds": [
+          "b3-local-detroit-service"
+        ]
+      },
+      {
+        "heading": "Distinguish plan-review exemption from permission to operate",
+        "paragraphs": [
+          "MCL 289.6103 exempts temporary food establishments and retail groceries from the specified plan-review requirement, but qualifies that exemption for food service within a grocery. It also distinguishes a grocery deli with customer seating. That is a plan-review classification rule, not a declaration that an exempt site needs no food license.",
+          "Where plans are submitted, MCL 289.6105 requires a transmittal identifying the project and owner, operator or designated agent, plus required fees. Incomplete or inaccurate information can lead to rejection. After covered construction, alteration, conversion or remodeling, MCL 289.6115 requires completion notification, a license application and a preopening evaluation before opening; the local health department may set the request lead time."
+        ],
+        "sourceIds": [
+          "b3-local-detroit-6103",
+          "b3-local-detroit-6105",
+          "b3-local-detroit-6115"
+        ]
+      },
+      {
+        "heading": "Fictional example: a Detroit coffee concept adds a preparation area",
+        "paragraphs": [
+          "A brand selects a Detroit storefront for a coffee business and plans food preparation and customer seating. The expansion lead records the 2025 notice against the coffee-house category, while the local operator confirms the actual food-service license route with Detroit Health. The fit-out lead submits the proposed menu, equipment and layout for a plan-review applicability answer before treating the premises as an approved café.",
+          "The opening plan keeps completion notification, the relevant license file and preopening evaluation separate from construction handover. A landlord’s keys or the absence of the named BSEED license is not the evidence used to release food service."
+        ],
+        "sourceIds": [
+          "b3-local-detroit-notice",
+          "b3-local-detroit-service",
+          "b3-local-detroit-6115"
+        ]
+      },
+      {
+        "heading": "Keep a short release matrix",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Workstream",
+            "Evidence before release"
+          ],
+          "rows": [
+            [
+              "Business category",
+              "Actual food service, retail, manufacturing and any mixed operations; current authority answer"
+            ],
+            [
+              "Named BSEED change",
+              "Dated notice matched to the specific category; no broader waiver assumed"
+            ],
+            [
+              "Food plans",
+              "Documented plan-review applicability/exemption and complete relevant plan file"
+            ],
+            [
+              "Health opening",
+              "Applicable license file, completion notice and preopening result for covered work"
+            ],
+            [
+              "Premises and other activity",
+              "Separate zoning/use, construction/fire, alcohol and other permissions for the actual address"
+            ],
+            [
+              "Cost and timing",
+              "Current scoped fees and local request lead times; unresolved amounts remain unknown"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-local-detroit-notice",
+          "b3-local-detroit-service",
+          "b3-local-detroit-6103",
+          "b3-local-detroit-6105",
+          "b3-local-detroit-6115"
+        ]
+      },
+      {
+        "heading": "The remaining local evidence gap",
+        "paragraphs": [
+          "The city’s longer opening guide, detailed premises/certificate pages and direct Health page remained inaccessible in this research run. Their search excerpts are not used as verified instructions. Current commercial-inspection or renewal cadence, local forms, fees, exact zoning/use and parcel-specific building/fire conditions must still be obtained from the competent offices.",
+          "This page records a narrow food-sector decision route. It does not resolve current amendments or enforcement beyond the reviewed sources, an alcohol permit, entity qualification, employment, supply or franchise-sales obligations."
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "An activity-specific Detroit food opening matrix that preserves health, plan and preopening evidence after the named BSEED license change.",
+    "limitations": [
+      "The dated notice is narrow; current broader premises and local health application instructions remain unreadable and unresolved.",
+      "Plan-review exemptions are not license exemptions; confirm actual category and combined operations.",
+      "No verified current fee, renewal cadence or guaranteed opening duration. Fictional example, not a documented operating outcome."
+    ]
+  }
+]

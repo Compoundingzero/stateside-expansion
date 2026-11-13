@@ -1,0 +1,840 @@
+[
+  {
+    "id": "b3-o2-poland",
+    "path": "/from/poland/",
+    "title": "A Polish supplier’s U.S. invoices: design the KSeF and customer-copy handoff",
+    "description": "Keep the statutory invoice, its readable U.S. customer copy and supporting acceptance records connected.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Poland"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-pl-ksef-delivery"
+    ],
+    "sourceIds": [
+      "b3-o2-pl-faq"
+    ],
+    "sections": [
+      {
+        "heading": "A U.S. customer is not a reason to skip the Polish invoice process",
+        "paragraphs": [
+          "The Ministry of Finance’s KSeF FAQ explicitly discusses invoices for customers outside the EU and foreign recipients without a Polish NIP. For a covered invoice, its ordinary online route is issuance in KSeF followed by a customer document through an agreed channel. The U.S. buyer is not expected to obtain a Polish login merely to pay the supplier.",
+          "First confirm that this issuer and transaction are in scope. The FAQ describes staged 2026 introduction and temporary exceptions. This guide does not declare that every Polish business or every foreign-group establishment has the same obligation."
+        ],
+        "sourceIds": [
+          "b3-o2-pl-faq"
+        ]
+      },
+      {
+        "heading": "Keep the customer copy faithful to the system record",
+        "paragraphs": [
+          "The ministry says a visualisation can be in another language but must match the substance of the XML sent to KSeF. Its ordinary online customer copy carries the applicable QR and KSeF reference. Decide who creates that copy, how the U.S. customer receives it and how finance reconciles payment to the issued record.",
+          "Service acceptance documents and shipping records are separate. The FAQ says documents such as acceptance protocols and transport documents are not simply attachments carried inside KSeF. Keep their own evidence chain rather than assuming a stored invoice proves delivery or satisfactory performance."
+        ],
+        "sourceIds": [
+          "b3-o2-pl-faq"
+        ]
+      },
+      {
+        "heading": "Fictional example: monthly support for an American operator",
+        "paragraphs": [
+          "A Polish technical-services company invoices a U.S. operator for monthly support. Finance confirms the invoice’s KSeF treatment, issues through the applicable process and provides the agreed English customer copy. The account manager separately retains the month’s support acceptance. A dispute over service delivery can then be investigated without confusing the readable copy with the underlying invoice or the acceptance record."
+        ],
+        "sourceIds": [
+          "b3-o2-pl-faq"
+        ]
+      },
+      {
+        "heading": "Prepare the first billing cycle",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Finance",
+              "Issuer/transaction scope, current transition and invoice mode"
+            ],
+            [
+              "Accounting system owner",
+              "KSeF reference and consistent customer visualisation"
+            ],
+            [
+              "Account manager",
+              "Agreed customer delivery channel and delivery record"
+            ],
+            [
+              "Operations",
+              "Separate acceptance/shipping evidence"
+            ],
+            [
+              "Finance controller",
+              "Payment, currency and correction reconciliation"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-pl-faq"
+        ]
+      },
+      {
+        "heading": "What remains open",
+        "paragraphs": [
+          "This is the ordinary online invoice handoff only. Offline/outage modes have different QR and resubmission conditions. VAT place, rate, exceptions, U.S. withholding, transfer pricing, franchise sales and personnel permissions remain separate decisions. The Polish original is the source; this English explanation is AI assisted."
+        ],
+        "sourceIds": [
+          "b3-o2-pl-faq"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A first-cycle invoice handoff mapping KSeF issuance, the U.S. customer copy, payment and separate acceptance records.",
+    "limitations": [
+      "Covered online-invoice case only; confirm actual 2026 scope/transition and current mode-specific rules.",
+      "No automatic VAT, withholding, U.S. tax or expansion permission result."
+    ]
+  },
+  {
+    "id": "b3-o2-czechia",
+    "path": "/from/czechia/",
+    "title": "A Czech U.S. pilot: reconcile three VAT reports instead of treating them as one",
+    "description": "Use the Czech Control Statement’s transaction categories alongside the separate VAT return and intra-EU statement.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Czechia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-cz-report-map"
+    ],
+    "sourceIds": [
+      "b3-o2-cz-vat"
+    ],
+    "sections": [
+      {
+        "heading": "The Control Statement does not replace the VAT return",
+        "paragraphs": [
+          "Czech Financial Administration describes the VAT Control Statement as reporting selected data from issued and received tax documents for the named VAT-payer categories. It expressly says the statement does not substitute either the VAT return or the Recapitulative Statement for intra-Community supplies.",
+          "Its listed categories include domestic taxable supplies, specified acquisition/reverse-charge items and input invoices where deduction is claimed. Reporting depends on actual period transactions, not simply on whether the sales customer has an American address."
+        ],
+        "sourceIds": [
+          "b3-o2-cz-vat"
+        ]
+      },
+      {
+        "heading": "Separate the absence of reportable transactions from the absence of a return",
+        "paragraphs": [
+          "The official guidance says that if none of its named transaction categories occurs in the period, a Control Statement is not submitted, but the VAT-return obligation is unaffected. Have finance document the category assessment before treating a period as having nothing to file.",
+          "The source also distinguishes changes before the due date from corrections after it. Maintain a correction log linked to the actual reporting period, and obtain the current filing/correction instructions for the entity. This guide does not reproduce the page’s historic monetary-sanction table."
+        ],
+        "sourceIds": [
+          "b3-o2-cz-vat"
+        ]
+      },
+      {
+        "heading": "Fictional example: American sales with Czech operating purchases",
+        "paragraphs": [
+          "A Czech VAT-registered service company has one U.S. support customer but also receives local supplier invoices on which it claims input VAT. Finance first classifies the support transaction rather than guessing its place of supply. It separately checks the local inputs against the Control Statement categories; an overseas sales focus has not made those purchase records disappear."
+        ],
+        "sourceIds": [
+          "b3-o2-cz-vat"
+        ]
+      },
+      {
+        "heading": "Create a period-level filing map",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Finance lead",
+              "Actual VAT-registration status and reporting period"
+            ],
+            [
+              "Receivables",
+              "Issued invoice and advance classifications"
+            ],
+            [
+              "Payables",
+              "Domestic/foreign purchases, claimed deduction and other named categories"
+            ],
+            [
+              "Tax preparer",
+              "Separate applicability decisions for return, Control Statement and intra-EU statement"
+            ],
+            [
+              "Controller",
+              "Submission acknowledgements and dated correction log"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-cz-vat"
+        ]
+      },
+      {
+        "heading": "Scope and source limits",
+        "paragraphs": [
+          "The English official page contains historic introduction material and later sanctions updates. This guide uses its report separation and transaction mapping only; current statutory deadlines, exemptions, registration categories and penalties need checking for the actual filer. U.S. service VAT treatment, customs, corporate tax, employment and franchise-sale questions are not resolved here."
+        ],
+        "sourceIds": [
+          "b3-o2-cz-vat"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A Czech monthly/period filing map linking issued and received documents to separate reporting decisions.",
+    "limitations": [
+      "No VAT-place, nil-filing or penalty conclusion for an actual company.",
+      "Current procedural dates and any later amendments remain to be confirmed."
+    ]
+  },
+  {
+    "id": "b3-o2-portugal",
+    "path": "/from/portugal/",
+    "title": "Taking a Portuguese brand to America: prepare the international trademark file",
+    "description": "Keep Portuguese rights, the chosen filing route, the U.S. declaration and any priority claim distinct.",
+    "family": "origin",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Portugal"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-pt-trademark"
+    ],
+    "sourceIds": [
+      "b3-o2-pt-international"
+    ],
+    "sections": [
+      {
+        "heading": "Portuguese protection has a geographic boundary",
+        "paragraphs": [
+          "The Ministry of Justice/INPI service page says rights granted by INPI are valid only in Portugal. It distinguishes direct country applications, EU protection and an international route for Madrid-system countries. A Portuguese registration is therefore a starting record, not the evidence used to promise that a U.S. operator can use a protected American brand.",
+          "Choose the actual mark owner, countries and goods/services before selecting a route. The source’s Madrid workflow requires a Portuguese registration or at least an existing Portuguese application; INPI checks the international request against that national filing."
+        ],
+        "sourceIds": [
+          "b3-o2-pt-international"
+        ]
+      },
+      {
+        "heading": "The U.S. designation has its own document and priority clock",
+        "paragraphs": [
+          "The current page specifically names a Declaration of intention to use the mark—United States of America to accompany an international request seeking U.S. protection. Put that document in the filing checklist rather than assuming the basic international form is the entire U.S. package.",
+          "An international request can be made after a Portuguese application/registration exists. If the applicant wants to claim priority from its Portuguese filing, the page describes a six-month window. That is a priority condition, not a universal rule that an older Portuguese mark can never be filed internationally."
+        ],
+        "sourceIds": [
+          "b3-o2-pt-international"
+        ]
+      },
+      {
+        "heading": "Fictional example: a Portuguese maintenance brand signs a U.S. partner",
+        "paragraphs": [
+          "A Portuguese maintenance brand plans to license its name and manuals to an American operator. Before promising territory exclusivity, its IP lead checks who owns the actual word/logo filings, which services the request covers, whether the priority window remains available and the U.S. declaration. Commercial documents distinguish an application in progress from an issued U.S. right."
+        ],
+        "sourceIds": [
+          "b3-o2-pt-international"
+        ]
+      },
+      {
+        "heading": "Prepare the filing and licensing evidence",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Brand owner",
+              "Actual owner, mark representation and covered goods/services"
+            ],
+            [
+              "IP lead",
+              "Portuguese basic application/registration and exact filing date"
+            ],
+            [
+              "Expansion lead",
+              "Selected countries and route with U.S. use plan"
+            ],
+            [
+              "Filing representative",
+              "U.S. declaration, submitted request and priority calculation"
+            ],
+            [
+              "Contract lead",
+              "Accurate description of application/decision status in partner documents"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-pt-international"
+        ]
+      },
+      {
+        "heading": "A filing route is not a clearance result",
+        "paragraphs": [
+          "The official service page was updated 30 July 2026 and is in Portuguese; this is an AI-assisted English summary. Fees, eligibility, conflicts with other marks, U.S. examination and actual permitted use still need review. This guide does not promise registration or resolve franchise disclosure, tax, data or work permission."
+        ],
+        "sourceIds": [
+          "b3-o2-pt-international"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A country/owner/class filing brief with the Portuguese basic record, U.S. declaration and priority calendar.",
+    "limitations": [
+      "Application/designation does not mean an automatic U.S. grant or absence of conflicts.",
+      "Current filing eligibility, fees and examination outcome are not determined."
+    ]
+  },
+  {
+    "id": "b3-o2-greece",
+    "path": "/from/greece/",
+    "title": "A Greek controller’s U.S. support incident: prepare the breach decision and filing route",
+    "description": "Connect the awareness clock, risk record and authorised HDPA portal filer before a partner incident.",
+    "family": "origin",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Greece"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-gr-breach-clock",
+      "b3-o2-gr-portal"
+    ],
+    "sourceIds": [
+      "b3-o2-gr-breach",
+      "b3-o2-gr-submit"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the controller and the competent authority",
+        "paragraphs": [
+          "For a controller for which the Hellenic Data Protection Authority is competent, its guidance distinguishes a personal-data breach, a reportable risk and a high-risk communication to affected people. A U.S. vendor’s incident notice should trigger a documented assessment; neither the vendor’s location nor Greek incorporation alone settles cross-border supervisory competence.",
+          "The authority describes notification without undue delay and, where feasible, within 72 hours after controller awareness when the risk threshold is met. Keep the awareness time and reasons for the notification decision. Even a breach not requiring authority notification must have an internal record."
+        ],
+        "sourceIds": [
+          "b3-o2-gr-breach"
+        ]
+      },
+      {
+        "heading": "Do not wait for a complete investigation to identify the filing route",
+        "paragraphs": [
+          "HDPA says incomplete information can be submitted initially and then supplemented without undue delay. Its Greek-established-controller route uses the online portal and Taxisnet credentials. Designate an authorised local filer and confirm readiness without sharing credentials with the U.S. partner.",
+          "The authority’s English/email alternative has stated conditions for cross-border/extraterritorial cases and controllers not established in Greece who cannot use Taxisnet. It is not an unrestricted alternative to the portal for every Greek controller."
+        ],
+        "sourceIds": [
+          "b3-o2-gr-breach",
+          "b3-o2-gr-submit"
+        ]
+      },
+      {
+        "heading": "Fictional example: an American helpdesk exposes customer records",
+        "paragraphs": [
+          "A Greek service business gives a U.S. helpdesk access to customer tickets. After an incident, the Greek incident lead records what happened, when the controller became aware, affected categories and the risk assessment. The authorised filer prepares an initial notice if required, while the technical team continues the investigation and provides supplements. The team separately assesses whether affected people must be told."
+        ],
+        "sourceIds": [
+          "b3-o2-gr-breach",
+          "b3-o2-gr-submit"
+        ]
+      },
+      {
+        "heading": "Prepare an incident evidence pack",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Data owner",
+              "Controller/processor roles, data scope and authority decision"
+            ],
+            [
+              "Incident lead",
+              "Awareness timeline, affected persons/data and containment facts"
+            ],
+            [
+              "Privacy lead",
+              "Risk and notification/non-notification reasoning"
+            ],
+            [
+              "Authorised local filer",
+              "Portal route and initial/supplementary submission records"
+            ],
+            [
+              "Communications lead",
+              "Separate high-risk individual-notice assessment"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-gr-breach",
+          "b3-o2-gr-submit"
+        ]
+      },
+      {
+        "heading": "Keep transfer and security design separate",
+        "paragraphs": [
+          "This guide prepares incident handling only. It does not approve a U.S. data transfer, select the lawful processing basis, complete a processor contract or settle every notification exception/sector duty. No login or notification was performed during this research."
+        ],
+        "sourceIds": [
+          "b3-o2-gr-submit"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A controller-specific incident playbook with an awareness/risk log, competent-authority decision and authorised filing route.",
+    "limitations": [
+      "HDPA competence and actual breach/reporting risk require assessment; not every incident is reportable.",
+      "High-risk individual notification, transfer safeguards and sector rules remain separate."
+    ]
+  },
+  {
+    "id": "b3-o2-luxembourg",
+    "path": "/from/luxembourg/",
+    "title": "A Luxembourg service supplier: keep U.S. billing out of the wrong EU report",
+    "description": "Map the receiving establishment and distinguish the VAT return from the other-EU recapitulative statement.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Luxembourg"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-lu-recap-boundary"
+    ],
+    "sourceIds": [
+      "b3-o2-lu-services",
+      "b3-o2-lu-recap"
+    ],
+    "sections": [
+      {
+        "heading": "Foreign customers do not all enter the same statement",
+        "paragraphs": [
+          "Guichet’s Luxembourg procedure describes recapitulative statements in addition to VAT returns for qualifying supplies to recipients in other EU Member States. It calls for customer country/VAT identifiers and values, with electronic reporting through eCDF. The word foreign does not make a U.S. customer an other-EU recipient.",
+          "Identify the actual contracting and receiving entity. Guichet’s B2B services explanation uses the customer’s establishment or the permanent establishment receiving the service. A U.S.-headquartered group with an EU receiving branch therefore cannot be classified from its brand name alone."
+        ],
+        "sourceIds": [
+          "b3-o2-lu-services",
+          "b3-o2-lu-recap"
+        ]
+      },
+      {
+        "heading": "Build separate invoice and reporting decisions",
+        "paragraphs": [
+          "First determine the actual service, customer status and relevant receiving establishment, including any applicable exception. Then map the transaction to the Luxembourg VAT-return and recapitulative processes separately. Do not use absence from one EU statement to conclude that no VAT return, tax or record obligation exists.",
+          "For applicable other-EU entries, retain the proper recipient identifier, value, period and correction record. Confirm current eCDF access, period and cutoff before filing; an internal billing spreadsheet is not a submission acknowledgement."
+        ],
+        "sourceIds": [
+          "b3-o2-lu-services",
+          "b3-o2-lu-recap"
+        ]
+      },
+      {
+        "heading": "Fictional example: two customers in one U.S. rollout budget",
+        "paragraphs": [
+          "A Luxembourg B2B brand supplies support directly to a U.S. operating entity and separately to a Belgian group company involved in the rollout. Finance documents which establishment receives each service and classifies the service rather than placing both under an overseas-revenue heading. It prepares the applicable other-EU reporting row separately from the U.S. billing evidence. The example assumes no tax outcome."
+        ],
+        "sourceIds": [
+          "b3-o2-lu-services",
+          "b3-o2-lu-recap"
+        ]
+      },
+      {
+        "heading": "Use a recipient-and-report register",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Account owner",
+              "Contracting entity and actual receiving establishment"
+            ],
+            [
+              "Tax lead",
+              "Customer status, service classification and exception analysis"
+            ],
+            [
+              "Finance",
+              "Invoice/VAT-return decision for the actual transaction"
+            ],
+            [
+              "EU reporting preparer",
+              "Qualifying other-EU row, identifier, period and corrections"
+            ],
+            [
+              "Controller",
+              "eCDF acknowledgement and reconciliation to accounting"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-lu-services",
+          "b3-o2-lu-recap"
+        ]
+      },
+      {
+        "heading": "Date and scope limits matter",
+        "paragraphs": [
+          "These official Guichet pages were last updated in January 2023. The guide uses their narrow report boundary and establishment mapping; it does not rely on older event/digital/B2C examples or claim to reconcile all later statutory amendments. Confirm the current treatment, deadlines and exceptions for the actual transaction. U.S. tax, withholding, employment and franchise obligations remain separate."
+        ],
+        "sourceIds": [
+          "b3-o2-lu-services",
+          "b3-o2-lu-recap"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A recipient/establishment register with separate invoice, VAT-return and other-EU statement decisions.",
+    "limitations": [
+      "Official guidance is dated January 2023; current statutory exceptions and filing details need confirmation.",
+      "No automatic no-VAT, no-return or no-U.S.-tax conclusion."
+    ]
+  },
+  {
+    "id": "b3-o2-estonia",
+    "path": "/from/estonia/",
+    "title": "An Estonian U.S. pilot: check the VAT effect of buying American services",
+    "description": "Foreign advertising, software or advice can change the home-country tax file before the pilot earns revenue.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Estonia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-ee-received-services",
+      "b3-o2-ee-cost-record"
+    ],
+    "sourceIds": [
+      "b3-o2-ee-limited",
+      "b3-o2-ee-register-limited",
+      "b3-o2-ee-reminder"
+    ],
+    "sections": [
+      {
+        "heading": "The purchase side can trigger the registration decision",
+        "paragraphs": [
+          "The Estonian Tax and Customs Board describes limited VAT registration for a defined Estonian person receiving specified services from a foreign business not registered for VAT in Estonia. The list includes advertising, consulting/data processing, intellectual-property use and electronically supplied services. It is a purchase-side trigger; it need not wait for the U.S. pilot to generate sales.",
+          "Check the actual purchaser’s status, service and supplier facts. The source excludes already-taxable persons and non-business natural persons as stated. Its separate threshold for intra-EU goods is not a threshold protecting the listed received services."
+        ],
+        "sourceIds": [
+          "b3-o2-ee-limited",
+          "b3-o2-ee-register-limited",
+          "b3-o2-ee-reminder"
+        ]
+      },
+      {
+        "heading": "Limited VAT liability does not mean full input-tax recovery",
+        "paragraphs": [
+          "For a triggered registration, the board describes an application within three working days from the obligation date. Plan the status review before receiving the service rather than discovering it at year end.",
+          "The limited person has no input-tax deduction under this guidance and must account for applicable tax, preserve records and file in relevant transaction periods. That can create a real pilot cost. The word limited describes this VAT status, not the company’s legal limited liability or a guarantee that purchases are tax free."
+        ],
+        "sourceIds": [
+          "b3-o2-ee-register-limited",
+          "b3-o2-ee-limited",
+          "b3-o2-ee-reminder"
+        ]
+      },
+      {
+        "heading": "Fictional example: an early-stage brand buys U.S. launch support",
+        "paragraphs": [
+          "An Estonian service company not fully VAT registered buys advertising and online launch tools from foreign suppliers. Before approving the contracts, its finance lead verifies the service categories and suppliers’ Estonian VAT status, records receipt dates and obtains the registration answer. The budget includes applicable non-deductible tax rather than assuming every tax amount will be recovered."
+        ],
+        "sourceIds": [
+          "b3-o2-ee-register-limited",
+          "b3-o2-ee-reminder"
+        ]
+      },
+      {
+        "heading": "Add a foreign-service purchase gate",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Purchaser",
+              "Actual entity, establishment and full/limited/non-registered VAT status"
+            ],
+            [
+              "Procurement",
+              "Foreign supplier status and precise service description"
+            ],
+            [
+              "Finance",
+              "Receipt date and registration trigger/three-working-day calendar"
+            ],
+            [
+              "Controller",
+              "Applicable tax and non-deduction cost treatment"
+            ],
+            [
+              "Tax preparer",
+              "Record retention, relevant returns and payment evidence"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-ee-register-limited",
+          "b3-o2-ee-reminder"
+        ]
+      },
+      {
+        "heading": "The status decision remains specific",
+        "paragraphs": [
+          "This page does not classify every software contract, prescribe one VAT rate or choose limited versus full registration for the business. Later intra-EU goods purchases and use of the limited number have separate consequences. U.S. sales tax, corporate tax, franchise sales and people mobility are not cleared."
+        ],
+        "sourceIds": [
+          "b3-o2-ee-reminder"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A foreign-service purchasing checklist linking status, receipt date, registration, non-deductible tax and reporting records.",
+    "limitations": [
+      "Only the stated Estonian foreign-service/limited-registration route; confirm actual exceptions and classification.",
+      "No universal VAT rate or expansion permission is supplied."
+    ]
+  },
+  {
+    "id": "b3-o2-latvia",
+    "path": "/from/latvia/",
+    "title": "A Latvian goods shipment for a U.S. pilot: keep export proof and advance dates",
+    "description": "Do not turn a U.S. order or deposit into an unsupported Latvian zero-rate conclusion.",
+    "family": "origin",
+    "topic": "products-supply",
+    "jurisdictions": [
+      "Latvia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-lv-export-proof"
+    ],
+    "sourceIds": [
+      "b3-o2-lv-law-current",
+      "b3-o2-lv-law"
+    ],
+    "sections": [
+      {
+        "heading": "An export claim needs the supporting evidence",
+        "paragraphs": [
+          "The current Latvian VAT Law applies a zero rate to goods exports in Section 43(1), while Section 51 denies the rate where the registered taxpayer cannot produce the required export or other zero-rate evidence. The law leaves documentary categories to Cabinet rules. A U.S. billing address or bank payment is not the complete evidence decision.",
+          "Define the actual goods transaction, seller, consignee and route. Obtain the current required documentary list and reconcile the invoice, actual movement and relevant export records before relying on the zero rate. This guide has not verified that complete Cabinet list or the U.S. import result."
+        ],
+        "sourceIds": [
+          "b3-o2-lv-law-current"
+        ]
+      },
+      {
+        "heading": "Advance receipts create a separate timing check",
+        "paragraphs": [
+          "Section 51(4) addresses an advance for a stated zero-rate transaction where goods have not been dispatched or services started within six months. Section 51(5) contains exceptions, including specified contract-based goods with a longer technological manufacturing process and supplies/services already started when the advance is received.",
+          "Record the actual advance and dispatch/start dates, plus evidence for any claimed exception. Do not apply the six-month statement without reading those qualifications or copy goods-export treatment onto an ordinary service fee."
+        ],
+        "sourceIds": [
+          "b3-o2-lv-law-current"
+        ]
+      },
+      {
+        "heading": "Fictional example: a pilot includes branded service equipment",
+        "paragraphs": [
+          "A Latvian maintenance brand supplies equipment to a U.S. operator and receives an advance while production is being arranged. Finance keeps the equipment transaction separate from training/support fees and creates an advance-aging entry. The logistics lead assembles the required export evidence for the actual movement; the tax lead checks timing and any manufacturing exception before confirming treatment."
+        ],
+        "sourceIds": [
+          "b3-o2-lv-law-current"
+        ]
+      },
+      {
+        "heading": "Create an export-and-advance evidence file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Commercial lead",
+              "Exact goods, seller, consignee, price and payment terms"
+            ],
+            [
+              "Logistics",
+              "Actual route/movement and required current export documents"
+            ],
+            [
+              "Finance",
+              "Invoice, advance receipt and shipment/start reconciliation"
+            ],
+            [
+              "Tax lead",
+              "Section 51 conditions and documented exception if relevant"
+            ],
+            [
+              "U.S. importer",
+              "Separate importer, classification, tariff and regulated-product workstream"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-lv-law-current"
+        ]
+      },
+      {
+        "heading": "Use the current language version consciously",
+        "paragraphs": [
+          "Likumi.lv explicitly labels its English translation as outdated, with validity ending in 2024 and later amendments omitted. This explanation uses the relevant current Latvian sections, summarised in English with AI assistance. The old English text is retained only as a currency warning. Temporary movements, goods without a taxable sale, complete documentary categories and U.S. import requirements remain outside this review."
+        ],
+        "sourceIds": [
+          "b3-o2-lv-law-current",
+          "b3-o2-lv-law"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A shipment-specific export file with an advance-aging log and documented evidence/exception decision.",
+    "limitations": [
+      "Current Latvian statutory sections only; complete current Cabinet evidence rules and transaction application need review.",
+      "No assumption that U.S. customers, training kits or service fees automatically qualify for a zero rate."
+    ]
+  },
+  {
+    "id": "b3-o2-lithuania",
+    "path": "/from/lithuania/",
+    "title": "A Lithuanian U.S. rollout: classify documents before filling i.SAF",
+    "description": "Separate VAT invoices, foreign-service purchases, customs records and proformas in the home-country reporting file.",
+    "family": "origin",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Lithuania"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-o2-lt-isaf-types"
+    ],
+    "sourceIds": [
+      "b3-o2-lt-registers"
+    ],
+    "sections": [
+      {
+        "heading": "One American supplier folder can contain different document types",
+        "paragraphs": [
+          "VMI’s KM1945 answer distinguishes issued VAT invoices, received foreign documents creating a Lithuanian VAT-accounting obligation, customs declarations and ordinary proformas. It does not treat every record associated with an American counterparty as the same kind of VAT-register entry.",
+          "For foreign purchases, first determine whether the actual document and transaction create a Lithuanian VAT-accounting obligation. The guidance distinguishes those required entries from foreign-VAT documents without such an obligation, whose inclusion may be optional under the stated classification rules. The supplier’s nationality alone does not decide this."
+        ],
+        "sourceIds": [
+          "b3-o2-lt-registers"
+        ]
+      },
+      {
+        "heading": "Keep proformas, customs evidence and the final return distinct",
+        "paragraphs": [
+          "The same VMI table separates a VAT invoice documenting an actual advance from a free-form request for advance payment that is not a VAT invoice. It also says customs import declarations are not registered as VAT invoices in this invoice register. Preserve those customs records in their own evidence workstream.",
+          "VMI’s cited currency answer specifies EUR taxable and VAT amounts. Its reconciliation answer explains that preliminary declarations based on register data can require additional taxpayer information and that register/return differences can arise from timing and corrections. Reconcile the outputs; do not overwrite one simply to make totals look identical."
+        ],
+        "sourceIds": [
+          "b3-o2-lt-registers"
+        ]
+      },
+      {
+        "heading": "Fictional example: software, a deposit request and imported equipment",
+        "paragraphs": [
+          "A Lithuanian VAT filer buys U.S. software, receives a proforma requesting an equipment deposit and later imports equipment. Finance classifies the software’s actual VAT obligation, checks whether an advance VAT invoice exists and keeps the customs declaration outside the invoice-register document category. It retains the original currency evidence and the EUR reporting workpaper for applicable entries."
+        ],
+        "sourceIds": [
+          "b3-o2-lt-registers"
+        ]
+      },
+      {
+        "heading": "Use a document classification register",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Evidence or decision"
+          ],
+          "rows": [
+            [
+              "Payables",
+              "Original issuer/recipient, document type and transaction facts"
+            ],
+            [
+              "Tax preparer",
+              "Foreign-purchase Lithuanian-VAT obligation and applicable code"
+            ],
+            [
+              "Logistics",
+              "Separate customs declaration/import evidence"
+            ],
+            [
+              "Finance",
+              "Actual advance VAT invoice versus proforma request"
+            ],
+            [
+              "Controller",
+              "EUR workpaper, timing/correction bridge and return reconciliation"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-o2-lt-registers"
+        ]
+      },
+      {
+        "heading": "Source and scope limits",
+        "paragraphs": [
+          "The official Lithuanian KM1945 answer is dated 10 July 2025; the cited currency/reconciliation answers are dated 22 November 2018. This is an AI-assisted English summary of those specific current-hosted answers. Actual VAT status/place, classification codes, period, filing cutoff and later changes need review. U.S. tax and franchise or work permissions are separate."
+        ],
+        "sourceIds": [
+          "b3-o2-lt-registers"
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A document-type classification register and EUR/timing reconciliation between i.SAF, customs records and the VAT return.",
+    "limitations": [
+      "Not every foreign record belongs in the VAT-invoice register; actual tax/document classification is required.",
+      "No tax rate, current code, deadline or transaction-specific VAT place is supplied."
+    ]
+  }
+]

@@ -1,6 +1,6 @@
 # Encrypted owner-board backups
 
-Prepared and tested on 13 November 2026. This records the actual backup mechanism and its limits; it does not authorize a production restore.
+Prepared and tested on 12 November 2026 Pacific time (13 November UTC). This records the actual backup mechanism and its limits; it does not authorize a production restore.
 
 ## Storage and schedule
 
@@ -53,4 +53,6 @@ Six focused tests in [backups.test.ts](../tests/backups.test.ts) passed: committ
 
 A real S3 synthetic roundtrip succeeded at `2026-11-13T00:21:51.221Z`: 8,228 encrypted bytes uploaded, downloaded, digest-matched, AES-GCM authenticated and restored with both then-configured SQLite quick/foreign-key checks passing. The synthetic object was then deleted. This demonstrated actual credential/signature/bucket access without reading production rows. A separate S3 prefix-list check succeeded. The implementation was subsequently strengthened from `quick_check` to the full `integrity_check`; the focused tests passed again.
 
-The module, six focused tests, actual bucket access, private offline key handoff, scheduler/server integration and protected manual trigger are ready. Actual production snapshot and isolated verification evidence will be recorded after the deployment and owner activation. Until that returned success is recorded, the synthetic test is not evidence that the populated production board has been backed up. Production restore verification runs within the Railway runtime; no populated production database or decrypted production snapshot is copied to the development workspace.
+Production verification was recorded from successful Railway deployment `a58feb6f-4883-40b7-8b18-d55715ac7eb3`, application revision `5b0a646`. The initial scheduler backup completed around `2026-11-13T00:29:12Z`. After actual owner activation, the protected manual control produced a fresh backup completed at `2026-11-13T00:30:22.237Z` (12 November, 16:30 Pacific Standard Time). Its object key is `eln/2026-11-13T00-30-21-167Z-7055fb5a-3f5c-4e70-9561-f55f8ca9c2e5.sqlite.aesgcm`; its encrypted size is 40,996 bytes. Returned results were `integrityCheck: "ok"`, `foreignKeys: "ok"` and `retentionStatus: "ok"`. This success means the populated database snapshot was uploaded, downloaded, digest-compared, authenticated, restored in an isolated runtime directory and fully integrity-checked. No submitted personal values were read or output for verification.
+
+The module, six focused tests, actual bucket access, private offline key handoff, scheduler/server integration and protected manual trigger are deployed and verified. The next scheduled run is due approximately 24 hours after the fresh snapshot began, subject to the documented runtime/availability limits. This verifies actual backup creation and an isolated restore check; it does not claim a future daily run has already occurred or a production restore has been performed. Production restore verification runs within the Railway runtime; no populated production database or decrypted production snapshot is copied to the development workspace.

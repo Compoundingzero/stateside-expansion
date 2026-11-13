@@ -1,0 +1,153 @@
+[
+  {
+    "id": "b3-local2-la-owner",
+    "title": "LA County food ownership and process changes need their own permit file",
+    "topic": "premises-opening",
+    "jurisdiction": "City of Los Angeles / county environmental-health service",
+    "activity": "Buying a restaurant or changing its equipment/menu/operation",
+    "affectedParty": "Actual restaurant operating entity and owner",
+    "applicability": "Only the stated jurisdiction/activity and actual facts; not overall opening clearance.",
+    "requirement": "The permit application is nontransferable and tied to the named person/location/activity/time. The purchase instructions distinguish the district-office route from new/major-modification plan check; the form separately calls for review and approval of equipment/menu/operation changes. Do not equate buying equipment or submitting a form with an issued permit.",
+    "exceptions": "Determine actual site, activity, category and agency scope against the current authority.",
+    "trigger": "Buying a restaurant or changing its equipment/menu/operation",
+    "deadline": "Resolve the applicable review/issued-record requirements before covered operation; follow an actual received notice’s due date.",
+    "fee": null,
+    "renewal": "Confirm current record term and recheck owner, site, process, equipment and discharge changes.",
+    "dependencies": [],
+    "evidence": [
+      "Actual municipal address and county-service authority",
+      "Actual new owner and prior facility records",
+      "Proposed menu/equipment/method changes",
+      "Applicable reviewed application and issued health permit"
+    ],
+    "sourceIds": [
+      "b3-local2-la-permit",
+      "b3-local2-la-takeover",
+      "b3-local2-la-boundary"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official application/process guidance",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No actual restaurant approval, no blanket unchanged-site exemption, and no all-county or neighbouring-city permission."
+    ],
+    "dependentPaths": [
+      "/cities/los-angeles/restaurants/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local2-la-planfile",
+    "title": "A Los Angeles restaurant remodel joins county food review to city premises approvals",
+    "topic": "premises-opening",
+    "jurisdiction": "City of Los Angeles / Los Angeles County",
+    "activity": "New retail food facility or covered change to an existing facility",
+    "affectedParty": "Food operator, plan designer and premises lead",
+    "applicability": "Only the stated jurisdiction/activity and actual facts; not overall opening clearance.",
+    "requirement": "County plan-check instructions call for the actual menu/equipment/plan package and separate planning/building approval, inspections, conditional health approval and issued public-health permit. Use the actual project scope and retain distinct decisions, rather than treating business tax registration as the food-opening record.",
+    "exceptions": "Determine actual site, activity, category and agency scope against the current authority.",
+    "trigger": "New retail food facility or covered change to an existing facility",
+    "deadline": "Resolve the applicable review/issued-record requirements before covered operation; follow an actual received notice’s due date.",
+    "fee": null,
+    "renewal": "Confirm current record term and recheck owner, site, process, equipment and discharge changes.",
+    "dependencies": [],
+    "evidence": [
+      "Current menu, equipment schedule/specifications and scaled plans",
+      "Applicable zoning and building permits/approval",
+      "Required final/conditional health records",
+      "Invoice/payment and issued public-health permit"
+    ],
+    "sourceIds": [
+      "b3-local2-la-plan",
+      "b3-local2-la-boundary"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official application/process guidance",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No guaranteed fee/review time, technical design approval, alcohol/outdoor-service or actual grease/fire/accessibility determination."
+    ],
+    "dependentPaths": [
+      "/cities/los-angeles/restaurants/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local2-houston-category",
+    "title": "Houston distinguishes non-industrial commercial laundry from industrial-waste discharge",
+    "topic": "premises-opening",
+    "jurisdiction": "Houston sanitary sewer / actual IWS jurisdiction",
+    "activity": "Proposing a laundry discharge to the city sanitary sewer",
+    "affectedParty": "Laundry operator and wastewater/process lead",
+    "applicability": "Only the stated jurisdiction/activity and actual facts; not overall opening clearance.",
+    "requirement": "Houston’s FAQ lists self-service/commercial (not industrial) laundry outside its stated Industrial Waste Permit requirement, but reserves an IWS permit determination for facilities discharging industrial waste. It directs a facility proposing non-domestic sewer discharge to contact IWS and submit the survey; that route does not depend on first receiving a mailed request. Present the actual operations/discharge facts and obtain the applicable determination, not a blanket sewer exemption.",
+    "exceptions": "Determine actual site, activity, category and agency scope against the current authority.",
+    "trigger": "Proposing a laundry discharge to the city sanitary sewer",
+    "deadline": "Resolve the applicable review/issued-record requirements before covered operation; follow an actual received notice’s due date.",
+    "fee": null,
+    "renewal": "Confirm current record term and recheck owner, site, process, equipment and discharge changes.",
+    "dependencies": [],
+    "evidence": [
+      "Actual receiving sewer authority and service address",
+      "Client/textile/process/chemical and discharge facts",
+      "Prospective-discharge IWS contact and survey submission",
+      "IWS classification, applicable review and issued record where required"
+    ],
+    "sourceIds": [
+      "b3-local2-houston-faq"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official application/process guidance",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No actual non-industrial classification, numeric discharge limit, treatment design, direct-discharge or receiving-authority determination."
+    ],
+    "dependentPaths": [
+      "/cities/houston/commercial-laundry/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-local2-houston-survey-duty",
+    "title": "A received Houston industrial-wastewater survey remains a separate response task",
+    "topic": "premises-opening",
+    "jurisdiction": "City of Houston Industrial Wastewater Service",
+    "activity": "Receiving an industrial-wastewater survey request",
+    "affectedParty": "Requested facility operator and authorised signer",
+    "applicability": "Only the stated jurisdiction/activity and actual facts; not overall opening clearance.",
+    "requirement": "The city calls a received survey a mandatory report request and describes consequences for missing its due date. Complete the actual water-use/discharge record, sign and return it under the request; the survey is not itself an issued permit or an automatic finding that one is needed.",
+    "exceptions": "Determine actual site, activity, category and agency scope against the current authority.",
+    "trigger": "Receiving an industrial-wastewater survey request",
+    "deadline": "Resolve the applicable review/issued-record requirements before covered operation; follow an actual received notice’s due date.",
+    "fee": null,
+    "renewal": "Confirm current record term and recheck owner, site, process, equipment and discharge changes.",
+    "dependencies": [],
+    "evidence": [
+      "Received request and due date",
+      "Actual water-use and discharge-type/flow information",
+      "Signed response, submission record and IWS follow-up"
+    ],
+    "sourceIds": [
+      "b3-local2-houston-survey",
+      "b3-local2-houston-faq"
+    ],
+    "status": "verified",
+    "legalStatus": "scoped official application/process guidance",
+    "verifiedAt": "2026-11-13",
+    "nextReview": "2026-12-13",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No assertion that every commercial facility has received the survey or that survey submission completes every operating duty."
+    ],
+    "dependentPaths": [
+      "/cities/houston/commercial-laundry/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

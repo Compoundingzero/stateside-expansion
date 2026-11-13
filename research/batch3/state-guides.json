@@ -1,0 +1,638 @@
+[
+  {
+    "id": "b3-state-guide-ca-janitorial-registration",
+    "path": "/states/california/janitorial-employer-registration/",
+    "title": "California janitorial registration: map the provider, franchisee and customer roles",
+    "description": "Contractors and franchisees can be covered workers. Identify each entity’s role before assuming a cleaning network is outside employer registration.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-ca-janitorial-registration"
+    ],
+    "sections": [
+      {
+        "heading": "A franchise structure does not answer the registration question",
+        "paragraphs": [
+          "California’s Labor Commissioner describes a janitorial employer as a person or entity employing a covered worker or engaging through contracts, subcontracts or franchise arrangements for covered janitorial services. A covered worker can be an employee, independent contractor or franchisee predominantly working as a janitor. The FAQ expressly includes a commercial cleaning provider without employees and a provider using franchisees or contractors.",
+          "For an overseas cleaning brand, map the U.S. contracting entity, local provider, franchisee and actual individuals doing the work. Calling the workers independent businesses does not establish an exclusion from this specific registration program."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial",
+          "b3-state-ca-janitorial-faq"
+        ]
+      },
+      {
+        "heading": "Separate the service provider from the service recipient",
+        "paragraphs": [
+          "The agency FAQ excludes a business acting as the recipient of cleaning services, illustrated by a restaurant hiring a cleaner after closing. It also excludes a provider that only cleans residential dwellings and states the agency’s interpretation for public entities. Those examples depend on the actual role and work; they do not create a general exemption for an intermediary arranging commercial cleaning."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial-faq"
+        ]
+      },
+      {
+        "heading": "Build the filing and renewal packet around the actual entity",
+        "paragraphs": [
+          "The current program states a $500 nonrefundable initial application fee and $500 annual renewal. Registration lasts one year and renewal is due by the original issuance month and day. Section 13810 asks for customer and contractor/franchisee information as well as entity details; workers’ compensation evidence is conditional on employing one or more employees."
+        ],
+        "bullets": [
+          "Assign each provider’s legal name, business names, ownership information and relevant entity documents.",
+          "List the customers and contractors or franchisees the application calls for, with registration details where applicable.",
+          "Preserve registration evidence and expiry dates; review a counterparty’s registration when entering, extending, renewing or modifying a janitorial contract.",
+          "Assign the required three-year employee and other covered-worker records, including work periods and compensation."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial",
+          "b3-state-ca-janitorial-faq",
+          "b3-state-ca-janitorial-registration-rule"
+        ]
+      },
+      {
+        "heading": "Fictional example: the customer contract and the operating contract differ",
+        "paragraphs": [
+          "A Singapore facilities brand signs a California office-cleaning contract through its U.S. subsidiary and allocates the work to a local franchisee. The office is the service recipient. The subsidiary and franchisee need their own role and registration assessment; the recipient example does not automatically exempt either provider. The practical output is a two-row provider schedule with the actual contract, workers, registration owner and evidence."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial-faq",
+          "b3-state-ca-janitorial-registration-rule"
+        ]
+      },
+      {
+        "heading": "Keep the separate compliance tracks visible",
+        "paragraphs": [
+          "This janitorial registration does not decide whether the business model is a franchise under sales laws, whether individuals are employees for another purpose, or which wages apply. Janitorial training also has its own provider, timing and record requirements. Maintain those as separate tasks before staffing or selling the model."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial",
+          "b3-state-ca-janitorial-faq"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-ca-janitorial",
+      "b3-state-ca-janitorial-faq",
+      "b3-state-ca-janitorial-registration-rule"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "An entity-by-entity janitorial registration schedule with role facts, filing evidence, renewal date and a three-year records owner.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ]
+  },
+  {
+    "id": "b3-state-guide-ca-janitorial-training",
+    "path": "/states/california/janitorial-training-records/",
+    "title": "California janitorial harassment-prevention training: own the deadline and proof",
+    "description": "Build the required sexual violence and harassment prevention training cycle, qualified-provider route and records for covered janitorial workers and supervisors.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-ca-janitorial-training"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the covered workforce",
+        "paragraphs": [
+          "The janitorial program’s covered-worker definition can include contractors and franchisees predominantly performing janitorial work, as well as employees. The program’s sexual violence and harassment prevention training covers nonsupervisory covered workers and their supervisors. A network should identify the actual people and responsible employer rather than assume a franchise agreement supplies completed training."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial-faq"
+        ]
+      },
+      {
+        "heading": "Calendar both the new-position deadline and the recurring cycle",
+        "paragraphs": [
+          "Section 13821 requires at least two hours at least once every two years and training within six months of assuming a new covered position. Segments may be separated, but each must last at least one hour. The regulation has a specific covered-successor rule for qualifying retained workforces; acquiring a contract alone does not establish its conditions."
+        ],
+        "sourceIds": [
+          "b3-state-ca-rule13821"
+        ]
+      },
+      {
+        "heading": "Use the prescribed route and understandable content",
+        "paragraphs": [
+          "DIR’s current program says in-person compliance must begin following publication of the qualified-organization list in January 2024. Its FAQ distinguishes qualified peer trainers for nonsupervisory workers from qualified supervisor trainers. The required content is developed through LOHP under DIR’s direction, and training must match the language and literacy understood by the participants. A general online orientation is not evidence that these requirements were met."
+        ],
+        "sourceIds": [
+          "b3-state-ca-janitorial-faq",
+          "b3-state-ca-janitorial-training-rule",
+          "b3-state-ca-rule13821",
+          "b3-state-ca-janitorial-training"
+        ]
+      },
+      {
+        "heading": "The employer keeps the proof even when another entity trains",
+        "paragraphs": [
+          "The regulation places the proof burden on the employer, including when another entity or janitorial employer provides training. Keep the required records for at least three years and make them available to the Labor Commissioner."
+        ],
+        "bullets": [
+          "Record participant names, covered roles, position-start dates, training dates and next due dates.",
+          "Keep printed names and signatures at both the start and completion, certificates, content and provider identity.",
+          "Retain the signed DLSE 800 compliance form and required certification concerning payment of the qualified organization.",
+          "Provide a trainee’s materials and attendance or completion certificate when requested."
+        ],
+        "sourceIds": [
+          "b3-state-ca-rule13821"
+        ]
+      },
+      {
+        "heading": "Fictional example: a newly appointed route supervisor",
+        "paragraphs": [
+          "A local operator promotes a cleaner to a supervisory role and receives a spreadsheet saying the worker attended an old customer video. The compliance owner records the new role date, checks the six-month requirement and applicable prior-training facts, verifies the qualified provider and content, and collects the actual evidence. An unsupported “trained” tick does not close the task."
+        ],
+        "sourceIds": [
+          "b3-state-ca-rule13821",
+          "b3-state-ca-janitorial-faq"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-ca-janitorial-faq",
+      "b3-state-ca-rule13821",
+      "b3-state-ca-janitorial-training-rule",
+      "b3-state-ca-janitorial-training"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A covered-worker training register with position-start date, due date, qualified provider, required materials and a three-year evidence folder.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ]
+  },
+  {
+    "id": "b3-state-guide-ca-pay-floor",
+    "path": "/states/california/pay-floor-and-manager-duties/",
+    "title": "California pay planning: check the wage floor and the manager’s actual duties",
+    "description": "Use the 2026 general minimum as a starting point, then test location, industry and any claimed executive exemption independently.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-ca-general-minimum-wage-2026",
+      "b3-state-ca-executive-exemption-screen"
+    ],
+    "sections": [
+      {
+        "heading": "The 2026 state floor is not the final worksite rate",
+        "paragraphs": [
+          "California’s MW-2026 sets the general minimum at $16.90 per hour from January 1, 2026. The order has applicability limits and separate fast-food and healthcare tracks; DIR also explains that local requirements can be higher. Map every actual worksite and industry before pricing a service contract. A metropolitan label or headquarters address does not establish all worksite requirements."
+        ],
+        "sourceIds": [
+          "b3-state-ca-wage-order",
+          "b3-state-ca-dir-2026"
+        ]
+      },
+      {
+        "heading": "A manager title does not establish the executive exemption",
+        "paragraphs": [
+          "DLSE describes cumulative conditions involving enterprise or recognized-unit management, regular direction of two or more employees, hiring or firing authority or weighted recommendations, discretion and independent judgment, primarily exempt duties, and the required salary. Compare the planned role with the work actually done, especially where a launch manager will spend substantial time cleaning, delivering services or following a prescribed manual."
+        ],
+        "sourceIds": [
+          "b3-state-ca-glossary"
+        ]
+      },
+      {
+        "heading": "Separate the salary calculation from the employment budget",
+        "paragraphs": [
+          "The executive entry describes a monthly salary of at least twice the state minimum for full-time employment and identifies a 40-hour full-time week. Using the 2026 general minimum gives an annualized planning equivalent of $70,304: $16.90 × 40 × 52 × 2. This is an arithmetic illustration of that salary component, not a finding that any worker is exempt or that every industry uses this exact screen.",
+          "A fully loaded employment budget can include employer taxes, benefits, insurance, recruitment and equipment. Those budget entries are not automatically the guaranteed salary tested by the exemption. Keep the actual salary terms and the duties analysis separate."
+        ],
+        "sourceIds": [
+          "b3-state-ca-glossary",
+          "b3-state-ca-wage-order"
+        ]
+      },
+      {
+        "heading": "Fictional example: a $120,000 employment budget",
+        "paragraphs": [
+          "An expansion plan allows $120,000 for the first local manager but allocates $65,000 to base salary and the balance to employer costs and launch support. The total budget does not satisfy the illustrated $70,304 salary component. Raising salary alone would still leave the actual executive duties to assess. The finance owner should model the correct pay basis and applicable overtime rather than assume the title resolves it."
+        ],
+        "sourceIds": [
+          "b3-state-ca-glossary",
+          "b3-state-ca-wage-order"
+        ]
+      },
+      {
+        "heading": "Keep an evidence packet before making the offer",
+        "paragraphs": [],
+        "bullets": [
+          "Actual worksite addresses, service industry and applicable wage order.",
+          "The rate source, its effective period and any higher local or industry requirement.",
+          "Actual duties, expected time allocation, reporting lines and authority over staff.",
+          "Guaranteed base salary, pay schedule and employer-cost assumptions as separate entries.",
+          "A recheck before a later payroll year or material role change; this guide does not supply a 2027 California rate."
+        ],
+        "sourceIds": [
+          "b3-state-ca-wage-order",
+          "b3-state-ca-dir-2026",
+          "b3-state-ca-glossary"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-ca-wage-order",
+      "b3-state-ca-dir-2026",
+      "b3-state-ca-glossary"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A dated worksite-rate check and a separate manager-duty assessment, with base salary distinguished from total employer cost.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ]
+  },
+  {
+    "id": "b3-state-guide-tx-worker-classification",
+    "path": "/states/texas/worker-classification-unemployment-tax/",
+    "title": "Texas contractor planning: test control for unemployment tax before using a 1099",
+    "description": "TWC considers actual working facts and the right to control. Build evidence for each role instead of treating a contractor label as the result.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "Texas"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-tx-tuca-classification"
+    ],
+    "sections": [
+      {
+        "heading": "Name the test being answered",
+        "paragraphs": [
+          "The Texas Workforce Commission’s guidance addresses the Texas Unemployment Compensation Act. It identifies service, wages and direction or control, and explains that the right to control can be enough even if it is not exercised. An agreement, business name or IRS form does not determine that classification. This is a specific unemployment-tax inquiry; federal wage law and federal tax law need their own analysis."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      },
+      {
+        "heading": "The twenty factors are evidence prompts, not a points game",
+        "paragraphs": [
+          "TWC’s comparative guide looks at instructions, training, integration, personal service, helpers, continuing relationships, set hours, full-time requirements, work location, sequence, reports, payment, expenses, tools, investment, profit or loss, multiple clients, public availability, discharge and quitting. TWC says not every factor applies and the weight of a factor can change with the business and facts."
+        ],
+        "bullets": [
+          "Record who can decide the methods and sequence of work, assign hours and require attendance or training.",
+          "Identify who supplies tools, pays expenses, hires substitutes or helpers and bears the risk of an unprofitable job.",
+          "Check actual customer availability, repeat engagements and termination rights against the written contract.",
+          "Attach examples from operations, invoices, schedules and manuals; explain disputed facts rather than count favorable answers."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      },
+      {
+        "heading": "Fictional example: a controlled service route",
+        "paragraphs": [
+          "A facilities company calls a worker a contractor but fixes the route, dictates the cleaning sequence, supplies equipment, requires its training and pays a fixed weekly amount. Those facts raise the control issues identified by TWC; a 1099 does not resolve them. A useful review compares each relevant fact, the retained contractual rights and the real performance, then records the classification rationale or obtains TWC assistance."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      },
+      {
+        "heading": "Close the payroll task only for the reviewed scope",
+        "paragraphs": [
+          "Give a responsible person the actual Texas unemployment-tax assessment and supporting facts before payroll or contractor onboarding. Record changes when the worker gains or loses genuine control or financial independence. Do not carry the result across other states or legal regimes without checking their own tests."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-tx-classification"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A Texas unemployment-tax classification memo that links control facts to evidence and keeps other legal tests open.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ]
+  },
+  {
+    "id": "b3-state-guide-ny-wage-scope",
+    "path": "/states/new-york/wage-region-and-industry/",
+    "title": "New York wage planning: select the region, industry and payroll period",
+    "description": "The dated 2026 posters distinguish regional rates and building-service arrangements. A statewide rate or a cleaning label is not enough.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "New York"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-ny-2026-region-industry-wage"
+    ],
+    "sections": [
+      {
+        "heading": "Use the actual work location and a dated source",
+        "paragraphs": [
+          "NYDOL’s miscellaneous-industry and building-service posters for January 1 through December 31, 2026 show $17 per hour in New York City, Long Island and Westchester County, and $16 in the rest of the state. An Albany worksite and a Westchester worksite therefore require different regional entries even when the same company supplies staff."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf"
+        ]
+      },
+      {
+        "heading": "Identify the wage order before copying a cleaning budget",
+        "paragraphs": [
+          "The building-service poster separately addresses residential janitor pay by unit or weekly salary and includes a residential-janitor overtime exception. The miscellaneous poster has its own extra-pay and credit notes. A commercial cleaning business should establish the actual industry and role rather than apply a residential janitor provision merely because a person cleans buildings.",
+          "The posters also flag matters beyond an hourly minimum, including overtime, uniform maintenance and, where applicable, call-in pay or spread of hours. The miscellaneous poster says no tip credit is available; do not import a restaurant’s hospitality credit into a different wage order. This guide does not decide any overtime exemption."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf"
+        ]
+      },
+      {
+        "heading": "Fictional example: the same service in two regions",
+        "paragraphs": [
+          "A business budgets 30 covered hours each week for a worker at a Westchester office and another worker at an Albany office. Using only the cited general 2026 hourly floors gives $510 and $480 in weekly base wages respectively, before other required pay and employer costs. The $30 difference is a planning illustration, not a complete payroll estimate or permission to ignore the correct wage order."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf"
+        ]
+      },
+      {
+        "heading": "Keep the 2027 announcement separate from a proposal",
+        "paragraphs": [
+          "As read for this review, the NYDOL overview displays a 2027 table and announces that the standard $17/$16 rates will stay unchanged under an off-ramp. It separately announces a home-care increase and describes a Governor’s proposal to alter the off-ramp provisions. An announced administrative explanation and a legislative proposal are different evidence. Use the dated 2026 posters for 2026 work and recheck enacted law and current agency guidance before 2027 payroll."
+        ],
+        "sourceIds": [
+          "b3-state-ny-minimum",
+          "b3-state-ny-wage-pdf"
+        ]
+      },
+      {
+        "heading": "What the payroll owner should retain",
+        "paragraphs": [],
+        "bullets": [
+          "Actual worksite, geographic region and payroll period.",
+          "Industry wage order and actual worker category, including any residential-janitor facts.",
+          "Dated rate source and the review of overtime, uniforms, call-in pay, spread of hours and any claimed credit.",
+          "Separate employer taxes, insurance, benefits and other operating costs from base wages.",
+          "Unresolved category or exemption questions assigned to a named reviewer before relying on a lower figure."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf",
+          "b3-state-ny-minimum"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-ny-wage-pdf",
+      "b3-state-ny-building-pdf",
+      "b3-state-ny-minimum"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A worksite-by-worksite payroll sheet with the correct region, industry order, worker category, rate period and extra-pay questions.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ]
+  },
+  {
+    "id": "state-draft-california",
+    "path": "/states/california/",
+    "title": "California: franchise and operating research",
+    "description": "Unpublished research record; evidence and original jurisdiction-specific explanation required.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "blocked",
+    "lastReviewed": null,
+    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
+    "readMinutes": 0,
+    "ruleIds": [],
+    "sections": [],
+    "sourceIds": [
+      "state-ca-instructions",
+      "state-ca-franchises",
+      "state-ca-section",
+      "state-ca-guidelines",
+      "b2-blocked-ca-instructions",
+      "b2-blocked-ca-broker-faq",
+      "b3-state-ca-budget-final",
+      "b3-state-ca-budget-may"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A reviewed jurisdiction-specific commitment checklist, pending research.",
+    "limitations": [
+      "Not published or included in the sitemap. Complete current financial-assurance application guidance remains inaccessible through ordinary public retrieval.",
+      "November 13, 2026 retries: DFPI application instructions, guidelines, broker page and Leginfo returned HTTP 403. The OAL-authorized public CCR publisher also returned 403; indexed extracts were not used to publish rule text.",
+      "The official November 9, 2026 final budget report records $125,000 for SB 919 system enhancements. The May budget request planned July 2027 implementation. Current operative-date, appropriation-date and live broker workflow verification remain open; an old unfunded-program snippet is not a current conclusion.",
+      "Guarantees, capital infusion, fee deferral, escrow conditions, surety terms and case-specific financial assurance require the relevant current full sources. The independently published janitorial/employment pages do not resolve this franchise-sales hold."
+    ]
+  },
+  {
+    "id": "b2-east-guide-mississippi",
+    "path": "/states/mississippi/",
+    "title": "Mississippi: current termination-law verification remains open",
+    "description": "The 2018 enacted text is available; a current consolidated primary source and later authority are still required.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Mississippi"
+    ],
+    "status": "draft",
+    "lastReviewed": null,
+    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-east-ms-historical-notice"
+    ],
+    "sections": [
+      {
+        "heading": "Retain the historical evidence without claiming currency",
+        "paragraphs": [
+          "Official 2018 SB 2805 text contains franchise definition and notice provisions. The legislature’s official status record marks the bill as Law, chapter 394, approved March 19, 2018, effective July 1, 2018. That establishes the historical enactment; it does not establish that no later amendment or controlling decision affects a 2026 termination."
+        ],
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      },
+      {
+        "heading": "Why this page stays unpublished",
+        "paragraphs": [
+          "The Secretary of State identifies the official publisher and links the free unannotated Code. Ordinary command-line retrieval reached only a browser/cookie bootstrap, so current §§75-24-51 through 75-24-63 were not read. The 2018 enacted text and third-party current-code mirrors do not establish the complete current primary-law analysis. The relationship dimension remains unresolved."
+        ],
+        "sourceIds": [
+          "b3-state-ms-code-sos"
+        ]
+      },
+      {
+        "heading": "Packet for the next researcher",
+        "paragraphs": [],
+        "bullets": [
+          "Current official 75-24-51 through 75-24-63 and amendment history.",
+          "Current defined-franchise scope and exceptions.",
+          "Agreement, place-of-business, community-of-interest and performance facts.",
+          "Proposed notice and action dates.",
+          "Relevant current primary cases and sector overlays."
+        ],
+        "sourceIds": [
+          "b2-east-ms-2018",
+          "b2-east-ms-status"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-east-ms-2018",
+      "b2-east-ms-status",
+      "b3-state-ms-code-sos"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A documented Mississippi source gap and exact next verification task.",
+    "limitations": [
+      "This page addresses its named decision, not a complete state legal survey. Unknown dimensions remain unresolved in the coverage register.",
+      "Model classification, state connections, sector-dealer laws, local requirements and the actual transaction need independent review. No sale, exemption, worker status or contract term is approved.",
+      "November 13, 2026 access-route review did not complete current statutory text or later controlling-case review; do not approve a current termination from this draft."
+    ]
+  },
+  {
+    "id": "b2-origin-laos",
+    "path": "/from/laos/",
+    "title": "Lao service-company U.S. expansion: resolve the bank route before cash commitments",
+    "description": "Draft research record: Decision 333/BOL’s official original has been recovered, but current amendments, translation and the applicable bank route remain unresolved.",
+    "family": "origin",
+    "topic": "commercial-feasibility",
+    "jurisdictions": [
+      "Laos",
+      "United States"
+    ],
+    "status": "draft",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b2-origins-laos-fx-status"
+    ],
+    "sections": [
+      {
+        "heading": "Current-status question prevents publication as a settled rule",
+        "paragraphs": [
+          "The official Lao Trade Portal now supplies Decision 333/BOL of March 7, 2024 on foreign-currency revenue from goods and services exports, and its original 10-page Lao scan has been downloaded. This establishes a relevant instrument later than the 2023 text. Only its identity and limited pages were inspected; a complete reliable translation and current-amendment reconciliation have not been completed.",
+          "The U.S. International Trade Administration’s January 2026 country guide also discusses Decision 333, but it is not the operative Lao legal instrument. A BOL PDF posted in December 2025 still returns HTTP 503 and its identity and effect remain unverified. No retention deadline, conversion percentage or permission to net receipts is approved from these incomplete materials."
+        ],
+        "sourceIds": [
+          "b3-state-laos-333-en",
+          "b3-state-laos-trade-finance",
+          "b2-origins-laos-2025"
+        ]
+      },
+      {
+        "heading": "Keep the document conflict visible",
+        "paragraphs": [
+          "The MOIC registration decision reviewed here is titled and framed around goods. Portal metadata uses broader services wording. The research has not established which present procedure applies to IP royalties, remote support fees, goods exports, capital investment or netting. No numerical deadline, sale percentage, fee or “not required” conclusion is approved for publication."
+        ],
+        "sourceIds": [
+          "b2-origins-laos-registration"
+        ]
+      },
+      {
+        "heading": "Fictional example: a Lao training brand",
+        "paragraphs": [
+          "A training company wants U.S. fees left offshore to pay a support contractor. The CFO’s useful output is a payment map with gross amounts, fee type, counterparties, accounts and proposed deductions. Bank confirmation and the current instrument are prerequisites; merely renaming a royalty as support income would not resolve the facts."
+        ]
+      },
+      {
+        "heading": "Exact unblock checklist",
+        "paragraphs": [],
+        "bullets": [
+          "Complete a reliable reading of Decision 333/BOL, obtain the relevant current BOL amendments and implementation instruments, and preserve effective/repeal provisions.",
+          "Reconcile goods versus services scope with the responsible authorities and the company’s bank.",
+          "Identify whether receipts, outward investment and payments use different processes.",
+          "Record required evidence, timing, responsible role and any lawful netting conditions.",
+          "Keep the U.S. plan exportable with this dependency unresolved; no launch/receipt commitment should rely on this draft."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-origins-laos-old",
+      "b2-origins-laos-registration",
+      "b2-origins-laos-2025",
+      "b3-state-laos-333-en",
+      "b3-state-laos-trade-finance"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A payment-route factsheet and exact request for current legal/bank confirmation.",
+    "limitations": [
+      "Not publication-ready: the original Decision 333 scan is recovered, but complete translation, later primary texts and current services/IP/outward-investment treatment remain unresolved. No banking, tax or immigration clearance is supplied."
+    ]
+  },
+  {
+    "id": "case-octoclean-hold",
+    "path": "/cases/octoclean-order-review/",
+    "title": "OctoClean: full-order source review pending",
+    "description": "Research record held because the official consent-order PDF could not be read.",
+    "family": "case",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "California"
+    ],
+    "status": "blocked",
+    "lastReviewed": null,
+    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [],
+    "sections": [
+      {
+        "heading": "Why this record is not published",
+        "paragraphs": [
+          "The DFPI September 2023 enforcement summary identifies an OctoClean consent order. The official PDF returned HTTP 403 in this review. A search excerpt and summary cannot replace reading its complete operative terms."
+        ]
+      },
+      {
+        "heading": "Release condition",
+        "paragraphs": [
+          "Read the complete official consent order and check for subsequent relevant orders. Separate recitals, admissions, stipulated obligations and actual performance. No penalty, current violation or clearance claim is published from this incomplete record."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "pr-octoclean-order",
+      "b2-blocked-ca-octoclean"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "Source-access and later-order review task",
+    "limitations": [
+      "Publication blocked: the complete original consent-order PDF remains inaccessible. Ordinary curl and web retrieval returned HTTP 403 again on November 13, 2026.",
+      "No complete alternate official copy or later-order reconciliation was obtained. Indexed excerpts and the agency summary do not establish the complete operative terms, compliance performance or present status."
+    ],
+    "scenarioType": "real",
+    "label": "Real case — historical documents and stated procedural limits"
+  }
+]

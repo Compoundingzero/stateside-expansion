@@ -9,7 +9,11 @@
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
     "sourceIds": [
-      "geo-local-los-angeles"
+      "geo-local-los-angeles",
+      "b3-local2-la-plan",
+      "b3-local2-la-permit",
+      "b3-local2-la-takeover",
+      "b3-local2-la-boundary"
     ],
     "processes": [
       {
@@ -31,6 +35,20 @@
         ],
         "deadline": "Event-specific; verify against the official process before commitment.",
         "fee": null
+      },
+      {
+        "title": "Restaurant ownership/change and food plan review",
+        "trigger": "Buying a restaurant, new food space, or changing the covered menu/equipment/operation",
+        "authority": "Los Angeles County Public Health / actual City of Los Angeles planning and building authority",
+        "summary": "The county health permit is nontransferable. Purchase instructions distinguish the district-office route from new/major-modification plan review; the actual change/menu/equipment and city premises approvals remain separate.",
+        "url": "https://admin.publichealth.lacounty.gov/eh/inspection/retail-plan-check.htm",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local2-la-plan",
+          "b3-local2-la-permit",
+          "b3-local2-la-takeover",
+          "b3-local2-la-boundary"
+        ]
       }
     ],
     "unresolved": [
@@ -38,7 +56,9 @@
       "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
       "Sector and professional licenses; local/state employment and tax obligations",
       "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed"
+      "Current fees and deadlines outside the narrow process reviewed",
+      "County food-service jurisdiction is not every Los Angeles-area city: Pasadena, Long Beach and Vernon use separate routes.",
+      "Actual restaurant address, alcohol, grease/fire/accessibility, current fees/forms and operating approvals remain unresolved."
     ],
     "status": "conditional",
     "topics": {
@@ -173,14 +193,62 @@
     "county": "Santa Clara County",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Pacific (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Primary full-text process still unavailable in continuation batch: official pages/PDFs returned403",
-      "Obtain an accessible official instruction/form/code text before publishing process claims. Search snippets were not counted as verification.",
-      "All address, sector, tax, employment and operating requirements remain unresearched."
+    "sourceIds": [
+      "b3-local-sj-food",
+      "b3-local-sj-evaluation",
+      "b3-local-sj-plan",
+      "b3-local-sj-owner-form",
+      "b3-local-sj-food-scope"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "County food-facility takeover evaluation",
+        "trigger": "Taking over an existing fixed retail food facility",
+        "authority": "County of Santa Clara Department of Environmental Health",
+        "summary": "Food operating permits do not pass to a new owner. Obtain evaluation and the new operating permit before operating; menu, equipment or structural changes may require plan review.",
+        "url": "https://deh.santaclaracounty.gov/request-fixed-food-facility-evaluation",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local-sj-evaluation"
+        ],
+        "affectedParty": "The actual local operating entity and relevant named personnel",
+        "responsibleRole": "Local operating lead with premises/technical support",
+        "evidence": [
+          "Dated instructions and current application",
+          "Written authority answer for actual address and activity",
+          "Applicable issued permission or filed completion record"
+        ],
+        "deadline": "Prior to operation; request during acquisition diligence.",
+        "fee": null
+      },
+      {
+        "title": "County food facility plan review",
+        "trigger": "New food facility, listed equipment/layout changes or evaluation referral",
+        "authority": "County of Santa Clara Department of Environmental Health",
+        "summary": "Complete scope/menu/equipment plans and payment precede the review queue. Applicable construction inspections and separate operating-permit steps follow approved plans. County health permission does not settle city building/fire/use approval.",
+        "url": "https://deh.santaclaracounty.gov/food-and-retail/compliance-retail-food-operations/submit-plan-review-restaurants-grocery-stores-and",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local-sj-plan"
+        ],
+        "affectedParty": "The actual local operating entity and relevant named personnel",
+        "responsibleRole": "Local operating lead with premises/technical support",
+        "evidence": [
+          "Dated instructions and current application",
+          "Written authority answer for actual address and activity",
+          "Applicable issued permission or filed completion record"
+        ],
+        "deadline": "Confirm route before construction commitments and complete applicable permission before operation.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "San Jose city business-tax and planning/building pages still returned403; municipal registration, zoning/use, construction/fire and fees remain unverified.",
+      "Actual parcel, county/municipality authority, landlord constraints and activity applicability.",
+      "Specialized food processes may need separate approvals; they are identified but not researched here.",
+      "Employment, entity, tax, supply, immigration and franchise-sales requirements remain separate; costs are unknown until scoped."
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -189,7 +257,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -754,7 +822,9 @@
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Texas (commercial comparison label, not a lawmaking jurisdiction)",
     "sourceIds": [
-      "geo-local-houston"
+      "geo-local-houston",
+      "b3-local2-houston-faq",
+      "b3-local2-houston-survey"
     ],
     "processes": [
       {
@@ -776,6 +846,18 @@
         ],
         "deadline": "Event-specific; verify against the official process before commitment.",
         "fee": null
+      },
+      {
+        "title": "Laundry industrial-wastewater classification and surveys",
+        "trigger": "Proposed laundry discharge to the city sewer or receipt of an IWS survey",
+        "authority": "City of Houston Public Works Industrial Wastewater Service",
+        "summary": "The FAQ distinguishes self-service/commercial (not industrial) laundry while retaining an IWS determination for industrial-waste discharge. Proposed non-domestic discharge follows IWS contact/survey review; a received survey has a separate mandatory response. Neither survey is an issued permit.",
+        "url": "https://houstonpublicworks.org/industrial-and-pretreatment-faqs",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local2-houston-faq",
+          "b3-local2-houston-survey"
+        ]
       }
     ],
     "unresolved": [
@@ -783,7 +865,9 @@
       "Applicable zoning, permitted use, building/occupancy, fire and accessibility conditions",
       "Sector and professional licenses; local/state employment and tax obligations",
       "Special districts, environmental conditions and customer-site obligations",
-      "Current fees and deadlines outside the narrow process reviewed"
+      "Current fees and deadlines outside the narrow process reviewed",
+      "Actual receiving sewer jurisdiction, laundry process/flow/chemicals and IWS classification are not determined.",
+      "Actual discharge limits/control, treatment, state/federal categories, fire/boiler/occupancy and costs remain unresolved."
     ],
     "status": "conditional",
     "topics": {
@@ -1180,14 +1264,63 @@
     "county": "Wayne County",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Primary full-text process still unavailable in continuation batch: official pages/PDFs returned403",
-      "Obtain an accessible official instruction/form/code text before publishing process claims. Search snippets were not counted as verification.",
-      "All address, sector, tax, employment and operating requirements remain unresearched."
+    "sourceIds": [
+      "b3-local-detroit-notice",
+      "b3-local-detroit-service",
+      "b3-local-detroit-6103",
+      "b3-local-detroit-6105",
+      "b3-local-detroit-6115"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Named food-service BSEED license change and retained health license",
+        "trigger": "A listed Detroit food-service category",
+        "authority": "City of Detroit BSEED / Detroit Health Department",
+        "summary": "The 16 July 2025 notice removes the named BSEED licensing step for listed restaurant, bar class C, mobile food and coffee-house categories, while explicitly retaining Detroit Health licensing. It is not a premises or all-food-business waiver.",
+        "url": "https://detroitmi.gov/news/restaurants",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local-detroit-notice"
+        ],
+        "affectedParty": "The actual local operating entity and relevant named personnel",
+        "responsibleRole": "Local operating lead with premises/technical support",
+        "evidence": [
+          "Dated instructions and current application",
+          "Written authority answer for actual address and activity",
+          "Applicable issued permission or filed completion record"
+        ],
+        "deadline": "Confirm actual category and current health licensing before operation.",
+        "fee": null
+      },
+      {
+        "title": "Food-service post-construction preopening evaluation",
+        "trigger": "Covered food-service construction, alteration, conversion or remodeling",
+        "authority": "Michigan Food Law / competent local health department",
+        "summary": "MCL 289.6115 requires completion notification, an operating-license application and a preopening evaluation before opening after covered work; the local health department may set request timing. Plan-review applicability and exemptions require separate category analysis.",
+        "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-289-6115",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local-detroit-6115"
+        ],
+        "affectedParty": "The actual local operating entity and relevant named personnel",
+        "responsibleRole": "Local operating lead with premises/technical support",
+        "evidence": [
+          "Dated instructions and current application",
+          "Written authority answer for actual address and activity",
+          "Applicable issued permission or filed completion record"
+        ],
+        "deadline": "After covered work and before opening; obtain actual local request lead time.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact parcel, Detroit municipal boundary and all applicable zoning/use, building/fire and commercial-inspection requirements.",
+      "Current longer city guide, detailed certificate/premises and direct Health application bodies remain inaccessible; search snippets did not establish their contents.",
+      "Broader BSEED category lists and renewal/inspection cadence remain unverified; no annual or biennial claim is published.",
+      "Actual food category/hybrid activity, health form/fee/inspection timing and separate alcohol/sector permissions.",
+      "Entity, employment, tax, products/supply, immigration and franchise-sales duties remain separate."
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1196,7 +1329,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }
@@ -1265,14 +1398,62 @@
     "county": "Marion County; excluded municipalities need separate check",
     "boundary": "Municipal corporate limits only; metropolitan-area name and postal address do not establish parcel jurisdiction.",
     "commercialRegion": "Great Lakes (commercial comparison label, not a lawmaking jurisdiction)",
-    "sourceIds": [],
-    "processes": [],
-    "unresolved": [
-      "Primary full-text process still unavailable in continuation batch: official page exposed only a JavaScript shell, not substantive text",
-      "Obtain an accessible official instruction/form/code text before publishing process claims. Search snippets were not counted as verification.",
-      "All address, sector, tax, employment and operating requirements remain unresearched."
+    "sourceIds": [
+      "b3-local-indy-business",
+      "b3-local-indy-fire-business",
+      "b3-local-indy-fire-person",
+      "b3-local-indy-co-letter"
     ],
-    "status": "not-researched",
+    "processes": [
+      {
+        "title": "Company and individual fire-extinguisher service licenses",
+        "trigger": "Offering covered fire-extinguisher service",
+        "authority": "Indianapolis Department of Business and Neighborhood Services / Indianapolis Fire Department",
+        "summary": "The current official business-license content says the company and each service person need licensing and identifies Fire Department certification stamping for persons. Separate current-linked company/person forms were read; PDFs retain 10/2023 revision.",
+        "url": "https://api-us-east-1-indy.graphcms.com/v2/ckp3xrh1i657g01xp53az2mv4/master?query=query+%7B+activity%28where%3A+%7Bslug%3A+%22business-licenses%22%7D%29+%7B+title+slug+description+%7B+html+markdown+%7D+related_activities+%7B+title+slug+%7D+%7D+%7D",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local-indy-business"
+        ],
+        "affectedParty": "The actual local operating entity and relevant named personnel",
+        "responsibleRole": "Local operating lead with premises/technical support",
+        "evidence": [
+          "Dated instructions and current application",
+          "Written authority answer for actual address and activity",
+          "Applicable issued permission or filed completion record"
+        ],
+        "deadline": "Before covered service; confirm current forms, certification and issued records.",
+        "fee": null
+      },
+      {
+        "title": "Permit-holder completion/compliance file",
+        "trigger": "Covered permitted construction before occupancy/use",
+        "authority": "Indianapolis Department of Business and Neighborhood Services",
+        "summary": "The signed 2026 letter says the city/county does not currently issue a Certificate of Occupancy; it describes permit-holder completion/compliance filing within 14 days after construction and before occupancy/use, with the named architect/engineer structural-permit exception.",
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/cmk1a38j44o7z06lkouxmu0ka?dl=true",
+        "status": "verified",
+        "sourceIds": [
+          "b3-local-indy-co-letter"
+        ],
+        "affectedParty": "The actual local operating entity and relevant named personnel",
+        "responsibleRole": "Local operating lead with premises/technical support",
+        "evidence": [
+          "Dated instructions and current application",
+          "Written authority answer for actual address and activity",
+          "Applicable issued permission or filed completion record"
+        ],
+        "deadline": "Within 14 days after covered construction and before occupancy/use; confirm actual permit/filer.",
+        "fee": null
+      }
+    ],
+    "unresolved": [
+      "Exact address and consolidated city/county versus excluded municipality authority remain unresolved.",
+      "Current ordinance scope, all relevant sector/professional permits, fire-equipment technical qualifications, insurance and customer-site permissions.",
+      "Company/person application PDFs are marked 10/2023; current fees, renewal period and latest forms need confirmation.",
+      "Zoning/use, environmental/storage, entity, employment, tax and franchise-sales duties are separate.",
+      "Published city content was recovered through the official app public CMS endpoint; the obsolete business-licensing slug returned null and is not evidence."
+    ],
+    "status": "conditional",
     "topics": {
       "classification": "not-researched",
       "sales-disclosure": "not-researched",
@@ -1281,7 +1462,7 @@
       "immigration": "not-researched",
       "employment": "not-researched",
       "products-supply": "not-researched",
-      "premises-opening": "not-researched",
+      "premises-opening": "conditional",
       "ip-data": "not-researched",
       "commercial-feasibility": "not-researched"
     }

@@ -1,0 +1,27 @@
+[
+  {
+    "candidateId": "candidate-cases-qargo-coffee",
+    "path": "/cases/qargo-coffee/",
+    "decision": "merge",
+    "canonicalPath": "/cases/qargo-license-label-review/",
+    "decidedAt": "2026-11-12",
+    "reason": "Consolidate the published bounded historical case lesson; the actual signed order and present procedural/remedy questions remain separately unresolved. No duplicate or unsupported final-remedy page is published.",
+    "scope": "Historical 2024 complaint allegations, official reported stipulated-order entry and fiscal-2025 Full Settlement account, with relationship-factsheet output.",
+    "sourceIds": [
+      "b2-blocked-qargo-complaint",
+      "b2-blocked-qargo-2025report",
+      "pr-qargo-report",
+      "pr-qargo-index",
+      "fed-definition",
+      "fed-compliance"
+    ],
+    "ruleIds": [
+      "fed-relationship-definition"
+    ],
+    "researchCompleteness": "limited-to-published-historical-case-scope",
+    "unresolvedResearch": [
+      "Actual signed final-order terms remain unreviewed and are not stated.",
+      "No present conduct, money-recovery or complete current-docket finding is made."
+    ]
+  }
+]

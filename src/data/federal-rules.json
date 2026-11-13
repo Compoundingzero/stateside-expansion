@@ -247,10 +247,10 @@
     "activity": "Offering or selling a franchise",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "A franchisor that unilaterally and materially alters the attached basic franchise agreement or related agreements must furnish each revised agreement at least seven calendar days before signing. Changes arising from negotiations initiated by the prospect do not trigger this §436.2(b) period.",
+    "requirement": "A franchisor that unilaterally and materially alters the attached basic franchise agreement or related agreements must furnish each revised agreement at least seven calendar days before signing. Changes arising from negotiations initiated by the prospect do not trigger this \u00a7436.2(b) period.",
     "exceptions": "The text excludes changes arising out of negotiations initiated by the prospective franchisee; record facts and check state overlays.",
     "trigger": "Changing disclosed agreement terms before execution",
-    "deadline": "At least seven calendar days before signing revised agreements where §436.2(b) applies",
+    "deadline": "At least seven calendar days before signing revised agreements where \u00a7436.2(b) applies",
     "fee": null,
     "renewal": "Reassess when facts, law, or the offering change",
     "dependencies": [],
@@ -319,8 +319,8 @@
     "activity": "Offering or selling a franchise",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "A franchise seller’s financial performance representations generally require a reasonable basis, written substantiation and Item 19 disclosure under the applicable rule. Item 19 must be answered even if the franchisor elects not to make a financial performance representation.",
-    "exceptions": "Specific-outlet records and compliant supplemental representations have defined treatment under §436.5(s); review before use.",
+    "requirement": "A franchise seller\u2019s financial performance representations generally require a reasonable basis, written substantiation and Item 19 disclosure under the applicable rule. Item 19 must be answered even if the franchisor elects not to make a financial performance representation.",
+    "exceptions": "Specific-outlet records and compliant supplemental representations have defined treatment under \u00a7436.5(s); review before use.",
     "trigger": "Sharing actual or potential financial performance with a prospective franchisee",
     "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
     "fee": null,
@@ -355,7 +355,7 @@
     "activity": "Offering or selling a franchise",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "Under §436.1(k), franchisor includes a subfranchisor that engages in both pre-sale activities and post-sale performance. The operational role matters more than a regional title. Item 21 requires specified separate subfranchisor financial statements.",
+    "requirement": "Under \u00a7436.1(k), franchisor includes a subfranchisor that engages in both pre-sale activities and post-sale performance. The operational role matters more than a regional title. Item 21 requires specified separate subfranchisor financial statements.",
     "exceptions": "Evaluate applicable federal exemptions and independent state law.",
     "trigger": "Giving an intermediary recruitment and post-sale support duties",
     "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
@@ -393,7 +393,7 @@
     "activity": "Offering or selling a franchise",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "Item 21 specifies financial statements and audit requirements, including U.S. GAAP or SEC-permitted principles and U.S. generally accepted auditing standards. A foreign parent’s existing audit is not automatically sufficient. Determine required franchisor, subfranchisor and relevant parent statements.",
+    "requirement": "Item 21 specifies financial statements and audit requirements, including U.S. GAAP or SEC-permitted principles and U.S. generally accepted auditing standards. A foreign parent\u2019s existing audit is not automatically sufficient. Determine required franchisor, subfranchisor and relevant parent statements.",
     "exceptions": "Evaluate applicable federal exemptions and independent state law.",
     "trigger": "Selecting the franchisor and preparing an FDD",
     "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
@@ -417,7 +417,7 @@
     ],
     "interpretationLimits": [
       "Current SEC-permitted accounting treatment must be confirmed by the responsible auditor.",
-      "Federal startup phase-in does not establish state acceptance or an established foreign system’s eligibility."
+      "Federal startup phase-in does not establish state acceptance or an established foreign system\u2019s eligibility."
     ],
     "dependentPaths": [
       "/us-expansion/foreign-financial-statements/"
@@ -515,7 +515,7 @@
     "activity": "New foreign direct investment",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "BEA’s current BE-13 forms distinguish acquisitions, establishments and expansions. The current BE-13A uses acquisition cost greater than $40 million plus a foreign voting-interest condition. A below-threshold transaction can require a Claim for Exemption; inspect current form instructions.",
+    "requirement": "BEA\u2019s current BE-13 forms distinguish acquisitions, establishments and expansions. The current BE-13A uses acquisition cost greater than $40 million plus a foreign voting-interest condition. A below-threshold transaction can require a Claim for Exemption; inspect current form instructions.",
     "exceptions": "Evaluate applicable federal exemptions and independent state law.",
     "trigger": "Acquiring, establishing or expanding a U.S. business with foreign participation",
     "deadline": "Current decision tree: file the applicable form within 45 days of the transaction",
@@ -628,7 +628,7 @@
     "activity": "Treaty-investor mobility planning",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "The E regulation traces enterprise nationality as practicable to ultimate individual owners and separately addresses investment, control and the person’s role. Check the State Department treaty list and country footnotes; incorporating in a treaty country does not itself establish eligibility.",
+    "requirement": "The E regulation traces enterprise nationality as practicable to ultimate individual owners and separately addresses investment, control and the person\u2019s role. Check the State Department treaty list and country footnotes; incorporating in a treaty country does not itself establish eligibility.",
     "exceptions": "Treaty and individual facts determine the analysis; employee and principal-investor requirements differ.",
     "trigger": "Considering E-2 investment or employment in a U.S. enterprise",
     "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
@@ -650,7 +650,7 @@
     "conflicts": [],
     "interpretationLimits": [
       "FAM source was inaccessible during this review; specific consular and escrow questions remain unresolved.",
-      "This guide does not determine a person’s eligibility."
+      "This guide does not determine a person\u2019s eligibility."
     ],
     "dependentPaths": [
       "/cases/singapore-subsidiary-e2-ownership/",
@@ -710,7 +710,7 @@
     "activity": "Offering or selling a franchise",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "The rule requires a retainable plain-English FDD and limits features in an electronic FDD: navigation features are allowed, while other multimedia and external-information links are prohibited by §436.6(d). Keep the educational site separate.",
+    "requirement": "The rule requires a retainable plain-English FDD and limits features in an electronic FDD: navigation features are allowed, while other multimedia and external-information links are prohibited by \u00a7436.6(d). Keep the educational site separate.",
     "exceptions": "Evaluate applicable federal exemptions and independent state law.",
     "trigger": "Preparing an electronic FDD or sales learning experience",
     "deadline": "Before the relevant commitment; transaction-specific timing remains to be determined",
@@ -845,6 +845,7 @@
       "This explanation does not draft or certify an FDD."
     ],
     "dependentPaths": [
+      "/cases/premier-martial-arts-management-claims/",
       "/fdd/item-2/"
     ],
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
@@ -1502,6 +1503,7 @@
       "This explanation does not draft or certify an FDD."
     ],
     "dependentPaths": [
+      "/cases/premier-martial-arts-management-claims/",
       "/fdd/item-19/",
       "/tools/fdd-comparison/",
       "/tools/us-unit-economics/"
@@ -1632,7 +1634,7 @@
     "activity": "Offering or selling a franchise",
     "affectedParty": "Prospective U.S. franchisor and responsible management team",
     "applicability": "The stated federal rule applies only where its factual conditions are met; this record does not decide a transaction.",
-    "requirement": "Item 23 prescribes detachable acknowledgment receipts and specified information, including document date and exhibits. A receipt helps document delivery; it is not governmental approval, proof of a complete legal review or a waiver of the prospect’s rights.",
+    "requirement": "Item 23 prescribes detachable acknowledgment receipts and specified information, including document date and exhibits. A receipt helps document delivery; it is not governmental approval, proof of a complete legal review or a waiver of the prospect\u2019s rights.",
     "exceptions": "Evaluate applicable federal exemptions and independent state law.",
     "trigger": "Preparing, updating or comparing an FDD",
     "deadline": "In the current FDD before the applicable disclosure deadline",

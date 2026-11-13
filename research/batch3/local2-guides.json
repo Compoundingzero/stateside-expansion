@@ -1,0 +1,224 @@
+[
+  {
+    "id": "b3-local2-la-restaurant",
+    "path": "/cities/los-angeles/restaurants/",
+    "title": "Los Angeles restaurant takeover: separate ownership, menu changes and plan review",
+    "description": "The county food permit and the city premises decisions belong in different parts of the opening file.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Los Angeles",
+      "Los Angeles County"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-local2-la-owner",
+      "b3-local2-la-planfile"
+    ],
+    "sourceIds": [
+      "b3-local2-la-permit",
+      "b3-local2-la-takeover",
+      "b3-local2-la-plan",
+      "b3-local2-la-boundary"
+    ],
+    "sections": [
+      {
+        "heading": "Buying the fitted restaurant does not transfer its health permission",
+        "paragraphs": [
+          "The county’s permit form ties the record to the actual person, location, activity and period, and states that it is not transferable. Its purchase instructions direct an existing-restaurant buyer without anticipated major permitted construction to the relevant district office. That route is not a promise that the previous owner’s permission carries over.",
+          "List the proposed menu, equipment and operating-method changes separately. The application terms call for review and approval of such changes; a purchase described as unchanged may still alter the food process."
+        ],
+        "sourceIds": [
+          "b3-local2-la-permit",
+          "b3-local2-la-takeover"
+        ]
+      },
+      {
+        "heading": "A changed layout or cooking process creates a plan file",
+        "paragraphs": [
+          "The plan-check page identifies new facilities, previously unpermitted food spaces and specified remodel/equipment changes. It calls for a scaled plan package, actual menu and equipment information, alongside separate planning/building and health decisions. Track required construction approvals, inspections and issued permit rather than using the application date as the opening date.",
+          "For a City of Los Angeles address, confirm the city’s premises authority and the county’s food-health role. The county program expressly excludes Pasadena, Long Beach and Vernon; a Los Angeles-area mailing label is insufficient."
+        ],
+        "sourceIds": [
+          "b3-local2-la-plan",
+          "b3-local2-la-boundary"
+        ]
+      },
+      {
+        "heading": "Fictional example: the new owner adds cooking equipment",
+        "paragraphs": [
+          "A buyer plans to keep a small restaurant’s dining area but add a fryer and change the menu. Before fixing a launch date, its operations lead compares the prior records with the new menu/equipment and obtains the applicable county review path. Its premises lead tracks city approvals separately. The lease and equipment purchase are commercial commitments, not those agency decisions."
+        ],
+        "sourceIds": [
+          "b3-local2-la-permit",
+          "b3-local2-la-plan"
+        ]
+      },
+      {
+        "heading": "Keep the purchase and opening records connected",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Owner",
+            "Evidence to obtain"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual owner, address, service jurisdiction and prior facility records"
+            ],
+            [
+              "Food/process lead",
+              "Proposed menu, method, equipment and applicable review route"
+            ],
+            [
+              "Designer/premises lead",
+              "Required plans, city permits and construction approvals"
+            ],
+            [
+              "Opening lead",
+              "Applicable inspection/conditional approval and issued health permit"
+            ],
+            [
+              "Finance",
+              "Separate invoiced review/permit and fit-out costs; unresolved amounts remain unknown"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-local2-la-permit",
+          "b3-local2-la-plan",
+          "b3-local2-la-boundary"
+        ]
+      },
+      {
+        "heading": "Keep this restaurant question narrow",
+        "paragraphs": [
+          "No actual site, exemption, fee, expedited review deadline or technical design is approved here. Alcohol, outdoor use, fire, grease discharge, accessibility, food-worker obligations and city business-tax registration remain separate. The current application form is marked 12/3/25; confirm the latest required documents for the actual filing."
+        ],
+        "sourceIds": [
+          "b3-local2-la-permit",
+          "b3-local2-la-plan"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A City of Los Angeles restaurant purchase/change matrix separating the actual owner, county food review, city premises approvals and issued opening evidence.",
+    "limitations": [
+      "Defined county food-permit/process branch for a City of Los Angeles site; not all restaurant or county-city requirements.",
+      "Actual address, technical process, alcohol/fire/grease/accessibility, workforce, fees and current filing requirements remain unresolved."
+    ]
+  },
+  {
+    "id": "b3-local2-houston-laundry",
+    "path": "/cities/houston/commercial-laundry/",
+    "title": "Houston laundry wastewater: check the process before claiming a permit exception",
+    "description": "The city’s non-industrial laundry distinction does not settle every discharge or survey obligation.",
+    "family": "local",
+    "topic": "premises-opening",
+    "jurisdictions": [
+      "Houston",
+      "Houston sanitary sewer"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-13",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b3-local2-houston-category",
+      "b3-local2-houston-survey-duty"
+    ],
+    "sourceIds": [
+      "b3-local2-houston-faq",
+      "b3-local2-houston-survey"
+    ],
+    "sections": [
+      {
+        "heading": "Commercial and industrial laundry are not interchangeable labels",
+        "paragraphs": [
+          "Houston Public Works lists self-service or commercial, expressly not industrial, laundry outside the stated Industrial Waste Permit requirement. The same FAQ reserves a permit determination where a facility discharges industrial waste. Do not turn that qualified distinction into an assurance that every laundry can discharge without conditions.",
+          "First identify the actual receiving sewer authority, clients, textiles, contamination, chemicals and processing. A Houston postal address or a brochure calling the plant commercial does not establish the city sewer jurisdiction or discharge classification.",
+          "For a proposed non-domestic discharge to the city sewer, the FAQ directs the facility to contact IWS and complete/submit its survey for review and next steps. Follow that prospective-discharge route independently of whether a survey arrives in the mail."
+        ],
+        "sourceIds": [
+          "b3-local2-houston-faq"
+        ]
+      },
+      {
+        "heading": "A survey request is a separate evidence task",
+        "paragraphs": [
+          "The city describes a received Industrial Wastewater Survey as a mandatory report request. Its guidance distinguishes process water, washdown, boiler and other water uses, and batch from continuous discharge. Assign the actual due date, signer and operational data.",
+          "Retain the response and IWS follow-up. Neither sending the survey nor receiving an invoice is an issued permit or an answer to all discharge restrictions."
+        ],
+        "sourceIds": [
+          "b3-local2-houston-survey",
+          "b3-local2-houston-faq"
+        ]
+      },
+      {
+        "heading": "Fictional example: the linen plant expands its customer mix",
+        "paragraphs": [
+          "A laundry partner proposes a new plant and a second customer segment. Its engineer documents the actual textiles/processes and receiving system before relying on the non-industrial category. Its manager separately answers a received survey and records the IWS determination. Equipment orders and the launch budget wait for that evidence and the separate premises decisions."
+        ],
+        "sourceIds": [
+          "b3-local2-houston-faq",
+          "b3-local2-houston-survey"
+        ]
+      },
+      {
+        "heading": "Build a process-to-discharge file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Owner",
+            "Evidence to obtain"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual site, clients, textiles and service process"
+            ],
+            [
+              "Engineer",
+              "Receiving authority, water uses, chemicals, flow and discharge pattern"
+            ],
+            [
+              "Response owner",
+              "Prospective IWS survey; any received request, due date and signed response"
+            ],
+            [
+              "Permit lead",
+              "IWS determination and applicable issued/control evidence"
+            ],
+            [
+              "Premises/finance",
+              "Separate occupancy, utilities, treatment and unresolved cost records"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-local2-houston-faq",
+          "b3-local2-houston-survey"
+        ]
+      },
+      {
+        "heading": "What this does not establish",
+        "paragraphs": [
+          "No real plant is classified, no treatment system is designed and no numeric pollutant limit or fee is supplied. Prohibited discharges, actual limits, state/federal categories, stormwater/direct discharge, boilers, fire/building, workers and Houston occupancy requirements require their own evidence."
+        ],
+        "sourceIds": [
+          "b3-local2-houston-faq"
+        ]
+      }
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A Houston laundry process/receiving-authority and prospective-survey file, with the actual IWS determination and any received-notice response recorded separately.",
+    "limitations": [
+      "Houston sanitary-sewer guidance only; no actual laundry classification, blanket permit exemption or unrestricted discharge.",
+      "Actual receiving jurisdiction, water/process/flow facts, limits, treatment, premises, state/federal overlays and costs remain unresolved."
+    ]
+  }
+]

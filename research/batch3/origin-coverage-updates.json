@@ -1,0 +1,199 @@
+[
+  {
+    "id": "origin-austria",
+    "name": "Austria",
+    "slug": "austria",
+    "kind": "origin",
+    "country": "Austria",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-austria-vat-3a-web",
+      "b3-origin-austria-service-place",
+      "b3-origin-austria-wko-b2b"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Austrian § 3a recipient-place, third-country evidence and exception-screen guide. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  },
+  {
+    "id": "origin-belgium",
+    "name": "Belgium",
+    "slug": "belgium",
+    "kind": "origin",
+    "country": "Belgium",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-belgium-trademark-before-web",
+      "b3-origin-belgium-trademark-international-web"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Belgian Benelux/EU-to-Madrid trademark-route guide; no mark search or U.S. filing approval. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  },
+  {
+    "id": "origin-denmark",
+    "name": "Denmark",
+    "slug": "denmark",
+    "kind": "origin",
+    "country": "Denmark",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-denmark-vat-services"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Danish outbound-service VAT business-proof, Danish-use exceptions and box C reporting guide. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  },
+  {
+    "id": "origin-finland",
+    "name": "Finland",
+    "slug": "finland",
+    "kind": "origin",
+    "country": "Finland",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-finland-vat-services"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Finnish outbound-service VAT receiving-establishment and return-entry guide. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  },
+  {
+    "id": "origin-norway",
+    "name": "Norway",
+    "slug": "norway",
+    "kind": "origin",
+    "country": "Norway",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-norway-export-statute",
+      "b3-origin-norway-export-guide",
+      "b3-origin-norway-remote-cases",
+      "b3-origin-norway-export-case"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Norwegian remote-service export-VAT recipient/documentation guide; a 2014 case is labeled historical. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  },
+  {
+    "id": "origin-sweden",
+    "name": "Sweden",
+    "slug": "sweden",
+    "kind": "origin",
+    "country": "Sweden",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-sweden-vat-services"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Swedish outbound-service VAT buyer/establishment and SEK box 40 reporting guide. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  },
+  {
+    "id": "origin-switzerland",
+    "name": "Switzerland",
+    "slug": "switzerland",
+    "kind": "origin",
+    "country": "Switzerland",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-origin-swiss-data-transfer",
+      "b3-origin-swiss-adequacy",
+      "b3-origin-swiss-dpf-decision"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Geographic record only. Incorporation, headquarters, actual operations, owners’ nationality and tax residence must be recorded separately. No treaty, sanctions, tax or franchise conclusion is implied by inclusion. November 13, 2026 source review: Narrow Swiss-to-U.S. personal-data transfer and certification-route guide; no recipient certification was checked. Only the named issue is conditionally covered; all other topic statuses are preserved. Incorporation, headquarters, actual establishments, ownership/nationality, tax residence, U.S. selling entity and personnel locations remain separate facts."
+  }
+]

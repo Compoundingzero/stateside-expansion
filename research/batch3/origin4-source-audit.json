@@ -1,0 +1,172 @@
+[
+  {
+    "sourceId": "b3-o4-rs-law",
+    "url": "https://www.nbs.rs/export/sites/NBS_site/documents-eng/propisi/zakoni/law_foreign_exchange_operations.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/rs-law.pdf",
+    "rawSha256": "6259ae43c2345a3257431fdc27763adffbc9f5383630df14a1c35aa5edc3d3b1",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Article 2(17), Articles 10–11 and 37; 2025 amendment chain",
+    "limits": "Official English consolidation includes 19/2025. Read definition, capital/direct-investment and reporting provisions and 2025 transitional text. English translation is explanatory; Serbian original governs. Article 11 references foreign-trade law, so freely executed payment does not establish complete expansion clearance.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-rs-report",
+    "url": "https://www.nbs.rs/export/sites/NBS_site/documents-eng/propisi/propisi-bop/dev_obav_izvest_2009_e.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/rs-report.pdf",
+    "rawSha256": "ff54b2346b7c06b5a419dffdf43efce1e5c65580b7d0c16af3dbc19425e1b128",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Decision sections 1–2,4–7 and 2015 repeal footnote",
+    "limits": "Complete two-page text read. 2015 repeal footnote affects specified other categories; it does not remove the named resident direct-investment report. Current NBS statistics legislation index links this decision and DI-2 guidance. No inference that a bank transfer submits the resident report.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-rs-instructions",
+    "url": "https://www.nbs.rs/export/sites/NBS_site/documents-eng/propisi/propisi-bop/dev_obav_izvest_2009_e_uputsrvo.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/rs-instructions.pdf",
+    "rawSha256": "6dc7293871fcc1a6c6a09f1f17c9eb364187db0e2fdec07e341457564d607387",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Guidelines sections 1–4; DI-2, currency conversion and ten-day submission",
+    "limits": "Complete two-page currently linked English instructions read; quarterly balance and transactions, USD at official period-end middle rate and no later than ten days after period end. Recheck the live form, reporting channel and instructions for the actual quarter.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-mk-change",
+    "url": "https://www.crm.com.mk/en/services/perform-a-registration-or-complete-a-task/register-investments-and-ventures/amendment-and-deletion-of-direct-investment-for-residents-abroad",
+    "rawEvidence": "research/raw/batch3/origin4/origin4web1.json",
+    "rawSha256": null,
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Complete English service explanation: new versus changed investment; changes, transfers and deletions",
+    "limits": "Full 31-line reader body was read. Covers change categories and directs first registration to a separate service; one event can require multiple entry types. This guide does not use the inaccessible detailed tabs to assert a 60-day deadline, fee, full document list or completed bank/NBRM reporting. The English page’s final subsidiary example points inward despite its outward heading; no claim relies on that inconsistent example.",
+    "transportError": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "b3-o4-al-process",
+    "url": "https://dogana.gov.al/c/169/181/319/regjimi-i-perpunimit-pasiv",
+    "rawEvidence": "research/raw/batch3/origin4/origin4web5.json",
+    "rawSha256": null,
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Full Albanian process body: eligibility, excluded goods, authorization, identification/economic conditions and return period",
+    "limits": "Native Albanian process body read in full, including its references to Customs Code 102/2014 articles 191–202 and 232–235 and implementing decision 651/2017 articles 529–532,691–692. English page was also read but the native body has additional qualifications. This is agency process guidance, not an independently certified consolidation of every later amendment or a promised duty-relief result. English explanation is AI assisted.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-al-exit",
+    "url": "https://dogana.gov.al/c/169/181/292/hyrja-dhe-dalja-e-mallrave",
+    "rawEvidence": "research/raw/batch3/origin4/origin4web3.json",
+    "rawSha256": null,
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Full Albanian agency body; exit formalities and statutory/implementing references",
+    "limits": "Full native agency body read, including exit route: pre-exit formalities, exit formalities, export/re-export and re-export notice; cited Code 236–249 and decision 651/2017 articles 693–718. No shipment-specific simplified procedure, ATA result, tariff, rate or U.S. import approval established.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-me-old-law",
+    "url": "https://wapi.gov.me/download/795cb7a3-2699-44bd-baa6-b11802121045?version=1.0",
+    "rawEvidence": "research/raw/batch3/origin4/me-old-law.pdf",
+    "rawSha256": "148d12b7b1f3437d1944840c50d9dc413c5c1502101a900c809b806953137a09",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Article 17 and service-specific rules 17a–17j; amendment/commencement chain",
+    "limits": "Official government-hosted consolidation through Gazette 12/2026 read for place-of-service provisions and temporal notes. General recipient rule, recipient fixed establishment, non-taxable recipient branch and property/event/other exceptions matter. No rate, registration threshold, refund or ultimate VAT outcome supplied. Native Montenegrin text; AI-assisted English explanation.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-me-new-law",
+    "url": "https://wapi.gov.me/download/a7c33b8f-aa74-4197-b1fa-317ea466161f?version=1.0",
+    "rawEvidence": "research/raw/batch3/origin4/me-new-law.pdf",
+    "rawSha256": "f6343a0066d1169627f223f52df579a7778077f0b2b1425a587b813fadc0b87f",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Articles 209–213, especially repeal on application and accession-linked application",
+    "limits": "Government-hosted 75-page act; complete transitional/final provisions and enactment header read. Gazette 104/26 dated 17 July 2026; entry into force and application are distinct. Article 212 ties old-act repeal to the start of application;213 ties application to EU accession. No accession date is assumed.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-me-notice",
+    "url": "https://www.gov.me/clanak/novi-poreski-zakoni",
+    "rawEvidence": "research/raw/batch3/origin4/me-notice.html",
+    "rawSha256": "324a1d035e47f72dd1956e0321d6b2c8cce0db757eb2bfb5ae0467e0684488be",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Complete agency notice; different tax-law application dates",
+    "limits": "Complete notice read. It distinguishes the VAT accession condition from corporate-tax amendments scheduled for 1 January 2027. Do not transfer one tax act’s application date to another.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-md-native-law",
+    "url": "https://bnm.md/files/LRV%2062-2008_reglementare%20valutara_compil%20cf%20L%20327-2025%20_RO.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/md-native-law.pdf",
+    "rawSha256": "3075eb8fd7138c024a2aa804724ab7f0da6393f12c81b4879f7e7a30a019be6d",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Article 13(1)–(6), especially account authorization and 2025 export-collection exception",
+    "limits": "Official Romanian consolidation read for account provisions and amendment notes, compared with NBM’s unofficial English translation. Article 13(5)(b1) added by 144/2025, effective 20 September 2025: collection for goods/services exclusively for export, with final crediting to licensed banks in Moldova. Article 13(6) reserves further NBM account conditions. The current FAQ omits this newer exception; its list was not substituted for current statutory text.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-md-law",
+    "url": "https://bnm.md/files/Law%20on%20foreign%20exchange%20regulation%20No%2062-2008_dp%20L%20327-2025.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/md-law.pdf",
+    "rawSha256": "a6c8c872eb918502f6a70e4b8fd3e712868ad827460167997761d654732b7590",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Article 13 in English; translation caveat and amendment history",
+    "limits": "NBM-hosted English translation explicitly marked unofficial and for information. Complete Article 13 compared with Romanian original through 327/2025. English translation supports explanation only; Romanian original and current implementing conditions control.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-tr-report",
+    "url": "https://www.ticaret.gov.tr/hizmet-ticareti/yurtdisi-yatirimlar/yurt-disi-yatirim-bildirimi",
+    "rawEvidence": "research/raw/batch3/origin4/tr-report.html",
+    "rawSha256": "af3c0a403fc6d48d8d5d12028857a059d247a96fe23f6fe2c42d3777f9683ee6",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Complete guidance: first outward capital, liquidation/transfer notification and separate annual survey",
+    "limits": "Complete Turkish body read. First cash/in-kind capital export and completed liquidation/transfer notices go to Treasury and Finance and Trade within three months; the current page separately describes an annual April–May investment survey. This guide does not transplant the March reporting deadline found in older summaries or infer permission to transfer capital. Exact deadline computation, current form and submission channels must be confirmed for the event.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-ba-base",
+    "url": "https://finpol.gov.ba/pdf/zakoni/Zakon_o_deviznom_poslovanju_FBiH.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/ba-base.pdf",
+    "rawSha256": "2211b2087b6de722d2e0dfb1f28daef5fcf17c34d7b3b01aafa69b518805f1d5",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Articles 1–2,7 and 30; base text must be read with 35/2026 amendments",
+    "limits": "Full official-hosted base PDF retrieved; it is a republished copy with legacy character encoding and a private publisher footer, not a current consolidated official gazette. Relevant original provisions read with Parliament’s enacted 2026 amendment. Used for context and Federation-specific scope, never as an unamended current text.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-ba-enacted",
+    "url": "https://parlamentfbih.gov.ba/v2/userfiles/file/Usvojeni%20materijali_2026/Devizno_poslovanje_bos.pdf",
+    "rawEvidence": "research/raw/batch3/origin4/ba-enacted.pdf",
+    "rawSha256": "fcb96ed7e28c2b0d413defc12c9e43392b82b66c10cd928569fd238a073f5bb7",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Article 5 replacing/adding Act 7(3)–(7); Article 38; Parliament’s published-act entry",
+    "limits": "Complete 15-page enacted amendment read, including written settlement agreement, mandatory data, blocked-account restriction, delegated rules and commencement. Parliament’s published-act entry identifies Gazette 35/26, distinct from the proposal linked on the same page. Limited to the Federation law; no Republika Srpska/Brčko-wide conclusion. Pair base 47/10 with amended text.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-ba-reform",
+    "url": "https://fbihvlada.gov.ba/bs/donesena-uredba-o-provodenju-pojedinih-odredbi-zakona-o-deviznom-poslovanju",
+    "rawEvidence": "research/raw/batch3/origin4/ba-reform.html",
+    "rawSha256": "b933f175993de3b99076e52d11ae9074b10751086072c1be086d8d42c9fdf07f",
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Complete adoption notice; settlement/account procedures and repeal decisions",
+    "limits": "Actual full announcement read. Describes adopted implementation and decisions ending older implementing decisions. The actual new gazetted regulation, commencement and replacement procedures were not retrieved in this pass. Announcement is not treated as the operative regulation or proof its new procedure is already applicable.",
+    "transportError": null
+  },
+  {
+    "sourceId": "b3-o4-ua-law",
+    "url": "https://zakon.rada.gov.ua/laws/show/v0018500-22",
+    "rawEvidence": null,
+    "rawSha256": null,
+    "reviewedAt": "2026-11-13T01:13:11.201016+00:00",
+    "scope": "Current consolidated wartime bank/foreign-exchange provisions, amendment history and exact transfer exception",
+    "limits": "Ordinary inherited-proxy urllib and curl attempts returned 503 for /laws/show/v0018500-22 and /print; web full-body opens timed out. NBU current press page and 2018 English framework PDF returned 403. Search snippets and secondary 2026 summaries were not treated as current primary text. No current transaction permission, transfer cap, exception or absence is verified.",
+    "transportError": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "sourceId": "b3-o4-me-eu-status",
+    "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/enlargement-eu-and-montenegro-close-accession-negotiations-on-free-movement-of-goods-and-food-safety/",
+    "rawEvidence": "research/raw/batch3/origin4/me-eu-web.json",
+    "rawSha256": null,
+    "reviewedAt": "2026-11-13T01:15:07.896873+00:00",
+    "scope": "Full press-release body: provisional chapter closures and continuing accession negotiations",
+    "limits": "Full relevant release read through web source reader on 13 November 2026; agency last-review label9 November 2026. Saved complete response research/raw/batch3/origin4/me-eu-web.json. Shows continuing negotiations/provisional closures rather than membership. Main background route returned 503 locally; no invented HTTP-body hash or legal accession date.",
+    "transportError": null
+  }
+]

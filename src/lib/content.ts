@@ -10,6 +10,8 @@ export const origins:RecordData[] = data.find(x=>x.name==='origins.json')?.recor
 export const markets:RecordData[] = data.find(x=>x.name==='markets.json')?.records??[];
 export const toolDefinitions:RecordData[] = data.find(x=>x.name==='tool-definitions.json')?.records??[];
 export const siteDependencies:RecordData[] = data.find(x=>x.name==='site-dependencies.json')?.records??[];
+export const caseConnections:RecordData[] = data.find(x=>x.name==='case-connections.json')?.records??[];
+export const relevantCases=(guide:RecordData)=>caseConnections.filter(link=>link.caseGuideId!==guide.id&&((link.guideIds??[]).includes(guide.id)||(link.ruleIds??[]).some((id:string)=>(guide.ruleIds??[]).includes(id)))).map(link=>({link,guide:published.find(g=>g.id===link.caseGuideId&&g.scenarioType==='real')})).filter(item=>item.guide);
 export const sourceById = (id:string)=>sources.find(s=>s.id===id);
 export const ruleById = (id:string)=>rules.find(s=>s.id===id);
 export const tools = [

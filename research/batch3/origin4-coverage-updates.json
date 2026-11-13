@@ -1,0 +1,227 @@
+[
+  {
+    "id": "origin-serbia",
+    "name": "Serbia",
+    "slug": "serbia",
+    "kind": "origin",
+    "country": "Serbia",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-rs-law",
+      "b3-o4-rs-report",
+      "b3-o4-rs-instructions"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: A quarterly DI-2 control sheet connecting the U.S. investment, period-end balance, USD conversion and submission proof. The proposed guide is limited to this named home-country workstream. Apply the actual investment definition and current-quarter filing instructions. No overall Serbian or U.S. expansion clearance. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-north-macedonia",
+    "name": "North Macedonia",
+    "slug": "north-macedonia",
+    "kind": "origin",
+    "country": "North Macedonia",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-mk-change"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: An event-to-registry-entry map with existing investment IDs, before/after ownership facts and current filing questions. The proposed guide is limited to this named home-country workstream. Agency entry-classification guide only; current timing and full procedural evidence remain to be confirmed. No automatic investment eligibility, transfer approval or NBRM-reporting result. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-albania",
+    "name": "Albania",
+    "slug": "albania",
+    "kind": "origin",
+    "country": "Albania",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-al-process",
+      "b3-o4-al-exit"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: A goods-and-return dossier linking the temporary export, authorized processing, identifiable resulting products and Customs-set return period. The proposed guide is limited to this named home-country workstream. Conditional agency process, with shipment-specific authority and current text confirmation required. U.S. import, product and tax questions remain separate. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-montenegro",
+    "name": "Montenegro",
+    "slug": "montenegro",
+    "kind": "origin",
+    "country": "Montenegro",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-me-old-law",
+      "b3-o4-me-new-law",
+      "b3-o4-me-notice",
+      "b3-o4-me-eu-status"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: A dated VAT applicability sheet recording the governing text, recipient establishment, service exception and future application trigger. The proposed guide is limited to this named home-country workstream. No assumed EU accession date or automatic July 2026 replacement of invoice rules. Transaction-specific VAT outcome remains to be decided. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-moldova",
+    "name": "Moldova",
+    "slug": "moldova",
+    "kind": "origin",
+    "country": "Moldova",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-md-native-law",
+      "b3-o4-md-law"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: An account-purpose and money-flow map with a cited authorization/exception decision and final-crediting evidence. The proposed guide is limited to this named home-country workstream. Romanian original governs; English explanation is AI assisted. No general offshore account or capital-transfer permission. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-turkiye",
+    "name": "Türkiye",
+    "slug": "turkiye",
+    "kind": "origin",
+    "country": "Türkiye",
+    "region": "Supplemental / dependency",
+    "convention": "Supplemental business-origin record outside the core M 49 Europe group, except Kosovo separately tracked for planning; no political-recognition determination.",
+    "originType": "supplemental",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-tr-report"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: An event diary with first capital-export and closure dates, current forms, both ministry recipients and a separate survey owner. The proposed guide is limited to this named home-country workstream. Current guidance process only; confirm operative legal/form details and event dates. Canonical country path is /from/turkiye/; the malformed candidate is a planning alias, not a second country page. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "slug": "bosnia-and-herzegovina",
+    "kind": "origin",
+    "country": "Bosnia and Herzegovina",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-ba-base",
+      "b3-o4-ba-enacted",
+      "b3-o4-ba-reform"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: A Federation-scoped setoff dossier connecting each underlying claim/debt, party, currency, amount and settlement control. The proposed guide is limited to this named home-country workstream. Federation scope only; Republika Srpska/Brčko remain not researched. Actual new implementing regulation and commencement require confirmation before execution. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-ukraine",
+    "name": "Ukraine",
+    "slug": "ukraine",
+    "kind": "origin",
+    "country": "Ukraine",
+    "region": "Europe",
+    "convention": "UN M 49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o4-ua-law"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "unresolved",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin4 research: A source-access and transaction-branch research checklist, not a bank instruction or permission decision. Current primary authority access is blocked; the proposed guide remains unpublished. Objective current-primary access block; no professional human review is required to continue research. No publication, current permission, transfer limit or absence claim until actual primary text and applicability are verified. Incorporation, headquarters, actual operations, owners’ nationality, tax residence, supplying entity, account ownership and personnel locations remain separate. All unchanged topics remain not researched."
+  }
+]

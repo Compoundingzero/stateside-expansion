@@ -11,7 +11,7 @@ try{
   const issueId=args[1],reviewer=flag('--reviewer'),date=flag('--date'),evidence=flag('--evidence'),decision=flag('--decision');
   const allowed=['retrieval-confirmed','no-material-change','interpretation-updated','not-a-source-change'];
   if(!issueId||!reviewer||!/^\d{4}-\d{2}-\d{2}$/.test(date??'')||!evidence?.trim()||!allowed.includes(decision)||!args.includes('--review-complete'))throw Error('Resolve requires ISSUE_ID --reviewer ID --date YYYY-MM-DD --evidence REFERENCE --decision retrieval-confirmed|no-material-change|interpretation-updated|not-a-source-change --review-complete');
-  const queuePath=resolve(process.env.SOURCE_REVIEW_DIRECTORY||'artifacts','editorial-review-queue.json');const queue=await read(queuePath);const item=queue.find(r=>r.id===issueId);if(!item)throw Error('Review issue not found');if(item.status==='resolved')throw Error('Review issue already resolved');
+  const queuePath=resolve(process.env.SOURCE_REVIEW_DIRECTORY||'artifacts','editorial-review-queue.json');const queue=await read(queuePath);const item=queue.find(r=>r.id===issueId&&r.status!=='resolved');if(!item)throw Error(queue.some(r=>r.id===issueId)?'Review issue already resolved':'Review issue not found');
   item.status='resolved';item.resolution={reviewer,date,evidence,decision,recordedAt:new Date().toISOString(),substantiveVerificationChanged:false,publicContentChanged:false};await writeFile(queuePath,JSON.stringify(queue,null,2)+'\n');console.log(JSON.stringify({issueId,status:'resolved',publicContentChanged:false,substantiveVerificationChanged:false}));
  }else if(command==='propose'){
   const [file,id,patchPath]=args.slice(1);if(!file||!id||!patchPath)throw Error('Usage: node scripts/editorial.mjs propose DATASET.json RECORD_ID PATCH.json');

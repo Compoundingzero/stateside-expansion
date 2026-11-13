@@ -1,0 +1,833 @@
+[
+  {
+    "id": "us-washington",
+    "name": "Washington",
+    "slug": "washington",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-wa-franchise",
+      "state-wa-law",
+      "b3-emp-wa-hire",
+      "b3-emp-wa-register"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Limited reviewed franchise issues; all other topic families remain in the research queue. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Actual full chapter read; distinct exit guide and expanded scope/update hub. Separate business-opportunity, sector and actual exemption-route research remains open.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "Register covered offerings before offers or sales unless exempt.",
+        "sourceIds": [
+          "state-wa-law",
+          "state-wa-franchise"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "RCW 19.100.070 ordinary one-year period, renewal at least 20 calendar days before expiry and material amendment before further sale reviewed; director periods and exemption route facts matter.",
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "RCW 19.100.010 definitions and fee/sector exclusions reviewed; independent registration-exemption routes and business-opportunity law are not exhausted.",
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      "disclosure": {
+        "status": "verified",
+        "summary": "14 calendar days; separate seven-day period for specified unilateral material agreement changes.",
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "Covered advertisements filed at least seven days before publication, subject to rule/order.",
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "RCW 19.100.180 good faith, purchasing/territory, termination cause/cure and differentiated nonrenewal/termination compensation reviewed; specific defaults and remedies remain conditional.",
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      "sourceIds": [
+        "state-wa-franchise",
+        "state-wa-law"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-wa-hire"
+        ],
+        "summary": "DOR states Washington has no personal income tax and does not require W-2 copies for income-tax purposes. This narrow wage-income-tax statement does not remove UI, workers' compensation, paid-leave or other business/payroll obligations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wa-hire",
+          "b3-emp-wa-register"
+        ],
+        "summary": "DOR routes in-state and out-of-state employers through a Business License Application marked Hire Employees, no sooner than 90 days before hiring. The application notifies ESD and L&I; each agency separately sends employer-account and reporting instructions."
+      },
+      "limitations": [
+        "The personal-income-tax statement is limited to the agency's stated wage/W-2 context, not all state taxes or future laws. Paid leave and other contribution programs need separate applicability review.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-oregon",
+    "name": "Oregon",
+    "slug": "oregon",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-or-franchise",
+      "b3-emp-or-register",
+      "b3-state4-or-law",
+      "b3-state4-or-rules"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Limited reviewed franchise issues; all other topic families remain in the research queue. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Official 2025 definitions/connections and current administrative division read. Narrow renewal/additional-unit decision published; general relationship and separate sector regimes remain unresearched.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "DFR expressly says no franchise-document filing and approval before sale; this is a narrow franchise-filing statement.",
+        "sourceIds": [
+          "state-or-franchise"
+        ]
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Current OAR 441-325-0030/0040 distinguish qualified renewal, additional-unit and owner-resale branches; exemption does not establish all state obligations or sector coverage.",
+        "sourceIds": [
+          "b3-state4-or-law",
+          "b3-state4-or-rules"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "Current rule requires disclosure/all proposed agreements 14 calendar days before earlier covered agreement/consideration, including refundable deposits; actual exemptions and changed-information conditions reviewed.",
+        "sourceIds": [
+          "b3-state4-or-rules"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "state-or-franchise",
+        "b3-state4-or-law",
+        "b3-state4-or-rules"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-or-register"
+        ],
+        "summary": "DOR directs paid-employee employers to obtain a BIN before issuing paychecks using Revenue Online or Combined Employer's Registration. It also addresses corporations reporting officer compensation and says a structure change can require a new BIN."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-or-register"
+        ],
+        "summary": "Oregon's Combined Payroll Tax Reporting System uses the BIN for withholding, unemployment and named additional payroll programs. The common identifier does not make every program's wage or coverage test identical."
+      },
+      "limitations": [
+        "Transit taxes, Workers' Benefit Fund, paid leave and excluded employment require their own applicability analysis. Portal processing estimates are not an opening guarantee.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-wisconsin",
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-wi-faq",
+      "b3-emp-wi-wh",
+      "b3-emp-wi-ui",
+      "b3-state4-wi-dealership",
+      "b3-state4-wi-jury",
+      "state-wi-filing"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Limited reviewed franchise issues; all other topic families remain in the research queue. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Current certified Chapter 135 and official jury instruction read; dealership definition is independent of Chapter 553 franchise sales classification. Full sales-law definition/sector/case survey remains open.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "Online annual filing; effective on receipt; no later than first sale; not merit review.",
+        "sourceIds": [
+          "state-wi-faq"
+        ]
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "disclosure": {
+        "status": "verified",
+        "summary": "14 calendar days before earlier binding agreement/payment.",
+        "sourceIds": [
+          "state-wi-faq"
+        ]
+      },
+      "advertising": {
+        "status": "verified",
+        "summary": "Agency states no franchise advertising filing required. Substantive advertising law remains separate.",
+        "sourceIds": [
+          "state-wi-faq"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Chapter 135 independent in-state dealership/community-of-interest scope, exclusions, good cause, 90-day notice and ordinary 60-day/nonpayment 10-day cure reviewed; marked resale inventory and conditional remedies are distinct.",
+        "sourceIds": [
+          "b3-state4-wi-dealership",
+          "b3-state4-wi-jury"
+        ]
+      },
+      "sourceIds": [
+        "state-wi-faq",
+        "b3-state4-wi-dealership",
+        "b3-state4-wi-jury",
+        "state-wi-filing"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wi-wh"
+        ],
+        "summary": "DOR requires a withholding number when Wisconsin withholding is required and permits application through My Tax Account or business registration. Its FAQ separately identifies exempt-wage/no-withholding conditions and reciprocity documentation."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-wi-ui"
+        ],
+        "summary": "DWD's current employer page routes a new UI account application through the UI Employer Portal, with reporting/account changes as separate functions. It flags a forthcoming portal change, so old navigation checklists need confirmation."
+      },
+      "limitations": [
+        "No current application/renewal fee, UI threshold, contribution rate or complete wage-exemption determination is supplied.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-virginia",
+    "name": "Virginia",
+    "slug": "virginia",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-va-franchise",
+      "b3-emp-va-wh",
+      "b3-emp-va-ui",
+      "b3-state4-va-law",
+      "b3-state4-va-2026-notice",
+      "b3-state4-va-rule"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Limited reviewed franchise issues; all other topic families remain in the research queue. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Actual current Code and April 2026 SCC notice confirm enacted July 1 changes and amendment task. Exemption evidence and contract scope remain conditional; broader sector/advertising research stays open.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "All franchises offered or sold must be registered or exempt.",
+        "sourceIds": [
+          "state-va-franchise"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Specified Form H routes require at least 10 business days before covered offer/sale; annual and per-transaction routes differ. Current electronic submission channel not independently resolved.",
+        "sourceIds": [
+          "b3-state4-va-rule"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Current 21VAC5-110-75 actual routes, cumulative conditions, pre-offer Form H, disclosure survival, renewal and material-change rules reviewed; 10 business days/specific versus 10 days/general wording retained.",
+        "sourceIds": [
+          "b3-state4-va-rule"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "Routes 3–6 preserve 14-calendar-day document/agreement delivery under 21VAC5-110-75(7); no substitution of 13.1-565 72-hour voidability wording for this delivery duty.",
+        "sourceIds": [
+          "b3-state4-va-rule",
+          "b3-state4-va-law"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Current 13.1-559/563 2026 Virginia-law/post-term retail competition changes and negotiated-sale exception, plus reasonable-cause cancellation/undue influence reviewed. No retroactivity or actual enforcement determination.",
+        "sourceIds": [
+          "b3-state4-va-law",
+          "b3-state4-va-2026-notice"
+        ]
+      },
+      "sourceIds": [
+        "state-va-franchise",
+        "b3-state4-va-law",
+        "b3-state4-va-2026-notice",
+        "b3-state4-va-rule"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-va-wh"
+        ],
+        "summary": "Virginia Tax requires withholding registration, returns and payment for employers required to file. It distinguishes the household-employer annual option from business employees, including employees of a business operated from home."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-va-ui"
+        ],
+        "summary": "VEC offers ESS registration or FC-27 by mail, but says not to submit the mailed form until a qualifying condition in questions 7a–10 is met. It assigns the account only when a criterion is satisfied and sends New Employer notices."
+      },
+      "limitations": [
+        "No full reciprocity, resident/nonresident sourcing, UI eligibility or annual filing-frequency determination is made.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-rhode-island",
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-ri-law",
+      "state-ri-rule",
+      "b3-emp-ri-register",
+      "b3-emp-ri-ui",
+      "b3-state4-ri-definition",
+      "b3-state4-ri-jurisdiction",
+      "b3-state4-ri-disclosure",
+      "b3-state4-ri-renew",
+      "b3-state4-ri-amend"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Limited reviewed franchise issues; all other topic families remain in the research queue. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Actual definitions, territorial connections, delivery, statutory defaults/active rule and prompt amendments read. Operating relationship and sector regimes remain open.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "Covered offer or sale requires registration or exemption; annual duration tracked from initial effective date.",
+        "sourceIds": [
+          "state-ri-law",
+          "state-ri-rule"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Active rule 1.4 uses separate 365-day registration-effectiveness and exemption-receipt periods; statutory renewal filing 30 days before expiry and prompt material-change amendments are independent.",
+        "sourceIds": [
+          "state-ri-rule",
+          "b3-state4-ri-renew",
+          "b3-state4-ri-amend"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Fractional-franchise rule contains multiple conditions and state-specific filing language; federal fractional exemption is not a substitute.",
+        "sourceIds": [
+          "state-ri-rule"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "19-28.1-8 14-calendar-day delivery of materially current disclosure and proposed agreements reviewed with listed exceptions; active fractional route has independent conditions/filing language.",
+        "sourceIds": [
+          "b3-state4-ri-disclosure",
+          "state-ri-rule"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "state-ri-law",
+        "state-ri-rule",
+        "b3-state4-ri-definition",
+        "b3-state4-ri-jurisdiction",
+        "b3-state4-ri-disclosure",
+        "b3-state4-ri-renew",
+        "b3-state4-ri-amend"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ri-register"
+        ],
+        "summary": "Taxation's online business registration can establish an income-tax withholding account and an unemployment account. It distinguishes retail-permit registration fees from the listed payroll-account registrations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ri-ui"
+        ],
+        "summary": "DLT directs a BAR application and says the UI account number follows the first Rhode Island payroll/liability date. It separately addresses proprietor/partner-only businesses and the localization of multi-state work."
+      },
+      "limitations": [
+        "No current contribution rate, complete excluded-employment list or resolution of disability/job-development contributions is provided.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-south-dakota",
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "state-sd-ads",
+      "state-sd-duration",
+      "state-sd-info",
+      "state-sd-notice",
+      "b3-emp-sd-tax-guide",
+      "b3-emp-sd-ui",
+      "b3-state4-sd-17",
+      "b3-state4-sd-disclosure",
+      "b3-state4-sd-11",
+      "b3-state4-sd-26",
+      "b3-state4-sd-change",
+      "b3-state4-sd-6"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "conditional",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Limited reviewed franchise issues; all other topic families remain in the research queue. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: New actual disclosure/update statutes read. Direct and web attempts to read definitions/jurisdiction and exemption sections 12–16 were blocked in this session, so no new classification or exemption conclusion is made.",
+    "franchise": {
+      "registration": {
+        "status": "verified",
+        "summary": "Franchise process is notice filing under 37-5B, not an assumption of merit approval.",
+        "sourceIds": [
+          "state-sd-notice",
+          "state-sd-duration"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Existing annual notice process remains; section 7 separately has no ordinary disclosure-update filing, with 120-day annual and reasonable-time quarterly revisions and independent director-request/financial-event tasks.",
+        "sourceIds": [
+          "b3-state4-sd-change",
+          "b3-state4-sd-6",
+          "state-sd-duration"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Independent exemptions in 37-5B-12 through -15 require review of actual facts.",
+        "sourceIds": [
+          "state-sd-notice"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "37-5B-17/18/11 initial 14-day, revised-agreement, delivery-method and signed-receipt/three-year retention branches reviewed; exemptions and separate 26(7) signing-difference conditions remain material.",
+        "sourceIds": [
+          "b3-state4-sd-17",
+          "b3-state4-sd-disclosure",
+          "b3-state4-sd-11",
+          "b3-state4-sd-26"
+        ]
+      },
+      "advertising": {
+        "status": "verified",
+        "summary": "No advertising filing unless director requests; misleading advertising remains subject to order.",
+        "sourceIds": [
+          "state-sd-ads"
+        ]
+      },
+      "relationship": {
+        "status": "not-researched",
+        "summary": "Not yet researched. No absence of requirements is inferred.",
+        "sourceIds": []
+      },
+      "sourceIds": [
+        "state-sd-ads",
+        "state-sd-duration",
+        "state-sd-info",
+        "state-sd-notice",
+        "b3-state4-sd-17",
+        "b3-state4-sd-disclosure",
+        "b3-state4-sd-11",
+        "b3-state4-sd-26",
+        "b3-state4-sd-change",
+        "b3-state4-sd-6"
+      ],
+      "limitations": [
+        "Dimensions are independent; a reviewed filing issue does not establish complete franchise, employment, tax, sector or local coverage.",
+        "Unknown values are not zero or permission to proceed."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-sd-tax-guide"
+        ],
+        "summary": "DOR's July 2026 Tax Basics states South Dakota has no personal income tax. That narrow income-tax branch does not remove reemployment assistance, sales/use, municipal or other business obligations."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-sd-ui"
+        ],
+        "summary": "DLR requires registration of new/acquired businesses and new registration after entity or ownership changes. Most use Form 1; nonprofit and political-subdivision forms differ. General and special liability tests are separate from the registration instruction."
+      },
+      "limitations": [
+        "The agency's temporary/out-of-state overview uses a 90-day distinction; this review does not resolve its exact boundary or replace localization analysis. No annual rate or full exclusion list is asserted.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-connecticut",
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ct-form",
+      "b2-east-ct-guidelines",
+      "b3-emp-ct-wh",
+      "b3-emp-ct-ui",
+      "b3-state4-ct-franchise-current-alt",
+      "b3-state4-ct-business-current-alt"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Official current public mirrors recovered complete relevant text; 2026 supplement title index lists neither chapter. Base-code histories, actual exemption scope and later-session/sector limits are explicit.",
+    "franchise": {
+      "registration": {
+        "status": "conditional",
+        "summary": "Actual 36b-61/62 business-opportunity definition and pre-offer registration/order-effectiveness provisions read on official current-code mirror; precise exclusions/exemptions and source-version limits remain.",
+        "sourceIds": [
+          "b3-state4-ct-business-current-alt",
+          "b2-east-ct-form"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Current mark-claim form remains a conditional claim; actual 36b-62(d) immediate material-change notice and 36b-79 fiscal-year renewal concern registered business opportunities, not every excluded franchise.",
+        "sourceIds": [
+          "b3-state4-ct-business-current-alt",
+          "b2-east-ct-form"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "36b-61(2) independent trigger limbs, mark-related marketing-program exclusion and 36b-65 claimant burden read; current trademark form matches operative subsection numbering.",
+        "sourceIds": [
+          "b3-state4-ct-business-current-alt",
+          "b2-east-ct-form"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "36b-63(a)/(b) actual ten-business-day earlier contract/value delivery and state cover/additional-content requirements reviewed for the covered non-exempt track; permitted federal format is not automatic state compliance.",
+        "sourceIds": [
+          "b3-state4-ct-business-current-alt"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "36b-67 actual documented/disclosed income-data, inconsistent-claim and specified Act-compliance-reference prohibitions reviewed for covered business opportunities; actual definition and exemption scope remain conditional.",
+        "sourceIds": [
+          "b3-state4-ct-business-current-alt"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Actual 42-133e–h independent plan/brand definition, Connecticut location/date conditions, good cause, differentiated notice, lease service, term/compensation and conditional remedies read.",
+        "sourceIds": [
+          "b3-state4-ct-franchise-current-alt"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ct-form",
+        "b2-east-ct-guidelines",
+        "b3-state4-ct-franchise-current-alt",
+        "b3-state4-ct-business-current-alt"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ct-wh"
+        ],
+        "summary": "DRS links withholding to maintaining an office or transacting business in Connecticut and federal employer status, regardless of payroll department location. Register through myconneCT or add withholding to an existing DRS account."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-ct-ui"
+        ],
+        "summary": "DOL requires online ReEmployCT registration for employers of one or more people and separately describes liability thresholds. It expressly distinguishes sole proprietors, partners, paid corporate officers and LLC members according to relevant tax filing treatment."
+      },
+      "limitations": [
+        "The agency's LLC/officer discussion is Connecticut-specific. Family, nonprofit, domestic and other special coverage conditions still need fact-specific review.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  },
+  {
+    "id": "us-florida",
+    "name": "Florida",
+    "slug": "florida",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-fl-agency",
+      "b2-east-fl-statute",
+      "b3-emp-fl-tax-guide",
+      "b3-emp-fl-guide",
+      "b3-state4-fl-representation"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. Employer payroll-registration review 2026-11-12: the visible withholding/UI subscopes below are the only new coverage. Corporate income tax, other employment law and local obligations remain separate. State 4 primary-source review 2026-11-13: Actual 2026 representation statute read. No good-cause termination law or universal service-model coverage inferred; annual notice actual filing fee/packet remains unverified as previously recorded.",
+    "franchise": {
+      "registration": {
+        "status": "conditional",
+        "summary": "FDACS distinguishes discontinued registration documents from a continuing franchise-exemption notice under 559.802. Non-exempt and sector regimes remain separate.",
+        "sourceIds": [
+          "b2-east-fl-agency",
+          "b2-east-fl-statute"
+        ]
+      },
+      "notice": {
+        "status": "verified",
+        "summary": "559.802 requires the described notice before a covered Florida-location or Florida-resident offer/sale and annual renewal. Actual fee remains unverified; statute cap is not a payable quote.",
+        "sourceIds": [
+          "b2-east-fl-statute"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Requires federal franchise definition, substantial FTC compliance notice and fee; not a website approval of exemption.",
+        "sourceIds": [
+          "b2-east-fl-statute"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "559.802 substantial FTC compliance remains an exemption condition. Independently, 817.416 has its own covered-distribution definition and intentional investment/success/market-capacity representation prohibitions.",
+        "sourceIds": [
+          "b2-east-fl-statute",
+          "b3-state4-fl-representation"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "817.416 intentional misrepresentations when selling/establishing the specifically defined franchise/distributorship reviewed; this does not exhaust advertising filing, consumer or financial-performance law.",
+        "sourceIds": [
+          "b3-state4-fl-representation"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-fl-agency",
+          "b2-east-fl-statute"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-fl-agency",
+        "b2-east-fl-statute",
+        "b3-state4-fl-representation"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    },
+    "employerRegistration": {
+      "withholding": {
+        "status": "not-applicable",
+        "sourceIds": [
+          "b3-emp-fl-tax-guide"
+        ],
+        "summary": "DOR expressly states Florida does not impose personal income tax. This closes only the state personal wage-income withholding branch; reemployment tax, corporate tax, sales tax and other payroll/business obligations remain separate."
+      },
+      "unemployment": {
+        "status": "conditional",
+        "sourceIds": [
+          "b3-emp-fl-guide"
+        ],
+        "summary": "DOR's reemployment guide requires DR-1 to determine liability; quarterly reports alone do not register an employer. It states general $1,500 quarterly wages, one employee in 20 weeks, or federal unemployment-tax liability tests, with separate special-employer categories."
+      },
+      "limitations": [
+        "Guide revised March 2025; annual rates were not relied on. A personal-income-tax absence conclusion, worker-classification decision and complete current exclusion review remain outside this record.",
+        "No complete corporate-income-tax, worker-classification, wage/hour, immigration, paid-leave, workers’ compensation or local-tax clearance."
+      ]
+    }
+  }
+]

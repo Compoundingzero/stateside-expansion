@@ -1,0 +1,226 @@
+[
+  {
+    "id": "b3-planning2-worker-status",
+    "title": "Separate the contractor rule, enforcement policy and tax test",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Separate the contractor rule, enforcement policy and tax test",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Current codified Part 795 contains a totality/economic-reality interpretation; WHD’s May 2025 bulletin uses a different stated investigation approach without changing private rights, and the February 2026 rescission/replacement is a proposal. IRS employment-tax classification is a separate control inquiry.",
+    "exceptions": "No worker is classified here. Court/circuit, state wage/unemployment, tax, coverage and exemption questions remain distinct. The latest appellate dockets are not independently reviewed.",
+    "trigger": "Separate the contractor rule, enforcement policy and tax test",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Actual duties/control and business initiative",
+      "Investment/profit-loss/permanence facts",
+      "Separate FLSA, tax and state test register",
+      "Dated rule/policy/proposal/court status",
+      "Decision owner and unresolved evidence"
+    ],
+    "sourceIds": [
+      "b3-planning2-dol-rule795",
+      "b3-planning2-dol-fab2025",
+      "b3-planning2-contractor-nprm",
+      "b3-planning2-irs-contractor",
+      "b3-planning2-colt-order"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No individual worker, state-law, exemption or tax-relief conclusion.",
+      "Latest appellate docket/status is not independently verified; the 2026 NPRM’s case account is dated historical agency reporting.",
+      "FAB and NPRM cite different associated opinion numbers; this guide does not reconcile or apply those opinions.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/worker-classification/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning2-joint-status",
+    "title": "A brand control clause does not answer every joint-employer test",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "A brand control clause does not answer every joint-employer test",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "Current NLRA § 103.40 requires its stated substantial direct/immediate-control analysis, with a qualified role for indirect/reserved control. Current FLSA Part 791 is reserved, not absence of liability; existing FLSA law and fact-specific agency guidance remain distinct from the April 2026 proposal.",
+    "exceptions": "The NLRA, FLSA, tax and state tests are not interchangeable. No brand, customer, staffing agency, operator or actual worker relationship is classified.",
+    "trigger": "A brand control clause does not answer every joint-employer test",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Who hires/pays/schedules/disciplines/directs workers",
+      "Actual versus reserved authority",
+      "Entity/worker/worksite map",
+      "Separate NLRA/FLSA/state question",
+      "Shared-worker hours and management evidence"
+    ],
+    "sourceIds": [
+      "b3-planning2-nlrb-joint-rule",
+      "b3-planning2-nlrb-withdrawal",
+      "b3-planning2-nlrb-court",
+      "b3-planning2-dol-joint791",
+      "b3-planning2-joint-nprm",
+      "b3-planning2-dol-opinion2025-5",
+      "fed-definition"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No joint-employer finding, full circuit survey, bargaining-unit analysis or state-law clearance.",
+      "The 2026 FLSA proposal is not an effective franchise exemption or a substitute for current governing law.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/joint-employer/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning2-product-scope",
+    "title": "Assign the consumer-product certificate and safety-reporting jobs",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Assign the consumer-product certificate and safety-reporting jobs",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "For finished products within CPSC certification scope, Part 1110 assigns certifier/content/eFiling/record duties with phased effective dates. Section2064(b) separately requires covered firms to report specified reasonably supported noncompliance/hazard/risk information immediately;1115.14 explains timing.",
+    "exceptions": "Product jurisdiction, actual applicable standards/testing and other agencies are separate. The FTZ phase differs. A certificate or current agency entry-warning policy is not a product approval or exemption.",
+    "trigger": "Assign the consumer-product certificate and safety-reporting jobs",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Product/intended user/use and jurisdiction",
+      "Applicable standards and testing basis",
+      "Legal certifier/importer allocation",
+      "Certificate/entry/version records",
+      "Complaint/incident reporting owner"
+    ],
+    "sourceIds": [
+      "b3-planning2-cpsc-def",
+      "b3-planning2-cpsc-certificates",
+      "b3-planning2-cpsc-final-rule",
+      "b3-planning2-cpsc-faq",
+      "b3-planning2-cpsc-section15",
+      "b3-planning2-cpsc-reporting"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No particular product jurisdiction, standard/test result, approval, recall decision or shipment clearance.",
+      "CPSC import overview returned 403; current certification rule/final action/FAQ and actual statutes were readable and used instead.",
+      "eFiling enforcement language is time-sensitive and does not waive the underlying certificate or safety requirements.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/product-safety/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning2-data-gate",
+    "title": "Test the federal data-security gate before overseas access",
+    "topic": "ip-data",
+    "jurisdiction": "U.S. federal",
+    "activity": "Test the federal data-security gate before overseas access",
+    "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
+    "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
+    "requirement": "28CFRPart 202 prohibits or restricts defined transactions involving access by countries of concern/covered persons to government-related data or bulk U.S. sensitive personal data. Restricted transactions have actual security, diligence and audit conditions; foreign access alone is not the complete test.",
+    "exceptions": "Exact data/party/transaction/exemption facts control. This is one federal national-security screen, not all U.S./origin privacy, sector, transfer, cyber or contractual law. CISA technical requirements were not read through the access-blocked resource.",
+    "trigger": "Test the federal data-security gate before overseas access",
+    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
+    "fee": null,
+    "renewal": "Recheck when activity, parties, work location, source or operating facts change",
+    "dependencies": [],
+    "evidence": [
+      "Data categories/volumes and12-month aggregation",
+      "Access rights and actual users",
+      "Country/covered-person ownership/residence facts",
+      "Broker/vendor/employment/investment agreement type",
+      "Exemption and required-control evidence"
+    ],
+    "sourceIds": [
+      "b3-planning2-doj-rule202",
+      "b3-planning2-doj-dsp",
+      "b3-planning2-doj-enforcement"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction authorisation, exemption finding, security attestation or complete privacy-law clearance.",
+      "CISA resource returned 403; detailed technical security requirements and their implementation remain unresolved.",
+      "DOJ overview says October 5 for a later phase; operative §§ 202.1001–1002 and its implementation policy say October 6. The guide follows those actual operative provisions.",
+      "AI-assisted source review; no professional legal review."
+    ],
+    "dependentPaths": [
+      "/us-expansion/cross-border-data/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "b3-planning2-pesticidal-intent",
+    "title": "Pesticidal intent can arise from claims and actual intended use",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Selecting or promoting a cleaning/pest-control product",
+    "affectedParty": "Product seller/distributor, importer and responsible technical/supply lead",
+    "applicability": "Actual product, claims, ingredients and intended-use facts; no product is classified here.",
+    "requirement": "Read 152.10 cleaners/claim condition together with 152.15 claims, ingredient/commercial-use and actual/constructive-knowledge conditions. General registration rule and referenced exceptions require the actual facts.",
+    "exceptions": "Sections 152.20,152.25 and152.30 have separate conditions, not assumed. Device/product, state, applicator and import duties are separate.",
+    "trigger": "Changing product, claims, labels, sales material or intended use",
+    "deadline": "Before relying on a nonpesticide category or importing/distributing the product",
+    "fee": null,
+    "renewal": "Recheck changes in claims, formulation, use, supplier or law",
+    "dependencies": [],
+    "evidence": [
+      "Actual label and sales claims",
+      "Composition and intended use",
+      "Knowledge/use and product-status record",
+      "Separate product/import/person task owners"
+    ],
+    "sourceIds": [
+      "b3-planning2-epa-cleaners",
+      "b3-planning2-epa-intent",
+      "pr-pesticide-import"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-12",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No product-specific classification, registration, import exception or state/applicator conclusion."
+    ],
+    "dependentPaths": [
+      "/cases/cleaning-product-us-supply/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "conditional-legal-requirement"
+  }
+]

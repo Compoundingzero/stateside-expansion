@@ -1,0 +1,689 @@
+[
+  {
+    "id": "us-alabama",
+    "name": "Alabama",
+    "slug": "alabama",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-al-2026",
+      "b2-east-al-status"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence. State 2 review applies the specific 2026 operating-days Act definitions separately from federal franchise classification, including different defined-term exclusions and agreement/renewal facts. General franchise/business-opportunity sales law remains independently unresolved.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "The 2026 operating-days law was reviewed; it does not establish sales-registration, filing/exemption, disclosure or advertising absence.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Effective 2026 Act 2026-591 has operating-day protections/exceptions; defined-party, sector and agreement facts require review.",
+        "sourceIds": [
+          "b2-east-al-2026",
+          "b2-east-al-status"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-al-2026",
+        "b2-east-al-status"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    }
+  },
+  {
+    "id": "us-arizona",
+    "name": "Arizona",
+    "slug": "arizona",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-az-definition",
+      "b2-east-az-disclosure",
+      "b2-east-az-registration"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "unresolved",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. State 2 rereview confirms the covered-business-opportunity definition/exclusion, registration/disclosure and registration-maintenance branches. Extra 44-1273–1279 requests returned 403; no new cancellation or general ongoing-franchise conclusion is inferred. Current forms/bond/fee detail remains a separate task.",
+    "franchise": {
+      "registration": {
+        "status": "conditional",
+        "summary": "44-1272 covers sellers defined by the article, before covered solicitation; federal-defined franchises excluded from business-opportunity definition are analysed separately.",
+        "sourceIds": [
+          "b2-east-az-registration",
+          "b2-east-az-definition"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-az-definition",
+          "b2-east-az-disclosure",
+          "b2-east-az-registration"
+        ]
+      },
+      "exemptions": {
+        "status": "verified",
+        "summary": "44-1271(1)(c)(iii) excludes federal-rule-defined franchises from this business-opportunity definition. This is not a universal state exemption.",
+        "sourceIds": [
+          "b2-east-az-definition"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "44-1276.01 sets 5 businessdays for specified registered business-opportunity sellers; do not impose that track automatically on excluded franchises.",
+        "sourceIds": [
+          "b2-east-az-disclosure",
+          "b2-east-az-definition"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "Covered sellers submit specified scripts/materials with registration and new/revised material before use under 44-1272; other advertising rules not comprehensively reviewed.",
+        "sourceIds": [
+          "b2-east-az-registration"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-az-definition",
+          "b2-east-az-disclosure",
+          "b2-east-az-registration"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-az-definition",
+        "b2-east-az-disclosure",
+        "b2-east-az-registration"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    }
+  },
+  {
+    "id": "us-colorado",
+    "name": "Colorado",
+    "slug": "colorado",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-co-2026labor",
+      "b2-east-co-downloads",
+      "b3-state2-co-equipment"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "unresolved",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "conditional",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved. State 2 reviewed current 2026 Title 35 Article 38 equipment definitions, product exclusions, cause/notice exception sets, renewal renovation and agreement applicability. This is a defined primarily-retail equipment branch; general franchise sales and other sectors remain unresolved.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "Worker-covenant statute and state business-resource sources were investigated; general franchise sales/relationship conclusion remains unresolved.",
+        "sourceIds": [
+          "b2-east-co-2026labor",
+          "b2-east-co-downloads"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Named 35-38 equipment-dealer branch has cause, conditional 180-day notice/cure, renovation-renewal and applicability provisions. Product/primarily-retail definitions and express exception sets control; no all-industry relationship conclusion.",
+        "sourceIds": [
+          "b3-state2-co-equipment"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-co-2026labor",
+        "b2-east-co-downloads",
+        "b3-state2-co-equipment"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    }
+  },
+  {
+    "id": "us-georgia",
+    "name": "Georgia",
+    "slug": "georgia",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-ga-agency",
+      "b2-east-ga-forms",
+      "b2-east-ga-mark"
+    ],
+    "topics": {
+      "classification": "unresolved",
+      "sales-disclosure": "unresolved",
+      "relationship": "unresolved",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law. State 2 current-law access audit: existing AG-hosted statutory text is expressly through 2006; current AG retrieval 403, official legislature page is a JavaScript shell, its public-code API returned 401, and official-linked public publisher redirect yielded no substantive current statute in the retrieved body. Current business-opportunity/relationship law remains unresolved from these attempts; not absent. No access control was bypassed.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
+      },
+      "relationship": {
+        "status": "unresolved",
+        "summary": "Agency-hosted statutory text is expressly current only through 2006. Current legal text required; mark/name evidence does not settle sales or relationship law.",
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-ga-agency",
+        "b2-east-ga-forms",
+        "b2-east-ga-mark"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    }
+  },
+  {
+    "id": "us-idaho",
+    "name": "Idaho",
+    "slug": "idaho",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-id-agency",
+      "b2-east-id-consumer",
+      "b3-state2-id-equipment"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "unresolved",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "conditional",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements. State 2 reviewed complete current official Title 28 Chapter 24, including equipment sale/service scope, combined large-dealer exclusion, good cause, different notice/cure exception sets, market-penetration branch and new-dealer notification. Other franchise/business-opportunity sales laws and other sectors remain unresolved.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
+      },
+      "notice": {
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
+      },
+      "disclosure": {
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
+      },
+      "advertising": {
+        "status": "unresolved",
+        "summary": "Entity/local-licence and general consumer-law sources do not substantiate absence of state franchise requirements.",
+        "sourceIds": [
+          "b2-east-id-agency",
+          "b2-east-id-consumer"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Defined Chapter 28-24 equipment supplier/dealer relationships have good-cause and notice/cure duties, special performance/new-dealer branches and stated exclusions. Do not generalize this to every service or franchise; general sales-filing analysis remains open.",
+        "sourceIds": [
+          "b3-state2-id-equipment"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-id-agency",
+        "b2-east-id-consumer",
+        "b3-state2-id-equipment"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    }
+  },
+  {
+    "id": "us-missouri",
+    "name": "Missouri",
+    "slug": "missouri",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-east-mo-bizopp",
+      "b2-east-mo-definition",
+      "b2-east-mo-prohibitions",
+      "b2-east-mo-relationship",
+      "b3-state2-mo-remedy"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "conditional",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Continuation batch reviewed 2026-11-12. Narrow published decision guide: yes; independent legal gaps remain. The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred. State 2 rereview keeps 407.400/.405 and 409.1000/.1003 as independent definitions/tracks, adds the covered written-contract/recruitment step and reads 407.410 remedy subsections separately. Pyramid-inducement double-consideration/fee terms are not assumed to govern ordinary franchise notice damage. Broad sales filing and unreviewed case-law application remain open.",
+    "franchise": {
+      "registration": {
+        "status": "unresolved",
+        "summary": "The cited narrow provisions were researched; this independent dimension remains unresolved and no absence of a requirement is inferred.",
+        "sourceIds": [
+          "b2-east-mo-bizopp",
+          "b2-east-mo-definition",
+          "b2-east-mo-prohibitions",
+          "b2-east-mo-relationship"
+        ]
+      },
+      "notice": {
+        "status": "conditional",
+        "summary": "Current 407.40590-daywritten exit notice and stated exceptions require 407.400 relationship coverage. This is separate from any sales filing.",
+        "sourceIds": [
+          "b2-east-mo-definition",
+          "b2-east-mo-relationship"
+        ]
+      },
+      "exemptions": {
+        "status": "conditional",
+        "summary": "Independent 407.400 and 409.1000 definitions/exclusions reviewed; no universal franchise-registration exemption or absence conclusion.",
+        "sourceIds": [
+          "b2-east-mo-definition",
+          "b2-east-mo-bizopp"
+        ]
+      },
+      "disclosure": {
+        "status": "conditional",
+        "summary": "409.1003 covered written-contract and investment/support/profit/rights representations reviewed; no universal FDD delivery-period conclusion.",
+        "sourceIds": [
+          "b2-east-mo-prohibitions",
+          "b2-east-mo-bizopp"
+        ]
+      },
+      "advertising": {
+        "status": "conditional",
+        "summary": "Covered business-opportunity misrepresentation and overlapping exclusive-territory prohibitions reviewed; routine filing absence not established.",
+        "sourceIds": [
+          "b2-east-mo-prohibitions",
+          "b2-east-mo-bizopp"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "For a relationship within 407.400,407.405 ordinarily requires 90 days’ written exit notice with listed exceptions. Section 407.410(2) notice-loss remedies are distinct from subsection 1 pyramid remedies. Sector-dealer and current case-law application remain independent.",
+        "sourceIds": [
+          "b2-east-mo-definition",
+          "b2-east-mo-relationship",
+          "b3-state2-mo-remedy",
+          "b2-east-mo-bizopp",
+          "b2-east-mo-prohibitions"
+        ]
+      },
+      "sourceIds": [
+        "b2-east-mo-bizopp",
+        "b2-east-mo-definition",
+        "b2-east-mo-prohibitions",
+        "b2-east-mo-relationship",
+        "b3-state2-mo-remedy"
+      ],
+      "limitations": [
+        "Each dimension states only its named, source-supported scope; unresolved is not permission to proceed.",
+        "Business-opportunity, franchise, sector-dealer and ordinary contract regimes may have different definitions and triggers.",
+        "Tax, employment, professional licensing, local premises and federal law require independent review."
+      ]
+    }
+  },
+  {
+    "id": "us-montana",
+    "name": "Montana",
+    "slug": "montana",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-west-a-mt-dealer-def",
+      "b2-west-a-mt-goodcause",
+      "b2-west-a-mt-dealer-end",
+      "b2-west-a-mt-def",
+      "b2-west-a-mt-repurchase",
+      "b3-state2-mt-data-717",
+      "b3-state2-mt-data-718",
+      "b3-state2-mt-data-719",
+      "b3-state2-mt-data-720",
+      "b3-state2-mt-motor-def"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "not-researched",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Narrow construction-equipment and inventory-exit research completed; general franchise sales matrix remains open. State 2 adds a separate new-motor-vehicle-dealer data branch under 30-11-717–720/61-4-201. Its definitions do not carry over from equipment repurchase or construction-dealer law. Specific consent, manufacturer-data and vendor-exit rules reviewed; no general franchise customer-data or sales-law clearance.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "exemptions": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "disclosure": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Not yet established from the sources reviewed. No absence of a requirement or permission to proceed is inferred.",
+        "sourceIds": []
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "Construction-equipment dealership good-cause/notice rules reviewed; separate defined-inventory repurchase provisions identified. Eligibility and other relationship statutes remain fact-dependent. A distinct motor-dealer data consent/vendor-transition branch is reviewed; it uses its own dealer definition.",
+        "sourceIds": [
+          "b2-west-a-mt-dealer-def",
+          "b2-west-a-mt-goodcause",
+          "b2-west-a-mt-dealer-end",
+          "b2-west-a-mt-def",
+          "b2-west-a-mt-repurchase",
+          "b3-state2-mt-data-717",
+          "b3-state2-mt-data-718",
+          "b3-state2-mt-data-719",
+          "b3-state2-mt-data-720",
+          "b3-state2-mt-motor-def"
+        ]
+      },
+      "sourceIds": [
+        "b2-west-a-mt-dealer-def",
+        "b2-west-a-mt-goodcause",
+        "b2-west-a-mt-dealer-end",
+        "b2-west-a-mt-def",
+        "b2-west-a-mt-repurchase",
+        "b3-state2-mt-data-717",
+        "b3-state2-mt-data-718",
+        "b3-state2-mt-data-719",
+        "b3-state2-mt-data-720",
+        "b3-state2-mt-motor-def"
+      ],
+      "limitations": [
+        "Six dimensions are independent. A reviewed dealer or chain-distributor issue does not establish general franchise sales-law coverage.",
+        "State-specific registration, notice, exemption, disclosure, advertising and relationship applicability require actual parties, offer locations, activities and dates.",
+        "Other topic families remain separately unresearched unless expressly noted."
+      ]
+    }
+  },
+  {
+    "id": "us-wyoming",
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "kind": "state",
+    "country": "United States",
+    "sourceIds": [
+      "b2-west-wy-equipment"
+    ],
+    "topics": {
+      "classification": "conditional",
+      "sales-disclosure": "not-researched",
+      "relationship": "conditional",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped primary-source branch reviewed. Independent unknown dimensions remain visible. State 2 deepens the separate 40-20-120–121 inventory-exit branch: item eligibility, technology/tool price bases, return-information qualification, receipt-triggered payment/credit and offsets. Existing termination regimes remain separate; no general franchise sales-law conclusion.",
+    "franchise": {
+      "registration": {
+        "status": "not-researched",
+        "summary": "General franchise-sales registration not determined from this sector relationship chapter.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      "notice": {
+        "status": "not-researched",
+        "summary": "Termination notice is tracked under relationship; franchise-sales notice filing not determined.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      "exemptions": {
+        "status": "unresolved",
+        "summary": "Sector definitions/exclusions reviewed; no general franchise exemption conclusion.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      "disclosure": {
+        "status": "not-researched",
+        "summary": "Presale franchise disclosure overlays not determined in this sector branch.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      "advertising": {
+        "status": "not-researched",
+        "summary": "Complete franchise-recruitment advertising requirements not determined.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      "relationship": {
+        "status": "conditional",
+        "summary": "General §§40-20-115/117 and single-line §116 regimes differ: ordinary general notice is 180 days with 60-day cure; ordinary single-line notice is 90 days with 60-day cure. Specified events and performance failures have separate conditions. Repurchase under §§120–121 is a separate branch.",
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      "sourceIds": [
+        "b2-west-wy-equipment"
+      ],
+      "limitations": [
+        "Dimensions are independent; a scoped conditional finding does not establish absence of other state requirements.",
+        "Map actual entities, activities, offer/receipt locations, prospect facts and sector before reliance."
+      ]
+    }
+  }
+]

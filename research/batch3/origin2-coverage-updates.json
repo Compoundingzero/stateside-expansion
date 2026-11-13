@@ -1,0 +1,223 @@
+[
+  {
+    "id": "origin-poland",
+    "name": "Poland",
+    "slug": "poland",
+    "kind": "origin",
+    "country": "Poland",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-pl-faq"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A first-cycle invoice handoff mapping KSeF issuance, the U.S. customer copy, payment and separate acceptance records. Covered online KSeF invoice handoff only; issuer scope,2026 transitional exceptions and offline modes need confirmation. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-czechia",
+    "name": "Czechia",
+    "slug": "czechia",
+    "kind": "origin",
+    "country": "Czechia",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-cz-vat"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A Czech monthly/period filing map linking issued and received documents to separate reporting decisions. Separate VAT reporting forms and document categories only; actual current deadlines, status and tax treatment remain unresolved. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-portugal",
+    "name": "Portugal",
+    "slug": "portugal",
+    "kind": "origin",
+    "country": "Portugal",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-pt-international"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A country/owner/class filing brief with the Portuguese basic record, U.S. declaration and priority calendar. Portuguese/Madrid application route, U.S. declaration and priority evidence only; no U.S. grant or conflict clearance. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-greece",
+    "name": "Greece",
+    "slug": "greece",
+    "kind": "origin",
+    "country": "Greece",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-gr-breach",
+      "b3-o2-gr-submit"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "not-researched",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "conditional",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A controller-specific incident playbook with an awareness/risk log, competent-authority decision and authorised filing route. HDPA-competent controller incident handling and Greek portal route only; no U.S. transfer or general GDPR clearance. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-luxembourg",
+    "name": "Luxembourg",
+    "slug": "luxembourg",
+    "kind": "origin",
+    "country": "Luxembourg",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-lu-services",
+      "b3-o2-lu-recap"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A recipient/establishment register with separate invoice, VAT-return and other-EU statement decisions. January 2023 Guichet guidance supports the narrow EU-report boundary; current statutory exceptions and filing details are not comprehensively reconciled. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-estonia",
+    "name": "Estonia",
+    "slug": "estonia",
+    "kind": "origin",
+    "country": "Estonia",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-ee-limited",
+      "b3-o2-ee-register-limited",
+      "b3-o2-ee-reminder"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A foreign-service purchasing checklist linking status, receipt date, registration, non-deductible tax and reporting records. Defined foreign-service purchases and limited VAT registration only; actual service/status facts, rates and broader registration choices remain open. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-latvia",
+    "name": "Latvia",
+    "slug": "latvia",
+    "kind": "origin",
+    "country": "Latvia",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-lv-law-current",
+      "b3-o2-lv-law"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "conditional",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A shipment-specific export file with an advance-aging log and documented evidence/exception decision. Current Latvian Sections 43/51 read; official English translation is outdated and not current authority. Complete Cabinet evidence list and U.S. import rules remain unreviewed. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  },
+  {
+    "id": "origin-lithuania",
+    "name": "Lithuania",
+    "slug": "lithuania",
+    "kind": "origin",
+    "country": "Lithuania",
+    "region": "Europe",
+    "convention": "UN M49 Europe: sovereign-country origin register; Russia included in full under this convention.",
+    "originType": "country",
+    "sourceIds": [
+      "geo-un-m49",
+      "b3-o2-lt-registers"
+    ],
+    "topics": {
+      "classification": "not-researched",
+      "sales-disclosure": "not-researched",
+      "relationship": "not-researched",
+      "corporate-tax": "conditional",
+      "immigration": "not-researched",
+      "employment": "not-researched",
+      "products-supply": "not-researched",
+      "premises-opening": "not-researched",
+      "ip-data": "not-researched",
+      "commercial-feasibility": "not-researched"
+    },
+    "notes": "Scoped origin2 research: A document-type classification register and EUR/timing reconciliation between i.SAF, customs records and the VAT return. Native VMI KM1945 (2025) and named 2018 register/currency answers only; actual VAT liability, current codes and deadlines remain unresolved. This is a limited home-country workstream, not complete country coverage or U.S. launch permission. Parent incorporation, headquarters, actual operations, ultimate owners’ nationality, tax residence, supplying entity and personnel locations remain separate facts. All unchanged topics remain not researched."
+  }
+]

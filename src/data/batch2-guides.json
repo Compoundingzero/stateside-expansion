@@ -12,7 +12,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "b2-west-a-ne-relationship-scope"
     ],
@@ -37,6 +37,17 @@
         ]
       },
       {
+        "heading": "Record all three application criteria",
+        "paragraphs": [
+          "Section 87-403 requires the stated Nebraska place of business, gross sales of covered products or services between franchisor and franchisee exceeding $35,000 in the 12 months immediately preceding the institution of suit, and more than 20 percent of the franchisee’s gross sales intended to be or derived from the franchise. Those criteria are cumulative. They are not an annual revenue floor for every business entering Nebraska.",
+          "Section 87-402 has distinct nonalcoholic-beverage wording and excludes petroleum arrangements from its franchise definition. The source also defines franchise fee and good cause. Retain the actual payment and business facts rather than importing the federal definition."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-rel-def",
+          "b2-west-a-ne-rel-scope"
+        ]
+      },
+      {
         "heading": "Fictional example: a B2B field-service operator",
         "paragraphs": [
           "A Dutch service operator works from an office and travels to customer sites. The team records what is sold at or from each location, the branded rights, the relevant payment structure and sales between the parties. It leaves application of the relationship statute pending review rather than copying a conclusion from a retail-shop example."
@@ -45,7 +56,8 @@
       {
         "heading": "Do not make the notice period universal",
         "paragraphs": [
-          "87-404 generally combines a 60 day written-reasons notice with good cause, but includes an abandonment branch and specified grounds with immediate-notice treatment. It also contains noncompetition provisions with separate scope. No proposed termination should be released solely because a generic calendar says 60 days have passed."
+          "87-404 generally combines written notice of reasons at least 60 days in advance with good cause, but includes an abandonment branch and specified grounds with immediate-notice treatment. It also contains noncompetition provisions with separate scope. No proposed termination should be released solely because a generic calendar says 60 days have passed.",
+          "Section 87-404(1) also preserves a contract provision that the franchise is not renewable or is renewable only if stated reasonable conditions are met. A renewal date therefore needs the actual contractual and statutory branch; the good-cause language alone is not a promise of indefinite renewal."
         ],
         "sourceIds": [
           "b2-west-a-ne-rel-end"
@@ -59,7 +71,7 @@
           "Trademark rights, payments and community-of-interest facts.",
           "The relevant 12 month sales between parties and franchisee sales allocation.",
           "Contract term, renewal terms, claimed defaults and contemporaneous supporting records.",
-          "Independent legal review of the applicable branch before termination or enforcement."
+          "Document the applicable statutory branch, agreement conditions and actual notice before termination or enforcement."
         ]
       }
     ],
@@ -712,21 +724,64 @@
   {
     "id": "b2-salons",
     "path": "/industries/hair-salons/",
-    "title": "A salon product standard needs a worker-exposure review",
-    "description": "Investigate chemical handling and professional operation before requiring U.S. partners to use the home-market range.",
+    "title": "Salon expansion: separate California licences from treatment and worker exposure",
+    "description": "Connect the actual establishment and service personnel to the existing product/process safety file.",
     "family": "industry",
     "topic": "employment",
     "jurisdictions": [
-      "Federal"
+      "Federal",
+      "California"
     ],
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
-      "b2-blocked-salon-products"
+      "b2-blocked-salon-products",
+      "b3-i2-salon-licensing"
     ],
     "sections": [
+      {
+        "heading": "California owner, location and practitioner records are different",
+        "paragraphs": [
+          "The California Board FAQ ties an establishment licence to its actual owner and location. It describes a new application and prior closure record for the named ownership changes, and a new application after moving. Buying a fitted salon is not buying a transferable establishment permission.",
+          "Verify the actual establishment record and each person’s appropriate service scope. The Board’s examples distinguish its regulated services from other activities; supervision by a doctor does not expand a beauty licence into medical work. Obtain the relevant authority’s answer for any added service."
+        ],
+        "sourceIds": [
+          "b3-i2-salon-faq"
+        ]
+      },
+      {
+        "heading": "Add a licensing branch to the treatment file",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual owner/site and current establishment evidence"
+            ],
+            [
+              "Service lead",
+              "Person-by-person verified licence and task scope"
+            ],
+            [
+              "Premises lead",
+              "Current sanitation/inspection and local use questions"
+            ],
+            [
+              "Safety lead",
+              "Separate actual chemical/process and worker-exposure assessment"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-salon-faq"
+        ]
+      },
       {
         "heading": "A product claim is not the exposure assessment",
         "paragraphs": [
@@ -745,7 +800,7 @@
       {
         "heading": "Professional and premises rules remain separate",
         "paragraphs": [
-          "Identify who employs staff and who may perform each service under the operating jurisdiction’s professional and establishment rules. This page does not research a particular state’s cosmetology permissions. Import and U.S. product-distribution responsibilities are additional workstreams if the brand supplies products."
+          "Identify who employs staff and who may perform each service under the operating jurisdiction’s professional and establishment rules. The California example does not determine other states’ professional or establishment rules. Import and U.S. product-distribution responsibilities are additional workstreams if the brand supplies products."
         ]
       },
       {
@@ -769,33 +824,90 @@
       }
     ],
     "sourceIds": [
-      "b2-blocked-beauty"
+      "b2-blocked-beauty",
+      "b3-i2-salon-faq"
     ],
     "nextStage": 5,
-    "practicalOutput": "Salon treatment, chemical and worker-responsibility sheet",
+    "practicalOutput": "A California establishment/person/service roster joined to a treatment, chemical and worker-responsibility sheet.",
     "limitations": [
-      "No product safety certification, exposure conclusion or state cosmetology authorisation."
+      "Named California licensing branch plus the existing federal exposure baseline only. No all-state/all-service beauty permission.",
+      "Actual local use/sanitation, individual eligibility, product import and exposure results remain to be established."
     ],
-    "contentModifiedAt": "2026-11-12T21:29:10.023446+00:00"
+    "contentModifiedAt": "2026-11-13"
   },
   {
     "id": "b2-auto",
     "path": "/industries/vehicle-maintenance/",
-    "title": "Vehicle-service expansion needs a waste-stream operating plan",
-    "description": "Identify used-oil roles and local environmental questions before a shop opens.",
+    "title": "Vehicle-service expansion: join California job records to the waste plan",
+    "description": "Keep dealer/station/person authority, covered job records and waste responsibilities distinct.",
     "family": "industry",
     "topic": "products-supply",
     "jurisdictions": [
-      "Federal"
+      "Federal",
+      "California"
     ],
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
-      "b2-blocked-usedoil-role"
+      "b2-blocked-usedoil-role",
+      "b3-i2-auto-licensing",
+      "b3-i2-auto-job-records"
     ],
     "sections": [
+      {
+        "heading": "California business and inspection roles need separate records",
+        "paragraphs": [
+          "BAR separates the repair business, station and regulated inspection roles. Its application page says general automotive repair mechanics do not need a BAR individual licence; Smog/safety roles differ. Check the actual business exceptions and service before assigning records."
+        ],
+        "sourceIds": [
+          "b3-i2-auto-apply-reader",
+          "b3-i2-auto-license"
+        ]
+      },
+      {
+        "heading": "For covered jobs, retain authority before work and extras",
+        "paragraphs": [
+          "The January 2026 Write It Right guide describes estimates and recorded customer authority before covered repairs or extras, with linked retained transaction records. Its preventive-maintenance conditions and commercial-agreement/roadside exclusions require their own scope decision."
+        ],
+        "sourceIds": [
+          "b3-i2-auto-wir-reader"
+        ]
+      },
+      {
+        "heading": "Add a California job-record branch",
+        "paragraphs": [],
+        "table": {
+          "headers": [
+            "Task owner",
+            "Decision or evidence"
+          ],
+          "rows": [
+            [
+              "Operator",
+              "Actual business/service category and applicable records"
+            ],
+            [
+              "Technical lead",
+              "Station/person requirements where relevant"
+            ],
+            [
+              "Service desk",
+              "Covered-job scope and linked approval records"
+            ],
+            [
+              "Operations",
+              "Separate waste, site and specialised-service evidence"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "b3-i2-auto-license",
+          "b3-i2-auto-apply-reader",
+          "b3-i2-auto-wir-reader"
+        ]
+      },
       {
         "heading": "Used oil is an operating responsibility",
         "paragraphs": [
@@ -838,14 +950,18 @@
       }
     ],
     "sourceIds": [
-      "b2-blocked-usedoil"
+      "b2-blocked-usedoil",
+      "b3-i2-auto-license",
+      "b3-i2-auto-apply-reader",
+      "b3-i2-auto-wir-reader"
     ],
     "nextStage": 5,
-    "practicalOutput": "Vehicle-service waste-stream and actor matrix",
+    "practicalOutput": "A California business/station/person and covered-job record joined to the waste-stream/actor matrix.",
     "limitations": [
-      "No particular waste classification, permit, cleanup or contractor approval."
+      "California licensing/defined job-documentation branch and existing federal used-oil baseline only.",
+      "No actual exemption, complete repair template, all emissions/inspection, local permit, waste classification or cleanup approval."
     ],
-    "contentModifiedAt": "2026-11-12T21:29:10.023446+00:00"
+    "contentModifiedAt": "2026-11-13"
   },
   {
     "id": "b2-packaged-food",
@@ -2390,7 +2506,7 @@
     "id": "b2-origin-laos",
     "path": "/from/laos/",
     "title": "Lao service-company U.S. expansion: resolve the bank route before cash commitments",
-    "description": "Draft research record: the current Lao foreign-exchange instrument could not yet be reconciled with older portal guidance.",
+    "description": "Draft research record: Decision 333/BOL’s official original has been recovered, but current amendments, translation and the applicable bank route remain unresolved.",
     "family": "origin",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -2399,7 +2515,7 @@
     ],
     "status": "draft",
     "lastReviewed": "2026-11-12",
-    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
     "readMinutes": 5,
     "ruleIds": [
       "b2-origins-laos-fx-status"
@@ -2408,10 +2524,12 @@
       {
         "heading": "Current-status question prevents publication as a settled rule",
         "paragraphs": [
-          "Do not treat the 2023 portal text as a verified current permission to retain or net U.S. receipts. The official portal reproduces Decision 677/BOL, including import/export accounts and receipt rules. A later BOL PDF posted December 2025 was discovered but could not be fetched. Whether it replaces or changes the relevant provisions remains unresolved."
+          "The official Lao Trade Portal now supplies Decision 333/BOL of March 7, 2024 on foreign-currency revenue from goods and services exports, and its original 10-page Lao scan has been downloaded. This establishes a relevant instrument later than the 2023 text. Only its identity and limited pages were inspected; a complete reliable translation and current-amendment reconciliation have not been completed.",
+          "The U.S. International Trade Administration’s January 2026 country guide also discusses Decision 333, but it is not the operative Lao legal instrument. A BOL PDF posted in December 2025 still returns HTTP 503 and its identity and effect remain unverified. No retention deadline, conversion percentage or permission to net receipts is approved from these incomplete materials."
         ],
         "sourceIds": [
-          "b2-origins-laos-old",
+          "b3-state-laos-333-en",
+          "b3-state-laos-trade-finance",
           "b2-origins-laos-2025"
         ]
       },
@@ -2434,7 +2552,7 @@
         "heading": "Exact unblock checklist",
         "paragraphs": [],
         "bullets": [
-          "Retrieve the current official BOL instrument and preserve its effective/repeal provisions.",
+          "Complete a reliable reading of Decision 333/BOL, obtain the relevant current BOL amendments and implementation instruments, and preserve effective/repeal provisions.",
           "Reconcile goods versus services scope with the responsible authorities and the company’s bank.",
           "Identify whether receipts, outward investment and payments use different processes.",
           "Record required evidence, timing, responsible role and any lawful netting conditions.",
@@ -2445,12 +2563,14 @@
     "sourceIds": [
       "b2-origins-laos-old",
       "b2-origins-laos-registration",
-      "b2-origins-laos-2025"
+      "b2-origins-laos-2025",
+      "b3-state-laos-333-en",
+      "b3-state-laos-trade-finance"
     ],
     "nextStage": 3,
     "practicalOutput": "A payment-route factsheet and exact request for current legal/bank confirmation.",
     "limitations": [
-      "Not publication-ready: later official text is inaccessible and current legal status is unresolved. No tax, banking or immigration clearance is supplied."
+      "Not publication-ready: the original Decision 333 scan is recovered, but complete translation, later primary texts and current services/IP/outward-investment treatment remain unresolved. No banking, tax or immigration clearance is supplied."
     ]
   },
   {

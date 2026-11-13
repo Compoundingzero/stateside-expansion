@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-13T01:57:23.281Z",
+  "execution": "managed-cloud-full-sweep-plus-bounded-followups",
+  "scope": "591 cited source records selected from 278 published guides plus public tool and site dependencies. Of 640 total source records, 49 uncited or held research records were outside this check. These are mixed-time observations after bounded followups, not a new complete sweep.",
+  "sourceRecordsChecked": 591,
+  "retrievalFailures": 8,
+  "supportingPassagesNotLocated": 0,
+  "contentHashChanges": 0,
+  "normalizationMigrations": 378,
+  "normalizationMigrationsRequiringAudit": 0,
+  "openReviewItems": 8,
+  "resolvedReviewItems": 159,
+  "reviewType": "AI-assisted editorial source review",
+  "legalReviewDatesAutomaticallyRefreshed": false,
+  "note": "This dated technical snapshot is not a live legal-currency guarantee. Successful retrieval does not establish that every interpretation is current. Source substantive-review dates, applicability limits and unresolved legal/research workstreams remain separate.",
+  "completedAuditAt": "2026-11-13T02:14:41.731Z",
+  "fullSweepCompletedAt": "2026-11-13T02:03:19.727703+00:00",
+  "originalFullSweep": {
+    "checked": 591,
+    "retrievalFailures": 15,
+    "successfulRetrievals": 576,
+    "strictExitCode": 1
+  },
+  "focusedFollowups": [
+    {
+      "runAt": "2026-11-13T02:05:32.310Z",
+      "recordsChecked": 12,
+      "successfulRetrievals": 6,
+      "remainingFailures": 6,
+      "scope": "Only network/DNS failures from the full sweep; excludes two HTTP 403 access blocks and the reserved-part extraction issue."
+    },
+    {
+      "runAt": "2026-11-13T02:08:30.695Z",
+      "recordsChecked": 1,
+      "successfulRetrievals": 1,
+      "scope": "Reserved eCFR Part 791 complete XML readability repair; no legal date refresh."
+    }
+  ],
+  "sourceRecordsRetrieved": 583,
+  "normalizationMigrationAudit": {
+    "fromVersion": 4,
+    "toVersion": 5,
+    "priorHashesReproduced": 378,
+    "changedHashPairsBound": 24,
+    "evidence": "research/batch3/normalization-migration-audit.json",
+    "olderCacheVersionsCovered": false
+  },
+  "issues": [
+    {
+      "sourceId": "b3-local-detroit-notice",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "initialError": "HTTP 403",
+      "createdAt": "2026-11-13T01:12:25.883Z",
+      "paths": [
+        "/cities/detroit/food-license-and-preopening/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-local-detroit-food-route"
+      ]
+    },
+    {
+      "sourceId": "b3-o4-al-process",
+      "error": "fetch failed",
+      "initialError": "fetch failed",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/from/albania/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-al-processing"
+      ]
+    },
+    {
+      "sourceId": "b3-o4-mk-change",
+      "error": "HTTP 503; saved response says upstream connection timeout",
+      "initialError": "getaddrinfo ENOTFOUND www.crm.com.mk",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/from/north-macedonia/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-mk-change"
+      ]
+    },
+    {
+      "sourceId": "b3-o4-al-exit",
+      "error": "fetch failed",
+      "initialError": "getaddrinfo ENOTFOUND dogana.gov.al",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/from/albania/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-al-processing"
+      ]
+    },
+    {
+      "sourceId": "b3-o4-tr-report",
+      "error": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
+      "initialError": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/from/turkiye/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-tr-capital-notice"
+      ]
+    },
+    {
+      "sourceId": "b3-o4-ba-base",
+      "error": "getaddrinfo ENOTFOUND finpol.gov.ba",
+      "initialError": "getaddrinfo ENOTFOUND finpol.gov.ba",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/from/bosnia-and-herzegovina/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-ba-setoff"
+      ]
+    },
+    {
+      "sourceId": "b3-o4-ba-enacted",
+      "error": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
+      "initialError": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/from/bosnia-and-herzegovina/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-ba-setoff"
+      ]
+    },
+    {
+      "sourceId": "b3-state4-or-law",
+      "error": "HTTP 403",
+      "initialError": "HTTP 403",
+      "createdAt": "2026-11-13T01:57:23.281Z",
+      "paths": [
+        "/states/oregon/renewal-and-additional-unit-disclosure/",
+        "/states/oregon/",
+        "/tools/relationship-factsheet/",
+        "/tools/fdd-comparison/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-state4-or-renewal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "candidateId": "candidate-from-t-rkiye",
+    "path": "/from/t-rkiye/",
+    "decision": "publish",
+    "canonicalPath": "/from/turkiye/",
+    "reason": "Publish the reviewed Türkiye outward-capital reporting guide at its normalized canonical country path; no duplicate spelling-only page.",
+    "decidedAt": "2026-11-12",
+    "scope": "Türkiye-resident initial and closure/transfer capital-event notices versus the separate annual investment survey.",
+    "sourceIds": [
+      "b3-o4-tr-report"
+    ],
+    "ruleIds": [
+      "b3-o4-tr-capital-notice"
+    ],
+    "researchCompleteness": "Limited to the named official reporting process, not full home-country or U.S. clearance.",
+    "unresolvedResearch": [
+      "Current guidance process only; confirm operative legal/form details and event dates."
+    ]
+  }
+]

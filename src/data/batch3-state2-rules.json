@@ -1,0 +1,351 @@
+[
+  {
+    "id": "b3-state2-id-scope",
+    "title": "Idaho equipment-dealer coverage can include service rights",
+    "topic": "classification",
+    "jurisdiction": "Idaho",
+    "activity": "Granting retail equipment sale/service rights",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply 28-24-102 to the actual supplier, continuing commercial relationship and primarily retail sale and/or service operation. The industrial/construction exclusion requires all listed primary-business, single-supplier inventory and sales-volume conditions.",
+    "exceptions": "The exclusion combines industrial/construction retail sale and service,75% or more total new product inventory from one supplier, and over $20 million annual average sales volume with that supplier over the preceding 3 years in the responsible territory.",
+    "trigger": "Granting retail equipment sale/service rights",
+    "deadline": "Before the covered action; identify the statutory branch and triggering facts",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Product uses",
+      "Sale/service rights",
+      "Continuing relationship",
+      "Primary business",
+      "Supplier inventory share and 3-year sales evidence"
+    ],
+    "sourceIds": [
+      "b3-state2-id-equipment"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a general franchise definition or sales-registration exemption."
+    ],
+    "dependentPaths": [
+      "/states/idaho/equipment-dealer-protections/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-id-action",
+    "title": "Choose the Idaho equipment-dealer notice and performance branch",
+    "topic": "relationship",
+    "jurisdiction": "Idaho",
+    "activity": "Termination/nonrenewal, competitive changes or market-penetration action",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Covered suppliers need good cause and the applicable written notice/reasons/cure process. Ordinary 90-day notice and 90-day cure have different exception sets; market-penetration claims have a separate one-year assistance process followed by a 180-day notice branch.",
+    "exceptions": "104(1) excludes(2)(a)–(e) from ordinary notice and(a)–(d) from ordinary cure;104(3) controls the described market-penetration action. Product-line changes and other 103 conditions require their own analysis.",
+    "trigger": "Termination/nonrenewal, competitive changes or market-penetration action",
+    "deadline": "Ordinary 90-day notice/cure only where their separate exceptions do not apply; apply 104(3) separately",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Reason and ground",
+      "Comparative standards",
+      "Delivery/date evidence",
+      "Cure efforts",
+      "Market/stock/support record"
+    ],
+    "sourceIds": [
+      "b3-state2-id-equipment"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No action approved; apply actual allegations, terms and similarly situated dealer evidence."
+    ],
+    "dependentPaths": [
+      "/states/idaho/equipment-dealer-protections/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-co-scope",
+    "title": "Colorado equipment-dealer protection uses a specific product and retail scope",
+    "topic": "classification",
+    "jurisdiction": "Colorado",
+    "activity": "Supplier agreement with a primarily retail equipment dealer",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply 35-38-102’s equipment, dealer, supplier and oral/written dealer-agreement definitions. Covered equipment includes specified light-industrial/utility/outdoor-power uses; earthmoving/heavy construction, mining and forestry equipment are excluded.",
+    "exceptions": "A qualifying dealer is primarily engaged in retail equipment sale; do not copy another state’s service-only definition.",
+    "trigger": "Supplier agreement with a primarily retail equipment dealer",
+    "deadline": "Before the covered action; identify the statutory branch and triggering facts",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Product design/use",
+      "Primary retail business",
+      "Agreement",
+      "Supplier identity"
+    ],
+    "sourceIds": [
+      "b3-state2-co-equipment"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a general franchise-sales classification or clearance for every machine line."
+    ],
+    "dependentPaths": [
+      "/states/colorado/equipment-dealer-protections/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-co-action",
+    "title": "Colorado equipment changes require the correct cause, notice and renewal process",
+    "topic": "relationship",
+    "jurisdiction": "Colorado",
+    "activity": "Dealer termination/nonrenewal, competitive change or substantial renewal renovation",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply cause separately from 35-38-104’s 180-day written notice/cure route and its express first 10-ground exceptions. Section 103(1)(d) has at least one-year notice, grounds and reasonable completion time for the specified substantial-renovation/new-space renewal condition.",
+    "exceptions": "The ordinary notice rule excepts 104(2)(b)(I)–(X); applicability and article-specific contract/choice-of-law provisions also matter.",
+    "trigger": "Dealer termination/nonrenewal, competitive change or substantial renewal renovation",
+    "deadline": "Apply 104’s branch; specified renewal renovation requires at least one-year written notice plus stated conditions",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Action/ground",
+      "Similarly situated dealer treatment",
+      "Notice/cure dates",
+      "Renovation demand and grounds",
+      "Agreement history"
+    ],
+    "sourceIds": [
+      "b3-state2-co-equipment"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No universal 180-day grace period or approval of a particular ground; no complete inventory/remedies analysis."
+    ],
+    "dependentPaths": [
+      "/states/colorado/equipment-dealer-protections/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-mt-data",
+    "title": "Montana motor-dealer data consent, access and transition use separate rules",
+    "topic": "ip-data",
+    "jurisdiction": "Montana",
+    "activity": "Accessing protected dealer data or changing a dealer data vendor/integrator relationship",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply 30-11-717’s new-motor-vehicle dealer definition and separate express-written-consent terms. Follow 718–720’s access/use restrictions, distinct consent revocation and vendor agreement/transition obligations, and required-manufacturer-data conditions.",
+    "exceptions": "Required manufacturer data, legally required protection/disclosure and actual vendor/dealer roles have express qualifications; they are not blanket all-data permissions.",
+    "trigger": "Accessing protected dealer data or changing a dealer data vendor/integrator relationship",
+    "deadline": "Consent:30 days without cause or immediately for cause under 718; vendor agreements have the distinct 90-day conditions in 719–720",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Dealer qualification",
+      "Data/role map",
+      "Separate consent and recipients",
+      "Data-purpose basis",
+      "Vendor exit/export/deletion plan"
+    ],
+    "sourceIds": [
+      "b3-state2-mt-data-717",
+      "b3-state2-mt-data-718",
+      "b3-state2-mt-data-719",
+      "b3-state2-mt-data-720",
+      "b3-state2-mt-motor-def"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "This is not an equipment-dealer or ordinary franchise customer-data rule. Consent and vendor-contract termination are distinct. No complete federal privacy/security assessment."
+    ],
+    "dependentPaths": [
+      "/states/montana/motor-dealer-data-access/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-wy-inventory",
+    "title": "Wyoming equipment repurchase needs an item-level eligibility and return file",
+    "topic": "relationship",
+    "jurisdiction": "Wyoming",
+    "activity": "Cancellation, nonrenewal or discontinuance of a covered equipment dealer agreement",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply 40-20-113’s definitions and 120–121’s item categories, price bases, exclusions and return/payment conditions. Required hardware/software and specialized tools have separate valuation rules; goods on a ledger are not automatically eligible.",
+    "exceptions": "Section 121 lists condition/title/source/age/order/return exclusions and qualifications, including damaged-package and demonstrator provisions. Dealer-retained goods, offsets, signage and freight also matter.",
+    "trigger": "Cancellation, nonrenewal or discontinuance of a covered equipment dealer agreement",
+    "deadline": "120(b) generally pays/credits within 90 days of supplier receipt;121(a)(ix) has a separate conditional return deadline",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Invoice/source/title",
+      "Condition/age/demo hours",
+      "Current parts prices",
+      "Required technology/tools",
+      "Return information/receipt dates",
+      "Offsets/freight/signage"
+    ],
+    "sourceIds": [
+      "b2-west-wy-equipment"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a universal cash recovery rate, claim guarantee or substitute for the separate termination/good-cause branch."
+    ],
+    "dependentPaths": [
+      "/states/wyoming/equipment-inventory-exit/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-al-definition",
+    "title": "Alabama 2026 operating-days Act has its own defined parties and agreement scope",
+    "topic": "classification",
+    "jurisdiction": "Alabama",
+    "activity": "Applying a religious-day operation requirement or covered renewal/amendment",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply Act 2026-591’s separate agreement, franchisee and franchisor definitions and exclusions; examine original/incorporated documents, course of practice and current amendment/renewal or added-location facts before applying its protections/exceptions.",
+    "exceptions": "Section 1(c) contains conspicuous-agreement, agreed-renewal/amendment and added-location exceptions; party/regulated-sector scope must be established.",
+    "trigger": "Applying a religious-day operation requirement or covered renewal/amendment",
+    "deadline": "Before the covered action; identify the statutory branch and triggering facts",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Defined parties",
+      "Fee/product/brand arrangement",
+      "Incorporated documents",
+      "Agreement history",
+      "Specific requirement and assertion"
+    ],
+    "sourceIds": [
+      "b2-east-al-2026",
+      "b2-east-al-status"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Only this Act; no service-only coverage or general sales-law conclusion."
+    ],
+    "dependentPaths": [
+      "/states/alabama/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-az-maintenance",
+    "title": "Maintain Arizona covered-seller registration information and solicitation versions",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Arizona",
+    "activity": "Renewing a covered seller registration or changing its information/materials",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Under 44-1272, track June 30 expiry and the 30-day pre-expiry renewal window, the general 10-day information supplement with stated solicitor exception, and new/revised solicitation materials before use.",
+    "exceptions": "Only a covered seller in the statutory track; the federal-franchise exclusion and other scope conditions must be applied first.",
+    "trigger": "Renewing a covered seller registration or changing its information/materials",
+    "deadline": "Before the covered action; identify the statutory branch and triggering facts",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Registration/expiry",
+      "Changed information dates",
+      "Solicitor roster",
+      "Versioned scripts and submission evidence"
+    ],
+    "sourceIds": [
+      "b2-east-az-registration",
+      "b2-east-az-definition"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No current form, fee/bond or other state-law exemption clearance; not a federal FDD renewal rule."
+    ],
+    "dependentPaths": [
+      "/states/arizona/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "b3-state2-mo-remedy",
+    "title": "Separate Missouri franchise-notice damages from pyramid-scheme remedies",
+    "topic": "relationship",
+    "jurisdiction": "Missouri",
+    "activity": "Assessing damage from failure to give required franchise exit notice",
+    "affectedParty": "Defined local dealer/operator, supplier or other party within the cited law",
+    "applicability": "Apply the specific statutory definitions, location, agreement and factual conditions; no general franchise-law clearance.",
+    "requirement": "Apply 407.410(2) to a qualifying damaged franchisee and required notice failure. Do not apply subsection 1’s pyramid-inducement double-consideration/fee provisions automatically to an ordinary franchise notice claim.",
+    "exceptions": "Actual 407.400 coverage and 407.405 notice exceptions control; remedy and causation are not presumed.",
+    "trigger": "Assessing damage from failure to give required franchise exit notice",
+    "deadline": "Before the covered action; identify the statutory branch and triggering facts",
+    "fee": null,
+    "renewal": "Review applicable renewal, amendment and continuing conditions; no universal filing period asserted.",
+    "dependencies": [],
+    "evidence": [
+      "Coverage",
+      "Required notice/failure",
+      "Causation",
+      "Goodwill/loss evidence",
+      "Correct statutory subsection"
+    ],
+    "sourceIds": [
+      "b3-state2-mo-remedy",
+      "b2-east-mo-definition",
+      "b2-east-mo-relationship"
+    ],
+    "status": "conditional",
+    "legalStatus": "Current codified requirement within stated scope",
+    "verifiedAt": "2026-11-13T01:04:37.983892+00:00",
+    "nextReview": "2026-12-12",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Full judicial case-law application not researched; no damages/fee award or current lawsuit result asserted."
+    ],
+    "dependentPaths": [
+      "/states/missouri/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

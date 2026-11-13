@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-13T02:12:43.470776+00:00",
+  "reviewer": "Stateside AI-assisted editorial source review; no professional legal review",
+  "scope": "Release-specific v4-to-v5 extraction migration. Re-extracting the actual new primary bodies under v4 reproduces all 378 retained v4 hashes (377 full-sweep observations plus one Brunei followup). Only 24 differing v5 hash pairs require exceptions; identical hashes need none. This is not a legal-currency review or proof for v2 caches.",
+  "completeAuditSHA256": "6bc36492eeb380777b8f1aff8650a066991770bbfe9b3d193c2879708bb53eb2",
+  "recordsCompared": 378,
+  "priorHashesReproduced": 378,
+  "differingHashPairs": 24,
+  "records": [
+    {
+      "sourceId": "b2-east-ar-2025",
+      "previousHash": "e9ad85b5cefc3e55b011dbc43704cc3cecfd7e116c3aa781a82bf2d35cb3b6ae",
+      "currentHash": "16cac946e7dd2f6a951105bdafc518880e2890d7fb54695cba8731d9092df4b9",
+      "rawHash": "77b8ded213b95ba5dee9236057079474b73394d6b9525b5b0f540ff61c7c7834",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-east-ct-guidelines",
+      "previousHash": "ff1f54f91b6b49b2131ec791e687456092adca0354d7970d39ee11488561be61",
+      "currentHash": "8ef5d9094fb7723304ed802184745328d6b0fd72b1a6b18620586063bbd99e87",
+      "rawHash": "bbb941627b8879e373ef01bb56d0a4dd448522a054e5df4cee7b94b76d31246f",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-east-ma-classification",
+      "previousHash": "3d522567926af91494a1db037ca9df0ddcb2b1bd73ad282cc4ba1ba2a6f4ccd9",
+      "currentHash": "50b5c8cd51b567edf8a5927e517ac57108dd2e8608d0251f7bd989661b8e0cb5",
+      "rawHash": "6bf23eb5587771fbc06ce44961c52a1b919985730e102df579e81f427d520f5a",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-origins-germany-ss",
+      "previousHash": "50421aad014f5a68674c4d0b6ff00fe73ceabf5b5978c320b548aafd9762841a",
+      "currentHash": "ca32ecd0e1ea689b5ea656117dfe6a6b69a05ff6ea459e1caee892f133a1638f",
+      "rawHash": "176427155255916301034aa74aab6efea454651e026e2398793ae88f48c22753",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-origins-timor-guide",
+      "previousHash": "23c1d405f617c001cb2894b57a89b1bdecb8d076eb3ef2b9de18ff532df8bb5f",
+      "currentHash": "46a2cf2aeae4bec3fe3748e26dbd50d384b597e07d319a775197fc711a573ff2",
+      "rawHash": "5bc8b32bb4a173d3c467f50889f5169b03fd072fd8b562a181c1a11a52a2bcee",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-origins-vietnam-export",
+      "previousHash": "c2317b2f090cf3cd8d4182bc95310c0e4997886dbe09307a25c13de25edfdefd",
+      "currentHash": "1e53b7d66fa62cd19fa02bd033d8715026f1b529e4cccc1e7607181b2d715786",
+      "rawHash": "c022dc0ffde84095e1c50ec67ccd097a9bc2df1522a9b919177ade3a0fcfe1bf",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-territories-as-residence",
+      "previousHash": "eff15a20529c9f89cae5169f45a1a57900e05b0dac9182b0ba9384f1c757c48b",
+      "currentHash": "07fb0b088094fba3ffe25596b6fd74a344983e84a018fe71ca7aca8448df52ee",
+      "rawHash": "3b60d5adaaa420fd4d2d635f771adb450b92dfb233b6a624b66e40303320969d",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-ca-register",
+      "previousHash": "aa1bcbad209266b109a71a3ac43c85ba8c54026c943b56be627e5faeb74f7737",
+      "currentHash": "539835cf236795878187362c55c0b7a2b9b9cc03433851aabe5968205db98a8d",
+      "rawHash": "413b7b020cebb1c7208be622ec152e61d03a7cf6d357f3ad89264b35a673f358",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-ct-ui",
+      "previousHash": "2388cb0e1979811a879d002e11dc0a4434b24e2ab17638aa702dcb7bc45e1a3a",
+      "currentHash": "eb594e01cead83049615926487f09a0ce6681c49a7b846394ca5373976ce0cbe",
+      "rawHash": "0b0b3af236de07ccdd01b8aa5fdd82340223451a99cbe36694ca8ebb0bce3b48",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-id-wh",
+      "previousHash": "4e9e511ee2af8a95a148e041d1cbbddea4eab5821b280687301df6a49fde170a",
+      "currentHash": "26cc869a78f9f3c7f9c902be45e1c9b8d7d32b3a7ec144c5c2abe94b3c40b52a",
+      "rawHash": "2cee4293b2aa3f0f128fca35cc34fbb4b38202fd969f38480234840443ff6d68",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-in-ui",
+      "previousHash": "826999bb9898bf21e817e16d4367a53a7c4fd14d66046be8b35b106344f5026d",
+      "currentHash": "c2911e714d1d634661182d82fa1397c12744fe96a51e52e59774923fe1f2c061",
+      "rawHash": "3abb1af522cc75cc74fdbd34ce1e60d8e7b639649fe0609b290d3c738fd0519d",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-md-ui",
+      "previousHash": "bf94e29c15f03bd0fd79e16d53373c982d326de6e225027a279f2adbfe5312b5",
+      "currentHash": "89196ac6c8164791738a4d6f55fd9049882fcb0ed8fdabb001c66e3dea3aed8b",
+      "rawHash": "8d9313fc7439804f1edc1ce35abd4547b9d29fb925d91d6bb8abae27a84fb0e6",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-mi-ui",
+      "previousHash": "03f23f1e7732ac64e60a1162b45baf5f00f61d50822037519ca8370dc818588d",
+      "currentHash": "b46b21f5e9bd8f15a51cc1a38153bc4e1fd2e4a1ad9cf2ffb0754c3c13ef9aa4",
+      "rawHash": "83d20ef07922394098b23f45b35b20d0a625feb5b76d1667cc294db325565832",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-mi-wh",
+      "previousHash": "3b346a7820f3d19f68da849a140f683a3ff3b240200293b5f27a232b0f439ce1",
+      "currentHash": "a0babb9a76e8b045aca45776080b50647182924f40c371d35c9d6221db0978fb",
+      "rawHash": "01bb19c9e510f0eb3fc5830a8bc795ec6d235a8f059f6ea43222773554379598",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-nh-costs",
+      "previousHash": "9fe295bf4c761bbcf045601285b56fe8089a73015fc57d65bdbd23aa6155398a",
+      "currentHash": "9d2dd79de6396808eece8dd83d1f3b777e673160876401b1949becc198c6bc81",
+      "rawHash": "dc4936286f66f1fb1527e91f98da880b0951493c42910eff05c24a5ed4beb0e8",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-nj-ui",
+      "previousHash": "464932dbfdd0f9ce53ef52e8dfbcc4b506cd796b63dc1b1c673755443d38cdf9",
+      "currentHash": "f806d534a454bf778bda0d80bef206d39d122f260e816f95d551faa6f63b06cf",
+      "rawHash": "6206807d99bce73f0c6bfbbb4af4cce5c0eda6b11ebf18c857c4e7d891f7b8ec",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-nv-ui",
+      "previousHash": "e419f3668402f67a35970d3484ff82f217df054bdd70da5b4712737fb7850fab",
+      "currentHash": "ee46e8172c5502dc9dfdfe286c81a46e4d3d453aa7e14a370365374e1f55323a",
+      "rawHash": "c7430e2227288ab6d323acbca9b5e1e1b9cadbd88f531dd0bb89a84ed6c70be1",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-emp-sd-ui",
+      "previousHash": "b087088a442bbe7641ba793ed570b13e3de9ba9ba139d7e35ea92ea27c21d186",
+      "currentHash": "e7d9b6d9c77e59d5decd0e93a9c65b9e3cf1c6de57081b6095c5d5be0fa0e2a5",
+      "rawHash": "6184c9f5e3828dc0ac1a7778617a6a08b029b5c05c03fa6038f8cd59ba8b1570",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-ind-nyc-employment",
+      "previousHash": "560ac14b382dcb18934cbd89658e2c1c9d70e8649056ec1824861208c85556b0",
+      "currentHash": "1bb4f4f091c2adfa68619b73e2a66d1d50c7fbabd54a59740147a48ff0197ae3",
+      "rawHash": "e8bb45acc158e7afc4c3fd4b80190fe18b16fa1bf1c111bfd3d32c5fc14b1091",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-local-detroit-service",
+      "previousHash": "bac4b1239b0f2291c38647f87eeb06c7509f8a38426b0f04e79e4a07b59aa523",
+      "currentHash": "99eef7cad255905b6b1e0979fb3f1148b90703462987486ec4aff6fc2f473109",
+      "rawHash": "e03ecc48d64a58f5a5cca493425e16d0423ee1b8e1fee8e5dc655eaaf0346313",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-planning-nyc-occupancy",
+      "previousHash": "aa534711305e3c4825bbfe0230546c6be45f8b95944610d8a06676fdf2cfa2a7",
+      "currentHash": "d5b6768507e056a9100e1c009dd5f71dfe505ab68681cf848c82f88a2288d884",
+      "rawHash": "bc41b1fdcc0cecdc7430ab975cf2a412fc861fecf5ec3d8f3eee7d3c7a5b9459",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b3-planning-uspto-clearance",
+      "previousHash": "b43815c5edbf2f2c61b7cb5b543149a5271adb7e2e856a71394e8d9e60b29e03",
+      "currentHash": "5f7d609418ce2c57befa78158ff4d1e86a889cae3ebee498c146bd0ec0f25b43",
+      "rawHash": "3dbe133e1f904c8eda5868e6132a345ebb465368a86e965719022d44aeab7681",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "state-md-statute",
+      "previousHash": "2d893efef752c77c13076a067fd993c0451a1a912718bd5e5ca9e2f04f5814c8",
+      "currentHash": "a68a4d70d1eb19273edbd5f6cebb14c6a4ac1030a24d8bab55eb04edf210b992",
+      "rawHash": "84f2745c8fe85ebdf660f48f99075b59d80ee19db09c2fe4476ad70799e28bc4",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    },
+    {
+      "sourceId": "b2-origins-brunei-bedb",
+      "previousHash": "7844ada489165970d921595b9c3eb134592ef481d47e61901ef9cc2f9ab9bff6",
+      "currentHash": "30b6e2efe8224383ef299f1243f6907f0cfc0a34ca18e0f6fedf9474e66524ac",
+      "rawHash": "abf6c5b91186f499d931ff4b17f8f8be52c7219c501714809412f464362296a4",
+      "matchesPrior": true,
+      "fromVersion": 4,
+      "toVersion": 5
+    }
+  ]
+}
