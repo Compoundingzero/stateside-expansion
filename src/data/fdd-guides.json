@@ -22,7 +22,8 @@
         "paragraphs": [
           "Imagine your established European brand will expand through a new U.S. subsidiary. Customers may see one logo, but the subsidiary, parent company and software supplier can each have different responsibilities. A prospective partner needs to know which organisation it is dealing with. If you are the brand owner preparing the offer, you need the same clarity before you describe your support.",
           "The FDD is a pre-sale information document. Its job here is to identify the relevant businesses and explain the business being offered, not to replace the agreements that allocate responsibility."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 1 means in practice",
@@ -32,7 +33,8 @@
         ],
         "sourceIds": [
           "fed-fdd-1"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -40,6 +42,42 @@
           "Fictional example. A Swedish facilities group creates a U.S. company to sell franchises. A separate group company owns its software. The sales presentation says “our group will support you,” but the proposed agreement names only the new U.S. seller.",
           "The expansion manager draws three boxes: parent, franchise seller and software owner. Beside each box, the manager lists the rights it controls, payments it receives and work it promises to do. The team then compares that picture with Item 1 and the agreements. If software access or support depends on another company, the documents need to explain the relevant arrangement; the logo cannot answer that question.",
           "This does not prove the offer is unsuitable. It identifies the exact responsibility that must be understood before anyone relies on the group’s reputation."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Map the promise to the company, not the logo",
+        "paragraphs": [
+          "Continue the fictional Swedish group example. The group name is visible to customers, but three different companies appear in the operating plan. The following is a completed preparation example, not a prescribed disclosure form.",
+          "Self-check: does a shared logo make all three companies responsible for every promise? No. Match each promise to the actual company and document before relying on it."
+        ],
+        "table": {
+          "headers": [
+            "Company in the fictional example",
+            "Promise or right to identify",
+            "Evidence question"
+          ],
+          "rows": [
+            [
+              "Parent",
+              "Group ownership and reputation",
+              "Does an actual document make this company responsible for the promised support? Ownership alone does not answer that."
+            ],
+            [
+              "U.S. franchise seller",
+              "The agreement offered to the operator",
+              "Which promises does the named seller make, and which fees does it receive?"
+            ],
+            [
+              "Software owner",
+              "Rights to the operating platform",
+              "What arrangement permits the seller and operator to use it?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-1"
         ]
       },
       {
@@ -53,7 +91,8 @@
         ],
         "sourceIds": [
           "fed-fdd-1"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -85,7 +124,14 @@
         "meaning": "A related business that controls the franchisor, is controlled by the franchisor or shares common control with it. Item 1 specifies which related businesses must be disclosed."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.554Z",
+    "seoTitle": "FDD Item 1: Franchisor, Parents and Related Companies",
+    "relatedPaths": [
+      "/fdd/item-2/",
+      "/fdd/item-21/",
+      "/fdd/item-22/",
+      "/us-expansion/formation-vs-qualification/"
+    ]
   },
   {
     "id": "fdd-item-2",
@@ -110,7 +156,8 @@
         "paragraphs": [
           "An owner may have built an excellent business through personal expertise and close supervision. U.S. partners, however, may need help across time zones when that owner is unavailable. Before expanding, separate “we know how to do the work” from “we have people who can teach and support someone else doing the work.”",
           "If your company offers franchises, it is the franchisor. The independent operator is the franchisee. Item 2 helps the prospective operator understand the experience of the people behind the franchisor, while giving your management team a useful check on its own readiness."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 2 means in practice",
@@ -120,7 +167,8 @@
         ],
         "sourceIds": [
           "fed-fdd-2"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -128,6 +176,42 @@
           "Fictional example. A training business appoints its strongest branch director to lead U.S. franchise support. The director has run a company-owned branch successfully, but has never supported an independently owned business.",
           "The owner first checks the director’s actual five-year work history for Item 2. Separately, the operations team lists the support work: onboarding, training, urgent questions, customer escalation and performance review. It estimates the hours and identifies a backup for absences.",
           "The result might justify another hire, a slower rollout or a more limited support promise. It does not justify rewriting the biography to suggest experience the director does not have."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Compare a biography with capacity to deliver",
+        "paragraphs": [
+          "Use the fictional branch director above. Required business history and the optional staffing assessment are related, but they answer different questions.",
+          "Self-check: may the team describe hoped-for franchise experience as past experience? No. Keep the biography factual and address a capacity gap through the delivery plan."
+        ],
+        "table": {
+          "headers": [
+            "Record",
+            "What it explains",
+            "What it does not prove"
+          ],
+          "rows": [
+            [
+              "Covered five-year position and employer history",
+              "The person’s actual recent business roles",
+              "That the person has available hours for every new U.S. promise"
+            ],
+            [
+              "Current support assignment",
+              "Who will handle onboarding, urgent questions and escalation",
+              "That the required biography can be replaced by a job title"
+            ],
+            [
+              "Backup and hours plan",
+              "How the proposed service could continue during absence",
+              "A legal qualification or guaranteed support result"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-2"
         ]
       },
       {
@@ -141,7 +225,8 @@
         ],
         "sourceIds": [
           "fed-fdd-2"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -173,7 +258,14 @@
         "meaning": "The time and resources a person can actually devote to the promised work."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.554Z",
+    "seoTitle": "FDD Item 2: Business Experience and Franchise Support",
+    "relatedPaths": [
+      "/fdd/item-1/",
+      "/fdd/item-11/",
+      "/fdd/item-15/",
+      "/tools/brand-support-economics/"
+    ]
   },
   {
     "id": "fdd-item-3",
@@ -198,7 +290,8 @@
         "paragraphs": [
           "A prospective partner wants to know whether relevant disputes reveal a business or relationship risk. Your team, if preparing an FDD, needs to identify which proceedings must be disclosed and explain them accurately. Both tasks require more than searching a brand name and counting results.",
           "The same business can have a pending claim, a settlement and an older judgment. These records mean different things. A settlement can end a dispute without a contested trial; an amount ordered by a court is not proof that the money was recovered."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 3 means in practice",
@@ -208,7 +301,8 @@
         ],
         "sourceIds": [
           "fed-fdd-3"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -216,6 +310,42 @@
           "Fictional example. A brand’s Item 3 describes a former operator’s claim that promised support was not delivered. A sales manager dismisses it as “just a complaint,” while a prospective partner treats the claim as proof of fraud.",
           "Both responses skip the evidence. The team obtains the identified record and checks whether the dispute is pending, settled or decided. It then asks which support promise was in issue and whether the current operating documents and staffing address that promise.",
           "The exercise produces a focused question about support and an accurate description of the case. It does not turn an unresolved allegation into a finding or treat a blank search as proof of no disputes."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Read the procedural status before drawing a lesson",
+        "paragraphs": [
+          "The fictional support dispute above can be investigated without treating either side’s account as a court finding. Use this comparison when reading the documented case guides linked below.",
+          "Self-check: does a settlement automatically prove the claim, or automatically mean no liability was admitted? Neither. Read the actual record and its specific terms."
+        ],
+        "table": {
+          "headers": [
+            "Record or status",
+            "Question it can help answer",
+            "Inference to avoid"
+          ],
+          "rows": [
+            [
+              "Complaint or pending claim",
+              "What a party alleges and which promise is disputed",
+              "That filing the claim proves the accusation"
+            ],
+            [
+              "Settlement or agreed order",
+              "What the actual agreement or order resolves",
+              "That every settlement has identical admissions or legal effects"
+            ],
+            [
+              "Judgment",
+              "What the court decided or ordered and how it reached that stage",
+              "That an amount ordered is evidence the money was collected"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-3"
         ]
       },
       {
@@ -229,7 +359,8 @@
         ],
         "sourceIds": [
           "fed-fdd-3"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -261,7 +392,14 @@
         "meaning": "A court’s decision or order. Its meaning depends on what it actually decides and how the case reached that stage."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 3: Litigation, Allegations and Case Outcomes",
+    "relatedPaths": [
+      "/fdd/item-4/",
+      "/fdd/item-19/",
+      "/cases/premier-martial-arts-management-claims/",
+      "/cases/burgerim-entity-default-judgment/"
+    ]
   },
   {
     "id": "fdd-item-4",
@@ -286,7 +424,8 @@
         "paragraphs": [
           "An overseas group may have changed structure after financial difficulty, or a covered person may have been associated with a business that failed. A prospective U.S. operator needs the required history explained accurately, rather than hidden behind a new company name.",
           "If you are preparing the FDD, the question is which entities, people and proceedings fall within Item 4. If you are assessing the offer, the further question is what the disclosed history means for the organisation and support commitments you see today."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 4 means in practice",
@@ -296,7 +435,8 @@
         ],
         "sourceIds": [
           "fed-fdd-4"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -304,6 +444,37 @@
           "Fictional example. A European group establishes a new U.S. franchise seller. The team discovers an older foreign insolvency proceeding involving a business connected to a covered person.",
           "The company secretary checks the actual proceeding, dates and the person’s role against Item 4. The finance lead separately looks at today’s seller, its assets, obligations and support budget. These two checks answer different questions: what history must be disclosed, and what resources exist now.",
           "The team cannot omit a required historical disclosure merely because the U.S. company is new. It also should not tell readers that a historical entry proves the present company will fail."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Put the history and present capacity on separate lines",
+        "paragraphs": [
+          "For the fictional new U.S. seller, use the dated FDD as the reference point for the stated historical period. The record below is an internal investigation aid.",
+          "Self-check: does forming a new U.S. company erase required covered history? No. Nor does a historical entry by itself prove the new company will fail."
+        ],
+        "table": {
+          "headers": [
+            "Line in the preparation record",
+            "Facts to establish",
+            "Separate question"
+          ],
+          "rows": [
+            [
+              "Historical proceeding",
+              "Correct entity or person, relevant role, dates and actual outcome",
+              "Does this history fall within the prescribed Item 4 coverage?"
+            ],
+            [
+              "Current seller",
+              "Today’s entity, accounts and obligations",
+              "What financial resources and support commitments exist now?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-4"
         ]
       },
       {
@@ -317,7 +488,8 @@
         ],
         "sourceIds": [
           "fed-fdd-4"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -349,7 +521,13 @@
         "meaning": "The date of the disclosure document, which anchors the item’s stated historical period."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 4: Bankruptcy History and the FDD Date",
+    "relatedPaths": [
+      "/fdd/item-3/",
+      "/fdd/item-21/",
+      "/us-expansion/foreign-financial-statements/"
+    ]
   },
   {
     "id": "fdd-item-5",
@@ -374,7 +552,8 @@
         "paragraphs": [
           "A brand owner may advertise one entry fee while also requiring pre-opening training, software or equipment payments. A prospective operator needs to understand the covered payments and commitments before it plans its cash. If you prepare the offer, your finance and sales teams need to describe the same arrangements.",
           "For an overseas business, payment routes can add confusion. Money may go to the U.S. seller, a home-country parent or another related company. Start with what is actually payable and to whom, rather than treating every invoice with the same logo as one fee."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 5 means in practice",
@@ -386,7 +565,8 @@
         "sourceIds": [
           "fed-fdd-5",
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -394,6 +574,43 @@
           "Fictional example. A cleaning brand quotes an initial fee to a U.S. partner. The draft package also contains a software setup payment to a related company and pre-opening training charges.",
           "The finance lead records each amount, payee, due event and stated refund rule. The partner then asks what cash could be lost if the opening does not proceed. This produces a more useful discussion than asking only “what is the franchise fee?”",
           "The list is then reconciled with the broader opening budget. Rent, third-party fit-out and other initial costs do not disappear because they are not the headline fee; they belong in the relevant investment and contract review."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Fill one pre-opening payment record",
+        "paragraphs": [
+          "Continue the fictional cleaning offer. These illustrative entries contain no invented price or refund entitlement; the actual documents supply those facts.",
+          "Self-check: is the initial fee the whole opening investment? No. Reconcile these covered payments with Item 7, and check disclosure timing before an early payment."
+        ],
+        "table": {
+          "headers": [
+            "Payment in the example",
+            "Recipient or due-event question",
+            "Condition to read"
+          ],
+          "rows": [
+            [
+              "Initial fee",
+              "Which selling company receives it and when is it payable?",
+              "The actual refund or retention terms"
+            ],
+            [
+              "Software setup",
+              "Which related company receives it and when is the commitment made?",
+              "Its agreement and any relevant refund terms"
+            ],
+            [
+              "Pre-opening training",
+              "Who receives the payment and what event makes it due?",
+              "What the documents say if training or opening does not proceed"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-5",
+          "fed-timing"
         ]
       },
       {
@@ -407,7 +624,8 @@
         ],
         "sourceIds": [
           "fed-fdd-5"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -440,7 +658,14 @@
         "meaning": "A stated circumstance in which money may be returned, retained or reduced."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 5: Initial Fees, Payees and Refund Terms",
+    "relatedPaths": [
+      "/fdd/item-6/",
+      "/fdd/item-7/",
+      "/fdd/item-23/",
+      "/us-expansion/fdd-disclosure-timing/"
+    ]
   },
   {
     "id": "fdd-item-6",
@@ -465,7 +690,8 @@
         "paragraphs": [
           "When a business expands through independent partners, recurring fees may fund brand rights and support. The partner must still pay wages, premises costs and other operating expenses. Looking at the royalty percentage alone can therefore give both sides an incomplete picture.",
           "As the franchisor preparing an FDD, collect the real fee arrangements from sales, finance, training and technology teams. A charge that sits in a software agreement or appears only after a later event can still be important to the required disclosure."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 6 means in practice",
@@ -476,7 +702,8 @@
         ],
         "sourceIds": [
           "fed-fdd-6"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -484,6 +711,42 @@
           "Fictional example. A facilities operator models only its regular royalty and concludes that a U.S. unit can fund a manager. During document review, the team also identifies technology charges and event-based training costs.",
           "For illustration only, suppose the actual agreement charges a 6% royalty on a defined sales amount of $10,000 for a month. The royalty calculation is $10,000 × 0.06 = $600. Finance still needs the contract’s definition of sales and the payment date; this arithmetic does not tell it when customers will pay. Technology charges and event-based training costs are considered separately rather than disappearing into that royalty figure.",
           "A fee table does not prove the unit is profitable. The useful result is a more complete model that shows the fees, other operating costs and any amounts that remain unknown instead of treating them as zero."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Separate recurring charges from event costs",
+        "paragraphs": [
+          "Use the fictional fee model above. The royalty arithmetic is already known on its stated assumptions; other charges still need their own amount, formula and due event.",
+          "Self-check: does a correct $600 royalty calculation prove the unit is profitable? No. It answers one fee line, not the other costs or collection timing."
+        ],
+        "table": {
+          "headers": [
+            "Example category",
+            "How to read it",
+            "Planning record"
+          ],
+          "rows": [
+            [
+              "Regular royalty",
+              "Apply the stated percentage to the contract-defined sales base",
+              "Keep the definition, calculation and due date together"
+            ],
+            [
+              "Technology charge",
+              "Read its actual formula and payment terms",
+              "Do not assume it is already inside the royalty"
+            ],
+            [
+              "Training, transfer or renewal event",
+              "Establish whether the actual offer charges for that event",
+              "Record the trigger and conditions instead of treating it as a monthly cost"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-6"
         ]
       },
       {
@@ -498,7 +761,8 @@
         ],
         "sourceIds": [
           "fed-fdd-6"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -530,7 +794,14 @@
         "meaning": "The event that makes a particular charge payable, such as a renewal or transfer."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 6: Other Fees, Royalties and Payment Triggers",
+    "relatedPaths": [
+      "/fdd/item-5/",
+      "/fdd/item-7/",
+      "/fdd/item-19/",
+      "/tools/us-unit-economics/"
+    ]
   },
   {
     "id": "fdd-item-7",
@@ -555,7 +826,8 @@
         "paragraphs": [
           "A headline entry fee does not pay every opening bill. A U.S. unit may also need premises, equipment, training, insurance and cash for the period before collections cover its expenses. A brand owner preparing an FDD must assemble the prescribed estimate; a prospective operator must decide whether its own plan is adequately funded.",
           "These are related but different exercises. The disclosure uses stated estimates and assumptions. Your business plan uses the actual site, employment plan, suppliers and payment timing as those facts become known."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 7 means in practice",
@@ -566,7 +838,8 @@
         ],
         "sourceIds": [
           "fed-fdd-7"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -574,6 +847,42 @@
           "Fictional example. A service unit expects to spend $80,000 establishing the business. Its owners have $100,000 and initially assume the remaining $20,000 is enough for operations.",
           "They then estimate an illustrative $10,000 monthly cash gap while sales and collections build. In that scenario, $20,000 covers only two such months. A delayed opening or slower collection would change the result. These figures teach the calculation; they are not typical costs or a forecast for this industry.",
           "The team compares its assumptions with Item 7, dates the actual payments and records missing quotes. It does not fill an unknown insurance or manager cost with zero simply to make the total fit."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Read the fictional cash example as a sequence",
+        "paragraphs": [
+          "The figures below restate the invented example above. They are not typical franchise costs or a recommended reserve.",
+          "Self-check: should the team add every reserve a second time? No. First identify what the Item 7 additional-funds estimate already includes; then date the actual cash needs and keep unknowns visible."
+        ],
+        "table": {
+          "headers": [
+            "Stage in the fictional plan",
+            "Illustrative amount",
+            "Meaning"
+          ],
+          "rows": [
+            [
+              "Available owners’ funds",
+              "$100,000",
+              "The starting amount in the exercise"
+            ],
+            [
+              "Establishment spending",
+              "− $80,000",
+              "Leaves $20,000 on the stated assumptions"
+            ],
+            [
+              "Monthly cash gap",
+              "$10,000",
+              "The remaining $20,000 covers two such months, before other changes"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-7"
         ]
       },
       {
@@ -587,7 +896,8 @@
         ],
         "sourceIds": [
           "fed-fdd-7"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -619,7 +929,14 @@
         "meaning": "The person or business receiving a payment."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 7: Estimated Initial Investment and Opening Cash",
+    "relatedPaths": [
+      "/fdd/item-5/",
+      "/fdd/item-6/",
+      "/fdd/item-21/",
+      "/tools/cash-runway/"
+    ]
   },
   {
     "id": "fdd-item-8",
@@ -644,7 +961,8 @@
         "paragraphs": [
           "A brand may want every unit to use consistent equipment, ingredients or software. That can protect the customer experience, but it can also create costs and dependencies for an overseas expansion. A product available in your home market may be expensive to deliver in the United States or require a separate regulatory check.",
           "The FDD’s role is to disclose the required arrangements. Your operating team’s job is to work out whether those arrangements can be supplied reliably and affordably for the proposed U.S. business."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 8 means in practice",
@@ -654,7 +972,8 @@
         ],
         "sourceIds": [
           "fed-fdd-8"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -662,6 +981,42 @@
           "Fictional example. A European maintenance brand requires a particular cleaning chemical. Its U.S. partner proposes a locally available substitute that appears cheaper.",
           "The operations manager checks the stated supplier-approval process and the performance specification. Finance compares the delivered cost, rather than comparing only the supplier’s unit price. The relevant technical person separately checks applicable product and use requirements.",
           "Until those questions are answered, “local substitute” is only a proposal. Equally, the brand should not describe its home-market supplier as the only lawful source merely because it prefers that supplier."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Two approvals can answer different questions",
+        "paragraphs": [
+          "In the fictional chemical-substitute example, a locally available product is only a proposal until the relevant questions are answered.",
+          "Self-check: is the preferred home-market supplier therefore the only lawful source? No. A private preference and a legal product requirement are separate questions."
+        ],
+        "table": {
+          "headers": [
+            "Decision",
+            "Evidence to inspect",
+            "Why the other decision is insufficient"
+          ],
+          "rows": [
+            [
+              "Private supplier approval",
+              "System specification and alternative-approval process",
+              "Local availability does not establish brand approval"
+            ],
+            [
+              "Product and intended use",
+              "Actual product, activity and applicable authority requirements",
+              "Brand approval does not establish government permission"
+            ],
+            [
+              "Delivered cost and continuity",
+              "Transport, relevant import costs and supply arrangements",
+              "A lower unit price alone does not establish the cheaper operating route"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-8"
         ]
       },
       {
@@ -675,7 +1030,8 @@
         ],
         "sourceIds": [
           "fed-fdd-8"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -707,7 +1063,14 @@
         "meaning": "The overall cost of getting a product to the intended place, including relevant transport and import costs."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 8: Purchasing Restrictions and Approved Suppliers",
+    "relatedPaths": [
+      "/fdd/item-6/",
+      "/fdd/item-16/",
+      "/us-expansion/customs-importer/",
+      "/cases/cleaning-product-us-supply/"
+    ]
   },
   {
     "id": "fdd-item-9",
@@ -732,7 +1095,8 @@
         "paragraphs": [
           "A business can be described as manager-run while still having many obligations that someone must perform: training, staffing, insurance, reporting and payments. A founder may expect the local partner or manager to handle them, while the contract assigns responsibility differently.",
           "Item 9 gives a structured starting point for finding those obligations. For a brand owner preparing the offer, it is also a way to check that the disclosure and agreements point to the same operating responsibilities."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 9 means in practice",
@@ -742,7 +1106,8 @@
         ],
         "sourceIds": [
           "fed-fdd-9"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -750,6 +1115,37 @@
           "Fictional example. An owner plans to remain in Singapore while a U.S. manager runs a service unit. The owner reads Item 9 and assumes every listed task can simply be delegated.",
           "The team follows the training reference to the actual agreement and then reads Item 15’s participation information. It checks which person must be trained, who approves a replacement and which reporting duties remain with the operating business. The precise answers come from the actual documents.",
           "The resulting responsibility chart names the person doing each task, the party that remains responsible and the backup if the person leaves. That is more useful than marking “manager handles compliance” beside every line."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Follow one reference all the way to responsibility",
+        "paragraphs": [
+          "Continue the fictional remote-owner training example. This completed row is a navigation exercise, not a substitute for the actual agreement.",
+          "Self-check: does writing “manager handles compliance” change the contractual party’s obligations? No. Separate the person doing the work from the party responsible for it."
+        ],
+        "table": {
+          "headers": [
+            "Task",
+            "Document trail",
+            "Responsibility question"
+          ],
+          "rows": [
+            [
+              "Required training",
+              "Item 9 reference → actual agreement → participation information in Item 15",
+              "Who must attend, who pays, and what applies to a replacement?"
+            ],
+            [
+              "Internal assignment",
+              "Owner asks a manager to carry out the task",
+              "Which party remains responsible under the actual agreement?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-9"
         ]
       },
       {
@@ -763,7 +1159,8 @@
         ],
         "sourceIds": [
           "fed-fdd-9"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -795,7 +1192,14 @@
         "meaning": "Something the relevant person or business is required to do under the applicable agreement or law."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 9: Franchisee Obligations and Contract References",
+    "relatedPaths": [
+      "/fdd/item-11/",
+      "/fdd/item-15/",
+      "/fdd/item-22/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "fdd-item-10",
@@ -820,7 +1224,8 @@
         "paragraphs": [
           "An overseas brand may help a partner pay an initial fee or obtain equipment. A lower opening payment can make a plan appear easier to fund, but the amount deferred still needs to be paid on the stated terms. Later repayments compete with wages, rent and other business cash needs.",
           "If you prepare the franchise offer, collect the actual financing arrangements rather than describing them only as a sales benefit. If you assess an offer, read the loan or credit documents alongside the franchise agreement."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 10 means in practice",
@@ -830,7 +1235,8 @@
         ],
         "sourceIds": [
           "fed-fdd-10"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -838,6 +1244,42 @@
           "Fictional example. A brand allows a U.S. partner to defer part of an opening payment. The partner treats the deferral as a reduction in the total opening cost.",
           "Finance shows the distinction with two columns: cash paid now and cash owed later. It then adds the actual repayment schedule and charges to the cash plan. No illustrative interest rate is assumed to apply to the real offer.",
           "The company secretary reads any guarantee and security documents. The team asks whether a delay in opening would change the ability to make repayments, rather than assuming that the brand’s involvement removes normal debt risk."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Compare less cash now with obligations later",
+        "paragraphs": [
+          "The fictional deferred opening payment is not automatically a discount. Complete the comparison using the actual financing documents, without assuming an interest rate.",
+          "Self-check: would a delayed opening necessarily delay the debt payments? Do not assume so. Read the actual terms and test the payment dates against the cash plan."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "Record to use",
+            "Mistake this prevents"
+          ],
+          "rows": [
+            [
+              "What is paid now?",
+              "Opening payment and deferred amount",
+              "Treating a deferral as a reduction in the total cost"
+            ],
+            [
+              "What is owed later?",
+              "Repayment dates, charges and actual formula",
+              "Leaving repayments out of the operating cash plan"
+            ],
+            [
+              "Who and what support repayment?",
+              "Guarantee, security, default and assignment terms",
+              "Assuming brand involvement removes debt consequences"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-10"
         ]
       },
       {
@@ -851,7 +1293,8 @@
         ],
         "sourceIds": [
           "fed-fdd-10"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -883,7 +1326,14 @@
         "meaning": "A separate promise to answer for an obligation; read who gives it and exactly what it covers."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.555Z",
+    "seoTitle": "FDD Item 10: Franchisor Financing and Repayment Terms",
+    "relatedPaths": [
+      "/fdd/item-5/",
+      "/fdd/item-7/",
+      "/fdd/item-22/",
+      "/tools/cash-runway/"
+    ]
   },
   {
     "id": "fdd-item-11",
@@ -908,7 +1358,8 @@
         "paragraphs": [
           "A partner may hear “we provide training and ongoing support” and imagine daily help. Your team may mean a short initial course and occasional remote contact. That difference matters before a U.S. agreement is sold, especially when the support team is in another time zone.",
           "As the franchisor, use Item 11 to explain the support arrangements the rule requires. Separately, build an internal delivery plan so the people, budget and coverage behind your promises actually exist."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 11 means in practice",
@@ -918,7 +1369,8 @@
         ],
         "sourceIds": [
           "fed-fdd-11"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -926,6 +1378,42 @@
           "Fictional example. A European facilities brand promises U.S. field support. Its current support manager already covers the home network and normally works during European business hours.",
           "The operations lead lists the actual pre-opening and continuing tasks described in the offer. It then identifies who can answer urgent U.S. questions, who can travel, how absences are covered and how the work is funded. A remote helpdesk and an on-site visit are not treated as interchangeable services.",
           "If the plan cannot support the stated promise, the team must address the delivery gap before relying on optimistic sales language. This is a management decision informed by the disclosure, not proof that every foreign brand needs the same staffing model."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Turn a support promise into a delivery row",
+        "paragraphs": [
+          "Use the fictional overseas field-support promise. These are optional management rows for testing delivery capacity, not extra legal service frequencies.",
+          "Self-check: can remote helpdesk availability simply be counted as a promised site visit? No. Match the actual service to the people and resources that can deliver it."
+        ],
+        "table": {
+          "headers": [
+            "Type of support",
+            "What to identify in the actual offer",
+            "Delivery question"
+          ],
+          "rows": [
+            [
+              "Pre-opening",
+              "The specified assistance and training",
+              "Who provides it, when, and to which people?"
+            ],
+            [
+              "Continuing",
+              "The actual ongoing services and conditions",
+              "Which person, hours, method and budget make the promise deliverable?"
+            ],
+            [
+              "Systems and advertising",
+              "Relevant technology and advertising arrangements",
+              "What is included, conditional or optional?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-11"
         ]
       },
       {
@@ -939,7 +1427,8 @@
         ],
         "sourceIds": [
           "fed-fdd-11"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -971,7 +1460,14 @@
         "meaning": "Material explaining the system’s operating methods; its existence does not by itself prove support capacity."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 11: Assistance, Advertising, Systems and Training",
+    "relatedPaths": [
+      "/fdd/item-2/",
+      "/fdd/item-6/",
+      "/fdd/item-15/",
+      "/tools/brand-support-economics/"
+    ]
   },
   {
     "id": "fdd-item-12",
@@ -996,7 +1492,8 @@
         "paragraphs": [
           "A map can look simple while the business is not. A local operator may serve customers inside a boundary, the brand may retain national customers and another channel may take online orders. Without clear definitions, two parties can each believe that the same sale belongs to them.",
           "For an overseas brand expanding through partners, territory design is therefore both a disclosure issue and an operating decision. The FDD describes the relevant rights and limits; the contracts and actual customer arrangements need to fit that explanation."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 12 means in practice",
@@ -1006,7 +1503,8 @@
         ],
         "sourceIds": [
           "fed-fdd-12"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1014,6 +1512,42 @@
           "Fictional example. A Dutch business-services brand gives a U.S. partner a stated local territory while retaining a national customer whose sites fall inside it.",
           "The team maps the customer sites, sales channel, service responsibility and payment arrangements. It checks the actual territory and national-account provisions to see who may sell, who must deliver the work and who receives the revenue. The map alone cannot decide those questions.",
           "The parties then compare the explanation in Item 12 with the proposed agreement and operating instructions. Any unresolved allocation remains a question to settle, rather than a verbal assurance that “the territory is protected.”"
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Map a national account inside the local boundary",
+        "paragraphs": [
+          "Continue the fictional Dutch business-services example. The map boundary alone does not allocate a national customer’s sale, work and payment.",
+          "Self-check: does an exclusive franchise territory stop every unrelated competitor from trading there? No. Read the precise private rights and their conditions."
+        ],
+        "table": {
+          "headers": [
+            "Account decision",
+            "Fact to put beside the map",
+            "Document question"
+          ],
+          "rows": [
+            [
+              "Who may sell?",
+              "Local customer versus retained national channel",
+              "Which rights and conditions are actually reserved?"
+            ],
+            [
+              "Who must deliver?",
+              "Customer sites and service responsibility",
+              "Which company must perform the work at those sites?"
+            ],
+            [
+              "Who receives revenue?",
+              "Contracting, invoicing and payment arrangements",
+              "Do the disclosures, agreement and instructions describe the same allocation?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-12"
         ]
       },
       {
@@ -1027,7 +1561,8 @@
         ],
         "sourceIds": [
           "fed-fdd-12"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1059,7 +1594,14 @@
         "meaning": "A way of selling or serving customers that the brand retains under the arrangement, such as a specified national-account channel."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 12: Franchise Territory and Exclusivity",
+    "relatedPaths": [
+      "/fdd/item-16/",
+      "/fdd/item-17/",
+      "/us-expansion/territory-national-accounts/",
+      "/cases/staged-industrial-services-territory/"
+    ]
   },
   {
     "id": "fdd-item-13",
@@ -1084,7 +1626,8 @@
         "paragraphs": [
           "Your brand may be well established in Europe or Southeast Asia while being new to the United States. A prospective U.S. partner will rely on using that identity. It therefore matters who controls the rights, what the recorded status is and what happens if the name becomes disputed.",
           "If your group uses a separate company to own the brand, identify that company and the arrangement allowing the franchise seller and operators to use the relevant marks. The sales company and the intellectual-property owner should not be treated as interchangeable merely because they are related."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 13 means in practice",
@@ -1094,7 +1637,8 @@
         ],
         "sourceIds": [
           "fed-fdd-13"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1102,6 +1646,42 @@
           "Fictional example. A European service brand has used its name for years and wants its new U.S. subsidiary to sell franchises under that name. Management assumes the home-country registration is enough.",
           "The company secretary identifies the actual owner of the mark, the U.S. registration or application position and the relevant disclosures. The team separately obtains the needed U.S. clearance assessment and checks the agreement allowing the subsidiary and operators to use the brand.",
           "The result is a clear record of the rights and unresolved questions. It is not a promise that an application will succeed or that a familiar name can never face a challenge."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Separate the evidence about brand rights",
+        "paragraphs": [
+          "Apply the fictional European-brand example. The record below helps the team explain what is known; it does not itself supply a clearance opinion.",
+          "Self-check: does a home-country certificate settle the separate U.S. position? No. Keep the jurisdiction and right being examined attached to each record."
+        ],
+        "table": {
+          "headers": [
+            "Evidence",
+            "Question it helps answer",
+            "What remains separate"
+          ],
+          "rows": [
+            [
+              "Owner identity",
+              "Which company controls the principal mark?",
+              "The seller’s actual permission to grant its use"
+            ],
+            [
+              "U.S. registration or application record",
+              "What is the recorded U.S. status?",
+              "Assessment of the intended use and competing rights"
+            ],
+            [
+              "Licence and protection terms",
+              "What use is permitted and what protection or change responsibilities are stated?",
+              "A guarantee that no challenge can occur"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-13"
         ]
       },
       {
@@ -1115,7 +1695,8 @@
         ],
         "sourceIds": [
           "fed-fdd-13"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1147,7 +1728,14 @@
         "meaning": "Checking whether the intended use conflicts with other rights, using the actual mark, market and facts."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.776Z"
+    "contentModifiedAt": "2026-11-13T19:16:05.626Z",
+    "seoTitle": "FDD Item 13: Trademarks, Ownership and U.S. Rights",
+    "relatedPaths": [
+      "/fdd/item-1/",
+      "/fdd/item-14/",
+      "/us-expansion/trademark-clearance/",
+      "/us-expansion/trademark-quality-control/"
+    ]
   },
   {
     "id": "fdd-item-14",
@@ -1172,7 +1760,8 @@
         "paragraphs": [
           "An overseas business may describe its operating system as “our know-how.” In practice, the system can combine internally written methods, a consultant’s training material, licensed software and other content. U.S. operators need the relevant rights and arrangements to use what the brand supplies.",
           "For the brand owner preparing an offer, Item 14 is a reason to identify the actual materials and rights rather than treating a finished manual as proof that the group owns everything inside it."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 14 means in practice",
@@ -1182,7 +1771,8 @@
         ],
         "sourceIds": [
           "fed-fdd-14"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1190,6 +1780,42 @@
           "Fictional example. A training brand has a manual produced by its own staff, videos commissioned from a consultant and an online platform supplied by a software company. It plans to give U.S. partners access to the whole package.",
           "The operations manager lists each component. The company secretary then checks who owns it, what permission the brand has and whether the proposed operator use fits that permission. Finance identifies the recurring costs of supplying the package.",
           "This review may reveal a permission to obtain or a supplier term to clarify. It avoids the unsupported statement that ownership of one manual gives the brand all the rights required for every part of the system."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Inventory the components, not just the finished manual",
+        "paragraphs": [
+          "Use the fictional training package. Knowing that one component belongs to the brand does not establish the permissions for every other component.",
+          "Self-check: does ownership of the manual establish ownership of the platform? No. Also keep customer-data duties separate from intellectual-property permission."
+        ],
+        "table": {
+          "headers": [
+            "Component in the example",
+            "Ownership or permission to identify",
+            "Operating question"
+          ],
+          "rows": [
+            [
+              "Staff-written manual",
+              "Actual relevant ownership and limits",
+              "Does the intended operator use fit the rights held?"
+            ],
+            [
+              "Consultant videos",
+              "The commissioning and permission arrangement",
+              "Which uses, users, countries and duration are covered?"
+            ],
+            [
+              "Supplier platform",
+              "The software licence and relevant terms",
+              "Can the proposed U.S. operators use it, and on what continuing terms?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-14"
         ]
       },
       {
@@ -1203,7 +1829,8 @@
         ],
         "sourceIds": [
           "fed-fdd-14"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1235,7 +1862,14 @@
         "meaning": "Business information kept from general public disclosure. Calling it confidential does not answer every ownership or protection question."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 14: Patents, Copyright and Proprietary Information",
+    "relatedPaths": [
+      "/fdd/item-8/",
+      "/fdd/item-13/",
+      "/us-expansion/trade-secret-transfer/",
+      "/us-expansion/cross-border-data/"
+    ]
   },
   {
     "id": "fdd-item-15",
@@ -1260,7 +1894,8 @@
         "paragraphs": [
           "An established brand owner may be used to employing branch managers. A franchise arrangement can allocate responsibilities differently. The operator may have to participate personally, or the proposed manager may have to meet particular conditions. Those questions need answering before anyone assumes the owner can remain remote.",
           "As the franchisor preparing the offer, explain the required or recommended involvement accurately. As a prospective operator, compare it with the people who will actually run the business."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 15 means in practice",
@@ -1272,7 +1907,8 @@
         ],
         "sourceIds": [
           "fed-fdd-15"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1280,6 +1916,52 @@
           "Fictional example. An owner in Singapore plans to keep running the home business while a U.S. manager handles the new unit. The owner assumes any experienced employee can replace that manager during absence.",
           "The team reads Item 15 and the relevant agreements. It records whether personal participation is required or recommended, the manager’s required training, any ownership condition and the replacement process. It then asks who covers illness or resignation and how that person qualifies.",
           "Finance includes the complete manager cost rather than using profit from a unit where the owner does the work without a wage. The resulting plan may support remote ownership, or show a gap to solve; the marketing label alone cannot decide."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Keep the supervision branch and manager restrictions separate",
+        "paragraphs": [
+          "For the fictional Singapore owner, begin with the actual participation obligations or recommendations, including system practice. The conditional disclosure questions below are not uniform conditions imposed on every franchise.",
+          "Self-check: does disclosure of a noncompetition restriction establish that it is enforceable? No. Disclosure and enforceability are separate questions, just as permission to hire a manager is separate from funding one."
+        ],
+        "table": {
+          "headers": [
+            "Question under the existing explanation",
+            "What to establish",
+            "Condition to retain"
+          ],
+          "rows": [
+            [
+              "Where personal on-premises supervision is not required: supervisor selection and training",
+              "The limits on whom the operator may hire as supervisor and whether that supervisor must complete the brand’s training",
+              "Keep these disclosure questions within the no-personal-supervision condition; do not treat them as universal manager requirements"
+            ],
+            [
+              "Within that condition: an individual franchisee",
+              "Whether the brand recommends on-premises supervision by that individual",
+              "A recommendation and a required owner role are different facts"
+            ],
+            [
+              "Within that condition: a business-entity franchisee",
+              "Any equity interest the supervisor must hold under the actual arrangement",
+              "Do not invent a universal supervisor ownership requirement"
+            ],
+            [
+              "Separately: restrictions imposed on the manager",
+              "The actual restrictions the operator must place on its manager",
+              "This disclosure duty is not confined to the no-personal-supervision branch"
+            ],
+            [
+              "The chosen manager is absent or leaves",
+              "Actual training, replacement and backup arrangements",
+              "The marketing label does not establish qualified cover or affordable staffing"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-15"
         ]
       },
       {
@@ -1293,7 +1975,8 @@
         ],
         "sourceIds": [
           "fed-fdd-15"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1325,7 +2008,14 @@
         "meaning": "An ownership share in the business; the item asks about any applicable supervisor ownership condition."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:15:35.834Z",
+    "seoTitle": "FDD Item 15: Owner Participation and Manager-Run Franchises",
+    "relatedPaths": [
+      "/fdd/item-9/",
+      "/fdd/item-11/",
+      "/fdd/item-19/",
+      "/us-expansion/compare-fdd-for-management-run-model/"
+    ]
   },
   {
     "id": "fdd-item-16",
@@ -1350,7 +2040,8 @@
         "paragraphs": [
           "A service business often wins work by combining related tasks. Your home-market offer may include cleaning, maintenance and technical work in one package. The U.S. franchise documents may authorise a different range, and particular tasks may raise separate operating-permission questions.",
           "This matters to both sides. The brand owner needs a clear and deliverable offer, while the independent operator needs to know what it may sell before estimating demand and revenue."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 16 means in practice",
@@ -1360,7 +2051,8 @@
         ],
         "sourceIds": [
           "fed-fdd-16"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1368,6 +2060,37 @@
           "Fictional example. A facilities partner sees demand for mechanical maintenance and wants to add it to an existing cleaning offer. The partner assumes that the brand’s general service label covers the proposed work.",
           "The operations lead first lists the actual tasks and checks the authorised range and customer conditions. The technical lead then identifies the separate qualification or permission questions for those tasks and locations. Neither check is treated as a substitute for the other.",
           "The team updates the commercial model only when it knows which services it can actually offer through the proposed arrangement. It does not count uncertain technical work as guaranteed revenue."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Test the added service on two separate tracks",
+        "paragraphs": [
+          "Use the fictional cleaning operator’s proposed mechanical maintenance. Do not put revenue from an unresolved service into the model as a confirmed result.",
+          "Self-check: does the brand saying “yes” complete both tracks? No. Nor does a government qualification expand the private contract’s authorised range by itself."
+        ],
+        "table": {
+          "headers": [
+            "Track",
+            "Facts to compare",
+            "Possible unanswered question"
+          ],
+          "rows": [
+            [
+              "Private franchise arrangement",
+              "Actual tasks, authorised range, required offerings and customer conditions",
+              "Does the arrangement permit or require this particular service?"
+            ],
+            [
+              "Independent public requirements",
+              "The technical task, person and operating jurisdiction",
+              "What separate qualification or permission questions apply?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-16"
         ]
       },
       {
@@ -1381,7 +2104,8 @@
         ],
         "sourceIds": [
           "fed-fdd-16"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1413,7 +2137,14 @@
         "meaning": "Work subject to a separate legal permission or qualification, depending on the actual activity and jurisdiction."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 16: Products, Services and Customer Restrictions",
+    "relatedPaths": [
+      "/fdd/item-8/",
+      "/fdd/item-12/",
+      "/industries/facilities-services/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "fdd-item-17",
@@ -1438,7 +2169,8 @@
         "paragraphs": [
           "Expansion discussions naturally focus on opening. A long relationship also needs a plan for later changes: a partner may want to sell, the brand may change its model, an agreement may expire or a dispute may arise. These events can affect the value and continuity of the business.",
           "If your company offers franchises, prepare a consistent explanation of the relevant terms. If you assess an offer, follow the summary to the actual agreements before relying on a short description."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 17 means in practice",
@@ -1448,7 +2180,8 @@
         ],
         "sourceIds": [
           "fed-fdd-17"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1456,6 +2189,47 @@
           "Fictional example. A European brand expects a successful U.S. partner to renew automatically. The partner expects to sell the business freely after a few years. Both rely on their commercial conversation rather than the documents.",
           "The team reads the Item 17 renewal and transfer summaries, then the referenced clauses. It records each relevant consent, deadline, payment and other condition. It also checks the state-law questions for the actual relationship and location.",
           "The result may show that a future event requires advance preparation. It does not justify telling either party that a summary guarantees renewal or that every written restriction is enforceable."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Separate future events before reading their conditions",
+        "paragraphs": [
+          "For the fictional brand and partner, these are different document enquiries. This is not a universal state-law timetable.",
+          "Self-check: does reaching the scheduled expiry date mean the same thing as early termination? No. Identify the intended event before choosing documents, dates and further state research."
+        ],
+        "table": {
+          "headers": [
+            "Event",
+            "Actual provision to follow",
+            "Inference to avoid"
+          ],
+          "rows": [
+            [
+              "Expiry or renewal",
+              "Term and conditions for a further term",
+              "Continuation is automatic because trading has been successful"
+            ],
+            [
+              "Early termination",
+              "The relevant grounds, steps and consequences",
+              "Every written clause is enforceable in every jurisdiction"
+            ],
+            [
+              "Transfer",
+              "Consent and other conditions of the proposed change",
+              "The owner can sell without reading the agreed conditions"
+            ],
+            [
+              "Dispute or restriction",
+              "The actual arrangements plus independent state questions",
+              "Disclosure alone removes a non-waivable protection"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-17"
         ]
       },
       {
@@ -1469,7 +2243,8 @@
         ],
         "sourceIds": [
           "fed-fdd-17"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1505,7 +2280,14 @@
         "meaning": "A legal protection that cannot simply be removed by the parties’ agreement, where the relevant law provides it."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 17: Renewal, Termination, Transfer and Disputes",
+    "relatedPaths": [
+      "/fdd/item-12/",
+      "/fdd/item-20/",
+      "/fdd/item-22/",
+      "/states/washington/relationship-change-and-exit/"
+    ]
   },
   {
     "id": "fdd-item-18",
@@ -1530,7 +2312,8 @@
         "paragraphs": [
           "A recognisable person can make an unfamiliar overseas brand seem more established in a new market. A prospective operator may assume that public visibility means the offer has been checked or that the person is involved in its day-to-day delivery.",
           "The useful first step is to identify what the person actually does and what relationship the documents describe. If your company prepares the offer, accurate disclosure should replace vague claims about who is “behind the brand.”"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 18 means in practice",
@@ -1540,7 +2323,8 @@
         ],
         "sourceIds": [
           "fed-fdd-18"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1548,6 +2332,42 @@
           "Fictional example. A service network features a well-known presenter in its recruitment material. A prospective U.S. partner assumes the presenter supervises training and has reviewed the unit economics.",
           "The team reads the relevant disclosures and identifies the person’s actual role, benefits and investment information. It then separately asks who delivers training and what evidence supports financial claims. It does not infer operational responsibility from a photograph or slogan.",
           "This allows the brand’s promotional arrangement to be understood for what it is. It avoids turning public recognition into an unsupported guarantee of business performance or legal compliance."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Compare public visibility with the actual role",
+        "paragraphs": [
+          "In the fictional presenter example, use the disclosure to identify the relationship rather than filling gaps from a photograph.",
+          "Self-check: does appearing in recruitment material show that the person supervises training? No. Follow the actual role and the independent support disclosures."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "Relevant evidence",
+            "Unsupported inference"
+          ],
+          "rows": [
+            [
+              "What is promoted?",
+              "Actual use of the public figure and its purpose",
+              "Every consumer advertisement is the same as promoting the franchise offer"
+            ],
+            [
+              "What is the relationship?",
+              "Disclosed benefits, investment and management involvement",
+              "Public recognition establishes day-to-day support responsibility"
+            ],
+            [
+              "What supports performance claims?",
+              "The separate financial and support evidence",
+              "An endorsement guarantees the unit’s profitability"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-18"
         ]
       },
       {
@@ -1561,7 +2381,8 @@
         ],
         "sourceIds": [
           "fed-fdd-18"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1597,7 +2418,14 @@
         "meaning": "An actual role in running the relevant business, distinct from appearing in promotional material."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 18: Public Figures, Benefits and Management Roles",
+    "relatedPaths": [
+      "/fdd/item-11/",
+      "/fdd/item-19/",
+      "/fdd/item-21/",
+      "/us-expansion/advertising-controls/"
+    ]
   },
   {
     "id": "fdd-item-19",
@@ -1622,7 +2450,8 @@
         "paragraphs": [
           "A home-market business may have strong sales and an owner who does much of the work personally. Those numbers can look attractive in a U.S. recruitment presentation. They do not automatically describe a U.S. unit that must pay a manager, local wages and the fees in the proposed arrangement.",
           "If you are the franchisor, making a financial claim is a disclosure and evidence decision, not simply a marketing choice. If you are assessing an offer, the first task is to understand what the disclosed figures actually measure."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 19 means in practice",
@@ -1634,7 +2463,8 @@
         ],
         "sourceIds": [
           "fed-fdd-19"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1666,7 +2496,43 @@
               "$0"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Try the cost-definition check before using the figure",
+        "paragraphs": [
+          "Return to the fictional $1,000,000 revenue example. Before changing the arithmetic, explain the starting amount: $180,000 remains before the two expressly omitted costs. It is not already a manager-inclusive profit measure.",
+          "Self-check: would the same subtraction be correct if a real source figure already included its manager cost? No. First establish the source definition and exclusions. Keep internal assumptions distinct from recruitment claims and their required Item 19 treatment."
+        ],
+        "table": {
+          "headers": [
+            "Input in this fictional exercise",
+            "Meaning or assumption",
+            "Check before applying it elsewhere"
+          ],
+          "rows": [
+            [
+              "$1,000,000 revenue",
+              "The invented annual sales amount used for the royalty calculation",
+              "Actual source year, currency, units and sales definition"
+            ],
+            [
+              "$180,000 starting remainder",
+              "Manager and royalty are expressly not included",
+              "Which costs a real starting figure already includes"
+            ],
+            [
+              "$120,000 manager and $60,000 royalty",
+              "Invented complete manager cost and 6% royalty on the stated revenue",
+              "Avoid subtracting an already included cost twice"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-19"
+        ]
       },
       {
         "heading": "How your team can use this information",
@@ -1679,7 +2545,8 @@
         ],
         "sourceIds": [
           "fed-fdd-19"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1715,7 +2582,15 @@
         "meaning": "Revenue is sales income. Profit is what remains after the relevant costs; a sales figure alone does not tell you profit."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 19: Financial Performance Representations and Earnings",
+    "relatedPaths": [
+      "/fdd/item-6/",
+      "/fdd/item-7/",
+      "/fdd/item-15/",
+      "/us-expansion/financial-performance-representations/",
+      "/cases/premier-martial-arts-management-claims/"
+    ]
   },
   {
     "id": "fdd-item-20",
@@ -1740,7 +2615,8 @@
         "paragraphs": [
           "A growing network can sound reassuring to an overseas owner planning U.S. expansion. But a single total can conceal very different events: new units open, existing units close, ownership changes and agreements end. Those events raise different business questions.",
           "The franchisor preparing an FDD must use the prescribed categories and information. A reader assessing the network should understand those categories before drawing a conclusion from a sales presentation."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 20 means in practice",
@@ -1750,7 +2626,8 @@
         ],
         "sourceIds": [
           "fed-fdd-20"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1758,6 +2635,47 @@
           "Fictional arithmetic example. A hypothetical network starts with 20 units, adds eight and has five leave the counted population during the period. On those simplified assumptions, the ending total is 23 and net growth is three.",
           "That headline does not explain why the five left or whether the eight new units are operating as expected. The team reads the actual categories rather than calling every departure a failure. It also asks whether the support team grew in capacity as the system expanded.",
           "The useful result is a set of evidence questions tied to the disclosed period and categories. It is not a probability of success for the proposed U.S. partner, and these illustrative numbers are not real network data."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Build the fictional outlet bridge without inventing a failure rate",
+        "paragraphs": [
+          "These figures restate the simplified fictional example. The category “leave the counted population” is not a finding that five businesses failed.",
+          "Self-check: should every transfer be treated as an outlet closure? No. Follow the prescribed actual table categories. A change in owner and a change in the counted outlet total are different questions."
+        ],
+        "table": {
+          "headers": [
+            "Step in the fictional count",
+            "Calculation",
+            "Question still unanswered"
+          ],
+          "rows": [
+            [
+              "Opening population",
+              "20",
+              "Which outlet type and period are counted?"
+            ],
+            [
+              "Additions",
+              "+ 8",
+              "Which actual reported category describes the additions?"
+            ],
+            [
+              "Departures from this counted population",
+              "− 5",
+              "Why did each leave, and how does the actual table classify it?"
+            ],
+            [
+              "Ending population",
+              "23; net increase 3",
+              "The total alone does not establish operator results or support quality"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-20"
         ]
       },
       {
@@ -1771,7 +2689,8 @@
         ],
         "sourceIds": [
           "fed-fdd-20"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1803,7 +2722,14 @@
         "meaning": "A change reported in the applicable category; it is different from simply opening a new outlet or closing one."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 20: Outlets, Closures and Franchisee Information",
+    "relatedPaths": [
+      "/fdd/item-17/",
+      "/fdd/item-19/",
+      "/fdd/item-21/",
+      "/us-expansion/compare-fdd-for-management-run-model/"
+    ]
   },
   {
     "id": "fdd-item-21",
@@ -1828,7 +2754,8 @@
         "paragraphs": [
           "A foreign group may have a substantial home business and a small new U.S. selling subsidiary. U.S. operators will need to understand which business is responsible for support and what financial information and commitments are disclosed.",
           "The FDD therefore needs more than a general statement that the group is successful. If you prepare the offer, identify the correct reporting entities and obtain appropriate accounting advice. If you assess it, read the financial information for the actual parties involved."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 21 means in practice",
@@ -1839,7 +2766,8 @@
         ],
         "sourceIds": [
           "fed-fdd-21"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Understand the reporting periods and the limited alternatives",
@@ -1870,7 +2798,8 @@
         },
         "sourceIds": [
           "fed-fdd-21"
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional worked example",
@@ -1878,6 +2807,47 @@
           "Fictional example. A large European parent owns a newly created U.S. franchise seller. Recruitment material highlights the parent’s scale, while the agreement names the U.S. company.",
           "The finance lead identifies the financial statements required for the offer, their reporting periods and accounting treatment. The company secretary then checks the actual commitments connecting the parent to the seller. The team does not assume that every parent asset is cash available to the subsidiary.",
           "It separately budgets training, software, travel and U.S. support. The accounts inform that assessment, but they do not replace an operating plan or turn a conditional commitment into an unconditional guarantee."
+        ],
+        "legacyIndex": 3
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Choose the reporting question before comparing company wealth",
+        "paragraphs": [
+          "Continue the fictional wealthy parent/new U.S. seller example. Read the detailed periods and conditions above; this comparison does not expand a start-up alternative or replace an accounting assessment.",
+          "Self-check: do strong accounts replace a budget for training, systems, travel and field support? No. They inform financial-capacity analysis; delivery still needs its own funded operating plan."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "Record to inspect",
+            "Mistake to avoid"
+          ],
+          "rows": [
+            [
+              "Which entity is responsible?",
+              "Named seller, relevant group obligations and applicable statement requirements",
+              "Treating all parent assets as available subsidiary cash"
+            ],
+            [
+              "Which reporting period?",
+              "Entity names, fiscal dates, statements and notes",
+              "Mixing one company’s current figures with another’s older report"
+            ],
+            [
+              "Is an affiliate alternative being relied on?",
+              "The specified statements and actual unconditional guarantee, with its precise scope",
+              "Treating ownership or a limited support letter as that guarantee"
+            ],
+            [
+              "Is the limited start-up phase-in actually applicable?",
+              "The stated stage and all relevant conditions in the existing explanation",
+              "Assuming every newly formed seller qualifies"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-21"
         ]
       },
       {
@@ -1891,7 +2861,8 @@
         ],
         "sourceIds": [
           "fed-fdd-21"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1927,7 +2898,14 @@
         "meaning": "The ability to meet cash needs, which is different from simply having valuable assets."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 21: Financial Statements, Audits and Guarantees",
+    "relatedPaths": [
+      "/fdd/item-1/",
+      "/fdd/item-11/",
+      "/fdd/item-22/",
+      "/us-expansion/foreign-financial-statements/"
+    ]
   },
   {
     "id": "fdd-item-22",
@@ -1952,7 +2930,8 @@
         "paragraphs": [
           "An expansion team may negotiate a headline fee and territory while other obligations sit in a guarantee, software contract, lease or purchase document. Different members of the team can therefore be reviewing different versions of what they believe is one deal.",
           "If your company prepares the FDD, assemble the proposed agreement package the item requires. If you assess the offer, make sure the people reviewing cost, operations and legal terms have the relevant documents, rather than only the main contract."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 22 means in practice",
@@ -1964,7 +2943,8 @@
         "sourceIds": [
           "fed-fdd-22",
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -1972,6 +2952,48 @@
           "Fictional example. A service brand and a U.S. partner agree the commercial points in a short email. The main franchise agreement appears to reflect them, but the wider pack also contains software terms and a guarantee.",
           "The expansion manager creates a document index. Finance identifies every relevant payment commitment; operations identifies service and system dependencies; the responsible legal reviewer examines the actual obligations and parties. Any differences from the commercial discussion are recorded for resolution.",
           "The team keeps version control so a late revised attachment is not missed. This is an organised review of the actual package, not a claim that reading one document settles all other commitments."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Complete a package-index row before reviewing the package",
+        "paragraphs": [
+          "Continue the fictional email/main agreement/software/guarantee example. The table is an internal document index, not a universal list of prescribed exhibits.",
+          "Self-check: does updating the exhibit index settle a later agreement-change issue? No. The index helps find the actual difference; the separate disclosure and timing question still needs its own check."
+        ],
+        "table": {
+          "headers": [
+            "Document in the example",
+            "Index fields to complete",
+            "Comparison question"
+          ],
+          "rows": [
+            [
+              "Main franchise agreement",
+              "Parties, actual version and commercial purpose",
+              "Does it reflect the fee, territory and support being discussed?"
+            ],
+            [
+              "Software terms",
+              "Actual supplier, version and connected charges",
+              "Do the access and payment terms fit the operational promise?"
+            ],
+            [
+              "Guarantee",
+              "Actual guarantor, version and obligations covered",
+              "Which commitment is made, rather than assumed from group ownership?"
+            ],
+            [
+              "Later revised attachment",
+              "Change, origin, recipients and delivery record",
+              "Does the new signing package raise a separate change/timing question?"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-22",
+          "fed-timing"
         ]
       },
       {
@@ -1985,7 +3007,8 @@
         ],
         "sourceIds": [
           "fed-fdd-22"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -2018,7 +3041,14 @@
         "meaning": "A promise by a person to answer for specified obligations; read the actual document to understand its reach."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 22: Contracts, Exhibits and Agreement Versions",
+    "relatedPaths": [
+      "/fdd/item-5/",
+      "/fdd/item-17/",
+      "/fdd/item-23/",
+      "/us-expansion/changed-franchise-agreement/"
+    ]
   },
   {
     "id": "fdd-item-23",
@@ -2043,7 +3073,8 @@
         "paragraphs": [
           "Disclosure duties depend on giving the right information through the relevant process. A signature on a receipt is useful evidence, but the team still needs to know what document was delivered and whether the required attachments were included.",
           "For the franchisor preparing an offer, this is a document-control responsibility. For the recipient, signing the prescribed receipt should not be confused with signing the franchise agreement or deciding that the business is suitable."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What Item 23 means in practice",
@@ -2055,7 +3086,8 @@
         ],
         "sourceIds": [
           "fed-fdd-23"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked example",
@@ -2063,6 +3095,42 @@
           "Fictional example. A brand emails a document folder to a prospective U.S. operator and later obtains a signed receipt. During review, the team finds that two different dated FDD files have been circulating.",
           "The team reconstructs the actual delivery record: recipient, date, document version and attachments. It checks the receipt against that record, then separately checks the applicable disclosure timetable. It does not change an uncertain delivery date simply to make a planned signing date work.",
           "The purpose is an accurate record. If something is missing or inconsistent, the issue remains to be resolved through the proper process; a signature should not be used to turn uncertainty into a fictional history."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "id": "practice-the-decision",
+        "heading": "Reconstruct the fictional two-version delivery",
+        "paragraphs": [
+          "Use the existing scenario in which two dated FDD files circulate. These are delivery-log questions; this table is not a replacement for the prescribed receipt.",
+          "Self-check: may the team replace an uncertain delivery date with the date needed for signing? No. Preserve the uncertainty and reconcile the actual records rather than inventing a history."
+        ],
+        "table": {
+          "headers": [
+            "Event or record",
+            "Fact to retain",
+            "What it cannot prove alone"
+          ],
+          "rows": [
+            [
+              "Initial delivery",
+              "Actual recipient, date, FDD version and attachments",
+              "That a different version or missing exhibit was also furnished"
+            ],
+            [
+              "Signed prescribed receipt",
+              "The actual acknowledgement and identified package",
+              "That every term was read, accepted or waived"
+            ],
+            [
+              "Planned agreement or payment",
+              "The relevant event and its actual date",
+              "That the independent federal and state timetable has been satisfied"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "fed-fdd-23"
         ]
       },
       {
@@ -2076,7 +3144,8 @@
         ],
         "sourceIds": [
           "fed-fdd-23"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -2108,6 +3177,13 @@
         "meaning": "Information identifying which dated document and attachments were actually provided."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.777Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.556Z",
+    "seoTitle": "FDD Item 23: Receipts and Disclosure Delivery Records",
+    "relatedPaths": [
+      "/fdd/item-5/",
+      "/fdd/item-22/",
+      "/us-expansion/fdd-disclosure-timing/",
+      "/us-expansion/electronic-fdd-vs-learning-tools/"
+    ]
   }
 ]

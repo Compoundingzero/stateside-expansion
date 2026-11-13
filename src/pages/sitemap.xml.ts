@@ -1,2 +1,7 @@
 import {published,tools} from '../lib/content';
-export const GET=({site}:{site:URL})=>{const paths=['/','/guides/','/tools/','/coverage/','/methodology/','/privacy/','/sources/','/interest/','/contact/',...tools.map(t=>'/tools/'+t.slug+'/'),...published.map(g=>g.path)];const xml='<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+[...new Set(paths)].map(p=>'<url><loc>'+new URL(p,site).href.replaceAll('&','&amp;')+'</loc></url>').join('')+'</urlset>';return new Response(xml,{headers:{'Content-Type':'application/xml'}})};
+import {publicSitemapEntries} from '../lib/article-presentation';
+const xmlEscape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&apos;');
+export const GET=({site}:{site:URL})=>{
+  const urls=publicSitemapEntries(published,tools).map(entry=>'<url><loc>'+xmlEscape(new URL(entry.path,site).href)+'</loc>'+(entry.lastmod?'<lastmod>'+xmlEscape(entry.lastmod)+'</lastmod>':'')+'</url>').join('');
+  return new Response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+urls+'</urlset>',{headers:{'Content-Type':'application/xml'}});
+};

@@ -1,0 +1,203 @@
+{
+  "baseCommit": "d39eeb8d33c7044e7907a81f41d6a848d6a34594",
+  "scope": "Search presentation, curated reading paths and article-specific teaching using existing cited facts",
+  "publishedArticles": 278,
+  "publicationDecisionsChanged": false,
+  "sourceEvidenceAutomaticallyReverified": false,
+  "sourceReviewDatesAutomaticallyRefreshed": false,
+  "batchFiles": [
+    "fdd-patches.json",
+    "federal-patches.json",
+    "origins-patches.json",
+    "states-patches.json",
+    "industries-cases-patches.json",
+    "places-decisions-patches.json"
+  ],
+  "verificationDependentExpansions": [
+    {
+      "id": "b3-planning-business-opportunity-rule",
+      "path": "/us-expansion/business-opportunity-rule/",
+      "remainingQuestion": "The article openly preserves a material cross-reference uncertainty, but that issue is buried after the coverage discussion and has visible spacing defects around section symbols and dollar amounts; readers need the unresolved conclusion to remain inseparable from any extracted answer."
+    },
+    {
+      "id": "b3-planning-workplace-safety",
+      "path": "/us-expansion/workplace-safety/",
+      "remainingQuestion": "The article rightly disclaims every task-specific standard, but the central example stops at gathering records, so a beginner still cannot distinguish a statutory control from a customer induction requirement."
+    },
+    {
+      "id": "b3-planning-employment-verification",
+      "path": "/us-expansion/employment-verification/",
+      "remainingQuestion": "The title asks who completes the I-9, while the only worked dates concern retention; the guide explicitly says current USCIS instructions remain unverified, a material limitation for someone about to hire."
+    },
+    {
+      "id": "b3-planning-worker-classification",
+      "path": "/us-expansion/worker-classification/",
+      "remainingQuestion": "The current title asks for a classification result while much of the article explains changing source status; expressly unreconciled opinion references and unchecked latest dockets limit any concise claim about the current governing framework."
+    },
+    {
+      "id": "b3-planning-joint-employer",
+      "path": "/us-expansion/joint-employer/",
+      "remainingQuestion": "The dated source history is responsible but dense, and readers can easily transfer the NLRA control standard to overtime; the current body expressly lacks a full governing-court survey, so stronger outcome guidance needs new verification."
+    },
+    {
+      "id": "b3-planning-product-safety",
+      "path": "/us-expansion/product-safety/",
+      "remainingQuestion": "The page combines two major search intents and several deadlines, while acknowledging a time-sensitive enforcement policy and different FTZ phase date; an extracted summary could otherwise confuse paperwork grace with safety-reporting duties."
+    },
+    {
+      "id": "b3-planning-cross-border-data",
+      "path": "/us-expansion/cross-border-data/",
+      "remainingQuestion": "The threshold table is useful, but readers meet many defined categories before seeing how they fit one decision; implementation remains expressly unresolved and the source-date conflict must not vanish from a compressed answer."
+    },
+    {
+      "id": "foreign-financials",
+      "path": "/us-expansion/foreign-financial-statements/",
+      "remainingQuestion": "The title invites an acceptance answer but the current page properly leaves SEC treatment and exact statement scope unresolved; its central learning distinction is preparation versus audit, which deserves a concrete comparison rather than reliance on a 2008 explanation."
+    },
+    {
+      "id": "b2-origin-philippines",
+      "path": "/from/philippines/",
+      "remainingQuestion": "The article already has two cash schedules and a worked operating example. Its decision-usefulness is constrained by the explicitly unreviewed later-circular question, not by missing general definitions or a lack of practical actions."
+    },
+    {
+      "id": "b2-origin-thailand",
+      "path": "/from/thailand/",
+      "remainingQuestion": "The current page already gives the USD 10 million versus USD 1million conflict and exact-boundary caution. Readers still cannot apply a dated receipt/use decision because the underlying instruments and complete timing exceptions were not translated and reviewed."
+    },
+    {
+      "id": "b2-origin-vietnam",
+      "path": "/from/vietnam/",
+      "remainingQuestion": "The article correctly leaves treaty status open and does not treat absence from an index as a complete legal conclusion. That unresolved status is the central missing fact for the royalty search intent; another generic export checklist would not solve it."
+    },
+    {
+      "id": "b3-o2-poland",
+      "path": "/from/poland/",
+      "remainingQuestion": "The readable-copy versus XML and acceptance distinction is already taught well. The unresolved issue is who is covered at the current transition point; a more confident applicability table cannot be made from the page’s present broad confirmation instruction alone."
+    },
+    {
+      "id": "b3-o2-luxembourg",
+      "path": "/from/luxembourg/",
+      "remainingQuestion": "The current text already distinguishes the reports and contains a practical two-recipient example. Its stated unreviewed later amendments and filing details are the precise barrier to stronger procedural advice, not missing educational structure."
+    },
+    {
+      "id": "b3-o2-latvia",
+      "path": "/from/latvia/",
+      "remainingQuestion": "The six-month rule and statutory exceptions are already present. The article’s central zero-rate claim still depends on a required export-document list that the page expressly has not verified; completing that narrow evidence route would add more value than another export overview."
+    },
+    {
+      "id": "b3-origin3-guide-bulgaria",
+      "path": "/from/bulgaria/",
+      "remainingQuestion": "The current article already discloses the precise source conflicts and warns that an order is not authorisation. A reader cannot safely turn its packet into an operational application sequence until those identified references are reconciled."
+    },
+    {
+      "id": "b3-origin3-guide-malta",
+      "path": "/from/malta/",
+      "remainingQuestion": "The current glossary says these are different positions but does not teach their substance, while the article relies repeatedly on the numbers. The sale/purchase distinction and nonbinding-note caveat already exist; adding eligibility/status content requires a careful current-Act check."
+    },
+    {
+      "id": "b3-origin3-guide-cyprus",
+      "path": "/from/cyprus/",
+      "remainingQuestion": "The article already names MM2/MM18, the March2026 form and reasonable-inquiry responsibilities. The missing firm answer is eligibility to use this office-of-origin route, which the text expressly leaves unresolved because the source wording is imprecise."
+    },
+    {
+      "id": "b3-origin3-guide-iceland",
+      "path": "/from/iceland/",
+      "remainingQuestion": "The article already distinguishes Article 12 and older English conditions clearly. Its actual unanswered barrier is the inaccessible current Regulation 194/1990 evidence, not a missing general explanation of foreign billing or local property."
+    },
+    {
+      "id": "b3-o4-north-macedonia",
+      "path": "/from/north-macedonia/",
+      "remainingQuestion": "The page already explains the key partial-transfer problem and warns about the contradictory translated subsidiary example. Detailed tabs were not retrieved, so a procedural expansion needs targeted evidence rather than prose confidence."
+    },
+    {
+      "id": "b3-o4-moldova",
+      "path": "/from/moldova/",
+      "remainingQuestion": "The statutory branch and 2025 amendment are already taught clearly, including the stale FAQ omission. The missing current implementing conditions—not a generic overseas-account introduction—limit a more actionable answer to actual account use."
+    },
+    {
+      "id": "b3-o4-bosnia",
+      "path": "/from/bosnia-and-herzegovina/",
+      "remainingQuestion": "The title correctly limits the entity jurisdiction and the body clearly holds the November 11 announcement short of operative law. That execution-critical hold is absent from the introductory summary and the actual new regulation remains unretrieved."
+    },
+    {
+      "id": "b2-east-guide-arkansas",
+      "path": "/states/arkansas/",
+      "remainingQuestion": "The current title promises an existing-operator answer, but most of the body establishes the status and application of amendments; its own limits leave the present consolidated-law reconciliation open."
+    },
+    {
+      "id": "b2-east-guide-colorado",
+      "path": "/states/colorado/",
+      "remainingQuestion": "The article already explains notice well and expressly supplies no current compensation amount; a reader researching a current Colorado hiring restriction still cannot complete that condition from this page."
+    },
+    {
+      "id": "b2-east-guide-florida",
+      "path": "/states/florida/",
+      "remainingQuestion": "The article is candid about the essential form/fee gap, while its current title invites an immediate filing action; verified completion details would materially improve utility and search-intent satisfaction."
+    },
+    {
+      "id": "b2-east-guide-georgia",
+      "path": "/states/georgia/",
+      "remainingQuestion": "The rights teaching and record table are already strong; the unresolved historical sales-law source is the boundary that must remain clear when this broad state path appears for franchise-law queries."
+    },
+    {
+      "id": "state-guide-hawaii",
+      "path": "/states/hawaii/",
+      "remainingQuestion": "The page already has a useful consistency table and worked example, but its filing title can attract readers needing rules the body explicitly has not established, especially offer timing and statement age."
+    },
+    {
+      "id": "state-guide-illinois",
+      "path": "/states/illinois/",
+      "remainingQuestion": "The finance explanation and renewal tips are useful, but the broad filing intent includes initial effectiveness and current submission facts the article expressly has not established."
+    },
+    {
+      "id": "b2-east-guide-louisiana",
+      "path": "/states/louisiana/",
+      "remainingQuestion": "The body already prevents several serious overgeneralisations, but it tells readers seller and agent amounts differ without supplying a cost-ready reference; the 60-day bond period is also particularly vulnerable to being quoted without its actor and scope."
+    },
+    {
+      "id": "b2-east-guide-massachusetts",
+      "path": "/states/massachusetts/",
+      "remainingQuestion": "The current body is a careful framework and explicitly leaves relevant case-law application open; that boundary matters for readers searching whether a franchise owner or technician is an employee."
+    },
+    {
+      "id": "state-guide-michigan-disclosure-timing",
+      "path": "/states/michigan/franchise-disclosure-timing/",
+      "remainingQuestion": "A glossary, concrete holiday scenario and input table already exist; the remaining substantive teaching opportunity is an actual defensible calculation, which cannot be supplied by editorial confidence alone."
+    },
+    {
+      "id": "b2-west-a-new-jersey",
+      "path": "/states/new-jersey/",
+      "remainingQuestion": "The article candidly reports that the full current codification was unavailable and that the opinion tested allegations. This is a substantive source-completeness gap, not a readability defect that a new headline, source date or stronger assurance can cure."
+    },
+    {
+      "id": "b2-west-oklahoma",
+      "path": "/states/oklahoma/",
+      "remainingQuestion": "The statutory route, location factors and conditional effectiveness are well explained. The page explicitly reports an unavailable administrative advertising rule, so expanding the campaign answer requires actual source review rather than stronger editorial confidence or removal of the limitation."
+    },
+    {
+      "id": "b2-west-tennessee",
+      "path": "/states/tennessee/",
+      "remainingQuestion": "The article is candid that its FAQs are dated and its consumer-agency source is not franchise statutory text. Closing those current-law questions needs actual source review; a more confident title, updated review date or assumption from failed access would not supply the missing evidence."
+    },
+    {
+      "id": "b3-planning-houston-occupancy",
+      "path": "/cities/houston/",
+      "remainingQuestion": "The body deliberately relies on a limited city summary because detailed permitting PDFs were inaccessible. It can answer a narrow occupancy-preparation intent, but a complete Houston opening procedure would exceed the evidence."
+    },
+    {
+      "id": "b3-local-indianapolis-fire",
+      "path": "/cities/indianapolis/fire-extinguisher-licenses/",
+      "remainingQuestion": "The article combines a narrow trade-licensing answer with a materially different premises document. Its old forms and carefully qualified 2026 letter should not be blended into one current application recipe."
+    },
+    {
+      "id": "geo-guide-dallas",
+      "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+      "remainingQuestion": "The body explicitly records inconsistent Dallas wording. The supported tenant-change answer is publishable as scoped, while a definite DBA-only instruction would require fresh verification rather than editorial simplification."
+    },
+    {
+      "id": "geo-compare-texas-occupancy",
+      "path": "/comparisons/dallas-san-antonio-occupancy/",
+      "remainingQuestion": "The article already acknowledges the Dallas conflict later, but the compact table describes a separate record-change route more confidently. Standalone comparison cells need the same uncertainty as the detailed city page."
+    }
+  ]
+}

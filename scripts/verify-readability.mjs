@@ -3,7 +3,7 @@ import {execFileSync} from 'node:child_process';
 import {isDeepStrictEqual} from 'node:util';
 import {createHash} from 'node:crypto';
 const manifest=JSON.parse(await readFile('research/readability/manifest.json','utf8'));
-const editorial=new Set(['title','description','sections','practicalOutput','limitations','readMinutes','learningSummary','keyTerms','contentModifiedAt']);
+const editorial=new Set(['title','description','sections','practicalOutput','limitations','readMinutes','learningSummary','keyTerms','contentModifiedAt','seoTitle','relatedPaths','learningPath']);
 const immutable=g=>Object.fromEntries(Object.entries(g).filter(([k])=>!editorial.has(k)));
 const data=await readdir('src/data');let modified=0,unpublishedPreserved=0,published=0;
 const rows=[];

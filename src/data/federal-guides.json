@@ -12,7 +12,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-relationship-definition"
     ],
@@ -25,7 +25,8 @@
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Keep the definition and an exemption separate",
@@ -36,17 +37,49 @@
         "sourceIds": [
           "fed-exemptions",
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a maintenance brand builds a partner system",
         "paragraphs": [
           "A European maintenance company proposes branded vans, a licence fee, mandatory scheduling software, initial training and required inspection methods. Its sales director initially treats these as separate purchases. Read together, however, they describe how the partner will operate the service.",
-          "The reviewer asks what the training covers, how much discretion the partner keeps, what the software controls and which payments are unavoidable. Software alone does not settle the test. Separating the licence, training and software charges into three invoices does not remove the need to examine them together. The next step is to establish the facts, not to announce a legal result."
+          "The reviewer asks what the training covers, how much discretion the partner keeps, what the software controls and which payments are unavoidable. Software alone does not settle the test. Separating the licence, training and software charges into three invoices does not remove the need to examine them together. The next step is to establish the facts, not to announce a legal result.",
+          "This is the starting page for the complete federal relationship inquiry. The support, payment-exemption and single-license guides answer narrower questions after the facts are assembled. Splitting invoices or changing the contract heading does not remove the need to examine those facts together."
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional relationship element",
+            "Evidence in the maintenance plan",
+            "Question to resolve"
+          ],
+          "rows": [
+            [
+              "Brand association",
+              "Branded vans and granted use of the name.",
+              "Identify the actual rights and how customers associate the operation with the mark."
+            ],
+            [
+              "Significant control or assistance",
+              "Mandatory scheduling software, training and inspection methods.",
+              "Describe their content, practical reach and importance to the overall operating method."
+            ],
+            [
+              "Required payment or commitment",
+              "A licence fee and the actual training/software arrangements.",
+              "Map required payments, recipients and commitments, including related companies where relevant."
+            ],
+            [
+              "Exclusions, exemptions and state law",
+              "The full arrangement is now described.",
+              "Apply each available route and independent state test; the table itself declares no legal result."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Prepare one account of the relationship",
@@ -63,7 +96,8 @@
         "sourceIds": [
           "fed-definition",
           "fed-exemptions"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -95,12 +129,19 @@
         "meaning": "A rule that removes specified duties when its particular conditions are met; it does not necessarily change the relationship’s definition."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.705Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.818Z",
+    "seoTitle": "Franchise vs licensing in the U.S.: the federal inquiry",
+    "relatedPaths": [
+      "/us-expansion/significant-control-assistance/",
+      "/us-expansion/minimum-payment-exemption/",
+      "/us-expansion/single-trademark-license/",
+      "/cases/qargo-license-label-review/"
+    ]
   },
   {
     "id": "control-assistance",
     "path": "/us-expansion/significant-control-assistance/",
-    "title": "When does support become a franchise operating system?",
+    "title": "When is support significant control or assistance?",
     "description": "Understand why training, software and service standards must be assessed together rather than counted as isolated features.",
     "family": "federal",
     "topic": "classification",
@@ -110,7 +151,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-control-assistance"
     ],
@@ -123,7 +164,8 @@
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Distinguish protecting the name from directing the business",
@@ -134,18 +176,50 @@
         "sourceIds": [
           "fed-compliance",
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: two different facilities-service documents",
         "paragraphs": [
           "A facilities brand has a short logo guide specifying colours and approved use of its name. It also has a “quality appendix” covering which accounts operators accept, staffing levels, sales scripts, mandatory software, service reports and remedial visits.",
-          "The operations director explains each instruction’s purpose and supplies examples of support calls. The reviewer can then distinguish trademark protection from a wider operating system. Calling the second document an appendix does not reduce its importance. Equally, finding one detailed requirement is not a substitute for assessing the complete relationship."
+          "The operations director explains each instruction’s purpose and supplies examples of support calls. The reviewer can then distinguish trademark protection from a wider operating system. Calling the second document an appendix does not reduce its importance. Equally, finding one detailed requirement is not a substitute for assessing the complete relationship.",
+          "Self-check: if no intervention has happened yet, can a contractual right to impose operating controls be left out? No. Include that right and promised assistance as well as actual conduct. The comparison helps explain the facts; it does not create a safe harbour for either document."
         ],
         "sourceIds": [
           "fed-compliance",
           "fed-definition"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional document requirement",
+            "Practical effect to describe",
+            "What not to infer"
+          ],
+          "rows": [
+            [
+              "Logo guide",
+              "Colours and approved use of the name.",
+              "The presence of a logo guide alone does not decide the full relationship."
+            ],
+            [
+              "Quality appendix: customer work",
+              "Rules about accepted accounts, staffing and sales scripts.",
+              "The appendix label does not remove their effect on business operation."
+            ],
+            [
+              "Quality appendix: systems and support",
+              "Mandatory software, reports and remedial visits.",
+              "A subscription or support feature is not automatically decisive in isolation."
+            ],
+            [
+              "Whole arrangement",
+              "Who can impose changes, actual practice and operator reliance.",
+              "Do not replace the complete inquiry with the number of pages or controls."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Build a control-and-support inventory",
@@ -162,7 +236,8 @@
         "sourceIds": [
           "fed-definition",
           "fed-compliance"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -193,7 +268,13 @@
         "meaning": "Requirements protecting the brand owner’s rights in its name or mark; their purpose and extent matter."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.818Z",
+    "seoTitle": "Significant control or assistance in a franchise system",
+    "relatedPaths": [
+      "/us-expansion/franchising-vs-licensing/",
+      "/us-expansion/trademark-quality-control/",
+      "/fdd/item-11/"
+    ]
   },
   {
     "id": "minimum-payment",
@@ -208,7 +289,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-minimum-payment"
     ],
@@ -221,7 +302,8 @@
         ],
         "sourceIds": [
           "fed-exemptions"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Read the commitment as well as the bank statement",
@@ -231,18 +313,50 @@
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a fee split into three parts",
         "paragraphs": [
           "A brand proposes a $300 initial fee and requires a $250 training payment and a $250 software commitment to its affiliate within the relevant period. Assuming all three are required payments within the rule, the total is $800. Looking only at the $300 initial invoice would miss the relevant total.",
-          "The brand then suggests collecting the software money later. Finance still needs to show when the obligation is undertaken, not merely the proposed collection date. The reviewer must decide the actual treatment from the agreement and business facts; this illustration does not establish an exemption for a real transaction."
+          "The brand then suggests collecting the software money later. Finance still needs to show when the obligation is undertaken, not merely the proposed collection date. The reviewer must decide the actual treatment from the agreement and business facts; this illustration does not establish an exemption for a real transaction.",
+          "Self-check: would exactly $735 satisfy this amount condition? No: the comparison is less than $735, not $735 or less. Moving a collection date does not establish that the payment commitment moved. In a real schedule, leave an unpriced required purchase unknown until its amount and treatment are established; do not enter zero to make the total fit."
         ],
         "sourceIds": [
           "fed-exemptions",
           "fed-definition"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional payment item",
+            "Recipient and timing fact",
+            "Amount counted on the stated assumptions"
+          ],
+          "rows": [
+            [
+              "Initial fee",
+              "Brand; within the relevant period",
+              "$300"
+            ],
+            [
+              "Training",
+              "Required training payment within the relevant period",
+              "$250"
+            ],
+            [
+              "Software",
+              "Affiliate; required commitment within the relevant period",
+              "$250"
+            ],
+            [
+              "Combined total",
+              "All three are assumed required and within the rule’s period",
+              "$800: this is not less than $735"
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Produce a payment schedule that can be checked",
@@ -259,7 +373,8 @@
           "fed-exemptions",
           "fed-definition",
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -291,7 +406,14 @@
         "meaning": "The combined total, rather than each invoice considered separately."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.818Z",
+    "seoTitle": "The $735 franchise exemption: payments and commitments",
+    "relatedPaths": [
+      "/us-expansion/franchising-vs-licensing/",
+      "/us-expansion/business-opportunity-rule/",
+      "/fdd/item-5/",
+      "/fdd/item-8/"
+    ]
   },
   {
     "id": "single-license",
@@ -306,7 +428,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-single-license"
     ],
@@ -320,7 +442,8 @@
         "sourceIds": [
           "fed-compliance",
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Understand what the historical opinion can establish",
@@ -331,18 +454,50 @@
         "sourceIds": [
           "fed-single-opinion",
           "fed-compliance"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: “exclusive” rights in three states",
         "paragraphs": [
           "A European service brand proposes a Texas licence for Company A, a California licence for Company B and an Illinois licence for Company C. Each agreement says the local company is the sole licensee in its state. There are nevertheless three proposed licensees in the overall plan. State-by-state exclusivity does not turn that plan into a single-license arrangement.",
-          "Conversely, counting buildings alone can be misleading where a single licensee runs several outlets. That distinction is a reason to obtain a complete factual review, not a conclusion that any multi-outlet arrangement qualifies."
+          "Conversely, counting buildings alone can be misleading where a single licensee runs several outlets. That distinction is a reason to obtain a complete factual review, not a conclusion that any multi-outlet arrangement qualifies.",
+          "The register counts actual legal entities, not trading names or state labels. Its purpose is to let the reviewer ask the precise single-license question using the complete plan. The nonbinding, fact-specific 2005 opinion is not a current approval simply because the applicant also starts with one agreement."
         ],
         "sourceIds": [
           "fed-single-opinion",
           "fed-compliance"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional grant-plan comparison",
+            "Count and fact to record",
+            "What the count does not establish"
+          ],
+          "rows": [
+            [
+              "Company A in Texas, B in California and C in Illinois",
+              "Three proposed legal licensees across the plan.",
+              "Each state’s exclusive wording does not turn three licensees into one."
+            ],
+            [
+              "One licensee with several outlets",
+              "One recipient of rights and multiple operating locations.",
+              "Counting buildings alone does not determine the narrow treatment or its conditions."
+            ],
+            [
+              "Intended later independent licensees",
+              "Record planned grants alongside existing agreements.",
+              "The first signed contract cannot be isolated from the intended licensing plan."
+            ],
+            [
+              "Authority and state scope",
+              "Historical staff opinion and explanatory guide, with their stated limits.",
+              "Neither supplies a binding ruling for this plan or removes independent state questions."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Prepare a grant register before relying on the shorthand",
@@ -360,7 +515,8 @@
           "fed-compliance",
           "fed-single-opinion",
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -392,7 +548,13 @@
         "meaning": "An agency staff view on represented facts, which may be nonbinding rather than a Commission ruling."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.818Z",
+    "seoTitle": "Single trademark licence: licensees, outlets and future grants",
+    "relatedPaths": [
+      "/us-expansion/franchising-vs-licensing/",
+      "/us-expansion/state-offer-sale-facts/",
+      "/fdd/item-13/"
+    ]
   },
   {
     "id": "offer-sale-facts",
@@ -407,7 +569,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-state-overlays"
     ],
@@ -420,7 +582,8 @@
         ],
         "sourceIds": [
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Describe what happens before the final agreement",
@@ -431,17 +594,54 @@
         "sourceIds": [
           "fed-states",
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: New York buyer, Florida operation",
         "paragraphs": [
           "A Singapore parent speaks with a prospective partner who lives in New York about a Florida operation. A U.S. subsidiary will sell the rights, and a broker introduces the parties. A worksheet containing only “Florida outlet” leaves important facts out.",
-          "The expansion lead adds each entity’s identity, each participant’s location, the proposed communications, the intended contracting party and any deposit. The reviewer can then examine the relevant state connections and exemptions. The example does not decide that a particular New York or Florida filing is required; it shows why a fuller map is needed before that decision."
+          "The expansion lead adds each entity’s identity, each participant’s location, the proposed communications, the intended contracting party and any deposit. The reviewer can then examine the relevant state connections and exemptions. The example does not decide that a particular New York or Florida filing is required; it shows why a fuller map is needed before that decision.",
+          "The map does not prove that every listed place triggers a filing. It separates the facts needed to examine each jurisdiction from the eventual conclusion under its law. Use the state guides for the named questions, and keep actual operating permissions in additional checks."
         ],
         "sourceIds": [
           "fed-states"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional transaction-map entry",
+            "Known fact",
+            "Question to research separately"
+          ],
+          "rows": [
+            [
+              "Buyer",
+              "The prospective partner lives in New York.",
+              "What does the applicable state law do with that fact?"
+            ],
+            [
+              "Proposed operation",
+              "The outlet will be in Florida.",
+              "Which Florida model, filing and sales provisions apply to the actual transaction?"
+            ],
+            [
+              "Seller",
+              "A U.S. subsidiary, rather than necessarily the Singapore parent, will sell the rights.",
+              "Identify its legal name and relevant locations."
+            ],
+            [
+              "Communications and money",
+              "A broker introduces the parties; record meetings, messages and any deposit.",
+              "Where do the actual offers originate or arrive, and what do they contain?"
+            ],
+            [
+              "State-requirement columns",
+              "Classification, registration, notice, exemption, disclosure, advertising and relationship.",
+              "Leave an unresearched cell unresolved rather than filling it with no requirement."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Use separate columns for separate duties",
@@ -453,7 +653,8 @@
           "fed-states",
           "fed-definition",
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -485,7 +686,14 @@
         "meaning": "A fact linking the activity to a state, sometimes called nexus; its legal importance depends on the particular rule."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.818Z",
+    "seoTitle": "State franchise sales: map buyer, seller and offer locations",
+    "relatedPaths": [
+      "/states/new-york/",
+      "/states/florida/",
+      "/comparisons/registration-vs-notice/",
+      "/us-expansion/fdd-disclosure-timing/"
+    ]
   },
   {
     "id": "disclosure-timing",
@@ -500,7 +708,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-fourteen-days"
     ],
@@ -513,7 +721,8 @@
         ],
         "sourceIds": [
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Find the first commitment in the actual sales process",
@@ -524,17 +733,49 @@
         "sourceIds": [
           "fed-timing",
           "fed-instructions"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: the deposit comes first",
         "paragraphs": [
           "A Dutch industrial-services brand expects to sign a franchise agreement near the end of a month. Its sales manager asks the candidate to pay a territory deposit earlier so another applicant cannot take the area. The manager has calculated the disclosure timetable only from the final signing date.",
-          "The disclosure coordinator adds the deposit request to the timetable and sends its terms for review. If it is a relevant payment, the waiting period must be satisfied before that earlier event. Postponing the final signature would not cure a premature payment. The team checks state requirements and any later agreement changes separately; this example does not decide the treatment of a particular reservation."
+          "The disclosure coordinator adds the deposit request to the timetable and sends its terms for review. If it is a relevant payment, the waiting period must be satisfied before that earlier event. Postponing the final signature would not cure a premature payment. The team checks state requirements and any later agreement changes separately; this example does not decide the treatment of a particular reservation.",
+          "Self-check: if the team has allowed 14 calendar days before final signing, has it necessarily checked the proposed earlier deposit? No. It must identify the relevant event and establish the permitted delivery and counting facts. This sequence supplies no legal treatment for a particular reservation and no invented delivery date."
         ],
         "sourceIds": [
           "fed-timing"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional sales sequence",
+            "What the coordinator records",
+            "Why the order matters"
+          ],
+          "rows": [
+            [
+              "Formal disclosure",
+              "Current FDD, agreements, recipient, method and relevant delivery evidence.",
+              "A learning-site visit does not establish this event."
+            ],
+            [
+              "Proposed territory deposit",
+              "The earlier request, its terms, payee and planned date.",
+              "If it is a relevant payment, assess the waiting period before this event rather than only the later signature."
+            ],
+            [
+              "Final agreement",
+              "The planned signing near month-end.",
+              "Moving this later does not cure a premature relevant payment."
+            ],
+            [
+              "Other timing questions",
+              "Applicable state rules and any later agreement changes.",
+              "The federal general period does not answer these separate requirements."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Maintain a prospect-specific disclosure log",
@@ -551,7 +792,8 @@
         "sourceIds": [
           "fed-timing",
           "fed-instructions"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -582,7 +824,14 @@
         "meaning": "Days counted on the calendar, rather than only working days; apply the rule’s actual counting and delivery requirements."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.819Z",
+    "seoTitle": "FDD disclosure timing: agreements, deposits and delivery",
+    "relatedPaths": [
+      "/us-expansion/changed-franchise-agreement/",
+      "/us-expansion/electronic-fdd-vs-learning-tools/",
+      "/states/michigan/franchise-disclosure-timing/",
+      "/fdd/item-23/"
+    ]
   },
   {
     "id": "changed-agreements",
@@ -597,7 +846,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-seven-day-change"
     ],
@@ -610,7 +859,8 @@
         ],
         "sourceIds": [
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Keep prospect-initiated negotiations distinguishable",
@@ -621,17 +871,44 @@
         "sourceIds": [
           "fed-timing",
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: two changes with different histories",
         "paragraphs": [
           "After providing its FDD, a brand decides all new operators must pay a new field-support charge. The prospect did not request it. The team preserves the old and new provisions and asks whether this is a unilateral material change requiring revised-agreement delivery and the seven-calendar-day period. An informal sales assurance cannot answer that question.",
-          "In the same transaction, the prospect asks to alter a territory boundary during negotiations. That change has a different origin. The file should show the request and negotiations rather than combine both changes under one label. Neither example supplies a universal materiality ruling or decides state-law requirements."
+          "In the same transaction, the prospect asks to alter a territory boundary during negotiations. That change has a different origin. The file should show the request and negotiations rather than combine both changes under one label. Neither example supplies a universal materiality ruling or decides state-law requirements.",
+          "The marked comparison explains what changed; the request or decision record explains who initiated it. Neither alone establishes every materiality or state-law answer. Keep the general FDD timetable and independent state amendment or disclosure questions alongside this narrower revised-agreement review."
         ],
         "sourceIds": [
           "fed-timing"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional revision",
+            "Who initiated it",
+            "Separate federal timing question"
+          ],
+          "rows": [
+            [
+              "New field-support charge",
+              "The brand decides to add it; the prospect did not request it.",
+              "Assess whether it is a unilateral material change to the attached basic or related agreement requiring revised delivery at least seven calendar days before signing."
+            ],
+            [
+              "Changed territory boundary",
+              "The prospect raises the request in negotiations.",
+              "Changes arising from prospect-initiated negotiations do not trigger this particular seven-day period. Preserve the request and actual history."
+            ],
+            [
+              "Both edits in one final document",
+              "The file contains two different origins.",
+              "Do not classify every edit together as negotiated or assume every edit restarts every clock."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Give legal, sales and operations distinct jobs",
@@ -649,7 +926,8 @@
           "fed-timing",
           "fed-prohibitions",
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -681,7 +959,13 @@
         "meaning": "An additional agreement attached to the FDD as part of the proposed arrangement."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.819Z",
+    "seoTitle": "Revised franchise agreements: the seven-day trigger",
+    "relatedPaths": [
+      "/us-expansion/fdd-disclosure-timing/",
+      "/us-expansion/fdd-updates-and-records/",
+      "/fdd/item-22/"
+    ]
   },
   {
     "id": "fdd-updates",
@@ -696,7 +980,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-fdd-updates"
     ],
@@ -710,7 +994,8 @@
         "sourceIds": [
           "fed-updates",
           "fed-states"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Collect changes from the people who know them",
@@ -720,28 +1005,81 @@
         ],
         "sourceIds": [
           "fed-updates"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: support is outsourced mid-year",
         "paragraphs": [
           "A French service brand transfers U.S. field support to a contractor after delivering its annual FDD. The operations lead records the new provider, changed personnel, service commitments and relevant contractual wording. The disclosure owner compares those facts with what prospects have been told.",
-          "The issue is not whether the next brochure looks outdated. It is whether assistance or other required information has materially changed, which updates or communications are needed, and which prospects received an earlier version. The team records that assessment while continuing to maintain its separate state filing calendar."
+          "The issue is not whether the next brochure looks outdated. It is whether assistance or other required information has materially changed, which updates or communications are needed, and which prospects received an earlier version. The team records that assessment while continuing to maintain its separate state filing calendar.",
+          "A team member reports the business event; the responsible reviewer assesses its disclosure effect. These are practical internal assignments, not a requirement that every manager decide legal materiality. The specific Item 19 communication duty and the distinct retention descriptions below remain separate checks."
         ],
         "sourceIds": [
           "fed-updates",
           "fed-states"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional support-change entry",
+            "Fact to record",
+            "Disclosure work to assess"
+          ],
+          "rows": [
+            [
+              "Business event",
+              "U.S. field support moves to a contractor mid-year.",
+              "Compare the new arrangement with the support and personnel information already disclosed."
+            ],
+            [
+              "Promised performance",
+              "Record changed provider, people, commitments and contract wording.",
+              "Determine whether required information has materially changed; a brochure-design date is not the test."
+            ],
+            [
+              "Affected prospects",
+              "Identify who received each earlier version.",
+              "Retain the actual files and assess needed updates or communications without overwriting them."
+            ],
+            [
+              "Separate calendars",
+              "Record annual/quarterly federal work and each state’s filing dates.",
+              "One annual update does not absorb the other applicable change duties."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Keep old versions and completed-sale receipts",
         "paragraphs": [
           "The federal rule requires materially different FDD versions to be kept for three years after the close of the fiscal year in which each was last used (§ 436.6(h)). Signed receipts for completed sales must be kept for at least three years (§ 436.6(i)). These are different retention descriptions.",
-          "Use a controlled repository with a named owner. Preserve the actual files furnished, their use dates and the matching prospect records. Replacing an old file with an edited document of the same name destroys the ability to explain what was disclosed at the time."
+          "Use a controlled repository with a named owner. Preserve the actual files furnished, their use dates and the matching prospect records. Replacing an old file with an edited document of the same name destroys the ability to explain what was disclosed at the time.",
+          "These rows are not one universal deletion date. Keep the actual record category and the rule’s own description; do not make the FDD version disappear merely because a different transaction record has reached an assumed retention date."
         ],
         "sourceIds": [
           "fed-instructions"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Existing federal record category",
+            "Retention description in the cited rule",
+            "Starting fact to preserve"
+          ],
+          "rows": [
+            [
+              "Materially different FDD version",
+              "Three years after the close of the fiscal year in which it was last used.",
+              "Last use and the relevant fiscal-year close."
+            ],
+            [
+              "Signed receipt for a completed sale",
+              "At least three years.",
+              "The completed-sale receipt and matching transaction record."
+            ]
+          ]
+        },
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -773,7 +1111,14 @@
         "meaning": "The FDD item addressing financial performance representations, such as specified sales or profit claims."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.819Z",
+    "seoTitle": "FDD updates and records: annual, quarterly and retention duties",
+    "relatedPaths": [
+      "/us-expansion/financial-performance-representations/",
+      "/us-expansion/changed-franchise-agreement/",
+      "/fdd/item-11/",
+      "/fdd/item-23/"
+    ]
   },
   {
     "id": "performance-representations",
@@ -788,7 +1133,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-item19-claims"
     ],
@@ -802,7 +1147,8 @@
         "sourceIds": [
           "fed-definition",
           "fed-prohibitions"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Answer Item 19 even when choosing not to make a claim",
@@ -813,19 +1159,51 @@
         "sourceIds": [
           "fed-instructions",
           "fed-prohibitions"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: $1 million of Singapore cleaning revenue",
         "paragraphs": [
           "A Singapore cleaning outlet reports annual revenue equivalent to US$1 million. The brand wants to put that figure beside a U.S. territory map. Finance can verify the currency conversion, but that does not establish what a U.S. operator will sell or retain as profit.",
-          "The reader needs to understand the operating period, customer mix, included outlets and whether costs are omitted. U.S. management pay, insurance, collections and local sales costs may differ. Selecting one strong outlet may also give a misleading picture of the wider group. The reviewer therefore examines the proposed claim, relevant data and material differences, rather than approving a headline because its arithmetic is correct."
+          "The reader needs to understand the operating period, customer mix, included outlets and whether costs are omitted. U.S. management pay, insurance, collections and local sales costs may differ. Selecting one strong outlet may also give a misleading picture of the wider group. The reviewer therefore examines the proposed claim, relevant data and material differences, rather than approving a headline because its arithmetic is correct.",
+          "The second use changes the audience and surrounding message, not the underlying Singapore accounts. The team must assess the actual claim and its applicable treatment. This comparison supplies neither an approved U.S. forecast nor compliant replacement wording; the advertising guide addresses live versions, while Item 19 explains the disclosure content."
         ],
         "sourceIds": [
           "fed-definition",
           "fed-instructions",
           "fed-prohibitions"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional use of the same revenue figure",
+            "What the audience sees",
+            "Question to resolve"
+          ],
+          "rows": [
+            [
+              "Internal planning",
+              "Finance examines the Singapore outlet’s US$1 million revenue.",
+              "What does the figure include, and what assumptions would a U.S. plan need?"
+            ],
+            [
+              "Recruitment pitch",
+              "The figure appears beside a proposed U.S. territory map.",
+              "What actual or potential result would a prospective franchisee understand it to represent?"
+            ],
+            [
+              "Supporting context",
+              "Record period, customer mix, units, currency, costs and market differences.",
+              "A correct conversion does not establish U.S. sales, profit or compliance with the representation requirements."
+            ],
+            [
+              "Disclosure choice",
+              "The brand decides whether it proposes to make a representation.",
+              "Even choosing not to make one requires the prescribed Item 19 negative disclosure; private figures have no blanket exemption."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Prepare a claim file before approving sales materials",
@@ -843,7 +1221,8 @@
         "sourceIds": [
           "fed-instructions",
           "fed-prohibitions"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -875,7 +1254,14 @@
         "meaning": "Revenue is sales income; profit depends on the relevant costs and calculation, so the figures are not interchangeable."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.706Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.819Z",
+    "seoTitle": "Home-market revenue in U.S. franchise earnings claims",
+    "relatedPaths": [
+      "/fdd/item-19/",
+      "/us-expansion/advertising-controls/",
+      "/us-expansion/broker-responsibilities/",
+      "/cases/tower-cleaning-earnings-and-records/"
+    ]
   },
   {
     "id": "master-v-area",
@@ -890,7 +1276,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-subfranchisor"
     ],
@@ -903,7 +1289,8 @@
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Why the intermediary’s role matters legally",
@@ -914,17 +1301,49 @@
         "sourceIds": [
           "fed-definition",
           "fed-fdd-21"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: four managed branches are not yet a network",
         "paragraphs": [
           "A French industrial-maintenance operator successfully manages four branches. It proposes recruiting independent U.S. owners under a master agreement. Its existing evidence shows that it can train employees and serve customers, but it has no franchise-sales process or dedicated owner-support team.",
-          "The brand compares two plans. An own-unit development plan builds on current delivery capability. A subfranchise plan requires additional people, sales controls, disclosure records and ongoing support funding. This is a commercial capability comparison, not a recommendation that one legal structure is available or preferable for the actual parties."
+          "The brand compares two plans. An own-unit development plan builds on current delivery capability. A subfranchise plan requires additional people, sales controls, disclosure records and ongoing support funding. This is a commercial capability comparison, not a recommendation that one legal structure is available or preferable for the actual parties.",
+          "In the fictional four-branch example, success with employees and customers supports one kind of capability. It does not establish an owner-recruitment process or funded support for independent franchisees. Follow the contracts, money and work in separate diagrams if needed; the actual conduct, rather than the title in this comparison, controls the relevant legal questions."
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Practical model comparison, not universal legal definitions",
+            "Who operates or contracts",
+            "Additional work to identify"
+          ],
+          "rows": [
+            [
+              "Own-unit operator",
+              "Delivers the service through its own business.",
+              "Managers, staff, customer contracts and service performance."
+            ],
+            [
+              "Area developer",
+              "Typically develops its own units over time.",
+              "The agreed development programme and capacity for those units."
+            ],
+            [
+              "Master arrangement",
+              "May grant subfranchises to independent owners.",
+              "Independent-owner recruitment, disclosure, contracting and recurring support."
+            ],
+            [
+              "Area representative",
+              "May recruit or support operators while the brand remains their contracting franchisor.",
+              "Actual pre-sale and post-sale conduct, contracts, payment flows and allocated duties."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Test the recurring costs, not just the first territory fee",
@@ -954,7 +1373,8 @@
               "Support headcount, training/visit budget, systems and escalation process"
             ]
           ]
-        }
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Turn the comparison into an accountable plan",
@@ -964,7 +1384,8 @@
         "sourceIds": [
           "fed-definition",
           "fed-fdd-21"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -998,7 +1419,14 @@
         "meaning": "A party that may help recruit or support operators while the brand remains their contracting franchisor."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.819Z",
+    "seoTitle": "Area development vs master franchising: roles and costs",
+    "relatedPaths": [
+      "/cases/branch-operator-versus-master-franchise/",
+      "/fdd/item-21/",
+      "/us-expansion/broker-responsibilities/",
+      "/us-expansion/territory-national-accounts/"
+    ]
   },
   {
     "id": "foreign-financials",
@@ -1013,7 +1441,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-foreign-financials"
     ],
@@ -1027,7 +1455,8 @@
         "sourceIds": [
           "fed-fdd-21",
           "fed-compliance"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Map the promises before choosing the accounts",
@@ -1037,18 +1466,50 @@
         ],
         "sourceIds": [
           "fed-fdd-21"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: the parent supplies the support",
         "paragraphs": [
           "A European group forms a U.S. company to sell franchises. Its presentations say the European parent will train every new operator and provide technical support. Finance initially budgets only for the subsidiary’s opening accounts.",
-          "The CFO collects the support wording, any guarantees and the proposed contracts. The reviewer and auditor identify the relevant entities, reporting dates, preparation basis and audit work. If reconciliation or additional statements are needed, that affects the timetable. The example identifies a preparation gap; it does not decide the exact statements required for that group."
+          "The CFO collects the support wording, any guarantees and the proposed contracts. The reviewer and auditor identify the relevant entities, reporting dates, preparation basis and audit work. If reconciliation or additional statements are needed, that affects the timetable. The example identifies a preparation gap; it does not decide the exact statements required for that group.",
+          "The proposed scope makes unanswered questions visible; it does not approve the existing accounts. Which companies supply statements, how the statements are prepared and how they are audited are three separate questions. Current acceptance, startup-phase-in eligibility and state financial-assurance treatment remain unresolved for the actual group."
         ],
         "sourceIds": [
           "fed-fdd-21",
           "fed-compliance"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional auditor-scope entry",
+            "Business evidence available",
+            "Question still to establish"
+          ],
+          "rows": [
+            [
+              "U.S. selling subsidiary",
+              "A new company will sell the franchise rights.",
+              "Which statements and periods are required for that actual entity and arrangement?"
+            ],
+            [
+              "European parent",
+              "Presentations promise parent training and technical support.",
+              "Assess those obligations and any guarantees when determining the required entities."
+            ],
+            [
+              "Preparation basis",
+              "The group has existing foreign accounts.",
+              "Current SEC-permitted treatment and any reconciliation need assessment; an audit alone does not answer the basis question."
+            ],
+            [
+              "Audit work and timing",
+              "The auditor is asked for a written scope and delivery plan.",
+              "Identify the required standards and remaining work before promising an FDD launch date."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Commission a written scope before sales promise a date",
@@ -1059,7 +1520,8 @@
         "sourceIds": [
           "fed-fdd-21",
           "fed-compliance"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1071,7 +1533,7 @@
     "limitations": [
       "This guide does not approve particular foreign accounts, SEC treatment or startup eligibility. State acceptance and financial-assurance conditions remain separate questions."
     ],
-    "learningSummary": "An established foreign business may already publish audited accounts. That is useful evidence, but it does not automatically satisfy the U.S. franchise disclosure requirements. The selling entity, supporting parent and any subfranchisor can affect which statements are needed.",
+    "learningSummary": "An established foreign business may already publish audited accounts. That is useful evidence, but it does not automatically satisfy the U.S. franchise disclosure requirements. The selling entity, supporting parent and any subfranchisor can affect which statements are needed. Current SEC-permitted treatment, the exact statement scope and any startup or state acceptance conditions still need assessment.",
     "keyTerms": [
       {
         "term": "Item 21",
@@ -1086,11 +1548,17 @@
         "meaning": "The standards governing the auditor’s examination; these are distinct from the preparation basis."
       },
       {
-        "term": "Financial-statement perimeter",
+        "term": "Companies whose accounts need review",
         "meaning": "The companies whose statements must be included, determined from the applicable rule and actual arrangement."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "Foreign audits for the FDD: entities, GAAP and audit scope",
+    "relatedPaths": [
+      "/fdd/item-21/",
+      "/us-expansion/master-franchise-vs-area-development/",
+      "/states/minnesota/franchise-support-funding/"
+    ]
   },
   {
     "id": "foreign-royalties",
@@ -1105,7 +1573,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-royalty-withholding"
     ],
@@ -1118,7 +1586,8 @@
         ],
         "sourceIds": [
           "fed-irs-withholding"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Show three cash lines instead of one royalty headline",
@@ -1128,17 +1597,42 @@
         ],
         "sourceIds": [
           "fed-irs-withholding"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: sensitivity, not a treaty quotation",
         "paragraphs": [
           "Assume an annual gross royalty of US$100,000 and a hypothetical 10% withholding rate solely to examine cash sensitivity. The payer withholds US$10,000, leaving US$90,000 for the foreign brand before support costs. The example does not identify an actual treaty rate for any country.",
-          "If the commercial plan had allocated the full US$100,000 to overseas support, it would now have a funding gap. Finance must resolve the actual rate, documentation and any gross-up terms before treating the support budget as funded. Correct arithmetic cannot establish entitlement to treaty relief."
+          "If the commercial plan had allocated the full US$100,000 to overseas support, it would now have a funding gap. Finance must resolve the actual rate, documentation and any gross-up terms before treating the support budget as funded. Correct arithmetic cannot establish entitlement to treaty relief.",
+          "For the second row only, assume the contract promises the brand a net US$100,000 after this hypothetical 10% deduction and no other adjustment. Dividing US$100,000 by 0.90 shows the illustrative gross amount; the displayed figures are rounded. This demonstrates a possible gross-up effect, not an actual treaty rate or interpretation of any contract. The payer’s cost and the brand’s support cash must each be modelled under the real terms."
         ],
         "sourceIds": [
           "fed-irs-withholding"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional cash sensitivity only",
+            "Gross paid",
+            "Hypothetical 10% withheld",
+            "Foreign brand receives"
+          ],
+          "rows": [
+            [
+              "Existing gross-royalty illustration",
+              "US$100,000",
+              "US$10,000",
+              "US$90,000 before support costs"
+            ],
+            [
+              "Separate conditional net-receipt illustration",
+              "About US$111,111.11",
+              "About US$11,111.11",
+              "US$100,000 after that deduction only"
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Give the reporting job a named owner",
@@ -1155,7 +1649,8 @@
         "sourceIds": [
           "fed-irs-withholding",
           "fed-irs-reporting"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1186,7 +1681,13 @@
         "meaning": "Contract wording that may increase the payer’s cost so the recipient receives a specified amount after withholding."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "U.S. royalties abroad: withholding, net cash and gross-up",
+    "relatedPaths": [
+      "/us-expansion/treaty-ownership/",
+      "/us-expansion/transfer-pricing/",
+      "/fdd/item-6/"
+    ]
   },
   {
     "id": "boi-current",
@@ -1201,7 +1702,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-boi-scope"
     ],
@@ -1209,12 +1710,13 @@
       {
         "heading": "Foreign ownership and foreign formation ask different questions",
         "paragraphs": [
-          "As recorded in the November 12, 2026 review,31 CFR 1010.380 exempts U.S.-created domestic entities. A nonexempt entity formed abroad and registered by filing in a U.S. state or tribal jurisdiction can remain a reporting company. The owners’ nationality alone does not answer which branch applies.",
+          "As recorded in the November 12, 2026 review, 31 CFR 1010.380 exempts U.S.-created domestic entities. A nonexempt entity formed abroad and registered by filing in a U.S. state or tribal jurisdiction can remain a reporting company. The owners’ nationality alone does not answer which branch applies.",
           "Read the entity’s formation record and the actual registration filing. A group may contain both a U.S.-created subsidiary and a foreign parent registered separately. A conclusion about one company is not automatically a conclusion about every company in the group."
         ],
         "sourceIds": [
           "fed-boi"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Use the narrowed rule and the relevant notice date",
@@ -1225,18 +1727,50 @@
         "sourceIds": [
           "fed-boi-final",
           "fed-boi"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: two Malaysian expansion structures",
         "paragraphs": [
           "In one plan, a Malaysian company creates a new U.S. subsidiary. In another, it registers the Malaysian entity itself to do business in a state. The first plan involves a U.S.-created entity; the second involves a foreign-formed entity and a U.S. registration event.",
-          "The company secretary records those differences and asks whether the foreign registration is in scope or covered by another exemption. The subsidiary’s domestic exemption does not decide a separate parent registration. Neither example determines the actual company’s complete reporting or tax position."
+          "The company secretary records those differences and asks whether the foreign registration is in scope or covered by another exemption. The subsidiary’s domestic exemption does not decide a separate parent registration. Neither example determines the actual company’s complete reporting or tax position.",
+          "This comparison applies the scope recorded in the November 2026 review; it is not a new legal update. Do not substitute foreign-owned for foreign-formed. Keep the entity’s BOI decision separate from IRS returns, state annual reports, banking and sanctions checks, and retain sensitive documents only in the authorised private process."
         ],
         "sourceIds": [
           "fed-boi",
           "fed-boi-final"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional Malaysian group structure",
+            "Creation or registration event",
+            "Separate BOI question"
+          ],
+          "rows": [
+            [
+              "New U.S. subsidiary",
+              "The entity is created in the United States.",
+              "Apply the recorded domestic-entity exemption rather than classifying it from the owner’s nationality."
+            ],
+            [
+              "Malaysian company registered in a state",
+              "The foreign-formed entity itself registers by the relevant filing.",
+              "Determine in-scope reporting-company status, any other exemption and applicable relief."
+            ],
+            [
+              "Both entities in one group",
+              "They have different formation and registration records.",
+              "The subsidiary’s result does not decide the parent’s separate registration."
+            ],
+            [
+              "Relevant foreign-registration notice",
+              "Record actual and public notice dates.",
+              "For the stated new in-scope branch, use the earlier notice and applicable relief in the 30-calendar-day analysis."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Keep a safe status record",
@@ -1247,7 +1781,8 @@
         "sourceIds": [
           "fed-boi",
           "fed-boi-final"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1278,12 +1813,18 @@
         "meaning": "A filing registering an already foreign-formed entity to do business in a U.S. state or tribal jurisdiction."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "FinCEN BOI: U.S.-created versus foreign-formed companies",
+    "relatedPaths": [
+      "/us-expansion/formation-vs-qualification/",
+      "/us-expansion/foreign-owned-us-company-irs-reporting/",
+      "/us-expansion/sanctions-screening/"
+    ]
   },
   {
     "id": "bea-investment",
     "path": "/us-expansion/bea-new-foreign-investment/",
-    "title": "Why a new U.S. investment needs a BEA reporting check",
+    "title": "BE-13: does a new U.S. investment need a report or exemption claim?",
     "description": "Choose acquisition, establishment or expansion before applying a form’s threshold or assuming no filing.",
     "family": "federal",
     "topic": "corporate-tax",
@@ -1293,7 +1834,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-be13-triage"
     ],
@@ -1306,7 +1847,8 @@
         ],
         "sourceIds": [
           "fed-bea-tree"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "The acquisition threshold is not a universal exemption",
@@ -1317,18 +1859,50 @@
         "sourceIds": [
           "fed-bea-form",
           "fed-bea-tree"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a modest service startup",
         "paragraphs": [
           "A Singapore services group creates a U.S. entity with a modest startup budget and no premises yet. Its management assumes it can ignore investment surveys because it has not bought a factory. The finance lead instead records that this is an establishment proposal, the group’s voting and equity interests, and expected costs.",
-          "The preparer follows the establishment branch and determines the applicable report or exemption claim. The group does not use the acquisition form’s cost threshold to close a different question. The illustration identifies the process; it does not select a form for an actual investment."
+          "The preparer follows the establishment branch and determines the applicable report or exemption claim. The group does not use the acquisition form’s cost threshold to close a different question. The illustration identifies the process; it does not select a form for an actual investment.",
+          "Self-check: does below US$40 million close the reporting question for this establishment? No. The reviewed greater-than-US$40-million acquisition condition belongs to BE-13A with its stated ownership condition. A different branch needs its own review, and a required Claim for Exemption is a response rather than doing nothing."
         ],
         "sourceIds": [
           "fed-bea-tree",
           "fed-bea-form"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional establishment entry",
+            "Fact in the service-startup plan",
+            "Decision still required"
+          ],
+          "rows": [
+            [
+              "Transaction branch",
+              "A new U.S. entity is being created.",
+              "Follow the establishment branch rather than assuming the acquisition form applies."
+            ],
+            [
+              "Ownership",
+              "Record the actual foreign voting and equity interests.",
+              "Apply the selected branch’s conditions; modest cost alone is not the complete analysis."
+            ],
+            [
+              "Costs and premises",
+              "The startup budget is modest and premises are not yet in place.",
+              "Do not infer no response from the absence of a factory or customer invoice."
+            ],
+            [
+              "Response and timing",
+              "Identify the relevant transaction event and preparer.",
+              "Determine the applicable report or Claim for Exemption, using the recorded 45-day timing and selected current instructions."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Put the reporting decision on the transaction calendar",
@@ -1339,7 +1913,8 @@
         "sourceIds": [
           "fed-bea-tree",
           "fed-bea-form"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1370,12 +1945,18 @@
         "meaning": "A prescribed response that can still be required when a full survey report is not; it is not the same as doing nothing."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "BE-13 reporting: new foreign investment and exemption claims",
+    "relatedPaths": [
+      "/us-expansion/formation-vs-qualification/",
+      "/us-expansion/foreign-owned-us-company-irs-reporting/",
+      "/us-expansion/foreign-financial-statements/"
+    ]
   },
   {
     "id": "foreign-owned-reporting",
     "path": "/us-expansion/foreign-owned-us-company-irs-reporting/",
-    "title": "Does a single-member U.S. LLC still have IRS reporting duties?",
+    "title": "Form 5472: can a single-member U.S. LLC have reporting duties?",
     "description": "Keep foreign-owner funding and related-company transactions on record even before the LLC earns revenue.",
     "family": "federal",
     "topic": "corporate-tax",
@@ -1385,7 +1966,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-5472-triage"
     ],
@@ -1398,7 +1979,8 @@
         ],
         "sourceIds": [
           "fed-irs-5472"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Record money movements before customers arrive",
@@ -1408,17 +1990,49 @@
         ],
         "sourceIds": [
           "fed-irs-5472"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a funded but dormant startup",
         "paragraphs": [
           "A foreign parent forms a wholly owned U.S. LLC and transfers funds for anticipated expenses. The LLC has no customer revenue at year-end. Its manager assumes there is no reporting work because trading has not started.",
-          "The tax preparer asks for the formation documents, ownership, funding agreement and transfer record. Those facts are needed to assess reportable transactions and special filing mechanics. No revenue does not establish that there were no relevant transactions. The example does not conclude which return the particular LLC owes; it explains why the funding record must reach the preparer."
+          "The tax preparer asks for the formation documents, ownership, funding agreement and transfer record. Those facts are needed to assess reportable transactions and special filing mechanics. No revenue does not establish that there were no relevant transactions. The example does not conclude which return the particular LLC owes; it explains why the funding record must reach the preparer.",
+          "Calling a transfer startup cash is not a complete transaction description. Give the preparer the actual agreement and money movement without declaring every item reportable. The optional record supports the analysis; it does not establish a return, deadline, exception or penalty for the LLC."
         ],
         "sourceIds": [
           "fed-irs-5472"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional dormant-startup transaction record",
+            "Evidence to retain",
+            "Question for the preparer"
+          ],
+          "rows": [
+            [
+              "Formation and ownership",
+              "Wholly owned U.S. LLC and its foreign owner.",
+              "Determine the reporting-corporation framework and applicable exceptions."
+            ],
+            [
+              "Startup funding",
+              "Transfer date, amount, counterparties and funding agreement.",
+              "Is the recorded arrangement a loan, contribution or another transaction under the instructions?"
+            ],
+            [
+              "Trading activity",
+              "No customer revenue at year-end.",
+              "That does not establish there were no relevant related-party transactions."
+            ],
+            [
+              "Filing mechanics",
+              "Tax year, relevant instructions and any assessed reportable transactions.",
+              "Determine Form 5472 and pro forma Form 1120 treatment separately from ordinary income-tax classification."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Assign a tax-year owner and a complete structure review",
@@ -1428,7 +2042,8 @@
         ],
         "sourceIds": [
           "fed-irs-5472"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1458,7 +2073,13 @@
         "meaning": "The prescribed accompanying corporate-return form used in the special filing mechanics, rather than a conclusion that the entity has ordinary corporate income tax."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "Form 5472: foreign-owned LLC reporting before revenue",
+    "relatedPaths": [
+      "/us-expansion/entity-tax-election/",
+      "/us-expansion/transfer-pricing/",
+      "/us-expansion/fincen-foreign-company-reporting/"
+    ]
   },
   {
     "id": "l1-control",
@@ -1473,7 +2094,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-l1-relationship"
     ],
@@ -1486,7 +2107,8 @@
         ],
         "sourceIds": [
           "fed-l1"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "A licence is not the required ownership evidence",
@@ -1496,17 +2118,49 @@
         ],
         "sourceIds": [
           "fed-l1"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: an unrelated U.S. partner",
         "paragraphs": [
           "A German brand licenses an independently owned U.S. operator and wants its COO to run that operator’s business. The parties have a strong commercial relationship, but the licence does not establish common ownership and control.",
-          "The reviewer asks who owns and controls each entity, whether a prescribed corporate relationship exists, and what the COO actually did abroad and would do in the United States. Brand standards and a management title do not fill those gaps. This example does not decide the person’s eligibility or propose an alternative immigration route."
+          "The reviewer asks who owns and controls each entity, whether a prescribed corporate relationship exists, and what the COO actually did abroad and would do in the United States. Brand standards and a management title do not fill those gaps. This example does not decide the person’s eligibility or propose an alternative immigration route.",
+          "Think of two different diagrams: one shows permission to use the brand, and the other shows who owns and controls the companies. They may connect different parties and do different jobs. The staff-transfer guide addresses the person’s history, duties and organisation; neither diagram alone completes that assessment."
         ],
         "sourceIds": [
           "fed-l1"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional German brand and U.S. operator",
+            "Rights or facts shown",
+            "What remains to establish"
+          ],
+          "rows": [
+            [
+              "Commercial licence",
+              "The independently owned operator may use the brand.",
+              "This does not itself establish the prescribed parent, branch, affiliate or subsidiary relationship."
+            ],
+            [
+              "Ownership/control diagram",
+              "Record actual ownership percentages and voting/control rights.",
+              "Do not substitute brand standards for the required company-relationship evidence."
+            ],
+            [
+              "COO’s role",
+              "The plan is for the COO to run the operator’s business.",
+              "Assess actual overseas employment and proposed U.S. duties separately from the commercial title."
+            ],
+            [
+              "Policy and new-office questions",
+              "The regulation was read; the policy-manual page was inaccessible.",
+              "Keep current policy, particular facts and any additional new-office evidence as separate review tasks."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Prepare a non-sensitive company-and-role file",
@@ -1522,7 +2176,8 @@
         ],
         "sourceIds": [
           "fed-l1"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1552,7 +2207,13 @@
         "meaning": "A situation with additional regulatory evidence requirements, rather than an automatic route for any new U.S. company."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "L-1 company relationships: a licence is not ownership proof",
+    "relatedPaths": [
+      "/us-expansion/staff-transfers/",
+      "/us-expansion/business-visits/",
+      "/us-expansion/master-franchise-vs-area-development/"
+    ]
   },
   {
     "id": "e2-nationality",
@@ -1567,7 +2228,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-e2-nationality"
     ],
@@ -1580,7 +2241,8 @@
         ],
         "sourceIds": [
           "fed-e2"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Read the treaty category and country footnotes",
@@ -1591,18 +2253,55 @@
         "sourceIds": [
           "fed-treaties",
           "fed-e2"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: Malaysian owners and a Singapore subsidiary",
         "paragraphs": [
           "A Malaysian-owned group has a Singapore subsidiary and wants to build a U.S. franchise operation. Management initially assumes the Singapore registration makes the group eligible for E-2 treatment.",
-          "The reviewer instead needs the ownership chain through to individuals, control rights, the proposed applicant’s role and the committed investment. Those facts may produce questions that the registration certificate cannot answer. No conclusion about the actual group or any person follows from the example, and no passport upload is needed to prepare the initial ownership diagram."
+          "The reviewer instead needs the ownership chain through to individuals, control rights, the proposed applicant’s role and the committed investment. Those facts may produce questions that the registration certificate cannot answer. No conclusion about the actual group or any person follows from the example, and no passport upload is needed to prepare the initial ownership diagram.",
+          "Self-check: does the Singapore registration certificate let the team stop at the subsidiary? No. The nationality inquiry calls for the relevant ultimate-ownership tracing as practicable. It remains separate from tax residence, the applicant’s role and whether the actual investment meets its conditions."
         ],
         "sourceIds": [
           "fed-e2",
           "fed-treaties"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional enterprise-nationality record",
+            "Document or fact to trace",
+            "What the intermediate certificate cannot answer"
+          ],
+          "rows": [
+            [
+              "Singapore subsidiary",
+              "Identify its place of registration and actual ownership.",
+              "Registration there alone does not establish E-2 enterprise nationality."
+            ],
+            [
+              "Intermediate companies",
+              "Follow the ownership chain as practicable.",
+              "A parent company’s incorporation country is a different fact from ultimate individual ownership."
+            ],
+            [
+              "Ultimate individuals",
+              "Record the relevant owners and nationality facts without uploading sensitive documents here.",
+              "Leave missing facts unresolved rather than filling them from a group address."
+            ],
+            [
+              "Proposed applicant and investment",
+              "Record the person’s role, control and committed investment.",
+              "Enterprise nationality does not by itself establish principal-investor or employee eligibility."
+            ],
+            [
+              "Treaty entry and consular questions",
+              "Check the applicable category and footnotes; retain the unresolved FAM/escrow questions.",
+              "A general treaty-country label does not complete the remaining conditions."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Make the outstanding questions precise",
@@ -1613,7 +2312,8 @@
         "sourceIds": [
           "fed-e2",
           "fed-treaties"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1644,7 +2344,13 @@
         "meaning": "Investment exposed to the business risk under the relevant regulatory inquiry, not simply an unexamined budget figure."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "E-2 nationality: trace owners beyond a treaty-country company",
+    "relatedPaths": [
+      "/cases/singapore-subsidiary-e2-ownership/",
+      "/comparisons/tax-residence-vs-owner-nationality/",
+      "/us-expansion/l1-ownership-and-control/"
+    ]
   },
   {
     "id": "court-record-diligence",
@@ -1659,7 +2365,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-pacer-scope"
     ],
@@ -1672,7 +2378,8 @@
         ],
         "sourceIds": [
           "fed-pacer"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Read what happened, not just the case title",
@@ -1682,17 +2389,49 @@
         ],
         "sourceIds": [
           "fed-pacer"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a similar cleaning-company name",
         "paragraphs": [
           "A search returns a bankruptcy involving a contractor whose name resembles that of a proposed cleaning partner. The diligence lead initially places the result in the candidate’s file. Before attributing it, the team matches the actual legal entity and appropriate public identifiers.",
-          "If it is a different company, the similar name should not become an adverse conclusion about the candidate. If it is a match, the team reads the relevant documents and explains the status rather than relying on a search headline. Either way, state court coverage is still a separate task."
+          "If it is a different company, the similar name should not become an adverse conclusion about the candidate. If it is a match, the team reads the relevant documents and explains the status rather than relying on a search headline. Either way, state court coverage is still a separate task.",
+          "Use the linked Burgerim case guide as a reading exercise: identify its particular document type and then find what it does not establish about collection or later status. Do not transfer that case’s amounts or outcome into this candidate assessment. The reading habit is to separate identity, what a document records and the conclusion it can support."
         ],
         "sourceIds": [
           "fed-pacer"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional similar-name search record",
+            "What is known",
+            "What to do before attributing the case"
+          ],
+          "rows": [
+            [
+              "Search result",
+              "A bankruptcy result has a name resembling the candidate’s.",
+              "Match the actual entity and appropriate public identifiers."
+            ],
+            [
+              "If it is a different company",
+              "The name resemblance is not an identity match.",
+              "Do not turn that result into an adverse conclusion about the candidate."
+            ],
+            [
+              "If it is the same company",
+              "Identity would be established, not the whole business assessment.",
+              "Read the actual documents and procedural status rather than relying on the case title."
+            ],
+            [
+              "Coverage",
+              "This is a federal search.",
+              "State and local courts and other diligence remain separate."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Build a proportionate business evidence record",
@@ -1709,7 +2448,8 @@
         ],
         "sourceIds": [
           "fed-pacer"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1739,7 +2479,13 @@
         "meaning": "A judgment records a legal outcome or award; it does not prove that money was recovered."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "PACER partner searches: identity, outcomes and limits",
+    "relatedPaths": [
+      "/us-expansion/partner-due-diligence-evidence/",
+      "/cases/burgerim-entity-default-judgment/",
+      "/cases/alacrity-janitorial-payroll-consent-judgment/"
+    ]
   },
   {
     "id": "electronic-fdd",
@@ -1754,7 +2500,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-electronic-fdd"
     ],
@@ -1768,7 +2514,8 @@
         "sourceIds": [
           "fed-instructions",
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Electronic delivery does not permit every website feature",
@@ -1778,18 +2525,45 @@
         ],
         "sourceIds": [
           "fed-instructions"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a required training module",
         "paragraphs": [
           "A brand wants prospects to finish a learning module before signing. The module explains recurring support costs and asks the reader to compare staffing scenarios. That may improve understanding, but completion does not show that the prospect received the current FDD and proposed agreements.",
-          "The team therefore maintains two records: learning progress and formal disclosure delivery. It checks the applicable waiting periods from the relevant documents and events, rather than from the moment a user completed the module. The educational tool can support the conversation without replacing the document-control process."
+          "The team therefore maintains two records: learning progress and formal disclosure delivery. It checks the applicable waiting periods from the relevant documents and events, rather than from the moment a user completed the module. The educational tool can support the conversation without replacing the document-control process.",
+          "The two records can support the same commercial conversation without being interchangeable. Compare the actual electronic FDD’s permitted navigation and restricted features with the cited format rules; useful teaching multimedia does not become compliant disclosure merely because the subject matter overlaps. This exercise approves no website or delivery process."
         ],
         "sourceIds": [
           "fed-instructions",
           "fed-timing"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional process record",
+            "What it demonstrates",
+            "What it does not demonstrate"
+          ],
+          "rows": [
+            [
+              "Learning-module completion",
+              "The user completed an explanation and staffing exercise.",
+              "That the required current FDD and proposed agreements were furnished."
+            ],
+            [
+              "Formal disclosure delivery",
+              "Record actual documents, recipient, permitted method, date and evidence.",
+              "Government approval, likely profit or completion of every state requirement."
+            ],
+            [
+              "Signing/payment timetable",
+              "Use the relevant formal documents and commitment events.",
+              "A clock starting automatically when the user finishes the module."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Give each team a clear responsibility",
@@ -1800,7 +2574,8 @@
         "sourceIds": [
           "fed-instructions",
           "fed-timing"
-        ]
+        ],
+        "legacyIndex": 3
       }
     ],
     "sourceIds": [
@@ -1831,12 +2606,19 @@
         "meaning": "Records showing which formal documents were furnished, to whom, when and how; different from course progress."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "Electronic FDD versus learning websites and course records",
+    "relatedPaths": [
+      "/us-expansion/fdd-disclosure-timing/",
+      "/fdd/item-22/",
+      "/fdd/item-23/",
+      "/us-expansion/fdd-updates-and-records/"
+    ]
   },
   {
     "id": "territory-accounts",
     "path": "/us-expansion/territory-national-accounts/",
-    "title": "How should a B 2 B brand divide territory and national accounts?",
+    "title": "How should a B2B brand divide territory and national accounts?",
     "description": "Separate who wins the customer, signs the contract, performs the work and receives the money.",
     "family": "federal",
     "topic": "relationship",
@@ -1846,7 +2628,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-territory-disclosure"
     ],
@@ -1859,7 +2641,8 @@
         ],
         "sourceIds": [
           "fed-fdd-12"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Separate the five account jobs",
@@ -1870,18 +2653,55 @@
         "sourceIds": [
           "fed-fdd-12",
           "fed-fdd-17"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional example: a five-state request and one pilot",
         "paragraphs": [
           "A Dutch maintenance operator asks for five states before completing one customer pilot. A potential customer wants one central agreement covering sites in several areas. The brand and candidate first map who will sell, deliver and bear travel, equipment and training costs at each site.",
-          "They then examine a staged commercial plan with documented milestones rather than treating the five-state label as proof of capability. If one operator cannot meet a national service obligation, the continuity and compensation questions must already have an owner. This illustration does not propose enforceable terms, decide state protections or promise freedom from independent competition."
+          "They then examine a staged commercial plan with documented milestones rather than treating the five-state label as proof of capability. If one operator cannot meet a national service obligation, the continuity and compensation questions must already have an owner. This illustration does not propose enforceable terms, decide state protections or promise freedom from independent competition.",
+          "For this additional fictional illustration only, suppose the brand wins and signs the central account and invoices the customer while a local operator performs one site’s work. The proposed allocation above is an optional commercial design, not a legal default or approved contract. Before promising exclusivity, compare the local delivery costs with the proposed income allocation and resolve continuity responsibilities. Item 12 disclosure, competition questions and non-waivable state protections remain separate."
         ],
         "sourceIds": [
           "fed-fdd-12",
           "fed-fdd-17"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Fictional one-site allocation proposal",
+            "Proposed business owner for the illustration",
+            "Evidence or agreement still needed"
+          ],
+          "rows": [
+            [
+              "Win the customer",
+              "Brand’s central sales team.",
+              "Lead source, reserved-account treatment and authority to offer the arrangement."
+            ],
+            [
+              "Bid and sign",
+              "Brand signs the central customer contract.",
+              "The actual customer commitments and corresponding operator terms."
+            ],
+            [
+              "Deliver the site service",
+              "Local operator supplies the on-site work.",
+              "Staff, equipment, training, travel, service capacity and continuity plan."
+            ],
+            [
+              "Invoice and collect",
+              "Brand handles the central invoice in this illustration.",
+              "Payment timing, collection risk and the local operator’s payment process."
+            ],
+            [
+              "Allocate income and costs",
+              "Not yet agreed in the illustration.",
+              "A supported cost/revenue schedule; a territory map alone does not fund the local job."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Write an account-allocation schedule",
@@ -1915,7 +2735,8 @@
               "Proposed milestones, evidence, dispute and review questions"
             ]
           ]
-        }
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Use the schedule in negotiation and disclosure",
@@ -1925,7 +2746,8 @@
         "sourceIds": [
           "fed-fdd-12",
           "fed-fdd-17"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1943,7 +2765,7 @@
     "learningSummary": "A business customer may buy centrally while needing service at sites in several partner territories. An “exclusive territory” promise does not explain how that account will work. Design the account rules alongside the territory before either side invests on assumptions the other does not share.",
     "keyTerms": [
       {
-        "term": "B 2 B",
+        "term": "B2B",
         "meaning": "Business-to-business: selling to organisations rather than individual consumers."
       },
       {
@@ -1959,6 +2781,13 @@
         "meaning": "The FDD item addressing territory terms, exclusivity and conditions, reserved channels and relevant competing operations."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.707Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.820Z",
+    "seoTitle": "B2B franchise territories: national accounts and local costs",
+    "relatedPaths": [
+      "/fdd/item-12/",
+      "/us-expansion/competition-pricing/",
+      "/cases/staged-industrial-services-territory/",
+      "/us-expansion/master-franchise-vs-area-development/"
+    ]
   }
 ]

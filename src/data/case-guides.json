@@ -3,7 +3,7 @@
     "id": "case-cleaning-zero",
     "path": "/cases/cleaning-manager-royalty/",
     "title": "Fictional case: why a manager and royalty leave this cleaning unit with zero",
-    "description": "Work through a fictional annual model before confusing an apparent surplus with owner income.",
+    "description": "Work through fictional $1m cleaning revenue, costs already included, a $120,000 manager and $60,000 royalty. The resulting $0 excludes debt, tax and reinvestment.",
     "family": "case",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -13,7 +13,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -21,7 +21,8 @@
         "paragraphs": [
           "The fictional annual revenue is $1,000,000. The worksheet deducts $820,000 and shows $180,000 before a dedicated manager and the brand royalty. The $820,000 already includes frontline labour, employer payroll costs on those workers, materials, vehicle use, insurance, occupancy and ordinary administration.",
           "It expressly excludes the dedicated general manager, royalty, debt service, income taxes and replacement capital. Those boundaries matter: adding another blanket labour or overhead allowance could count costs twice, while forgetting the manager would leave an important cost out."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Add the missing responsibilities, then do the arithmetic",
@@ -60,14 +61,46 @@
               "$0"
             ]
           ]
-        }
+        },
+        "legacyIndex": 1
       },
       {
         "heading": "Separate the owner’s work from the manager’s paid role",
         "paragraphs": [
           "Ask which jobs the manager must replace: scheduling, absent-worker cover, bids, customer complaints and collections. If the overseas owner still performs substantial work without a cost in the model, simply adding a manager job title has not demonstrated independence.",
-          "That question is a business investigation, not another financial result. Use the actual duties and local cost evidence to rebuild the real model rather than copying the invented $120,000 assumption."
-        ]
+          "That question is a business investigation, not another financial result. Use the actual duties and local cost evidence to rebuild the real model rather than copying the invented $120,000 assumption.",
+          "Answer the exercise before changing the royalty: the first labour line is included, the dedicated manager is separate, and debt/tax/replacement remain outside this narrow result. Then use a separate cash schedule for invoice and collection timing. These are invented teaching amounts, not evidence of actual franchise earnings."
+        ],
+        "table": {
+          "headers": [
+            "Cost-sorting exercise",
+            "Where it belongs in this fictional model",
+            "Reasoning check"
+          ],
+          "rows": [
+            [
+              "Frontline labour and employer payroll costs on those workers",
+              "Already within the $820,000 deducted.",
+              "Adding those costs again would reduce the model twice for the same included work."
+            ],
+            [
+              "Dedicated general manager, fully loaded",
+              "Separately deducted at the invented $120,000 assumption.",
+              "List the scheduling, cover, bids, complaints and collections this role actually replaces; an unpaid owner task is not removed by the title."
+            ],
+            [
+              "6% royalty on the stated revenue",
+              "Separately deducted as $60,000 from $1,000,000.",
+              "Confirm the actual contract base/timing for a real model; do not recalculate it on the smaller surplus."
+            ],
+            [
+              "Debt service, income taxes and replacement capital",
+              "Excluded from the stated zero-at-this-stage result.",
+              "Keep them visible in the appropriate actual analysis; zero does not mean they have been paid."
+            ]
+          ]
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "A profitable invoice can still create a cash gap",
@@ -77,7 +110,8 @@
         ],
         "sourceIds": [
           "pr-finance"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Use the exercise to change a decision",
@@ -90,7 +124,8 @@
           "Keep debt, tax, reinvestment and support-office costs visible.",
           "Avoid counting costs already in the original worksheet again.",
           "Decide whether to change the fee/model, investigate delivery economics or pause."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -123,13 +158,19 @@
         "meaning": "Money needed to meet operating payments while waiting for customer receipts."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.825Z",
+    "seoTitle": "Fictional cleaning model: manager and 6% royalty leave $0",
+    "relatedPaths": [
+      "/fdd/item-19/",
+      "/tools/us-unit-economics/",
+      "/tools/cash-runway/"
+    ]
   },
   {
     "id": "case-license",
     "path": "/cases/licensing-label-franchise-obligations/",
     "title": "Fictional case: calling the German service agreement a licence does not decide the law",
-    "description": "Follow the brand rights, assistance, controls and payments before choosing the contract label.",
+    "description": "Analyse a fictional German service licence by its rights, assistance, controls and payments. The worksheet is preparation, not a franchise or exemption verdict.",
     "family": "case",
     "topic": "classification",
     "jurisdictions": [
@@ -139,7 +180,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-relationship-definition"
     ],
@@ -150,7 +191,8 @@
           "The fictional partner receives brand rights, operating procedures, mandatory job software, initial training and continuing field support. It pays an initial fee and continuing charges. Record what is required, optional and actually promised, including statements made in sales conversations.",
           "An established partner can still receive a new package of rights and support. Its existing business is relevant information, not automatic proof that no franchise analysis is needed. This exercise makes no classification verdict.",
           "List required purchases as well as fees, including affiliate recipients and payment timing. Describe operating methods, site/customer requirements, quality and system requirements, and who enforces them; these details show what the partner receives, pays and must do."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "The federal test looks at the relationship",
@@ -160,7 +202,8 @@
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Understand what the guidance can help explain",
@@ -170,14 +213,51 @@
         ],
         "sourceIds": [
           "fed-compliance"
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional worked analysis: draw the three relationships",
         "paragraphs": [
           "Draw the German brand providing rights and support to the U.S. partner, the partner paying the brand or affiliate, and the partner delivering service to customers. Add who hires, prices bids, invoices, bears rework and monitors quality.",
-          "The diagram exposes questions that the word licence hides. For example, a payment to an affiliate still belongs on the payment record, and a promised training function belongs on the assistance record. If a master operator or representative is involved, add its actual functions and contracts rather than merely changing the diagram’s heading."
-        ]
+          "The diagram exposes questions that the word licence hides. For example, a payment to an affiliate still belongs on the payment record, and a promised training function belongs on the assistance record. If a master operator or representative is involved, add its actual functions and contracts rather than merely changing the diagram’s heading.",
+          "The filled entries expose the three relationship questions without supplying a verdict or a threshold from the May 2008 explanatory guide. Compare the draft and sales promises with these facts before asking the responsible team to apply the current requirements."
+        ],
+        "table": {
+          "headers": [
+            "Fictional fact already in the offer",
+            "Where it belongs in the analysis",
+            "Why the label is not the answer"
+          ],
+          "rows": [
+            [
+              "Brand rights supplied to the U.S. partner",
+              "Trademark-association facts.",
+              "Record the rights actually granted rather than treating licence as a conclusion."
+            ],
+            [
+              "Operating procedures, mandatory software, initial training and field support",
+              "The significant-control/assistance question, including actual enforcement and promised help.",
+              "One software rule or manual does not automatically decide the full relationship."
+            ],
+            [
+              "Initial and continuing charges, including any affiliate recipient",
+              "Required-payment/commitment facts, recipients and timing.",
+              "Routing a payment to an affiliate does not remove it from the record."
+            ],
+            [
+              "Partner performs services for customers",
+              "Who hires, bids, invoices, bears rework and monitors quality.",
+              "The actual operating responsibilities help explain the arrangement; they do not replace the separate exemption and state analyses."
+            ],
+            [
+              "Seller, buyer, offer and operation locations",
+              "Separate jurisdiction facts.",
+              "A federal conclusion is not blanket permission for every state or transaction."
+            ]
+          ]
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Prepare the next document before making offers",
@@ -191,7 +271,8 @@
           "Separate trademark protection from wider directions.",
           "Identify parties and the relevant communication/operation locations.",
           "Examine definition, exemptions and state requirements as different questions."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -224,13 +305,19 @@
         "meaning": "A separate legal exception whose conditions must be tested after identifying the relevant definition."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.825Z",
+    "seoTitle": "Fictional licence offer: brand, assistance and payment facts",
+    "relatedPaths": [
+      "/us-expansion/franchising-vs-licensing/",
+      "/us-expansion/significant-control-assistance/",
+      "/tools/relationship-factsheet/"
+    ]
   },
   {
     "id": "case-funding",
     "path": "/cases/net-worth-is-not-project-funding/",
     "title": "Fictional case: a wealthy partner still has a $200,000 funding gap",
-    "description": "Separate reported wealth from money that is available and committed to this launch.",
+    "description": "A fictional partner reports $4m net worth but has $200,000 allocated against a $400,000 requirement. Distinguish available money, dates, conditions and extra reserve.",
     "family": "case",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -240,7 +327,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -248,7 +335,8 @@
         "paragraphs": [
           "The candidate reports $4 million in net worth. The exercise assumes $200,000 of accessible, unencumbered money allocated to this project. The illustrative plan requires $250,000 for launch and a further $150,000 liquidity reserve. None of those amounts is an industry benchmark.",
           "The reserve is additional liquidity, not another copy of costs already included in the launch budget. Establishing what each amount means is necessary before doing the subtraction."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Why valuable assets may not fund an opening date",
@@ -258,7 +346,8 @@
         ],
         "sourceIds": [
           "pr-finance"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Calculate the gap without counting money twice",
@@ -299,14 +388,46 @@
               "$400,000 requirement less $200,000 funding"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Work through the sources, not just the candidate’s headline",
         "paragraphs": [
           "The finance lead creates a row for each proposed source: owner, currency, conversion assumption, restrictions, available date, approval conditions and competing uses. A source that still depends on an uncommitted loan remains unresolved. Record who is authorised to release or commit each source, not just whose name appears as owner.",
-          "If the candidate later identifies another source, the team checks whether it is genuinely additional and available when needed. Reusing the same pledged asset in two explanations would not create two sources. This reasoning exercise introduces no new fictional funding result."
-        ]
+          "If the candidate later identifies another source, the team checks whether it is genuinely additional and available when needed. Reusing the same pledged asset in two explanations would not create two sources. This reasoning exercise introduces no new fictional funding result.",
+          "The answered check is that reported wealth and conditional borrowing cannot simply be added to the assumed available amount. Management can investigate additional funding, a smaller stage or a pause without uploading bank statements here; sensitive confirmations belong in an appropriate separate secure process."
+        ],
+        "table": {
+          "headers": [
+            "Source or requirement in the exercise",
+            "Availability/conditions entry",
+            "Effect on the stated gap"
+          ],
+          "rows": [
+            [
+              "Reported $4m net worth",
+              "Wealth measure; it is not itself a release date or commitment to pay this project’s bills.",
+              "Do not add the whole figure to the accessible funding column."
+            ],
+            [
+              "Assumed $200,000 accessible and allocated",
+              "The exercise assumes accessibility; an actual project still needs its own date, owner, restrictions and release authority.",
+              "It is the funding used in the stated $400,000 less $200,000 calculation, not a verified bank balance."
+            ],
+            [
+              "A further source dependent on an uncommitted loan",
+              "Illustrative follow-up question: mark approval conditions and available date unresolved until established.",
+              "A proposed source does not automatically close the $200,000 gap; avoid counting the same pledged asset twice."
+            ],
+            [
+              "$250,000 launch plus additional $150,000 reserve",
+              "Keep due dates and the reserve’s additional-liquidity meaning separate from costs already in launch.",
+              "Do not count launch costs twice or pretend the reserve is a universal required percentage."
+            ]
+          ]
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Choose a next action that resolves the shortfall",
@@ -320,7 +441,8 @@
           "List collateral, pledges and other ventures using the same money.",
           "Keep conditional borrowing and self-reporting clearly marked.",
           "Tie the proposed solution to the dates when the project needs cash."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -352,13 +474,19 @@
         "meaning": "A dated comparison between required uses of money and sources actually available to meet them."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.825Z",
+    "seoTitle": "Fictional partner funding: $4m net worth and a $200,000 gap",
+    "relatedPaths": [
+      "/tools/partner-evidence/",
+      "/tools/cash-runway/",
+      "/us-expansion/partner-due-diligence-evidence/"
+    ]
   },
   {
     "id": "case-territory",
     "path": "/cases/staged-industrial-services-territory/",
     "title": "Fictional case: earn wider territory through demonstrated service capability",
-    "description": "An operator’s request for several states needs customer, staffing and account-allocation evidence.",
+    "description": "Turn a fictional multi-state territory request into service-cluster evidence, funded support and objective milestones. No exclusivity or enforceability is assured.",
     "family": "case",
     "topic": "relationship",
     "jurisdictions": [
@@ -368,7 +496,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-relationship-definition"
     ],
@@ -378,7 +506,8 @@
         "paragraphs": [
           "No U.S. unit has yet demonstrated repeat demand, local hiring or the proposed support cost. The candidate’s request may be commercially reasonable to negotiate, but home-market success and apparent capability do not establish that every requested state can be served.",
           "Break the map into actual customer clusters, travel routes and operating bases. A centrally procured national account may still need local dispatch. An online enquiry may concern a location outside the operator’s practical service area."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Specify what rights are being granted",
@@ -389,7 +518,8 @@
         "sourceIds": [
           "fed-compliance",
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked approach: begin with one service cluster",
@@ -425,19 +555,22 @@
               "State protections and agreement obligations"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Protect the brand’s support promise and the operator’s investment",
         "paragraphs": [
           "The brand should identify what support it can fund at each stage rather than reserve a whole market indefinitely without capacity. The partner needs a realistic development timetable with objective milestones and dependencies. Record reporting, adjustment and proposed cure arrangements.",
           "These are commercial design recommendations, not findings about enforceability. Rights against the contracting brand do not guarantee protection from independent competitors. State relationship protections and the actual agreement must be examined for the action proposed."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Prepare a territory principles sheet before a binding commitment",
         "paragraphs": [
-          "Show the first operating base, customer segment, service radius and evidence needed for added rights. Attach the national-account and online-lead rules so growth does not depend on informal assurances."
+          "Show the first operating base, customer segment, service radius and evidence needed for added rights. Attach the national-account and online-lead rules so growth does not depend on informal assurances.",
+          "These are suggested commercial milestones, not findings that the pilot has passed them or that a clause is enforceable. Own-unit development and recruiting subfranchisees remain separate rights; current sales-law and relationship requirements still need their actual application."
         ],
         "bullets": [
           "Separate own-unit development from subfranchise recruitment.",
@@ -445,7 +578,37 @@
           "Cost field support and travel for every stage.",
           "Record objective milestones and reasonable delay handling.",
           "Keep unresolved sales-law, relationship and enforceability questions visible."
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Initial-cluster milestone to draft",
+            "Evidence the fictional team would record",
+            "Decision boundary"
+          ],
+          "rows": [
+            [
+              "Demonstrate service for the pilot customer cluster.",
+              "Actual customer demand, route/travel plan, people, equipment and service-quality evidence; no successful result is assumed.",
+              "A requested map or home-market success is not that evidence."
+            ],
+            [
+              "Fund staffing and support for added rights.",
+              "The responsible party, support capacity and cost at the proposed next stage.",
+              "Discuss wider rights against the demonstrated plan rather than reserving every state indefinitely."
+            ],
+            [
+              "Record a genuine hiring, permit or procurement obstacle.",
+              "The actual obstacle, affected milestone, proposed adjustment and relevant agreement process.",
+              "A documented delay is not the same as ignoring the milestone; do not invent automatic forfeiture."
+            ],
+            [
+              "Allocate national accounts and online leads.",
+              "Who solicits, serves and invoices, any reserved accounts and cross-boundary rules.",
+              "Rights against the brand do not guarantee protection from independent competitors or create exclusivity by themselves."
+            ]
+          ]
+        },
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -478,13 +641,19 @@
         "meaning": "The agreed or applicable process for addressing a default; its terms and enforceability need the relevant legal assessment."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.826Z",
+    "seoTitle": "Fictional territory plan: earn wider rights through capability",
+    "relatedPaths": [
+      "/fdd/item-12/",
+      "/us-expansion/territory-national-accounts/",
+      "/us-expansion/master-franchise-vs-area-development/"
+    ]
   },
   {
     "id": "case-e-nationality",
     "path": "/cases/singapore-subsidiary-e2-ownership/",
     "title": "Fictional case: a Singapore subsidiary does not settle E-2 nationality",
-    "description": "Trace ultimate ownership and the proposed worker’s role before relying on a treaty-country address.",
+    "description": "Trace a fictional Malaysian-parent/Singapore-subsidiary chain and separate worker duties and investment facts. No visa eligibility or detailed route clearance is given.",
     "family": "case",
     "topic": "immigration",
     "jurisdictions": [
@@ -495,7 +664,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-e2-nationality"
     ],
@@ -509,14 +678,46 @@
         "sourceIds": [
           "fed-e2",
           "fed-treaties"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Draw the fictional ownership chain",
         "paragraphs": [
           "The team draws ultimate owners → Malaysian parent → Singapore subsidiary → proposed U.S. entity. It adds percentages and the facts about voting rights, director appointments and decision control. Unknown information remains unknown rather than being replaced by an assumption that all owners share the subsidiary’s nationality.",
-          "The drawing is preparation for the applicable analysis, not a visa test that automatically approves the structure. A franchise or licensing agreement is not assumed to create the corporate relationship required for a separate L-1 transfer route."
-        ]
+          "The drawing is preparation for the applicable analysis, not a visa test that automatically approves the structure. A franchise or licensing agreement is not assumed to create the corporate relationship required for a separate L-1 transfer route.",
+          "This renders the chain as ultimate owners → Malaysian parent → Singapore subsidiary → proposed U.S. entity while leaving unknown percentages and nationality facts visible. Finance keeps source, commitment, use and investment conditions in its own record. The founder need not be assumed to relocate, and the original FAM/USCIS access limits remain unresolved."
+        ],
+        "table": {
+          "headers": [
+            "Node in the fictional chain",
+            "Facts to put beside it",
+            "Assumption to avoid"
+          ],
+          "rows": [
+            [
+              "Ultimate individual owners",
+              "Actual nationality and ownership percentages, traced as practicable.",
+              "Do not replace missing facts with the Singapore subsidiary’s nationality or the owners’ tax residence."
+            ],
+            [
+              "Malaysian parent → Singapore subsidiary",
+              "Actual ownership percentages, voting rights, director appointments and decision control.",
+              "A country of incorporation or treaty listing does not establish the whole enterprise analysis."
+            ],
+            [
+              "Singapore subsidiary → proposed U.S. entity",
+              "The proposed ownership and relevant actual relationship.",
+              "The drawing is not an automatic E-2 test; a licence/franchise agreement also does not establish a separate L-1 corporate relationship."
+            ],
+            [
+              "Proposed technical manager",
+              "Separate employer, authority, actual duties, duration and work location in the person file.",
+              "The enterprise’s address does not establish that any manager may work in the United States."
+            ]
+          ]
+        },
+        "legacyIndex": 1
       },
       {
         "heading": "Describe the person’s actual U.S. activity",
@@ -526,14 +727,16 @@
         ],
         "sourceIds": [
           "fed-e2"
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional worked decision: replace the assumption with two files",
         "paragraphs": [
           "The group’s first assumption was that a Singapore company could sponsor any manager. It replaces that with an ownership file for the business and a duty-based file for the technical manager. The first shows the actual ownership and nationality facts; the second explains what work needs to happen in the United States and who employs the person.",
           "Finance separately describes the proposed source, commitment, use and conditions of investment. Available money and a qualifying committed investment are different questions. The exercise reaches a list of unresolved requirements, not a conclusion that the manager may work."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Use the evidence before changing the structure or booking work",
@@ -547,7 +750,8 @@
           "Separate capital availability from the applicable investment conditions.",
           "Identify the unresolved individual and business questions before travel/work commitments.",
           "Keep founder relocation optional where the founder intends to remain abroad."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -581,13 +785,19 @@
         "meaning": "The investment required by the relevant category, separate from simply being wealthy or holding uncommitted funds."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.826Z",
+    "seoTitle": "Fictional E-2 ownership: a Singapore subsidiary is not enough",
+    "relatedPaths": [
+      "/us-expansion/e2-nationality-investment/",
+      "/us-expansion/l1-ownership-and-control/",
+      "/us-expansion/business-visits/"
+    ]
   },
   {
     "id": "case-master",
     "path": "/cases/branch-operator-versus-master-franchise/",
     "title": "Fictional case: a strong branch operator is not automatically a master franchisor",
-    "description": "Test the additional sales and support organisation before dividing fees or granting broad rights.",
+    "description": "Test a fictional strong branch operator’s additional franchise-sales and network-support capability. A no-new-fees budget is preparation, not an earnings result.",
     "family": "case",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -597,7 +807,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-relationship-definition"
     ],
@@ -607,7 +817,8 @@
         "paragraphs": [
           "The fictional candidate has strong supervisors, customer retention and multi-branch delivery. There is no evidence yet of franchise-sales administration, training independent owners or maintaining a support office. Do not treat one kind of success as proof of all those capabilities.",
           "List the units the candidate will itself operate and the independent businesses it proposes to recruit. That distinction helps the parties understand what they are asking the new organisation to do."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "The legal functions follow the actual arrangement",
@@ -617,7 +828,8 @@
         ],
         "sourceIds": [
           "fed-definition"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Compare the work before negotiating the percentage",
@@ -663,14 +875,46 @@
               "Fund recurring network support"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional worked test: a year without new territory fees",
         "paragraphs": [
           "The candidate and brand build an explicitly illustrative budget for staff, travel, training, localisation, systems and compliance work. They then test a year with no new territory-fee receipts. The question is whether continuing income at the planned network size can fund the support already promised.",
-          "No new earnings amount is assumed in this exercise. If the organisation relies on continually selling new rights to pay for existing obligations, the parties need to investigate that gap rather than describe the network as proven. They can revise the split, support scope, minimum funding or rollout pace."
-        ]
+          "No new earnings amount is assumed in this exercise. If the organisation relies on continually selling new rights to pay for existing obligations, the parties need to investigate that gap rather than describe the network as proven. They can revise the split, support scope, minimum funding or rollout pace.",
+          "No invented cost or successful result has been inserted. The completed part of the exercise is the assignment of cost categories and the answered funding logic: branch delivery evidence does not itself show that independent-owner support is staffed and funded. The actual organisation must supply its amounts and ability evidence before a broader role is justified."
+        ],
+        "table": {
+          "headers": [
+            "Promised function in the fictional budget",
+            "What the candidate must cost and assign",
+            "No-new-territory-fees question"
+          ],
+          "rows": [
+            [
+              "Training",
+              "Separate initial owner/manager training from continuing training; identify staff and localisation work.",
+              "Which continuing income funds training already promised when no new rights are sold?"
+            ],
+            [
+              "Field and technical support",
+              "Assign visits, travel, difficult-case help, monitoring and the responsible support staff.",
+              "Does the planned network’s continuing income cover these recurring commitments?"
+            ],
+            [
+              "Systems and compliance administration",
+              "Assign the actual pre/post-sale work, systems and responsible parties rather than treating it as an unnamed brand task.",
+              "What remains payable during a delayed rollout or at a small network size?"
+            ],
+            [
+              "Funding gap, if the budget identifies one",
+              "Record the unsupported function and investigate split, support scope, minimum funding or rollout pace.",
+              "Do not label a model proven merely because future rights sales could pay existing obligations."
+            ]
+          ]
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Choose rights that fit the demonstrated organisation",
@@ -684,7 +928,8 @@
           "Observe owner/manager training rather than assuming branch experience is enough.",
           "Fund continuing field and technical support.",
           "Set the fee allocation after defining and costing the work."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -717,13 +962,19 @@
         "meaning": "The continuing staff, travel, systems and other costs of delivering the support promised to the network."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.826Z",
+    "seoTitle": "Fictional master franchise: fund support without new territory fees",
+    "relatedPaths": [
+      "/us-expansion/master-franchise-vs-area-development/",
+      "/tools/brand-support-economics/",
+      "/us-expansion/broker-responsibilities/"
+    ]
   },
   {
     "id": "case-lease",
     "path": "/cases/lease-clock-before-opening/",
     "title": "Fictional case: rent starts before the restaurant is ready to open",
-    "description": "Follow the lease dates and permissions separately, then calculate the illustrative cash cost of delay.",
+    "description": "Follow fictional April rent, assumed June opening and a three-month delay calculation. $42,000 is limited illustrative cash use, not a permit forecast or total budget.",
     "family": "case",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -732,22 +983,54 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
         "heading": "Read the fictional timetable carefully",
         "paragraphs": [
           "Rent begins on 1 April. Fit-out is planned for two months and opening is assumed for 1 June. The team has not confirmed permitted use, design requirements or the inspection sequence. These are deliberately invented teaching assumptions, with no real address or local-law claim.",
-          "The lease establishes payment obligations according to its actual terms. Relevant authorities establish operating permissions under applicable rules. A landlord’s assurance cannot simply be substituted for the latter."
-        ]
+          "The lease establishes payment obligations according to its actual terms. Relevant authorities establish operating permissions under applicable rules. A landlord’s assurance cannot simply be substituted for the latter.",
+          "Read down the strip: a lease payment date can arrive even though the assumed operating date is unsupported. The learning decision is to connect prerequisites and cash before further spending, not to infer an automatic lease extension or approval date. Keep the same rent out of duplicate fit-out and reserve allowances."
+        ],
+        "table": {
+          "headers": [
+            "Fictional time marker",
+            "What is assumed or stated",
+            "Keep separate from it"
+          ],
+          "rows": [
+            [
+              "1 April",
+              "Rent starts under the fictional timetable.",
+              "Possession, access for works and other occupancy charges depend on the actual lease."
+            ],
+            [
+              "Two planned fit-out months",
+              "The project’s invented works assumption.",
+              "Unconfirmed use, design, authority prerequisites and inspections are not made certain by that assumption."
+            ],
+            [
+              "1 June",
+              "Assumed opening, not an authority-confirmed date.",
+              "Actual permission and operational readiness must be supported separately."
+            ],
+            [
+              "A three-month delay, if both listed costs continue",
+              "$8,000 rent + $6,000 pre-opening staff/utilities = $14,000 per month; $14,000 × 3 = $42,000.",
+              "Debt, extra fit-out, spoilage and other charges are excluded; do not treat the illustration as total funding or a predicted permit duration."
+            ]
+          ]
+        },
+        "legacyIndex": 0
       },
       {
         "heading": "Separate rent from the other occupancy amounts",
         "paragraphs": [
           "Read each commercial lease rather than assuming it is triple-net, that taxes are included or that other charges follow a universal percentage. Record deposits, taxes, insurance, maintenance, utilities and reconciliations where the actual agreement provides for them.",
           "The same care applies to works and access: possession, ability to survey or fit out, rent commencement and opening may be different dates. A property schedule should show them separately so finance knows what can be paid before revenue starts."
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Calculate only what the fictional delay assumptions support",
@@ -786,7 +1069,8 @@
               "When service and collection can begin"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional worked response: change the sequence before further spending",
@@ -796,7 +1080,8 @@
         ],
         "sourceIds": [
           "pr-licenses"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Make the lease and cash schedules talk to each other",
@@ -810,7 +1095,8 @@
           "Name responsibility for each prerequisite and supporting document.",
           "Model cash until customer receipts begin.",
           "Keep assumed delays separate from authority-provided dates."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -844,13 +1130,19 @@
         "meaning": "Money paid out over time, distinct from a complete accounting-profit calculation."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.826Z",
+    "seoTitle": "Fictional restaurant lease delay: dates and $42,000 cash use",
+    "relatedPaths": [
+      "/industries/restaurants/",
+      "/cities/los-angeles/restaurants/",
+      "/tools/cash-runway/"
+    ]
   },
   {
     "id": "case-supply",
     "path": "/cases/cleaning-product-us-supply/",
     "title": "Fictional case: the home-market cleaning product needs a U.S. supply decision",
-    "description": "Separate pesticide status, importing, the producing establishment and actual product use.",
+    "description": "Compare a fictional pesticide import route with a U.S. substitute while separating real product status, establishment, shipment and use evidence. No tariff is calculated.",
     "family": "case",
     "topic": "products-supply",
     "jurisdictions": [
@@ -860,7 +1152,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "practice-pesticide-import",
       "b3-planning2-pesticidal-intent"
@@ -870,12 +1162,43 @@
         "heading": "A real product needs more than the fictional assumption",
         "paragraphs": [
           "The case assumes a regulated pesticide so the team can examine that supply problem. For a real cleaner, deodoriser or bleach, section 152.10 contains nonpesticidal-purpose/claim conditions. Section 152.15 also considers claims or implications in labelling or elsewhere, ingredients with no other significant commercially valuable use, and actual or constructive knowledge of pesticidal intended use.",
-          "That means the assessment can look beyond a familiar formula, foreign approval or the absence of a single word. Keep the actual composition, label, website/sales claims, intended sites/uses and supporting record together."
+          "That means the assessment can look beyond a familiar formula, foreign approval or the absence of a single word. Keep the actual composition, label, website/sales claims, intended sites/uses and supporting record together.",
+          "The answered check is that the fictional pesticide assumption and a real classification are different entries. The existing route comparison can therefore be completed with honest gaps in product, import, cost and validation evidence rather than turning a missing duty rate into zero."
         ],
         "sourceIds": [
           "b3-planning2-epa-cleaners",
           "b3-planning2-epa-intent"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Category question",
+            "Fictional assumption or actual evidence",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "What this exercise assumes",
+              "A regulated pesticide, solely so the team can examine that supply problem.",
+              "It is not a finding that every cleaner, deodoriser or bleach is a pesticide."
+            ],
+            [
+              "What a real assessment needs",
+              "Actual composition, label, website/sales implications, intended sites/uses and supporting record under the cited conditions.",
+              "Foreign approval, a familiar formula or leaving one word off a label is not the complete analysis."
+            ],
+            [
+              "Actual or constructive knowledge",
+              "Keep what the business actually knows and the rule’s attributed-knowledge question in the record, rather than checking only its stated label.",
+              "Constructive knowledge is knowledge attributed under the applicable rule even without an express admission of awareness; this explanation does not supply a product determination."
+            ],
+            [
+              "What an alternative changes",
+              "Investigate the actual U.S. substitute, permitted use, compatibility and customer result.",
+              "A different stock source may change logistics without resolving product, applicator, business or state/client-use duties."
+            ]
+          ]
+        },
+        "legacyIndex": 0
       },
       {
         "heading": "Product status and import paperwork do different jobs",
@@ -885,14 +1208,16 @@
         ],
         "sourceIds": [
           "pr-pesticide-import"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Fictional worked comparison: lawful import or a suitable U.S. substitute",
         "paragraphs": [
           "Operations and the responsible technical team investigate two routes: establish a lawful import/supply path for the specified product, or validate an appropriate U.S. substitute. They compare intended use, label directions, application method, surface compatibility, client specification, training, storage and continuity.",
           "A familiar smell or bottle colour does not define the cleaning result the customer needs. A substitute may change stock logistics without automatically resolving all product and applicator requirements. No real product is declared suitable or authorised in this exercise."
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Do not make missing costs disappear",
@@ -928,7 +1253,8 @@
               "Defined outcome and documented validation"
             ]
           ]
-        }
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Prepare a supply specification for investigation",
@@ -942,7 +1268,8 @@
           "Document each party’s supply responsibility.",
           "Keep missing tariffs and costs visible.",
           "Test a substitute against objective use and compatibility criteria."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -981,13 +1308,19 @@
         "meaning": "The combined supply cost including the relevant shipping, entry, handling, storage and compliance amounts."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.826Z",
+    "seoTitle": "Fictional cleaning supply: pesticide assumptions versus evidence",
+    "relatedPaths": [
+      "/industries/pest-control/",
+      "/us-expansion/customs-importer/",
+      "/us-expansion/tariff-classification/"
+    ]
   },
   {
     "id": "case-burgerim",
     "path": "/cases/burgerim-entity-default-judgment/",
     "title": "Burgerim: understand the entity default judgment and its limits",
-    "description": "A real historical judgment connects franchise-sales promises with the evidence and support behind them.",
+    "description": "Read the January 2024 Burgerim entity default judgment, sales bar and ordered penalties/redress. The amounts are not proof of recovery or a complete current docket.",
     "family": "case",
     "topic": "sales-disclosure",
     "jurisdictions": [
@@ -996,18 +1329,50 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
         "heading": "Identify the particular judgment",
         "paragraphs": [
           "On 19 January 2024, the Central District of California entered default judgment against Burgerim Group USA, Inc. and Burgerim Group, Inc. The order followed their default; it was not a contested merits trial. Page 3 separately notes an earlier order as to Oren Loni.",
-          "The entity order bars those entity defendants from U.S. franchise sales and imposes $7,750,000 in civil penalties and $48,476,689 for consumer redress. Keep the identity of the parties and the order clear rather than treating all references to the case as the same decision."
+          "The entity order bars those entity defendants from U.S. franchise sales and imposes $7,750,000 in civil penalties and $48,476,689 for consumer redress. Keep the identity of the parties and the order clear rather than treating all references to the case as the same decision.",
+          "For the fictional opening-speed claim below, follow the same discipline: separate the exact claim, evidence and limit. Name the site, permissions, staffing and funded support work behind the statement rather than borrowing a result from this case. This adds no allegation about the defendants."
         ],
         "sourceIds": [
-          "pr-burgerim-order"
-        ]
+          "pr-burgerim-order",
+          "pr-burgerim-index"
+        ],
+        "table": {
+          "headers": [
+            "Identified record or party",
+            "What the historical order establishes",
+            "Boundary beside the summary"
+          ],
+          "rows": [
+            [
+              "Burgerim Group USA, Inc. and Burgerim Group, Inc.",
+              "19 January 2024 default judgment against the two entity defendants; it bars their U.S. franchise sales.",
+              "This followed default, not a contested merits trial, and does not make a present-conduct finding about another business."
+            ],
+            [
+              "Oren Loni reference on page 3",
+              "The entity order separately notes an earlier individual order.",
+              "Do not merge the individual reference and entity judgment into a single undifferentiated decision."
+            ],
+            [
+              "Amounts imposed in the entity order",
+              "$7,750,000 civil penalties and $48,476,689 consumer redress.",
+              "Ordered amounts do not establish collection or buyer payments and are not a formula for another case."
+            ],
+            [
+              "FTC index marked Pending with January 2024 last update",
+              "An index description that does not supply a complete current docket.",
+              "Neither the old label nor this historical review certifies all later developments."
+            ]
+          ]
+        },
+        "legacyIndex": 0
       },
       {
         "heading": "A judgment amount is different from money recovered",
@@ -1018,7 +1383,8 @@
         "sourceIds": [
           "pr-burgerim-order",
           "pr-burgerim-index"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "The order connects numbers with support promises",
@@ -1028,14 +1394,16 @@
         ],
         "sourceIds": [
           "pr-burgerim-order"
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional exercise: examine one proposed opening statement",
         "paragraphs": [
           "Imagine a fictional brand proposes saying its new U.S. partners can open quickly. The team separates site choice, customer procurement, fit-out, permissions and staffing. It then asks which parts of the statement the available evidence actually supports.",
           "For a training or support statement, it names the team, travel budget and response capacity. These are original business-planning questions, not further findings about Burgerim. No new case fact or financial outcome is assumed."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Give every sales statement an evidence owner",
@@ -1049,7 +1417,8 @@
           "Record complaints and refund obligations against the actual contract.",
           "Keep ordered money separate from verified collection.",
           "Review current rules independently before using prospect-facing claims."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1083,13 +1452,19 @@
         "meaning": "An optional business record connecting each proposed statement to its supporting facts, responsible person and approved use; it is not a prescribed legal form."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:16:33.662Z",
+    "seoTitle": "Burgerim entity default judgment: orders versus collection",
+    "relatedPaths": [
+      "/fdd/item-19/",
+      "/us-expansion/advertising-controls/",
+      "/us-expansion/partner-federal-court-records/"
+    ]
   },
   {
     "id": "case-tower",
     "path": "/cases/tower-cleaning-earnings-and-records/",
     "title": "Tower Cleaning: a historical settlement about earnings claims and records",
-    "description": "Learn from the identified 1996 decree without treating old disclosure rules as today’s FDD instructions.",
+    "description": "Learn from Tower Cleaning’s 1996 no-admission consent decree and historical earnings records. Ordered redress is not collection, and UFOC terms are not today’s FDD rules.",
     "family": "case",
     "topic": "sales-disclosure",
     "jurisdictions": [
@@ -1098,7 +1473,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -1110,7 +1485,8 @@
         "sourceIds": [
           "pr-tower-decree",
           "pr-tower-index"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Understand the date of the disclosure references",
@@ -1120,21 +1496,78 @@
         ],
         "sourceIds": [
           "pr-tower-decree"
-        ]
+        ],
+        "table": {
+          "headers": [
+            "Historical record",
+            "Useful lesson retained",
+            "Present-day question kept separate"
+          ],
+          "rows": [
+            [
+              "1996 consent decree without admission or adjudication of disputed issues",
+              "Identify the actual resolution and its limits, including $50,000 consumer-redress terms without collection proof.",
+              "Do not present it as an admitted violation, contested finding or current-business assessment."
+            ],
+            [
+              "Pre-2007 Franchise Rule/UFOC disclosure and earnings references",
+              "Connect a sales claim with its supporting records and the definitions those records use.",
+              "Do not copy historical disclosure instructions into a current FDD."
+            ],
+            [
+              "A proposed current financial-performance statement",
+              "Prepare consistent groups, costs, sources and owner/manager involvement.",
+              "Current FDD/rule requirements apply independently; an internal worksheet is not itself an authorised representation."
+            ]
+          ]
+        },
+        "legacyIndex": 1
       },
       {
         "heading": "Why gross account billings do not explain the operator’s result",
         "paragraphs": [
           "For a cleaning business, the customer’s contract amount does not identify labour hours, travel between buildings, rework, supplies, churn or payment delay. Moving an account portfolio to another operator can also change staffing and route density.",
           "These are original business-analysis questions, not extra findings about Tower. They matter because a comparison can look favourable while describing an operation with different costs or owner participation from the one being offered."
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Fictional exercise: compare accounts on a consistent basis",
         "paragraphs": [
           "A fictional cleaning brand prepares an account comparison for its first U.S. partner model. Before adding figures, it defines the period, area, service mix, unit age and owner/manager involvement. It records lost or excluded accounts and explains why they are outside the group.",
-          "It then separates contracted revenue, invoiced revenue and cash received, and records site time, travel, supervision, equipment and quality costs. No invented profit result is supplied. The point is to establish what each record actually represents rather than call a hand-selected group typical."
-        ]
+          "It then separates contracted revenue, invoiced revenue and cash received, and records site time, travel, supervision, equipment and quality costs. No invented profit result is supplied. The point is to establish what each record actually represents rather than call a hand-selected group typical.",
+          "No profit figure is invented. The exercise is answered when the learner can explain why a large contract total, a billed amount and money received belong in different columns, with their own sources and limits."
+        ],
+        "table": {
+          "headers": [
+            "Fictional account comparison field",
+            "What the record answers",
+            "What it cannot answer alone"
+          ],
+          "rows": [
+            [
+              "Contracted revenue",
+              "What the customer has contracted to buy for the defined period and service.",
+              "It does not establish that the work was invoiced or cash collected."
+            ],
+            [
+              "Invoiced revenue",
+              "What the business has billed.",
+              "It does not establish receipt of cash or the operator’s profit."
+            ],
+            [
+              "Cash received",
+              "What has actually been collected in the comparison.",
+              "It does not identify labour, travel, supervision, equipment or quality costs by itself."
+            ],
+            [
+              "Comparison group and cost record",
+              "Period, area, service mix, unit age, owner/manager participation, exclusions and delivery costs.",
+              "A hand-selected or differently operated group cannot simply be called typical without explaining material differences."
+            ]
+          ]
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Make the record usable before making the claim",
@@ -1148,7 +1581,8 @@
           "Record owner/manager participation and delivery costs.",
           "Explain exclusions and material differences.",
           "Preserve the source, calculation, approved statement and its limits."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1183,13 +1617,19 @@
         "meaning": "The defined group of accounts or units used for a comparison, including its period and exclusions."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z"
+    "contentModifiedAt": "2026-11-13T19:14:49.826Z",
+    "seoTitle": "Tower Cleaning 1996 consent decree: earnings records and limits",
+    "relatedPaths": [
+      "/fdd/item-19/",
+      "/industries/commercial-cleaning/",
+      "/tools/fdd-comparison/"
+    ]
   },
   {
     "id": "b2-qargo-bounded",
     "path": "/cases/qargo-license-label-review/",
     "title": "Qargo Coffee: what the FTC alleged about a licence-labelled offer",
-    "description": "A real historical complaint and settlement reports illustrate why the operating facts matter more than the agreement’s name.",
+    "description": "Separate Qargo allegations from official settlement reports and a stale index label. The signed entered order’s remedy terms and collection remain unreviewed.",
     "family": "case",
     "topic": "classification",
     "jurisdictions": [
@@ -1198,7 +1638,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-relationship-definition"
     ],
@@ -1211,26 +1651,65 @@
         ],
         "sourceIds": [
           "b2-blocked-qargo-complaint"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "The official reports establish a bounded settlement account",
         "paragraphs": [
           "The FTC’s December 2024 litigation report records entry of a stipulated order on 17 October 2024. A later report to Congress covering fiscal 2025 lists the matter as Full Settlement. Those records support the historical settlement description.",
-          "They do not establish collection, current compliance or the absence of other disputes. The FTC index still uses a Pending label and links a proposed order. A stale index label should not be treated as proof that settlement never occurred, but it also does not supply a complete current court record."
+          "They do not establish collection, current compliance or the absence of other disputes. The FTC index still uses a Pending label and links a proposed order. A stale index label should not be treated as proof that settlement never occurred, but it also does not supply a complete current court record.",
+          "The short answer is a supported historical settlement account with unresolved final terms, not a choice between treating every document as final and refusing to learn anything from the existing record. The fictional rights-and-payments exercise can proceed without inventing remedies or a current compliance finding."
         ],
         "sourceIds": [
           "pr-qargo-report",
           "b2-blocked-qargo-2025report",
-          "pr-qargo-index"
-        ]
+          "pr-qargo-index",
+          "b2-blocked-qargo-complaint"
+        ],
+        "table": {
+          "headers": [
+            "Reviewed document",
+            "Supported historical statement",
+            "Unanswered question"
+          ],
+          "rows": [
+            [
+              "Complaint filed 16 October 2024; paragraphs 26–35",
+              "The FTC alleged franchise features despite distributorship/affiliated-licence language.",
+              "The complaint is not a contested trial finding or the final remedy instrument."
+            ],
+            [
+              "December 2024 FTC litigation report",
+              "Records entry of a stipulated order on 17 October 2024.",
+              "The report does not reproduce the actual signed order’s operative terms for this review."
+            ],
+            [
+              "Report to Congress covering fiscal 2025",
+              "Lists the matter as Full Settlement, supporting the bounded historical settlement account.",
+              "It does not establish collection, current compliance or absence of other disputes."
+            ],
+            [
+              "FTC index marked Pending and linked proposed order",
+              "The stale index/proposed document exists alongside those official settlement reports.",
+              "The label is not proof no settlement occurred; the proposed text cannot silently stand in for the entered order."
+            ],
+            [
+              "Actual signed entered order not reviewed",
+              "No final monetary, rescission or noncompete terms are stated here.",
+              "Final requirements, performance/payment and complete current status remain outside the reviewed scope."
+            ]
+          ]
+        },
+        "legacyIndex": 1
       },
       {
         "heading": "Why this article does not state the final remedies",
         "paragraphs": [
           "The reviewed material does not include the actual signed entered order. The page therefore does not recite final monetary, rescission or noncompete terms. A proposed document cannot silently stand in for the entered order.",
           "Keep the different questions separate: what the FTC alleged, what official reports say happened, what the entered order required and whether anyone performed or paid. Only the supported parts are stated here. No present-conduct, recovery or complete-docket conclusion is made."
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Apply the lesson to the relationship being offered",
@@ -1241,7 +1720,8 @@
         "sourceIds": [
           "fed-definition",
           "fed-compliance"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Fictional exercise: describe what the operator receives and owes",
@@ -1255,7 +1735,8 @@
           "Retain drafts, presentations and relevant sales promises.",
           "Analyse federal definitions/exemptions and state requirements separately.",
           "Leave final-order remedies and current status unresolved until the actual supporting records are read."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1272,7 +1753,7 @@
       "Actual signed final-order terms remain unreviewed and are not stated.",
       "No present conduct, money-recovery or complete current-docket finding is made."
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.757Z",
+    "contentModifiedAt": "2026-11-13T19:16:33.662Z",
     "scenarioType": "real",
     "label": "Real case — allegations, admissions and historical procedural scope are distinguished",
     "learningSummary": "A brand may describe a U.S. relationship as a licence or distributorship while providing rights and support that still need franchise analysis. This Qargo Coffee article explains the actual historical records reviewed. It distinguishes the complaint’s allegations from reported settlement status and leaves final remedy terms unstated because the signed entered order was not obtained.",
@@ -1293,6 +1774,12 @@
         "term": "Franchise analysis",
         "meaning": "Applying the relevant definition and then considering exemptions and independent state requirements from the actual relationship."
       }
+    ],
+    "seoTitle": "Qargo FTC case: licence allegations and the historical record",
+    "relatedPaths": [
+      "/us-expansion/franchising-vs-licensing/",
+      "/tools/relationship-factsheet/",
+      "/us-expansion/partner-federal-court-records/"
     ]
   },
   {

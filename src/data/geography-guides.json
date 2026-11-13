@@ -13,7 +13,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [
       "fed-e2-nationality"
     ],
@@ -26,13 +26,55 @@
         ],
         "sourceIds": [
           "geo-singapore-enterprise"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Fictional example: supervisors exist, but the owner still decides",
         "paragraphs": [
           "An established Singapore cleaning group has branch supervisors. Its owner still prices each major bid and resolves every service failure. If the American partner must wait for the founder on both decisions, the proposed model has not yet made the operation independent.",
           "The team chooses one customer contract as a pilot. It identifies a pricing lead and an escalation lead, records what they may approve and tests delivery supervision and invoice collection. The purpose is to learn whether the promised model works with named managers, not to prove independence through a title or questionnaire score. The owner can stay abroad while this test is prepared."
+        ],
+        "sourceIds": [],
+        "legacyIndex": 1
+      },
+      {
+        "heading": "Complete the authority record, not just the organisation chart",
+        "paragraphs": [
+          "The existing fictional cleaning scenario has supervisors but still depends on the owner for major bids and failures. Distinguish those current facts from pilot evidence still to obtain; this is an optional management test, not an Enterprise Singapore programme condition."
+        ],
+        "table": {
+          "headers": [
+            "Decision",
+            "Known in the scenario",
+            "Evidence still needed"
+          ],
+          "rows": [
+            [
+              "Delivery supervision",
+              "Branch supervisors exist",
+              "Who covers staff and supervises this American contract"
+            ],
+            [
+              "Major bid price",
+              "Owner still prices it",
+              "Named authority and an actual quotation decision"
+            ],
+            [
+              "Service failure",
+              "Owner still resolves it",
+              "Named escalation authority and remedy process"
+            ],
+            [
+              "Collection",
+              "Part of the proposed pilot",
+              "Owner of the task and evidence of collected cash"
+            ]
+          ]
+        },
+        "bullets": [
+          "Self-check: do supervisor titles prove independence? No. The scenario’s actual pricing and failure decisions still return to the founder.",
+          "Keep operator costs and brand-support promises separate, then assess any real U.S. work by person and activity."
         ],
         "sourceIds": []
       },
@@ -42,7 +84,8 @@
           "Put customer-site insurance, bid prerequisites, wage questions, chemicals and route scheduling on the operating side of the sheet. Put training, brand oversight and continuing support costs on the brand side. These are matters to investigate for the actual location and activity, not a claim that every cleaning business needs identical permits.",
           "Finance should model wages, manager cost, royalties, support expense and customer payment delays separately. A signed customer contract is not the same event as cash collected, and the recurring payment to the brand should be compared with the actual support promised."
         ],
-        "sourceIds": []
+        "sourceIds": [],
+        "legacyIndex": 2
       },
       {
         "heading": "Singapore incorporation does not establish a person’s nationality",
@@ -53,7 +96,8 @@
         "sourceIds": [
           "geo-treaty-countries",
           "fed-e2"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Prepare one-contract management evidence",
@@ -65,7 +109,8 @@
           "Expansion lead: record the municipality and actual customer-site locations.",
           "People lead: describe only the actual proposed assignments; do not assume the founder must relocate."
         ],
-        "sourceIds": []
+        "sourceIds": [],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -97,7 +142,13 @@
         "meaning": "Different U.S. treaty-based immigration categories: treaty trader and treaty investor. A country listing is not an eligibility decision."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.753Z"
+    "contentModifiedAt": "2026-11-13T19:17:48.342Z",
+    "seoTitle": "Singapore U.S. service pilot: who prices and remedies the work?",
+    "relatedPaths": [
+      "/tools/management-dependence/",
+      "/tools/brand-support-economics/",
+      "/us-expansion/e2-nationality-investment/"
+    ]
   },
   {
     "id": "geo-origin-uk",
@@ -113,7 +164,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -125,13 +176,53 @@
         "sourceIds": [
           "geo-uk-us",
           "geo-uk-services"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Fictional example: the operator sells support and pays the UK company",
         "paragraphs": [
           "An American operator signs the customer contract and employs local technicians. A UK parent provides remote technical escalation, while the operator pays a monthly support charge and a brand royalty. Finance separates what each payment buys and how it is priced instead of using one line called licence fee.",
           "The support manager describes the training, software, urgent technical help and oversight the UK team will actually supply. Operations records the customer’s service level and payment terms. The finance reviewer then has the parties and supplies needed for the UK VAT place-of-supply analysis, including exceptions. An American billing address alone does not complete that analysis. The team also records where people work and whether local staff can commit the UK parent to contracts or other obligations."
+        ],
+        "sourceIds": [
+          "geo-uk-us",
+          "geo-uk-services"
+        ],
+        "legacyIndex": 1
+      },
+      {
+        "heading": "Draw the three models before assigning a tax answer",
+        "paragraphs": [
+          "This is a preparation map. Identify the actual seller, employer, deliverer and payee rather than infer one role from another."
+        ],
+        "table": {
+          "headers": [
+            "Model",
+            "Flow to document",
+            "Entity-specific question"
+          ],
+          "rows": [
+            [
+              "Direct UK supply",
+              "UK supplier, customer contract and actual work/payment",
+              "Work locations, people and applicable taxes"
+            ],
+            [
+              "American-subsidiary delivery",
+              "Subsidiary delivery and its customer/group contracts",
+              "Who actually sells, employs, receives income and promises support"
+            ],
+            [
+              "Independent operator using the brand",
+              "In the example, operator signs the customer contract and employs technicians",
+              "Separately described UK support charge and royalty"
+            ]
+          ]
+        },
+        "bullets": [
+          "For the worked operator case, connect service levels and collections to the operator and training/software/urgent help to the actual UK promise.",
+          "Authority for a local person to commit the UK parent remains a fact to establish. No model automatically decides VAT, U.S. tax, treaty benefits or work permission."
         ],
         "sourceIds": [
           "geo-uk-us",
@@ -150,7 +241,8 @@
         ],
         "sourceIds": [
           "geo-uk-services"
-        ]
+        ],
+        "legacyIndex": 2
       },
       {
         "heading": "Keep brand and work permission questions visible",
@@ -160,7 +252,8 @@
         ],
         "sourceIds": [
           "geo-uk-us"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Choose a first decision that the team can actually evidence",
@@ -171,7 +264,8 @@
         "sourceIds": [
           "geo-uk-us",
           "geo-uk-services"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -206,7 +300,13 @@
         "meaning": "Rights whose protection is tied to a country or territory, rather than automatically extending worldwide."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.753Z"
+    "contentModifiedAt": "2026-11-13T19:17:48.342Z",
+    "seoTitle": "UK U.S. services: direct sales, subsidiaries and operator payments",
+    "relatedPaths": [
+      "/us-expansion/royalties-to-foreign-company/",
+      "/us-expansion/transfer-pricing/",
+      "/us-expansion/treaty-ownership/"
+    ]
   },
   {
     "id": "geo-origin-netherlands",
@@ -222,7 +322,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
@@ -233,7 +333,8 @@
         ],
         "sourceIds": [
           "geo-nl-kvk"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Fictional example: Ohio, Indiana and Michigan are requested first",
@@ -243,7 +344,8 @@
         ],
         "sourceIds": [
           "geo-nl-kvk"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Use documents to test the operator proposal",
@@ -255,7 +357,26 @@
           "Name the people responsible for training, technical approval and emergency escalation, with a support budget.",
           "Agree the pilot evidence, review date and conditions to investigate before expanded territory is proposed."
         ],
-        "sourceIds": []
+        "sourceIds": [],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "What evidence would change the three-state decision?",
+        "paragraphs": [
+          "The example proposes a pilot; it supplies no measured American results. Use this conditional review without inventing success figures or a benchmark."
+        ],
+        "bullets": [
+          "If response and repeat-service evidence is unsupported, keep the capacity question open before promising more territory.",
+          "If qualified bids and acceptance do not establish customer fit, investigate or revise the offer; a request for rights is not demand evidence.",
+          "If collections and available cash cannot yet support the plan, revisit funding or scope. Do not treat signed contracts as cash.",
+          "If recurring receipts and supported tax treatment do not yet fund Dutch support, retain the net-royalty assumption as unresolved.",
+          "Self-check: does W-8BEN-E prove the support budget gets a tax-free royalty? No. Actual income, beneficial ownership, treaty article and limitation-on-benefits conditions remain separate.",
+          "A satisfactory commercial review would still leave relationship terms, state protections and operating permissions to assess."
+        ],
+        "sourceIds": [
+          "geo-nl-kvk",
+          "geo-irs-w8"
+        ]
       },
       {
         "heading": "A withholding form is evidence, not the whole tax decision",
@@ -265,7 +386,8 @@
         ],
         "sourceIds": [
           "geo-irs-w8"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Bring the pilot and cash decisions together",
@@ -275,7 +397,8 @@
         "sourceIds": [
           "geo-nl-kvk",
           "geo-irs-w8"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -310,7 +433,13 @@
         "meaning": "Questions about the actual recipient and entitlement to a particular tax benefit, including any limitation-on-benefits conditions."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.753Z"
+    "contentModifiedAt": "2026-11-13T19:19:37.340Z",
+    "seoTitle": "Dutch U.S. territory pilot: delivery, collected cash and tax evidence",
+    "relatedPaths": [
+      "/us-expansion/territory-national-accounts/",
+      "/us-expansion/royalties-to-foreign-company/",
+      "/tools/partner-evidence/"
+    ]
   },
   {
     "id": "geo-origin-france",
@@ -326,7 +455,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
@@ -338,7 +467,8 @@
         "sourceIds": [
           "geo-fr-cnil",
           "geo-edpb-dpf-v2"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Fictional example: the master operator wants all European tickets",
@@ -349,7 +479,8 @@
         "sourceIds": [
           "geo-fr-cnil",
           "geo-edpb-dpf-v2"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Certification does not replace the processor agreement",
@@ -358,6 +489,53 @@
           "Also verify how any employee-related human-resources data is covered under the 2026 guidance. Do not assume that general participation covers every data category or every subsidiary."
         ],
         "sourceIds": [
+          "geo-edpb-dpf-v2"
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Answer six questions before giving ticket access",
+        "paragraphs": [
+          "The existing request is for all European tickets. It does not establish that every record is needed, the recipient is a processor or certification covers it."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "What to establish in the example"
+          ],
+          "rows": [
+            [
+              "Purpose/necessity",
+              "What training needs and whether non-identifying examples can meet it"
+            ],
+            [
+              "Legal recipient",
+              "Actual master operator and onward access, not a group badge"
+            ],
+            [
+              "Data categories",
+              "Customer and employee-related information with relevant scope checked"
+            ],
+            [
+              "Role",
+              "Actual controller/processor relationship, not an assumed label"
+            ],
+            [
+              "Transfer route",
+              "Active actual-recipient scope or another assessed Chapter V route"
+            ],
+            [
+              "Contract",
+              "Required Article 28 agreement if the recipient is a processor, independently of DPF"
+            ]
+          ]
+        },
+        "bullets": [
+          "Self-check: may a certified processor omit the required Article 28 contract? No. Certification and that contract answer different questions.",
+          "Assign retention, return/deletion and removal of access without claiming the illustrative data reduction achieves anonymisation."
+        ],
+        "sourceIds": [
+          "geo-fr-cnil",
           "geo-edpb-dpf-v2"
         ]
       },
@@ -374,7 +552,8 @@
         "sourceIds": [
           "geo-fr-cnil",
           "geo-edpb-dpf-v2"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Keep an unavailable route unresolved until an alternative is assessed",
@@ -384,7 +563,8 @@
         ],
         "sourceIds": [
           "geo-edpb-dpf-v2"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -396,7 +576,7 @@
     "limitations": [
       "This is a scoped preparation guide, not a complete legal or tax review. Address, activity, entity and transaction facts can change the applicable requirements."
     ],
-    "learningSummary": "A French company may want an American operator to learn from its service records, but those records can identify customers and employees. Decide what is actually needed and who will receive it before relying on an affiliated company’s certification or giving access to a whole system.",
+    "learningSummary": "A French company may want an American operator to learn from its service records, but those records can identify customers and employees. Decide what is actually needed and who will receive it before relying on an affiliated company’s certification or giving access to a whole system. If the American recipient is a processor, the required Article 28 agreement remains separate regardless of DPF certification.",
     "keyTerms": [
       {
         "term": "CNIL",
@@ -423,7 +603,13 @@
         "meaning": "A party processing personal data for a controller; the relevant Article 28 agreement is a separate requirement."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.753Z"
+    "contentModifiedAt": "2026-11-13T19:17:48.343Z",
+    "seoTitle": "French U.S. data transfers: DPF scope and Article 28 contracts",
+    "relatedPaths": [
+      "/from/switzerland/",
+      "/from/croatia/",
+      "/us-expansion/cross-border-data/"
+    ]
   },
   {
     "id": "geo-origin-malaysia",
@@ -440,7 +626,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "fed-e2-nationality",
       "fed-l1-relationship"
@@ -455,13 +641,64 @@
         "sourceIds": [
           "geo-treaty-countries",
           "fed-e2"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Fictional example: three months of training and live customer work",
         "paragraphs": [
           "A Malaysian parent owns a Singapore subsidiary that licenses its system to an independent American partner. A manager is asked to spend three months in America training staff and resolving live customer issues. The people lead describes the actual training, customer involvement, duration, supervision and reporting line. Calling it a business trip is not sufficient detail to assess the work.",
           "The company secretary draws the entity and ownership chain. The finance lead records invested and committed funds, their source and actual business expenditures without assuming a qualifying investment result. The team also recognises that the licensing contract is a commercial relationship: by itself it is not evidence of the qualifying relationship for an L-1 intracompany transfer. Those conditions remain a separate review before work starts."
+        ],
+        "sourceIds": [
+          "geo-treaty-countries",
+          "fed-e2",
+          "fed-l1"
+        ],
+        "legacyIndex": 1
+      },
+      {
+        "heading": "Keep ownership beside—not inside—the work plan",
+        "paragraphs": [
+          "The existing three-month assignment includes training and live customer issues. Review the activities alongside the corporate chain without making either a visa score."
+        ],
+        "table": {
+          "headers": [
+            "Question",
+            "Fact available or needed",
+            "Conclusion not supplied"
+          ],
+          "rows": [
+            [
+              "Country table",
+              "Singapore listed for E-2; Malaysia not listed at the recorded review",
+              "An individual outcome from a company label"
+            ],
+            [
+              "Enterprise nationality",
+              "Ultimate individuals’ nationality and control rights",
+              "That a Singapore office establishes those facts"
+            ],
+            [
+              "L-1 relationship",
+              "Corporate links and independent U.S. partner’s actual relationship",
+              "That licensing alone supplies a qualifying intracompany link"
+            ],
+            [
+              "Actual work",
+              "Training, customer activity, duration, supervision and reporting",
+              "That a business-trip label permits everything"
+            ],
+            [
+              "Investment/personal status",
+              "Commitments/source/expenditure and individual nationality/derivative facts",
+              "A qualifying investment, escrow or family-status result"
+            ]
+          ]
+        },
+        "bullets": [
+          "Self-check: does the country-list answer decide L-1 or the work activity? No. Each needs different evidence.",
+          "FAM consular guidance remained inaccessible in the existing review. Keep those questions with the assignment before relying on the person’s work."
         ],
         "sourceIds": [
           "geo-treaty-countries",
@@ -479,14 +716,16 @@
           "Finance lead: investment amount, commitments, source and business expenditures as separate records.",
           "Expansion lead: identify the questions needing a named immigration adviser’s decision and leave them pending before the assignment begins."
         ],
-        "sourceIds": []
+        "sourceIds": [],
+        "legacyIndex": 2
       },
       {
         "heading": "Continue the commercial preparation without inventing relocation",
         "paragraphs": [
           "The partner-operated model can still be investigated while the founder remains abroad. Management delegation, unit economics and partner research do not need an assumption that the owner will relocate. If a particular person’s American work is essential to delivery, show that unresolved dependency early so the launch promise can be revised if necessary."
         ],
-        "sourceIds": []
+        "sourceIds": [],
+        "legacyIndex": 3
       },
       {
         "heading": "Keep the evidence limits with the assignment",
@@ -497,7 +736,8 @@
           "geo-treaty-countries",
           "fed-e2",
           "fed-l1"
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -535,13 +775,19 @@
         "meaning": "A separate family-related status question under an applicable immigration route; individual facts still need review."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:46:40.753Z"
+    "contentModifiedAt": "2026-11-13T19:17:48.343Z",
+    "seoTitle": "Malaysian-owned Singapore company: E-2, L-1 and U.S. training",
+    "relatedPaths": [
+      "/us-expansion/e2-nationality-investment/",
+      "/us-expansion/l1-ownership-and-control/",
+      "/us-expansion/business-visits/"
+    ]
   },
   {
     "id": "geo-guide-los-angeles",
     "path": "/cities/los-angeles/business-registration/",
-    "title": "Los Angeles: register the business and check the premises separately",
-    "description": "Use the City of Los Angeles process for the actual city activity, rather than for the whole metropolitan area.",
+    "title": "Los Angeles business registration: identify the city activity and operator",
+    "description": "Prepare the City of Los Angeles Business Tax Registration Certificate enquiry; keep customer-site, premises and activity permissions separate.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -551,7 +797,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -559,7 +805,8 @@
         "paragraphs": [
           "Los Angeles metro includes municipalities and unincorporated areas beyond the City of Los Angeles. Record the exact address and responsible city or county before using a form. A sales territory labelled Los Angeles is not evidence that one city administers all of it.",
           "The operating company’s office and the locations where it works for customers can be different. Keep both in the description so the registration question can be assessed on actual activity."
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "What the city registration asks you to identify",
@@ -569,13 +816,26 @@
         ],
         "sourceIds": [
           "geo-local-los-angeles"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: one office, several customer sites",
         "paragraphs": [
           "Fictional example. A cleaning partner keeps its office in one municipality and sends crews to customers in several others. Its manager obtains one city certificate and assumes it covers the entire commercial territory.",
           "The COO lists the office and customer sites separately, identifies the company carrying out each service and records what happens at each place. Finance can then investigate the actual connection to each local authority. The certificate is retained as evidence of the process it belongs to, rather than stretched into proof of every other city’s requirements."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the addresses: does one certificate cover the commercial territory?",
+        "paragraphs": [
+          "Use the fictional cleaning partner with an office in one municipality and customer sites in several others. Ask whether the brand’s Los Angeles sales territory or the one city certificate establishes the responsible authority for every place it works.",
+          "Answer: neither does. The City of Los Angeles Office of Finance process concerns the actual city business registration and requests identifying, activity, location and contact facts. A Business Tax Registration Certificate belongs to that process; it does not automatically become a certificate for the wider metropolitan market.",
+          "The completed preparation task is an address-by-activity list: identify the legal operator, office and actual customer-site work, then the relevant municipality or county. Each registration or exemption conclusion needs its own supporting instructions and evidence. This guide does not provide a complete customer-site nexus test or determine every city’s duty. It also leaves premises use, trade credentials and franchise-sales analysis separate."
+        ],
+        "sourceIds": [
+          "geo-local-los-angeles"
         ]
       },
       {
@@ -583,13 +843,15 @@
         "paragraphs": [
           "For a proposed depot, explain storage, equipment, staff and customer access rather than relying only on the industry name. Assign zoning or use, building, fire and activity-specific questions to the appropriate person. This page does not establish which of those permissions apply to an unidentified site.",
           "Likewise, the private right to use your brand is separate from the operator’s government records. A Business Tax Registration Certificate does not classify the relationship or establish compliance with franchise-sales duties."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Build an address-by-activity checklist",
         "paragraphs": [
           "For each relevant address, record the operating entity, municipality or county, activity, registration or exemption decision, dated filing evidence and any issued record. Add the owner of the next question and the date for checking current instructions or renewal. This is a planning aid: fees, completion time and additional legal requirements remain unknown until checked for the actual application."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -620,13 +882,20 @@
         "meaning": "The separate question of whether the proposed activity is allowed at the particular property."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "City of Los Angeles Business Tax Registration Certificate",
+    "relatedPaths": [
+      "/cities/los-angeles/restaurants/",
+      "/cities/san-francisco/service-business-registration/",
+      "/us-expansion/b2b-first-market-validation/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-san-francisco",
     "path": "/cities/san-francisco/service-business-registration/",
-    "title": "San Francisco: customer-site services can matter even without a city office",
-    "description": "Record the activity and start date, then assess registration, exemptions and fees separately.",
+    "title": "San Francisco business registration: check city work without a city office",
+    "description": "Assess the actual service and commencement facts, the qualified 30-day registration provision and separate fee-exemption question.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -636,7 +905,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -647,7 +916,8 @@
         ],
         "sourceIds": [
           "geo-local-san-francisco"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Do not confuse registration with its cost",
@@ -657,13 +927,26 @@
         ],
         "sourceIds": [
           "geo-local-san-francisco"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: a supervisor works at a customer site",
         "paragraphs": [
           "Fictional example. A facilities-support operator has an office outside San Francisco but sends a supervisor into the city to serve a customer. Finance assumes registration is unnecessary because no lease has been signed in the city.",
           "The operating lead records the days, tasks, customer sites, contracting company and employee facts. Finance compares that activity with the city’s tests and exceptions, and checks the actual start date against the published 30-day provision. If the answer is still uncertain, the plan records the open question. It does not change “no office” into “no registration.”"
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the start date: is an outside office enough to close the question?",
+        "paragraphs": [
+          "Use the fictional supervisor serving a San Francisco customer while the company’s office is elsewhere. Before reading the answer, identify the legal company, actual tasks, city site and start facts that finance needs. Does not signing a city lease answer the registration question?",
+          "Answer: no. The reviewed city criteria include performing work or rendering services in San Francisco as well as maintaining a fixed place of business. Its general registration provision is within 30 days after commencing business, subject to the complete tests and exceptions for the actual proposal. Do not substitute a convenient later office-opening date for the relevant activity facts.",
+          "Record the applicability decision and supporting start date, then check the fee and any exemption separately. A fee exemption does not automatically remove registration, and an unknown amount is not zero. This exercise selects the evidence needed; it does not declare that every visit or contact triggers registration or calculate a tax amount."
+        ],
+        "sourceIds": [
+          "geo-local-san-francisco"
         ]
       },
       {
@@ -699,13 +982,15 @@
               "Calendar entry and filing receipt"
             ]
           ]
-        }
+        },
+        "legacyIndex": 3
       },
       {
         "heading": "Where this article stops",
         "paragraphs": [
           "No San Francisco tax calculation, selected exemption or employment conclusion is supplied here. Those matters can affect price and cash, but they need separate facts and rules. Produce an activity-and-start-date record first, with the actual registration decision, evidence and next action attached. Premises and sector permissions remain separate from the registration file."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -736,13 +1021,20 @@
         "meaning": "A rule relieving a fee under its conditions, which does not automatically remove the obligation to register."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "San Francisco registration for customer-site service work",
+    "relatedPaths": [
+      "/cities/los-angeles/business-registration/",
+      "/cities/pittsburgh/outside-service-registration/",
+      "/us-expansion/b2b-first-market-validation/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-dallas",
     "path": "/cities/dallas/tenant-certificate-of-occupancy/",
-    "title": "Dallas: a new tenant can need a new occupancy certificate",
-    "description": "The previous tenant’s permitted use does not automatically establish the incoming operator’s position.",
+    "title": "Dallas tenant changes: check the new occupancy-certificate task",
+    "description": "Distinguish a new tenant, changed use and DBA-only change; retain the unresolved Dallas wording before choosing a name-only workflow or fee.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -752,7 +1044,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -763,7 +1055,8 @@
         ],
         "sourceIds": [
           "geo-local-dallas"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Request the existing record before relying on the space",
@@ -773,26 +1066,41 @@
         ],
         "sourceIds": [
           "geo-local-dallas"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: taking over a technical-service unit",
         "paragraphs": [
           "Fictional example. A local partner takes over a workshop and keeps the same broad maintenance use. The landlord points to the previous tenant’s permission and the partner begins scheduling customer jobs.",
           "The premises lead records the tenant change and obtains the prior CO. Operations describes the new entity and actual equipment and storage. The project lead then checks the application and inspection route with Dallas. Even if the eventual process is straightforward, that evidence is needed before the team treats the previous tenant’s document as its own."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the distinction: new tenant or only a trading name?",
+        "paragraphs": [
+          "Use the fictional technical-service workshop takeover. The proposed operator is a different company, even though the landlord describes the maintenance use as unchanged. Ask whether that is merely a DBA change or an incoming tenant for the Dallas enquiry.",
+          "Answer: a trading name and a legal operator are different facts. Dallas lists tenant change on an existing CO as a new-CO trigger, alongside first use, changed use and changed floor area. Obtain the prior CO, exact unit and actual proposed tenant, use, equipment, storage and area before choosing the project’s route.",
+          "If the same operator only changes its DBA, keep the official wording conflict explicit: the reviewed page describes an introductory record-change route and a later standalone-application route. That workflow remains unresolved and must be confirmed with Dallas before relying on a shortcut or fee. Neither this exercise nor the landlord’s statement is an issued certificate, inspection result or promised processing date."
+        ],
+        "sourceIds": [
+          "geo-local-dallas"
         ]
       },
       {
         "heading": "Show the commercial consequences without inventing a deadline",
         "paragraphs": [
           "Finance can model a clearly labelled delay assumption to understand rent and cash exposure. The person handling the lease can compare access, alterations, permission dependencies and rent commencement with the actual terms. Those are business-planning steps, not claims that a particular lease clause is legally required or that the city will finish by the modelled date."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "The file to prepare",
         "paragraphs": [
           "Keep the prior CO, new tenant and use description, current city instructions, any application or inspection evidence and the eventual issued record together. Give each missing answer a responsible person. Fees and completion time remain unverified until checked. Other tax, employment, trade, property and franchise-sale questions are not resolved by this narrow occupancy guide."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -824,13 +1132,20 @@
         "meaning": "Doing business as: a trading name, which is different from automatically changing the tenant or the actual business activity."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Dallas tenant-change Certificate of Occupancy checks",
+    "relatedPaths": [
+      "/comparisons/dallas-san-antonio-occupancy/",
+      "/cities/san-antonio/change-of-use/",
+      "/cases/lease-clock-before-opening/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-san-antonio",
     "path": "/cities/san-antonio/change-of-use/",
-    "title": "San Antonio: compare the old use with the new business before choosing the CO route",
-    "description": "A change of use, a same-use takeover and a special business category can lead to different certificate tasks.",
+    "title": "San Antonio occupancy: compare changed use and a same-use takeover",
+    "description": "Understand the qualified new-certificate and update distinctions; describe actual use and special categories before selecting a San Antonio CO route.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -840,7 +1155,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -851,7 +1166,8 @@
         ],
         "sourceIds": [
           "geo-local-san-antonio"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Compare records with the planned operation",
@@ -882,13 +1198,26 @@
               "Whether a listed exception applies"
             ]
           ]
-        }
+        },
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: an office suite becomes a training centre",
         "paragraphs": [
           "Fictional example. A foreign training brand chooses a local operator for a former office suite. The landlord says the prior tenant already had an occupancy certificate, so the team begins marketing courses.",
           "The premises lead records the planned class size, layout and actual teaching activity and compares them with the prior certificate. It asks Development Services which use route and any special category apply. The enquiry does not assume teaching always changes the classification; it supplies the facts needed to decide. The opening date remains linked to the applicable municipal outcome rather than the previous tenant’s history."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the use comparison: what must the training operator describe?",
+        "paragraphs": [
+          "Use the fictional training brand considering a former office suite. Ask which facts could change the enquiry: the incoming operator, teaching activity, class size, layout, equipment, works and existing certificate conditions. Is the word office on the landlord’s description enough?",
+          "Answer: the actual old and proposed uses must be compared. San Antonio describes a new CO for changed business use and an update for certain owner or lessee changes with essentially the same use. Listed business categories still need a new certificate, so same use is not a universal exemption or a no-action answer.",
+          "The exercise does not conclude that teaching always changes the classification. Give Development Services the existing record and proposed facts, then retain its applicable route, conditions and outcome. Inspections, temporary routes and other project requirements remain separate; a landlord agreement or application alone is not the completed municipal decision."
+        ],
+        "sourceIds": [
+          "geo-local-san-antonio"
         ]
       },
       {
@@ -896,13 +1225,15 @@
         "paragraphs": [
           "The landlord can agree commercially to a lease and proposed alterations. The operator can also submit an application. Neither fact is the issued certificate, update or other required municipal outcome. Retain the city response and the actual record completing the applicable stage.",
           "Finance may test a labelled delay scenario to understand rent and cash exposure, but this guide verifies no review fee or completion time. The scenario should not be presented as the city’s promised timetable."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "What the local team should return",
         "paragraphs": [
           "Ask for a previous-use versus proposed-use factsheet, the selected city route and its supporting response or issued record. Include the responsible person and remaining inspection or other conditions. This narrow city enquiry does not resolve all building, trade, employment, tax or franchise-sale requirements."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -933,13 +1264,20 @@
         "meaning": "The San Antonio department whose occupancy instructions are discussed here."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "San Antonio occupancy: new CO versus same-use update",
+    "relatedPaths": [
+      "/comparisons/dallas-san-antonio-occupancy/",
+      "/cities/dallas/tenant-certificate-of-occupancy/",
+      "/industries/business-training/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-portland",
     "path": "/cities/portland/city-county-tax-boundaries/",
-    "title": "Portland, Multnomah County and Metro: identify each tax boundary",
-    "description": "One regional market can involve several separate tax questions.",
+    "title": "Portland-area business taxes: separate city, county and Metro questions",
+    "description": "Map actual office and service locations to Portland, Multnomah County and Metro; keep registration, exemption and return duties separate from tax amounts.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -949,7 +1287,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
@@ -960,7 +1298,8 @@
         ],
         "sourceIds": [
           "geo-local-portland"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Registration, exemption and return are different questions",
@@ -970,26 +1309,41 @@
         ],
         "sourceIds": [
           "geo-local-portland"
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: maintenance routes cross a boundary",
         "paragraphs": [
           "Fictional example. A maintenance partner has an office elsewhere in the region and serves sites on both sides of a city boundary. The finance team initially assigns all revenue to the office address because it produces a simpler and cheaper model.",
           "The CFO instead lists the office, staff and customer-service locations and the activity performed at each. It uses the official boundary tool and asks which city, county and Metro duties apply. The team leaves income allocation and any tax calculation unresolved until supported. Choosing a convenient address in a spreadsheet does not decide the legal treatment."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the boundary: can the office address allocate every service?",
+        "paragraphs": [
+          "Use the fictional maintenance operator serving sites on both sides of a city boundary. Finance wants to assign all revenue to the office address. Ask what the official boundary enquiry can establish and what additional tax decisions it cannot supply.",
+          "Answer: list the office, worker and customer-service locations and actual activity, then use the official address tool for the relevant boundaries. The reviewed Revenue Division page states a 60-day registration instruction for businesses operating in Portland and/or Multnomah County and discusses Metro business tax separately. Metro here names the regional jurisdiction, not merely the commercial metro area.",
+          "That mapping does not select a tax rate, allocate income or determine the company’s taxable connection. Registration, an exemption claim and return filing have different questions and conditions. A missing amount remains unknown in finance’s model, and an assumed exemption is not a universal answer to the other tasks."
+        ],
+        "sourceIds": [
+          "geo-local-portland"
         ]
       },
       {
         "heading": "Build a three-jurisdiction worksheet",
         "paragraphs": [
           "For each relevant address, list the entity, activities, dates and whether the property or activity is within each jurisdiction. Add the registration question, specific filing or exemption conditions, evidence and responsible finance lead. This is an optional way to organise the investigation, not a new filing form."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Treat missing amounts honestly",
         "paragraphs": [
           "A missing tax cost is not zero. Keep it unknown in the unit-economics model and identify what source or factual answer is needed. Other premises, sector, employment and business requirements also remain separate. The immediate output is a reliable map of the questions, rather than a tax bill invented from a regional label."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1024,13 +1378,20 @@
         "meaning": "The obligation to submit the relevant tax return, which must be checked separately from whether a tax amount is due."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Portland, Multnomah and Metro business-tax boundaries",
+    "relatedPaths": [
+      "/us-expansion/state-tax-nexus/",
+      "/us-expansion/b2b-first-market-validation/",
+      "/us-expansion/b2b-receivables-and-runway/",
+      "/tools/market-comparison/"
+    ]
   },
   {
     "id": "geo-guide-boston",
     "path": "/cities/boston/trade-name-certificate/",
-    "title": "Boston: the Business Certificate records the name you trade under",
-    "description": "Keep a DBA filing separate from the company’s legal existence, brand agreement and operating permissions.",
+    "title": "Boston DBA filing: what the Business Certificate records",
+    "description": "Match the legal name, trading brand and Boston address; distinguish the City Clerk’s four-year certificate from entity formation and operating permissions.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -1040,7 +1401,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
@@ -1051,20 +1412,34 @@
         ],
         "sourceIds": [
           "geo-local-boston"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Three documents with different purposes",
         "paragraphs": [
           "The state entity record concerns the business’s legal organisation. The private brand agreement concerns permission to use the brand. The city certificate records the name and address under which the business trades. They can belong in the same management file, but one does not automatically replace another.",
           "The city name filing also does not establish that premises have approved use, a professional service is licensed or franchise rights may lawfully be offered. Keep those questions with their own responsible person rather than describing the Business Certificate as complete business approval."
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: Bay Services LLC uses a European brand",
         "paragraphs": [
           "Fictional example. A local company called Bay Services LLC wants to advertise under a European facilities brand. The operator has signed the brand agreement and assumes that means the city will recognise the trading name.",
           "The operating lead records Bay Services LLC as the legal entity, the precise public-facing name and the Boston address. The company secretary checks the relevant state entity record and signing authority. The filing owner follows the City Clerk’s current process and keeps its filing evidence separately from the brand agreement. Finance records the four-year renewal and identifies moves or name changes as events to review."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the names: which record answers which question?",
+        "paragraphs": [
+          "Use fictional Bay Services LLC trading under the European facilities brand. Ask whether the company’s state record, private brand agreement and Boston Business Certificate have the same purpose. Then match each document to the question it can actually answer.",
+          "Answer: the legal entity record concerns the company’s organisation; the private agreement concerns the specified brand rights; and the City Clerk’s Business Certificate concerns the different public trading name and address. The reviewed process describes prerequisites for the actual business type and a four-year renewal. It does not mean every applicant must form a corporation to choose a name.",
+          "Put Bay Services LLC, the precise trading name and actual Boston address on the preparation sheet, with the relevant signer, filing evidence and renewal owner. A city name filing neither decides trademark ownership nor supplies premises, professional or franchise-sales permission. Review the applicable change process when the name or address changes instead of updating marketing alone."
+        ],
+        "sourceIds": [
+          "geo-local-boston"
         ]
       },
       {
@@ -1072,13 +1447,15 @@
         "paragraphs": [
           "Customer contracts, invoices, city records and the brand agreement should make it possible to identify the actual operator. When the business moves or changes its trading name, review which records need attention rather than updating only its marketing.",
           "This is a management consistency check, not a statement that every document uses identical wording or that the certificate decides trademark rights. Use the current City Clerk instructions for the actual filing and any change procedure."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "The practical record",
         "paragraphs": [
           "Prepare a legal-name/trading-name/address sheet with the state record reference, authorised signer, city filing evidence and renewal owner. Add separate premises and sector questions. Fees and completion time remain unverified until checked for the actual application; the guide does not supply a complete operating-permission list."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1109,13 +1486,20 @@
         "meaning": "The Boston office responsible for the Business Certificate process described here."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Boston DBA Business Certificate: legal name versus brand",
+    "relatedPaths": [
+      "/us-expansion/franchising-vs-licensing/",
+      "/us-expansion/single-trademark-license/",
+      "/us-expansion/partner-due-diligence-evidence/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-philadelphia",
     "path": "/cities/philadelphia/commercial-activity-license/",
-    "title": "Philadelphia: an outside business may need a Commercial Activity License",
-    "description": "Connect the actual operator and city tax account before treating the absence of an office as an exemption.",
+    "title": "Philadelphia Commercial Activity License: check the outside operator",
+    "description": "Connect the legal operator, city tax account and CAL or alternative-number route; confine no-cost and no-renewal treatment to the named licence.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -1125,7 +1509,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -1136,13 +1520,26 @@
         ],
         "sourceIds": [
           "geo-local-philadelphia"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Worked example: an outside cleaning company wins a city client",
         "paragraphs": [
           "Fictional example. A cleaning operator has its office outside Philadelphia but will send crews to a Philadelphia customer. The manager marks city licensing not applicable because no city premises have been leased.",
           "The COO records the contract, service address, start date and delivery and employee facts. Finance investigates the relevant city tax account and CAL or alternative-number route. The company’s office location remains part of the facts, but it is not used to erase the actual work performed in the city. This example does not decide every tax or employee obligation; it identifies the city question that was skipped."
+        ],
+        "legacyIndex": 1
+      },
+      {
+        "heading": "Try the outside-office assumption: what did the cleaning company miss?",
+        "paragraphs": [
+          "Use the fictional cleaning operator based outside Philadelphia but working at a city customer. Ask whether its office address closes the city enquiry and whether a no-cost licence means the local operation has no other expense or duty.",
+          "Answer: the reviewed CAL instructions expressly include businesses located outside city limits doing business in Philadelphia. The operator must identify its actual company, city activity and tax-account facts, and check whether the CAL or a listed Activity License Number category fits. The page directs obtaining this licence before other business licences, without removing the separate premises and sector questions.",
+          "The CAL’s stated no-cost and no-renewal treatment belongs to that licence only. Record the actual company/account match, chosen route and issued evidence; do not copy a zero into unrelated city taxes or permission costs. This exercise does not settle every tax or employee obligation from the customer contract."
+        ],
+        "sourceIds": [
+          "geo-local-philadelphia"
         ]
       },
       {
@@ -1178,7 +1575,8 @@
               "Local operating lead"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "A no-cost licence is not a zero-cost city operation",
@@ -1188,13 +1586,15 @@
         ],
         "sourceIds": [
           "geo-local-philadelphia"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "What to obtain next",
         "paragraphs": [
           "Ask the local operating lead for the actual entity/account match, the chosen CAL or activity-number route and the filing or issued-record evidence. Identify other permissions separately. A city licence does not classify a brand arrangement or complete its federal or state franchise-sales analysis."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1229,13 +1629,20 @@
         "meaning": "Doing business as: a trading name that needs to be matched to the actual legal operator."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Philadelphia CAL for outside businesses: tax-account checks",
+    "relatedPaths": [
+      "/cities/pittsburgh/outside-service-registration/",
+      "/us-expansion/state-employer-payroll-registration/",
+      "/us-expansion/b2b-first-market-validation/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-orlando",
     "path": "/cities/orlando/business-tax-and-use/",
-    "title": "Orlando: track the city tax receipt, use certificate and county receipt",
-    "description": "Identify what each record answers and which step must be completed before opening.",
+    "title": "Orlando: distinguish the use certificate and two business-tax receipts",
+    "description": "Track the applicable Certificate of Use, Orlando receipt and Orange County receipt separately, including the city receipt’s stated September 30 expiry.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -1245,7 +1652,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -1256,13 +1663,26 @@
         ],
         "sourceIds": [
           "geo-local-orlando"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Worked example: an office description hides repair work",
         "paragraphs": [
           "Fictional example. A technical-services partner rents a unit described as an office. It will also store equipment and carry out repairs. The manager uses the office label in the application plan and assumes the use question is routine.",
           "The operating lead instead supplies the actual activities to the permitting team. It asks whether a Certificate of Use or a documented exception fits that proposal and which other approvals are relevant. Finance tracks the city and county receipts independently. The plan no longer treats a tax receipt as evidence that storage and repair work at that unit are approved."
+        ],
+        "legacyIndex": 1
+      },
+      {
+        "heading": "Try the documents: can an office label settle repair use?",
+        "paragraphs": [
+          "Use the fictional unit described as an office but intended for equipment storage and repairs. Ask which evidence answers the use question, which answers the city tax task and which belongs to Orange County.",
+          "Answer: describe the actual storage and repairs for the Certificate of Use enquiry or a supported applicable exception. Track the Orlando Business Tax Receipt and Orange County receipt separately. The city says its business tax receipt is required before opening, but paying a tax does not establish an unfinished use, building, fire, health or professional approval.",
+          "The reviewed city receipt expires September 30. Put its renewal instructions and actual current record in that task, not merely a reminder or an assumed date for every other permission. The following task table is a practical way to track dependencies; it does not choose exceptions, fees or a universal approval sequence for an unidentified business."
+        ],
+        "sourceIds": [
+          "geo-local-orlando"
         ]
       },
       {
@@ -1298,7 +1718,8 @@
               "Responsible-person confirmation with documents"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "A calendar reminder is not a renewal",
@@ -1308,13 +1729,15 @@
         ],
         "sourceIds": [
           "geo-local-orlando"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "The short file to prepare",
         "paragraphs": [
           "Keep the address, local operating entity, activity description, use-certificate decision, city receipt and county receipt together, with separate owners and evidence references. Record missing fees and processing times as questions. Other sector, tax, employment and brand-sales obligations remain separate from this city/county opening checklist."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1345,13 +1768,20 @@
         "meaning": "The date a document ceases to be current unless the applicable renewal process is completed."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Orlando Certificate of Use and city/county tax receipts",
+    "relatedPaths": [
+      "/cities/miami/city-county-business-tax/",
+      "/cities/jacksonville/tax-receipt-versus-use/",
+      "/cases/lease-clock-before-opening/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-charlotte",
     "path": "/cities/charlotte/city-county-permitting/",
-    "title": "Charlotte: distinguish city zoning from Mecklenburg building review",
-    "description": "The correct opening plan may need decisions from more than one authority for the same premises.",
+    "title": "Charlotte premises: separate city zoning and county building review",
+    "description": "Identify the actual parcel and project for Charlotte zoning and Mecklenburg building questions; concurrent review does not mean one permission replaces another.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -1361,7 +1791,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
@@ -1372,20 +1802,34 @@
         ],
         "sourceIds": [
           "geo-local-charlotte"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Explain the proposal rather than only the business name",
         "paragraphs": [
           "List the intended use, storage, customer access, internal work, external signs and any site changes. Ask whether those facts match a listed city category and which building-permit route applies. The responsible authority needs the project facts, not merely the statement that this is a service company.",
           "Record the local operating entity and exact address consistently. A commercial territory covering Charlotte does not establish which office controls each premises or customer site."
-        ]
+        ],
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: a service depot with a counter and sign",
         "paragraphs": [
           "Fictional example. An industrial-services partner plans equipment storage, a customer counter and an external sign at a new depot. The landlord approves the concept, and the team assumes the building application will cover the whole opening.",
           "The project lead supplies the proposed plans to identify the city zoning and county permit questions. The premises lead confirms the address authority and any relationship between the reviews. The landlord’s approval is retained as a commercial document; it is not copied into the government-approval field. Operations keeps any required inspections and issued records visible before relying on the opening date."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the authority map: which unfinished question remains?",
+        "paragraphs": [
+          "Use the fictional depot with equipment storage, a customer counter and an external sign. The landlord has agreed and the team has a building application. Ask whether those records alone close the city zoning question.",
+          "Answer: they do not. The reviewed Charlotte guidance describes Zoning Use Permits and covered situations involving concurrent city zoning and Mecklenburg County building review. That means the actual uses, signs and works must be matched to the listed project conditions; it is not a statement that every business has the same two-permit requirement.",
+          "Record the exact parcel authority and put each proposed change beside its responsible review, evidence and unresolved conditions. A county task, landlord consent and city zoning outcome are separate records. This optional authority map helps the project team find the missing decision; it does not issue a permit or establish fees and timing."
+        ],
+        "sourceIds": [
+          "geo-local-charlotte"
         ]
       },
       {
@@ -1393,13 +1837,15 @@
         "paragraphs": [
           "For each proposed change, list the responsible authority, application or review, person handling it, earlier information needed and evidence of the outcome. This can show that a sign, use change and construction project have different questions even when they belong to one site.",
           "The map is optional management organisation, not a new permit requirement. Its value is that an unanswered city question remains visible after a county task has finished."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Keep the financial assumptions labelled",
         "paragraphs": [
           "Fees and processing times are not verified here. Finance can model a chosen delay scenario to understand cash exposure, but should not present it as the authority’s promised timetable. Sector, employment, tax and other legal requirements remain separate. The immediate task is to obtain the correct city and county answers for the proposed project."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1434,13 +1880,20 @@
         "meaning": "The work and equipment used to prepare a premises for the tenant’s business."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Charlotte zoning versus Mecklenburg County building review",
+    "relatedPaths": [
+      "/cities/raleigh/business-license-and-permits/",
+      "/cases/lease-clock-before-opening/",
+      "/industries/industrial-maintenance/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-guide-raleigh",
     "path": "/cities/raleigh/business-license-and-permits/",
-    "title": "Raleigh: the former general licence ended, but activity permits still need checking",
-    "description": "Record the specific removed requirement without treating the business as free of all other duties.",
+    "title": "Raleigh: distinguish the removed general licence and remaining permits",
+    "description": "Keep the July 2015 end of Raleigh’s named general Business License separate from unresolved zoning, activity, tax and employer questions.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -1450,7 +1903,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -1461,13 +1914,26 @@
         ],
         "sourceIds": [
           "geo-local-raleigh"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Worked example: training from a home office",
         "paragraphs": [
           "Fictional example. A partner plans a commercial training service from home and sometimes wants groups of customers to attend. It reads that no general business licence is required and assumes the home can be used for all planned classes.",
           "The premises lead records attendance, equipment, signs and customer visits and asks about the actual use. The city’s removal of a general licence has not answered the location question. The technical or sector lead separately identifies whether the actual service has professional requirements, while finance keeps tax and employee questions open. This example makes no finding about the home’s permitted use."
+        ],
+        "legacyIndex": 1
+      },
+      {
+        "heading": "Try the status: answered, unresolved or not researched?",
+        "paragraphs": [
+          "Use the fictional home-based training service with occasional customer groups. Before reading the answer, decide which question the city’s removed general licence answers and whether that statement approves customer classes at the home.",
+          "Answer: the city says its general Business License ended on July 1, 2015. That is a supported answer for the particular former requirement. The actual home-use question is unresolved until the site, visits, signs, equipment and other relevant facts are considered; it is not automatically answered by removal of the general licence.",
+          "The existing table also identifies sector/professional and tax/employment branches as not researched in this narrow guide. Those labels are useful: “unresolved” means the question needs an answer, while “not researched” does not prove absence of a duty. Keep each remaining task with a responsible person instead of translating a blank into “not required.”"
+        ],
+        "sourceIds": [
+          "geo-local-raleigh"
         ]
       },
       {
@@ -1503,20 +1969,23 @@
               "Entity, staff and transaction facts still required"
             ]
           ]
-        }
+        },
+        "legacyIndex": 2
       },
       {
         "heading": "Give each remaining question an owner",
         "paragraphs": [
           "The operating lead owns the address and activity description. Finance owns the relevant tax-registration enquiries. The person responsible for a regulated service owns the qualification question. These are practical assignments; the titles themselves are not new statutory duties.",
           "For each task, record the actual question, responsible authority, evidence and next action. An empty field should not be translated into not required. A completed reading exercise also does not show that an application, permission or factual investigation has been completed."
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "What to take away",
         "paragraphs": [
           "Prepare a reasoned note for the removed general licence and a separate list of the activity and address checks still needed. Fees and timing for those other tasks remain unknown until verified. The useful outcome is a smaller, more accurate checklist, rather than a blanket statement that Raleigh has no operating requirements."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1547,13 +2016,20 @@
         "meaning": "A separate licence or permit triggered by what the business actually does."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Raleigh business licence ended: zoning and activity checks",
+    "relatedPaths": [
+      "/cities/charlotte/city-county-permitting/",
+      "/industries/business-training/",
+      "/us-expansion/b2b-first-market-validation/",
+      "/tools/launch-planner/"
+    ]
   },
   {
     "id": "geo-compare-texas-occupancy",
     "path": "/comparisons/dallas-san-antonio-occupancy/",
-    "title": "Dallas and San Antonio: the same-use takeover can follow different CO routes",
-    "description": "Compare each city’s tenant and use rules before copying an opening checklist to another market.",
+    "title": "Dallas and San Antonio: compare occupancy routes for a same-use takeover",
+    "description": "Compare tenant-change and same-use CO routes in Dallas and San Antonio, keeping category conditions and the unresolved Dallas name-only workflow visible.",
     "family": "comparison",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -1564,7 +2040,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 4,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
@@ -1576,7 +2052,8 @@
         "sourceIds": [
           "geo-local-dallas",
           "geo-local-san-antonio"
-        ]
+        ],
+        "legacyIndex": 0
       },
       {
         "heading": "Compare the questions, not just the form titles",
@@ -1602,7 +2079,7 @@
             ],
             [
               "Only the name changes",
-              "Separate record-change route with conditions",
+              "Separate record-change route with conditions is described, but Dallas also uses a later standalone-application description for DBA-only changes. The current workflow is unresolved: confirm it before relying on a shortcut or budgeting a fee.",
               "Verify applicable name/update route"
             ],
             [
@@ -1611,13 +2088,50 @@
               "Obtain prior CO, activity facts and category screening"
             ]
           ]
-        }
+        },
+        "legacyIndex": 1
       },
       {
         "heading": "Worked example: a maintenance brand compares two units",
         "paragraphs": [
           "Fictional example. A maintenance brand is choosing between an existing Dallas workshop and an existing San Antonio workshop. In both cases the landlord says the broad use will remain the same. The financial team copies one opening checklist and assumes the certificate task will therefore be identical.",
           "The premises lead requests each prior CO and records the incoming company, proposed work, equipment, storage, layout and floor area. It then asks Dallas about the tenant-change trigger and San Antonio about the same-use update and any category requiring a new certificate. The two answers can affect the opening schedule differently, even though the business concept is the same."
+        ],
+        "legacyIndex": 2
+      },
+      {
+        "heading": "Try the comparison: tenant, use or name?",
+        "paragraphs": [
+          "Use the fictional workshop choice above. First ask which fact has changed: the legal tenant, the actual use, or only a trading name. A DBA means “doing business as”; changing that name is not automatically the same event as replacing the operator.",
+          "Answer: the same broad workshop use does not make the two city routes identical. Dallas lists tenant change as a new-CO trigger. San Antonio describes an update for certain essentially same-use owner or lessee changes, but listed categories still need a new certificate. If only the name changes, the Dallas source conflict remains unresolved; neither a copied checklist nor this exercise selects the current application."
+        ],
+        "table": {
+          "headers": [
+            "Fictional proposal",
+            "Supported next enquiry",
+            "What you cannot conclude yet"
+          ],
+          "rows": [
+            [
+              "A different company takes the Dallas workshop",
+              "Obtain the prior CO and actual tenant/use facts; ask about Dallas’s tenant-change process",
+              "That the former tenant’s CO or unchanged broad use completes the incoming tenant’s task"
+            ],
+            [
+              "A different company takes the San Antonio workshop with essentially the same use",
+              "Check the update conditions and any category requiring a new certificate",
+              "That same use means no city action or that the use classification has been approved"
+            ],
+            [
+              "The same Dallas operator changes only its trading name",
+              "Record the conflicting DBA-only instructions and obtain the current city answer",
+              "A definitive shortcut, application choice or fee from the inconsistent source wording"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "geo-local-dallas",
+          "geo-local-san-antonio"
         ]
       },
       {
@@ -1628,13 +2142,15 @@
         "sourceIds": [
           "geo-local-dallas",
           "geo-local-san-antonio"
-        ]
+        ],
+        "legacyIndex": 3
       },
       {
         "heading": "Keep the lease and cash assumptions separate",
         "paragraphs": [
           "For each unit, retain the existing certificate, proposed facts, authority response, current application and inspection prerequisites. Assign the enquiry to a person before relying on an opening date. Finance may test a clearly labelled delay assumption, and the lease team can examine the actual rent and permission dependencies. Those commercial choices are not a government approval or guaranteed timetable."
-        ]
+        ],
+        "legacyIndex": 4
       }
     ],
     "sourceIds": [
@@ -1670,6 +2186,13 @@
         "meaning": "Doing business as, a trading-name change that must be distinguished from a tenant or use change."
       }
     ],
-    "contentModifiedAt": "2026-11-13T03:49:20.759Z"
+    "contentModifiedAt": "2026-11-13T19:13:16.562Z",
+    "seoTitle": "Dallas vs San Antonio: tenant-change occupancy certificates",
+    "relatedPaths": [
+      "/cities/dallas/tenant-certificate-of-occupancy/",
+      "/cities/san-antonio/change-of-use/",
+      "/cases/lease-clock-before-opening/",
+      "/tools/launch-planner/"
+    ]
   }
 ]

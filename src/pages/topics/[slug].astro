@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import {published} from '../../lib/content';
+import {learningHubs,guidesForHub,hubPath,latestContentModified,readingLabel} from '../../lib/article-presentation';
+export function getStaticPaths(){
+  return learningHubs.map(hub=>({params:{slug:hub.slug},props:{hub}}));
+}
+const {hub}=Astro.props;
+const members=guidesForHub(hub,published);
+const breadcrumbs=[{name:'Home',path:'/'},{name:'Field guides',path:'/guides/'},{name:hub.label,path:hubPath(hub)}];
+const otherHubs=learningHubs.filter(other=>other.kind!==hub.kind&&guidesForHub(other,members).length>0);
+const documented=members.filter(guide=>guide.scenarioType==='real');
+const scenarios=members.filter(guide=>guide.scenarioType==='fictional');
+---
+<Base title={hub.title} description={hub.description} breadcrumbs={breadcrumbs} contentModifiedAt={latestContentModified(members)}>
+  <section class="container topic-hub">
+    <nav class="breadcrumb" aria-label="Breadcrumb">{breadcrumbs.map((crumb,index)=><>{index>0&&<span aria-hidden="true">/</span>}{index<breadcrumbs.length-1?<a href={crumb.path}>{crumb.name}</a>:<span aria-current="page">{crumb.name}</span>}</>)}</nav>
+    <header class="page-intro">
+      <span class="eyebrow">A PATH THROUGH THE GUIDES</span>
+      <h1>{hub.title}</h1>
+      <p class="lede">{hub.description}</p>
+      <p class="meta">{members.length} published guides{hub.slug==='case'&&' · '+documented.length+' documented cases · '+scenarios.length+' fictional scenarios'}</p>
+    </header>
+    <section class="hub-learning-note" aria-labelledby="learning-goal">
+      <h2 id="learning-goal">What you can prepare</h2>
+      <p>{hub.learningGoal}</p>
+      <p class="meta">Each guide explains its own source dates, conditions and limits. Reading a collection does not establish that every requirement for a transaction or jurisdiction has been checked.</p>
+    </section>
+    {otherHubs.length>0&&<nav class="hub-crosslinks" aria-label="Explore another way"><span class="meta">{hub.kind==='family'?'Explore these questions':'Browse these guide collections'}</span><ul>{otherHubs.map(other=><li><a href={hubPath(other)}>{other.label}</a></li>)}</ul></nav>}
+    <section aria-labelledby="guides-in-collection">
+      <h2 id="guides-in-collection" class="hub-list-heading">Choose the question you need</h2>
+      <div class="library-list">{members.map(guide=><a class="library-row" href={guide.path}>
+        <span class="category">{guide.scenarioType==='real'?'Documented case':guide.scenarioType==='fictional'?'Fictional scenario':guide.id==='state-employer-payroll-registration'?'All 50 states and D.C.':guide.jurisdictions?.join(' · ')}</span>
+        <div><h3>{guide.title}</h3><p>{guide.description}</p><span class="meta">Source review: {guide.lastReviewed??'date not recorded'} · {readingLabel(guide)}</span></div>
+        <span class="arrow" aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span>
+      </a>)}</div>
+    </section>
+    <p class="hub-back-link"><a href="/guides/">Browse all field guides</a></p>
+  </section>
+</Base>
