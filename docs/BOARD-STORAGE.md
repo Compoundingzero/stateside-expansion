@@ -47,7 +47,7 @@ The [volume guide](https://docs.railway.com/volumes#volume-availability) says th
 
 The [volume reference](https://docs.railway.com/volumes/reference#caveats) limits a service to one volume and disallows additional replicas with volumes. The existing single instance remains one. It also documents a short interruption during redeploys because two deployments cannot mount the same volume concurrently; a health check does not make this topology a zero-downtime deployment.
 
-This patch does not configure a backup schedule. Retain the volume for application redeploys; any backup/restore workflow should use SQLite-aware consistency handling and be verified independently. No production records were created by this infrastructure preparation.
+The subsequent operations release adds daily SQLite-aware encrypted backups to a separate private bucket; see `BACKUPS.md` for the actual schedule, retention and restore limits. The current IaC explicitly retains the existing 5000 MB volume allocation to avoid a null-size reconciliation; this is not a resize. The original infrastructure preparation created no production records.
 
 ## Verification performed
 

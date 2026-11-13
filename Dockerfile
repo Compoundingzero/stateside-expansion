@@ -14,6 +14,7 @@ ENV NODE_ENV=production
 COPY --from=build /app/dist ./dist
 COPY server.mjs runtime-storage.mjs package.json ./
 COPY src/server ./src/server
+COPY scripts/backup.mjs scripts/verify-backup.mjs ./scripts/
 USER node
 EXPOSE 3000
 CMD ["node","server.mjs"]

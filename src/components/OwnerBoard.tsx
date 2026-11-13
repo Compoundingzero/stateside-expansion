@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from 'react';
+import RecoveryCodes, { validRecoveryCodes } from './RecoveryCodes';
 
 type Kind = 'interest' | 'enquiry';
 type Status = 'new' | 'in-progress' | 'closed';
 type Submission = { id: string; kind: Kind; name?: string; company?: string; arr?: string; email: string; comments?: string; status: Status; createdAt: string };
-type Session = { authenticated: boolean; configured: boolean };
+type Session = { authenticated: boolean; configured: boolean; recoveryConfigured?: boolean };
 type BoardResult = { submissions: Submission[]; retentionDays?: number };
 const LANES: { status: Status; label: string }[] = [{ status: 'new', label: 'New' }, { status: 'in-progress', label: 'In progress' }, { status: 'closed', label: 'Closed' }];
 
@@ -31,6 +32,7 @@ export default function OwnerBoard({ mode = 'board' }: { mode?: 'board' | 'setup
   const [sessionError, setSessionError] = useState('');
   const [sessionVersion, setSessionVersion] = useState(0);
   const [setupToken, setSetupToken] = useState<string | null>(null);
+  const [recoveryCodes, setRecoveryCodes] = useState<string[] | null>(null);
   const [showPassword, setShowPassword] = useState(false);
   const [authPending, setAuthPending] = useState(false);
   const [authError, setAuthError] = useState('');
@@ -133,13 +135,19 @@ export default function OwnerBoard({ mode = 'board' }: { mode?: 'board' | 'setup
     setAuthError('');
     setAuthPending(true);
     try {
-      await request<{ ok: boolean }>(settingUp ? '/api/owner/setup' : '/api/owner/login', { method: 'POST', body: JSON.stringify(settingUp ? { token: setupToken, password } : { password }) });
+      const result = await request<{ ok: boolean; recoveryCodes?: string[] }>(settingUp ? '/api/owner/setup' : '/api/owner/login', { method: 'POST', body: JSON.stringify(settingUp ? { token: setupToken, password } : { password }) });
       form.reset();
       setShowPassword(false);
       if (settingUp) {
         setSetupToken(null);
-        window.location.assign('/owner/');
-      } else setSession({ authenticated: true, configured: true });
+        if (validRecoveryCodes(result.recoveryCodes)) {
+          setRecoveryCodes(result.recoveryCodes);
+          setSession({ authenticated: true, configured: true, recoveryConfigured: true });
+        } else setSession({ authenticated: true, configured: true });
+      } else {
+        const currentSession = await request<Session>('/api/owner/session').catch(() => ({ authenticated: true, configured: true }));
+        setSession(currentSession);
+      }
     } catch (error) {
       form.reset();
       setAuthError(error instanceof RequestError ? error.message : 'Sign-in could not be completed. Check your connection and try again.');
@@ -229,11 +237,13 @@ export default function OwnerBoard({ mode = 'board' }: { mode?: 'board' | 'setup
     document.getElementById(`owner-tab-${next}`)?.focus();
   }
 
+  if (recoveryCodes) return <div className="owner-access-panel owner-access-wide"><RecoveryCodes codes={recoveryCodes} onContinue={() => { setRecoveryCodes(null); window.location.replace('/owner/'); }}/></div>;
+
   if (sessionError) return <div className="owner-access-panel"><p role="alert">{sessionError}</p><button className="utility" onClick={() => setSessionVersion(value => value + 1)}>Try again</button></div>;
   if (!session) return <div className="owner-access-panel"><p role="status">Checking owner access…</p><noscript><p>JavaScript is required for secure owner access. No submissions are included in this page.</p></noscript></div>;
 
   if (mode === 'setup') {
-    if (session.authenticated) return <div className="owner-access-panel"><h2>Owner access is ready.</h2><a className="utility" href="/owner/">Open owner board</a></div>;
+    if (session.authenticated) return <div className="owner-access-panel"><h2>Owner access is ready.</h2><p>If you have not saved recovery codes, create a new set in Security settings using your owner password.</p><a className="utility" href="/owner/security/">Open Security settings</a><a className="utility owner-access-back" href="/owner/">Open owner board</a></div>;
     if (session.configured) return <div className="owner-access-panel"><h2>Owner access is already set up.</h2><p>Use your owner password to sign in.</p><a className="utility" href="/owner/">Go to owner sign-in</a></div>;
     if (!setupToken) return <div className="owner-access-panel"><h2>A private setup link is required.</h2><p>Open the private setup link supplied for this site. Setup links can be used once.</p></div>;
   } else if (!session.configured) return <div className="owner-access-panel"><h2>Owner access has not been set up.</h2><p>Use the private setup link supplied for this site to choose your owner password.</p></div>;
@@ -247,10 +257,12 @@ export default function OwnerBoard({ mode = 'board' }: { mode?: 'board' | 'setup
       <label className="owner-password-toggle"><input type="checkbox" checked={showPassword} onChange={event => setShowPassword(event.target.checked)}/> Show password</label>
       <button className="button" type="submit" disabled={authPending} data-forward-cta>{authPending ? 'Please wait…' : mode === 'setup' ? 'Set owner password' : 'Sign in'}</button>
     </form>
+    {mode !== 'setup' && <a className="utility owner-access-back" href="/owner/recover/">Recover access</a>}
   </div>;
 
   return <section className="owner-workspace" aria-label="Private submissions">
-    <div className="owner-toolbar"><div className="owner-tabs" role="tablist" aria-label="Submission type">{(['interest', 'enquiry'] as Kind[]).map(tab => <button key={tab} id={`owner-tab-${tab}`} type="button" role="tab" aria-selected={kind === tab} aria-controls="owner-board-panel" tabIndex={kind === tab ? 0 : -1} onKeyDown={event => tabKey(event, tab)} onClick={() => setKind(tab)}>{tab === 'interest' ? 'Interests' : 'Enquiries'}</button>)}</div><div className="owner-utilities"><button type="button" className="utility" onClick={() => setRefreshVersion(value => value + 1)} disabled={loading || Boolean(pendingRecord)}>Refresh</button><button type="button" className="utility" onClick={exportCsv} disabled={exporting}>{exporting ? 'Exporting…' : 'Export CSV'}</button><button type="button" className="utility" onClick={logout} disabled={logoutPending}>{logoutPending ? 'Signing out…' : 'Sign out'}</button></div></div>
+    <div className="owner-toolbar"><div className="owner-tabs" role="tablist" aria-label="Submission type">{(['interest', 'enquiry'] as Kind[]).map(tab => <button key={tab} id={`owner-tab-${tab}`} type="button" role="tab" aria-selected={kind === tab} aria-controls="owner-board-panel" tabIndex={kind === tab ? 0 : -1} onKeyDown={event => tabKey(event, tab)} onClick={() => setKind(tab)}>{tab === 'interest' ? 'Interests' : 'Enquiries'}</button>)}</div><div className="owner-utilities"><a className="utility" href="/owner/security/">Security settings</a><button type="button" className="utility" onClick={() => setRefreshVersion(value => value + 1)} disabled={loading || Boolean(pendingRecord)}>Refresh</button><button type="button" className="utility" onClick={exportCsv} disabled={exporting}>{exporting ? 'Exporting…' : 'Export CSV'}</button><button type="button" className="utility" onClick={logout} disabled={logoutPending}>{logoutPending ? 'Signing out…' : 'Sign out'}</button></div></div>
+    {session.recoveryConfigured === false && <p className="owner-recovery-note">Recovery codes haven’t been created for this owner yet. Use <a href="/owner/security/">Security settings</a> to create a set with your current password.</p>}
     <p className="owner-private-note">Private owner view. Dates are shown in your browser’s time zone.{retentionDays ? ` Records are retained for up to ${retentionDays.toLocaleString()} days. You can delete a record sooner.` : ''}</p>
     <p className="owner-live-message" role="status" aria-live="polite" aria-atomic="true">{message}</p>
     <div id="owner-board-panel" role="tabpanel" aria-labelledby={`owner-tab-${kind}`} tabIndex={0} aria-busy={loading}>

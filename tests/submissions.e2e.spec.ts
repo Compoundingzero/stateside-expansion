@@ -103,6 +103,10 @@ test.describe.serial('ELN intake and private owner board — isolated local data
   await page.getByLabel('Confirm password',{exact:true}).fill(localOwnerPassword);
   const setupResponse=page.waitForResponse(r=>r.url().endsWith('/api/owner/setup')&&r.request().method()==='POST');
   await page.getByRole('button',{name:'Set owner password',exact:true}).click();expect((await setupResponse).status()).toBe(200);
+  await expect(page.getByRole('heading',{name:'Save your recovery codes.',exact:true})).toBeVisible();
+  await expect(page.getByRole('list',{name:'One-use recovery codes'}).locator('code')).toHaveCount(8);
+  await page.getByRole('checkbox',{name:'I have saved these recovery codes securely.',exact:true}).check();
+  await page.getByRole('button',{name:'Continue to owner board',exact:true}).click();
   await expect(page.getByRole('region',{name:'Private submissions',exact:true})).toBeVisible();
   await expectNoStoredOwnerSecrets(page);
   const ownerCookies=(await context.cookies()).filter(cookie=>cookie.name.includes('eln-owner'));

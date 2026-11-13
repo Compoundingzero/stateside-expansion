@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import OwnerAccess from '../../components/OwnerAccess';
+import '../../styles/submissions.css';
+---
+<Base title="ELN owner security settings" description="Manage the ELN owner password and one-use recovery codes." noindex hideAction>
+  <div class="container owner-page"><div class="page-intro"><span class="eyebrow">ELN · OWNER ACCESS</span><h1>Security settings.</h1><p class="lede">Manage your password and recovery codes.</p></div><OwnerAccess mode="security" client:load/></div>
+</Base>

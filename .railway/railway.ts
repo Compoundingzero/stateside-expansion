@@ -1,4 +1,4 @@
-import { defineRailway, github, preserve, project, service, volume } from "railway/iac";
+import { bucket, defineRailway, github, preserve, project, service, volume } from "railway/iac";
 
 // This file manages the existing production project and its existing `web`
 // service. The CLI resolves service.web to the imported Railway service binding.
@@ -12,9 +12,9 @@ export default defineRailway((ctx) => {
     throw new Error("This configuration is scoped to the existing production environment.");
   }
 
-  // Keep this resource name and mount stable across redeploys. No size override
-  // or resize is requested; Railway uses the plan's default volume allocation.
-  const boardData = volume("eln-data", { region: "sfo" });
+  // Retain the existing allocation as well as the resource name and mount.
+  const boardData = volume("eln-data", { region: "sfo", sizeMB: 5000 });
+  const backupStorage = bucket("eln-backups", { region: "sjc" });
 
   const web = service("web", {
     source: github("Compoundingzero/stateside-expansion", {
@@ -44,6 +44,17 @@ export default defineRailway((ctx) => {
       ELN_RETENTION_DAYS: "365",
       // Provisioned outside source; managed IaC must retain the existing secret.
       ELN_SETUP_TOKEN: preserve(),
+      GOOGLE_SITE_VERIFICATION: preserve(),
+      BING_SITE_VERIFICATION: preserve(),
+      ELN_BACKUP_ENDPOINT: preserve(),
+      ELN_BACKUP_BUCKET: preserve(),
+      ELN_BACKUP_REGION: preserve(),
+      ELN_BACKUP_ACCESS_KEY_ID: preserve(),
+      ELN_BACKUP_SECRET_ACCESS_KEY: preserve(),
+      ELN_BACKUP_ENCRYPTION_KEY: preserve(),
+      ELN_BACKUP_URL_STYLE: preserve(),
+      ELN_BACKUP_RETENTION_DAYS: "6",
+      ELN_BACKUP_INTERVAL_HOURS: "24",
       // Railway volumes mount as root. The narrow runtime bootstrap prepares
       // only the data paths, then drops to node UID/GID 1000 before DB/listen.
       RAILWAY_RUN_UID: "0",
@@ -57,7 +68,7 @@ export default defineRailway((ctx) => {
   // added it to ProjectDefinition yet. Keep the imported policy as data.
   const production = {
     variables: { managed: true },
-    resources: [web, boardData],
+    resources: [web, boardData, backupStorage],
   };
   return project("stateside-expansion", production);
 });

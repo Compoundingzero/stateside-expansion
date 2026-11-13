@@ -35,7 +35,7 @@ The final read-only plan showed **0 to add, 3 to change, 0 to destroy**, all on 
 
 The GitHub repository/branch, current variables, replica placement and generated domain do not appear as changes. No additional resource is declared, renamed or deleted. Railway groups multiple deployment fields into one change, so “3 to change” is not a count of three services.
 
-The CLI-generated `variables: { managed: true }` policy is retained. It owns the two current public service variables. If a secret or another variable is added later, represent it with `preserve()` or deliberately revise variable ownership before applying; omitting a managed variable can delete it. The SDK's current `ProjectDefinition` type omits this newer CLI-generated property, so the policy is kept in an ordinary `production` definition object, which passes the SDK type check and the CLI's runtime planner without a type suppression.
+The CLI-generated `variables: { managed: true }` policy is retained. It owns the declared service variables, including board storage and backup configuration. If a secret or another variable is added later, represent it with `preserve()` or deliberately revise variable ownership before applying; omitting a managed variable can delete it. The SDK's current `ProjectDefinition` type omits this newer CLI-generated property, so the policy is kept in an ordinary `production` definition object, which passes the SDK type check and the CLI's runtime planner without a type suppression.
 
 ## Operator workflow
 
@@ -78,3 +78,7 @@ References read for this implementation:
 - Installed `railway` SDK 3.16.0 type declarations (`BuildConfig`, `DeployConfig`, `IntentServiceConfig`, `ProjectDefinition`).
 
 The ELN owner-board continuation adds one durable SQLite volume and private submission APIs, documented in `BOARD-STORAGE.md`. Browser-local expansion plans remain separate. No PostgreSQL service, analytics vendor, custom domain or additional application replica is introduced.
+
+## Operations continuation
+
+The current configuration preserves the existing 5000 MB `eln-data` allocation and a separate `eln-backups` private bucket in `sjc`. This is not a live-volume resize or an additional application service. Daily encrypted backups run inside the existing service; native volume scheduling was unavailable on the current plan. All backup secrets use `preserve()`, and the actual values were provisioned through stdin with deployment skipped. See `BACKUPS.md` for consistency checks, six-day retention targets and recovery limits. Google/Bing ownership identifiers are also preserved when supplied; see `SEARCH-MONITORING.md`.

@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import OwnerAccess from '../../components/OwnerAccess';
+import '../../styles/submissions.css';
+---
+<Base title="Recover ELN owner access" description="Reset ELN owner access using a saved one-use recovery code." noindex hideAction>
+  <div class="container owner-page"><div class="page-intro"><span class="eyebrow">ELN · OWNER ACCESS</span><h1>Recover access.</h1><p class="lede">Use a saved recovery code to set a new owner password.</p></div><OwnerAccess mode="recover" client:load/></div>
+</Base>
