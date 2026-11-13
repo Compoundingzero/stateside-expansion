@@ -1,0 +1,18 @@
+{
+  "requestedURL": "https://mn.gov/commerce/money/industry/franchises/financial-assurance.jsp",
+  "observedAt": "2026-11-13T02:29:33.588928+00:00",
+  "purpose": "One bounded initial-route diagnostic; redirect not followed, no security relaxation.",
+  "status": 200,
+  "headers": {
+    "content-type": "text/html;charset=UTF-8",
+    "date": "Fri, 13 Nov 2026 02:29:34 GMT",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Accept-Encoding,User-Agent",
+    "x-envoy-upstream-service-time": "529",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bodyPreview": "\r\n\r\n\r\n<!DOCTYPE html>\r\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n<!--[if lt IE 8]>    <html class=\"no-js lt-ie12 lt-ie11 lt-ie10 lt-ie9 lt-ie8\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 8]>    <html class=\"no-js lt-ie12 lt-ie11 lt-ie10 lt-ie9 ie8\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 9]>    <html class=\"no-js lt-ie12 lt-ie11 lt-ie10 ie9\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 10]>    <html class=\"no-js lt-ie12 lt-ie11 ie10\" lang=\"en\"> <![endif]-->\r\n<!--[if IE 11]>    <html class=\"no-js lt-ie1",
+  "notes": "Anonymous response cookie omitted; not needed for route diagnosis. Local environment uses the inherited managed proxy, unlike the direct hosted runner. This observation does not resolve the hosted failure."
+}

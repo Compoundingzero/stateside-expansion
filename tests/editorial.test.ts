@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {dependencyImpact,sourceObservation,configureSourceProxy,cacheSuccessfulPromise,failedResponseEvidence,loadSourceReviewState} from '../scripts/check-sources.mjs';
+import {createHash} from 'node:crypto';
+import {dependencyImpact,sourceObservation,configureSourceProxy,cacheSuccessfulPromise,failedResponseEvidence,loadSourceReviewState,sourceBodyFailureEvidence,sourceConnectionDiagnostics} from '../scripts/check-sources.mjs';
 
 test('source review explicitly uses an inherited proxy without inventing one for direct environments',()=>{
  const calls:any[]=[];const configure=(env:any)=>calls.push(env);
@@ -21,6 +22,20 @@ test('a 503 security challenge is distinguished from a transient upstream failur
  const upstream=await failedResponseEvidence(new Response('upstream connect error or disconnect before headers; remote connection failure',{status:503}),'https://agency.gov/law');
  assert.equal(upstream.observation.accessInterstitial,false);assert.ok(upstream.observation.bodyPreview.includes('remote connection failure'));
  const large=await failedResponseEvidence(new Response('x'.repeat(100000),{status:503}),'https://agency.gov/law');assert.equal(large.body.length,65536);assert.equal(large.observation.bodyPreview.length,4096);
+});
+test('unreadable HTTP200 evidence keeps the actual bounded body digest without needing a raw directory',()=>{
+ const body=Buffer.from('<html><body>Loading a public application.</body></html>'),result={body,url:'https://agency.gov/article?token=not-retained',status:200,type:'text/html'};
+ const evidence=sourceBodyFailureEvidence(result);
+ assert.equal(evidence.status,200);assert.equal(evidence.rawHash,createHash('sha256').update(body).digest('hex'));assert.equal(evidence.bytes,body.length);assert.equal(evidence.bodyPreview,'Loading a public application.');assert.equal(evidence.url,'https://agency.gov/article');
+ const large=sourceBodyFailureEvidence({...result,body:Buffer.from('x'.repeat(100000))});assert.equal(large.capturedBytes,65536);assert.equal(large.bodyPreview.length,4096);
+});
+test('nested connection errors and rejected redirects are diagnostic without leaking URL or proxy credentials',()=>{
+ const env={HTTPS_PROXY:'https://proxy-user:top-secret@proxy.invalid/'};
+ const cause=Object.assign(Error('Connection to https://proxy-user:top-secret@proxy.invalid/?token=hidden failed; top-secret'),{code:'ECONNREFUSED',hostname:'agency.gov'});
+ const error=Error('fetch failed',{cause});
+ const evidence=sourceConnectionDiagnostics(error,{url:'https://agency.gov/article?session=hidden',redirectTrail:[{status:302,from:'https://agency.gov/article?session=hidden',to:'http://127.0.0.1/private?token=hidden'}],stage:'redirect-validation',env});
+ assert.equal(evidence.causes[1].code,'ECONNREFUSED');assert.equal(evidence.causes[1].host,'agency.gov');assert.equal(evidence.redirectTrail[0].to,'http://127.0.0.1/private');assert.equal(evidence.stage,'redirect-validation');
+ for(const secret of ['proxy-user','top-secret','token=hidden','session=hidden'])assert.ok(!JSON.stringify(evidence).includes(secret));
 });
 
 test('a changed source identifies dependent guide and tool paths without changing reviewed records',()=>{
@@ -58,6 +73,14 @@ test('HTML entity differences preserve a supporting passage but missing text sta
  assert.equal(extractSourceText(html,'Partners & operators should retain "dated" records.').supportingPassagePresent,true);
  assert.equal(extractSourceText(html,'A different substantive deadline that disappeared.').supportingPassagePresent,false);
  assert.throws(()=>extractSourceText('<html><body>Access denied</body></html>'),/readable/);
+});
+test('Albanian named entities match only for passage comparison while raw and content hashes stay unchanged',()=>{
+ const html='<body><main><h1>Regjimi i Përpunimit Pasiv</h1><p>Autorizimi jepet vet&euml;m p&euml;r persona t&euml; vendosur n&euml; Republik&euml;n e Shqip&euml;ris&euml; dhe kur produktet p&euml;rftohen nga mallrat e eksportuara.</p><p>&ccedil;do kusht tjetër mbetet.</p></main></body>';
+ const quote='Autorizimi jepet vetëm për persona të vendosur në Republikën e Shqipërisë';
+ const beforeHash=createHash('sha256').update(html).digest('hex'),withoutQuote=extractSourceText(html),withQuote=extractSourceText(html,quote);
+ assert.equal(withQuote.supportingPassagePresent,true);assert.equal(withQuote.hash,withoutQuote.hash);assert.equal(createHash('sha256').update(html).digest('hex'),beforeHash);
+ assert.ok(withQuote.text.includes('&euml;'));assert.ok(withQuote.text.includes('&ccedil;'));assert.equal(withQuote.normalizationVersion,5);
+ assert.equal(extractSourceText(html.replace('jepet vet&euml;m','nuk jepet'),quote).supportingPassagePresent,false);
 });
 test('named typographic entities match real source punctuation without masking changed words',()=>{
  const sentence='These are state and county taxes that are withheld from your employees’ wages.';

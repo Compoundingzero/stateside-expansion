@@ -1,0 +1,921 @@
+{
+  "schemaVersion": 1,
+  "auditedAt": "2026-11-13T02:32:31.830755+00:00",
+  "scope": "Only the 13 failureKind=network observations from hosted run 43351541720. No source fetches, retries, public-array changes, date refreshes, shared editorial edits or checker implementation changes were performed.",
+  "initialRun": {
+    "runAt": "2026-11-13T02:21:14.908Z",
+    "transport": "direct",
+    "concurrency": 2,
+    "nodeVersionFromJobLog": "v24.22.2",
+    "checkedOutCommitFromJobLog": "b8b5345c5b58d45b069d9f2f04eadbfaa53a2315",
+    "jobHeaderCommitFromJobLog": "15dbd9ccb5dbf34fae002b6ed1a2670f52df37bc",
+    "codeVersionLimit": "The job log checkout SHA is recorded separately from the workflow header commit. Workspace implementation files were inspected and hashed at audit time; their exact identity with the hosted checkout was not independently retrieved in this read-only task."
+  },
+  "summary": {
+    "records": 13,
+    "genericFetchFailedWithUnknownSubcause": 12,
+    "observedHTTP503Maintenance": 1,
+    "distinctRequestedHosts": 8,
+    "tlsDNSOrTimeoutRootCausesEstablishedForGenericFailures": 0,
+    "newNetworkRequestsMade": 0,
+    "publicSourcesModified": 0,
+    "substantiveDatesAdvanced": 0
+  },
+  "artifactAndImplementationHashes": {
+    "artifacts/hosted-43351541720/source-check-results.json": "82aa68d22c36b24f81cebb5fc5264fb88a5d3f96d092c59452656709eeafb20d",
+    "artifacts/hosted-43351541720/job.log": "5bc5b19322117eb94667a1a6c91e88ce54f88930c117bf013424252a018e0da7",
+    "scripts/check-sources.mjs": "c33b515beadd876bb9b7852fce2f031780bf3b97960d16791a18f77e6e6abfb5",
+    "scripts/source-text.mjs": "842b960ca2b96c24375e83faf1df9af778f0d34eb72dac904c6194752213a071"
+  },
+  "implementationFindings": [
+    {
+      "path": "scripts/check-sources.mjs",
+      "scope": "worker catch block and fetchBody",
+      "finding": "The current catch stores String(e.message) (up to 300 characters) and any HTTP transportEvidence. It does not persist e.cause or AggregateError children. Hosted records retain no subcause fields, so “fetch failed” cannot be honestly expanded to a TLS/DNS/timeout diagnosis."
+    },
+    {
+      "path": "scripts/source-text.mjs",
+      "scope": "retrievalFailureKind",
+      "finding": "The current classifier uses the outer message and defaults to network; HTTP 503 is consequently broad-classed as network. The retained HTTP/status/body evidence supports the narrower maintenance observation only for Portugal."
+    },
+    {
+      "path": "scripts/check-sources.mjs",
+      "scope": "worker retry loop",
+      "finding": "The current bounded retry regex inspects the outer message. A nested transient code behind “fetch failed” is not visible to it. Conversely, HTTP 503 can match the bounded retry branch, but actual attempt counts and initial responses were not retained."
+    },
+    {
+      "path": "scripts/check-sources.mjs",
+      "scope": "source-evidence write paths",
+      "finding": "Per-source source-evidence JSON is written on successful download. Failure observations are recorded in source-check-results and the queue; an optional raw error body requires SOURCE_REVIEW_RAW_DIRECTORY. Missing failed-source JSON is expected and does not invalidate earlier substantive review."
+    },
+    {
+      "path": "scripts/check-sources.mjs",
+      "scope": "public URL validation, fetch timeout and redirects",
+      "finding": "The current code validates public HTTPS/DNS, uses manual redirects, a 30-second AbortSignal and bounded hops. A generic fetch failure is not a recorded preflight-DNS error, but fetch may perform its own lookup/connection. Do not declare DNS or TLS successful without the missing transport evidence."
+    }
+  ],
+  "recommendedInstrumentationOnly": [
+    "Preserve sourceId, attempt index, phase, start/end/elapsed, requested host and validated redirect chain; retain each failed attempt even if a later normal attempt succeeds.",
+    "Serialize a bounded allowlist of error.name/message/code/errno/syscall/hostname and nested causes/AggregateError children. Redact credential-bearing URLs/proxy details; never dump process environment, request headers, dispatcher options or arbitrary object graphs.",
+    "Record public DNS result/address-family and actual connection diagnostic codes only when safely obtained; keep normal public-address checks and verified TLS enabled.",
+    "Classify observed timeout/DNS/TLS/TCP errors from structured evidence. Restrict retries to a bounded policy for demonstrated transient conditions; do not automatically retry certificate errors or access/security responses.",
+    "Use fake structured-error tests for ENOTFOUND, UND_ERR_CONNECT_TIMEOUT, ECONNRESET, certificate failures, AggregateError and HTTP 503 maintenance, including preservation of the initial attempt.",
+    "Do not resolve editorial issues, change interpretations or refresh substantiveVerifiedAt merely because a later transport succeeds."
+  ],
+  "records": [
+    {
+      "sourceId": "b2-origins-vietnam-export",
+      "sourceURL": "https://vietnamtradeportal.gov.vn/index.php?id=794&r=site%2Fdisplay",
+      "host": "vietnamtradeportal.gov.vn",
+      "initialObservation": {
+        "sourceId": "b2-origins-vietnam-export",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b2-origins-vietnam-goods-vs-rights"
+        ],
+        "paths": [
+          "/from/vietnam/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:21:33.581Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b2-origins-vietnam-export.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "0b3d0703e84ae0b95035",
+          "8b9650ca3803f369f3e3"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ]
+    },
+    {
+      "sourceId": "b3-emp-ny-wh",
+      "sourceURL": "https://www.nystax.gov/forms/publications/wt/nys50.htm",
+      "host": "www.nystax.gov",
+      "initialObservation": {
+        "sourceId": "b3-emp-ny-wh",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-emp-ny-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:19.657Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-emp-ny-wh.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "4934f4f9879e7e3f3783"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "earlierSeparateRetrieval": {
+        "evidenceFile": "research/raw/batch3/employer/fetch-employer-urls-5.json",
+        "observation": {
+          "id": "b3-emp-ny-wh",
+          "url": "https://www.nystax.gov/forms/publications/wt/nys50.htm",
+          "http": 200,
+          "finalUrl": "https://www.nystax.gov/forms/publications/wt/nys50.htm",
+          "attemptedAt": "2026-11-13T00:38:55.397121+00:00",
+          "fetchedAt": "2026-11-13T00:38:55.397121+00:00",
+          "sha256": "8bd8132d02f591d9b34bf140cfd71e39c18e20b55a06fc2d961cb4bb2e9ea7f9",
+          "bytes": 404409,
+          "textChars": 282734,
+          "start": "2025 Form NYS-50, Employer’s Guide to Unemployment Insurance, Wage Reporting, and Withholding Tax\nSk"
+        },
+        "limit": "Earlier separate managed-environment retrieval; not evidence of hosted-run availability or legal currency."
+      }
+    },
+    {
+      "sourceId": "b3-emp-tx-current-constitution",
+      "sourceURL": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+      "host": "tcss.legis.texas.gov",
+      "initialObservation": {
+        "sourceId": "b3-emp-tx-current-constitution",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-emp-tx-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:31.799Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-emp-tx-current-constitution.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "7e56922c6b87996bdaea"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence.",
+        "The saved official GetStatute mapping can be revalidated only if route discovery is required. It is not a substitute for diagnosing the same-host transport error or for reading the returned statute body."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "earlierSeparateRetrieval": {
+        "evidenceFile": "research/raw/batch3/employer/fetch-employer-urls-14.json",
+        "observation": {
+          "id": "b3-emp-tx-current-constitution",
+          "url": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+          "http": 200,
+          "finalUrl": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+          "attemptedAt": "2026-11-13T01:03:13.440559+00:00",
+          "fetchedAt": "2026-11-13T01:03:13.440559+00:00",
+          "sha256": "97a72612a5f813691ddcb94af20e50da7770ab03f092838dfac5624f0581c3a5",
+          "bytes": 119844,
+          "textChars": 92104,
+          "start": "﻿\nTHE TEXAS CONSTITUTION ARTICLE 8. TAXATION AND REVENUE\nTHE TEXAS CONSTITUTION\nARTICLE 8. TAXATION "
+        },
+        "limit": "Earlier separate managed-environment retrieval; not evidence of hosted-run availability or legal currency."
+      },
+      "officialAppRouteEvidence": {
+        "url": "https://tcss.legis.texas.gov/api/GetStatute/GetStatute/CN/CN.8/8.24-a/null/null/null/null/null/null/null/htm",
+        "returnedResourceURL": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm#8.24-a",
+        "priorEvidence": "research/raw/batch3/employer/fetch-employer-urls-13.json",
+        "priorBody": "research/raw/batch3/employer/b3-emp-tx-individual-tax.txt",
+        "kind": "Public API declared and used by the official Legislature web application; not an asserted formal external API contract.",
+        "appEvidence": [
+          "research/raw/batch3/employer/tx-base.js",
+          "research/raw/batch3/employer/tx-service.js",
+          "research/raw/batch3/employer/tx-getstatute.js"
+        ],
+        "method": "GET",
+        "responseMeaning": "Returns a resource URL, not the complete statute body. Validate the expected official host, code/chapter and anchor, then retrieve and inspect the linked primary text.",
+        "transportLimit": "The API and current resource URLs share tcss.legis.texas.gov. This evidence does not establish that an API request fixes the hosted connection failure. No API request or alternate-route retry was made in this audit."
+      }
+    },
+    {
+      "sourceId": "b3-i2-tx-electric",
+      "sourceURL": "https://www.tdlr.texas.gov/electricians/apply/businesses/contractor-elec.htm",
+      "host": "www.tdlr.texas.gov",
+      "initialObservation": {
+        "sourceId": "b3-i2-tx-electric",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-electrical-company"
+        ],
+        "paths": [
+          "/industries/electrical-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:39.612Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-i2-tx-electric.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "172a1481a0231308810b"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "earlierSeparateRetrieval": {
+        "evidenceFile": "research/raw/batch3/industry2/fetch-industry2-urls-4.json",
+        "observation": {
+          "id": "b3-i2-tx-electric",
+          "url": "https://www.tdlr.texas.gov/electricians/apply/businesses/contractor-elec.htm",
+          "http": 200,
+          "finalUrl": "https://www.tdlr.texas.gov/electricians/apply/businesses/contractor-elec.htm",
+          "attemptedAt": "2026-11-13T01:11:46.733991+00:00",
+          "fetchedAt": "2026-11-13T01:11:46.733991+00:00",
+          "sha256": "f0c905d8ce96fe0f9da9c085941edbb5b0210cf00503e960d8eac8ef23364bf0",
+          "bytes": 34863,
+          "textChars": 6788,
+          "start": "Apply for a New Electrical Contractor License\nRenew Your License\nApprentice Electrician\nApprentice, "
+        },
+        "limit": "Earlier separate managed-environment retrieval; not evidence of hosted-run availability or legal currency."
+      },
+      "hostContext": "All four checked TDLR sources in this run failed with the same unspecific outer message. Earlier saved HTTP200 bodies exist at these same URLs. This is host clustering, not proof of TLS, DNS, maintenance or a changed URL."
+    },
+    {
+      "sourceId": "b3-i2-mold-contractor",
+      "sourceURL": "https://www.tdlr.texas.gov/mld/mldcontractor-apply.htm",
+      "host": "www.tdlr.texas.gov",
+      "initialObservation": {
+        "sourceId": "b3-i2-mold-contractor",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-mold-operator"
+        ],
+        "paths": [
+          "/industries/restoration-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:46.585Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-i2-mold-contractor.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "aad7a3d65ed03af95914"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "earlierSeparateRetrieval": {
+        "evidenceFile": "research/raw/batch3/industry2/fetch-industry2-urls-4.json",
+        "observation": {
+          "id": "b3-i2-mold-contractor",
+          "url": "https://www.tdlr.texas.gov/mld/mldcontractor-apply.htm",
+          "http": 200,
+          "finalUrl": "https://www.tdlr.texas.gov/mld/mldcontractor-apply.htm",
+          "attemptedAt": "2026-11-13T01:11:46.744853+00:00",
+          "fetchedAt": "2026-11-13T01:11:46.744853+00:00",
+          "sha256": "79f0faa7383c6712f426bfcd506cde14a0ca7205f19d3c477a550245ae13f31e",
+          "bytes": 31454,
+          "textChars": 6002,
+          "start": "How to Apply for a New Mold Remediation Contractor License\nRenew a License\nMold Remediation Worker R"
+        },
+        "limit": "Earlier separate managed-environment retrieval; not evidence of hosted-run availability or legal currency."
+      },
+      "hostContext": "All four checked TDLR sources in this run failed with the same unspecific outer message. Earlier saved HTTP200 bodies exist at these same URLs. This is host clustering, not proof of TLS, DNS, maintenance or a changed URL."
+    },
+    {
+      "sourceId": "b3-i2-mold-faq",
+      "sourceURL": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+      "host": "www.tdlr.texas.gov",
+      "initialObservation": {
+        "sourceId": "b3-i2-mold-faq",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-mold-project"
+        ],
+        "paths": [
+          "/industries/restoration-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:46.926Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-i2-mold-faq.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "e1ba49fee2cb5d6cd43a"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "earlierSeparateRetrieval": {
+        "evidenceFile": "research/raw/batch3/industry2/fetch-industry2-urls-4.json",
+        "observation": {
+          "id": "b3-i2-mold-faq",
+          "url": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+          "http": 200,
+          "finalUrl": "https://www.tdlr.texas.gov/mld/mldfaq.htm",
+          "attemptedAt": "2026-11-13T01:11:46.720822+00:00",
+          "fetchedAt": "2026-11-13T01:11:46.720822+00:00",
+          "sha256": "9ad13b6900ce6f2b5248aff76ed37798902807ca75c26a153413eea8ae3afee7",
+          "bytes": 59662,
+          "textChars": 28292,
+          "start": "Mold Assessors and Remediators FAQs\nRenew a License\nMold Remediation Worker Registration\nMold Assess"
+        },
+        "limit": "Earlier separate managed-environment retrieval; not evidence of hosted-run availability or legal currency."
+      },
+      "hostContext": "All four checked TDLR sources in this run failed with the same unspecific outer message. Earlier saved HTTP200 bodies exist at these same URLs. This is host clustering, not proof of TLS, DNS, maintenance or a changed URL."
+    },
+    {
+      "sourceId": "b3-i2-mold-company",
+      "sourceURL": "https://www.tdlr.texas.gov/mld/mldcom-apply.htm",
+      "host": "www.tdlr.texas.gov",
+      "initialObservation": {
+        "sourceId": "b3-i2-mold-company",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-mold-operator"
+        ],
+        "paths": [
+          "/industries/restoration-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:46.578Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-i2-mold-company.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "a0ba2639f6e82da1e307"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "earlierSeparateRetrieval": {
+        "evidenceFile": "research/raw/batch3/industry2/fetch-industry2-urls-4.json",
+        "observation": {
+          "id": "b3-i2-mold-company",
+          "url": "https://www.tdlr.texas.gov/mld/mldcom-apply.htm",
+          "http": 200,
+          "finalUrl": "https://www.tdlr.texas.gov/mld/mldcom-apply.htm",
+          "attemptedAt": "2026-11-13T01:11:46.772512+00:00",
+          "fetchedAt": "2026-11-13T01:11:46.772512+00:00",
+          "sha256": "640ab5445bb745522cfd3e62066a87759510130e4758ef74a14be08bda758ad3",
+          "bytes": 29424,
+          "textChars": 4201,
+          "start": "Apply for a Mold Assessment or Remediation Company License\nRenew a License\nMold Remediation Worker R"
+        },
+        "limit": "Earlier separate managed-environment retrieval; not evidence of hosted-run availability or legal currency."
+      },
+      "hostContext": "All four checked TDLR sources in this run failed with the same unspecific outer message. Earlier saved HTTP200 bodies exist at these same URLs. This is host clustering, not proof of TLS, DNS, maintenance or a changed URL."
+    },
+    {
+      "sourceId": "b3-o2-pt-international",
+      "sourceURL": "https://justica.gov.pt/Servicos/Registar-marca-internacional",
+      "host": "justica.gov.pt",
+      "initialObservation": {
+        "sourceId": "b3-o2-pt-international",
+        "failureKind": "network",
+        "error": "HTTP 503",
+        "transportEvidence": {
+          "url": "https://justica.gov.pt/Servicos/Registar-marca-internacional",
+          "status": 503,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri Nov 13 02:23:28 2026 GMT"
+          },
+          "capturedBytes": 28976,
+          "bodyPreview": "Module Estamos a melhorar a sua experiência, prometemos ser breves. O site encontra-se em manutenção",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-o2-pt-trademark"
+        ],
+        "paths": [
+          "/from/portugal/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:23:23.604Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "upstream-http503-maintenance-body-observed",
+        "certainty": "direct HTTP/body evidence",
+        "rootCauseKnown": true,
+        "notEstablished": [],
+        "bodyMeaning": "The retained Portuguese preview says the site is under maintenance: “O site encontra-se em manutenção”. This is not an observed 403 or security challenge."
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-o2-pt-international.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "3800e0d85cc68850ee5e"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Retain the HTTP 503 and maintenance preview as this run’s result. No legal/source-content change follows from it.",
+        "Use a later ordinary scheduled observation after maintenance; honor Retry-After if actually returned. Do not retry repeatedly solely to replace this failed observation with green.",
+        "Capture each bounded HTTP attempt and response headers separately; do not claim the actual attempt count from this artifact."
+      ],
+      "evidenceGaps": [
+        "Only the final response preview/selected headers are retained; the full maintenance body and attempt sequence are not in source-evidence.",
+        "No Retry-After value appears in the retained selected headers; no maintenance-end time is established."
+      ]
+    },
+    {
+      "sourceId": "b3-o4-mk-change",
+      "sourceURL": "https://www.crm.com.mk/en/services/perform-a-registration-or-complete-a-task/register-investments-and-ventures/amendment-and-deletion-of-direct-investment-for-residents-abroad",
+      "host": "www.crm.com.mk",
+      "initialObservation": {
+        "sourceId": "b3-o4-mk-change",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-mk-change"
+        ],
+        "paths": [
+          "/from/north-macedonia/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:23:55.357Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-o4-mk-change.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "453999007d4399bf7db9"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "hostContext": "The existing source record already distinguishes a read public-reader representation from later ordinary local retrieval failure. That representation is not a hosted transport diagnosis."
+    },
+    {
+      "sourceId": "b3-o4-me-old-law",
+      "sourceURL": "https://wapi.gov.me/download/795cb7a3-2699-44bd-baa6-b11802121045?version=1.0",
+      "host": "wapi.gov.me",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-old-law",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:23:57.492Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-o4-me-old-law.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "ff4c5fdb45334b92fd54"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "hostContext": "Two wapi.gov.me downloads and one separate www.gov.me notice failed generically. Distinct hostnames must not be collapsed into an established shared failure cause."
+    },
+    {
+      "sourceId": "b3-o4-me-new-law",
+      "sourceURL": "https://wapi.gov.me/download/a7c33b8f-aa74-4197-b1fa-317ea466161f?version=1.0",
+      "host": "wapi.gov.me",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-new-law",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:06.766Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-o4-me-new-law.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "523028e7489b4eeb7ebb"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "hostContext": "Two wapi.gov.me downloads and one separate www.gov.me notice failed generically. Distinct hostnames must not be collapsed into an established shared failure cause."
+    },
+    {
+      "sourceId": "b3-o4-me-notice",
+      "sourceURL": "https://www.gov.me/clanak/novi-poreski-zakoni",
+      "host": "www.gov.me",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-notice",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:07.765Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-o4-me-notice.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "142f167144efd3b9af7c"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "hostContext": "Two wapi.gov.me downloads and one separate www.gov.me notice failed generically. Distinct hostnames must not be collapsed into an established shared failure cause."
+    },
+    {
+      "sourceId": "b3-planning2-texas-tax-full",
+      "sourceURL": "https://tcss.legis.texas.gov/resources/TX/htm/TX.151.htm#151.351",
+      "host": "tcss.legis.texas.gov",
+      "initialObservation": {
+        "sourceId": "b3-planning2-texas-tax-full",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-planning-sales-tax-services"
+        ],
+        "paths": [
+          "/us-expansion/sales-tax-services/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:52.444Z",
+        "result": "fetch-failed"
+      },
+      "initialObservationPreserved": true,
+      "classification": {
+        "category": "fetch-transport-failure-subcause-unrecorded",
+        "certainty": "Outer fetch failure observed; lower-level cause cannot be determined from retained artifacts.",
+        "rootCauseKnown": false,
+        "notEstablished": [
+          "DNS failure in the fetch transport",
+          "TLS/certificate failure",
+          "TCP refusal/reset or address-family problem",
+          "connection timeout versus other timeout",
+          "failing redirect hop"
+        ]
+      },
+      "retainedEvidence": {
+        "resultsFile": "artifacts/hosted-43351541720/source-check-results.json",
+        "sourceEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-planning2-texas-tax-full.json",
+        "sourceEvidenceFileExists": false,
+        "baselineRecordExists": false,
+        "queueIssueIds": [
+          "15e56b3a90d335be80c6"
+        ],
+        "jobLog": "artifacts/hosted-43351541720/job.log"
+      },
+      "boundedRecommendedFix": [
+        "Instrument a future normal scheduled observation to retain a bounded, sanitized error cause chain/AggregateError children and transport phase before choosing a fix.",
+        "If a proven transient connection/reset/DNS retry condition is captured, use only a bounded documented retry policy and retain initial plus later attempt results. Do not infer a transient cause from the string “fetch failed”.",
+        "Keep TLS validation, ordinary public-host/DNS/redirect restrictions and existing substantive-review dates. No IP hardcoding, resolver/security bypass, user-agent cycling or certificate-check disabling is justified by this evidence.",
+        "The saved official GetStatute mapping can be revalidated only if route discovery is required. It is not a substitute for diagnosing the same-host transport error or for reading the returned statute body."
+      ],
+      "evidenceGaps": [
+        "The retained error is exactly “fetch failed”; no error.name, code, cause, stack, AggregateError children, socket/public-address data or per-attempt elapsed time was retained.",
+        "The job log contains setup/runtime and aggregate results, not the individual lower-level exceptions.",
+        "fetchedAt is assigned when the worker starts the source, not a demonstrated response or completion time; timestamp spacing cannot establish a timeout."
+      ],
+      "officialAppRouteEvidence": {
+        "url": "https://tcss.legis.texas.gov/api/GetStatute/GetStatute/TX/TX.151/151.351/null/null/null/null/null/null/null/htm",
+        "returnedResourceURL": "https://tcss.legis.texas.gov/resources/TX/htm/TX.151.htm#151.351",
+        "priorEvidence": "research/raw/batch3/planning2/manifest.json",
+        "priorBody": "research/raw/batch3/planning2/texas-api.txt",
+        "kind": "Public API declared and used by the official Legislature web application; not an asserted formal external API contract.",
+        "appEvidence": [
+          "research/raw/batch3/employer/tx-base.js",
+          "research/raw/batch3/employer/tx-service.js",
+          "research/raw/batch3/employer/tx-getstatute.js"
+        ],
+        "method": "GET",
+        "responseMeaning": "Returns a resource URL, not the complete statute body. Validate the expected official host, code/chapter and anchor, then retrieve and inspect the linked primary text.",
+        "transportLimit": "The API and current resource URLs share tcss.legis.texas.gov. This evidence does not establish that an API request fixes the hosted connection failure. No API request or alternate-route retry was made in this audit."
+      }
+    }
+  ]
+}

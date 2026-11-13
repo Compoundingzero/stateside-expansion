@@ -1,0 +1,125 @@
+{
+  "verifiedAt": "2026-11-13T02:21:02.169Z",
+  "sourceCommit": "b8b5345c5b58d45b069d9f2f04eadbfaa53a2315",
+  "origin": "https://web-production-b4c2154d.up.railway.app/",
+  "railwayDeployment": {
+    "id": "ead989f9-8721-4dc0-b4dc-82a329604291",
+    "status": "SUCCESS"
+  },
+  "applicationCI": {
+    "id": 43351162809,
+    "conclusion": "success",
+    "nodeTests": 68,
+    "browserTests": 23
+  },
+  "liveVerification": {
+    "checkedAt": "2026-11-13T02:20:07.553Z",
+    "origin": "https://web-production-b4c2154d.up.railway.app",
+    "readOnly": true,
+    "checks": [
+      {
+        "path": "/health",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/api/owner/session",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/guides/",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/states/virginia/contract-law-and-competition-clauses/",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/industries/restoration-services/",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/us-expansion/joint-employer/",
+        "status": 200,
+        "passed": true
+      },
+      {
+        "path": "/source-review-status.json",
+        "status": 200,
+        "passed": true
+      }
+    ]
+  },
+  "liveMonitor": {
+    "checkedAt": "2026-11-13T02:20:08.775Z",
+    "origin": "https://web-production-b4c2154d.up.railway.app",
+    "status": "passed",
+    "sitemapUrls": 296,
+    "checks": [
+      {
+        "path": "/health",
+        "status": 200,
+        "bytes": 15
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "bytes": 143
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "bytes": 28467
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "bytes": 9989
+      },
+      {
+        "path": "/states/nebraska/franchise-relationship-scope/",
+        "status": 200,
+        "bytes": 13789
+      },
+      {
+        "path": "/industries/restoration-services/",
+        "status": 200,
+        "bytes": 15382
+      },
+      {
+        "path": "/states/district-of-columbia/",
+        "status": 200,
+        "bytes": 11860
+      },
+      {
+        "path": "/owner/",
+        "status": 200,
+        "bytes": 8525
+      },
+      {
+        "path": "/api/owner/session",
+        "status": 200,
+        "bytes": 41
+      }
+    ]
+  },
+  "indexNow": {
+    "submittedAt": "2026-11-13T02:21:02.169Z",
+    "host": "web-production-b4c2154d.up.railway.app",
+    "urls": 296,
+    "status": 200,
+    "result": "received",
+    "indexingConfirmed": false
+  },
+  "ownerPrivateAccess": "Kept outside repository; owner remains configured. No submission records or credentials read for this verification.",
+  "searchAccountVerification": "Google Search Console and Bing Webmaster property verification blocked by unavailable browser integration; no provider account token or verification success fabricated."
+}

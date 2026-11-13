@@ -1,0 +1,427 @@
+{
+  "auditAt": "2026-11-13T02:31:37.520164+00:00",
+  "reviewer": "AI-assisted read-only technical source-fetch triage; no professional legal review",
+  "scope": {
+    "hostedArtifact": "artifacts/hosted-43351541720",
+    "sourceIds": [
+      "b3-emp-tx-tax-register",
+      "b3-state-tx-classification",
+      "geo-local-san-francisco",
+      "geo-local-charlotte"
+    ],
+    "initialHostedRunAt": "2026-11-13T02:21:14.908Z",
+    "initialHostedTransport": "direct",
+    "managedFollowUpTransport": "inherited-environment-proxy",
+    "ordinaryFollowUpRequests": 4,
+    "maximumAttemptsPerSource": 1,
+    "authenticationOrBypass": false,
+    "sharedImplementationOrPublicDataChanged": false,
+    "initialArtifactOrQueueChanged": false,
+    "sourceDatesChanged": false
+  },
+  "counts": {
+    "initialUnreadableObservations": 4,
+    "missingHostedFailureEvidenceFiles": 4,
+    "earlierManagedBodiesParseAndMatch": 4,
+    "managedFollowUpSubstantive200Bodies": 4,
+    "managedFollowUpPassageMatches": 4,
+    "managedFollowUpHashesMatchEarlierNormalizedBodies": 4,
+    "confirmedInitialEmptyBodies": 0,
+    "confirmedInitialJavaScriptOnlyShells": 0,
+    "confirmedParserDefects": 0,
+    "initialHostedCausesStillUndetermined": 4
+  },
+  "codeEvidence": [
+    {
+      "path": "scripts/check-sources.mjs",
+      "sha256": "c33b515beadd876bb9b7852fce2f031780bf3b97960d16791a18f77e6e6abfb5"
+    },
+    {
+      "path": "scripts/source-text.mjs",
+      "sha256": "842b960ca2b96c24375e83faf1df9af778f0d34eb72dac904c6194752213a071"
+    },
+    {
+      "path": ".github/workflows/source-review.yml",
+      "sha256": "20184db850f605f5a7b25f0c2da55157e117fbd67b2291910b22dbac9fa692e6"
+    }
+  ],
+  "findings": [
+    {
+      "finding": "Extraction exceptions lose transport evidence",
+      "evidence": "check-sources.mjs download() writes optional raw bodies only if SOURCE_REVIEW_RAW_DIRECTORY is set; extractSourceText() can then throw before returning status/url/type/bytes/hash. worker() writes source-evidence JSON only on success; its catch receives no transportEvidence for the extraction error. The hosted workflow leaves RAW_DIRECTORY unset.",
+      "consequence": "The four original hosted results preserve only the unreadable error/dependencies/fetch time. Their missing response bodies cannot be reconstructed from later successful fetches."
+    },
+    {
+      "finding": "No reproducible parser defect in available bodies",
+      "evidence": "The earlier saved HTML for all four sources and a single new ordinary fetch for each URL succeed with normalizationVersion5 and the recorded passage. Current normalized hashes match those earlier managed bodies.",
+      "consequence": "No selector/length-threshold relaxation, arbitrary hydration extraction or new shell heuristic is justified by this evidence."
+    },
+    {
+      "finding": "Follow-up transport differs from hosted transport",
+      "evidence": "Hosted artifact transport is direct; the four bounded follow-ups use the existing managed environment proxy.",
+      "consequence": "The follow-up confirms only those separate responses. All four original hosted causes remain unclassified."
+    }
+  ],
+  "boundedImplementationProposal": {
+    "owner": "root; proposal only, not implemented by this audit",
+    "captureWithoutRefetch": [
+      "In download(), wrap parsing/extraction and attach status, final/requested URLs, content type, decoded-body byte count, raw SHA256, route/retrieval method and normalization version from the already-received response to extraction errors.",
+      "Attach bounded diagnostics such as title, script count, access-interstitial result, candidate selector/text lengths and supporting-passage presence. Do not log cookies, authentication headers or secrets; these are public-source responses.",
+      "In worker() catch, write the failed source-evidence/<id>.json as well as the existing result/queue observation, preserving original failure kind and timestamps.",
+      "Do not replace a good baseline, auto-resolve review items, advance substantive review dates or weaken minimum substantive-content/interstitial checks when extraction fails."
+    ],
+    "boundedReproduction": [
+      "After review, run only the four named sources in the ordinary hosted environment, preserving the original run artifacts.",
+      "Enable SOURCE_REVIEW_RAW_DIRECTORY for that bounded run under the existing HTML/PDF caps so its exact received body is available even if extraction fails; capture the failure JSON independently of that environment variable.",
+      "Stop after the bounded observation; do not cycle around an access/security response. Use retained exact body and candidate diagnostics to determine whether response content or extraction is at fault."
+    ],
+    "meaningfulTests": [
+      "A successful-HTTP empty body and a JS-only shell should retain failure metadata/evidence, keep fetch-failed and leave the prior baseline/review date intact.",
+      "A real substantive page with a generic noscript JavaScript notice should continue to extract actual main content and match its passage.",
+      "An extraction exception after successful transport should save a bounded diagnostic without performing a second network request."
+    ]
+  },
+  "observations": [
+    {
+      "sourceId": "b3-emp-tx-tax-register",
+      "canonicalURL": "https://www.twc.texas.gov/services/register-tax",
+      "initialHostedObservation": {
+        "sourceId": "b3-emp-tx-tax-register",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [
+          "b3-emp-tx-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:25.986Z",
+        "result": "fetch-failed"
+      },
+      "initialHostedEvidence": {
+        "expectedEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-emp-tx-tax-register.json",
+        "exists": false,
+        "exactHostedResponseBodyAvailable": false,
+        "responseStatusRecorded": false,
+        "bodySizeHashOrPreviewRecorded": false,
+        "interpretation": "The hosted extractor reported insufficient content, but original status/body/selection diagnostics were not retained. No actual empty-body, JavaScript-only-shell or extraction-defect conclusion can be established."
+      },
+      "retainedSourceDates": {
+        "fetchedAt": "2026-11-13T00:54:17.679573+00:00",
+        "substantiveVerifiedAt": "2026-11-13",
+        "nextReview": "2027-01-12"
+      },
+      "earlierManagedBody": {
+        "path": "research/raw/batch3/editorial/final-source-review/b3-emp-tx-tax-register.html",
+        "bytes": 104385,
+        "rawHash": "536718348b44b0f0f6efd91ddcf52f24c9c99ca60817aa1c3f46ebc6e2522d52",
+        "currentExtractorMatchesReviewedPassage": true,
+        "currentNormalizedHash": "b5489480d3cca1e57f2447c27f369857f51d2a8ecc8969cdd41525bb0cdaec29",
+        "limitation": "This is a separate previously saved response, not the missing hosted body."
+      },
+      "oneBoundedFollowUp": {
+        "sourceId": "b3-emp-tx-tax-register",
+        "attemptedAt": "2026-11-13T02:30:09.583Z",
+        "requestedURL": "https://www.twc.texas.gov/services/register-tax",
+        "transport": "inherited-environment-proxy",
+        "maximumAttempts": 1,
+        "normalizationVersion": 5,
+        "redirects": [],
+        "url": "https://www.twc.texas.gov/services/register-tax",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "18611",
+          "date": "Thu, 12 Nov 2026 23:43:07 GMT",
+          "server": "envoy"
+        },
+        "bytes": 104385,
+        "rawHash": "536718348b44b0f0f6efd91ddcf52f24c9c99ca60817aa1c3f46ebc6e2522d52",
+        "rawEvidence": "research/raw/batch3/hosted-unreadable-triage/b3-emp-tx-tax-register.html",
+        "plainChars": 3093,
+        "title": "Unemployment Tax Registration - Register a Tax Account - Texas Workforce Commission",
+        "scriptCount": 31,
+        "accessInterstitial": false,
+        "plainPreview": "Unemployment Tax Registration - Register a Tax Account - Texas Workforce Commission Sorry, you need to enable JavaScript to visit this website. Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Unemployment Tax Registration - Re",
+        "supportingPassageInDocument": true,
+        "extraction": {
+          "selector": "main",
+          "textChars": 2572,
+          "supportingPassagePresent": true,
+          "hash": "b5489480d3cca1e57f2447c27f369857f51d2a8ecc8969cdd41525bb0cdaec29"
+        },
+        "completedAt": "2026-11-13T02:30:10.165Z"
+      },
+      "assessment": {
+        "initialHostedCause": "undetermined-original-body-not-retained",
+        "followUpBodyClass": "substantive-server-rendered-html",
+        "followUpParserResult": "success-with-recorded-supporting-passage",
+        "emptyBodyConfirmed": false,
+        "javascriptOnlyShellConfirmed": false,
+        "deterministicExtractionDefectReproduced": false,
+        "normalizedHashMatchesEarlierManagedBody": true,
+        "sourceInterpretationReverified": false,
+        "initialHostedFailureResolved": false
+      },
+      "specificCaution": "A generic JavaScript-required noscript notice coexists with substantive HTML and must not by itself classify this response as a JS-only shell.",
+      "proposedAction": "Preserve initial observation and source dates. Capture existing response diagnostics on extraction failure, then make a bounded four-source hosted check with raw evidence enabled; do not weaken extraction thresholds or auto-resolve this initial failure."
+    },
+    {
+      "sourceId": "b3-state-tx-classification",
+      "canonicalURL": "https://www.twc.texas.gov/programs/unemployment-tax/classifying-employees-independent-contractors",
+      "initialHostedObservation": {
+        "sourceId": "b3-state-tx-classification",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [
+          "b3-state-tx-tuca-classification"
+        ],
+        "paths": [
+          "/states/texas/worker-classification-unemployment-tax/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:08.800Z",
+        "result": "fetch-failed"
+      },
+      "initialHostedEvidence": {
+        "expectedEvidenceFile": "artifacts/hosted-43351541720/source-evidence/b3-state-tx-classification.json",
+        "exists": false,
+        "exactHostedResponseBodyAvailable": false,
+        "responseStatusRecorded": false,
+        "bodySizeHashOrPreviewRecorded": false,
+        "interpretation": "The hosted extractor reported insufficient content, but original status/body/selection diagnostics were not retained. No actual empty-body, JavaScript-only-shell or extraction-defect conclusion can be established."
+      },
+      "retainedSourceDates": {
+        "fetchedAt": "2026-11-13T00:21:52.335065+00:00",
+        "substantiveVerifiedAt": "2026-11-13T00:44:23.087139+00:00",
+        "nextReview": "2026-12-13"
+      },
+      "earlierManagedBody": {
+        "path": "research/raw/batch3/editorial/final-source-review/b3-state-tx-classification.html",
+        "bytes": 112022,
+        "rawHash": "981605b5841ea00cedc2a957381a1473da0b3c3f10c5f88b578aaaa17fbbba02",
+        "currentExtractorMatchesReviewedPassage": true,
+        "currentNormalizedHash": "ef1a65f347673178ab464b35861a363cf5abde6b7e848c83f14be67133b0e622",
+        "limitation": "This is a separate previously saved response, not the missing hosted body."
+      },
+      "oneBoundedFollowUp": {
+        "sourceId": "b3-state-tx-classification",
+        "attemptedAt": "2026-11-13T02:30:10.165Z",
+        "requestedURL": "https://www.twc.texas.gov/programs/unemployment-tax/classifying-employees-independent-contractors",
+        "transport": "inherited-environment-proxy",
+        "maximumAttempts": 1,
+        "normalizationVersion": 5,
+        "redirects": [],
+        "url": "https://www.twc.texas.gov/programs/unemployment-tax/classifying-employees-independent-contractors",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "20843",
+          "date": "Thu, 12 Nov 2026 23:50:36 GMT",
+          "server": "envoy"
+        },
+        "bytes": 112022,
+        "rawHash": "981605b5841ea00cedc2a957381a1473da0b3c3f10c5f88b578aaaa17fbbba02",
+        "rawEvidence": "research/raw/batch3/hosted-unreadable-triage/b3-state-tx-classification.html",
+        "plainChars": 9981,
+        "title": "Classifying Employees &amp; Independent Contractors - Texas Workforce Commission",
+        "scriptCount": 31,
+        "accessInterstitial": false,
+        "plainPreview": "Classifying Employees & Independent Contractors - Texas Workforce Commission Sorry, you need to enable JavaScript to visit this website. Skip to main content Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( Lock A locked padlock ) or https:// means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites. Classifying Employees & Independent Contr",
+        "supportingPassageInDocument": true,
+        "extraction": {
+          "selector": "main",
+          "textChars": 9474,
+          "supportingPassagePresent": true,
+          "hash": "ef1a65f347673178ab464b35861a363cf5abde6b7e848c83f14be67133b0e622"
+        },
+        "completedAt": "2026-11-13T02:30:15.777Z"
+      },
+      "assessment": {
+        "initialHostedCause": "undetermined-original-body-not-retained",
+        "followUpBodyClass": "substantive-server-rendered-html",
+        "followUpParserResult": "success-with-recorded-supporting-passage",
+        "emptyBodyConfirmed": false,
+        "javascriptOnlyShellConfirmed": false,
+        "deterministicExtractionDefectReproduced": false,
+        "normalizedHashMatchesEarlierManagedBody": true,
+        "sourceInterpretationReverified": false,
+        "initialHostedFailureResolved": false
+      },
+      "specificCaution": "A generic JavaScript-required noscript notice coexists with substantive HTML and must not by itself classify this response as a JS-only shell.",
+      "proposedAction": "Preserve initial observation and source dates. Capture existing response diagnostics on extraction failure, then make a bounded four-source hosted check with raw evidence enabled; do not weaken extraction thresholds or auto-resolve this initial failure."
+    },
+    {
+      "sourceId": "geo-local-san-francisco",
+      "canonicalURL": "https://sftreasurer.org/business/register-business",
+      "initialHostedObservation": {
+        "sourceId": "geo-local-san-francisco",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [],
+        "paths": [
+          "/cities/san-francisco/service-business-registration/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:38.002Z",
+        "result": "fetch-failed"
+      },
+      "initialHostedEvidence": {
+        "expectedEvidenceFile": "artifacts/hosted-43351541720/source-evidence/geo-local-san-francisco.json",
+        "exists": false,
+        "exactHostedResponseBodyAvailable": false,
+        "responseStatusRecorded": false,
+        "bodySizeHashOrPreviewRecorded": false,
+        "interpretation": "The hosted extractor reported insufficient content, but original status/body/selection diagnostics were not retained. No actual empty-body, JavaScript-only-shell or extraction-defect conclusion can be established."
+      },
+      "retainedSourceDates": {
+        "fetchedAt": "2026-11-12T20:45:31Z",
+        "substantiveVerifiedAt": "2026-11-12T20:54:04Z",
+        "nextReview": "2026-12-12"
+      },
+      "earlierManagedBody": {
+        "path": "research/raw/batch3/editorial/final-source-review/geo-local-san-francisco.html",
+        "bytes": 112693,
+        "rawHash": "1654ad6a360f1d2ba71ae4d6623fa83d860dd30cb8abbb3fa5f0935df5066fef",
+        "currentExtractorMatchesReviewedPassage": true,
+        "currentNormalizedHash": "b16507825f0d47e04ef665f616a7ca46202247c2e7386a236ad09b1e3d9257fc",
+        "limitation": "This is a separate previously saved response, not the missing hosted body."
+      },
+      "oneBoundedFollowUp": {
+        "sourceId": "geo-local-san-francisco",
+        "attemptedAt": "2026-11-13T02:30:15.777Z",
+        "requestedURL": "https://sftreasurer.org/business/register-business",
+        "transport": "inherited-environment-proxy",
+        "maximumAttempts": 1,
+        "normalizationVersion": 5,
+        "redirects": [],
+        "url": "https://sftreasurer.org/business/register-business",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "date": "Fri, 13 Nov 2026 02:30:16 GMT",
+          "server": "envoy"
+        },
+        "bytes": 112693,
+        "rawHash": "1654ad6a360f1d2ba71ae4d6623fa83d860dd30cb8abbb3fa5f0935df5066fef",
+        "rawEvidence": "research/raw/batch3/hosted-unreadable-triage/geo-local-san-francisco.html",
+        "plainChars": 30140,
+        "title": "Register a Business | Treasurer &amp; Tax Collector",
+        "scriptCount": 11,
+        "accessInterstitial": false,
+        "plainPreview": "Register a Business | Treasurer & Tax Collector Skip to main content Property Secured Property Taxes Unsecured Property Taxes Delinquent Property Taxes Parcel Tax Exemptions and Special Assessments Tax Certificates for Final Map Recording (Condo Conversion) Auction Information for Heirs Business Register a Business First Year Free Renew Business Registration Manage Your Business Taxes & Fees Gross Receipts Tax (GR) Commercial Rents Tax (CR) Commercial Vacancy Tax (CVT) Homelessness Gross Receipt",
+        "supportingPassageInDocument": true,
+        "extraction": {
+          "selector": "main",
+          "textChars": 28011,
+          "supportingPassagePresent": true,
+          "hash": "b16507825f0d47e04ef665f616a7ca46202247c2e7386a236ad09b1e3d9257fc"
+        },
+        "completedAt": "2026-11-13T02:30:16.053Z"
+      },
+      "assessment": {
+        "initialHostedCause": "undetermined-original-body-not-retained",
+        "followUpBodyClass": "substantive-server-rendered-html",
+        "followUpParserResult": "success-with-recorded-supporting-passage",
+        "emptyBodyConfirmed": false,
+        "javascriptOnlyShellConfirmed": false,
+        "deterministicExtractionDefectReproduced": false,
+        "normalizedHashMatchesEarlierManagedBody": true,
+        "sourceInterpretationReverified": false,
+        "initialHostedFailureResolved": false
+      },
+      "specificCaution": "Successful managed-proxy retrieval does not establish what the earlier direct-hosted fetch returned.",
+      "proposedAction": "Preserve initial observation and source dates. Capture existing response diagnostics on extraction failure, then make a bounded four-source hosted check with raw evidence enabled; do not weaken extraction thresholds or auto-resolve this initial failure."
+    },
+    {
+      "sourceId": "geo-local-charlotte",
+      "canonicalURL": "https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Zoning/Permitting",
+      "initialHostedObservation": {
+        "sourceId": "geo-local-charlotte",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [],
+        "paths": [
+          "/cities/charlotte/city-county-permitting/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:39.117Z",
+        "result": "fetch-failed"
+      },
+      "initialHostedEvidence": {
+        "expectedEvidenceFile": "artifacts/hosted-43351541720/source-evidence/geo-local-charlotte.json",
+        "exists": false,
+        "exactHostedResponseBodyAvailable": false,
+        "responseStatusRecorded": false,
+        "bodySizeHashOrPreviewRecorded": false,
+        "interpretation": "The hosted extractor reported insufficient content, but original status/body/selection diagnostics were not retained. No actual empty-body, JavaScript-only-shell or extraction-defect conclusion can be established."
+      },
+      "retainedSourceDates": {
+        "fetchedAt": "2026-11-12T20:46:56Z",
+        "substantiveVerifiedAt": "2026-11-12T20:54:04Z",
+        "nextReview": "2026-12-12"
+      },
+      "earlierManagedBody": {
+        "path": "research/raw/batch3/editorial/final-source-review/geo-local-charlotte.html",
+        "bytes": 301716,
+        "rawHash": "52828cdc043d1ae0e83f9d733acf897f6049a87141008aa3149313f76cdf83c5",
+        "currentExtractorMatchesReviewedPassage": true,
+        "currentNormalizedHash": "a03407e6474eda5d04da85f2a58b1278ab8e4e86578fa9886b3aff734629af0e",
+        "limitation": "This is a separate previously saved response, not the missing hosted body."
+      },
+      "oneBoundedFollowUp": {
+        "sourceId": "geo-local-charlotte",
+        "attemptedAt": "2026-11-13T02:30:16.053Z",
+        "requestedURL": "https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Zoning/Permitting",
+        "transport": "inherited-environment-proxy",
+        "maximumAttempts": 1,
+        "normalizationVersion": 5,
+        "redirects": [],
+        "url": "https://www.charlottenc.gov/Growth-and-Development/Planning-and-Development/Zoning/Permitting",
+        "status": 200,
+        "headers": {
+          "content-type": "text/html; charset=utf-8",
+          "content-length": "121735",
+          "date": "Fri, 13 Nov 2026 02:30:22 GMT",
+          "server": "envoy"
+        },
+        "bytes": 301717,
+        "rawHash": "0c02f3f3a6d6b8ee4e30bb7a8dd65315afa0d0b2e283b5867adb109b72d93fbe",
+        "rawEvidence": "research/raw/batch3/hosted-unreadable-triage/geo-local-charlotte.html",
+        "plainChars": 5364,
+        "title": "Permitting - City of Charlotte",
+        "scriptCount": 33,
+        "accessInterstitial": false,
+        "plainPreview": "Permitting - City of Charlotte Skip to main content opens in new tab or window Veterans Day Trash and Recycling Collection Solid Waste Services is operating on its regular schedule the week of Veterans Day. Be sure that carts are at the curb no later than 6 a.m. on collection day. It is a green recycling collection week. View holiday collection guidelines Permitting The zoning team manages the review of single-family detached homes, duplex/duet dwellings, residential additions, residential detac",
+        "supportingPassageInDocument": true,
+        "extraction": {
+          "selector": "body",
+          "textChars": 5333,
+          "supportingPassagePresent": true,
+          "hash": "a03407e6474eda5d04da85f2a58b1278ab8e4e86578fa9886b3aff734629af0e"
+        },
+        "completedAt": "2026-11-13T02:30:22.569Z"
+      },
+      "assessment": {
+        "initialHostedCause": "undetermined-original-body-not-retained",
+        "followUpBodyClass": "substantive-server-rendered-html",
+        "followUpParserResult": "success-with-recorded-supporting-passage",
+        "emptyBodyConfirmed": false,
+        "javascriptOnlyShellConfirmed": false,
+        "deterministicExtractionDefectReproduced": false,
+        "normalizedHashMatchesEarlierManagedBody": true,
+        "sourceInterpretationReverified": false,
+        "initialHostedFailureResolved": false
+      },
+      "specificCaution": "Successful managed-proxy retrieval does not establish what the earlier direct-hosted fetch returned.",
+      "proposedAction": "Preserve initial observation and source dates. Capture existing response diagnostics on extraction failure, then make a bounded four-source hosted check with raw evidence enabled; do not weaken extraction thresholds or auto-resolve this initial failure."
+    }
+  ]
+}

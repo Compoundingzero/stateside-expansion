@@ -55,7 +55,10 @@ export function normalizedPDFBytes(bytes){
  const text=Buffer.from(bytes).toString('latin1').replace(/\/(?:CreationDate|ModDate)\s*\((?:\\.|[^)\\])*\)/g,'/VolatileDate()').replace(/\/ID\s*\[\s*<[^>]*>\s*<[^>]*>\s*\]/g,'/ID[]').replace(/<x:xmpmeta\b[^>]*>[^]*?<\/x:xmpmeta>/g,block=>block.replace(/<(xmp:(?:CreateDate|ModifyDate|MetadataDate)|xmpMM:(?:DocumentID|InstanceID))\b[^>]*>[^<]*<\/\1>/g,(_,tag)=>'<'+tag+'></'+tag+'>'));
  return Buffer.from(text,'latin1');
 }
-export const comparableText=text=>plainSourceText(String(text)).normalize('NFKC').replace(/[“”]/g,'"').replace(/[‘’]/g,"'").replace(/\s+/g,' ').toLowerCase();
+// Comparison-only equivalence for the official Albanian customs HTML. Keep the
+// extracted source text/content hash unchanged; these are the same characters,
+// not permission to drop words, conditions, accents or punctuation.
+export const comparableText=text=>plainSourceText(String(text)).replace(/&(euml|ccedil);/gi,(_,name)=>name.toLowerCase()==='euml'?'ë':'ç').normalize('NFKC').replace(/[“”]/g,'"').replace(/[‘’]/g,"'").replace(/\s+/g,' ').toLowerCase();
 export function isAccessInterstitial(html,url=''){
  const text=plainSourceText(String(html));
  return /^https:\/\/unblock\.federalregister\.gov(?:\/|$)/i.test(url)||

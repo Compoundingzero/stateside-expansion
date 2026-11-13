@@ -1,57 +1,441 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13T01:57:23.281Z",
-  "execution": "managed-cloud-full-sweep-plus-bounded-followups",
-  "scope": "591 cited source records selected from 278 published guides plus public tool and site dependencies. Of 640 total source records, 49 uncited or held research records were outside this check. These are mixed-time observations after bounded followups, not a new complete sweep.",
+  "checkedAt": "2026-11-13T02:21:14.908Z",
+  "execution": "github-actions-plus-dated-AI-assisted-queue-review",
+  "scope": "Hosted 591-record full citation cohort for 278 published guides plus public tool/site dependencies. The hosted result is retained separately from later AI-assisted queue review and managed-cloud attempts.",
   "sourceRecordsChecked": 591,
-  "retrievalFailures": 8,
+  "retrievalFailures": 54,
   "supportingPassagesNotLocated": 0,
-  "contentHashChanges": 0,
-  "normalizationMigrations": 378,
+  "contentHashChanges": 1,
+  "normalizationMigrations": 192,
   "normalizationMigrationsRequiringAudit": 0,
-  "openReviewItems": 8,
-  "resolvedReviewItems": 159,
+  "openReviewItems": 54,
+  "resolvedReviewItems": 115,
   "reviewType": "AI-assisted editorial source review",
   "legalReviewDatesAutomaticallyRefreshed": false,
   "note": "This dated technical snapshot is not a live legal-currency guarantee. Successful retrieval does not establish that every interpretation is current. Source substantive-review dates, applicability limits and unresolved legal/research workstreams remain separate.",
-  "completedAuditAt": "2026-11-13T02:14:41.731Z",
-  "fullSweepCompletedAt": "2026-11-13T02:03:19.727703+00:00",
+  "workflowRun": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43351541720",
+  "checkedCommit": "b8b5345c5b58d45b069d9f2f04eadbfaa53a2315",
+  "fullSweepCompletedAt": "2026-11-13T02:25:58.227Z",
+  "completedAuditAt": "2026-11-13T02:38:19.574Z",
+  "sourceRecordsRetrieved": 537,
+  "automatedContentHashAlerts": 0,
+  "reviewConfirmedSourceTextChanges": 1,
+  "reviewConfirmedChangesAffectingCurrentCitedClaims": 0,
+  "durableResolutionRecords": 217,
   "originalFullSweep": {
     "checked": 591,
-    "retrievalFailures": 15,
-    "successfulRetrievals": 576,
+    "retrievalFailures": 54,
+    "successfulRetrievals": 537,
+    "normalizationMigrations": 192,
+    "normalizationMigrationsRequiringAudit": 57,
+    "supportingPassagesNotLocated": 1,
+    "contentHashChangeAlerts": 0,
+    "openReviewItems": 112,
     "strictExitCode": 1
   },
-  "focusedFollowups": [
-    {
-      "runAt": "2026-11-13T02:05:32.310Z",
-      "recordsChecked": 12,
-      "successfulRetrievals": 6,
-      "remainingFailures": 6,
-      "scope": "Only network/DNS failures from the full sweep; excludes two HTTP 403 access blocks and the reserved-part extraction issue."
-    },
-    {
-      "runAt": "2026-11-13T02:08:30.695Z",
-      "recordsChecked": 1,
-      "successfulRetrievals": 1,
-      "scope": "Reserved eCFR Part 791 complete XML readability repair; no legal date refresh."
-    }
-  ],
-  "sourceRecordsRetrieved": 583,
-  "normalizationMigrationAudit": {
-    "fromVersion": 4,
-    "toVersion": 5,
-    "priorHashesReproduced": 378,
-    "changedHashPairsBound": 24,
-    "evidence": "research/batch3/normalization-migration-audit.json",
-    "olderCacheVersionsCovered": false
+  "queueReview": {
+    "resolvedExactHostedInstances": 58,
+    "remainingHostedItems": 54,
+    "reviewType": "AI-assisted technical and explicitly scoped substantive source/claim review",
+    "legalDatesAdvancedAutomatically": false
+  },
+  "additionalManagedFollowup": {
+    "runAt": "2026-11-13T02:29:35.130Z",
+    "sourcesAttempted": 2,
+    "dcOfficialBodyRetrievedAndCompared": true,
+    "albaniaConnectionFailureRetained": true,
+    "queuePath": "artifacts/hosted-43351541720-dc-al-review/editorial-review-queue.json",
+    "scope": "Separate executor/transport observation. The Albania HTTP followup did not succeed; the passage issue was resolved from the actual complete hosted body. It is outside the54-item hosted failure count."
   },
   "issues": [
     {
+      "sourceId": "b2-blocked-beauty",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/hair-salons/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b2-blocked-salon-products"
+      ]
+    },
+    {
+      "sourceId": "b2-east-ga-mark",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/georgia/"
+      ],
+      "ruleIds": [
+        "b2-east-ga-name-mark"
+      ]
+    },
+    {
+      "sourceId": "b2-east-ga-forms",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/georgia/"
+      ],
+      "ruleIds": [
+        "b2-east-ga-name-mark"
+      ]
+    },
+    {
+      "sourceId": "b2-origins-vietnam-export",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/from/vietnam/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b2-origins-vietnam-goods-vs-rights"
+      ]
+    },
+    {
+      "sourceId": "b2-west-tn-fe1",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/tennessee/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b2-west-tn-tax-separation"
+      ]
+    },
+    {
+      "sourceId": "b2-west-tn-consumer-index",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/tennessee/"
+      ],
+      "ruleIds": []
+    },
+    {
+      "sourceId": "b2-west-tn-fe4",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/tennessee/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b2-west-tn-tax-separation"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-az-ui",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-az-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-co-wh",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-co-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-ny-wh",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-ny-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-ri-register",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-ri-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-ri-ui",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-ri-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-tn-ui",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-tn-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-tx-tax-register",
+      "error": "Insufficient readable source content",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-tx-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-wy-register",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-wy-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-tx-current-constitution",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-tx-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-emp-tn-suspicious",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-emp-tn-accounts"
+      ]
+    },
+    {
+      "sourceId": "b3-ind-osha-staffing",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/staffing-services/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-ind-temp-worker-safety"
+      ]
+    },
+    {
+      "sourceId": "b3-i2-tx-electric",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/electrical-services/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-i2-electrical-company"
+      ]
+    },
+    {
+      "sourceId": "b3-i2-lockout",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/equipment-servicing/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-i2-equipment-energy"
+      ]
+    },
+    {
+      "sourceId": "b3-i2-mold-contractor",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/restoration-services/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-i2-mold-operator"
+      ]
+    },
+    {
+      "sourceId": "b3-i2-mold-faq",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/restoration-services/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-i2-mold-project"
+      ]
+    },
+    {
+      "sourceId": "b3-i2-mold-company",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/restoration-services/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-i2-mold-operator"
+      ]
+    },
+    {
+      "sourceId": "b3-local-sj-food",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/san-jose/food-facility-takeover/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-local-sj-takeover",
+        "b3-local-sj-plan"
+      ]
+    },
+    {
+      "sourceId": "b3-local-sj-plan",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/san-jose/food-facility-takeover/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-local-sj-plan"
+      ]
+    },
+    {
+      "sourceId": "b3-local-sj-evaluation",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/san-jose/food-facility-takeover/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-local-sj-takeover"
+      ]
+    },
+    {
+      "sourceId": "b3-local-sj-owner-form",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/san-jose/food-facility-takeover/",
+        "/tools/cash-runway/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-local-sj-takeover",
+        "b3-local-sj-plan"
+      ]
+    },
+    {
+      "sourceId": "b3-local-sj-food-scope",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/san-jose/food-facility-takeover/"
+      ],
+      "ruleIds": []
+    },
+    {
       "sourceId": "b3-local-detroit-notice",
       "error": "HTTP 403: source returned access/security interstitial",
-      "initialError": "HTTP 403",
-      "createdAt": "2026-11-13T01:12:25.883Z",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
         "/cities/detroit/food-license-and-preopening/",
         "/tools/cash-runway/",
@@ -62,24 +446,50 @@
       ]
     },
     {
-      "sourceId": "b3-o4-al-process",
-      "error": "fetch failed",
-      "initialError": "fetch failed",
-      "createdAt": "2026-11-13T01:57:23.281Z",
+      "sourceId": "b3-o2-pt-international",
+      "error": "HTTP 503",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
-        "/from/albania/",
-        "/tools/cash-runway/",
+        "/from/portugal/"
+      ],
+      "ruleIds": [
+        "b3-o2-pt-trademark"
+      ]
+    },
+    {
+      "sourceId": "b3-o2-lt-registers",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/from/lithuania/",
+        "/tools/brand-support-economics/",
         "/tools/launch-planner/"
       ],
       "ruleIds": [
-        "b3-o4-al-processing"
+        "b3-o2-lt-isaf-types"
+      ]
+    },
+    {
+      "sourceId": "b3-origin3-iceland-current-law",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/from/iceland/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-origin3-iceland-decision"
       ]
     },
     {
       "sourceId": "b3-o4-mk-change",
-      "error": "HTTP 503; saved response says upstream connection timeout",
-      "initialError": "getaddrinfo ENOTFOUND www.crm.com.mk",
-      "createdAt": "2026-11-13T01:57:23.281Z",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
         "/from/north-macedonia/",
         "/tools/brand-support-economics/",
@@ -90,75 +500,301 @@
       ]
     },
     {
-      "sourceId": "b3-o4-al-exit",
+      "sourceId": "b3-o4-me-old-law",
       "error": "fetch failed",
-      "initialError": "getaddrinfo ENOTFOUND dogana.gov.al",
-      "createdAt": "2026-11-13T01:57:23.281Z",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
-        "/from/albania/",
-        "/tools/cash-runway/",
-        "/tools/launch-planner/"
-      ],
-      "ruleIds": [
-        "b3-o4-al-processing"
-      ]
-    },
-    {
-      "sourceId": "b3-o4-tr-report",
-      "error": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
-      "initialError": "getaddrinfo ENOTFOUND www.ticaret.gov.tr",
-      "createdAt": "2026-11-13T01:57:23.281Z",
-      "paths": [
-        "/from/turkiye/",
+        "/from/montenegro/",
         "/tools/brand-support-economics/",
         "/tools/launch-planner/"
       ],
       "ruleIds": [
-        "b3-o4-tr-capital-notice"
+        "b3-o4-me-applicable-vat"
       ]
     },
     {
-      "sourceId": "b3-o4-ba-base",
-      "error": "getaddrinfo ENOTFOUND finpol.gov.ba",
-      "initialError": "getaddrinfo ENOTFOUND finpol.gov.ba",
-      "createdAt": "2026-11-13T01:57:23.281Z",
+      "sourceId": "b3-o4-me-new-law",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
-        "/from/bosnia-and-herzegovina/",
+        "/from/montenegro/",
         "/tools/brand-support-economics/",
         "/tools/launch-planner/"
       ],
       "ruleIds": [
-        "b3-o4-ba-setoff"
+        "b3-o4-me-applicable-vat"
       ]
     },
     {
-      "sourceId": "b3-o4-ba-enacted",
-      "error": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
-      "initialError": "getaddrinfo ENOTFOUND parlamentfbih.gov.ba",
-      "createdAt": "2026-11-13T01:57:23.281Z",
+      "sourceId": "b3-o4-me-notice",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
-        "/from/bosnia-and-herzegovina/",
+        "/from/montenegro/",
         "/tools/brand-support-economics/",
         "/tools/launch-planner/"
       ],
       "ruleIds": [
-        "b3-o4-ba-setoff"
+        "b3-o4-me-applicable-vat"
       ]
     },
     {
-      "sourceId": "b3-state4-or-law",
+      "sourceId": "b3-o4-me-eu-status",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/from/montenegro/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-o4-me-applicable-vat"
+      ]
+    },
+    {
+      "sourceId": "b3-planning-visitor-visa",
       "error": "HTTP 403",
-      "initialError": "HTTP 403",
-      "createdAt": "2026-11-13T01:57:23.281Z",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
       "paths": [
-        "/states/oregon/renewal-and-additional-unit-disclosure/",
-        "/states/oregon/",
+        "/us-expansion/business-visits/",
+        "/tools/relationship-factsheet/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-planning-business-visits"
+      ]
+    },
+    {
+      "sourceId": "b3-planning-osha-duties",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/workplace-safety/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-planning-workplace-safety"
+      ]
+    },
+    {
+      "sourceId": "b3-planning-osha-responsibilities",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/workplace-safety/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-planning-workplace-safety"
+      ]
+    },
+    {
+      "sourceId": "b3-planning2-texas-tax-full",
+      "error": "fetch failed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/us-expansion/sales-tax-services/",
+        "/tools/brand-support-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-planning-sales-tax-services"
+      ]
+    },
+    {
+      "sourceId": "b3-state-tx-classification",
+      "error": "Insufficient readable source content",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/texas/worker-classification-unemployment-tax/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-state-tx-tuca-classification"
+      ]
+    },
+    {
+      "sourceId": "b3-state3-ny-definition-recovered",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/new-york/",
+        "/tools/relationship-factsheet/"
+      ],
+      "ruleIds": [
+        "b3-state3-ny-inputs"
+      ]
+    },
+    {
+      "sourceId": "b3-state3-ny-disclosure-recovered",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/new-york/",
         "/tools/relationship-factsheet/",
         "/tools/fdd-comparison/",
         "/tools/launch-planner/"
       ],
       "ruleIds": [
-        "b3-state4-or-renewal"
+        "b3-state3-ny-addendum"
+      ]
+    },
+    {
+      "sourceId": "b3-state3-ny-rights-recovered",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/new-york/",
+        "/tools/relationship-factsheet/",
+        "/tools/fdd-comparison/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "b3-state3-ny-addendum"
+      ]
+    },
+    {
+      "sourceId": "fed-treaties",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/from/brunei/",
+        "/from/cambodia/",
+        "/from/philippines/",
+        "/from/thailand/",
+        "/from/ireland/",
+        "/from/spain/",
+        "/cases/singapore-subsidiary-e2-ownership/",
+        "/us-expansion/e2-nationality-investment/",
+        "/from/singapore/",
+        "/from/malaysia/",
+        "/tools/relationship-factsheet/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "fed-e2-nationality"
+      ]
+    },
+    {
+      "sourceId": "geo-local-san-francisco",
+      "error": "Insufficient readable source content",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/san-francisco/service-business-registration/"
+      ],
+      "ruleIds": []
+    },
+    {
+      "sourceId": "geo-local-raleigh",
+      "error": "HTTP 403: source returned access/security interstitial",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/raleigh/business-license-and-permits/"
+      ],
+      "ruleIds": []
+    },
+    {
+      "sourceId": "geo-local-charlotte",
+      "error": "Insufficient readable source content",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cities/charlotte/city-county-permitting/"
+      ],
+      "ruleIds": []
+    },
+    {
+      "sourceId": "geo-treaty-countries",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/from/brunei/",
+        "/from/indonesia/",
+        "/from/philippines/",
+        "/from/thailand/",
+        "/from/timor-leste/",
+        "/from/germany/",
+        "/from/ireland/",
+        "/from/spain/",
+        "/from/italy/",
+        "/from/singapore/",
+        "/from/malaysia/"
+      ],
+      "ruleIds": []
+    },
+    {
+      "sourceId": "pr-cleaning",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/cases/cleaning-product-us-supply/",
+        "/industries/commercial-cleaning/"
+      ],
+      "ruleIds": []
+    },
+    {
+      "sourceId": "pr-lockout",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/industries/industrial-maintenance/",
+        "/tools/us-unit-economics/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "practice-hazardous-energy"
+      ]
+    },
+    {
+      "sourceId": "state-tx-faq",
+      "error": "HTTP 403",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/texas/",
+        "/tools/relationship-factsheet/",
+        "/tools/fdd-comparison/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "tx-franchise-exemption-notice"
+      ]
+    },
+    {
+      "sourceId": "state-mn-assurance",
+      "error": "Only public HTTPS source hosts on port 443 are allowed",
+      "reason": "source-fetch-failed",
+      "createdAt": "2026-11-13T02:21:14.908Z",
+      "paths": [
+        "/states/minnesota/",
+        "/states/minnesota/franchise-support-funding/",
+        "/tools/relationship-factsheet/",
+        "/tools/fdd-comparison/",
+        "/tools/launch-planner/"
+      ],
+      "ruleIds": [
+        "mn-assurance"
       ]
     }
   ]

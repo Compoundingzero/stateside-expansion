@@ -1,0 +1,1686 @@
+{
+  "schemaVersion": 1,
+  "workflowRunId": "43351541720",
+  "auditedAt": "2026-11-13T02:33:54.838712+00:00",
+  "scope": "Independent read-only triage of exactly 54 initial fetch failures; excludes 57 normalization issues and 1 passage miss. No original artifact, shared editorial state, public content, coverage, baseline or source dates changed.",
+  "initialArtifact": {
+    "path": "artifacts/hosted-43351541720/source-check-results.json",
+    "sha256": "82aa68d22c36b24f81cebb5fc5264fb88a5d3f96d092c59452656709eeafb20d",
+    "runAt": "2026-11-13T02:21:14.908Z",
+    "transport": "direct",
+    "sourceRecordsChecked": 591,
+    "fetchFailures": 54
+  },
+  "counts": {
+    "permission-security-block": 35,
+    "transport-cause-not-retained": 12,
+    "unreadable-hosted-body-not-retained": 4,
+    "service-maintenance-response": 1,
+    "unsafe-redirect-or-route-rejection-unresolved": 1,
+    "missing-resource-response": 1
+  },
+  "confirmedParserDefects": 0,
+  "originalObservationPreservationCheck": "All 54 unique source IDs represented once and each parsed initialObservation exactly equals its original source-check-results record.",
+  "detailAudits": [
+    {
+      "path": "research/batch3/hosted-fetch-access-audit.json",
+      "sha256": "ae85ae095dc96251c0d98ff2255c306e4276f051191b46f36d6f036ac5d06f94"
+    },
+    {
+      "path": "research/batch3/hosted-fetch-network-audit.json",
+      "sha256": "551e47bb75bd3d5b19608ff57e725c6fdce2271ff623ea7a3b4bb567b9fbe565"
+    },
+    {
+      "path": "research/batch3/hosted-fetch-unreadable-audit.json",
+      "sha256": "d71d797a5611f4843e3c5c71509e3f064987f7f9e804923a84f46e42a7d20be1"
+    }
+  ],
+  "implementationProposals": [
+    {
+      "priority": 1,
+      "proposal": "Attach bounded evidence from already-received successful-HTTP responses to parsing/extraction exceptions: final/requested URL, status, type, byte count, raw hash, selector/candidate diagnostics and capped body preview. Write per-source failure evidence JSON independently of RAW_DIRECTORY. Preserve the failed observation and prior good baseline; do not perform a diagnostic refetch."
+    },
+    {
+      "priority": 1,
+      "proposal": "Persist bounded allowlisted error cause/AggregateError details and per-attempt phase/start/end/elapsed. Keep errors behind fetch failed distinguishable before changing transport/retry behavior. Never dump arbitrary objects, credentials, cookies, proxy configuration or environment."
+    },
+    {
+      "priority": 1,
+      "proposal": "Retain sanitized redirect history and the URL-validation rejection reason/attempted URL components. Do not relax public HTTPS, DNS, private-address, credential, port or TLS guards. Minnesota exact failing hop remains unproven."
+    },
+    {
+      "priority": 2,
+      "proposal": "Make missing-resource/error-page diagnostics distinct from access/security blocks, retaining original HTTP status/body and a failed result. Texas FAQ HTTP403 has an explicit missing-file body, not a browser challenge."
+    },
+    {
+      "priority": 2,
+      "proposal": "Recognize the observed explicit CloudFront/Cloudflare denial signatures for accurate diagnostic flags. Consider retaining a same-URL explicit nonretryable denial in a per-run negative cache so a second source ID does not request the identical blocked URL again; preserve separate failure records for both IDs. This is not permission to cycle endpoints or identities."
+    },
+    {
+      "priority": 3,
+      "proposal": "After instrumentation, one bounded ordinary hosted replay of the four unreadable sources with raw evidence enabled can distinguish body versus extraction failure. Stop on access restriction. No broad rerun, content relaxation, automatic issue resolution or substantive-date advance is justified by this audit."
+    }
+  ],
+  "notJustified": [
+    "Security/access bypass, user-agent or proxy identity cycling, TLS disabling, IP hardcoding or DNS/SSRF guard relaxation.",
+    "Declaring the 12 generic transport failures TLS/DNS/timeouts from timing or a different environment follow-up.",
+    "Declaring the 4 original unreadable failures empty pages, JS shells or parser defects from later successful managed-proxy bodies.",
+    "Switching legal sources or changing interpretations from search snippets, or treating the known Texas same-host GetStatute API as a proven hosted transport repair.",
+    "Resolving failures or advancing substantiveVerifiedAt because a separate follow-up fetch succeeded."
+  ],
+  "records": [
+    {
+      "sourceId": "b2-blocked-beauty",
+      "initialObservation": {
+        "sourceId": "b2-blocked-beauty",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/hair-salons",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:21:17 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: vNAA07vdUshb7w-SBqFZ-s1BrT6QQ6y-sqon77VNefrSpa4JBIcvtg==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b2-blocked-salon-products"
+        ],
+        "paths": [
+          "/industries/hair-salons/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:21:16.859Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b2-east-ga-forms",
+      "initialObservation": {
+        "sourceId": "b2-east-ga-forms",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://sos.ga.gov/page/trademark-and-service-mark-application-and-forms",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:21:28 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5804,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b2-east-ga-name-mark"
+        ],
+        "paths": [
+          "/states/georgia/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:21:28.761Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b2-east-ga-mark",
+      "initialObservation": {
+        "sourceId": "b2-east-ga-mark",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://sos.ga.gov/page/trademarks-and-service-marks-faq",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:21:22 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5735,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b2-east-ga-name-mark"
+        ],
+        "paths": [
+          "/states/georgia/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:21:22.524Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b2-origins-vietnam-export",
+      "initialObservation": {
+        "sourceId": "b2-origins-vietnam-export",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b2-origins-vietnam-goods-vs-rights"
+        ],
+        "paths": [
+          "/from/vietnam/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:21:33.581Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b2-west-tn-consumer-index",
+      "initialObservation": {
+        "sourceId": "b2-west-tn-consumer-index",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://tndca.zendesk.com/hc/en-us/articles/4402426023707-What-about-formal-actions",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:21:56 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5845,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [],
+        "paths": [
+          "/states/tennessee/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:21:56.428Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b2-west-tn-fe1",
+      "initialObservation": {
+        "sourceId": "b2-west-tn-fe1",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://revenue.support.tn.gov/hc/en-us/articles/360058316531-F-E-1-Entity-Types-that-File-Franchise-Excise-Tax-Returns",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:21:56 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5985,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b2-west-tn-tax-separation"
+        ],
+        "paths": [
+          "/states/tennessee/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:21:56.282Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b2-west-tn-fe4",
+      "initialObservation": {
+        "sourceId": "b2-west-tn-fe4",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://revenue.support.tn.gov/hc/en-us/articles/360058317571-F-E-4-Tennessee-Filing-Requirement-for-an-LLC-that-Files-Federally-as-an-Individual-or-Division-of-a-General-Partnership",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:21:56 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 6260,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b2-west-tn-tax-separation"
+        ],
+        "paths": [
+          "/states/tennessee/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:21:56.310Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-az-ui",
+      "initialObservation": {
+        "sourceId": "b3-emp-az-ui",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://des.az.gov/content/applying-unemployment-insurance-tax-account-number",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:01 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5841,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-az-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:01.069Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-co-wh",
+      "initialObservation": {
+        "sourceId": "b3-emp-co-wh",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://tax.colorado.gov/withholding-accounts",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:02 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5733,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-co-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:02.287Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-ny-wh",
+      "initialObservation": {
+        "sourceId": "b3-emp-ny-wh",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-emp-ny-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:19.657Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-ri-register",
+      "initialObservation": {
+        "sourceId": "b3-emp-ri-register",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://tax.ri.gov/online-services/register-your-business-online",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:25 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5759,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-ri-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:24.930Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-ri-ui",
+      "initialObservation": {
+        "sourceId": "b3-emp-ri-ui",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://dlt.ri.gov/employers/employer-tax-unit/frequently-asked-employer-tax-questions",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:25 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5868,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-ri-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:25.038Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-tn-suspicious",
+      "initialObservation": {
+        "sourceId": "b3-emp-tn-suspicious",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://revenue.support.tn.gov/hc/en-us/articles/360057372132-HIT-23-Suspicious-Returns",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:32 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5847,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-tn-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:32.411Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-tn-ui",
+      "initialObservation": {
+        "sourceId": "b3-emp-tn-ui",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://lwdsupport.tn.gov/hc/en-us/articles/41503856211475-Employer-Registration",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:25 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5836,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-tn-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:25.873Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-tx-current-constitution",
+      "initialObservation": {
+        "sourceId": "b3-emp-tx-current-constitution",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-emp-tx-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:31.799Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-tx-tax-register",
+      "initialObservation": {
+        "sourceId": "b3-emp-tx-tax-register",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [
+          "b3-emp-tx-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:25.986Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "unreadable-hosted-body-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-unreadable-audit.json"
+    },
+    {
+      "sourceId": "b3-emp-wy-register",
+      "initialObservation": {
+        "sourceId": "b3-emp-wy-register",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://dws.wyo.gov/dws-division/workers-compensation/employers/new-employers/",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:28 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5906,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-emp-wy-accounts"
+        ],
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:28.888Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-i2-lockout",
+      "initialObservation": {
+        "sourceId": "b3-i2-lockout",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:22:42 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: RmAmIHA9k5U7OKD4QQJbrTIWbZ5r3ApM7gj_F4YHxJXMW7c1dZFwxw==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-i2-equipment-energy"
+        ],
+        "paths": [
+          "/industries/equipment-servicing/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:42.044Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-i2-mold-company",
+      "initialObservation": {
+        "sourceId": "b3-i2-mold-company",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-mold-operator"
+        ],
+        "paths": [
+          "/industries/restoration-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:46.578Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-i2-mold-contractor",
+      "initialObservation": {
+        "sourceId": "b3-i2-mold-contractor",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-mold-operator"
+        ],
+        "paths": [
+          "/industries/restoration-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:46.585Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-i2-mold-faq",
+      "initialObservation": {
+        "sourceId": "b3-i2-mold-faq",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-mold-project"
+        ],
+        "paths": [
+          "/industries/restoration-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:46.926Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-i2-tx-electric",
+      "initialObservation": {
+        "sourceId": "b3-i2-tx-electric",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-i2-electrical-company"
+        ],
+        "paths": [
+          "/industries/electrical-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:39.612Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-ind-osha-staffing",
+      "initialObservation": {
+        "sourceId": "b3-ind-osha-staffing",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/temporaryworkers",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:22:34 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: XFLhLQONULn6vgxYBaReQQYK7MipNrz4j2IT-zCuMRth075sDBFgDA==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-ind-temp-worker-safety"
+        ],
+        "paths": [
+          "/industries/staffing-services/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:34.670Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-local-detroit-notice",
+      "initialObservation": {
+        "sourceId": "b3-local-detroit-notice",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://detroitmi.gov/news/restaurants",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:58 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5632,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-local-detroit-food-route"
+        ],
+        "paths": [
+          "/cities/detroit/food-license-and-preopening/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:58.457Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-local-sj-evaluation",
+      "initialObservation": {
+        "sourceId": "b3-local-sj-evaluation",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://deh.santaclaracounty.gov/request-fixed-food-facility-evaluation",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:57 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5668,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access santaclaracounty.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a4fc938858596 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-local-sj-takeover"
+        ],
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:57.302Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-local-sj-food",
+      "initialObservation": {
+        "sourceId": "b3-local-sj-food",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://deh.santaclaracounty.gov/food-and-retail/compliance-retail-food-operations/restaurant-grocery-store-or-other-fixed-food",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:57 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5668,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access santaclaracounty.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a4fc6e9258596 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-local-sj-takeover",
+          "b3-local-sj-plan"
+        ],
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:57.006Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-local-sj-food-scope",
+      "initialObservation": {
+        "sourceId": "b3-local-sj-food-scope",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://deh.santaclaracounty.gov/consumers/food-safety-programs/sccdineout-web-app",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:57 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5668,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access santaclaracounty.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a4fca78098596 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [],
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:22:57.620Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-local-sj-owner-form",
+      "initialObservation": {
+        "sourceId": "b3-local-sj-owner-form",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://files.santaclaracounty.gov/exjcpb1761/2026-10/fp_faci_eval_2026_10_26.pdf?VersionId=VgHpQJlWYY7uhTV0_F__MhE3zPHOI.ro",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:57 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 4554,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access santaclaracounty.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a4fca0f590046 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-local-sj-takeover",
+          "b3-local-sj-plan"
+        ],
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:57.490Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-local-sj-plan",
+      "initialObservation": {
+        "sourceId": "b3-local-sj-plan",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://deh.santaclaracounty.gov/food-and-retail/compliance-retail-food-operations/submit-plan-review-restaurants-grocery-stores-and",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:22:57 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5668,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access santaclaracounty.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a4fc7f8488596 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-local-sj-plan"
+        ],
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ],
+        "tools": [
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:22:57.115Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-o2-lt-registers",
+      "initialObservation": {
+        "sourceId": "b3-o2-lt-registers",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://www.vmi.lt/evmi/gaunamu-ir-israsomu-pvm-saskaitu-fakturu-registru-pildymas",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:23:35 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5856,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-o2-lt-isaf-types"
+        ],
+        "paths": [
+          "/from/lithuania/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:23:34.538Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-o2-pt-international",
+      "initialObservation": {
+        "sourceId": "b3-o2-pt-international",
+        "failureKind": "network",
+        "error": "HTTP 503",
+        "transportEvidence": {
+          "url": "https://justica.gov.pt/Servicos/Registar-marca-internacional",
+          "status": 503,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri Nov 13 02:23:28 2026 GMT"
+          },
+          "capturedBytes": 28976,
+          "bodyPreview": "Module Estamos a melhorar a sua experi\u00eancia, prometemos ser breves. O site encontra-se em manuten\u00e7\u00e3o",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-o2-pt-trademark"
+        ],
+        "paths": [
+          "/from/portugal/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:23:23.604Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "service-maintenance-response",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-o4-me-eu-status",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-eu-status",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/06/enlargement-eu-and-montenegro-close-accession-negotiations-on-free-movement-of-goods-and-food-safety/",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:24:29 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 13751,
+          "bodyPreview": "Browser check - Consilium Checking your browser before accessing a GSC Managed Website Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:29.193Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-o4-me-new-law",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-new-law",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:06.766Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-o4-me-notice",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-notice",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:07.765Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-o4-me-old-law",
+      "initialObservation": {
+        "sourceId": "b3-o4-me-old-law",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ],
+        "paths": [
+          "/from/montenegro/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:23:57.492Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-o4-mk-change",
+      "initialObservation": {
+        "sourceId": "b3-o4-mk-change",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-o4-mk-change"
+        ],
+        "paths": [
+          "/from/north-macedonia/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:23:55.357Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-origin3-iceland-current-law",
+      "initialObservation": {
+        "sourceId": "b3-origin3-iceland-current-law",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://www.althingi.is/lagas/nuna/1988050.html",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:23:52 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5762,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-origin3-iceland-decision"
+        ],
+        "paths": [
+          "/from/iceland/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:23:52.736Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-planning-osha-duties",
+      "initialObservation": {
+        "sourceId": "b3-planning-osha-duties",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/laws-regs/oshact/section5-duties",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:24:36 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: neSnZT44qQnOIc6cOA_Lbq_QP2WxLct8iTfV8PR6Bx_76RuwrKrt-Q==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-planning-workplace-safety"
+        ],
+        "paths": [
+          "/us-expansion/workplace-safety/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:36.493Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-planning-osha-responsibilities",
+      "initialObservation": {
+        "sourceId": "b3-planning-osha-responsibilities",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/workers/employer-responsibilities",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:24:36 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: S2_E8wK5iSFWE4Z3R09rIpYx9aRm8Yc497fhcdlrZcCwa0w43c45YA==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-planning-workplace-safety"
+        ],
+        "paths": [
+          "/us-expansion/workplace-safety/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:36.657Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-planning-visitor-visa",
+      "initialObservation": {
+        "sourceId": "b3-planning-visitor-visa",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:24:35 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5664,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access travel.state.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a522e1d8aba49 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "b3-planning-business-visits"
+        ],
+        "paths": [
+          "/us-expansion/business-visits/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:35.383Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-planning2-texas-tax-full",
+      "initialObservation": {
+        "sourceId": "b3-planning2-texas-tax-full",
+        "failureKind": "network",
+        "error": "fetch failed",
+        "ruleIds": [
+          "b3-planning-sales-tax-services"
+        ],
+        "paths": [
+          "/us-expansion/sales-tax-services/"
+        ],
+        "tools": [
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:24:52.444Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "transport-cause-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-network-audit.json"
+    },
+    {
+      "sourceId": "b3-state-tx-classification",
+      "initialObservation": {
+        "sourceId": "b3-state-tx-classification",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [
+          "b3-state-tx-tuca-classification"
+        ],
+        "paths": [
+          "/states/texas/worker-classification-unemployment-tax/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:08.800Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "unreadable-hosted-body-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-unreadable-audit.json"
+    },
+    {
+      "sourceId": "b3-state3-ny-definition-recovered",
+      "initialObservation": {
+        "sourceId": "b3-state3-ny-definition-recovered",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://www.nysenate.gov/legislation/laws/GBS/681",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:25:13 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5745,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-state3-ny-inputs"
+        ],
+        "paths": [
+          "/states/new-york/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:13.120Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-state3-ny-disclosure-recovered",
+      "initialObservation": {
+        "sourceId": "b3-state3-ny-disclosure-recovered",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://www.nysenate.gov/legislation/laws/GBS/683",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:25:13 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5745,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-state3-ny-addendum"
+        ],
+        "paths": [
+          "/states/new-york/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:13.202Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "b3-state3-ny-rights-recovered",
+      "initialObservation": {
+        "sourceId": "b3-state3-ny-rights-recovered",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://www.nysenate.gov/legislation/laws/GBS/687",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:25:13 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5745,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [
+          "b3-state3-ny-addendum"
+        ],
+        "paths": [
+          "/states/new-york/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:13.290Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "fed-treaties",
+      "initialObservation": {
+        "sourceId": "fed-treaties",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:25:36 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5664,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access travel.state.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a53a9ca2572fe &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "fed-e2-nationality"
+        ],
+        "paths": [
+          "/from/brunei/",
+          "/from/cambodia/",
+          "/from/philippines/",
+          "/from/thailand/",
+          "/from/ireland/",
+          "/from/spain/",
+          "/cases/singapore-subsidiary-e2-ownership/",
+          "/us-expansion/e2-nationality-investment/",
+          "/from/singapore/",
+          "/from/malaysia/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:36.163Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "geo-local-charlotte",
+      "initialObservation": {
+        "sourceId": "geo-local-charlotte",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [],
+        "paths": [
+          "/cities/charlotte/city-county-permitting/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:39.117Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "unreadable-hosted-body-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-unreadable-audit.json"
+    },
+    {
+      "sourceId": "geo-local-raleigh",
+      "initialObservation": {
+        "sourceId": "geo-local-raleigh",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "transportEvidence": {
+          "url": "https://raleighnc.gov/doing-business/services/starting-new-business",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:25:39 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5826,
+          "bodyPreview": "Just a moment... Enable JavaScript and cookies to continue",
+          "accessInterstitial": true
+        },
+        "ruleIds": [],
+        "paths": [
+          "/cities/raleigh/business-license-and-permits/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:39.347Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "geo-local-san-francisco",
+      "initialObservation": {
+        "sourceId": "geo-local-san-francisco",
+        "failureKind": "unreadable",
+        "error": "Insufficient readable source content",
+        "ruleIds": [],
+        "paths": [
+          "/cities/san-francisco/service-business-registration/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:38.002Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "unreadable-hosted-body-not-retained",
+      "detailAudit": "research/batch3/hosted-fetch-unreadable-audit.json"
+    },
+    {
+      "sourceId": "geo-treaty-countries",
+      "initialObservation": {
+        "sourceId": "geo-treaty-countries",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/fees/treaty.html",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 13 Nov 2026 02:25:43 GMT",
+            "server": "cloudflare"
+          },
+          "capturedBytes": 5664,
+          "bodyPreview": "Attention Required! | Cloudflare Please enable cookies. Sorry, you have been blocked You are unable to access travel.state.gov Why have I been blocked? This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data. What can I do to resolve this? You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page. Cloudflare Ray ID: a59a53d7abe80fe6 &bull; Your IP: Click to reveal 20.29.52.241 &bull; Performance & security by Cloudflare",
+          "accessInterstitial": false
+        },
+        "ruleIds": [],
+        "paths": [
+          "/from/brunei/",
+          "/from/indonesia/",
+          "/from/philippines/",
+          "/from/thailand/",
+          "/from/timor-leste/",
+          "/from/germany/",
+          "/from/ireland/",
+          "/from/spain/",
+          "/from/italy/",
+          "/from/singapore/",
+          "/from/malaysia/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:43.496Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "pr-cleaning",
+      "initialObservation": {
+        "sourceId": "pr-cleaning",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/cleaning-industry",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:25:45 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: FJGUFBHm4Y9xyjDW_0AU63ucyX2DusQqHcdO5dE1iOVeLhFrbiZ-1A==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [],
+        "paths": [
+          "/cases/cleaning-product-us-supply/",
+          "/industries/commercial-cleaning/"
+        ],
+        "tools": [],
+        "fetchedAt": "2026-11-13T02:25:44.921Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "pr-lockout",
+      "initialObservation": {
+        "sourceId": "pr-lockout",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.osha.gov/control-hazardous-energy",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html",
+            "date": "Fri, 13 Nov 2026 02:25:45 GMT",
+            "server": "CloudFront"
+          },
+          "capturedBytes": 919,
+          "bodyPreview": "ERROR: The request could not be satisfied 403 ERROR The request could not be satisfied. Request blocked. We can't connect to the server for this app or website at this time. There might be too much traffic or a configuration error. Try again later, or contact the app or website owner. If you provide content to customers through CloudFront, you can find steps to troubleshoot and help prevent this error by reviewing the CloudFront documentation. Generated by cloudfront (CloudFront) Request ID: AISSKGxQ5AzQDT7gx6lqBGGFYRrKEdLp70MzjnSj7nwcHkGmmshqHg==",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "practice-hazardous-energy"
+        ],
+        "paths": [
+          "/industries/industrial-maintenance/"
+        ],
+        "tools": [
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:45.132Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "permission-security-block",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "state-mn-assurance",
+      "initialObservation": {
+        "sourceId": "state-mn-assurance",
+        "failureKind": "unsafe-source",
+        "error": "Only public HTTPS source hosts on port 443 are allowed",
+        "ruleIds": [
+          "mn-assurance"
+        ],
+        "paths": [
+          "/states/minnesota/",
+          "/states/minnesota/franchise-support-funding/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:55.478Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "unsafe-redirect-or-route-rejection-unresolved",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    },
+    {
+      "sourceId": "state-tx-faq",
+      "initialObservation": {
+        "sourceId": "state-tx-faq",
+        "failureKind": "access-blocked",
+        "error": "HTTP 403",
+        "transportEvidence": {
+          "url": "https://www.sos.state.tx.us/statdoc/faqs2700.shtml",
+          "status": 403,
+          "headers": {
+            "content-type": "text/html; charset=utf-8",
+            "date": "Fri, 13 Nov 2026 02:25:53 GMT",
+            "server": "AmazonS3"
+          },
+          "capturedBytes": 20963,
+          "bodyPreview": "Sorry, but the requested file was not found Skip to Main Content Election Notice: Election Night Returns IN-PERSON SERVICES FOR THE OFFICE OF THE TEXAS SECRETARY OF STATE HAVE MOVED TO 400 W. 15TH STREET. PARKING DETAILS AND MORE INFORMATION Media | Site Map | Help | Contact | Website Survey | En Espa&ntilde;ol Search for this: Sorry, but the requested file was not found The Elections Division has recently revised and reorganized many of its online forms. You may have reached this page due to these recent changes. As a result, we recommend searching our comprehensive Elections Forms Directory for your respective document. Once you've located your form, please bookmark the file for future reference. Various Notary forms are no longer available due to the release of our new Notary Application which is available on our SOS Portal . (This Advisory has been rescinded) No. 2019-02 - Use of Non-U.S. Citizen Data obtained from the Department of Public Safety The following material previously available on this website can now be found on VoteTexas.gov . Register to Vote Frequently Asked Questions (FAQs) Voter Information What is on the Ballot Where do I Vote? What's my District? Student Voters Military/Overseas Voters If the link you clicked on was incorrect, our search engine or site map should direct you to where you want to go. Or, just click through to the home page . Bookmarks: You may be trying to link from a bookmarked page that is no longer valid. If so, please go to your favorite page and bookmark the page again. NEW: SOS Modernization Program SOSPortal - Business Filings Business Copies and Certificates Uniform Commercial Code Texas Businesses Against Trafficking VoteTexas.gov - Voter Information Website Policies Open Records Texas.gov Contacts Texas State Library & Archives Texas Homeland Security Where the Money Goes Fraud Reporting Texas Veterans Portal",
+          "accessInterstitial": false
+        },
+        "ruleIds": [
+          "tx-franchise-exemption-notice"
+        ],
+        "paths": [
+          "/states/texas/"
+        ],
+        "tools": [
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "fetchedAt": "2026-11-13T02:25:50.133Z",
+        "result": "fetch-failed"
+      },
+      "diagnosis": "missing-resource-response",
+      "detailAudit": "research/batch3/hosted-fetch-access-audit.json"
+    }
+  ]
+}

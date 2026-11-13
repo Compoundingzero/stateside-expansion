@@ -91,3 +91,28 @@ initial full sweep and the later mixed-time completion, with actual source IDs,
 errors and affected paths. It does not present them as a second full sweep.
 The release audit binds exact v4-to-v5 normalization pairs; differing older hosted
 cache migrations require their own review and may correctly fail scheduled checks.
+
+The subsequent GitHub-hosted run 43351541720 used its own network and restored
+older cache: 591 checked, 537 retrieved, 54 retrieval failures, 57 normalization
+reviews and one passage alert, initially 112 open observations. All were inspected;
+58 exact review instances were closed after source/claim review, leaving 54
+retrieval failures openly recorded. Those are 35 explicit security blocks, 12
+transport errors with missing original cause details, four unreadable responses
+with missing original bodies, one maintenance response, one missing-resource
+response and one unresolved URL-safety/redirect rejection. The local eight and
+hosted 54 are separate dated observations, not interchangeable counts.
+
+The D.C. source had one actual text change; independent substantive review found
+its newly bracketed medical-lending reference does not affect the guide's cited
+misstatement/omission provisions. The original automated hash-alert count of zero
+is retained separately from this review-confirmed source change. The durable
+register now contains 217 exact-instance decisions, with 115 relevant resolved
+instances in this hosted queue. All 217 mappings were checked against immutable
+artifacts, including source IDs, issue/reason/hash identity and review timestamps.
+A generated formatting error in one Pennsylvania identifier was corrected before
+publishing this maintenance update; no immutable evidence was rewritten.
+
+The maintenance build and all 71 Node tests passed locally. The new diagnostic
+code retains bounded response and redacted transport/redirect evidence; it has
+not retroactively fixed or rerun the original hosted failures. See
+`EDITORIAL.md` and `research/batch3/FINAL-SOURCE-RUN.md` for the full chronology.

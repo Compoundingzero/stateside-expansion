@@ -41,6 +41,8 @@ actual HTTP response. HTTP 200 confirms receipt; 202 leaves key validation pendi
 Neither confirms indexing. Google does not use this protocol; it does not replace
 Google/Bing account-property verification or their search performance reports.
 
+Actual discovery submission: after Railway deployment `ead989f9-8721-4dc0-b4dc-82a329604291` reached SUCCESS, the live ownership file and all 296 sitemap URLs were verified. The initial request returned HTTP 403 shortly after deployment; a later homepage diagnostic returned HTTP 200, and the complete 296-URL submission returned HTTP 200 at `2026-11-13T02:21:02.169Z`. This records receipt only, not indexing. The original failed response and successful receipt are retained in local release artifacts. Do not resubmit the unchanged release merely because reporting has not appeared.
+
 Current account status: technical support implemented; provider-issued tokens and
 account verification remain pending. The user asked the agent to perform setup.
 The cloud browser fails before opening a tab (`gaas-browser node_repl sandbox

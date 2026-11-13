@@ -425,5 +425,1833 @@
       }
     ],
     "scope": "Mixed-time completion of the same 591 cited-source cohort for 278 published guides. The full sweep began at 2026-11-13T01:57:23Z and had 15 failures. A 12-record network retry began at 02:05:32Z and retrieved six. A one-record reserved eCFR Part 791 check began at 02:08:30Z and retrieved its complete XML after a narrow readability repair. Seven exact occurrences were resolved; eight remain open. This is not a second whole-corpus sweep or a new legal review. Source substantive-review dates are preserved. The 49 uncited records, held guides and other unresolved research are outside this technical check."
+  },
+  {
+    "id": "github-final-43351541720",
+    "runAt": "2026-11-13T02:21:14.908Z",
+    "environment": "GitHub final full source check",
+    "checked": 591,
+    "retrievalFailures": 54,
+    "hashChanges": 0,
+    "openReviewItems": 112,
+    "normalizationReviewItems": 57,
+    "missingPassages": 1,
+    "workflow": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43351541720",
+    "issues": [
+      {
+        "sourceId": "b2-blocked-rrp",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/industries/home-renovation/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-blocked-beauty",
+        "error": "HTTP 403",
+        "paths": [
+          "/industries/hair-salons/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-blocked-qargo-complaint",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cases/qargo-license-label-review/",
+          "/from/indonesia/",
+          "/cases/licensing-label-franchise-obligations/",
+          "/cases/staged-industrial-services-territory/",
+          "/cases/branch-operator-versus-master-franchise/",
+          "/us-expansion/franchising-vs-licensing/",
+          "/us-expansion/area-developer-vs-master/",
+          "/us-expansion/national-accounts-and-territories/"
+        ]
+      },
+      {
+        "sourceId": "b2-blocked-qargo-2025report",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cases/qargo-license-label-review/",
+          "/from/indonesia/",
+          "/cases/licensing-label-franchise-obligations/",
+          "/cases/staged-industrial-services-territory/",
+          "/cases/branch-operator-versus-master-franchise/",
+          "/us-expansion/franchising-vs-licensing/",
+          "/us-expansion/area-developer-vs-master/",
+          "/us-expansion/national-accounts-and-territories/"
+        ]
+      },
+      {
+        "sourceId": "b2-blocked-homecare-enforcement",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/industries/home-care-services/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ak-app",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/alaska/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ar-2023",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/arkansas/"
+        ]
+      },
+      {
+        "sourceId": "b2-blocked-alacrity-order",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cases/alacrity-janitorial-payroll-consent-judgment/",
+          "/industries/home-care-services/",
+          "/us-expansion/federal-wage/",
+          "/us-expansion/worker-classification/",
+          "/industries/commercial-cleaning/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ar-2025",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/arkansas/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ct-guidelines",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/connecticut/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ct-form",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/connecticut/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ga-mark",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/georgia/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ia-bizopp",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/iowa/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ia-franchise",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/iowa/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ia-currentrelationship",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/iowa/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ky-exemption",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/kentucky/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-me-law",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/maine/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ma-classification",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/massachusetts/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-al-status",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/alabama/",
+          "/tools/relationship-factsheet/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ga-forms",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/georgia/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ky-registration",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/kentucky/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ky-advertising",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/kentucky/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ky-contract",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/kentucky/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ky-earnings",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/kentucky/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ky-cancel",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/kentucky/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-brunei-bedb",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/from/brunei/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-philippines-bsp",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/from/philippines/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-timor-guide",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/from/timor-leste/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-vietnam-export",
+        "error": "fetch failed",
+        "paths": [
+          "/from/vietnam/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-germany-ss",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/from/germany/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-thailand-2026",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/from/thailand/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-guam-foreign",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/guam/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-guam-license",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/guam/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-guam-service",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/guam/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-cnmi-5611",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/northern-mariana-islands/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-as-foreign",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/american-samoa/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-as-residence",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/american-samoa/",
+          "/territories/american-samoa/people-and-operating-approvals/",
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-territories-local-atlanta",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cities/atlanta/zoning-and-occupation-tax/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-ok-title71",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/oklahoma/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-ut-chapter15",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/utah/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-ut-section201",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/utah/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-wy-equipment",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/wyoming/equipment-inventory-exit/",
+          "/states/wyoming/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-pa-vehicles",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/pennsylvania/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-pa-section316",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/pennsylvania/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-dc-3904",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/district-of-columbia/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-tn-fe1",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/tennessee/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-tn-consumer-index",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/tennessee/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-tn-fe4",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/tennessee/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-a-nj-otg",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/new-jersey/"
+        ]
+      },
+      {
+        "sourceId": "b2-west-a-nm-fir",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/new-mexico/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-az-ui",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-co-wh",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-ny-wh",
+        "error": "fetch failed",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-ri-register",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-ri-ui",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tn-ui",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tx-tax-register",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-wy-register",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tx-current-constitution",
+        "error": "fetch failed",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tn-suspicious",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-ind-osha-staffing",
+        "error": "HTTP 403",
+        "paths": [
+          "/industries/staffing-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-tx-electric",
+        "error": "fetch failed",
+        "paths": [
+          "/industries/electrical-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-lockout",
+        "error": "HTTP 403",
+        "paths": [
+          "/industries/equipment-servicing/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-mold-contractor",
+        "error": "fetch failed",
+        "paths": [
+          "/industries/restoration-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-mold-faq",
+        "error": "fetch failed",
+        "paths": [
+          "/industries/restoration-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-mold-company",
+        "error": "fetch failed",
+        "paths": [
+          "/industries/restoration-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-food",
+        "error": "HTTP 403",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-plan",
+        "error": "HTTP 403",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-evaluation",
+        "error": "HTTP 403",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-owner-form",
+        "error": "HTTP 403",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-food-scope",
+        "error": "HTTP 403",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ]
+      },
+      {
+        "sourceId": "b3-local-detroit-notice",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/cities/detroit/food-license-and-preopening/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o2-pt-international",
+        "error": "HTTP 503",
+        "paths": [
+          "/from/portugal/"
+        ]
+      },
+      {
+        "sourceId": "b3-o2-lt-registers",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/from/lithuania/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-origin3-iceland-current-law",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/from/iceland/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-al-process",
+        "error": "Recorded supporting passage not located",
+        "paths": [
+          "/from/albania/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-mk-change",
+        "error": "fetch failed",
+        "paths": [
+          "/from/north-macedonia/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-old-law",
+        "error": "fetch failed",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-new-law",
+        "error": "fetch failed",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-notice",
+        "error": "fetch failed",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-eu-status",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-planning-visitor-visa",
+        "error": "HTTP 403",
+        "paths": [
+          "/us-expansion/business-visits/",
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-planning-osha-duties",
+        "error": "HTTP 403",
+        "paths": [
+          "/us-expansion/workplace-safety/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-planning-osha-responsibilities",
+        "error": "HTTP 403",
+        "paths": [
+          "/us-expansion/workplace-safety/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-planning2-texas-tax-full",
+        "error": "fetch failed",
+        "paths": [
+          "/us-expansion/sales-tax-services/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-state-tx-classification",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/states/texas/worker-classification-unemployment-tax/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-state3-ny-definition-recovered",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/new-york/",
+          "/tools/relationship-factsheet/"
+        ]
+      },
+      {
+        "sourceId": "b3-state3-ny-disclosure-recovered",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/new-york/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "b3-state3-ny-rights-recovered",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/states/new-york/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "fed-compliance",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/us-expansion/trademark-quality-control/",
+          "/cases/licensing-label-franchise-obligations/",
+          "/cases/staged-industrial-services-territory/",
+          "/cases/qargo-license-label-review/",
+          "/us-expansion/franchising-vs-licensing/",
+          "/us-expansion/significant-control-assistance/",
+          "/us-expansion/single-trademark-license/",
+          "/us-expansion/foreign-financial-statements/",
+          "/us-expansion/national-accounts-and-territories/",
+          "/us-expansion/compare-fdd-for-management-run-model/",
+          "/tools/management-dependence/",
+          "/tools/relationship-factsheet/",
+          "/from/indonesia/",
+          "/cases/branch-operator-versus-master-franchise/",
+          "/us-expansion/area-developer-vs-master/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "fed-bea-form",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/us-expansion/bea-new-foreign-investment/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "fed-bea-tree",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/us-expansion/bea-new-foreign-investment/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "fed-treaties",
+        "error": "HTTP 403",
+        "paths": [
+          "/from/brunei/",
+          "/from/cambodia/",
+          "/from/philippines/",
+          "/from/thailand/",
+          "/from/ireland/",
+          "/from/spain/",
+          "/cases/singapore-subsidiary-e2-ownership/",
+          "/us-expansion/e2-nationality-investment/",
+          "/from/singapore/",
+          "/from/malaysia/",
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-san-francisco",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/cities/san-francisco/service-business-registration/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-san-antonio",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cities/san-antonio/change-of-use/",
+          "/comparisons/dallas-san-antonio-occupancy/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-raleigh",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "paths": [
+          "/cities/raleigh/business-license-and-permits/"
+        ]
+      },
+      {
+        "sourceId": "geo-local-charlotte",
+        "error": "Insufficient readable source content",
+        "paths": [
+          "/cities/charlotte/city-county-permitting/"
+        ]
+      },
+      {
+        "sourceId": "geo-edpb-dpf-v2",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/from/france/"
+        ]
+      },
+      {
+        "sourceId": "geo-treaty-countries",
+        "error": "HTTP 403",
+        "paths": [
+          "/from/brunei/",
+          "/from/indonesia/",
+          "/from/philippines/",
+          "/from/thailand/",
+          "/from/timor-leste/",
+          "/from/germany/",
+          "/from/ireland/",
+          "/from/spain/",
+          "/from/italy/",
+          "/from/singapore/",
+          "/from/malaysia/"
+        ]
+      },
+      {
+        "sourceId": "pr-cleaning",
+        "error": "HTTP 403",
+        "paths": [
+          "/cases/cleaning-product-us-supply/",
+          "/industries/commercial-cleaning/"
+        ]
+      },
+      {
+        "sourceId": "pr-lockout",
+        "error": "HTTP 403",
+        "paths": [
+          "/industries/industrial-maintenance/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "pr-burgerim-order",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cases/burgerim-entity-default-judgment/",
+          "/cases/premier-martial-arts-management-claims/",
+          "/us-expansion/advertising-controls/",
+          "/fdd/item-19/"
+        ]
+      },
+      {
+        "sourceId": "pr-tower-decree",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cases/tower-cleaning-earnings-and-records/",
+          "/cases/premier-martial-arts-management-claims/",
+          "/fdd/item-19/",
+          "/industries/commercial-cleaning/"
+        ]
+      },
+      {
+        "sourceId": "pr-qargo-report",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/cases/qargo-license-label-review/",
+          "/from/indonesia/",
+          "/cases/licensing-label-franchise-obligations/",
+          "/cases/staged-industrial-services-territory/",
+          "/cases/branch-operator-versus-master-franchise/",
+          "/us-expansion/franchising-vs-licensing/",
+          "/us-expansion/area-developer-vs-master/",
+          "/us-expansion/national-accounts-and-territories/"
+        ]
+      },
+      {
+        "sourceId": "state-tx-faq",
+        "error": "HTTP 403",
+        "paths": [
+          "/states/texas/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-hi-tips",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/hawaii/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-md-statute",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/comparisons/registration-vs-notice/",
+          "/states/maryland/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-mi-info",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/comparisons/registration-vs-notice/",
+          "/states/michigan/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-in-info",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/comparisons/registration-vs-notice/",
+          "/states/indiana/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-nd-info",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/states/north-dakota/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-mn-assurance",
+        "error": "Only public HTTPS source hosts on port 443 are allowed",
+        "paths": [
+          "/states/minnesota/",
+          "/states/minnesota/franchise-support-funding/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ]
+      },
+      {
+        "sourceId": "state-pr-law",
+        "error": "Unreviewed normalizer migration; inspect previous/current text",
+        "paths": [
+          "/territories/puerto-rico/",
+          "/states/puerto-rico/"
+        ]
+      }
+    ],
+    "scope": "Actual hosted full check began 2026-11-13T02:21:14.908Z and completed 02:25:58.227Z on b8b5345: 591 cited source records,537 successful retrievals, 54 failures, 57 normalization items and one passage miss; 112 open items. Strict exit 1; readable summary, cache and 541-file evidence artifact all succeeded. This initial observation is preserved; no failed source is treated as no requirement."
+  },
+  {
+    "id": "github-final-reviewed-43351541720",
+    "runAt": "2026-11-13T02:38:19.574Z",
+    "fullSweepRunAt": "2026-11-13T02:21:14.908Z",
+    "environment": "GitHub cohort after AI-assisted queue review",
+    "checked": 591,
+    "retrievalFailures": 54,
+    "hashChanges": 1,
+    "automatedHashAlerts": 0,
+    "reviewConfirmedSourceTextChanges": 1,
+    "openReviewItems": 54,
+    "resolvedHostedInstances": 58,
+    "workflow": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43351541720",
+    "issues": [
+      {
+        "sourceId": "b2-blocked-beauty",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/hair-salons/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b2-blocked-salon-products"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ga-mark",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/georgia/"
+        ],
+        "ruleIds": [
+          "b2-east-ga-name-mark"
+        ]
+      },
+      {
+        "sourceId": "b2-east-ga-forms",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/georgia/"
+        ],
+        "ruleIds": [
+          "b2-east-ga-name-mark"
+        ]
+      },
+      {
+        "sourceId": "b2-origins-vietnam-export",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/vietnam/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b2-origins-vietnam-goods-vs-rights"
+        ]
+      },
+      {
+        "sourceId": "b2-west-tn-fe1",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/tennessee/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b2-west-tn-tax-separation"
+        ]
+      },
+      {
+        "sourceId": "b2-west-tn-consumer-index",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/tennessee/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "b2-west-tn-fe4",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/tennessee/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b2-west-tn-tax-separation"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-az-ui",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-az-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-co-wh",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-co-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-ny-wh",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-ny-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-ri-register",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-ri-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-ri-ui",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-ri-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tn-ui",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-tn-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tx-tax-register",
+        "error": "Insufficient readable source content",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-tx-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-wy-register",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-wy-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tx-current-constitution",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-tx-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-emp-tn-suspicious",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/state-employer-payroll-registration/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-emp-tn-accounts"
+        ]
+      },
+      {
+        "sourceId": "b3-ind-osha-staffing",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/staffing-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-ind-temp-worker-safety"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-tx-electric",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/electrical-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-i2-electrical-company"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-lockout",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/equipment-servicing/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-i2-equipment-energy"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-mold-contractor",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/restoration-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-i2-mold-operator"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-mold-faq",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/restoration-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-i2-mold-project"
+        ]
+      },
+      {
+        "sourceId": "b3-i2-mold-company",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/restoration-services/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-i2-mold-operator"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-food",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-local-sj-takeover",
+          "b3-local-sj-plan"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-plan",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-local-sj-plan"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-evaluation",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-local-sj-takeover"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-owner-form",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-local-sj-takeover",
+          "b3-local-sj-plan"
+        ]
+      },
+      {
+        "sourceId": "b3-local-sj-food-scope",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/san-jose/food-facility-takeover/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "b3-local-detroit-notice",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/detroit/food-license-and-preopening/",
+          "/tools/cash-runway/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-local-detroit-food-route"
+        ]
+      },
+      {
+        "sourceId": "b3-o2-pt-international",
+        "error": "HTTP 503",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/portugal/"
+        ],
+        "ruleIds": [
+          "b3-o2-pt-trademark"
+        ]
+      },
+      {
+        "sourceId": "b3-o2-lt-registers",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/lithuania/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o2-lt-isaf-types"
+        ]
+      },
+      {
+        "sourceId": "b3-origin3-iceland-current-law",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/iceland/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-origin3-iceland-decision"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-mk-change",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/north-macedonia/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-mk-change"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-old-law",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-new-law",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-notice",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ]
+      },
+      {
+        "sourceId": "b3-o4-me-eu-status",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/montenegro/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-o4-me-applicable-vat"
+        ]
+      },
+      {
+        "sourceId": "b3-planning-visitor-visa",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/business-visits/",
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-planning-business-visits"
+        ]
+      },
+      {
+        "sourceId": "b3-planning-osha-duties",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/workplace-safety/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-planning-workplace-safety"
+        ]
+      },
+      {
+        "sourceId": "b3-planning-osha-responsibilities",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/workplace-safety/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-planning-workplace-safety"
+        ]
+      },
+      {
+        "sourceId": "b3-planning2-texas-tax-full",
+        "error": "fetch failed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/us-expansion/sales-tax-services/",
+          "/tools/brand-support-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-planning-sales-tax-services"
+        ]
+      },
+      {
+        "sourceId": "b3-state-tx-classification",
+        "error": "Insufficient readable source content",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/texas/worker-classification-unemployment-tax/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-state-tx-tuca-classification"
+        ]
+      },
+      {
+        "sourceId": "b3-state3-ny-definition-recovered",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/new-york/",
+          "/tools/relationship-factsheet/"
+        ],
+        "ruleIds": [
+          "b3-state3-ny-inputs"
+        ]
+      },
+      {
+        "sourceId": "b3-state3-ny-disclosure-recovered",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/new-york/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-state3-ny-addendum"
+        ]
+      },
+      {
+        "sourceId": "b3-state3-ny-rights-recovered",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/new-york/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "b3-state3-ny-addendum"
+        ]
+      },
+      {
+        "sourceId": "fed-treaties",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/brunei/",
+          "/from/cambodia/",
+          "/from/philippines/",
+          "/from/thailand/",
+          "/from/ireland/",
+          "/from/spain/",
+          "/cases/singapore-subsidiary-e2-ownership/",
+          "/us-expansion/e2-nationality-investment/",
+          "/from/singapore/",
+          "/from/malaysia/",
+          "/tools/relationship-factsheet/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "fed-e2-nationality"
+        ]
+      },
+      {
+        "sourceId": "geo-local-san-francisco",
+        "error": "Insufficient readable source content",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/san-francisco/service-business-registration/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "geo-local-raleigh",
+        "error": "HTTP 403: source returned access/security interstitial",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/raleigh/business-license-and-permits/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "geo-local-charlotte",
+        "error": "Insufficient readable source content",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cities/charlotte/city-county-permitting/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "geo-treaty-countries",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/from/brunei/",
+          "/from/indonesia/",
+          "/from/philippines/",
+          "/from/thailand/",
+          "/from/timor-leste/",
+          "/from/germany/",
+          "/from/ireland/",
+          "/from/spain/",
+          "/from/italy/",
+          "/from/singapore/",
+          "/from/malaysia/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "pr-cleaning",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/cases/cleaning-product-us-supply/",
+          "/industries/commercial-cleaning/"
+        ],
+        "ruleIds": []
+      },
+      {
+        "sourceId": "pr-lockout",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/industries/industrial-maintenance/",
+          "/tools/us-unit-economics/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "practice-hazardous-energy"
+        ]
+      },
+      {
+        "sourceId": "state-tx-faq",
+        "error": "HTTP 403",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/texas/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "tx-franchise-exemption-notice"
+        ]
+      },
+      {
+        "sourceId": "state-mn-assurance",
+        "error": "Only public HTTPS source hosts on port 443 are allowed",
+        "reason": "source-fetch-failed",
+        "createdAt": "2026-11-13T02:21:14.908Z",
+        "paths": [
+          "/states/minnesota/",
+          "/states/minnesota/franchise-support-funding/",
+          "/tools/relationship-factsheet/",
+          "/tools/fdd-comparison/",
+          "/tools/launch-planner/"
+        ],
+        "ruleIds": [
+          "mn-assurance"
+        ]
+      }
+    ],
+    "scope": "Dated review of the same hosted 591-record cohort, not another full sweep. All 57 normalization instances and the Albanian passage false positive were resolved with exact evidence; all 54 hosted retrieval failures remain open. 51 prior hashes were reconstructed exactly; five older-baseline exceptions received current-source review; one actual D.C. text addition was independently compared with every dependent claim and official cross-reference. Current cited D.C. claims remain unchanged; broader legal currency is not certified. The initial detector reported zero hash alerts; the one displayed change was confirmed during editorial review. Separate managed-cloud D.C./Albania attempts include a retained Albania connection failure, not a successful followup claim. Existing legal-review dates remain unchanged."
   }
 ]

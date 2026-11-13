@@ -43,6 +43,36 @@ export async function loadSourceReviewState(directory) {
   if (!Array.isArray(queue) || queue.some(q => !q || typeof q !== 'object' || !q.id || !q.sourceId || !q.reason)) throw Error('Retained source queue must contain issue records');
   return {baseline,queue};
 }
+export function diagnosticSourceURL(raw) {
+  try { const u=new URL(raw);u.username='';u.password='';u.search='';u.hash='';return u.href.slice(0,500); }
+  catch { return '[invalid URL]'; }
+}
+function diagnosticText(raw,env=process.env,limit=500) {
+  let text=String(raw??'').replace(/\b[a-z][a-z0-9+.-]*:\/\/[^\s"'<>]+/gi,url=>diagnosticSourceURL(url));
+  for(const key of ['HTTPS_PROXY','https_proxy','HTTP_PROXY','http_proxy'])try{
+    const p=new URL(env[key]);for(const encoded of [p.username,p.password])if(encoded){
+      for(const secret of new Set([encoded,decodeURIComponent(encoded)]))if(secret)text=text.split(secret).join('[redacted]');
+    }
+  }catch{}
+  return text.replace(/(^|[\s(])[^\s/@:]{1,256}:[^\s/@]{1,256}@/g,'$1[redacted]@').slice(0,limit);
+}
+export function sourceConnectionDiagnostics(error,{url,redirectTrail=[],stage='fetch',env=process.env}={}) {
+  const causes=[];let current=error;
+  for(let depth=0;current&&depth<4;depth++,current=current.cause){
+    const code=/^[A-Z0-9_]{1,64}$/.test(current.code??'')?current.code:undefined;
+    const host=String(current.hostname??current.host??'');
+    causes.push({...(code?{code}:{}),...(/^[a-z0-9.:[\]-]{1,253}$/i.test(host)?{host}:{}),message:diagnosticText(current.message??current.name,env)});
+    if(Array.isArray(current.errors))for(const e of current.errors.slice(0,3))causes.push({...(e.code?{code:diagnosticText(e.code,env)}:{}),message:diagnosticText(e.message,env)});
+  }
+  return {stage,url:diagnosticSourceURL(url),redirectTrail:redirectTrail.slice(0,6).map(r=>({status:r.status,from:diagnosticSourceURL(r.from),to:diagnosticSourceURL(r.to)})),causes};
+}
+export function sourceBodyFailureEvidence(result,stage='extraction') {
+  const body=Buffer.from(result.body),sample=body.subarray(0,65536);
+  return {stage,url:diagnosticSourceURL(result.url),status:result.status,type:result.type,bytes:body.length,
+    rawHash:createHash('sha256').update(body).digest('hex'),capturedBytes:sample.length,
+    bodyPreview:diagnosticText(plainSourceText(sample.toString('utf8')),process.env,4096),
+    redirectTrail:(result.redirectTrail??[]).map(r=>({status:r.status,from:diagnosticSourceURL(r.from),to:diagnosticSourceURL(r.to)}))};
+}
 export async function failedResponseEvidence(response, url) {
   const chunks = []; let bytes = 0;
   const reader = response.body?.getReader();
@@ -261,21 +291,29 @@ async function main() {
     const key = new URL(raw); key.hash = '';
     if (rawCache.has(key.href)) return rawCache.get(key.href);
     const request = async () => {
-      let validated = await validateSourceURL(key.href), u = validated.url;
+      const redirectTrail=[];let validated;
+      try { validated=await validateSourceURL(key.href); }
+      catch(error){error.transportEvidence=sourceConnectionDiagnostics(error,{url:key.href,stage:'source-validation'});throw error;}
+      let u=validated.url;
       for (let hop = 0; hop < 6; hop++) {
         await waitForHost(u.hostname);
-        const response = await fetch(u, {redirect: 'manual', signal: AbortSignal.timeout(30000),
-          headers: {'User-Agent': 'StatesideSourceReview/1.1 (editorial source check; no automatic interpretation)', 'Accept-Encoding': 'gzip, deflate, br'}});
+        let response;
+        try { response=await fetch(u, {redirect: 'manual', signal: AbortSignal.timeout(30000),
+          headers: {'User-Agent': 'StatesideSourceReview/1.1 (editorial source check; no automatic interpretation)', 'Accept-Encoding': 'gzip, deflate, br'}}); }
+        catch(error){error.transportEvidence=sourceConnectionDiagnostics(error,{url:u.href,redirectTrail});throw error;}
         if ([301, 302, 303, 307, 308].includes(response.status)) {
           const location = response.headers.get('location'); await response.body?.cancel();
           if (!location) throw Error('Redirect has no location');
-          validated = await validateSourceURL(new URL(location, u).href); u = validated.url; continue;
+          let destination;
+          try { destination=new URL(location,u).href;redirectTrail.push({status:response.status,from:u.href,to:destination});validated=await validateSourceURL(destination); }
+          catch(error){error.transportEvidence=sourceConnectionDiagnostics(error,{url:destination??u.href,redirectTrail,stage:'redirect-validation'});throw error;}
+          u=validated.url;continue;
         }
         if (!response.ok) {
           const retryAfter = response.headers.get('retry-after');
           const evidence = await failedResponseEvidence(response, u.href);
           const error = Error('HTTP ' + response.status + (evidence.observation.accessInterstitial ? ': source returned access/security interstitial' : ''));
-          error.transportEvidence = evidence.observation; error.responseBody = evidence.body;
+          error.transportEvidence = {...evidence.observation,redirectTrail:redirectTrail.map(r=>({status:r.status,from:diagnosticSourceURL(r.from),to:diagnosticSourceURL(r.to)}))}; error.responseBody = evidence.body;
           if (evidence.observation.accessInterstitial) error.retryable = false;
           if (retryAfter) { const seconds = Number(retryAfter); error.retryAfterMs = Number.isFinite(seconds) ? Math.max(0, seconds * 1000) : Math.max(0, Date.parse(retryAfter) - Date.now()); }
           if (response.status === 429) hostBlockedUntil.set(u.hostname, Date.now() + (error.retryAfterMs ?? 1100));
@@ -284,10 +322,12 @@ async function main() {
         const type = response.headers.get('content-type') ?? '', cap = sourceSizeLimit({type, url: u.href});
         if (Number(response.headers.get('content-length')) > cap) { await response.body?.cancel(); throw Error(`Source exceeds ${cap / 1024 / 1024} MiB evidence cap`); }
         const chunks = []; let total = 0;
-        for await (const chunk of response.body) { total += chunk.length; if (total > cap) throw Error(`Source exceeds ${cap / 1024 / 1024} MiB evidence cap`); chunks.push(chunk); }
+        try { for await (const chunk of response.body) { total += chunk.length; if (total > cap) throw Error(`Source exceeds ${cap / 1024 / 1024} MiB evidence cap`); chunks.push(chunk); } }
+        catch(error){error.transportEvidence={...sourceConnectionDiagnostics(error,{url:u.href,redirectTrail,stage:'response-body-read'}),status:response.status,type,receivedBytes:total};throw error;}
         const body = Buffer.concat(chunks);
-        if (isAccessInterstitial(body.toString('utf8'), u.href)) throw Error('Source returned access/error interstitial');
-        return {body, type, status: response.status, url: u.href, dnsResolution: validated.dnsResolution};
+        const result={body,type,status:response.status,url:u.href,dnsResolution:validated.dnsResolution,redirectTrail};
+        if (isAccessInterstitial(body.toString('utf8'), u.href)) {const error=Error('Source returned access/error interstitial');error.transportEvidence=sourceBodyFailureEvidence(result,'access-interstitial');error.responseBody=body.subarray(0,65536);error.retryable=false;throw error;}
+        return result;
       }
       throw Error('Too many source redirects');
     };
@@ -314,7 +354,7 @@ async function main() {
     }
     const textLike = /html|text|json|xml/.test(result.type) || /\.(?:xml|txt)$/i.test(new URL(result.url).pathname);
     let text = '', extraction = {normalizationVersion: NORMALIZATION_VERSION, supportingPassagePresent: null, selector: 'binary'}, content = result.body;
-    if (textLike) { const xml = result.body.toString('utf8'); extraction = extractSourceText(xml, source.supportingPassage ?? '',{minimumLength:isOfficialReservedECFRPart(xml,route)?12:100}); text = extraction.text; content = Buffer.from(text); }
+    if (textLike) { const xml = result.body.toString('utf8');try{extraction = extractSourceText(xml, source.supportingPassage ?? '',{minimumLength:isOfficialReservedECFRPart(xml,route)?12:100});}catch(error){error.transportEvidence=sourceBodyFailureEvidence(result);error.responseBody=result.body.subarray(0,65536);throw error;}text = extraction.text; content = Buffer.from(text); }
     else if (/pdf/i.test(result.type) && result.body.subarray(0, 5).toString() === '%PDF-') { content = normalizedPDFBytes(result.body); extraction.selector = 'pdf-bytes-without-volatile-metadata'; }
     return {requestedURL: source.url, url: result.url, status: result.status, type: result.type, bytes: result.body.length,
       hash: createHash('sha256').update(content).digest('hex'), rawHash: createHash('sha256').update(result.body).digest('hex'),
@@ -350,8 +390,9 @@ async function main() {
           transportEvidence.rawEvidence = join(rawDirectory, source.id.replace(/[^a-z0-9_-]/gi, '_') + '.error.html');
           await writeFile(transportEvidence.rawEvidence, e.responseBody);
         }
-        const error = String(e.message ?? e).slice(0, 300), failure = {sourceId: source.id, failureKind: retrievalFailureKind(e), error, ...(transportEvidence ? {transportEvidence} : {}), ...deps};
-        results.push({...failure, fetchedAt, result: 'fetch-failed'});
+        const error = diagnosticText(e.message ?? e).slice(0, 300), failure = {sourceId: source.id, failureKind: retrievalFailureKind(e), error, ...(transportEvidence ? {transportEvidence} : {}), ...deps};
+        const observation={...failure,fetchedAt,result:'fetch-failed'};results.push(observation);
+        await writeFile(join(out,'source-evidence',source.id.replace(/[^a-z0-9_-]/gi,'_')+'.failure.json'),JSON.stringify(observation,null,2)+'\n');
         enqueue({...failure, reason: 'source-fetch-failed', sourceURL: source.url, instruction: 'Inspect access, redirects and the actual source. Do not treat a failed fetch as no requirement or as repealed law.'});
       }
     }
