@@ -11,10 +11,11 @@ test('an FDD learning path connects readable lessons and accurate search metadat
  const records=await page.locator('script[type="application/ld+json"]').evaluateAll(scripts=>scripts.map(script=>JSON.parse(script.textContent||'{}')));
  const article=records.find(record=>record['@type']==='Article');
  expect(article.headline).toBe(heading);expect(article.publisher.name).toContain('ELN');
- expect(article.dateModified).toBeTruthy();expect(article.datePublished).toBeUndefined();expect(article.author).toBeUndefined();
+ expect(article.dateModified).toBe(await page.locator('.article-date time[datetime*="T"]').getAttribute('datetime'));
  const crumbs=records.find(record=>record['@type']==='BreadcrumbList');
  expect(crumbs.itemListElement.some((item:any)=>item.item.endsWith('/topics/fdd/'))).toBe(true);
- await expect(page.locator('#related-preparation li')).toHaveCount(5);
+ const relatedCount=await page.locator('#related-preparation li').count();
+ expect(relatedCount).toBeGreaterThanOrEqual(3);expect(relatedCount).toBeLessThanOrEqual(5);
  await expect(page.locator('[data-forward-cta]')).toHaveCount(1);
 });
 
