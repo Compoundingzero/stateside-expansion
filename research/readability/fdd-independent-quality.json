@@ -1,0 +1,156 @@
+{
+  "reviewedAt": "2026-11-13T03:44:12.757139+00:00",
+  "reviewer": "Independent AI-assisted editorial review; no professional legal review",
+  "scope": "All 23 rewritten FDD articles compared with original substantive/management paragraphs; complete current §436.5(g), (o), (s), (u), (w) and selected additional operative clauses including complete (b), (e), (f), (r) read. Remaining articles checked for preservation of original scope and new claim/example risks; not a complete FDD drafting compliance opinion.",
+  "inputSHA256": "834237204e5b6360721ebea6d796bc0fa0e42e8cc0423422babc53aafd19a72e",
+  "outputSHA256AtReview": "c1f76ffacc153612e27a3a7aeacb4e3447e4a8068ff975c8513120f7a6ded3bd",
+  "currentCFRXMLSHA256": "06d10a6b2825d920ce25c59b16332ce41f0604535e6019ed5721335ccf875c84",
+  "articles": 23,
+  "validationErrors": [],
+  "idsPathsAndAllowedFieldsValid": true,
+  "arithmeticChecks": {
+    "item7": "100000 - 80000 = 20000; 20000 / 10000 = 2 months, with stated fictional assumptions.",
+    "item19": "1000000 × 0.06 = 60000; 180000 - 120000 - 60000 = 0, before other omitted costs.",
+    "item20": "20 + 8 - 5 = 23; net growth 3, using a simplified counted population without classifying every departure as failure.",
+    "item6": "10000 × 0.06 = 600; fictional assumed sales base and payment timing remain explicit."
+  },
+  "fixedBeforeReview": [
+    "Item1/5 affiliate definitions include control, controlled-by and common-control relationships.",
+    "Franchisor is a business, not only a company.",
+    "Item18 public-figure definition uses known name/appearance in relevant geographic area."
+  ],
+  "repeatedChecklistWrapperCount": 0,
+  "findingsReport": "research/readability/FDD-INDEPENDENT-REVIEW.md",
+  "wordCountExcludes": "Key terms, limitations, practicalOutput and table cells",
+  "articleCounts": [
+    {
+      "item": 1,
+      "words": 433,
+      "readMinutes": 4
+    },
+    {
+      "item": 2,
+      "words": 401,
+      "readMinutes": 3
+    },
+    {
+      "item": 3,
+      "words": 407,
+      "readMinutes": 3
+    },
+    {
+      "item": 4,
+      "words": 396,
+      "readMinutes": 3
+    },
+    {
+      "item": 5,
+      "words": 462,
+      "readMinutes": 4
+    },
+    {
+      "item": 6,
+      "words": 509,
+      "readMinutes": 4
+    },
+    {
+      "item": 7,
+      "words": 487,
+      "readMinutes": 4
+    },
+    {
+      "item": 8,
+      "words": 389,
+      "readMinutes": 3
+    },
+    {
+      "item": 9,
+      "words": 383,
+      "readMinutes": 3
+    },
+    {
+      "item": 10,
+      "words": 384,
+      "readMinutes": 3
+    },
+    {
+      "item": 11,
+      "words": 390,
+      "readMinutes": 3
+    },
+    {
+      "item": 12,
+      "words": 373,
+      "readMinutes": 3
+    },
+    {
+      "item": 13,
+      "words": 396,
+      "readMinutes": 3
+    },
+    {
+      "item": 14,
+      "words": 383,
+      "readMinutes": 3
+    },
+    {
+      "item": 15,
+      "words": 496,
+      "readMinutes": 4
+    },
+    {
+      "item": 16,
+      "words": 366,
+      "readMinutes": 3
+    },
+    {
+      "item": 17,
+      "words": 365,
+      "readMinutes": 3
+    },
+    {
+      "item": 18,
+      "words": 391,
+      "readMinutes": 3
+    },
+    {
+      "item": 19,
+      "words": 554,
+      "readMinutes": 5
+    },
+    {
+      "item": 20,
+      "words": 387,
+      "readMinutes": 3
+    },
+    {
+      "item": 21,
+      "words": 652,
+      "readMinutes": 5
+    },
+    {
+      "item": 22,
+      "words": 434,
+      "readMinutes": 3
+    },
+    {
+      "item": 23,
+      "words": 490,
+      "readMinutes": 4
+    }
+  ],
+  "initialOutputSHA256AtReview": "2008631d4255dfeb19a63d933748a098dd2581f55f1eec16278c5b155d955c4e",
+  "finalReview": {
+    "reviewedAt": "2026-11-13T03:47:08.448637+00:00",
+    "status": "cleared-within-stated-editorial-scope",
+    "outputSHA256": "c1f76ffacc153612e27a3a7aeacb4e3447e4a8068ff975c8513120f7a6ded3bd",
+    "currentCFRXMLSHA256": "06d10a6b2825d920ce25c59b16332ce41f0604535e6019ed5721335ccf875c84",
+    "all23IdentityFieldCitationChecksPass": true,
+    "allEightReportedPointsResolved": true,
+    "individualFranchiseeSupervisionRecommendationExplicit": true,
+    "allFourCheckedArithmeticExamplesCorrect": true,
+    "repeatedChecklistWrapperCount": 0,
+    "remainingMaterialFindings": [],
+    "scopeLimit": "Teaching/article review only. Not a certification that an actual FDD contains every prescribed field, accounting conclusion, transaction applicability or state/territory requirement. No source review date advanced."
+  }
+}

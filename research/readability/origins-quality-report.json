@@ -1,0 +1,355 @@
+{
+  "guides": 48,
+  "patchFieldsChecked": true,
+  "identityAndPathsPreserved": true,
+  "originalLimitationsPreservedVerbatim": true,
+  "citationsRestrictedToOriginalGuide": true,
+  "learningSummarySentences": "2\u20134 each",
+  "keyTerms": "2\u20136 each",
+  "expandedFictionalExamples": 48,
+  "numericAnchorOmissions": [],
+  "visibleWords": {
+    "min": 490,
+    "median": 580,
+    "max": 676
+  },
+  "outputSha256": "677de3f74985fc4d3363993691076ffec597fdfa2bcc36b6078b112339b7d122",
+  "records": [
+    {
+      "id": "b2-origin-brunei",
+      "path": "/from/brunei/",
+      "words": 639,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-cambodia",
+      "path": "/from/cambodia/",
+      "words": 676,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-indonesia",
+      "path": "/from/indonesia/",
+      "words": 645,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-myanmar",
+      "path": "/from/myanmar/",
+      "words": 622,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-philippines",
+      "path": "/from/philippines/",
+      "words": 640,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-thailand",
+      "path": "/from/thailand/",
+      "words": 641,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-timor-leste",
+      "path": "/from/timor-leste/",
+      "words": 645,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-vietnam",
+      "path": "/from/vietnam/",
+      "words": 630,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-germany",
+      "path": "/from/germany/",
+      "words": 629,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-ireland",
+      "path": "/from/ireland/",
+      "words": 619,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-spain",
+      "path": "/from/spain/",
+      "words": 603,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b2-origin-italy",
+      "path": "/from/italy/",
+      "words": 604,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-sweden",
+      "path": "/from/sweden/",
+      "words": 618,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-denmark",
+      "path": "/from/denmark/",
+      "words": 567,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-norway",
+      "path": "/from/norway/",
+      "words": 615,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-finland",
+      "path": "/from/finland/",
+      "words": 575,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-austria",
+      "path": "/from/austria/",
+      "words": 645,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-belgium",
+      "path": "/from/belgium/",
+      "words": 580,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin-guide-switzerland",
+      "path": "/from/switzerland/",
+      "words": 633,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-poland",
+      "path": "/from/poland/",
+      "words": 595,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-czechia",
+      "path": "/from/czechia/",
+      "words": 554,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-portugal",
+      "path": "/from/portugal/",
+      "words": 536,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-greece",
+      "path": "/from/greece/",
+      "words": 559,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-luxembourg",
+      "path": "/from/luxembourg/",
+      "words": 527,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-estonia",
+      "path": "/from/estonia/",
+      "words": 540,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-latvia",
+      "path": "/from/latvia/",
+      "words": 543,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o2-lithuania",
+      "path": "/from/lithuania/",
+      "words": 551,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-slovakia",
+      "path": "/from/slovakia/",
+      "words": 575,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-hungary",
+      "path": "/from/hungary/",
+      "words": 584,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-romania",
+      "path": "/from/romania/",
+      "words": 554,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-bulgaria",
+      "path": "/from/bulgaria/",
+      "words": 598,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-croatia",
+      "path": "/from/croatia/",
+      "words": 544,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-slovenia",
+      "path": "/from/slovenia/",
+      "words": 590,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-malta",
+      "path": "/from/malta/",
+      "words": 566,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-cyprus",
+      "path": "/from/cyprus/",
+      "words": 580,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-origin3-guide-iceland",
+      "path": "/from/iceland/",
+      "words": 538,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-serbia",
+      "path": "/from/serbia/",
+      "words": 501,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-north-macedonia",
+      "path": "/from/north-macedonia/",
+      "words": 490,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-albania",
+      "path": "/from/albania/",
+      "words": 526,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-montenegro",
+      "path": "/from/montenegro/",
+      "words": 517,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-moldova",
+      "path": "/from/moldova/",
+      "words": 522,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-turkiye",
+      "path": "/from/turkiye/",
+      "words": 507,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "b3-o4-bosnia",
+      "path": "/from/bosnia-and-herzegovina/",
+      "words": 519,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "geo-origin-singapore",
+      "path": "/from/singapore/",
+      "words": 577,
+      "keyTerms": 4,
+      "summarySentences": 2
+    },
+    {
+      "id": "geo-origin-uk",
+      "path": "/from/united-kingdom/",
+      "words": 606,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "geo-origin-netherlands",
+      "path": "/from/netherlands/",
+      "words": 550,
+      "keyTerms": 5,
+      "summarySentences": 2
+    },
+    {
+      "id": "geo-origin-france",
+      "path": "/from/france/",
+      "words": 566,
+      "keyTerms": 6,
+      "summarySentences": 2
+    },
+    {
+      "id": "geo-origin-malaysia",
+      "path": "/from/malaysia/",
+      "words": 581,
+      "keyTerms": 5,
+      "summarySentences": 2
+    }
+  ]
+}

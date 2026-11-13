@@ -23,7 +23,8 @@ for(const g of guides){
  for(const id of g.sourceIds??[])if(!smap.has(id))errors.push(name+': missing source '+id);
  for(const id of g.ruleIds??[])if(!rmap.has(id))errors.push(name+': missing rule '+id);
  if(g.status!=='published')continue;
- for(const key of ['title','description','family','topic','practicalOutput','reviewStatus'])if(typeof g[key]!=='string'||!g[key].trim())errors.push(name+': published guide missing '+key);
+ for(const key of ['title','description','family','topic','practicalOutput','reviewStatus','learningSummary'])if(typeof g[key]!=='string'||!g[key].trim())errors.push(name+': published guide missing '+key);
+ if(!Array.isArray(g.keyTerms)||g.keyTerms.length<2||g.keyTerms.length>6||g.keyTerms.some(t=>typeof t?.term!=='string'||!t.term.trim()||typeof t?.meaning!=='string'||!t.meaning.trim()))errors.push(name+': published guide needs two to six explained terms');
  if(!iso(g.lastReviewed))errors.push(name+': published guide needs substantive review date');
  if(!g.sourceIds?.length)errors.push(name+': published guide needs cited sources');
  if(!Array.isArray(g.sections)||g.sections.length===0)errors.push(name+': published guide needs sections');

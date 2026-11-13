@@ -2,8 +2,8 @@
   {
     "id": "industry-cleaning",
     "path": "/industries/commercial-cleaning/",
-    "title": "Expand a commercial-cleaning business with evidence from the route",
-    "description": "Test supervision, account quality, customer payment and delivery economics before offering U.S. rights.",
+    "title": "Commercial cleaning: build the first U.S. operation around accounts and routes",
+    "description": "Test the customer contract, staffing, supervision and cash collection before assuming a local manager can run the model.",
     "family": "industry",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -16,44 +16,57 @@
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Start with the account and the route",
+        "heading": "Define the account cluster before the territory",
         "paragraphs": [
-          "For an established cleaning company, the useful unit is often an account cluster served by a team and supervisor, not a retail outlet. Compare customer type, usable service hours, site access, travel, recurring frequency and contract length. A home-market annual contract is evidence of delivery there; it does not establish U.S. demand, labour availability or procurement acceptance."
+          "Compare customer types, usable service hours, site access, journey times, frequency and contract length. A contract that works well in the home market demonstrates delivery there; it does not establish U.S. labour availability, customer demand or procurement acceptance.",
+          "Identify the supervisor’s practical area and what happens when accounts have conflicting service windows. A large geographic territory is not a substitute for a workable route."
         ]
       },
       {
-        "heading": "Model the costs that a branch manager does not remove",
+        "heading": "A manager does not remove the other management jobs",
         "paragraphs": [
-          "Assign responsibility for estimating labour, winning bids, replacing absent staff, responding to complaints and managing receivables. Price dedicated management and quality supervision before a royalty. Then test account concentration: losing one large building can leave paid supervisory time, vehicles and route gaps while the revenue disappears."
+          "Assign who estimates labour, wins bids, covers absences, responds to complaints and collects invoices. Price dedicated management and quality supervision before assuming a royalty is affordable. If the overseas founder still performs those jobs, that dependence needs to be visible.",
+          "Test customer concentration separately. Losing one large building can remove revenue while supervisory time, vehicles and route gaps remain. A broad sales forecast may hide that account-specific problem."
         ]
       },
       {
-        "heading": "Separate law, customer conditions and practice",
+        "heading": "Separate workplace duties from customer purchasing conditions",
         "paragraphs": [
-          "OSHA identifies cleaning-industry chemical, equipment and workplace hazards and links applicable general-industry standards. Build the actual task/product safety review with the responsible employer. A customer’s insurance certificate, background-screening or service-level requirement is a procurement condition unless separately required by law; record its source and cost."
+          "OSHA, the Occupational Safety and Health Administration, identifies cleaning-industry chemical, equipment and workplace hazards and links applicable general-industry standards. The responsible employer needs an actual task/product safety review. This page does not establish safety clearance for a particular job.",
+          "A customer may also require insurance evidence, background screening or a particular service level. Record those as customer purchasing conditions unless independently required by law. Identify their source and cost rather than treating every requested document as a government licence."
         ],
         "sourceIds": [
           "pr-cleaning"
         ]
       },
       {
-        "heading": "Use an original fictional pilot",
+        "heading": "Fictional example: investigate three nearby office buildings",
         "paragraphs": [
-          "Fictional example: investigate three nearby office buildings rather than assume a national rollout. Record bid process, required service times, equipment storage, staffing cover, client sign-off and collection terms for each. Unknown travel time or wage evidence remains missing; it does not improve a market score."
+          "A fictional brand investigates three nearby buildings instead of assuming a national rollout. For each, it records the bid process, service times, access, equipment storage, staffing cover, customer sign-off and collection terms. Missing travel or wage information remains missing, rather than improving the market score.",
+          "The team asks whether one supervisor can support the actual schedule and who replaces an absent worker. Finance follows invoice acceptance, disputes and expected receipts alongside payroll. The exercise produces questions and evidence requirements, not invented margins or a successful pilot result."
         ]
       },
       {
-        "heading": "Prepare before the next bid",
+        "heading": "Use the customer’s payment terms in the cash plan",
         "paragraphs": [
-          "Output: an account-level pilot brief owned by the COO with the finance lead."
+          "Contracted revenue, an accepted invoice and money received are different events. SBA’s finance guidance is a useful accounting reference; the operator needs its own dated costs and collections to see the funding requirement. A profitable annual estimate does not show whether the next payroll can be met.",
+          "For national accounts, record who receives the work, which operator serves each site and who invoices. A paid pilot must be arranged lawfully; evidence from delivery does not itself authorise offers of franchise rights."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Prepare the next bid as a repeatable management process",
+        "paragraphs": [
+          "Create an account-level brief that operations and finance can both use. Keep the customer’s renewal and termination provisions with the service and cash assumptions."
         ],
         "bullets": [
-          "Record client type, tender date, contract renewal and termination provisions.",
-          "Map service hours, travel, supervision and emergency cover.",
-          "Obtain insurance and customer-procurement requirements separately from law.",
-          "Track invoice acceptance, disputes and actual receipt dates.",
-          "Define who receives and serves national accounts.",
-          "Test a paid, lawfully arranged pilot without implying that it authorises franchise offers."
+          "Record the customer, tender date and actual contract conditions.",
+          "Map service hours, travel, supervision and cover.",
+          "Separate legal duties from customer and insurer conditions.",
+          "Track invoice approval, disputes and actual cash dates.",
+          "Define national-account allocation and lawful pilot responsibilities."
         ]
       }
     ],
@@ -62,16 +75,36 @@
       "pr-finance"
     ],
     "nextStage": 2,
-    "practicalOutput": "Account-cluster pilot and supervision-cost brief",
+    "practicalOutput": "An account-level pilot brief showing the route, staffing, customer conditions, management duties and invoice-to-cash timing.",
     "limitations": [
       "No location-specific wage, tax, customer demand or safety clearance."
-    ]
+    ],
+    "learningSummary": "For an established cleaning company, the useful operating unit may be a cluster of customer accounts rather than a shop. A U.S. partner needs enough nearby work, appropriate staff and management, and money to pay costs before customers pay. This guide explains how to investigate that practical model without treating home-market success as proof of U.S. demand.",
+    "keyTerms": [
+      {
+        "term": "Route density",
+        "meaning": "How closely accounts and service times fit together, affecting travel, staffing and supervision."
+      },
+      {
+        "term": "Tender or bid",
+        "meaning": "The customer’s process for selecting a supplier and agreeing the work."
+      },
+      {
+        "term": "Receivables",
+        "meaning": "Amounts invoiced to customers but not yet collected."
+      },
+      {
+        "term": "Account concentration",
+        "meaning": "Dependence on a small number of customers, so losing one can materially affect the operation."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "industry-facilities",
     "path": "/industries/facilities-services/",
-    "title": "Separate the facilities contract from the work that needs a license",
-    "description": "Map each service, employer and subcontractor before transferring a facilities-management model.",
+    "title": "Facilities services: split the customer bundle into actual jobs",
+    "description": "One contract can contain several trades, subcontractors and cash responsibilities.",
     "family": "industry",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -84,44 +117,57 @@
     "ruleIds": [],
     "sections": [
       {
-        "heading": "One customer contract can contain many regulated activities",
+        "heading": "Describe each activity inside the facilities promise",
         "paragraphs": [
-          "Facilities services can include cleaning, planned maintenance, access systems, pest control, landscaping and repairs. Describe the exact tasks rather than presume that a facilities brand license permits every activity. Map what the partner performs, subcontracts and merely coordinates. Local professional, contractor and sector requirements can change that allocation."
+          "List cleaning, planned maintenance, access systems, pest control, landscaping, repairs and any other work actually included. Record what the partner performs, subcontracts or only coordinates. A facilities brand licence does not itself authorise every task.",
+          "State the worksite and contracting/employing business. Professional, contractor and sector requirements can affect which business may deliver a particular service and what it must retain or supervise."
         ]
       },
       {
-        "heading": "Build the service-level responsibility map",
+        "heading": "The customer contract needs named operating responsibilities",
         "paragraphs": [
-          "A service-level agreement describes contracted performance: response time, completion evidence, exclusions, escalation and credits. Assign who dispatches, approves additional work, invoices, handles emergencies and bears rework. Customer procurement may demand specific insurance, references or approved subcontractors. Those contractual requirements deserve a separate category from government rules."
+          "A service-level agreement can cover response time, completion evidence, exclusions, escalation and credits. Decide who dispatches, approves extra work, invoices, responds to emergencies and bears rework costs. A single sales promise may need several teams behind it.",
+          "Customers may require specific insurance, references or approved subcontractors. Keep those purchasing conditions distinct from government and insurer requirements so the operator understands their actual source and price."
         ]
       },
       {
-        "heading": "Investigate actual permit and licence triggers",
+        "heading": "Investigate permissions by activity and location",
         "paragraphs": [
-          "The SBA directs businesses to licenses according to activity and location. Start with the named state, municipality, county and worksite; record the authority for each trade or operating question. A subcontractor’s own licence does not resolve every duty of the principal contracting or employing entity."
+          "SBA, the U.S. Small Business Administration, directs businesses to licensing requirements according to their activities and locations. Begin with the actual state, municipality, county and site rather than assuming a universal facilities-services licence.",
+          "A subcontractor’s own licence does not automatically resolve all obligations of the main contracting or employing business. Identify the authority and actual question for each job. This article provides a planning method, not a permission for the whole bundle."
         ],
         "sourceIds": [
           "pr-licenses"
         ]
       },
       {
-        "heading": "Fictional operating example",
+        "heading": "Fictional example: a multi-site customer pays on 60-day terms",
         "paragraphs": [
-          "A fictional partner wins one multi-site customer with 60-day invoice terms. The partner must pay technicians and subcontractors earlier, while the customer can dispute incomplete service evidence. The relevant test is both gross margin and dated cash collection. Model the national customer’s failure separately from a broad market-sales percentage."
+          "A fictional partner wins a multi-site customer with 60-day invoice terms. It must pay technicians and subcontractors earlier, while the customer can dispute work if completion evidence is missing. The financial question therefore includes both gross margin and dated cash collection.",
+          "The team follows a job from dispatch to customer sign-off, invoice and payment, recording who fixes missing evidence. It also tests the effect of that national customer failing or withholding payment separately from a broad market-sales percentage. The 60 days are fictional contract terms, not a statutory deadline or an actual customer result."
         ]
       },
       {
-        "heading": "Reusable preparation checklist",
+        "heading": "Price the coordination, not just the technician’s visit",
         "paragraphs": [
-          "Output: a service-by-service operating and procurement matrix."
+          "Include emergency cover, subcontractor selection and management, reporting, rework and any agreed credits. If a job crosses an operator’s territory, specify who may accept it, deliver it and invoice it. An informal understanding can leave both support and cash costs unclear.",
+          "SBA’s finance guidance supports the distinction between accounting and cash questions; the actual contract and receipts determine the model’s inputs. Do not claim a complete funding answer from a quoted margin alone."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Build a service-by-service table before the full offer is promised",
+        "paragraphs": [
+          "For each task show the worksite, contracting business, employer, delivery lead, subcontractor if any, relevant public authority and customer conditions. Add response, evidence and payment responsibilities. This suggested table makes the one-contact promise understandable to the people who must deliver it."
         ],
         "bullets": [
-          "Break the offer into tasks, locations and contracting parties.",
-          "Record accountable employer and competent operating lead.",
-          "Identify public authorisation, customer condition and insurer condition separately.",
-          "Price emergency response, subcontractor management and service credits.",
-          "Trace national-account allocation and cross-territory work.",
-          "Collect evidence before promising the full service bundle."
+          "Separate performed, subcontracted and coordinated services.",
+          "Identify the actual permission question and responsible party.",
+          "Record customer and insurer conditions separately from law.",
+          "Price emergency response, rework and coordination.",
+          "Connect national-account allocation to invoice and cash timing."
         ]
       }
     ],
@@ -130,16 +176,36 @@
       "pr-finance"
     ],
     "nextStage": 5,
-    "practicalOutput": "Facilities task, licence and customer-condition matrix",
+    "practicalOutput": "A service-by-service table showing delivery, permissions, customer conditions, performance responsibilities and payment timing.",
     "limitations": [
       "No universal facilities-services licence analysis."
-    ]
+    ],
+    "learningSummary": "A facilities brand may promise a customer one point of contact for cleaning, repairs, landscaping and other services. That is convenient commercially, but each underlying activity still needs the right operator and any applicable permission. The brand and local partner should define both who delivers the work and who pays for it while waiting for the customer.",
+    "keyTerms": [
+      {
+        "term": "Service-level agreement",
+        "meaning": "The contract’s performance requirements, such as response, completion evidence, exclusions and credits."
+      },
+      {
+        "term": "Subcontractor",
+        "meaning": "A separate business engaged to deliver part of the customer service; its role does not automatically settle the main contractor’s duties."
+      },
+      {
+        "term": "Service credit",
+        "meaning": "A contractual adjustment associated with the agreed service terms, to be read from the actual contract."
+      },
+      {
+        "term": "Invoice acceptance",
+        "meaning": "The customer’s process for accepting the invoiced work, which can affect when money is received."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "industry-pest",
     "path": "/industries/pest-control/",
-    "title": "A pest-control brand needs an operating certification plan",
-    "description": "Check people, products and operating jurisdictions before estimating a U.S. pest-control launch.",
+    "title": "Pest control: connect the product, applicator and operating jurisdiction",
+    "description": "A U.S. product source and an experienced overseas team do not settle every local permission.",
     "family": "industry",
     "topic": "products-supply",
     "jurisdictions": [
@@ -155,44 +221,52 @@
     ],
     "sections": [
       {
-        "heading": "Begin with the application work",
+        "heading": "Start with the treatment rather than the territory map",
         "paragraphs": [
-          "A pest-control partner needs more than the right to use a name. List target pests, treatment method, sites, products and the people applying or supervising them. Distinguish product authorisation from applicator certification and any business licence. Home-country training can be useful evidence of capability but does not itself establish U.S. authorisation."
+          "List the target pest, treatment method, site, product and people applying or supervising it. Separate the product’s lawful status, the individual’s certification and any business licence. Home-country training may demonstrate experience, but does not itself establish U.S. authority.",
+          "The same service description can need different answers in different places or categories. Identify those questions before assigning the technician or assuming the brand manual is sufficient."
         ]
       },
       {
-        "heading": "The federal starting point and local extension",
+        "heading": "Understand the federal starting point and local administration",
         "paragraphs": [
-          "EPA explains that restricted-use pesticide applicators or supervisors need certification under relevant rules and that state, territorial and tribal authorities administer certification. Many states have broader requirements for commercial work. Investigate each operating jurisdiction and category before assigning a technician or assuming cross-state portability."
+          "EPA, the Environmental Protection Agency, explains certification for restricted-use pesticide applicators or supervisors under the relevant rules. State, territorial and tribal authorities administer certification. Many states have broader requirements for commercial work.",
+          "Check each actual operating jurisdiction and category. Do not assume certification automatically travels across a state boundary. This page does not decide a particular state certificate, supervision arrangement or product authorisation."
         ],
         "sourceIds": [
           "pr-applicators"
         ]
       },
       {
-        "heading": "Make route economics match service obligations",
+        "heading": "Importing and applying are different responsibilities",
         "paragraphs": [
-          "Recurring service contracts can create route density, but callbacks, emergency jobs, seasonal demand, storage and customer access affect capacity. A large territory with scattered accounts may consume the supervisor’s time. Record insurance requested by customers and actual spill, vehicle and product-use responsibilities; do not treat an insurance quote as regulatory approval."
+          "If the brand proposes importing a familiar treatment, identify the actual product, importer and applicable product/establishment and arrival requirements. EPA’s import guidance does not turn a foreign approval into permission for ordinary U.S. use. The applicable exceptions and shipment route require their actual conditions.",
+          "Using a U.S.-sourced product may change stock logistics but does not erase applicator or business requirements. Keep product, person, business and jurisdiction records connected without treating one as proof of the others."
+        ],
+        "sourceIds": [
+          "pr-pesticide-import",
+          "pr-licenses"
         ]
       },
       {
-        "heading": "Fictional decision",
+        "heading": "Fictional example: two neighbouring states are not one permission",
         "paragraphs": [
-          "A fictional European brand proposes importing a familiar treatment product and starting in two neighbouring states. Split the launch into two workstreams: lawful product/import review and each state’s people/business authorisations. A U.S.-sourced product may change inventory logistics but does not erase applicator obligations."
+          "A fictional European brand proposes importing a treatment and starting in two neighbouring states. The team divides the investigation into lawful product/import supply and each state’s people/business requirements. For each proposed job, it records the relevant site, product use, person and supervision question.",
+          "It then compares a U.S. supply option against the actual service specification. The exercise grants no import permission or certification. It shows why a convenient bottle source and a nearby state border do not settle the operating plan."
         ]
       },
       {
-        "heading": "Reusable launch checklist",
+        "heading": "Make route economics reflect the actual service",
         "paragraphs": [
-          "Output: a product/person/jurisdiction map."
+          "Recurring accounts can improve route density, but callbacks, emergencies, seasonal demand, product storage and access conditions affect capacity. A very wide territory can consume supervisory travel time. Record actual customer insurance requests and spill, vehicle and product-use responsibilities rather than treating an insurance quote as approval.",
+          "Price the qualified supervision and backup needed for the first market before assuming a royalty is affordable. Unsupported certificate, fee, coverage or demand inputs should remain unresolved."
         ],
         "bullets": [
-          "Identify actual products and label-directed sites/uses.",
-          "Name the certifying authority for each area and category.",
-          "Record who is qualified and what supervision is required.",
-          "Assign storage, transport, customer notice and incident questions.",
-          "Obtain route, seasonality and callback evidence.",
-          "Keep unsupported certification, fee and insurance inputs unresolved."
+          "Record products and label-directed sites/uses.",
+          "Name the certifying authority and category for each area.",
+          "Identify qualified people and required supervision.",
+          "Assign storage, transport, notice and incident questions.",
+          "Collect evidence for seasonality, travel and callbacks."
         ]
       }
     ],
@@ -202,16 +276,36 @@
       "pr-licenses"
     ],
     "nextStage": 5,
-    "practicalOutput": "Pest-control certification and supply workstream",
+    "practicalOutput": "A product/person/business/jurisdiction table linked to route capacity, supervision and the unresolved launch requirements.",
     "limitations": [
       "No state certification or specific product conclusion."
-    ]
+    ],
+    "learningSummary": "A pest-control brand can provide a method and recurring customer contracts, but the U.S. operator needs appropriately authorised people and products for the actual work. Federal certification is a starting point, with state, territorial and tribal administration and potentially broader commercial requirements. Build those facts into route and staffing plans before promising coverage.",
+    "keyTerms": [
+      {
+        "term": "Restricted-use pesticide",
+        "meaning": "The product category for which the cited EPA guidance explains applicator/supervisor certification requirements."
+      },
+      {
+        "term": "Applicator certification",
+        "meaning": "The relevant qualification for applying or supervising the covered pesticide work, distinct from product status."
+      },
+      {
+        "term": "Business licence",
+        "meaning": "An operating permission for the business where required, separate from an individual’s certification."
+      },
+      {
+        "term": "Callback",
+        "meaning": "A return service visit, which affects the capacity and cost of the recurring route."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "industry-industrial",
     "path": "/industries/industrial-maintenance/",
-    "title": "Validate industrial-maintenance delivery before selling territory",
-    "description": "Price competent supervision, downtime commitments and site safety against a narrow first service cluster.",
+    "title": "Industrial maintenance: prove the delivery behind a response promise",
+    "description": "Customer qualification, hazardous-energy duties and specialist cover belong in the first-market plan.",
     "family": "industry",
     "topic": "employment",
     "jurisdictions": [
@@ -226,44 +320,57 @@
     ],
     "sections": [
       {
-        "heading": "Define the work more narrowly than the brand",
+        "heading": "Define the equipment and work before the brand promise",
         "paragraphs": [
-          "Industrial maintenance may range from inspection to machine servicing, electrical work and process-critical repair. Document the equipment, task boundaries, customer qualification process and escalation rights. Professional or trade licensing, site-access rules and customer engineering approval can determine what the partner may actually deliver."
+          "Industrial maintenance can include inspection, machine servicing, electrical tasks and process-critical repair. State the equipment and boundaries of the job, who can approve an exception and when specialists must be called. A broad maintenance description does not establish permission for every activity.",
+          "Customer engineering approval, site access and procurement can also determine whether the partner can deliver. Record those conditions separately from public professional or trade requirements."
         ]
       },
       {
-        "heading": "Hazardous energy is an operating workstream",
+        "heading": "Hazardous-energy duties need actual task assessment",
         "paragraphs": [
-          "OSHA’s general-industry overview explains hazardous-energy risks in servicing and maintenance and points to 29 CFR 1910.147. For covered work, the responsible employer needs appropriate energy-control procedures and training. Identify actual tasks and host-contractor interfaces; this guide does not decide exemptions or replace the customer-site procedure."
+          "OSHA, the Occupational Safety and Health Administration, explains hazardous-energy risks in servicing/maintenance and points to 29 CFR 1910.147. For covered work, the responsible employer needs appropriate energy-control procedures and training.",
+          "Identify the real task and host/contractor interface. This overview does not decide exemptions or replace the customer-site procedure. Construction, maritime, State Plan and particular trade questions need their own applicable analysis; a brand checklist is not an actual safe-work determination."
         ],
         "sourceIds": [
           "pr-lockout"
         ]
       },
       {
-        "heading": "Test the economics of a response promise",
+        "heading": "Translate response time into people, travel and resources",
         "paragraphs": [
-          "A four-hour response promise is a staffing, geography and spare-parts decision. Model on-call pay, specialist cover, travel, calibration, tools, insurance and subcontractors. Separate a customer’s production loss exposure from the service fee. Record liability and service-credit negotiation as a contract workstream with financial review."
+          "A four-hour response promise is a staffing, geography and spare-parts decision. Identify on-call pay, specialist cover, travel, calibration, tools, insurance and subcontractors before pricing it. Do not assume the same technician can meet every overlapping call.",
+          "A customer’s production-loss exposure is different from the service fee. Liability terms and service credits belong in the actual contract and financial review. No universal allocation or insurance adequacy is established here."
         ]
       },
       {
-        "heading": "Fictional first-market test",
+        "heading": "Fictional example: investigate one industrial corridor",
         "paragraphs": [
-          "A fictional Dutch brand chooses one industrial corridor for customer interviews and a permitted pilot. The team asks what suppliers must demonstrate before a bid, how shutdown windows are scheduled and who approves a new technician. A national population total is not evidence that those procurement gates can be passed."
+          "A fictional Dutch brand chooses one corridor for customer interviews and a lawfully arranged pilot. It asks what a supplier must demonstrate before bidding, how shutdown work is scheduled and who approves a new technician. The team describes the actual equipment and potential demand rather than using a national population total as evidence.",
+          "It then tests the proposed response promise against dispatch, specialist availability, travel and parts. Missing information remains a question to resolve, not an assumed successful pilot or financial result. The exercise does not authorise a task or replace site procedures."
         ]
       },
       {
-        "heading": "Reusable evidence checklist",
+        "heading": "Compare recurring contracts with shutdown projects",
         "paragraphs": [
-          "Output: a first-corridor delivery and qualification brief."
+          "Recurring maintenance income and one-off shutdown jobs can create different capacity and cash requirements. Record their staffing, customer approval and collection conditions separately. SBA’s finance material is a reference for the accounting/cash distinction, not a source of actual U.S. margins.",
+          "The support organisation must also be funded without assuming repeated territory-sale fees. A large territory grant cannot make a sparse customer base or missing specialist capacity disappear."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Prepare the first-corridor brief",
+        "paragraphs": [
+          "Show assets and tasks, competent people, customer purchasing/safety/insurance conditions and the relevant local trade questions. Give technical escalation and backup clear owners."
         ],
         "bullets": [
-          "List specific assets and tasks within scope.",
-          "Document competencies, local trade questions and supervision.",
-          "Map each customer’s procurement, safety and insurance requirements.",
-          "Model response time using real dispatch and travel assumptions.",
-          "Separate recurring maintenance revenue from one-off shutdown projects.",
-          "Fund support and specialist escalation without relying on territory-sale fees."
+          "Define what the partner performs and when work is referred.",
+          "Identify the actual customer qualification process.",
+          "Build the required task-specific safety and training arrangements.",
+          "Test response time with supported travel, staff and parts assumptions.",
+          "Separate recurring, project and continuing-support costs."
         ]
       }
     ],
@@ -273,16 +380,36 @@
       "pr-finance"
     ],
     "nextStage": 2,
-    "practicalOutput": "Industrial-service scope, safety and response-capacity brief",
+    "practicalOutput": "A first-corridor brief showing exact tasks, qualified delivery, customer conditions and the resources needed for the response promise.",
     "limitations": [
       "Task-specific OSHA, state-plan and trade scope remains to be reviewed."
-    ]
+    ],
+    "learningSummary": "An industrial-maintenance brand may be judged on how quickly it can restore a customer’s operation. The U.S. partner therefore needs to establish the precise work, qualified people and customer access conditions before selling broad coverage. This guide connects those practical decisions with the limited hazardous-energy starting point and the costs of specialist response.",
+    "keyTerms": [
+      {
+        "term": "Customer qualification",
+        "meaning": "The customer’s process for deciding which suppliers and people it will accept for the work."
+      },
+      {
+        "term": "Hazardous energy",
+        "meaning": "The energy risks in servicing and maintenance addressed by the cited OSHA overview and applicable standard."
+      },
+      {
+        "term": "On-call cover",
+        "meaning": "The people and arrangements available to respond outside ordinary scheduled work."
+      },
+      {
+        "term": "Service credit",
+        "meaning": "A contractually defined consequence of the agreed service terms, to be checked in the actual contract."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "industry-technical",
     "path": "/industries/technical-services/",
-    "title": "Test whether technical decisions can travel without the founder",
-    "description": "Document authority, competence and escalation for a U.S. technical-services partner.",
+    "title": "Technical services: find the decisions that still depend on the founder",
+    "description": "Test whether another manager can use the method, recognise its limits and obtain qualified help.",
     "family": "industry",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -295,44 +422,57 @@
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Find the decisions still owned by the founder",
+        "heading": "List the exceptions the founder handles",
         "paragraphs": [
-          "A technical-services company can have branch managers while the owner still approves every unusual job, specification, supplier substitution or warranty dispute. List those decisions and record frequency, response time and consequences. The goal is an operating responsibility map, not a questionnaire score proving that knowledge is transferable."
+          "Record unusual jobs, specifications, supplier substitutions, pricing decisions and warranty disputes. For each, note frequency, required response time and the consequence of a wrong or late decision.",
+          "A general independence score cannot show whether those decisions have transferred. The useful evidence is what a proposed manager can actually do using the documentation, and where the method still requires another qualified person."
         ]
       },
       {
-        "heading": "Distinguish experience from authorisation",
+        "heading": "Experience and legal authority are separate questions",
         "paragraphs": [
-          "Prepare a task list identifying whether each activity is inspection, advice, design, installation, repair or certification. The actual state, profession and worksite determine operating requirements. SBA’s location/activity approach is a starting point; neither a brand licence nor foreign professional status settles U.S. authority."
+          "Divide tasks into inspection, advice, design, installation, repair or certification. Requirements depend on the actual activity, state, profession and site. SBA’s licensing-by-activity/location approach is a starting point, not a professional credential decision.",
+          "A foreign qualification or brand licence does not settle U.S. authority. Equally, customer accreditation or acceptance requirements should not be mistaken for government permission. Record the actual source and conditions of each requirement."
         ],
         "sourceIds": [
           "pr-licenses"
         ]
       },
       {
-        "heading": "Price the escalation channel",
+        "heading": "Price the technical decision channel",
         "paragraphs": [
-          "Record support time for quotations, complex faults, documentation, audits and client meetings. If the U.S. manager must wait overnight for the European founder, a response promise can fail even with capable field staff. Cost a backup decision maker and define which decisions stay with the brand, partner and appropriately authorised professional."
+          "Include quotation help, complex faults, documentation, audits and customer meetings in the support budget. If a U.S. manager must wait overnight for the European founder, a customer response promise can fail even when the field staff are capable.",
+          "Name the primary and backup decision makers and distinguish the brand, partner and appropriately authorised professional roles. Cost remote support and necessary visits instead of treating the founder’s continuing effort as free."
         ]
       },
       {
-        "heading": "Fictional validation task",
+        "heading": "Fictional example: work through ten past exception jobs",
         "paragraphs": [
-          "For a fictional German testing-services brand, choose ten historic exception jobs. Ask a proposed manager to produce a decision and escalation record using sanitised facts. Compare decisions with the responsible technical lead. This exercise tests documentation gaps; it does not confer professional competence or guarantee future outcomes."
+          "A fictional German testing-services brand selects ten historic exception jobs with sanitised information. A proposed manager records the decision they would make, what information is missing and when they would escalate. The responsible technical lead compares the reasoning with the method and its limits.",
+          "The team uses disagreements to identify unclear documentation or missing support. It then tests the revised process on the defined exercise. This does not confer professional competence, predict future outcomes or approve actual testing work. No confidential customer details need to be inserted into the learning exercise."
         ]
       },
       {
-        "heading": "Reusable preparation checklist",
+        "heading": "Keep the business choice narrower than the ambition",
         "paragraphs": [
-          "Output: a competence-and-decision matrix."
+          "A bounded U.S. pilot can investigate whether the manager, support channel and customer requirements fit together before broad rights are granted. State what the pilot is intended to test and which actual permissions must already be established.",
+          "SBA finance guidance is a useful reference when separating operating costs and cash questions. It does not provide the missing wage, travel or support quote. Keep those inputs tied to the real proposed organisation."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Prepare a decision-and-support table",
+        "paragraphs": [
+          "Give every founder-only decision a proposed local owner, permitted limits, evidence and backup. Record which decisions must remain with the brand or an appropriately authorised person rather than insisting that every task becomes local."
         ],
         "bullets": [
-          "Map owner-only technical, pricing and customer decisions.",
-          "Name the accountable decision maker and qualified backup.",
-          "Record evidence of training, observed performance and limits.",
-          "Separate customer accreditation from government authorisation.",
-          "Price remote and in-person escalation.",
-          "Define a bounded U.S. pilot before broad rights are granted."
+          "Map technical, pricing and customer exceptions.",
+          "Name qualified primary and backup decision makers.",
+          "Retain training and observed-performance evidence.",
+          "Separate customer acceptance from government authorisation.",
+          "Cost support and define the actual pilot before wider grants."
         ]
       }
     ],
@@ -341,16 +481,36 @@
       "pr-finance"
     ],
     "nextStage": 0,
-    "practicalOutput": "Technical decision authority and owner-dependence map",
+    "practicalOutput": "A decision-and-support table showing local authority, limits, evidence, escalation and backup for work previously owned by the founder.",
     "limitations": [
       "No professional credential or regulatory approval is issued."
-    ]
+    ],
+    "learningSummary": "A technical company can have branch managers while its founder still decides every unusual quotation, fault or warranty dispute. That dependence can become expensive when a U.S. partner works in a different time zone. Before granting broad rights, identify the decisions, authorisations and support resources needed to deliver without constant owner intervention.",
+    "keyTerms": [
+      {
+        "term": "Escalation",
+        "meaning": "Referring a question to a person with the required authority or expertise."
+      },
+      {
+        "term": "Competence evidence",
+        "meaning": "Observed work, training and stated limits supporting a person’s ability, rather than an automatic professional licence."
+      },
+      {
+        "term": "Customer qualification",
+        "meaning": "A customer’s acceptance requirements, distinct from government authority."
+      },
+      {
+        "term": "Decision matrix",
+        "meaning": "A suggested table naming who may decide what, when to refer it and who provides backup."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "industry-it",
     "path": "/industries/it-services/",
-    "title": "Allocate access, support and incident duties in an IT-services model",
-    "description": "Check who controls customer data and service continuity before a U.S. partner receives systems access.",
+    "title": "IT services: decide who gets access and who responds when something goes wrong",
+    "description": "Connect the customer, partner and overseas support team before promising continuous service.",
     "family": "industry",
     "topic": "ip-data",
     "jurisdictions": [
@@ -363,44 +523,57 @@
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Start with the service and access map",
+        "heading": "Draw the actual service and access relationships",
         "paragraphs": [
-          "IT support, managed services, software implementation and training have different access needs. Record who contracts with the customer, whose staff access systems, where access occurs, what data is involved and who authorises changes. Separate the brand’s software rights from a customer’s licence and security permissions."
+          "IT support, software implementation, managed services and training need different access. Record who contracts with the customer, whose staff access systems, where access occurs, what data is involved and who authorises changes.",
+          "Brand software rights, the customer’s own licence and permission to access a system are different things. A partner’s right to use the brand does not answer what customer information its technicians may see or change."
         ]
       },
       {
-        "heading": "Build a usable responsibility schedule",
+        "heading": "Use cybersecurity guidance for the role it actually plays",
         "paragraphs": [
-          "NIST provides small-business guidance on cybersecurity risks, incident response, cloud security and other topics. Use it as a preparation reference. It is not a universal law, an endorsement or a certification of your service. Actual customer, public-contract, sector and privacy requirements need their own evidence and scope."
+          "NIST offers small-business guidance on cybersecurity risks, incident response, cloud security and related topics. Use it as a preparation reference. It is not a universal law, a service endorsement or certification of the proposed business.",
+          "Actual customer contracts, public contracts, sector requirements and privacy law need their own evidence and applicability assessment. Keep a recommended internal control distinct from a specific legal obligation."
         ],
         "sourceIds": [
           "pr-cyber"
         ]
       },
       {
-        "heading": "Price the support window",
+        "heading": "Make the support hours affordable and deliverable",
         "paragraphs": [
-          "A U.S. customer may expect service while the parent’s team sleeps. Cost on-call cover, escalation, third-party licences, secure onboarding/offboarding, backups, incident exercises and client reporting. Clarify who funds emergency work and who can communicate externally after an incident. Do not promise “24/7 support” without staffing and supplier commitments."
+          "A U.S. customer may need service while the parent team sleeps. Price on-call cover, specialist escalation, third-party licences, secure onboarding/offboarding, backups, incident exercises and reporting. A 24/7 promise needs the people and supplier commitments behind it.",
+          "Decide who may approve emergency work, who funds it and who may communicate externally about an incident. Record applicable contractual and legal deadlines without inventing one reporting period for all customers and incidents."
         ]
       },
       {
-        "heading": "Fictional pilot",
+        "heading": "Fictional example: rehearse before granting live customer access",
         "paragraphs": [
-          "A fictional Southeast Asian managed-service brand gives one U.S. partner a limited customer support role. Before live access, the team rehearses a departed technician’s account removal and a suspicious-login report using a test environment. Record completion as an exercise, not proof of legal compliance or absence of security risk."
+          "A fictional Southeast Asian managed-service brand gives one U.S. partner a limited support role. In a test environment, the teams rehearse removing a departed technician’s access and responding to a suspicious-login report.",
+          "They record who receives the report, who can make the relevant changes, how the overseas team is reached and what happens if it is unavailable. The result is evidence of an exercise, not proof of legal compliance, a secure real system or absence of risk. No actual customer data is required for this learning task."
         ]
       },
       {
-        "heading": "Reusable preparation checklist",
+        "heading": "Turn the rehearsal into a usable operating document",
         "paragraphs": [
-          "Output: an access-and-incident responsibility schedule."
+          "Prepare an access-and-incident responsibility schedule showing customer, brand and partner entities, actual data paths, named approvers and the access needed for each role. Limiting access to the work needed is a practical design recommendation here, not a universal legal determination.",
+          "Keep cross-border privacy and sector restrictions unresolved until assessed. Supplier licences, security services and customer-specific cover need actual cost assumptions. SBA finance guidance can support the accounting approach but does not supply those quotes."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Prepare for either business being unavailable",
+        "paragraphs": [
+          "Test how support continues if the parent or partner cannot respond. The goal is to understand the dependency before a customer relies on the promise."
         ],
         "bullets": [
-          "Record customer, provider and partner entities and actual data paths.",
-          "Define minimum necessary access and named approvers.",
-          "Map breach/incident escalation and contractual deadlines without inventing a universal deadline.",
-          "Record cross-border privacy questions and sector restrictions as unresolved until reviewed.",
-          "Budget licence, security and coverage costs per customer.",
-          "Test service continuity if the parent or partner is unavailable."
+          "Record actual systems, data, locations and staff access.",
+          "Name access approvers and removal responsibilities.",
+          "Assign incident, customer and supplier communications.",
+          "Record actual applicable deadlines rather than one universal period.",
+          "Budget and test backup cover for the promised service window."
         ]
       }
     ],
@@ -409,16 +582,36 @@
       "pr-finance"
     ],
     "nextStage": 1,
-    "practicalOutput": "IT data-access and incident responsibility schedule",
+    "practicalOutput": "An access-and-incident schedule linking systems, people, approvals, communication and backup cover to the actual customer promise.",
     "limitations": [
       "No comprehensive federal/state or cross-border privacy assessment."
-    ]
+    ],
+    "learningSummary": "An IT-services brand may deliver through a U.S. partner while specialist support stays overseas. Customers need to know who may access their systems, approve changes and act on an incident. The operating plan should connect those responsibilities with the staffing and supplier commitments behind the service promise.",
+    "keyTerms": [
+      {
+        "term": "Managed service",
+        "meaning": "Ongoing support or operation of agreed customer systems, whose actual duties must be described in the contract."
+      },
+      {
+        "term": "NIST",
+        "meaning": "The U.S. National Institute of Standards and Technology, which provides the small-business cybersecurity guidance cited here."
+      },
+      {
+        "term": "Incident",
+        "meaning": "An event needing the relevant security response; the actual legal and contractual reporting duties must be determined separately."
+      },
+      {
+        "term": "Offboarding",
+        "meaning": "Removing or changing access when a worker or business relationship ends."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "industry-training",
     "path": "/industries/business-training/",
-    "title": "Distinguish business training from regulated credentials",
-    "description": "Prepare a U.S. training model around delivery rights, instructor capability and claims that can be supported.",
+    "title": "Business training: explain what the learner’s certificate actually means",
+    "description": "Separate course rights and teaching capability from occupational or education permission.",
     "family": "industry",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -431,44 +624,57 @@
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Describe the actual learning service",
+        "heading": "Describe the learning service and the promised outcome",
         "paragraphs": [
-          "Business training may mean corporate workshops, technical instruction, employee assessment or a course marketed as qualifying someone for an occupation. State exactly what learners receive. A certificate of attendance, private brand certification, licence to practise and recognised professional credential are different things."
+          "Distinguish corporate workshops, technical instruction, assessment and a course marketed as qualifying someone for an occupation. State what the learner receives and who recognises it. An attendance certificate, private brand credential, occupational licence and recognised qualification are different records.",
+          "This matters to both sales audiences. The prospective partner needs to understand what it may deliver and promise; the learner or corporate customer needs an accurate description of the course and credential."
         ]
       },
       {
-        "heading": "Investigate the relevant activity and location",
+        "heading": "Investigate the actual activity and location",
         "paragraphs": [
-          "SBA’s general licensing guidance ties requirements to the activity and operating location. Record where teaching, recruitment, assessment and customer contracting occur. If training touches a regulated occupation, childcare, healthcare or postsecondary education, move the relevant operating review ahead of sales promises. Do not imply that licensing a syllabus is enough."
+          "SBA’s general licensing guidance connects requirements with business activity and operating location. Record where teaching, student recruitment, assessment and customer contracting occur. Licensing a syllabus does not itself establish authority for all those activities.",
+          "If the offer touches a regulated occupation, childcare, healthcare or postsecondary education, investigate the relevant requirements before making sales promises. This article does not determine a professional or education exemption or approval."
         ],
         "sourceIds": [
           "pr-licenses"
         ]
       },
       {
-        "heading": "Make the content and delivery rights usable",
+        "heading": "Give the partner usable content and instructor rights",
         "paragraphs": [
-          "Record ownership and permitted use of slides, software, recordings, marks, learner materials and translations. Name who updates technical content and who can approve instructors. A well-run home-market branch may rely on the founder’s teaching or sales reputation; test whether another instructor can deliver the defined outcome."
+          "Record who owns and may use the slides, software, recordings, marks, learner materials and translations. Identify who updates technical content and who approves instructors. A curriculum can become unusable if the agreement does not provide the actual delivery rights.",
+          "A successful home-market branch may also depend on the founder’s teaching or reputation. Observe whether another instructor can deliver the defined outcome using the materials and stated assessment criteria, rather than assuming a training manual replaces that capability."
         ]
       },
       {
-        "heading": "Fictional economics exercise",
+        "heading": "Fictional example: follow one paid corporate workshop",
         "paragraphs": [
-          "A fictional European B 2 B training brand tests one paid corporate workshop through a properly reviewed arrangement. Record customer procurement, instructor preparation, venue/platform costs, travel, materials, cancellation terms and collection date. Do not multiply a full classroom’s gross revenue by every working day and call the result likely profit."
+          "A fictional European business-to-business training brand tests one paid corporate workshop through a properly reviewed arrangement. It records customer procurement, instructor preparation, venue/platform cost, travel, materials, cancellation terms and the expected collection date.",
+          "The teaching observation and customer requirements help identify preparation and delivery work that a classroom-revenue calculation would miss. No fictional profit or successful learning result is assumed. Multiplying a full classroom’s gross revenue by every working day is not evidence of likely profit."
         ]
       },
       {
-        "heading": "Reusable preparation checklist",
+        "heading": "Connect course economics with realistic delivery",
         "paragraphs": [
-          "Output: a course-rights and delivery-capability factsheet."
+          "Price preparation, customer acquisition and realistic utilisation alongside classroom time. Record which cancellations or customer approval conditions affect cash and what resources the brand must continue to supply. SBA’s finance guidance is a reference for the accounting and cash distinction, not a source of actual demand.",
+          "Keep outcome claims tied to actual evidence and the credential’s true status. If the course is changed or marketed for a different purpose, revisit the relevant rights and permission questions rather than reusing an old workshop description."
+        ],
+        "sourceIds": [
+          "pr-finance"
+        ]
+      },
+      {
+        "heading": "Prepare the course-and-delivery factsheet",
+        "paragraphs": [
+          "Create a document showing the course, actual audience, promised credential, materials/translation rights, instructor approval, revision responsibility and remaining legal questions. That makes the product understandable to the partner and to the people who will teach it."
         ],
         "bullets": [
-          "Describe the credential or attendance evidence precisely.",
-          "Identify sector or education authorisation questions before promotion.",
-          "Record intellectual-property rights and revision ownership.",
-          "Observe instructor delivery and assessment using stated criteria.",
-          "Price realistic utilisation, preparation and customer acquisition.",
-          "Keep customer outcome claims tied to actual evidence."
+          "Describe attendance and qualification claims precisely.",
+          "Identify sector and education questions before promotion.",
+          "Record actual material rights and update ownership.",
+          "Observe another instructor against defined criteria.",
+          "Price preparation, utilisation and acquisition rather than only classroom sales."
         ]
       }
     ],
@@ -477,64 +683,81 @@
       "pr-finance"
     ],
     "nextStage": 1,
-    "practicalOutput": "Training rights, claims and delivery-capability factsheet",
+    "practicalOutput": "A course-and-delivery factsheet explaining the credential, content rights, instructor evidence, realistic costs and unresolved permission questions.",
     "limitations": [
       "No professional or education authorisation determination."
-    ]
+    ],
+    "learningSummary": "A training brand may offer corporate workshops, technical instruction or courses advertised as a route into an occupation. Those services do not all raise the same questions. The expanding business should define what learners receive, what rights a partner can use and what another instructor can actually deliver before selling a standard programme.",
+    "keyTerms": [
+      {
+        "term": "Certificate of attendance",
+        "meaning": "Evidence of attendance; it is different from a licence to practise or a recognised professional qualification."
+      },
+      {
+        "term": "Private brand certification",
+        "meaning": "A credential issued under the brand’s own system, whose meaning must be stated accurately."
+      },
+      {
+        "term": "Intellectual-property rights",
+        "meaning": "The rights governing use of the materials, software, recordings, marks and translations."
+      },
+      {
+        "term": "Utilisation",
+        "meaning": "How much of the realistically available teaching capacity is actually used for paid work."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:46:40.758Z"
   },
   {
     "id": "guide-management",
     "path": "/us-expansion/management-independence/",
-    "title": "Can the business deliver without the owner every day?",
-    "description": "Map real decisions and evidence before treating branch managers as proof that the model transfers.",
+    "title": "Can your team run the business when the owner is absent?",
+    "description": "Test who makes important decisions before assuming branch managers make the model ready to transfer.",
     "family": "decision",
     "topic": "commercial-feasibility",
     "jurisdictions": [],
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
-        "heading": "A manager title is a starting fact",
+        "heading": "Daily delivery can hide exceptional decisions",
         "paragraphs": [
-          "Management independence is the ability to make and deliver the important decisions when the owner is absent. Investigate sales, pricing, technical exceptions, key accounts, supplier negotiations, recruitment, quality and cash authorisations. A business can perform daily operations while still relying on the owner for the exceptions that protect margin and customers."
+          "Ask about sales, prices, major customers, technical exceptions, supplier negotiations, recruitment, quality problems and cash approvals. A manager may organise routine delivery while the owner handles the unusual matters that determine whether a contract is won or a customer retained.",
+          "The title branch manager is therefore useful information, but not the conclusion. The question is what happens when the owner cannot answer the telephone. This is a commercial preparation exercise; there is no statutory management-readiness score in this guide."
         ]
       },
       {
-        "heading": "Use a responsibility map with evidence",
+        "heading": "Map responsibility and actual authority",
         "paragraphs": [
-          "For each responsibility, record accountable role, day-to-day decision maker, backup, authority limit and the most recent observed example. Distinguish a manual being written from a manager successfully using it. Record unresolved gaps instead of converting answers into a transferability score."
+          "For each important responsibility, record the accountable role, day-to-day decision maker, backup and authority limit. Add the most recent observed example and any restriction. A written manual is not the same evidence as a manager successfully using it under realistic conditions.",
+          "Include both recurring work and consequential exceptions. If only the owner can approve a customer concession, identify that dependency rather than marking customer management fully delegated. A gap is a useful investigation result, not a reason to award an optimistic transferability score."
         ]
       },
       {
-        "heading": "Fictional preparation exercise",
+        "heading": "Worked example: the COO delivers, the owner sells",
         "paragraphs": [
-          "In a fictional facilities company, the COO covers service delivery but the owner closes every contract above a chosen internal limit. The U.S. plan needs a local sales authority, realistic procurement time and parent support. The management payroll and support budget must include the people who would replace that work; the SBA finance guide supports the cost/cash discipline, not a required manager salary."
+          "Fictional example. A facilities company’s chief operating officer, or COO, reliably runs service delivery. The owner still closes every contract above a company-chosen internal limit. The team initially budgets a U.S. delivery manager and assumes the business can run without the owner.",
+          "The responsibility map exposes the missing sales job. The U.S. plan needs someone with actual sales authority, enough time for customer purchasing processes and a defined level of parent support. Finance costs the people who would replace that work separately from routine management. The SBA finance guidance supports disciplined cost and cash planning; it does not prescribe a required manager salary."
         ],
         "sourceIds": [
           "pr-finance"
         ]
       },
       {
-        "heading": "Test a bounded absence",
+        "heading": "Test a bounded, reversible absence",
         "paragraphs": [
-          "Choose an internal, reversible exercise such as a planned week with documented escalation rules. Select ordinary and exception tasks in advance. Record what happened, who decided, delays, rework and customer effect. This is recommended business practice, not proof that U.S. delivery or legal obligations are satisfied."
+          "Choose an internal exercise such as a planned week with documented escalation arrangements. Select ordinary tasks and exceptions in advance, identify who may decide and keep essential customer protections in place. Record who acted, delays, rework and customer effects.",
+          "If a manager repeatedly waits for owner approval, ask what authority, knowledge or commercial relationship is missing. If the team performs well, record the scope and conditions of that success. One internal exercise is not proof of U.S. delivery capability or legal compliance."
         ]
       },
       {
-        "heading": "Prepare the next decision",
+        "heading": "Use the result to change the plan",
         "paragraphs": [
-          "Output: an owner-dependence map before selecting a partner model."
-        ],
-        "bullets": [
-          "List recurring decisions and consequential exceptions.",
-          "Name the role and backup with actual authority.",
-          "Record evidence date, limits and unresolved dependencies.",
-          "Cost replacement management and parent support separately.",
-          "Re-test after a change in offer, staffing or customer mix.",
-          "Choose further documentation, a smaller pilot, added capability or a pause."
+          "The next decision might be more documentation, training, a different hire, a smaller pilot or a pause. Re-test after a meaningful change in the service offer, team or customer mix. Keep parent support costs visible instead of describing the overseas owner’s time as free.",
+          "The concrete output is a responsibility map showing authority, backup, observed examples, costs and unresolved dependencies. Use it before selecting a partner structure or promising support that the current organisation cannot yet provide."
         ]
       }
     ],
@@ -542,10 +765,34 @@
       "pr-finance"
     ],
     "nextStage": 0,
-    "practicalOutput": "Responsibility map with owner dependencies and evidence dates",
+    "practicalOutput": "A responsibility map showing owner-dependent decisions, tested cover, replacement costs and dated evidence.",
     "limitations": [
       "Business preparation only; no statutory readiness threshold."
-    ]
+    ],
+    "learningSummary": "An established business can have capable managers and still rely on its owner for the decisions that win customers or protect profit. That matters when a partner will operate in the United States while the owner stays overseas. Investigate the actual work the owner performs before deciding what a local manager and parent support team must replace.",
+    "keyTerms": [
+      {
+        "term": "Management independence",
+        "meaning": "The ability of the team to make and carry out the important decisions when the owner is absent."
+      },
+      {
+        "term": "Authority limit",
+        "meaning": "The boundary of what a person may approve without referring the decision elsewhere."
+      },
+      {
+        "term": "Backup",
+        "meaning": "The person who can actually take over a task with the necessary knowledge and authority."
+      },
+      {
+        "term": "Escalation",
+        "meaning": "Sending a question to a person with the authority or expertise to resolve it."
+      },
+      {
+        "term": "Observed evidence",
+        "meaning": "A dated example of someone performing the responsibility, rather than a statement that they should be able to."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:49:20.760Z"
   },
   {
     "id": "guide-models",
@@ -621,53 +868,50 @@
   {
     "id": "guide-pilot",
     "path": "/us-expansion/b2b-first-market-validation/",
-    "title": "What evidence would justify the first B 2 B market?",
-    "description": "Use procurement and delivery evidence to narrow a market before committing a territory.",
+    "title": "What evidence supports your first U.S. business-customer market?",
+    "description": "Compare how customers buy, how the team will deliver and what the first useful test can establish.",
     "family": "decision",
     "topic": "commercial-feasibility",
     "jurisdictions": [],
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Match the customer buying process",
+        "heading": "Define the service and customer before ranking cities",
         "paragraphs": [
-          "Define the customer type, specific service, expected contract, procurement gate and service radius. Commercial regions are comparison tools, not legal jurisdictions. A large metro population does not establish demand for a specialised maintenance team or acceptance of a foreign brand."
+          "State which customer type you want, the exact service, likely contract, purchasing requirements and practical service radius. A facilities buyer, a factory and a small office can have different needs even in the same city.",
+          "A commercial region is useful for comparing markets, but it is not a legal authority. The actual city, county, state and address can still change the operating requirements. Do not treat a large metro or your home-market reputation as evidence of local acceptance."
         ]
       },
       {
-        "heading": "Separate three evidence levels",
+        "heading": "Keep three types of evidence separate",
         "paragraphs": [
-          "An interview records a stated need. A tender invitation records a procurement opportunity. A signed customer contract records obligations, subject to its actual terms; it still does not establish profitable delivery or payment. Record the date, source, limitations and what observation would change the next decision."
+          "An interview records a stated need. A tender invitation records an opportunity to compete. A signed customer contract creates obligations under its actual terms. None automatically establishes the next stage: interest is not an award, and an award is not proof of profitable delivery or timely payment.",
+          "For each observation, record the source, date, limit and next question. Ask what evidence would change the decision. That produces a more useful record than counting every positive conversation as a likely sale."
         ]
       },
       {
-        "heading": "Use a transparent comparison",
+        "heading": "Choose the comparison criteria before seeing the result",
         "paragraphs": [
-          "Choose criteria before seeing scores: customer fit, sales cycle, staffing, route density, support access, operating requirements and cash terms. Let the team set weights. Keep unknown inputs visible and exclude a total ranking when a critical criterion lacks evidence; missing permit cost or insurance cannot become a favourable zero."
+          "Possible criteria include customer fit, sales-cycle length, staffing, route density, access to support, operating requirements and payment terms. Let the team choose the importance of each factor, then identify the evidence supporting its assessment.",
+          "Keep critical unknowns visible. Missing insurance or permit cost must not become an attractive zero. If a decisive factor lacks evidence, withhold the overall ranking rather than create a precise-looking score from incomplete inputs. This is recommended planning practice, not a legal market-selection formula."
         ]
       },
       {
-        "heading": "Fictional test",
+        "heading": "Worked example: an office cluster or a wider territory",
         "paragraphs": [
-          "A fictional pest-control brand compares one dense office cluster with a larger dispersed territory. It interviews buyers, checks actual service categories and obtains local staffing and insurance evidence. The dense cluster can be easier to test, but that is a hypothesis pending evidence rather than a published “best market” claim."
+          "Fictional example. A pest-control brand compares a compact office cluster with a larger but dispersed territory. The wider area offers more apparent prospects, while the cluster might permit shorter journeys and a smaller initial team.",
+          "The brand interviews actual buyers, checks the relevant service categories and obtains local staffing and insurance evidence. It tests whether customer needs and purchasing conditions fit its offer. The compact area may be easier to investigate, but that remains a hypothesis until supported. A small pilot also needs the appropriate legal review before offers, hiring or operations."
         ]
       },
       {
-        "heading": "Preparation checklist",
+        "heading": "Give the next test a document and a decision",
         "paragraphs": [
-          "Output: a market shortlist with the smallest useful validation activity."
-        ],
-        "bullets": [
-          "State the customer segment and proposed operating boundary.",
-          "Record demand evidence separately from home-market assumptions.",
-          "Identify actual city, county, state and address-dependent tasks.",
-          "Quote costs with source, date, unit and scope.",
-          "Name the person, budget and date for the next validation.",
-          "Review law before offers, employment, imports or opening commitments."
+          "Prepare a shortlist showing the customer segment, operating boundary, evidence, costs and important unknowns for each candidate market. Distinguish observed demand from home-market assumptions. Quote costs with their source, date, unit and scope.",
+          "Choose the smallest useful next activity, with a responsible person, budget and review date: for example, answering a customer’s actual procurement question rather than granting a statewide territory. The output should explain what was learned and what remains to be tested, without invented search-demand figures or a universal best-market claim."
         ]
       }
     ],
@@ -676,64 +920,85 @@
       "pr-finance"
     ],
     "nextStage": 2,
-    "practicalOutput": "Market comparison with unknowns and a validation task",
+    "practicalOutput": "A sourced market shortlist and a specific next test, with important unknowns left visible.",
     "limitations": [
       "No ranking, search-demand statistics or unsourced cost averages."
-    ]
+    ],
+    "learningSummary": "A large city population does not prove demand for your particular service. A business-to-business company needs evidence about the organisations that buy it, their purchasing process and the cost of serving them. Start with a narrow customer and operating area before promising a large territory.",
+    "keyTerms": [
+      {
+        "term": "B2B",
+        "meaning": "Business to business: selling to organisations rather than assuming the customer is an individual consumer."
+      },
+      {
+        "term": "Procurement",
+        "meaning": "The customer’s process for selecting suppliers, approving purchases and awarding contracts."
+      },
+      {
+        "term": "Tender invitation",
+        "meaning": "An opportunity to submit a bid; it is different from a contract award."
+      },
+      {
+        "term": "Route density",
+        "meaning": "How closely customer jobs are grouped, affecting travel and the capacity to serve them."
+      },
+      {
+        "term": "Validation activity",
+        "meaning": "A planned test designed to answer a specific business question rather than simply collect encouraging comments."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:49:20.760Z"
   },
   {
     "id": "guide-receivables",
     "path": "/us-expansion/b2b-receivables-and-runway/",
-    "title": "A profitable service contract can still consume cash",
-    "description": "Map invoicing, acceptance and collection before deciding how much working capital a U.S. unit needs.",
+    "title": "Why a service contract can use cash before it produces cash",
+    "description": "Map the invoice, customer approval and receipt dates alongside payroll and supplier payments.",
     "family": "decision",
     "topic": "commercial-feasibility",
     "jurisdictions": [],
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 4,
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Profit and cash answer different questions",
+        "heading": "Ask when the money arrives, not only when the work is earned",
         "paragraphs": [
-          "For an accrual-based operating model, service revenue may be recorded before receipt. Payroll, materials and subcontractors can require earlier payment. SBA explains cash versus accrual accounting; the project needs a dated cash schedule alongside its operating-profit model."
+          "In an accrual-based model, service revenue can be recorded before payment is received. Payroll, materials and subcontractors may fall due first. The SBA finance guidance distinguishes cash and accrual accounting; the practical result is that an operating-profit model cannot replace a cash schedule.",
+          "Read the customer contract. When may an invoice be submitted, what supporting material is needed, who accepts it, when does the payment clock start and what disputes can delay it? A nominal 30-day term may run from acceptance rather than the technician’s visit. Do not use one assumed collection ratio for every customer."
         ],
         "sourceIds": [
           "pr-finance"
         ]
       },
       {
-        "heading": "Work back from the customer payment trigger",
+        "heading": "Worked example: invoices are not receipts",
         "paragraphs": [
-          "Read the proposed contract: when can an invoice be submitted, what evidence must accompany it, who approves it, when does the payment clock start and what disputes can defer payment? A nominal 30-day term may start after acceptance rather than after the technician attends. Model the actual process instead of inserting a universal receivables ratio."
+          "Fictional example. The first month produces $80,000 of invoices but no customer receipts yet. Payroll and other payments due that month total $65,000. On those stated flows, the month uses $65,000 of cash before considering opening cash, financing or other items.",
+          "The $15,000 difference between invoices and payments is not automatically accounting profit: the two figures do not establish all revenue and matched costs. More importantly for the launch, an invoice cannot pay wages before the customer pays. Finance adds actual deposits, tax payments, equipment, financing receipts and later collections on their dates to find whether capital covers the low point."
         ]
       },
       {
-        "heading": "Fictional cash bridge",
+        "heading": "Avoid counting the same money twice",
         "paragraphs": [
-          "Fictional example: the first month’s service generates $80,000 in invoices but no cash yet. Payroll and other payments due that month total $65,000. The operating budget alone cannot tell whether capital covers those dates. Add deposits, tax payments, equipment, financing receipts and later collections to a dated flow; do not count the same payroll again in a generic reserve."
+          "List known payroll and supplier payments once in the dated schedule. If the team also holds a contingency for uncertainty, explain what additional risk it covers. Do not add the same $65,000 again under a generic reserve while also treating it as an operating outflow.",
+          "Keep refundable deposits, expenditure and cash retained for later needs distinguishable. A financing promise is not an available receipt until its conditions are supported. The same applies to supplier credit: use the terms actually offered, not hoped-for terms."
         ]
       },
       {
-        "heading": "Stress concentration and delay",
+        "heading": "Test different causes of delay separately",
         "paragraphs": [
-          "Run downside, base and upside assumptions explicitly. Change customer start date, collection delay, dispute rate and staffing commitments as separate drivers. A large national account can improve density while increasing exposure to a single approval chain. A supplier credit term is financing only if it is actually available on stated conditions."
+          "State downside, base and upside assumptions explicitly. Change the customer start date, collection delay, disputes and staffing commitments as separate inputs so the team can see why the cash position changes.",
+          "A large national account may improve delivery density while concentrating cash exposure in one approval process. If that customer pays later, fixed staffing payments may still be due. This is a fictional planning exercise, not a forecast of any customer’s collection behaviour."
         ]
       },
       {
-        "heading": "Preparation checklist",
+        "heading": "Walk the cash balance forward",
         "paragraphs": [
-          "Output: a dated receivables and funding schedule."
-        ],
-        "bullets": [
-          "Record service, invoice, acceptance and expected receipt dates.",
-          "Link labour and supplier payments to actual due dates.",
-          "Separate refundable deposits, expenditure and retained liquidity.",
-          "Mark uncommitted financing and unknown taxes as unresolved.",
-          "Derive peak funding from cumulative cash flows.",
-          "Assign the next evidence update to the finance lead."
+          "Start with the supported cash available. Add each expected receipt and subtract each payment when it is expected to occur, then identify the lowest balance. That cumulative low point explains the funding gap more usefully than the single largest monthly expense.",
+          "Retain service, invoice, acceptance and receipt dates, the supporting contract or quote and the person updating the assumption. Unknown taxes and uncommitted financing remain unresolved. The output is a dated cash-flow and funding schedule with a named finance owner, not a guarantee that the launch is financed."
         ]
       }
     ],
@@ -741,10 +1006,34 @@
       "pr-finance"
     ],
     "nextStage": 3,
-    "practicalOutput": "Dated cash-flow schedule and peak funding need",
+    "practicalOutput": "A dated receipt-and-payment schedule showing the cumulative low point, funding gap and assumptions to verify.",
     "limitations": [
       "Illustrative amounts are fictional; no customer collection forecast."
-    ]
+    ],
+    "learningSummary": "A contract can look attractive in an operating-profit budget while the business lacks money on the dates bills fall due. Customers may pay after service, invoicing and approval, while payroll and suppliers need payment earlier. Build a dated cash schedule as well as a profit model.",
+    "keyTerms": [
+      {
+        "term": "Accrual accounting",
+        "meaning": "Recording revenue and costs under the relevant accounting rules rather than simply when cash moves."
+      },
+      {
+        "term": "Receivable",
+        "meaning": "An amount owed by a customer, which is not yet cash in the bank."
+      },
+      {
+        "term": "Acceptance",
+        "meaning": "The customer’s approval step under the actual contract, which may affect when invoicing or payment timing starts."
+      },
+      {
+        "term": "Working capital",
+        "meaning": "Funding used to bridge the timing of operating receipts and payments."
+      },
+      {
+        "term": "Peak funding need",
+        "meaning": "The largest cash shortfall shown as the dated payments and receipts accumulate, before the funding available to cover it."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:49:20.760Z"
   },
   {
     "id": "guide-national-accounts",
@@ -818,8 +1107,8 @@
   {
     "id": "guide-partner",
     "path": "/us-expansion/partner-due-diligence-evidence/",
-    "title": "Build a partner evidence file without pretending to certify a person",
-    "description": "Separate capability, available capital, records and unresolved questions before granting U.S. rights.",
+    "title": "How to check whether a prospective U.S. partner can deliver",
+    "description": "Turn a candidate’s claims about money, management and experience into specific checks before granting U.S. rights.",
     "family": "decision",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -828,50 +1117,60 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "practice-court-scope"
     ],
     "sections": [
       {
-        "heading": "Evidence should answer a particular decision",
+        "heading": "Start with the work and commitment you are considering",
         "paragraphs": [
-          "The objective is to know what the candidate can fund and perform, what commitments it is taking and what still requires investigation. Use entity identity, authority, operating history, management capacity, accessible project capital, references and delivery evidence. Self-reported answers remain self-reported until the responsible person records what was checked and when."
+          "Imagine that your established facilities business wants a U.S. partner to recruit a local supervisor, find customers and fund the first months of operation. Checking whether the candidate has run any business is too broad. You need to know whether it can perform those particular tasks, within the proposed timetable, while meeting its other commitments.",
+          "Write down the candidate’s legal business name and identifiers, who would sign, and the authority that person claims to have. Then list the decisions you need to make: whether to grant rights, how large the territory should be, who will run it and how much funding is actually committed. These are recommended business checks, not a government approval process."
         ]
       },
       {
-        "heading": "Set lawful and proportionate scope",
+        "heading": "Separate wealth, available funding and operating capacity",
         "paragraphs": [
-          "Do not collect passports, personal court files, bank statements or confidential customer contracts through this educational site. Describe the evidence and its custodian. If sensitive diligence is justified, use the appropriately authorised professional and secure process outside this tool. Record consent and access scope where applicable."
+          "A statement that someone is wealthy does not establish that money is accessible to the proposed operation. Total assets may include property, money belonging to another company or funds subject to conditions. Record separately the claimed net worth, readily available money, conditions on access and amount allocated to this project.",
+          "Management capacity needs its own evidence. A successful owner may be unable to provide the promised supervisor, or that supervisor may already be responsible for several businesses. Ask for comparable delivery experience and references that can explain the work actually performed. Record who checked each claim, when, what they saw and any contradictory information. A blank answer remains an unanswered question."
         ]
       },
       {
-        "heading": "Court coverage is not one checkbox",
+        "heading": "Keep sensitive documents out of this educational site",
         "paragraphs": [
-          "PACER’s Case Locator is a national federal court index, including district, appellate and bankruptcy cases. State and local courts, administrative proceedings, arbitration and foreign records require separate scope decisions. An empty search is not proof that there are no disputes, nor does an allegation establish misconduct."
+          "This site is for describing checks and recording responsibilities. Do not upload passports, personal court files, bank statements or confidential customer contracts here. A useful entry can say that an authorised adviser holds a dated funding confirmation, identify its limits and name the person responsible for following up, without reproducing the private document.",
+          "If a sensitive check is justified, arrange an appropriately authorised professional and secure process outside the tool. Record consent and permitted access where applicable. Collecting more private information does not itself make a decision better: the question is whether the evidence answers a relevant business uncertainty."
+        ]
+      },
+      {
+        "heading": "Understand what a court search can and cannot show",
+        "paragraphs": [
+          "PACER is the U.S. federal courts’ electronic records service. Its Case Locator is a national index covering federal district, appellate and bankruptcy cases. That does not make it an index of every possible dispute. State and local courts, administrative proceedings, arbitration and foreign records require separate decisions about what to search.",
+          "Record the systems, business names and other relevant names searched, the search date and the case outcome or procedural position. An empty result does not prove that there are no disputes. Equally, a complaint contains allegations; finding one does not establish that the alleged misconduct occurred. Read the relevant documents before describing the significance of a result."
         ],
         "sourceIds": [
           "pr-pacer"
         ]
       },
       {
-        "heading": "Fictional evidence decision",
+        "heading": "Fictional example: impressive assets, unanswered project questions",
         "paragraphs": [
-          "A fictional British facilities candidate reports ample wealth but leaves project allocation and supervisor availability unclear. Record separate tasks: dated capital-allocation confirmation, references for comparable delivery, and the named manager’s competing commitments. Do not improve a score because one field is blank."
+          "A fictional British facilities candidate says it has ample wealth and a senior manager ready to lead the U.S. operation. The brand has not established how much money is allocated to this project or whether that manager can leave existing responsibilities. Strong references for the candidate’s older business do not answer either question.",
+          "The brand therefore assigns three separate checks: dated confirmation of project funding, references for comparable service delivery, and clarification of the named manager’s competing commitments. It leaves each unverified claim labelled as such. Depending on the answers, it can investigate further, reduce the proposed territory, test a limited pilot or pause the transaction."
         ]
       },
       {
-        "heading": "Preparation checklist",
+        "heading": "Leave with a usable evidence register",
         "paragraphs": [
-          "Output: an evidence register with custodian, date, limit and next action."
+          "Create one row for each important claim, with the decision it affects, evidence requested, custodian, checker, date, limits and next action. This is a practical planning method rather than a prescribed legal form. It helps the team see which commitments the evidence supports and which questions remain open."
         ],
         "bullets": [
-          "Confirm entity name, identifiers and signing authority.",
-          "Separate net worth, liquidity, conditions and project allocation.",
-          "Observe relevant management and operating capability.",
-          "Document reference scope and contradictory evidence.",
-          "Record court systems, names searched, date and procedural outcomes.",
-          "Decide whether to investigate further, revise scope, run a pilot or pause."
+          "Confirm the entity, relevant identifiers and signing authority.",
+          "Distinguish overall wealth from accessible, project-allocated funding.",
+          "Check actual operating experience and availability of named managers.",
+          "Record reference scope, contradictory evidence and court-search limits.",
+          "Assign an owner and deadline to each unanswered question before deciding whether to commit."
         ]
       }
     ],
@@ -880,16 +1179,40 @@
       "pr-finance"
     ],
     "nextStage": 4,
-    "practicalOutput": "Partner evidence register",
+    "practicalOutput": "A partner evidence register showing each material claim, its checker and custodian, the date and limits of the check, and the next decision.",
     "limitations": [
       "No character, solvency, funding or compliance certification."
-    ]
+    ],
+    "learningSummary": "An interested partner may have an impressive business and still lack the people or money needed for your U.S. project. Before giving it a territory or signing a long agreement, separate what it has claimed from what someone has actually checked. The result is a record that supports your business decision, rather than a certificate that the person is trustworthy or financially secure.",
+    "keyTerms": [
+      {
+        "term": "Due diligence",
+        "meaning": "Checking information relevant to a proposed business commitment before deciding whether to proceed."
+      },
+      {
+        "term": "Signing authority",
+        "meaning": "The power of a particular person to enter an agreement on behalf of the business."
+      },
+      {
+        "term": "Liquidity",
+        "meaning": "Money or assets readily available to meet payments; this differs from total wealth."
+      },
+      {
+        "term": "Evidence custodian",
+        "meaning": "The person or organisation responsible for keeping a document or other evidence."
+      },
+      {
+        "term": "Case disposition",
+        "meaning": "The recorded outcome or procedural position of a court case, such as dismissal or a judgment."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:49:20.760Z"
   },
   {
     "id": "guide-fdd-comparison",
     "path": "/us-expansion/compare-fdd-for-management-run-model/",
-    "title": "Compare FDD evidence against the model your team will actually operate",
-    "description": "Use entity, year, management duties and cohort limits to avoid a misleading comparison.",
+    "title": "How to compare franchise disclosures for a business run by a hired manager",
+    "description": "Read costs, support, owner duties and financial evidence together before treating another franchise’s results as a model for yours.",
     "family": "decision",
     "topic": "sales-disclosure",
     "jurisdictions": [
@@ -898,48 +1221,54 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [],
     "sections": [
       {
-        "heading": "Compare documents before comparing numbers",
+        "heading": "Identify the document before copying a figure",
         "paragraphs": [
-          "A Franchise Disclosure Document describes a particular seller and offering as of a particular issue or amendment date. Record entity, brand, year, state addenda, source URL and transaction scope. Do not mix one brand’s current fee table with another year’s financial results or assume a domestic owner-operated cohort matches a foreign brand’s management-run model."
+          "Start with the seller’s legal entity, brand, issue date, amendment dates and applicable state addenda. Keep the source link and identify the transaction or territory being discussed. Two documents carrying the same brand name may describe different years or terms. A fee from one version and financial results from another do not form a reliable comparison.",
+          "This also matters when you study an established U.S. franchise as a possible comparison for your own foreign brand. A domestic business whose owner sells, supervises and handles exceptions may have a very different cost structure from a new operation employing a manager to do those tasks."
         ]
       },
       {
-        "heading": "Read management obligations alongside support",
+        "heading": "Read the owner’s duties together with the promised support",
         "paragraphs": [
-          "Item 15 concerns participation in actual operation; Item 11 describes assistance and training; Item 12 addresses territory. A manager-run assumption needs evidence from the actual offer and agreement. A reviewer should check all 23 items, not only the selected comparison fields. The FTC guide explains these disclosure subjects; it is not an endorsement of an offering."
+          "Item 15 addresses participation in the actual operation of the franchise. Item 11 describes assistance and training, and Item 12 deals with territory. Read these subjects together with the proposed agreement. A sales statement that the business can be manager-run needs support in the actual offering and contractual duties; training alone does not answer who must be present or perform the work.",
+          "The FTC’s May 2008 Compliance Guide explains these disclosure subjects. It is explanatory guidance, not an endorsement of an offering or a current threshold sheet. The selected items below organise a comparison, but a reviewer still needs to check all 23 FDD items and the transaction documents."
         ],
         "sourceIds": [
           "fed-compliance"
         ]
       },
       {
-        "heading": "Use the comparison as an evidence workspace",
+        "heading": "Build a comparison with a place for unanswered questions",
         "paragraphs": [
-          "Capture Items 5–8 costs and sourcing;11–12 support and territory;15 participation;17 renewal, termination, transfer and disputes;19 any financial performance representation;20 outlet cohort and contacts;21 seller financial statements. Missing information remains missing, and automated extraction requires checking against the document."
-        ]
-      },
-      {
-        "heading": "Fictional cohort problem",
-        "paragraphs": [
-          "A fictional service brand shows revenue from established units, while the team plans a new territory with a dedicated manager. Record cohort age, excluded units, service mix, owner effort and costs absent from revenue. Do not convert the number into a profit estimate or into a prospect-facing representation."
-        ]
-      },
-      {
-        "heading": "Preparation checklist",
-        "paragraphs": [
-          "Output: a sourced, versioned FDD comparison worksheet."
+          "Use separate columns for the document’s wording, its item and page, the model it describes, and the question it leaves unresolved. Do not silently substitute an industry assumption for a missing answer. If software extracts a number or clause, check it against the actual document before relying on it."
         ],
         "bullets": [
-          "Link the actual source and retain issue/amendment dates.",
-          "Record what each cited item says, not a guessed blank.",
-          "Check owner/manager participation in the offered model.",
-          "Record cohort definition, exclusions and limitations.",
-          "Keep financial statements separate from unit performance.",
-          "Assign unresolved interpretation and legal questions before commitment."
+          "Items 5–8: initial and ongoing fees, other costs, and purchasing or supply restrictions.",
+          "Items 11–12: assistance, training and territorial rights or limits.",
+          "Item 15: participation in operating the business.",
+          "Item 17: renewal, termination, transfer and dispute terms.",
+          "Item 19: any financial performance representation and the conditions attached to it.",
+          "Item 20: outlet information, the group of outlets being compared and contacts.",
+          "Item 21: the seller’s financial statements, which answer a different question from an individual outlet’s results."
+        ]
+      },
+      {
+        "heading": "Fictional example: established-unit revenue is not a new-unit profit forecast",
+        "paragraphs": [
+          "A fictional service franchise reports revenue for established outlets. Your team plans to open a new territory and hire a dedicated manager. The reported revenue describes sales for a defined group; it does not tell you what will remain after your operation pays its manager and other costs.",
+          "First identify the included outlets’ ages, service mix and owner involvement, together with exclusions from the figures. If owners in that group personally supervise staff or win accounts, ask how your proposed model will replace that work. Record costs absent from a revenue figure instead of assuming that they are negligible.",
+          "You may conclude that the information is useful for understanding a particular mature business but insufficient for estimating your start-up’s profit. Keep that conclusion and its limits in the worksheet. Do not turn the figure into a profit estimate or a statement to prospective partners without the appropriate supporting basis."
+        ]
+      },
+      {
+        "heading": "Keep a versioned record the team can revisit",
+        "paragraphs": [
+          "For each offering, retain the document reference, issue and amendment dates, relevant addenda, and exact item or page supporting an entry. Record management duties and the definition of any reported outlet group beside the numbers. Keep the seller’s financial statements separate from outlet performance.",
+          "Finish by assigning each unresolved document or interpretation question to a responsible person before commitment. The comparison is a workspace for evidence and decisions. A completed spreadsheet, especially one populated automatically, does not establish that the documents have been fully reviewed or that the proposed model is permitted."
         ]
       }
     ],
@@ -948,16 +1277,40 @@
       "fed-definition"
     ],
     "nextStage": 3,
-    "practicalOutput": "Versioned FDD evidence comparison",
+    "practicalOutput": "A versioned FDD comparison linking costs, support, participation duties and financial evidence to the actual document and proposed management model.",
     "limitations": [
       "No FDD document extraction is published or deemed verified automatically."
-    ]
+    ],
+    "learningSummary": "A Franchise Disclosure Document, or FDD, gives a prospective franchise buyer information about a particular seller and offering. It can help your team compare operating models, but it does not approve the business or promise a profit. If your proposed U.S. business will use a hired manager while its owner stays abroad, the central question is whether the documents and performance evidence actually describe that arrangement.",
+    "keyTerms": [
+      {
+        "term": "Franchise Disclosure Document (FDD)",
+        "meaning": "A document disclosing information about a franchise seller and offering to a prospective buyer; its numbered items cover different subjects."
+      },
+      {
+        "term": "State addendum",
+        "meaning": "Additional or modified terms supplied for a particular state; these need to be read with the main document."
+      },
+      {
+        "term": "Financial performance representation",
+        "meaning": "A statement about actual or potential financial performance, addressed in FDD Item 19."
+      },
+      {
+        "term": "Cohort",
+        "meaning": "The defined group of outlets included in a set of reported results."
+      },
+      {
+        "term": "Owner-operated business",
+        "meaning": "A business in which the owner does operating work that may need a paid replacement in a manager-run model."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:49:20.760Z"
   },
   {
     "id": "guide-bid",
     "path": "/us-expansion/federal-service-contract-bid-cost/",
-    "title": "Will a federal service contract change your labour cost model?",
-    "description": "Identify covered wage and fringe obligations before reusing private-customer bid economics.",
+    "title": "How a federal service contract can change a labour-cost bid",
+    "description": "Check the contract’s coverage, wage determination and staffing duties before reusing the price of a private-customer service job.",
     "family": "decision",
     "topic": "employment",
     "jurisdictions": [
@@ -966,50 +1319,55 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "readMinutes": 5,
     "ruleIds": [
       "practice-service-contract"
     ],
     "sections": [
       {
-        "heading": "Check contract coverage first",
+        "heading": "First establish what kind of contract you are pricing",
         "paragraphs": [
-          "The Department of Labor’s Service Contract Act guidance addresses covered federal and District of Columbia service contracts performed through service employees, subject to exceptions. For covered contracts over $2,500, applicable wage determinations and fringe benefits matter. A private customer’s tender is not automatically a federal service contract."
+          "The U.S. Department of Labor’s Service Contract Act guidance concerns covered federal and District of Columbia service contracts performed through service employees, subject to exceptions. For covered contracts over $2,500, the applicable wage determination and fringe benefits matter. Coverage cannot be settled from the word “cleaning” or “maintenance” alone.",
+          "Identify the buyer, contract type, place of performance and work to be done. A private customer’s request for bids is not automatically a federal service contract. Equally, where you will work as a subcontractor, do not assume that the relevant contract obligations disappear because another business has the direct agreement with the government. The actual coverage, worker duties and exceptions need to be assessed."
         ],
         "sourceIds": [
           "pr-service-contracts"
         ]
       },
       {
-        "heading": "The budget needs the actual solicitation",
+        "heading": "Obtain the documents that turn a service description into a cost",
         "paragraphs": [
-          "Obtain the solicitation, incorporated clauses, wage determination, job descriptions, place of performance and any predecessor collective bargaining facts. Map actual duties to the relevant classifications. Do not price from a generic national minimum wage or assume a foreign company’s existing hourly rate is relevant."
+          "Ask for the actual solicitation and its incorporated clauses, the relevant wage determination, job descriptions and work locations. Obtain any relevant facts about the predecessor contract and collective bargaining agreement. These are inputs to the coverage and cost review, rather than interchangeable background documents.",
+          "Map what workers will actually do to the relevant classifications in the contract materials. A general title such as “team member” may hide different duties. Use the applicable wage and benefit terms in the model; a generic national minimum wage or the brand’s existing rate overseas does not establish the cost of this particular covered work."
         ]
       },
       {
-        "heading": "Separate obligations from bid conditions",
+        "heading": "Distinguish legal obligations from the buyer’s other conditions",
         "paragraphs": [
-          "An agency or prime contractor may also require insurance, registration, financial capacity, references, security controls and reporting. Record each as a contract/procurement condition or a sourced legal requirement. The label matters because evidence, remedy and responsible role can differ."
+          "A buyer or prime contractor may also ask for insurance, registrations, financial capacity, references, security controls or reporting. Record where each requirement comes from: a sourced legal rule, an incorporated contract term or another procurement condition. That makes it easier to identify the responsible person and the evidence needed.",
+          "The distinction does not mean that a contractual condition can be ignored. It means the team should avoid describing every item in a bid pack as a generally applicable law. Put the document and clause next to each cost or task, and record any uncertainty that could change the promised service or price."
         ]
       },
       {
-        "heading": "Fictional bid review",
+        "heading": "Fictional example: one supervisor, several cleaning sites",
         "paragraphs": [
-          "A fictional cleaning partner expects one supervisor to cover several sites and uses its private-office bid template. The revised schedule must test the actual contract’s labour categories, benefits, staffing periods, travel and reporting. No wage amount is supplied here; without the relevant determination, the bid remains incomplete."
+          "A fictional cleaning partner starts with its private-office bid template. It assumes one supervisor can cover several sites and budgets ordinary cleaner wages. The proposed government work has specific staffing periods, labour categories and reporting requirements. Without the applicable determination and actual duties, the old template cannot establish a reliable bid.",
+          "The bid lead obtains the contract materials, and the payroll lead maps jobs and benefits. The operations lead checks whether the supervisor can travel between sites while meeting the required coverage, and whether travel and reporting time have been included in the cost model. These are practical checks on the planned delivery arrangement; this example supplies no wage figure or staffing permission.",
+          "The finance lead then places wages, benefits and other start-up payments on the dates money will be needed, alongside the expected customer-payment dates. A price that eventually covers costs may still require cash before invoices are paid. If a material wage, benefit or staffing input remains unknown, record the bid as incomplete rather than treating the missing cost as zero."
         ]
       },
       {
-        "heading": "Preparation checklist",
+        "heading": "Produce a checklist that remains useful during delivery",
         "paragraphs": [
-          "Output: a solicitation-to-cost checklist owned by the bid and payroll leads."
+          "Keep a solicitation-to-cost checklist owned jointly by the bid and payroll leads. Link each material labour assumption to the relevant document, job and work location. Coverage and applicable terms matter during performance as well as before the bid commitment."
         ],
         "bullets": [
-          "Record buyer, contract type and place of performance.",
-          "Identify applicable coverage, exceptions and clauses.",
-          "Obtain current wage determination and relevant predecessor facts.",
-          "Map worker duties and price wages, benefits and reporting.",
-          "Test payment timing and start-up funding.",
-          "Do not commit a bid while critical wage or staffing inputs remain unknown."
+          "Record the buyer, contract type, place of performance and proposed worker duties.",
+          "Identify the applicable coverage, exceptions and incorporated clauses.",
+          "Obtain the relevant wage determination and predecessor-contract facts.",
+          "Price the applicable wages, benefits, staffing periods and reporting work.",
+          "Test the dates of start-up payments against expected receipts.",
+          "Resolve critical unknowns before committing to a price."
         ]
       }
     ],
@@ -1018,9 +1376,37 @@
       "pr-finance"
     ],
     "nextStage": 3,
-    "practicalOutput": "Federal service-contract labour-cost review",
+    "practicalOutput": "A solicitation-to-cost checklist connecting coverage, clauses, job duties, wages, benefits and payment timing to named bid and payroll responsibilities.",
     "limitations": [
       "No specific solicitation, wage determination or exemption decision."
-    ]
+    ],
+    "learningSummary": "A cleaning or maintenance business may find that a federal service job costs more to deliver than a similar private-office contract. Covered government service contracts can carry particular wage and benefit obligations, so the customer’s required work and contract documents must come before the price. This guide explains what the bid and payroll teams need to obtain; it does not decide coverage or supply a wage rate for a particular job.",
+    "keyTerms": [
+      {
+        "term": "Service Contract Act (SCA)",
+        "meaning": "The federal service-contract law addressed by the Department of Labor guidance cited here; its coverage and exceptions need checking for the actual contract."
+      },
+      {
+        "term": "Solicitation",
+        "meaning": "The buyer’s request inviting bids or proposals, including its work requirements and incorporated contract terms."
+      },
+      {
+        "term": "Wage determination",
+        "meaning": "The applicable schedule or determination of required wages and fringe-benefit terms for covered work."
+      },
+      {
+        "term": "Fringe benefits",
+        "meaning": "Compensation benefits in addition to the basic wage that must be considered under the applicable terms."
+      },
+      {
+        "term": "Prime contractor",
+        "meaning": "The business contracting directly with the buyer, which may engage other businesses as subcontractors."
+      },
+      {
+        "term": "Collective bargaining agreement",
+        "meaning": "An agreement with employee representatives that may be relevant when reviewing predecessor-contract wage and benefit facts."
+      }
+    ],
+    "contentModifiedAt": "2026-11-13T03:49:20.760Z"
   }
 ]

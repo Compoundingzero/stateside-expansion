@@ -117,3 +117,11 @@ Fifty older v2 hashes and one original v1 hash were exactly reconstructed and na
 Albanian `&euml;`/`&ccedil;` equivalence is restricted to passage comparison; actual extracted text, hashes and normalization version 5 stay intact. Future HTTP-200 extraction failures now retain a bounded actual preview and full raw hash without requiring a raw-directory setting. Nested connection causes and rejected redirects retain sanitized diagnostic evidence; credentials, URL userinfo/query/fragment and private plan data are excluded. These repairs do not weaken network guards or retroactively resolve the 54 original failures. See `FINAL-SOURCE-RUN.md`, `hosted-normalization-review.json`, `hosted-fetch-failure-audit.json` and `DC-review.md` for exact evidence, review scopes and remaining uncertainties.
 
 The final focused editorial suite has 29 passing tests, including comparison-only Albanian entities with unchanged hashes, bounded HTTP-200 failure evidence and redacted nested connection/redirect diagnostics. Structural validation remains at zero errors and review notes. The diagnostic changes have not yet run as a fresh hosted check; they improve future evidence capture and do not turn the existing failed source workflow green.
+
+## Articles for readers new to U.S. rules
+
+The reader-first article standard is now `ARTICLE-STYLE.md`. The user asked for
+more context, definitions and teaching at first-year university level, rather
+than condensed research notes. The published-article revision covers all 278
+existing guides, with individually authored explanations, terminology and worked
+reasoning. Source evidence and dates remain separate from editorial revision dates.

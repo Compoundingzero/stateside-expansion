@@ -1,0 +1,3034 @@
+[
+  {
+    "id": "b3-state2-mt-data",
+    "path": "/states/montana/motor-dealer-data-access/",
+    "title": "Montana motor-dealer data: separate consent from the vendor contract",
+    "description": "Check the specific motor-vehicle dealer definition, data-sharing consent and transition duties before granting supplier or software access.",
+    "family": "state-issue",
+    "topic": "ip-data",
+    "jurisdictions": [
+      "Montana"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state2-mt-data"
+    ],
+    "sourceIds": [
+      "b3-state2-mt-data-717",
+      "b3-state2-mt-data-718",
+      "b3-state2-mt-data-719",
+      "b3-state2-mt-data-720",
+      "b3-state2-mt-motor-def"
+    ],
+    "sections": [
+      {
+        "heading": "The definition changes inside the same statutory part",
+        "paragraphs": [
+          "Montana’s dealer-data provisions use their own definitions in 30-11-717. “Dealer” means the new motor vehicle dealer referenced in 61-4-201, not every construction-equipment retailer covered by other dealership provisions. A standalone repair shop, ordinary service franchise or used-only dealer is not shown to qualify merely by using dealership software. Confirm the actual status first."
+        ]
+      },
+      {
+        "heading": "A brand contract is not the prescribed data consent",
+        "paragraphs": [
+          "For covered third-party access, the law uses prior express written consent in a document separate from other consent, contract or franchise writings, with identified sharing parties and the required scope/duration detail. Section 718 restricts access, use, sharing and specified technical/contractual interference; it also addresses cyber ransom. Record which legal entity is the manufacturer, data vendor, authorised integrator or other third party because the statutory roles differ."
+        ]
+      },
+      {
+        "heading": "Do not confuse the two notice clocks",
+        "paragraphs": [
+          "Section 718 allows the prescribed consent to be revoked or amended on 30 days’ notice without cause and immediately for cause. Sections 719–720 separately address vendor/integrator contract termination on the stated 90-day terms and a secure transition to a successor. A longer software-contract term does not, by itself, answer the separate consent question.",
+          "The transition provisions address usable electronic data, return/deletion according to the dealer’s written directions, recipient lists and audit access. Plan the export format, successor access and lawful retention before a dispute; an account lockout is not an exit plan."
+        ]
+      },
+      {
+        "heading": "Required manufacturer data is a scoped branch",
+        "paragraphs": [
+          "Sections 717(9) and 719 distinguish required manufacturer data and specified permitted purposes from broader protected dealer data. The listed purposes include particular transactions, warranty/recall work, performance and other stated functions. Do not treat all manufacturer access as forbidden or all marketing data as automatically required. Map the fields, purpose, source and legal basis. Section 719 also permits the stated compliant push/submission alternative rather than mandatory direct system access."
+        ]
+      },
+      {
+        "heading": "Fictional decision: the supplier chooses an integrator",
+        "paragraphs": [
+          "Fictional example: a foreign supplier and its Montana new-motor-vehicle dealer use a vendor to exchange warranty and customer information. Before adding a broad customer-marketing feed, the parties identify their roles, separate required manufacturer fields from additional data, document any prescribed consent and plan withdrawal/transition. This example supplies an evidence task, not a conclusion that the feed is lawful."
+        ]
+      },
+      {
+        "heading": "Build the data-access and exit register",
+        "paragraphs": [],
+        "bullets": [
+          "Verify that the dealer and entities fit these provisions’ definitions.",
+          "List data fields, required-manufacturer purposes, recipients and each access method.",
+          "Keep the separate consent, duration and revocation instructions.",
+          "Record vendor-contract notice separately from consent withdrawal.",
+          "Test the successor export format, return/deletion directions, recipient list and audit route.",
+          "Check other privacy/security and retention duties; this state branch does not complete them."
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "Motor-dealer field/role/consent matrix and secure vendor-transition plan",
+    "limitations": [
+      "Montana 30-11-717–720 and referenced motor-dealer definition only; not general franchise-data or construction-equipment law.",
+      "Statutory exceptions and actual roles/purposes require review; no vendor, dataset or transfer is approved."
+    ],
+    "proposalAction": "new-scoped-guide",
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "b2-west-a-nebraska",
+    "path": "/states/nebraska/",
+    "title": "Nebraska: separate the franchise notice from the business-opportunity filing",
+    "description": "Federal-compliant franchise status can change the state filing track, but it does not remove the prior notice.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Nebraska"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-west-a-ne-franchise-notice",
+      "b2-west-a-ne-samp-filing"
+    ],
+    "sections": [
+      {
+        "heading": "An exemption can still require a filing",
+        "paragraphs": [
+          "Nebraska 59-1722 sets a conditional franchise exemption from the Seller-Assisted Marketing Plan Act. The current statute incorporates specified federal provisions as they existed on January 1,2026. It requires notice and a $100 fee before the specified Nebraska-based advertising, offers or representations to Nebraska prospects; some state prohibitions survive."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-exempt"
+        ]
+      },
+      {
+        "heading": "Build the record before the campaign",
+        "paragraphs": [
+          "The notice identifies the seller, contact details, operating name and plan description. The regulator describes the qualifying franchise notice as a one-time filing without renewal, with contact-only amendments treated differently from other changes. Filing acknowledgment does not certify compliance or approve sales statements."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-agency"
+        ]
+      },
+      {
+        "heading": "Fictional example: the foreign training network",
+        "paragraphs": [
+          "A UK training brand prepares a Franchise Disclosure Document (FDD) and schedules recruitment through a Nebraska publication. The expansion lead should identify the selling entity and establish the claimed exemption conditions before treating the campaign as ready. Calling the operator a licensee is not a substitute for that work."
+        ]
+      },
+      {
+        "heading": "The fallback is not the same form",
+        "paragraphs": [
+          "The nonexempt SAMP track includes a disclosure filing, material-change and annual obligations, and purchaser-disclosure timing. Section 59-1732 uses first specified in-person/written communication and a 48 hour commitment period. Those requirements do not replace an independently applicable federal disclosure clock; the team must determine which tracks actually apply."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-def",
+          "b2-west-a-ne-file",
+          "b2-west-a-ne-disclose"
+        ]
+      },
+      {
+        "heading": "The preparation output",
+        "paragraphs": [],
+        "bullets": [
+          "Map Nebraska prospects, publication location, planned communications and first commitments.",
+          "Assign a reviewer to the actual federal-compliance and state-exemption conditions.",
+          "Retain the notice version, fee and acknowledgment before the covered activity.",
+          "Separate a one-time franchise notice from nonexempt SAMP updates and renewals.",
+          "Record unresearched relationship, industry and local issues as open."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-def",
+      "b2-west-a-ne-exempt",
+      "b2-west-a-ne-agency",
+      "b2-west-a-ne-file",
+      "b2-west-a-ne-disclose"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A documented Nebraska filing-track decision and prior-activity release task.",
+    "limitations": [
+      "This page researches the named issue; it is not a complete state franchise or operating-law survey.",
+      "Federal disclosure and any independent state sales, relationship, sector and local duties must be checked for actual parties, places and activities."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-a-nebraska/business-opportunity-earnings-claims",
+    "path": "/states/nebraska/business-opportunity-earnings-claims/",
+    "title": "Nebraska business-opportunity claims need evidence beyond arithmetic",
+    "description": "A spreadsheet showing possible income is not substantiation for the nonexempt SAMP claims rule.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Nebraska"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-west-a-ne-samp-earnings"
+    ],
+    "sections": [
+      {
+        "heading": "Determine the statutory track first",
+        "paragraphs": [
+          "Section 59-1729 addresses earning-potential claims in covered seller-assisted marketing plans. Its application must be read with the franchise exemption and other exclusions. This guide does not apply every SAMP marketing rule automatically to a qualifying exempt franchise."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-claims",
+          "b2-west-a-ne-exempt"
+        ]
+      },
+      {
+        "heading": "Possible arithmetic is not historical evidence",
+        "paragraphs": [
+          "The statute says a computation of sales multiplied by profit per sale is insufficient substantiation. Its required data includes the seller’s selling history, the number and percentage of purchasers forming the representation’s basis, and purchasers known to attain the stated results. Internal scenarios remain distinct from evidence supporting a prospect-facing claim."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-claims"
+        ]
+      },
+      {
+        "heading": "Fictional example: a cleaning account package",
+        "paragraphs": [
+          "A seller presents an assumed number of cleaning accounts multiplied by a guessed margin. The calculation can reveal what assumptions would be needed, but it does not show that comparable purchasers obtained accounts or earned that margin. The evidence file must expose customer retention, travel, labour and owner/manager effort rather than presenting an attractive total alone."
+        ]
+      },
+      {
+        "heading": "Control the release of sales material",
+        "paragraphs": [],
+        "bullets": [
+          "Label an internal model’s currency, period, location and assumptions.",
+          "Preserve the cohort definition, source records and exclusions behind any proposed representation.",
+          "Determine when and how the supporting data must be left with the purchaser.",
+          "Use the applicable seller-identification rule for nonexempt SAMP advertising.",
+          "Assign review before scripts, slides or models reach prospects."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-claims",
+          "b2-west-a-ne-ads"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-claims",
+      "b2-west-a-ne-exempt",
+      "b2-west-a-ne-ads"
+    ],
+    "nextStage": 3,
+    "practicalOutput": "A claims-and-substantiation register with the state filing track stated explicitly.",
+    "limitations": [
+      "This page researches the named issue; it is not a complete state franchise or operating-law survey.",
+      "Federal disclosure and any independent state sales, relationship, sector and local duties must be checked for actual parties, places and activities."
+    ],
+    "dataset": "src/data/batch2-guides.json"
+  },
+  {
+    "id": "b2-west-a-nebraska/franchise-relationship-scope",
+    "path": "/states/nebraska/franchise-relationship-scope/",
+    "title": "Nebraska: a filed franchise notice does not settle the relationship law",
+    "description": "The independent Franchise Practices Act has its own definition, scope and termination conditions.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Nebraska"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-a-ne-relationship-scope"
+    ],
+    "sections": [
+      {
+        "heading": "Research the second state-law test",
+        "paragraphs": [
+          "A Nebraska SAMP notice and the Franchise Practices Act answer different questions. The latter has its own franchise definition and cumulative scope criteria. Its sales figures are criteria for that law, not a general definition of an SME or minimum size for U.S. expansion."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-rel-def",
+          "b2-west-a-ne-rel-scope"
+        ]
+      },
+      {
+        "heading": "A service company must investigate the place of business",
+        "paragraphs": [
+          "The Act defines a fixed place where the franchisee displays and sells goods or offers and sells the franchisor’s services, and expressly excludes an office, warehouse, storage place, residence or vehicle. Whether a proposed operating location meets the actual test requires facts; do not assume that having a state address is sufficient."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-rel-def"
+        ]
+      },
+      {
+        "heading": "Record all three application criteria",
+        "paragraphs": [
+          "Section 87-403 requires the stated Nebraska place of business, gross sales of covered products or services between franchisor and franchisee exceeding $35,000 in the 12 months immediately preceding the institution of suit, and more than 20 percent of the franchisee’s gross sales intended to be or derived from the franchise. Those criteria are cumulative. They are not an annual revenue floor for every business entering Nebraska.",
+          "Section 87-402 has distinct nonalcoholic-beverage wording and excludes petroleum arrangements from its franchise definition. The source also defines franchise fee and good cause. Retain the actual payment and business facts rather than importing the federal definition."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-rel-def",
+          "b2-west-a-ne-rel-scope"
+        ]
+      },
+      {
+        "heading": "Fictional example: a B2B field-service operator",
+        "paragraphs": [
+          "A Dutch service operator works from an office and travels to customer sites. The team records what is sold at or from each location, the branded rights, the relevant payment structure and sales between the parties. It leaves application of the relationship statute pending review rather than copying a conclusion from a retail-shop example."
+        ]
+      },
+      {
+        "heading": "Do not make the notice period universal",
+        "paragraphs": [
+          "87-404 generally combines written notice of reasons at least 60 days in advance with good cause, but includes an abandonment branch and specified grounds with immediate-notice treatment. It also contains noncompetition provisions with separate scope. No proposed termination should be released solely because a generic calendar says 60 days have passed.",
+          "Section 87-404(1) also preserves a contract provision that the franchise is not renewable or is renewable only if stated reasonable conditions are met. A renewal date therefore needs the actual contractual and statutory branch; the good-cause language alone is not a promise of indefinite renewal."
+        ],
+        "sourceIds": [
+          "b2-west-a-ne-rel-end"
+        ]
+      },
+      {
+        "heading": "Evidence for the relationship reviewer",
+        "paragraphs": [],
+        "bullets": [
+          "Actual locations and how customers obtain goods or services.",
+          "Trademark rights, payments and community-of-interest facts.",
+          "The relevant 12 month sales between parties and franchisee sales allocation.",
+          "Contract term, renewal terms, claimed defaults and contemporaneous supporting records.",
+          "Document the applicable statutory branch, agreement conditions and actual notice before termination or enforcement."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-ne-rel-def",
+      "b2-west-a-ne-rel-scope",
+      "b2-west-a-ne-rel-end"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A separate Franchise Practices Act applicability and relationship-action checklist.",
+    "limitations": [
+      "This page researches the named issue; it is not a complete state franchise or operating-law survey.",
+      "Federal disclosure and any independent state sales, relationship, sector and local duties must be checked for actual parties, places and activities."
+    ],
+    "dataset": "src/data/batch2-guides.json"
+  },
+  {
+    "id": "b2-west-a-nevada",
+    "path": "/states/nevada/",
+    "title": "Nevada: do not copy farm-equipment dealer rules into every franchise",
+    "description": "A product-and-parts arrangement may create a relationship workstream beyond the brand agreement.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Nevada"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-a-nv-farm-dealer",
+      "b3-s5-nv-substantial-change"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the defined inventory and agreement",
+        "paragraphs": [
+          "Nevada NRS 597.112–597.118 covers defined farm-equipment dealer relationships. It identifies retail inventory rights, a distribution-system role and substantial dependence on a supplier. Its inventory definition is farm equipment and attachments or repair parts; it is not a general definition covering every maintenance service or software license."
+        ],
+        "sourceIds": [
+          "b2-west-a-nv-dealers"
+        ]
+      },
+      {
+        "heading": "The exit requires more than a contract date",
+        "paragraphs": [
+          "Section 597.1143 addresses good cause and generally requires 180 days written reasons before termination/nonrenewal, with 60 days to correct specified deficiencies. Several listed grounds are treated differently, and market-share failures have an assistance condition. A company should not assume that a broadly drafted contractual termination right answers these statutory questions."
+        ],
+        "sourceIds": [
+          "b2-west-a-nv-dealers"
+        ]
+      },
+      {
+        "heading": "A substantial term change has its own coverage question",
+        "paragraphs": [
+          "NRS 597.1143(1) requires good cause not only for termination or nonrenewal, but also for a substantial change to a covered dealer agreement. Section 597.115(4) addresses those actions because of natural disaster, labor dispute or similar circumstances beyond the dealer’s control. Section 597.118 prohibits waiver or modification of the statutory rights, obligations and liabilities.",
+          "The 180-day notice and 60-day correction provisions in .1143(2)–(3) concern termination and nonrenewal. Do not invent a universal 180-day notice for every amendment. Preserve the actual before-and-after terms and the reason for the proposed action."
+        ],
+        "sourceIds": [
+          "b2-west-a-nv-dealers"
+        ]
+      },
+      {
+        "heading": "Fictional example: a European equipment business",
+        "paragraphs": [
+          "A manufacturer plans a Nevada operator that sells agricultural machines, holds parts and supplies branded servicing. Finance and operations should separately model inventory exposure, warranty responsibilities and continuing parts access. That work differs from licensing a pure consulting service."
+        ]
+      },
+      {
+        "heading": "Keep return values conditional",
+        "paragraphs": [
+          "The chapter has repurchase rules and exclusions involving inventory condition, age and other facts, as well as specified supplier-required systems and tools. The company should retain evidence instead of assuming every inventory or technology cost will be reimbursed. Statutory nonwaiver provisions also deserve review."
+        ],
+        "sourceIds": [
+          "b2-west-a-nv-dealers"
+        ]
+      },
+      {
+        "heading": "Prepare the relationship file",
+        "paragraphs": [],
+        "bullets": [
+          "List actual equipment, parts, suppliers and dealer rights.",
+          "Record inventory purchase dates, condition, catalogue status and invoices.",
+          "Document required systems, tools, warranty work and payment evidence.",
+          "Preserve performance notices, support offered and any proposed cure.",
+          "Assign sector-specific review; leave general franchise sales/filing coverage open until researched."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-nv-dealers"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A farm-equipment dealer-scope decision and inventory/exit evidence checklist.",
+    "limitations": [
+      "This page researches the named issue; it is not a complete state franchise or operating-law survey.",
+      "Federal disclosure and any independent state sales, relationship, sector and local duties must be checked for actual parties, places and activities."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-a-new-hampshire",
+    "path": "/states/new-hampshire/",
+    "title": "New Hampshire: distinguish operator support from a recruitment chain",
+    "description": "A master-network plan needs an evidence-backed compensation design and a separate chain-distributor review.",
+    "family": "state",
+    "topic": "classification",
+    "jurisdictions": [
+      "New Hampshire"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-west-a-nh-chain"
+    ],
+    "sections": [
+      {
+        "heading": "Map what each new participant buys and earns",
+        "paragraphs": [
+          "New Hampshire RSA 358-B defines and prohibits a particular chain-distributor sales device. The definition concerns required investment plus recruiting rights for economic gain, passed to further participants. It expressly says a cap on participant numbers or additional eligibility conditions does not itself change the identity of the scheme."
+        ],
+        "sourceIds": [
+          "b2-west-a-nh-chain"
+        ]
+      },
+      {
+        "heading": "Do not classify by the master label",
+        "paragraphs": [
+          "A master operator may have genuine recruitment and continuing support responsibilities. The legal question is the actual sales device and compensation structure, not whether the agreement uses the word master, license or representative. Record payments for customer delivery separately from payments tied to further recruitment."
+        ]
+      },
+      {
+        "heading": "Fictional example: a technical-services network",
+        "paragraphs": [
+          "A foreign brand proposes a regional partner paid when new operators join. Each operator is encouraged to buy rights to recruit more operators. The board should ask whether the economic engine is service to customers or successive participation payments, then document the complete facts for the statutory review. This scenario does not decide that a particular arrangement is unlawful."
+        ]
+      },
+      {
+        "heading": "Prepare the compensation-and-delivery map",
+        "paragraphs": [],
+        "bullets": [
+          "Show every required upfront and continuing payment and its recipient.",
+          "Identify which participants receive recruiting rights and what conditions apply.",
+          "Separate customer-contract income from participant-recruitment income.",
+          "Cost actual training, field support and quality duties at each level.",
+          "Review the full scheme before offers; do not rely on a territory cap as an exemption."
+        ]
+      },
+      {
+        "heading": "Coverage is intentionally narrow",
+        "paragraphs": [
+          "This chapter is not a complete franchise filing, disclosure or relationship-law survey. Federal franchise disclosure, New Hampshire consumer-protection law and industry dealer rules remain independent workstreams. An unknown filing column is not a finding that nothing applies."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-nh-chain"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A recruitment compensation map with a named scheme-review task.",
+    "limitations": [
+      "This page researches the named issue; it is not a complete state franchise or operating-law survey.",
+      "Federal disclosure and any independent state sales, relationship, sector and local duties must be checked for actual parties, places and activities."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-a-new-hampshire/equipment-dealer-scope",
+    "path": "/states/new-hampshire/equipment-dealer-scope/",
+    "title": "New Hampshire: an industrial-equipment partner needs a dealer-law screen",
+    "description": "The title of the motor-vehicle chapter does not tell you whether an equipment or authorised-service arrangement is covered.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "New Hampshire"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-west-a-nh-equipment-scope"
+    ],
+    "sections": [
+      {
+        "heading": "Read the definition beyond the chapter title",
+        "paragraphs": [
+          "RSA 357-C includes specified farm, utility, forestry, industrial, construction, yard and garden equipment within its defined framework. The actual seller and service arrangements matter. The chapter also defines certain service rights and identifies exceptions, including a specified single-line equipment dealer category."
+        ],
+        "sourceIds": [
+          "b2-west-a-nh-vehicle"
+        ]
+      },
+      {
+        "heading": "Keep sales and service rights separate",
+        "paragraphs": [
+          "The COO should record who can sell the equipment, who performs authorised service, whose trademarks are used and whether the business relies on continuing parts or supply. A service-only agreement for fleet, government or rental vehicles has express treatment in the definitions; do not assume every repair arrangement is the same."
+        ],
+        "sourceIds": [
+          "b2-west-a-nh-vehicle"
+        ]
+      },
+      {
+        "heading": "Fictional example: an industrial maintenance brand",
+        "paragraphs": [
+          "A European maintenance business wants its first operator to sell one equipment line and perform the manufacturer’s authorised warranty work. The team should test whether the state dealer chapter applies before relying solely on a generic service license. Its training and spare-parts commitments may also create costs absent from the service-only model."
+        ]
+      },
+      {
+        "heading": "Plan the relationship before the exit",
+        "paragraphs": [
+          "The chapter contains good-faith, good-cause, notice and protest provisions for covered relationships. The complete 357-C:7 route must be reviewed for the event in question; this guide does not supply a universal notice period or determine an operator’s right to compensation."
+        ],
+        "sourceIds": [
+          "b2-west-a-nh-vehicle"
+        ]
+      },
+      {
+        "heading": "Prepare a dealer-scope worksheet",
+        "paragraphs": [],
+        "bullets": [
+          "Equipment and component descriptions, with actual uses.",
+          "Sales, distribution, service and warranty rights by entity.",
+          "Inventory-supplier concentration and any statutory single-line exception facts.",
+          "Customer types and any fleet/government/rental service limitation.",
+          "Proposed changes, termination grounds and source-backed review task."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-nh-vehicle"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A product-and-service-specific dealer-law applicability worksheet.",
+    "limitations": [
+      "This page researches the named issue; it is not a complete state franchise or operating-law survey.",
+      "Federal disclosure and any independent state sales, relationship, sector and local duties must be checked for actual parties, places and activities."
+    ],
+    "dataset": "src/data/batch2-guides.json"
+  },
+  {
+    "id": "b2-west-a-new-jersey",
+    "path": "/states/new-jersey/",
+    "title": "New Jersey: a B2B office or warehouse needs a franchise-relationship screen",
+    "description": "The place-of-business inquiry has a B2B branch; calling the arrangement distribution does not finish it.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "New Jersey"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-west-a-nj-b2b-scope"
+    ],
+    "sections": [
+      {
+        "heading": "A retail-shop assumption can miss the B2B facts",
+        "paragraphs": [
+          "The enacted amendment to New Jersey’s Franchise Practices Act expressly addresses businesses that do not make a majority of sales directly to consumers. Its place-of-business wording includes qualifying offices or warehouses from which personnel visit or call customers or goods are delivered. This is a reason to investigate the actual operation, not a conclusion that every warehouse qualifies."
+        ],
+        "sourceIds": [
+          "b2-west-a-nj-amendment"
+        ]
+      },
+      {
+        "heading": "The wider relationship still matters",
+        "paragraphs": [
+          "The Act’s definition addresses a written arrangement, licensed brand characteristics and a community of interest. A 2025 federal district-court opinion discusses why a self-described distribution label does not resolve those facts. That opinion was testing pleaded allegations, not making final findings of fact; it is used here for a bounded preparation lesson."
+        ],
+        "sourceIds": [
+          "b2-west-a-nj-amendment",
+          "b2-west-a-nj-otg"
+        ]
+      },
+      {
+        "heading": "Fictional example: a technical-service network",
+        "paragraphs": [
+          "A Dutch equipment-support business appoints an operator whose staff call on industrial customers from a New Jersey office. Before granting or withdrawing branded rights, the team records the sales process, office use, customer-facing identity and investment tied to the brand. A generic note saying no retail outlet is not sufficient evidence of nonapplication."
+        ]
+      },
+      {
+        "heading": "Prepare a separate state-law fact pack",
+        "paragraphs": [],
+        "bullets": [
+          "What is sold, where it is offered and how customers interact with the operator.",
+          "Whether most sales go directly to consumers or to business buyers.",
+          "Brand rights, course of dealing and investment useful mainly within the relationship.",
+          "Actual place-of-business facts and sales/application criteria for review.",
+          "The current statute version, any industry rules and a named reviewer before a relationship action."
+        ]
+      },
+      {
+        "heading": "What remains unresolved",
+        "paragraphs": [
+          "The current legislature LIS codification endpoint returned an error during review. The enacted amendment and the cited 2025 primary opinion were read, but this page does not certify the complete 2026 Act or decide a relationship’s legal status. Registration, notice, disclosure and advertising requirements remain separate research questions."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-nj-amendment",
+      "b2-west-a-nj-otg"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A B2B location-and-relationship factsheet with an explicit current-codification review dependency.",
+    "limitations": [
+      "Current full New Jersey codification could not be retrieved; publication is limited to the identified enacted amendment and primary judicial explanation.",
+      "No definitive 2026 eligibility, filing or termination conclusion is made."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-a-new-mexico",
+    "path": "/states/new-mexico/",
+    "title": "New Mexico: verify enactment before using a termination template",
+    "description": "The 2026 Franchise Termination Changes proposal died; its proposed deadlines cannot supply today’s checklist.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "New Mexico"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "b2-west-a-nm-bill-status"
+    ],
+    "sections": [
+      {
+        "heading": "A published bill is not an operating rule",
+        "paragraphs": [
+          "New Mexico’s official 2026 SB 115 status page lists the proposal as Died (API), with action postponed indefinitely. The introduced document and its analysis discuss expanded equipment definitions and termination protections, but those proposals did not become law through that bill."
+        ],
+        "sourceIds": [
+          "b2-west-a-nm-2026",
+          "b2-west-a-nm-fir"
+        ]
+      },
+      {
+        "heading": "Keep the proposed deadline out of the launch plan",
+        "paragraphs": [
+          "A legislative analysis can describe when a measure would take effect if enacted. That conditional date is not proof that enactment occurred. The 2026 Fiscal Impact Report also says similar 2023 and 2025 proposals were not enacted. A copied notice period from one of those texts would give management an unsupported release condition."
+        ],
+        "sourceIds": [
+          "b2-west-a-nm-fir",
+          "b2-west-a-nm-2026"
+        ]
+      },
+      {
+        "heading": "Fictional example: an equipment-service supplier",
+        "paragraphs": [
+          "A European machinery business finds a 2026 bill online and adds its proposed supplier-notice period to a U.S. dealer template. The corrected task is to identify the currently enacted statute, its equipment/dealer scope, the actual agreement and any applicable federal rule before issuing a notice. No current notice period is inferred from the failed proposal."
+        ]
+      },
+      {
+        "heading": "Create an enactment-and-applicability record",
+        "paragraphs": [],
+        "bullets": [
+          "Save the exact bill, version, session and official final status.",
+          "Separate introduced text, legislative analysis, enacted chapter and current codification.",
+          "Record the actual products, dealer rights, parties and planned relationship action.",
+          "Assign retrieval and review of the current Franchise Termination Act before relying on a template.",
+          "Keep registration, disclosure, other dealer laws and local operating requirements as independent open workstreams."
+        ]
+      },
+      {
+        "heading": "Coverage limit",
+        "paragraphs": [
+          "This guide verifies a high-consequence source-status distinction. It does not represent that the current codified Act was retrieved or that general franchise sales requirements are absent. The legal matrix leaves those questions unresolved instead of translating source gaps into permission to proceed."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-a-nm-2026",
+      "b2-west-a-nm-fir"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A bill-status audit and a task to obtain the applicable enacted relationship rules.",
+    "limitations": [
+      "Current statutory coverage remains unresolved; the guide establishes the cited proposal’s non-enactment only.",
+      "No conclusion is made about general franchise filings, existing dealer protections or any termination’s validity."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-new-york",
+    "path": "/states/new-york/",
+    "title": "New York: separate sale meetings, material changes and annual renewal",
+    "description": "New York’s current registration guide ties annual renewal submissions to 120 days after fiscal year end and gives advertising its own lead time.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "New York"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 6,
+    "ruleIds": [
+      "ny-renewal",
+      "ny-advertising",
+      "b3-state3-ny-inputs",
+      "b3-state3-ny-addendum",
+      "b3-state3-ny-changes"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the state’s actual model and sales facts",
+        "paragraphs": [
+          "The Attorney General says offerings must be registered before franchises are offered or sold in or from New York unless an exemption applies. Current GBL 681(3) has two alternative franchise branches: a substantially prescribed marketing plan plus a required direct or indirect fee, or substantial association with the designated commercial symbol plus that fee. It does not require both plan and symbol elements in every covered arrangement.",
+          "Section 681 separately defines fee exclusions, area and subfranchise roles, uninterrupted renewals and territorial connections. Part 200.1 supplies further fee and advice/training meanings. Map the actual seller, rights, payments, support, offer/acceptance and operating facts before applying a branch or exemption. This guide determines no actual classification or exemption."
+        ],
+        "sourceIds": [
+          "b3-state3-ny-definition-recovered",
+          "b3-state3-ny-regulations",
+          "b3-state3-ny-overview"
+        ]
+      },
+      {
+        "heading": "Use the company’s fiscal calendar",
+        "paragraphs": [
+          "The Attorney General’s guide directs renewal submissions annually within 120 days after the franchisor’s fiscal year end. It distinguishes a timely pending renewal from an expired registration. If registration expires, the guide says no covered offers or sales within or from New York until the renewal is submitted and accepted for filing."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "The renewal is a management reporting task",
+        "paragraphs": [
+          "The guide asks for the updated FDD, changes marked against the registered version, accountant consent and annual information about franchise sales, prices, credit terms and audited financial statements. Finance and sales operations both hold needed evidence. Start with an accountable owner and internal preparation dates, not a reminder on the last permissible day."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "Advertising has a separate schedule",
+        "paragraphs": [
+          "The same guide calls for two copies of franchise advertising through NASAA FRED at least seven days before intended use. A timely renewal submission does not itself establish that the new recruitment campaign has met its advertising task."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "Fictional example: a UK training network",
+        "paragraphs": [
+          "The franchisor’s fiscal year ends before the commercial team’s busiest recruitment period. The CFO records the year-end renewal deadline; the expansion director separately records campaign publication and advertising-submission dates. If the registration lapses, the team records the affected activity and the conditions for resuming it rather than assuming the website can continue selling."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "A meeting can be earlier than the planned signature",
+        "paragraphs": [
+          "GBL 683(8) requires the offering prospectus and proposed agreements at the earliest of the first personal meeting, at least ten business days before a binding franchise or other agreement, or at least ten days before receipt of consideration. It defines the covered first face-to-face meeting by its purpose of discussing a franchise sale or possible sale.",
+          "The currently linked AG addendum, revised April 2, 2024, instead uses ten-business-day phrasing alongside agreement execution or related payment. Preserve that literal source difference and the independent federal 14-calendar-day requirement. Do not silently replace the statute’s ten-day payment wording with ten business days or use the federal signature countdown as the only meeting/payment gate. Record actual documents, meetings, delivery, signatures and money before applying the requirements."
+        ],
+        "sourceIds": [
+          "b3-state3-ny-disclosure-recovered",
+          "b3-state3-ny-addendum"
+        ]
+      },
+      {
+        "heading": "A material change is not just an annual-report item",
+        "paragraphs": [
+          "Part 200.5 requires prompt notification by application to amend for material prospectus changes. Its examples include fees and specified significant adverse business, obligation, agreement and product/model changes, as well as the stated financial information. Keep a change register and affected versions independently of the 120-day annual process. Current filing guidance controls the submission channel."
+        ],
+        "sourceIds": [
+          "b3-state3-ny-regulations",
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "Do not let side papers erase the preserved-rights review",
+        "paragraphs": [
+          "GBL 687(4)–(5) separately addresses waiver of statutory compliance and required release, assignment, novation, waiver or estoppel relieving a statutory duty or liability. The actual text and signing context matter; these provisions are not a conclusion about every later negotiated settlement.",
+          "The current addendum addresses preservation of applicable statutory rights for renewal/transfer and choice clauses, and says commencement questionnaires/acknowledgments cannot have the stated claim-waiver or reliance-disclaimer effect. Compare the whole signing package with the actual addendum and applicable law. These provisions are not an automatic ruling on every negotiated dispute or every future termination."
+        ],
+        "sourceIds": [
+          "b3-state3-ny-addendum",
+          "b3-state3-ny-rights-recovered"
+        ]
+      },
+      {
+        "heading": "Output for the board pack",
+        "paragraphs": [],
+        "bullets": [
+          "Fiscal year-end date and calculated review deadline.",
+          "Named owner for audited statements and sales/credit information.",
+          "Registered and proposed FDD versions with change log.",
+          "Advertising inventory, submitted versions and intended-use dates."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-ny-guide",
+      "b3-state3-ny-overview",
+      "b3-state3-ny-regulations",
+      "b3-state3-ny-addendum",
+      "fed-timing",
+      "b3-state3-ny-definition-recovered",
+      "b3-state3-ny-disclosure-recovered",
+      "b3-state3-ny-rights-recovered"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A fiscal-year-based renewal checklist and a separate advertising register.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-new-york-advertising",
+    "path": "/states/new-york/franchise-advertising/",
+    "title": "When should a New York franchise advertisement be submitted?",
+    "description": "Treat a recruitment campaign as a versioned filing task with a seven-day lead time.",
+    "family": "state-issue",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "New York"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "ny-advertising"
+    ],
+    "sections": [
+      {
+        "heading": "The direct answer",
+        "paragraphs": [
+          "New York’s current Attorney General guide requires two copies of advertising used in offering or selling franchises, submitted through NASAA FRED at least seven days before intended use. Identify the exact material, channel, sponsor and date before starting the clock."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "Fictional campaign handoff",
+        "paragraphs": [
+          "A French training brand’s marketing agency edits a recruitment landing page after counsel reviews a PDF. The operations team should compare the actual proposed advertisement with the submitted version and record whether the change requires another review or filing. An approval of a different version does not establish the status of the live one."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "Build a campaign evidence record",
+        "paragraphs": [],
+        "bullets": [
+          "Campaign ID and exact document/screenshot version.",
+          "Targeted audience and jurisdiction facts.",
+          "Intended first-use date.",
+          "Submission copies, date and receipt.",
+          "Responsible editor and source of any earnings claim.",
+          "Final check against the version scheduled for publication."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      },
+      {
+        "heading": "Limits",
+        "paragraphs": [
+          "This is the advertising submission rule described by the agency, not an automated decision about whether every communication is a franchise advertisement. Registration, exemption and disclosure remain distinct."
+        ],
+        "sourceIds": [
+          "state-ny-guide"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-ny-guide"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A version-controlled campaign record.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state-guide-ny-wage-scope",
+    "path": "/states/new-york/wage-region-and-industry/",
+    "title": "New York wage planning: select the region, industry and payroll period",
+    "description": "The dated 2026 posters distinguish regional rates and building-service arrangements. A statewide rate or a cleaning label is not enough.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "New York"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-ny-2026-region-industry-wage"
+    ],
+    "sections": [
+      {
+        "heading": "Use the actual work location and a dated source",
+        "paragraphs": [
+          "NYDOL’s miscellaneous-industry and building-service posters for January 1 through December 31, 2026 show $17 per hour in New York City, Long Island and Westchester County, and $16 in the rest of the state. An Albany worksite and a Westchester worksite therefore require different regional entries even when the same company supplies staff."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf"
+        ]
+      },
+      {
+        "heading": "Identify the wage order before copying a cleaning budget",
+        "paragraphs": [
+          "The building-service poster separately addresses residential janitor pay by unit or weekly salary and includes a residential-janitor overtime exception. The miscellaneous poster has its own extra-pay and credit notes. A commercial cleaning business should establish the actual industry and role rather than apply a residential janitor provision merely because a person cleans buildings.",
+          "The posters also flag matters beyond an hourly minimum, including overtime, uniform maintenance and, where applicable, call-in pay or spread of hours. The miscellaneous poster says no tip credit is available; do not import a restaurant’s hospitality credit into a different wage order. This guide does not decide any overtime exemption."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf"
+        ]
+      },
+      {
+        "heading": "Fictional example: the same service in two regions",
+        "paragraphs": [
+          "A business budgets 30 covered hours each week for a worker at a Westchester office and another worker at an Albany office. Using only the cited general 2026 hourly floors gives $510 and $480 in weekly base wages respectively, before other required pay and employer costs. The $30 difference is a planning illustration, not a complete payroll estimate or permission to ignore the correct wage order."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf"
+        ]
+      },
+      {
+        "heading": "Keep the 2027 announcement separate from a proposal",
+        "paragraphs": [
+          "As read for this review, the NYDOL overview displays a 2027 table and announces that the standard $17/$16 rates will stay unchanged under an off-ramp. It separately announces a home-care increase and describes a Governor’s proposal to alter the off-ramp provisions. An announced administrative explanation and a legislative proposal are different evidence. Use the dated 2026 posters for 2026 work and recheck enacted law and current agency guidance before 2027 payroll."
+        ],
+        "sourceIds": [
+          "b3-state-ny-minimum",
+          "b3-state-ny-wage-pdf"
+        ]
+      },
+      {
+        "heading": "What the payroll owner should retain",
+        "paragraphs": [],
+        "bullets": [
+          "Actual worksite, geographic region and payroll period.",
+          "Industry wage order and actual worker category, including any residential-janitor facts.",
+          "Dated rate source and the review of overtime, uniforms, call-in pay, spread of hours and any claimed credit.",
+          "Separate employer taxes, insurance, benefits and other operating costs from base wages.",
+          "Unresolved category or exemption questions assigned to a named reviewer before relying on a lower figure."
+        ],
+        "sourceIds": [
+          "b3-state-ny-wage-pdf",
+          "b3-state-ny-building-pdf",
+          "b3-state-ny-minimum"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-ny-wage-pdf",
+      "b3-state-ny-building-pdf",
+      "b3-state-ny-minimum"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A worksite-by-worksite payroll sheet with the correct region, industry order, worker category, rate period and extra-pay questions.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ],
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "b2-west-north-carolina",
+    "path": "/states/north-carolina/",
+    "title": "North Carolina: a registered mark does not settle every business-opportunity trigger",
+    "description": "Check the promise, the U.S. mark and the communication plan before deciding whether a filing branch applies.",
+    "family": "state",
+    "topic": "classification",
+    "jurisdictions": [
+      "North Carolina"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-nc-definition",
+      "b2-west-nc-filing",
+      "b2-west-nc-disclosure"
+    ],
+    "sections": [
+      {
+        "heading": "Review each definition limb",
+        "paragraphs": [
+          "North Carolina Article 19 covers specified arrangements for starting a business, tied to placement of vending machines or similar devices, purchases of products made by the buyer, income/refund promises, or a sales/marketing programme. Its federally registered-mark exception is in the marketing-programme limb of §66-94(4). It does not erase the other listed representations. A foreign registration or pending application should not be substituted for the stated U.S. registration condition."
+        ],
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
+      },
+      {
+        "heading": "Filing is separate from delivery to the purchaser",
+        "paragraphs": [
+          "For a covered business opportunity, §66-97 requires filing before advertising or other representations to prospective purchasers in the state. Update for material changes and at least annually. The responsible-seller exemption in §66-94.1 has its own conditions and sworn filing; a company’s good reputation does not establish those conditions."
+        ],
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
+      },
+      {
+        "heading": "Fictional example: a cleaning-account programme",
+        "paragraphs": [
+          "A Singapore brand has a registered U.S. service mark and promises customer accounts plus an income guarantee. The COO must describe exactly what is supplied and guaranteed. The guarantee needs its own analysis; account assistance does not by itself establish the separate vending-device placement trigger. Finance should assess any related bond or trust requirement."
+        ]
+      },
+      {
+        "heading": "Build two delivery calendars",
+        "paragraphs": [
+          "Section 66-95 requires the covered state disclosure at least 48 hours before the earlier signature or receipt of consideration. It allows a materially compliant federal FDD as one content route. That does not shorten any independently applicable federal 14-calendar-day requirement. Retain the actual versions, delivery evidence and earliest commitment dates."
+        ],
+        "sourceIds": [
+          "b2-west-nc-article19"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "IP lead: retain the actual U.S. mark registration and licensing scope.",
+          "COO: inventory marketing, device-placement, buy-back, refund and income promises.",
+          "Company secretary: document the classification or exemption rationale and filing receipt.",
+          "Sales lead: map the first advertisement, other representations, signature and payment.",
+          "Finance: own statement, guarantee and renewal evidence."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-nc-article19"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A four-trigger factsheet and filing/disclosure calendar.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-north-dakota",
+    "path": "/states/north-dakota/",
+    "title": "North Dakota: update renewal timing and remove outdated addendum assumptions",
+    "description": "North Dakota’s current agency page gives a pre-expiry renewal deadline and a specific April 2026 change to its FDD addendum practice.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "North Dakota"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 6,
+    "ruleIds": [
+      "nd-renewal",
+      "b3-state3-nd-scope",
+      "b3-state3-nd-process",
+      "b3-state3-nd-waiver"
+    ],
+    "sections": [
+      {
+        "heading": "Classify the agreement and the state-connected offer",
+        "paragraphs": [
+          "Section 51-19-02 covers the stated marketing-plan/system, commercial-symbol and direct/indirect fee combination, including area-franchise scope. Required goods/services can matter, while the wholesale-goods exclusion has a reasonable-quantity condition. The same section defines state-connected offers/acceptances and distinguishes uninterrupted renewals/extensions in its offer/sale definition. That contract-renewal qualification does not cancel registration-renewal duties."
+        ],
+        "sourceIds": [
+          "b3-state3-nd-law"
+        ]
+      },
+      {
+        "heading": "A filed application is not the final effectiveness event",
+        "paragraphs": [
+          "Section 51-19-03 requires registration or an applicable exemption before a covered offer/sale. Under 51-19-07, no stop order plus filing and entry by the Commissioner into the register are relevant to effectiveness. Material changes require prompt written amendment notification; approved amendments take effect on the Commissioner’s date. Conditional fee escrow/impoundment or a surety alternative also has its own statutory/actual-order facts."
+        ],
+        "sourceIds": [
+          "b3-state3-nd-law"
+        ]
+      },
+      {
+        "heading": "Set the renewal work before the expiry date",
+        "paragraphs": [
+          "The agency directs renewal no later than fifteen business days before registration expires unless the commissioner waives the period. It describes a twelve-month registration period unless an order or rule says otherwise. A same-day expiry reminder does not provide the required preparation window."
+        ],
+        "sourceIds": [
+          "state-nd-info"
+        ]
+      },
+      {
+        "heading": "A changed form requirement is not deregulation",
+        "paragraphs": [
+          "The page expressly states that from April 1, 2026 a state-specific FDD addendum is no longer required. This is a narrow document change. The registration, financial review, disclosure and amendment tasks do not disappear. A source change should flag dependent pages and templates for editorial review rather than automatically rewriting every obligation."
+        ],
+        "sourceIds": [
+          "state-nd-info"
+        ]
+      },
+      {
+        "heading": "Fictional example: a Netherlands maintenance network",
+        "paragraphs": [
+          "The team reuses last year’s filing checklist. The coordinator finds the agency’s dated addendum notice, marks that template item for revision and preserves the reviewed prior version. The renewal owner separately checks the FDD, changes marked against the prior version, accountant consent, seller forms and advertising not previously filed."
+        ],
+        "sourceIds": [
+          "state-nd-info"
+        ]
+      },
+      {
+        "heading": "Assign the evidence",
+        "paragraphs": [],
+        "bullets": [
+          "Effective registration and expiry dates from the actual record.",
+          "Business-day renewal deadline with any written waiver.",
+          "Current filing instructions and a reviewed checklist revision.",
+          "Financial-assurance condition if applicable.",
+          "Material-change reporting owner and document-version log."
+        ],
+        "sourceIds": [
+          "state-nd-info"
+        ]
+      },
+      {
+        "heading": "Keep disclosure, receipts and contract rights separate",
+        "paragraphs": [
+          "Section 51-19-08(6) has its stated seven-day prospectus/agreement delivery rule before the earlier agreement or consideration, a signed receipt and three-year receipt retention. The applicable federal 14-calendar-day rule remains independent; the state text does not shorten it. Section 51-19-16(7) separately makes purported waiver of compliance with the chapter/rules/orders void. This is a named anti-waiver provision, not a full decision on all termination, renewal or sector protections."
+        ],
+        "sourceIds": [
+          "b3-state3-nd-law",
+          "fed-timing"
+        ]
+      },
+      {
+        "heading": "Do not repeat the agency’s national state count",
+        "paragraphs": [
+          "The source contains a broad count of registration states. This site does not reuse it as a national legal classification. Notice filing, merit review, exemptions and relationship laws are recorded independently for each jurisdiction."
+        ],
+        "sourceIds": [
+          "state-nd-info"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-nd-info",
+      "b3-state3-nd-law",
+      "fed-timing"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A current North Dakota renewal checklist and traceable April 2026 template revision.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-ohio",
+    "path": "/states/ohio/",
+    "title": "Ohio: FTC-compliant disclosure does not settle every state obligation",
+    "description": "Separate the state FTC-compliance exemption from the guarantee and buy-back provisions that survive it.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Ohio"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-oh-exemption",
+      "b2-west-oh-default-clock"
+    ],
+    "sections": [
+      {
+        "heading": "Read the exception to the exemption",
+        "paragraphs": [
+          "Ohio §1334.13 exempts materially FTC-compliant transactions from most of the Business Opportunity Plans chapter. Its opening words preserve §1334.03(H) and §1334.04. Those provisions address representations that a payment or note is secured, or that a buy-back arrangement exists, and related bond or trust requirements."
+        ],
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
+      },
+      {
+        "heading": "Classification still needs the complete facts",
+        "paragraphs": [
+          "Section 1334.01 has a state definition involving supplied goods or services, payment conditions and specified representations. Its payment analysis is separate from the federal minimum-payment exemption. Section 1334.12 contains other exceptions; §1334.14 places proof of an exemption or exception on its claimant in cases under §§1334.08 or 1334.09."
+        ],
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
+      },
+      {
+        "heading": "Fictional example: an equipment-backed service network",
+        "paragraphs": [
+          "A European technical-services brand gives a prospect an FDD and says the startup payment is fully secured because the brand will repurchase equipment if the unit closes. Finance should preserve the wording, the buy-back document and who made the promise. Completed federal disclosure does not resolve the surviving Ohio branch."
+        ]
+      },
+      {
+        "heading": "If the exemption is not established",
+        "paragraphs": [
+          "For a covered nonexempt plan, the chapter contains its own disclosure, claim-substantiation, contract and cancellation rules. The basic disclosure period is ten business days before agreement; Ohio defines business day by excluding Sunday and legal holidays. Do not silently use a Monday–Friday counter. Cancellation under §1334.05 is a separate conditional process, not a universal franchise cancellation right."
+        ],
+        "sourceIds": [
+          "b2-west-oh-chapter1334"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Preserve security, refund and buy-back promises in writing.",
+          "Assign finance to document bond/trust applicability and any required amount.",
+          "Retain evidence of FTC compliance and the exact Ohio exception.",
+          "If covered and nonexempt, build a reviewed disclosure calendar and contract-notice file.",
+          "Keep equipment-dealer and other industry relationship statutes as separate checks."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-oh-chapter1334"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "An exemption rationale plus a guarantee/buy-back evidence pack.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-oklahoma",
+    "path": "/states/oklahoma/",
+    "title": "Oklahoma: distinguish the disclosure exemption from registration and advertising",
+    "description": "Use the actual exemption text and the offer-location rules before deciding which filing process applies.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Oklahoma"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-ok-exemption",
+      "b2-west-ok-registration",
+      "b2-west-ok-advertising"
+    ],
+    "sections": [
+      {
+        "heading": "Choose and document the route",
+        "paragraphs": [
+          "The Oklahoma Business Opportunity Sales Act prohibits covered offers or sales without registration or an exemption. Section 803(6) provides a disclosure-based exemption for specified business opportunities or franchises when the stated document is delivered 14 calendar days before the earlier binding agreement or consideration. It exempts §§806–811, rather than the entire Act."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
+      },
+      {
+        "heading": "Do not replace the state definition with the federal test",
+        "paragraphs": [
+          "Section 802 contains state definitions of business opportunity, franchise and marketing plan. Account-finding and training promises can be relevant facts. A separate registered-mark/net-worth exclusion has additional conditions; mark registration alone is insufficient. Section 805 assigns the burden of proving an exemption, exclusion or exception to its claimant."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
+      },
+      {
+        "heading": "Fictional example: an industrial-services campaign",
+        "paragraphs": [
+          "A Dutch brand prepares an FDD and expects responses in Oklahoma for a proposed operation nearby. The expansion lead should map offer origin and receipt, acceptance, domicile and operating location under §818. Finance must list early commitments and payments. An internet campaign needs analysis of its actual communications, rather than an invented blanket rule about discovery calls."
+        ]
+      },
+      {
+        "heading": "Registration and advertising are independent tasks",
+        "paragraphs": [
+          "For the registration route, §807 describes a complete filing, effectiveness normally after 15 full business days absent the stated orders/proceedings, and a one-year duration. Sections 819–822 address fraud and misleading claims, including portraying filing as approval. The current administrative advertising-filing rule could not be confirmed because the agency site failed; that task remains unresolved."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Legal reviewer: identify the exact definition and exemption paragraph, and what survives it.",
+          "Sales coordinator: retain document version, recipient, delivery and earliest commitment.",
+          "Company secretary: confirm completeness, effectiveness and renewal if registration applies.",
+          "Marketing lead: retain claim substantiation and a separate advertising-rule review.",
+          "Expansion lead: preserve the parties and offer/acceptance locations."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-ok-title71"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "An Oklahoma transaction map, route rationale and independent advertising task.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "contentModifiedAt": "2026-11-13T01:42:57.352694+00:00",
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-oregon",
+    "path": "/states/oregon/",
+    "title": "Oregon: no franchise filing approval does not remove disclosure",
+    "description": "Oregon DFR expressly distinguishes its disclosure and recordkeeping rules from states that approve franchise filings before a sale.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Oregon"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "or-disclosure",
+      "b3-state4-or-renewal"
+    ],
+    "sections": [
+      {
+        "heading": "A narrow answer to a common question",
+        "paragraphs": [
+          "Oregon DFR says it does not require franchisors to file franchise documents and obtain approval before a franchise sale. The same official page says disclosure must be provided at least 14 days before signing a contract or paying money. The absence of this filing process does not mean the offering is outside state law."
+        ],
+        "sourceIds": [
+          "state-or-franchise"
+        ]
+      },
+      {
+        "heading": "Build the evidence trail",
+        "paragraphs": [
+          "DFR also identifies complete books, records and franchise-sale details, including distribution of proceeds. A sales manager should retain which disclosure and agreements were sent, to whom, when, and what money was received. Finance should be able to reconcile proceeds to the transaction."
+        ],
+        "sourceIds": [
+          "state-or-franchise"
+        ]
+      },
+      {
+        "heading": "Fictional example: an Irish IT services business",
+        "paragraphs": [
+          "The team selects Oregon for customer interviews and later considers a branded operator. Its launch worksheet originally contains “registration: none” and no other sales-law tasks. The corrected worksheet records the narrow filing answer and adds the disclosure delivery, document-version and sale-record tasks. Customer procurement, tax nexus and employment remain separate questions."
+        ],
+        "sourceIds": [
+          "state-or-franchise"
+        ]
+      },
+      {
+        "heading": "What this source does and does not establish",
+        "paragraphs": [
+          "The page identifies ORS Chapter 650 and OAR Chapter 441 Division 325, complaint handling and a private civil remedy. It does not establish that every distribution, licensing, professional-services or business-opportunity model has the same outcome. State applicability still depends on the actual facts."
+        ],
+        "bullets": [
+          "Record the model and relevant Oregon connections.",
+          "Keep the 14-day disclosure clock separate from operational opening milestones.",
+          "Assign retention and proceeds-reconciliation responsibility.",
+          "Leave unresearched local and sector duties marked unknown."
+        ],
+        "sourceIds": [
+          "state-or-franchise"
+        ]
+      },
+      {
+        "heading": "Use the actual definition and state connections",
+        "paragraphs": [
+          "The 2025 official text of 650.005 describes a marketing-plan, brand and valuable-consideration franchise test and defines a franchisor as a person, including a subfranchisor, who sells a franchise for $100 or more to a franchisee or subfranchisor. Section 650.015 separately examines offer origin/direction, acceptance and the stated domicile/operation facts. This is an actual state scope screen, not an assumption that only the outlet address matters. Other model and sector regimes remain open."
+        ],
+        "sourceIds": [
+          "b3-state4-or-law"
+        ]
+      },
+      {
+        "heading": "The current rule includes refundable deposits and all proposed agreements",
+        "paragraphs": [
+          "OAR 441-325-0020 requires the disclosure document and all proposed sale agreements at least 14 calendar days before the earlier covered agreement or consideration event, including refundable deposits. Its current disclosure exceptions distinguish unchanged renewals, added units and owner resales. The separate Oregon renewal/additional-unit guide provides the change-evidence record; ordinary sales-record obligations remain independent."
+        ],
+        "sourceIds": [
+          "b3-state4-or-rules"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-or-franchise",
+      "b3-state4-or-law",
+      "b3-state4-or-rules"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "An Oregon disclosure-and-recordkeeping task list, without an invented approval requirement.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state4-or-renewal",
+    "path": "/states/oregon/renewal-and-additional-unit-disclosure/",
+    "title": "Oregon: an existing franchisee does not make disclosure automatic or unnecessary",
+    "description": "Renewal, added-unit and resale branches need different change and document evidence.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Oregon"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state4-or-renewal"
+    ],
+    "sections": [
+      {
+        "heading": "Begin with the actual state definitions",
+        "paragraphs": [
+          "ORS 650.005 uses a marketing-plan, brand and valuable-consideration franchise test, permits oral or written arrangements, and defines a franchisor as a person, including a subfranchisor, who sells a franchise for $100 or more to a franchisee or subfranchisor. The statute’s sale definition separately excludes the stated unchanged uninterrupted renewal/extension. Those details are not a finding that any particular low-fee or amended arrangement is exempt; federal rules and other state branches still need their own tests."
+        ],
+        "sourceIds": [
+          "b3-state4-or-law"
+        ]
+      },
+      {
+        "heading": "A renewal exception requires three conditions",
+        "paragraphs": [
+          "OAR 441-325-0030(2) covers a renewal, extension, amendment or modification only where there is no interruption in the relationship’s operation, no material change adverse to the franchisee in the relationship, and no material change adverse to the franchisee in previously supplied disclosure information. A familiar operator or an unchanged cover page does not prove all three. Record the actual agreement and disclosure changes."
+        ],
+        "sourceIds": [
+          "b3-state4-or-rules"
+        ]
+      },
+      {
+        "heading": "An additional franchise uses a different test",
+        "paragraphs": [
+          "The additional-unit branch in 0030(3) requires prior disclosure in connection with the earlier sale and no material adverse change in the disclosure information supplied. Do not copy the renewal conditions into an additional-unit checklist or assume the old receipt alone proves current information. When no exception is established, 0020 requires the disclosure and all proposed agreements at least 14 calendar days before the earlier covered agreement or consideration event, including refundable deposits."
+        ],
+        "sourceIds": [
+          "b3-state4-or-rules"
+        ]
+      },
+      {
+        "heading": "Keep resale provisions separate",
+        "paragraphs": [
+          "The franchisee-own-account route in 0030(4) has no-franchisor-involvement, isolated-sale and specified 14-day full-record-access conditions. Rule 0040 separately describes a chapter exemption for the stated own-account/entire-area resale without franchisor participation or aid. Approval rights alone are addressed, but active marketing or assistance can change the facts. This guide does not reconcile every possible overlap or approve a transfer."
+        ],
+        "sourceIds": [
+          "b3-state4-or-rules"
+        ]
+      },
+      {
+        "heading": "Fictional decision: a second service territory and a revised fee",
+        "paragraphs": [
+          "Fictional example: an Irish IT-services brand offers an existing Oregon operator a second territory while changing support charges and financial disclosures. The sales manager compares the prior disclosure with the actual changes and tests the additional-unit branch, rather than marking “renewal — no FDD” because the operator is already known. The resulting record either establishes each selected condition or leaves the ordinary delivery task open."
+        ],
+        "sourceIds": [
+          "b3-state4-or-law",
+          "b3-state4-or-rules"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state4-or-law",
+      "b3-state4-or-rules"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A transaction-type and disclosure-change log identifying the exact Oregon renewal, additional-unit or resale branch and missing evidence.",
+    "limitations": [
+      "This is a disclosure/definition decision. Motor-vehicle, fuel, recreational-vehicle and other ongoing-relationship regimes remain outside the guide.",
+      "The 2025 official statute and actual current administrative division were read; no current federal monetary exemption threshold is supplied.",
+      "No actual agreement, remedy, exemption or planned sale is approved. Federal, sector, employment, tax and local duties remain independent."
+    ],
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "b2-west-pennsylvania",
+    "path": "/states/pennsylvania/",
+    "title": "Pennsylvania: vehicle-dealer inventory rules are not a general service-franchise exit rule",
+    "description": "Separate the relevant dealer statute from general franchise assumptions and build the evidence before commitments.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Pennsylvania"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-pennsylvania-relationship"
+    ],
+    "sections": [
+      {
+        "heading": "Use the correct dealer statute",
+        "paragraphs": [
+          "The Board of Vehicles Act has a defined vehicle-dealer and franchise scope. Section 316 addresses eligible inventory and equipment after specified termination or nonrenewal events. Category, condition and age limitations matter. A cleaning or IT brand cannot copy its numbers as a general service-franchise exit formula."
+        ],
+        "sourceIds": [
+          "b2-west-pa-vehicles",
+          "b2-west-pa-section316"
+        ]
+      },
+      {
+        "heading": "Fictional example: a specialist vehicle manufacturer",
+        "paragraphs": [
+          "A foreign vehicle manufacturer appoints a local franchised dealer. Finance should retain serial numbers, acquisition dates, mileage, condition, parts catalogues, required-tool records and security interests from the start. This supports review of specific property rather than a claim based only on the gross accounting stock balance."
+        ]
+      },
+      {
+        "heading": "Distinguish return, tender and payment",
+        "paragraphs": [
+          "Section 316 generally requires return of covered property within 90 days of the relevant termination or nonrenewal and repurchase/payment within 60 days of tender. The section specifies eligible categories and limitations. Its motorcycle, recreational-vehicle and manufactured-housing treatment requires particular care. Do not describe it as automatic repayment of every investment."
+        ],
+        "sourceIds": [
+          "b2-west-pa-section316"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Identify the exact dealer, product and statutory category.",
+          "Record the termination event and effective date.",
+          "Preserve acquisition, condition, mileage and secured-creditor evidence.",
+          "Request return instructions and retain tender/return records.",
+          "Assign the applicable payment deadline and unresolved legal questions."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-pa-section316",
+      "b2-west-pa-vehicles"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A sector-scoped exit and inventory evidence file.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-rhode-island",
+    "path": "/states/rhode-island/",
+    "title": "Rhode Island: registration and exemption notices have different anniversaries",
+    "description": "Rhode Island’s active regulation measures registration from the initial effective date and exemption notices from receipt.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Rhode Island"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "ri-registration",
+      "b3-state4-ri-scope",
+      "b3-state4-ri-disclosure",
+      "b3-state4-ri-updates"
+    ],
+    "sections": [
+      {
+        "heading": "Two annual dates can differ",
+        "paragraphs": [
+          "R.I. Gen. Laws 19-28.1-5 prohibits covered franchise offers or sales without registration or exemption. Active regulation 230-RICR-50-10-1.4 gives registration a 365-calendar-day period from its initial effective date. It gives an exemption a 365-day period from receipt of the notice. Filing, receipt and effectiveness are distinct dates."
+        ],
+        "sourceIds": [
+          "state-ri-law",
+          "state-ri-rule"
+        ]
+      },
+      {
+        "heading": "Do not treat a fractional franchise as a label",
+        "paragraphs": [
+          "The active regulation also sets out a fractional-franchise route with multiple conditions involving existing business experience, location, similarity, expected revenue share and control. It contains state-specific filing language. Those provisions need a coordinated review before relying on the route; a federal fractional exemption is not the answer to the state question."
+        ],
+        "sourceIds": [
+          "state-ri-law",
+          "state-ri-rule"
+        ]
+      },
+      {
+        "heading": "Fictional example: a UK technical-service add-on",
+        "paragraphs": [
+          "An established Rhode Island operator wants to add a branded service to its existing business. The brand records the operator’s existing business, experience, site, projected first-year mix and control facts. It leaves the exemption conditional until every relevant condition and required filing has been reviewed."
+        ],
+        "sourceIds": [
+          "state-ri-law",
+          "state-ri-rule"
+        ]
+      },
+      {
+        "heading": "The company secretary’s calendar",
+        "paragraphs": [],
+        "bullets": [
+          "Select registration or the exact exemption route.",
+          "Record application submission, actual receipt and effective date separately.",
+          "Identify which date controls the anniversary.",
+          "Preserve the reviewed rule version and exemption evidence.",
+          "Assign independent disclosure, advertising and operating-law review."
+        ],
+        "sourceIds": [
+          "state-ri-law",
+          "state-ri-rule"
+        ]
+      },
+      {
+        "heading": "Define the relationship and the relevant connections",
+        "paragraphs": [
+          "Section 19-28.1-3 uses a marketing-plan/brand/fee-in-excess-of-$500 test and a separate master-franchise alternative. Its wholesale exclusion refers to reasonable quantities of tangible goods. Section 4 separately tests offer/acceptance connections and an outside-state sale to a resident where the franchise will operate in Rhode Island. Outlet location alone does not exhaust the state screen."
+        ],
+        "sourceIds": [
+          "b3-state4-ri-definition",
+          "b3-state4-ri-jurisdiction"
+        ]
+      },
+      {
+        "heading": "Registration exemption and delivery exemption can differ",
+        "paragraphs": [
+          "Section 8 requires a disclosure document reflecting all material changes and all proposed agreements at least 14 calendar days before execution or payment, subject to its listed exemption subsections. Active rule 1.5 separately describes a qualified fractional route exempting registration and delivery, with state-specific filing language. Identify the actual authority for both exemptions; one does not automatically establish the other."
+        ],
+        "sourceIds": [
+          "b3-state4-ri-disclosure",
+          "state-ri-rule"
+        ]
+      },
+      {
+        "heading": "Resolve the statutory default against the active rule",
+        "paragraphs": [
+          "Section 9(d) gives a fiscal-year-based expiry default unless the director prescribes a different period by rule/order. Active rule 1.4 supplies the 365-day periods described above. The statute also calls for renewal filing 30 days before expiration. Section 11 separately requires prompt material-change amendments, so the next anniversary is not permission to wait after a material event."
+        ],
+        "sourceIds": [
+          "b3-state4-ri-renew",
+          "b3-state4-ri-amend",
+          "state-ri-rule"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-ri-law",
+      "state-ri-rule",
+      "b3-state4-ri-definition",
+      "b3-state4-ri-jurisdiction",
+      "b3-state4-ri-disclosure",
+      "b3-state4-ri-renew",
+      "b3-state4-ri-amend"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A Rhode Island filing log with the correct anniversary and conditional exemption analysis.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-south-carolina",
+    "path": "/states/south-carolina/",
+    "title": "South Carolina: when does a branded offer need a business-opportunity filing?",
+    "description": "A registered brand is only one classification fact; filing, disclosure and claims have separate requirements.",
+    "family": "state",
+    "topic": "classification",
+    "jurisdictions": [
+      "South Carolina"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-sc-marketing",
+      "b2-west-sc-filing"
+    ],
+    "sections": [
+      {
+        "heading": "The mark language sits in one definition limb",
+        "paragraphs": [
+          "Section 39-57-20 covers specified business-startup arrangements and representations. Its registered-mark exception appears within the sales/marketing-programme limb. Assistance placing vending machines or similar devices, purchases of products made by the buyer, and guarantee/refund promises have their own terms. Examine each actual trigger together with the fee condition and other exclusions."
+        ],
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
+      },
+      {
+        "heading": "Fictional example: a regional cleaning operator",
+        "paragraphs": [
+          "A European cleaning brand offers a marketing programme plus customer locations and a startup refund if the partner is dissatisfied. The brand’s mark status does not answer every trigger. The COO should inventory what is actually promised; finance should identify guarantee, bond/trust and funding questions before the prospect campaign starts."
+        ]
+      },
+      {
+        "heading": "Build a communications gate",
+        "paragraphs": [
+          "For a covered business opportunity, §39-57-50 requires filing before advertisements or other representations, with updates for material changes and at least biennially. It also prescribes use of the assigned registration number in promotion. Under §39-57-60(1), earnings claims require documented substantiation disclosed when the representation is made; references to state compliance have separate limits. Registration does not establish endorsement."
+        ],
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
+      },
+      {
+        "heading": "Keep purchaser delivery separate",
+        "paragraphs": [
+          "Section 39-57-30 states a 48-hour disclosure period before the earlier business-opportunity contract or consideration. An independently applicable federal Franchise Rule clock remains separate. A state period does not shorten a federal requirement. Retain the formal disclosure apart from this educational page."
+        ],
+        "sourceIds": [
+          "b2-west-sc-chapter57"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Record each definition limb and the relevant mark evidence.",
+          "Preserve location, buy-back, refund and income representations.",
+          "Keep filing receipt, assigned number, change log and renewal owner.",
+          "Record buyer delivery evidence and the commitment calendar.",
+          "Assign operating permits, tax, employment and sector rules separately."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-sc-chapter57"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A promise inventory and pre-advertisement filing/disclosure gate.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-south-dakota",
+    "path": "/states/south-dakota/",
+    "title": "South Dakota: notice filing does not mean no filing",
+    "description": "South Dakota’s franchise notice law has pre-offer, completeness, annual renewal and continuing financial-reporting dimensions.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "South Dakota"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "sd-notice",
+      "sd-advertising",
+      "b3-state4-sd-delivery",
+      "b3-state4-sd-updates"
+    ],
+    "sections": [
+      {
+        "heading": "The statute calls it notice filing",
+        "paragraphs": [
+          "SDCL 37-5B-4 prohibits a covered offer or sale unless properly notice filed or exempt. Section 37-5B-5 describes a complete filing with the FDD, application, consent to service and $250 initial fee. It generally becomes effective on receipt, subject to completeness and order/injunction provisions. Do not replace the actual receipt with an assumed mailing date."
+        ],
+        "sourceIds": [
+          "state-sd-ads",
+          "state-sd-duration",
+          "state-sd-info",
+          "state-sd-notice"
+        ]
+      },
+      {
+        "heading": "Keep annual and financial events separate",
+        "paragraphs": [
+          "The statute generally gives one year from receipt unless a different period is prescribed. It lists a $150 renewal fee and treats late filings as initial filings. It also requires notice within fifteen days after an auditor reaches the specified going-concern conclusion after effectiveness. The annual calendar will not catch every material financial event."
+        ],
+        "sourceIds": [
+          "state-sd-ads",
+          "state-sd-duration",
+          "state-sd-info",
+          "state-sd-notice"
+        ]
+      },
+      {
+        "heading": "Advertising filing and truthful advertising are different",
+        "paragraphs": [
+          "SDCL 37-5B-23 says advertisements need not be filed unless the director requests them. It also permits action against misleading advertising. “No routine advertising filing” should therefore be recorded narrowly; it does not support unsubstantiated revenue or profitability claims."
+        ],
+        "sourceIds": [
+          "state-sd-ads",
+          "state-sd-duration",
+          "state-sd-info",
+          "state-sd-notice"
+        ]
+      },
+      {
+        "heading": "Fictional example: a German commercial-cleaning network",
+        "paragraphs": [
+          "The CFO flags an auditor going-concern conclusion while the sales team is recruiting partners. The compliance owner records the conclusion date, the separate reporting task and any actual financial-assurance condition. The commercial team preserves advertising versions and substantiation rather than assuming a notice receipt approves the claims."
+        ],
+        "sourceIds": [
+          "state-sd-ads",
+          "state-sd-duration",
+          "state-sd-info",
+          "state-sd-notice"
+        ]
+      },
+      {
+        "heading": "Commitment evidence",
+        "paragraphs": [],
+        "bullets": [
+          "Complete filed package and actual receipt/effectiveness.",
+          "Exemption route and conditions if claimed.",
+          "Annual expiry and internal renewal date.",
+          "Auditor-event reporting owner.",
+          "Advertising evidence and any director request or order."
+        ],
+        "sourceIds": [
+          "state-sd-ads",
+          "state-sd-duration",
+          "state-sd-info",
+          "state-sd-notice"
+        ]
+      },
+      {
+        "heading": "Add the delivery and receipt records",
+        "paragraphs": [
+          "Sections 17–18 have an independent 14-calendar-day initial delivery rule and a seven-day unilateral material-agreement-change branch, subject to the actual exemptions. The prospect-initiated-negotiation language in 17(2) does not erase section 26(7)’s separate materially different signing-terms rule. Review both before setting the execution date. Section 18 distinguishes delivered/access instructions from first-class mailing, which must occur at least three days before the required delivery date. Section 11 requires a prospect-signed receipt before agreement/payment and seller retention for three years."
+        ],
+        "sourceIds": [
+          "b3-state4-sd-17",
+          "b3-state4-sd-disclosure",
+          "b3-state4-sd-11",
+          "b3-state4-sd-26"
+        ]
+      },
+      {
+        "heading": "No ordinary update filing does not mean no update",
+        "paragraphs": [
+          "Section 7 expressly says disclosure updating needs no division filing, while requiring a revised annual document within 120 days of fiscal close and reasonable-time quarterly material-change revisions. Prospects receive the most recent available quarterly revisions, and known financial-performance changes have a separate notice duty. Section 6 director-required amendments, annual notice renewal and the going-concern task remain independent."
+        ],
+        "sourceIds": [
+          "b3-state4-sd-change",
+          "b3-state4-sd-6",
+          "b3-state4-sd-26"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-sd-ads",
+      "state-sd-duration",
+      "state-sd-info",
+      "state-sd-notice",
+      "b3-state4-sd-17",
+      "b3-state4-sd-disclosure",
+      "b3-state4-sd-11",
+      "b3-state4-sd-26",
+      "b3-state4-sd-change",
+      "b3-state4-sd-6"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A South Dakota notice calendar and event-driven financial reporting task.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-tennessee",
+    "path": "/states/tennessee/",
+    "title": "Tennessee: a franchise tax account is not franchise-sales permission",
+    "description": "Keep the entity tax workstream separate from the contract model and the unresolved state sales-law review.",
+    "family": "state",
+    "topic": "corporate-tax",
+    "jurisdictions": [
+      "Tennessee"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-tn-tax-separation"
+    ],
+    "sections": [
+      {
+        "heading": "The same word describes different tasks",
+        "paragraphs": [
+          "Tennessee Revenue’s franchise and excise FAQ lists corporations, LLCs and other entity types that may have return obligations. It is a tax resource, not approval of a franchise offering. The CFO needs the actual taxpayer and Tennessee activity before selecting forms."
+        ],
+        "sourceIds": [
+          "b2-west-tn-fe1"
+        ]
+      },
+      {
+        "heading": "Federal tax treatment does not finish the state check",
+        "paragraphs": [
+          "F&E-4 explains that an LLC ignored as an entity for federal purposes can still need a Tennessee return unless an exemption applies. Do not infer no state filing from federal disregarded status. These agency FAQ pages are dated March 2021; the preparer must confirm current tax-year law, nexus and exemptions before filing."
+        ],
+        "sourceIds": [
+          "b2-west-tn-fe4"
+        ]
+      },
+      {
+        "heading": "Fictional example: a foreign services parent",
+        "paragraphs": [
+          "A Singapore parent forms a U.S. LLC and appoints a Tennessee partner. Finance needs a tax map for the parent, LLC and operator. The legal reviewer needs separate brand, payment, control, support and territory facts. Completing a tax account cannot close the early-offer or disclosure tasks."
+        ]
+      },
+      {
+        "heading": "The franchise-law branch remains unresolved",
+        "paragraphs": [
+          "The Attorney General/Division of Consumer Affairs help-center explanation identifies its consumer-protection role. That article is dated June 2021 and is not current franchise statutory text. Earlier attempts to read the linked official code container and a court document did not yield usable primary text; a browser-validation page with HTTP 200 was rejected. This narrow tax page does not complete Tennessee’s six-dimension franchise-law matrix. Unknown sales filings, exemptions, advertising and relationship rules remain open."
+        ],
+        "sourceIds": [
+          "b2-west-tn-consumer-index"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "CFO: document the entity, federal classification, Tennessee activity and tax year.",
+          "Preparer: confirm state tax scope, exemptions and filing calendar using current sources.",
+          "Reviewer: complete a separate Tennessee offer/sale and relationship analysis.",
+          "Sales lead: maintain independently applicable federal disclosure controls."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-tn-fe1",
+      "b2-west-tn-fe4",
+      "b2-west-tn-consumer-index"
+    ],
+    "nextStage": 5,
+    "practicalOutput": "A tax-preparer handoff and an explicitly open Tennessee sales-law task.",
+    "limitations": [
+      "Only narrow state-tax preparation is published here. The Tennessee franchise-law matrix remains unresolved.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "contentModifiedAt": "2026-11-13T00:58:05.722851+00:00",
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-texas",
+    "path": "/states/texas/",
+    "title": "Texas: the franchise exemption still needs a pre-offer notice",
+    "description": "A qualifying FTC-compliant franchisor can be exempt from Texas business-opportunity registration, but the notice comes before an offer or sale.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Texas"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 3,
+    "ruleIds": [
+      "tx-franchise-exemption-notice"
+    ],
+    "sections": [
+      {
+        "heading": "The exemption and the notice are separate",
+        "paragraphs": [
+          "Texas Secretary of State FAQ 5 describes an exemption from business-opportunity registration where a franchisor complies in all material respects in Texas with applicable Federal Trade Commission disclosure requirements and prohibitions. The same answer requires an exemption notice before offering for sale or selling. An overseas parent should not treat federal disclosure preparation as the Texas filing."
+        ],
+        "sourceIds": [
+          "state-tx-faq"
+        ]
+      },
+      {
+        "heading": "What the company secretary should prepare",
+        "paragraphs": [
+          "Form 2703 asks for the franchisor’s legal name, all names under which it does or intends to do business, and principal business address. The FAQ lists a $25 fee. Its one-time notice has no expiry, but principal-address changes should be notified in writing."
+        ],
+        "bullets": [
+          "Identify the entity actually selling the rights; do not substitute the parent merely because it owns the trademark.",
+          "Map the planned prospect communications and Texas connections for review.",
+          "Record why the federal-compliance condition is satisfied and preserve the filed notice."
+        ],
+        "sourceIds": [
+          "state-tx-faq"
+        ]
+      },
+      {
+        "heading": "Fictional example: a Singapore facilities brand",
+        "paragraphs": [
+          "The brand has a completed FDD and schedules a Texas partner campaign. Its sales manager marks “Texas filing not needed” because the business calls the arrangement a licence. The corrected task is to establish the relationship facts, review the relevant offer and exemption, and file the applicable notice before the covered campaign. Renaming the contract does not establish the exemption."
+        ],
+        "sourceIds": [
+          "state-tx-faq"
+        ]
+      },
+      {
+        "heading": "Do not confuse two filing tracks",
+        "paragraphs": [
+          "The FAQ also describes registration, disclosures and update obligations for non-exempt business-opportunity sellers. Those are different from the one-time franchise exemption notice. If the company cannot establish the exemption conditions, leave the track unresolved instead of budgeting only $25."
+        ],
+        "sourceIds": [
+          "state-tx-faq"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-tx-faq"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A Texas sales-permission task with selling entity, exemption rationale, notice receipt and planned first-offer date.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state-guide-tx-worker-classification",
+    "path": "/states/texas/worker-classification-unemployment-tax/",
+    "title": "Texas contractor planning: test control for unemployment tax before using a 1099",
+    "description": "TWC considers actual working facts and the right to control. Build evidence for each role instead of treating a contractor label as the result.",
+    "family": "state-issue",
+    "topic": "employment",
+    "jurisdictions": [
+      "Texas"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state-tx-tuca-classification"
+    ],
+    "sections": [
+      {
+        "heading": "Name the test being answered",
+        "paragraphs": [
+          "The Texas Workforce Commission’s guidance addresses the Texas Unemployment Compensation Act. It identifies service, wages and direction or control, and explains that the right to control can be enough even if it is not exercised. An agreement, business name or IRS form does not determine that classification. This is a specific unemployment-tax inquiry; federal wage law and federal tax law need their own analysis."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      },
+      {
+        "heading": "The twenty factors are evidence prompts, not a points game",
+        "paragraphs": [
+          "TWC’s comparative guide looks at instructions, training, integration, personal service, helpers, continuing relationships, set hours, full-time requirements, work location, sequence, reports, payment, expenses, tools, investment, profit or loss, multiple clients, public availability, discharge and quitting. TWC says not every factor applies and the weight of a factor can change with the business and facts."
+        ],
+        "bullets": [
+          "Record who can decide the methods and sequence of work, assign hours and require attendance or training.",
+          "Identify who supplies tools, pays expenses, hires substitutes or helpers and bears the risk of an unprofitable job.",
+          "Check actual customer availability, repeat engagements and termination rights against the written contract.",
+          "Attach examples from operations, invoices, schedules and manuals; explain disputed facts rather than count favorable answers."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      },
+      {
+        "heading": "Fictional example: a controlled service route",
+        "paragraphs": [
+          "A facilities company calls a worker a contractor but fixes the route, dictates the cleaning sequence, supplies equipment, requires its training and pays a fixed weekly amount. Those facts raise the control issues identified by TWC; a 1099 does not resolve them. A useful review compares each relevant fact, the retained contractual rights and the real performance, then records the classification rationale or obtains TWC assistance."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      },
+      {
+        "heading": "Close the payroll task only for the reviewed scope",
+        "paragraphs": [
+          "Give a responsible person the actual Texas unemployment-tax assessment and supporting facts before payroll or contractor onboarding. Record changes when the worker gains or loses genuine control or financial independence. Do not carry the result across other states or legal regimes without checking their own tests."
+        ],
+        "sourceIds": [
+          "b3-state-tx-classification"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state-tx-classification"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A Texas unemployment-tax classification memo that links control facts to evidence and keeps other legal tests open.",
+    "limitations": [
+      "This is a source-reviewed guide to its named issue, not a complete employment, franchise, tax, licensing or local-law survey.",
+      "Apply the actual entity, worksite, worker, industry and date facts. No worker classification, exemption or transaction is approved by this guide."
+    ],
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "b2-west-utah",
+    "path": "/states/utah/",
+    "title": "Utah: obtain the franchise notice receipt before a covered offer",
+    "description": "Calendar the receipt, annual renewal and information updates using the current 2026 statute.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Utah"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-ut-notice",
+      "b2-west-ut-no-approval"
+    ],
+    "sections": [
+      {
+        "heading": "The receipt is a pre-offer dependency",
+        "paragraphs": [
+          "Utah §13-15-201(2) requires proof of notice receipt before a person offers or sells a franchise to be located in Utah or to a Utah resident. The filing states substantial compliance with the federal Franchise Rule and includes required applicant, brand, address and identification details. Preparing an FDD does not itself produce this receipt."
+        ],
+        "sourceIds": [
+          "b2-west-ut-section201"
+        ]
+      },
+      {
+        "heading": "Use the current renewal and update calendar",
+        "paragraphs": [
+          "The current section, amended effective May 6, 2026, makes the receipt valid for one year from issue. Renewal compliance is due at least 30 days before expiry. Filing information that becomes incorrect or incomplete must be updated within 30 days. Preserve the issued receipt, the preparation deadline and the change record."
+        ],
+        "sourceIds": [
+          "b2-west-ut-section201"
+        ]
+      },
+      {
+        "heading": "Fictional example: a UK technical-services network",
+        "paragraphs": [
+          "A brand plans a Utah-resident prospect campaign while its company secretary changes the selling entity’s principal address. The team must manage both the pre-offer receipt and the information update. An internal checkbox that a filing was prepared is not evidence that the required receipt was obtained."
+        ]
+      },
+      {
+        "heading": "Notice and disclosure filing are different routes",
+        "paragraphs": [
+          "The Act separates the qualifying franchise notice path from the general business-opportunity disclosure filing path. Section 201(2)(c) routes those who do not qualify for the notice path to subsection (1). The latter has its own content and ten-business-day purchaser-disclosure provisions. Neither receipt is state approval. Applicable federal FDD delivery remains an independent task."
+        ],
+        "sourceIds": [
+          "b2-west-ut-section201",
+          "b2-west-ut-chapter15"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Confirm the actual selling entity, brand names, principal address and public identifier.",
+          "Preserve FTC-compliance evidence and the issued notice receipt.",
+          "Assign the receipt anniversary and an earlier renewal preparation date.",
+          "Create change intake with a 30-day update trigger.",
+          "Track formal FDD delivery and earliest commitments separately."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-ut-section201",
+      "b2-west-ut-chapter15"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A pre-offer receipt gate with renewal and change-control owners.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b2-west-vermont",
+    "path": "/states/vermont/",
+    "title": "Vermont: equipment distribution can carry protected exit duties",
+    "description": "Separate the relevant dealer statute from general franchise assumptions and build the evidence before commitments.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Vermont"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-vermont-relationship"
+    ],
+    "sections": [
+      {
+        "heading": "Identify the protected relationship",
+        "paragraphs": [
+          "Vermont Title 9, Chapter 107 covers defined equipment and machinery dealerships. Its dealer agreement can be oral or written, but the dealer and inventory definitions matter. Heavy construction equipment and a specified single-line dealer category are excluded. A pure service franchise should not be treated as covered merely because it uses a trademark."
+        ],
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
+      },
+      {
+        "heading": "Fictional example: services plus utility equipment",
+        "paragraphs": [
+          "A Dutch industrial-services brand adds equipment sales and repairs to its partner offer. The COO should distinguish equipment inventory, repair work and branded services. Finance needs the inventory age, source, condition and title records before estimating potential exit obligations."
+        ]
+      },
+      {
+        "heading": "Different events use different timelines",
+        "paragraphs": [
+          "Section 4072 generally requires cause, 120 days’ notice and a 60-day cure opportunity. Market-penetration termination has a separate 24-month initial process and a final notice period; specified events permit immediate termination. Sections 4073–4074 address conditional repurchase with request, eligibility, valuation and payment requirements. Do not extract one deadline and apply it to every exit."
+        ],
+        "sourceIds": [
+          "b2-west-vt-chapter107"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Identify the actual product, dealer and excluded categories.",
+          "Preserve the dealer agreement and the reasonable performance requirements.",
+          "Record the termination event and the correct statutory branch.",
+          "Maintain inventory acquisition, condition, title and return-request evidence.",
+          "Budget the applicable repurchase obligation and assign the payer."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-vt-chapter107"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A sector-scoped exit and inventory evidence file.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-virginia",
+    "path": "/states/virginia/",
+    "title": "Virginia: establish the exemption before relying on it",
+    "description": "Virginia requires registration or an applicable exemption; some exemption routes require a filing before an offer or sale.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Virginia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "va-registration",
+      "b3-state4-va-exemption-process",
+      "b3-state4-va-2026-contract"
+    ],
+    "sections": [
+      {
+        "heading": "Exempt is a conclusion supported by facts",
+        "paragraphs": [
+          "Virginia SCC states that franchises offered or sold in Virginia must be registered or exempt. Its overview says exemptions may depend on franchisor experience, financial condition or the characteristics of the offer or grant. It directs readers to 21 VAC 5-110-75 for conditions and filing requirements."
+        ],
+        "sourceIds": [
+          "state-va-franchise"
+        ]
+      },
+      {
+        "heading": "What an overseas management team should collect",
+        "paragraphs": [
+          "Prepare the exact selling entity, relevant operating history, current financial statements, ownership chart, proposed buyer and transaction structure. Where a test concerns the franchisor, another group company’s trading history should not be substituted without establishing why the rule permits it."
+        ],
+        "sourceIds": [
+          "state-va-franchise"
+        ]
+      },
+      {
+        "heading": "Fictional example: a French service group",
+        "paragraphs": [
+          "The parent has a long operating history but a newly incorporated subsidiary will grant U.S. rights. The expansion director records both entities separately. The exemption question stays unresolved until the responsible reviewer maps the selected route to the correct entity, evidence and pre-offer filing conditions."
+        ],
+        "sourceIds": [
+          "state-va-franchise"
+        ]
+      },
+      {
+        "heading": "A practical commitment gate",
+        "paragraphs": [],
+        "bullets": [
+          "Record the precise exemption provision being assessed.",
+          "Identify each condition and which entity/person must meet it.",
+          "Assign missing evidence and any required filing before the covered event.",
+          "Retain the filing acknowledgement or the reason a self-executing route applies.",
+          "Separately review disclosure, advertising and ongoing relationship obligations; this overview does not resolve them."
+        ],
+        "sourceIds": [
+          "state-va-franchise"
+        ]
+      },
+      {
+        "heading": "Read the operative exemption rule",
+        "paragraphs": [
+          "Current 21VAC5-110-75 sets different routes for unchanged uninterrupted renewal, additional existing-franchisee sales, seasoned franchisors, institutional buyers and substantial investment. The experienced parent is relevant only where the selected rule permits its facts and required guarantees. For routes 3–6, subdivision 7 still requires the disclosure document and all proposed agreements 14 calendar days before agreement or payment. A registration exemption is not a general disclosure waiver."
+        ],
+        "sourceIds": [
+          "b3-state4-va-rule"
+        ]
+      },
+      {
+        "heading": "Make the Form H and renewal clocks specific",
+        "paragraphs": [
+          "The seasoned and substantial-investment routes require the specified Form H package at least 10 business days before the covered offer/sale and have annual renewal rules; the institutional route requires its package at least 10 business days before each offer or sale of each franchise. Material changes trigger exemption amendment. The specific annual routes say at least 10 business days before expiry, while paragraph 8(c)(1) says 10 days. Preserve both wordings and resolve the selected route before relying on the shorter reading. The regulation’s electronic-media wording does not establish the exclusive current filing channel."
+        ],
+        "sourceIds": [
+          "b3-state4-va-rule"
+        ]
+      },
+      {
+        "heading": "Apply the July 2026 contract changes separately",
+        "paragraphs": [
+          "The current Act and SCC’s April notice require a separate review of Virginia governing law and post-term retail-competition language, with the negotiated-sale exception. The separate Virginia contract guide covers the enacted scope and SCC amendment-before-sale instructions. Registration status and a group-history memorandum do not complete that task."
+        ],
+        "sourceIds": [
+          "b3-state4-va-law",
+          "b3-state4-va-2026-notice"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-va-franchise",
+      "b3-state4-va-rule",
+      "b3-state4-va-law",
+      "b3-state4-va-2026-notice"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A Virginia registration-or-exemption memorandum with evidence and a pre-offer task.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state4-va-contract",
+    "path": "/states/virginia/contract-law-and-competition-clauses/",
+    "title": "Virginia: update governing law and post-term competition language for 2026",
+    "description": "Current law and SCC instructions require a contract/FDD review separate from registration exemptions.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Virginia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state4-va-2026-contract"
+    ],
+    "sections": [
+      {
+        "heading": "Use the enacted text and its actual scope",
+        "paragraphs": [
+          "The current Retail Franchising Act and SCC’s April 14, 2026 notice confirm that chapters 553 and 554 took effect July 1, 2026. Section 13.1-559 requires a written retail marketing-plan/brand arrangement with a direct or indirect franchise fee of $500 or more, subject to its fee exclusions. The Act applies only where performance contemplates or requires the franchisee to establish or maintain a Virginia place of business. The statute defines that term and contains incidental/ancillary and department exceptions."
+        ],
+        "sourceIds": [
+          "b3-state4-va-law",
+          "b3-state4-va-2026-notice"
+        ]
+      },
+      {
+        "heading": "The governing-law and competition clauses changed",
+        "paragraphs": [
+          "Section 13.1-559(D) requires Virginia law for franchise contracts offered or entered into pursuant to the Act. Section 13.1-563(A)(4) makes it unlawful to offer or enter a franchise agreement restricting the franchisee’s retail offering, selling or distribution of goods/services after termination or expiration. The text addresses the stated activity and trigger; this guide does not adjudicate confidentiality, intellectual-property or other distinct obligations."
+        ],
+        "sourceIds": [
+          "b3-state4-va-law"
+        ]
+      },
+      {
+        "heading": "A negotiated franchise sale has a specific exception",
+        "paragraphs": [
+          "Section 563(B) allows the stated restriction where the franchisee sells the franchise at a mutually agreed price to a third party or back to the franchisor, for no more than two years after sale. Preserve the real sale, price, parties and period. Ordinary expiry, a termination label or paying an unrelated invoice does not establish that exception."
+        ],
+        "sourceIds": [
+          "b3-state4-va-law"
+        ]
+      },
+      {
+        "heading": "A current registration is not the amendment task",
+        "paragraphs": [
+          "The SCC notice calls for the new language in the FDD and agreement, using relevant Item 17 disclosures or a Virginia addendum. For offerings registered before July 1 with later expiry, the agency distinguishes no expected Virginia sale before expiry from a possible or actual sale on/after July 1: the latter requires an amendment application first. Reuse the actual selling entity and approved disclosure version in the sales calendar.",
+          "Section 13.1-564 independently restricts cancellation without reasonable cause and undue influence to surrender franchise rights. The 2026 clause changes do not resolve an actual cause dispute. Statutory civil remedies and anti-waiver provisions also require their own trigger and evidence."
+        ],
+        "sourceIds": [
+          "b3-state4-va-law",
+          "b3-state4-va-2026-notice"
+        ]
+      },
+      {
+        "heading": "Fictional decision: an old template and a November offer",
+        "paragraphs": [
+          "Fictional example: a French services group plans a November 2026 Virginia offer under a registration that began before July. Its template still selects another state’s law and a three-year post-expiry retail restriction. The company secretary maps the Act’s scope, corrects the contract/FDD task and confirms the required amendment before continuing the covered sale process. No conclusion about enforcing an old signed agreement is supplied."
+        ],
+        "sourceIds": [
+          "b3-state4-va-law",
+          "b3-state4-va-2026-notice"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state4-va-law",
+      "b3-state4-va-2026-notice"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A Virginia contract/FDD change log with Act scope, sale dates, governing-law language, competition clause and amendment evidence.",
+    "limitations": [
+      "No retroactivity or enforceability conclusion for agreements already signed before July 1, 2026.",
+      "Registration exemption, disclosure timing, employee noncompetes, litigation remedies and sector laws remain separate.",
+      "No actual agreement, remedy, exemption or planned sale is approved. Federal, sector, employment, tax and local duties remain independent."
+    ],
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "state-guide-washington",
+    "path": "/states/washington/",
+    "title": "Washington: review offers, advertising and the operating relationship",
+    "description": "Washington franchise registration, disclosure, advertising and relationship duties answer different questions.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Washington"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "wa-registration",
+      "wa-disclosure-changes",
+      "wa-advertising",
+      "wa-relationship",
+      "b3-state4-wa-scope",
+      "b3-state4-wa-updates"
+    ],
+    "sections": [
+      {
+        "heading": "Begin before a covered offer",
+        "paragraphs": [
+          "RCW 19.100.020 addresses offering as well as selling. A registration or exemption review therefore belongs before a relevant offer, not merely before collecting the initial fee. Washington DFI gives the same starting instruction. The location of a future unit alone does not complete the jurisdiction analysis."
+        ],
+        "sourceIds": [
+          "state-wa-franchise",
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Keep three clocks",
+        "paragraphs": [
+          "The statute contains distinct initial-disclosure, revised-agreement and advertising provisions. Record each event separately rather than putting one “legal paperwork done” date in the launch schedule."
+        ],
+        "table": {
+          "headers": [
+            "Event",
+            "Reviewed requirement",
+            "Evidence"
+          ],
+          "rows": [
+            [
+              "Initial disclosure",
+              "14 calendar days under RCW 19.100.080",
+              "Version delivered, recipient and delivery date"
+            ],
+            [
+              "Specified unilateral material agreement change",
+              "7 calendar days; prospect-initiated negotiations treated separately",
+              "Revised document and negotiation record"
+            ],
+            [
+              "Covered advertising publication",
+              "File true copy at least 7 days before publication unless shorter period allowed",
+              "Submitted version and planned channel/date"
+            ]
+          ]
+        },
+        "sourceIds": [
+          "state-wa-franchise",
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "The agreement needs an operating review",
+        "paragraphs": [
+          "RCW 19.100.180 addresses good faith, purchasing restrictions, exclusive territory, termination and renewal. A national-account carve-out or mandatory supplier is an operating decision to review under those provisions, not just wording to copy from a home-market agreement."
+        ],
+        "sourceIds": [
+          "state-wa-franchise",
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Fictional example: industrial maintenance",
+        "paragraphs": [
+          "A Dutch brand promises an exclusive Washington territory while retaining national accounts. Its COO should define customer allocation, service responsibility, lead routing and revenue entitlement before final drafting. The exercise reveals what requires legal review; it does not decide whether any proposed term is enforceable."
+        ],
+        "sourceIds": [
+          "state-wa-franchise",
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Classify the state arrangement independently",
+        "paragraphs": [
+          "RCW 19.100.010 includes oral/written and implied arrangements, a marketing plan prescribed or suggested in substantial part, substantial brand association and the defined franchise fee. Mandatory goods/services and training charges can matter, while bona fide wholesale, property and other specified payments have exclusions. The state definition has independent insurance and motor-vehicle exclusions; federal classification and the licence label are not substitutes. Separate business-opportunity law is not exhausted here."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Renewal is not the material-change deadline",
+        "paragraphs": [
+          "Under 19.100.070, the ordinary registration and identified exemption-claim period is one year from effectiveness/filing unless the director sets another period. A registration renewal application is due no later than 20 calendar days before expiry. A material adverse condition change or material disclosure change must be amended as soon as reasonably possible and before another franchise sale. Keep the event date, amendment, delivery version and next sale together."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "An exit needs a more precise branch",
+        "paragraphs": [
+          "The separate Washington relationship-change guide applies the actual termination, nonrenewal, goodwill/asset, cure and exclusive-territory provisions. Its cause and compensation distinctions should remain separate from this pre-offer calendar."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-wa-franchise",
+      "state-wa-law"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A Washington offer and advertising calendar, with a separate contract-operations review.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state4-wa-exit",
+    "path": "/states/washington/relationship-change-and-exit/",
+    "title": "Washington: termination and nonrenewal do not use the same exit rule",
+    "description": "Build separate cause, cure, compensation and territory records before changing a covered franchise relationship.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Washington"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state4-wa-relationship"
+    ],
+    "sections": [
+      {
+        "heading": "Start with the actual statutory relationship",
+        "paragraphs": [
+          "RCW 19.100.010 includes oral or written, express or implied arrangements involving a substantially prescribed or suggested marketing plan, brand association and a franchise fee. Required purchases and training can matter; the fee definition contains specific wholesale, property and other exceptions. Insurance and specified motor-vehicle relationships are treated separately. The federal definition and the word licence do not decide this state test."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "An exclusive territory needs an actual boundary",
+        "paragraphs": [
+          "Section 180(2)(f) addresses franchisor competition and competitive grants where the agreement provides an exclusive territory, which must be specified in the agreement. Draw the area, national-account carve-outs, online leads and service obligations before promising exclusivity. The provision does not create an exclusive territory for every franchise. Approved-source purchasing and conduct standards have their own reasonableness/business-ground tests."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "A termination has a cause and cure analysis",
+        "paragraphs": [
+          "Section 180(2)(j) restricts termination before expiry to good cause. Its ordinary default branch uses written notice and a reasonable cure opportunity that need not be more than 30 days. Where a default cannot reasonably be cured within 30 days, the text separately addresses substantial and continuing cure action initiated within that time. Do not write an unconditional 30-day minimum or an automatic right to terminate on day 31.",
+          "The repeated-breach branch requires three willful and material breaches of the same term within 12 months, with the specified prior notices/opportunities, before the exception for a subsequent willful and material breach of that same term within the same 12-month period. Adjudicated bankruptcy/insolvency, assignment for creditors, voluntary abandonment and the specified business-related criminal outcome have separate immediate-action conditions. Alleging a default does not establish one."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Nonrenewal compensation is a different ledger",
+        "paragraphs": [
+          "Section 180(2)(i) addresses fair compensation at expiration for listed assets bought from the franchisor and goodwill, with stated exclusions and offsets. The goodwill exception requires both one year’s notice of nonrenewal and written agreement not to enforce a covenant restraining competition. It does not erase every listed asset obligation. Termination for good cause has its own narrower inventory/supplies purchase rule, including a premises-retention qualification."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Fictional decision: a service territory and a missed standard",
+        "paragraphs": [
+          "Fictional example: a Dutch facilities brand plans to replace a Washington operator after missed response targets while retaining a national customer inside the promised territory. The COO prepares a standards/cause/cure record, a contract territory map and two separate asset ledgers for termination versus expiry. Management cannot select the cheaper ledger merely by relabelling the action."
+        ],
+        "sourceIds": [
+          "state-wa-law"
+        ]
+      },
+      {
+        "heading": "Keep a decision file",
+        "paragraphs": [],
+        "sourceIds": [
+          "state-wa-law"
+        ],
+        "bullets": [
+          "Confirm this Act’s definitions and relevant Washington connections.",
+          "Describe termination, expiry/nonrenewal, competitive entry or another actual action.",
+          "Preserve cause, comparators, repeated-breach history and notice/cure evidence.",
+          "Separate goodwill from asset-source, condition and offset questions.",
+          "Retain settlement/release and other-law questions for their own review."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-wa-law"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A relationship-change matrix with separate territory, cause/cure and termination/nonrenewal compensation records.",
+    "limitations": [
+      "No full damages, limitations-period, federal insolvency or litigation analysis. Section 190 remedies are not a forecast of an award.",
+      "No actual agreement, remedy, exemption or planned sale is approved. Federal, sector, employment, tax and local duties remain independent."
+    ],
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "b2-west-west-virginia",
+    "path": "/states/west-virginia/",
+    "title": "West Virginia: equipment-dealer duties need an inventory and service map",
+    "description": "Separate the relevant dealer statute from general franchise assumptions and build the evidence before commitments.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "West Virginia"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-west-virginia-relationship"
+    ],
+    "sections": [
+      {
+        "heading": "The definitions reach beyond farm machinery",
+        "paragraphs": [
+          "The Farm Equipment Dealer Contract Act defines dealers to include specified retail sellers of construction, industrial and outdoor power equipment, with inventory and repair-service conditions. Those conditions are part of coverage. A brand license or service contract alone does not establish that the Act applies."
+        ],
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
+      },
+      {
+        "heading": "Fictional example: equipment and repair rights",
+        "paragraphs": [
+          "A European maintenance brand appoints a local partner to sell equipment and provide repairs. Finance should measure the inventory obligations; the COO should describe the retail and repair roles. If the Act applies, a standard supplier contract does not by itself settle the exit cost or required notice."
+        ]
+      },
+      {
+        "heading": "Notice and repurchase are separate duties",
+        "paragraphs": [
+          "Section 47-11F-3 generally requires six months’ termination notice, prescribed written service and stated contents, with listed exceptions and a mutual-consent route. Sections 4–5 govern conditional inventory repurchase, valuation, timing and exclusions. Track the termination date, physical return and payment separately; do not call the whole stock balance automatically recoverable."
+        ],
+        "sourceIds": [
+          "b2-west-wv-47-11f"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Inventory duties and current-net-price evidence.",
+          "Retail sales and repair-service facts for the dealer definition.",
+          "Notice method, reason, effective date and any claimed exception.",
+          "Inventory age, condition, source, ownership and exclusions.",
+          "Named owners for repurchase payment and remaining warranty claims."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-wv-47-11f"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A sector-scoped exit and inventory evidence file.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "state-guide-wisconsin",
+    "path": "/states/wisconsin/",
+    "title": "Wisconsin: registration on receipt is not approval of the business",
+    "description": "Wisconsin describes a same-day, non-merit registration process and a distinct 14-calendar-day disclosure duty.",
+    "family": "state",
+    "topic": "sales-disclosure",
+    "jurisdictions": [
+      "Wisconsin"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "wi-registration",
+      "wi-disclosure",
+      "wi-amendment",
+      "b3-state4-wi-dealership"
+    ],
+    "sections": [
+      {
+        "heading": "Two independent prerequisites",
+        "paragraphs": [
+          "Wisconsin DFI says a franchise must be registered no later than its first Wisconsin franchise sale. It describes registration as effective on receipt and expressly says Wisconsin is not a franchise merit-review state. A buyer should not read the registration receipt as validation of the model, projections or management team."
+        ],
+        "sourceIds": [
+          "state-wi-faq",
+          "state-wi-filing"
+        ]
+      },
+      {
+        "heading": "Give disclosure time to run",
+        "paragraphs": [
+          "The agency separately states that an FDD must be supplied 14 calendar days before the earlier of signing a binding franchise or other agreement or payment. Filing on receipt does not start or replace that delivery clock."
+        ],
+        "sourceIds": [
+          "state-wi-faq",
+          "state-wi-filing"
+        ]
+      },
+      {
+        "heading": "Annual filing and material changes",
+        "paragraphs": [
+          "DFI lists a $400 registration fee and one-year effectiveness. It says each franchise system needs a separate filing. Material-event amendments are due within 30 days, with a listed $200 fee, and do not restart the registration year. These amounts were checked against the agency FAQ on the review date and should be rechecked before payment."
+        ],
+        "sourceIds": [
+          "state-wi-faq",
+          "state-wi-filing"
+        ]
+      },
+      {
+        "heading": "Fictional example: facilities and pest-control brands",
+        "paragraphs": [
+          "A group sells two different franchise systems. Its company secretary should establish the separate filing scope, delivery versions and annual dates. A later corporate reorganization is evaluated as a possible material event rather than waiting automatically until next year."
+        ],
+        "sourceIds": [
+          "state-wi-faq",
+          "state-wi-filing"
+        ]
+      },
+      {
+        "heading": "Separate the contract review",
+        "paragraphs": [
+          "The FAQ also points to Wisconsin’s Fair Dealership Law. This guide does not resolve its applicability, exceptions, notice or cure requirements for a particular agreement. Preserve an independent contract review task even where the registration filing is straightforward."
+        ],
+        "sourceIds": [
+          "state-wi-faq",
+          "state-wi-filing"
+        ]
+      },
+      {
+        "heading": "The operating-law definition can lead to a different result",
+        "paragraphs": [
+          "Chapter 135’s dealership/community-of-interest test is independent of the sales-registration process. The separate Fair Dealership Law guide tests in-state scope, exclusions, cause, notice/cure and marked-inventory issues. In particular, the nonpayment branch does not turn a 10-day cure notice into a universal day-11 termination right."
+        ],
+        "sourceIds": [
+          "b3-state4-wi-dealership",
+          "b3-state4-wi-jury"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "state-wi-faq",
+      "state-wi-filing",
+      "b3-state4-wi-dealership",
+      "b3-state4-wi-jury"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A Wisconsin filing, disclosure and amendment calendar with no claim of merit approval.",
+    "limitations": [
+      "This guide reviews the stated franchise issue. Corporate tax, employment, operating permits and address-dependent requirements are separate research tasks.",
+      "No transaction-specific legal review has taken place. Record the offer locations, parties, model and planned dates before applying an exemption."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state4-wi-dealership",
+    "path": "/states/wisconsin/fair-dealership-change-and-exit/",
+    "title": "Wisconsin: a registered franchise still needs a Fair Dealership Law review",
+    "description": "The dealership definition, exclusions, good cause and separate notice/cure periods answer an operating question.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Wisconsin"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state4-wi-dealership"
+    ],
+    "sections": [
+      {
+        "heading": "The operating definition is independent",
+        "paragraphs": [
+          "Chapter 135 defines a dealer as the grantee of a dealership situated in Wisconsin. Its dealership test can involve an express or implied, oral or written agreement granting sale/distribution rights or use of a commercial symbol, with a community of interest. The statutory financial-interest concept needs actual relationship facts. A federal franchise fee analysis or Wisconsin registration receipt does not establish this separate result."
+        ],
+        "sourceIds": [
+          "b3-state4-wi-dealership"
+        ]
+      },
+      {
+        "heading": "Keep the exclusions visible",
+        "paragraphs": [
+          "Section 135.07 excludes a dealership involving the specified motor-vehicle dealer/distributor/wholesaler acting in that capacity, the insurance business, and door-to-door marketing of goods or services. Liquor has its own provisions. A maintenance brand should record how it actually sells and operates before treating this chapter as a protection or an exemption."
+        ],
+        "sourceIds": [
+          "b3-state4-wi-dealership"
+        ]
+      },
+      {
+        "heading": "Cause, advance notice and cure are separate",
+        "paragraphs": [
+          "Section 135.03 prohibits covered termination, cancellation, nonrenewal and substantial competitive changes without good cause and puts the cause burden on the grantor. Section 135.04 ordinarily requires 90 days’ prior written notice, all reasons and 60 days to rectify a claimed deficiency; timely rectification voids the notice. Insolvency, assignment for creditors and bankruptcy have stated notice exceptions.",
+          "For nonpayment, the statute supplies written default notice and 10 days to remedy from delivery or posting. The official civil jury instruction’s comment expressly preserves 90 days’ advance notice for that branch while shortening cure to 10 days. A 10-day demand should not be entered as an automatic day-11 termination date."
+        ],
+        "sourceIds": [
+          "b3-state4-wi-dealership",
+          "b3-state4-wi-jury"
+        ]
+      },
+      {
+        "heading": "Inventory and remedies require their own evidence",
+        "paragraphs": [
+          "Under 135.045, grantor-initiated termination can trigger, at the dealer’s option, repurchase at fair wholesale market value of qualifying inventories sold by the grantor for resale. The section is confined to merchandise bearing an identifying grantor mark; it is not reimbursement for every computer or operating asset. Section 135.06 provides a conditional damages/costs/fees and injunction route. An injury or award is not presumed from this checklist."
+        ],
+        "sourceIds": [
+          "b3-state4-wi-dealership"
+        ]
+      },
+      {
+        "heading": "Fictional decision: missed payment and a new competitor",
+        "paragraphs": [
+          "Fictional example: a British grounds-care supplier plans to end a Wisconsin dealer after unpaid invoices and appoint another nearby seller. Its manager first tests dealership/community-of-interest and exclusions, then records cause, default delivery, the separate notice/cure clocks and any substantial competitive change. Finance identifies marked resale stock separately from service tools."
+        ],
+        "sourceIds": [
+          "b3-state4-wi-dealership",
+          "b3-state4-wi-jury"
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b3-state4-wi-dealership",
+      "b3-state4-wi-jury"
+    ],
+    "nextStage": 1,
+    "practicalOutput": "A dealership-scope and action file with separate 90-day notice, ordinary/nonpayment cure and marked-inventory evidence.",
+    "limitations": [
+      "No independent full appellate opinion was reviewed. The old jury instruction is used for its specific notice explanation alongside the current certified statute.",
+      "Arbitration/federal preemption, liquor rules and complete community-of-interest case law remain outside this guide.",
+      "No actual agreement, remedy, exemption or planned sale is approved. Federal, sector, employment, tax and local duties remain independent."
+    ],
+    "dataset": "src/data/batch3-guides.json"
+  },
+  {
+    "id": "b2-west-wyoming",
+    "path": "/states/wyoming/",
+    "title": "Wyoming: equipment-dealer termination has more than one notice regime",
+    "description": "Separate the relevant dealer statute from general franchise assumptions and build the evidence before commitments.",
+    "family": "state",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Wyoming"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "b2-west-wyoming-relationship"
+    ],
+    "sections": [
+      {
+        "heading": "Separate equipment distribution from service delivery",
+        "paragraphs": [
+          "Wyoming Title 40, Chapter 20 addresses defined equipment dealers and suppliers. The product scope includes specified industrial, maintenance, utility and grounds-care equipment. Dealer status, single-line status, exclusions and the actual agreement must be checked before using its protections for a partner-operated model."
+        ],
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      {
+        "heading": "Fictional example: a grounds-care network",
+        "paragraphs": [
+          "An overseas brand supplies machines, parts and repair know-how to a Wyoming operator that also sells local grounds-care services. The COO should separate the equipment dealership from customer service contracts. Finance should preserve inventory and required-tool records before the parties discuss termination or succession."
+        ]
+      },
+      {
+        "heading": "One notice period does not cover every dealer",
+        "paragraphs": [
+          "The general §§115/117 regime ordinarily uses 180 days’ notice with 60 days to cure; the single-line §116 regime ordinarily uses 90 days with 60 days to cure. Specified events and performance failures have different conditions. Sections 120–121 add repurchase duties and exclusions. These are conditional sector rules, not a general right to terminate any franchise on notice."
+        ],
+        "sourceIds": [
+          "b2-west-wy-equipment"
+        ]
+      },
+      {
+        "heading": "Prepare the decision file",
+        "paragraphs": [],
+        "bullets": [
+          "Product and dealer-definition evidence, including exclusions.",
+          "Facts determining whether the single-line branch applies.",
+          "The reason for action, comparable performance standards and exceptions.",
+          "The correct notice, cure and performance-improvement history.",
+          "Inventory eligibility, return dates, payment duties and any succession request."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "b2-west-wy-equipment"
+    ],
+    "nextStage": 4,
+    "practicalOutput": "A sector-scoped exit and inventory evidence file.",
+    "limitations": [
+      "This page explains the stated branch only; other franchise, dealer, tax, employment, sector and local requirements remain separate.",
+      "No transaction-specific professional review or permission to offer, sell, open or terminate is supplied."
+    ],
+    "dataset": "src/data/state-guides.json"
+  },
+  {
+    "id": "b3-state2-wy-inventory",
+    "path": "/states/wyoming/equipment-inventory-exit/",
+    "title": "Wyoming equipment exit: turn inventory into a dated eligibility ledger",
+    "description": "Separate machines, parts, required technology and tools before treating a dealer exit as a cash recovery.",
+    "family": "state-issue",
+    "topic": "relationship",
+    "jurisdictions": [
+      "Wyoming"
+    ],
+    "status": "published",
+    "lastReviewed": "2026-11-12",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
+    "ruleIds": [
+      "b3-state2-wy-inventory"
+    ],
+    "sourceIds": [
+      "b2-west-wy-equipment"
+    ],
+    "sections": [
+      {
+        "heading": "Confirm the relationship before valuing the stock",
+        "paragraphs": [
+          "Wyoming Chapter 40-20 defines the relevant dealer, supplier, equipment and agreement. Dealer status combines selling/leasing to consumers and repairing/servicing equipment, with stated exclusions; mere ownership of a machine is insufficient. A covered location closing can also raise inventory issues under the agreement definition. The separate good-cause/notice branches remain in the Wyoming hub; this guide addresses repurchase evidence."
+        ]
+      },
+      {
+        "heading": "Use the item’s statutory price basis",
+        "paragraphs": [
+          "Section 120 distinguishes new eligible equipment, qualifying demonstrators and repair parts. Its ordinary figures include 100% of net equipment cost and 95% of current net parts prices for qualifying items, with separate handling/freight and demonstrator conditions. Net equipment cost and current net parts price are defined terms, not simply book value or the latest retail quote.",
+          "Required data-processing hardware/software uses the stated three-year straight-line acquisition-cost approach, with a minimum-specification qualification. Specialized repair tools have a 75% invoice rule. Preserve the supplier requirement and actual cost evidence; ordinary computers or tools are not assumed eligible just because the dealer used them."
+        ]
+      },
+      {
+        "heading": "Condition, source and dates can change the result",
+        "paragraphs": [
+          "Section 121 separately addresses damaged packages, parts needing reconditioning, clear title, retained goods, condition, equipment delivered before the stated 36-month window, post-notice orders and goods acquired from other sources. Read the actual exceptions and qualifications; a broken package does not always mean zero recovery.",
+          "The return provision in 121(a)(ix) is tied to the later of effective termination and receipt of required return-policy information, with its stated notice qualification. It is not simply 90 days from any letter. Record what was required, when it arrived and what the termination notice said before declaring a return late."
+        ]
+      },
+      {
+        "heading": "A recovery amount and a payment date are different records",
+        "paragraphs": [
+          "Section 120(b) generally requires payment or credit within 90 days after the supplier receives covered property, and permits withholding during failure to satisfy the stated contractual signage-removal obligation. Outstanding sums may lead to account credit rather than cash. Record receipt, offsets, signage and shared freight; neither the accounting amount nor sending a request proves payment has occurred."
+        ]
+      },
+      {
+        "heading": "Fictional arithmetic: eligible items only",
+        "paragraphs": [
+          "Fictional example: assume a covered dealer proves $10,000 in eligible net equipment cost and $2,000 in eligible current net parts prices. The basic 100% and 95% figures produce $11,900 before separate handling, freight, offsets and other applicable conditions. Technology, tools and disputed items stay separate rather than being assigned zero or full recovery. This is fictional arithmetic, not a valuation, collection forecast or approved claim."
+        ]
+      },
+      {
+        "heading": "Give finance a return-and-receipt ledger",
+        "paragraphs": [],
+        "bullets": [
+          "Separate item categories and statutory price bases from accounting values.",
+          "Attach supplier invoices, title, condition, age, demonstrator use and current parts evidence.",
+          "Preserve supplier-required technology/tool specifications and costs.",
+          "Track notice, return-policy information, shipping and actual supplier receipt.",
+          "Reconcile debt credits, freight, handling and signage obligations with the amount expected.",
+          "Keep the termination/cure, repurchase and dispute-remedy questions separate; do not assume one resolves another."
+        ]
+      }
+    ],
+    "nextStage": 3,
+    "practicalOutput": "Item-level eligibility, return/receipt and expected-payment ledger",
+    "limitations": [
+      "Wyoming defined equipment-dealer branch only; exclusions and qualifications must be applied to actual items.",
+      "No actual property eligibility, title, return deadline, amount due, tax or recovery determination."
+    ],
+    "proposalAction": "new-scoped-guide",
+    "dataset": "src/data/batch3-guides.json"
+  }
+]

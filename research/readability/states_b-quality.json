@@ -1,0 +1,204 @@
+{
+  "assignment": "states_b",
+  "articles": 36,
+  "inputSHA256": "6e3112da92481975f920fa85c63debcfe35956b6c79379035bfe35c50a1822c4",
+  "outputSHA256": "90bf34f6a198025d10d79a86ff2da5d133b3fe3a2a67bf4e1d0ab4e22071570c",
+  "identityAndOrderPreserved": true,
+  "onlyAllowedPatchFields": true,
+  "allSectionCitationsAllowed": true,
+  "everyGuideHasDefinedTermsAndDevelopedFictionalExample": true,
+  "canonicalCodeOrEvidenceFilesMutated": false,
+  "wordCountScope": "Introductory summary, section headings, paragraphs and checklist bullets; key terms and limitations excluded.",
+  "totalWords": 20045,
+  "minimumWords": 445,
+  "maximumWords": 782,
+  "articleCounts": [
+    {
+      "id": "b3-state2-mt-data",
+      "words": 560,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-nebraska",
+      "words": 566,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-nebraska/business-opportunity-earnings-claims",
+      "words": 558,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-nebraska/franchise-relationship-scope",
+      "words": 551,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-nevada",
+      "words": 569,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-new-hampshire",
+      "words": 549,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-new-hampshire/equipment-dealer-scope",
+      "words": 539,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-new-jersey",
+      "words": 544,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-a-new-mexico",
+      "words": 445,
+      "readMinutes": 3
+    },
+    {
+      "id": "state-guide-new-york",
+      "words": 782,
+      "readMinutes": 5
+    },
+    {
+      "id": "state-guide-new-york-advertising",
+      "words": 509,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state-guide-ny-wage-scope",
+      "words": 557,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-north-carolina",
+      "words": 528,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-north-dakota",
+      "words": 578,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-ohio",
+      "words": 538,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-oklahoma",
+      "words": 534,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-oregon",
+      "words": 578,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state4-or-renewal",
+      "words": 592,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-pennsylvania",
+      "words": 547,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-rhode-island",
+      "words": 544,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-south-carolina",
+      "words": 531,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-south-dakota",
+      "words": 580,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-tennessee",
+      "words": 524,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-texas",
+      "words": 542,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state-guide-tx-worker-classification",
+      "words": 532,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-utah",
+      "words": 528,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-vermont",
+      "words": 512,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-virginia",
+      "words": 595,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state4-va-contract",
+      "words": 603,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-washington",
+      "words": 586,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state4-wa-exit",
+      "words": 626,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-west-virginia",
+      "words": 512,
+      "readMinutes": 4
+    },
+    {
+      "id": "state-guide-wisconsin",
+      "words": 532,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state4-wi-dealership",
+      "words": 569,
+      "readMinutes": 4
+    },
+    {
+      "id": "b2-west-wyoming",
+      "words": 525,
+      "readMinutes": 4
+    },
+    {
+      "id": "b3-state2-wy-inventory",
+      "words": 580,
+      "readMinutes": 4
+    }
+  ],
+  "qualityNotes": [
+    "Every article rewritten individually around its actual legal/business question.",
+    "New Mexico is intentionally narrower: failed-bill source-status lesson with current law unresolved.",
+    "New York preserves statute/addendum day-wording conflict and independent federal clock.",
+    "No new professional review or legal-source verification date claimed.",
+    "No identifier, path, metadata or evidence text was edited through global string replacement."
+  ]
+}
