@@ -610,22 +610,22 @@
     {
       "id": "learning",
       "owner": "planning_tools",
-      "state": "validated",
+      "state": "live-verified",
       "scope": "Eight optional learning paths, practice and progress for all published guides/tools",
-      "conclusion": "All 14 challenges passed independent review. All 304 library items remain open. The current follow-up build passed 108 Node tests and all 43 browser cases, including public tool reading without JavaScript.",
+      "conclusion": "All 304 guides/tools are present in the public learning catalogue. Eight paths and fourteen cited fictional practices passed independent review, all 108 Node tests and all 43 browser tests. Live catalogue and complete article checks passed.",
       "evidenceFile": "research/next-release/learning-review.json"
     },
     {
       "id": "redesign",
       "owner": "editorial_inventory",
-      "state": "validated",
+      "state": "live-verified",
       "scope": "Significantly different presentation; preserve all content and functionality",
       "evidence": {
         "screenshots": "artifacts/redesign/after",
         "checks": "artifacts/redesign/visual-checks.json",
         "privacyNavigationReview": "research/next-release/privacy-navigation-review.json"
       },
-      "conclusion": "The major white, grey and cobalt redesign retains all content and the original 278 routes and 3,746 section anchors. Desktop/mobile, keyboard, reduced-motion and all 43 built-server browser cases passed. Ten additional final page captures show no overflow or JavaScript errors."
+      "conclusion": "The major responsive redesign is live. All original 278 public routes and 3,746 section anchors are preserved. All 335 public URLs passed status, heading, canonical and indexing-readiness checks; desktop/mobile and keyboard testing passed."
     },
     {
       "id": "search-monitoring",
@@ -638,10 +638,10 @@
     {
       "id": "release-qa",
       "owner": "root",
-      "state": "live-articles-verified",
+      "state": "live-verified",
       "scope": "Independent source and editorial QA, content preservation, functional/mobile/accessibility checks, exact GitHub/Railway release and live verification",
-      "conclusion": "The first release passed GitHub CI and complete live text verification of all 295 articles. Its 335-URL crawl found missing initial tool headings; the fix passed local validation and awaits its deployment and final crawl.",
-      "evidenceFile": "research/next-release/initial-live-verification.json"
+      "conclusion": "Exact-commit GitHub CI and Railway deployment succeeded. All 295 complete articles and all 335 public URLs passed live verification. IndexNow received all 335 public URLs. Search-provider account ownership and documented research limits remain separate open items.",
+      "evidenceFile": "research/next-release/live-verification.json"
     }
   ],
   "articles": [
@@ -662,7 +662,7 @@
       "validatedHash": "5d303da19d593d386305e19a04d02d09045e5a82aabbe2c6d52e7bd3ac77f25a",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "5d303da19d593d386305e19a04d02d09045e5a82aabbe2c6d52e7bd3ac77f25a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -682,7 +682,7 @@
       "validatedHash": "67c01f3b85be6e5d76ed3b2a2baddd5bbe2f778ad0bcec8fc787456f046b2f01",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "67c01f3b85be6e5d76ed3b2a2baddd5bbe2f778ad0bcec8fc787456f046b2f01",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -702,7 +702,7 @@
       "validatedHash": "09c82c74a480e743da1f56000a3364b1fbf504782340ad2ccabf905d04555e6b",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "09c82c74a480e743da1f56000a3364b1fbf504782340ad2ccabf905d04555e6b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -722,7 +722,7 @@
       "validatedHash": "a5861cfff9989f0e39f655811f6163986db12aa649c59c1e487b7edb5626e40f",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "a5861cfff9989f0e39f655811f6163986db12aa649c59c1e487b7edb5626e40f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -742,7 +742,7 @@
       "validatedHash": "8198b444cc440ab213643b0601bc733ff5b886e7fd4944f3deda8328d448c914",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "8198b444cc440ab213643b0601bc733ff5b886e7fd4944f3deda8328d448c914",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -762,7 +762,7 @@
       "validatedHash": "759a9c1460ef9f272b6b11cdc4a3601a40b4ee697a4a5ff5898c7297d4199387",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "759a9c1460ef9f272b6b11cdc4a3601a40b4ee697a4a5ff5898c7297d4199387",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -782,7 +782,7 @@
       "validatedHash": "ccabe50468ffcb94135b09f4e58757eaa65a1aa0db902ee46326e33a9a5888ae",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "ccabe50468ffcb94135b09f4e58757eaa65a1aa0db902ee46326e33a9a5888ae",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -802,7 +802,7 @@
       "validatedHash": "01f12dd80a14a2d1deeda2b334d4787d7c72d8c27fd967e701799b0a4d71eda5",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "01f12dd80a14a2d1deeda2b334d4787d7c72d8c27fd967e701799b0a4d71eda5",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -822,7 +822,7 @@
       "validatedHash": "df378d86bb6f8fdd36dd622972c9408b771a963ea4e57f9fe14154a40276d7d1",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "df378d86bb6f8fdd36dd622972c9408b771a963ea4e57f9fe14154a40276d7d1",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -842,7 +842,7 @@
       "validatedHash": "cfac01dc853e06e34f7c6d2074124e0a175b95294f855edabc8e6f8b91833051",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "cfac01dc853e06e34f7c6d2074124e0a175b95294f855edabc8e6f8b91833051",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -862,7 +862,7 @@
       "validatedHash": "999a4604c861f7971525647ba4fd0c73713e2ee8550ce877b4c2d45d91e26b6e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "999a4604c861f7971525647ba4fd0c73713e2ee8550ce877b4c2d45d91e26b6e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -882,7 +882,7 @@
       "validatedHash": "59895d07e0269ddcc642dd9e9a2100d1d1f554f5be2ff364bfd8474554ed7aab",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "59895d07e0269ddcc642dd9e9a2100d1d1f554f5be2ff364bfd8474554ed7aab",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -902,7 +902,7 @@
       "validatedHash": "f9f563fec901b0927f6ac433b9fcfad286246bad6c2096796d19bdf8f4296416",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "f9f563fec901b0927f6ac433b9fcfad286246bad6c2096796d19bdf8f4296416",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -922,7 +922,7 @@
       "validatedHash": "6d8fd288eece2057bc3006b631bd954dcd17c238f244881dd806486d7dfc223e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "6d8fd288eece2057bc3006b631bd954dcd17c238f244881dd806486d7dfc223e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -942,7 +942,7 @@
       "validatedHash": "fa79db7dd5404d0de9af6704f2aecbbfcce8c6fdea680f2b0b6faf47ac8044f8",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "fa79db7dd5404d0de9af6704f2aecbbfcce8c6fdea680f2b0b6faf47ac8044f8",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -962,7 +962,7 @@
       "validatedHash": "0c936b5729a4498c8b5e35a02f1d1bddcd36f2cc18884fd9ed2bf8ad7229bc7a",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "0c936b5729a4498c8b5e35a02f1d1bddcd36f2cc18884fd9ed2bf8ad7229bc7a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -982,7 +982,7 @@
       "validatedHash": "5debcd664a39759e051c648e8a5aacfd7d30d6737f8de5692c07a6f67f52c769",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "5debcd664a39759e051c648e8a5aacfd7d30d6737f8de5692c07a6f67f52c769",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1002,7 +1002,7 @@
       "validatedHash": "0f1fe8b1bec38702d99ff6bc6e40a8e4e82acb0d92ab97b7e854cdde5f66a821",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "0f1fe8b1bec38702d99ff6bc6e40a8e4e82acb0d92ab97b7e854cdde5f66a821",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1022,7 +1022,7 @@
       "validatedHash": "485b9f9ad0550d8a5945ae81d95dc29939565dbbc94f4ca13d39c623bdbcdad7",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "485b9f9ad0550d8a5945ae81d95dc29939565dbbc94f4ca13d39c623bdbcdad7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1042,7 +1042,7 @@
       "validatedHash": "8baabb8141404734901413c68a452d746f9cdc959706d8709a49f116ff6553ad",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "8baabb8141404734901413c68a452d746f9cdc959706d8709a49f116ff6553ad",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1062,7 +1062,7 @@
       "validatedHash": "9eeaf8eed4ce8b9682ddb937a354c66cfc5053909462c41d0d9efe57f95c7547",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9eeaf8eed4ce8b9682ddb937a354c66cfc5053909462c41d0d9efe57f95c7547",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1082,7 +1082,7 @@
       "validatedHash": "e4c5ef8fc35587701e1848bc843e6b6ff73f0783b524835503b508eab77489f4",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "e4c5ef8fc35587701e1848bc843e6b6ff73f0783b524835503b508eab77489f4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1102,7 +1102,7 @@
       "validatedHash": "349883671a0f38ab18dcc3accded819608d937bf1d0bf5b3ffed519d0dc998e9",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "349883671a0f38ab18dcc3accded819608d937bf1d0bf5b3ffed519d0dc998e9",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1122,7 +1122,7 @@
       "validatedHash": "b8dd836fe05ed873e08652671518e28a3cecf26b71be9345ee30cc122e700033",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "b8dd836fe05ed873e08652671518e28a3cecf26b71be9345ee30cc122e700033",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1142,7 +1142,7 @@
       "validatedHash": "3a16444ae884c64254d7943d24bea337e8235965f9cb38851632349acaba02a7",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "3a16444ae884c64254d7943d24bea337e8235965f9cb38851632349acaba02a7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1162,7 +1162,7 @@
       "validatedHash": "87dc013aa57a4072a5e0f0b3b0c0067cef4666f79787e027cb7a441309651bba",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "87dc013aa57a4072a5e0f0b3b0c0067cef4666f79787e027cb7a441309651bba",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1182,7 +1182,7 @@
       "validatedHash": "44d7dc1fc3e178695536942ca9d703a8ccc5662dcb028a25e719af828c64290b",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "44d7dc1fc3e178695536942ca9d703a8ccc5662dcb028a25e719af828c64290b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1202,7 +1202,7 @@
       "validatedHash": "50cf39d398f99e53adc9e854d651f3780f916e55dc5eb330312c6a1c99dc75d1",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "50cf39d398f99e53adc9e854d651f3780f916e55dc5eb330312c6a1c99dc75d1",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1222,7 +1222,7 @@
       "validatedHash": "71d3521cf2a4b961db5d151c42e496a6d4b39b8d8514f24cf83dd6a23d3234af",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "71d3521cf2a4b961db5d151c42e496a6d4b39b8d8514f24cf83dd6a23d3234af",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1242,7 +1242,7 @@
       "validatedHash": "43e3a649b70192ac44b310c7a5edf0ca972e1620055b28c4fcecc3891d438005",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "43e3a649b70192ac44b310c7a5edf0ca972e1620055b28c4fcecc3891d438005",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1262,7 +1262,7 @@
       "validatedHash": "7d9ded5af231fb35380b45011b15facf09ee6d5dba37dd39bab244738d8f8695",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "7d9ded5af231fb35380b45011b15facf09ee6d5dba37dd39bab244738d8f8695",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1283,7 +1283,7 @@
       "validatedHash": "9dfb4ae404235acb557d8cdc4bb57bd020eb339301f4ac90caf88da1f3c6a3a8",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9dfb4ae404235acb557d8cdc4bb57bd020eb339301f4ac90caf88da1f3c6a3a8",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1303,7 +1303,7 @@
       "validatedHash": "0390916a4bcf7275781c0bf31122f7c5cf75f79ff4ab0b6da3aec1ce8be04164",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "0390916a4bcf7275781c0bf31122f7c5cf75f79ff4ab0b6da3aec1ce8be04164",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1327,7 +1327,7 @@
       "validatedHash": "3bb552fdf6ddbc178d81a3173a1fedd3ab0cf4866403c15efa5340376842723c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "3bb552fdf6ddbc178d81a3173a1fedd3ab0cf4866403c15efa5340376842723c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1351,7 +1351,7 @@
       "validatedHash": "2af0eddb84ee1430e88f929eddf0bddf5c30db6f1b78f33830375745a69623b8",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "2af0eddb84ee1430e88f929eddf0bddf5c30db6f1b78f33830375745a69623b8",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1371,7 +1371,7 @@
       "validatedHash": "c5d3c09fd77dc511a6d96fdc00d132f3fea75cce353a5a66ace9cfd3948ebc42",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "c5d3c09fd77dc511a6d96fdc00d132f3fea75cce353a5a66ace9cfd3948ebc42",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1395,7 +1395,7 @@
       "validatedHash": "fec22aa45761254d3257630dbdf5278c8e77e6de88a3c49b200089f0490a132b",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "fec22aa45761254d3257630dbdf5278c8e77e6de88a3c49b200089f0490a132b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1415,7 +1415,7 @@
       "validatedHash": "b56cd27b8d29d2050c0550013ded8c35d52999de862bae5bae78c1de87756000",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "b56cd27b8d29d2050c0550013ded8c35d52999de862bae5bae78c1de87756000",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1435,7 +1435,7 @@
       "validatedHash": "766019d48e087a077b596e071cc3f8bb6dcc697e92f6dbc2b0fdad689870ce06",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "766019d48e087a077b596e071cc3f8bb6dcc697e92f6dbc2b0fdad689870ce06",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1455,7 +1455,7 @@
       "validatedHash": "5797b2cb376185e5c50906cc6bd3d3ed020a4e9264c912d123c226c4c4902695",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "5797b2cb376185e5c50906cc6bd3d3ed020a4e9264c912d123c226c4c4902695",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1475,7 +1475,7 @@
       "validatedHash": "4d2840195103f2853c92241187989414fb40c84112f69e90e5f779e732f97293",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "4d2840195103f2853c92241187989414fb40c84112f69e90e5f779e732f97293",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1495,7 +1495,7 @@
       "validatedHash": "f88d516eb82d02959b366738c189b7c73f791450a8168e0cfbb8d7f0b40066cb",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "f88d516eb82d02959b366738c189b7c73f791450a8168e0cfbb8d7f0b40066cb",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1515,7 +1515,7 @@
       "validatedHash": "2b1e303b539c309dc44d4a19ef8cbca224654e3c5483b7a030baaa573c7e44c8",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "2b1e303b539c309dc44d4a19ef8cbca224654e3c5483b7a030baaa573c7e44c8",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1535,7 +1535,7 @@
       "validatedHash": "ad9db013850a203bde91a64ffc2f83aa9fb99105cf717cf6ca9f299846214715",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "ad9db013850a203bde91a64ffc2f83aa9fb99105cf717cf6ca9f299846214715",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1555,7 +1555,7 @@
       "validatedHash": "65542806a25234f59835a83be18664e3add1505ade694ba8fab0ee50ac0bd012",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "65542806a25234f59835a83be18664e3add1505ade694ba8fab0ee50ac0bd012",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1575,7 +1575,7 @@
       "validatedHash": "32431bad0a3aaaae49405bde2324e53169244396916ef283ce3d0a1ea6f842ee",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "32431bad0a3aaaae49405bde2324e53169244396916ef283ce3d0a1ea6f842ee",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1595,7 +1595,7 @@
       "validatedHash": "c33b4a7cd3ca32014382eb8850e2fbd467902a9ae5b971748783c188a17dde0d",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "c33b4a7cd3ca32014382eb8850e2fbd467902a9ae5b971748783c188a17dde0d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1615,7 +1615,7 @@
       "validatedHash": "6782b01d59aa48d5511827a48af17ba3b73a9f62d885ba9504f28c3889eec1ea",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "6782b01d59aa48d5511827a48af17ba3b73a9f62d885ba9504f28c3889eec1ea",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1635,7 +1635,7 @@
       "validatedHash": "ece6070d0f8caf8bf89aad3985fb5ef5ef03ea2e7f18e2623e0f2e6f19f0dc1c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "ece6070d0f8caf8bf89aad3985fb5ef5ef03ea2e7f18e2623e0f2e6f19f0dc1c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1655,7 +1655,7 @@
       "validatedHash": "d94ebe6cd2194ac031e356f82c993dcf4e9f109a372f45cedc2c192273724af0",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "d94ebe6cd2194ac031e356f82c993dcf4e9f109a372f45cedc2c192273724af0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1675,7 +1675,7 @@
       "validatedHash": "d354ff7bfa7a8e0d305d8941671741e3dd7d20b5ac750fab570ff5a592f30c1c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "d354ff7bfa7a8e0d305d8941671741e3dd7d20b5ac750fab570ff5a592f30c1c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1695,7 +1695,7 @@
       "validatedHash": "14a91b27c106a73021a9c3b37d081f30518001ceef95453369272587f306ca0e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "14a91b27c106a73021a9c3b37d081f30518001ceef95453369272587f306ca0e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1715,7 +1715,7 @@
       "validatedHash": "9fe08227e052fda284ce4d9c022bedf4791dd2b5e4d6d8cf33951c9b23927062",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9fe08227e052fda284ce4d9c022bedf4791dd2b5e4d6d8cf33951c9b23927062",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1738,7 +1738,7 @@
       "validatedHash": "d7442e5a88d72c0699541ce3d49f9407b351771b9c25e019acac7f01cdb9de7c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "d7442e5a88d72c0699541ce3d49f9407b351771b9c25e019acac7f01cdb9de7c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1758,7 +1758,7 @@
       "validatedHash": "ddfaa1c78b2ac82e41e737ebaf2a8f8abfb992c0f30be8a14b810751e32a1070",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "ddfaa1c78b2ac82e41e737ebaf2a8f8abfb992c0f30be8a14b810751e32a1070",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1778,7 +1778,7 @@
       "validatedHash": "edbdb68d5ff52322a341f232a2a3d491c5236ab67ba11bd082a1a0513543b1ee",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "edbdb68d5ff52322a341f232a2a3d491c5236ab67ba11bd082a1a0513543b1ee",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1798,7 +1798,7 @@
       "validatedHash": "bad5082decde3fb97e9add80933ea541f693caf71574a74458f40540db15e2dd",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "bad5082decde3fb97e9add80933ea541f693caf71574a74458f40540db15e2dd",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1818,7 +1818,7 @@
       "validatedHash": "739f0ae261a080494da08817f9e77edccf8d6f86b90661cdc1b254ea37b799e1",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "739f0ae261a080494da08817f9e77edccf8d6f86b90661cdc1b254ea37b799e1",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1838,7 +1838,7 @@
       "validatedHash": "23907af114ca62bdd2bf4331ad09c4f9255102456c6fcea92897c93c5a19ccdc",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "23907af114ca62bdd2bf4331ad09c4f9255102456c6fcea92897c93c5a19ccdc",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1862,7 +1862,7 @@
       "validatedHash": "110190ac84a036ce63aaa8e02b9c714cf8729aa8062082090ad602c4a4ad5306",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "110190ac84a036ce63aaa8e02b9c714cf8729aa8062082090ad602c4a4ad5306",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1886,7 +1886,7 @@
       "validatedHash": "9eee215cdd1b53cfcb359090e7e0c4384cce73af115c9b8f1b36e66f674ad12e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9eee215cdd1b53cfcb359090e7e0c4384cce73af115c9b8f1b36e66f674ad12e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1906,7 +1906,7 @@
       "validatedHash": "fade850817228df405da640f15afe5a3fe87724340b0274682bb4b5f021e74d2",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "fade850817228df405da640f15afe5a3fe87724340b0274682bb4b5f021e74d2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1926,7 +1926,7 @@
       "validatedHash": "dd18c76d74dfdb3e9aae02fc396e797bcb92557bc2cb97d35837d2b94da91dc2",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "dd18c76d74dfdb3e9aae02fc396e797bcb92557bc2cb97d35837d2b94da91dc2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1946,7 +1946,7 @@
       "validatedHash": "50e2bf83f447f15a109cd332273eb4fc2f3166fb6632d531d799a632fe205c97",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "50e2bf83f447f15a109cd332273eb4fc2f3166fb6632d531d799a632fe205c97",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1966,7 +1966,7 @@
       "validatedHash": "89f2dee3a16ce7c35cdf0f5e8d3ffb285ca63c32dc94e25ddf5161bd270a1799",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "89f2dee3a16ce7c35cdf0f5e8d3ffb285ca63c32dc94e25ddf5161bd270a1799",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -1986,7 +1986,7 @@
       "validatedHash": "32d4fe9aa089fc3b4272bb2fa99156839cea1d7db0583ad2bb3caa7ede282411",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "32d4fe9aa089fc3b4272bb2fa99156839cea1d7db0583ad2bb3caa7ede282411",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2006,7 +2006,7 @@
       "validatedHash": "2c8be615ea242b7665ecda771d26993b88f0f3af797faad251893e74ead71a9f",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "2c8be615ea242b7665ecda771d26993b88f0f3af797faad251893e74ead71a9f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2030,7 +2030,7 @@
       "validatedHash": "493cec881e83082fff5a70e03ba4381d011d75b1d0e55a6157b86f4127f521ce",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "493cec881e83082fff5a70e03ba4381d011d75b1d0e55a6157b86f4127f521ce",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2050,7 +2050,7 @@
       "validatedHash": "9ec0ec059ef0e7f45f858e371b95794370ede8d4c2be9bac773c037478fe8ed0",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9ec0ec059ef0e7f45f858e371b95794370ede8d4c2be9bac773c037478fe8ed0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2070,7 +2070,7 @@
       "validatedHash": "5f687ec8c4d76a0e16aa414092572876c59455fd5ea7fab486a7ea5a46522bb2",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "5f687ec8c4d76a0e16aa414092572876c59455fd5ea7fab486a7ea5a46522bb2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2094,7 +2094,7 @@
       "validatedHash": "9a70644c2f9c9cb1c520e75ed16001f0ecc9d2c355e502d811f9e9f6c3f1c6f0",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9a70644c2f9c9cb1c520e75ed16001f0ecc9d2c355e502d811f9e9f6c3f1c6f0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2114,7 +2114,7 @@
       "validatedHash": "0390dfc78c9829ffd836923d98276402022b5edc1f2d765d396364e121e10ba4",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "0390dfc78c9829ffd836923d98276402022b5edc1f2d765d396364e121e10ba4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2134,7 +2134,7 @@
       "validatedHash": "df05e28b3a8599b188181b155c88893a828a5f2f4000e392ca3adb000b38453e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "df05e28b3a8599b188181b155c88893a828a5f2f4000e392ca3adb000b38453e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2154,7 +2154,7 @@
       "validatedHash": "d179ebb1efde9ce6cc9d0110fc7b9b213af77fe981a2d51dd7f34fada1cad04c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "d179ebb1efde9ce6cc9d0110fc7b9b213af77fe981a2d51dd7f34fada1cad04c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2174,7 +2174,7 @@
       "validatedHash": "cc14d994cfb80724ab9c41f3f20449f6ccd1122385af3f35156e0db5d262d2c3",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "cc14d994cfb80724ab9c41f3f20449f6ccd1122385af3f35156e0db5d262d2c3",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2194,7 +2194,7 @@
       "validatedHash": "84ac75ea7fd3bcbc365a9dbc208c939c81ce7f33d0c08f4be07560b87673e725",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "84ac75ea7fd3bcbc365a9dbc208c939c81ce7f33d0c08f4be07560b87673e725",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2214,7 +2214,7 @@
       "validatedHash": "07ded6b20f7a463805e9c04f531ec8ea1a8eb5fa76c1dfc6d3f6afc3abcc882f",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "07ded6b20f7a463805e9c04f531ec8ea1a8eb5fa76c1dfc6d3f6afc3abcc882f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2234,7 +2234,7 @@
       "validatedHash": "913573dffcf709f3a8eb5d29ffb144ab4de5690f6e4039e8799f5ab8d3bbf5da",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "913573dffcf709f3a8eb5d29ffb144ab4de5690f6e4039e8799f5ab8d3bbf5da",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2254,7 +2254,7 @@
       "validatedHash": "6f7c7c9a894946c8215f2a22b8381da94d5e4d3a62f58a2bb6b578e1c8bcacdd",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "6f7c7c9a894946c8215f2a22b8381da94d5e4d3a62f58a2bb6b578e1c8bcacdd",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2274,7 +2274,7 @@
       "validatedHash": "7751da8ad39f5ceca5829a1bbed2b7bb88e7edf5dea16e012560614a1fd49aef",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "7751da8ad39f5ceca5829a1bbed2b7bb88e7edf5dea16e012560614a1fd49aef",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2294,7 +2294,7 @@
       "validatedHash": "9651e4ee92b1b088c3f6b4b2f3e065cfe6878933c2d80bd0522f4dccc6a10f02",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "9651e4ee92b1b088c3f6b4b2f3e065cfe6878933c2d80bd0522f4dccc6a10f02",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2314,7 +2314,7 @@
       "validatedHash": "b3d20b74d7656ae5cf6cce26441e1b75f083acf3becd81d71725186329ae5946",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "b3d20b74d7656ae5cf6cce26441e1b75f083acf3becd81d71725186329ae5946",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2334,7 +2334,7 @@
       "validatedHash": "e616f24ca7d14c1c55ebcbbab8ca666ef2f6f2f2a77768f336f6d09b40d8c9c7",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "e616f24ca7d14c1c55ebcbbab8ca666ef2f6f2f2a77768f336f6d09b40d8c9c7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2354,7 +2354,7 @@
       "validatedHash": "4ed7d7384b0cc2f6d8cbb718f465d05c8d1e159f5ef3d778dc295e2ccd95de7c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "4ed7d7384b0cc2f6d8cbb718f465d05c8d1e159f5ef3d778dc295e2ccd95de7c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2374,7 +2374,7 @@
       "validatedHash": "37ef04f5be05e90ed36d3a91c3d67515a2a03bcb04bdaff575aabd8f0a56bb18",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "37ef04f5be05e90ed36d3a91c3d67515a2a03bcb04bdaff575aabd8f0a56bb18",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2394,7 +2394,7 @@
       "validatedHash": "35b5238166279c0e3a4f8dd42b7d3efefff971dbec87f38910fe27e7a2814d33",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "35b5238166279c0e3a4f8dd42b7d3efefff971dbec87f38910fe27e7a2814d33",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2414,7 +2414,7 @@
       "validatedHash": "ad12528acb1d7058c58b5be3d2d31710f6c2ddf7a02e890ffb532abbda223695",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "ad12528acb1d7058c58b5be3d2d31710f6c2ddf7a02e890ffb532abbda223695",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2434,7 +2434,7 @@
       "validatedHash": "04c17b33718a1681979c4844ed822600e3256ac17376db4ce13ea79fc9138df4",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "04c17b33718a1681979c4844ed822600e3256ac17376db4ce13ea79fc9138df4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2454,7 +2454,7 @@
       "validatedHash": "46e8f2ddcbff9ff3ca1e1a40cc9ec33170b2a1cf31f9d7553b12a3366af4b99a",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "46e8f2ddcbff9ff3ca1e1a40cc9ec33170b2a1cf31f9d7553b12a3366af4b99a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2474,7 +2474,7 @@
       "validatedHash": "25485ca7148608ee0fbeb7ea896fd980d550b168ef71cd271a42c969208dd72e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "25485ca7148608ee0fbeb7ea896fd980d550b168ef71cd271a42c969208dd72e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2494,7 +2494,7 @@
       "validatedHash": "694515f791d037a4078ecd37cfe5b17759f192586d89f29521f5eda9a94c3b2b",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "694515f791d037a4078ecd37cfe5b17759f192586d89f29521f5eda9a94c3b2b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2514,7 +2514,7 @@
       "validatedHash": "e7c23fc96393e41426326091b86fa46aed1159df56e8e0bad66aabb0db763fb1",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "e7c23fc96393e41426326091b86fa46aed1159df56e8e0bad66aabb0db763fb1",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2534,7 +2534,7 @@
       "validatedHash": "3da855f9ab88273cbc31fd29a3c7dfdbe9e1a8aa83bf3990769aa39fe051158a",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "3da855f9ab88273cbc31fd29a3c7dfdbe9e1a8aa83bf3990769aa39fe051158a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2554,7 +2554,7 @@
       "validatedHash": "a9bcd85da2e2431f8fef8a52140c65ae5f1cd6ee8ee9590080dbcea46f8d7277",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "a9bcd85da2e2431f8fef8a52140c65ae5f1cd6ee8ee9590080dbcea46f8d7277",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2574,7 +2574,7 @@
       "validatedHash": "56b5d146577218947aadd0d8a961e0ed06cd8e6176bc8e3eb1be9c509f0121bb",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "56b5d146577218947aadd0d8a961e0ed06cd8e6176bc8e3eb1be9c509f0121bb",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2594,7 +2594,7 @@
       "validatedHash": "fa3f45ab8683d0579a3e00e66b1df6758d904e7b2a567708ed03d52c560da0e7",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "fa3f45ab8683d0579a3e00e66b1df6758d904e7b2a567708ed03d52c560da0e7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2614,7 +2614,7 @@
       "validatedHash": "674948a3f0e929eefbf4111ac7ac03f9aca8b44464dff937d2fa33d14a39ceaa",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "674948a3f0e929eefbf4111ac7ac03f9aca8b44464dff937d2fa33d14a39ceaa",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2634,7 +2634,7 @@
       "validatedHash": "cbcd3324b28043420fc6a5750e4702c032b41ede30b17d6569aeab54f3838f09",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "cbcd3324b28043420fc6a5750e4702c032b41ede30b17d6569aeab54f3838f09",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2654,7 +2654,7 @@
       "validatedHash": "2a8145813eea1912c2ae248ab95278d2c230758f49264878720107c1fc0b80bb",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "2a8145813eea1912c2ae248ab95278d2c230758f49264878720107c1fc0b80bb",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2674,7 +2674,7 @@
       "validatedHash": "21c772e38d755251a8c75d14d1d4d886cfd68110c2afa05c43178ef4f6b378a5",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "21c772e38d755251a8c75d14d1d4d886cfd68110c2afa05c43178ef4f6b378a5",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2694,7 +2694,7 @@
       "validatedHash": "cb810a6ebf9e538640be1653026adf6a55382f18083f0dff59a436f4f9c1a407",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "cb810a6ebf9e538640be1653026adf6a55382f18083f0dff59a436f4f9c1a407",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2714,7 +2714,7 @@
       "validatedHash": "01db8e3ab24fa6ca69da6499d3667285635caafffdaa52cb265ff4edab5cf11b",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "01db8e3ab24fa6ca69da6499d3667285635caafffdaa52cb265ff4edab5cf11b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2734,7 +2734,7 @@
       "validatedHash": "7ad57a2bb5732d2514f601af2f0f98ddbea0c9e6b6bfff728e7acecf2a19a2cd",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "7ad57a2bb5732d2514f601af2f0f98ddbea0c9e6b6bfff728e7acecf2a19a2cd",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2754,7 +2754,7 @@
       "validatedHash": "4807085759826012f2974a319169fb0fab7c18b30679d6c892fe60c65bcf9361",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "4807085759826012f2974a319169fb0fab7c18b30679d6c892fe60c65bcf9361",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2774,7 +2774,7 @@
       "validatedHash": "76f9197261e7da096e946082945e1572e3e9a24bb19c7263ac30570c24fa0828",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "76f9197261e7da096e946082945e1572e3e9a24bb19c7263ac30570c24fa0828",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2794,7 +2794,7 @@
       "validatedHash": "12aea499b26e56273422c399b745ab66af0ae3bf5a56d7e57840e9dbc206bfa4",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "12aea499b26e56273422c399b745ab66af0ae3bf5a56d7e57840e9dbc206bfa4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2814,7 +2814,7 @@
       "validatedHash": "92e9537bb6050759437de3bf0c78ab626e222f923ddb4cdacfc6c5a0df459e3c",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "92e9537bb6050759437de3bf0c78ab626e222f923ddb4cdacfc6c5a0df459e3c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2834,7 +2834,7 @@
       "validatedHash": "344d3719749bd2db2716dcd09faf16bf44a775b2594462891f41edb63f3e8369",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "344d3719749bd2db2716dcd09faf16bf44a775b2594462891f41edb63f3e8369",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2858,7 +2858,7 @@
       "validatedHash": "7fd47eaa4e2fce3f2c5bf4ad3d24e82fe1061697b9f2acf4dbc5d7f56d97c353",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "7fd47eaa4e2fce3f2c5bf4ad3d24e82fe1061697b9f2acf4dbc5d7f56d97c353",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2878,7 +2878,7 @@
       "validatedHash": "61f733ce6fd44671e9db0bdbe251ba0b90f7b2cdee6e8e9afeed34603e6bc148",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "61f733ce6fd44671e9db0bdbe251ba0b90f7b2cdee6e8e9afeed34603e6bc148",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2902,7 +2902,7 @@
       "validatedHash": "b03549c75c5e34922aebd45a01bda83cf28677ed7b0189ca58198c61a4444689",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "b03549c75c5e34922aebd45a01bda83cf28677ed7b0189ca58198c61a4444689",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2922,7 +2922,7 @@
       "validatedHash": "0c91130c72911d15040fa0a68292d6eed3fa0c2c4871deb7906b931d6cd12005",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "0c91130c72911d15040fa0a68292d6eed3fa0c2c4871deb7906b931d6cd12005",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2942,7 +2942,7 @@
       "validatedHash": "8e12bc9f1d848cff83973dfd0a1d23cf50b0e10f33c1b61d94e94bb4f31953c6",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "8e12bc9f1d848cff83973dfd0a1d23cf50b0e10f33c1b61d94e94bb4f31953c6",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2962,7 +2962,7 @@
       "validatedHash": "d7c4b361d7a2f39240c17d5e434e1a995761a848ffd73f5251d96770e6c5be8e",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "d7c4b361d7a2f39240c17d5e434e1a995761a848ffd73f5251d96770e6c5be8e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -2982,7 +2982,7 @@
       "validatedHash": "4881a16c914e7890fcc44f253580b497eb7a6befb9a3dcfd3f07379f308c7039",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "4881a16c914e7890fcc44f253580b497eb7a6befb9a3dcfd3f07379f308c7039",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3006,7 +3006,7 @@
       "validatedHash": "f644ede0450d1512f628cd4791eb41ef242f259d82e32e1f7714927432c11464",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "f644ede0450d1512f628cd4791eb41ef242f259d82e32e1f7714927432c11464",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3027,7 +3027,7 @@
       "reviewedHash": "5f2caf94ea0a81e3f5f1855d529cf0949b17d3d94d2273d57fecb3a3e5aeea7e",
       "validatedHash": "5f2caf94ea0a81e3f5f1855d529cf0949b17d3d94d2273d57fecb3a3e5aeea7e",
       "liveVerifiedHash": "5f2caf94ea0a81e3f5f1855d529cf0949b17d3d94d2273d57fecb3a3e5aeea7e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3051,7 +3051,7 @@
       "validatedHash": "55d21b34881a7cd329e0c3b043cce192a6ffb675b39c66ee9819fdc852ccaaf6",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "55d21b34881a7cd329e0c3b043cce192a6ffb675b39c66ee9819fdc852ccaaf6",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3075,7 +3075,7 @@
       "validatedHash": "04fe799422d5f973d36cfc02dbdf2945fbeaa4e4deab8acf1db4c6d758c9c430",
       "validatedAt": "2026-11-14T02:25:40.772Z",
       "liveVerifiedHash": "04fe799422d5f973d36cfc02dbdf2945fbeaa4e4deab8acf1db4c6d758c9c430",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3099,7 +3099,7 @@
       "validatedHash": "6d236d32acf1636f222838874a5ff3160bbad3f6dc9f2de9929ac286cfd52567",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6d236d32acf1636f222838874a5ff3160bbad3f6dc9f2de9929ac286cfd52567",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3123,7 +3123,7 @@
       "validatedHash": "5c2e83661a41e7664b0ee219392aa9c183204666cfce88bfe709c7d1bb495118",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "5c2e83661a41e7664b0ee219392aa9c183204666cfce88bfe709c7d1bb495118",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3143,7 +3143,7 @@
       "validatedHash": "3e1f2579b30c9f99cc4c261c1d8a347f6eac2d7ac14bb9e531897b35948ba11e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "3e1f2579b30c9f99cc4c261c1d8a347f6eac2d7ac14bb9e531897b35948ba11e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3163,7 +3163,7 @@
       "validatedHash": "78f1ee7d44b018c6ee6fd6bc7821592a5c863efee22982a92f0ebad0eaac254c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "78f1ee7d44b018c6ee6fd6bc7821592a5c863efee22982a92f0ebad0eaac254c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3183,7 +3183,7 @@
       "validatedHash": "d142d97f44025251aab93dc8dc950862e63a8dd62335c640698f7949b582c02d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d142d97f44025251aab93dc8dc950862e63a8dd62335c640698f7949b582c02d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3203,7 +3203,7 @@
       "validatedHash": "1067d7ab0c715543b4a78ea1e6da29274f45cfdaa1b11ac9d380a241fa6e380d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "1067d7ab0c715543b4a78ea1e6da29274f45cfdaa1b11ac9d380a241fa6e380d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3223,7 +3223,7 @@
       "validatedHash": "110f924977702e797f459ca0b89314af93775c82576edb12f82cb43c311a7b7c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "110f924977702e797f459ca0b89314af93775c82576edb12f82cb43c311a7b7c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3243,7 +3243,7 @@
       "validatedHash": "f33fdb272248a3c88f6793c3ce2c29641d80ac6dc0f9bbddf05e0cd7f1f486fe",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f33fdb272248a3c88f6793c3ce2c29641d80ac6dc0f9bbddf05e0cd7f1f486fe",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3263,7 +3263,7 @@
       "validatedHash": "1c348df02e25be3cde244df4e25123488592c6d0eb82517473bbcdcf31667717",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "1c348df02e25be3cde244df4e25123488592c6d0eb82517473bbcdcf31667717",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3283,7 +3283,7 @@
       "validatedHash": "9f7b3ac048ebc3f7757e9a6bd4c0048f9de878e86f923344b96415cfd6e5ebd7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9f7b3ac048ebc3f7757e9a6bd4c0048f9de878e86f923344b96415cfd6e5ebd7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3303,7 +3303,7 @@
       "validatedHash": "f692e8b4f0acf1bd7fb3f22264b2994eafa4b65ce21b41386b03d6d899e37e5d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f692e8b4f0acf1bd7fb3f22264b2994eafa4b65ce21b41386b03d6d899e37e5d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3323,7 +3323,7 @@
       "validatedHash": "e88604ee3b4119af8d07306a53df8a42f1e21617f224dd3933feb50cdbfa974a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e88604ee3b4119af8d07306a53df8a42f1e21617f224dd3933feb50cdbfa974a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3343,7 +3343,7 @@
       "validatedHash": "c1080fb4f90162934327990e89c3807f7bea78ccebb144f590d5ab2fecabeb4b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c1080fb4f90162934327990e89c3807f7bea78ccebb144f590d5ab2fecabeb4b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3363,7 +3363,7 @@
       "validatedHash": "92c2ed0fad2c33763014ad5e3b2febf6184e719923b6690a5780623f690a4794",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "92c2ed0fad2c33763014ad5e3b2febf6184e719923b6690a5780623f690a4794",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3383,7 +3383,7 @@
       "validatedHash": "8e9a38ea5bba4085d65c1f363211918889f8119b7a682d4c0758dbd93041ca7e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "8e9a38ea5bba4085d65c1f363211918889f8119b7a682d4c0758dbd93041ca7e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3403,7 +3403,7 @@
       "validatedHash": "74c956b262d3b6d8b3d3271f3a6d92f1d61710d5faa0428b69535673ea760800",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "74c956b262d3b6d8b3d3271f3a6d92f1d61710d5faa0428b69535673ea760800",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3423,7 +3423,7 @@
       "validatedHash": "de4ccb99a0d2318c952aa9781b7e5aad8e383d0157fd1269e5d0741a4ca48f9e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "de4ccb99a0d2318c952aa9781b7e5aad8e383d0157fd1269e5d0741a4ca48f9e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3443,7 +3443,7 @@
       "validatedHash": "6063625bcf6d043697aa7b7fe040919d34f924a003e2193111a930a34a8c27ff",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6063625bcf6d043697aa7b7fe040919d34f924a003e2193111a930a34a8c27ff",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3463,7 +3463,7 @@
       "validatedHash": "707b0e98e093f2823f8e5dbfd8ec13f7eab3d8d6499f6fba71ac2fe32c77b60d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "707b0e98e093f2823f8e5dbfd8ec13f7eab3d8d6499f6fba71ac2fe32c77b60d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3483,7 +3483,7 @@
       "validatedHash": "1a3e6f354aed90d3a80e9ebb06fb4d4b8034f2dd29d6f73b7b63e84445756e5f",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "1a3e6f354aed90d3a80e9ebb06fb4d4b8034f2dd29d6f73b7b63e84445756e5f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3503,7 +3503,7 @@
       "validatedHash": "cd69587c2931cfe72244408f82d88c635560455a8c8f2ddd3a760253ad0d382f",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "cd69587c2931cfe72244408f82d88c635560455a8c8f2ddd3a760253ad0d382f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3523,7 +3523,7 @@
       "validatedHash": "d3760388b53b987c1e534ae521e780865e5fea51af3891369df0f0beb0247d9b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d3760388b53b987c1e534ae521e780865e5fea51af3891369df0f0beb0247d9b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3543,7 +3543,7 @@
       "validatedHash": "d4b2e69ce035367798d82d37f35a427ad9aad93e4e195a3e123a55510b2866ab",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d4b2e69ce035367798d82d37f35a427ad9aad93e4e195a3e123a55510b2866ab",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3563,7 +3563,7 @@
       "validatedHash": "cd1925d9820aee54aea9a2aeb61237e1f4bc4cbc3c59213f7eaf2776661ac62b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "cd1925d9820aee54aea9a2aeb61237e1f4bc4cbc3c59213f7eaf2776661ac62b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3583,7 +3583,7 @@
       "validatedHash": "3255e498082cf722fae84fa426d962adc54d4a0484a78b3e65074e83ee815f65",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "3255e498082cf722fae84fa426d962adc54d4a0484a78b3e65074e83ee815f65",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3603,7 +3603,7 @@
       "validatedHash": "af8c241d9dcf015af9d7f3f7cdca6b0748cbe20ee6c9352a23c30e0bc40229f0",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "af8c241d9dcf015af9d7f3f7cdca6b0748cbe20ee6c9352a23c30e0bc40229f0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3623,7 +3623,7 @@
       "validatedHash": "08309c5bf2b57b0270eb8eb0ed8cc740d27473ef508cf8e06b4588f15ab1351b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "08309c5bf2b57b0270eb8eb0ed8cc740d27473ef508cf8e06b4588f15ab1351b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3643,7 +3643,7 @@
       "validatedHash": "c138eee5a3e8860b69fb9076a1297bbb85860f5617c5be404ba7e6e5789b7e95",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c138eee5a3e8860b69fb9076a1297bbb85860f5617c5be404ba7e6e5789b7e95",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3663,7 +3663,7 @@
       "validatedHash": "f93e123102dee969fc17ef404bc261c9d22522b71e4c9f0980427bc123b7d86e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f93e123102dee969fc17ef404bc261c9d22522b71e4c9f0980427bc123b7d86e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3683,7 +3683,7 @@
       "validatedHash": "6e2992cd5efe30aad5245b05093c94d41150fb22126e2f77ec53d1b2cf79420b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6e2992cd5efe30aad5245b05093c94d41150fb22126e2f77ec53d1b2cf79420b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3703,7 +3703,7 @@
       "validatedHash": "8eb197c52dd889634d7dc111fc611732cb41e6b3c4b6cfabf168e503575dec60",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "8eb197c52dd889634d7dc111fc611732cb41e6b3c4b6cfabf168e503575dec60",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3723,7 +3723,7 @@
       "validatedHash": "9828209b05cf75a0aa2dab066844698ed01528113fb4fc98e94ec2302650dfc9",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9828209b05cf75a0aa2dab066844698ed01528113fb4fc98e94ec2302650dfc9",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3743,7 +3743,7 @@
       "validatedHash": "bb9540fdca7347c30e60207718fda991ca0206dc2927da0b4b1cf2035e33cab7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "bb9540fdca7347c30e60207718fda991ca0206dc2927da0b4b1cf2035e33cab7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3763,7 +3763,7 @@
       "validatedHash": "e3c7ad1866800f83c2d03d0ca3a6786d1ece4382971087c0f7b875394f295399",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e3c7ad1866800f83c2d03d0ca3a6786d1ece4382971087c0f7b875394f295399",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3783,7 +3783,7 @@
       "validatedHash": "a1d362301dadf0c2a204b1f857dc23af9438578b347a186f2c21076b75e5e1b9",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a1d362301dadf0c2a204b1f857dc23af9438578b347a186f2c21076b75e5e1b9",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3803,7 +3803,7 @@
       "validatedHash": "f9d2b52fa89184f4c1c3dab62dc7de701cb6cd80b9043b4cb69fba5ff04b90ca",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f9d2b52fa89184f4c1c3dab62dc7de701cb6cd80b9043b4cb69fba5ff04b90ca",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3823,7 +3823,7 @@
       "validatedHash": "9d833a04e37e812a771a1b9d8e8381cfabe9bd9696605a3df52d93fbe1e5e8da",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9d833a04e37e812a771a1b9d8e8381cfabe9bd9696605a3df52d93fbe1e5e8da",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3844,7 +3844,7 @@
       "validatedHash": "7a59bc9c420d2461f7583e228742f933b9ca5e9a9ade63a7cecaab7d29bdd66d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7a59bc9c420d2461f7583e228742f933b9ca5e9a9ade63a7cecaab7d29bdd66d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3864,7 +3864,7 @@
       "validatedHash": "c5706124d13c642c40a2d6c3e63f86a6b059fba2f0adbbb4b66bf8722e94a0aa",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c5706124d13c642c40a2d6c3e63f86a6b059fba2f0adbbb4b66bf8722e94a0aa",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3884,7 +3884,7 @@
       "validatedHash": "6f45ae115dc146174e178c4cec862523c32ad84c574628e9c738ae342f49281f",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6f45ae115dc146174e178c4cec862523c32ad84c574628e9c738ae342f49281f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3904,7 +3904,7 @@
       "validatedHash": "dfbb8ba7b5740707093fba772d5504a1fef3875ef279714a9fced335374ef275",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "dfbb8ba7b5740707093fba772d5504a1fef3875ef279714a9fced335374ef275",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3924,7 +3924,7 @@
       "validatedHash": "0e828799e97902e7a920d6dda3c3748540c0e213894dc48796de89fba8cc4fb5",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0e828799e97902e7a920d6dda3c3748540c0e213894dc48796de89fba8cc4fb5",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3944,7 +3944,7 @@
       "validatedHash": "7a8fb71f1bc308745d527645cc0495ecd292974586bbd84829b686d394bc5f5c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7a8fb71f1bc308745d527645cc0495ecd292974586bbd84829b686d394bc5f5c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3964,7 +3964,7 @@
       "validatedHash": "e2d0689174b5dc8cca724e526dcb4743dd89da5ae8449c303b5889bc1c075f75",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e2d0689174b5dc8cca724e526dcb4743dd89da5ae8449c303b5889bc1c075f75",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -3984,7 +3984,7 @@
       "validatedHash": "21fb8ad3af611b1f46adaf526c9ae67ba7f86dc8cf18b5541d9d0d9c1350b1fc",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "21fb8ad3af611b1f46adaf526c9ae67ba7f86dc8cf18b5541d9d0d9c1350b1fc",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4004,7 +4004,7 @@
       "validatedHash": "d4d1fe786e30312ff7460dee6409f5293aa93196f063ee93b1fcb9a66a8ba364",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d4d1fe786e30312ff7460dee6409f5293aa93196f063ee93b1fcb9a66a8ba364",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4024,7 +4024,7 @@
       "validatedHash": "95eaacb40d82efcf84cda9361c739595f317cf4250cf1618dd5473f0c66065bf",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "95eaacb40d82efcf84cda9361c739595f317cf4250cf1618dd5473f0c66065bf",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4044,7 +4044,7 @@
       "validatedHash": "b6785f5aa36cda1e3ac12bbee16bf879c9a731e6eb38731f30143709acb29154",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "b6785f5aa36cda1e3ac12bbee16bf879c9a731e6eb38731f30143709acb29154",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4064,7 +4064,7 @@
       "validatedHash": "4d2ed27060e2c7a85363c331e9f5664c0d489365809b06941e232e8250b88067",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "4d2ed27060e2c7a85363c331e9f5664c0d489365809b06941e232e8250b88067",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4084,7 +4084,7 @@
       "validatedHash": "a9631e488c506a881b25db15f471c212389cacba2a2134c5a0c21226897a234c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a9631e488c506a881b25db15f471c212389cacba2a2134c5a0c21226897a234c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4104,7 +4104,7 @@
       "validatedHash": "319f0cce709d49f4ad80b36228e592db3340fee5d97a0416bde08a6cf051460c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "319f0cce709d49f4ad80b36228e592db3340fee5d97a0416bde08a6cf051460c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4124,7 +4124,7 @@
       "validatedHash": "e1e6859868393059909196a4783ea526abbcf897db6c564638fb4212b957db33",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e1e6859868393059909196a4783ea526abbcf897db6c564638fb4212b957db33",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4144,7 +4144,7 @@
       "validatedHash": "0aaeec339c0d3ca58a3e3ff14c7ef24934bbf1ec8d3b00f833a0ebc41f4bc713",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0aaeec339c0d3ca58a3e3ff14c7ef24934bbf1ec8d3b00f833a0ebc41f4bc713",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4164,7 +4164,7 @@
       "validatedHash": "af389c0e7280ac3418bf108402c8b656a947eabcd740890cdf37c85d9f948942",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "af389c0e7280ac3418bf108402c8b656a947eabcd740890cdf37c85d9f948942",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4184,7 +4184,7 @@
       "validatedHash": "34e051a12e3bf44ea52f7463ce455937ced21e6f2b7fc589f9f67c3b4b54bf91",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "34e051a12e3bf44ea52f7463ce455937ced21e6f2b7fc589f9f67c3b4b54bf91",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4204,7 +4204,7 @@
       "validatedHash": "949443f7b85ed283d56cc86bd5577970ad3b04266a5132bf5b524bff0e3192d2",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "949443f7b85ed283d56cc86bd5577970ad3b04266a5132bf5b524bff0e3192d2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4224,7 +4224,7 @@
       "validatedHash": "0556a07914d0ea46f31f8a59845956c18132399afe83ac124b728e20cba27b15",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0556a07914d0ea46f31f8a59845956c18132399afe83ac124b728e20cba27b15",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4244,7 +4244,7 @@
       "validatedHash": "19fc87bd05b623efb198f341d5e05a8e351e8ca24f4bceb899ca67fbf44366bc",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "19fc87bd05b623efb198f341d5e05a8e351e8ca24f4bceb899ca67fbf44366bc",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4264,7 +4264,7 @@
       "validatedHash": "073222bc8bb2dee2c6b4a8e76dc3bd50d58bd16fdd82d4ded1612d16a6e3ef0f",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "073222bc8bb2dee2c6b4a8e76dc3bd50d58bd16fdd82d4ded1612d16a6e3ef0f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4284,7 +4284,7 @@
       "validatedHash": "f4e2aebd6eb3540a4b7ba52334e8b6bdced302fb2e7eca7333b4752267eadef7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f4e2aebd6eb3540a4b7ba52334e8b6bdced302fb2e7eca7333b4752267eadef7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4304,7 +4304,7 @@
       "validatedHash": "e097fd24eb94519e91c8b6e6003c489beb867f443416f4b55376c755f8342c2a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e097fd24eb94519e91c8b6e6003c489beb867f443416f4b55376c755f8342c2a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4324,7 +4324,7 @@
       "validatedHash": "6a31161247c9dcccd6c453fec0a9f42964ea102faa95b35fcbbbb0c6c38e798b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6a31161247c9dcccd6c453fec0a9f42964ea102faa95b35fcbbbb0c6c38e798b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4344,7 +4344,7 @@
       "validatedHash": "7cb13a1cdb6b5ab6e8f89a1561adfac34f87b5bbed92c47ade9e55a56b6a6ad8",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7cb13a1cdb6b5ab6e8f89a1561adfac34f87b5bbed92c47ade9e55a56b6a6ad8",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4364,7 +4364,7 @@
       "validatedHash": "6e39147deab619db6d89de6269e2133e2be254b70294c8dec92dec3737e4af49",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6e39147deab619db6d89de6269e2133e2be254b70294c8dec92dec3737e4af49",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4384,7 +4384,7 @@
       "validatedHash": "05e125d45e4efa220a6e4c1f28a4cb71e43967dbd4245f9e185089de7428ac25",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "05e125d45e4efa220a6e4c1f28a4cb71e43967dbd4245f9e185089de7428ac25",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4404,7 +4404,7 @@
       "validatedHash": "f7d861e43db85f69fbb889fe31972eb3308f04514fa846d02de331d6eccb372c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f7d861e43db85f69fbb889fe31972eb3308f04514fa846d02de331d6eccb372c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4424,7 +4424,7 @@
       "validatedHash": "48d56cda21dec4b5a932d70e5e2546c91643994b5a7e94c78bc2bdc2f6126e5f",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "48d56cda21dec4b5a932d70e5e2546c91643994b5a7e94c78bc2bdc2f6126e5f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4444,7 +4444,7 @@
       "validatedHash": "b0e4683577e0edc0861479a3a74c6d3d8d59dbb5ea549200ec2d94d86648682c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "b0e4683577e0edc0861479a3a74c6d3d8d59dbb5ea549200ec2d94d86648682c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4464,7 +4464,7 @@
       "validatedHash": "0da9bdd81251edb4463ff17604d3a27e69fbc8fa9f710cd7721542a4d2e5932d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0da9bdd81251edb4463ff17604d3a27e69fbc8fa9f710cd7721542a4d2e5932d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4484,7 +4484,7 @@
       "validatedHash": "9a8b3994b829ed42d8d412a4c246553ea5a0ac4c100577d32d6183cbeb7d1f9e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9a8b3994b829ed42d8d412a4c246553ea5a0ac4c100577d32d6183cbeb7d1f9e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4504,7 +4504,7 @@
       "validatedHash": "2493910d76de2df0432a94c58e5d45a870703479ebdc115b1ac313e775982958",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "2493910d76de2df0432a94c58e5d45a870703479ebdc115b1ac313e775982958",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4528,7 +4528,7 @@
       "validatedHash": "7dd39cbe6ce3f8d47efbb929c9fbcae6e9f1cf2c607c389651d02a47cb6983c7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7dd39cbe6ce3f8d47efbb929c9fbcae6e9f1cf2c607c389651d02a47cb6983c7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4548,7 +4548,7 @@
       "validatedHash": "d103abab7398ea0f25f2f72b0ab7ef6d38c1d806864c0d46a92ad819c4e485f0",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d103abab7398ea0f25f2f72b0ab7ef6d38c1d806864c0d46a92ad819c4e485f0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4568,7 +4568,7 @@
       "validatedHash": "b09d3102346cd13930d374151ff4d2b0a7f329e59f195e98927c1438d0c8d730",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "b09d3102346cd13930d374151ff4d2b0a7f329e59f195e98927c1438d0c8d730",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4588,7 +4588,7 @@
       "validatedHash": "7a48d2dc20c527c1befa623006e67ade621c3b3100fdf0fd8f375d64eb9c844a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7a48d2dc20c527c1befa623006e67ade621c3b3100fdf0fd8f375d64eb9c844a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4608,7 +4608,7 @@
       "validatedHash": "b3a6d2067c969a7d04480375bbb7ef56112d65994e9c15f6cd28f45b7216daf2",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "b3a6d2067c969a7d04480375bbb7ef56112d65994e9c15f6cd28f45b7216daf2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4628,7 +4628,7 @@
       "validatedHash": "4b0cb0446c1e25a8626925087e8979354362cad72e8d087788fff83a60dffcca",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "4b0cb0446c1e25a8626925087e8979354362cad72e8d087788fff83a60dffcca",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4648,7 +4648,7 @@
       "validatedHash": "7c2bd4e21cec7232612d8b7e34732bdbd2313f4810240389be806e5c6ad13354",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7c2bd4e21cec7232612d8b7e34732bdbd2313f4810240389be806e5c6ad13354",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4668,7 +4668,7 @@
       "validatedHash": "201feb3ca740134f1b521a970bff93a0d63911a1c2fdaca598b22a1638fd4385",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "201feb3ca740134f1b521a970bff93a0d63911a1c2fdaca598b22a1638fd4385",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4688,7 +4688,7 @@
       "validatedHash": "ddbdacee5563debfaa3cea870b57d1e814805cef239f1bf85b5e52815adfeba3",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "ddbdacee5563debfaa3cea870b57d1e814805cef239f1bf85b5e52815adfeba3",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4708,7 +4708,7 @@
       "validatedHash": "e03a3354fff7648a9effb44bd312b89851872e7f74c2275fb99b56a190dc8d02",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e03a3354fff7648a9effb44bd312b89851872e7f74c2275fb99b56a190dc8d02",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4728,7 +4728,7 @@
       "validatedHash": "c2c0a0a93754f6b1dd54a4dc6a399bdde3a3f3eb778728c60c210a8796c437ec",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c2c0a0a93754f6b1dd54a4dc6a399bdde3a3f3eb778728c60c210a8796c437ec",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4748,7 +4748,7 @@
       "validatedHash": "0d8850fcbb23c5445342bfb7824983a6825dc8ef9bd1fbb45263311abd8bc75e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0d8850fcbb23c5445342bfb7824983a6825dc8ef9bd1fbb45263311abd8bc75e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4768,7 +4768,7 @@
       "validatedHash": "f29ba6f886107bc9244bb779f7670d5b5613aeab1f9c239f0569f169c756a7fe",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f29ba6f886107bc9244bb779f7670d5b5613aeab1f9c239f0569f169c756a7fe",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4788,7 +4788,7 @@
       "validatedHash": "b5cb7f2a95b9c893def90e5a3cbe2dd995821c8989707ea93e9c606cec84928e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "b5cb7f2a95b9c893def90e5a3cbe2dd995821c8989707ea93e9c606cec84928e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4808,7 +4808,7 @@
       "validatedHash": "347577db58ccb3391a794ced5addfe5a6e7034668a1ce99d8266003621454c1c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "347577db58ccb3391a794ced5addfe5a6e7034668a1ce99d8266003621454c1c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4828,7 +4828,7 @@
       "validatedHash": "22bcdfb32efcc4d4981ba6bceb2461693bdc011710d770638a02961ed5d9c94c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "22bcdfb32efcc4d4981ba6bceb2461693bdc011710d770638a02961ed5d9c94c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4848,7 +4848,7 @@
       "validatedHash": "5634dfcbd1de87918db97f99cb6b46110b9d1dda5f363e9c9062a56847a06e31",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "5634dfcbd1de87918db97f99cb6b46110b9d1dda5f363e9c9062a56847a06e31",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4872,7 +4872,7 @@
       "validatedHash": "efb6a32c6d41b84d0e8a37315665f0bc1c72be810c25be727916fbad01abac69",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "efb6a32c6d41b84d0e8a37315665f0bc1c72be810c25be727916fbad01abac69",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4892,7 +4892,7 @@
       "validatedHash": "a5895169e759a3ccbb645e45194dac3f0b5a0454d85cac3d5ef40638cb55b7fb",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a5895169e759a3ccbb645e45194dac3f0b5a0454d85cac3d5ef40638cb55b7fb",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4912,7 +4912,7 @@
       "validatedHash": "97ca017c155158c81db7f9925ae32c185a83b695b4b404fe851d6a313f1fc375",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "97ca017c155158c81db7f9925ae32c185a83b695b4b404fe851d6a313f1fc375",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4932,7 +4932,7 @@
       "validatedHash": "7c4f756ff0cafbbe22cc20585e8210cb08f742352ab5f9aef519bf40918e50e3",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7c4f756ff0cafbbe22cc20585e8210cb08f742352ab5f9aef519bf40918e50e3",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4952,7 +4952,7 @@
       "validatedHash": "c17b27d1c0aad06919722229d90a0eeb0fb83b28d90342e3f3ce8722ba898ae3",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c17b27d1c0aad06919722229d90a0eeb0fb83b28d90342e3f3ce8722ba898ae3",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4972,7 +4972,7 @@
       "validatedHash": "e608bfc578c6acf0dc52c245af6f9900f265488878123bfdbb3e4ef9024b2faa",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e608bfc578c6acf0dc52c245af6f9900f265488878123bfdbb3e4ef9024b2faa",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -4992,7 +4992,7 @@
       "validatedHash": "1d6db111777d8eaa1538a761672129a32948fc7cdba0afd4283191244ab07b7c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "1d6db111777d8eaa1538a761672129a32948fc7cdba0afd4283191244ab07b7c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5012,7 +5012,7 @@
       "validatedHash": "2142451f3d58f34a5cc77135a2104a02935a94d23c4ef759ec2406ad8b3beb5d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "2142451f3d58f34a5cc77135a2104a02935a94d23c4ef759ec2406ad8b3beb5d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5036,7 +5036,7 @@
       "validatedHash": "7a086a79b933fb2302b33ddfd75996ecda122d4ac80049caec64712d731fbb93",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7a086a79b933fb2302b33ddfd75996ecda122d4ac80049caec64712d731fbb93",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5056,7 +5056,7 @@
       "validatedHash": "06d10ff6cb64446bfa4e3583d42540bb888184f638596d02b4431530135da990",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "06d10ff6cb64446bfa4e3583d42540bb888184f638596d02b4431530135da990",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5076,7 +5076,7 @@
       "validatedHash": "43dad089b4eb63c3a7effd329a4c388f7e330834594bf2d25c3b36260034e5ce",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "43dad089b4eb63c3a7effd329a4c388f7e330834594bf2d25c3b36260034e5ce",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5096,7 +5096,7 @@
       "validatedHash": "25f3a15780c043cbf0c66fbee77886f9eb82785cc7037645e3ed1a2bef202507",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "25f3a15780c043cbf0c66fbee77886f9eb82785cc7037645e3ed1a2bef202507",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5116,7 +5116,7 @@
       "validatedHash": "f9134fc571bfd2f5a73c2b5ebd874e0b4307fd32141e46b0822b4d8a81239aba",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f9134fc571bfd2f5a73c2b5ebd874e0b4307fd32141e46b0822b4d8a81239aba",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5136,7 +5136,7 @@
       "validatedHash": "d44806313d662b76b16c097eb27e86be01c275136738dbdebb6d782adc2c2d61",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d44806313d662b76b16c097eb27e86be01c275136738dbdebb6d782adc2c2d61",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5156,7 +5156,7 @@
       "validatedHash": "558fcbe85aeb5456e2bb3bbef5ec25f274044c89043d31dfdb87118c00810e6a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "558fcbe85aeb5456e2bb3bbef5ec25f274044c89043d31dfdb87118c00810e6a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5176,7 +5176,7 @@
       "validatedHash": "9c23caafcd4c07cab026778c79ba0232f07c49d863d3f1286c133a9ae40492da",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9c23caafcd4c07cab026778c79ba0232f07c49d863d3f1286c133a9ae40492da",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5196,7 +5196,7 @@
       "validatedHash": "f55018480b1e0e6d351c5cec3f733a233f8b5e73ef7ac02082c1e6f31f0c7fbe",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "f55018480b1e0e6d351c5cec3f733a233f8b5e73ef7ac02082c1e6f31f0c7fbe",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5216,7 +5216,7 @@
       "validatedHash": "11f649b5cb31ae201ecc0aa9b242db698192c17053676db15b4ce953b3954b49",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "11f649b5cb31ae201ecc0aa9b242db698192c17053676db15b4ce953b3954b49",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5236,7 +5236,7 @@
       "validatedHash": "771e2baacdb3650e467cbea65da755b7a47c0d391d9eaf8b597cde1ae27b769b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "771e2baacdb3650e467cbea65da755b7a47c0d391d9eaf8b597cde1ae27b769b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5256,7 +5256,7 @@
       "validatedHash": "ea48c13b6437b80e0af158d8afdcfdedcc579f6bf1809fdb9a6de11ecd4c7822",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "ea48c13b6437b80e0af158d8afdcfdedcc579f6bf1809fdb9a6de11ecd4c7822",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5276,7 +5276,7 @@
       "validatedHash": "9f129cb27bf215e6417719c44551b4f5b1175c1763a4bc07b296814e2feee97c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9f129cb27bf215e6417719c44551b4f5b1175c1763a4bc07b296814e2feee97c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5296,7 +5296,7 @@
       "validatedHash": "c0da55da9b3e3984633bb7c1ef0535fa3ec9e728e9a7e6e9e6fef06051a2cc0f",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c0da55da9b3e3984633bb7c1ef0535fa3ec9e728e9a7e6e9e6fef06051a2cc0f",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5317,7 +5317,7 @@
       "validatedHash": "01cef6b775592c1531afe32c77f6201ceb54d31c9b1e6591b801c1c3b62976d2",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "01cef6b775592c1531afe32c77f6201ceb54d31c9b1e6591b801c1c3b62976d2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5338,7 +5338,7 @@
       "validatedHash": "e69897c00a5eaf6c9f053da1b30307d745f1f1f81d859ab655015d005e8acfc5",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e69897c00a5eaf6c9f053da1b30307d745f1f1f81d859ab655015d005e8acfc5",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5359,7 +5359,7 @@
       "validatedHash": "68fd408094f982d2fade7f233e131ff901ac486b35f987a4dd9f016081063999",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "68fd408094f982d2fade7f233e131ff901ac486b35f987a4dd9f016081063999",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5380,7 +5380,7 @@
       "validatedHash": "005cb4898cc6d8f693fcf9b54cf98d2f828ba41468bb75ec4f8c2aef7b05e13e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "005cb4898cc6d8f693fcf9b54cf98d2f828ba41468bb75ec4f8c2aef7b05e13e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5401,7 +5401,7 @@
       "validatedHash": "a4a8185886d5b3c6dc3e355dfd574cc82c0187e56bce9e9f9c1f9ad846b5c106",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a4a8185886d5b3c6dc3e355dfd574cc82c0187e56bce9e9f9c1f9ad846b5c106",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5422,7 +5422,7 @@
       "validatedHash": "1f9d6530f731f335b5c1db73abcd9cd4ec7d47dc95ee3d35c2d6ffc897ae431d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "1f9d6530f731f335b5c1db73abcd9cd4ec7d47dc95ee3d35c2d6ffc897ae431d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5443,7 +5443,7 @@
       "validatedHash": "fc2679bd87732dd8430689b026be2f77ed70033532d1c8b2482e89325fd9b02a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "fc2679bd87732dd8430689b026be2f77ed70033532d1c8b2482e89325fd9b02a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5464,7 +5464,7 @@
       "validatedHash": "59d9b0136aa35296309a713740ee23e93cb220fcc44614a9a7fcc70f04ce2da7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "59d9b0136aa35296309a713740ee23e93cb220fcc44614a9a7fcc70f04ce2da7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5485,7 +5485,7 @@
       "validatedHash": "259c7b89b15300bced4fdd539bee1f81c3817cca017fc6c9b39c1189bbf432b4",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "259c7b89b15300bced4fdd539bee1f81c3817cca017fc6c9b39c1189bbf432b4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5506,7 +5506,7 @@
       "validatedHash": "529f14e99e00473205954a8db81922fb5ecdbcafef873931a95d9a25dc3bc855",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "529f14e99e00473205954a8db81922fb5ecdbcafef873931a95d9a25dc3bc855",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5527,7 +5527,7 @@
       "validatedHash": "13019bfb5969000fc6ee9c637c25fa0c40f096655c54bba4cd66a90e7b266bab",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "13019bfb5969000fc6ee9c637c25fa0c40f096655c54bba4cd66a90e7b266bab",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5548,7 +5548,7 @@
       "validatedHash": "3a19c9da0f604f9f557fd37e5cd8ed84f89d1fb7d139e65fb5c19d9f5e42bdf8",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "3a19c9da0f604f9f557fd37e5cd8ed84f89d1fb7d139e65fb5c19d9f5e42bdf8",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5568,7 +5568,7 @@
       "validatedHash": "40f49781152b36f3a7aa6e5644eca1c0558520a9e830caa57e0f975581e630b4",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "40f49781152b36f3a7aa6e5644eca1c0558520a9e830caa57e0f975581e630b4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5588,7 +5588,7 @@
       "validatedHash": "acb547dda649529d85a15fd2300fd70bd0afd76656668301036f5bc2e29dd10d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "acb547dda649529d85a15fd2300fd70bd0afd76656668301036f5bc2e29dd10d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5608,7 +5608,7 @@
       "validatedHash": "74c1d3aa7444474161b8b0081dba67687342155409e6a56e13ef7a05a1f877ce",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "74c1d3aa7444474161b8b0081dba67687342155409e6a56e13ef7a05a1f877ce",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5628,7 +5628,7 @@
       "validatedHash": "ee3134d6a019614e31f56223835558e35b66f2ccaad6ad1cffa62ca45e5cbfb2",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "ee3134d6a019614e31f56223835558e35b66f2ccaad6ad1cffa62ca45e5cbfb2",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5648,7 +5648,7 @@
       "validatedHash": "bd692651cc27f1300cb63e0db886505de5714f4721c17e7a683aad6edb4750e3",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "bd692651cc27f1300cb63e0db886505de5714f4721c17e7a683aad6edb4750e3",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5668,7 +5668,7 @@
       "validatedHash": "5f82af70d428b81f05c2186e04a774f86f0134db7974c824e13037683fe29410",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "5f82af70d428b81f05c2186e04a774f86f0134db7974c824e13037683fe29410",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5688,7 +5688,7 @@
       "validatedHash": "348f10a726dd3a11b74d6b728d878f6922836b20bb8440a4097344361d95e9d0",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "348f10a726dd3a11b74d6b728d878f6922836b20bb8440a4097344361d95e9d0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5708,7 +5708,7 @@
       "validatedHash": "39719209fb803b48081456c2b5fe8b222fba7b444947735529a5665156776599",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "39719209fb803b48081456c2b5fe8b222fba7b444947735529a5665156776599",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5731,7 +5731,7 @@
       "validatedHash": "44803807b242635eb21bc609971f9b74a646399f8fdcd2b41e83e6e8d111abd4",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "44803807b242635eb21bc609971f9b74a646399f8fdcd2b41e83e6e8d111abd4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5751,7 +5751,7 @@
       "validatedHash": "7c039b28edbe762a3e9c2d91923b755d181b082c7a74aef66e9fcebd3418c345",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7c039b28edbe762a3e9c2d91923b755d181b082c7a74aef66e9fcebd3418c345",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5771,7 +5771,7 @@
       "validatedHash": "6bd394e4b6420e49236efcbf68b22cd51900609ce5d301b03a4c643728c30e63",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6bd394e4b6420e49236efcbf68b22cd51900609ce5d301b03a4c643728c30e63",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5791,7 +5791,7 @@
       "validatedHash": "6ac428786f08f90e3175149d27fbcf5828055ebcd64796bd848401cb5a4c170d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6ac428786f08f90e3175149d27fbcf5828055ebcd64796bd848401cb5a4c170d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5811,7 +5811,7 @@
       "validatedHash": "a4e434ef608cd7d7bcac00900d5151e99a4d1bb5ac592b15a236104452104688",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a4e434ef608cd7d7bcac00900d5151e99a4d1bb5ac592b15a236104452104688",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5831,7 +5831,7 @@
       "validatedHash": "c609f9a96e64768648940dc0d90fa009892ffcb801a5e01e355d18dd06e7f736",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c609f9a96e64768648940dc0d90fa009892ffcb801a5e01e355d18dd06e7f736",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5851,7 +5851,7 @@
       "validatedHash": "43cf1177acc905bfa3213bcf958b4ccaed7a9a04217791d510356d30520c4338",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "43cf1177acc905bfa3213bcf958b4ccaed7a9a04217791d510356d30520c4338",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5871,7 +5871,7 @@
       "validatedHash": "8222b768a8786d70d302994f2491cea5b086b1ce82151c7754e8cd9de5914469",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "8222b768a8786d70d302994f2491cea5b086b1ce82151c7754e8cd9de5914469",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5891,7 +5891,7 @@
       "validatedHash": "5fafc0faa199a229d2a7ade27c420c4faefe1998cd7ab82a1292371eb91a0a2b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "5fafc0faa199a229d2a7ade27c420c4faefe1998cd7ab82a1292371eb91a0a2b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5911,7 +5911,7 @@
       "validatedHash": "a862b54bea632369db87bbfea60734fe2003e8565e41a94b85fc2b48fc1cca84",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a862b54bea632369db87bbfea60734fe2003e8565e41a94b85fc2b48fc1cca84",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5931,7 +5931,7 @@
       "validatedHash": "bce7dbace8cbfebd2e7d4e5d9ee7f19d65c219811e676c77e9a6908c6a860cc1",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "bce7dbace8cbfebd2e7d4e5d9ee7f19d65c219811e676c77e9a6908c6a860cc1",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5951,7 +5951,7 @@
       "validatedHash": "6de0d37236eab730f65520dd5939d73262f92a02aaf92e1c1753756e4493d7f4",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6de0d37236eab730f65520dd5939d73262f92a02aaf92e1c1753756e4493d7f4",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5971,7 +5971,7 @@
       "validatedHash": "50d0377462b6bc3a554abb5413cdfaf798d2df4bc98ad908b95493682b462c8e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "50d0377462b6bc3a554abb5413cdfaf798d2df4bc98ad908b95493682b462c8e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -5994,7 +5994,7 @@
       "validatedHash": "0bd81bc2f0eb43be002db7b54ad37fd3a6a32a1f875859ea90070480f0e27dc5",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0bd81bc2f0eb43be002db7b54ad37fd3a6a32a1f875859ea90070480f0e27dc5",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6015,7 +6015,7 @@
       "validatedHash": "94e02c67c5aa69b9fb69adc243886122c7f16231b224103f9e6ae0a1223343ea",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "94e02c67c5aa69b9fb69adc243886122c7f16231b224103f9e6ae0a1223343ea",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6035,7 +6035,7 @@
       "validatedHash": "afd5ac8b87c6db3aa2edf2ce86b88a352336acf26be01b79a83fc8677f5c2b1e",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "afd5ac8b87c6db3aa2edf2ce86b88a352336acf26be01b79a83fc8677f5c2b1e",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6055,7 +6055,7 @@
       "validatedHash": "df9e7bafb6577b99905f2d8491eb5a8d987dc6eb4af90f61dc6b311584e77179",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "df9e7bafb6577b99905f2d8491eb5a8d987dc6eb4af90f61dc6b311584e77179",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6075,7 +6075,7 @@
       "validatedHash": "7af45f04c0b000acf63dc14e9526fa2edf0e1bca60b81d53b3b1abbd6c8a0f22",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7af45f04c0b000acf63dc14e9526fa2edf0e1bca60b81d53b3b1abbd6c8a0f22",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6095,7 +6095,7 @@
       "validatedHash": "9af8ddd6c127fdc4e6526d460ba06a8108741b7e001f4d7d102e710edf5cdba7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9af8ddd6c127fdc4e6526d460ba06a8108741b7e001f4d7d102e710edf5cdba7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6118,7 +6118,7 @@
       "validatedHash": "117e866c934b09179d65e53287b6d225066f8cdbeb1c0c87f2c8da6331c70a04",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "117e866c934b09179d65e53287b6d225066f8cdbeb1c0c87f2c8da6331c70a04",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6138,7 +6138,7 @@
       "validatedHash": "c667b5796ebc49510bb0921bbfe5ffd3d593dbed776078ee87773e17289aac36",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c667b5796ebc49510bb0921bbfe5ffd3d593dbed776078ee87773e17289aac36",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6158,7 +6158,7 @@
       "validatedHash": "c5054d44b568d5767aa0d2c1ce40ff0ad3bf7320bc91148e4e01a77af0492947",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c5054d44b568d5767aa0d2c1ce40ff0ad3bf7320bc91148e4e01a77af0492947",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6178,7 +6178,7 @@
       "validatedHash": "d0b5dedea4a7424e5735d77b709ea9317efdc52b821d1878b1596371e7159fd0",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d0b5dedea4a7424e5735d77b709ea9317efdc52b821d1878b1596371e7159fd0",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6198,7 +6198,7 @@
       "validatedHash": "1ad97a81729c11cb1fb565705bce4a57dd1527a3291be99dcde67ccb2dd4db1a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "1ad97a81729c11cb1fb565705bce4a57dd1527a3291be99dcde67ccb2dd4db1a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6218,7 +6218,7 @@
       "validatedHash": "ac7fd69f147c554120c02af0e5416e4dda31e4bff2deb69ef0c5be2f9258fc14",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "ac7fd69f147c554120c02af0e5416e4dda31e4bff2deb69ef0c5be2f9258fc14",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6238,7 +6238,7 @@
       "validatedHash": "fa40b4a1cb2799c4da8872aba42fc92e8bb53f394659c04862b24d82efd635db",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "fa40b4a1cb2799c4da8872aba42fc92e8bb53f394659c04862b24d82efd635db",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6262,7 +6262,7 @@
       "validatedHash": "bd3dddb9a2a4ac94bb69b23a481dc8709642ebc4edd0539755e40df426eb87c7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "bd3dddb9a2a4ac94bb69b23a481dc8709642ebc4edd0539755e40df426eb87c7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6283,7 +6283,7 @@
       "validatedHash": "0d1aa16dbcd882968b6f5f23216f1cfc9ca0d5c4145e1a6ee127f5506f5f4b3a",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0d1aa16dbcd882968b6f5f23216f1cfc9ca0d5c4145e1a6ee127f5506f5f4b3a",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6303,7 +6303,7 @@
       "validatedHash": "e5603b8fd89d2b5f6d8307b1e25a62f2e5eb9f63d4813a587bf027302c1afb3b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e5603b8fd89d2b5f6d8307b1e25a62f2e5eb9f63d4813a587bf027302c1afb3b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6323,7 +6323,7 @@
       "validatedHash": "e891eafb9d193efab3493fde3cc6d0c12cdc287b4bbb05b0a787da8a43d64d16",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "e891eafb9d193efab3493fde3cc6d0c12cdc287b4bbb05b0a787da8a43d64d16",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6343,7 +6343,7 @@
       "validatedHash": "af8b3db4a9f06901cbcaf6f26e7dde4d3b8acfd6935126d840a519e54900d9e9",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "af8b3db4a9f06901cbcaf6f26e7dde4d3b8acfd6935126d840a519e54900d9e9",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6363,7 +6363,7 @@
       "validatedHash": "9421021d43fda392a53e226404021e70fb2d4da7aca597e267f9086ab7b2071b",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "9421021d43fda392a53e226404021e70fb2d4da7aca597e267f9086ab7b2071b",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6383,7 +6383,7 @@
       "validatedHash": "a8831d64f904089ccef49111d2a7312ae603f23852f51ca6a3e177d7c2c03f36",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a8831d64f904089ccef49111d2a7312ae603f23852f51ca6a3e177d7c2c03f36",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6403,7 +6403,7 @@
       "validatedHash": "75d9d3d5f13ffe7897a8c621daf48921ff479bad093fad197ecbde86d3bee9c7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "75d9d3d5f13ffe7897a8c621daf48921ff479bad093fad197ecbde86d3bee9c7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6423,7 +6423,7 @@
       "validatedHash": "2d4874277c33174d66bb722a46766582c80dc5f6f75ecfe4a8757a6873bf3b88",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "2d4874277c33174d66bb722a46766582c80dc5f6f75ecfe4a8757a6873bf3b88",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6443,7 +6443,7 @@
       "validatedHash": "fa8fc94b1ae95b34956e42f04b8481bb694b18f74042e43314f12cf363ba199c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "fa8fc94b1ae95b34956e42f04b8481bb694b18f74042e43314f12cf363ba199c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6463,7 +6463,7 @@
       "validatedHash": "6e6c0cd39dbc03b4408538e32e9406173d5ef57459c81d70a37ccade67c38bce",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "6e6c0cd39dbc03b4408538e32e9406173d5ef57459c81d70a37ccade67c38bce",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6486,7 +6486,7 @@
       "validatedHash": "b95de15cd7d0bb9188a13d0a6cc975e55faa9054c8774209508c11316a11bb2c",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "b95de15cd7d0bb9188a13d0a6cc975e55faa9054c8774209508c11316a11bb2c",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6506,7 +6506,7 @@
       "validatedHash": "a5498619366fc1c6ce56856bda9e12d40873c23b1a836993d8cd6b669ea994ba",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "a5498619366fc1c6ce56856bda9e12d40873c23b1a836993d8cd6b669ea994ba",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6526,7 +6526,7 @@
       "validatedHash": "fc4f8663c9b09bb23e423e5114617e00833d585b8c3603ecb5b5c20427057335",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "fc4f8663c9b09bb23e423e5114617e00833d585b8c3603ecb5b5c20427057335",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6549,7 +6549,7 @@
       "validatedHash": "3a6d5fd43bb597c4e2cbb238552a1019b43015248464296270aea636bfd68faa",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "3a6d5fd43bb597c4e2cbb238552a1019b43015248464296270aea636bfd68faa",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6569,7 +6569,7 @@
       "validatedHash": "7ba0386f7b473f6306af774177263f5e9f459090d079d80ad52ffb85b5a4dba1",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "7ba0386f7b473f6306af774177263f5e9f459090d079d80ad52ffb85b5a4dba1",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6589,7 +6589,7 @@
       "validatedHash": "0d6488c00cd3f6966e7826c6058d88ee20a8862d21782cbc55c994a253ee5e84",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "0d6488c00cd3f6966e7826c6058d88ee20a8862d21782cbc55c994a253ee5e84",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6609,7 +6609,7 @@
       "validatedHash": "c5552db8a27a4dcb93e55f2967b7e50cb6f3226c1e15ebd739e9370463a884d7",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "c5552db8a27a4dcb93e55f2967b7e50cb6f3226c1e15ebd739e9370463a884d7",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6629,7 +6629,7 @@
       "validatedHash": "152781ec467b0485b1c097798ee1a8bf788ef9c1b66f4aff2a095d3fbc9ac10d",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "152781ec467b0485b1c097798ee1a8bf788ef9c1b66f4aff2a095d3fbc9ac10d",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     },
     {
@@ -6649,7 +6649,7 @@
       "validatedHash": "d2c6530f7674d0363a3cb03390d68ae89424ed7af1076e701f3755dc9f9dbe94",
       "validatedAt": "2026-11-14T02:25:40.773Z",
       "liveVerifiedHash": "d2c6530f7674d0363a3cb03390d68ae89424ed7af1076e701f3755dc9f9dbe94",
-      "liveVerifiedAt": "2026-11-14T02:31:04.592Z",
+      "liveVerifiedAt": "2026-11-14T02:40:04.193Z",
       "liveVerifiedOrigin": "https://web-production-b4c2154d.up.railway.app"
     }
   ],
@@ -7992,5 +7992,10 @@
         "Cross-referenced Regulation 5 and individual bank, payer, recipient, purpose and currency-source facts may affect an actual transfer."
       ]
     }
-  ]
+  ],
+  "releaseVerification": {
+    "sourceCommit": "6dd8922c0f4c161cea74d793a64fbca995b19460",
+    "verifiedAt": "2026-11-14T02:40:04.193Z",
+    "evidenceFile": "research/next-release/live-verification.json"
+  }
 }

@@ -1,0 +1,93 @@
+{
+  "scope": "Bounded findings-only check for local rendering of the two already-known January 2026 Thai Gazette instruments. No broad search, guessed URL, canonical/source/rule mutation or publication.",
+  "completedAt": "2026-11-14T02:40:20.407496+00:00",
+  "outcome": "access-unresolved",
+  "newOperativeFactsRecovered": false,
+  "question": "Are actual PDF bytes available for local pdftoppm/rendering and Thai OCR/visual review of Gazette documents 102609 and 102610?",
+  "conclusion": "No actual bytes for either Gazette PDF were found in the retained evidence inspected. Their retained .html files are each a 17-byte HTTP403 error response, not a misnamed PDF. The retained reader snapshot contains only garbled extracted text and no embedded image blocks or inspectable page pixels. One ordinary new request to each exact official link again returned the same 17-byte403 response. Local rendering cannot repair the absence of PDF input, so the bounded check stops without a substantive-interpretation or current-law resolution claim.",
+  "retainedEvidenceInspected": [
+    {
+      "path": "/tmp/eln-origin-source-review/thailand-gazette-102609.html",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "hasPdfMagic": false,
+      "kind": "Retained original failed response; not PDF"
+    },
+    {
+      "path": "/tmp/eln-origin-source-review/thailand-gazette-102610.html",
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "hasPdfMagic": false,
+      "kind": "Retained original failed response; not PDF"
+    },
+    {
+      "path": "/workspace/us-expansion/research/next-release/raw/scoped-thai-gazette-reader.json",
+      "bytes": 9055,
+      "sha256": "721fb901bdf409ec14aca409336064ac10d17b75d30cd0e0e60e6a84a601a5f0",
+      "hasPdfMagic": false,
+      "kind": "Retained web-reader extracted text JSON; not original PDF bytes and no image blocks"
+    },
+    {
+      "path": "/tmp/eln-origin-source-review/thailand-guideline-2026.pdf",
+      "bytes": 800937,
+      "sha256": "b19cab1f8c474aa43e32ddd269ff1518498c45a3a022f46338293f755f57688e",
+      "hasPdfMagic": true,
+      "kind": "Actual September 2026 bank-guideline PDF; a different document from the January Gazette instruments"
+    }
+  ],
+  "metadataAndDecisionsInspected": [
+    "research/smb-edit/origins-source-decisions.json, b2-origin-thailand",
+    "research/smb-edit/origins-source-decisions.normalized.json, b2-origin-thailand",
+    "research/next-release/scoped-decisions.json, b2-origin-thailand",
+    "/tmp/eln-origin-source-review/thailand-gazette-102609.metadata.json",
+    "/tmp/eln-origin-source-review/thailand-gazette-102610.metadata.json"
+  ],
+  "knownOfficialUrls": [
+    "https://ratchakitcha.soc.go.th/documents/102609.pdf",
+    "https://ratchakitcha.soc.go.th/documents/102610.pdf"
+  ],
+  "freshOrdinaryRetrievals": [
+    {
+      "url": "https://ratchakitcha.soc.go.th/documents/102609.pdf",
+      "retrievedAt": "2026-11-14T02:39:33.562151+00:00",
+      "status": 403,
+      "finalUrl": "https://ratchakitcha.soc.go.th/documents/102609.pdf",
+      "contentType": "text/plain; charset=UTF-8",
+      "rawPath": "/tmp/eln-thailand-visual-assist/102609.response",
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "bytes": 17,
+      "startsWithPdfMagic": false,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://ratchakitcha.soc.go.th/documents/102610.pdf",
+      "retrievedAt": "2026-11-14T02:39:33.562860+00:00",
+      "status": 403,
+      "finalUrl": "https://ratchakitcha.soc.go.th/documents/102610.pdf",
+      "contentType": "text/plain; charset=UTF-8",
+      "rawPath": "/tmp/eln-thailand-visual-assist/102610.response",
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "bytes": 17,
+      "startsWithPdfMagic": false,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "responseBody": "error code: 1010\n",
+  "renderingAssessment": {
+    "pdftoppmAvailable": true,
+    "localImageViewingAvailable": true,
+    "actualGazettePdfAvailable": false,
+    "renderingOrOCRPerformed": false,
+    "reason": "Each relevant local/fresh Gazette response fails the %PDF magic check. The actual 800937-byte PDF present is the separate September2026 bank guideline; using it as the JanuaryGazette instrument would be a provenance error. No OCR was run on error bodies or garbled reader text."
+  },
+  "limits": [
+    "No claim that the underlying Gazette text itself is malformed; only the retained extraction is garbled.",
+    "No substantive Thai legal interpretation from document headers, page counts, upload filenames or search snippets.",
+    "The source gap remains specific to direct interpretation of the formal Gazette instruments; previously read BOT summary/guideline evidence is not erased or upgraded."
+  ],
+  "sourceUpdates": [],
+  "ruleUpdates": [],
+  "proposedPublicPatch": null,
+  "canonicalFilesChanged": false,
+  "stopReason": "Root expressly directed a bounded stop if actual PDF bytes were unavailable; exact known official links were checked once without login, access bypass or URL guessing."
+}

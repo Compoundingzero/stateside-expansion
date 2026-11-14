@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-14T02:35:55.072465+00:00",
-  "stage": "tool-HTML-follow-up-ready-for-deployment",
+  "checkedAt": "2026-11-14T02:40:04.193Z",
+  "stage": "live-verified",
   "publishedArticles": 295,
   "newArticles": 12,
   "releasedPreviouslyUnpublished": 5,
@@ -72,5 +72,6 @@
     "privatePlanningInputsRendered": 0,
     "browserJavaScriptDisabledCheck": "passed"
   },
-  "note": "The complete 295-article preview remains valid for unchanged article data. A later live full-text run also passed. The tool HTML fix passed its own fresh build, 108 Node tests and the complete 43-case browser suite."
+  "note": "The complete 295-article preview remains valid for unchanged article data. A later live full-text run also passed. The tool HTML fix passed its own fresh build, 108 Node tests and the complete 43-case browser suite.",
+  "liveEvidenceFile": "research/next-release/live-verification.json"
 }

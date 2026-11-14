@@ -1,0 +1,68 @@
+{
+  "verifiedAt": "2026-11-14T02:40:04.193Z",
+  "sourceCommit": "6dd8922c0f4c161cea74d793a64fbca995b19460",
+  "deployment": {
+    "id": "83f784af-1524-483c-976a-3ee56b44b62d",
+    "status": "SUCCESS",
+    "origin": "https://web-production-b4c2154d.up.railway.app"
+  },
+  "ci": {
+    "url": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43547211038",
+    "conclusion": "success",
+    "nodeTestsPassed": 108,
+    "browserTestsPassed": 43
+  },
+  "articleVerification": {
+    "passed": 295,
+    "failed": 0,
+    "completeBodyAndMetadata": true,
+    "snapshotHash": "4ca411bc513c5fcb01d3c8ab9f15a31b9a7c867d9077dbfe02867452aae844bd",
+    "resultSha256": "bf9666d7d6b3821e082ea588c0e22c5a356caebeaa369334b0eb39ad4d25cb5a"
+  },
+  "publicCrawl": {
+    "passed": 335,
+    "failed": 0,
+    "http200": 335,
+    "oneH1AndCorrectCanonical": true,
+    "unexpectedNoindex": 0,
+    "resultSha256": "366a4374dcaaa599b4a8f8077980cc9ecd59610d0c93c4576d89373f7560242f"
+  },
+  "learning": {
+    "paths": 8,
+    "fictionalPractices": 14,
+    "catalogueItems": 304,
+    "publicCatalogueNoindex": true,
+    "progressOptIn": true
+  },
+  "owner": {
+    "configured": true,
+    "anonymousAuthenticated": false,
+    "existingPersistentDatabasePreserved": true
+  },
+  "dailyMonitor": {
+    "status": "passed",
+    "requests": 10,
+    "includesLearningAndPublicTool": true
+  },
+  "indexNow": {
+    "submittedAt": "2026-11-14T02:40:47.019Z",
+    "host": "web-production-b4c2154d.up.railway.app",
+    "urls": 335,
+    "status": 200,
+    "result": "received",
+    "indexingConfirmed": false
+  },
+  "researchLimits": {
+    "sourceOrInterpretationLimitedDecisions": 21,
+    "actualBusinessFactsRequired": 16,
+    "futureResearchCandidates": 233,
+    "all703CandidatePublicationDecisionsRetained": true,
+    "note": "Publication within a specific documented scope does not establish a complete jurisdiction survey or resolve a source-access problem or authoritative ambiguity."
+  },
+  "accountVerification": {
+    "googleSearchConsole": "blocked-account-authorization",
+    "bingWebmasterTools": "blocked-account-authorization",
+    "evidenceFile": "research/next-release/search-monitoring-status.json"
+  },
+  "evidenceOnlyDescendants": "A later commit may record these results without changing published content or runtime code. Verification is tied to the content hashes and source commit above."
+}
