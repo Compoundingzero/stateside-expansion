@@ -1,0 +1,36 @@
+{
+  "sourceCommit": "2efd476f24b29c920b1b144bde5de51eaf179b76",
+  "deploymentId": "493c20c4-3ba2-4593-a8e8-3165ee436159",
+  "deploymentStatus": "SUCCESS",
+  "ciRun": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43546416166",
+  "ciPassed": true,
+  "articleVerification": {
+    "completedAt": "2026-11-14T02:31:04.592Z",
+    "allPassed": true,
+    "passed": 295,
+    "snapshotHash": "49e64f7f49d6b1b2022c9507ae32c2e0585f586b54d883bc81e3a0f4bfaf2c4b",
+    "resultSha256": "c2619aab5283cbab47a3cabb66f0e11773a94493b433ba93517b1f95e5ae3de2"
+  },
+  "publicCrawl": {
+    "urls": 335,
+    "allHttp200": true,
+    "toolHeadingDefects": 9,
+    "note": "Live crawl found nine tools with no server-rendered heading. The follow-up fixes the public title/purpose shell without rendering private inputs. Final deployment and crawl are still pending."
+  },
+  "owner": {
+    "catalogueStatus": 200,
+    "catalogueNoindex": true,
+    "catalogueItems": 304,
+    "anonymousOwnerAuthenticated": false,
+    "ownerConfigured": true
+  },
+  "indexNow": {
+    "submittedAt": "2026-11-14T02:31:22.182Z",
+    "host": "web-production-b4c2154d.up.railway.app",
+    "urls": 335,
+    "status": 200,
+    "result": "received",
+    "indexingConfirmed": false
+  },
+  "accountVerification": "Google Search Console and Bing Webmaster remain unverified; no account authorization or working browser interface is available."
+}

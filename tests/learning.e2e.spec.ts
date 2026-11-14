@@ -124,6 +124,7 @@ test('public articles remain complete without JavaScript and learning never gate
  const context=await browser.newContext({javaScriptEnabled:false,baseURL});const page=await context.newPage();
  try{
   await page.goto('/fdd/item-15/');await expect(page.locator('#start-here')).toBeVisible();await expect(page.locator('.article-main-section')).toHaveCount(3);await expect(page.locator('[data-learning-item] button').first()).toBeDisabled();
+  await page.goto('/tools/us-unit-economics/');await expect(page.getByRole('heading',{level:1})).toHaveCount(1);await expect(page.getByRole('heading',{level:1})).toHaveText('U.S. unit economics');await expect(page.locator('.planning-shell .lede')).toBeVisible();
   await page.goto('/learn/');await expect(page.locator('.learning-noscript')).toBeVisible();await expect(page.locator('.learning-library .learning-reading-row')).toHaveCount(guides.length+tools.length);
   await page.locator('[data-challenge-id="licence-label"]>summary').click();await page.locator('[data-challenge-id="licence-label"] .learning-practice-explanation>summary').click();await expect(page.locator('[data-challenge-id="licence-label"] .learning-practice-explanation')).toContainText('State definitions and sales duties');
  }finally{await context.close();}

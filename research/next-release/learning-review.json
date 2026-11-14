@@ -1,7 +1,7 @@
 {
   "formatVersion": 1,
   "reviewer": "/root/cases_industries",
-  "reviewedAt": "2026-11-14T02:23:44.532842+00:00",
+  "reviewedAt": "2026-11-14T02:35:37.736240+00:00",
   "decision": "approved",
   "challengeCount": 14,
   "pathCount": 8,
@@ -47,6 +47,19 @@
       "resolution": "The exact catalogue route now receives X-Robots-Tag: noindex in server.mjs before response headers are written. The browser suite now asserts the actual served 200/header/catalogue count; its final execution remains with root.",
       "files": [
         "server.mjs",
+        "tests/learning.e2e.spec.ts"
+      ]
+    },
+    {
+      "id": "public-tool-initial-html",
+      "status": "resolved",
+      "severity": "public discoverability and privacy boundary",
+      "finding": "The earlier PlanningApp pre-ready branch exposed only loading text, so public tools lacked a readable initial title/purpose.",
+      "resolution": "Initial HTML now contains the fixed public mode title and existing public tool description. No planning controls or user values are rendered in that branch; the same intro is retained after hydration. Browser storage remains inside the mount effect. The site guard now rejects all planning inputs, not just named inputs, within the initial planning island.",
+      "files": [
+        "src/components/PlanningApp.tsx",
+        "src/pages/tools/[tool].astro",
+        "tests/site.test.ts",
         "tests/learning.e2e.spec.ts"
       ]
     }
@@ -270,6 +283,18 @@
       "executor": "/root/planning_tools",
       "result": "author-reported pass; not independently executed by this reviewer",
       "scope": "Author reports ten browser cases passed, plus strengthened fallback case separately. Root retains final functional browser verification."
+    },
+    {
+      "command": "Independent HTMLParser audit of all nine dist tool pages",
+      "executor": "/root/cases_industries",
+      "result": "passed",
+      "scope": "Each initial planning shell has exactly one H1/intro, no input/textarea/select, and serialized PlanningApp props contain only intro/mode/startStage. This is a raw-built-HTML check, not a hydration/browser test."
+    },
+    {
+      "command": "Updated site and full browser validation",
+      "executor": "/root",
+      "result": "root running; not independently executed or represented as passed by this reviewer",
+      "scope": "Root reports full 108 Node checks passed and is running the strengthened three site cases plus full 43 browser cases on final app code. The report binds the latest tests without inventing their later result."
     }
   ],
   "guideDependencies": [
@@ -619,7 +644,7 @@
     },
     {
       "file": "tests/learning.e2e.spec.ts",
-      "sha256": "5d63e5b9d5aa8d9089e8f783abd4d01179f077ba9c9d0a4845e9115d4eb906b7",
+      "sha256": "95f89f53b7c0e55550e52c3407a6ebd771748865950136f7b7d25375bb728524",
       "scope": "Complete learning-related file read."
     },
     {
@@ -659,8 +684,8 @@
     },
     {
       "file": "src/data/batch3-guides.json",
-      "sha256": "a533dc7e561572b9776926012f31592167af8a546b865715cfcd2851df076d99",
-      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+      "sha256": "f97b745b5d0484a72a47a82487e079ee8096e579ce658f302adaecaa28a3c4ff",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file. Later containing-file changes affected other records; all fourteen reviewed dependent-guide record hashes were rechecked unchanged."
     },
     {
       "file": "src/data/batch3-planning-followup-rules.json",
@@ -726,6 +751,31 @@
       "file": "src/data/state-sources.json",
       "sha256": "257be6b294a160abe552f22ae9a6ac30a99e6cd77583da376718df77b6cc9cf8",
       "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/components/PlanningApp.tsx",
+      "sha256": "fcd899ab5ab08b35b8291954c9b035031f1d7635ee1369f1774b9881964e576d",
+      "scope": "Only the optional public intro prop, pre-ready/ready render branches, browser-only saved-plan effects, interactive workspace preservation and printable ELN header/legacy storage-key compatibility were reviewed in this follow-up."
+    },
+    {
+      "file": "src/pages/tools/[tool].astro",
+      "sha256": "8e4f7770ffe56436730525d8a9e2633bd260aefd739011cd58d7179eb892acc5",
+      "scope": "Complete public tool template: static tool descriptions flow to the public intro, not user plan values."
+    },
+    {
+      "file": "src/lib/content.ts",
+      "sha256": "972af053e92d967989f59cb3e77c5ac9dd4dec787ee3f0db0d9aa75544b2ef3a",
+      "scope": "Public tools metadata supplying the nine names/descriptions/modes/stages; no new review of other export logic."
+    },
+    {
+      "file": "src/data/tool-definitions.json",
+      "sha256": "1653a5f00b268c9f395237fd42f3eb13e0fc101d0203a57f48a2839a8f52a5e6",
+      "scope": "Complete nine-tool identifier/path and source/rule dependency records used by the raw-HTML guard."
+    },
+    {
+      "file": "tests/site.test.ts",
+      "sha256": "9121ee045fcb9af76f02fd3d04fc18943f54587fa5f64009f5c64ec6362c56c9",
+      "scope": "Complete site tests read, including strengthened all-nine initial planning-shell guard rejecting every input, textarea and select regardless of name."
     }
   ],
   "evidenceRead": [
@@ -885,5 +935,132 @@
     "This is an independent content/implementation review, not a new comprehensive legal survey or professional legal review.",
     "No source retrieval/substantive-review dates were advanced by this audit. Existing source/version/coverage limits remain in the cited guides.",
     "This reviewer ran the targeted unit suite and read browser tests, but did not execute the final functional/browser suite or claim a live deployment result."
-  ]
+  ],
+  "toolSsrReview": {
+    "decision": "approved",
+    "scope": "Bounded follow-up for all nine public tool routes; no legal content rewritten.",
+    "publicPrivateSeparation": "Only fixed mode/start-stage values and the existing public description are passed to PlanningApp. Initial planning shells contain one H1, one public introduction and zero input/textarea/select controls. No saved plan is read or rendered server-side.",
+    "hydration": "Server and first client render both start ready=false with the same public props. The mount effect reads local storage and then enables the interactive branch; no new hydration-time browser access was introduced.",
+    "contentPreservation": "The ready branch keeps the same introduction once after its H1 and retains the existing workspaces, calculations, notices, local exports and planning limitations. Optional intro defaults to an empty string for existing callers.",
+    "brandingCompatibility": "Printable brief says ELN · PRIVATE PLANNING EXPORT. The legacy stateside-expansion-draft-v1 key remains unchanged so saved drafts are still found.",
+    "builtTools": [
+      {
+        "path": "/tools/management-dependence/",
+        "htmlPath": "dist/tools/management-dependence/index.html",
+        "sha256": "30a7aef278a46959fbe8045ed185ccbb4e0fa49f8c3c1fc0c4cd42674dbd052a",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/relationship-factsheet/",
+        "htmlPath": "dist/tools/relationship-factsheet/index.html",
+        "sha256": "39b00b6967545373b6e6209e084e9e1e7d2f64accf0cd7ecf519458e6a593dc7",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/market-comparison/",
+        "htmlPath": "dist/tools/market-comparison/index.html",
+        "sha256": "b811db9718a195c2c90ae6fd03918dd1317d1a75a4081772fd9a915e355449e7",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/us-unit-economics/",
+        "htmlPath": "dist/tools/us-unit-economics/index.html",
+        "sha256": "aaaaa22247d7b4a500712a0218a00353864e33401540ae43caa919d18950f768",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/brand-support-economics/",
+        "htmlPath": "dist/tools/brand-support-economics/index.html",
+        "sha256": "1f6a7e5fa1e633e9bb0b6fb1cae4e5d0a5e8863dbb667af6538e6e58bc8f41da",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/cash-runway/",
+        "htmlPath": "dist/tools/cash-runway/index.html",
+        "sha256": "c377e43b087e9b7b0ca6ea1100ad6cac014c963ccfc0091e48f89867918769ea",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/fdd-comparison/",
+        "htmlPath": "dist/tools/fdd-comparison/index.html",
+        "sha256": "02f394f69e20a43bb1511812b17e3fa3d13e99fd725a852aa389df15d96c05ce",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/partner-evidence/",
+        "htmlPath": "dist/tools/partner-evidence/index.html",
+        "sha256": "1be5c031c8386bb7a1fb3625e8b6bb2911bb5fbf8f1a212438ab22c43b9f8e55",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      },
+      {
+        "path": "/tools/launch-planner/",
+        "htmlPath": "dist/tools/launch-planner/index.html",
+        "sha256": "b15019eb71b2fd33b20361f5982c7fc7523008bddbcf4497d95e9a185eafef71",
+        "publicH1Count": 1,
+        "publicIntroCount": 1,
+        "planningControlCount": 0,
+        "serializedPlanningPropKeys": [
+          "intro",
+          "mode",
+          "startStage"
+        ]
+      }
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-14T02:27:20.383969+00:00",
-  "stage": "pre-deployment",
+  "checkedAt": "2026-11-14T02:35:55.072465+00:00",
+  "stage": "tool-HTML-follow-up-ready-for-deployment",
   "publishedArticles": 295,
   "newArticles": 12,
   "releasedPreviouslyUnpublished": 5,
@@ -10,7 +10,7 @@
   "fictionalPractices": 14,
   "trackableGuidesAndTools": 304,
   "nodeTests": {
-    "passed": 107,
+    "passed": 108,
     "failed": 0
   },
   "browserTests": {
@@ -33,15 +33,15 @@
   "evidence": [
     {
       "path": "artifacts/next-release-build.log",
-      "sha256": "8bf3f5c21fba5afa24b17d71ac5786c45999a97c082781dc559a0eb8453b26f6"
+      "sha256": "59644d45f16412dc3214c8c76fdd34328418775c6223a7df37731d392ee7ab3c"
     },
     {
       "path": "artifacts/next-release-unit-tests.log",
-      "sha256": "f851bc1d2b648bb480abd57e2db332c7df2169029bf47ba8960455c1350d1f6e"
+      "sha256": "19a2ad56f8c1cc9f4267276215d17aca1652f91faf6909fe84200289a8b59f66"
     },
     {
       "path": "artifacts/next-release-browser-tests.log",
-      "sha256": "614dce9a0bc35be0ce300854ab91553f0d75923b9eae70cdac17f330b0643e16"
+      "sha256": "17b9d591a38f0cb79bd08a03a035f670862c7d5dc4d78ab60eebabb7fec00bbf"
     },
     {
       "path": "artifacts/next-release-preview-verification.json",
@@ -64,5 +64,13 @@
     "Google Search Console and Bing Webmaster account verification remain blocked by missing account authorization and an unavailable browser interface.",
     "21 decisions retain specific source or interpretation limits; 16 require actual business facts. Publication does not resolve those questions.",
     "The future editorial research queue is retained; a publication decision is not a complete jurisdiction survey."
-  ]
+  ],
+  "toolSsrReadability": {
+    "pages": 9,
+    "initialHtmlTitles": 9,
+    "initialHtmlPurposeDescriptions": 9,
+    "privatePlanningInputsRendered": 0,
+    "browserJavaScriptDisabledCheck": "passed"
+  },
+  "note": "The complete 295-article preview remains valid for unchanged article data. A later live full-text run also passed. The tool HTML fix passed its own fresh build, 108 Node tests and the complete 43-case browser suite."
 }

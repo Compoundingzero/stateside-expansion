@@ -30,3 +30,17 @@ test('guides are readable without JavaScript and carry sources and canonical met
  }
  const threshold=await readFile(resolve(dist,'us-expansion/minimum-payment-exemption/index.html'),'utf8');assert.ok(threshold.includes('$735'));
 });
+
+test('every public tool has a readable title and purpose in its initial HTML without exposing a plan',async()=>{
+ const tools=JSON.parse(await readFile('src/data/tool-definitions.json','utf8'));
+ for(const tool of tools){
+  const html=await readFile(resolve(dist,'.'+tool.path,'index.html'),'utf8');
+  const body=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
+  assert.equal((body.match(/<h1[\s>]/g)||[]).length,1,tool.path+' needs one server-rendered title');
+  const description=html.match(/<meta name="description" content="([^"]+)"/)?.[1];
+  assert.ok(description&&body.includes('<p class="lede">'+description+'</p>'),tool.path+' needs its public explanation');
+  const start=body.indexOf('<div class="planning-shell"'),end=body.indexOf('</astro-island>',start);
+  assert.ok(start>=0&&end>start,tool.path+' needs its public initial shell');
+  assert.ok(!/<(?:input|textarea|select)\b/.test(body.slice(start,end)),tool.path+' must not server-render planning inputs');
+ }
+});
