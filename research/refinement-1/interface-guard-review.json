@@ -1,0 +1,102 @@
+{
+  "reviewer": "/root/federal_status",
+  "reviewedAt": "2026-11-14T10:36:18.858620+00:00",
+  "decision": "approved",
+  "scope": "Read-only independent review of library purpose/search/count/reset/no-JavaScript changes and publication-baseline guard. No browser/deployment success is claimed by this review.",
+  "reviewedFiles": [
+    {
+      "file": "src/pages/guides.astro",
+      "sha256": "7de66d6ffedb87f8e2f06a602772d6d3ccf3d8b854f9b9c65b9236aac2d7527c"
+    },
+    {
+      "file": "src/styles/global.css",
+      "sha256": "0d0366149841f3d8871325881614f087c0d9bf345833482901090a7c4f50febe"
+    },
+    {
+      "file": "src/lib/content-search.ts",
+      "sha256": "3904338722faa5b5476cb44dddfc8e58257723d1ecdd1abde129dc51a098d155"
+    },
+    {
+      "file": "tests/content-search.test.ts",
+      "sha256": "066200dfe14a9979cb44ff53bd9af9b9daef8387f36aec5cbd1c17816e1f7ab5"
+    },
+    {
+      "file": "tests/articles.e2e.spec.ts",
+      "sha256": "7a86b7c1f6c7718fe46ef2d0d127c17ba0c71acdebb6b5420913ed0f51837395"
+    },
+    {
+      "file": "scripts/next-release.mjs",
+      "sha256": "09d29b85cd8d66dcaa33c92195e5c439d980bea06b55b798fe3acc4fcf3b31c9"
+    },
+    {
+      "file": "tests/next-release.test.ts",
+      "sha256": "a4d4dc652d8c1ac8d892e918174e95fad81e539bba8231164800427680b90def"
+    },
+    {
+      "file": "research/refinement-1/baseline-publication.json",
+      "sha256": "7950084b05fa9293509ee5e8c3959447e55c07b0a17c56b892bb2081d7f4b388"
+    }
+  ],
+  "retention": {
+    "protectedPublished": 295,
+    "currentPublished": 295,
+    "anchors": 3884,
+    "sourceReferences": 878,
+    "ruleReferences": 462,
+    "sourceRecordIds": 741,
+    "ruleRecordIds": 418,
+    "losses": 0
+  },
+  "findings": [
+    {
+      "id": "us-abbreviation-search",
+      "status": "resolved",
+      "description": "Exact short-token matching initially made US fail against U.S.; normalization now unifies the observed abbreviation while keeping Australia out. Added tests and an independent direct call confirm both."
+    },
+    {
+      "id": "no-js-filters",
+      "status": "resolved",
+      "description": "The notice now correctly says both search and filters require JavaScript. All public guide links, purpose descriptions and subject collections remain in initial HTML."
+    },
+    {
+      "id": "protected-root-references",
+      "status": "resolved",
+      "description": "Fresh baseline now records each guide’s original source and rule IDs, and validation rejects their silent removal. Previously published source/rule additions are protected from replacement by refresh; explicit updates remain available."
+    },
+    {
+      "id": "training-test-path",
+      "status": "resolved",
+      "description": "The library browser test now derives the training path from canonical nr-guide-training rather than asserting a guessed href."
+    },
+    {
+      "id": "keyword-search-expectation-copy",
+      "status": "approved",
+      "description": "The intro now asks users to search a few words, a business activity, or a place. This accurately describes keyword matching and avoids implying semantic question understanding; no other interface or guard change is included in this review refresh."
+    }
+  ],
+  "checks": [
+    {
+      "subject": "Purpose and content retention",
+      "result": "Library cards add each existing public description without removing titles, dates, sources, paths or content. Search adds public summaries to its index and does not include plan inputs, submissions or owner data."
+    },
+    {
+      "subject": "Search and controls",
+      "result": "All query terms can match across public text in either order. Unicode marks, common licence spellings, numeric form/item boundaries and US/U.S. are handled explicitly; no inferred legal category or applicability result is produced. Result count is a polite live region, empty text describes only this query/collection, clear resets both filters and returns focus to the search input."
+    },
+    {
+      "subject": "Responsive/accessible code",
+      "result": "Cards retain semantic link headings, collections keep native details, results use native hidden with the existing important hidden style, and the clear control wraps on narrow widths. Final built-server browser and visual verification remain root’s responsibility."
+    },
+    {
+      "subject": "Publication workflow",
+      "result": "All current 295 protected paths, 3,884 anchors, 878 source references and 462 rule references remain present. Importer preserves references for every already-published guide and validates latest review/content fingerprints. Snapshot path/date/identity checks and the targeted route, alias, status, source-replacement and deletion tests pass."
+    }
+  ],
+  "tests": {
+    "command": "npx tsx --test tests/content-search.test.ts tests/next-release.test.ts",
+    "passed": 8,
+    "failed": 0,
+    "browser": "Not executed by this reviewer; previous dev-server log contained a stale guessed-path assertion and a navigation-context reload, both communicated to root for frozen-server rerun."
+  },
+  "openBlockingFindings": []
+}

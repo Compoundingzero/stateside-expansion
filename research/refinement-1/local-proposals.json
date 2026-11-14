@@ -1,0 +1,447 @@
+[
+  {
+    "id": "b3-planning-houston-occupancy",
+    "path": "/cities/houston/",
+    "question": "What does the currently published commercial application and 2026 schedule say to budget for, beyond the certificate itself?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The full January2026 CE1045A and relevant complete 2026 fee tables are now actually read. They distinguish inspection, certificate and administration categories. Selecting the actual category and complete project bill requires the real space/use facts, rather than another generic fee-source retrieval.",
+    "evidence": [
+      {
+        "url": "https://www.houstonpermittingcenter.org/media/2636/download?inline=",
+        "retrievedAt": "2026-11-14T10:20:19.539994+00:00",
+        "sha256": "890c29737ce2c2be72b8dd7481a3c66f0daae6d6f8089025a6649be1ed64b027",
+        "rawPath": "research/next-release/raw/refinement-1/local/houston-dallas-open.json",
+        "locator": "2026 fee schedule printed pages1–2; administrative and occupancy inspection tables",
+        "readScope": "Actual relevant complete tables and caveat read; unrelated later residential valuation tables are outside this review.",
+        "quote": "All permit fees are subject to the minimum and administrative fees.",
+        "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes"
+      },
+      {
+        "url": "https://www.houstonpermittingcenter.org/media/941/download?inline=",
+        "retrievedAt": "2026-11-14T10:20:35.523834+00:00",
+        "sha256": "38818236192b220316c0ab7a28c701600fcfc2eb9bcb2a5a835cd1b71aa1ebfc",
+        "rawPath": "research/next-release/raw/refinement-1/local/houston-form-and-search.json",
+        "locator": "Full one-page CE1045A, January2026 revision; fee panel lines50–76",
+        "readScope": "All95 lines of the actual form read; business/unit/use/area, applicant/signature and complete fee panel. Not a search snippet.",
+        "quote": "Administrative Fee of $33.56 per Application Not Included",
+        "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes"
+      },
+      {
+        "url": "https://www.houstonpermittingcenter.org/media/2226/download?inline=",
+        "retrievedAt": "2026-11-14T01:41:51.318643+00:00",
+        "sha256": "6dc24152a8475d468c53d44f7f10562ca789a557b4db6d630caa912683d3c03c",
+        "rawPath": "research/next-release/raw/scoped-local-reader1.json",
+        "locator": "CE1278 lines111–126; before occupancy and180-day permit/correction conditions",
+        "readScope": "Retained actual brochure passages reread for the already published before-occupancy/correction-period distinction. No new source fetch or timestamp advance claimed.",
+        "quote": "The applicant will have 180 days to obtain the required permits and complete the corrections.",
+        "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes"
+      }
+    ],
+    "guidePatch": {
+      "id": "b3-planning-houston-occupancy",
+      "path": "/cities/houston/",
+      "sections": [
+        {
+          "id": "unit-and-use",
+          "heading": "Start with the exact unit and proposed use",
+          "paragraphs": [
+            "A Certificate of Occupancy (CO) must be obtained before a covered commercial building or individual lease space is occupied. The city’s existing-building brochure excludes single-family residences and U-occupancies from its stated building-code requirement. Check the exact unit’s record and whether your operation changes the occupancy classification; changed classification requires approved plans and permits for a new CO.",
+            "Describe relevant storage, chemicals, powered equipment and public access. The city lists building, fire, food and other reviews, but that does not make every permit mandatory for every business."
+          ],
+          "sourceIds": [
+            "b3-planning-houston-plan",
+            "next-scope-houston-existing-co"
+          ],
+          "aliases": [
+            "what-the-citys-occupancy-guidance-says",
+            "section-1",
+            "what-is-still-unknown",
+            "section-4"
+          ]
+        },
+        {
+          "id": "existing-building-application",
+          "heading": "Apply through the existing-building inspection route",
+          "paragraphs": [
+            "The city’s CE-1278 brochure directs an existing-building or lease-space applicant to email form CE1045A or CE1045B to Occupancy.Inspections@houstontx.gov, or submit the documents in person at the Houston Permitting Center. It lists the supporting declaration, current Texas or U.S. photo identification, full business address and telephone number, approximate area and floors, and present/proposed and previous business type if known. A new business must give its name. Multiple-building sites need the specified site map; apartments need building and unit counts.",
+            "The inspection team records discrepancies. Its report identifies structural, electrical, mechanical or plumbing corrections and whether separate permits are needed before work. The brochure gives 180 days to obtain required permits and complete corrections. An owner or agent may obtain a required structural permit; electrical, mechanical and plumbing permits require a licensed contractor. Only the permit holder or licensed contractor can request inspections for that permitted work."
+          ],
+          "sourceIds": [
+            "next-scope-houston-existing-co"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "budget-inspection-and-certificate",
+          "heading": "Budget for the inspection as well as the certificate",
+          "paragraphs": [
+            "The 2026 fee schedule lists $537.12 for the first-story Certificate of Occupancy or life-safety inspection category. The January 2026 application separately lists a $94 CO fee on all applications and says a $33.56 administration fee per application is not included. Looking only at the certificate charge can understate the opening budget.",
+            "The space changes the inspection category: additional floors or a large area can add charges. Individual retail or office spaces under 3,000 square feet in multi-tenant buildings have a separate category; its rate also changes when the inspection is performed alongside the building-core inspection. Other permitted work or a warranted investigation can add charges. Use the city’s assessment of the actual project rather than treating one listed amount as the complete bill."
+          ],
+          "sourceIds": [
+            "r1-local-houston-fees2026",
+            "r1-local-houston-form2026"
+          ]
+        },
+        {
+          "id": "corrections-to-certificate",
+          "heading": "Corrections and final approval come before the certificate",
+          "paragraphs": [
+            "After repairs and final inspections are approved, the October 2024 brochure says the CO is emailed automatically to the application address; it is not mailed. Its 180-day correction period does not replace the requirement to obtain the CO before occupancy. If an existing, unmodified space’s CO cannot be located, the brochure describes obtaining a duplicate instead.",
+            "The required application category, combined charges and the city’s assessment of the actual property remain separate."
+          ],
+          "sourceIds": [
+            "next-scope-houston-existing-co"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "lease-commitment",
+          "heading": "What to establish before relying on the space",
+          "paragraphs": [
+            "Check the parcel, address and unit: the Houston metro, Harris County and City of Houston are not interchangeable. A mailing address or landlord’s account of the previous tenant does not settle the responsible authority or proposed use.",
+            "Resolve the applicable occupancy and inspection questions before relying on the date at which rent, equipment orders or customer promises create costs. You may model a delay to understand exposure, but it is not the city’s promised timetable or a legally required lease clause."
+          ],
+          "aliases": [
+            "first-make-sure-this-is-a-city-of-houston-site",
+            "section-0",
+            "worked-example-a-cleaning-companys-service-bay",
+            "section-2",
+            "try-the-decision-what-does-the-landlords-prior-use-statement-prove",
+            "link-the-lease-schedule-to-actual-answers",
+            "section-3"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b3-planning-houston-plan",
+        "next-scope-houston-existing-co",
+        "r1-local-houston-fees2026",
+        "r1-local-houston-form2026"
+      ],
+      "limitations": [
+        "This is the city’s CE-1278 existing-building/no-change-of-use route, the January 2026 CE-1045-A form and the named 2026 fee categories. It is not the full new-construction, changed-use or every business-opening process.",
+        "The actual municipal boundary, use classification, other building/fire/environmental/sector permissions, required corrections and complete city invoice depend on the project. The separate multifamily CE1045B form is not reviewed here."
+      ],
+      "description": "Follow Houston’s existing-building occupancy inspection route and separate the inspection charge, certificate fee and administration fee before budgeting to open."
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-local-houston-fees2026",
+          "url": "https://www.houstonpermittingcenter.org/media/2636/download?inline=",
+          "title": "Houston 2026 Building Code Enforcement permit fee schedule",
+          "authority": "City of Houston, Public Works / Houston Permitting Center",
+          "type": "official-guidance",
+          "section": "Pages 1–2: administrative/general inspection and occupancy inspection fee tables",
+          "supportingPassage": "Certificate of Occupancy or Life Safety Inspection",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:20:19.539994+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:27:13.477722+00:00",
+          "nextReview": "2026-12-14",
+          "sha256": "890c29737ce2c2be72b8dd7481a3c66f0daae6d6f8089025a6649be1ed64b027",
+          "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Named official administrative guidance and fee categories; actual project classification and invoice remain separate.",
+          "notes": "Actual official PDF reader representation read for the relevant complete tables on pages 1–2. The $537.12 first-story inspection, separate $94 certificate and $33.56 administrative categories are not a universal project quote. The table has additional-story/large-area amounts, a distinct small retail/office multi-tenant category and a simultaneous building-core-inspection variant. Remaining residential construction tables are not represented as reviewed. Direct original-PDF fetch was403; hash identifies retained reader result, not PDF bytes."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-local-houston-form2026",
+          "url": "https://www.houstonpermittingcenter.org/media/941/download?inline=",
+          "title": "Houston CE-1045-A application for occupancy compliance inspection, January 2026",
+          "authority": "City of Houston, Public Works / Occupancy Inspections Section",
+          "type": "official-guidance",
+          "section": "Full one-page form, 95 reader lines; January 2026 revision",
+          "supportingPassage": "Administrative Fee of $33.56 per Application Not Included",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:20:35.523834+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:27:13.477722+00:00",
+          "nextReview": "2026-12-14",
+          "sha256": "38818236192b220316c0ab7a28c701600fcfc2eb9bcb2a5a835cd1b71aa1ebfc",
+          "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Named official administrative guidance and fee categories; actual project classification and invoice remain separate.",
+          "notes": "Full actual official one-page form read, including business/unit/use/area/floor and applicant fields, signature declaration, email submission route and complete fee panel. The form lists the $94 CO charge as effective04/01/2022 on all applications and excludes the $33.56 administration fee from the listed amounts. That old effective-date note does not make the whole January2026 form a 2022 document. Direct original-PDF fetch was403; retained hash covers actual reader result. No actual completed application, classification, inspection outcome or invoice is determined."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "next-scope-houston-existing-co",
+        "fields": {
+          "notes": "Full 157-line official PDF representation read. This is the existing-building/lease-space, no-change-of-use route. Hash covers retained multi-document reader JSON, not PDF bytes. The October 2024 brochure describes automatic certificate email after final approvals. Older June 2021 how-to sheet instead asks applicant to request printing and gives a 5-calendar-day payment-link condition; do not blend these into one current universal process. The brochure does not establish numerical fees or a processing guarantee. Named 2026 fee categories and the January2026 commercial form are reviewed separately in r1-local-houston-fees2026 and r1-local-houston-form2026; no actual project bill is determined."
+        }
+      }
+    ],
+    "newRules": [],
+    "ruleUpdates": [
+      {
+        "id": "b3-planning-houston-occupancy",
+        "fields": {
+          "sourceIds": [
+            "b3-planning-houston-plan",
+            "next-scope-houston-existing-co",
+            "r1-local-houston-fees2026",
+            "r1-local-houston-form2026"
+          ],
+          "exceptions": "Named City of Houston existing-building/no-use-change brochure, January 2026 commercial application and fee categories only. Actual parcel, use, required permits, inspections and combined charges remain project-specific.",
+          "deadline": "Obtain the required CO before occupancy. The CE-1278 inspection/correction route allows 180 days for required permits and corrections; that is not permission to occupy early.",
+          "fee": "2026 schedule: $537.12 first-story CO/life-safety inspection category; January 2026 form separately lists $94 CO fee on all applications and excludes $33.56 administration per application. Other categories and additions depend on the actual project.",
+          "interpretationLimits": [
+            "The actual City of Houston jurisdiction, use, space and project classification determine the relevant route and fee category.",
+            "Brochure CE-1278, form CE1045A and the relevant 2026 fee tables are read. This is not a complete new-construction, changed-use, multifamily or every-sector permit determination.",
+            "AI-assisted source review; no professional legal review."
+          ],
+          "verifiedAt": "2026-11-14",
+          "nextReview": "2026-12-14"
+        }
+      }
+    ],
+    "unresolved": [
+      "Actual municipal jurisdiction, use and project classification, corrections/trade permits, inspection outcome and complete city invoice need actual business/property facts.",
+      "This scope does not cover the separate multifamily CE1045B form or complete new-construction/change-of-use/sector-permit procedures."
+    ],
+    "authorNote": "Recovered actual official form/fee-reader bodies via fresh result-reference opens; underlying direct downloads403. Do not falsely identify those failed files as PDF evidence. Fixes stale rule prose that still called detailed PDFs blocked after the earlier CE1278 recovery. Only three immediately useful charges enter prose; no invented universal total."
+  },
+  {
+    "id": "geo-guide-dallas",
+    "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+    "question": "Does a standalone DBA application automatically mean the general CO fee, and which published fee categories exist?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The official page publishes the DBA-only record-change category and standalone application route; the actual currently linked fee PDF independently lists $30 Record Change and $375 general CO categories. These facts do not establish a contradiction or a universal bill. Actual tenant/use/change classification and city assessment determine the category and required inspections.",
+    "evidence": [
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/DSDFees%20(1).pdf",
+        "retrievedAt": "2026-11-14T10:23:21.139246+00:00",
+        "sha256": "9dcfcbd98905d519ad4d6f9ebf2539f0c1c7d9baf612fec547fbc8a73f10ad3c",
+        "rawPath": "research/next-release/raw/refinement-1/local/dallas-fees.pdf",
+        "locator": "Cover; printed page2 general CO; printed page6 Record Change Fee",
+        "readScope": "Original11-page PDF downloaded200. Cover, CO rows and Record Change row read in local pdftotext output; no rewritten summary relied upon.",
+        "quote": "Record Change Fee",
+        "hashKind": "sha256-of-original-downloaded-pdf-bytes"
+      },
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "retrievedAt": "2026-11-14T10:20:19.539994+00:00",
+        "sha256": "890c29737ce2c2be72b8dd7481a3c66f0daae6d6f8089025a6649be1ed64b027",
+        "rawPath": "research/next-release/raw/refinement-1/local/houston-dallas-open.json",
+        "locator": "Full official CO page; new-tenant triggers, $30 record-change paragraph, DBA standalone FAQ and inspection sequence",
+        "readScope": "Complete86-line official page body read. Standalone application route is stated; it does not say every standalone DBA change must pay the general CO rate.",
+        "quote": "A \"record change\" can be made to a CO",
+        "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes"
+      }
+    ],
+    "guidePatch": {
+      "id": "geo-guide-dallas",
+      "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+      "sections": [
+        {
+          "id": "tenant-use-and-area",
+          "heading": "Which fact changed?",
+          "paragraphs": [
+            "The official page lists first use, tenant change on an existing CO, changed use and changed floor area among new-Certificate-of-Occupancy triggers. Obtain the previous CO for the exact unit and describe the incoming company, work, equipment, storage and area.",
+            "Submit the application and Land Use Questionnaire through DallasNow with the appropriate fee. The city says changed-use requests go to Building Code and Zoning review and may need site, floor or parking information. For the same use, inspections can be scheduled after approval and payment. The CO is released after all required inspections pass; payment does not guarantee approval."
+          ],
+          "sourceIds": [
+            "geo-local-dallas"
+          ],
+          "aliases": [
+            "dallas-lists-several-triggers",
+            "section-0",
+            "request-the-existing-record-before-relying-on-the-space",
+            "section-1",
+            "worked-example-taking-over-a-technical-service-unit",
+            "section-2",
+            "the-file-to-prepare",
+            "section-4"
+          ]
+        },
+        {
+          "id": "name-only-uncertainty",
+          "heading": "A name-only change has a published application route",
+          "paragraphs": [
+            "For a trading-name change, the specific city FAQ says to submit a standalone Certificate of Occupancy application through DallasNow and describe the change clearly, for example “Updating DBA to XYZ Company”. DBA means “doing business as”. Staff then review whether supporting documents are needed; approval produces a new CO.",
+            "The city calls a pure DBA-only change a record change, and its currently linked fee schedule lists a $30 Record Change Fee, separately from the $375 general CO permit fee. For multifamily uses, this option requires no recorded code violations; otherwise the city calls for a new CO and building inspections.",
+            "A standalone application does not by itself establish which fee category applies. Final fees are assessed for the actual submission. A new legal tenant is a separate trigger, and the FAQ does not promise that every requested change avoids inspection."
+          ],
+          "sourceIds": [
+            "geo-local-dallas",
+            "next-scope-dallas-dba-faq",
+            "r1-local-dallas-fees2025"
+          ],
+          "aliases": [
+            "try-the-distinction-new-tenant-or-only-a-trading-name",
+            "show-the-commercial-consequences-without-inventing-a-deadline",
+            "section-3"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "geo-local-dallas",
+        "next-scope-dallas-dba-faq",
+        "r1-local-dallas-fees2025"
+      ],
+      "limitations": [
+        "Dallas occupancy guidance and the currently linked fee schedule, effective July1,2025, are reviewed for the named routes and categories. The city determines the actual category, supporting documents, inspections, charges and opening permission. This is not a Texas-wide rule or a complete trade/employment/tax/franchise review."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-local-dallas-fees2025",
+          "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/DSDFees%20(1).pdf",
+          "title": "Dallas Permit Fee Schedule, effective July 1, 2025",
+          "authority": "City of Dallas, Planning and Development",
+          "type": "official-guidance",
+          "section": "Cover disclaimer; printed pages2 and6: general CO and Record Change fee rows",
+          "supportingPassage": "Record Change Fee",
+          "publicationDate": null,
+          "effectiveDate": "2025-07-01",
+          "fetchedAt": "2026-11-14T10:23:21.139246+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:27:13.477722+00:00",
+          "nextReview": "2026-12-14",
+          "sha256": "9dcfcbd98905d519ad4d6f9ebf2539f0c1c7d9baf612fec547fbc8a73f10ad3c",
+          "hashKind": "sha256-of-original-downloaded-pdf-bytes",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Named official administrative guidance and fee categories; actual project classification and invoice remain separate.",
+          "notes": "Original official PDF downloaded200 and locally extracted with pdftotext. Read the cover disclaimer and named CO/Record Change rows; $30 Record Change is a category, distinct from $375 general CO permit. The city assesses final fees at submission for the project. Do not use the fee table as universal eligibility or inspection permission. Other permit categories not represented as comprehensively reviewed."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "geo-local-dallas",
+        "fields": {
+          "notes": "Reviewed for the named tenant/use and DBA change routes only. The standalone application requirement describes the submission process; it does not assign the general CO fee to every name-only request. The DBA-only paragraph and currently linked fee schedule (r1-local-dallas-fees2025) both publish the $30 Record Change category. For multifamily uses, this option requires no recorded code violations; otherwise a new CO and building inspections apply. City staff assess the actual request, final charges and inspections. No complete municipal, county or sector survey is claimed.",
+          "conflicts": [
+            {
+              "claim": "Current DBA-only Certificate of Occupancy change workflow",
+              "contradictingSourceIds": [
+                "geo-local-dallas"
+              ],
+              "resolution": "Resolved within the named scope: a standalone application route and the Record Change fee category can coexist. The linked original fee PDF corroborates the $30 category. This does not classify an actual request or waive inspections; the multifamily no-recorded-violations condition remains.",
+              "status": "resolved",
+              "dependentPaths": [
+                "/cities/dallas/tenant-certificate-of-occupancy/",
+                "/comparisons/dallas-san-antonio-occupancy/"
+              ],
+              "resolvedAt": "2026-11-14T10:31:13.528928+00:00",
+              "resolutionSourceIds": [
+                "r1-local-dallas-fees2025",
+                "next-scope-dallas-dba-faq"
+              ]
+            }
+          ],
+          "substantiveVerifiedAt": "2026-11-14T10:31:13.528928+00:00"
+        }
+      },
+      {
+        "id": "next-scope-dallas-dba-faq",
+        "fields": {
+          "notes": "Full main CO page reread. The specific FAQ supplies the standalone DallasNow application route and request description; the record-change paragraph gives the conditional DBA-only category. The currently linked original fee PDF (r1-local-dallas-fees2025) corroborates its $30 Record Change fee. A standalone application is not automatically the general CO category. The multifamily no-recorded-code-violations exception remains; the city determines actual fees, documents and inspections. No application submitted or universal inspection waiver inferred.",
+          "substantiveVerifiedAt": "2026-11-14T10:31:13.528928+00:00"
+        }
+      }
+    ],
+    "newRules": [],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Actual legal tenant, use, floor-area/occupant-load changes, supporting documents, applicable invoice and inspections need the real request and city assessment.",
+      "No blanket inspection waiver or fixed opening timetable is established."
+    ],
+    "authorNote": "Removes an unnecessary blanket fee-conflict framing. The specific FAQ never states that all standalone requests cost the general permit fee, and the currently linked original fee PDF corroborates the separate $30 Record Change category. Do not represent the $30 category as the invoice for every new CO or new tenant."
+  },
+  {
+    "id": "geo-compare-texas-occupancy",
+    "path": "/comparisons/dallas-san-antonio-occupancy/",
+    "question": "What does the newly read Dallas fee schedule change in the two-city name-change comparison?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "Dallas has a corroborated Record Change fee category, not a demonstrated contradiction between a standalone form and a lower-cost record change. The fee/inspection comparison still depends on the actual city category and project; San Antonio’s previously read named-use fire conditions remain unchanged.",
+    "evidence": [
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/DCH%20documents/DSDFees%20(1).pdf",
+        "retrievedAt": "2026-11-14T10:23:21.139246+00:00",
+        "sha256": "9dcfcbd98905d519ad4d6f9ebf2539f0c1c7d9baf612fec547fbc8a73f10ad3c",
+        "rawPath": "research/next-release/raw/refinement-1/local/dallas-fees.pdf",
+        "locator": "Cover; printed page2 general CO; printed page6 Record Change Fee",
+        "readScope": "Original11-page PDF downloaded200. Cover, CO rows and Record Change row read in local pdftotext output; no rewritten summary relied upon.",
+        "quote": "Record Change Fee",
+        "hashKind": "sha256-of-original-downloaded-pdf-bytes"
+      },
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "retrievedAt": "2026-11-14T10:20:19.539994+00:00",
+        "sha256": "890c29737ce2c2be72b8dd7481a3c66f0daae6d6f8089025a6649be1ed64b027",
+        "rawPath": "research/next-release/raw/refinement-1/local/houston-dallas-open.json",
+        "locator": "Full official CO page; new-tenant triggers, $30 record-change paragraph, DBA standalone FAQ and inspection sequence",
+        "readScope": "Complete86-line official page body read. Standalone application route is stated; it does not say every standalone DBA change must pay the general CO rate.",
+        "quote": "A \"record change\" can be made to a CO",
+        "hashKind": "sha256-of-retained-web-reader-representation-not-original-pdf-bytes"
+      }
+    ],
+    "guidePatch": {
+      "id": "geo-compare-texas-occupancy",
+      "path": "/comparisons/dallas-san-antonio-occupancy/",
+      "sections": [
+        {
+          "id": "city-route-difference",
+          "heading": "The difference worth checking",
+          "paragraphs": [
+            "Dallas lists tenant change on an existing Certificate of Occupancy (CO) as a new-certificate trigger. San Antonio describes an update for certain owner/lessee changes with essentially the same use, but listed categories still need a new certificate. Both describe new-CO requirements for changed business use.",
+            "For a name-only change, Dallas’s specific FAQ directs a standalone DallasNow CO application. Its currently linked fee schedule lists a $30 Record Change category separately from the general CO permit fee; the city assesses the actual submission. Multifamily properties with recorded violations instead need a new CO and building inspections. San Antonio’s linked DBA (doing business as) form requires fire review and inspection for specified uses, including repair and maintenance shops, and applies the COO-No Construction fee category. Neither the word “update” nor an application format proves that the chosen site needs no inspection or has a lower total charge.",
+            "Request the prior CO and actual operator/use facts for the chosen unit, then continue with that city’s guide. This comparison cannot choose a use classification, inspection route or opening date."
+          ],
+          "sourceIds": [
+            "geo-local-dallas",
+            "geo-local-san-antonio",
+            "smb-sanantonio-dba-form",
+            "next-scope-dallas-dba-faq",
+            "r1-local-dallas-fees2025"
+          ],
+          "aliases": [
+            "the-distinction-the-sources-actually-support",
+            "section-0",
+            "compare-the-questions-not-just-the-form-titles",
+            "section-1",
+            "worked-example-a-maintenance-brand-compares-two-units",
+            "section-2",
+            "try-the-comparison-tenant-use-or-name",
+            "a-name-only-route-still-needs-a-current-answer",
+            "section-3",
+            "keep-the-lease-and-cash-assumptions-separate",
+            "section-4"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "geo-local-dallas",
+        "geo-local-san-antonio",
+        "smb-sanantonio-dba-form",
+        "next-scope-dallas-dba-faq",
+        "r1-local-dallas-fees2025"
+      ],
+      "limitations": [
+        "Two-city comparison only, not a Texas-wide rule. Actual site/use, legal operator and construction/fire/trade conditions still matter. Published fee categories do not establish which charge or inspection route either city will assign to an actual request."
+      ]
+    },
+    "newSources": [],
+    "sourceUpdates": [],
+    "newRules": [],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Actual operator, use, site, supporting records, city fee category and inspections need the real proposal.",
+      "No numerical total-cost or opening-time advantage is established between the cities."
+    ],
+    "authorNote": "Reuses r1-local-dallas-fees2025 from the preceding Dallas envelope. San Antonio source/form facts are preserved from the existing reviewed record, not relabelled as freshly fetched."
+  }
+]

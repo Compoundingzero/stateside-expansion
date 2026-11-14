@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-11-14T10:45:51.203366+00:00",
+  "stage": "validated-before-deployment",
+  "baseCommit": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
+  "publishedGuides": 295,
+  "sources": 752,
+  "rules": 419,
+  "updatedArticles": 7,
+  "sourceQuestionsClosed": 4,
+  "remainingSourceOrInterpretationLimits": 17,
+  "nodeTests": {
+    "passed": 114,
+    "failed": 0
+  },
+  "browserTests": {
+    "passed": 47,
+    "failed": 0
+  },
+  "articlePreview": {
+    "passed": 295,
+    "failed": 0
+  },
+  "visualChecks": {
+    "views": 6,
+    "overflow": 0,
+    "javascriptErrors": 0
+  },
+  "retention": {
+    "guides": 295,
+    "anchors": 3884,
+    "lost": 0,
+    "publicReferencesPreserved": true
+  },
+  "productionDependencyVulnerabilities": 0,
+  "evidence": [
+    {
+      "path": "artifacts/refinement-1-build.log",
+      "sha256": "f525b7622805fc3081f366030bc89f681ae70d8c2fac45923dd08151c501208a"
+    },
+    {
+      "path": "artifacts/refinement-1-unit-tests.log",
+      "sha256": "bf65b08288f88b43be57824515ffe7e312419baa15c03638b7d6a058f48d5580"
+    },
+    {
+      "path": "artifacts/refinement-1-browser-tests.log",
+      "sha256": "2158af450bf57b0c3026106f828903f3be64d3dcdadd7da437450512eb8c2fcb"
+    },
+    {
+      "path": "artifacts/refinement-1-preview-verification.json",
+      "sha256": "a86168bdfd81f16017e67fe1f73de293308091d6e492e14da86665829246a552"
+    },
+    {
+      "path": "artifacts/refinement-1/release-visuals/checks.json",
+      "sha256": "64127388048d979146a7c05a712f928d9c31b221518c0b3426d48e8198c00632"
+    }
+  ],
+  "reviewFiles": [
+    "states-reviews.json",
+    "federal-reviews.json",
+    "local-reviews.json",
+    "asia-reviews.json",
+    "learning-review.json",
+    "publication-guard-review.json",
+    "interface-guard-review.json"
+  ],
+  "limits": [
+    "The remaining 17 source/interpretation questions are explicitly retained; no failed retrieval or dated related source is treated as definitive current law.",
+    "Google Search Console and Bing Webmaster account verification remain blocked by unavailable authorization and browser access.",
+    "A bare learning-path fragment without its generated query parameter remains a nonblocking shortcut limitation; generated links and no-JavaScript fallbacks pass."
+  ]
+}

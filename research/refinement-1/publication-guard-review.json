@@ -1,0 +1,59 @@
+{
+  "reviewer": "/root/state_texts",
+  "reviewedAt": "2026-11-14T10:34:23.452Z",
+  "decision": "approved",
+  "scope": "Independent review of the fresh publication snapshot, protected-source additions and article/reference guards; not a deployment or broad legal-survey review.",
+  "files": [
+    {
+      "path": "scripts/next-release.mjs",
+      "sha256": "09d29b85cd8d66dcaa33c92195e5c439d980bea06b55b798fe3acc4fcf3b31c9"
+    },
+    {
+      "path": "tests/next-release.test.ts",
+      "sha256": "a4d4dc652d8c1ac8d892e918174e95fad81e539bba8231164800427680b90def"
+    },
+    {
+      "path": "research/refinement-1/baseline-publication.json",
+      "sha256": "7950084b05fa9293509ee5e8c3959447e55c07b0a17c56b892bb2081d7f4b388"
+    }
+  ],
+  "snapshot": {
+    "commit": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
+    "createdAt": "2026-11-14T10:25:54.608Z",
+    "articles": 295,
+    "anchors": 3884,
+    "sourceRecords": 741,
+    "ruleRecords": 418,
+    "lost": [],
+    "unrecorded": [],
+    "referencesLost": []
+  },
+  "tests": {
+    "command": "npx tsx --test tests/next-release.test.ts",
+    "passed": 6,
+    "failed": 0,
+    "execution": "Run independently by this reviewer against the hashed code/test version."
+  },
+  "checks": [
+    "Every one of the 295 previously public routes and 3,884 anchors is represented in the actual snapshot and remains present.",
+    "Reference preservation now covers every currently published guide, including last round’s 17 additions/promotions. Snapshot validation also rejects loss of saved source/rule references.",
+    "A changed protected article body requires a recorded integration since the snapshot and a matching independent content/decision review before publication. Date comparisons parse timestamps rather than relying on text order.",
+    "Configured malformed/empty/duplicate publication snapshots fail before mutation. The selected path is confined to the research JSON namespace.",
+    "Original snapshot source/rule IDs extend duplicate-addition protection to all 741 sources and 418 rules from the last release. A refresh cannot silently overwrite those records; explicit updates remain supported.",
+    "New in-progress additions can still be corrected through explicit refresh, while changed decision fingerprints invalidate stale article approval."
+  ],
+  "resolvedFindings": [
+    {
+      "id": "malformed-snapshot-fail-open",
+      "resolution": "Root added configured snapshot shape/date/identity checks and targeted failures."
+    },
+    {
+      "id": "prior-release-added-records-refresh",
+      "resolution": "Root added current publication record IDs to the protected-addition set and a regression test for a source published after the original baseline."
+    }
+  ],
+  "openDefects": [],
+  "limits": [
+    "This review covers the actual frozen publication snapshot and importer guard. Root owns the full build, browser tests, deployment and live verification."
+  ]
+}

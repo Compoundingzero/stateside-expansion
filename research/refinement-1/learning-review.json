@@ -1,0 +1,117 @@
+{
+  "reviewer": "/root/asia_sources",
+  "reviewedAt": "2026-11-14T10:44:50.808Z",
+  "baselineCommit": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
+  "decision": "approved-with-scoped-nonblocking-limit",
+  "summary": "The frozen refinement keeps every public learning link and the optional local progress model. The corrupt-storage path persistence issue and the related stale history closure were repaired and independently reproduced successfully.",
+  "reviewedScope": [
+    "Code and regression tests for selected-path curated next/resume, completed-step practice and final path choice.",
+    "Back/Forward selection, saved active-path persistence after repaired storage, same-path native practice/library hash navigation, modifier-link behavior.",
+    "Native path and full-library disclosures, server-rendered catalogue and no-JavaScript fallback sections. All 295 published guides plus nine tools remain represented.",
+    "Search over existing public titles, descriptions and jurisdictions only; query normalization and recoverable bookmark/started/no-match states.",
+    "Remembering remains off by default. Opt-in saves public identifiers and activity only. Reset/export and catalogue-failure protection retain the existing schema. No exercise or legal-source content was authored in this refinement."
+  ],
+  "files": [
+    {
+      "path": "src/components/LearningHub.tsx",
+      "sha256": "f1960afe9ba2456adb2ffc9c96ffa41f4b484089823abbaeddfcae43e0fd1a60"
+    },
+    {
+      "path": "src/components/Learning.css",
+      "sha256": "fc251cf11e2fc9659f6016b9fd2623c5b978e4f488f6bc5a8aa8e7e4a5a00a23"
+    },
+    {
+      "path": "src/lib/learning.ts",
+      "sha256": "d56d52a90cf80117509a54c26e346e96e080082c7676e25857bc17aa90cf7ebb"
+    },
+    {
+      "path": "src/lib/content-search.ts",
+      "sha256": "3904338722faa5b5476cb44dddfc8e58257723d1ecdd1abde129dc51a098d155"
+    },
+    {
+      "path": "tests/learning.e2e.spec.ts",
+      "sha256": "d198781e522bf44f296fa2acfdc44b3b7c41aa119478448d4937e9d1ea157a08"
+    },
+    {
+      "path": "tests/learning.test.ts",
+      "sha256": "0d4d0b801a21be8aabe420597d413697958f1956f948ab447ff9b6cafdb9d998"
+    },
+    {
+      "path": "tests/content-search.test.ts",
+      "sha256": "066200dfe14a9979cb44ff53bd9af9b9daef8387f36aec5cbd1c17816e1f7ab5"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "src/lib/learning-session.ts",
+      "sha256": "0cfe5a65d1b6a0dcdc894a88bc42b24f23587acf3253162bae851a8bf459ceec",
+      "unchangedFromBaseline": true
+    },
+    {
+      "path": "src/lib/learning-build.ts",
+      "sha256": "017911a265c6dec4e6a749871a87cd3a5ac3cbab4aaf1e70abda0813b5544471",
+      "unchangedFromBaseline": true
+    },
+    {
+      "path": "src/data/learning-paths.ts",
+      "sha256": "e067ef818d85fb7bb0c629436d6c6edabf8c64565021f108258b6b603007282b",
+      "unchangedFromBaseline": true
+    }
+  ],
+  "findings": [
+    {
+      "id": "learning-corrupt-opt-in-path",
+      "severity": "P2",
+      "status": "resolved",
+      "problem": "With corrupt saved JSON and an explicit people path, opt-in previously saved the fallback model path. The ready-only history callback also retained the original storage error after repair.",
+      "resolution": "Opt-in first synchronizes the visible active path. A current-session ref supplies live storage error and saved path to the stable history callback.",
+      "verified": "One-time corrupt seed → people → opt-in saves people → choose economics saves economics → Back saves people → bare /learn/ restores people. Separate authored regression also covers a blocked write and recovery."
+    },
+    {
+      "id": "learning-bare-fragment-shorthand",
+      "severity": "P3",
+      "status": "deferred-nonblocking",
+      "boundary": "With JavaScript enabled, a hand-written /learn/#learning-path-people fragment alone does not select the people path. App-generated links contain ?path=people plus a fragment; these work with JavaScript and target a real fallback section without it. Scope approval does not assert support for bare-fragment shorthand.",
+      "reason": "No app-generated link relies on the unsupported shorthand; the parent requested a narrow final change."
+    }
+  ],
+  "independentVerification": {
+    "target": "http://127.0.0.1:4321 source preview after final author freeze",
+    "unit": {
+      "command": "npx tsx --test tests/learning.test.ts tests/content-search.test.ts",
+      "passed": 9,
+      "failed": 0
+    },
+    "browser": {
+      "passed": 6,
+      "failed": 0,
+      "covered": [
+        "corrupt/blocked local storage repair and path persistence",
+        "no-JavaScript complete reading and fallback path",
+        "selected-path resume and Back/Forward",
+        "public-description search and empty filter recovery",
+        "completed starting steps lead to optional practice",
+        "all 304 library rows and every guide/tool href remain accessible without gates"
+      ],
+      "commands": [
+        "TEST_BASE_URL=http://127.0.0.1:4321 CHROMIUM_PATH=/usr/bin/chromium npx playwright test tests/learning.e2e.spec.ts --grep 'corrupt or blocked|selected-path|library search|finishing|without JavaScript' --reporter=list --output=artifacts/refinement-1/independent-browser-final",
+        "TEST_BASE_URL=http://127.0.0.1:4321 CHROMIUM_PATH=/usr/bin/chromium npx playwright test tests/learning.e2e.spec.ts --grep 'all published guides' --reporter=list --output=artifacts/refinement-1/independent-catalogue-final"
+      ]
+    },
+    "manualBrowser": {
+      "artifact": "artifacts/refinement-1/learning-independent-final-probes.json",
+      "sha256": "5707f06d60e89698e82803bc72bc87c948296ac690f585bd2e44cefe844f3f08",
+      "passed": 2,
+      "failed": 0,
+      "covered": [
+        "independent one-time corrupt storage repair, persisted Back and bare-root restore with no non-GET requests or page errors",
+        "all five model starting steps plus two fictional practices completed; final action opens and focuses chooser; storage remains off"
+      ]
+    },
+    "boundaries": [
+      "Source preview checks are independent local checks, not deployment verification.",
+      "The parent owns the final combined production build and full release suite.",
+      "The protected learning session, versioning builder and exercise/path definitions are byte-identical to baseline; canonical article changes elsewhere may still update dependent practice versions as designed."
+    ]
+  }
+}

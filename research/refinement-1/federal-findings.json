@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-11-14T10:26:26.384421+00:00",
+  "scope": [
+    "FTCPart437 literal500/735 interaction",
+    "Worker classification latest named appeal orders",
+    "Massachusetts Patel official copy/later history"
+  ],
+  "noCanonicalChanges": true,
+  "items": [
+    {
+      "id": "b3-planning-business-opportunity-rule",
+      "decision": "retain-authoritative-ambiguity",
+      "newEvidence": {
+        "url": "https://public-inspection.federalregister.gov/2026-16617.pdf",
+        "rawPath": "research/next-release/raw/refinement-1/federal/ftc-agenda-2026-open.json",
+        "sha256": "7fcd0f2a7266c087de6cf9396afe2f3d6544484892ee6bdb55d2fb1bc8085575",
+        "readScope": "Complete96-line2026FTC regulatory agenda body; Part437listed among current rulemakings; explicit caveat that agenda dates do not imply a final substantive determination."
+      },
+      "conclusion": "The actual2026agenda does not amend437.8 or interpret the500/735interaction. No controlling reconciliation recovered. Adding a procedural agenda to the owner-facing guide would add length without settling its question, so no guide/source review date is refreshed."
+    },
+    {
+      "id": "b3-planning-worker-classification",
+      "decision": "retain-limited-current-court-status",
+      "leads": [
+        {
+          "url": "https://dockets.justia.com/docket/circuit-courts/ca5/24-30223",
+          "scope": "Search lead explicitly reports last docket retrievalMay8,2024; not current."
+        },
+        {
+          "url": "https://dockets.justia.com/docket/circuit-courts/ca10/25-2022",
+          "scope": "Search lead explicitly reports last docket retrievalJune16,2025; not a November2026full docket."
+        },
+        {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/html/2026-03962.htm",
+          "scope": "Existing dated primary NPRM describes stayed appeals as of its publication; cannot substitute for current order retrieval."
+        }
+      ],
+      "conclusion": "No actual new current orders in Frisard’s, Warren or Colt&Joe were recovered. No status inferred from secondary site update/crawl dates, partial dockets or absence of search results. The existing actual13NovemberLittman pending report remains narrowly scoped."
+    },
+    {
+      "id": "b2-east-guide-massachusetts",
+      "decision": "retain-dated-opinion-scope",
+      "attempt": {
+        "url": "https://www.mass.gov/published-sjc-and-appeals-court-opinions",
+        "rawPath": "research/next-release/raw/refinement-1/federal/ma-official-catalog-attempt.json",
+        "sha256": "93b7c74b6010a20afe0bb3d289de1b2c34d87d64d125fa4ecceec6cd1fba2727",
+        "result": "Reader403; official archive domain separately reports nonretryable robots restriction."
+      },
+      "conclusion": "No new official-reporter copy or comprehensive later appellate history recovered. Search hits citing Patel in unrelated2026decisions do not establish a later employment-status holding. Do not add unrelated case history or refresh a source date merely for a search."
+    }
+  ],
+  "remainingI9Hold": "The actual official form and all8instruction pages were recovered, but central USCIS current accepted-edition list and current related-news bodies still return403. OfficialI9PDF date is not a substitute for the landing-page verification."
+}

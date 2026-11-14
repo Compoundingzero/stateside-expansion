@@ -1,0 +1,22 @@
+[
+  {
+    "id": "b3-planning-employment-verification",
+    "path": "/us-expansion/employment-verification/",
+    "reviewedHash": "1e670d06d8e7664fdfd1881d9599d418c22df42f29396845c17208ca0ffa7645",
+    "decisionFingerprint": "64fbe7316dfc55ec9ce2121a6db79a1fd181cae0c66af642063616d143af2b9e",
+    "decision": "approved",
+    "reviewer": "/root/europe_sources",
+    "reviewedAt": "2026-11-14T10:34:00.395Z",
+    "notes": "Read the complete actual USCIS-hosted four-page01/20/25 form and all eight pages/210reader lines of official instructions, plus retained8CFR274a.2 scoped text. The first-day Section1 deadline follows job acceptance; the employer generally has three business days, with at-hire checking and no receipt substitution for employment lasting less than three business days. Employee document choice, employer liability for designated representatives and retaining rather than mailing the form match the primary text. The fictional later-of-three-years-after-hire/one-year-after-termination example calculates correctly. The form edition/printed May31,2027 expiration remain distinct from work authorization, retention and the inaccessible live accepted-edition list. Clean official source URLs are published while the observed retrieval query and retained-reader hash type stay explicit. New owner copy sets up checking before hire and calculates retention after employment ends. No current-edition or individual authorization clearance is inferred."
+  },
+  {
+    "id": "b3-planning-joint-employer",
+    "path": "/us-expansion/joint-employer/",
+    "reviewedHash": "7c95a52d54db95f2adb1674562dcb602e799ad7d834df1cc407ba818ca5feaa5",
+    "decisionFingerprint": "34523aed368a3281456ca53e38609963c05ce3a8c0cb43945d120385659863e6",
+    "decision": "approved",
+    "reviewer": "/root/europe_sources",
+    "reviewedAt": "2026-11-14T10:34:00.397Z",
+    "notes": "Read both pages of the actual original April8,2026 Board order374NLRBNo.93, including operative denial, procedural context, duty-versus-scope discussion and footnotes. The added explanation accurately states that reconsideration was denied and separates whether Browning-Ferris must bargain from the precise topics/scope, which were not before the Board and could not be fully settled from the limited record. The underlying clarified standard is explicitly law of that case only. Existing distinctions between NLRA and FLSA, effective rules and proposals, historical disputes and new arrangements remain intact. No general franchise exemption, new nationwide standard, complete later-appellate survey or actual-business result is invented."
+  }
+]

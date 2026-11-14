@@ -1,0 +1,202 @@
+[
+  {
+    "id": "b2-east-guide-arkansas",
+    "path": "/states/arkansas/",
+    "question": "What does the actual earlier Arkansas enacted text say about a contract choosing another state’s law?",
+    "outcome": "partially-verified",
+    "conclusion": "The complete 2019 Act supplies an explicit choice-of-law provision. The current consolidated chapter and transaction-specific application remain unresolved.",
+    "evidence": [
+      {
+        "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2FACT835.pdf",
+        "retrievedAt": "2026-11-14T10:20:58.445239+00:00",
+        "sha256": "20bc5782805546fa823cc4cced60936eaffc0448f8a77996bdf6643c7ed953ae",
+        "rawPath": "research/next-release/raw/refinement-1/states/ar-act835-2019.pdf",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Section 1, adding section 4-72-206(b); page 2, lines 15–16",
+        "readScope": "Read the complete original two-page PDF and visually checked the added underlined subsection on page 2. Verified approved date, not commencement.",
+        "quote": "the law of another state",
+        "httpStatus": 200
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-east-guide-arkansas",
+      "path": "/states/arkansas/",
+      "sections": [
+        {
+          "id": "enacted-versus-proposed",
+          "heading": "The enacted amendment does not give every agreement the same treatment",
+          "paragraphs": [
+            "Act 847 of 2023 removes the old reference that could exclude a franchise merely because it was covered by the federal Franchise Rule. Preparing a Franchise Disclosure Document (FDD) therefore does not establish exclusion from Arkansas relationship protections.",
+            "The enacted applicability wording concerns franchises entered into, renewed or transferred after March 4, 1977 whose performance contemplates or requires an Arkansas place of business. It retains stated exclusions and adds an exclusion where both the initial franchise fee does not exceed $20,000 and the initial term does not exceed one year. The specified wholesaler–beverage-supplier relationships are covered regardless of those fee or term amounts.",
+            "This article explains the actual 2023 amendment. The complete current consolidated chapter and later merits decisions have not been verified from readable current primary bodies; this is not complete current coverage or termination advice."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "aliases": [
+            "the-business-question-comes-after-the-sale-as-well-as-before-it",
+            "section-0",
+            "understand-which-text-became-law",
+            "section-1",
+            "do-not-use-the-later-proposal-as-the-operative-amendment",
+            "section-2",
+            "read-the-legal-status-label-before-using-the-wording",
+            "fictional-example-a-dutch-maintenance-operator",
+            "section-4",
+            "make-the-next-review-specific",
+            "section-5"
+          ]
+        },
+        {
+          "id": "place-and-agreement-dates",
+          "heading": "Use the date rule for the actual provision",
+          "paragraphs": [
+            "The Act’s findings and applicability amendment apply retroactively to the effective date of Act 411 of 1991. Its added franchise-owner definition, transfer amendments and new venue, material-cause and survivor provisions apply only to agreements or contracts entered into or renewed on and after Act 847’s effective date. The new franchise-owner definition includes someone with a financial interest or someone who guarantees the franchise entity’s obligations.",
+            "The legislature’s 2023 session explanation identifies August 1, 2023 as the effective date for Acts without an emergency clause or a specified effective date; Act 847 has neither. The constitutional limits stated in the applicability amendment remain relevant. Approval on April 13, 2023 is not itself the starting date for every new provision."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "aliases": [
+            "place-and-agreement-dates-can-lead-to-different-answers",
+            "section-3"
+          ]
+        },
+        {
+          "id": "transfer-amendment",
+          "heading": "A transfer request is different from a qualified family transfer",
+          "paragraphs": [
+            "For transfers to which the amended section applies, the written notice identifies the proposed buyer, address, financial qualifications and the preceding five years of business experience. Within 30 days after receipt, the franchisor must approve in writing or give written notice identifying a material deficiency in character, financial ability or experience under its existing standards, consistently applied to similarly situated franchisees. No reply within the stated 30 days means approval is deemed granted.",
+            "The buyer must agree in writing to the reasonable and legal franchise requirements then in effect. A spouse, child or heir who is operationally and financially qualified follows a separate branch: franchisor approval is not required, and the franchisor and specified related parties cannot exercise a right of first refusal over that transfer.",
+            "Outside that family branch, the amendment preserves the stated contractual right to buy the franchise or substantially all its assets on precisely the terms of a genuine third-party offer. A right of first refusal means the franchisor can match the proposed deal; it is not the same as an unrestricted veto."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "nr-ar-session2023"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "other-amendments",
+          "heading": "The new contract protections have their own agreement-date limit",
+          "paragraphs": [
+            "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
+            "Those additions share the post-effective-date agreement/renewal condition above. They do not establish that every older contract automatically receives every new provision. HB 1177 of 2025 died in committee; its proposed insurance wording did not become law through that bill."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "choice-of-law2019",
+          "heading": "The contract’s choice of law is a different question",
+          "paragraphs": [
+            "Governing law means the rules used to decide the dispute; venue is where the case is heard. They are separate contract terms.",
+            "The enacted 2019 text says a condition requiring another state’s law in place of this subchapter is void. That is narrower than saying every contract selecting another state is void. The current consolidated text and application to an actual clause still need verification."
+          ],
+          "sourceIds": [
+            "ref1-ar-act835-2019"
+          ],
+          "aliases": []
+        }
+      ],
+      "sourceIds": [
+        "b2-east-ar-2023",
+        "b2-east-ar-2025",
+        "nr-ar-session2023",
+        "ref1-ar-act835-2019"
+      ],
+      "ruleIds": [
+        "b2-east-ar-applicability",
+        "b2-east-ar-failed-proposal",
+        "nr-ar-2023-specific",
+        "ref1-ar-choice-of-law2019"
+      ],
+      "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch. Read the governing-law clause separately from the venue clause.",
+      "limitations": [
+        "Explains the actual 2019 choice-of-law wording and the 2023 amendments’ stated agreement-date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved. Coverage, the actual contract and arbitration questions remain separate."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "ref1-ar-act835-2019",
+          "url": "https://www.arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2019R%2FPublic%2FACT835.pdf",
+          "title": "Arkansas Act 835 of 2019: choice-of-law amendment",
+          "authority": "Arkansas General Assembly",
+          "type": "primary",
+          "section": "Section 1, adding section 4-72-206(b); page 2, lines 15–16",
+          "supportingPassage": "the law of another state",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:20:58.445239+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:24:07.856771+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "Enacted 2019 text; present consolidated status not established",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "downloaded-original-primary-PDF-and-read",
+          "sha256": "20bc5782805546fa823cc4cced60936eaffc0448f8a77996bdf6643c7ed953ae",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "research/next-release/raw/refinement-1/states/ar-act835-2019.pdf",
+          "notes": "Read both pages; visually checked underlined addition and approval dated April 9, 2019. No commencement date or later consolidation inferred."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "ref1-ar-choice-of-law2019",
+          "title": "Arkansas 2019 governing-law clause provision",
+          "topic": "relationship",
+          "jurisdiction": "Arkansas",
+          "activity": "Contract governing-law terms",
+          "affectedParty": "Franchisor and franchisee within the applicable subchapter",
+          "applicability": "The specified enacted 2019 text; present coverage and consolidated status remain unverified",
+          "requirement": "Act 835 adds section 4-72-206(b), voiding a condition requiring another state’s law in place of the franchise subchapter. This concerns replacing those protections; it does not determine every contract’s validity or arbitration treatment.",
+          "exceptions": null,
+          "trigger": "A condition substituting another state’s law for the subchapter",
+          "deadline": null,
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [
+            "Actual complete two-page enacted Act and visual addition check"
+          ],
+          "sourceIds": [
+            "ref1-ar-act835-2019"
+          ],
+          "status": "conditional",
+          "legalStatus": "Historical enacted wording; current consolidation and actual-clause application unresolved",
+          "verifiedAt": "2026-11-14T10:24:07.856771+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Does not establish present complete Code text, actual relationship coverage, arbitration treatment or clause enforcement."
+          ],
+          "dependentPaths": [
+            "/states/arkansas/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Current legislature-linked Code service returns a JavaScript/environment shell rather than actual consolidated sections; current Supreme Court model-instruction bodies fail with 403. No complete current primary-text consolidation was recovered after alternate official and reader routes.",
+      "A later actual 2026 court order was retrieved, but it decides federal removal/remand and associated fees, not whether the pleaded insurance agreement is an AFPA franchise or how the amendment governs the merits. No merits answer is invented.",
+      "Specific applicable exclusions, earlier sections including the notice/cure regime, current case history and constitutional limits have not been comprehensively reconciled.",
+      "The actual 2019 choice-of-law wording has now been read; its current consolidated status and application to a particular clause remain separate questions."
+    ],
+    "authorNote": "Useful dated primary recovery; does not close current consolidation. New explanation separates governing law from venue without inventing a present blanket invalidity result. Existing published paragraphs, references and aliases retained apart from moving the venue definition into its fuller explanation."
+  }
+]

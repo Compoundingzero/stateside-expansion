@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-11-14T10:33:56.366285+00:00",
+  "browser": {
+    "available": false,
+    "observedError": "the gaas-browser node_repl sandbox cannot be disabled"
+  },
+  "googleSearchConsole": {
+    "state": "blocked-account-authorization",
+    "availableConnector": false
+  },
+  "bingWebmasterTools": {
+    "state": "blocked-account-authorization",
+    "availableConnector": false
+  },
+  "priorApiEvidence": "research/next-release/search-monitoring-status.json",
+  "note": "No new provider API authentication was obtained or claimed. IndexNow remains operational and is separate from account ownership verification."
+}

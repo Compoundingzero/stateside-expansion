@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-11-14T10:29:10.641134+00:00",
+  "scope": "Bounded continuation of six local/state source questions; no canonical writes.",
+  "newProposalFile": "research/refinement-1/local-proposals.json",
+  "newProposalRows": 3,
+  "newEvidenceSummary": [
+    "Houston full January2026 CE1045A and relevant2026fee tables actually read via verified official reader representation.",
+    "Dallas original currently linked fee PDF downloaded200 and read locally; named fee categories corroborated."
+  ],
+  "noNewOperativeFacts": [
+    {
+      "id": "b2-west-tennessee",
+      "outcome": "access-unresolved",
+      "currentGuideChanged": false,
+      "question": "Current franchise-sales/relationship consolidation, separate from Revenue tax guidance",
+      "finding": "Targeted official-domain queries returned Revenue tax and securities-registration pages, not a current general franchise-sales/relationship statutory body. Secondary lawyers assert no general franchise registration; they are not used to establish absence of duties. Current 2025 secondary Code and historical actual court texts are leads only for this current-consolidation question. No new operative primary text or source date is claimed.",
+      "attempts": [
+        "site:tn.gov franchise business opportunity registration Tennessee securities",
+        "site:tn.gov franchise 47-25-1502"
+      ],
+      "remaining": [
+        "Current complete operative franchise-sales/registration/notice/exemption/advertising text has not been obtained.",
+        "The existing June2026 tax manual and dated Servpro2022 case remain scoped separately."
+      ]
+    },
+    {
+      "id": "b2-west-oklahoma",
+      "outcome": "access-unresolved",
+      "currentGuideChanged": false,
+      "question": "Actual administrative Chapter25 as effective August1,2026",
+      "finding": "The current agency index is represented in fresh search results, but immediate result-reference open of the actual index returned502. The exact observed Rules_20260801.pdf URL also returned502. The indexed list says2026 changes are Chapter11, but no actual current Chapter25 body or complete operative amendment chain was recovered, so that description does not close the gap. No new source verification date or claim of unchanged current advertising text.",
+      "evidenceFiles": [
+        {
+          "rawPath": "research/next-release/raw/refinement-1/local/ok-current-index.json",
+          "sha256": "685df02ec83d1c6f4f228f439621e5fe9471a4d3907bd9d32eadc96f13105907"
+        },
+        {
+          "rawPath": "research/next-release/raw/refinement-1/local/ok-2026-failed.json",
+          "sha256": "f7e07c6f4d63e7dad9ca12bccb765ce90ee96e0b08fc29e0658932451f3f1ab0"
+        }
+      ],
+      "remaining": [
+        "Current2026 administrative wording and the relationship of literal807.F to current statutory807(E) remain unresolved.",
+        "The published 2025 rule and current legislative $50 fee retain their actual reviewed scope."
+      ]
+    },
+    {
+      "id": "b3-local-indianapolis-fire",
+      "outcome": "access-unresolved",
+      "currentGuideChanged": false,
+      "question": "Extinguisher company/person license duration, renewal and full current ordinance scope",
+      "finding": "The actual city-linked ordinance target was recovered from the previously retained city page: Chapter886 Fire Extinguisher Service Companies. Ordinary public reader routes to its legacy/current URLs returned zero readable lines and403 respectively. Targeted indexed searches did not retrieve the operative Chapter886 body or an official duration/renewal statement. The forms’ New/Renewal checkboxes and $207 category do not establish annual duration. Other Indiana fire/electrical professional programmes are not substituted for this local licence.",
+      "evidenceFiles": [
+        {
+          "rawPath": "research/next-release/raw/refinement-1/local/indy-code-failed.json",
+          "sha256": "a1bdd7574caaae734f87ba69b5c642378e47052890e691eeff75228c4c62dd89"
+        }
+      ],
+      "remaining": [
+        "Current company/person licence duration and renewal/certification conditions.",
+        "Actual scope/eligibility and issued permission remain distinct from the form and category fee."
+      ]
+    }
+  ],
+  "principle": "Failed responses, indexed summaries, current-looking filenames and secondary absence claims do not establish an operative rule. No human legal-signoff requirement is introduced."
+}

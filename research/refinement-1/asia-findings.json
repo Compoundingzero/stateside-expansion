@@ -1,0 +1,70 @@
+{
+  "completedAt": "2026-11-14T10:30:49.018665+00:00",
+  "researcher": "/root/asia_sources",
+  "scope": [
+    "Laos Notice 11/BOL of 19 February 2025",
+    "Vietnam U.S. 2015 income-tax agreement operative status",
+    "Thai January 2026 formal Gazette and receipt implementation"
+  ],
+  "noCanonicalWrites": true,
+  "noDateAdvancementForFailedRetrievals": true,
+  "outcomes": [
+    {
+      "id": "b2-origin-thailand",
+      "result": "genuine-new-primary-evidence-and-proposal",
+      "proposalFile": "research/refinement-1/asia-proposals.json",
+      "proposalSha256": "53c9abaae35a6a267bc75dac9874bb0facf250002ed19120a6f4e889f0399463",
+      "summary": "Recovered actual official BOT-hosted original Gazette Ministry Notifications 11 and 12 and Officer Notice 35 with official unofficial English translations. Both original 19 January Gazette instruments visually read. Ministry Notification 11 has a strict below-USD-10-million goods exception and conditional named larger-goods exemptions; No12 concerns gold. The Thai Officer Notice 35 signature date is 23 January, while its English translation says 15 January; no Officer Notice 35 Gazette commencement inferred. Exact PDF sources and provenance are in the proposal.",
+      "technicalNote": "Original Thai package is malformed for Poppler (3 pages) but PyMuPDF repairs its page tree to 7 pages and exposes the two original Ministry Notification 11 scan pages. Original bytes retained unchanged. This is a viewer/extraction issue, not a substituted or fabricated source."
+    },
+    {
+      "id": "b2-origin-laos",
+      "result": "notice-original-still-not-recovered",
+      "summary": "Fresh native Lao, exact instrument/date, official BOL/Gazette/TradePortal and public bank searches located the existing secondary digest but no original Notice 11 export-revenue text. A known BOL PDF dated 19 February 2025 was investigated as a materially different lead; actual reader body identifies Notice 42 and a different business-licensing subject, so it is not used. Its direct request returned503.",
+      "candidateUrlRejected": "https://www.bol.gov.la/fileupload/05-03-2025_1741159713.pdf",
+      "candidateBodyEvidence": {
+        "path": "research/next-release/raw/refinement-1/asia/laos-feb19-fresh-reference.json",
+        "sha256": "c10e872b75f771fa341655bf991c5bd5f636f22ffe1029e0a4ed03f415e7c669",
+        "bytes": 13163
+      },
+      "failureEvidence": {
+        "path": "research/next-release/raw/refinement-1/asia/laos-feb19.http.json",
+        "sha256": "9480931a917a9ef6611e2d20af878a3580d843087807be5a4a850b4f768edee3",
+        "bytes": 239
+      },
+      "remaining": [
+        "Original Notice 11/BOL of 19 February 2025 wording, bank-debit sequencing and relationship to Decision 333 still require actual primary evidence.",
+        "The distinct Decision 11/BOL of 3 January 2025 on domestic foreign-currency use is not the sought February notice.",
+        "No mixed IP/service classification, offshore netting, loan or investment application is decided."
+      ],
+      "publicPatchRecommended": false
+    },
+    {
+      "id": "b2-origin-vietnam",
+      "result": "new-dated-secondary-reproduction-lead-not-current-status-closure",
+      "summary": "Located full reproductions of Cục Thuế letter 5319/CT-CS dated 28 July 2026, and downloaded a publicly linked two-page TS24 typeset PDF. Read full Vietnamese text and visually examined page 1. It attributes a statement that the US–Vietnam income-tax agreement is not in force, in an answer to Hanoi tax authority concerning Company 5G’s 2023/2024 Google/YouTube advertising revenue. It includes withholding in that stated gross-revenue treatment and describes a documented foreign-CIT credit cap. This would be useful dated administrative-case context if an issuer original can be corroborated.",
+      "publicReproductionPage": "https://vbpl.freshdesk.com/support/solutions/articles/16000239286-c%C3%B4ng-v%C4%83n-5319-ct-cs-ng%C3%A0y-28-07-2026-ch%C3%ADnh-s%C3%A1ch-thu%E1%BA%BF",
+      "publicReproductionPdf": "https://vbpl.freshdesk.com/helpdesk/attachments/16157871173",
+      "actualDownloadedAt": "2026-11-14T10:22:08.864079+00:00",
+      "actualPdfEvidence": {
+        "path": "research/next-release/raw/refinement-1/asia/vietnam-5319-0.pdf",
+        "sha256": "75d2bfb5dcfbe4a0d014a4b47b4d6043fb7489331de532acf7466f03358a72a2",
+        "bytes": 155095
+      },
+      "actualTextEvidence": {
+        "path": "research/next-release/raw/refinement-1/asia/vietnam-5319-0.txt",
+        "sha256": "c30c9c423ee6227359e9dac4ce2712219e8455b9b489ea2e45a95398cba02800",
+        "bytes": 3932
+      },
+      "sourceKind": "Secondary publisher typeset reproduction of attributed government-letter text; not an issuer-hosted signed scan.",
+      "provenance": "PDF title Văn bản pháp luật - TS24corp; Author www.ts24.com.vn; Creator Writer / Producer LibreOffice 26.2.5.2; visible TS24 watermark. Two legal databases and an auditor newsletter carry matching text/date, but this corroboration is not falsely labelled issuer verification.",
+      "notVerified": [
+        "Official issuer-original publication or signed copy was not recovered.",
+        "No definitive November 2026 status or diplomatic-notification dates were verified.",
+        "No generic current withholding rate, royalty treatment, gross-up rule or foreign-tax-credit result is established for a different business."
+      ],
+      "publicPatchRecommended": false,
+      "followUp": "Use the precise 5319/CT-CS, 28 July 2026 identifier to find the official tax-authority attachment, rather than relying on IRS index absence or unrelated FATCA/trade agreements."
+    }
+  ]
+}

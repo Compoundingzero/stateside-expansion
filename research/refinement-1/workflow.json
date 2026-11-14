@@ -1,0 +1,35 @@
+{
+  "baseCommit": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
+  "phase": "refinement-1",
+  "startedAt": "2026-11-14T10:25:54.608Z",
+  "scope": [
+    "Revisit all 21 limited research topics using materially different primary routes",
+    "Improve selected-path learning, history navigation, search and empty states",
+    "Improve library results with useful public descriptions, counts and clear filters",
+    "Protect all current published routes, section bookmarks and references",
+    "Independently review, test, deploy and verify the complete site"
+  ],
+  "research": {
+    "topicsRevisited": 21,
+    "articlesUpdated": 7,
+    "sourceQuestionsClosed": 4,
+    "sourceOrInterpretationLimitsRemaining": 17,
+    "actualBusinessFactDecisions": 19
+  },
+  "state": "validated-awaiting-deployment",
+  "evidenceFiles": [
+    "states-findings.json",
+    "federal-findings.json",
+    "local-findings.json",
+    "asia-findings.json",
+    "europe-findings.json"
+  ],
+  "sourceDecisionFiles": [
+    "states-proposals.json",
+    "federal-proposals.json",
+    "local-proposals.json",
+    "asia-proposals.json"
+  ],
+  "limits": "No missing primary text, definitive current status, or genuine ambiguity is marked resolved merely because a dated related source was recovered.",
+  "validationFile": "research/refinement-1/validation.json"
+}

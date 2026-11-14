@@ -1,0 +1,106 @@
+{
+  "checkedAtUtc": "2026-11-14T10:24:58.744827+00:00",
+  "scope": [
+    "Illinois",
+    "Arkansas",
+    "Mississippi"
+  ],
+  "canonicalWrites": false,
+  "sourceReviewDatesAdvanced": false,
+  "proposalFile": "research/refinement-1/states-proposals.json",
+  "findings": [
+    {
+      "jurisdiction": "Illinois",
+      "outcome": "access-unresolved",
+      "newApplicableLegalFacts": false,
+      "currentTextRecovered": false,
+      "materiallyDifferentRoutes": [
+        "https://ilga.gov/agencies/JCAR/EntirePart?titlepart=01400200",
+        "https://my.ilga.gov/agencies/JCAR/EntirePart?titlepart=01400200"
+      ],
+      "result": "Both new whole-part agency routes return 502 through actual reader opens. The observed current individual statutory sections 10/40 and older JCAR URLs also return 502. Search extracts have precise wording but were not treated as retrieved bodies.",
+      "usefulNewPrimaryRead": {
+        "url": "https://illinoisattorneygeneral.gov/dA/ee435f7953/meetingMinutes/FranchiseAdvisoryBoardMeetingMinutes062626.pdf",
+        "scope": "Complete 19-line reader body of June 26, 2026 meeting minutes; exact date, discussion list and next meeting read.",
+        "conclusion": "Lists potential changes to the electronic filing system; does not state an adopted filing procedure, current accepted channel, fee or effectiveness clock. Kept as internal research evidence to avoid adding administrative filler to the owner article."
+      },
+      "evidence": [
+        {
+          "path": "research/next-release/raw/refinement-1/states/il-agencies.json",
+          "sha256": "c9cb777a6cc8c5ad213cced97d84b39e5580e574a2fec027b5a735728f75ce28",
+          "scope": "Actual failed opens of new whole-part and individual JCAR routes",
+          "representation": "retained web-tool response JSON, not source PDF bytes"
+        },
+        {
+          "path": "research/next-release/raw/refinement-1/states/ilopen.json",
+          "sha256": "03e1ca8c361791265bbc6caff7e17511218b350796a2f30a0a15a13f273094ff",
+          "scope": "Actual failed opens of current sections 10/40 and whole Act",
+          "representation": "retained web-tool response JSON, not source PDF bytes"
+        },
+        {
+          "path": "research/next-release/raw/refinement-1/states/ilsearch3.json",
+          "sha256": "f1237cf57dbcb34a3d6b35e58ee14681512e07a9bbeec91904e09dfb521ace06",
+          "scope": "Search leads plus actual opened June 26, 2026 agency minutes",
+          "representation": "retained web-tool response JSON, not source PDF bytes"
+        }
+      ],
+      "remaining": [
+        "Readable current official sections 10/40 and rules 200.600/200.610",
+        "Current Illinois-specific submission channel and all charges",
+        "Any agency application-specific effectiveness or denial condition"
+      ]
+    },
+    {
+      "jurisdiction": "Arkansas",
+      "outcome": "partially-verified",
+      "newApplicableLegalFacts": "Exact historical enacted 2019 choice-of-law wording, not verified present complete consolidation.",
+      "currentTextRecovered": false,
+      "result": "Fresh open of the known official-linked public Code vanity URL redirects to Lexis and yields a single analytics image link, not chapter 4-72 text. Actual Act 835 of 2019 was recovered separately as original 2-page government PDF and read; underlined section 4-72-206(b) and approval date visually checked. One bounded proposal adds a short distinction between governing law and venue while retaining current consolidation and actual-clause limits.",
+      "evidence": [
+        {
+          "path": "research/next-release/raw/refinement-1/states/ar-lexis-new.json",
+          "sha256": "a44fcda202c7ebf2c24bb286650e75705d19ead8ce82aac54bedcaf08aacead1",
+          "scope": "Current public publisher route produces no statutory body",
+          "representation": "retained web-tool response JSON, not source PDF bytes"
+        },
+        {
+          "path": "research/next-release/raw/refinement-1/states/ar-act835-2019.pdf",
+          "sha256": "20bc5782805546fa823cc4cced60936eaffc0448f8a77996bdf6643c7ed953ae",
+          "scope": "Original complete enacted PDF; exact new subsection visually checked on page 2",
+          "representation": "original HTTP PDF bytes, HTTP 200"
+        }
+      ],
+      "remaining": [
+        "Current complete consolidated chapter and later merits cases",
+        "Actual coverage, agreement dates, arbitration and clause-enforcement facts"
+      ]
+    },
+    {
+      "jurisdiction": "Mississippi",
+      "outcome": "access-unresolved",
+      "newApplicableLegalFacts": false,
+      "currentTextRecovered": false,
+      "result": "Read current Secretary of State publisher-direction page, then followed its actual public-Code link. The publisher redirects to Lexis and returns only one analytics-image link. Current secondary 2025 reproductions corroborate the research leads but are not promoted to current official-text proof. No statutory conclusion or source review date changed.",
+      "evidence": [
+        {
+          "path": "research/next-release/raw/refinement-1/states/msroute.json",
+          "sha256": "cd8352df5eadc89dea78693badabfd817a0c3932ab8bab28b8047801580e1793",
+          "scope": "Actual current Secretary of State publisher-direction body",
+          "representation": "retained web-tool response JSON, not source PDF bytes"
+        },
+        {
+          "path": "research/next-release/raw/refinement-1/states/ms-lexis.json",
+          "sha256": "09ba638e9a31dbf29a38e10b0b91dd5f7a352b74d62dcea0d4a0e75140c79123",
+          "scope": "Actual clicked current public-Code route; no statutory body",
+          "representation": "retained web-tool response JSON, not source PDF bytes"
+        }
+      ],
+      "remaining": [
+        "Current official consolidated sections 75-24-51 through 75-24-63",
+        "Complete later amendment and appellate/sector treatment",
+        "Actual relationship, contract, reason and notice facts"
+      ]
+    }
+  ],
+  "accessHandling": "Ordinary public requests and search-result opens only. No login, security workaround or source request to another person. Stopped repeated blocked route families. No new browser attempt in this pass."
+}

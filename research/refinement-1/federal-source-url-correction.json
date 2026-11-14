@@ -1,0 +1,49 @@
+[
+  {
+    "id": "b3-planning-employment-verification",
+    "path": "/us-expansion/employment-verification/",
+    "evidence": [
+      {
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+        "retrievedAt": "2026-11-14T10:20:35Z",
+        "sha256": "0a6527a3a188bcc4ca23a3c52d547bdba0f71907293e1d4dac2c134069ee8ee5",
+        "rawPath": "research/next-release/raw/refinement-1/federal/i9-form-open.json",
+        "locator": "Four pages; edition/footer; Section1 and2",
+        "readScope": "Complete actual official four-page PDF body in first reader block. Other two reader blocks are failed requests, not evidence.",
+        "quote": "Edition 01/20/25",
+        "hashKind": "sha256-of-retained-web-reader-result-JSON; not original PDF bytes"
+      },
+      {
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf?bcs-agent-scanner=68ab4275-6398-5946-948a-efe8f4fcd528",
+        "retrievedAt": "2026-11-14T10:20:35Z",
+        "sha256": "e6a2bdd3008e598714bc87a59df57b5d6b453830d6defd012382db6e40c2f889",
+        "rawPath": "research/next-release/raw/refinement-1/federal/i9-instructions-open.json",
+        "locator": "All eight pages; especially pages1–4 and6",
+        "readScope": "Complete actual official eight-page PDF body, with 210 reader lines; fresh same-exec result reference verified against the returned URL/title.",
+        "quote": "Employers are liable for any statutory and regulatory violations",
+        "hashKind": "sha256-of-retained-web-reader-result-JSON; not original PDF bytes"
+      }
+    ],
+    "unresolved": [
+      "Central USCIS current accepted-edition list was not readable after ordinary official landing/news routes returned403. A currently hosted PDF and its printed expiration do not by themselves establish every accepted edition or prove that no later instruction exists.",
+      "Actual individual work authorisation, receipt/extension/category rules, alternative-examination eligibility, E-Verify enrollment duties and anti-discrimination application remain separate."
+    ],
+    "question": "Which public citation URL should identify the already-read official I-9 instructions?",
+    "outcome": "partially-verified",
+    "conclusion": "Use the clean official instructions PDF URL for the public citation, while retaining the exact observed query URL as retrievalUrl. This is an explicit identity/metadata correction to an unreleased source record, not new source retrieval or verification of the still-blocked accepted-edition list.",
+    "guidePatch": null,
+    "newSources": [],
+    "sourceUpdates": [
+      {
+        "id": "ref1-uscis-i9-instructions",
+        "fields": {
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf",
+          "retrievalUrl": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf?bcs-agent-scanner=68ab4275-6398-5946-948a-efe8f4fcd528"
+        }
+      }
+    ],
+    "newRules": [],
+    "ruleUpdates": [],
+    "authorNote": "Apply this explicit source update before refreshing the corrected federal-proposals.json. It preserves the addition-identity guard rather than allowing a silent URL replacement. Actual raw evidence, hashes and retrieval history are unchanged."
+  }
+]

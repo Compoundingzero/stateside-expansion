@@ -15,8 +15,8 @@ test('all published guides and tools have accessible library links without gates
  await expect(page.getByRole('checkbox',{name:'Remember learning progress on this device'})).not.toBeChecked();
  await expect(page.locator('[data-forward-cta]')).toHaveCount(1);
  await page.getByLabel('Find a guide, place or tool').fill('Item 19');
- await expect(page.locator('.learning-library .learning-reading-row')).toHaveCount(1);
- await expect(page.locator('.learning-library a')).toHaveText('FDD Item 19: what can you say about earnings?');
+ await expect(page.locator('.learning-library a[href="/fdd/item-19/"]')).toHaveText('FDD Item 19: what can you say about earnings?');
+ expect(await page.locator('.learning-library .learning-reading-row').count()).toBeLessThan(guides.length+tools.length);
 });
 
 test('progress stays off by default, then opt-in saves minimal progress with idempotent XP, export and reset',async({page})=>{
@@ -101,12 +101,21 @@ test('article bookmarks and tool status connect to the same optional library',as
  await page.getByRole('combobox',{name:'Show',exact:true}).selectOption('bookmarks');await expect(page.locator('.learning-library .learning-reading-row')).toHaveCount(1);await expect(page.locator('.learning-library a')).toHaveAttribute('href','/fdd/item-15/');
 });
 
-test('corrupt or blocked local storage does not break reading, practice or privacy controls',async({page})=>{
- await page.addInitScript(key=>localStorage.setItem(key,'{bad json'),storageKey);await page.goto('/learn/');
+test('corrupt or blocked local storage preserves reading and remembers the selected path only after opt-in',async({page})=>{
+ await page.goto('/learn/');await page.evaluate(key=>localStorage.setItem(key,'{bad json'),storageKey);await page.goto('/learn/?path=people');
  await expect(page.getByRole('alert')).toContainText('could not be read');await expect(page.getByRole('checkbox',{name:'Remember learning progress on this device'})).not.toBeChecked();
- await page.evaluate(()=>{Storage.prototype.setItem=function(){throw new DOMException('Storage blocked','QuotaExceededError');};});
+ await expect(page.locator('#active-path-title')).toHaveText('Plan the people doing the work.');
+ await page.evaluate(()=>{const original=Storage.prototype.setItem;(window as any).__elnRestoreStorage=()=>{Storage.prototype.setItem=original;delete(window as any).__elnRestoreStorage;};Storage.prototype.setItem=function(){throw new DOMException('Storage blocked','QuotaExceededError');};});
  await page.getByRole('checkbox',{name:'Remember learning progress on this device'}).click();await expect(page.getByRole('alert')).toContainText('could not save');await expect(page.getByRole('checkbox',{name:'Remember learning progress on this device'})).not.toBeChecked();
- await expect(page.locator('#path-detail a').first()).toHaveAttribute('href','/us-expansion/franchising-vs-licensing/');
+ await expect(page.locator('#path-detail a').first()).toHaveAttribute('href','/us-expansion/business-visits/');
+ await page.evaluate(()=>(window as any).__elnRestoreStorage());
+ await page.getByRole('checkbox',{name:'Remember learning progress on this device'}).check();
+ expect((await page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),storageKey)).progress.activePath).toBe('people');
+ await page.locator('.learning-path-picker>summary').click();await page.getByRole('navigation',{name:'Learning paths'}).getByRole('link',{name:/Make the numbers work/}).click();
+ expect((await page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),storageKey)).progress.activePath).toBe('economics');
+ await page.goBack();await expect(page.locator('#active-path-title')).toHaveText('Plan the people doing the work.');
+ expect((await page.evaluate(key=>JSON.parse(localStorage.getItem(key)!),storageKey)).progress.activePath).toBe('people');
+ await page.goto('/learn/');await expect(page.locator('#active-path-title')).toHaveText('Plan the people doing the work.');await expect(page.locator('[data-forward-cta]')).toHaveAttribute('href','/us-expansion/business-visits/');
 });
 
 test('learning and quiet hooks fit mobile and remain keyboard accessible with one primary action',async({page})=>{
@@ -116,7 +125,7 @@ test('learning and quiet hooks fit mobile and remain keyboard accessible with on
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),path).toBe(true);
   await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),path).toBe(true);
  }
- await page.goto('/learn/');const pathLink=page.getByRole('navigation',{name:'Learning paths'}).getByRole('link',{name:/Plan the people/});await pathLink.focus();await page.keyboard.press('Enter');await expect(page.getByRole('heading',{name:'Plan the people doing the work.',exact:true})).toBeVisible();
+ await page.goto('/learn/');await page.locator('.learning-path-picker>summary').click();const pathLink=page.getByRole('navigation',{name:'Learning paths'}).getByRole('link',{name:/Plan the people/});await pathLink.focus();await page.keyboard.press('Enter');await expect(page.getByRole('heading',{name:'Plan the people doing the work.',exact:true})).toBeVisible();
  expect(errors).toEqual([]);
 });
 
@@ -125,7 +134,51 @@ test('public articles remain complete without JavaScript and learning never gate
  try{
   await page.goto('/fdd/item-15/');await expect(page.locator('#start-here')).toBeVisible();await expect(page.locator('.article-main-section')).toHaveCount(3);await expect(page.locator('[data-learning-item] button').first()).toBeDisabled();
   await page.goto('/tools/us-unit-economics/');await expect(page.getByRole('heading',{level:1})).toHaveCount(1);await expect(page.getByRole('heading',{level:1})).toHaveText('U.S. unit economics');await expect(page.locator('.planning-shell .lede')).toBeVisible();
-  await page.goto('/learn/');await expect(page.locator('.learning-noscript')).toBeVisible();await expect(page.locator('.learning-library .learning-reading-row')).toHaveCount(guides.length+tools.length);
+  await page.goto('/learn/');await expect(page.getByLabel('Find a guide, place or tool')).toBeDisabled();await expect(page.locator('.learning-noscript')).toBeVisible();await expect(page.locator('.learning-library .learning-reading-row')).toHaveCount(guides.length+tools.length);
   await page.locator('[data-challenge-id="licence-label"]>summary').click();await page.locator('[data-challenge-id="licence-label"] .learning-practice-explanation>summary').click();await expect(page.locator('[data-challenge-id="licence-label"] .learning-practice-explanation')).toContainText('State definitions and sales duties');
+  await page.locator('.learning-path-picker>summary').click();await page.getByRole('navigation',{name:'Learning paths'}).getByRole('link',{name:/Plan the people/}).click();
+  await expect(page).toHaveURL(/path=people#learning-path-people$/);await expect(page.locator('#learning-path-people')).toBeVisible();await expect(page.locator('#learning-path-people a[href="/us-expansion/business-visits/"]')).toHaveCount(1);
  }finally{await context.close();}
+});
+
+test('selected-path actions stay relevant and browser Back restores the earlier path',async({page})=>{
+ const economics=guides.find(guide=>guide.path==='/us-expansion/management-independence/')!;
+ await page.addInitScript(({key,item})=>localStorage.setItem(key,JSON.stringify({remember:true,progress:{version:1,items:{[item]:{status:'reading',bookmarked:false}},solved:{},activePath:'economics',lastItem:item}})),{key:storageKey,item:'guide:'+economics.id});
+ await page.goto('/learn/?path=people');await expect(page.locator('#active-path-title')).toHaveText('Plan the people doing the work.');
+ await expect(page.locator('[data-forward-cta]')).toHaveAttribute('href','/us-expansion/business-visits/');
+ await expect(page.locator('.learning-path-picker')).not.toHaveAttribute('open','');
+ await page.locator('.learning-path-picker>summary').click();
+ await page.getByRole('navigation',{name:'Learning paths'}).getByRole('link',{name:/Make the numbers work/}).click();
+ await expect(page).toHaveURL(/path=economics#path-detail$/);await expect(page.locator('[data-forward-cta]')).toContainText('Resume:');
+ await expect(page.locator('[data-forward-cta]')).toHaveAttribute('href',economics.path);
+ await page.goBack();await expect(page.locator('#active-path-title')).toHaveText('Plan the people doing the work.');
+ await expect(page.locator('[data-forward-cta]')).toHaveAttribute('href','/us-expansion/business-visits/');
+ await page.goForward();await expect(page.locator('#active-path-title')).toHaveText('Make the numbers work.');
+});
+
+test('library search uses the public explanation and empty filters offer a clear way back',async({page})=>{
+ await page.goto('/learn/');await page.getByRole('link',{name:'Search the full library',exact:true}).click();
+ await expect(page.getByLabel('Find a guide, place or tool')).toBeFocused();
+ await page.getByLabel('Find a guide, place or tool').fill('billed route');
+ const travel=page.locator('.learning-library [data-catalog-key="guide:nr-guide-travel"]');
+ await expect(travel).toBeVisible();await expect(travel.locator('.learning-item-description')).toContainText('hours billed at customer premises');
+ await page.getByLabel('Find a guide, place or tool').fill('no-such-guide-xyz');
+ await expect(page.getByRole('heading',{name:'No matching readings yet.'})).toBeVisible();
+ await page.getByRole('button',{name:'Clear search and filters'}).click();
+ await expect(page.getByLabel('Find a guide, place or tool')).toHaveValue('');await expect(page.getByLabel('Find a guide, place or tool')).toBeFocused();
+ await page.getByRole('combobox',{name:'Show',exact:true}).selectOption('bookmarks');
+ await expect(page.getByRole('heading',{name:'Keep a useful reading for later.'})).toBeVisible();
+ await page.getByRole('button',{name:'Clear search and filters'}).click();
+ await expect(page.getByRole('combobox',{name:'Show',exact:true})).toHaveValue('all');
+ await expect(page.locator('.learning-library .learning-reading-row')).toHaveCount(guides.length+tools.length);
+});
+
+test('finishing the starting steps leads to optional practice, not an unrelated reading',async({page})=>{
+ await page.goto('/learn/');const steps=page.locator('#path-detail>ol>.learning-reading-row');
+ for(let index=0;index<await steps.count();index++)await steps.nth(index).getByRole('button',{name:/^Mark complete:/}).click();
+ await expect(page.locator('.learning-path-complete')).toContainText('Starting steps marked complete');
+ await expect(page.locator('[data-forward-cta]')).toHaveText(/Try this path’s practice/);
+ await expect(page.locator('[data-forward-cta]')).toHaveAttribute('href','#path-practice');
+ await page.locator('[data-forward-cta]').click();await expect(page.locator('#path-practice h3')).toBeInViewport();
+ await expect(page.locator('#path-detail>ol a')).toHaveCount(5);
 });

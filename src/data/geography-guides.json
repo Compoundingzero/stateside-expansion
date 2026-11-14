@@ -609,7 +609,7 @@
         "heading": "Which fact changed?",
         "paragraphs": [
           "The official page lists first use, tenant change on an existing CO, changed use and changed floor area among new-Certificate-of-Occupancy triggers. Obtain the previous CO for the exact unit and describe the incoming company, work, equipment, storage and area.",
-          "The page directs applications through DallasNow, but the applicable application, inspections and multi-tenant prerequisites still need confirming for the proposal. Do that before scheduling customer work on the assumption that the former tenant’s document is yours."
+          "Submit the application and Land Use Questionnaire through DallasNow with the appropriate fee. The city says changed-use requests go to Building Code and Zoning review and may need site, floor or parking information. For the same use, inspections can be scheduled after approval and payment. The CO is released after all required inspections pass; payment does not guarantee approval."
         ],
         "sourceIds": [
           "geo-local-dallas"
@@ -630,11 +630,13 @@
         "heading": "A name-only change has a published application route",
         "paragraphs": [
           "For a trading-name change, the specific city FAQ says to submit a standalone Certificate of Occupancy application through DallasNow and describe the change clearly, for example “Updating DBA to XYZ Company”. DBA means “doing business as”. Staff then review whether supporting documents are needed; approval produces a new CO.",
-          "Use that published route for a name-only request. The same page’s earlier conditional “record change” paragraph still quotes $30, so the fee and any inspection requirement are not reconciled by the FAQ. A new legal tenant is a separate trigger; do not describe a tenant change as only a trading-name correction."
+          "The city calls a pure DBA-only change a record change, and its currently linked fee schedule lists a $30 Record Change Fee, separately from the $375 general CO permit fee. For multifamily uses, this option requires no recorded code violations; otherwise the city calls for a new CO and building inspections.",
+          "A standalone application does not by itself establish which fee category applies. Final fees are assessed for the actual submission. A new legal tenant is a separate trigger, and the FAQ does not promise that every requested change avoids inspection."
         ],
         "sourceIds": [
           "geo-local-dallas",
-          "next-scope-dallas-dba-faq"
+          "next-scope-dallas-dba-faq",
+          "r1-local-dallas-fees2025"
         ],
         "aliases": [
           "try-the-distinction-new-tenant-or-only-a-trading-name",
@@ -645,16 +647,17 @@
     ],
     "sourceIds": [
       "geo-local-dallas",
-      "next-scope-dallas-dba-faq"
+      "next-scope-dallas-dba-faq",
+      "r1-local-dallas-fees2025"
     ],
     "nextStage": 5,
     "practicalOutput": "Obtain the exact unit’s CO and confirm the incoming tenant’s applicable city process before relying on an opening date.",
     "limitations": [
-      "Narrow Dallas occupancy guidance only. Actual fees, inspection outcome, other premises/trade duties and full employment/tax/franchise requirements remain unverified."
+      "Dallas occupancy guidance and the currently linked fee schedule, effective July1,2025, are reviewed for the named routes and categories. The city determines the actual category, supporting documents, inspections, charges and opening permission. This is not a Texas-wide rule or a complete trade/employment/tax/franchise review."
     ],
     "learningSummary": "A landlord’s assurance that the broad use is unchanged does not settle the incoming Dallas tenant’s occupancy task. Dallas lists tenant change separately from a change in use.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:25.165Z",
+    "contentModifiedAt": "2026-11-14T10:32:04.367Z",
     "seoTitle": "Dallas Certificate of Occupancy for a new tenant",
     "relatedPaths": [
       "/cities/san-antonio/change-of-use/",
@@ -1189,14 +1192,15 @@
         "heading": "The difference worth checking",
         "paragraphs": [
           "Dallas lists tenant change on an existing Certificate of Occupancy (CO) as a new-certificate trigger. San Antonio describes an update for certain owner/lessee changes with essentially the same use, but listed categories still need a new certificate. Both describe new-CO requirements for changed business use.",
-          "For a name-only change, Dallas’s specific FAQ directs a standalone DallasNow CO application with the change clearly described; staff review and approval follow. Its earlier $30 record-change wording leaves the charge and any inspection conditions unresolved. San Antonio’s linked DBA (doing business as) name-change form requires fire review and inspection for specified uses, including repair and maintenance shops, and applies the COO-No Construction fee category. An update is not a promise of no inspection or a lower charge.",
+          "For a name-only change, Dallas’s specific FAQ directs a standalone DallasNow CO application. Its currently linked fee schedule lists a $30 Record Change category separately from the general CO permit fee; the city assesses the actual submission. Multifamily properties with recorded violations instead need a new CO and building inspections. San Antonio’s linked DBA (doing business as) form requires fire review and inspection for specified uses, including repair and maintenance shops, and applies the COO-No Construction fee category. Neither the word “update” nor an application format proves that the chosen site needs no inspection or has a lower total charge.",
           "Request the prior CO and actual operator/use facts for the chosen unit, then continue with that city’s guide. This comparison cannot choose a use classification, inspection route or opening date."
         ],
         "sourceIds": [
           "geo-local-dallas",
           "geo-local-san-antonio",
           "smb-sanantonio-dba-form",
-          "next-scope-dallas-dba-faq"
+          "next-scope-dallas-dba-faq",
+          "r1-local-dallas-fees2025"
         ],
         "aliases": [
           "the-distinction-the-sources-actually-support",
@@ -1217,16 +1221,17 @@
       "geo-local-dallas",
       "geo-local-san-antonio",
       "smb-sanantonio-dba-form",
-      "next-scope-dallas-dba-faq"
+      "next-scope-dallas-dba-faq",
+      "r1-local-dallas-fees2025"
     ],
     "nextStage": 2,
     "practicalOutput": "Use the chosen city’s guide to confirm its actual tenant/use route before relying on the former operator’s CO.",
     "limitations": [
-      "Two-city comparison only, not a Texas-wide rule. Actual site/use and construction/fire/trade conditions remain. Dallas publishes a name-only application route, but its conflicting record-change fee/conditions remain unreconciled; no numerical fee or timing advantage is established."
+      "Two-city comparison only, not a Texas-wide rule. Actual site/use, legal operator and construction/fire/trade conditions still matter. Published fee categories do not establish which charge or inspection route either city will assign to an actual request."
     ],
     "learningSummary": "An existing workshop and an unchanged broad service do not guarantee the same occupancy task in Dallas and San Antonio.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:25.166Z",
+    "contentModifiedAt": "2026-11-14T10:32:04.368Z",
     "seoTitle": "Dallas versus San Antonio CO routes for a tenant change",
     "relatedPaths": [
       "/cities/dallas/tenant-certificate-of-occupancy/",

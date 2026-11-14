@@ -2855,8 +2855,8 @@
   {
     "id": "b2-origin-thailand",
     "path": "/from/thailand/",
-    "title": "Which threshold applies to your Thai foreign receipt?",
-    "description": "Use the reviewed Thai threshold rather than the stale English figure, then confirm the actual receipt’s timing and permitted use.",
+    "title": "Thailand: which foreign receipts must you bring home?",
+    "description": "Understand the Thai foreign-receipt threshold, the separate steps for bringing money home and selling or depositing it, and the conditions on overseas use.",
     "family": "origin",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -2864,9 +2864,9 @@
       "United States"
     ],
     "status": "published",
-    "lastReviewed": "2026-11-12",
-    "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source and guidance review; no professional legal review",
+    "readMinutes": 4,
     "ruleIds": [
       "b2-origins-thailand-repatriation",
       "fed-royalty-withholding",
@@ -2878,12 +2878,15 @@
         "heading": "Use the Thai threshold, including its boundary",
         "paragraphs": [
           "The Bank of Thailand’s 20 January 2026 statement describes an increase from USD 1 million to USD 10 million per transaction. The reviewed Thai summary says at least USD 10 million or equivalent. A receipt exactly at that amount should not be treated as below the trigger.",
+          "Ministry of Finance Notification 11 sets the formal threshold for goods exports. Published in the Gazette on 19 January 2026 and effective the next day, it sets a below-USD-10-million exception for goods outside its named categories, plus conditional exceptions for specified larger goods exports. The Bank’s implementing Notice 35 also replaces the foreign-currency acquisition exception with a below-USD-10-million test. A goods-specific exception still needs its own conditions; it should not be copied onto a service or royalty invoice.",
           "The older English summary still displays USD 1 million. It is a disclosed source conflict, not the figure substituted for the reviewed Thai rule. The receipt’s category still matters: amount alone cannot classify it."
         ],
         "sourceIds": [
           "b2-origins-thailand-current",
           "b2-origins-thailand-2026",
-          "b2-origins-thailand-summary"
+          "b2-origins-thailand-summary",
+          "r1-as-thai-jan26-original",
+          "r1-as-thai-jan26-translation"
         ],
         "aliases": [
           "the-current-comparison-is-usd-10-million-not-the-older-english-usd-1-million",
@@ -2934,17 +2937,22 @@
       "b2-origins-thailand-summary",
       "b2-origins-irs-treaties",
       "geo-treaty-countries",
-      "smb-origin-th-bank-guideline"
+      "smb-origin-th-bank-guideline",
+      "r1-as-thai-jan26-original",
+      "r1-as-thai-jan26-translation",
+      "r1-as-thai-min12",
+      "r1-as-thai-fipcs"
     ],
     "nextStage": 3,
     "practicalOutput": "Establish the receipt category and both actual clock-start dates, then have the bank assess the proposed overseas use.",
     "limitations": [
-      "The Thai official summary and relevant bank-guideline passages were read with AI assistance. Linked January 2026 Gazette PDFs were blocked to direct retrieval and their reader text was not reliably legible; they are not represented as fully interpreted. Actual category, dates, exclusions and bank documents remain to be applied."
+      "The formal amendments address specific goods exceptions, foreign-currency acquisition and gold transactions; Notification 12’s gold rules are outside this guide. The BOT-hosted English translation has an Officer35 signature-date discrepancy. Original Thai controls and no unsupported Officer35 commencement date is supplied.",
+      "The receipt’s actual category, dates, exclusions, overseas use and bank documents still need to be applied. The two clocks come from the current Thai official summary; this is not a complete consolidated survey of every Thai FX rule or a bank approval."
     ],
-    "learningSummary": "For a covered foreign receipt, the BOT summary distinguishes bringing money back from later selling or depositing it with a Thai bank. Its stated trigger is at least USD 10 million or equivalent. Eligible overseas expenses have a conditional alternative, not general permission to net any payment.",
+    "learningSummary": "For receipts covered by the Bank of Thailand (BOT) rule, bringing money back and later selling or depositing it with a Thai bank are separate steps. Its stated trigger is at least USD 10 million or equivalent. Eligible overseas expenses have a conditional alternative; that is not general permission to net any payment.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T01:14:19.164Z",
-    "seoTitle": "Thai foreign receipts: USD 10 million threshold and unresolved timing",
+    "contentModifiedAt": "2026-11-14T10:30:21.138Z",
+    "seoTitle": "Thai foreign receipts: USD 10 million threshold and two 360-day clocks",
     "relatedPaths": [
       "/us-expansion/royalties-to-foreign-company/"
     ]

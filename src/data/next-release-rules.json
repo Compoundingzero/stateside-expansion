@@ -646,5 +646,39 @@
       "/states/arkansas/"
     ],
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "ref1-ar-choice-of-law2019",
+    "title": "Arkansas 2019 governing-law clause provision",
+    "topic": "relationship",
+    "jurisdiction": "Arkansas",
+    "activity": "Contract governing-law terms",
+    "affectedParty": "Franchisor and franchisee within the applicable subchapter",
+    "applicability": "The specified enacted 2019 text; present coverage and consolidated status remain unverified",
+    "requirement": "Act 835 adds section 4-72-206(b), voiding a condition requiring another state’s law in place of the franchise subchapter. This concerns replacing those protections; it does not determine every contract’s validity or arbitration treatment.",
+    "exceptions": null,
+    "trigger": "A condition substituting another state’s law for the subchapter",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [
+      "Actual complete two-page enacted Act and visual addition check"
+    ],
+    "sourceIds": [
+      "ref1-ar-act835-2019"
+    ],
+    "status": "conditional",
+    "legalStatus": "Historical enacted wording; current consolidation and actual-clause application unresolved",
+    "verifiedAt": "2026-11-14T10:24:07.856771+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Does not establish present complete Code text, actual relationship coverage, arbitration treatment or clause enforcement."
+    ],
+    "dependentPaths": [
+      "/states/arkansas/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
   }
 ]

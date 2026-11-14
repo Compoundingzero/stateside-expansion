@@ -638,17 +638,19 @@
       "sourceIds": [
         "b2-east-ar-2023",
         "b2-east-ar-2025",
-        "nr-ar-session2023"
+        "nr-ar-session2023",
+        "ref1-ar-act835-2019"
       ],
       "ruleIds": [
         "b2-east-ar-applicability",
         "b2-east-ar-failed-proposal",
-        "nr-ar-2023-specific"
+        "nr-ar-2023-specific",
+        "ref1-ar-choice-of-law2019"
       ],
       "evidenceFile": "Canonical published guide record",
       "researchCompleteness": "limited-to-published-guide-scope",
       "unresolvedResearch": [
-        "Explains actually read 2023 amendments and their date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved; federal disclosure and transaction-specific facts are separate. The effect of a clause choosing another jurisdiction’s law is not resolved here."
+        "Explains the actual 2019 choice-of-law wording and the 2023 amendments’ stated agreement-date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved. Coverage, the actual contract and arbitration questions remain separate."
       ]
     }
   },
@@ -12123,15 +12125,19 @@
       "decision": "publish",
       "canonicalPath": "/from/thailand/",
       "reason": "A published canonical guide answers the question within its expressly stated evidence and coverage limits.",
-      "decidedAt": "2026-11-12",
-      "scope": "Which threshold applies to your Thai foreign receipt?",
+      "decidedAt": "2026-11-14",
+      "scope": "Thailand: which foreign receipts must you bring home?",
       "sourceIds": [
         "b2-origins-thailand-current",
         "b2-origins-thailand-2026",
         "b2-origins-thailand-summary",
         "b2-origins-irs-treaties",
         "geo-treaty-countries",
-        "smb-origin-th-bank-guideline"
+        "smb-origin-th-bank-guideline",
+        "r1-as-thai-jan26-original",
+        "r1-as-thai-jan26-translation",
+        "r1-as-thai-min12",
+        "r1-as-thai-fipcs"
       ],
       "ruleIds": [
         "b2-origins-thailand-repatriation",
@@ -12141,7 +12147,8 @@
       "evidenceFile": "Canonical published guide record",
       "researchCompleteness": "limited-to-published-guide-scope",
       "unresolvedResearch": [
-        "The Thai official summary and relevant bank-guideline passages were read with AI assistance. Linked January 2026 Gazette PDFs were blocked to direct retrieval and their reader text was not reliably legible; they are not represented as fully interpreted. Actual category, dates, exclusions and bank documents remain to be applied."
+        "The formal amendments address specific goods exceptions, foreign-currency acquisition and gold transactions; Notification 12’s gold rules are outside this guide. The BOT-hosted English translation has an Officer35 signature-date discrepancy. Original Thai controls and no unsupported Officer35 commencement date is supplied.",
+        "The receipt’s actual category, dates, exclusions, overseas use and bank documents still need to be applied. The two clocks come from the current Thai official summary; this is not a complete consolidated survey of every Thai FX rule or a bank approval."
       ]
     }
   },
@@ -14074,7 +14081,9 @@
       "scope": "Houston: the existing-building occupancy inspection route",
       "sourceIds": [
         "b3-planning-houston-plan",
-        "next-scope-houston-existing-co"
+        "next-scope-houston-existing-co",
+        "r1-local-houston-fees2026",
+        "r1-local-houston-form2026"
       ],
       "ruleIds": [
         "b3-planning-houston-occupancy"
@@ -14082,8 +14091,8 @@
       "evidenceFile": "Canonical published guide record",
       "researchCompleteness": "limited-to-published-guide-scope",
       "unresolvedResearch": [
-        "This describes the city’s currently available CE-1278 existing-building brochure, revised October 2024; it is not the full new-construction, changed-use or every business-opening process. Current numerical fees, actual classification, parcel approval and inspection outcome remain undetermined.",
-        "Actual building, fire, environmental and sector conditions need their own answer."
+        "This is the city’s CE-1278 existing-building/no-change-of-use route, the January 2026 CE-1045-A form and the named 2026 fee categories. It is not the full new-construction, changed-use or every business-opening process.",
+        "The actual municipal boundary, use classification, other building/fire/environmental/sector permissions, required corrections and complete city invoice depend on the project. The separate multifamily CE1045B form is not reviewed here."
       ]
     }
   },
@@ -22877,7 +22886,8 @@
         "next-scope-joint-current103",
         "next-scope-joint-current791",
         "next-scope-joint-fr-index",
-        "next-scope-joint-bfi2026"
+        "next-scope-joint-bfi2026",
+        "ref1-nlrb-bfi-reconsideration"
       ],
       "ruleIds": [
         "b3-planning2-joint-status"
@@ -22885,7 +22895,7 @@
       "evidenceFile": "Canonical published guide record",
       "researchCompleteness": "limited-to-published-guide-scope",
       "unresolvedResearch": [
-        "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named 2026 Board decision is read for its explicit case/time limitation, not as a complete current appellate-docket survey."
+        "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named February and April 2026 Board orders are read within their stated case/time limits; this is not a complete current appellate-docket survey."
       ]
     }
   },
@@ -22956,7 +22966,9 @@
         "b3-planning-i9-cfr",
         "smb-fed-i9-alternative",
         "next-scope-i9-instructions-copy",
-        "next-scope-everify-ica32"
+        "next-scope-everify-ica32",
+        "ref1-uscis-i9-form",
+        "ref1-uscis-i9-instructions"
       ],
       "ruleIds": [
         "b3-planning-i9-duty"
@@ -22964,6 +22976,7 @@
       "evidenceFile": "Canonical published guide record",
       "researchCompleteness": "limited-to-published-guide-scope",
       "unresolvedResearch": [
+        "The official four-page form and complete eight-page instructions for edition 01/20/25 were read. The central USCIS live accepted-edition list remained inaccessible, so this is not confirmation that no later edition or additional accepted edition exists.",
         "This page does not determine individual work authorisation, E-Verify, anti-discrimination or visa-category questions."
       ]
     }

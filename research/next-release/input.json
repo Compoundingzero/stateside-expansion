@@ -2889,8 +2889,8 @@
   {
     "id": "b2-origin-thailand",
     "path": "/from/thailand/",
-    "title": "Which threshold applies to your Thai foreign receipt?",
-    "description": "Use the reviewed Thai threshold rather than the stale English figure, then confirm the actual receipt’s timing and permitted use.",
+    "title": "Thailand: which foreign receipts must you bring home?",
+    "description": "Understand the Thai foreign-receipt threshold, the separate steps for bringing money home and selling or depositing it, and the conditions on overseas use.",
     "family": "origin",
     "topic": "commercial-feasibility",
     "jurisdictions": [
@@ -2898,9 +2898,9 @@
       "United States"
     ],
     "status": "published",
-    "lastReviewed": "2026-11-12",
-    "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 3,
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source and guidance review; no professional legal review",
+    "readMinutes": 4,
     "ruleIds": [
       "b2-origins-thailand-repatriation",
       "fed-royalty-withholding",
@@ -2912,12 +2912,15 @@
         "heading": "Use the Thai threshold, including its boundary",
         "paragraphs": [
           "The Bank of Thailand’s 20 January 2026 statement describes an increase from USD 1 million to USD 10 million per transaction. The reviewed Thai summary says at least USD 10 million or equivalent. A receipt exactly at that amount should not be treated as below the trigger.",
+          "Ministry of Finance Notification 11 sets the formal threshold for goods exports. Published in the Gazette on 19 January 2026 and effective the next day, it sets a below-USD-10-million exception for goods outside its named categories, plus conditional exceptions for specified larger goods exports. The Bank’s implementing Notice 35 also replaces the foreign-currency acquisition exception with a below-USD-10-million test. A goods-specific exception still needs its own conditions; it should not be copied onto a service or royalty invoice.",
           "The older English summary still displays USD 1 million. It is a disclosed source conflict, not the figure substituted for the reviewed Thai rule. The receipt’s category still matters: amount alone cannot classify it."
         ],
         "sourceIds": [
           "b2-origins-thailand-current",
           "b2-origins-thailand-2026",
-          "b2-origins-thailand-summary"
+          "b2-origins-thailand-summary",
+          "r1-as-thai-jan26-original",
+          "r1-as-thai-jan26-translation"
         ],
         "aliases": [
           "the-current-comparison-is-usd-10-million-not-the-older-english-usd-1-million",
@@ -2968,17 +2971,22 @@
       "b2-origins-thailand-summary",
       "b2-origins-irs-treaties",
       "geo-treaty-countries",
-      "smb-origin-th-bank-guideline"
+      "smb-origin-th-bank-guideline",
+      "r1-as-thai-jan26-original",
+      "r1-as-thai-jan26-translation",
+      "r1-as-thai-min12",
+      "r1-as-thai-fipcs"
     ],
     "nextStage": 3,
     "practicalOutput": "Establish the receipt category and both actual clock-start dates, then have the bank assess the proposed overseas use.",
     "limitations": [
-      "The Thai official summary and relevant bank-guideline passages were read with AI assistance. Linked January 2026 Gazette PDFs were blocked to direct retrieval and their reader text was not reliably legible; they are not represented as fully interpreted. Actual category, dates, exclusions and bank documents remain to be applied."
+      "The formal amendments address specific goods exceptions, foreign-currency acquisition and gold transactions; Notification 12’s gold rules are outside this guide. The BOT-hosted English translation has an Officer35 signature-date discrepancy. Original Thai controls and no unsupported Officer35 commencement date is supplied.",
+      "The receipt’s actual category, dates, exclusions, overseas use and bank documents still need to be applied. The two clocks come from the current Thai official summary; this is not a complete consolidated survey of every Thai FX rule or a bank approval."
     ],
-    "learningSummary": "For a covered foreign receipt, the BOT summary distinguishes bringing money back from later selling or depositing it with a Thai bank. Its stated trigger is at least USD 10 million or equivalent. Eligible overseas expenses have a conditional alternative, not general permission to net any payment.",
+    "learningSummary": "For receipts covered by the Bank of Thailand (BOT) rule, bringing money back and later selling or depositing it with a Thai bank are separate steps. Its stated trigger is at least USD 10 million or equivalent. Eligible overseas expenses have a conditional alternative; that is not general permission to net any payment.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T01:14:19.164Z",
-    "seoTitle": "Thai foreign receipts: USD 10 million threshold and unresolved timing",
+    "contentModifiedAt": "2026-11-14T10:30:21.138Z",
+    "seoTitle": "Thai foreign receipts: USD 10 million threshold and two 360-day clocks",
     "relatedPaths": [
       "/us-expansion/royalties-to-foreign-company/"
     ],
@@ -5244,7 +5252,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 3,
     "ruleIds": [
       "b3-planning-i9-duty"
     ],
@@ -5253,11 +5261,13 @@
         "id": "completion-deadlines",
         "heading": "Employee and employer steps have different deadlines",
         "paragraphs": [
-          "Form I-9 records employment eligibility verification. Under the cited regulation, the employee completes Section 1 at hire. The employer generally examines the required acceptable evidence and completes Section 2 within three business days of hire.",
+          "Form I-9 records the employer’s check of identity and permission to work in the United States. The employee completes and signs Section 1 by the first day of work, after accepting the job offer. The employer generally examines acceptable documents and completes Section 2 within three business days after that first day.",
           "If employment lasts less than three business days, the employer’s examination and completion take place at hire instead, and a receipt cannot replace the required document. The regulation permits the employer, its agent or someone acting in its interest to perform the employer step. Arrange who will do it before work starts; ownership overseas does not change the deadlines or authorise an informal remote check."
         ],
         "sourceIds": [
-          "b3-planning-i9-cfr"
+          "b3-planning-i9-cfr",
+          "ref1-uscis-i9-form",
+          "ref1-uscis-i9-instructions"
         ],
         "aliases": []
       },
@@ -5266,12 +5276,13 @@
         "heading": "A deadline does not establish a permitted checking method",
         "paragraphs": [
           "The regulation recognises physical examination or an alternative procedure authorised under its specified conditions. A video call, emailed scan or overseas manager’s review is not automatically an authorised method. Use the official instructions to establish the applicable examination process before relying on it.",
-          "The complete instructions marked 20 January 2025 were recovered from a public university copy. They require the employer to make the instructions and acceptable-document lists available, let the employee choose acceptable documents, and retain the employer’s completed form rather than mail it to USCIS. They also say a designated representative does not remove the employer’s responsibility for verification violations. The central USCIS latest-edition page was not accessible, so this dated copy is not presented as confirmation of every current instruction."
+          "Make the form instructions and acceptable-document lists available to the employee, and let the employee choose which acceptable documents to present. The employer keeps the completed form; it is not mailed to U.S. Citizenship and Immigration Services (USCIS) or Immigration and Customs Enforcement (ICE). An authorised representative is someone the employer designates to complete its part. Choosing that person does not remove the employer’s responsibility for verification violations."
         ],
         "sourceIds": [
           "b3-planning-i9-cfr",
           "smb-fed-i9-alternative",
-          "next-scope-i9-instructions-copy"
+          "next-scope-i9-instructions-copy",
+          "ref1-uscis-i9-instructions"
         ],
         "aliases": [
           "give-the-hiring-entity-a-practical-owner",
@@ -5279,6 +5290,18 @@
           "do-not-invent-a-convenient-remote-method",
           "section-1"
         ]
+      },
+      {
+        "id": "form-version-and-record",
+        "heading": "Check the form version before the hire",
+        "paragraphs": [
+          "The USCIS-hosted form recovered for this review carries edition 01/20/25 and a printed expiration date of May 31, 2027. These identify the form version; they are not an employee’s work-authorisation expiry or the date to destroy a completed I-9. Use the USCIS Form I-9 page to check accepted editions before preparing the hiring packet."
+        ],
+        "sourceIds": [
+          "ref1-uscis-i9-form",
+          "ref1-uscis-i9-instructions"
+        ],
+        "aliases": []
       },
       {
         "id": "retention-example",
@@ -5313,16 +5336,19 @@
       "b3-planning-i9-cfr",
       "smb-fed-i9-alternative",
       "next-scope-i9-instructions-copy",
-      "next-scope-everify-ica32"
+      "next-scope-everify-ica32",
+      "ref1-uscis-i9-form",
+      "ref1-uscis-i9-instructions"
     ],
     "nextStage": 5,
     "practicalOutput": "Arrange a compliant examination process before the hire, and calculate both retention dates when employment ends.",
     "limitations": [
+      "The official four-page form and complete eight-page instructions for edition 01/20/25 were read. The central USCIS live accepted-edition list remained inaccessible, so this is not confirmation that no later edition or additional accepted edition exists.",
       "This page does not determine individual work authorisation, E-Verify, anti-discrimination or visa-category questions."
     ],
-    "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. The federal deadlines remain the starting point. Complete instructions for the dated 20 January 2025 edition and a 2026 E-Verify software bulletin were read; the central USCIS latest-edition check remains unresolved.",
+    "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. The employee and employer have different completion deadlines, and the employer keeps the completed form. Set up the checking process before your first hire, then calculate the retention date when employment ends.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:13:53.778Z",
+    "contentModifiedAt": "2026-11-14T10:32:04.128Z",
     "seoTitle": "Form I-9 completion deadlines and retention dates",
     "relatedPaths": [
       "/us-expansion/state-employer-payroll-registration/",
@@ -5832,7 +5858,7 @@
     "id": "b3-planning-houston-occupancy",
     "path": "/cities/houston/",
     "title": "Houston: the existing-building occupancy inspection route",
-    "description": "The city’s existing-building brochure explains application documents, correction permits and final approval; a changed use has a separate route.",
+    "description": "Follow Houston’s existing-building occupancy inspection route and separate the inspection charge, certificate fee and administration fee before budgeting to open.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -5877,11 +5903,24 @@
         "aliases": []
       },
       {
+        "id": "budget-inspection-and-certificate",
+        "heading": "Budget for the inspection as well as the certificate",
+        "paragraphs": [
+          "The 2026 fee schedule lists $537.12 for the first-story Certificate of Occupancy or life-safety inspection category. The January 2026 application separately lists a $94 CO fee on all applications and says a $33.56 administration fee per application is not included. Looking only at the certificate charge can understate the opening budget.",
+          "The space changes the inspection category: additional floors or a large area can add charges. Individual retail or office spaces under 3,000 square feet in multi-tenant buildings have a separate category; its rate also changes when the inspection is performed alongside the building-core inspection. Other permitted work or a warranted investigation can add charges. Use the city’s assessment of the actual project rather than treating one listed amount as the complete bill."
+        ],
+        "sourceIds": [
+          "r1-local-houston-fees2026",
+          "r1-local-houston-form2026"
+        ],
+        "aliases": []
+      },
+      {
         "id": "corrections-to-certificate",
         "heading": "Corrections and final approval come before the certificate",
         "paragraphs": [
           "After repairs and final inspections are approved, the October 2024 brochure says the CO is emailed automatically to the application address; it is not mailed. Its 180-day correction period does not replace the requirement to obtain the CO before occupancy. If an existing, unmodified space’s CO cannot be located, the brochure describes obtaining a duplicate instead.",
-          "Current charges, the correct application category and the city’s assessment of the actual property remain separate."
+          "The required application category, combined charges and the city’s assessment of the actual property remain separate."
         ],
         "sourceIds": [
           "next-scope-houston-existing-co"
@@ -5908,17 +5947,19 @@
     ],
     "sourceIds": [
       "b3-planning-houston-plan",
-      "next-scope-houston-existing-co"
+      "next-scope-houston-existing-co",
+      "r1-local-houston-fees2026",
+      "r1-local-houston-form2026"
     ],
     "nextStage": 6,
     "practicalOutput": "Obtain the exact unit’s current CO and ask which approvals your proposed use requires before relying on the lease/opening plan.",
     "limitations": [
-      "This describes the city’s currently available CE-1278 existing-building brochure, revised October 2024; it is not the full new-construction, changed-use or every business-opening process. Current numerical fees, actual classification, parcel approval and inspection outcome remain undetermined.",
-      "Actual building, fire, environmental and sector conditions need their own answer."
+      "This is the city’s CE-1278 existing-building/no-change-of-use route, the January 2026 CE-1045-A form and the named 2026 fee categories. It is not the full new-construction, changed-use or every business-opening process.",
+      "The actual municipal boundary, use classification, other building/fire/environmental/sector permissions, required corrections and complete city invoice depend on the project. The separate multifamily CE1045B form is not reviewed here."
     ],
     "learningSummary": "An existing Houston unit needs the right occupancy record for its actual use. For an existing building without a change in use, the city’s recovered brochure explains how the application leads to an inspection report, any required corrections and final approvals. A correction period is not permission to occupy early.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:13:53.768Z",
+    "contentModifiedAt": "2026-11-14T10:28:48.765Z",
     "seoTitle": "Houston existing-building Certificate of Occupancy application and inspections",
     "relatedPaths": [
       "/cases/lease-clock-before-opening/",
@@ -12401,7 +12442,8 @@
         "paragraphs": [
           "For federal labour-relations law, the National Labor Relations Act (NLRA), the reviewed February 2026 final action restores the 2020 text: the 2023 rule never took effect after court vacatur. Substantial direct and immediate control over one or more listed essential employment terms is central; indirect or unexercised reserved authority has the rule’s qualified supplementary role.",
           "For federal wage-and-hour law (the FLSA), Part 791 is reserved, not a declaration that joint-employer liability disappeared. The Department of Labor’s April 2026 publication is a proposal, not an effective rule or franchise exemption. Governing court law and the actual employment facts remain relevant.",
-          "Older disputes can have their own court-directed history. In its 23 February 2026 Browning-Ferris remand decision, the National Labor Relations Board applied the clarified earlier standard only as the law governing that case and expressly said it did not apply to cases arising after the 2020 rule took effect. Do not lift that older dispute’s test into a new arrangement without checking which law and period are involved."
+          "Older disputes can have their own court-directed history. In its 23 February 2026 Browning-Ferris remand decision, the National Labor Relations Board applied the clarified earlier standard only as the law governing that case and expressly said it did not apply to cases arising after the 2020 rule took effect. Do not lift that older dispute’s test into a new arrangement without checking which law and period are involved.",
+          "On April 8, 2026, the Board denied reconsideration. It distinguished whether Browning-Ferris had to negotiate with the workers’ union as a joint employer from which working conditions that duty covered. The case’s limited record did not settle the precise range of bargaining topics. This later order kept the case-specific result; it does not supply a general answer for a new arrangement."
         ],
         "sourceIds": [
           "b3-planning2-nlrb-joint-rule",
@@ -12412,7 +12454,8 @@
           "next-scope-joint-current103",
           "next-scope-joint-current791",
           "next-scope-joint-fr-index",
-          "next-scope-joint-bfi2026"
+          "next-scope-joint-bfi2026",
+          "ref1-nlrb-bfi-reconsideration"
         ],
         "aliases": [
           "the-current-nlra-rule-was-restored-through-final-action",
@@ -12433,16 +12476,17 @@
       "next-scope-joint-current103",
       "next-scope-joint-current791",
       "next-scope-joint-fr-index",
-      "next-scope-joint-bfi2026"
+      "next-scope-joint-bfi2026",
+      "ref1-nlrb-bfi-reconsideration"
     ],
     "nextStage": 5,
     "practicalOutput": "Check shared-worker hours and actual employment decisions before treating two payrolls as two independent wage obligations.",
     "limitations": [
-      "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named 2026 Board decision is read for its explicit case/time limitation, not as a complete current appellate-docket survey."
+      "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named February and April 2026 Board orders are read within their stated case/time limits; this is not a complete current appellate-docket survey."
     ],
     "learningSummary": "If businesses share people or employment decisions, separate incorporation and payroll do not by themselves settle responsibility. The wage-law and labour-relations tests must be kept distinct.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:25.174Z",
+    "contentModifiedAt": "2026-11-14T10:28:01.709Z",
     "seoTitle": "Shared workers and different joint-employer tests",
     "relatedPaths": [
       "/us-expansion/federal-wage/",
@@ -19864,7 +19908,7 @@
         "heading": "Which fact changed?",
         "paragraphs": [
           "The official page lists first use, tenant change on an existing CO, changed use and changed floor area among new-Certificate-of-Occupancy triggers. Obtain the previous CO for the exact unit and describe the incoming company, work, equipment, storage and area.",
-          "The page directs applications through DallasNow, but the applicable application, inspections and multi-tenant prerequisites still need confirming for the proposal. Do that before scheduling customer work on the assumption that the former tenant’s document is yours."
+          "Submit the application and Land Use Questionnaire through DallasNow with the appropriate fee. The city says changed-use requests go to Building Code and Zoning review and may need site, floor or parking information. For the same use, inspections can be scheduled after approval and payment. The CO is released after all required inspections pass; payment does not guarantee approval."
         ],
         "sourceIds": [
           "geo-local-dallas"
@@ -19885,11 +19929,13 @@
         "heading": "A name-only change has a published application route",
         "paragraphs": [
           "For a trading-name change, the specific city FAQ says to submit a standalone Certificate of Occupancy application through DallasNow and describe the change clearly, for example “Updating DBA to XYZ Company”. DBA means “doing business as”. Staff then review whether supporting documents are needed; approval produces a new CO.",
-          "Use that published route for a name-only request. The same page’s earlier conditional “record change” paragraph still quotes $30, so the fee and any inspection requirement are not reconciled by the FAQ. A new legal tenant is a separate trigger; do not describe a tenant change as only a trading-name correction."
+          "The city calls a pure DBA-only change a record change, and its currently linked fee schedule lists a $30 Record Change Fee, separately from the $375 general CO permit fee. For multifamily uses, this option requires no recorded code violations; otherwise the city calls for a new CO and building inspections.",
+          "A standalone application does not by itself establish which fee category applies. Final fees are assessed for the actual submission. A new legal tenant is a separate trigger, and the FAQ does not promise that every requested change avoids inspection."
         ],
         "sourceIds": [
           "geo-local-dallas",
-          "next-scope-dallas-dba-faq"
+          "next-scope-dallas-dba-faq",
+          "r1-local-dallas-fees2025"
         ],
         "aliases": [
           "try-the-distinction-new-tenant-or-only-a-trading-name",
@@ -19900,16 +19946,17 @@
     ],
     "sourceIds": [
       "geo-local-dallas",
-      "next-scope-dallas-dba-faq"
+      "next-scope-dallas-dba-faq",
+      "r1-local-dallas-fees2025"
     ],
     "nextStage": 5,
     "practicalOutput": "Obtain the exact unit’s CO and confirm the incoming tenant’s applicable city process before relying on an opening date.",
     "limitations": [
-      "Narrow Dallas occupancy guidance only. Actual fees, inspection outcome, other premises/trade duties and full employment/tax/franchise requirements remain unverified."
+      "Dallas occupancy guidance and the currently linked fee schedule, effective July1,2025, are reviewed for the named routes and categories. The city determines the actual category, supporting documents, inspections, charges and opening permission. This is not a Texas-wide rule or a complete trade/employment/tax/franchise review."
     ],
     "learningSummary": "A landlord’s assurance that the broad use is unchanged does not settle the incoming Dallas tenant’s occupancy task. Dallas lists tenant change separately from a change in use.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:25.165Z",
+    "contentModifiedAt": "2026-11-14T10:32:04.367Z",
     "seoTitle": "Dallas Certificate of Occupancy for a new tenant",
     "relatedPaths": [
       "/cities/san-antonio/change-of-use/",
@@ -20452,14 +20499,15 @@
         "heading": "The difference worth checking",
         "paragraphs": [
           "Dallas lists tenant change on an existing Certificate of Occupancy (CO) as a new-certificate trigger. San Antonio describes an update for certain owner/lessee changes with essentially the same use, but listed categories still need a new certificate. Both describe new-CO requirements for changed business use.",
-          "For a name-only change, Dallas’s specific FAQ directs a standalone DallasNow CO application with the change clearly described; staff review and approval follow. Its earlier $30 record-change wording leaves the charge and any inspection conditions unresolved. San Antonio’s linked DBA (doing business as) name-change form requires fire review and inspection for specified uses, including repair and maintenance shops, and applies the COO-No Construction fee category. An update is not a promise of no inspection or a lower charge.",
+          "For a name-only change, Dallas’s specific FAQ directs a standalone DallasNow CO application. Its currently linked fee schedule lists a $30 Record Change category separately from the general CO permit fee; the city assesses the actual submission. Multifamily properties with recorded violations instead need a new CO and building inspections. San Antonio’s linked DBA (doing business as) form requires fire review and inspection for specified uses, including repair and maintenance shops, and applies the COO-No Construction fee category. Neither the word “update” nor an application format proves that the chosen site needs no inspection or has a lower total charge.",
           "Request the prior CO and actual operator/use facts for the chosen unit, then continue with that city’s guide. This comparison cannot choose a use classification, inspection route or opening date."
         ],
         "sourceIds": [
           "geo-local-dallas",
           "geo-local-san-antonio",
           "smb-sanantonio-dba-form",
-          "next-scope-dallas-dba-faq"
+          "next-scope-dallas-dba-faq",
+          "r1-local-dallas-fees2025"
         ],
         "aliases": [
           "the-distinction-the-sources-actually-support",
@@ -20480,16 +20528,17 @@
       "geo-local-dallas",
       "geo-local-san-antonio",
       "smb-sanantonio-dba-form",
-      "next-scope-dallas-dba-faq"
+      "next-scope-dallas-dba-faq",
+      "r1-local-dallas-fees2025"
     ],
     "nextStage": 2,
     "practicalOutput": "Use the chosen city’s guide to confirm its actual tenant/use route before relying on the former operator’s CO.",
     "limitations": [
-      "Two-city comparison only, not a Texas-wide rule. Actual site/use and construction/fire/trade conditions remain. Dallas publishes a name-only application route, but its conflicting record-change fee/conditions remain unreconciled; no numerical fee or timing advantage is established."
+      "Two-city comparison only, not a Texas-wide rule. Actual site/use, legal operator and construction/fire/trade conditions still matter. Published fee categories do not establish which charge or inspection route either city will assign to an actual request."
     ],
     "learningSummary": "An existing workshop and an unchanged broad service do not guarantee the same occupancy task in Dallas and San Antonio.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:25.166Z",
+    "contentModifiedAt": "2026-11-14T10:32:04.368Z",
     "seoTitle": "Dallas versus San Antonio CO routes for a tenant change",
     "relatedPaths": [
       "/cities/dallas/tenant-certificate-of-occupancy/",
@@ -24816,7 +24865,8 @@
     "ruleIds": [
       "b2-east-ar-applicability",
       "b2-east-ar-failed-proposal",
-      "nr-ar-2023-specific"
+      "nr-ar-2023-specific",
+      "ref1-ar-choice-of-law2019"
     ],
     "sections": [
       {
@@ -24881,7 +24931,7 @@
         "id": "other-amendments",
         "heading": "The new contract protections have their own agreement-date limit",
         "paragraphs": [
-          "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas; venue means where the case must be heard, which is distinct from the law governing the contract. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
+          "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
           "Those additions share the post-effective-date agreement/renewal condition above. They do not establish that every older contract automatically receives every new provision. HB 1177 of 2025 died in committee; its proposed insurance wording did not become law through that bill."
         ],
         "sourceIds": [
@@ -24890,21 +24940,34 @@
           "nr-ar-session2023"
         ],
         "aliases": []
+      },
+      {
+        "id": "choice-of-law2019",
+        "heading": "The contract’s choice of law is a different question",
+        "paragraphs": [
+          "Governing law means the rules used to decide the dispute; venue is where the case is heard. They are separate contract terms.",
+          "The enacted 2019 text says a condition requiring another state’s law in place of this subchapter is void. That is narrower than saying every contract selecting another state is void. The current consolidated text and application to an actual clause still need verification."
+        ],
+        "sourceIds": [
+          "ref1-ar-act835-2019"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
       "b2-east-ar-2023",
       "b2-east-ar-2025",
-      "nr-ar-session2023"
+      "nr-ar-session2023",
+      "ref1-ar-act835-2019"
     ],
     "nextStage": 1,
-    "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch.",
+    "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch. Read the governing-law clause separately from the venue clause.",
     "limitations": [
-      "Explains actually read 2023 amendments and their date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved; federal disclosure and transaction-specific facts are separate. The effect of a clause choosing another jurisdiction’s law is not resolved here."
+      "Explains the actual 2019 choice-of-law wording and the 2023 amendments’ stated agreement-date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved. Coverage, the actual contract and arbitration questions remain separate."
     ],
     "learningSummary": "The 2023 Act changes relationship protections as well as transfers, but its provisions do not all reach the same contracts. Match the particular rule to the agreement and renewal date before assuming a transfer veto or an old federal exclusion applies.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:13.620Z",
+    "contentModifiedAt": "2026-11-14T10:27:27.527Z",
     "seoTitle": "Arkansas franchise transfers and the 2023 relationship amendment",
     "relatedPaths": [
       "/fdd/item-17/",

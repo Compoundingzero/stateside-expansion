@@ -1682,7 +1682,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 3,
     "ruleIds": [
       "b3-planning-i9-duty"
     ],
@@ -1691,11 +1691,13 @@
         "id": "completion-deadlines",
         "heading": "Employee and employer steps have different deadlines",
         "paragraphs": [
-          "Form I-9 records employment eligibility verification. Under the cited regulation, the employee completes Section 1 at hire. The employer generally examines the required acceptable evidence and completes Section 2 within three business days of hire.",
+          "Form I-9 records the employer’s check of identity and permission to work in the United States. The employee completes and signs Section 1 by the first day of work, after accepting the job offer. The employer generally examines acceptable documents and completes Section 2 within three business days after that first day.",
           "If employment lasts less than three business days, the employer’s examination and completion take place at hire instead, and a receipt cannot replace the required document. The regulation permits the employer, its agent or someone acting in its interest to perform the employer step. Arrange who will do it before work starts; ownership overseas does not change the deadlines or authorise an informal remote check."
         ],
         "sourceIds": [
-          "b3-planning-i9-cfr"
+          "b3-planning-i9-cfr",
+          "ref1-uscis-i9-form",
+          "ref1-uscis-i9-instructions"
         ],
         "aliases": []
       },
@@ -1704,12 +1706,13 @@
         "heading": "A deadline does not establish a permitted checking method",
         "paragraphs": [
           "The regulation recognises physical examination or an alternative procedure authorised under its specified conditions. A video call, emailed scan or overseas manager’s review is not automatically an authorised method. Use the official instructions to establish the applicable examination process before relying on it.",
-          "The complete instructions marked 20 January 2025 were recovered from a public university copy. They require the employer to make the instructions and acceptable-document lists available, let the employee choose acceptable documents, and retain the employer’s completed form rather than mail it to USCIS. They also say a designated representative does not remove the employer’s responsibility for verification violations. The central USCIS latest-edition page was not accessible, so this dated copy is not presented as confirmation of every current instruction."
+          "Make the form instructions and acceptable-document lists available to the employee, and let the employee choose which acceptable documents to present. The employer keeps the completed form; it is not mailed to U.S. Citizenship and Immigration Services (USCIS) or Immigration and Customs Enforcement (ICE). An authorised representative is someone the employer designates to complete its part. Choosing that person does not remove the employer’s responsibility for verification violations."
         ],
         "sourceIds": [
           "b3-planning-i9-cfr",
           "smb-fed-i9-alternative",
-          "next-scope-i9-instructions-copy"
+          "next-scope-i9-instructions-copy",
+          "ref1-uscis-i9-instructions"
         ],
         "aliases": [
           "give-the-hiring-entity-a-practical-owner",
@@ -1717,6 +1720,18 @@
           "do-not-invent-a-convenient-remote-method",
           "section-1"
         ]
+      },
+      {
+        "id": "form-version-and-record",
+        "heading": "Check the form version before the hire",
+        "paragraphs": [
+          "The USCIS-hosted form recovered for this review carries edition 01/20/25 and a printed expiration date of May 31, 2027. These identify the form version; they are not an employee’s work-authorisation expiry or the date to destroy a completed I-9. Use the USCIS Form I-9 page to check accepted editions before preparing the hiring packet."
+        ],
+        "sourceIds": [
+          "ref1-uscis-i9-form",
+          "ref1-uscis-i9-instructions"
+        ],
+        "aliases": []
       },
       {
         "id": "retention-example",
@@ -1751,16 +1766,19 @@
       "b3-planning-i9-cfr",
       "smb-fed-i9-alternative",
       "next-scope-i9-instructions-copy",
-      "next-scope-everify-ica32"
+      "next-scope-everify-ica32",
+      "ref1-uscis-i9-form",
+      "ref1-uscis-i9-instructions"
     ],
     "nextStage": 5,
     "practicalOutput": "Arrange a compliant examination process before the hire, and calculate both retention dates when employment ends.",
     "limitations": [
+      "The official four-page form and complete eight-page instructions for edition 01/20/25 were read. The central USCIS live accepted-edition list remained inaccessible, so this is not confirmation that no later edition or additional accepted edition exists.",
       "This page does not determine individual work authorisation, E-Verify, anti-discrimination or visa-category questions."
     ],
-    "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. The federal deadlines remain the starting point. Complete instructions for the dated 20 January 2025 edition and a 2026 E-Verify software bulletin were read; the central USCIS latest-edition check remains unresolved.",
+    "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. The employee and employer have different completion deadlines, and the employer keeps the completed form. Set up the checking process before your first hire, then calculate the retention date when employment ends.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:13:53.778Z",
+    "contentModifiedAt": "2026-11-14T10:32:04.128Z",
     "seoTitle": "Form I-9 completion deadlines and retention dates",
     "relatedPaths": [
       "/us-expansion/state-employer-payroll-registration/",
@@ -2263,7 +2281,7 @@
     "id": "b3-planning-houston-occupancy",
     "path": "/cities/houston/",
     "title": "Houston: the existing-building occupancy inspection route",
-    "description": "The city’s existing-building brochure explains application documents, correction permits and final approval; a changed use has a separate route.",
+    "description": "Follow Houston’s existing-building occupancy inspection route and separate the inspection charge, certificate fee and administration fee before budgeting to open.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -2308,11 +2326,24 @@
         "aliases": []
       },
       {
+        "id": "budget-inspection-and-certificate",
+        "heading": "Budget for the inspection as well as the certificate",
+        "paragraphs": [
+          "The 2026 fee schedule lists $537.12 for the first-story Certificate of Occupancy or life-safety inspection category. The January 2026 application separately lists a $94 CO fee on all applications and says a $33.56 administration fee per application is not included. Looking only at the certificate charge can understate the opening budget.",
+          "The space changes the inspection category: additional floors or a large area can add charges. Individual retail or office spaces under 3,000 square feet in multi-tenant buildings have a separate category; its rate also changes when the inspection is performed alongside the building-core inspection. Other permitted work or a warranted investigation can add charges. Use the city’s assessment of the actual project rather than treating one listed amount as the complete bill."
+        ],
+        "sourceIds": [
+          "r1-local-houston-fees2026",
+          "r1-local-houston-form2026"
+        ],
+        "aliases": []
+      },
+      {
         "id": "corrections-to-certificate",
         "heading": "Corrections and final approval come before the certificate",
         "paragraphs": [
           "After repairs and final inspections are approved, the October 2024 brochure says the CO is emailed automatically to the application address; it is not mailed. Its 180-day correction period does not replace the requirement to obtain the CO before occupancy. If an existing, unmodified space’s CO cannot be located, the brochure describes obtaining a duplicate instead.",
-          "Current charges, the correct application category and the city’s assessment of the actual property remain separate."
+          "The required application category, combined charges and the city’s assessment of the actual property remain separate."
         ],
         "sourceIds": [
           "next-scope-houston-existing-co"
@@ -2339,17 +2370,19 @@
     ],
     "sourceIds": [
       "b3-planning-houston-plan",
-      "next-scope-houston-existing-co"
+      "next-scope-houston-existing-co",
+      "r1-local-houston-fees2026",
+      "r1-local-houston-form2026"
     ],
     "nextStage": 6,
     "practicalOutput": "Obtain the exact unit’s current CO and ask which approvals your proposed use requires before relying on the lease/opening plan.",
     "limitations": [
-      "This describes the city’s currently available CE-1278 existing-building brochure, revised October 2024; it is not the full new-construction, changed-use or every business-opening process. Current numerical fees, actual classification, parcel approval and inspection outcome remain undetermined.",
-      "Actual building, fire, environmental and sector conditions need their own answer."
+      "This is the city’s CE-1278 existing-building/no-change-of-use route, the January 2026 CE-1045-A form and the named 2026 fee categories. It is not the full new-construction, changed-use or every business-opening process.",
+      "The actual municipal boundary, use classification, other building/fire/environmental/sector permissions, required corrections and complete city invoice depend on the project. The separate multifamily CE1045B form is not reviewed here."
     ],
     "learningSummary": "An existing Houston unit needs the right occupancy record for its actual use. For an existing building without a change in use, the city’s recovered brochure explains how the application leads to an inspection report, any required corrections and final approvals. A correction period is not permission to occupy early.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:13:53.768Z",
+    "contentModifiedAt": "2026-11-14T10:28:48.765Z",
     "seoTitle": "Houston existing-building Certificate of Occupancy application and inspections",
     "relatedPaths": [
       "/cases/lease-clock-before-opening/",
@@ -8781,7 +8814,8 @@
         "paragraphs": [
           "For federal labour-relations law, the National Labor Relations Act (NLRA), the reviewed February 2026 final action restores the 2020 text: the 2023 rule never took effect after court vacatur. Substantial direct and immediate control over one or more listed essential employment terms is central; indirect or unexercised reserved authority has the rule’s qualified supplementary role.",
           "For federal wage-and-hour law (the FLSA), Part 791 is reserved, not a declaration that joint-employer liability disappeared. The Department of Labor’s April 2026 publication is a proposal, not an effective rule or franchise exemption. Governing court law and the actual employment facts remain relevant.",
-          "Older disputes can have their own court-directed history. In its 23 February 2026 Browning-Ferris remand decision, the National Labor Relations Board applied the clarified earlier standard only as the law governing that case and expressly said it did not apply to cases arising after the 2020 rule took effect. Do not lift that older dispute’s test into a new arrangement without checking which law and period are involved."
+          "Older disputes can have their own court-directed history. In its 23 February 2026 Browning-Ferris remand decision, the National Labor Relations Board applied the clarified earlier standard only as the law governing that case and expressly said it did not apply to cases arising after the 2020 rule took effect. Do not lift that older dispute’s test into a new arrangement without checking which law and period are involved.",
+          "On April 8, 2026, the Board denied reconsideration. It distinguished whether Browning-Ferris had to negotiate with the workers’ union as a joint employer from which working conditions that duty covered. The case’s limited record did not settle the precise range of bargaining topics. This later order kept the case-specific result; it does not supply a general answer for a new arrangement."
         ],
         "sourceIds": [
           "b3-planning2-nlrb-joint-rule",
@@ -8792,7 +8826,8 @@
           "next-scope-joint-current103",
           "next-scope-joint-current791",
           "next-scope-joint-fr-index",
-          "next-scope-joint-bfi2026"
+          "next-scope-joint-bfi2026",
+          "ref1-nlrb-bfi-reconsideration"
         ],
         "aliases": [
           "the-current-nlra-rule-was-restored-through-final-action",
@@ -8813,16 +8848,17 @@
       "next-scope-joint-current103",
       "next-scope-joint-current791",
       "next-scope-joint-fr-index",
-      "next-scope-joint-bfi2026"
+      "next-scope-joint-bfi2026",
+      "ref1-nlrb-bfi-reconsideration"
     ],
     "nextStage": 5,
     "practicalOutput": "Check shared-worker hours and actual employment decisions before treating two payrolls as two independent wage obligations.",
     "limitations": [
-      "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named 2026 Board decision is read for its explicit case/time limitation, not as a complete current appellate-docket survey."
+      "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named February and April 2026 Board orders are read within their stated case/time limits; this is not a complete current appellate-docket survey."
     ],
     "learningSummary": "If businesses share people or employment decisions, separate incorporation and payroll do not by themselves settle responsibility. The wage-law and labour-relations tests must be kept distinct.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:25.174Z",
+    "contentModifiedAt": "2026-11-14T10:28:01.709Z",
     "seoTitle": "Shared workers and different joint-employer tests",
     "relatedPaths": [
       "/us-expansion/federal-wage/",

@@ -1,0 +1,136 @@
+{
+  "baselineCommit": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
+  "recordedAtUTC": "2026-11-14T10:24:18.625521+00:00",
+  "scope": "Bounded continuation of the four assigned European primary-source gaps; no canonical edits and no source dates advanced.",
+  "publicationProposals": 0,
+  "rows": [
+    {
+      "id": "b3-origin3-guide-iceland",
+      "path": "/from/iceland/",
+      "status": "authoritative-ambiguity",
+      "newOperativeFactsRecovered": false,
+      "actuallyRead": "The tax authority’s indirect-tax ruling-letter index, including the complete 2024–2026 listing; the older Ministry HTML Regulation194 and relevant portions of official Tax Appeals Board case126/2023 decided5February2024.",
+      "finding": "The reviewed index lists only unrelated later letters (annual amounts, domestic cruise ships and art). The inspected Tax Appeals Board case concerns earlier periods and a different foreign-business VAT-refund regulation1243/2019. Neither settles the certificate condition under Regulation194 after Act63/2024. The older Ministry HTML says one year, unlike the already-reviewed current regulation PDF’s two-year provision; that older HTML must not replace the current reviewed PDF.",
+      "sources": [
+        "https://www.skatturinn.is/fagadilar/akvardandi-bref/obeinir-skattar/",
+        "https://www.reglugerd.is/reglugerdir/eftir-raduneytum/fjarmala--og-efnahagsraduneyti/nr/2085",
+        "https://yskn.is/urskurdir/skoda-urskurd/?nr=7646"
+      ],
+      "remaining": "An actual current administrative or judicial reconciliation of the hypothetical-credit certificate limb with Article12(1)(2), plus actual buyer/fixed-establishment/local-service facts.",
+      "recommendedPublicationAction": "Retain the current scoped explanation; no new date or claimed resolution."
+    },
+    {
+      "id": "b3-o4-north-macedonia",
+      "path": "/from/north-macedonia/",
+      "status": "access-unresolved",
+      "newOperativeFactsRecovered": false,
+      "actuallyRead": "The actual official Gazette213/2021 text reader again exposes Articles1–2 of amendment3599 but no annex text. The full search results identify detailed CRM idV pages and a 2025 central-bank unofficial consolidation as leads; their bodies were not recovered.",
+      "finding": "All four annex screenshot requests timed out, and an ordinary direct GET to the known original Gazette PDF returned503. Detailed Macedonian idV10885 and Albanian idV10647 service pages timed out, as did the known public RDI landing page. The newly identified NBRM 37/2025 unofficial-consolidation PDF returned403. Long search previews contain apparently useful60-day/document/translation information, but they are not treated as actual complete source bodies or current verified instructions.",
+      "sources": [
+        "https://slvesnik.com.mk/Issues/303678ad13884b23aede7fd71d4d900c.pdf",
+        "https://www.crm.com.mk/mk/uslugi/izvrsham-upis-ili-zavrsham-obvrska/prijavi-investitsii-i-vlozhuvanja/promeni-i-brishenje-direktna-investitsija-rezidenti-vo-stranstvo?idV=10885",
+        "https://www.crm.com.mk/sq/sherbime/bej-regjistrim-ose-perfundoj-detyrim/raporto-investimet-dhe-kapitalin/ndryshime-dhe-fshirje-te-investimeve-direkte-rezident-jashta-shtetit?idV=10647",
+        "https://e-submit.crm.com.mk/RDI/default.aspx",
+        "https://www.nbrm.mk/content/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD-%D0%B7%D0%B0-%D0%B4%D0%B5%D0%B2%D0%B8%D0%B7%D0%BD%D0%BE-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%D1%9A%D0%B5-%D0%BD%D0%B5%D0%BE%D1%84.%D0%BF%D1%80%D0%B5%D1%87.%D1%82%D0%B5%D0%BA%D1%81%D1%82-37-25.pdf"
+      ],
+      "remaining": "Actual replacement DIR annex/current detailed procedure, fee and later-change reconciliation. Actual transaction and parties still determine linked filings.",
+      "recommendedPublicationAction": "Keep the existing 2021 form-replacement finding, preserve the explicit procedural gap; do not add the preview’s numerical clock or document list."
+    },
+    {
+      "id": "b3-o4-bosnia",
+      "path": "/from/bosnia-and-herzegovina/",
+      "status": "access-unresolved",
+      "newOperativeFactsRecovered": false,
+      "actuallyRead": "The government’s actual complete74th-session announcement dated11November2026, especially the foreign-exchange adoption section lines65–71.",
+      "finding": "The announcement confirms adoption and subjects, and says four repeal decisions were also adopted. It does not attach operative regulation text or identify gazettal/commencement. Searches for materially different official publication routes did not recover an actual body. The distinct medicine-list commencement language elsewhere on the same page must not be applied to the foreign-exchange regulation.",
+      "sources": [
+        "https://fbihvlada.gov.ba/bs/74-sjednica-vlade-federacije-bih"
+      ],
+      "remaining": "The actual new Gazette text, commencement and repeal-transition provisions, followed by actual resident/account/payment facts.",
+      "recommendedPublicationAction": "Retain the adoption-versus-operative-law distinction; do not infer implementation dates from adjacent session decisions or secondary summaries."
+    },
+    {
+      "id": "b3-o4-ukraine",
+      "path": "/from/ukraine/",
+      "status": "access-unresolved",
+      "newOperativeFactsRecovered": false,
+      "actuallyRead": "Only current Rada search metadata and amendment105 search leads; no new complete current official body.",
+      "finding": "The current consolidated Rada page and the newly indexed uk-nl language route for amendment105 again timed out. Other public result bodies are secondary reproductions, not new official operative verification. Search excerpts about non-bank personal payment accounts do not establish that no part of the amendment affects branch or equity funding. The prior dated NBU distinction remains the usable published scope.",
+      "sources": [
+        "https://zakon.rada.gov.ua/laws/show/v0018500-22",
+        "https://zakon.rada.gov.ua/laws/show/uk-nl/v0105500-26"
+      ],
+      "remaining": "The actual current consolidated body or complete official amendment chain35/43/68/79/90/105; cross-referenced Regulation5 and real payment facts.",
+      "recommendedPublicationAction": "Retain the dated branch-versus-separate-company explanation and its current-permission limits; no current numeric allowance or broad service/IP permission added."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeFollow1.json",
+      "sha256": "1148c5a934f45ec3d80931bba4d0d411639f549e397ee61b4537cbc061d552fa",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeNMFinalOpen.json",
+      "sha256": "d590188b851ab32dd7435ddb4e2191bb8276a01354d47a695c4c6b44e5c3b0f8",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeOpen1.json",
+      "sha256": "d4d092b7d58fa4d4938c656350323826865ff5a16f38c7ad56023d2be1fd2a39",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeOpen4.json",
+      "sha256": "70cde53d79af86abdfa3dcc47e3e05861594cb310282052c5e5756ab692f3ea4",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeOpenCRM.json",
+      "sha256": "2ff3ef4f60369b7e09b6a6c80e237a49767d7338337bd80937a7de59a288a814",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeSearch1.json",
+      "sha256": "d4b34ba2efe3f158ba1c7157c5bf042c1df3cd15f0f014ee76f4f00590f565d1",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeSearch3.json",
+      "sha256": "45f8919727b8e70efa46d47370f501f6e1ef30717095076f9ea3762674b899dd",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeSearch4.json",
+      "sha256": "8caef77b7871fa6c758253f8d189f031977e7022e3c39ac9c8c42d0a69c62fd6",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/europeSearch5.json",
+      "sha256": "dc69f3cc286b894642709c34a76744a63c6e643aff456840daeb9f8d5c5e43a6",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/nm-dir2021-http.json",
+      "sha256": "42e66031f0c7a4319ba7daad7fcb86ef6953b4467b81c7b68cd7ddfdd63d0ce3",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/nmAnnexScreenshots.json",
+      "sha256": "3c19c65642d30e05d0176ce5f6c86f3f68517d960bfe5eb5211baddf04e3d235",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/europe/nmSearchFocused.json",
+      "sha256": "d7ecf89fa8ef299f2a43b99288c5fbfd38435d987cb20975c951799d3b8b95df",
+      "hashKind": "retained tool-result JSON bytes; not original source HTTP bytes"
+    }
+  ],
+  "integrityNotes": [
+    "Public source requests only; no account, access-challenge or login workaround.",
+    "Full-body open outcomes were checked for the intended URL/title; result references alone are not treated as source identity proof.",
+    "Evidence files record retained tool representations, not PDF bytes unless the separate HTTP record expressly says otherwise.",
+    "The failed direct PDF request is recorded separately in nm-dir2021-http.json.",
+    "No new operative proposition warrants a canonical edit or date refresh in this pass."
+  ]
+}

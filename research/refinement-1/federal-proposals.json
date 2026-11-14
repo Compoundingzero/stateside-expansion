@@ -1,0 +1,362 @@
+[
+  {
+    "id": "b3-planning-employment-verification",
+    "path": "/us-expansion/employment-verification/",
+    "question": "Can the I-9 guide cite the complete actual official form and instructions rather than rely only on a university copy, while keeping the live accepted-edition check separate?",
+    "outcome": "partially-verified",
+    "conclusion": "The complete actual USCIS-hosted form and all eight instruction pages were recovered and read. They support clearer first-day/three-business-day steps, employee document choice, representative liability and the distinction between form-version dates and retention. The central live accepted-edition list still returned403, so it remains open.",
+    "evidence": [
+      {
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+        "retrievedAt": "2026-11-14T10:20:35Z",
+        "sha256": "0a6527a3a188bcc4ca23a3c52d547bdba0f71907293e1d4dac2c134069ee8ee5",
+        "rawPath": "research/next-release/raw/refinement-1/federal/i9-form-open.json",
+        "locator": "Four pages; edition/footer; Section1 and2",
+        "readScope": "Complete actual official four-page PDF body in first reader block. Other two reader blocks are failed requests, not evidence.",
+        "quote": "Edition 01/20/25",
+        "hashKind": "sha256-of-retained-web-reader-result-JSON; not original PDF bytes"
+      },
+      {
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf?bcs-agent-scanner=68ab4275-6398-5946-948a-efe8f4fcd528",
+        "retrievedAt": "2026-11-14T10:20:35Z",
+        "sha256": "e6a2bdd3008e598714bc87a59df57b5d6b453830d6defd012382db6e40c2f889",
+        "rawPath": "research/next-release/raw/refinement-1/federal/i9-instructions-open.json",
+        "locator": "All eight pages; especially pages1–4 and6",
+        "readScope": "Complete actual official eight-page PDF body, with 210 reader lines; fresh same-exec result reference verified against the returned URL/title.",
+        "quote": "Employers are liable for any statutory and regulatory violations",
+        "hashKind": "sha256-of-retained-web-reader-result-JSON; not original PDF bytes"
+      }
+    ],
+    "guidePatch": {
+      "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. The employee and employer have different completion deadlines, and the employer keeps the completed form. Set up the checking process before your first hire, then calculate the retention date when employment ends.",
+      "sections": [
+        {
+          "id": "completion-deadlines",
+          "heading": "Employee and employer steps have different deadlines",
+          "paragraphs": [
+            "Form I-9 records the employer’s check of identity and permission to work in the United States. The employee completes and signs Section 1 by the first day of work, after accepting the job offer. The employer generally examines acceptable documents and completes Section 2 within three business days after that first day.",
+            "If employment lasts less than three business days, the employer’s examination and completion take place at hire instead, and a receipt cannot replace the required document. The regulation permits the employer, its agent or someone acting in its interest to perform the employer step. Arrange who will do it before work starts; ownership overseas does not change the deadlines or authorise an informal remote check."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr",
+            "ref1-uscis-i9-form",
+            "ref1-uscis-i9-instructions"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "document-examination",
+          "heading": "A deadline does not establish a permitted checking method",
+          "paragraphs": [
+            "The regulation recognises physical examination or an alternative procedure authorised under its specified conditions. A video call, emailed scan or overseas manager’s review is not automatically an authorised method. Use the official instructions to establish the applicable examination process before relying on it.",
+            "Make the form instructions and acceptable-document lists available to the employee, and let the employee choose which acceptable documents to present. The employer keeps the completed form; it is not mailed to U.S. Citizenship and Immigration Services (USCIS) or Immigration and Customs Enforcement (ICE). An authorised representative is someone the employer designates to complete its part. Choosing that person does not remove the employer’s responsibility for verification violations."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr",
+            "smb-fed-i9-alternative",
+            "next-scope-i9-instructions-copy",
+            "ref1-uscis-i9-instructions"
+          ],
+          "aliases": [
+            "give-the-hiring-entity-a-practical-owner",
+            "section-0",
+            "do-not-invent-a-convenient-remote-method",
+            "section-1"
+          ]
+        },
+        {
+          "id": "form-version-and-record",
+          "heading": "Check the form version before the hire",
+          "paragraphs": [
+            "The USCIS-hosted form recovered for this review carries edition 01/20/25 and a printed expiration date of May 31, 2027. These identify the form version; they are not an employee’s work-authorisation expiry or the date to destroy a completed I-9. Use the USCIS Form I-9 page to check accepted editions before preparing the hiring packet."
+          ],
+          "sourceIds": [
+            "ref1-uscis-i9-form",
+            "ref1-uscis-i9-instructions"
+          ]
+        },
+        {
+          "id": "retention-example",
+          "heading": "Keep the later of two retention dates",
+          "paragraphs": [
+            "Retain the I-9 for three years after hire or one year after termination, whichever is later.",
+            "In a fictional example, an employee starts on January 15, 2027 and leaves on January 15, 2030. Three years after hire is January 15, 2030; one year after departure is January 15, 2031. The later date, January 15, 2031, controls this I-9 calculation. Other record-retention duties are separate."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr"
+          ],
+          "aliases": [
+            "fictional-example-calculate-both-retention-dates",
+            "section-2",
+            "keep-the-task-log-separate-from-identity-documents",
+            "section-3"
+          ]
+        },
+        {
+          "id": "everify-software-update",
+          "heading": "If your E-Verify provider uses web services",
+          "paragraphs": [
+            "E-Verify’s 22 September 2026 bulletin gives web-services developers until 31 March 2027 to complete integration and acceptance testing for Interface Control Agreement version 32. It adds hiring-site information with each case and case-payload fields including software name and the remote-document-examination indicator. If your provider uses this connection, ask whether its software is on that path. This developer deadline does not itself require every employer to enroll in E-Verify."
+          ],
+          "sourceIds": [
+            "next-scope-everify-ica32"
+          ],
+          "aliases": []
+        }
+      ],
+      "sourceIds": [
+        "b3-planning-i9-cfr",
+        "smb-fed-i9-alternative",
+        "next-scope-i9-instructions-copy",
+        "next-scope-everify-ica32",
+        "ref1-uscis-i9-form",
+        "ref1-uscis-i9-instructions"
+      ],
+      "readMinutes": 3,
+      "limitations": [
+        "The official four-page form and complete eight-page instructions for edition 01/20/25 were read. The central USCIS live accepted-edition list remained inaccessible, so this is not confirmation that no later edition or additional accepted edition exists.",
+        "This page does not determine individual work authorisation, E-Verify, anti-discrimination or visa-category questions."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "ref1-uscis-i9-form",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+          "title": "USCIS Form I-9, edition 01/20/25, official four-page form",
+          "authority": "U.S. Citizenship and Immigration Services",
+          "type": "primary",
+          "section": "All four pages; Section1, Section2, document lists and Supplements A/B",
+          "supportingPassage": "Edition 01/20/25",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:20:35Z",
+          "substantiveVerifiedAt": "2026-11-14T10:26:26.384421+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official form/instructions; live accepted-edition list remains unverified",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "sha256": "0a6527a3a188bcc4ca23a3c52d547bdba0f71907293e1d4dac2c134069ee8ee5",
+          "hashKind": "sha256-of-retained-web-reader-result-JSON; not original PDF bytes",
+          "rawPath": "research/next-release/raw/refinement-1/federal/i9-form-open.json",
+          "notes": "The complete actual USCIS-hosted four-page PDF body was read through the public web reader. It prints Expires 05/31/2027. This verifies this retrieved form, not the complete current accepted-edition list on the inaccessible landing page. Retained JSON also contains two failed opens; only its first official form body is the substantive source. The fetchedAt value records retention of the actual reader receipt, not original PDF download time."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "ref1-uscis-i9-instructions",
+          "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf",
+          "title": "USCIS Form I-9 instructions, edition 01/20/25, official eight-page instructions",
+          "authority": "U.S. Citizenship and Immigration Services",
+          "type": "primary",
+          "section": "All eight pages; employer/employee steps, document examination, representative liability, retention",
+          "supportingPassage": "Employers are liable for any statutory and regulatory violations",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:20:35Z",
+          "substantiveVerifiedAt": "2026-11-14T10:26:26.384421+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official form/instructions; live accepted-edition list remains unverified",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "sha256": "e6a2bdd3008e598714bc87a59df57b5d6b453830d6defd012382db6e40c2f889",
+          "hashKind": "sha256-of-retained-web-reader-result-JSON; not original PDF bytes",
+          "rawPath": "research/next-release/raw/refinement-1/federal/i9-instructions-open.json",
+          "notes": "Actual USCIS-hosted instructions recovered by a fresh search result and immediate reader open of this observed query URL. All 8 pages were read, including anti-discrimination, liability, form steps, rehire/reverification, E-Verify and retention. This replaces reliance solely on a university copy for the dated text. The instruction itself directs users to /i-9 to ensure the latest edition; that live page remains403. The published citation uses the clean official PDF address; retrievalUrl retains the exact observed cached query route. The fetchedAt value records retention of the actual reader receipt, not a new direct download.",
+          "retrievalUrl": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf?bcs-agent-scanner=68ab4275-6398-5946-948a-efe8f4fcd528"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [],
+    "ruleUpdates": [
+      {
+        "id": "b3-planning-i9-duty",
+        "fields": {
+          "exceptions": "Use the current official form and instructions. Authorised alternative examination has its own conditions; remote ownership is not authorisation. Actual USCIS-hosted 01/20/25 form and complete instructions are now read, but the central live accepted-edition list remains inaccessible.",
+          "interpretationLimits": [
+            "The actual USCIS-hosted four-page form and eight-page instructions marked 01/20/25 were read, as was the previously reviewed 22 September 2026 E-Verify ICA32 bulletin. Central USCIS accepted-edition access remains blocked; no exhaustive current-document or category-specific authorisation check is claimed.",
+            "No individual work-authorisation, anti-discrimination, E-Verify or immigration-category determination.",
+            "AI-assisted source review; no professional legal review."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr",
+            "next-scope-i9-instructions-copy",
+            "next-scope-everify-ica32",
+            "ref1-uscis-i9-form",
+            "ref1-uscis-i9-instructions"
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Central USCIS current accepted-edition list was not readable after ordinary official landing/news routes returned403. A currently hosted PDF and its printed expiration do not by themselves establish every accepted edition or prove that no later instruction exists.",
+      "Actual individual work authorisation, receipt/extension/category rules, alternative-examination eligibility, E-Verify enrollment duties and anti-discrimination application remain separate."
+    ],
+    "authorNote": "No publication/effective date inferred from the01/20/25 edition label. Guide/rule substantive-review dates are not automatically advanced; new source records carry actual read timestamps. Main explanation focuses on owner tasks; retrieval limits are placed in Scope. Existing numbered/semantic anchors must be retained by root applier."
+  },
+  {
+    "id": "b3-planning-joint-employer",
+    "path": "/us-expansion/joint-employer/",
+    "question": "What did the actual later Browning-Ferris reconsideration order decide, and does it change the guide’s case/time limitation?",
+    "outcome": "partially-verified",
+    "conclusion": "The complete actual April8,2026 order denying reconsideration was downloaded and read. It retains the underlying case-only result and distinguishes employer-status/duty-to-bargain from bargaining scope on the limited record. It is a material later primary decision; it does not establish a universal new standard or complete all current appellate history.",
+    "evidence": [
+      {
+        "url": "https://apps.nlrb.gov/link/document.aspx/09031d458423aee4",
+        "retrievedAt": "2026-11-14T10:22:46.643880+00:00",
+        "sha256": "ccacd170d3cfa5b1e6def14d50f09356d6c6d76de7fd7a2bfc7aad90964e9734",
+        "rawPath": "research/next-release/raw/refinement-1/federal/bfi-reconsideration2026.pdf",
+        "locator": "374NLRBNo.93, April8,2026, both pages",
+        "readScope": "Entire original2-page Board order, including facts/procedural context, operative denial and footnotes; not merely agency summary.",
+        "quote": "the precise scope of Browning-Ferris’s bargaining obligation is not before the Board",
+        "hashKind": "sha256-of-original-PDF-bytes"
+      }
+    ],
+    "guidePatch": {
+      "sections": [
+        {
+          "id": "shared-worker",
+          "heading": "A real agency example: hours at two businesses",
+          "paragraphs": [
+            "The Department of Labor’s Opinion Letter FLSA2025-05 considered a restaurant and members club with represented shared operations, managers and workers. On those supplied facts, it concluded the worker’s hours had to be combined and both employers were responsible for compliance with the Fair Labor Standards Act (FLSA), the federal wage-and-hour law.",
+            "The letter is limited to the facts supplied and is not a court judgment about every franchise. Its practical lesson is to examine shared hours and real operations, rather than stop at the two payroll names."
+          ],
+          "sourceIds": [
+            "b3-planning2-dol-opinion2025-5"
+          ],
+          "aliases": [
+            "a-real-agency-example-one-worker-two-businesses",
+            "section-2",
+            "build-a-control-and-hours-map",
+            "section-3"
+          ]
+        },
+        {
+          "id": "employment-decisions",
+          "heading": "An outcome inspection is different from setting a worker’s shift",
+          "paragraphs": [
+            "Identify who selects workers, sets pay and individual schedules, directs performance, disciplines and terminates. A check of the contracted service outcome and an instruction about a named worker’s shift should not both be labelled quality control. Mixed-purpose controls and actual practice matter; neither fact alone completes a legal test.",
+            "Franchise classification asks about brand, operating control or assistance and payments. It does not itself decide who has duties to workers."
+          ],
+          "sourceIds": [
+            "b3-planning2-nlrb-joint-rule",
+            "b3-planning2-dol-opinion2025-5",
+            "fed-definition"
+          ],
+          "aliases": [
+            "do-not-confuse-this-with-franchise-classification",
+            "section-4"
+          ]
+        },
+        {
+          "id": "different-laws",
+          "heading": "Which federal law is being applied?",
+          "paragraphs": [
+            "For federal labour-relations law, the National Labor Relations Act (NLRA), the reviewed February 2026 final action restores the 2020 text: the 2023 rule never took effect after court vacatur. Substantial direct and immediate control over one or more listed essential employment terms is central; indirect or unexercised reserved authority has the rule’s qualified supplementary role.",
+            "For federal wage-and-hour law (the FLSA), Part 791 is reserved, not a declaration that joint-employer liability disappeared. The Department of Labor’s April 2026 publication is a proposal, not an effective rule or franchise exemption. Governing court law and the actual employment facts remain relevant.",
+            "Older disputes can have their own court-directed history. In its 23 February 2026 Browning-Ferris remand decision, the National Labor Relations Board applied the clarified earlier standard only as the law governing that case and expressly said it did not apply to cases arising after the 2020 rule took effect. Do not lift that older dispute’s test into a new arrangement without checking which law and period are involved.",
+            "On April 8, 2026, the Board denied reconsideration. It distinguished whether Browning-Ferris had to negotiate with the workers’ union as a joint employer from which working conditions that duty covered. The case’s limited record did not settle the precise range of bargaining topics. This later order kept the case-specific result; it does not supply a general answer for a new arrangement."
+          ],
+          "sourceIds": [
+            "b3-planning2-nlrb-joint-rule",
+            "b3-planning2-nlrb-withdrawal",
+            "b3-planning2-nlrb-court",
+            "b3-planning2-dol-joint791",
+            "b3-planning2-joint-nprm",
+            "next-scope-joint-current103",
+            "next-scope-joint-current791",
+            "next-scope-joint-fr-index",
+            "next-scope-joint-bfi2026",
+            "ref1-nlrb-bfi-reconsideration"
+          ],
+          "aliases": [
+            "the-current-nlra-rule-was-restored-through-final-action",
+            "section-0",
+            "keep-the-court-step-and-the-wage-law-position-clear",
+            "section-1"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b3-planning2-nlrb-joint-rule",
+        "b3-planning2-nlrb-withdrawal",
+        "b3-planning2-nlrb-court",
+        "b3-planning2-dol-joint791",
+        "b3-planning2-joint-nprm",
+        "b3-planning2-dol-opinion2025-5",
+        "fed-definition",
+        "next-scope-joint-current103",
+        "next-scope-joint-current791",
+        "next-scope-joint-fr-index",
+        "next-scope-joint-bfi2026",
+        "ref1-nlrb-bfi-reconsideration"
+      ],
+      "limitations": [
+        "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named February and April 2026 Board orders are read within their stated case/time limits; this is not a complete current appellate-docket survey."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "ref1-nlrb-bfi-reconsideration",
+          "url": "https://apps.nlrb.gov/link/document.aspx/09031d458423aee4",
+          "title": "Browning-Ferris, 374 NLRB No. 93 — order denying reconsideration",
+          "authority": "National Labor Relations Board",
+          "type": "primary",
+          "section": "Complete 2 pages, April 8, 2026; case 32–CA–160759; duty-versus-scope paragraphs",
+          "supportingPassage": "the precise scope of Browning-Ferris’s bargaining obligation is not before the Board",
+          "publicationDate": "2026-04-08",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:22:46.643880+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:26:26.384421+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "Case-specific order denying reconsideration",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "downloaded-original-primary-PDF-and-read",
+          "sha256": "ccacd170d3cfa5b1e6def14d50f09356d6c6d76de7fd7a2bfc7aad90964e9734",
+          "hashKind": "sha256-of-original-PDF-bytes",
+          "rawPath": "research/next-release/raw/refinement-1/federal/bfi-reconsideration2026.pdf",
+          "notes": "Ordinary original HTTP GET returned 200 and application/octet-stream; PDF signature confirmed and both pages read with pdftotext. Web-reader MIME rejection did not mean the source was unavailable. Order expressly repeats law-of-the-case-only basis. Official docket row corroborates date but warns it does not reflect all actions. No complete subsequent appellate survey is claimed."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [],
+    "ruleUpdates": [
+      {
+        "id": "b3-planning2-joint-status",
+        "fields": {
+          "sourceIds": [
+            "b3-planning2-nlrb-joint-rule",
+            "b3-planning2-nlrb-withdrawal",
+            "b3-planning2-nlrb-court",
+            "b3-planning2-dol-joint791",
+            "b3-planning2-joint-nprm",
+            "b3-planning2-dol-opinion2025-5",
+            "fed-definition",
+            "next-scope-joint-current103",
+            "next-scope-joint-current791",
+            "next-scope-joint-fr-index",
+            "next-scope-joint-bfi2026",
+            "ref1-nlrb-bfi-reconsideration"
+          ],
+          "interpretationLimits": [
+            "No joint-employer finding, full circuit survey, bargaining-unit analysis or state-law clearance.",
+            "The 2026 FLSA proposal is not an effective franchise exemption or a substitute for current governing law.",
+            "AI-assisted source review; no professional legal review.",
+            "Browning-Ferris, 374 NLRB No. 46, applies its clarified earlier standard as law of that remanded case only and excludes cases arising after the 2020 rule effective date. Its April 8, 2026 reconsideration order, 374 NLRB No. 93, retains that case-specific result and separates duty to bargain from precise bargaining scope, which was not before the Board. No complete later appellate history is supplied."
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "No complete current appellate-docket or circuit survey, actual worker/control finding or state-law conclusion is established.",
+      "The exact bargaining obligations of a real business depend on the governing period, law, bargaining unit, actual control and scope facts. The April 8 order itself did not settle all those facts."
+    ],
+    "authorNote": "No general effective date inferred from a case order. OriginalPDF is hashed; actual official docket supplies the observed document link and April8date, but its Closed label is not used as proof that every court proceeding ended. Existing guide text/anchors are preserved, with one short explanation added."
+  }
+]

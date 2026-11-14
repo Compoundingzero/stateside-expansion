@@ -382,7 +382,7 @@
     "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
     "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
     "requirement": "Under §274a.2, Section 1 is completed at hire and the employer generally examines acceptable evidence and completes Section 2 within three business days of hire; employment lasting less than three business days has an at-hire rule. Employers retain the I-9 for three years after hire or one year after termination, whichever is later.",
-    "exceptions": "Use the current official form and instructions. Authorised alternative examination has its own conditions; remote ownership is not authorisation. Complete dated 01/20/25 instructions were recovered from a public copy, but the central USCIS live edition check remains blocked.",
+    "exceptions": "Use the current official form and instructions. Authorised alternative examination has its own conditions; remote ownership is not authorisation. Actual USCIS-hosted 01/20/25 form and complete instructions are now read, but the central live accepted-edition list remains inaccessible.",
     "trigger": "Give the local employer an I-9 timing and retention owner",
     "deadline": "At hire/within three business days as applicable; retention uses the later statutory date",
     "fee": null,
@@ -398,7 +398,9 @@
     "sourceIds": [
       "b3-planning-i9-cfr",
       "next-scope-i9-instructions-copy",
-      "next-scope-everify-ica32"
+      "next-scope-everify-ica32",
+      "ref1-uscis-i9-form",
+      "ref1-uscis-i9-instructions"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -406,7 +408,7 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "The complete 01/20/25 USCIS instructions were read from a public university copy, and the 22 September 2026 E-Verify ICA32 bulletin was read. Central USCIS latest-edition/current-instructions access remains blocked; no exhaustive current-document or category-specific work-authorisation check is claimed.",
+      "The actual USCIS-hosted four-page form and eight-page instructions marked 01/20/25 were read, as was the previously reviewed 22 September 2026 E-Verify ICA32 bulletin. Central USCIS accepted-edition access remains blocked; no exhaustive current-document or category-specific authorisation check is claimed.",
       "No individual work-authorisation, anti-discrimination, E-Verify or immigration-category determination.",
       "AI-assisted source review; no professional legal review."
     ],
@@ -674,10 +676,10 @@
     "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
     "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
     "requirement": "Houston’s official business page states that a certificate of occupancy is required before a commercial building or individual lease space is occupied or its occupancy classification changes; building and related permit work may require inspection.",
-    "exceptions": "Named municipal guidance only. Detailed permitting PDFs were blocked; no parcel, classification, fee, enforcement deadline or complete permit determination is made.",
+    "exceptions": "Named City of Houston existing-building/no-use-change brochure, January 2026 commercial application and fee categories only. Actual parcel, use, required permits, inspections and combined charges remain project-specific.",
     "trigger": "Houston: confirm the lease space’s occupancy path before committing",
-    "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
-    "fee": null,
+    "deadline": "Obtain the required CO before occupancy. The CE-1278 inspection/correction route allows 180 days for required permits and corrections; that is not permission to occupy early.",
+    "fee": "2026 schedule: $537.12 first-story CO/life-safety inspection category; January 2026 form separately lists $94 CO fee on all applications and excludes $33.56 administration per application. Other categories and additions depend on the actual project.",
     "renewal": "Recheck when activity, parties, work location, source or operating facts change",
     "dependencies": [],
     "evidence": [
@@ -688,16 +690,19 @@
       "Written permit/inspection sequence"
     ],
     "sourceIds": [
-      "b3-planning-houston-plan"
+      "b3-planning-houston-plan",
+      "next-scope-houston-existing-co",
+      "r1-local-houston-fees2026",
+      "r1-local-houston-form2026"
     ],
     "status": "conditional",
     "legalStatus": "effective",
-    "verifiedAt": "2026-11-12",
-    "nextReview": "2026-12-12",
+    "verifiedAt": "2026-11-14",
+    "nextReview": "2026-12-14",
     "conflicts": [],
     "interpretationLimits": [
-      "City of Houston guidance only; exact boundary, parcel, building/fire/environmental/sector conditions and fees remain unverified.",
-      "Detailed official permitting PDFs were access-blocked; no complete procedure is claimed.",
+      "The actual City of Houston jurisdiction, use, space and project classification determine the relevant route and fee category.",
+      "Brochure CE-1278, form CE1045A and the relevant 2026 fee tables are read. This is not a complete new-construction, changed-use, multifamily or every-sector permit determination.",
       "AI-assisted source review; no professional legal review."
     ],
     "dependentPaths": [

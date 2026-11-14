@@ -112,3 +112,21 @@ test('narrow screens keep the answer, tables and library usable',async({page})=>
  await page.locator('#browse-collections > summary').click();
  await expect(page.locator('#browse-collections a[href^="/topics/"]')).toHaveCount(21);
 });
+
+test('library search explains its results, combines collection filters and clears without losing guides',async({page,browser,baseURL})=>{
+ const count=records.filter(guide=>guide.status==='published').length;
+ await page.goto('/guides/');
+ const search=page.getByRole('searchbox',{name:'Search guides'});
+ await search.fill('training employee');
+ const trainingGuide=records.find(guide=>guide.id==='nr-guide-training');
+ const training=page.locator('.guide-entry[href="'+trainingGuide.path+'"]');
+ await expect(training).toBeVisible();await expect(training.locator('.guide-description')).not.toBeEmpty();
+ await page.locator('.library-filters>summary').click();
+ await page.getByRole('button',{name:/^Documented cases/}).click();
+ await expect(page.locator('#guide-result-count')).toHaveText('0 guides');await expect(page.locator('#no-results')).toBeVisible();
+ await page.getByRole('button',{name:'Clear search and filters'}).click();
+ await expect(search).toHaveValue('');await expect(search).toBeFocused();
+ await expect(page.locator('.guide-entry:visible')).toHaveCount(count);await expect(page.locator('#guide-result-count')).toHaveText(count+' guides');
+ await search.fill('no-such-guide-xyz');await expect(page.locator('#no-results')).toBeVisible();
+ const context=await browser.newContext({javaScriptEnabled:false,baseURL});try{const staticPage=await context.newPage();await staticPage.goto('/guides/');await expect(staticPage.locator('.guide-entry')).toHaveCount(count);await expect(staticPage.locator('.guide-entry .guide-description')).toHaveCount(count);}finally{await context.close();}
+});

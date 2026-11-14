@@ -1,0 +1,263 @@
+[
+  {
+    "id": "b2-origin-thailand",
+    "path": "/from/thailand/",
+    "question": "Can the previously unread January2026 formal Thai Gazette texts now be read and distinguished from the bank’s general receipt summary?",
+    "outcome": "verified",
+    "conclusion": "Yes. Actual BOT-hosted original Gazette Ministry11/12 bodies were recovered, downloaded and visually read. Ministry11 is published19January2026/effective20January2026 and confirms the strict belowUSD10million goods exception with scoped larger-goods exceptions. Ministry12 concerns gold. Thai Officer35 separately supplies the general belowUSD10million acquisition exception. The earlier PDF-access gap is closed for these named texts; current receipt application and the Officer35 translation-date discrepancy stay explicit.",
+    "evidence": [
+      {
+        "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2569/ThaiPDF/25690016.pdf",
+        "retrievedAt": "2026-11-14T10:23:37.239270+00:00",
+        "sha256": "498d32ae3cfcc20572fe987197eb88ce865ac5382b276bd2bc27cbc53de5aab8",
+        "rawPath": "research/next-release/raw/refinement-1/asia/thai-bot-25690016-thai.pdf",
+        "hashKind": "sha256-original-HTTP-response-bytes",
+        "locator": "Circular563/2569, original Gazette Ministry11 Clauses1–3, Officer35 Clauses1–6",
+        "readScope": "All seven original Thai pages read: circular pages1–2; Ministry Notification11 original Gazette scans pages3–4 (printed18–19,19January2026) visually read; Officer Notice35 pages5–7 read in native text with signature/date visually checked. PyMuPDF repaired a malformed page tree for viewing; retained original HTTP PDF bytes were not modified. Poppler reports3pages and omits the Ministry scans, so its page count alone is not reliable.",
+        "quote": "ต่ำกว่า ๑๐ ล้านดอลลาร์สหรัฐอเมริกา"
+      },
+      {
+        "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2569/EngPDF/25690016.pdf",
+        "retrievedAt": "2026-11-14T10:23:38.713049+00:00",
+        "sha256": "9f9b87b090fa2efe81e9b04065bfeeb5fa072464539a9b248ddf86e53aab2ea7",
+        "rawPath": "research/next-release/raw/refinement-1/asia/thai-bot-25690016-eng.pdf",
+        "hashKind": "sha256-original-HTTP-response-bytes",
+        "locator": "Ministry11 Clauses1–3 and Officer35 Clauses1–6",
+        "readScope": "Complete five-page BOT-hosted unofficial English translation read and compared with the Thai original. Ministry11 date matches15January2026; the Officer35 English signature-date line says15January while the Thai original says23January. Thai wording controls; no Officer35 Gazette-publication date is invented.",
+        "quote": "Please refer to the Thai text for the official version."
+      },
+      {
+        "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2569/ThaiPDF/25690019.pdf",
+        "retrievedAt": "2026-11-14T10:24:43.263701+00:00",
+        "sha256": "4d809183b3e907a0b5e060258d94a4af2db0afe81211b5a8e6c1d12a3ab3ab2c",
+        "rawPath": "research/next-release/raw/refinement-1/asia/thai-bot-25690019-thai.pdf",
+        "hashKind": "sha256-original-HTTP-response-bytes",
+        "locator": "Ministry Notification12, Gazette143 SpecialPart17Ngor,p20,Clauses1–2",
+        "readScope": "Complete one-page original Thai Gazette Notification12 visually read. Header is19January2026, printedpage20; signed15January2026; Clause2 commences nextday. It regulates gold buyers/sellers under CompetentOfficer conditions rather than ordinary service receipts.",
+        "quote": "การซื้อหรือขายทองคำ"
+      },
+      {
+        "url": "https://app.bot.or.th/FIPCS/Thai/PFIPCS_List.aspx?DocGroup=4",
+        "retrievedAt": "2026-11-14T10:23:04.273086+00:00",
+        "sha256": "cd3a9fb3a7be107e96bbc8720b1644ddf0da4373753f6515dab28a2fd50b17cd",
+        "rawPath": "research/next-release/raw/refinement-1/asia/thai-fipcs.html",
+        "hashKind": "sha256-original-HTTP-HTML-bytes",
+        "locator": "2026 rows for Ministry11,Ministry12 and Officer35; exact TH/ENG links",
+        "readScope": "Actual returned HTML table rows and linked package URLs read, including current-status label. Boilerplate/placeholder navigation is excluded. Catalogue current labels corroborate the selected instruments, not a complete consolidated FX-law survey.",
+        "quote": "ใช้อยู่"
+      }
+    ],
+    "guidePatch": {
+      "title": "Thailand: which foreign receipts must you bring home?",
+      "seoTitle": "Thai foreign receipts: USD 10 million threshold and two 360-day clocks",
+      "description": "Understand the Thai foreign-receipt threshold, the separate steps for bringing money home and selling or depositing it, and the conditions on overseas use.",
+      "learningSummary": "For receipts covered by the Bank of Thailand (BOT) rule, bringing money back and later selling or depositing it with a Thai bank are separate steps. Its stated trigger is at least USD 10 million or equivalent. Eligible overseas expenses have a conditional alternative; that is not general permission to net any payment.",
+      "sections": [
+        {
+          "id": "threshold",
+          "heading": "Use the Thai threshold, including its boundary",
+          "paragraphs": [
+            "The Bank of Thailand’s 20 January 2026 statement describes an increase from USD 1 million to USD 10 million per transaction. The reviewed Thai summary says at least USD 10 million or equivalent. A receipt exactly at that amount should not be treated as below the trigger.",
+            "Ministry of Finance Notification 11 sets the formal threshold for goods exports. Published in the Gazette on 19 January 2026 and effective the next day, it sets a below-USD-10-million exception for goods outside its named categories, plus conditional exceptions for specified larger goods exports. The Bank’s implementing Notice 35 also replaces the foreign-currency acquisition exception with a below-USD-10-million test. A goods-specific exception still needs its own conditions; it should not be copied onto a service or royalty invoice.",
+            "The older English summary still displays USD 1 million. It is a disclosed source conflict, not the figure substituted for the reviewed Thai rule. The receipt’s category still matters: amount alone cannot classify it."
+          ],
+          "sourceIds": [
+            "b2-origins-thailand-current",
+            "b2-origins-thailand-2026",
+            "b2-origins-thailand-summary",
+            "r1-as-thai-jan26-original",
+            "r1-as-thai-jan26-translation"
+          ],
+          "aliases": [
+            "the-current-comparison-is-usd-10-million-not-the-older-english-usd-1-million",
+            "section-0",
+            "fictional-example-support-fees-also-pay-an-american-trainer",
+            "section-2"
+          ]
+        },
+        {
+          "id": "receipt-and-use",
+          "heading": "The summary has two clocks and a conditional overseas-use route",
+          "paragraphs": [
+            "For the receipt covered by section 2.1, the BOT summary says to bring it back immediately, no later than 360 days from the export or transaction date. It separately says to sell or deposit the currency with a commercial bank in Thailand within 360 days from when it is acquired or brought in. These are different starting events; 360 days is not a general invitation to wait.",
+            "The summary permits received foreign currency to pay or offset eligible overseas expense obligations without first bringing it back. Its footnote excludes foreign securities investment and purposes requiring prior BOT permission, including foreign FX/baht trades, related baht derivatives and gold payments without import. It is not unrestricted netting.",
+            "For American support receipts used to pay a trainer, identify the full fee, withholding, separate expense and actual dates, then establish whether the proposed use fits. BOT’s current-hosted bank guideline lets banks ask for further documents or information where appropriate; a customer’s transaction purpose remains important."
+          ],
+          "sourceIds": [
+            "b2-origins-thailand-current",
+            "smb-origin-th-bank-guideline"
+          ],
+          "aliases": [
+            "amount-payment-category-and-dates-must-be-considered-together",
+            "section-1",
+            "what-is-known-and-what-still-prevents-a-dated-compliance-answer",
+            "give-the-bank-a-transaction-file-it-can-classify",
+            "section-4"
+          ]
+        },
+        {
+          "id": "tax-and-work",
+          "heading": "Currency treatment does not decide tax or work permission",
+          "paragraphs": [
+            "Thailand appears in the reviewed IRS income-tax index and E-1/E-2 table. Neither supplies a universal withholding rate, transaction permission or individual eligibility. Thai incorporation does not decide the worker’s treaty nationality; assess an actual American assignment separately."
+          ],
+          "sourceIds": [
+            "b2-origins-irs-treaties",
+            "geo-treaty-countries"
+          ],
+          "aliases": [
+            "keep-tax-and-people-decisions-outside-the-currency-conclusion",
+            "section-3"
+          ]
+        }
+      ],
+      "readMinutes": 4,
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source and guidance review; no professional legal review",
+      "sourceIds": [
+        "b2-origins-thailand-current",
+        "b2-origins-thailand-2026",
+        "b2-origins-thailand-summary",
+        "b2-origins-irs-treaties",
+        "geo-treaty-countries",
+        "smb-origin-th-bank-guideline",
+        "r1-as-thai-jan26-original",
+        "r1-as-thai-jan26-translation",
+        "r1-as-thai-min12",
+        "r1-as-thai-fipcs"
+      ],
+      "limitations": [
+        "The formal amendments address specific goods exceptions, foreign-currency acquisition and gold transactions; Notification 12’s gold rules are outside this guide. The BOT-hosted English translation has an Officer35 signature-date discrepancy. Original Thai controls and no unsupported Officer35 commencement date is supplied.",
+        "The receipt’s actual category, dates, exclusions, overseas use and bank documents still need to be applied. The two clocks come from the current Thai official summary; this is not a complete consolidated survey of every Thai FX rule or a bank approval."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-as-thai-jan26-original",
+          "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2569/ThaiPDF/25690016.pdf",
+          "title": "Original Thai Gazette Ministry11 and BOT implementing Notice35",
+          "authority": "Thailand Ministry of Finance and Bank of Thailand",
+          "type": "primary",
+          "section": "Circular563/2569, original Gazette Ministry11 Clauses1–3, Officer35 Clauses1–6",
+          "supportingPassage": "ต่ำกว่า ๑๐ ล้านดอลลาร์สหรัฐอเมริกา",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:23:37.239270+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:28:22.339834+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Formal January2026 amendments; original Thai controls; current transaction application remains conditional",
+          "sha256": "498d32ae3cfcc20572fe987197eb88ce865ac5382b276bd2bc27cbc53de5aab8",
+          "hashKind": "sha256-original-HTTP-response-bytes",
+          "notes": "All seven original Thai pages read: circular pages1–2; Ministry Notification11 original Gazette scans pages3–4 (printed18–19,19January2026) visually read; Officer Notice35 pages5–7 read in native text with signature/date visually checked. PyMuPDF repaired a malformed page tree for viewing; retained original HTTP PDF bytes were not modified. Poppler reports3pages and omits the Ministry scans, so its page count alone is not reliable. Ministry11 publication19January2026 gives20January2026effect. Officer35 Thai signature23January2026 is distinct; the attached officer pages do not show a Gazette-publication header, so no exact commencement date is supplied for that notice. Ministry11 goods exceptions are not universal service/IP exceptions."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-as-thai-jan26-translation",
+          "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2569/EngPDF/25690016.pdf",
+          "title": "BOT unofficial English translation of Ministry11 and Officer35",
+          "authority": "Thailand Ministry of Finance and Bank of Thailand",
+          "type": "official-translation",
+          "section": "Ministry11 Clauses1–3 and Officer35 Clauses1–6",
+          "supportingPassage": "Please refer to the Thai text for the official version.",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:23:38.713049+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:28:22.339834+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Formal January2026 amendments; original Thai controls; current transaction application remains conditional",
+          "sha256": "9f9b87b090fa2efe81e9b04065bfeeb5fa072464539a9b248ddf86e53aab2ea7",
+          "hashKind": "sha256-original-HTTP-response-bytes",
+          "notes": "Unofficial English wording is a reading aid. The Officer35 date line differs from the original Thai; the guide does not use it to assign commencement. Original Thai Ministry11 Gazette text is separately cited."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-as-thai-min12",
+          "url": "https://www.bot.or.th/content/dam/bot/fipcs/documents/FOG/2569/ThaiPDF/25690019.pdf",
+          "title": "Original Gazette Ministry12: gold transactions",
+          "authority": "Thailand Ministry of Finance and Bank of Thailand",
+          "type": "primary",
+          "section": "Ministry Notification12, Gazette143 SpecialPart17Ngor,p20,Clauses1–2",
+          "supportingPassage": "การซื้อหรือขายทองคำ",
+          "publicationDate": "2026-01-19",
+          "effectiveDate": "2026-01-20",
+          "fetchedAt": "2026-11-14T10:24:43.263701+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:28:22.339834+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Formal January2026 amendments; original Thai controls; current transaction application remains conditional",
+          "sha256": "4d809183b3e907a0b5e060258d94a4af2db0afe81211b5a8e6c1d12a3ab3ab2c",
+          "hashKind": "sha256-original-HTTP-response-bytes",
+          "notes": "The second19January Gazette instrument is about gold purchases/sales, not a second general foreign-receipt threshold. Publication and nextday commencement visually verified."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "r1-as-thai-fipcs",
+          "url": "https://app.bot.or.th/FIPCS/Thai/PFIPCS_List.aspx?DocGroup=4",
+          "title": "BOT FIPCS official publication and current-status links",
+          "authority": "Thailand Ministry of Finance and Bank of Thailand",
+          "type": "official-guidance",
+          "section": "2026 rows for Ministry11,Ministry12 and Officer35; exact TH/ENG links",
+          "supportingPassage": "ใช้อยู่",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T10:23:04.273086+00:00",
+          "substantiveVerifiedAt": "2026-11-14T10:28:22.339834+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Formal January2026 amendments; original Thai controls; current transaction application remains conditional",
+          "sha256": "cd3a9fb3a7be107e96bbc8720b1644ddf0da4373753f6515dab28a2fd50b17cd",
+          "hashKind": "sha256-original-HTTP-HTML-bytes",
+          "notes": "Actual official database lists the selected January2026 notices as in use and provides the TH/ENG package URLs. Catalogue status is not substituted for reading operative bodies or for a complete later-amendment survey."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [],
+    "ruleUpdates": [
+      {
+        "id": "b2-origins-thailand-repatriation",
+        "fields": {
+          "title": "Thailand’s Thai summary and formal amendments distinguish the USD 10 million boundary",
+          "sourceIds": [
+            "b2-origins-thailand-current",
+            "b2-origins-thailand-2026",
+            "b2-origins-thailand-summary",
+            "r1-as-thai-jan26-original",
+            "r1-as-thai-jan26-translation"
+          ],
+          "verifiedAt": "2026-11-14",
+          "nextReview": "2026-12-14",
+          "requirementType": "primary-text-and-official-summary-conditional",
+          "interpretationLimits": [
+            "The formal January2026 source-access gap is closed for Ministry Notifications11/12 and OfficerNotice35. The Thai originals and official English translations were read; the latter’s Officer35 signature-date discrepancy is retained. No exact Officer35 Gazette commencement is inferred from the Ministry11 Gazette header.",
+            "The two-clock summary, individual receipt classification, permitted overseas uses and bank documentation remain conditional. No universal goods exception, service/IP classification, bank approval or complete consolidated-law survey is supplied."
+          ],
+          "conflicts": [
+            "BOT English summary still displays USD 1 million; BOT current Thai summary and 20 January 2026 statement display USD 10 million. Current Thai guidance and dated statement are prioritised; underlying forms and exact application remain a bank/professional task.",
+            "OfficerNotice35 is signed23January2026 in the Thai original, while the BOT-hosted unofficial English translation says15January2026; the Thai original is prioritized."
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Actual receipt category, both clock-start dates, applicable exclusions, overseas-use purpose and the bank’s supporting documents still require the transaction facts.",
+      "The original Thai Officer35 signature date differs from its unofficial English translation. Its Gazette-publication date is not established by the attached Ministry11 header; no exact Officer35 commencement date is claimed.",
+      "This closes the named January formal-text gap, not every later Thai FX amendment or a complete country legal survey."
+    ],
+    "authorNote": "Recovered through the actual official FIPCS table’s exact PDF links; did not retry or bypass the inaccessible Gazette host. Native seven-page PDF needed viewer repair to expose the original two-page Gazette annex; original byte hash retained. Separate gold instrument read in full. Existing two-clock, category, current English-summary conflict, source IDs, source dates and section aliases retained. New prose adds the legal boundary rather than generic length."
+  }
+]

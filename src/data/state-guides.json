@@ -2267,7 +2267,8 @@
     "ruleIds": [
       "b2-east-ar-applicability",
       "b2-east-ar-failed-proposal",
-      "nr-ar-2023-specific"
+      "nr-ar-2023-specific",
+      "ref1-ar-choice-of-law2019"
     ],
     "sections": [
       {
@@ -2332,7 +2333,7 @@
         "id": "other-amendments",
         "heading": "The new contract protections have their own agreement-date limit",
         "paragraphs": [
-          "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas; venue means where the case must be heard, which is distinct from the law governing the contract. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
+          "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
           "Those additions share the post-effective-date agreement/renewal condition above. They do not establish that every older contract automatically receives every new provision. HB 1177 of 2025 died in committee; its proposed insurance wording did not become law through that bill."
         ],
         "sourceIds": [
@@ -2341,21 +2342,34 @@
           "nr-ar-session2023"
         ],
         "aliases": []
+      },
+      {
+        "id": "choice-of-law2019",
+        "heading": "The contract’s choice of law is a different question",
+        "paragraphs": [
+          "Governing law means the rules used to decide the dispute; venue is where the case is heard. They are separate contract terms.",
+          "The enacted 2019 text says a condition requiring another state’s law in place of this subchapter is void. That is narrower than saying every contract selecting another state is void. The current consolidated text and application to an actual clause still need verification."
+        ],
+        "sourceIds": [
+          "ref1-ar-act835-2019"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
       "b2-east-ar-2023",
       "b2-east-ar-2025",
-      "nr-ar-session2023"
+      "nr-ar-session2023",
+      "ref1-ar-act835-2019"
     ],
     "nextStage": 1,
-    "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch.",
+    "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch. Read the governing-law clause separately from the venue clause.",
     "limitations": [
-      "Explains actually read 2023 amendments and their date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved; federal disclosure and transaction-specific facts are separate. The effect of a clause choosing another jurisdiction’s law is not resolved here."
+      "Explains the actual 2019 choice-of-law wording and the 2023 amendments’ stated agreement-date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved. Coverage, the actual contract and arbitration questions remain separate."
     ],
     "learningSummary": "The 2023 Act changes relationship protections as well as transfers, but its provisions do not all reach the same contracts. Match the particular rule to the agreement and renewal date before assuming a transfer veto or an old federal exclusion applies.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T02:12:13.620Z",
+    "contentModifiedAt": "2026-11-14T10:27:27.527Z",
     "seoTitle": "Arkansas franchise transfers and the 2023 relationship amendment",
     "relatedPaths": [
       "/fdd/item-17/",

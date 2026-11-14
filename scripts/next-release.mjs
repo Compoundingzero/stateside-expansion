@@ -10,7 +10,11 @@ const write=async(path,value)=>writeFile(path,JSON.stringify(value,null,2)+'\n')
 const sha=value=>createHash('sha256').update(typeof value==='string'||Buffer.isBuffer(value)?value:JSON.stringify(value)).digest('hex');
 const workflow=await read(`${root}/workflow.json`);
 const baseline=await read(`${root}/baseline-guides.json`);
+if(workflow.publicationBaselineFile&&!/^research\/[a-z0-9/_-]+\.json$/.test(workflow.publicationBaselineFile))throw Error('Invalid publication baseline path');
+const publicationBaseline=workflow.publicationBaselineFile?await read(workflow.publicationBaselineFile):null;
+if(publicationBaseline&&(!Number.isFinite(Date.parse(publicationBaseline.createdAt))||!Array.isArray(publicationBaseline.articles)||!publicationBaseline.articles.length||publicationBaseline.articles.some(g=>!g.id||!g.path||!/^\/[a-z0-9/-]+\/$/.test(g.path)||!/^[a-f0-9]{64}$/.test(g.contentHash)||!Array.isArray(g.anchors)||g.anchors.some(a=>typeof a!=='string'||!a))||new Set(publicationBaseline.articles.map(g=>g.id)).size!==publicationBaseline.articles.length||new Set(publicationBaseline.articles.map(g=>g.path)).size!==publicationBaseline.articles.length))throw Error('Invalid publication baseline snapshot');
 const baselineRecordIds=await read(`${root}/baseline-record-ids.json`);
+const protectedRecordIds=kind=>new Set([...(baselineRecordIds[kind]||[]),...(publicationBaseline?.recordIds?.[kind]||[])]);
 const files=(await readdir('src/data')).filter(f=>f.endsWith('.json'));
 const data=new Map(await Promise.all(files.map(async file=>[file,await read('src/data/'+file)])));
 const rows=kind=>[...data].filter(([file])=>file.endsWith(kind+'.json')).flatMap(([,records])=>records);
@@ -63,7 +67,7 @@ if(action==='apply'){
      const prior=existing[1].find(r=>r.id===record.id);
      if(sha(prior)!==sha(record)){
       const identities=kind==='sources'?['url','type','authority']:['jurisdiction','topic','sourceIds'];
-      if(!args.includes('--refresh')||baselineRecordIds[kind].includes(record.id)||existing[0]!==target||identities.some(key=>sha(prior[key]??null)!==sha(record[key]??null)))throw Error(`${record.id}: duplicate addition differs from existing record`);
+      if(!args.includes('--refresh')||protectedRecordIds(kind).has(record.id)||existing[0]!==target||identities.some(key=>sha(prior[key]??null)!==sha(record[key]??null)))throw Error(`${record.id}: duplicate addition differs from existing record`);
       Object.assign(prior,record);changed.add(existing[0]);
      }
      continue;
@@ -83,7 +87,7 @@ if(action==='apply'){
    if(old?.status==='published'&&(patch.path!==old.path||('status'in patch&&patch.status!=='published')))throw Error(`${decision.id}: existing public content cannot be removed`);
    if(!old&&rows('guides').some(g=>g.path===patch.path))throw Error(`${decision.id}: duplicate route`);
    const next={...old,...patch};
-   const preservePublicEvidence=baseline.some(g=>g.id===decision.id&&g.status==='published');
+   const preservePublicEvidence=old?.status==='published';
    next.sourceIds=[...new Set([...(preservePublicEvidence?old?.sourceIds||[]:[]),...(patch.sourceIds||[])])];next.ruleIds=[...new Set([...(preservePublicEvidence?old?.ruleIds||[]:[]),...(patch.ruleIds||[])])];
    if(old?.sections?.length&&patch.sections){
     const prior=semanticSectionIds(old.sections);const used=new Set(next.sections.flatMap(s=>[s.id,...s.aliases||[]]));
@@ -116,6 +120,14 @@ if(action==='apply'){
  refreshTasks();await write(`${root}/workflow.json`,workflow);
 }else if(action==='validate'){
  sync();const published=current();
+ for(const old of publicationBaseline?.articles||[]){
+  const g=published.find(g=>g.id===old.id);
+  if(!g||g.path!==old.path)throw Error(`${old.id}: protected public article lost`);
+  const ids=new Set(semanticSectionIds(g.sections).flatMap(s=>[s.id,...s.aliases]));
+  for(const id of old.anchors)if(!ids.has(id))throw Error(`${g.id}: protected public bookmark lost ${id}`);
+  for(const kind of ['sourceIds','ruleIds'])for(const id of old[kind]||[])if(!g[kind]?.includes(id))throw Error(`${g.id}: protected public reference lost ${id}`);
+  if(editorialHash(g)!==old.contentHash&&!workflow.integrations.some(i=>i.id===g.id&&Date.parse(i.integratedAt)>=Date.parse(publicationBaseline.createdAt)))throw Error(`${g.id}: unrecorded change since publication baseline`);
+ }
  for(const old of baseline.filter(g=>g.status==='published')){
   const g=published.find(g=>g.id===old.id);if(!g||g.path!==old.path)throw Error(`${old.id}: original public article lost`);
   const ids=new Set(semanticSectionIds(g.sections).flatMap(s=>[s.id,...s.aliases]));for(const id of semanticSectionIds(old.sections).flatMap(s=>[s.id,...s.aliases]))if(!ids.has(id))throw Error(`${g.id}: lost bookmark ${id}`);

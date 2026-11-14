@@ -226,23 +226,28 @@
     "publicationDate": null,
     "effectiveDate": null,
     "fetchedAt": "2026-11-12T20:45:32Z",
-    "substantiveVerifiedAt": "2026-11-12T20:54:04Z",
+    "substantiveVerifiedAt": "2026-11-14T10:31:13.528928+00:00",
     "nextReview": "2026-12-12",
     "legalStatus": "effective",
     "reviewerStatus": "AI-assisted source review; no professional legal review",
     "accessStatus": "retrieved-and-read",
-    "notes": "Limited review of the named process; not a complete municipal, county, special-district or sector survey. Independent editorial spot-check found inconsistent wording within the page: introductory DBA-only record-change language differs from a later FAQ describing a standalone CO application/new generated CO for changes. Confirm the current DBA-only workflow directly with Dallas before choosing an application route; no shortcut or fee is treated as settled.",
+    "notes": "Reviewed for the named tenant/use and DBA change routes only. The standalone application requirement describes the submission process; it does not assign the general CO fee to every name-only request. The DBA-only paragraph and currently linked fee schedule (r1-local-dallas-fees2025) both publish the $30 Record Change category. For multifamily uses, this option requires no recorded code violations; otherwise a new CO and building inspections apply. City staff assess the actual request, final charges and inspections. No complete municipal, county or sector survey is claimed.",
     "conflicts": [
       {
         "claim": "Current DBA-only Certificate of Occupancy change workflow",
         "contradictingSourceIds": [
           "geo-local-dallas"
         ],
-        "resolution": "Intra-page conflict retained. City confirmation needed; no fee or automatic shortcut published.",
-        "status": "unresolved",
+        "resolution": "Resolved within the named scope: a standalone application route and the Record Change fee category can coexist. The linked original fee PDF corroborates the $30 category. This does not classify an actual request or waive inspections; the multifamily no-recorded-violations condition remains.",
+        "status": "resolved",
         "dependentPaths": [
           "/cities/dallas/tenant-certificate-of-occupancy/",
           "/comparisons/dallas-san-antonio-occupancy/"
+        ],
+        "resolvedAt": "2026-11-14T10:31:13.528928+00:00",
+        "resolutionSourceIds": [
+          "r1-local-dallas-fees2025",
+          "next-scope-dallas-dba-faq"
         ]
       }
     ]

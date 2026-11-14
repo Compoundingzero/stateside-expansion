@@ -233,7 +233,7 @@
   },
   {
     "id": "b2-origins-thailand-repatriation",
-    "title": "Thailand’s current Thai FX summary uses USD 10 million, not the older English figure",
+    "title": "Thailand’s Thai summary and formal amendments distinguish the USD 10 million boundary",
     "topic": "corporate-tax",
     "jurisdiction": "Thailand",
     "activity": "Receiving foreign-currency proceeds and considering retention or offset abroad",
@@ -254,24 +254,27 @@
     "sourceIds": [
       "b2-origins-thailand-current",
       "b2-origins-thailand-2026",
-      "b2-origins-thailand-summary"
+      "b2-origins-thailand-summary",
+      "r1-as-thai-jan26-original",
+      "r1-as-thai-jan26-translation"
     ],
     "status": "conditional",
     "legalStatus": "effective",
-    "verifiedAt": "2026-11-12",
-    "nextReview": "2026-12-12",
+    "verifiedAt": "2026-11-14",
+    "nextReview": "2026-12-14",
     "conflicts": [
-      "BOT English summary still displays USD 1 million; BOT current Thai summary and 20 January 2026 statement display USD 10 million. Current Thai guidance and dated statement are prioritised; underlying forms and exact application remain a bank/professional task."
+      "BOT English summary still displays USD 1 million; BOT current Thai summary and 20 January 2026 statement display USD 10 million. Current Thai guidance and dated statement are prioritised; underlying forms and exact application remain a bank/professional task.",
+      "OfficerNotice35 is signed23January2026 in the Thai original, while the BOT-hosted unofficial English translation says15January2026; the Thai original is prioritized."
     ],
     "interpretationLimits": [
-      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open.",
-      "AI-assisted translation of official Thai summary; current Gazette instruments, bank forms and all exceptions were not completely reviewed. The threshold is not used in a calculator or legal verdict."
+      "The formal January2026 source-access gap is closed for Ministry Notifications11/12 and OfficerNotice35. The Thai originals and official English translations were read; the latter’s Officer35 signature-date discrepancy is retained. No exact Officer35 Gazette commencement is inferred from the Ministry11 Gazette header.",
+      "The two-clock summary, individual receipt classification, permitted overseas uses and bank documentation remain conditional. No universal goods exception, service/IP classification, bank approval or complete consolidated-law survey is supplied."
     ],
     "dependentPaths": [
       "/from/thailand/"
     ],
     "reviewerStatus": "AI-assisted source review; no professional legal review",
-    "requirementType": "official-summary-conditional"
+    "requirementType": "primary-text-and-official-summary-conditional"
   },
   {
     "id": "b2-origins-timor-leste-goods-route",

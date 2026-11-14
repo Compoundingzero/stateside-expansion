@@ -1,6 +1,6 @@
 export type LearningKind='guide'|'tool';
 export type LearningStatus='not-started'|'reading'|'complete';
-export interface LearningItem {id:string;key:string;path:string;title:string;type:LearningKind;topic:string;family:string;jurisdictions:string[];}
+export interface LearningItem {id:string;key:string;path:string;title:string;description:string;type:LearningKind;topic:string;family:string;jurisdictions:string[];}
 export interface LearningPath {id:string;title:string;goal:string;topics:string[];steps:string[];challengeIds:string[];}
 export interface LearningChallenge {id:string;version?:string;title:string;scenario:string;question:string;fictional:boolean;type:'choice'|'number';options?:{id:string;label:string;explanation:string}[];correct?:string;answer?:number;unit?:string;calculation?:string;explanation:string;guidePaths:string[];sourceIds:string[];}
 export interface LearningProgress {version:1;items:Record<string,{status:LearningStatus;bookmarked:boolean}>;solved:Record<string,string>;activePath:string;lastItem:string|null;}
@@ -33,14 +33,21 @@ export function solveLearningChallenge(progress:LearningProgress,id:string,versi
 }
 export const isLearningChallengeSolved=(progress:LearningProgress,challenge:LearningChallenge)=>Boolean(challenge.version&&progress.solved[challenge.id]===challenge.version);
 export function createLearningCatalog(guides:Record<string,any>[],tools:Record<string,any>[]):LearningItem[] {
- const items:LearningItem[]=guides.filter(g=>g.status==='published').map(g=>({id:g.id,key:learningKey('guide',g.id),path:g.path,title:g.title,type:'guide',topic:g.topic??'',family:g.family??'',jurisdictions:g.jurisdictions??[]}));
- for(const tool of tools)items.push({id:tool.mode,key:learningKey('tool',tool.mode),path:'/tools/'+tool.slug+'/',title:tool.name,type:'tool',topic:tool.stage===3?'commercial-feasibility':tool.stage===0?'commercial-feasibility':tool.stage===1?'classification':tool.stage===2?'premises-opening':tool.stage===4?'sales-disclosure':'premises-opening',family:'tool',jurisdictions:[]});
+ const items:LearningItem[]=guides.filter(g=>g.status==='published').map(g=>({id:g.id,key:learningKey('guide',g.id),path:g.path,title:g.title,description:g.description??'',type:'guide',topic:g.topic??'',family:g.family??'',jurisdictions:g.jurisdictions??[]}));
+ for(const tool of tools)items.push({id:tool.mode,key:learningKey('tool',tool.mode),path:'/tools/'+tool.slug+'/',title:tool.name,description:tool.description??'',type:'tool',topic:tool.stage===3?'commercial-feasibility':tool.stage===0?'commercial-feasibility':tool.stage===1?'classification':tool.stage===2?'premises-opening':tool.stage===4?'sales-disclosure':'premises-opening',family:'tool',jurisdictions:[]});
  return items.sort((a,b)=>a.title.localeCompare(b.title,'en'));
 }
 export function pathSteps(path:LearningPath,items:LearningItem[]):LearningItem[] {const byPath=new Map(items.map(item=>[item.path,item]));return path.steps.map(step=>byPath.get(step)).filter((item):item is LearningItem=>Boolean(item));}
 export function pathItems(path:LearningPath,items:LearningItem[]):LearningItem[] {
  const curated=pathSteps(path,items),keys=new Set(curated.map(item=>item.key));
  return [...curated,...items.filter(item=>!keys.has(item.key)&&(path.id==='fdd'?item.family==='fdd':item.family!=='fdd'&&path.topics.includes(item.topic)))];
+}
+
+/** Keep the primary action within the selected starting path, even after unrelated reading. */
+export function nextLearningStep(path:LearningPath,items:LearningItem[],progress:LearningProgress):{item:LearningItem|undefined;resume:boolean}{
+ const steps=pathSteps(path,items),started=(item:LearningItem)=>progress.items[item.key]?.status==='reading';
+ const resume=steps.find(item=>item.key===progress.lastItem&&started(item))??steps.find(started);
+ return {item:resume??steps.find(item=>progress.items[item.key]?.status!=='complete'),resume:Boolean(resume)};
 }
 export function learningStats(progress:LearningProgress,items:LearningItem[],paths:LearningPath[],challenges:LearningChallenge[]){
  const completed=items.filter(item=>progress.items[item.key]?.status==='complete'),read=completed.filter(item=>item.type==='guide').length,tried=completed.filter(item=>item.type==='tool').length;

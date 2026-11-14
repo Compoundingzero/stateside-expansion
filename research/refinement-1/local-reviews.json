@@ -1,0 +1,32 @@
+[
+  {
+    "id": "b3-planning-houston-occupancy",
+    "path": "/cities/houston/",
+    "reviewedHash": "16f7cb51a2cc58839e4f442650b090bbb2313d001b494935eb27b1497cb05dae",
+    "decisionFingerprint": "83cd6b9dba774770e62269689b7a40e2b4b7ea29a38792d2c51c2def70459007",
+    "decision": "approved",
+    "notes": "Read the actual CE-1278 brochure, complete January 2026 CE-1045-A form and relevant complete 2026 fee tables. The $537.12 first-story inspection category, separate $94 certificate and $33.56 administration charge match. Additional-story/area, under-3,000-square-foot multi-tenant retail/office and simultaneous core-inspection distinctions remain explicit; no flat complete bill is invented. The 180-day correction period remains separate from the prerequisite CO. Direct403 HTML responses are not treated as PDFs; source hashes correctly identify reader representations. Actual category, site and combined invoice remain facts-dependent.",
+    "reviewer": "/root/state_texts",
+    "reviewedAt": "2026-11-14T10:33:58.859Z"
+  },
+  {
+    "id": "geo-guide-dallas",
+    "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+    "reviewedHash": "a217f247f80537e111fd3ab37133d683c60b4b925a6201ac59279372494d3c2d",
+    "decisionFingerprint": "e0679ca0079fb0fcdc47e08dcdaccb4f47653b311ec7f5bdf7c8912d9f357a4e",
+    "decision": "approved",
+    "notes": "Read the full current official CO page and original effective-July-2025 fee PDF cover and named rows. Standalone DallasNow application and $30 Record Change versus $375 general CO are different process/category facts, not a demonstrated contradiction. The multifamily no-recorded-code-violations exception is now explicit; otherwise a new CO and building inspections apply. Public source notes and only the named inferred conflict are updated consistently. Actual tenant/use/category, documents, invoice and inspections remain undetermined.",
+    "reviewer": "/root/state_texts",
+    "reviewedAt": "2026-11-14T10:33:58.859Z"
+  },
+  {
+    "id": "geo-compare-texas-occupancy",
+    "path": "/comparisons/dallas-san-antonio-occupancy/",
+    "reviewedHash": "fcee5a1e64f93463441b7166f7cc166dc06bbf431be5194bdfe918a3563e76a6",
+    "decisionFingerprint": "18968e906c61df9ab5b9825cb8b244130253d687988057aa34d9a5ca16b1938b",
+    "decision": "approved",
+    "notes": "Read the Dallas page/fee rows, actual San Antonio main guidance and complete retained two-page DBA application. The Dallas multifamily exception is preserved. San Antonio named uses, including repair/maintenance shops, require the stated fire review/inspection and COO-No Construction fee class; no numerical bill, inspection-free shortcut or citywide cost/time advantage is claimed. The public comparison matches those narrow distinctions.",
+    "reviewer": "/root/state_texts",
+    "reviewedAt": "2026-11-14T10:33:58.859Z"
+  }
+]

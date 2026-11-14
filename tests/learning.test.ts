@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readdir,readFile} from 'node:fs/promises';
-import {createLearningCatalog,emptyLearning,restoreLearning,updateLearningItem,solveLearningChallenge,learningStats,checkLearningAnswer,pathItems,pathSteps,isLearningChallengeSolved} from '../src/lib/learning';
+import {createLearningCatalog,emptyLearning,restoreLearning,updateLearningItem,solveLearningChallenge,learningStats,checkLearningAnswer,pathItems,pathSteps,nextLearningStep,isLearningChallengeSolved} from '../src/lib/learning';
 import {versionLearningChallenges} from '../src/lib/learning-build';
 import {learningPaths,learningChallenges} from '../src/data/learning-paths';
 
@@ -79,4 +79,15 @@ test('restoring progress ignores forged scores, private text, unknown identifier
  assert.deepEqual(Object.keys(restored.items),[item.key]);assert.deepEqual(Object.keys(restored.solved),[challenge.id]);
  assert.equal(restored.activePath,'model-offer');assert.equal(restored.lastItem,null);assert.ok(!JSON.stringify(restored).includes('private'));assert.ok(!('xp' in restored));
  for(const input of [null,[],{},'bad',{version:2,items:{}},{version:1,items:[],solved:['old-unversioned-id']}])assert.deepEqual(restoreLearning(input),emptyLearning());
+});
+
+test('the next reading belongs to its selected path and resumes only an unfinished starting step',()=>{
+ const people=learningPaths.find(path=>path.id==='people')!,economics=learningPaths.find(path=>path.id==='economics')!;
+ const peopleSteps=pathSteps(people,items),other=pathSteps(economics,items)[0];let progress=emptyLearning();
+ progress=updateLearningItem(progress,other.key,{status:'reading'});
+ assert.equal(nextLearningStep(people,items,progress).item?.key,peopleSteps[0].key);assert.equal(nextLearningStep(people,items,progress).resume,false);
+ progress=updateLearningItem(progress,peopleSteps[1].key,{status:'reading'});progress=updateLearningItem(progress,other.key,{status:'reading'});
+ assert.equal(nextLearningStep(people,items,progress).item?.key,peopleSteps[1].key);assert.equal(nextLearningStep(people,items,progress).resume,true);
+ for(const step of peopleSteps)progress=updateLearningItem(progress,step.key,{status:'complete'});
+ assert.equal(nextLearningStep(people,items,progress).item,undefined);assert.equal(nextLearningStep(people,items,progress).resume,false);
 });

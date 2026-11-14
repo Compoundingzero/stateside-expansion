@@ -56,3 +56,37 @@ test('in-progress additions can be corrected explicitly; approvals bind both con
  assert.equal((await f.read('research/next-release/workflow.json')).articles[0].state,'drafted');
  assert.notEqual(f.cli('review','reviews.json').status,0);
 }));
+test('later publications retain their evidence and become protected by a fresh publication snapshot',async()=>fixture(async(f:any)=>{
+ await f.write('research/next-release/baseline-guides.json',[]);
+ const nextSource={...f.source,id:'second',url:'https://authority.invalid/second'};
+ await f.write('decisions.json',[{...f.decision,newSources:[{file:'test-sources.json',record:nextSource}],guidePatch:{...f.decision.guidePatch,sourceIds:['second']}}]);
+ assert.equal(f.cli('apply','decisions.json','--write').status,0);
+ assert.deepEqual((await f.read('src/data/test-guides.json'))[0].sourceIds,['official','second']);
+ const later={...f.guide,id:'later',path:'/later/'};
+ const workflow=await f.read('research/next-release/workflow.json');workflow.publicationBaselineFile='research/next-release/publication.json';
+ await f.write('research/next-release/publication.json',{createdAt:'2026-01-01T00:00:00Z',articles:[{id:later.id,path:later.path,contentHash:editorialHash(later),anchors:['original']}]});
+ await f.write('research/next-release/workflow.json',workflow);
+ await f.write('src/data/test-guides.json',[{...later,path:'/moved/'}]);
+ assert.match(f.cli('validate').stderr,/protected public article lost/);
+ await f.write('src/data/test-guides.json',[{...later,sections:[{...later.sections[0],id:'replacement'}]}]);
+ assert.match(f.cli('validate').stderr,/protected public bookmark lost/);
+ await f.write('src/data/test-guides.json',[{...later,title:'An unrecorded change'}]);
+ assert.match(f.cli('validate').stderr,/unrecorded change since publication baseline/);
+}));
+test('a configured publication snapshot fails closed if its date, records or identity are malformed',async()=>fixture(async(f:any)=>{
+ const workflow=await f.read('research/next-release/workflow.json');workflow.publicationBaselineFile='research/next-release/publication.json';await f.write('research/next-release/workflow.json',workflow);
+ const entry={id:f.guide.id,path:f.guide.path,contentHash:editorialHash(f.guide),anchors:['original']};
+ for(const snapshot of [{createdAt:'bad',articles:[entry]},{createdAt:'2026-01-01T00:00:00Z'},{createdAt:'2026-01-01T00:00:00Z',articles:[]},{createdAt:'2026-01-01T00:00:00Z',articles:[entry,entry]}]){
+  await f.write('research/next-release/publication.json',snapshot);assert.match(f.cli('validate').stderr,/Invalid publication baseline snapshot/);
+ }
+}));
+test('published additions and citations require explicit updates rather than refresh or silent deletion',async()=>fixture(async(f:any)=>{
+ const extra={...f.source,id:'published-later',url:'https://authority.invalid/later'};
+ await f.write('src/data/test-sources.json',[f.source,extra]);
+ const workflow=await f.read('research/next-release/workflow.json');workflow.publicationBaselineFile='research/next-release/publication.json';await f.write('research/next-release/workflow.json',workflow);
+ await f.write('research/next-release/publication.json',{createdAt:'2026-01-01T00:00:00Z',recordIds:{sources:['published-later'],rules:[]},articles:[{id:f.guide.id,path:f.guide.path,contentHash:editorialHash(f.guide),anchors:['original'],sourceIds:['official'],ruleIds:[]}]});
+ await f.write('decisions.json',[{...f.decision,newSources:[{file:'test-sources.json',record:{...extra,title:'Silently replaced'}}]}]);
+ assert.match(f.cli('apply','decisions.json','--write','--refresh').stderr,/duplicate addition differs/);
+ await f.write('src/data/test-guides.json',[{...f.guide,sourceIds:['published-later']}]);
+ assert.match(f.cli('validate').stderr,/protected public reference lost official/);
+}));

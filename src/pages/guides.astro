@@ -19,22 +19,33 @@ const decisions=[
 ---
 <Base title="U.S. expansion questions for business owners" breadcrumbs={breadcrumbs} contentModifiedAt={latestContentModified(published)}>
   <section class="container owner-library">
-    <header class="page-intro"><span class="eyebrow">FIELD GUIDES</span><h1>What do you need to decide?</h1><p class="lede">Search by question, business activity, state, city or home country.</p></header>
+    <header class="page-intro"><span class="eyebrow">FIELD GUIDES</span><h1>What do you need to decide?</h1><p class="lede">Search a few words, a business activity, or a place.</p></header>
     <label class="search-field"><span class="visually-hidden">Search guides</span><input id="guide-search" type="search" placeholder="Search the guides…"/></label>
     <nav class="owner-decision-links" aria-label="Common owner questions"><ul>{decisions.map(decision=><li><a href={decision.path}>{decision.question}</a></li>)}</ul></nav>
     <section class="all-guides" aria-labelledby="all-guides-heading">
-      <div class="collection-heading"><h2 id="all-guides-heading">Find a guide</h2><span class="meta">{published.length} published guides</span></div>
+      <div class="collection-heading"><h2 id="all-guides-heading">Find a guide</h2><span id="guide-result-count" class="meta" role="status" aria-live="polite">{published.length} guides</span></div>
       <details class="library-filters"><summary>Filter by collection</summary><ul class="filter-list" aria-label="Guide families"><li><button data-family="all" aria-pressed="true">All guides</button></li><li><button data-family="documented-case" aria-pressed="false">Documented cases ({documentedCases.length})</button></li>{families.map(family=><li><button data-family={family} aria-pressed="false">{familyLabels.get(family)??family.replaceAll('-',' ')}</button></li>)}</ul></details>
-      <div class="library-list">{published.map(guide=><a class="library-row guide-entry" href={guide.path} data-family={guide.family} data-case-type={guide.scenarioType} data-text={[guide.title,guide.seoTitle,guide.description,...guide.jurisdictions,...(guide.keyTerms??[]).map((entry:any)=>entry.term)].join(' ').toLowerCase()}><span class="category">{guide.scenarioType==='real'?'Documented case':guide.scenarioType==='fictional'?'Fictional scenario':familyLabels.get(guide.family)??guide.family?.replaceAll('-',' ')}</span><div><h3>{guide.title}</h3><span class="meta">Source review: {guide.lastReviewed??'date not recorded'} · {readingLabel(guide)}</span></div><span class="arrow" aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a>)}</div>
-      <p id="no-results" class="empty" hidden>No guide matches this search. <a href="/coverage/">See what remains unresearched.</a></p>
+      <div class="library-search-controls"><p class="meta">Match the question to your business before using the rule.</p><button id="clear-guide-filters" type="button" class="utility" hidden>Clear search and filters</button></div>
+      <noscript><p class="no-js">Search and filters need JavaScript. All guides are listed below, and you can browse by subject at the end.</p></noscript>
+      <div class="library-list">{published.map(guide=><a class="library-row guide-entry" href={guide.path} data-family={guide.family} data-case-type={guide.scenarioType} data-text={[guide.title,guide.seoTitle,guide.description,guide.learningSummary,...guide.jurisdictions,...(guide.keyTerms??[]).map((entry:any)=>entry.term)].join(' ')}><span class="category">{guide.scenarioType==='real'?'Documented case':guide.scenarioType==='fictional'?'Fictional scenario':familyLabels.get(guide.family)??guide.family?.replaceAll('-',' ')}</span><div><h3>{guide.title}</h3><p class="guide-description">{guide.description}</p><span class="meta">Source review: {guide.lastReviewed??'date not recorded'} · {readingLabel(guide)}</span></div><span class="arrow" aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a>)}</div>
+      <p id="no-results" class="empty" hidden>No guides match this search and collection. Try fewer words or browse by subject below. <a href="/coverage/">See researched coverage and open questions.</a></p>
     </section>
     <details class="guide-collections owner-collections" id="browse-collections"><summary>Browse by subject or collection</summary><div><h3>Subjects</h3><ul>{subjects.map(hub=><li><a href={hubPath(hub)}>{hub.label}<span class="meta"> {guidesForHub(hub,published).length}</span></a></li>)}</ul><h3>Collections</h3><ul>{collections.map(hub=><li><a href={hubPath(hub)}>{hub.label}<span class="meta"> {guidesForHub(hub,published).length}</span></a></li>)}</ul></div></details>
   </section>
 </Base>
 <script>
+import {matchesContentQuery} from '../lib/content-search';
 let family='all';
 const input=document.querySelector<HTMLInputElement>('#guide-search');
-function filter(){let count=0;document.querySelectorAll<HTMLElement>('.guide-entry').forEach(entry=>{const show=(family==='all'||(family==='documented-case'?entry.dataset.caseType==='real':entry.dataset.family===family))&&(entry.dataset.text??'').includes(input?.value.toLowerCase()??'');entry.hidden=!show;if(show)count++});document.querySelector<HTMLElement>('#no-results')!.hidden=count>0;}
+const clear=document.querySelector<HTMLButtonElement>('#clear-guide-filters');
+function filter(){
+ let count=0;
+ document.querySelectorAll<HTMLElement>('.guide-entry').forEach(entry=>{const show=(family==='all'||(family==='documented-case'?entry.dataset.caseType==='real':entry.dataset.family===family))&&matchesContentQuery(entry.dataset.text??'',input?.value??'');entry.hidden=!show;if(show)count++});
+ document.querySelector<HTMLElement>('#no-results')!.hidden=count>0;
+ document.querySelector<HTMLElement>('#guide-result-count')!.textContent=count+' '+(count===1?'guide':'guides');
+ if(clear)clear.hidden=family==='all'&&!input?.value;
+}
 input?.addEventListener('input',filter);
 document.querySelectorAll<HTMLButtonElement>('[data-family][aria-pressed]').forEach(button=>button.addEventListener('click',()=>{family=button.dataset.family!;document.querySelectorAll('[data-family][aria-pressed]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));filter()}));
+clear?.addEventListener('click',()=>{family='all';if(input)input.value='';document.querySelectorAll<HTMLButtonElement>('[data-family][aria-pressed]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.family==='all')));filter();input?.focus();});
 </script>
