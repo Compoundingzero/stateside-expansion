@@ -1,0 +1,703 @@
+[
+  {
+    "id": "b3-origin3-guide-malta",
+    "decision": "source-resolved",
+    "fingerprint": "35f2f39bc3065b13aa735d83c479bac0d878d1c77b7de567d92f2f44e228e706",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "integratedAt": "2026-11-14T00:43:08.711Z",
+    "conclusion": "The opaque numbers can now be explained: Article 10 ordinary registration, Article 11 conditional domestic small-enterprise exemption without credit, Article 12 specified cross-border duties including additional registration for Article 11 purchasers. Article 20(2)(b) shifts covered Malta-taxable general business-service liability from a non-established/non-Article-10 supplier to the recipient. Actual transaction classification remains fact-dependent rather than an unresolved legal definition.",
+    "remainingLimits": [
+      "Actual purchaser registration, taxable-service classification, establishment involvement and credits require transaction facts.",
+      "No complete Article 11 eligibility or threshold calculator is added; statutory scheme conditions remain applicable."
+    ]
+  },
+  {
+    "id": "b3-planning-houston-occupancy",
+    "decision": "scope-resolved",
+    "conclusion": "The rewritten article is supportable as a pre-lease occupancy/use check. A complete current Houston opening/application procedure remains unverified. Bounded normal requests to the linked detailed page and two official document URLs did not yield full primary text.",
+    "remainingLimits": [
+      "Current detailed application and inspection steps, fees and processing time",
+      "Actual property/classification and other building, fire, environmental and sector duties"
+    ],
+    "fingerprint": "1ead5cc07b3f1ee4942c0090cf707084c997546eeca87eb8746ca2917ce9d607",
+    "decisionFile": "research/smb-edit/places-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T00:56:46.010Z"
+  },
+  {
+    "id": "b3-local-indianapolis-fire",
+    "decision": "scope-resolved",
+    "conclusion": "The company/person licensing answer and construction-completion answer are distinct and remain separated in the replacement. Published current links were confirmed, but the form revision dates remain October 2023. This is not verification of a new 2026 licensing fee, renewal schedule or complete ordinance scope.",
+    "remainingLimits": [
+      "Current ordinance/application scope beyond the named extinguisher work",
+      "Current fees, licence duration, renewal/certification detail and actual worker/company status",
+      "Actual parcel jurisdiction and whether the stated structural-permit exception applies"
+    ],
+    "fingerprint": "c2bd9cd6c50367e4e46cf737fcd22570f107b79a24c439b4bf552309e44354c5",
+    "decisionFile": "research/smb-edit/places-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T00:56:46.014Z"
+  },
+  {
+    "id": "geo-guide-dallas",
+    "decision": "scope-resolved",
+    "conclusion": "Tenant change remains a supported and useful separate trigger. DBA-only procedural wording is still unreconciled across and within official material. New accessible documents do not justify a shortcut, no-inspection assurance, current fee, or processing-time promise.",
+    "remainingLimits": [
+      "Current DBA-only filing workflow, fee and inspection conditions",
+      "Actual unit/operator/use classification, application decision and other permits"
+    ],
+    "fingerprint": "d67e7e5472d5dda1f8b16c2dd4edf1951233f76e562c6531d38625bda76722e1",
+    "decisionFile": "research/smb-edit/places-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T00:56:46.286Z"
+  },
+  {
+    "id": "geo-compare-texas-occupancy",
+    "decision": "scope-resolved",
+    "conclusion": "The supported two-city tenant/use distinction remains. The newly read San Antonio form adds a concrete inspection/fee-class condition to the name-update discussion, while Dallas’s DBA-only conflict remains unresolved. The replacement is a prose comparison; if converted back to a table, Dallas uncertainty must stay within its cell.",
+    "remainingLimits": [
+      "Dallas DBA-only workflow/fee",
+      "Actual San Antonio site/use, category-specific requirements and applicable current charge",
+      "No proven city-wide cost or speed advantage"
+    ],
+    "fingerprint": "1de6635253066ee2ea739be22add5268e81874af3a4b1939c7bf7d4f02a11664",
+    "decisionFile": "research/smb-edit/places-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-sanantonio-dba-form"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.288Z"
+  },
+  {
+    "id": "b3-planning-business-opportunity-rule",
+    "decision": "unresolved",
+    "conclusion": "Actual current Part 437 and section 436.8 confirm the literal $500/$735 discrepancy. No reviewed primary interpretation settles the $500–$734.99 interaction or makes the cross-reference self-correcting.",
+    "remainingLimits": [
+      "Authoritative interpretation of section 437.8(a), not access to its literal wording."
+    ],
+    "fingerprint": "298f09f819d7da66152fae0f1fff63b746844ab2a48035a4ade260e2f674da5b",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-minimum-exemption"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.532Z"
+  },
+  {
+    "id": "b3-planning-workplace-safety",
+    "decision": "scope-resolved",
+    "conclusion": "Read section5 employer duties and the actual 1910.147 scope/programme text. The proposed replacement teaches one conditional machinery-servicing control rather than implying that an induction satisfies law or prescribing lockout for all powered equipment.",
+    "remainingLimits": [
+      "Job-specific applicability, other standards and state-plan requirements remain outside this baseline."
+    ],
+    "fingerprint": "56ec3a45d26400f26354b7cf16290b06fc22a46d419d7c477ed3a9bfbc8785f6",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-osha-energy"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.535Z"
+  },
+  {
+    "id": "b3-planning-employment-verification",
+    "decision": "scope-resolved",
+    "conclusion": "The current regulation verifies the deadlines, the short-employment no-receipt condition, agent language and later-of-two-dates retention. The complete 2023 DHS notice verifies a specifically conditioned alternative procedure. USCIS current form/instructions and E-Verify update pages remain403. Reginfo lists an active2024 approval and a pending2026 extension; pending attached instruments are not treated as authorised current editions.",
+    "remainingLimits": [
+      "Current usable USCIS edition and complete current form instructions remain unverified. The historical Reginfo instrument does not close that hold.",
+      "Current usable USCIS form edition and complete current instructions remain access-blocked; the 2023 alternative notice is not current-form confirmation."
+    ],
+    "fingerprint": "d07072c5e0f88e9322f17b8002c43fdf986ef1189bb3e86fb2b6831908381d46",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-i9-alternative"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.540Z"
+  },
+  {
+    "id": "b3-planning-worker-classification",
+    "decision": "scope-resolved",
+    "conclusion": "The actual May2,2025 opinion cover expressly reconciles FLSA2019-6 and FLSA2025-2. Current Part795 retains six nonexclusive factors. May2025 bulletin and2026 NPRM remain distinct source types. The NPRM reports stayed appeals as of publication, not their latest status.",
+    "remainingLimits": [
+      "Latest appellate docket and governing-circuit application are not established by the bounded official-source check."
+    ],
+    "fingerprint": "d1b308a2df3781f016a191a8ed26cae55f88d97f7c6f42683e0a66d500b5d6cc",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-dol-opinion2"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.547Z"
+  },
+  {
+    "id": "b3-planning-joint-employer",
+    "decision": "scope-resolved",
+    "conclusion": "Current103.40 and complete Feb27,2026 final action reaffirm the restored2020 NLRA rule and qualified indirect/reserved-control role. Current FLSA Part791 remains reserved. Current DOL FAQ still describes a proposal with separate FLSA/FMLA/MSPA scope. No stronger outcome or all-circuit rule is inferred.",
+    "remainingLimits": [
+      "No full current court-docket or governing-circuit/state-law determination; retain existing published qualification."
+    ],
+    "fingerprint": "d350bba60dbd9e1821a9698ecb87b10a7e7624f7785f005ea08e4aa00d14cd16",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T00:56:46.549Z"
+  },
+  {
+    "id": "b3-planning-product-safety",
+    "decision": "scope-resolved",
+    "conclusion": "Current1110 body and the actual final-rule dates confirm the covered-product/certifier framework, at-least-five-years-from-creation rule and July8,2026/January8,2027 phases. The currently readable CPSC FAQ still states its initial no-denial-solely-for-eFiling policy and ongoing certificate enforcement. This remains policy, not an exemption or entry guarantee.",
+    "remainingLimits": [
+      "Product-specific jurisdiction/testing and whether actual information triggers reporting remain case-specific; no blanket clearance."
+    ],
+    "fingerprint": "32b0ea54e95436fac0e90f32458439fc7284872476edd5a78403bfff5b53ed49",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T00:56:46.551Z"
+  },
+  {
+    "id": "b3-planning-cross-border-data",
+    "decision": "scope-resolved",
+    "conclusion": "Actual DOJ compliance guide independently uses October6,2025 for due-diligence/audit and specified reporting duties and points to the incorporated CISA requirements. The updated DOJ overview retains its one-day wording difference. NIST confirms incorporation of the January2025 CISA document but provides no substitute full technical body. CISA page/PDF remain403.",
+    "remainingLimits": [
+      "Complete CISA technical implementation requirements and any transaction-specific compliant arrangement remain unverified.",
+      "The DOJ guide and NIST catalog do not substitute for the inaccessible complete CISA technical requirements; no compliant access arrangement is established."
+    ],
+    "fingerprint": "99b2a63f843f886d300329595793d32e4f08836110fa50d81ea93b186abdfa28",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-doj-compliance"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.555Z"
+  },
+  {
+    "id": "foreign-financials",
+    "decision": "scope-resolved",
+    "conclusion": "Actual current17CFR210.4-01(a)(2) and SEC manual6310.1–.3/6320.1–.6 resolve the general SEC-permitted-basis question without universal IFRS acceptance. Current Item21(u) independently retains applicable USGAAS, entity/period/guarantee and conditional-startup requirements. Individual FDD acceptance remains an application question.",
+    "remainingLimits": [
+      "Exact group accounts, reporting companies/periods, applicable SEC-form conditions, startup eligibility and state acceptance require the actual facts; no universal acceptance is asserted."
+    ],
+    "fingerprint": "583d45a8c9407182f010a72cc624b31ab4dc135fc1cd4c20ad80d613993a657e",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-sec-basis",
+      "smb-fed-sec-manual"
+    ],
+    "integratedAt": "2026-11-14T00:56:46.557Z"
+  },
+  {
+    "id": "b3-planning-worker-classification",
+    "decision": "scope-resolved",
+    "conclusion": "The actual May2,2025 opinion cover expressly reconciles FLSA2019-6 and FLSA2025-2. Current Part795 retains six nonexclusive factors. May2025 bulletin and2026 NPRM remain distinct source types. The NPRM reports stayed appeals as of publication, not their latest status.",
+    "remainingLimits": [
+      "Latest appellate docket and governing-circuit application are not established by the bounded official-source check."
+    ],
+    "fingerprint": "e7a6a8ca566d23186ac7ce3a127ecc984e82aadb48e1d25e84ab502476b28f6b",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-dol-opinion2"
+    ],
+    "integratedAt": "2026-11-14T00:58:09.056Z"
+  },
+  {
+    "id": "b2-east-guide-florida",
+    "decision": "source-resolved",
+    "conclusion": "Recovered the actual incorporated application and $100 nonrefundable annual fee. Current portal landing is public, but completing the signed-in workflow remains outside this read-only check.",
+    "remainingLimits": [
+      "No claim about current authenticated screen steps, processing acceptance or every filing method."
+    ],
+    "fingerprint": "059c7795fa40e66121e938bbbc6cbd095fca2bb3a02978c2feb52638777c132d",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-fl-form-10500",
+      "smb-state-fl-rule-reference"
+    ],
+    "integratedAt": "2026-11-14T01:00:04.972Z"
+  },
+  {
+    "id": "b2-east-guide-colorado",
+    "decision": "source-resolved",
+    "conclusion": "Recovered the official2026 PAY CALC amount and precise existing-worker notice events. The employer still needs the actual exception, compensation dates, trade-secret and scope facts.",
+    "remainingLimits": [
+      "No universal covenant outcome, older-agreement threshold, healthcare restriction or other exception is approved."
+    ],
+    "fingerprint": "5a754d785c6aabc3fae47b8997b920ce111575906e057d89a0ce5e1218428ca1",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-co-paycalc-2026"
+    ],
+    "integratedAt": "2026-11-14T01:00:05.187Z"
+  },
+  {
+    "id": "state-guide-hawaii",
+    "decision": "source-resolved",
+    "conclusion": "Read the complete currently linked order: the120-day financial-statement no-action position and listed filing fees are now sourced. Complete offer/effectiveness/disclosure rules remain unverified.",
+    "remainingLimits": [
+      "Complete registration trigger, effectiveness, buyer delivery, exemptions and current overseas execution acceptance remain outside the recovered scope."
+    ],
+    "fingerprint": "8c88ad3160a68825a6e9a116f636129d6fe8216f0f8b589fa021e2bff0998efe",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-hi-order-2023-1",
+      "smb-state-hi-franchise-fees"
+    ],
+    "integratedAt": "2026-11-14T01:00:05.202Z"
+  },
+  {
+    "id": "b2-east-guide-louisiana",
+    "decision": "source-resolved",
+    "conclusion": "The full currently served51:1822(A)–(H) confirms seller$50,000 and agent$25,000 bond amounts, not a flat requirement on every trademark licence.",
+    "remainingLimits": [
+      "Actual covered role, bond purchase/premium and administrative procedure still require facts; no universal franchise bond duty."
+    ],
+    "fingerprint": "e8b4ce1beab4ad889b60dd58b8a327739ae5e994bbcb6d17c2ce81c5666918df",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.203Z"
+  },
+  {
+    "id": "b2-west-a-new-jersey",
+    "decision": "source-resolved",
+    "conclusion": "Recovered currently served official56:10-3,4 and8 through the legislature-linked public statute service. The core codification-access gap is closed for these exact coverage provisions, not every section or case.",
+    "remainingLimits": [
+      "Actual relationship/community-of-interest facts, industry exceptions, allcase-law/outcomes, pre-sale filings and event-specific exit conditions remain outside this coverage update."
+    ],
+    "fingerprint": "134360cc9708f5c3ef4bbe5ca62328da1d56a476e8a9cd93864b9eb8413339fe",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-nj-definition",
+      "smb-state-nj-application",
+      "smb-state-nj-prior-grants"
+    ],
+    "integratedAt": "2026-11-14T01:00:05.260Z"
+  },
+  {
+    "id": "b2-east-guide-massachusetts",
+    "decision": "scope-resolved",
+    "conclusion": "The current official148B(a)–(e) supports the narrow answer that choosing hours alone cannot satisfy the whole exception after the services threshold. It does not supply a universal franchise-owner or technician result; no actual relevant primary opinion was recovered.",
+    "remainingLimits": [
+      "Current franchise-specific services-threshold opinion application remains unverified. No employee/contractor result can be deduced from the generic multi-party example."
+    ],
+    "fingerprint": "12a26d6343843ed3aa7827a7d9ae75c409174b53259ade4fc9997b2f159eba15",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.262Z"
+  },
+  {
+    "id": "state-guide-michigan-disclosure-timing",
+    "decision": "source-resolved",
+    "conclusion": "Recovered current official445.1508(1),(3),445.1502 and general8.6. The rule and prescribed page can now be cited from actual PDFs. These do not by themselves establish every intervening business-day/holiday and legal-delivery input for a particular date.",
+    "remainingLimits": [
+      "No defensible dated commitment example without resolving all actual delivery, relevant agreement/payment, applicable counting and holiday inputs. Do not turn8.6’s final-day rule into an unverified full business-day definition."
+    ],
+    "fingerprint": "8210ae87545bc5e9928fc544c1ea8126575711dda9a94297a25fe2e25824169b",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-mi-disclosure-current-pdf"
+    ],
+    "integratedAt": "2026-11-14T01:00:05.280Z"
+  },
+  {
+    "id": "b2-east-guide-arkansas",
+    "decision": "unresolved",
+    "conclusion": "The enacted2023Act and its date distinctions remain usable; current consolidation was not recovered from the legislature-linked Lexis route.",
+    "remainingLimits": [
+      "Current consolidated provisions and relevant later decisions for an actual grant/change/exit remain unresolved. Do not convert the historical-status note into a current termination rule."
+    ],
+    "fingerprint": "8f6490dec248a988006dd02ba8deb527ad77cccf9ffc97ab7cd585a22af1c4bb",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.281Z"
+  },
+  {
+    "id": "b2-east-guide-georgia",
+    "decision": "unresolved",
+    "conclusion": "The official hosted statutory text still explicitly labels2006currency. It cannot establish current numerical thresholds or franchise-sales exclusions.",
+    "remainingLimits": [
+      "Current business-opportunity coverage, filing, disclosure, advertising and relationship duties remain open. The narrowed name-versus-mark note must not imply they are absent."
+    ],
+    "fingerprint": "1a6d1e5f39d13a8c02f03461035358efc70d089395492be155cac4729333f2af",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.282Z"
+  },
+  {
+    "id": "state-guide-illinois",
+    "decision": "unresolved",
+    "conclusion": "The agency forms page is readable, but the legislature’s linked Act and administrative rules returned503 and the uniform FormA leaves the fee blank. No current fee, channel or initial effectiveness was established.",
+    "remainingLimits": [
+      "Initial statutory timing, current fee and accepted submission channel remain unresolved; the undated annual sheet is not converted into current channel confirmation."
+    ],
+    "fingerprint": "ee4021f70305c7ea1319e7bc7c43620c2dccdaebf53ec37bf30fb73029b551ac",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.283Z"
+  },
+  {
+    "id": "b2-west-oklahoma",
+    "decision": "unresolved",
+    "conclusion": "The administrative advertising gap remains. The Securities Department returned503; the official rules portal returned403with a blocking message.",
+    "remainingLimits": [
+      "Current administrative advertising-filing text must remain open. Neither803(6) nor normal registration timing establishes that no campaign duty exists."
+    ],
+    "fingerprint": "9745236e0e4cd5ae446fab47cbad4e0841d15b31efb828b63f2ad34e09ada753",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.284Z"
+  },
+  {
+    "id": "b2-west-tennessee",
+    "decision": "unresolved",
+    "conclusion": "The entity FAQ remains readable and datedMarch12,2021. A candidate current manual returned503and the current tax landing returned403; no new current tax-year or franchise-sales law was established.",
+    "remainingLimits": [
+      "Current tax-year scope, exemptions/forms/timing and separate Tennessee franchise-sales/relationship law remain unresolved. Tax-versus-sales distinction remains the only published conclusion."
+    ],
+    "fingerprint": "f626b7e5d7cdae5a3ae4c06addce7ba72d9704ec1f70773920b2ee6bb5e51099",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:00:05.284Z"
+  },
+  {
+    "id": "b3-planning-workplace-safety",
+    "decision": "scope-resolved",
+    "conclusion": "Read section5 employer duties and the actual 1910.147 scope/programme text. The proposed replacement teaches one conditional machinery-servicing control rather than implying that an induction satisfies law or prescribing lockout for all powered equipment.",
+    "remainingLimits": [
+      "Job-specific applicability, other standards and state-plan requirements remain outside this baseline."
+    ],
+    "fingerprint": "ec157a7f586dae6f4f7e34b95105c44c330faa6ddab19468369b6759ba157590",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-fed-osha-energy"
+    ],
+    "integratedAt": "2026-11-14T01:00:31.156Z"
+  },
+  {
+    "id": "b2-east-guide-florida",
+    "decision": "source-resolved",
+    "conclusion": "Recovered the actual incorporated application and $100 nonrefundable annual fee. Current portal landing is public, but completing the signed-in workflow remains outside this read-only check.",
+    "remainingLimits": [
+      "No claim about current authenticated screen steps, processing acceptance or every filing method."
+    ],
+    "fingerprint": "ec81a24b79d418c0d66682292f747fa03a5a5ba21ca23127673bf2bd75a72c54",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-fl-form-10500",
+      "smb-state-fl-rule-reference"
+    ],
+    "integratedAt": "2026-11-14T01:06:55.846Z"
+  },
+  {
+    "id": "b2-east-guide-colorado",
+    "decision": "source-resolved",
+    "conclusion": "Recovered the official2026 PAY CALC amount and precise existing-worker notice events. The employer still needs the actual exception, compensation dates, trade-secret and scope facts.",
+    "remainingLimits": [
+      "No universal covenant outcome, older-agreement threshold, healthcare restriction or other exception is approved."
+    ],
+    "fingerprint": "7e2bfc44760af1593f25a6c5d78dc4b67b3d7e64a129968d65e55bb00dcfbaa6",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-co-paycalc-2026"
+    ],
+    "integratedAt": "2026-11-14T01:06:56.293Z"
+  },
+  {
+    "id": "b2-west-a-new-jersey",
+    "decision": "source-resolved",
+    "conclusion": "Recovered currently served official56:10-3,4 and8 through the legislature-linked public statute service. The core codification-access gap is closed for these exact coverage provisions, not every section or case.",
+    "remainingLimits": [
+      "Actual relationship/community-of-interest facts, industry exceptions, allcase-law/outcomes, pre-sale filings and event-specific exit conditions remain outside this coverage update."
+    ],
+    "fingerprint": "83a20f65e7a4f629aba0ca87f84503a2abbeb7871faffe7bed40c3465814e6c1",
+    "decisionFile": "research/smb-edit/states-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-state-nj-definition",
+      "smb-state-nj-application",
+      "smb-state-nj-prior-grants"
+    ],
+    "integratedAt": "2026-11-14T01:06:56.297Z"
+  },
+  {
+    "id": "b3-o2-poland",
+    "decision": "source-resolved",
+    "conclusion": "The general applicability answer can now state actual phase dates, the conditional temporary small-invoice route and foreign-establishment exclusions. Actual establishment involvement and special transaction categories are factual applications, not missing phase information.",
+    "remainingLimits": [
+      "Actual monthly qualifying-invoice total and establishment participation must be determined.",
+      "Other transaction/procedure exclusions and offline modes are not collapsed into the ordinary online explanation."
+    ],
+    "fingerprint": "0a27d4535992d2ccdc4b52baf5caceb30f6c9105ff3af4d39dd266018f83e41f",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-pl-ksef-scope"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.872Z"
+  },
+  {
+    "id": "b2-origin-philippines",
+    "decision": "scope-resolved",
+    "conclusion": "Current primary agency guidance supports a materially useful narrow category/document answer. The publication promise is scoped to that answer rather than falsely claiming every subsequent circular or bank-specific requirement has been cleared.",
+    "remainingLimits": [
+      "The actual category, currency source, investor and bank documents depend on transaction facts.",
+      "Do not add the USD60m threshold notification clock without reconciling the FAQ wording to current operative instruments."
+    ],
+    "fingerprint": "164adbd750307f6cf25f5485b8f4b758a4c2fa896f39ac1322e30ef7f21ed6b3",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-ph-investment-faq"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.883Z"
+  },
+  {
+    "id": "b3-o2-latvia",
+    "decision": "source-resolved",
+    "conclusion": "The previously missing ordinary goods-export evidence route and the advance consequence are sourced. Shipment-specific customs proof and transaction facts remain conditions, not an unexamined list gap.",
+    "remainingLimits": [
+      "Actual goods, recipient, export movement and accepted evidence must be established.",
+      "Do not apply the U.S. commercial scenario to the Ukraine-donation exception or all other zero-rated services."
+    ],
+    "fingerprint": "5329494a6fe556e5c43b8d58d742545a7010377db5847cd46536c561ff169b56",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-lv-reg17"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.890Z"
+  },
+  {
+    "id": "b3-origin3-guide-cyprus",
+    "decision": "source-resolved",
+    "conclusion": "WIPO resolves the basic-mark ambiguity: the underlying record is at the office of origin, with qualifying nexus there. Cyprus’s domestic connection list is retained, while actual proof/eligibility is a factual application rather than an unanswered meaning of basic mark.",
+    "remainingLimits": [
+      "Actual applicant nexus, basic record, intent and signatory facts still require proof.",
+      "Current local submission mechanics and fees are not supplied as an exhaustive procedure."
+    ],
+    "fingerprint": "54e59b0f5ac8c10c7d480aa16be17faadfe47bf809e3772c228d011bd953efb0",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-cy-wipo-basic-mark"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.900Z"
+  },
+  {
+    "id": "b3-o4-moldova",
+    "decision": "source-resolved",
+    "conclusion": "The missing current regulation is recovered and its applicable exempt-account rule is purpose-based. The remaining question—whether a particular expense fits the export-only purpose and final-crediting statute—is transaction application, not absence of implementing evidence.",
+    "remainingLimits": [
+      "Specific expense/treasury use must satisfy the actual legal purpose; no blanket spending permission is inferred.",
+      "Non-bank provider rules and separate tax-account notification/reporting are not cleared."
+    ],
+    "fingerprint": "7f8508266c5f75a30af5768611f35d0cb9a5fe33d2adc82be62dce649f3ae67a",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-md-accounts-regulation"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.902Z"
+  },
+  {
+    "id": "b3-o2-luxembourg",
+    "decision": "source-resolved",
+    "conclusion": "The main country-specific recipient/reporting distinction now has a 2026 statutory compilation behind it. Actual reporting period, exception facts and filing access remain applications; the article no longer needs to frame the whole answer as an unverified January 2023 procedure.",
+    "remainingLimits": [
+      "Actual customer status, establishment and service exception facts control the transaction.",
+      "No blanket filing period/deadline or U.S. tax answer is supplied."
+    ],
+    "fingerprint": "eed66afc6c0014c5acca1409bf306a00843084460ce002deba0a3dd54082dbf3",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-lu-vat-law-2026"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.905Z"
+  },
+  {
+    "id": "b2-origin-thailand",
+    "decision": "scope-resolved",
+    "conclusion": "The owner can be taught the two actual clocks and the specific permitted-use/exclusion branch from official BOT guidance. This resolves the page’s vague timing explanation within an agency-guidance scope, not a complete Gazette-based clearance.",
+    "remainingLimits": [
+      "Formal linked Gazette instruments are not represented as fully interpreted; the public promise is explicitly official-agency guidance.",
+      "Actual fee/trainer-expense purpose, account route and dates are fact-dependent."
+    ],
+    "fingerprint": "2cb0361bc913218a9e7a0146ae56ae2fe9b4820607ddb32b4b21dc3bd433f3c4",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-th-bank-guideline"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.907Z"
+  },
+  {
+    "id": "b3-origin3-guide-iceland",
+    "decision": "scope-resolved",
+    "conclusion": "The inaccessible-regulation gap is now replaced with actual current-hosted regulatory text. The remaining interpretive issue is stated honestly: do not infer a universal certificate duty, universal absence, or obsolescence solely from the statute’s broader wording.",
+    "remainingLimits": [
+      "Application of the regulation’s article1 alternatives to the broader current statutory business-recipient route requires reconciliation; not marked legally cleared.",
+      "Actual domicile/fixed-establishment and service exception facts remain necessary."
+    ],
+    "fingerprint": "781bbd776f2b122ddbd49ea099fa673700e0f3b374c158a7912c82d753d8fd12",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-is-reg194-current"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.909Z"
+  },
+  {
+    "id": "b3-o4-north-macedonia",
+    "decision": "scope-resolved",
+    "conclusion": "The narrow classification warning remains useful and supported by the actual retained agency explanation. New bounded official-route attempts did not recover the missing tabs. No60-day clock, complete attachment list, language mandate or fee is added from another investment service or old law. This is scope resolution, not a claim the original access gap is solved.",
+    "remainingLimits": [
+      "Current amendment/partial-transfer documents, deadline, fee, submission route and language instructions remain unretrieved.",
+      "Do not infer that another inward-investment or real-estate page supplies the outward amendment procedure."
+    ],
+    "fingerprint": "4bf13dd7ddfbbf7d87aa621f81e8ca8169cdf989500379d26bfe5b034b91a1b0",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:14:18.909Z"
+  },
+  {
+    "id": "b3-o4-bosnia",
+    "decision": "scope-resolved",
+    "conclusion": "The announcement is confirmed, but the new gazetted wording and commencement remain unverified. Publication remains a Federation-only explanation of known enacted agreement conditions with an explicit execution hold. No operative date or new filing-ready claim is manufactured from adoption, a catalog or incomplete issue contents.",
+    "remainingLimits": [
+      "New gazetted regulation, commencement and replacement procedure remain unresolved.",
+      "Republika Srpska and Brčko remain outside this Federation article."
+    ],
+    "fingerprint": "c81ff845d73feb17865349c5857b5946090247eee94b1951bc5e7aedc7a36383",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [],
+    "integratedAt": "2026-11-14T01:14:18.911Z"
+  },
+  {
+    "id": "b3-origin3-guide-bulgaria",
+    "decision": "source-resolved",
+    "conclusion": "The specific old-reference and missing later implementing-amendment questions are resolved by the EU repealer and the published final July 2026 decree, rather than the consultation draft. The older register remains a routing aid, not an exhaustive current packet. Actual classification, route eligibility, fee amount and transaction permission remain conditional.",
+    "remainingLimits": [
+      "Actual product, technology, assistance, destination, participants and end use still determine coverage and the route.",
+      "No current fee amount, complete route-specific application or exhaustive later-amendment/control-list survey is supplied.",
+      "No exact commencement date is invented from the Gazette publication dates."
+    ],
+    "fingerprint": "132932d632d736eda0b66f9490e59737331b2ce6aa5b1fc2d13525f32e685023",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-bg-repealer",
+      "smb-origin-bg-gazette55",
+      "smb-origin-bg-decree88"
+    ],
+    "integratedAt": "2026-11-14T01:14:18.988Z"
+  },
+  {
+    "id": "b2-origin-vietnam",
+    "decision": "scope-resolved",
+    "conclusion": "Article 29 entry and withholding-effect conditions are now read in the actual signed Treasury PDF, and a dated official 17 July 2025 draft report explicitly described the agreement as not yet effective then. Neither establishes definitive November 2026 operative status. The page can explain the conditional timing and dated evidence while retaining the current-status hold and no reduced-rate assumption.",
+    "remainingLimits": [
+      "Definitive November 2026 operative status remains unverified; the dated 2025 draft and IRS list absence do not prove no later change.",
+      "No reduced rate, actual payment classification, recipient eligibility or relief entitlement is established.",
+      "The separate FATCA agreement is not substituted for the income-tax agreement."
+    ],
+    "fingerprint": "66906cf9789127fb7f5f9884d67fd8117e7503aff759d9af3385776a5eae9a7e",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-vn-entry-conditions",
+      "smb-origin-vn-status-2025"
+    ],
+    "integratedAt": "2026-11-14T01:14:19.016Z"
+  },
+  {
+    "id": "b3-o2-latvia",
+    "decision": "source-resolved",
+    "conclusion": "The previously missing ordinary goods-export evidence route and the advance consequence are sourced. Shipment-specific customs proof and transaction facts remain conditions, not an unexamined list gap.",
+    "remainingLimits": [
+      "Actual goods, recipient, export movement and accepted evidence must be established.",
+      "Do not apply the U.S. commercial scenario to the Ukraine-donation exception or all other zero-rated services."
+    ],
+    "fingerprint": "db13badc56928dc46241873728b24dd8c91111ece95b39b4c4cc87415d7a2eff",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-lv-reg17"
+    ],
+    "integratedAt": "2026-11-14T01:15:04.305Z"
+  },
+  {
+    "id": "b3-o4-moldova",
+    "decision": "source-resolved",
+    "conclusion": "The missing current regulation is recovered and its applicable exempt-account rule is purpose-based. The remaining question—whether a particular expense fits the export-only purpose and final-crediting statute—is transaction application, not absence of implementing evidence.",
+    "remainingLimits": [
+      "Specific expense/treasury use must satisfy the actual legal purpose; no blanket spending permission is inferred.",
+      "Non-bank provider rules and separate tax-account notification/reporting are not cleared."
+    ],
+    "fingerprint": "81058f4a0649789b0389e5575dc5cf0cbb009d0e5befc83ae3ecd388880477a2",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-md-accounts-regulation"
+    ],
+    "integratedAt": "2026-11-14T01:15:04.308Z"
+  },
+  {
+    "id": "b3-o2-luxembourg",
+    "decision": "source-resolved",
+    "conclusion": "The main country-specific recipient/reporting distinction now has a 2026 statutory compilation behind it. Actual reporting period, exception facts and filing access remain applications; the article no longer needs to frame the whole answer as an unverified January 2023 procedure.",
+    "remainingLimits": [
+      "Actual customer status, establishment and service exception facts control the transaction.",
+      "No blanket filing period/deadline or U.S. tax answer is supplied."
+    ],
+    "fingerprint": "ab46ed7b19fdbd5e87a9d084df82cbc581eaf41d930679b56fab9861549d69d2",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-lu-vat-law-2026"
+    ],
+    "integratedAt": "2026-11-14T01:15:04.310Z"
+  },
+  {
+    "id": "b3-origin3-guide-iceland",
+    "decision": "scope-resolved",
+    "conclusion": "The inaccessible-regulation gap is now replaced with actual current-hosted regulatory text. The remaining interpretive issue is stated honestly: do not infer a universal certificate duty, universal absence, or obsolescence solely from the statute’s broader wording.",
+    "remainingLimits": [
+      "Application of the regulation’s article1 alternatives to the broader current statutory business-recipient route requires reconciliation; not marked legally cleared.",
+      "Actual domicile/fixed-establishment and service exception facts remain necessary."
+    ],
+    "fingerprint": "664394dc7f470f14cf187ea25d0a9b189e1eaa786af59fbce4634031db7a86f5",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-is-reg194-current"
+    ],
+    "integratedAt": "2026-11-14T01:15:04.313Z"
+  },
+  {
+    "id": "b3-origin3-guide-bulgaria",
+    "decision": "source-resolved",
+    "conclusion": "The specific old-reference and missing later implementing-amendment questions are resolved by the EU repealer and the published final July 2026 decree, rather than the consultation draft. The older register remains a routing aid, not an exhaustive current packet. Actual classification, route eligibility, fee amount and transaction permission remain conditional.",
+    "remainingLimits": [
+      "Actual product, technology, assistance, destination, participants and end use still determine coverage and the route.",
+      "No current fee amount, complete route-specific application or exhaustive later-amendment/control-list survey is supplied.",
+      "No exact commencement date is invented from the Gazette publication dates."
+    ],
+    "fingerprint": "d2bd18380490e57d15e8ad7fa9504732323fc743c2bd80586d4c8117eb4bfdf0",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-bg-repealer",
+      "smb-origin-bg-gazette55",
+      "smb-origin-bg-decree88"
+    ],
+    "integratedAt": "2026-11-14T01:15:04.436Z"
+  },
+  {
+    "id": "b2-origin-vietnam",
+    "decision": "scope-resolved",
+    "conclusion": "Article 29 entry and withholding-effect conditions are now read in the actual signed Treasury PDF, and a dated official 17 July 2025 draft report explicitly described the agreement as not yet effective then. Neither establishes definitive November 2026 operative status. The page can explain the conditional timing and dated evidence while retaining the current-status hold and no reduced-rate assumption.",
+    "remainingLimits": [
+      "Definitive November 2026 operative status remains unverified; the dated 2025 draft and IRS list absence do not prove no later change.",
+      "No reduced rate, actual payment classification, recipient eligibility or relief entitlement is established.",
+      "The separate FATCA agreement is not substituted for the income-tax agreement."
+    ],
+    "fingerprint": "383936d1ff6e7b189ffd2955b5e505f72e876c4a556ef56b8318b0b69e8b7def",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-vn-entry-conditions",
+      "smb-origin-vn-status-2025"
+    ],
+    "integratedAt": "2026-11-14T01:15:04.515Z"
+  },
+  {
+    "id": "b3-o2-latvia",
+    "decision": "source-resolved",
+    "conclusion": "The previously missing ordinary goods-export evidence route and the advance consequence are sourced. Shipment-specific customs proof and transaction facts remain conditions, not an unexamined list gap.",
+    "remainingLimits": [
+      "Actual goods, recipient, export movement and accepted evidence must be established.",
+      "Do not apply the U.S. commercial scenario to the Ukraine-donation exception or all other zero-rated services."
+    ],
+    "fingerprint": "1bfe1e5ac1e80b5ccb35b38eff411b7d1125f4aa7e041fdcb1f26216d2587829",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json",
+    "sourceIdsAdded": [
+      "smb-origin-lv-reg17"
+    ],
+    "integratedAt": "2026-11-14T01:16:03.600Z"
+  }
+]

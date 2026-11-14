@@ -350,7 +350,8 @@
     ],
     "sourceIds": [
       "b3-planning-osha-duties",
-      "b3-planning-osha-responsibilities"
+      "b3-planning-osha-responsibilities",
+      "smb-fed-osha-energy"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -358,7 +359,7 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "No task-specific OSHA standard, state-plan rule, incident-reporting deadline or joint-employer determination has been researched here.",
+      "The guide now examines the stated scope and selected energy-control provisions in 29 CFR 1910.147. It does not provide complete task-specific controls or implementation, a state-plan rule, incident-reporting deadline or joint-employer determination.",
       "AI-assisted source review; no professional legal review."
     ],
     "dependentPaths": [

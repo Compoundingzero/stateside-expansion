@@ -23,6 +23,7 @@ export interface ArticleSection {
   heading: string;
   id?: string;
   legacyIndex?: number;
+  aliases?: string[];
   paragraphs?: string[];
   bullets?: string[];
   table?: {headers:string[]; rows:string[][]};
@@ -100,33 +101,74 @@ export function readingLabel(guide: Pick<ArticleGuide, 'sections' | 'readMinutes
   return isReferenceGuide(guide) ? 'Reference guide' : String(guide.readMinutes) + ' min read';
 }
 
-const reservedIds = new Set([
+export const articleFixedIds = [
   'start-here', 'words-to-know', 'sources', 'choose-jurisdiction',
   'what-to-prepare', 'guide-limits', 'official-federal-explanation',
   'detailed-rules', 'documented-cases', 'related-preparation',
-]);
+] as const;
+const reservedIds = new Set<string>(articleFixedIds);
+const isStableId = (value:unknown):value is string => typeof value === 'string' && /^[a-z][a-z0-9-]*$/.test(value) && !/^section-\d+$/.test(value);
+const isAlias = (value:unknown):value is string => typeof value === 'string' && /^[A-Za-z][A-Za-z0-9_.:-]*$/.test(value);
+const legacyIndexValid = (value:unknown):value is number => Number.isInteger(value) && Number(value) >= 0;
+
+function requestedAliases(sections: readonly ArticleSection[]): string[][] {
+  const mapped = sections.some(section => Array.isArray(section.aliases) || legacyIndexValid(section.legacyIndex));
+  return sections.map((section,index) => [
+    ...(Array.isArray(section.aliases) ? section.aliases.filter(isAlias) : []),
+    ...(legacyIndexValid(section.legacyIndex) ? ['section-' + section.legacyIndex] : !mapped ? ['section-' + index] : []),
+  ]);
+}
+
+/** Validate ownership, while allowing an old alias equal to its own replacement section ID. */
+export function sectionAnchorIssues(sections: readonly ArticleSection[]): string[] {
+  const issues:string[] = [];
+  const owners = new Map<string,number>();
+  const claim = (id:string,index:number) => {
+    if (reservedIds.has(id)) issues.push('section ' + index + ': fragment ' + id + ' is reserved for the page');
+    const previous = owners.get(id);
+    if (previous !== undefined && previous !== index) issues.push('section ' + index + ': fragment ' + id + ' already belongs to section ' + previous);
+    else owners.set(id,index);
+  };
+  sections.forEach((section,index) => {
+    if (section.id !== undefined) {
+      if (!isStableId(section.id)) issues.push('section ' + index + ': invalid stable ID');
+      else claim(section.id,index);
+    }
+    if (section.legacyIndex !== undefined && !legacyIndexValid(section.legacyIndex)) issues.push('section ' + index + ': invalid original section index');
+    if (section.aliases !== undefined) {
+      if (!Array.isArray(section.aliases) || section.aliases.some(alias=>!isAlias(alias))) issues.push('section ' + index + ': aliases must be valid fragment IDs');
+      else if (new Set(section.aliases).size !== section.aliases.length) issues.push('section ' + index + ': duplicate aliases');
+    }
+  });
+  requestedAliases(sections).forEach((aliases,index)=>aliases.forEach(alias=>claim(alias,index)));
+  return [...new Set(issues)];
+}
 
 export function semanticSectionIds(sections: readonly ArticleSection[]) {
-  const hasLegacyMapping = sections.some(section => Number.isInteger(section.legacyIndex) && Number(section.legacyIndex) >= 0);
-  const legacyIds = sections.map((section, index) => {
-    if (!hasLegacyMapping) return 'section-' + index;
-    return Number.isInteger(section.legacyIndex) && Number(section.legacyIndex) >= 0 ? 'section-' + section.legacyIndex : undefined;
-  });
-  const used = new Set([...reservedIds, ...legacyIds.filter((id):id is string => Boolean(id))]);
-  const explicitIds = new Set(sections.map(section => section.id).filter((id):id is string => (
-    typeof id === 'string' && /^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(id)
-  )));
-  return sections.map((section, index) => {
-    const explicit = typeof section.id === 'string' && /^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$/.test(section.id)
-      ? section.id : '';
-    const heading = section.heading.normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
-      .toLowerCase().replace(/['’]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-    const base = explicit || (heading && /^[a-z]/.test(heading) ? heading : 'guide-' + (heading || 'section'));
-    let id = base;
-    let suffix = 2;
-    while (used.has(id) || /^section-\d+$/.test(id) || (!explicit && explicitIds.has(id))) id = base + '-' + suffix++;
+  const oldAliases=requestedAliases(sections);
+  const aliasOwners=new Map<string,number>();
+  oldAliases.forEach((aliases,index)=>aliases.forEach(alias=>{
+    if (!reservedIds.has(alias) && !aliasOwners.has(alias)) aliasOwners.set(alias,index);
+  }));
+  const used = new Set<string>(reservedIds);
+  const explicitIds = new Set(sections.map(section=>section.id).filter(isStableId));
+  const entries=sections.map((section,index)=>{
+    const explicit=isStableId(section.id)?section.id:'';
+    const heading=section.heading.normalize('NFKD').replace(/[\u0300-\u036f]/g,'')
+      .toLowerCase().replace(/['’]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+    const base=explicit||(heading&&/^[a-z]/.test(heading)?heading:'guide-'+(heading||'section'));
+    let id=base;let suffix=2;
+    while(used.has(id)||/^section-\d+$/.test(id)||(!explicit&&explicitIds.has(id))||(aliasOwners.has(id)&&aliasOwners.get(id)!==index))id=base+'-'+suffix++;
     used.add(id);
-    return {section, id, legacyId:legacyIds[index], index};
+    return {section,id,index};
+  });
+  const aliasUsed=new Set<string>([...reservedIds,...entries.map(entry=>entry.id)]);
+  return entries.map(entry=>{
+    const aliases=oldAliases[entry.index].filter(alias=>{
+      if(aliasUsed.has(alias))return false;
+      aliasUsed.add(alias);return true;
+    });
+    return {...entry,aliases,legacyId:aliases.find(alias=>/^section-\d+$/.test(alias))};
   });
 }
 
@@ -149,8 +191,9 @@ function internalPath(path: unknown): string | undefined {
 }
 
 export function relatedReading(
-  guide: ArticleGuide, guides: readonly ArticleGuide[], tools: readonly ToolLink[] = [], limit = 4,
+  guide: ArticleGuide, guides: readonly ArticleGuide[], tools: readonly ToolLink[] = [], limit = 2,
 ): RelatedLink[] {
+  const maximum = Math.min(3, Math.max(0, Math.floor(limit)));
   const available = new Map<string, RelatedLink>();
   for (const candidate of guides) {
     if (candidate.status && candidate.status !== 'published') continue;
@@ -168,7 +211,7 @@ export function relatedReading(
       if (!match || seen.has(match.path)) return [];
       seen.add(match.path);
       return [match];
-    }).slice(0, 5);
+    }).slice(0, maximum);
   }
   const broadPlaces=new Set(['federal','u.s. federal','united states','u.s.','all']);
   const specificJurisdictions = (guide.jurisdictions || []).filter(place => !broadPlaces.has(place.trim().toLowerCase()));
@@ -184,7 +227,7 @@ export function relatedReading(
       return {candidate, score};
     }).filter(({score}) => score > 0)
     .sort((a, b) => b.score - a.score || a.candidate.path.localeCompare(b.candidate.path, 'en'))
-    .slice(0, Math.min(5, Math.max(0, limit)))
+    .slice(0, maximum)
     .map(({candidate}) => available.get(candidate.path)!);
 }
 

@@ -776,5 +776,24 @@
     "reviewerStatus": "AI-assisted source review; no professional legal review",
     "accessStatus": "retrieved-and-read",
     "notes": "Read to resolve the historical implementation-date conflict on the Enterprise Singapore page. This date does not determine current product tariffs."
+  },
+  {
+    "id": "smb-sanantonio-dba-form",
+    "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/CofONameChange.pdf",
+    "title": "San Antonio: DBA Name Change application",
+    "authority": "City of San Antonio Development Services Department",
+    "type": "official-guidance",
+    "section": "Complete two-page application; Property Information listed-use fire-review condition; printed Rev 9/26",
+    "supportingPassage": "If yes, a fire review and inspection will be required",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "fetchedAt": "2026-11-14T00:40:46.613116+00:00",
+    "substantiveVerifiedAt": "2026-11-14T00:53:13.941303+00:00",
+    "nextReview": "2026-12-14",
+    "legalStatus": "official-guidance",
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "accessStatus": "retrieved-and-read",
+    "notes": "Read the complete currently linked two-page form. The listed warehouse, manufacturing, storage, retail including rack-display, repair/maintenance-shop, laboratory and hospital uses trigger the stated fire-review/inspection and COO-No Construction fee-class condition. Printed Rev 9/26 is a form revision label, not an inferred enactment/effective date. No numerical fee, actual site classification, approval or guaranteed process is established. The form also asks about changed use, related work and business-specific attachments; these are not treated as universal duties for every business.",
+    "sha256": "1a25296ee0104aeff2a35790ee926e6a5b5a6b3f5eee7c25957d48da8b952294"
   }
 ]

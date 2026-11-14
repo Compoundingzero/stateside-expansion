@@ -1,62 +1,66 @@
 ---
 import Base from '../layouts/Base.astro';
-import {published,sourceById,ruleById,stages,relevantCases,tools} from '../lib/content';
-import {searchTitle,semanticSectionIds,articleBreadcrumbs,learningHubForGuide,hubPath,relatedReading,recordedModifiedAt,isReferenceGuide,learningHubs} from '../lib/article-presentation';
+import {published,sourceById,ruleById,relevantCases,tools} from '../lib/content';
+import {searchTitle,semanticSectionIds,articleBreadcrumbs,relatedReading,recordedModifiedAt,isReferenceGuide,learningHubs} from '../lib/article-presentation';
 const {guide:g}=Astro.props;
 const sources=(g.sourceIds??[]).map(sourceById).filter(Boolean);
 const rules=(g.ruleIds??[]).map(ruleById).filter(Boolean);
 const cases=relevantCases(g);
 const stage=Number.isInteger(g.nextStage)?g.nextStage:1;
 const apply='/plan/?'+new URLSearchParams({stage:String(stage),topic:g.topic??g.id,jurisdiction:(g.jurisdictions??[]).join(',')});
-const sections=semanticSectionIds(g.sections);
+const sections=semanticSectionIds(g.sections??[]);
 const breadcrumbs=articleBreadcrumbs(g);
-const learningHub=learningHubForGuide(g);
 const related=relatedReading(g,published,tools);
 const isPayroll=g.id==='state-employer-payroll-registration';
 const jurisdictions=isPayroll?sections.filter(({section})=>section.table&&((g.jurisdictions??[]).includes(section.heading)||section.heading==='District of Columbia')):[];
 const jurisdictionIds=new Set(jurisdictions.map(entry=>entry.id));
-const tocItems=sections.flatMap(entry=>entry.index===jurisdictions[0]?.index?[{id:'choose-jurisdiction',heading:'Choose a state or Washington, D.C.'}]:jurisdictionIds.has(entry.id)?[]:[{id:entry.id,heading:entry.section.heading}]);
+const terms=Array.isArray(g.keyTerms)?g.keyTerms:[];
+const tocItems=sections.filter(entry=>!jurisdictionIds.has(entry.id)).map(entry=>({id:entry.id,heading:entry.section.heading}));
 const ruleStatus=(status:string)=>({'verified':'Source checked','conditional':'Depends on the facts','unresolved':'Still unresolved'}[status]??status);
 const familyLabel=learningHubs.find(hub=>hub.kind==='family'&&hub.slug===g.family)?.label??'Field guide';
 const modified=recordedModifiedAt(g.contentModifiedAt);
 const updated=modified?new Intl.DateTimeFormat('en-US',{timeZone:'UTC',month:'long',day:'numeric',year:'numeric'}).format(new Date(modified)):null;
 const isReference=isReferenceGuide(g);
-const jurisdictionLabel=g.id==='state-employer-payroll-registration'?'All 50 U.S. states and Washington, D.C.':g.jurisdictions?.join(' · ');
+const jurisdictionLabel=isPayroll?'All 50 U.S. states and Washington, D.C.':g.jurisdictions?.join(' · ');
 ---
 <Base title={searchTitle(g)} headline={g.title} description={g.description} contentModifiedAt={modified} breadcrumbs={breadcrumbs} article action="Apply this to our plan" actionHref={apply}>
-  <article class="container">
+  <article class="container owner-article">
     <nav class="breadcrumb" aria-label="Breadcrumb">{breadcrumbs.map((crumb,index)=><>{index>0&&<span aria-hidden="true">/</span>}{index<breadcrumbs.length-1?<a href={crumb.path}>{crumb.name}</a>:<span aria-current="page">{crumb.name}</span>}</>)}</nav>
-    <header class="page-intro">
-      <span class="eyebrow">{familyLabel}{g.scenarioType&&` · ${g.scenarioType==='fictional'?'FICTIONAL WORKED SCENARIO':'DOCUMENTED CASE'}`}</span>
+    <header class="page-intro article-intro">
+      <span class="eyebrow">{familyLabel}{g.scenarioType&&' · '+(g.scenarioType==='fictional'?'FICTIONAL SCENARIO':'DOCUMENTED CASE')}</span>
       <h1>{g.title}</h1>
-      <p class="lede">{g.description}</p>
-      <div class="article-date"><span>Source review: <time datetime={g.lastReviewed}>{g.lastReviewed??'Not recorded'}</time></span>{updated&&<span>Explanation updated: <time datetime={modified}>{updated}</time></span>}<span>{isReference?'Reference guide: read the introduction, then choose the section you need.':`About ${g.readMinutes} min read`}</span><span>{jurisdictionLabel}</span></div>
+      <p class="article-answer anchor-section" id="start-here">{g.learningSummary}</p>
+      {jurisdictions.length>0&&<details class="jurisdiction-jump anchor-section" id="choose-jurisdiction"><summary>Choose a state or Washington, D.C. <span class="meta">({jurisdictions.length} jurisdictions)</span></summary><nav aria-label="Jump to an employer-account jurisdiction"><ul>{jurisdictions.map(entry=><li><a href={'#'+entry.id}>{entry.section.heading}</a></li>)}</ul></nav></details>}
+      <div class="article-date"><span>Source review: <time datetime={g.lastReviewed}>{g.lastReviewed??'Not recorded'}</time></span>{updated&&<span>Explanation updated: <time datetime={modified}>{updated}</time></span>}<span>{isReference?'Reference guide':g.readMinutes+' min read'}</span><span>{jurisdictionLabel}</span></div>
     </header>
     <div class="article-layout">
       <div class="article-body">
-        {g.scenarioType==='fictional'&&<div class="notice">Fictional business and illustrative assumptions. This is a learning exercise, not a customer result or forecast.</div>}
-        <details class="mobile-article-contents"><summary>On this page</summary><nav aria-label="Sections in this guide"><ol>{g.learningSummary&&<li><a href="#start-here">The idea in plain English</a></li>}{g.keyTerms?.length>0&&<li><a href="#words-to-know">Words used in this guide</a></li>}{tocItems.map(({heading,id})=><li><a href={'#'+id}>{heading}</a></li>)}<li><a href="#sources">Sources &amp; review notes</a></li></ol></nav></details>
-        {g.learningSummary&&<section class="article-overview anchor-section" id="start-here"><h2>The idea in plain English</h2><p>{g.learningSummary}</p></section>}
-        {g.keyTerms?.length>0&&<section class="article-terms anchor-section" id="words-to-know"><h2>Words used in this guide</h2><dl>{g.keyTerms.map((entry:any)=><div><dt>{entry.term}</dt><dd>{entry.meaning}</dd></div>)}</dl></section>}
-        {sections.map(({section,id,legacyId,index})=><>
-          {jurisdictions.length>0&&index===jurisdictions[0].index&&<details class="jurisdiction-jump anchor-section" id="choose-jurisdiction"><summary>Choose a state or Washington, D.C. <span class="meta">({jurisdictions.length} jurisdictions)</span></summary><nav aria-label="Jump to an employer-account jurisdiction"><ul>{jurisdictions.map(entry=><li><a href={'#'+entry.id}>{entry.section.heading}</a></li>)}</ul></nav></details>}
-          <section class="anchor-section" id={id}>
-          {legacyId&&<span id={legacyId} class="section-alias" aria-hidden="true"></span>}
+        {g.scenarioType==='fictional'&&<p class="fiction-note">Fictional business and illustrative assumptions; these are not reported results or a forecast.</p>}
+        <details class="mobile-article-contents"><summary>On this page</summary><nav aria-label="Sections in this guide"><ol>{jurisdictions.length>0&&<li><a href="#choose-jurisdiction">Choose a jurisdiction</a></li>}{tocItems.map(({heading,id})=><li><a href={'#'+id}>{heading}</a></li>)}<li><a href="#what-to-prepare">Next step</a></li><li><a href="#sources">Official sources</a></li></ol></nav></details>
+        {sections.map(({section,id,aliases})=><section class="anchor-section article-main-section" id={id}>
+          {aliases.map(alias=><span id={alias} class="section-alias" aria-hidden="true"></span>)}
           <h2>{section.heading}</h2>
-          {section.paragraphs?.map((p:string)=><p>{p}</p>)}
-          {section.bullets?.length>0&&<ul>{section.bullets.map((b:string)=><li>{b}</li>)}</ul>}
-          {section.table&&<div class="table-wrap" tabindex="0" role="region" aria-label={section.heading+' table'}><table><thead><tr>{section.table.headers.map((h:string)=><th scope="col">{h}</th>)}</tr></thead><tbody>{section.table.rows.map((row:string[])=><tr>{row.map((cell:string)=><td>{cell}</td>)}</tr>)}</tbody></table></div>}
-          {section.sourceIds?.length>0&&<p class="meta section-citations">Official sources for this explanation: {section.sourceIds.map((id:string)=>{const s=sourceById(id);return s?<a href={s.url} rel="noopener">{s.authority}: {s.section??s.title} </a>:null})}</p>}
-        </section></>)}
-        <section class="notice anchor-section" id="what-to-prepare"><h3>What your team should prepare</h3><p>{g.practicalOutput}</p><p class="meta">Relevant planning stage: {stages[stage]}. Reading the explanation helps you prepare; the underlying application, agreement or business decision still needs to be completed.</p></section>
-        {g.limitations?.length>0&&<section class="anchor-section" id="guide-limits"><h2>What this guide does not settle</h2><ul>{g.limitations.map((l:string)=><li>{l}</li>)}</ul></section>}
-        {g.family==='fdd'&&<section class="official-reading sources anchor-section" id="official-federal-explanation"><h2>Read the official federal explanation</h2><p>The Federal Trade Commission (FTC) is the U.S. agency responsible for the federal Franchise Rule. These resources help you move from this explanation to the original requirements.</p><ul><li><a href="https://www.ftc.gov/legal-library/browse/rules/franchise-rule">FTC Franchise Rule overview</a> — the rule’s purpose and links to official materials.</li><li><a href="https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide">FTC Franchise Rule Compliance Guide</a> — worked explanations of the disclosure requirements, with a <a href="https://www.ftc.gov/system/files/documents/plain-language/bus70-franchise-rule-compliance-guide.pdf">printable PDF</a>.</li><li><a href="https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436">Current 16 CFR Part 436</a> — CFR means Code of Federal Regulations; Part 436 contains the actual federal franchise requirements.</li></ul><p class="meta">The Compliance Guide was published in May 2008. It explains the rule but does not change it; use the current regulation and later official updates for current requirements and dollar amounts. State and territorial requirements are separate.</p></section>}
-        {rules.length>0&&<details class="article-rule-details anchor-section" id="detailed-rules"><summary>Read the detailed rules behind this guide ({rules.length})</summary><div><p>These records show the requirement, when it may apply and the official material supporting it.</p>{rules.map((r:any)=><div class="source-record"><strong>{r.title}</strong> <span class:list={['pill',r.status]}>{ruleStatus(r.status)}</span><p>{r.requirement}</p><p class="meta">When to check: {r.trigger}. Source review: {r.verifiedAt??'not verified'}.</p>{r.sourceIds?.map((id:string)=>{const s=sourceById(id);return s?<a href={s.url}>{s.title} </a>:null})}</div>)}</div></details>}
-        {cases.length>0&&<section class="sources anchor-section" id="documented-cases"><h2>Relevant documented cases</h2><p>These real records show how the issue arose in practice. A complaint describes allegations; a judgment or settlement has its own legal effect. Each case guide explains which kind of record is available.</p>{cases.map(({link,guide:caseGuide})=><div class="source-record"><h3><a href={caseGuide!.path}>{caseGuide!.title}</a></h3><p>{link.explanation}</p></div>)}</section>}
-        <section class="sources anchor-section" id="sources"><h2>Sources &amp; review notes</h2><p>These are the official materials behind the explanation. The site uses AI-assisted source research and has not received professional legal review. A retrieval date records when a source was accessed; a substantive review date records when its meaning was checked.</p>{sources.map((s:any)=><div class="source-record article-source"><a class="source-title" href={s.url} rel="noopener">{s.title}</a><p>{s.authority}</p><details><summary>See the source passage and review notes</summary><div><p>{s.type} · {s.section}</p>{s.supportingPassage&&<blockquote>{s.supportingPassage}</blockquote>}<p class="meta">Accessed: {s.fetchedAt??'not fetched'} · Meaning reviewed: {s.substantiveVerifiedAt??'not verified'} · Next review target: {s.nextReview??'not set'}</p>{s.notes&&<p>{s.notes}</p>}</div></details></div>)}</section>
-        <section class="sources article-related anchor-section" id="related-preparation"><h2>Continue your preparation</h2>{learningHub&&<p class="article-cluster-link">Explore <a href={hubPath(learningHub)}>{learningHub.label}</a> for the related guides and questions.</p>}{related.length>0&&<ul>{related.map(item=><li><span class="meta">{item.kind==='tool'?'Planning tool':'Field guide'}</span><a href={item.path}>{item.title}</a>{item.description&&<p>{item.description}</p>}</li>)}</ul>}</section>
+          {section.paragraphs?.map((paragraph:string)=><p>{paragraph}</p>)}
+          {section.bullets?.length>0&&<ul>{section.bullets.map((bullet:string)=><li>{bullet}</li>)}</ul>}
+          {section.table&&<div class="table-wrap" tabindex="0" role="region" aria-label={section.heading+' table'}><table><thead><tr>{section.table.headers.map((heading:string)=><th scope="col">{heading}</th>)}</tr></thead><tbody>{section.table.rows.map((row:string[])=><tr>{row.map((cell:string)=><td>{cell}</td>)}</tr>)}</tbody></table></div>}
+          {section.sourceIds?.length>0&&<p class="meta section-citations">Sources: {section.sourceIds.map((id:string)=>{const source=sourceById(id);return source?<a href={source.url} rel="noopener">{source.authority}: {source.section??source.title} </a>:null})}</p>}
+        </section>)}
+        {g.limitations?.length>0?<section class="article-scope anchor-section" id="guide-limits"><h2>Scope</h2><ul>{g.limitations.map((limit:string)=><li>{limit}</li>)}</ul></section>:<span id="guide-limits" class="section-alias" aria-hidden="true"></span>}
+        <section class="article-next anchor-section" id="what-to-prepare"><h2>Next step</h2><p>{g.practicalOutput}</p></section>
+        {terms.length>0?<details class="article-terms article-extra anchor-section" id="words-to-know"><summary>Terms used here</summary><dl>{terms.map((term:any)=><div><dt>{term.term}</dt><dd>{term.meaning}</dd></div>)}</dl></details>:<span id="words-to-know" class="section-alias" aria-hidden="true"></span>}
+        <details class="article-references article-extra anchor-section" id="sources">
+          <summary>Sources &amp; review notes</summary>
+          <div>
+            {g.family==='fdd'?<section id="official-federal-explanation" class="anchor-section official-reading"><h3>Federal Franchise Rule</h3><p><a href="https://www.ftc.gov/legal-library/browse/rules/franchise-rule">FTC overview</a> · <a href="https://www.ftc.gov/business-guidance/resources/franchise-rule-compliance-guide">Compliance Guide</a> · <a href="https://www.ftc.gov/system/files/documents/plain-language/bus70-franchise-rule-compliance-guide.pdf">Guide PDF</a> · <a href="https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436">Current regulation</a></p><p class="meta">The Compliance Guide is May 2008 explanatory guidance. The current regulation and later official updates control current requirements and dollar amounts; state and territorial rules are separate.</p></section>:<span id="official-federal-explanation" class="section-alias" aria-hidden="true"></span>}
+            <p class="meta">The source records distinguish access dates from substantive review dates. Updating an explanation does not itself recheck the law.</p>
+            {sources.map((source:any)=><div class="source-record article-source"><a class="source-title" href={source.url} rel="noopener">{source.title}</a><p>{source.authority}</p><details><summary>Passage, dates and research notes</summary><div><p>{source.type} · {source.section}</p>{source.supportingPassage&&<blockquote>{source.supportingPassage}</blockquote>}<p class="meta">Accessed: {source.fetchedAt??'not fetched'} · Meaning reviewed: {source.substantiveVerifiedAt??'not verified'} · Next review target: {source.nextReview??'not set'}</p>{source.notes&&<p>{source.notes}</p>}</div></details></div>)}
+            {rules.length>0?<details class="article-rule-details anchor-section" id="detailed-rules"><summary>Detailed rule records ({rules.length})</summary><div>{rules.map((rule:any)=><div class="source-record"><strong>{rule.title}</strong> <span class:list={['pill',rule.status]}>{ruleStatus(rule.status)}</span><p>{rule.requirement}</p><p class="meta">When to check: {rule.trigger}. Source review: {rule.verifiedAt??'not verified'}.</p>{rule.sourceIds?.map((id:string)=>{const source=sourceById(id);return source?<a href={source.url}>{source.title} </a>:null})}</div>)}</div></details>:<span id="detailed-rules" class="section-alias" aria-hidden="true"></span>}
+            {cases.length>0?<section class="article-case-links anchor-section" id="documented-cases"><h3>Related case records</h3><p class="meta">The case guides distinguish allegations, orders and outcomes.</p><ul>{cases.map(({guide:caseGuide}:any)=><li><a href={caseGuide.path}>{caseGuide.title}</a></li>)}</ul></section>:<span id="documented-cases" class="section-alias" aria-hidden="true"></span>}
+          </div>
+        </details>
+        {related.length>0?<nav class="article-related anchor-section" id="related-preparation" aria-label="Related reading"><h2>Related reading</h2><ul>{related.map(item=><li><a href={item.path}>{item.title}</a></li>)}</ul></nav>:<span id="related-preparation" class="section-alias" aria-hidden="true"></span>}
       </div>
-      <aside class="article-aside" tabindex="0" aria-label="In this guide"><strong>In this guide</strong><ol>{g.learningSummary&&<li><a href="#start-here">The idea in plain English</a></li>}{g.keyTerms?.length>0&&<li><a href="#words-to-know">Words used in this guide</a></li>}{tocItems.map(({heading,id})=><li><a href={'#'+id}>{heading}</a></li>)}<li><a href="#sources">Sources &amp; review notes</a></li></ol><p class="meta">What you will prepare</p><p>{g.practicalOutput}</p></aside>
+      <aside class="article-aside" tabindex="0" aria-label="In this guide"><strong>On this page</strong><ol>{jurisdictions.length>0&&<li><a href="#choose-jurisdiction">Choose a jurisdiction</a></li>}{tocItems.map(({heading,id})=><li><a href={'#'+id}>{heading}</a></li>)}<li><a href="#what-to-prepare">Next step</a></li><li><a href="#sources">Official sources</a></li></ol></aside>
     </div>
   </article>
 </Base>

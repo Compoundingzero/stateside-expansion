@@ -1,0 +1,335 @@
+[
+  {
+    "id": "b3-planning-houston-occupancy",
+    "path": "/cities/houston/",
+    "question": "Can the article establish the current detailed occupancy application procedure?",
+    "disposition": "scope-resolved; detailed-source-access-blocked",
+    "evidence": [
+      {
+        "id": "b3-planning-houston-plan",
+        "url": "https://www.houstontx.gov/business/plan/permits-inspections.html",
+        "finalUrl": "https://www.houstontx.gov/business/plan/permits-inspections.html",
+        "retrievedAt": "2026-11-14T00:39:30.899423+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 37335,
+        "sha256": "b9b5699ac611455949913334d5bcec85f7685a1a64d0b261c5d817f26655c4b5",
+        "bodyPath": "/tmp/eln-place-source-check/b3-planning-houston-plan.html",
+        "error": null,
+        "readScope": "Full current city business-page body; occupancy and conditional permit passages read",
+        "supportingPassage": "A Certificate of Occupancy must be obtained before a commercial building or an individual lease space within a commercial building may be occupied, or if changes to an existing occupancy classification are made.",
+        "interpretation": "Supports the before-occupancy/classification-change rule and the narrow exact-unit/use check; not a complete application recipe."
+      },
+      {
+        "id": "houston-occupancy-linked",
+        "url": "https://www.houstonpermittingcenter.org/code-enforcement/inspections.html#certificate",
+        "finalUrl": "https://www.houstonpermittingcenter.org/code-enforcement/inspections.html#certificate",
+        "retrievedAt": "2026-11-14T00:40:46.610863+00:00",
+        "httpStatus": 403,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 4561,
+        "sha256": "4c41892060bce40adda86fee0612a43a6622557b9104d096179682df2ceffcf5",
+        "bodyPath": "/tmp/eln-place-source-check/houston-occupancy-linked.html",
+        "error": "HTTP Error 403: Forbidden",
+        "readScope": "Response inspected: 403 access page only",
+        "supportingPassage": null,
+        "interpretation": "No substantive permitting body retrieved."
+      },
+      {
+        "id": "houston-howto",
+        "url": "https://www.houstonpermittingcenter.org/media/6036/download",
+        "finalUrl": "https://www.houstonpermittingcenter.org/media/6036/download",
+        "retrievedAt": "2026-11-14T00:43:59.859588+00:00",
+        "httpStatus": 403,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 4561,
+        "sha256": "96aeb31029d178525be342df43704111705116fe2e000ce6c03113c58609069f",
+        "bodyPath": "/tmp/eln-place-source-check/houston-howto.html",
+        "error": "HTTP Error 403: Forbidden",
+        "readScope": "Official PDF URL discovered by search; response inspected: 403 access page only",
+        "supportingPassage": null,
+        "interpretation": "Search preview is not a verified full document and was not used to establish steps or deadlines."
+      },
+      {
+        "id": "houston-occupancy-brochure",
+        "url": "https://www.houstonpermittingcenter.org/media/2231/download",
+        "finalUrl": "https://www.houstonpermittingcenter.org/media/2231/download",
+        "retrievedAt": "2026-11-14T00:43:59.860490+00:00",
+        "httpStatus": 403,
+        "contentType": "text/html; charset=UTF-8",
+        "bytes": 4561,
+        "sha256": "920e2a58ecf7100ea24dd9ba88ec51f5703b5b812107695c3eb8021e0411a433",
+        "bodyPath": "/tmp/eln-place-source-check/houston-occupancy-brochure.html",
+        "error": "HTTP Error 403: Forbidden",
+        "readScope": "Official PDF URL discovered by search; response inspected: 403 access page only",
+        "supportingPassage": null,
+        "interpretation": "No substantive PDF read; do not lift preview wording into the article."
+      }
+    ],
+    "conclusion": "The rewritten article is supportable as a pre-lease occupancy/use check. A complete current Houston opening/application procedure remains unverified. Bounded normal requests to the linked detailed page and two official document URLs did not yield full primary text.",
+    "unresolved": [
+      "Current detailed application and inspection steps, fees and processing time",
+      "Actual property/classification and other building, fire, environmental and sector duties"
+    ],
+    "recommendedPatchChanges": [
+      {
+        "target": "limitations[0]",
+        "operation": "retain",
+        "exactText": "This is a pre-lease occupancy check from a city summary. Detailed official permitting PDFs were access-blocked; current application steps, fees, classification outcome and parcel approval remain unverified."
+      }
+    ],
+    "metadataHandling": "No source-review date or canonical metadata changed. Preserve initial review dates; record these actual retrievals separately."
+  },
+  {
+    "id": "b3-local-indianapolis-fire",
+    "path": "/cities/indianapolis/fire-extinguisher-licenses/",
+    "question": "Are the extinguisher applications and the 2026 premises letter one current licence process?",
+    "disposition": "scope-resolved; currently-published-links-confirmed",
+    "evidence": [
+      {
+        "id": "b3-local-indy-business",
+        "url": "https://api-us-east-1-indy.graphcms.com/v2/ckp3xrh1i657g01xp53az2mv4/master?query=query+%7B+activity%28where%3A+%7Bslug%3A+%22business-licenses%22%7D%29+%7B+title+slug+description+%7B+html+markdown+%7D+related_activities+%7B+title+slug+%7D+%7D+%7D",
+        "finalUrl": "https://api-us-east-1-indy.graphcms.com/v2/ckp3xrh1i657g01xp53az2mv4/master?query=query+%7B+activity%28where%3A+%7Bslug%3A+%22business-licenses%22%7D%29+%7B+title+slug+description+%7B+html+markdown+%7D+related_activities+%7B+title+slug+%7D+%7D+%7D",
+        "retrievedAt": "2026-11-14T00:39:30.889341+00:00",
+        "httpStatus": 200,
+        "contentType": "application/json",
+        "bytes": 55532,
+        "sha256": "8beec001019da741d39589f542f7fd9918411be5029cbb616f0281a8ce15fc8d",
+        "bodyPath": "/tmp/eln-place-source-check/b3-local-indy-business.json",
+        "error": null,
+        "readScope": "Published city CMS activity body read; fire-equipment licensing and general application instructions checked",
+        "supportingPassage": "The business and each service person must hold a license.",
+        "interpretation": "Current published city content distinguishes company and service-person permissions and requires the Fire Department certification stamp for service-person applications."
+      },
+      {
+        "id": "b3-local-indy-fire-business",
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/W8p19TnMSA2EykQnyKnv?dl=true",
+        "finalUrl": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/W8p19TnMSA2EykQnyKnv?dl=true",
+        "retrievedAt": "2026-11-14T00:39:30.890303+00:00",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 381519,
+        "sha256": "4ffdcc107402b50c653094743f4b8de4fd53606c394256ce239a075244857e23",
+        "bodyPath": "/tmp/eln-place-source-check/b3-local-indy-fire-business.pdf",
+        "error": null,
+        "readScope": "Full two-page company application read",
+        "supportingPassage": "Last Modified 10/2023",
+        "interpretation": "The current city page still links this October 2023 form. Its printed $207 amount is not independently verified as the 2026 fee; no current renewal term established."
+      },
+      {
+        "id": "b3-local-indy-fire-person",
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/7UjoXtTjiTiPj5MKCopw?dl=true",
+        "finalUrl": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/7UjoXtTjiTiPj5MKCopw?dl=true",
+        "retrievedAt": "2026-11-14T00:39:30.891157+00:00",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 243031,
+        "sha256": "4fafbd360ee5500e6adeb131a88877825645f87d341fd0761483a657b63e22a4",
+        "bodyPath": "/tmp/eln-place-source-check/b3-local-indy-fire-person.pdf",
+        "error": null,
+        "readScope": "Full one-page service-person application read",
+        "supportingPassage": "Last Modified 10/2023",
+        "interpretation": "The current city page still links this October 2023 form. It identifies the individual and associated company; it does not prove the actual worker is licensed or verify a 2026 fee/term."
+      },
+      {
+        "id": "b3-local-indy-co-letter",
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/cmk1a38j44o7z06lkouxmu0ka?dl=true",
+        "finalUrl": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/cmk1a38j44o7z06lkouxmu0ka?dl=true",
+        "retrievedAt": "2026-11-14T00:39:30.891941+00:00",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 181955,
+        "sha256": "cb2e58668a291c45b421656b70ad1c2bdf37ff3fccfdc71b764a49360e8ae073",
+        "bodyPath": "/tmp/eln-place-source-check/b3-local-indy-co-letter.pdf",
+        "error": null,
+        "readScope": "Full signed one-page letter read, including exception and fee paragraph",
+        "supportingPassage": "within fourteen (14) days after completion of the construction for which a building permit has been issued and prior to occupancy or use of the structure",
+        "interpretation": "Letter is expressly for January 1–December 31, 2026. Both timing conditions apply. Proper architect/engineer filing can remove the structural-permit holder filing requirement; the 30-days-after-expiry administrative-fee trigger is not occupancy grace."
+      }
+    ],
+    "conclusion": "The company/person licensing answer and construction-completion answer are distinct and remain separated in the replacement. Published current links were confirmed, but the form revision dates remain October 2023. This is not verification of a new 2026 licensing fee, renewal schedule or complete ordinance scope.",
+    "unresolved": [
+      "Current ordinance/application scope beyond the named extinguisher work",
+      "Current fees, licence duration, renewal/certification detail and actual worker/company status",
+      "Actual parcel jurisdiction and whether the stated structural-permit exception applies"
+    ],
+    "recommendedPatchChanges": [
+      {
+        "target": "sections[company-and-person].paragraphs[1]",
+        "operation": "optional precise clarification",
+        "exactText": "The city’s current published page still links applications marked October 2023. Confirm the applicable fees, certification steps and licence terms; the separate signed 2026 premises letter does not update those licensing terms."
+      }
+    ],
+    "metadataHandling": "Bodies and hashes match the previously saved applications/letter. Do not replace their document dates with the current retrieval date or advance substantive source review automatically."
+  },
+  {
+    "id": "geo-guide-dallas",
+    "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+    "question": "Does the current official material reconcile the DBA-only record-change and stand-alone application descriptions?",
+    "disposition": "scope-resolved; official-wording-conflict-persists",
+    "evidence": [
+      {
+        "id": "geo-local-dallas",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "finalUrl": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "retrievedAt": "2026-11-14T00:39:30.892718+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 53360,
+        "sha256": "f9bbe394238d9bc2505dab3ec4aaa50c3adbc3f299bb6fa983d7e24585f5a470",
+        "bodyPath": "/tmp/eln-place-source-check/geo-local-dallas.html",
+        "error": null,
+        "readScope": "Full current CO page read, including triggers, record-change paragraph, later DBA FAQ and application instructions",
+        "supportingPassage": "A “record change” can be made to a CO when only the name of the business (DBA) changes.",
+        "interpretation": "The same body later says DBA changes must be submitted through DallasNow as a stand-alone CO application. It separately lists tenant change as a new-CO trigger. Do not resolve the DBA workflow or fee by selecting one paragraph."
+      },
+      {
+        "id": "dallas-co-faq-may2026",
+        "url": "https://dallascityhall.com/departments/pnv/Documents/COFAQ_May2026.pdf",
+        "finalUrl": "https://dallascityhall.com/departments/pnv/Documents/COFAQ_May2026.pdf",
+        "retrievedAt": "2026-11-14T00:40:46.611844+00:00",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 2209502,
+        "sha256": "b89a8fce6ef3bf60a3aea0c8218e209ef26841e6d7d312d41942b6c98c94aedd",
+        "bodyPath": "/tmp/eln-place-source-check/dallas-co-faq-may2026.pdf",
+        "error": null,
+        "readScope": "Full linked one-page PDF read: all five questions/answers",
+        "supportingPassage": "How long is the process to obtain a CO?",
+        "interpretation": "The May2026 filename FAQ explains change of use, variable timing, Land Use Questionnaire, review/payment/inspection sequence and fees not guaranteeing approval. It does not address DBA-only changes; its date cannot settle that conflict."
+      },
+      {
+        "id": "dallas-co-checklist",
+        "url": "https://dallascityhall.com/departments/pnv/Documents/AH%20Memos/CERT%20OF%20OCCUPANCY%20CHECKLIST-25-001.pdf",
+        "finalUrl": "https://dallascityhall.com/departments/pnv/Documents/AH%20Memos/CERT%20OF%20OCCUPANCY%20CHECKLIST-25-001.pdf",
+        "retrievedAt": "2026-11-14T00:40:46.612492+00:00",
+        "httpStatus": 404,
+        "contentType": "text/html",
+        "bytes": 765,
+        "sha256": "4c5278fb5462c5bd487548a4fcbb1b0cc2fe10fbe9f740a24c8fb9f8a9ddc0fc",
+        "bodyPath": "/tmp/eln-place-source-check/dallas-co-checklist.html",
+        "error": "HTTP Error 404: Not Found",
+        "readScope": "Linked URL response inspected: 404 only",
+        "supportingPassage": null,
+        "interpretation": "No substantive checklist retrieved."
+      },
+      {
+        "id": "dallas-development-guide",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/DCH%20documents/2025%20-2026-%20Development%20Guide%20%20FINAL%20DRAFT.pdf",
+        "finalUrl": "https://dallascityhall.com/departments/sustainabledevelopment/DCH%20documents/2025%20-2026-%20Development%20Guide%20%20FINAL%20DRAFT.pdf",
+        "retrievedAt": "2026-11-14T00:43:59.861137+00:00",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 63351371,
+        "sha256": "37c289c114cc317703c50bb8554524126d971d90e4018aca5fafc8d021a6497f",
+        "bodyPath": "/tmp/eln-place-source-check/dallas-development-guide.pdf",
+        "error": null,
+        "readScope": "Complete Certificate of Occupancy chapter, printed p.60, read; title and introductory status context inspected",
+        "supportingPassage": "A “record change” can be made to a CO when the name of the business listed on a CO changes (DBA change). No inspections are made.",
+        "interpretation": "Official 2025–2026 guide repeats the record-change description and multi-family no-code-violations condition, but does not reconcile the current page’s stand-alone-application statement. Filename contains FINAL DRAFT; no adoption/priority inference made."
+      },
+      {
+        "id": "dallas-development-webguide",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/guide/Pages/default.aspx",
+        "finalUrl": "https://dallascityhall.com/departments/sustainabledevelopment/guide/Pages/default.aspx",
+        "retrievedAt": "2026-11-14T00:43:59.862227+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 1158367,
+        "sha256": "9abd91010f47b8bb126bdf38ccd0a4ba77bfdbbd364f002303270179fb1c34d0",
+        "bodyPath": "/tmp/eln-place-source-check/dallas-development-webguide.html",
+        "error": null,
+        "readScope": "Complete CO Pathway, Document Checklist and immediately relevant fee caveat read",
+        "supportingPassage": "Same business, same use — just a name change. Less involved than a full new CO.",
+        "interpretation": "The current guide recognises a DBA Change CO category but gives no rule resolving record-change versus stand-alone submission. Its fee section itself warns some displayed amounts are prior amounts; no current numerical fee used."
+      }
+    ],
+    "conclusion": "Tenant change remains a supported and useful separate trigger. DBA-only procedural wording is still unreconciled across and within official material. New accessible documents do not justify a shortcut, no-inspection assurance, current fee, or processing-time promise.",
+    "unresolved": [
+      "Current DBA-only filing workflow, fee and inspection conditions",
+      "Actual unit/operator/use classification, application decision and other permits"
+    ],
+    "recommendedPatchChanges": [
+      {
+        "target": "sections[name-only-uncertainty].paragraphs[0]",
+        "operation": "retain central conflict; optional brief evidence update",
+        "exactText": "Dallas’s page describes a conditional record-change route near the start and a stand-alone application later for a DBA-only change. The linked May 2026 FAQ does not answer that question. Confirm the current workflow and fee with Dallas before relying on a shortcut."
+      }
+    ],
+    "metadataHandling": "No source metadata edited. Any newly associated FAQ/guide needs its own source record and exact review scope; do not mark the DBA question verified."
+  },
+  {
+    "id": "geo-compare-texas-occupancy",
+    "path": "/comparisons/dallas-san-antonio-occupancy/",
+    "question": "Which two-city distinction is established, and does a San Antonio name-update route necessarily avoid inspection?",
+    "disposition": "partially-source-resolved; Dallas-conflict-remains",
+    "evidence": [
+      {
+        "id": "geo-local-dallas",
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "finalUrl": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "retrievedAt": "2026-11-14T00:39:30.892718+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 53360,
+        "sha256": "f9bbe394238d9bc2505dab3ec4aaa50c3adbc3f299bb6fa983d7e24585f5a470",
+        "bodyPath": "/tmp/eln-place-source-check/geo-local-dallas.html",
+        "error": null,
+        "readScope": "Full current CO body read",
+        "supportingPassage": "A change of tenant on an existing CO",
+        "interpretation": "Supports the tenant-change distinction; the body still contains conflicting DBA-only instructions."
+      },
+      {
+        "id": "geo-local-san-antonio",
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Constructing/Business-Commercial/Certificate-of-Occupancy",
+        "finalUrl": "https://www.sa.gov/Directory/Departments/DSD/Constructing/Business-Commercial/Certificate-of-Occupancy",
+        "retrievedAt": "2026-11-14T00:39:30.893626+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 162618,
+        "sha256": "653a5aa14298db879f11e6dbeb2161603394a60e5c2cb8ab43a1bcc2a400331f",
+        "bodyPath": "/tmp/eln-place-source-check/geo-local-san-antonio.html",
+        "error": null,
+        "readScope": "Full current CO body read, including owner/lessee update, changed use and listed special categories",
+        "supportingPassage": "Change of Business Use",
+        "interpretation": "Same-use owner/lessee changes may use an update route, but listed categories always require a new CO. Changed use separately requires the applicable CO process."
+      },
+      {
+        "id": "sanantonio-update-form",
+        "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/CofONameChange.pdf",
+        "finalUrl": "https://docsonline.sanantonio.gov/FileUploads/dsd/CofONameChange.pdf",
+        "retrievedAt": "2026-11-14T00:40:46.613116+00:00",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 205300,
+        "sha256": "1a25296ee0104aeff2a35790ee926e6a5b5a6b3f5eee7c25957d48da8b952294",
+        "bodyPath": "/tmp/eln-place-source-check/sanantonio-update-form.pdf",
+        "error": null,
+        "readScope": "Full two-page currently linked DBA Name Change application read; both pages marked Rev 9/26",
+        "supportingPassage": "If yes, a fire review and inspection will be required and the fee for this application will be assessed as a COO-No Construction.",
+        "interpretation": "This follows the form’s listed warehouse, manufacturing, storage, retail including rack displays, repair/maintenance-shop, laboratory and hospital uses. A name-update category therefore does not establish an inspection-free or cheaper route. No numerical fee appears in this condition."
+      }
+    ],
+    "conclusion": "The supported two-city tenant/use distinction remains. The newly read San Antonio form adds a concrete inspection/fee-class condition to the name-update discussion, while Dallas’s DBA-only conflict remains unresolved. The replacement is a prose comparison; if converted back to a table, Dallas uncertainty must stay within its cell.",
+    "unresolved": [
+      "Dallas DBA-only workflow/fee",
+      "Actual San Antonio site/use, category-specific requirements and applicable current charge",
+      "No proven city-wide cost or speed advantage"
+    ],
+    "recommendedPatchChanges": [
+      {
+        "target": "sections[city-route-difference].paragraphs[1]",
+        "operation": "replace with qualified source-backed text after associating new source",
+        "exactText": "A name-only change is another question. Dallas’s current page has conflicting record-change and stand-alone application descriptions, so its DBA-only workflow and fee remain unresolved. San Antonio’s linked name-change form also calls for fire review and inspection for listed uses, including repair and maintenance shops, and applies the COO-No Construction fee category. An update route does not promise an inspection-free or cheaper opening.",
+        "newSourceProposal": {
+          "id": "smb-sanantonio-dba-form",
+          "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/CofONameChange.pdf",
+          "documentDateLabel": "Rev 9/26; not treated as an enactment or effective date",
+          "sha256": "1a25296ee0104aeff2a35790ee926e6a5b5a6b3f5eee7c25957d48da8b952294",
+          "bodyPath": "/tmp/eln-place-source-check/sanantonio-update-form.pdf"
+        }
+      }
+    ],
+    "metadataHandling": "No canonical/source date changes made. Adding the new San Antonio condition requires a distinct supporting source association; do not mark the Dallas conflict resolved."
+  }
+]

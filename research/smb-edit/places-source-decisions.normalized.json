@@ -1,0 +1,430 @@
+[
+  {
+    "id": "b3-planning-houston-occupancy",
+    "path": "/cities/houston/",
+    "decision": "scope-resolved",
+    "conclusion": "The rewritten article is supportable as a pre-lease occupancy/use check. A complete current Houston opening/application procedure remains unverified. Bounded normal requests to the linked detailed page and two official document URLs did not yield full primary text.",
+    "evidence": [
+      {
+        "url": "https://www.houstontx.gov/business/plan/permits-inspections.html",
+        "retrievedAt": "2026-11-14T00:39:30.899423+00:00",
+        "sha256": "b9b5699ac611455949913334d5bcec85f7685a1a64d0b261c5d817f26655c4b5",
+        "rawPath": "/tmp/eln-place-source-check/b3-planning-houston-plan.html",
+        "snippet": "A Certificate of Occupancy must be obtained before a commercial building or an individual lease space within a commercial building may be occupied, or if changes to an existing occupancy classification are made.",
+        "reviewedScope": "Full current city business-page body; occupancy and conditional permit passages read Supports the before-occupancy/classification-change rule and the narrow exact-unit/use check; not a complete application recipe."
+      },
+      {
+        "url": "https://www.houstonpermittingcenter.org/code-enforcement/inspections.html#certificate",
+        "retrievedAt": "2026-11-14T00:40:46.610863+00:00",
+        "sha256": "4c41892060bce40adda86fee0612a43a6622557b9104d096179682df2ceffcf5",
+        "rawPath": "/tmp/eln-place-source-check/houston-occupancy-linked.html",
+        "snippet": "",
+        "reviewedScope": "Response inspected: 403 access page only No substantive permitting body retrieved."
+      },
+      {
+        "url": "https://www.houstonpermittingcenter.org/media/6036/download",
+        "retrievedAt": "2026-11-14T00:43:59.859588+00:00",
+        "sha256": "96aeb31029d178525be342df43704111705116fe2e000ce6c03113c58609069f",
+        "rawPath": "/tmp/eln-place-source-check/houston-howto.html",
+        "snippet": "",
+        "reviewedScope": "Official PDF URL discovered by search; response inspected: 403 access page only Search preview is not a verified full document and was not used to establish steps or deadlines."
+      },
+      {
+        "url": "https://www.houstonpermittingcenter.org/media/2231/download",
+        "retrievedAt": "2026-11-14T00:43:59.860490+00:00",
+        "sha256": "920e2a58ecf7100ea24dd9ba88ec51f5703b5b812107695c3eb8021e0411a433",
+        "rawPath": "/tmp/eln-place-source-check/houston-occupancy-brochure.html",
+        "snippet": "",
+        "reviewedScope": "Official PDF URL discovered by search; response inspected: 403 access page only No substantive PDF read; do not lift preview wording into the article."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-houston-occupancy",
+      "path": "/cities/houston/",
+      "title": "Houston: check the unit’s permitted use before committing rent",
+      "seoTitle": "Houston commercial lease: Certificate of Occupancy and use",
+      "description": "Request the occupancy record for the exact Houston unit and compare your proposed work before relying on a landlord’s commercial-space description.",
+      "learningSummary": "A bay previously used by a business is not necessarily suitable for your planned storage, equipment or customer access. Establish the actual City of Houston unit and its authorised use before building a lease or opening date around it.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "unit-and-use",
+          "heading": "What the reviewed city guidance establishes",
+          "paragraphs": [
+            "The city business page says a Certificate of Occupancy (CO) is required before a commercial building or individual lease space is occupied, or when its occupancy classification changes. Obtain the current record and compare it with the proposed activities, layout and alterations.",
+            "Describe relevant storage, chemicals, powered equipment and public access. The city lists building, fire, food and other reviews, but that does not make every permit mandatory for every business."
+          ],
+          "sourceIds": [
+            "b3-planning-houston-plan"
+          ],
+          "aliases": [
+            "what-the-citys-occupancy-guidance-says",
+            "section-1",
+            "what-is-still-unknown",
+            "section-4"
+          ]
+        },
+        {
+          "id": "lease-commitment",
+          "heading": "What to establish before relying on the space",
+          "paragraphs": [
+            "Check the parcel, address and unit: the Houston metro, Harris County and City of Houston are not interchangeable. A mailing address or landlord’s account of the previous tenant does not settle the responsible authority or proposed use.",
+            "Resolve the applicable occupancy and inspection questions before relying on the date at which rent, equipment orders or customer promises create costs. You may model a delay to understand exposure, but it is not the city’s promised timetable or a legally required lease clause."
+          ],
+          "aliases": [
+            "first-make-sure-this-is-a-city-of-houston-site",
+            "section-0",
+            "worked-example-a-cleaning-companys-service-bay",
+            "section-2",
+            "try-the-decision-what-does-the-landlords-prior-use-statement-prove",
+            "link-the-lease-schedule-to-actual-answers",
+            "section-3"
+          ]
+        }
+      ],
+      "practicalOutput": "Obtain the exact unit’s current CO and ask which approvals your proposed use requires before relying on the lease/opening plan.",
+      "limitations": [
+        "This is a pre-lease occupancy check from a city summary. Detailed official permitting PDFs were access-blocked; current application steps, fees, classification outcome and parcel approval remain unverified.",
+        "Actual building, fire, environmental and sector conditions need their own answer."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/cases/lease-clock-before-opening/",
+        "/cities/houston/commercial-laundry/"
+      ]
+    },
+    "proposedNewSources": [],
+    "proposedSourceUpdates": [],
+    "remainingLimits": [
+      "Current detailed application and inspection steps, fees and processing time",
+      "Actual property/classification and other building, fire, environmental and sector duties"
+    ]
+  },
+  {
+    "id": "b3-local-indianapolis-fire",
+    "path": "/cities/indianapolis/fire-extinguisher-licenses/",
+    "decision": "scope-resolved",
+    "conclusion": "The company/person licensing answer and construction-completion answer are distinct and remain separated in the replacement. Published current links were confirmed, but the form revision dates remain October 2023. This is not verification of a new 2026 licensing fee, renewal schedule or complete ordinance scope.",
+    "evidence": [
+      {
+        "url": "https://api-us-east-1-indy.graphcms.com/v2/ckp3xrh1i657g01xp53az2mv4/master?query=query+%7B+activity%28where%3A+%7Bslug%3A+%22business-licenses%22%7D%29+%7B+title+slug+description+%7B+html+markdown+%7D+related_activities+%7B+title+slug+%7D+%7D+%7D",
+        "retrievedAt": "2026-11-14T00:39:30.889341+00:00",
+        "sha256": "8beec001019da741d39589f542f7fd9918411be5029cbb616f0281a8ce15fc8d",
+        "rawPath": "/tmp/eln-place-source-check/b3-local-indy-business.json",
+        "snippet": "The business and each service person must hold a license.",
+        "reviewedScope": "Published city CMS activity body read; fire-equipment licensing and general application instructions checked Current published city content distinguishes company and service-person permissions and requires the Fire Department certification stamp for service-person applications."
+      },
+      {
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/W8p19TnMSA2EykQnyKnv?dl=true",
+        "retrievedAt": "2026-11-14T00:39:30.890303+00:00",
+        "sha256": "4ffdcc107402b50c653094743f4b8de4fd53606c394256ce239a075244857e23",
+        "rawPath": "/tmp/eln-place-source-check/b3-local-indy-fire-business.pdf",
+        "snippet": "Last Modified 10/2023",
+        "reviewedScope": "Full two-page company application read The current city page still links this October 2023 form. Its printed $207 amount is not independently verified as the 2026 fee; no current renewal term established."
+      },
+      {
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/7UjoXtTjiTiPj5MKCopw?dl=true",
+        "retrievedAt": "2026-11-14T00:39:30.891157+00:00",
+        "sha256": "4fafbd360ee5500e6adeb131a88877825645f87d341fd0761483a657b63e22a4",
+        "rawPath": "/tmp/eln-place-source-check/b3-local-indy-fire-person.pdf",
+        "snippet": "Last Modified 10/2023",
+        "reviewedScope": "Full one-page service-person application read The current city page still links this October 2023 form. It identifies the individual and associated company; it does not prove the actual worker is licensed or verify a 2026 fee/term."
+      },
+      {
+        "url": "https://us-east-1-indy.graphassets.com/ActDBC5rvRWeCZlNNnLrDz/cmk1a38j44o7z06lkouxmu0ka?dl=true",
+        "retrievedAt": "2026-11-14T00:39:30.891941+00:00",
+        "sha256": "cb2e58668a291c45b421656b70ad1c2bdf37ff3fccfdc71b764a49360e8ae073",
+        "rawPath": "/tmp/eln-place-source-check/b3-local-indy-co-letter.pdf",
+        "snippet": "within fourteen (14) days after completion of the construction for which a building permit has been issued and prior to occupancy or use of the structure",
+        "reviewedScope": "Full signed one-page letter read, including exception and fee paragraph Letter is expressly for January 1–December 31, 2026. Both timing conditions apply. Proper architect/engineer filing can remove the structural-permit holder filing requirement; the 30-days-after-expiry administrative-fee trigger is not occupancy grace."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-local-indianapolis-fire",
+      "path": "/cities/indianapolis/fire-extinguisher-licenses/",
+      "title": "Indianapolis extinguisher work: the company and each person need checking",
+      "seoTitle": "Indianapolis extinguisher company and service-person licences",
+      "description": "Check the local business and each extinguisher technician’s licensing and certification; the workshop’s construction-completion question is separate.",
+      "learningSummary": "Do not dispatch the whole team on the strength of one company document or one technician’s credentials. The reviewed Indianapolis process identifies both the business and each service person.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "company-and-person",
+          "heading": "The named service needs both checks",
+          "paragraphs": [
+            "The city guidance calls for a business licence and each service person’s licence for the named fire-prevention equipment service. Individual applications also need the Indianapolis Fire Department’s certification stamp. The linked forms concern fire-extinguisher servicing, not automatic permission for alarms, sprinklers, sales, installation or every maintenance task.",
+            "The company and individual applications identify the actual local business and associated person. Brand training or the overseas parent’s licence does not establish those permissions. The city’s current published page still links applications marked October 2023. Confirm the applicable fees, certification steps and licence terms; the separate signed 2026 premises letter does not update those licensing terms."
+          ],
+          "sourceIds": [
+            "b3-local-indy-business",
+            "b3-local-indy-fire-business",
+            "b3-local-indy-fire-person"
+          ],
+          "aliases": [
+            "define-the-service-before-promising-it",
+            "section-0",
+            "match-the-records-to-the-actual-local-business",
+            "section-1",
+            "worked-example-adding-extinguisher-work-to-cleaning",
+            "section-3",
+            "try-the-roster-can-the-cleaning-paperwork-cover-both-technicians"
+          ]
+        },
+        {
+          "id": "workshop-completion",
+          "heading": "If the workshop also has construction work",
+          "paragraphs": [
+            "The signed 2026 city/county letter says it does not currently issue a Certificate of Occupancy. For covered construction it describes the permit holder’s Certificate of Completion and Compliance within 14 days after completion AND before occupancy or use. Those are both conditions, not 14 days in which opening is allowed.",
+            "A stated structural-permit exception depends on a registered architect or engineer properly filing the specified certificate. The separate fee trigger 30 days after permit expiry is not an opening grace period. Check whether the actual parcel is in the consolidated jurisdiction or an excluded municipality."
+          ],
+          "sourceIds": [
+            "b3-local-indy-co-letter"
+          ],
+          "aliases": [
+            "why-the-premises-document-has-a-different-name",
+            "section-2",
+            "build-a-roster-and-a-premises-file",
+            "section-4"
+          ]
+        }
+      ],
+      "practicalOutput": "Confirm the correct company permission and each proposed technician’s certification/licence before offering the named extinguisher service.",
+      "limitations": [
+        "Administrative guidance and dated linked forms only; current ordinance scope, insurance/storage/environmental requirements and work outside Indianapolis remain unchecked.",
+        "The premises letter concerns 2026; current fee/renewal terms, actual permit exception and excluded-municipality boundary remain unresolved."
+      ],
+      "readMinutes": 3,
+      "relatedPaths": [
+        "/industries/facilities-services/",
+        "/industries/equipment-servicing/"
+      ]
+    },
+    "proposedNewSources": [],
+    "proposedSourceUpdates": [],
+    "remainingLimits": [
+      "Current ordinance/application scope beyond the named extinguisher work",
+      "Current fees, licence duration, renewal/certification detail and actual worker/company status",
+      "Actual parcel jurisdiction and whether the stated structural-permit exception applies"
+    ]
+  },
+  {
+    "id": "geo-guide-dallas",
+    "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+    "decision": "scope-resolved",
+    "conclusion": "Tenant change remains a supported and useful separate trigger. DBA-only procedural wording is still unreconciled across and within official material. New accessible documents do not justify a shortcut, no-inspection assurance, current fee, or processing-time promise.",
+    "evidence": [
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "retrievedAt": "2026-11-14T00:39:30.892718+00:00",
+        "sha256": "f9bbe394238d9bc2505dab3ec4aaa50c3adbc3f299bb6fa983d7e24585f5a470",
+        "rawPath": "/tmp/eln-place-source-check/geo-local-dallas.html",
+        "snippet": "A “record change” can be made to a CO when only the name of the business (DBA) changes.",
+        "reviewedScope": "Full current CO page read, including triggers, record-change paragraph, later DBA FAQ and application instructions The same body later says DBA changes must be submitted through DallasNow as a stand-alone CO application. It separately lists tenant change as a new-CO trigger. Do not resolve the DBA workflow or fee by selecting one paragraph."
+      },
+      {
+        "url": "https://dallascityhall.com/departments/pnv/Documents/COFAQ_May2026.pdf",
+        "retrievedAt": "2026-11-14T00:40:46.611844+00:00",
+        "sha256": "b89a8fce6ef3bf60a3aea0c8218e209ef26841e6d7d312d41942b6c98c94aedd",
+        "rawPath": "/tmp/eln-place-source-check/dallas-co-faq-may2026.pdf",
+        "snippet": "How long is the process to obtain a CO?",
+        "reviewedScope": "Full linked one-page PDF read: all five questions/answers The May2026 filename FAQ explains change of use, variable timing, Land Use Questionnaire, review/payment/inspection sequence and fees not guaranteeing approval. It does not address DBA-only changes; its date cannot settle that conflict."
+      },
+      {
+        "url": "https://dallascityhall.com/departments/pnv/Documents/AH%20Memos/CERT%20OF%20OCCUPANCY%20CHECKLIST-25-001.pdf",
+        "retrievedAt": "2026-11-14T00:40:46.612492+00:00",
+        "sha256": "4c5278fb5462c5bd487548a4fcbb1b0cc2fe10fbe9f740a24c8fb9f8a9ddc0fc",
+        "rawPath": "/tmp/eln-place-source-check/dallas-co-checklist.html",
+        "snippet": "",
+        "reviewedScope": "Linked URL response inspected: 404 only No substantive checklist retrieved."
+      },
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/DCH%20documents/2025%20-2026-%20Development%20Guide%20%20FINAL%20DRAFT.pdf",
+        "retrievedAt": "2026-11-14T00:43:59.861137+00:00",
+        "sha256": "37c289c114cc317703c50bb8554524126d971d90e4018aca5fafc8d021a6497f",
+        "rawPath": "/tmp/eln-place-source-check/dallas-development-guide.pdf",
+        "snippet": "A “record change” can be made to a CO when the name of the business listed on a CO changes (DBA change). No inspections are made.",
+        "reviewedScope": "Complete Certificate of Occupancy chapter, printed p.60, read; title and introductory status context inspected Official 2025–2026 guide repeats the record-change description and multi-family no-code-violations condition, but does not reconcile the current page’s stand-alone-application statement. Filename contains FINAL DRAFT; no adoption/priority inference made."
+      },
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/guide/Pages/default.aspx",
+        "retrievedAt": "2026-11-14T00:43:59.862227+00:00",
+        "sha256": "9abd91010f47b8bb126bdf38ccd0a4ba77bfdbbd364f002303270179fb1c34d0",
+        "rawPath": "/tmp/eln-place-source-check/dallas-development-webguide.html",
+        "snippet": "Same business, same use — just a name change. Less involved than a full new CO.",
+        "reviewedScope": "Complete CO Pathway, Document Checklist and immediately relevant fee caveat read The current guide recognises a DBA Change CO category but gives no rule resolving record-change versus stand-alone submission. Its fee section itself warns some displayed amounts are prior amounts; no current numerical fee used."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "geo-guide-dallas",
+      "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+      "title": "Dallas: taking over the same-use unit can still mean a new CO",
+      "seoTitle": "Dallas Certificate of Occupancy for a new tenant",
+      "description": "Dallas lists tenant change as a new-CO trigger. Check the exact unit and proposed operation rather than relying on the previous tenant’s certificate.",
+      "learningSummary": "A landlord’s assurance that the broad use is unchanged does not settle the incoming Dallas tenant’s occupancy task. Dallas lists tenant change separately from a change in use.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "tenant-use-and-area",
+          "heading": "Which fact changed?",
+          "paragraphs": [
+            "The official page lists first use, tenant change on an existing CO, changed use and changed floor area among new-Certificate-of-Occupancy triggers. Obtain the previous CO for the exact unit and describe the incoming company, work, equipment, storage and area.",
+            "The page directs applications through DallasNow, but the applicable application, inspections and multi-tenant prerequisites still need confirming for the proposal. Do that before scheduling customer work on the assumption that the former tenant’s document is yours."
+          ],
+          "sourceIds": [
+            "geo-local-dallas"
+          ],
+          "aliases": [
+            "dallas-lists-several-triggers",
+            "section-0",
+            "request-the-existing-record-before-relying-on-the-space",
+            "section-1",
+            "worked-example-taking-over-a-technical-service-unit",
+            "section-2",
+            "the-file-to-prepare",
+            "section-4"
+          ]
+        },
+        {
+          "id": "name-only-uncertainty",
+          "heading": "If only the trading name changes",
+          "paragraphs": [
+            "Dallas’s page describes a conditional record-change route near the start and a standalone-application description later for a DBA-only change. DBA means “doing business as”. That current workflow remains unresolved: confirm it with Dallas before relying on a shortcut or fee.",
+            "A trading-name change and a different legal tenant are not automatically the same event. A chosen rent-delay allowance can help assess cash exposure, but it is not the city’s promised completion time or a required lease term."
+          ],
+          "sourceIds": [
+            "geo-local-dallas"
+          ],
+          "aliases": [
+            "try-the-distinction-new-tenant-or-only-a-trading-name",
+            "show-the-commercial-consequences-without-inventing-a-deadline",
+            "section-3"
+          ]
+        }
+      ],
+      "practicalOutput": "Obtain the exact unit’s CO and confirm the incoming tenant’s applicable city process before relying on an opening date.",
+      "limitations": [
+        "Narrow Dallas occupancy guidance only. Actual fees, inspection outcome, other premises/trade duties and full employment/tax/franchise requirements remain unverified."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/cities/san-antonio/change-of-use/",
+        "/cases/lease-clock-before-opening/"
+      ]
+    },
+    "proposedNewSources": [],
+    "proposedSourceUpdates": [],
+    "remainingLimits": [
+      "Current DBA-only filing workflow, fee and inspection conditions",
+      "Actual unit/operator/use classification, application decision and other permits"
+    ]
+  },
+  {
+    "id": "geo-compare-texas-occupancy",
+    "path": "/comparisons/dallas-san-antonio-occupancy/",
+    "decision": "scope-resolved",
+    "conclusion": "The supported two-city tenant/use distinction remains. The newly read San Antonio form adds a concrete inspection/fee-class condition to the name-update discussion, while Dallas’s DBA-only conflict remains unresolved. The replacement is a prose comparison; if converted back to a table, Dallas uncertainty must stay within its cell.",
+    "evidence": [
+      {
+        "url": "https://dallascityhall.com/departments/sustainabledevelopment/buildinginspection/Pages/certificate_occupancy.aspx",
+        "retrievedAt": "2026-11-14T00:39:30.892718+00:00",
+        "sha256": "f9bbe394238d9bc2505dab3ec4aaa50c3adbc3f299bb6fa983d7e24585f5a470",
+        "rawPath": "/tmp/eln-place-source-check/geo-local-dallas.html",
+        "snippet": "A change of tenant on an existing CO",
+        "reviewedScope": "Full current CO body read Supports the tenant-change distinction; the body still contains conflicting DBA-only instructions."
+      },
+      {
+        "url": "https://www.sa.gov/Directory/Departments/DSD/Constructing/Business-Commercial/Certificate-of-Occupancy",
+        "retrievedAt": "2026-11-14T00:39:30.893626+00:00",
+        "sha256": "653a5aa14298db879f11e6dbeb2161603394a60e5c2cb8ab43a1bcc2a400331f",
+        "rawPath": "/tmp/eln-place-source-check/geo-local-san-antonio.html",
+        "snippet": "Change of Business Use",
+        "reviewedScope": "Full current CO body read, including owner/lessee update, changed use and listed special categories Same-use owner/lessee changes may use an update route, but listed categories always require a new CO. Changed use separately requires the applicable CO process."
+      },
+      {
+        "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/CofONameChange.pdf",
+        "retrievedAt": "2026-11-14T00:40:46.613116+00:00",
+        "sha256": "1a25296ee0104aeff2a35790ee926e6a5b5a6b3f5eee7c25957d48da8b952294",
+        "rawPath": "/tmp/eln-place-source-check/sanantonio-update-form.pdf",
+        "snippet": "If yes, a fire review and inspection will be required and the fee for this application will be assessed as a COO-No Construction.",
+        "reviewedScope": "Full two-page currently linked DBA Name Change application read; both pages marked Rev 9/26 This follows the form’s listed warehouse, manufacturing, storage, retail including rack displays, repair/maintenance-shop, laboratory and hospital uses. A name-update category therefore does not establish an inspection-free or cheaper route. No numerical fee appears in this condition."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "geo-compare-texas-occupancy",
+      "path": "/comparisons/dallas-san-antonio-occupancy/",
+      "title": "Dallas or San Antonio: the same-use takeover can differ",
+      "seoTitle": "Dallas versus San Antonio CO routes for a tenant change",
+      "description": "The two cities describe different occupancy-certificate treatment for an incoming operator. Use the city guides for the actual proposal.",
+      "learningSummary": "An existing workshop and an unchanged broad service do not guarantee the same occupancy task in Dallas and San Antonio.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "city-route-difference",
+          "heading": "The difference worth checking",
+          "paragraphs": [
+            "Dallas lists tenant change on an existing Certificate of Occupancy (CO) as a new-certificate trigger. San Antonio describes an update for certain owner/lessee changes with essentially the same use, but listed categories still need a new certificate. Both describe new-CO requirements for changed business use.",
+            "A name-only change is another question. Dallas’s current page has conflicting record-change and stand-alone application descriptions, so its DBA-only workflow and fee remain unresolved. San Antonio’s linked DBA (doing business as) name-change form requires fire review and inspection for specified uses, including repair and maintenance shops, and applies the COO-No Construction fee category. An update is not a promise of no inspection or a lower charge.",
+            "Request the prior CO and actual operator/use facts for the chosen unit, then continue with that city’s guide. This comparison cannot choose a use classification, inspection route or opening date."
+          ],
+          "sourceIds": [
+            "geo-local-dallas",
+            "geo-local-san-antonio",
+            "smb-sanantonio-dba-form"
+          ],
+          "aliases": [
+            "the-distinction-the-sources-actually-support",
+            "section-0",
+            "compare-the-questions-not-just-the-form-titles",
+            "section-1",
+            "worked-example-a-maintenance-brand-compares-two-units",
+            "section-2",
+            "try-the-comparison-tenant-use-or-name",
+            "a-name-only-route-still-needs-a-current-answer",
+            "section-3",
+            "keep-the-lease-and-cash-assumptions-separate",
+            "section-4"
+          ]
+        }
+      ],
+      "practicalOutput": "Use the chosen city’s guide to confirm its actual tenant/use route before relying on the former operator’s CO.",
+      "limitations": [
+        "Two-city comparison only, not a Texas-wide rule. Actual site/use, construction/fire/trade conditions and the unresolved Dallas name-only workflow remain; no shortcut, numerical fee or timing advantage is established."
+      ],
+      "readMinutes": 1,
+      "relatedPaths": [
+        "/cities/dallas/tenant-certificate-of-occupancy/",
+        "/cities/san-antonio/change-of-use/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "geography-sources.json",
+        "source": {
+          "id": "smb-sanantonio-dba-form",
+          "url": "https://docsonline.sanantonio.gov/FileUploads/dsd/CofONameChange.pdf",
+          "title": "San Antonio: DBA Name Change application",
+          "authority": "City of San Antonio Development Services Department",
+          "type": "official-guidance",
+          "section": "Complete two-page application; Property Information listed-use fire-review condition; printed Rev 9/26",
+          "supportingPassage": "If yes, a fire review and inspection will be required",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:40:46.613116+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:53:13.941303+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official-guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read the complete currently linked two-page form. The listed warehouse, manufacturing, storage, retail including rack-display, repair/maintenance-shop, laboratory and hospital uses trigger the stated fire-review/inspection and COO-No Construction fee-class condition. Printed Rev 9/26 is a form revision label, not an inferred enactment/effective date. No numerical fee, actual site classification, approval or guaranteed process is established. The form also asks about changed use, related work and business-specific attachments; these are not treated as universal duties for every business.",
+          "sha256": "1a25296ee0104aeff2a35790ee926e6a5b5a6b3f5eee7c25957d48da8b952294"
+        }
+      }
+    ],
+    "proposedSourceUpdates": [],
+    "remainingLimits": [
+      "Dallas DBA-only workflow/fee",
+      "Actual San Antonio site/use, category-specific requirements and applicable current charge",
+      "No proven city-wide cost or speed advantage"
+    ]
+  }
+]

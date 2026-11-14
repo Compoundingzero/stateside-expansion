@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "b3-planning-business-opportunity-rule",
+    "path": "/us-expansion/business-opportunity-rule/",
+    "decision": "unresolved",
+    "conclusion": "Actual current Part 437 and section 436.8 confirm the literal $500/$735 discrepancy. No reviewed primary interpretation settles the $500–$734.99 interaction or makes the cross-reference self-correcting.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-437",
+        "retrievedAt": "2026-11-14T00:39:21.409125+00:00",
+        "sha256": "29dc4cf3805cd1d906357f2ddbbaaa4a391657335fecdc925f85274c8810d17b",
+        "rawPath": "research/raw/smb-federal/437.raw",
+        "snippet": "ny time from before to within six months after commencing operation of the franchisee's business is less than $500, or ( b ) Under § 436.8(a)(7) , there is no written document describing any material term or aspect of the relationship or arrangement. § 437.9 Outstanding orders; preemption. ( a ) A business opportunity required by prior FTC or court order to follow the Franchise Rule, 16 CFR part 436 , may petition the Commission to amend the order or to stipulate to an amendment of the court order so that the business opportunity may follow the provisions of this part. ( b ) The FTC does not intend to preempt the business opportunity sales practices laws of any state or local government, exc",
+        "reviewedScope": "Sections 437.1,437.2,437.4,437.7–437.9, especially the complete exemption provision."
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8",
+        "retrievedAt": "2026-11-14T00:39:21.402193+00:00",
+        "sha256": "1516ddc9401ec39c5a267835d0ad41c3aa9f25f0a89dcf0bab2b9d586d15bfce",
+        "rawPath": "research/raw/smb-federal/436-exemption.raw",
+        "snippet": "ny time from before to within six months after commencing operation of the franchisee's business is less than $735. ( 2 ) The franchise relationship is a fractional franchise. ( 3 ) The franchise relationship is a leased department. ( 4 ) The franchise relationship is covered by the Petroleum Marketing Practices Act, 15 U.S.C. 2801 . ( 5 ) ( i ) The franchisee's initial investment, excluding any financing received from the franchisor or an affiliate and excluding the cost of unimproved land, totals at least $1,469,600 and the prospective franchisee signs an acknowledgment verifying the grounds for the exemption. The acknowledgment shall state: “The franchise sale is for more than $1,469,600—",
+        "reviewedScope": "Complete section 436.8, especially (a)(1) and (b)."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-business-opportunity-rule",
+      "path": "/us-expansion/business-opportunity-rule/",
+      "title": "Customer promises and the federal Business Opportunity Rule",
+      "seoTitle": "Business Opportunity Rule: promised accounts versus advice",
+      "description": "A promise of customers, locations or buyback can raise a separate federal disclosure question.",
+      "learningSummary": "A marketing course and a promise of named customer accounts are different offers. Under Part 437, assess the purchaser’s new business, required payment and the specified promise together.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "the-package",
+          "heading": "What the purchaser is buying",
+          "paragraphs": [
+            "The new-business question concerns the purchaser, not how long your brand has operated. The definition also requires payment and specified representations that you or a designated person will provide locations, customers or accounts, or buy back what the purchaser produces.",
+            "The customer-provision definition can reach recommended lead-generation or locator services, customer lists and some payment-collection arrangements. General business-development advice, training and advertising alone are not treated as providing customers under that definition."
+          ],
+          "sourceIds": [
+            "b3-planning-business-opportunity"
+          ]
+        },
+        {
+          "id": "cleaning-example",
+          "heading": "An established buyer can still be entering a new line",
+          "paragraphs": [
+            "In a fictional offer, an existing facilities operator buys a new cleaning line, required software and a promise of named accounts. Existing trading does not itself answer whether this is a new business or line for that purchaser. Nor does calling the promise marketing support explain whether the seller will teach marketing or provide customers."
+          ],
+          "sourceIds": [
+            "b3-planning-business-opportunity"
+          ]
+        },
+        {
+          "id": "disclosure-and-gap",
+          "heading": "The duties and the unresolved exemption issue",
+          "paragraphs": [
+            "Where Part 437 applies, give its prescribed written disclosure and applicable earnings information at least seven calendar days before the earlier binding agreement or payment/other consideration. Retain the specified disclosure versions, receipts, contracts and earnings support for three years.",
+            "The exemption interaction remains unresolved. Section 437.8 literally uses less than $500 while referring to section 436.8(a)(1); that section currently uses less than $735. Reading both provisions does not settle how the cross-reference applies. Do not use either amount alone to declare the offer exempt."
+          ],
+          "sourceIds": [
+            "b3-planning-business-opportunity",
+            "smb-fed-minimum-exemption"
+          ]
+        }
+      ],
+      "practicalOutput": "Describe the exact customer, location or buyback promise before taking money; do not assume an exemption from the unresolved cross-reference.",
+      "limitations": [
+        "Franchise coverage and independent state business-opportunity/franchise duties still require their own assessment."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/us-expansion/franchising-vs-licensing/",
+        "/us-expansion/minimum-payment-exemption/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-minimum-exemption",
+          "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8",
+          "title": "16 CFR 436.8: current minimum-payment exemption",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "436.8(a)(1),(b)",
+          "supportingPassage": "less than $735",
+          "fetchedAt": "2026-11-14T00:39:21.402193+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "1516ddc9401ec39c5a267835d0ad41c3aa9f25f0a89dcf0bab2b9d586d15bfce",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "Read current text; monetary adjustment provision applies to thresholds in this section. It does not itself interpret Part437. Review is limited to 436.8(a)(1),(b). No human or professional legal review is claimed."
+        }
+      }
+    ],
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-planning-business-opportunity",
+        "fields": {
+          "section": "§§437.1–437.3, 437.7–437.9; targeted follow-up: Section 437.8(a), complete exemption language",
+          "fetchedAt": "2026-11-14T00:39:21.409125+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "29dc4cf3805cd1d906357f2ddbbaaa4a391657335fecdc925f85274c8810d17b",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read the complete part. The purchaser new-business, required-payment and specified seller-representation conditions are distinct. Current §437.8 literally says $500 while cross-referencing §436.8(a)(1); do not silently replace this with the current $735 franchise exemption amount. The interaction is unresolved here. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Full current text retains literal $500 and the reference to 436.8(a)(1). Interpretation is unresolved; no exemption clearance. Follow-up read scope: Section 437.8(a), complete exemption language. This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Authoritative interpretation of section 437.8(a), not access to its literal wording."
+    ]
+  },
+  {
+    "id": "b3-planning-workplace-safety",
+    "path": "/us-expansion/workplace-safety/",
+    "decision": "scope-resolved",
+    "conclusion": "Read section5 employer duties and the actual 1910.147 scope/programme text. The proposed replacement teaches one conditional machinery-servicing control rather than implying that an induction satisfies law or prescribing lockout for all powered equipment.",
+    "evidence": [
+      {
+        "url": "https://www.osha.gov/laws-regs/oshact/section5-duties",
+        "retrievedAt": "2026-11-14T00:41:45.339436+00:00",
+        "sha256": "5867a415cc8ddd9b54a8c72da75e94b9d833f02626f0d4d567fc34ed86e463b4",
+        "rawPath": "research/raw/smb-federal/osha-duty.raw",
+        "snippet": "azards that are causing or are likely to cause death or serious physical harm to his employees; (2) shall comply with occupational safety and health standards promulgated under this Act. (b) Each employee shall comply with occupational safety and health standards and all rules, regulations, and orders issued pursuant to this Act which are applicable to his own actions and conduct.",
+        "reviewedScope": "Complete section5(a)–(b)."
+      },
+      {
+        "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+        "retrievedAt": "2026-11-14T00:41:44.880961+00:00",
+        "sha256": "39b0b8d5034f661d5631b27c0770f70e2c41bb25e231c3ba5f2838f06be46f91",
+        "rawPath": "research/raw/smb-federal/osha-147.raw",
+        "snippet": "of the equipment is controlled by the unplugging of the equipment from the energy source and by the plug being under the exclusive control of the employee performing the servicing or maintenance. 1910.147(a)(2)(iii)(B) Hot tap operations involving transmission and distribution systems for substances such as gas, steam, water or petroleum products when they are performed on pressurized pipelines, provided that the employer demonstrates that 1910.147(a)(2)(iii)(B)(1) continuity of service is essential; 1910.147(a)(2)(iii)(B)(2) shutdown of the system is impractical; and 1910.147(a)(2)(iii)(B)(3) documented procedures are followed, and special equipment is used which will provide proven effecti",
+        "reviewedScope": "1910.147(a) scope/exclusions/exceptions, (b) definitions, (c)(1)–(4) programme and procedures; no full implementation audit."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-workplace-safety",
+      "path": "/us-expansion/workplace-safety/",
+      "title": "Who remains responsible for safety at a customer site?",
+      "seoTitle": "Employer safety duties at customer premises",
+      "description": "A customer induction or a brand manual does not establish that the employer has met its safety duties.",
+      "learningSummary": "Working at someone else’s premises does not make safety only the customer’s problem. The actual employer, task and control of the work matter.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "employer-baseline",
+          "heading": "The employer duty is more than a contract clause",
+          "paragraphs": [
+            "OSH Act section 5(a) requires a covered employer to provide a workplace free of recognised hazards causing or likely to cause death or serious physical harm, and to comply with applicable occupational safety and health standards.",
+            "A clause saying the local operator handles safety does not demonstrate that equipment, training and hazards have been addressed. Equally, the brand being overseas does not by itself decide its legal responsibility."
+          ],
+          "sourceIds": [
+            "b3-planning-osha-duties"
+          ]
+        },
+        {
+          "id": "three-different-requirements",
+          "heading": "Law, customer rules and brand standards are different",
+          "paragraphs": [
+            "A customer’s induction, insurance certificate and site rules can be part of the job arrangements. They do not establish compliance with every applicable standard. Identify the actual chemicals, equipment, access conditions and task hazards, and the federal OSHA or state-plan authority involved.",
+            "In a fictional case, a brand gives remote training before its partner’s employees service powered machinery at a customer site. If the general-industry hazardous-energy standard applies, the employer needs the required energy-control programme, procedures, training and inspections; a customer induction alone does not do that. Its scope and exceptions matter: for example, its cord-and-plug exception requires unplugging to control the hazard and the plug to remain under the servicing employee’s exclusive control."
+          ],
+          "sourceIds": [
+            "b3-planning-osha-responsibilities",
+            "b3-planning-osha-duties",
+            "smb-fed-osha-energy"
+          ]
+        }
+      ],
+      "practicalOutput": "Establish the actual job’s equipment, training and safety requirements before relying on a customer induction or general brand course.",
+      "limitations": [
+        "This is an employer-duty baseline, not a task-specific OSHA or state-plan controls guide. It supplies no incident deadline or joint-employer determination."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/industries/equipment-servicing/",
+        "/us-expansion/joint-employer/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-osha-energy",
+          "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+          "title": "29 CFR 1910.147: hazardous-energy controls",
+          "authority": "Occupational Safety and Health Administration",
+          "type": "primary",
+          "section": "1910.147(a),(b),(c)(1)–(4)",
+          "supportingPassage": "plug being under the exclusive control",
+          "fetchedAt": "2026-11-14T00:41:44.880961+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "39b0b8d5034f661d5631b27c0770f70e2c41bb25e231c3ba5f2838f06be46f91",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "Read actual applicability, normal-production/minor-servicing/cord-and-plug exclusions and basic energy-control requirements. The public example is conditional, not a complete lockout procedure. Review is limited to 1910.147(a),(b),(c)(1)–(4). No human or professional legal review is claimed."
+        }
+      }
+    ],
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-planning-osha-duties",
+        "fields": {
+          "section": "§5(a) and (b); targeted follow-up: Section5(a),(b)",
+          "fetchedAt": "2026-11-14T00:41:45.339436+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "5867a415cc8ddd9b54a8c72da75e94b9d833f02626f0d4d567fc34ed86e463b4",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read full section. General duty and applicable standards; no determination of employer identity or specific hazard standard. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Read complete short section; employer baseline, no all-task conclusion. Follow-up read scope: Section5(a),(b). This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Job-specific applicability, other standards and state-plan requirements remain outside this baseline."
+    ],
+    "proposedRuleUpdates": [
+      {
+        "id": "b3-planning-workplace-safety",
+        "fields": {
+          "interpretationLimits": [
+            "The guide now examines the stated scope and selected energy-control provisions in 29 CFR 1910.147. It does not provide complete task-specific controls or implementation, a state-plan rule, incident-reporting deadline or joint-employer determination.",
+            "AI-assisted source review; no professional legal review."
+          ],
+          "sourceIds": [
+            "b3-planning-osha-duties",
+            "b3-planning-osha-responsibilities",
+            "smb-fed-osha-energy"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "b3-planning-employment-verification",
+    "path": "/us-expansion/employment-verification/",
+    "decision": "scope-resolved",
+    "conclusion": "The current regulation verifies the deadlines, the short-employment no-receipt condition, agent language and later-of-two-dates retention. The complete 2023 DHS notice verifies a specifically conditioned alternative procedure. USCIS current form/instructions and E-Verify update pages remain403. Reginfo lists an active2024 approval and a pending2026 extension; pending attached instruments are not treated as authorised current editions.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-B/part-274a/subpart-A/section-274a.2",
+        "retrievedAt": "2026-11-14T00:44:56.985055+00:00",
+        "sha256": "2ffcd1b652959420292a3ccc49a29adde337d92417a1287b64d6901719ba2821",
+        "rawPath": "research/raw/smb-federal/i9-cfr.raw",
+        "snippet": "ust comply with paragraphs (b)(1)(ii)(A) and (b)(1)(ii)(B) of this section at the time of the hire. An employer may not accept a receipt, as described in paragraph (b)(1)(vi) of this section, in lieu of the required document if the employment is for less than three business days. ( iv ) A recruiter or referrer for a fee for employment must comply with paragraphs (b)(1)(ii)(A) and (b)(1)(ii)(B) of this section within three business days of the date the referred individual is hired by the employer. Recruiters and referrers may designate agents to complete the employment verification procedures on their behalf including but not limited to notaries, national associations, or employers. If a recr",
+        "reviewedScope": "274a.2(b)(1)(i)–(iii),(ix),(b)(2)(i); source currency Nov12,2026."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2023-07-25/html/2023-15533.htm",
+        "retrievedAt": "2026-11-14T00:44:56.984575+00:00",
+        "sha256": "a758fec178cfb97bf08d8de2cd18f30aa7ca6b644d152e3f9e66a889004478f6",
+        "rawPath": "research/raw/smb-federal/i9-alternative-fr.raw",
+        "snippet": "the alternative procedure is available only to qualified employers, meaning those employers who are participants in good standing, in E-Verify. A participant in good standing in E-Verify is an employer that has enrolled in E-Verify with respect to all hiring sites in the United States that use the alternative procedure; is in compliance with all requirements of the E-Verify program, including but not limited to verifying the employment eligibility of newly hired employees in the United States; and continues to be a participant in good standing in E-Verify at any time during which the employer uses the alternative procedure. If a qualified employer [[Page 47751]] chooses to offer the alternat",
+        "reviewedScope": "Authorisation effectiveAug1,2023; qualified-employer definition and IV(A)–(D) procedure, consistency, retention and physical-choice protections."
+      },
+      {
+        "url": "https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202610-1615-001",
+        "retrievedAt": "2026-11-14T00:41:45.455858+00:00",
+        "sha256": "fe9af424938a8d980825bb8b7034a843364783b19d32b930b4b636aadbde3645",
+        "rawPath": "research/raw/smb-federal/omb-current-icr.raw",
+        "snippet": "Status:\nReceived in OIRA\nPrevious ICR Reference No:\n202401-1615-009\nAgency/Subagency:\nDHS/USCIS\nAgency Tracking No:\nI-9\nTitle:\nEmployment Eligibility Verification\nType of Information Collection:\nExtension without change of a currently approved collection\nCommon Form ICR:\nNo\nType of Review Request:\nRegular\nDate Submitted to OIRA:\n10/29/2026\nRequested\nPreviously Approved\nExpiration Date\n36 Months From Approved\n05/31/2027\nResponses\n151,327,900\n151,327,900\nTime Burden (Hours)\n33,207,976\n33,207,976\nCost Burden (Dollars)\n0\n0\nAbstract:\nThe Form I-9 was developed to facilitate compliance with Section 274A of the Immigration and Nationality Act, as amended by the Immigration Reform and Control Act of",
+        "reviewedScope": "Status, submission date, pending extension, previous approval, no current edition inferred."
+      },
+      {
+        "url": "https://www.reginfo.gov/public/do/PRAViewICR?ref_nbr=202401-1615-009",
+        "retrievedAt": "2026-11-14T00:44:56.982484+00:00",
+        "sha256": "5b308cf7ac91025360cc1976a15ed4599acf00cd422635ed13bc3debfbe9c078",
+        "rawPath": "research/raw/smb-federal/omb-approved.raw",
+        "snippet": "Status:\nActive\nPrevious ICR Reference No:\n202307-1615-002\nAgency/Subagency:\nDHS/USCIS\nAgency Tracking No:\nI-9\nTitle:\nEmployment Eligibility Verification\nType of Information Collection:\nRevision of a currently approved collection\nCommon Form ICR:\nNo\nType of Review Request:\nRegular\nOIRA Conclusion Action:\nApproved without change\nConclusion Date:\n05/14/2024\nRetrieve Notice of Action (NOA)\nDate Received in OIRA:\n02/09/2024\nTerms of Clearance:\nInventory as of this Action\nRequested\nPreviously Approved\nExpiration Date\n05/31/2027\n36 Months From Approved\n07/31/2026\nResponses\n151,327,900\n0\n177,790,000\nTime Burden (Hours)\n33,207,976\n0\n39,823,500\nCost Burden (Dollars)\n0\n0\n0\nAbstract:\nThe Form I-9 was de",
+        "reviewedScope": "Active prior approval, dates and expiry only; not confirmation of current USCIS edition."
+      },
+      {
+        "url": "https://www.reginfo.gov/public/do/PRAViewIC?ref_nbr=202401-1615-009&icID=41273",
+        "retrievedAt": "2026-11-14T00:44:56.983211+00:00",
+        "sha256": "c64da472ba0a6de86713b2bf39a7c11cdea53cb86f69713909594d0d7a4751b6",
+        "rawPath": "research/raw/smb-federal/omb-approved-ic.raw",
+        "snippet": "Information Collection Instruments:\nDocument Type\nForm No.\nForm Name\nInstrument File\nURL\nAvailable Electronically?\nCan Be Submitted Electronically?\nElectronic Capability\nForm\nI-9\nEmployment Eligibility Verification\nI9-013-FRM-NextGenRev-30Day-10112023-ENG.pdf\nhttps://www.uscis.gov/i-9\nYes\nNo\nFillable Printable\nInstruction\nI9-012-INS-Flexibilities-OMBReview-FinalRule-08012023-ENG-WM.pdf\nhttps://www.uscis.gov/i-9\nYes\nNo\nFillable Printable\nForm\nI-9\nEmployment Eligibility Verification (Employers) Spanish Version\nI9-FRM-Flexibilities-OMBReview-FinalRule-08012023-ESP-AF-NS-UPDATED-WM.pdf\nhttps://www.uscis.gov/i-9\nYes\nNo\nFillable Printable\nInstruction\nI9-013-INS-NextGenRev-30Day-10112023-ESP.pdf\nhttps://www.uscis.gov/i-9\nYes\nNo\nFillable Printable\nFederal Enterprise Architecture Business Reference Module\nLine of Business:\nHomeland Security\nSubfunction:\nBorder and Transportation Security\nPrivacy ",
+        "reviewedScope": "Instrument labels show historical2023 submissions; no current-form conclusion."
+      },
+      {
+        "url": "https://www.reginfo.gov/public/do/DownloadDocument?objectID=139137101",
+        "retrievedAt": "2026-11-14T00:46:50.859038+00:00",
+        "sha256": "b6f90fc7e2192a33bc29abbee6d0e6e5bd372377e263510fde15852021753070",
+        "rawPath": "research/raw/smb-federal/i9-reginfo-instructions.raw",
+        "snippet": "                                        Instructions for Form I-9,\n                                     Employment Eligibility Verification                                       USCIS\n                                                                                                              Form I-9\n                                          Department of Homeland Security                                OMB No. 1615-0047\n                                        U.S. Citizenship and Immigration Services                         Expires 08/31/2026\n\n\nAnti-Discrimination Notice: Employers must allow all employees to choose which acceptable documentation to present\nfor Form I-9. Employers cannot ask employees for documentation to verify information entered in Section 1, or specify\nwhich acceptable documentation employees must present for Section 2 or Supplement B, Reverification and Rehire.\nEm",
+        "reviewedScope": "Historical08/01/2023 USCIS instruction copy, first page/date examined only; not asserted current."
+      },
+      {
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf",
+        "retrievedAt": "2026-11-14T00:39:20.984410+00:00",
+        "sha256": "054b111770bcf43d4c1f6f38106ad21b4c701ceb3ca1cc870b5ca8861113f6bb",
+        "rawPath": "research/raw/smb-federal/i9-instructions.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf\" on this server.\nReference #18.625ed617.1794616760.2234792b\nhttps://errors.edgesuite.net/18.625ed617.1794616760.2234792b",
+        "reviewedScope": "Ordinary public request failed; returned Access Denied, not substantive instructions."
+      },
+      {
+        "url": "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf",
+        "retrievedAt": "2026-11-14T00:39:20.982596+00:00",
+        "sha256": "6d21aa7cce7800726a5ac5767ba960d2078993631e77f322d5002ddf474e976d",
+        "rawPath": "research/raw/smb-federal/i9-form.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.uscis.gov/sites/default/files/document/forms/i-9.pdf\" on this server.\nReference #18.625ed617.1794616760.2234792c\nhttps://errors.edgesuite.net/18.625ed617.1794616760.2234792c",
+        "reviewedScope": "Ordinary public request failed; returned Access Denied, not substantive instructions."
+      },
+      {
+        "url": "https://www.uscis.gov/i-9",
+        "retrievedAt": "2026-11-14T00:39:21.033961+00:00",
+        "sha256": "2ab3fadd649ab7c93648d64802d7a97055a4d2c1e0a3c3a964978085431101c9",
+        "rawPath": "research/raw/smb-federal/i9-main.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.uscis.gov/i-9\" on this server.\nReference #18.625ed617.1794616761.22347939\nhttps://errors.edgesuite.net/18.625ed617.1794616761.22347939",
+        "reviewedScope": "Ordinary public request failed; returned Access Denied, not substantive instructions."
+      },
+      {
+        "url": "https://www.e-verify.gov/about-e-verify/whats-new/minor-changes-toformi9andeverifyupdates",
+        "retrievedAt": "2026-11-14T00:46:50.856515+00:00",
+        "sha256": "d9c0529e5c5e66ef10c95a7385c580171029569cf1813bbfa69244b624b7f887",
+        "rawPath": "research/raw/smb-federal/i9-verify-news.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.e-verify.gov/about-e-verify/whats-new/minor-changes-toformi9andeverifyupdates\" on this server.\nReference #18.625ed617.1794617211.22434f86\nhttps://errors.edgesuite.net/18.625ed617.1794617211.22434f86",
+        "reviewedScope": "Ordinary public request failed; returned Access Denied, not substantive instructions."
+      },
+      {
+        "url": "https://www.e-verify.gov/about-e-verify/whats-new/uscis-extends-form-i-9-expiration-date",
+        "retrievedAt": "2026-11-14T00:46:50.857202+00:00",
+        "sha256": "324c6c27189ff503137e5c5c0d9c1b2f1fd7ef7759ce6ba44a22558f342cbd88",
+        "rawPath": "research/raw/smb-federal/i9-expiry-news.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.e-verify.gov/about-e-verify/whats-new/uscis-extends-form-i-9-expiration-date\" on this server.\nReference #18.625ed617.1794617211.22434e4f\nhttps://errors.edgesuite.net/18.625ed617.1794617211.22434e4f",
+        "reviewedScope": "Ordinary public request failed; returned Access Denied, not substantive instructions."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-employment-verification",
+      "path": "/us-expansion/employment-verification/",
+      "title": "Form I-9: completion and retention deadlines",
+      "seoTitle": "Form I-9 completion deadlines and retention dates",
+      "description": "Know the employee and employer deadlines, including the shorter-employment exception and the later retention date.",
+      "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. This page explains federal completion and retention deadlines; the current USCIS form edition and detailed examination instructions were not verified in the recorded review.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "completion-deadlines",
+          "heading": "Employee and employer steps have different deadlines",
+          "paragraphs": [
+            "Form I-9 records employment eligibility verification. Under the cited regulation, the employee completes Section 1 at hire. The employer generally examines the required acceptable evidence and completes Section 2 within three business days of hire.",
+            "If employment lasts less than three business days, the employer’s examination and completion take place at hire instead, and a receipt cannot replace the required document. The regulation permits the employer, its agent or someone acting in its interest to perform the employer step. Arrange who will do it before work starts; ownership overseas does not change the deadlines or authorise an informal remote check."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr"
+          ]
+        },
+        {
+          "id": "document-examination",
+          "heading": "A deadline does not establish a permitted checking method",
+          "paragraphs": [
+            "The regulation recognises physical examination or an alternative procedure authorised under its specified conditions. A video call, emailed scan or overseas manager’s review is not automatically an authorised method. Use the official instructions to establish the applicable examination process before relying on it."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr",
+            "smb-fed-i9-alternative"
+          ]
+        },
+        {
+          "id": "retention-example",
+          "heading": "Keep the later of two retention dates",
+          "paragraphs": [
+            "Retain the I-9 for three years after hire or one year after termination, whichever is later.",
+            "In a fictional example, an employee starts on January 15, 2027 and leaves on January 15, 2030. Three years after hire is January 15, 2030; one year after departure is January 15, 2031. The later date, January 15, 2031, controls this I-9 calculation. Other record-retention duties are separate."
+          ],
+          "sourceIds": [
+            "b3-planning-i9-cfr"
+          ]
+        }
+      ],
+      "practicalOutput": "Arrange a compliant examination process before the hire, and calculate both retention dates when employment ends.",
+      "limitations": [
+        "This page does not determine individual work authorisation, E-Verify, anti-discrimination or visa-category questions."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/us-expansion/state-employer-payroll-registration/",
+        "/us-expansion/business-visits/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-i9-alternative",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2023-07-25/html/2023-15533.htm",
+          "title": "DHS 2023 authorisation of optional I-9 alternative procedure",
+          "authority": "Department of Homeland Security",
+          "type": "primary",
+          "section": "2023-15533, II(A), IV(A)–(D)",
+          "supportingPassage": "participants in good standing",
+          "fetchedAt": "2026-11-14T00:44:56.984575+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "a758fec178cfb97bf08d8de2cd18f30aa7ca6b644d152e3f9e66a889004478f6",
+          "publicationDate": "2023-07-25",
+          "effectiveDate": "2023-08-01",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "Read actual authorisation: E-Verify eligibility by hiring site, copies+live video+notation+clear copies+inspection availability; nondiscrimination/consistent use and employee physical-presentation option. Not current edition confirmation. Review is limited to 2023-15533, II(A), IV(A)–(D). No human or professional legal review is claimed."
+        }
+      }
+    ],
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-planning-i9-cfr",
+        "fields": {
+          "section": "§274a.2(b)(1)(i)–(iii), (b)(2)(i); alternative examination reference; targeted follow-up: 274a.2(b)(1)(i)–(iii),(ix), (b)(2)(i)",
+          "fetchedAt": "2026-11-14T00:44:56.985055+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "2ffcd1b652959420292a3ccc49a29adde337d92417a1287b64d6901719ba2821",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read scoped employer/employee completion timing, short-duration hire exception, retention and reference to authorised alternative examination. Current USCIS I-9 instruction PDF returned 403; its current edition and detailed acceptable-document/remote-procedure instructions remain unverified. Do not use this guide as a substitute form. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Read current scoped regulatory text. Current USCIS form/instructions403; public E-Verify updates403. Reginfo approval/pending-extension records do not establish the currently usable edition. Follow-up read scope: 274a.2(b)(1)(i)–(iii),(ix), (b)(2)(i). This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Current usable USCIS edition and complete current form instructions remain unverified. The historical Reginfo instrument does not close that hold.",
+      "Current usable USCIS form edition and complete current instructions remain access-blocked; the 2023 alternative notice is not current-form confirmation."
+    ]
+  },
+  {
+    "id": "b3-planning-worker-classification",
+    "path": "/us-expansion/worker-classification/",
+    "decision": "scope-resolved",
+    "conclusion": "The actual May2,2025 opinion cover expressly reconciles FLSA2019-6 and FLSA2025-2. Current Part795 retains six nonexclusive factors. May2025 bulletin and2026 NPRM remain distinct source types. The NPRM reports stayed appeals as of publication, not their latest status.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-795",
+        "retrievedAt": "2026-11-14T00:41:45.260224+00:00",
+        "sha256": "afed6ba6691e4ae57be58dc3f8a5b2f795644699dde90aec47cb3098e115a05c",
+        "rawPath": "research/raw/smb-federal/worker-795.raw",
+        "snippet": "§ 795.105 Determining employee or independent contractor classification under the FLSA.\n(\na\n)\nRelevance of independent contractor or employee status under the Act.\nThe Act's minimum wage, overtime pay, and recordkeeping obligations apply only to workers who are covered employees. Workers who are independent contractors are not covered by these protections. Labeling employees as “independent contractors” does not make these protections inapplicable. A determination of whether a worker is an employee or independent contractor under the Act focuses on the economic realities of the worker's relationship with the worker's potential employer and whether the worker is either economically dependent on the potential employer for work or in business for themself.\n(\nb\n)\nEconomic dependence as the ultimate inquiry.\nAn “employee” under the Act is an individual whom an employer suffers, permits, or otherwise employs to work.\n29 U.S.C. 203(e)(1)\n, (g). “Employer” is defined to “include[ ] any person acting directly or indirectly in the interest of an employer in relation to an employee.”\n29 U.S.C. 203(d)\n. The Act's definitions are meant to encompass as employees all workers who, as a matter of e",
+        "reviewedScope": "795.100,.105,.110,.115 current codified interpretation."
+      },
+      {
+        "url": "https://www.dol.gov/sites/dolgov/files/WHD/fab/fab2025-1.pdf",
+        "retrievedAt": "2026-11-14T00:41:44.628698+00:00",
+        "sha256": "0dd24d58c251dc17bca3a78237ce19f99cbc7f257a8153d2e0a9a9b60934fff1",
+        "rawPath": "research/raw/smb-federal/dol-fab.raw",
+        "snippet": "til further action is taken, the 2024 Rule remains in effect for purposes of private litigation and nothing in this FAB changes the rights of employees or responsibilities of employers under the FLSA, see Fact Sheet #13 (March 2024). *Fact Sheet #13 (July 2008) Fact Sheet #13: Employment Relationship Under the Fair Labor Standards Act (FLSA) This fact sheet provides general information concerning the meaning of \"employment relationship\" and the significance of that determination in applying provisions of the FLSA. Characteristics An employment relationship under the FLSA must be distinguished from a strictly contractual one. Such a relationship must exist for any provision of the FLSA to app",
+        "reviewedScope": "Complete three-page bulletin and attached2008 fact sheet."
+      },
+      {
+        "url": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2019-6.pdf",
+        "retrievedAt": "2026-11-14T00:44:56.983918+00:00",
+        "sha256": "ffb8a2711acda30c44ce7bafc8efa8ad4d673acdfc37452a6e83f9f341b7e19c",
+        "rawPath": "research/raw/smb-federal/dol-opinion2.raw",
+        "snippet": "From today forward, this letter, which is designated as Opinion Letter FLSA2025-2 (May 2, 2025) and reproduces below the verbatim text of Opinion Letter FLSA2019-6, is an official statement of WHD policy and an official ruling for purposes of the Portal-to-Portal Act, 29 U.S.C. § 259. † Sincerely, Donald M. Harrison, III Acting Administrator Dear Name*: This letter responds to your request for an opinion on whether service providers working for a virtual marketplace company (VMC) are employees or independent contractors under the Fair Labor Standards Act (FLSA). This opinion is based exclusively on the facts you have presented. You represent that you do not seek this opinion for any party th",
+        "reviewedScope": "Actual first-page reissuance, withdrawal period and supplied-facts limitation; no new classification result."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/html/2026-03962.htm",
+        "retrievedAt": "2026-11-14T00:46:50.857784+00:00",
+        "sha256": "1859c80f2806e7a81d7ac1302b972a0a6d0a61614c31597c2afddad23a41485e",
+        "rawPath": "research/raw/smb-federal/worker-fr.raw",
+        "snippet": "In Colt & Joe Trucking, LLC v. Department of Labor, the district \ncourt ruled in favor of the Department, concluding that the trucking \ncompany challenging the 2024 Rule does not have standing to do so and \nalso rejecting its various arguments that the 2024 Rule is unlawful. \nSee No. 24-cv-00391-KWR-GBW, 2025 WL 56658 (D.N.M. Jan. 9, 2025). The \ntrucking company appealed to the Tenth Circuit Court of Appeals, which \nhas stayed the appeal.\n    In Littman v. Department of Labor, the district court ruled in \nfavor of the Department without addressing the legality of the 2024 \nRule, affirming the magistrate judge's report and recommendation that \nfound that the\n\n[[Page 9939]]\n\nfreelancers challenging the 2024 Rule do not have standing to do so. \nSee No. 3:24-cv-00194, 2025 WL 763583 (M.D. Tenn. Mar. 11, 2025). The \nfreelancers appealed to the Sixth Circuit Court of Appeals, and that \nappeal has been stayed by the court's Mediation Office.\n    In Coalition for Workforce Innovation v. Walsh, the business \nassociations that had challenged the Delay and Withdrawal Rules amended \ntheir complaint following remand to challenge the 2024 Rule. D",
+        "reviewedScope": "FLSA2025-2 redesignation and PartII(F) litigation history only; not all363KB preamble or latest docket."
+      },
+      {
+        "url": "https://www.dol.gov/agencies/whd/flsa/misclassification/2026rulemaking/faqs",
+        "retrievedAt": "2026-11-14T00:41:44.711424+00:00",
+        "sha256": "9a951c6934e780f4dd5a0f05f94b5c4510375e0d71de42d6e5be53b990c8599c",
+        "rawPath": "research/raw/smb-federal/dol-worker-faq.raw",
+        "snippet": "GENERAL QUESTIONS\nWhat is this rulemaking about?\nWhy is the Department proposing to rescind its 2024 Independent Contractor Rule?\nWhy is the Department proposing a new analysis for distinguishing between FLSA employees and independent contractors?\nWhy is the Department proposing to amend language addressing independent contractor status in its current FMLA and MSPA regulations?\nWould the NPRM affect the analysis for determining worker classification under other laws?\nCan a worker voluntarily waive employee status and choose to be classified as an independent contractor?\nHow can the public submit comments in response to the NPRM?\nI have questions about this rulemaking and/or worker classification. Who should I contact?\nQUESTIONS ABOUT THE NPRM\nWhat analysis does the NPRM propose to determine whether a worker is an employee or independent contractor?\nIn what ways is the NPRM similar to the 2024 Independent Contractor Rule?\nIn what ways is this NPRM different from the 2024 Independent Contractor Rule?\nAre there any differences between the NPRM's proposed analysis and the analysis from t",
+        "reviewedScope": "Rulemaking proposal status, distinct-law applicability and no employee waiver."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-worker-classification",
+      "path": "/us-expansion/worker-classification/",
+      "title": "A contractor label does not decide the technician’s status",
+      "seoTitle": "Worker classification: actual work and federal-source limits",
+      "description": "Equipment ownership and a signed contractor clause are not a complete employment test.",
+      "learningSummary": "Look at how the person actually earns money and works. Different wage, tax and state tests can apply. The Department of Labor’s opinion-letter numbering is now reconciled, but this review does not establish the latest appellate status or classify your worker.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "actual-business",
+          "heading": "Is the person operating an independent business?",
+          "paragraphs": [
+            "Relevant facts include who sets prices and schedules, accepts jobs, hires helpers, makes entrepreneurial investments, markets to other customers and has a genuine opportunity for profit or loss. Include actual practice and reserved rights.",
+            "In a fictional maintenance arrangement, the brand sets mandatory schedules and prices while the technician buys equipment. The contract says independent contractor, but says little about outside customers, helpers or profit and loss. Neither the label nor that purchase answers the whole question. Specialised skill alone does not establish an independent business."
+          ],
+          "sourceIds": [
+            "b3-planning2-dol-rule795"
+          ]
+        },
+        {
+          "id": "different-inquiries",
+          "heading": "The tax and wage questions are separate",
+          "paragraphs": [
+            "The codified 29 CFR Part 795 interpretation reviewed in November 2026 examines the whole activity through six nonexclusive factors. No one factor or selected subset necessarily controls; it is not a points tally or a replacement for governing court law.",
+            "IRS employment-tax guidance instead groups common-law evidence into behavioural control, financial control and the type of relationship. It also considers the whole relationship; a right to control can matter even for remote work. A tax result or relief provision does not decide federal wage-and-hour duties under the Fair Labor Standards Act (FLSA) or state unemployment and wage law."
+          ],
+          "sourceIds": [
+            "b3-planning2-dol-rule795",
+            "b3-planning2-irs-contractor"
+          ]
+        },
+        {
+          "id": "source-status",
+          "heading": "An investigation policy is not a repeal",
+          "paragraphs": [
+            "The Department of Labor’s May 2025 bulletin changes its investigation approach within its stated scope and discretion; it expressly does not change employee rights or employer responsibilities. The named 2019 opinion was withdrawn in 2021 and expressly reissued, with its text reproduced, as FLSA2025-2 on May 2, 2025. That opinion concerns supplied virtual-marketplace facts, not automatic contractor treatment for technicians. The February 2026 replacement proposal, including its proposed expansion to the Family and Medical Leave Act and Migrant and Seasonal Agricultural Worker Protection Act, is not effective merely because comments closed.",
+            "The cited Colt & Joe Trucking order concerned standing and stated alternative failed or waived arguments; it did not classify every technician. These source types cannot be used interchangeably to declare contractor treatment available."
+          ],
+          "sourceIds": [
+            "b3-planning2-dol-fab2025",
+            "b3-planning2-contractor-nprm",
+            "b3-planning2-colt-order",
+            "smb-fed-dol-opinion2"
+          ]
+        }
+      ],
+      "practicalOutput": "Check the real control and independent-business facts before relying on contractor treatment in your staffing cost.",
+      "limitations": [
+        "No worker, exemption, tax relief or state-law result is determined. The current governing test must be applied to the actual relationship."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/us-expansion/federal-wage/",
+        "/us-expansion/joint-employer/",
+        "/states/massachusetts/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-dol-opinion2",
+          "url": "https://www.dol.gov/sites/dolgov/files/WHD/opinion-letters/FLSA/FLSA2019-6.pdf",
+          "title": "FLSA2025-2: express reissuance of FLSA2019-6",
+          "authority": "U.S. Department of Labor, Wage and Hour Division",
+          "type": "official-guidance",
+          "section": "May2,2025 cover, footnote and supplied-facts paragraph",
+          "supportingPassage": "reproduces below the verbatim text",
+          "fetchedAt": "2026-11-14T00:44:56.983918+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "ffb8a2711acda30c44ce7bafc8efa8ad4d673acdfc37452a6e83f9f341b7e19c",
+          "publicationDate": "2025-05-02",
+          "effectiveDate": null,
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official-guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "The actual cover resolves the opinion-number issue. It expressly excludes Feb19,2021–May1,2025 from policy reliance. This review does not adopt the marketplace analysis for another worker. Review is limited to May2,2025 cover, footnote and supplied-facts paragraph. No human or professional legal review is claimed."
+        }
+      }
+    ],
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-planning2-dol-fab2025",
+        "fields": {
+          "section": "Complete three-page bulletin including attached 2008 Fact Sheet 13; targeted follow-up: Complete bulletin and attached2008 fact sheet",
+          "fetchedAt": "2026-11-14T00:41:44.628698+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "0dd24d58c251dc17bca3a78237ce19f99cbc7f257a8153d2e0a9a9b60934fff1",
+          "notes": "Prior AI-assisted review scope (2026-11-12): The complete bulletin and attached 2008 Fact Sheet 13 were previously read, including specified matters without back-wage/civil-penalty payment as of May 1, 2025, administrator discretion, and its distinction from private-litigation rules and rights. The original bulletin names FLSA2019-6 while the 2026 NPRM refers to FLSA2025-2. The actual May 2, 2025 opinion cover now expressly resolves that numbering: it reissues the verbatim 2019 opinion as FLSA2025-2 after the stated withdrawal period. This resolves the reference discrepancy, not another worker’s classification or the latest appellate status. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Re-read full bulletin. Its original2019 opinion reference is reconciled by the actual May2,2025 reissue, not silently corrected. Enforcement scope/discretion and no private-rights change remain. Follow-up read scope: Complete bulletin and attached2008 fact sheet. This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Latest appellate docket and governing-circuit application are not established by the bounded official-source check."
+    ],
+    "proposedRuleUpdates": [
+      {
+        "id": "b3-planning2-worker-status",
+        "fields": {
+          "interpretationLimits": [
+            "No individual worker, state-law, exemption or tax-relief conclusion.",
+            "Latest appellate docket/status is not independently verified; the 2026 NPRM’s case account is dated historical agency reporting.",
+            "The Department of Labor’s May 2, 2025 cover reissues FLSA2019-6 as FLSA2025-2. That resolves the opinion-number link; it does not classify an individual worker or resolve later court proceedings.",
+            "AI-assisted source review; no professional legal review."
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "b3-planning-joint-employer",
+    "path": "/us-expansion/joint-employer/",
+    "decision": "scope-resolved",
+    "conclusion": "Current103.40 and complete Feb27,2026 final action reaffirm the restored2020 NLRA rule and qualified indirect/reserved-control role. Current FLSA Part791 remains reserved. Current DOL FAQ still describes a proposal with separate FLSA/FMLA/MSPA scope. No stronger outcome or all-circuit rule is inferred.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-I/part-103/subpart-E/section-103.40",
+        "retrievedAt": "2026-11-14T00:41:45.037718+00:00",
+        "sha256": "a5fd019bcb2468da807c95a6989f707d085b57e6572479a17eac431b183c9e2e",
+        "rawPath": "research/raw/smb-federal/nlrb-10340.raw",
+        "snippet": "yer's employees, the entity must possess and exercise such substantial direct and immediate control over one or more essential terms or conditions of their employment as would warrant finding that the entity meaningfully affects matters relating to the employment relationship with those employees. Evidence of the entity's indirect control over essential terms and conditions of employment of another employer's employees, the entity's contractually reserved but never exercised authority over the essential terms and conditions of employment of another employer's employees, or the entity's control over mandatory subjects of bargaining other than the essential terms and conditions of employment i",
+        "reviewedScope": "Complete103.40(a)–(f); listed terms, direct/immediate definitions and limits."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2026-02-27/html/2026-03955.htm",
+        "retrievedAt": "2026-11-14T00:46:50.858283+00:00",
+        "sha256": "5458d7cbfac0452a79c0ca4494242a41542e1aebcabe7bac44aaa25df2f89cfb",
+        "rawPath": "research/raw/smb-federal/nlrb-fr.raw",
+        "snippet": "SUMMARY: On October 27, 2023, the Board published a final rule (2023 \nRule) that rescinded and replaced a prior rule regarding the standard \nfor determining joint employer status under the National Labor \nRelations Act. On March 8, 2024, the U.S. District Court for the \nEastern District of Texas issued an order vacating the 2023 Rule. The \nBoard is therefore revising its rules and regulations to replace the \nvacated regulatory text with the previous version of its rules that \nremain in effect due to the vacatur.\n\nDATES: This rule is effective February 27, 2026.\n\nFOR FURTHER INFORMATION CONTACT: Roxanne L. Rothschild, Executive \nSecretary, National Labor Relations Board, 1015 Half St. SE, \nWashington, DC 20570-0001, (202) 273-1940 (this is not a toll-free \nnumber) or 1-844-762-NLRB (6572) (this is a toll-free number). Hearing \nimpaired callers who wish to speak to an NLRB representative should \ncontact T-Mobile Relay Conference Captioning by visiting its website at\nhttps://www.tmobileaccess.com/federal\n, and submitting a form asking its \nCommunications Assistant to call our toll free number at 1-844-762-NLRB \n(6572).\n\nSUPPLEMENTARY INFORMATION: On October 27, 2023, the National Labo",
+        "reviewedScope": "Complete final action including restored regulatory text."
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-791",
+        "retrievedAt": "2026-11-14T00:41:45.268868+00:00",
+        "sha256": "0f9b920dc0b2103912b51c6a26719057c5cc04d5ebe574c847f2e640ef92a9f1",
+        "rawPath": "research/raw/smb-federal/joint-791.raw",
+        "snippet": "eCFR :: 29 CFR Part 791 -- Part 791 [Reserved] Site Feedback You are using an unsupported browser × You are using an unsupported browser. This web site is designed for the current versions of Microsoft Edge, Google Chrome, Mozilla Firefox, or Safari. × Site Feedback The Office of the Federal Register publishes documents on behalf of Federal agencies but does not have any authority over their programs. We recommend you directly contact the agency associated with the content in question. If you have comments or suggestions on how to improve the www.ecfr.gov website or have questions about using www.ecfr.gov, please choose the 'Web",
+        "reviewedScope": "Entire reserved Part791 substantive status."
+      },
+      {
+        "url": "https://www.dol.gov/agencies/whd/nprm-joint-employer-status-under-flsa-fmla-mspa/questions-and-answers",
+        "retrievedAt": "2026-11-14T00:41:44.663810+00:00",
+        "sha256": "241d4d18a8f34a21390b4da783dc072b2076f080a07c8c1f179b131dac566227",
+        "rawPath": "research/raw/smb-federal/dol-joint-faq.raw",
+        "snippet": "GENERAL QUESTIONS\nWhat is this rulemaking about?\nWhat is joint employment?\nWhat are the consequences of joint employment under the FLSA, FMLA, and MSPA?\nWhy is joint employment important?\nWhat is the difference between \"vertical\" and \"horizontal\" joint employment?\nWhat is the need for this rulemaking?\nWhat are the policy goals of this rulemaking?\nWhy is the Department proposing to revise its analysis for joint employer status in its current FMLA and MSPA regulations?\nWould the NPRM affect joint employer status under other laws?\nWhy isn't the Department proposing to adopt a common law test for joint employer status?\nHow can the public submit comments in response to the NPRM?\nI have questions about this rulemaking and/or joint employer status. Who should I contact?\nQUESTIONS ABOUT THE NPRM\nWhy does the NPRM propose separate analyses to assess horizontal and vertical joint employment?\nWhat analysis does the NPRM propose to assess horizontal joint employment?\nWhat analysis does the NPRM pr",
+        "reviewedScope": "Proposal status, law-specific scope and shared-vendor/franchise-model limits."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-joint-employer",
+      "path": "/us-expansion/joint-employer/",
+      "title": "Separate payroll does not always mean separate employer duties",
+      "seoTitle": "Shared workers and different joint-employer tests",
+      "description": "The same worker can raise responsibilities for more than one business under the applicable law.",
+      "learningSummary": "If businesses share people or employment decisions, separate incorporation and payroll do not by themselves settle responsibility. The wage-law and labour-relations tests must be kept distinct.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "shared-worker",
+          "heading": "A real agency example: hours at two businesses",
+          "paragraphs": [
+            "The Department of Labor’s Opinion Letter FLSA2025-05 considered a restaurant and members club with represented shared operations, managers and workers. On those supplied facts, it concluded the worker’s hours had to be combined and both employers were responsible for compliance with the Fair Labor Standards Act (FLSA), the federal wage-and-hour law.",
+            "The letter is limited to the facts supplied and is not a court judgment about every franchise. Its practical lesson is to examine shared hours and real operations, rather than stop at the two payroll names."
+          ],
+          "sourceIds": [
+            "b3-planning2-dol-opinion2025-5"
+          ]
+        },
+        {
+          "id": "employment-decisions",
+          "heading": "An outcome inspection is different from setting a worker’s shift",
+          "paragraphs": [
+            "Identify who selects workers, sets pay and individual schedules, directs performance, disciplines and terminates. A check of the contracted service outcome and an instruction about a named worker’s shift should not both be labelled quality control. Mixed-purpose controls and actual practice matter; neither fact alone completes a legal test.",
+            "Franchise classification asks about brand, operating control or assistance and payments. It does not itself decide who has duties to workers."
+          ],
+          "sourceIds": [
+            "b3-planning2-nlrb-joint-rule",
+            "b3-planning2-dol-opinion2025-5",
+            "fed-definition"
+          ]
+        },
+        {
+          "id": "different-laws",
+          "heading": "Which federal law is being applied?",
+          "paragraphs": [
+            "For federal labour-relations law, the National Labor Relations Act (NLRA), the reviewed February 2026 final action restores the 2020 text: the 2023 rule never took effect after court vacatur. Substantial direct and immediate control over one or more listed essential employment terms is central; indirect or unexercised reserved authority has the rule’s qualified supplementary role.",
+            "For federal wage-and-hour law (the FLSA), Part 791 is reserved, not a declaration that joint-employer liability disappeared. The Department of Labor’s April 2026 publication is a proposal, not an effective rule or franchise exemption. Governing court law and the actual employment facts remain relevant."
+          ],
+          "sourceIds": [
+            "b3-planning2-nlrb-joint-rule",
+            "b3-planning2-nlrb-withdrawal",
+            "b3-planning2-nlrb-court",
+            "b3-planning2-dol-joint791",
+            "b3-planning2-joint-nprm"
+          ]
+        }
+      ],
+      "practicalOutput": "Check shared-worker hours and actual employment decisions before treating two payrolls as two independent wage obligations.",
+      "limitations": [
+        "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The cited court record is not a complete current docket search."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/us-expansion/federal-wage/",
+        "/us-expansion/worker-classification/"
+      ]
+    },
+    "proposedNewSources": [],
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-planning2-nlrb-joint-rule",
+        "fields": {
+          "section": "Complete current § 103.40(a)–(f); targeted follow-up: Complete103.40(a)–(f)",
+          "fetchedAt": "2026-11-14T00:41:45.037718+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "a5fd019bcb2468da807c95a6989f707d085b57e6572479a17eac431b183c9e2e",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read complete current rule including eight essential terms and qualified role of indirect/reserved authority. eCFR cites February 27, 2026 restoration of2020 text. Applies to the NLRA inquiry, not a universal FLSA/tax/state test. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Re-read complete codified text; substantial/direct/immediate and supplementary indirect/reserved control retained. No FLSA transposition. Follow-up read scope: Complete103.40(a)–(f). This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      },
+      {
+        "id": "b3-planning2-dol-joint791",
+        "fields": {
+          "section": "Current complete part status; targeted follow-up: Complete substantive part status",
+          "fetchedAt": "2026-11-14T00:41:45.268868+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "0f9b920dc0b2103912b51c6a26719057c5cc04d5ebe574c847f2e640ef92a9f1",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read current reserved part and timeline. Reserved regulatory text is not absence of statutory joint-employer liability. April 2026 NPRM background, case law and actual2025 opinion supply separate context. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Reserved text is not an absence-of-liability conclusion. Follow-up read scope: Complete substantive part status. This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "No full current court-docket or governing-circuit/state-law determination; retain existing published qualification."
+    ]
+  },
+  {
+    "id": "b3-planning-product-safety",
+    "path": "/us-expansion/product-safety/",
+    "decision": "scope-resolved",
+    "conclusion": "Current1110 body and the actual final-rule dates confirm the covered-product/certifier framework, at-least-five-years-from-creation rule and July8,2026/January8,2027 phases. The currently readable CPSC FAQ still states its initial no-denial-solely-for-eFiling policy and ongoing certificate enforcement. This remains policy, not an exemption or entry guarantee.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-II/subchapter-B/part-1110",
+        "retrievedAt": "2026-11-14T00:41:45.406019+00:00",
+        "sha256": "5f882b2131aa522474e40aa36fd06ae1eea46d76d3746ceec6c9546bf275eb9f",
+        "rawPath": "research/raw/smb-federal/cpsc-1110.raw",
+        "snippet": "o maintain finished product certificates and the following records supporting such certificates for at least five years from the certificate creation date: ( a ) Records of test results on which a GCC is based, and records described in §§ 1109.5(g) and (j) of this chapter (where applicable). ( b ) Records of test results and other records on which a CPC is based, as required by § 1107.26 , and § 1109.5(g) and (j) of this chapter (where applicable). ( c ) Records of test results and other records on which a component part certificate is based, as required by § 1109.5(g) and (j) of this chapter. § 1110.19 Component part certificates. Pursuant to part 1109 of this chapter , component part certi",
+        "reviewedScope": "1110.1,.3,.5,.7,.9,.11,.13,.15,.17,.19, with focus on scope/certifier and records."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2025-01-08/html/2024-30826.htm",
+        "retrievedAt": "2026-11-14T00:46:50.858785+00:00",
+        "sha256": "5938181ad7b2704f9dfbac41567914121800f32bfd2128b490876602087b6646",
+        "rawPath": "research/raw/smb-federal/cpsc-fr.raw",
+        "snippet": "DATES: For all CPSC regulated consumer products and substances subject \nto the Final Rule and required to be certified, except for products and \nsubstances imported into a foreign trade zone (FTZ) and subsequently \nentered for consumption or warehousing, the Final Rule is effective on \nJuly 8, 2026. For CPSC regulated products and substances entered from \nan FTZ for consumption or warehousing, the Final Rule is effective on \nJanuary 8, 2027.\n\nFOR FURTHER INFORMATION CONTACT: Kat Rickerson, eFiling Program \nSpecialist, U.S. Consumer Product Safety Commission, 4330 East-West \nHighway, Bethesda, MD 20814; telephone 240-429-4257; email:\n[email protected]\n.\n\nSUPPLEMENTARY INFORMATION: The Commission is issuing a final rule to \nrevise the requirements for certificates of compliance (certificates) \n(the Final Rule) in 16 CFR part 1110 (part 1110 or the 1110 rule). The \nFinal Rule applies to imp",
+        "reviewedScope": "Action/summary/DATES and phase text; not all370KB preamble."
+      },
+      {
+        "url": "https://www.cpsc.gov/FAQ/eFiling-Frequently-Asked-Questions-FAQ",
+        "retrievedAt": "2026-11-14T00:39:21.062121+00:00",
+        "sha256": "cdd10cb156b750b5e3884683e6151a19ad1384e60fe984db28f06a706da9c930",
+        "rawPath": "research/raw/smb-federal/cpsc-faq.raw",
+        "snippet": ") deny entry of products into the U.S. if importers fail to comply with eFiling? At this time, CPSC does not intend to request that CBP deny entry of products into the U.S. solely based on failure to eFile certificate data via a Full PGA Message Set or a Reference PGA Message Set. To this end, CPSC does not intend initially to have the ACE system send reject messages for missing PGA data, only warning messages. However, CPSC will continue to enforce certificate requirements for imported consumer products and submit requests to CBP to initiate seizure of non-compliant products. Furthermore, CPSC intends to adjust an entry line's risk score based on certificate data provided via a Full PGA Mes",
+        "reviewedScope": "Timing, FTZ, entry-denial/eFiling/certificate-enforcement questions."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-product-safety",
+      "path": "/us-expansion/product-safety/",
+      "title": "An import certificate does not close a later safety complaint",
+      "seoTitle": "Product certificates and later CPSC reporting duties",
+      "description": "Certification and reporting serious new safety information are different responsibilities.",
+      "learningSummary": "A certificate concerns the applicable product requirements. New information about a hazard can create a separate reporting question even when a certificate is already on file.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "scope-and-certifier",
+          "heading": "Identify the product and responsible certifier",
+          "paragraphs": [
+            "The Consumer Product Safety Commission (CPSC) scope and exclusions depend on the actual article, ordinary users, intended use and other agencies involved. A B2B invoice does not itself remove a product from that inquiry.",
+            "For covered imported finished products, Part 1110 defines the importer/certifier role, certificate contents and eFiling. Specified broker, owner, purchaser or consignee allocations are possible, but the identified certifier remains legally responsible for validity, accuracy, completeness and availability. The testing basis must match the actual applicable rules; a bought template is not proof. Keep the certificate and specified supporting records for at least five years from the certificate’s creation date, and meet the separate access and furnishing requirements."
+          ],
+          "sourceIds": [
+            "b3-planning2-cpsc-def",
+            "b3-planning2-cpsc-certificates"
+          ]
+        },
+        {
+          "id": "new-information",
+          "heading": "An overheating report needs its own assessment",
+          "paragraphs": [
+            "In a fictional example, a brand receives overheating information after assembling its import certificate file. The old certificate is not a reason to ignore the new facts.",
+            "Covered firms can have an immediate reporting duty when information reasonably supports the specified noncompliance, a potentially substantial product hazard or an unreasonable serious-injury/death risk. The rule interprets immediate as 24 hours, with its weekend/holiday computation. Do not wait for a complete risk estimate by default: a reasonable investigation is not automatic permission to delay once reportable information is known. A supplier’s promise to handle it does not settle every other party’s duty."
+          ],
+          "sourceIds": [
+            "b3-planning2-cpsc-section15",
+            "b3-planning2-cpsc-reporting"
+          ]
+        },
+        {
+          "id": "import-filing",
+          "heading": "eFiling policy does not waive safety duties",
+          "paragraphs": [
+            "The final action uses July 8, 2026 for most covered products and January 8, 2027 for specified foreign-trade-zone entries. The reviewed FAQ describes an initial policy against entry denial solely for missing eFiling data while certificate enforcement continues. That time-sensitive policy is not an exemption or guaranteed entry result."
+          ],
+          "sourceIds": [
+            "b3-planning2-cpsc-final-rule",
+            "b3-planning2-cpsc-faq"
+          ]
+        }
+      ],
+      "practicalOutput": "Bring new safety information promptly into the reporting assessment instead of treating the certificate as the end of the issue.",
+      "limitations": [
+        "No product jurisdiction, technical test, reportable-defect, recall or shipment-clearance conclusion is made. The example does not decide whether its complaint is reportable."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/us-expansion/customs-importer/",
+        "/industries/retail/"
+      ]
+    },
+    "proposedNewSources": [],
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-planning2-cpsc-certificates",
+        "fields": {
+          "section": "Complete substantive §§1110.1–1110.19; targeted follow-up: 1110.7,.13,.15,.17; complete relevant sections",
+          "fetchedAt": "2026-11-14T00:41:45.406019+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "5f882b2131aa522474e40aa36fd06ae1eea46d76d3746ceec6c9546bf275eb9f",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read complete current part: scope, importer/certifier definitions, content, eFiling, availability, responsibility, five-year records and component certificates. Part 1110 does not establish which product-specific standard or testing frequency applies. Apply the final rule’s FTZ phase separately. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Scoped current-body review confirms certifier, availability and retention. Covered finished-product certification, not all imported goods. Follow-up read scope: 1110.7,.13,.15,.17; complete relevant sections. This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      },
+      {
+        "id": "b3-planning2-cpsc-faq",
+        "fields": {
+          "section": "Main FAQ, including used products, samples, effective dates and current entry-warning policy; targeted follow-up: Phase dates and initial ACE/eFiling enforcement questions",
+          "fetchedAt": "2026-11-14T00:39:21.062121+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "cdd10cb156b750b5e3884683e6151a19ad1384e60fe984db28f06a706da9c930",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Read actual main FAQ, including its initial-enforcement wording and existing certification duties. It says CPSC does not initially intend entry rejection solely for missing eFiling data but continues certificate enforcement. That is not a legal exemption or guaranteed border treatment; some page language still refers to a voluntary stage. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Read actual FAQ policy at retrieval. Continued certificate enforcement and no exemption/guaranteed-entry conclusion. Time-sensitive guidance, not a final-rule amendment. Follow-up read scope: Phase dates and initial ACE/eFiling enforcement questions. This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Product-specific jurisdiction/testing and whether actual information triggers reporting remain case-specific; no blanket clearance."
+    ]
+  },
+  {
+    "id": "b3-planning-cross-border-data",
+    "path": "/us-expansion/cross-border-data/",
+    "decision": "scope-resolved",
+    "conclusion": "Actual DOJ compliance guide independently uses October6,2025 for due-diligence/audit and specified reporting duties and points to the incorporated CISA requirements. The updated DOJ overview retains its one-day wording difference. NIST confirms incorporation of the January2025 CISA document but provides no substitute full technical body. CISA page/PDF remain403.",
+    "evidence": [
+      {
+        "url": "https://www.justice.gov/nsd/data-security",
+        "retrievedAt": "2026-11-14T00:39:21.027023+00:00",
+        "sha256": "ccc22dc6d8b2b288c176ae7356d230c49dd7a756a7ab5691998509898a337110",
+        "rawPath": "research/raw/smb-federal/doj-main.raw",
+        "snippet": "October 5, 2025.\nPress release\n(final rule)\nFact sheet\n(final rule)\nConcurrently with the Department’s issuance of the Final Rule, the Department of Homeland Security’s Cybersecurity and Infrastructure Agency (CISA)\nissued\nthe final security requirements with which U.S. persons engaged in restricted transactions must comply.\nNotice of Proposed Rulemaking and Proposed Security Requirements\n. On October 18, 2024, the Department’s National Security Division issued a notice of proposed rulemaking (NPRM)\nto offer full draft regulations for public notice and comment. The NPRM reflected\nthe public another opportunity to submit comments on the new program. The public-comment period for the NPRM closed on November 29, 2024.\nPress release\n(NPRM)\nFact sheet\n(NPRM)\nConcurrently with the Department’s issuance of the NPRM, CISA proposed security requirements with which U.S. persons engaged in restrict",
+        "reviewedScope": "Complete current overview and resource links; updatedOct8,2026, old2025 implementation period remains historical."
+      },
+      {
+        "url": "https://www.justice.gov/opa/media/1396356/dl",
+        "retrievedAt": "2026-11-14T00:41:45.085477+00:00",
+        "sha256": "3572ac1d8fc64c293e4df7d4bacb58b5524926316e52f0e0a0fe24341d42de24",
+        "rawPath": "research/raw/smb-federal/doj-compliance.raw",
+        "snippet": "ound A. Effective Date There are two key effective dates associated with the DSP: April 8, 2025 and October 6, 2025. Starting April 8, 2025, entities and individuals are required to comply with the DSP's prohibitions and restrictions, and with all other provisions of the DSP with the exception of the affirmative obligations of subpart J (related to due diligence and audit requirements for restricted transactions), § 202.1103 (related to reporting requirements for certain restricted transactions), and § 202.1104 (related to reports on rejected prohibited transactions). Starting October 6, 2025, entities and individuals must comply with subpart J and §§ 202.1103 and 202.1104. These effective d",
+        "reviewedScope": "I–II effective-date/force-of-guidance and IV(A) security/IV(B) programme portions."
+      },
+      {
+        "url": "https://sibr.nist.gov/node/1637581",
+        "retrievedAt": "2026-11-14T00:44:56.986093+00:00",
+        "sha256": "d373fef348af9a2945d7e5ba42b586aff4297eca3e05faa1b3d92d90f2790f97",
+        "rawPath": "research/raw/smb-federal/cisa-nist.raw",
+        "snippet": "Standard Title\nSecurity Requirements for Restricted Transactions E.O. 14117 Implementation, January 2025\nSDO\nCybersecurity and Infrastructure Security Agency, U.S. Department of Homeland Security\nStandard Number Link\nhttps://www.cisa.gov/resources-tools/resources/EO-14117-security-requirements\nExcerpts\nThat document is\nincorporated\nby reference\ninto the definition of âsecurity requirementsâ in Â§â202.248. The security requirements require U.S. persons engaging in restricted transactions to comply with organizational and system-level requirements, such as ensuring that basic organizational cybersecurity policies, practices, and requirements are in place, as well as data-level requirements, such as data minimization and masking, encryption, or privacy-enhancing techniques. The Department of Justice is incorporating\nby reference\nthe published final\nRecord Source\nwww.federalregister.gov",
+        "reviewedScope": "Complete catalog entry; incorporation reference only, not technical body."
+      },
+      {
+        "url": "https://www.cisa.gov/resources-tools/resources/EO-14117-security-requirements",
+        "retrievedAt": "2026-11-14T00:39:21.034310+00:00",
+        "sha256": "7913d1235162f8a88ed6267bc20d3708355a30eb83dcab8c175ca68b972586bc",
+        "rawPath": "research/raw/smb-federal/cisa-main.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.cisa.gov/resources-tools/resources/EO-14117-security-requirements\" on this server.\nReference #18.575ed617.1794616761.de3ed0e\nhttps://errors.edgesuite.net/18.575ed617.1794616761.de3ed0e",
+        "reviewedScope": "Ordinary official page request403; no technical content."
+      },
+      {
+        "url": "https://www.cisa.gov/sites/default/files/2025-01/Security_Requirements_for_Restricted_Transaction-EO_14117_Implementation508.pdf",
+        "retrievedAt": "2026-11-14T00:39:20.992427+00:00",
+        "sha256": "69a0fd46325f46730e3f57ad7e7911fe8e69dc0dbd812dae1eb55292782689c7",
+        "rawPath": "research/raw/smb-federal/cisa-pdf.raw",
+        "snippet": "Access Denied\nAccess Denied\nYou don't have permission to access \"http://www.cisa.gov/sites/default/files/2025-01/Security_Requirements_for_Restricted_Transaction-EO_14117_Implementation508.pdf\" on this server.\nReference #18.575ed617.1794616760.de3ed0f\nhttps://errors.edgesuite.net/18.575ed617.1794616760.de3ed0f",
+        "reviewedScope": "Ordinary official PDF request403; no technical content."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "b3-planning-cross-border-data",
+      "path": "/us-expansion/cross-border-data/",
+      "title": "Does overseas system access fall within the DOJ data programme?",
+      "seoTitle": "DOJ data programme: covered access and scope limits",
+      "description": "The rule concerns defined people, data and transactions, not every overseas login.",
+      "learningSummary": "A U.S. server does not remove the question if a foreign user can read or edit the data. This page explains programme scope; detailed Cybersecurity and Infrastructure Security Agency (CISA) technical requirements remain unverified, so it does not establish a compliant access arrangement.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "people-and-access",
+          "heading": "Who receives access?",
+          "paragraphs": [
+            "Identify the U.S. person providing access as well as the foreign recipient, data and agreement.",
+            "Part 202 can reach reading, viewing, editing or otherwise receiving data through a system or cloud platform. A foreign address alone does not establish a prohibited transaction.",
+            "Apply the actual covered-person and countries-of-concern definitions, including relevant ownership, organisation, employment, primary residence and designation. The recorded list names China, Cuba, Iran, North Korea, Russia and Venezuela, with China’s stated Hong Kong/Macau scope. Citizenship or an OFAC name result is not the complete test; an unlisted entity can qualify."
+          ],
+          "sourceIds": [
+            "b3-planning2-doj-rule202"
+          ]
+        },
+        {
+          "id": "data-thresholds",
+          "heading": "The data and count matter",
+          "paragraphs": [
+            "Government-related data has specified regardless-of-volume criteria. Bulk sensitive U.S. personal data uses the following more-than thresholds under the category conditions. Aggregate over the preceding 12 months with the prescribed same-party rules; a new invoice does not restart the count. Mixed datasets have their own rule."
+          ],
+          "sourceIds": [
+            "b3-planning2-doj-rule202"
+          ],
+          "table": {
+            "headers": [
+              "Data category",
+              "Bulk threshold under the category conditions"
+            ],
+            "rows": [
+              [
+                "Human genomic",
+                "More than 100 U.S. persons"
+              ],
+              [
+                "Other human-omic or biometric",
+                "More than 1,000 U.S. persons"
+              ],
+              [
+                "Precise geolocation",
+                "More than 1,000 U.S. devices"
+              ],
+              [
+                "Health or financial",
+                "More than 10,000 U.S. persons"
+              ],
+              [
+                "Covered identifiers",
+                "More than 100,000 U.S. persons"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "transaction-type",
+          "heading": "What arrangement gives the access?",
+          "paragraphs": [
+            "Data brokerage and specified human-omic transactions have prohibitions. Relevant vendor, employment and investment transactions can be restricted, subject to actual security and other conditions, including the required diligence programme and annual audit.",
+            "The corporate-group administrative/ancillary exemption is bounded. An independent franchise or licence partner is not automatically a subsidiary or affiliate. Prescribed security requirements cannot simply be replaced with controls the business regards as equivalent."
+          ],
+          "sourceIds": [
+            "b3-planning2-doj-rule202"
+          ]
+        },
+        {
+          "id": "operative-status",
+          "heading": "The earlier grace policy has ended",
+          "paragraphs": [
+            "The programme began April 8, 2025. The cited operative diligence/audit provisions use October 6, 2025; the Department of Justice (DOJ) overview’s October 5 wording is the recorded source difference. The old good-faith enforcement-priority period ended July 8, 2025 and is not continuing grace."
+          ],
+          "sourceIds": [
+            "b3-planning2-doj-rule202",
+            "b3-planning2-doj-dsp",
+            "b3-planning2-doj-enforcement",
+            "smb-fed-doj-compliance"
+          ]
+        }
+      ],
+      "practicalOutput": "Establish the actual recipient, accessible data and transaction before assuming the helpdesk account is permitted or exempt.",
+      "limitations": [
+        "These thresholds are not a general privacy safe harbour. No exemption, access authorisation or security attestation is supplied; origin-country, sector and other privacy duties remain separate."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/industries/it-services/",
+        "/us-expansion/sanctions-screening/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-doj-compliance",
+          "url": "https://www.justice.gov/opa/media/1396356/dl",
+          "title": "DOJ Data Security Program Compliance Guide",
+          "authority": "U.S. Department of Justice",
+          "type": "primary",
+          "section": "II(A), IV(A)–(B), guidance limitations",
+          "supportingPassage": "October 6,",
+          "fetchedAt": "2026-11-14T00:41:45.085477+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "3572ac1d8fc64c293e4df7d4bacb58b5524926316e52f0e0a0fe24341d42de24",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official-guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "Official guidance corroborates operative date and explains that guidance compliance is no safe harbour. It refers to CISA requirements rather than reproducing the full controls. Detailed CISA access remains blocked. Review is limited to II(A), IV(A)–(B), guidance limitations. No human or professional legal review is claimed."
+        }
+      }
+    ],
+    "proposedSourceUpdates": [],
+    "remainingLimits": [
+      "Complete CISA technical implementation requirements and any transaction-specific compliant arrangement remain unverified.",
+      "The DOJ guide and NIST catalog do not substitute for the inaccessible complete CISA technical requirements; no compliant access arrangement is established."
+    ]
+  },
+  {
+    "id": "foreign-financials",
+    "path": "/us-expansion/foreign-financial-statements/",
+    "decision": "scope-resolved",
+    "conclusion": "Actual current17CFR210.4-01(a)(2) and SEC manual6310.1–.3/6320.1–.6 resolve the general SEC-permitted-basis question without universal IFRS acceptance. Current Item21(u) independently retains applicable USGAAS, entity/period/guarantee and conditional-startup requirements. Individual FDD acceptance remains an application question.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-210/subject-group-ECFRfb9607bd59ac981/section-210.4-01",
+        "retrievedAt": "2026-11-14T00:41:45.281454+00:00",
+        "sha256": "05d728c2fd49d467ad66d96f1cd1a825b7706c033f4be4ae369e5a749bd6b863",
+        "rawPath": "research/raw/smb-federal/sec-401.raw",
+        "snippet": "rehensive set of accounting principles, other than those generally accepted in the United States or International Financial Reporting Standards as issued by the International Accounting Standards Board, if a reconciliation to U.S. Generally Accepted Accounting Principles and the provisions of Regulation S-X of the type specified in Item 18 of Form 20-F ( § 249.220f of this chapter ) is also filed as part of the financial statements. Alternatively, the financial statements may be prepared according to U.S. Generally Accepted Accounting Principles or International Financial Reporting Standards as issued by the International Accounting Standards Board. ( b ) All money amounts required to be sho",
+        "reviewedScope": "Complete210.4-01, especially(a)(2); currencyNov12,2026."
+      },
+      {
+        "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/financial-reporting-manual/frm-topic-6",
+        "retrievedAt": "2026-11-14T00:41:45.659187+00:00",
+        "sha256": "d696594a64ff29d3da125ff13293dfae2c60127a5a1897ec98a8d8b8c73299a3",
+        "rawPath": "research/raw/smb-federal/sec-manual6.raw",
+        "snippet": "ation: The accounting policy footnote must state compliance with IFRS as issued by the IASB and the auditor's report must opine on compliance with IFRS as issued by the IASB. The foreign private issuer may state, and the auditor may opine on, compliance with both IFRS as issued by the IASB and home-country accounting standards (e.g., IFRS as endorsed in the EU) if there is no difference. [Item 17c of Form 20-F] 6310.3 Foreign private issuers that comply with another basis of reporting (e.g., home- country GAAP) are not eligible to omit the U.S. GAAP reconciliation. In addition, foreign issuers that are not foreign private issuers or domestic subsidiary issuers of foreign companies must conti",
+        "reviewedScope": "6310.1–.3 and6320.1–.6; dates retained as staff guidance, not fresh rulemaking."
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-C/section-436.5",
+        "retrievedAt": "2026-11-14T00:41:45.297930+00:00",
+        "sha256": "37dc2724dab83ba2083ffbd022affc5a9e0e6c972fb8c3e8af0b3162fceeef5b",
+        "rawPath": "research/raw/smb-federal/ftc-item21.raw",
+        "snippet": "ng principles, as revised by any future United States government mandated accounting principles, or as permitted by the Securities and Exchange Commission. Except as provided in paragraph (u)(2) of this section, these financial statements must be audited by an independent certified public accountant using generally accepted United States auditing standards. Present the required financial statements in a tabular form that compares at least two fiscal years. ( i ) The franchisor's balance sheet for the previous two fiscal year-ends before the disclosure document issuance date. ( ii ) Statements of operations, stockholders equity, and cash flows for each of the franchisor's previous three fisca",
+        "reviewedScope": "Complete436.5(u), statements, affiliate guarantee, parent/subfranchisor and startup conditions."
+      }
+    ],
+    "proposedPublicPatch": {
+      "id": "foreign-financials",
+      "path": "/us-expansion/foreign-financial-statements/",
+      "title": "Why a foreign audit may need more work for the FDD",
+      "seoTitle": "Foreign audits and FDD accounting requirements",
+      "description": "An audit, an acceptable accounting basis and the right reporting companies are three different questions.",
+      "learningSummary": "Existing audited accounts can be useful without automatically satisfying Item 21 of the Franchise Disclosure Document (FDD). The U.S. seller, a supporting parent and a subfranchisor can affect which statements are required.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "basis-and-audit",
+          "heading": "Prepared under which rules, and audited under which standards?",
+          "paragraphs": [
+            "Item 21 specifies U.S. generally accepted accounting principles, or principles permitted by the Securities and Exchange Commission, together with applicable U.S. generally accepted auditing standards. The accounting basis governs preparation; audit standards govern the examination. Having an audit does not answer both.",
+            "The current Securities and Exchange Commission general filing rule permits foreign private issuers to use International Financial Reporting Standards (IFRS) as issued by the International Accounting Standards Board (IASB), or U.S. GAAP. Other comprehensive accounting principles generally require the specified U.S. GAAP reconciliation, subject to the applicable form. SEC staff guidance distinguishes IASB-issued IFRS from home-country standards and requires the stated compliance in the accounts and auditor’s opinion to omit reconciliation. This establishes the general SEC framework; it does not approve this group’s FDD accounts or replace Item 21’s audit requirements."
+          ],
+          "sourceIds": [
+            "fed-fdd-21",
+            "fed-compliance",
+            "smb-fed-sec-basis",
+            "smb-fed-sec-manual"
+          ]
+        },
+        {
+          "id": "responsible-companies",
+          "heading": "Parent support can affect the statement question",
+          "paragraphs": [
+            "In a fictional European group, a new U.S. subsidiary will sell franchises while presentations promise parent training and technical support. Budgeting only for the subsidiary’s opening accounts can miss questions raised by the parent’s obligations or guarantees.",
+            "Read the actual commitments. A thin seller does not make parent promises disappear, but a strong parent does not automatically let the seller attach the parent’s annual report instead. Subfranchisor roles raise further requirements."
+          ],
+          "sourceIds": [
+            "fed-fdd-21"
+          ]
+        },
+        {
+          "id": "launch-cost",
+          "heading": "Allow time for the work actually needed",
+          "paragraphs": [
+            "The required companies and reporting periods, preparation basis, audit approach and any reconciliation affect the cost and delivery date of the FDD. Signing an audit engagement is not completion of that work.",
+            "The federal startup phase-in is conditional, not a universal shortcut for an established foreign system or any newly formed U.S. seller. State acceptance and financial-assurance conditions are separate."
+          ],
+          "sourceIds": [
+            "fed-fdd-21",
+            "fed-compliance"
+          ]
+        }
+      ],
+      "practicalOutput": "Allow for the actual statement and audit work before promising the sales launch date.",
+      "limitations": [
+        "This identifies acceptance issues; it does not determine the exact statements, startup eligibility or state financial conditions for your group."
+      ],
+      "readMinutes": 2,
+      "relatedPaths": [
+        "/fdd/item-21/",
+        "/states/minnesota/franchise-support-funding/"
+      ]
+    },
+    "proposedNewSources": [
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-sec-basis",
+          "url": "https://www.ecfr.gov/current/title-17/chapter-II/part-210/subject-group-ECFRfb9607bd59ac981/section-210.4-01",
+          "title": "17 CFR210.4-01: financial-statement preparation basis",
+          "authority": "Securities and Exchange Commission",
+          "type": "primary",
+          "section": "210.4-01(a)(1)–(2)",
+          "supportingPassage": "International Financial Reporting Standards as issued by the International Accounting Standards Board",
+          "fetchedAt": "2026-11-14T00:41:45.281454+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "05d728c2fd49d467ad66d96f1cd1a825b7706c033f4be4ae369e5a749bd6b863",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "Read current actual rule. FPI/IASB/form/reconciliation conditions retained; no SEC issuer-status or FDD-account acceptance finding. Review is limited to 210.4-01(a)(1)–(2). No human or professional legal review is claimed."
+        }
+      },
+      {
+        "file": "batch3-planning-sources.json",
+        "source": {
+          "id": "smb-fed-sec-manual",
+          "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/financial-reporting-manual/frm-topic-6",
+          "title": "SEC Financial Reporting Manual Topic 6",
+          "authority": "SEC staff",
+          "type": "official-guidance",
+          "section": "6310.1–.3,6320.1–.6",
+          "supportingPassage": "auditor's report must opine",
+          "fetchedAt": "2026-11-14T00:41:45.659187+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "d696594a64ff29d3da125ff13293dfae2c60127a5a1897ec98a8d8b8c73299a3",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official-guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "notes": "Read relevant current-hosted staff manual passages with their historical update dates. Home-country IFRS not automatically IASB IFRS; no substitute for operative regulation or Item21. Review is limited to 6310.1–.3,6320.1–.6. No human or professional legal review is claimed."
+        }
+      }
+    ],
+    "proposedSourceUpdates": [
+      {
+        "id": "fed-fdd-21",
+        "fields": {
+          "section": "Item 21: Financial statements; targeted follow-up: Complete436.5(u)",
+          "fetchedAt": "2026-11-14T00:41:45.297930+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "37dc2724dab83ba2083ffbd022affc5a9e0e6c972fb8c3e8af0b3162fceeef5b",
+          "notes": "Prior AI-assisted review scope (2026-11-12): Current substantive item read in full from current eCFR. This guide explains selected management implications; it is not a substitute for all prescribed disclosure text. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Re-read complete Item21 current text; preparation basis separate from audit, statement entities/periods and conditional phase-in remain. Follow-up read scope: Complete436.5(u). This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Exact group accounts, reporting companies/periods, applicable SEC-form conditions, startup eligibility and state acceptance require the actual facts; no universal acceptance is asserted."
+    ]
+  }
+]

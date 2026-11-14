@@ -1,0 +1,96 @@
+[
+  {
+    "guideId": "b3-o2-latvia",
+    "ruleId": "b3-o2-lv-export-proof",
+    "file": "src/data/batch3-origin2-rules.json",
+    "fields": {
+      "interpretationLimits": [
+        "Current Latvian text read; available official English translation is outdated and not used as current law.",
+        "Cabinet Regulation 17 paragraphs 15–19 were read for the stated ordinary commercial goods-export evidence route. Actual goods, movement, documentary names and Customs acceptance remain conditions; a combination of any two papers is not automatic VAT approval. U.S. import, classification and tariff obligations remain outside the review.",
+        "A U.S. buyer or service-fee label alone does not establish goods export or a zero rate."
+      ],
+      "sourceIds": [
+        "b3-o2-lv-law-current",
+        "smb-origin-lv-reg17"
+      ]
+    },
+    "reason": "The explicit unreviewed-Cabinet-list hold is stale for the ordinary goods-export route actually read in Regulation17 paragraphs15–19. Retain the outdated-English warning, statutory advance qualifications, actual Customs proof and U.S. import limits; do not extend the Ukraine-donation or transport branches to the commercial scenario."
+  },
+  {
+    "guideId": "b3-origin3-guide-iceland",
+    "ruleId": "b3-origin3-iceland-decision",
+    "file": "src/data/batch3-origin3-rules.json",
+    "fields": {
+      "interpretationLimits": [
+        "Narrow Icelandic statutory export-service screen; no complete VAT registration, reporting, input-credit or income-tax ruling.",
+        "The official current-hosted Regulation 194/1990 PDF was read in full with AI-assisted Icelandic interpretation. Its listed-service alternatives and conditional certificate provisions remain relevant; their application alongside the broader current Article 12 business-recipient route is not settled here. Neither universal certificates, their universal absence nor regulatory obsolescence is inferred.",
+        "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+      ],
+      "sourceIds": [
+        "b3-origin3-iceland-current-law",
+        "b3-origin3-iceland-vat",
+        "smb-origin-is-reg194-current"
+      ]
+    },
+    "reason": "Replace only the obsolete403/unread-regulation claim: the three-page official current file was recovered and read. Keep the genuine statute/regulation interaction and current-versus-old-English wording conflict; the two-year certificate belongs to its stated hypothetical-credit limb, not every foreign invoice."
+  },
+  {
+    "guideId": "b3-o2-luxembourg",
+    "ruleId": "b3-o2-lu-recap-boundary",
+    "file": "src/data/batch3-origin2-rules.json",
+    "fields": {
+      "interpretationLimits": [
+        "The statutory check now includes Articles 17 and 64bis of the official VAT-law text coordinated at 1 January 2026. Guichet’s eCDF process pages remain dated January 2023; actual service exceptions, receiving establishment, applicable reporting period and current filing access/cutoff require their own application. This is not a complete VAT-law or every digital/event exception review.",
+        "No blanket no-Luxembourg-VAT, no-return or no-U.S.-tax conclusion.",
+        "A U.S. group’s EU receiving branch may change the analysis."
+      ],
+      "sourceIds": [
+        "b3-o2-lu-services",
+        "b3-o2-lu-recap",
+        "smb-origin-lu-vat-law-2026"
+      ]
+    },
+    "reason": "The old scope described only January2023Guichet guidance and left the later statutory position broadly unreconciled. The named January2026Act provisions are now read. Preserve the qualifying other-EU VAT-identified/recipient-liability/nonexemption conditions, monthly default versus regulation-based alternatives, and unresolved actual period/process—not a blanket no-VAT/no-return answer."
+  },
+  {
+    "guideId": "b3-o4-moldova",
+    "ruleId": "b3-o4-md-bank-account",
+    "file": "src/data/batch3-origin4-rules.json",
+    "fields": {
+      "interpretationLimits": [
+        "An overseas subsidiary account and a resident parent’s own account must be factually separated; this guide does not decide the subsidiary’s residence.",
+        "Regulation 216’s stated purpose, retention/use and closure provisions for accounts opened without NBM authorization were read. The Chapter VII monthly report is expressly for authorized accounts and is not automatically imposed on the export-collection exception. Actual expense compatibility with the account purpose and statutory export-only/final-crediting conditions, non-bank providers/wallets, other exceptions and separate tax or other reporting remain unresolved."
+      ],
+      "sourceIds": [
+        "b3-o4-md-native-law",
+        "b3-o4-md-law",
+        "smb-origin-md-accounts-regulation"
+      ]
+    },
+    "reason": "Narrow the old blanket implementing-reporting/retention hold to the actual remaining scope. Regulation216 through Decision255/2025 was read for general/exempt-account purpose and closure conditions, closing-balance qualifications and expressly authorized-account reporting. Do not import ChapterIII authorization-specific conditions or ChapterVII monthly reporting into every exempt account or infer unrestricted expense payments."
+  },
+  {
+    "guideId": "b3-origin3-guide-bulgaria",
+    "ruleId": "b3-origin3-bulgaria-decision",
+    "file": "src/data/batch3-origin3-rules.json",
+    "fields": {
+      "conflicts": [
+        "The administrative entry still contains a Regulation 428/2009 citation. Article 31 of Regulation 2021/821 repeals the older regulation, treats references to it as references to the new regulation, and preserves the relevant older provisions for export-authorization applications lodged before 9 September 2021. Promulgated Decree 88 sections 22 and 30 replace the implementing references; the older administrative citation does not establish a 428/2009 route for a new application.",
+        "Mixed fee descriptions are not treated as a verified payable amount."
+      ],
+      "interpretationLimits": [
+        "Narrow Bulgarian administrative-packet guide for a conditionally covered controlled-export transaction; no classification, licence or exemption determination.",
+        "The national Act compilation reviewed ends at May 2024 amendments. The targeted 2026 Gazette 55 amendment and promulgated Decree 88 of 17 July 2026 (Gazette 66, 21 July 2026) now supplement that limited compilation; they do not establish the absence of other amendments or a complete current control-list review. Decree 88 changes packet, internal-compliance-programme and large-project branches, translation certification and electronic-payment proof, so the older service entry is not an exhaustive current packet. No exact commencement date or payable fee is derived here. Bulgarian interpretation was AI-assisted.",
+        "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
+      ],
+      "sourceIds": [
+        "b3-origin3-bulgaria-export-register",
+        "b3-origin3-bulgaria-export-current-law",
+        "smb-origin-bg-repealer",
+        "smb-origin-bg-gazette55",
+        "smb-origin-bg-decree88"
+      ]
+    },
+    "reason": "Replace the stale blanket later-implementing-law/legacy-reference hold with the actual EU repealer and published final 2026 amendments, not the consultation draft. Keep the administrative-source mismatch visible but resolve its legal-reference meaning narrowly, including Article 31’s pre-9-September-2021 application exception. Decree 88 section 31 changes separate payment-proof requirements for electronic payment, not the fee; classification, route eligibility, actual packet and payable-fee questions remain."
+  }
+]

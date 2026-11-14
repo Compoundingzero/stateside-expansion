@@ -725,17 +725,18 @@
     "title": "16 CFR §436.5(u): FDD Item 21",
     "authority": "Federal Trade Commission",
     "type": "primary",
-    "section": "Item 21: Financial statements",
+    "section": "Item 21: Financial statements; targeted follow-up: Complete436.5(u)",
     "supportingPassage": "these financial statements must be audited by an independent certified public accountant using generally accepted United States auditing standards.",
     "publicationDate": null,
     "effectiveDate": null,
-    "fetchedAt": "2026-11-12T20:51:48.875978+00:00",
-    "substantiveVerifiedAt": "2026-11-12",
+    "fetchedAt": "2026-11-14T00:41:45.297930+00:00",
+    "substantiveVerifiedAt": "2026-11-14T00:50:01.831769+00:00",
     "nextReview": "2026-12-12",
     "legalStatus": "effective",
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
-    "accessStatus": "read",
-    "notes": "Current substantive item read in full from current eCFR. This guide explains selected management implications; it is not a substitute for all prescribed disclosure text."
+    "accessStatus": "retrieved-and-read",
+    "notes": "Prior AI-assisted review scope (2026-11-12): Current substantive item read in full from current eCFR. This guide explains selected management implications; it is not a substitute for all prescribed disclosure text. Targeted follow-up at 2026-11-14T00:50:01.831769+00:00: Re-read complete Item21 current text; preparation basis separate from audit, statement entities/periods and conditional phase-in remain. Follow-up read scope: Complete436.5(u). This follow-up does not assert a fresh complete review beyond that scope. The earlier reviewed range is preserved, with current form/CISA/docket limits unchanged unless expressly resolved above.",
+    "sha256": "37dc2724dab83ba2083ffbd022affc5a9e0e6c972fb8c3e8af0b3162fceeef5b"
   },
   {
     "id": "fed-fdd-22",

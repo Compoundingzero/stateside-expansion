@@ -1,0 +1,499 @@
+[
+  {
+    "id": "b3-state-guide-ca-janitorial-registration",
+    "reviewedHash": "32431bad0a3aaaae49405bde2324e53169244396916ef283ce3d0a1ea6f842ee",
+    "decision": "approved",
+    "notes": "The rewrite retains provider/recipient and residential/private scope, the $500 initial/annual fee, issuance-anniversary renewal, conditional employee insurance evidence and three-year worker records. The shorter contract-chain example answers who must check registration without imposing an optional schedule.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state-guide-ca-janitorial-training",
+    "reviewedHash": "c33b4a7cd3ca32014382eb8850e2fbd467902a9ae5b971748783c188a17dde0d",
+    "decision": "approved",
+    "notes": "Retains worker/supervisor routes, two hours every two years, six-month role-start clock, one-hour minimum segments, language/literacy, conditional successor date carry-forward and employer-held proof for at least three years. Course and evidence duties remain distinct.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state-guide-ca-pay-floor",
+    "reviewedHash": "6782b01d59aa48d5511827a48af17ba3b73a9f62d885ba9504f28c3889eec1ea",
+    "decision": "approved",
+    "notes": "Preserves the actual 2026 $16.90 general-rate scope, higher local/industry conditions, cumulative executive duties, monthly-salary basis and $70,304 annualized illustration. The fictional $65,000 salary is correctly separate from the $120,000 total employer budget; no 2027 rate is invented.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state2-id-equipment",
+    "reviewedHash": "674948a3f0e929eefbf4111ac7ac03f9aca8b44464dff937d2fa33d14a39ceaa",
+    "decision": "approved",
+    "notes": "Preserves the cumulative exclusion including supplier-specific inventory/sales/three-year territory inputs, separate 90-day notice and cure exceptions, market-penetration assistance sequence and conditional 75-mile alternative. No termination or exclusive territory is promised.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state2-co-equipment",
+    "reviewedHash": "cbcd3324b28043420fc6a5750e4702c032b41ede30b17d6569aeab54f3838f09",
+    "decision": "approved",
+    "notes": "Retains retail/product exclusions, oral/written agreement scope, conditional foreign-law/venue effect, the nonuniversal 180-day process and separate one-year premises requirement at renewal. The shortened showroom example remains a question, not a lawful-exit conclusion.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state3-mn-relationship-guide",
+    "reviewedHash": "3e1f2579b30c9f99cc4c261c1d8a347f6eac2d7ac14bb9e531897b35948ba11e",
+    "decision": "approved",
+    "notes": "Substantive notice, correction, immediate-effect, nonrenewal/conversion and transfer conditions are retained. Restore a brief inline explanation of “going concern” (the business as a continuing operation) and replace or explain “recognized-classification context”; the former keyTerms supplied the first explanation and the current table assumes it. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state4-ct-exit",
+    "reviewedHash": "f33fdb272248a3c88f6793c3ce2c29641d80ac6dc0f9bbddf05e0cd7f1f486fe",
+    "decision": "approved",
+    "notes": "Retains no-fee definition distinction, agreement/place qualifiers, separate 60-day/six-month/30-day/delivery-and-receipt branches and no universal cure. Connected-lease service/attachment/court conditions, three-year terms, conditional assets and the later-session-law limitation stay visible.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state4-fl-representations",
+    "reviewedHash": "1c348df02e25be3cde244df4e25123488592c6d0eb82517473bbcdcf31667717",
+    "decision": "approved",
+    "notes": "Preserves all four supply-reliance definition elements, intentional-misrepresentation condition, three distinct sales-claim subjects and the civil-court showing. Discretionary attorney fees remain distinct from mandatory costs on that showing; the example authorizes no earnings claim.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-minnesota",
+    "reviewedHash": "348f10a726dd3a11b74d6b728d878f6922836b20bb8440a4097344361d95e9d0",
+    "decision": "approved",
+    "notes": "Registration, seven-day state delivery, earlier agreement/payment trigger, three-year acknowledgement retention and independent federal 14-calendar-day rule are accurately retained. Explain the newly compressed “community-of-interest” route and the fee-restriction terms inline (funds held, collection deferred, or bond alternative); deleting all keyTerms currently leaves these central concepts unexplained. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-hawaii",
+    "reviewedHash": "71d7cdac9166cb485472009adc038f410ea4d803f12c1b7a1040aeb013ba0504",
+    "decision": "approved",
+    "notes": "The narrower filing-error title matches the actual reviewed instructions. Seller/funding/statement consistency, conditional guarantor statements, accepted overseas execution and the unreviewed 2023 statement-age order remain distinct; no offer date or parent funding is inferred.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-illinois",
+    "reviewedHash": "bc33fd6eecac3ba64d9f8f7ff5e3b979950230e4a9cd0ae413c0285af4c22986",
+    "decision": "approved",
+    "notes": "Keeps the forms-as-available distinction, conditional funding/guarantee question,120 days after financial yearend, clean/blackline meaning and request-versus-release distinction. The undated channel, fee, initial timing and exemption gaps stay explicit rather than being disguised as completed registration advice.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-maryland",
+    "reviewedHash": "7c039b28edbe762a3e9c2d91923b755d181b082c7a74aef66e9fcebd3418c345",
+    "decision": "approved",
+    "notes": "Correctly limits first-personal-meeting/ten-business-day delivery to the specified D–G routes absent contrary order. The earlier trigger, independent federal period,30 th-business-day noon,15 business-day renewal, prompt amendment, advertising and narrow sale-conditioned waiver rule are retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-michigan",
+    "reviewedHash": "6bd394e4b6420e49236efcbf68b22cd51900609ce5d301b03a4c643728c30e63",
+    "decision": "approved",
+    "notes": "Notice-before-offer, the stated$250 fee/one-year filing period and no-FDD-approval distinction remain clear. The agency-quoted definition and blocked full-law limits are preserved; the companion link does not replace the concise buyer-package and ten-business/fourteen-calendar-day requirements.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-indiana",
+    "reviewedHash": "6ac428786f08f90e3175149d27fbcf5828055ebcd64796bd848401cb5a4c170d",
+    "decision": "approved",
+    "notes": "Keeps the claimant’s exemption burden, explanation of self-executing, no-stop-order effectiveness condition, one-year period, renewal by expiry/lapse treatment,30-day material-change duty and filing before new-FDD delivery. The source-access limitation is candid and no pilot exemption is invented.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-michigan-disclosure-timing",
+    "reviewedHash": "36dfe71ea7e36203996c8bed27c02ff43450d76f3d46d394b4c1dc04514b7d5f",
+    "decision": "approved",
+    "notes": "Retains the Michigan package, earlier agreement/consideration trigger, independent calendar/business-day clocks and missing delivery/holiday/amendment inputs. The narrower title accurately answers why a planned two-week gap is insufficient evidence without inventing a calculator or date.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-minnesota-support-funding",
+    "reviewedHash": "a862b54bea632369db87bbfea60734fe2003e8565e41a94b85fc2b48fc1cca84",
+    "decision": "approved",
+    "notes": "Keeps assurance conditional on the actual review/release terms. The invented$12,000 month-one/month-three example remains explicitly fictional, counts only usable committed receipts and forbids double-counting an arbitrary reserve; delayed-opening planning is clearly optional.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-alabama",
+    "reviewedHash": "bce7dbace8cbfebd2e7d4e5d9ee7f19d65c219811e676c77e9a6908c6a860cc1",
+    "decision": "approved",
+    "notes": "Retains the distinct party definitions, unresolved service-only treatment, sincerely held belief, three separate agreement exceptions, June 1, 2026 effect and conditional court remedies. The existing-term/new-instruction distinction is useful without implying that alternative call coverage is a statutory exception.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-alaska",
+    "reviewedHash": "6de0d37236eab730f65520dd5939d73262f92a02aaf92e1c1753756e4493d7f4",
+    "decision": "approved",
+    "notes": "Preserves the quoted federal-franchise exclusion without adding invented notice conditions. All nonexcluded-route clocks and buyer rights remain conditional: received acknowledgement/30 days,10 calendar days, annual anniversary,10-day changes, three-year post-sale bond and separate cancellation/refund/return duties.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-arizona",
+    "reviewedHash": "50d0377462b6bc3a554abb5413cdfaf798d2df4bc98ad908b95493682b462c8e",
+    "decision": "approved",
+    "notes": "Preserves registration before solicitation with both location connections, the federal-definition exclusion and conditional covered-route duties. Renewal remains within 30 days beforeJune 30, changes generally 10 days versus solicitor-quarterly updates, material before use and five-business-day buyer disclosure; unresolved forms/fee/bond/cancellation scope is visible.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-arkansas",
+    "reviewedHash": "94fbd7775804e8c2ed11afa3514317a4eae4ade386e7c9ca873e5016f07b5974",
+    "decision": "approved",
+    "notes": "The narrower update separates enacted 2023 text from the failed 2025 bill and does not supply nonexistent current transfer/exit advice. Arkansas premises/exclusion facts, provision-specific retroactivity and unresolved consolidation/court application are retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-colorado",
+    "reviewedHash": "7a423e4c03157d110aff06db67f8565b2c5040bcae228310e703bac757ccf041",
+    "decision": "approved",
+    "notes": "Retains the worker/entity distinction, general voidness subject to actual exceptions, unresolved current compensation threshold and separate prospective/existing-worker notice triggers. Required form/language/signature conditions and the rule that notice cannot validate an impermissible covenant remain visible.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-connecticut",
+    "reviewedHash": "df9e7bafb6577b99905f2d8491eb5a8d987dc6eb4af90f61dc6b311584e77179",
+    "decision": "approved",
+    "notes": "Retains the federally registered mark/right chain, seller burden, claim-posting-not-validation distinction and unresolved current channel/attachments. Other device/buyback/income/refund branches and covered order/delivery/update/renewal/sales-claim duties stay conditional and independent.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-delaware",
+    "reviewedHash": "7af45f04c0b000acf63dc14e9526fa2edf0e1bca60b81d53b3b1abbd6c8a0f22",
+    "decision": "approved",
+    "notes": "The narrower answer keeps the actual tangible-product/local-business scope, at-least 90-day notice despite shorter clauses and separate cause/bad-faith inquiry. The Italian replacement preference is not treated as cause; worker wording remains strictly limited to Title 19 Chapter 11.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-florida",
+    "reviewedHash": "89dde1b2952216caf70adac1dcfe0be8d2629bb53a1b43662d70a2f935bab905",
+    "decision": "approved",
+    "notes": "Accurately retains federal-definition/substantial-compliance conditions and notice/fee before a covered offer or sale, including the Florida-resident branch for an out-of-state outlet. One year runs from filing, and$100 remains a ceiling rather than an invented payable charge or validation of sales claims.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-georgia",
+    "reviewedHash": "a4f6664aafb79e3b69b439958aa032a99a47e1e42468eb0d19df49656ea3c36b",
+    "decision": "approved",
+    "notes": "Distinct business/trade-name, mark and seller-licence rights remain clear. The state search limitation and lack of guarantee are preserved; the 2006 labelled statute remains historical evidence rather than current franchise-sales clearance.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-idaho",
+    "reviewedHash": "c667b5796ebc49510bb0921bbfe5ffd3d593dbed776078ee87773e17289aac36",
+    "decision": "approved",
+    "notes": "The owner answer clearly distinguishes registration from activity permission, keeps the portal incompleteness warning and uses added services as questions rather than unverified licence conclusions. Optional checklist status, unresolved franchise-sales issues and limited B 2 B consumer-law application remain explicit.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-iowa",
+    "reviewedHash": "c5054d44b568d5767aa0d2c1ce40ff0ad3bf7320bc91148e4e01a77af0492947",
+    "decision": "approved",
+    "notes": "Keeps the different exclusion/disclosure-exemption routes, earlier first-meeting/fourteen-day event and independent consent-to-service requirement. Agreement-date/location/sector limits, unprovided relationship tests and the actual January 1, 2027 future effective date remain intact.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-kansas",
+    "reviewedHash": "d0b5dedea4a7424e5735d77b709ea9317efdc52b821d1878b1596371e7159fd0",
+    "decision": "approved",
+    "notes": "The entity-by-entity example, qualification exceptions and physical registered-office versus headquarters distinction are retained. Replace or briefly explain “receiving legal process” as receiving formal legal papers; this is the resident agent’s central function and its original plain-language explanation was removed with the glossary. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-kentucky",
+    "reviewedHash": "1ad97a81729c11cb1fb565705bce4a57dd1527a3291be99dcde67ccb2dd4db1a",
+    "decision": "approved",
+    "notes": "Keeps the actual seller/federal-compliance conditions and current June 30, 2026 portal rule. The fourteen-day regulatory notification does not displace an immediate statutory duty; nonexempt approval/year and unreconciled business-day/calendar-day cancellation periods remain separate.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-louisiana",
+    "reviewedHash": "f2d7828e731dbb698b78c4da3b303446652b38a47daff691d20cc6d54082bbad",
+    "decision": "approved",
+    "notes": "Substantive scope is retained: device specificity, bond limits to(a)–(c), separate seller/agent roles, continuous bond/60-day surety notice/accrued liability, oral promises/nonwaiver and separate brokerage. Briefly explain the central bond actors “surety” and “principal” inline, using the original meanings, rather than leaving a first-time owner to infer who may give notice and receive it. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-maine",
+    "reviewedHash": "fa40b4a1cb2799c4da8872aba42fc92e8bb53f394659c04862b24d82efd635db",
+    "decision": "approved",
+    "notes": "All relevant promotion/disclosure/three-full-business-day/renewal/security/update clocks and source-currency limits remain. Change “buyer avoidance”/“written avoidance” to a plain explanation that the buyer may withdraw from the contract by written notice, keeping the exact period and goods/funds-return conditions; the original glossary supplied that meaning. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-massachusetts",
+    "reviewedHash": "80b3e75d814f57fa56cc5d6d30c8614dd73151dab90d354c4b57b73d76c32fa2",
+    "decision": "approved",
+    "notes": "Correctly retains the individual-services threshold and all three cumulative contractor conditions, rather than treating schedule choice as decisive. Actual control versus contract labels and separate entities are clear, with current-case application and other legal tests left open.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-east-guide-missouri",
+    "reviewedHash": "e5603b8fd89d2b5f6d8307b1e25a62f2e5eb9f63d4813a587bf027302c1afb3b",
+    "decision": "approved",
+    "notes": "Territory overlap, separate definitions,90-day notice/exceptions and the distinct pyramid-versus-notice remedies retain their qualifications. Explain the central “community of interest” phrase briefly as shared commercial interest, and render the final remedy sentence in ordinary words (loss caused by the missing notice, reputation/customer value, court-directed relief) rather than stacking undefined causation/goodwill/equitable-relief terminology. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-montana",
+    "reviewedHash": "e891eafb9d193efab3493fde3cc6d0c12cdc287b4bbb05b0a787da8a43d64d16",
+    "decision": "approved",
+    "notes": "The separate Part 9/Part 7 scope, proof burden, certified-mail 90-day/60-day correction, ten-day nonpayment branch and financial exceptions are retained. Identify the “grantor” as the party granting dealership rights (such as the supplier), and briefly explain community of interest; deleting the original terms otherwise obscures the actor who bears these obligations. Re-read the updated complete patch: the requested inline meaning is now clear and existing legal conditions, actors and clocks remain unchanged.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-district-of-columbia",
+    "reviewedHash": "d2c6530f7674d0363a3cb03390d68ae89424ed7af1076e701f3755dc9f9dbe94",
+    "decision": "approved",
+    "notes": "Holder/activity/address provides a direct useful answer and the distinct DLCP steps remain clear. CPPA consumer/merchant/transaction coverage and current application-note uncertainty are preserved; no B 2 B coverage or complete franchise-sales/operating permission is inferred.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-nebraska/franchise-relationship-scope",
+    "reviewedHash": "5d303da19d593d386305e19a04d02d09045e5a82aabbe2c6d52e7bd3ac77f25a",
+    "decision": "approved",
+    "notes": "Preserves the state definition/petroleum exclusion, all three cumulative criteria, strict greater-than thresholds and litigation-relative twelve-month period. The fixed-place exclusions and contract-qualified nonrenewal rule remain visible; no indefinite renewal or automatic 60-day exit is promised.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-nebraska/business-opportunity-earnings-claims",
+    "reviewedHash": "67c01f3b85be6e5d76ed3b2a2baddd5bbe2f778ad0bcec8fc787456f046b2f01",
+    "decision": "approved",
+    "notes": "The actual-purchaser support versus arithmetic distinction is clear and the$4,000 example remains fictional. Nonexempt SAMP scope, exempt-franchise boundary, prescribed actual-history/number/percentage/attainment data, purchaser delivery and independent federal duties are retained; illustrative labelling is not authorization.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-new-hampshire/equipment-dealer-scope",
+    "reviewedHash": "09c82c74a480e743da1f56000a3364b1fbf504782340ad2ccabf905d04555e6b",
+    "decision": "approved",
+    "notes": "The narrower scope title matches the answer. Listed equipment alone does not prove coverage; single-line and service-only fleet/government/rental conditions remain open, as does the event-specific process. No universal notice or compensation is supplied.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state-guide-tx-worker-classification",
+    "reviewedHash": "ece6070d0f8caf8bf89aad3985fb5ef5ef03ea2e7f18e2623e0f2e6f19f0dc1c",
+    "decision": "approved",
+    "notes": "The rewrite retains reserved as well as exercised control, variable twenty-factor relevance and the absence of a pass mark. It is expressly limited to Texas unemployment tax and the cleaning facts remain questions rather than a contractor-status verdict.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state-guide-ny-wage-scope",
+    "reviewedHash": "d94ebe6cd2194ac031e356f82c993dcf4e9f109a372f45cedc2c192273724af0",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The off-ramp mechanism is now defined in the dated 2027 note and the introduced double comma is fixed; the announcement/proposal boundary remains. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state2-mt-data",
+    "reviewedHash": "2a8145813eea1912c2ae248ab95278d2c230758f49264878720107c1fc0b80bb",
+    "decision": "approved",
+    "notes": "Retains the new-motor-vehicle definition boundary, warranty-versus-marketing distinction and compliant push/submission alternative. Prior separate express written permission, recipient roles/exceptions,30-day/immediate consent branches and distinct conditional 90-day vendor/transition requirements remain separate.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state2-wy-inventory",
+    "reviewedHash": "21c772e38d755251a8c75d14d1d4d886cfd68110c2afa05c43178ef4f6b378a5",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The title now asks which price rule applies; the technology row explains spreading cost over the stated three years while retaining its minimum-specification qualification. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state4-wa-exit",
+    "reviewedHash": "d142d97f44025251aab93dc8dc950862e63a8dd62335c640698f7949b582c02d",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. Goodwill is now identified as the business value tied to established customer relationships and reputation. Both exception conditions and the independent asset obligations remain. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state4-wi-dealership",
+    "reviewedHash": "1067d7ab0c715543b4a78ea1e6da29274f45cfdaa1b11ac9d380a241fa6e380d",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The coverage paragraph explains shared financial interest and the cause paragraph identifies the grantor. The ordinary/nonpayment notice and correction table and inventory qualifications remain unchanged. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state4-va-contract",
+    "reviewedHash": "110f924977702e797f459ca0b89314af93775c82576edb12f82cb43c311a7b7c",
+    "decision": "approved",
+    "notes": "Preserves Act/place/fee coverage, actual post-term retail restriction, mutually agreed sale conditions and two-year maximum, SCC sale-date/amendment branches and no conclusion for pre-July signed agreements. The older-template question is useful and the independent exit/remedy scope is retained without promising enforcement.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b3-state4-or-renewal",
+    "reviewedHash": "9f7b3ac048ebc3f7757e9a6bd4c0048f9de878e86f923344b96415cfd6e5ebd7",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. Material adverse change is now explained as a significant change unfavourable to the operator, with the relevant relationship/disclosure test still required. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-texas",
+    "reviewedHash": "40f49781152b36f3a7aa6e5644eca1c0558520a9e830caa57e0f975581e630b4",
+    "decision": "approved",
+    "notes": "The shorter Form 2703 answer retains material federal compliance in Texas, actual seller/names/address, pre-offer filing and$25 fee, one-time/no-expiry versus continued eligibility and written address updates. The nonexempt route remains separate; a licence label or FDD is no shortcut.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-washington",
+    "reviewedHash": "acb547dda649529d85a15fd2300fd70bd0afd76656668301036f5bc2e29dd10d",
+    "decision": "approved",
+    "notes": "Retains the state definition/connections and fee/sector exclusions; independent 14-calendar-day delivery, seven-calendar-day change and source-worded seven-day advertising periods; prospect-initiated negotiation and shorter-advertising-period qualifications; director-period variation and prompt amendment before another sale.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-new-york",
+    "reviewedHash": "74c1d3aa7444474161b8b0081dba67687342155409e6a56e13ef7a05a1f877ce",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The prospectus is now identified as the seller’s required buyer-disclosure information. The distinct source-specific day wording and earlier meeting trigger remain intact. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-virginia",
+    "reviewedHash": "ee3134d6a019614e31f56223835558e35b66f2ccaad6ad1cffa62ca45e5cbfb2",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The answer now expressly limits this note to entity attribution and stated filing/delivery dates rather than claiming to provide all eligibility tests. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-oregon",
+    "reviewedHash": "bd692651cc27f1300cb63e0db886505de5714f4721c17e7a683aad6edb4750e3",
+    "decision": "approved",
+    "notes": "Keeps the narrow no-prior-filing-approval answer without inventing deregulation. The stated$100 seller-definition wording is not a general low-fee exemption; geographic connections, all proposed agreements, fourteen calendar days/earlier commitment/refundable deposit, conditional exceptions and proceeds records remain.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-wisconsin",
+    "reviewedHash": "5f82af70d428b81f05c2186e04a774f86f0134db7974c824e13037683fe29410",
+    "decision": "approved",
+    "notes": "Preserves the actual first-sale registration trigger rather than changing it to another state’s pre-offer rule. Separate systems, fourteen-calendar-day earlier-agreement/payment delivery, dated fee recheck,30-day amendments without year reset and independent dealership scope are retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-north-dakota",
+    "reviewedHash": "a4e434ef608cd7d7bcac00900d5151e99a4d1bb5ac592b15a236104452104688",
+    "decision": "approved",
+    "notes": "The April 1, 2026 addendum change stays narrow. Register-entry/no-stop-order effectiveness, actual order/rule/waiver period conditions, fifteen-business-day renewal, prompt amendments, conditional assurance, state seven-day versus federal fourteen-calendar-day delivery and signed receipt/three-year retention remain.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-rhode-island",
+    "reviewedHash": "c609f9a96e64768648940dc0d90fa009892ffcb801a5e01e355d18dd06e7f736",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The fractional route is now introduced as adding branded activity to an existing business; the conditions and federal-versus-state distinction remain. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-south-dakota",
+    "reviewedHash": "43cf1177acc905bfa3213bcf958b4ccaed7a9a04217791d510356d30520c4338",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The auditor event is now explained as the specified conclusion about the business’s ability to continue, retaining the fifteen-day reporting trigger. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "state-guide-new-york-advertising",
+    "reviewedHash": "8222b768a8786d70d302994f2491cea5b086b1ce82151c7754e8cd9de5914469",
+    "decision": "approved",
+    "notes": "The route is retained as a concise advertising reference rather than padded campaign management. Covered communications, two copies through FRED, source-worded seven days, submission-not-approval and separate registration/delivery remain; later edits are not automatically classified as a new filing event.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-nebraska",
+    "reviewedHash": "af8b3db4a9f06901cbcaf6f26e7dde4d3b8acfd6935126d840a519e54900d9e9",
+    "decision": "approved",
+    "notes": "Retains the incorporated January 1, 2026 federal conditions, exact conditional pre-recruitment notice/$100 route, remaining prohibitions and one-time-versus-change distinction. Nonexempt filing/annual/material updates, first specified communication and 48-hour earlier commitment remain separate from federal timing.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-nevada",
+    "reviewedHash": "9421021d43fda392a53e226404021e70fb2d4da7aca597e267f9086ab7b2071b",
+    "decision": "approved",
+    "notes": "Defined farm-equipment/dependence scope, cause, qualified 180-day/60-day exit process, market-share assistance and disaster/labour protection remain. The termination clock is correctly not made a universal amendment rule; anti-waiver and conditional item-specific buyback also remain.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-new-hampshire",
+    "reviewedHash": "a8831d64f904089ccef49111d2a7312ae603f23852f51ca6a3e177d7c2c03f36",
+    "decision": "approved",
+    "notes": "Preserves the required-investment/successive recruiting-rights structure through levels, territory-cap and eligibility-condition limits, pre-promotion prohibition when the device is established and no blanket master-franchise conclusion. Customer revenue and real support remain facts rather than invented safe harbours.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-new-jersey",
+    "reviewedHash": "c2a58ce0c7c26db0910556703ec3065995f79fdfb5c1ac3f909af43a23f9763a",
+    "decision": "approved",
+    "notes": "The narrower limited-source title accurately keeps qualifying B 2 B office/warehouse functions separate from every-office coverage. Other relationship elements, current-codification gap and pleaded-allegation versus final-finding distinction survive, with no current eligibility or exit conclusion supplied.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-a-new-mexico",
+    "reviewedHash": "2d4874277c33174d66bb722a46766582c80dc5f6f75ecfe4a8757a6873bf3b88",
+    "decision": "approved",
+    "notes": "Precisely preserves SB 115/session 2026/API non-enactment through that bill and the distinction between proposal/analysis/enacted law. Current Franchise Termination Act remains unresolved; rejecting the proposal does not establish shorter notice, immediate exit or absence of existing protections.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-north-carolina",
+    "reviewedHash": "fa8fc94b1ae95b34956e42f04b8481bb694b18f74042e43314f12cf363ba199c",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The actual income/refund promise now has its conditional bond/trust check restored, expressly avoiding a universal bond duty; filing and buyer-delivery clocks remain separate. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-ohio",
+    "reviewedHash": "6e6c0cd39dbc03b4408538e32e9406173d5ef57459c81d70a37ccade67c38bce",
+    "decision": "approved",
+    "notes": "Preserves actual state coverage/proof, materially compliant rather than merely delivered federal disclosure, surviving 1334.03(H)/.04 security/buyback duties and conditional bond/trust treatment. The nonexempt clock retains the unusual Sunday/legal-holiday definition, and cancellation is not universal.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-oklahoma",
+    "reviewedHash": "ffe1998b46591925a31b03db54bba7be1030217cfe93599fa836d290f540fd8d",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. Consideration is now money or other value and domicile is the legally relevant home connection, without changing the exemption, location or advertising limits. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-pennsylvania",
+    "reviewedHash": "a5498619366fc1c6ce56856bda9e12d40873c23b1a836993d8cd6b669ea994ba",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The answer now distinguishes tender as the legally relevant offer for return from physical return; the ninety-day and sixty-day clocks retain different triggers. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-south-carolina",
+    "reviewedHash": "fc4f8663c9b09bb23e423e5114617e00833d585b8c3603ecb5b5c20427057335",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The earnings duty now uses documented evidence supporting the claim, and the payment/value meaning is supplied inline without changing the at-representation or forty-eight-hour requirements. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-tennessee",
+    "reviewedHash": "0892d3ed1a0943e6bbc5c96ed37ee45141155caa84449587f90ac5728cc7ef68",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The federally disregarded LLC is now explained as ignored as a separate entity for the relevant federal tax purpose; dated-source/current-law limits remain. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-utah",
+    "reviewedHash": "7ba0386f7b473f6306af774177263f5e9f459090d079d80ad52ffb85b5a4dba1",
+    "decision": "approved",
+    "notes": "Preserves actual qualifying federal-compliance statement/identity details, resident-or-location trigger, May 6, 2026 source version, one-year issue-date basis and distinct advance-renewal/information-change 30-day duties. The alternative ten-business-day buyer route and independent federal delivery remain separate.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-vermont",
+    "reviewedHash": "0d6488c00cd3f6966e7826c6058d88ee20a8862d21782cbc55c994a253ee5e84",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The special market-penetration and immediate-event procedures are now explicitly identified as not fully set out here; the ordinary clocks are not presented as complete special procedures. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-west-virginia",
+    "reviewedHash": "c5552db8a27a4dcb93e55f2967b7e50cb6f3226c1e15ebd739e9370463a884d7",
+    "decision": "approved",
+    "notes": "Retains defined retail/inventory/repair coverage including industrial equipment, six months without a fabricated day conversion, prescribed service/contents and actual exception/mutual-consent conditions. Qualified inventory valuation/return/payment remains separate from general franchise-exit entitlement.",
+    "reviewer": "/root/planning_tools"
+  },
+  {
+    "id": "b2-west-wyoming",
+    "reviewedHash": "152781ec467b0485b1c097798ee1a8bf788ef9c1b66f4aff2a095d3fbc9ac10d",
+    "decision": "approved",
+    "notes": "Re-read the corrected patch against the original and audit; approved. The answer now explicitly compares only the ordinary tracks and disclaims supplying the full single-line eligibility or special-event/performance tests. Existing source associations and material conditions were retained.",
+    "reviewer": "/root/planning_tools"
+  }
+]

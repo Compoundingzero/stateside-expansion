@@ -310,7 +310,8 @@
     ],
     "sourceIds": [
       "b2-east-co-2026labor",
-      "b2-east-co-downloads"
+      "b2-east-co-downloads",
+      "smb-state-co-paycalc-2026"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -318,7 +319,7 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "No current compensation dollar threshold is supplied; check applicable threshold and dates.",
+      "The 2026 PAY CALC Order lists $130,014 annually for highly compensated employees. Section 8-2-113 defines the covenant threshold using the greater of the Division’s August 10, 2022 amount or the amount at execution; the compensation condition must hold when entered and enforced. Trade-secret purpose, reasonable scope, the stated healthcare exclusions and the selected exception’s other conditions remain necessary. The customer-nonsolicitation branch uses sixty percent of that threshold with its own conditions; this is not a universal amount for older or future covenants.",
       "Do not assume the worker statute decides enforceability of every franchise agreement or owner covenant."
     ],
     "dependentPaths": [
@@ -421,7 +422,7 @@
     "exceptions": "Applicability and any exclusion must be established from the actual relationship and relevant facts.",
     "trigger": "Before first covered Florida offer/sale and each exemption anniversary",
     "deadline": "Before covered offer/sale; renew annually",
-    "fee": null,
+    "fee": "$100 nonrefundable annual filing fee in the incorporated FDACS-10500 application.",
     "renewal": "One year from notice filing; annual renewal.",
     "dependencies": [
       "Relationship factsheet",
@@ -435,7 +436,9 @@
     ],
     "sourceIds": [
       "b2-east-fl-statute",
-      "b2-east-fl-agency"
+      "b2-east-fl-agency",
+      "smb-state-fl-form-10500",
+      "smb-state-fl-rule-reference"
     ],
     "status": "verified",
     "legalStatus": "effective",
@@ -443,7 +446,7 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "Statute permits a fee not exceeding$100; current actual agency fee was not established from accessible packet. No payable fee amount is invented.",
+      "The incorporated FDACS-10500 application states a $100 nonrefundable annual filing fee, rather than only the statute’s $100 ceiling. The current signed-in portal workflow and filing acceptance were not inspected.",
       "Exemption applicability is not a website clearance or approval of earnings claims."
     ],
     "dependentPaths": [

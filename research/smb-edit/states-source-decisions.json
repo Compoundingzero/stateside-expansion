@@ -1,0 +1,1400 @@
+{
+  "createdAt": "2026-11-14T00:54:09.032682+00:00",
+  "purpose": "Targeted official-source decisions for12state verification-dependent questions; proposals only. Frozen/editorial state content and canonical/source files were not modified.",
+  "hashBasis": "sha256 values in evidence are exact raw response bytes. Extracted text hashes are separately named; HTML/PDF extraction does not by itself establish a usable legal body.",
+  "metadataPolicy": "Only explicitly proposed successfully reviewed source records may receive retrieval/meaning updates after independent review. Failures/shells do not advance source or article review dates. No article review dates are proposed automatically.",
+  "decisions": [
+    {
+      "id": "b2-east-guide-florida",
+      "path": "/states/florida/",
+      "researchOutcome": "resolved-source-fact",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "Recovered the actual incorporated application and $100 nonrefundable annual fee. Current portal landing is public, but completing the signed-in workflow remains outside this read-only check.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://www.fdacs.gov/Business-Services/Sellers-of-Business-Franchises",
+          "finalUrl": "https://www.fdacs.gov/Business-Services/Sellers-of-Business-Franchises",
+          "retrievedAt": "2026-11-14T00:40:27.424205+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 104278,
+          "sha256": "c469d396a15590dcff81dec7890e846adb0d59da02982978f94aebc640db1e1d",
+          "rawPath": "/tmp/eln-smb-state-sources/fl-agency.html",
+          "textPath": "/tmp/eln-smb-state-sources/fl-agency.txt",
+          "textLength": 2020,
+          "evidenceKey": "fl-agency",
+          "usableForClaim": true,
+          "snippet": "The Franchise Exemption filing remains in place.",
+          "reviewedScope": "Complete short program body and resource links.",
+          "extractedTextSha256": "25bdaa839e8c68fb818599f54af8bb1cf4d66bcca446b5f224bd4f1b4d88b3ab"
+        },
+        {
+          "url": "https://www.flrules.org/gateway/RuleNo.asp?ID=5J-10.002",
+          "finalUrl": "https://flrules.org/gateway/RuleNo.asp?ID=5J-10.002",
+          "retrievedAt": "2026-11-14T00:43:05.371052+00:00",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 14037,
+          "sha256": "2004c5a94e04e212eb2752184ea8a0dcb9dc1f62fcd6d7486e38df0759d6c3b2",
+          "rawPath": "/tmp/eln-smb-state-sources/fl-franchises-rule.html",
+          "textPath": "/tmp/eln-smb-state-sources/fl-franchises-rule.txt",
+          "textLength": 2132,
+          "evidenceKey": "fl-franchises-rule",
+          "usableForClaim": true,
+          "snippet": "Ref-00983 Franchise Exemption Application, DACS-10500 Rev. 07/11",
+          "reviewedScope": "Complete rule detail; current adopted version and reference link, not a new adoption date.",
+          "extractedTextSha256": "0ceae18a62a97a01db84424f9a399caa1a969b2a728cac32559246690e993b68"
+        },
+        {
+          "url": "https://www.flrules.org/gateway/reference.asp?No=Ref-00983",
+          "finalUrl": "https://flrules.org/gateway/reference.asp?No=Ref-00983",
+          "retrievedAt": "2026-11-14T00:43:45.827145+00:00",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 11886,
+          "sha256": "b8b267ca5f2e3902f70004b0833e69cb60f5e158eeeab8a9833b8c1e5a21c40f",
+          "rawPath": "/tmp/eln-smb-state-sources/fl-reference.html",
+          "textPath": "/tmp/eln-smb-state-sources/fl-reference.txt",
+          "textLength": 1829,
+          "evidenceKey": "fl-reference",
+          "usableForClaim": true,
+          "snippet": "FDACS-10500 Franchise Exemption Application (01-2023).pdf 1/12/2023 The Commissioner's name has been updated.",
+          "reviewedScope": "Complete reference index, distinguishing adopted and modified copies.",
+          "extractedTextSha256": "dad849f680faa7edf0cf3fb8e29cdd0225ca0e93df14467541f734430e171e42"
+        },
+        {
+          "url": "https://flrules.org/gateway/readRefFile.asp?filename=FDACS-10500%20Franchise%20Exemption%20Application%20%2801-2023%29.pdf&refId=983",
+          "finalUrl": "https://flrules.org/gateway/readRefFile.asp?filename=FDACS-10500%20Franchise%20Exemption%20Application%20%2801-2023%29.pdf&refId=983",
+          "retrievedAt": "2026-11-14T00:44:10.323374+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 1281848,
+          "sha256": "b3a2aedc7f75e1e09257f46aaba7b2c12a2854f816b00e836cb65e019a8017fa",
+          "rawPath": "/tmp/eln-smb-state-sources/fl-form-2023.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/fl-form-2023.txt",
+          "textLength": 4963,
+          "evidenceKey": "fl-form-2023",
+          "usableForClaim": true,
+          "snippet": "Include Annual Filing Fee in the amount of $100.00 (all fees are non-refundable).",
+          "reviewedScope": "All three packet pages, checklist, annual period, payment and acknowledgement fields.",
+          "extractedTextSha256": "4f0689d1ec1e7b3bda4bfe6af2416f565fead8e398189c55007e630b39391cb9"
+        },
+        {
+          "url": "https://consumercompliance.fdacs.gov/",
+          "finalUrl": "https://consumercompliance.fdacs.gov/",
+          "retrievedAt": "2026-11-14T00:41:29.359761+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 37544,
+          "sha256": "5b64f84e30a07b907273d1a61267b2deff1a8dfa9bc908d8732a73ec72270c07",
+          "rawPath": "/tmp/eln-smb-state-sources/fl-portal.html",
+          "textPath": "/tmp/eln-smb-state-sources/fl-portal.txt",
+          "textLength": 1305,
+          "evidenceKey": "fl-portal",
+          "usableForClaim": true,
+          "snippet": "For the programs listed below, click \"Sign in / Sign up\" to get started.",
+          "reviewedScope": "Public portal landing only; no sign-in or submission.",
+          "extractedTextSha256": "50a4d10d60b6d9929f09f5a92860d011706a5e9a7fca539be0482dd1990b19ed"
+        }
+      ],
+      "remainingQuestion": "No claim about current authenticated screen steps, processing acceptance or every filing method.",
+      "proposedPublicPatch": {
+        "operations": [
+          {
+            "operation": "replaceParagraph",
+            "sectionId": "annual-renewal-and-fee",
+            "oldText": "The statute permits a fee of no more than $100; it does not establish the current amount payable. The current application packet and fee were not established from the accessible material.",
+            "newText": "The statute permits a fee of no more than $100. The official rule-reference page now supplies the incorporated FDACS-10500 application, including its modified January 2023 copy: it states a $100 annual filing fee, nonrefundable. The current agency page directs applications and renewals to its Consumer Services Licensing Portal; its signed-in workflow was not inspected. The older paper packet’s mailing directions are not presented here as the current online procedure."
+          },
+          {
+            "operation": "replaceSectionHeading",
+            "sectionId": "annual-renewal-and-fee",
+            "newText": "The annual fee and renewal period"
+          },
+          {
+            "operation": "addSectionSource",
+            "sectionId": "annual-renewal-and-fee",
+            "sourceId": "smb-state-fl-form-10500"
+          },
+          {
+            "operation": "addGuideSource",
+            "sourceId": "smb-state-fl-form-10500"
+          },
+          {
+            "operation": "addSectionSource",
+            "sectionId": "annual-renewal-and-fee",
+            "sourceId": "smb-state-fl-rule-reference"
+          },
+          {
+            "operation": "addGuideSource",
+            "sourceId": "smb-state-fl-rule-reference"
+          }
+        ],
+        "replaceFields": {
+          "limitations": [
+            "The incorporated application states the fee; current signed-in portal steps and acceptance were not inspected. This remains the qualifying notice route, not complete sales or operating-law treatment."
+          ],
+          "practicalOutput": "Establish the qualifying exemption and actual seller, then use the agency’s current portal and annual notice process before a covered offer."
+        }
+      },
+      "sourceUpdates": [
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-fl-form-10500",
+            "url": "https://flrules.org/gateway/readRefFile.asp?filename=FDACS-10500%20Franchise%20Exemption%20Application%20%2801-2023%29.pdf&refId=983",
+            "title": "Florida incorporated Franchise Exemption Application, modified January 2023 copy",
+            "authority": "Florida Department of Agriculture and Consumer Services / Florida Administrative Code reference archive",
+            "type": "official-guidance",
+            "section": "FDACS-10500 instructions, payment and application",
+            "supportingPassage": "Include Annual Filing Fee in the amount of $100.00 (all fees are non-refundable).",
+            "publicationDate": null,
+            "effectiveDate": null,
+            "fetchedAt": "2026-11-14T00:44:10.323374+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Followed current FDACS program page to FAC5J-10.002 and Ref-00983. Read whole3-page modified copy listed January12,2023; underlying form revision07/11 is retained. Supports $100 nonrefundable annual fee and specified fields, not a claim that old mailing instructions describe the current signed-in portal.",
+            "sha256": "b3a2aedc7f75e1e09257f46aaba7b2c12a2854f816b00e836cb65e019a8017fa"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/fl-form-2023.pdf",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/fl-form-2023.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        },
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-fl-rule-reference",
+            "url": "https://flrules.org/gateway/reference.asp?No=Ref-00983",
+            "title": "Florida FAC Ref-00983: incorporated franchise application versions",
+            "authority": "Florida Department of State",
+            "type": "official-guidance",
+            "section": "Reference index and modified/adopted documents",
+            "supportingPassage": "The Commissioner's name has been updated.",
+            "publicationDate": null,
+            "effectiveDate": null,
+            "fetchedAt": "2026-11-14T00:43:45.827145+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Reference provenance only; distinguishes modified2023copy from adopted2012reference. No invented publication date for the current webpage.",
+            "sha256": "b8b267ca5f2e3902f70004b0833e69cb60f5e158eeeab8a9833b8c1e5a21c40f"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/fl-reference.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/fl-reference.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        }
+      ],
+      "basePublicPatchSha256": "055482392963b4ae358f1d36b4d482be78709d66a12c0fc048967f076e391d2a",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-east-guide-colorado",
+      "path": "/states/colorado/",
+      "researchOutcome": "resolved-source-fact",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "Recovered the official2026 PAY CALC amount and precise existing-worker notice events. The employer still needs the actual exception, compensation dates, trade-secret and scope facts.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+          "finalUrl": "https://content.leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download",
+          "retrievedAt": "2026-11-14T00:42:19.212781+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 56894,
+          "sha256": "49235b657663b8ee46c4e930cf8c1ac1b0715388c3be7198039c80e83c9050c8",
+          "rawPath": "/tmp/eln-smb-state-sources/co-downloads.html",
+          "textPath": "/tmp/eln-smb-state-sources/co-downloads.txt",
+          "textLength": 4858,
+          "evidenceKey": "co-downloads",
+          "usableForClaim": true,
+          "snippet": "Title 8",
+          "reviewedScope": "Official2026 title-download chain to olls.info; not the compensation rule itself.",
+          "extractedTextSha256": "67195c8dc9da56f822b39eddf8803795bde381f61675d2a58fb7564dc290b492"
+        },
+        {
+          "url": "https://www.sos.state.co.us/CCR/Welcome.do",
+          "finalUrl": "https://www.sos.state.co.us/CCR/Welcome.do",
+          "retrievedAt": "2026-11-14T00:43:05.372170+00:00",
+          "status": 200,
+          "contentType": "text/html;charset=ISO-8859-1",
+          "bytes": 8786,
+          "sha256": "01a98ca79c6f6e0f0fa8cd4880fb8e5a445187b11564960dc30ed5c5304bcb84",
+          "rawPath": "/tmp/eln-smb-state-sources/co-sos-rules.html",
+          "textPath": "/tmp/eln-smb-state-sources/co-sos-rules.txt",
+          "textLength": 1142,
+          "evidenceKey": "co-sos-rules",
+          "usableForClaim": true,
+          "snippet": "The Code of Colorado Regulations is current with administrative rules effective on or before 09/30/2026.",
+          "reviewedScope": "Official publisher currency statement.",
+          "extractedTextSha256": "726e383a3a8e7b3595c68ec49c62527aa3416dbe67e16bf24e654dec8d43e00c"
+        },
+        {
+          "url": "https://www.sos.state.co.us/CCR/KeywordSearch.do",
+          "finalUrl": "https://www.sos.state.co.us/CCR/KeywordSearch.do",
+          "retrievedAt": "2026-11-14T00:44:29.759769+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=ISO-8859-1",
+          "bytes": 11880,
+          "sha256": "6c1fb515cb1141f6ddc7feb71f3f2a9658194aa4506b9376e5fed2ea3c96ea95",
+          "rawPath": "/tmp/eln-smb-state-sources/co-paycalc-results.html",
+          "textPath": "/tmp/eln-smb-state-sources/co-paycalc-results.txt",
+          "textLength": 1528,
+          "evidenceKey": "co-paycalc-results",
+          "usableForClaim": true,
+          "snippet": "7 CCR 1103-14 02/01/2026 current",
+          "reviewedScope": "Public read-only keyword search result; request method POST with keyword7CCR1103-14, agencyA58, no authentication.",
+          "extractedTextSha256": "e9813bc81c5e710f9ff97b4dfd22624ebc8ee8628f7aece82fd0fc630a1c2b6e"
+        },
+        {
+          "url": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12404",
+          "finalUrl": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12404",
+          "retrievedAt": "2026-11-14T00:44:59.144256+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 299803,
+          "sha256": "9525dcfdc4e6eb6d22dc51d0260dd78290110adf2bb3980ff72cd8fa0942306c",
+          "rawPath": "/tmp/eln-smb-state-sources/co-rule-view.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/co-rule-view.txt",
+          "textLength": 7080,
+          "evidenceKey": "co-rule-view",
+          "usableForClaim": true,
+          "snippet": "$130,014 annually, and the EAP salary (row E) weekly",
+          "reviewedScope": "Whole five-page2026 PAY CALC Order, especially1.2.1(G),1.3 and effective-date statement.",
+          "extractedTextSha256": "d7a9267649c194432be75fdc098f7a67d76d6b0213617067465b8b36e6fd7726"
+        },
+        {
+          "url": "https://olls.info/crs/crs2026-title-08.htm",
+          "finalUrl": "https://olls.info/crs/crs2026-title-08.htm",
+          "retrievedAt": "2026-11-14T00:45:07.252761+00:00",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 7749641,
+          "sha256": "80be0b305002b6f76bd65e1225c1cc0a20793a40d2e9e636279d943e5cf2d6be",
+          "rawPath": "/tmp/eln-smb-state-sources/co-statute-8.html",
+          "textPath": "/tmp/eln-smb-state-sources/co-statute-8.txt",
+          "textLength": 4172866,
+          "evidenceKey": "co-statute-8",
+          "usableForClaim": true,
+          "snippet": "A current worker at least fourteen days before the earlier of:",
+          "reviewedScope": "2026 Title8 section8-2-113(1)–(9), with particular review of2(b)–(d) and4; entire4MB title was not substantively reviewed.",
+          "extractedTextSha256": "752c0448c5ea529238050796e7519370947058828cdc4a788370e7d7a84b43f0"
+        },
+        {
+          "url": "https://cdle.colorado.gov/dlss-home-page/wage-and-hour-laws-and-rules",
+          "finalUrl": "https://cdle.colorado.gov/dlss-home-page/wage-and-hour-laws-and-rules",
+          "retrievedAt": "2026-11-14T00:40:27.425959+00:00",
+          "status": 403,
+          "bytes": 919,
+          "sha256": "7b1705ae4bfd1d28d3c36ea40abd832d22cc3dcf6cd5bd3ae20301cfeb1b0c5c",
+          "rawPath": "/tmp/eln-smb-state-sources/co-rules.html",
+          "textPath": "/tmp/eln-smb-state-sources/co-rules.txt",
+          "textLength": 553,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "co-rules",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Agency rules landing returned403; no claim based on its error body.",
+          "extractedTextSha256": "08913b66ed06e84d121b07f6233c1299564201f1b3c6f5ac1d00861a89ad7483"
+        },
+        {
+          "url": "https://cdle.colorado.gov/search?search=2026%20highly%20compensated",
+          "finalUrl": "https://cdle.colorado.gov/search?search=2026%20highly%20compensated",
+          "retrievedAt": "2026-11-14T00:41:29.678498+00:00",
+          "status": 403,
+          "bytes": 919,
+          "sha256": "5a193ade5861a0a52a9bd8abb302b6d13d889b4c9dad05e4bd18a710f7f370d4",
+          "rawPath": "/tmp/eln-smb-state-sources/co-search.html",
+          "textPath": "/tmp/eln-smb-state-sources/co-search.txt",
+          "textLength": 553,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "co-search",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Agency search returned403; alternative official CCR publication used.",
+          "extractedTextSha256": "e663b927d1d495b206ccfc473fd4e4d9251290594d22585dfedbff47d99fbe53"
+        }
+      ],
+      "remainingQuestion": "No universal covenant outcome, older-agreement threshold, healthcare restriction or other exception is approved.",
+      "proposedPublicPatch": {
+        "operations": [
+          {
+            "operation": "replaceParagraph",
+            "sectionId": "worker-and-exception",
+            "oldText": "This page supplies no current compensation threshold. A large salary alone does not establish all conditions of the selected exception.",
+            "newText": "The 2026 PAY CALC Order, effective February 1, 2026, lists $130,014 annually for highly compensated employees. Section 8-2-113 defines the covenant threshold as the greater of the Division’s August 10, 2022 amount or the amount when the covenant is executed; do not use a later year’s number automatically for an older agreement. For the stated noncompete exception, annualized cash compensation must meet the applicable threshold both when entered and enforced, the covenant must protect trade secrets and be no broader than reasonably necessary. The customer-nonsolicitation branch uses sixty percent of that threshold and its own trade-secret/narrowness conditions. Both branches exclude the stated restrictions on medicine, advanced-practice registered nursing and dentistry. Compensation alone is not eligibility."
+          },
+          {
+            "operation": "replaceParagraph",
+            "sectionId": "separate-notice",
+            "oldText": "A prospective worker must receive the required notice and terms before accepting employment, not first on the starting day after acceptance. For an existing worker, the cited provision requires at least 14 days before its specified earlier event; the actual controlling event must be identified rather than an arbitrary administrative date.",
+            "newText": "A prospective worker must receive the required notice and terms before accepting employment. A current worker must receive them at least fourteen days before the earlier of the covenant’s effective date or the effective date of additional compensation or employment-term changes providing consideration for it."
+          },
+          {
+            "operation": "appendParagraph",
+            "sectionId": "separate-notice",
+            "newText": "The notice must accompany a copy of the agreement, identify it by name and warn that it contains a restriction on later employment, and point to the specific sections. Its language must be the language used about the worker’s performance. These form requirements do not validate an otherwise void restriction."
+          },
+          {
+            "operation": "addSectionSource",
+            "sectionId": "worker-and-exception",
+            "sourceId": "smb-state-co-paycalc-2026"
+          },
+          {
+            "operation": "addGuideSource",
+            "sourceId": "smb-state-co-paycalc-2026"
+          }
+        ],
+        "replaceFields": {
+          "limitations": [
+            "The published 2026 amount and statutory conditions do not determine the actual covenant’s enforceability. Apply the correct execution/enforcement dates and exception; entity-level covenants and other categories remain separate."
+          ]
+        }
+      },
+      "sourceUpdates": [
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-co-paycalc-2026",
+            "url": "https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12404",
+            "title": "2026 PAY CALC Order, 7 CCR 1103-14",
+            "authority": "Colorado Department of Labor and Employment / Secretary of State",
+            "type": "primary",
+            "section": "Rule1.2.1(G),1.3 and effective statement",
+            "supportingPassage": "$130,014 annually, and the EAP salary (row E) weekly",
+            "publicationDate": "2025-12-08",
+            "effectiveDate": "2026-02-01",
+            "fetchedAt": "2026-11-14T00:44:59.144256+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Official CCR result labels this current effectiveFebruary1,2026; publisher index states rules effective on/beforeSeptember30,2026. Whole5-page order read. HCE row is a published amount, not a stand-alone noncompete test; do not import all COMPS wage-exemption conditions into8-2-113. No2027 amount inferred.",
+            "sha256": "9525dcfdc4e6eb6d22dc51d0260dd78290110adf2bb3980ff72cd8fa0942306c"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/co-rule-view.pdf",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/co-rule-view.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        },
+        {
+          "action": "update",
+          "id": "b2-east-co-2026labor",
+          "fields": {
+            "fetchedAt": "2026-11-14T00:45:07.252761+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "sha256": "80be0b305002b6f76bd65e1225c1cc0a20793a40d2e9e636279d943e5cf2d6be",
+            "notes": "Read2026section8-2-113, including cash-compensation/greater-of threshold definitions, entry/enforcement requirement, trade-secret/narrowness, specified healthcare exclusions and exact4(a)–(d) notice conditions. Current CCR amount is separately sourced; title-wide substantive review is not claimed."
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/co-statute-8.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/co-statute-8.txt",
+          "articleReviewDateChange": null
+        }
+      ],
+      "basePublicPatchSha256": "85a5e566413000f7a6e3153f64e7e35d90657b91dfd6df8f05851522fef1fa59",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "state-guide-hawaii",
+      "path": "/states/hawaii/",
+      "researchOutcome": "partially-resolved",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "Read the complete currently linked order: the120-day financial-statement no-action position and listed filing fees are now sourced. Complete offer/effectiveness/disclosure rules remain unverified.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://cca.hawaii.gov/breg/franchise-filings/",
+          "finalUrl": "https://cca.hawaii.gov/breg/franchise-filings/",
+          "retrievedAt": "2026-11-14T00:40:27.426742+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 126980,
+          "sha256": "40f87b1bda0c8083b42132488dd6d561c09a39b796e1b8e1583e963341416c1e",
+          "rawPath": "/tmp/eln-smb-state-sources/hi-filings.html",
+          "textPath": "/tmp/eln-smb-state-sources/hi-filings.txt",
+          "textLength": 4525,
+          "evidenceKey": "hi-filings",
+          "usableForClaim": true,
+          "snippet": "INTERPRETIVE ORDER NO. 2023-1",
+          "reviewedScope": "Complete program body and actual currently linked order/fee routes.",
+          "extractedTextSha256": "573116845f5640cba06bcea62770099a22eb4c150ec00594a18e0d1079f9f4e5"
+        },
+        {
+          "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/120-day-Interpretive-Order.pdf",
+          "finalUrl": "https://cca.hawaii.gov/wp-content/uploads/2026/01/120-day-Interpretive-Order.pdf",
+          "retrievedAt": "2026-11-14T00:41:29.360730+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 184403,
+          "sha256": "1973501c9197f4d234a4873112a9ee6adef451c444168f036e5c8e25a2e3b682",
+          "rawPath": "/tmp/eln-smb-state-sources/hi-order.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/hi-order.txt",
+          "textLength": 5553,
+          "evidenceKey": "hi-order",
+          "usableForClaim": true,
+          "snippet": "provided those financial statements are current within 120 days of the date of the application for franchise registration.",
+          "reviewedScope": "Full two-page order, background90-day rule, no-action position, April19,2023 date and until-amended/rescinded condition.",
+          "extractedTextSha256": "bb898150401b4503b7037aadc462a18829651cd186aeb2e4f4c201b65644da74"
+        },
+        {
+          "url": "https://cca.hawaii.gov/sec/securities-filing-fees/",
+          "finalUrl": "https://cca.hawaii.gov/sec/securities-filing-fees/",
+          "retrievedAt": "2026-11-14T00:41:29.361327+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 125992,
+          "sha256": "854297052a994b3c8efe891709ed1a4fb51bcb7b1231a0e281be579fb988b8ab",
+          "rawPath": "/tmp/eln-smb-state-sources/hi-fees.html",
+          "textPath": "/tmp/eln-smb-state-sources/hi-fees.txt",
+          "textLength": 4339,
+          "evidenceKey": "hi-fees",
+          "usableForClaim": true,
+          "snippet": "Franchise Initial $250.00 Franchise Amendment $250.00 Franchise Renewal $250.00",
+          "reviewedScope": "Complete fee table, separating securities and franchise rows.",
+          "extractedTextSha256": "bb023de69582b190bf91cc70f156ab6699dc53ee820a5af0b6283d1ab61bd03b"
+        },
+        {
+          "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482E/HRS_0482E-0002.htm",
+          "finalUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482E/HRS_0482E-0002.htm",
+          "retrievedAt": "2026-11-14T00:42:19.211167+00:00",
+          "status": 403,
+          "bytes": 4913,
+          "sha256": "b92faaccfe04faedb40d641ece9ed86657c9a7e135889aac1db72c475ef00299",
+          "rawPath": "/tmp/eln-smb-state-sources/hi-statute-2.html",
+          "textPath": "/tmp/eln-smb-state-sources/hi-statute-2.txt",
+          "textLength": 760,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "hi-statute-2",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Official482E-2request returned403; no timing conclusion from error.",
+          "extractedTextSha256": "d31599c613406ad1d05df06434f8eac3e6587de2ffeae93bc1df6475a3b8e037"
+        },
+        {
+          "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482E/HRS_0482E-0003.htm",
+          "finalUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482E/HRS_0482E-0003.htm",
+          "retrievedAt": "2026-11-14T00:42:19.211820+00:00",
+          "status": 403,
+          "bytes": 4913,
+          "sha256": "727642984075ddf224737ca2831737e2db855074324c624565ad5eda5e3b2c34",
+          "rawPath": "/tmp/eln-smb-state-sources/hi-statute-3.html",
+          "textPath": "/tmp/eln-smb-state-sources/hi-statute-3.txt",
+          "textLength": 760,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "hi-statute-3",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Official482E-3request returned403; no effectiveness conclusion from error.",
+          "extractedTextSha256": "5c99be6c09dd92041d49efc4028bd14909bb861f6708944a268f1e8431eea849"
+        },
+        {
+          "url": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482E/",
+          "finalUrl": "https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0482E/",
+          "retrievedAt": "2026-11-14T00:43:05.373620+00:00",
+          "status": 403,
+          "bytes": 4913,
+          "sha256": "5970e45fea1e15738b807dd9547830fbab93aff0a57b79b29c0d51c740b14912",
+          "rawPath": "/tmp/eln-smb-state-sources/hi-law-index.html",
+          "textPath": "/tmp/eln-smb-state-sources/hi-law-index.txt",
+          "textLength": 760,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "hi-law-index",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Officiallinkedchapter index returned403; no absence-of-duty inference.",
+          "extractedTextSha256": "b05e2ad34728231fbff4176bac1bdee3d1910a19f44a9fd356ce7a12827d9963"
+        }
+      ],
+      "remainingQuestion": "Complete registration trigger, effectiveness, buyer delivery, exemptions and current overseas execution acceptance remain outside the recovered scope.",
+      "proposedPublicPatch": {
+        "operations": [
+          {
+            "operation": "replaceParagraph",
+            "sectionId": "unresolved-timing",
+            "oldText": "DCCA links a 2023 interpretive order about how current financial statements must be. That order was not fully reviewed in the recorded research. Matching the documents therefore does not establish acceptable statement age, an exemption, the complete registration trigger or buyer-disclosure timing.",
+            "newText": "DCCA currently links Interpretive Order 2023-1, dated April 19, 2023. It describes the underlying 90-day financial-statement requirement and says the Commissioner will take no action to require 90-day currency if the statements are current within 120 days of the registration application. It remains effective until amended or rescinded by another interpretive order or rule. This is the stated no-action position, not a claim that every financial-statement condition has been removed."
+          },
+          {
+            "operation": "appendParagraph",
+            "sectionId": "unresolved-timing",
+            "newText": "The agency’s fee table lists $250 each for franchise initial filing, amendment and renewal. Those fees and the statement-age position do not establish when a covered offer may begin or what buyer delivery requires."
+          },
+          {
+            "operation": "replaceSectionHeading",
+            "sectionId": "unresolved-timing",
+            "newText": "The 120-day position does not settle offer timing"
+          },
+          {
+            "operation": "addSectionSource",
+            "sectionId": "unresolved-timing",
+            "sourceId": "smb-state-hi-order-2023-1"
+          },
+          {
+            "operation": "addSectionSource",
+            "sectionId": "unresolved-timing",
+            "sourceId": "smb-state-hi-franchise-fees"
+          },
+          {
+            "operation": "addGuideSource",
+            "sourceId": "smb-state-hi-order-2023-1"
+          },
+          {
+            "operation": "addGuideSource",
+            "sourceId": "smb-state-hi-franchise-fees"
+          }
+        ],
+        "replaceFields": {
+          "limitations": [
+            "Limited to filing preparation, the cited fee table and Order 2023-1’s conditional no-action position. Complete registration/effectiveness, buyer-disclosure, exemption and current execution requirements remain unresolved."
+          ]
+        }
+      },
+      "sourceUpdates": [
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-hi-order-2023-1",
+            "url": "https://cca.hawaii.gov/wp-content/uploads/2026/01/120-day-Interpretive-Order.pdf",
+            "title": "Hawaii Interpretive Order 2023-1: financial-statement currency",
+            "authority": "Hawaii Commissioner of Securities",
+            "type": "official-guidance",
+            "section": "Interpretive Opinion/No Action Position and continuation clause",
+            "supportingPassage": "provided those financial statements are current within 120 days of the date of the application for franchise registration.",
+            "publicationDate": "2023-04-19",
+            "effectiveDate": "2023-04-19",
+            "fetchedAt": "2026-11-14T00:41:29.360730+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Full2-page order read; current DCCA page links it. Underlying90-day rule described; no action if statements within120days of application, until subsequently amended/rescinded. This is not a blanket statutory amendment or full filing-timing review.",
+            "sha256": "1973501c9197f4d234a4873112a9ee6adef451c444168f036e5c8e25a2e3b682"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/hi-order.pdf",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/hi-order.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        },
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-hi-franchise-fees",
+            "url": "https://cca.hawaii.gov/sec/securities-filing-fees/",
+            "title": "Hawaii securities/franchise filing fee table",
+            "authority": "Hawaii Department of Commerce and Consumer Affairs",
+            "type": "official-guidance",
+            "section": "Investment Co. Securities and Franchise table",
+            "supportingPassage": "Franchise Initial $250.00",
+            "publicationDate": null,
+            "effectiveDate": null,
+            "fetchedAt": "2026-11-14T00:41:29.361327+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Read full fee table; franchise initial, amendment and renewal each$250. Distinct securities rows are not franchise fees.",
+            "sha256": "854297052a994b3c8efe891709ed1a4fb51bcb7b1231a0e281be579fb988b8ab"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/hi-fees.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/hi-fees.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        }
+      ],
+      "basePublicPatchSha256": "ea4b6a4780d473dc52b4da009a9a623b0751edef8acbc9a32a9f8a915e559b9b",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-east-guide-louisiana",
+      "path": "/states/louisiana/",
+      "researchOutcome": "resolved-source-fact",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The full currently served51:1822(A)–(H) confirms seller$50,000 and agent$25,000 bond amounts, not a flat requirement on every trademark licence.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://legis.la.gov/legis/Law.aspx?d=104156&p=y",
+          "finalUrl": "https://legis.la.gov/legis/Law.aspx?d=104156&p=y",
+          "retrievedAt": "2026-11-14T00:40:27.428885+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 28902,
+          "sha256": "986fec52e18c8ed6ccdd530a9755ebb03d551846104d091d4e987b7541d0884a",
+          "rawPath": "/tmp/eln-smb-state-sources/la-bond.html",
+          "textPath": "/tmp/eln-smb-state-sources/la-bond.txt",
+          "textLength": 3181,
+          "evidenceKey": "la-bond",
+          "usableForClaim": true,
+          "snippet": "A business opportunity agent, whether an independent contractor, a broker, or an employee of the seller, shall maintain a surety bond",
+          "reviewedScope": "Full3181-character official section, allA–H including amounts, prior-business filing, continuous term,60-day surety notice andG scope.",
+          "extractedTextSha256": "f005e0fc46e4f881452f21f8d2aa758db03b416b7ad90b02cdd48fee09ba035c"
+        }
+      ],
+      "remainingQuestion": "Actual covered role, bond purchase/premium and administrative procedure still require facts; no universal franchise bond duty.",
+      "proposedPublicPatch": {
+        "operations": [
+          {
+            "operation": "replaceParagraph",
+            "sectionId": "bond-before-promotion",
+            "oldText": "RS 51:1822 requires covered bonds before conducting business, including advertising or soliciting. Seller and agent have distinct requirements and different amounts; the actual role matters. Subsection G limits the bond duty to opportunities defined in 1821(1)(a), (b) or (c), not every trademark licence.",
+            "newText": "RS 51:1822 requires covered bonds before conducting business, including advertising or soliciting. Subsections A and B require authorized-surety bond face amounts of $50,000 for a covered seller and $25,000 for a covered agent, including the stated independent contractor, broker or employee roles. These are bond amounts, not a quoted premium or application fee; the actual role matters. Subsection G limits the bond duty to opportunities defined in 1821(1)(a), (b) or (c), not every trademark licence."
+          }
+        ],
+        "replaceFields": {
+          "practicalOutput": "Test the actual promises and seller/agent roles before advertising, then arrange any applicable bond and confirm its filing procedure.",
+          "limitations": [
+            "Actual coverage, role and bond procedure require application. The stated bond face amounts do not quote an insurance premium; the limited bond and brokerage rules are not complete franchise or operating-law treatment."
+          ]
+        }
+      },
+      "sourceUpdates": [
+        {
+          "action": "update",
+          "id": "b3-s5-la-bond-continuity",
+          "fields": {
+            "fetchedAt": "2026-11-14T00:40:27.428885+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "sha256": "986fec52e18c8ed6ccdd530a9755ebb03d551846104d091d4e987b7541d0884a",
+            "notes": "Read full currently served51:1822(A)–(H). A:$50,000 seller; B:$25,000 agent including independent contractor/broker/employee; E prior-business including advertising/solicitation; G only1821(1)(a)–(c); Hcontinuous/60dayssurety/principal/accruedliability. Amounts are not premiums or general service-franchise bond duties."
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/la-bond.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/la-bond.txt",
+          "articleReviewDateChange": null
+        }
+      ],
+      "basePublicPatchSha256": "7d17b615733a78896cec5614f73b2ed42f2ca56d5a845488e0d50f88c5efc495",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-west-a-new-jersey",
+      "path": "/states/new-jersey/",
+      "researchOutcome": "resolved-source-fact",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "Recovered currently served official56:10-3,4 and8 through the legislature-linked public statute service. The core codification-access gap is closed for these exact coverage provisions, not every section or case.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54784",
+          "finalUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54784",
+          "retrievedAt": "2026-11-14T00:47:21.817027+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 4429,
+          "sha256": "c507afeccea9ba924afc0f6004c45cc30238b0d632d2d362d9db07eb50548d5f",
+          "rawPath": "/tmp/eln-smb-state-sources/nj-current-def.html",
+          "textPath": "/tmp/eln-smb-state-sources/nj-current-def.txt",
+          "textLength": 2793,
+          "evidenceKey": "nj-current-def",
+          "usableForClaim": true,
+          "snippet": "Place of business shall not mean an office, a warehouse",
+          "reviewedScope": "Complete operative56:10-3, including all definitions andB2Bplace exception; ignored navigation/script boilerplate.",
+          "extractedTextSha256": "60fd69770003d3140e3527c8726c07574fa0a454fac2e0958dfcbe6ce77483e3"
+        },
+        {
+          "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54785",
+          "finalUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54785",
+          "retrievedAt": "2026-11-14T00:47:21.818363+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 3274,
+          "sha256": "84da2a67e3642c3138a9a29444c455b27a5b70feca3776fd95f1e552d5bcfbb9",
+          "rawPath": "/tmp/eln-smb-state-sources/nj-current-application.html",
+          "textPath": "/tmp/eln-smb-state-sources/nj-current-application.txt",
+          "textLength": 1727,
+          "evidenceKey": "nj-current-application",
+          "usableForClaim": true,
+          "snippet": "where more than 20% of the franchisee's gross sales are intended to be or are derived from such franchise",
+          "reviewedScope": "Full56:10-4(a) and(b), strict combined thresholds andnew-motorvehiclealternative.",
+          "extractedTextSha256": "ce10dcf1ca6a5568da0f9dc54489b3b3e2d85144cbae9b0b56309f66b1886628"
+        },
+        {
+          "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54797",
+          "finalUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54797",
+          "retrievedAt": "2026-11-14T00:47:30.662730+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 2776,
+          "sha256": "dc94cf9a75d59c67f1e5c2b27a849b87202a5f60541ac47816acbae4ee0349d7",
+          "rawPath": "/tmp/eln-smb-state-sources/nj-current-prior.html",
+          "textPath": "/tmp/eln-smb-state-sources/nj-current-prior.txt",
+          "textLength": 1272,
+          "evidenceKey": "nj-current-prior",
+          "usableForClaim": true,
+          "snippet": "a renewal of a franchise or an amendment to an existing franchise shall not be excluded",
+          "reviewedScope": "Full56:10-8 and stated effective-date history.",
+          "extractedTextSha256": "9e6cd2cc97a3b5fce3fa706f7334bc8d13403cc89c83ac5e7a1bf90a1b661e0c"
+        },
+        {
+          "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+          "finalUrl": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1?f=templates&fn=default.htm&vid=Publish:10.1048/Enu",
+          "retrievedAt": "2026-11-14T00:41:29.677747+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 38749,
+          "sha256": "3f765c733d29f5f87c721e3dd7ede59695f7a03c00c3030f04be01019134f9b9",
+          "rawPath": "/tmp/eln-smb-state-sources/nj-lis.html",
+          "textPath": "/tmp/eln-smb-state-sources/nj-lis.txt",
+          "textLength": 132,
+          "evidenceKey": "nj-lis",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "The first200 response was a navigation shell; it was not treated as statutory text. Subsequent public XML contents identified the actual section URLs.",
+          "extractedTextSha256": "474c7f110ba5e28e51e6015a07cfb0aaf166e21c1047773ad23c2991519cb935"
+        }
+      ],
+      "remainingQuestion": "Actual relationship/community-of-interest facts, industry exceptions, allcase-law/outcomes, pre-sale filings and event-specific exit conditions remain outside this coverage update.",
+      "proposedPublicPatch": {
+        "replaceFields": {
+          "title": "New Jersey office-based franchise coverage: the location and sales tests",
+          "seoTitle": "New Jersey Franchise Practices Act: office and sales criteria",
+          "description": "A qualifying office can satisfy the location branch, but the general application route also has strict sales and franchise-share conditions.",
+          "learningSummary": "A New Jersey office-based distributor can fall within the Franchise Practices Act, but office activity alone is not enough. Establish the written brand/community-of-interest relationship and the applicable combined criteria.",
+          "sections": [
+            {
+              "id": "written-relationship",
+              "heading": "The Act has its own relationship definition",
+              "paragraphs": [
+                "Section 56:10-3 requires the stated written arrangement for a definite or indefinite period, permission to use a trade name/mark/service mark or related characteristics, and a community of interest in marketing goods or services. A distribution label does not decide those facts.",
+                "For the place-of-business test, an office or warehouse is generally excluded. But for persons without a majority of sales directly to consumers, qualifying offices/warehouses from which personnel visit/call customers or goods are delivered can count. An address alone is insufficient."
+              ],
+              "sourceIds": [
+                "smb-state-nj-definition"
+              ],
+              "aliases": [
+                "read-these-limited-source-answers-before-using-the-example",
+                "look-at-how-the-business-actually-reaches-customers",
+                "section-0",
+                "a-location-is-only-part-of-the-relationship-analysis",
+                "section-1",
+                "worked-example-industrial-customer-visits-from-an-office",
+                "section-2",
+                "prepare-the-reviewers-factual-file",
+                "section-4",
+                "limited-office-coverage"
+              ]
+            },
+            {
+              "id": "combined-application-criteria",
+              "heading": "For the general route, all three application criteria matter",
+              "paragraphs": [
+                "Section 56:10-4(a) requires the following together. Section 4(b) has a separate new-motor-vehicle franchise route, not the same three-test rule."
+              ],
+              "table": {
+                "headers": [
+                  "Criterion",
+                  "Condition"
+                ],
+                "rows": [
+                  [
+                    "New Jersey place of business",
+                    "Performance contemplates or requires the franchisee to establish/maintain the defined location."
+                  ],
+                  [
+                    "Sales between the parties",
+                    "Covered product/service gross sales exceeded $35,000 during the twelve months immediately before suit is instituted."
+                  ],
+                  [
+                    "Franchise share",
+                    "More than 20% of the franchisee’s gross sales are intended to be or derived from the franchise."
+                  ]
+                ]
+              },
+              "sourceIds": [
+                "smb-state-nj-definition",
+                "smb-state-nj-application"
+              ]
+            },
+            {
+              "id": "scope-and-case-limits",
+              "heading": "Coverage is not a ruling on this operator",
+              "paragraphs": [
+                "Section 56:10-8 excludes a franchise granted before the Act’s effective date, while renewal or amendment is not excluded on that basis. The source gives December 21, 1971 as the Act’s effective date.",
+                "The identified 2025 federal opinion considered pleaded allegations, not final factual findings about every distributor. Current definitions/application text is now readable, but this limited coverage guide does not supply the complete sector, case-law, filing, disclosure or exit analysis."
+              ],
+              "sourceIds": [
+                "smb-state-nj-prior-grants",
+                "b2-west-a-nj-otg"
+              ],
+              "aliases": [
+                "keep-the-source-limitation-visible",
+                "section-3",
+                "current-codification-gap"
+              ]
+            }
+          ],
+          "practicalOutput": "Apply the actual relationship, location and sales facts to the correct route before relying on ongoing franchise protection.",
+          "limitations": [
+            "Limited to the identified definitions, application criteria and prior-grant rule. Industry exceptions, complete case law and sales/exit procedures are not determined; the cited 2025 opinion tested allegations, not final facts."
+          ]
+        },
+        "sourceIdsAdd": [
+          "smb-state-nj-definition",
+          "smb-state-nj-application",
+          "smb-state-nj-prior-grants"
+        ]
+      },
+      "sourceUpdates": [
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-nj-definition",
+            "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54784",
+            "title": "New Jersey 56:10-3: current served definitions",
+            "authority": "New Jersey Legislature",
+            "type": "primary",
+            "section": "56:10-3(a)–(f)",
+            "supportingPassage": "Place of business shall not mean an office, a warehouse",
+            "publicationDate": null,
+            "effectiveDate": null,
+            "fetchedAt": "2026-11-14T00:47:21.817027+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Reached through current legislature Statutes link, public NXT contents for Title56 and section54784. Entire operative section read, including B2Boffice/warehouse exception. Current source does not decide an actual community-of-interest result; no publication date inferred from amendment history.",
+            "sha256": "c507afeccea9ba924afc0f6004c45cc30238b0d632d2d362d9db07eb50548d5f"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/nj-current-def.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/nj-current-def.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        },
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-nj-application",
+            "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54785",
+            "title": "New Jersey 56:10-4: application criteria",
+            "authority": "New Jersey Legislature",
+            "type": "primary",
+            "section": "56:10-4(a)–(b)",
+            "supportingPassage": "where more than 20% of the franchisee's gross sales are intended to be or are derived from such franchise",
+            "publicationDate": null,
+            "effectiveDate": null,
+            "fetchedAt": "2026-11-14T00:47:21.818363+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Full served section read: general route combines location,>$35,000interparty covered sales in12months before suit and>20%intended/actualshare. New-motorvehicle route is separate.",
+            "sha256": "84da2a67e3642c3138a9a29444c455b27a5b70feca3776fd95f1e552d5bcfbb9"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/nj-current-application.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/nj-current-application.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        },
+        {
+          "action": "add",
+          "record": {
+            "id": "smb-state-nj-prior-grants",
+            "url": "https://lis.njleg.state.nj.us/nxt/gateway.dll/statutes/1/54260/54797",
+            "title": "New Jersey 56:10-8: prior grants, renewal and amendment",
+            "authority": "New Jersey Legislature",
+            "type": "primary",
+            "section": "56:10-8",
+            "supportingPassage": "a renewal of a franchise or an amendment to an existing franchise shall not be excluded",
+            "publicationDate": null,
+            "effectiveDate": null,
+            "fetchedAt": "2026-11-14T00:47:30.662730+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "nextReview": "2026-12-14",
+            "legalStatus": "effective",
+            "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+            "accessStatus": "read",
+            "notes": "Full served provision read; states effectiveDecember21,1971. No current transaction outcome inferred.",
+            "sha256": "dc94cf9a75d59c67f1e5c2b27a849b87202a5f60541ac47816acbae4ee0349d7"
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/nj-current-prior.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/nj-current-prior.txt",
+          "hashBasis": "raw response bytes; extracted-text hash is separately recorded in evidence"
+        }
+      ],
+      "basePublicPatchSha256": "accd015d257730d633193e15d648fa71293d2646ba4060aa231200c9b040db32",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-east-guide-massachusetts",
+      "path": "/states/massachusetts/",
+      "researchOutcome": "scope-resolved",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The current official148B(a)–(e) supports the narrow answer that choosing hours alone cannot satisfy the whole exception after the services threshold. It does not supply a universal franchise-owner or technician result; no actual relevant primary opinion was recovered.",
+      "scopeReason": "The published owner question is why schedule choice does not finish the statutory test, which148Banswers. A universal result for unspecified franchise entities/individuals is not a missing numerical field; it exceeds this note’s facts and case-law scope. The opinion gap remains disclosed.",
+      "evidence": [
+        {
+          "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter149/Section148B",
+          "finalUrl": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter149/Section148B",
+          "retrievedAt": "2026-11-14T00:40:27.429693+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 75540,
+          "sha256": "478a1eeb2a44ab5fcc51f9cf8ac8e4523a6ee9cebd0f151394d7cb82ea82adee",
+          "rawPath": "/tmp/eln-smb-state-sources/ma-148b.html",
+          "textPath": "/tmp/eln-smb-state-sources/ma-148b.txt",
+          "textLength": 6603,
+          "evidenceKey": "ma-148b",
+          "usableForClaim": true,
+          "snippet": "the individual is customarily engaged in an independently established trade, occupation, profession or business of the same nature",
+          "reviewedScope": "Full operative148B(a)–(e), not site navigation.",
+          "extractedTextSha256": "928138196be49c40e8de2a3d7039edab072e2595d9c8ae82c60de3b0537e9c53"
+        },
+        {
+          "url": "https://www.mass.gov/files/documents/2024/09/05/13580.pdf",
+          "finalUrl": "https://www.mass.gov/files/documents/2024/09/05/13580.pdf",
+          "retrievedAt": "2026-11-14T00:51:17.262489+00:00",
+          "status": 404,
+          "bytes": 87510,
+          "sha256": "3f4e22de6fe01c9dd35d14e8c9848bbbfc42ac17f8f95476e1918994555f7b81",
+          "rawPath": "/tmp/eln-smb-state-sources/ma-patel-opinion.html",
+          "textPath": "/tmp/eln-smb-state-sources/ma-patel-opinion.txt",
+          "textLength": 284,
+          "error": "HTTP Error 404: Not Found",
+          "evidenceKey": "ma-patel-opinion",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "An unverified candidate official PDF URL returned404; it is not evidence about a case holding.",
+          "extractedTextSha256": "74f17575be65b01532f00bfd9409b55a017cee7bd8da102be5268600944b058e"
+        },
+        {
+          "url": "https://www.mass.gov/search?q=Patel%207-Eleven",
+          "finalUrl": "https://search.mass.gov/?q=Patel%207-Eleven",
+          "retrievedAt": "2026-11-14T00:51:17.263843+00:00",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 65204,
+          "sha256": "11c8e25044946ba73d7eb1768ec9454b87887040d37aedf3f33980e562d5546e",
+          "rawPath": "/tmp/eln-smb-state-sources/ma-search.html",
+          "textPath": "/tmp/eln-smb-state-sources/ma-search.txt",
+          "textLength": 62,
+          "evidenceKey": "ma-search",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Official search redirected to a200JSsearch shell; no opinion text was read.",
+          "extractedTextSha256": "50e74e27af374e477159c6f0ee0eb6ed5649e96e209bab61111c8978d741539d"
+        }
+      ],
+      "remainingQuestion": "Current franchise-specific services-threshold opinion application remains unverified. No employee/contractor result can be deduced from the generic multi-party example.",
+      "proposedPublicPatch": {
+        "operations": [
+          {
+            "operation": "replaceParagraph",
+            "sectionId": "three-cumulative-conditions",
+            "oldText": "Once the threshold applies, the statutory exception requires freedom from control and direction both under the contract and in fact; service outside the alleged employer’s usual course of business; and an independently established business of the same nature as the service performed.",
+            "newText": "Once the services threshold applies, the contractor exception requires all three: the individual is free from control and direction under the contract and in fact; the service is outside the alleged employer’s usual course of business; and the individual is customarily engaged in an independently established trade, occupation, profession or business of the same nature as the service performed."
+          }
+        ]
+      },
+      "sourceUpdates": [
+        {
+          "action": "update",
+          "id": "b2-east-ma-classification",
+          "fields": {
+            "fetchedAt": "2026-11-14T00:40:27.429693+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "sha256": "478a1eeb2a44ab5fcc51f9cf8ac8e4523a6ee9cebd0f151394d7cb82ea82adee",
+            "notes": "Read current official148B(a)–(e). The statutory exception is cumulative and includes customarily engaging in an independently established same-nature trade/occupation/profession/business. Statute confirmation does not establish the unreviewed current franchise-case application."
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/ma-148b.html",
+          "localTextEvidence": "/tmp/eln-smb-state-sources/ma-148b.txt",
+          "articleReviewDateChange": null
+        }
+      ],
+      "basePublicPatchSha256": "fce82abd9c9255209f43bda3637bebc493330b5097635b08c5ca6046a3a35c91",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "state-guide-michigan-disclosure-timing",
+      "path": "/states/michigan/franchise-disclosure-timing/",
+      "researchOutcome": "partially-resolved",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "Recovered current official445.1508(1),(3),445.1502 and general8.6. The rule and prescribed page can now be cited from actual PDFs. These do not by themselves establish every intervening business-day/holiday and legal-delivery input for a particular date.",
+      "scopeReason": "The shorter page is an explanation of why two clocks differ, not a date calculator. Current statute availability closes that retrieval question without pretending missing transaction/counting facts are known.",
+      "evidence": [
+        {
+          "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-445-1508.pdf",
+          "finalUrl": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-445-1508.pdf",
+          "retrievedAt": "2026-11-14T00:40:27.605836+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 25518,
+          "sha256": "04d623023213b44d5c1cb2e50a2cd1ede921238e6965bd355c7158c3d110c536",
+          "rawPath": "/tmp/eln-smb-state-sources/mi-timing-pdf.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/mi-timing-pdf.txt",
+          "textLength": 8146,
+          "evidenceKey": "mi-timing-pdf",
+          "usableForClaim": true,
+          "snippet": "at least 10 business days before the receipt of any consideration, whichever occurs first",
+          "reviewedScope": "Subsections1and3 fully read; complete3-page PDF retained. No claim that every disclosure category in2was substantively re-reviewed.",
+          "extractedTextSha256": "78224ad449f75196c55899a80fdb6ef18d87e659e87c8014ad0e1025b2fd02fa"
+        },
+        {
+          "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-445-1502.pdf",
+          "finalUrl": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-445-1502.pdf",
+          "retrievedAt": "2026-11-14T00:41:29.678773+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 17075,
+          "sha256": "95468e9793fb3452a88d2656c67eaa69bbd784d6c69d2cae4b9ff8afe7714813",
+          "rawPath": "/tmp/eln-smb-state-sources/mi-definition-pdf.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/mi-definition-pdf.txt",
+          "textLength": 1960,
+          "evidenceKey": "mi-definition-pdf",
+          "usableForClaim": true,
+          "snippet": "a contract or agreement, either express or implied, whether oral or written",
+          "reviewedScope": "Full one-page445.1502; does not define business day.",
+          "extractedTextSha256": "dc29d3f1dfded93253325fc7c04c76fb9e17b94adab8526b1e01d826f5ad385a"
+        },
+        {
+          "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-8-6.pdf",
+          "finalUrl": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-8-6.pdf",
+          "retrievedAt": "2026-11-14T00:41:29.791524+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 14979,
+          "sha256": "b9536bacb94ccd97c954de0a573e372633848cf62a3305b4aae6619f9401b0f3",
+          "rawPath": "/tmp/eln-smb-state-sources/mi-time-pdf.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/mi-time-pdf.txt",
+          "textLength": 692,
+          "evidenceKey": "mi-time-pdf",
+          "usableForClaim": true,
+          "snippet": "In computing a period of days, the first day is excluded and the last day is included.",
+          "reviewedScope": "Full one-page8.6, including final-daySaturday/Sunday/legal-holiday extension. This is not assumed to define all interior franchise business days.",
+          "extractedTextSha256": "6bd1b20119aedcd159874cdd0f7320b6a5c951984106abd3cbc17d25bb5f98f3"
+        }
+      ],
+      "remainingQuestion": "No defensible dated commitment example without resolving all actual delivery, relevant agreement/payment, applicable counting and holiday inputs. Do not turn8.6’s final-day rule into an unverified full business-day definition.",
+      "proposedPublicPatch": null,
+      "sourceUpdates": [
+        {
+          "action": "update",
+          "id": "state-mi-disclosure",
+          "fields": {
+            "url": "https://www.legislature.mi.gov/documents/mcl/pdf/mcl-445-1508.pdf",
+            "fetchedAt": "2026-11-14T00:40:27.605836+00:00",
+            "substantiveVerifiedAt": "2026-11-14T00:54:09.032682+00:00",
+            "sha256": "04d623023213b44d5c1cb2e50a2cd1ede921238e6965bd355c7158c3d110c536",
+            "notes": "Official complete-through-PA114of2026PDF recovered. Subsections1and3 read:10businessdays before earlier agreement/consideration; all proposed agreements; required separate Michigan notice page. No automatic legal-delivery, holiday or amendment calculation is inferred."
+          },
+          "localRawEvidence": "/tmp/eln-smb-state-sources/mi-timing-pdf.pdf",
+          "articleReviewDateChange": null
+        }
+      ],
+      "basePublicPatchSha256": "c5368635d271a22439215d42da4efc58fd8478af6ea30e5c436b49df7dd0d407",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-east-guide-arkansas",
+      "path": "/states/arkansas/",
+      "researchOutcome": "unresolved-access",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The enacted2023Act and its date distinctions remain usable; current consolidation was not recovered from the legislature-linked Lexis route.",
+      "scopeReason": "The rewritten note can answer enacted-versus-failed status, but that narrower publication does not close the actual current-code research gap.",
+      "evidence": [
+        {
+          "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2FACT847.pdf",
+          "finalUrl": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2FACT847.pdf",
+          "retrievedAt": "2026-11-14T00:40:28.044545+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 276324,
+          "sha256": "9197a7b4740448acbacd2d9ed6723bff0511021becd1add64272a4e6b4a06096",
+          "rawPath": "/tmp/eln-smb-state-sources/ar-enacted.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/ar-enacted.txt",
+          "textLength": 12251,
+          "evidenceKey": "ar-enacted",
+          "usableForClaim": true,
+          "snippet": "Sections 2, 4, and 5 of this act only apply to franchise",
+          "reviewedScope": "Approval notation and Section7application clauses rechecked; marked deletions rely on the previously reviewed PDF layout, not linear text alone.",
+          "extractedTextSha256": "da5b78127919b590fecf1c6ffb5caff448ac0dfcff6db48304691b4d43009cbf"
+        },
+        {
+          "url": "https://www.arkleg.state.ar.us/ArkansasLaw",
+          "finalUrl": "https://www.arkleg.state.ar.us/ArkansasLaw",
+          "retrievedAt": "2026-11-14T00:42:19.389215+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 38670,
+          "sha256": "c813df474c85e1a836224d181026c217a2cd510293a6e2d81353ebb5b9102975",
+          "rawPath": "/tmp/eln-smb-state-sources/ar-code-index.html",
+          "textPath": "/tmp/eln-smb-state-sources/ar-code-index.txt",
+          "textLength": 3491,
+          "evidenceKey": "ar-code-index",
+          "usableForClaim": true,
+          "snippet": "Arkansas Code and Constitution of 1874",
+          "reviewedScope": "Official code-navigation pointer only.",
+          "extractedTextSha256": "ec9504cf46290b45b55489f84ed2fe126c01bd740e66d13662e015fbc8fbaac6"
+        },
+        {
+          "url": "https://www.lexisnexis.com/hottopics/arcode/",
+          "finalUrl": "https://advance.lexis.com/container?config=00JAA3ZTU0NTIzYy0zZDEyLTRhYmQtYmRmMS1iMWIxNDgxYWMxZTQKAFBvZENhdGFsb2cubRW4ifTiwi5vLw6cI1uX",
+          "retrievedAt": "2026-11-14T00:43:45.830134+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 3696,
+          "sha256": "bc9b1a316b9e76307e5615629c0a64fe6db9067d88edab708df51b0b150743ae",
+          "rawPath": "/tmp/eln-smb-state-sources/ar-lexis.html",
+          "textPath": "/tmp/eln-smb-state-sources/ar-lexis.txt",
+          "textLength": 0,
+          "evidenceKey": "ar-lexis",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Legislature-linked public Lexis route redirected to a200empty JavaScript container, not current code.",
+          "extractedTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "remainingQuestion": "Current consolidated provisions and relevant later decisions for an actual grant/change/exit remain unresolved. Do not convert the historical-status note into a current termination rule.",
+      "proposedPublicPatch": null,
+      "sourceUpdates": [],
+      "basePublicPatchSha256": "01e283dd2811655dc2636979337bebe3a708fd220bb308ac8f8a709dbefc58cb",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-east-guide-georgia",
+      "path": "/states/georgia/",
+      "researchOutcome": "unresolved-currency",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The official hosted statutory text still explicitly labels2006currency. It cannot establish current numerical thresholds or franchise-sales exclusions.",
+      "scopeReason": "The narrower record-significance question is publishable, but current franchise-sales law was not verified. No source-review dates are advanced from a currency-label check.",
+      "evidence": [
+        {
+          "url": "https://consumer.georgia.gov/business-services/multilevel-distribution-companies-sale-business-opportunities",
+          "finalUrl": "https://consumer.georgia.gov/business-services/multilevel-distribution-companies-sale-business-opportunities",
+          "retrievedAt": "2026-11-14T00:40:27.975775+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 148067,
+          "sha256": "0d96e0f6cdaaa4a85cd1602ef66ec3efdfc7c07248d62eec89b10565d4517fe1",
+          "rawPath": "/tmp/eln-smb-state-sources/ga-historical.html",
+          "textPath": "/tmp/eln-smb-state-sources/ga-historical.txt",
+          "textLength": 39198,
+          "evidenceKey": "ga-historical",
+          "usableForClaim": true,
+          "snippet": "*** Current through the 2006 Regular Session ***",
+          "reviewedScope": "Currency label and statutory-page context only; no fresh substantive review of all historical provisions.",
+          "extractedTextSha256": "ba358949640f0d696c2538f021a331137f395e44d705770ea252491c6301bd1a"
+        }
+      ],
+      "remainingQuestion": "Current business-opportunity coverage, filing, disclosure, advertising and relationship duties remain open. The narrowed name-versus-mark note must not imply they are absent.",
+      "proposedPublicPatch": null,
+      "sourceUpdates": [],
+      "basePublicPatchSha256": "660ecab4c3b5f71cfb43c6107805c2d61b00284c229b6b2267051db4f1dae5f5",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "state-guide-illinois",
+      "path": "/states/illinois/",
+      "researchOutcome": "unresolved-access",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The agency forms page is readable, but the legislature’s linked Act and administrative rules returned503 and the uniform FormA leaves the fee blank. No current fee, channel or initial effectiveness was established.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://illinoisattorneygeneral.gov/Consumer-Protection/For-Businesses/Franchise/",
+          "finalUrl": "https://illinoisattorneygeneral.gov/Consumer-Protection/For-Businesses/Franchise/",
+          "retrievedAt": "2026-11-14T00:40:27.427796+00:00",
+          "status": 200,
+          "contentType": "text/html;charset=UTF-8",
+          "bytes": 36256,
+          "sha256": "69887692dcd0e51805f90a6798a79587d36ac1842561e17c43170665b08713a9",
+          "rawPath": "/tmp/eln-smb-state-sources/il-franchise.html",
+          "textPath": "/tmp/eln-smb-state-sources/il-franchise.txt",
+          "textLength": 4736,
+          "evidenceKey": "il-franchise",
+          "usableForClaim": true,
+          "snippet": "The Franchise Bureau in the Office of the Attorney General registers and monitors franchisors and brokers",
+          "reviewedScope": "Complete public forms/resources body.",
+          "extractedTextSha256": "2d18419ed4bbe575c91b7552be321387f71b5639be1dcc9571ad92bae2ad207e"
+        },
+        {
+          "url": "https://illinoisattorneygeneral.gov/Consumer-Protection/For-Businesses/Franchise/forms/Franchise-Registration-Forms/Form_A.pdf",
+          "finalUrl": "https://illinoisattorneygeneral.gov/Consumer-Protection/For-Businesses/Franchise/forms/Franchise-Registration-Forms/Form_A.pdf",
+          "retrievedAt": "2026-11-14T00:42:19.214122+00:00",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 67903,
+          "sha256": "c5753c82e4f5915f9282a154e411879d69ca68c7e1b99703d315062d471a2f42",
+          "rawPath": "/tmp/eln-smb-state-sources/il-form-a.pdf",
+          "textPath": "/tmp/eln-smb-state-sources/il-form-a.txt",
+          "textLength": 1610,
+          "evidenceKey": "il-form-a",
+          "usableForClaim": true,
+          "snippet": "INITIAL REGISTRATION OF AN OFFER AND SALE OF FRANCHISES",
+          "reviewedScope": "Full2-page uniform form; blank fee field is not a fee source.",
+          "extractedTextSha256": "478fdff28af0af4fa440a2c322e1336304204037d736ed62329d3c7e8843b8fa"
+        },
+        {
+          "url": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2381&ChapterID=67",
+          "finalUrl": "https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=2381&ChapterID=67",
+          "retrievedAt": "2026-11-14T00:41:29.362600+00:00",
+          "status": 503,
+          "bytes": 98,
+          "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+          "rawPath": "/tmp/eln-smb-state-sources/il-act.html",
+          "textPath": "/tmp/eln-smb-state-sources/il-act.txt",
+          "textLength": 98,
+          "error": "HTTP Error 503: Service Unavailable",
+          "evidenceKey": "il-act",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Linked officialAct route returned503upstream failure.",
+          "extractedTextSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909"
+        },
+        {
+          "url": "https://www.ilga.gov/commission/jcar/admincode/014/01400200sections.html",
+          "finalUrl": "https://www.ilga.gov/commission/jcar/admincode/014/01400200sections.html",
+          "retrievedAt": "2026-11-14T00:41:29.363386+00:00",
+          "status": 503,
+          "bytes": 98,
+          "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+          "rawPath": "/tmp/eln-smb-state-sources/il-rules.html",
+          "textPath": "/tmp/eln-smb-state-sources/il-rules.txt",
+          "textLength": 98,
+          "error": "HTTP Error 503: Service Unavailable",
+          "evidenceKey": "il-rules",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Linked officialadministrative route returned503upstream failure.",
+          "extractedTextSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909"
+        }
+      ],
+      "remainingQuestion": "Initial statutory timing, current fee and accepted submission channel remain unresolved; the undated annual sheet is not converted into current channel confirmation.",
+      "proposedPublicPatch": null,
+      "sourceUpdates": [],
+      "basePublicPatchSha256": "41b3ce0f4494901110e508f3651c26ac5ba5ce4989da0c2534804d886fb2735a",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-west-oklahoma",
+      "path": "/states/oklahoma/",
+      "researchOutcome": "unresolved-access",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The administrative advertising gap remains. The Securities Department returned503; the official rules portal returned403with a blocking message.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://www.securities.ok.gov/",
+          "finalUrl": "https://www.securities.ok.gov/",
+          "retrievedAt": "2026-11-14T00:40:28.103607+00:00",
+          "status": 503,
+          "bytes": 98,
+          "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+          "rawPath": "/tmp/eln-smb-state-sources/ok-agency.html",
+          "textPath": "/tmp/eln-smb-state-sources/ok-agency.txt",
+          "textLength": 98,
+          "error": "HTTP Error 503: Service Unavailable",
+          "evidenceKey": "ok-agency",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "503upstream response, not an agency rule body.",
+          "extractedTextSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909"
+        },
+        {
+          "url": "https://rules.ok.gov/code",
+          "finalUrl": "https://rules.ok.gov/code",
+          "retrievedAt": "2026-11-14T00:41:30.255460+00:00",
+          "status": 403,
+          "bytes": 25,
+          "sha256": "870d84f11d07934098167265fdbe64f27821a0e5d7843d66b6a27efe8a02461b",
+          "rawPath": "/tmp/eln-smb-state-sources/ok-rules.html",
+          "textPath": "/tmp/eln-smb-state-sources/ok-rules.txt",
+          "textLength": 25,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "ok-rules",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "403Your request was blocked; no security workaround attempted.",
+          "extractedTextSha256": "870d84f11d07934098167265fdbe64f27821a0e5d7843d66b6a27efe8a02461b"
+        }
+      ],
+      "remainingQuestion": "Current administrative advertising-filing text must remain open. Neither803(6) nor normal registration timing establishes that no campaign duty exists.",
+      "proposedPublicPatch": null,
+      "sourceUpdates": [],
+      "basePublicPatchSha256": "9f03f2b786aa70124ec4f5d9ee1fd66a23036284560f12d35aeb00762bccf086",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    },
+    {
+      "id": "b2-west-tennessee",
+      "path": "/states/tennessee/",
+      "researchOutcome": "unresolved-access",
+      "publicationDisposition": "publish only the stated scope; do not imply transaction-specific clearance",
+      "conclusion": "The entity FAQ remains readable and datedMarch12,2021. A candidate current manual returned503and the current tax landing returned403; no new current tax-year or franchise-sales law was established.",
+      "scopeReason": null,
+      "evidence": [
+        {
+          "url": "https://revenue.support.tn.gov/hc/en-us/articles/360058316531-F-E-1-Entity-Types-that-File-Franchise-Excise-Tax-Returns",
+          "finalUrl": "https://revenue.support.tn.gov/hc/en-us/articles/360058316531-F-E-1-Entity-Types-that-File-Franchise-Excise-Tax-Returns",
+          "retrievedAt": "2026-11-14T00:41:30.146828+00:00",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 16363,
+          "sha256": "7d5531e7f574de94c4dd8d78ef4ffa6a2a11c182b0fe737fd1c88c3f1220c98f",
+          "rawPath": "/tmp/eln-smb-state-sources/tn-fe1.html",
+          "textPath": "/tmp/eln-smb-state-sources/tn-fe1.txt",
+          "textLength": 1373,
+          "evidenceKey": "tn-fe1",
+          "usableForClaim": true,
+          "snippet": "The following entity types may be required to file the franchise and excise tax return:",
+          "reviewedScope": "Complete shortFAQ, entity list and dated references; not a new tax calculation.",
+          "extractedTextSha256": "fd93b75df4630bc1c73361b219ace6ab1326e7fc46d57bc39227ed14ab21854d"
+        },
+        {
+          "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/f-e-tax.pdf",
+          "finalUrl": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/f-e-tax.pdf",
+          "retrievedAt": "2026-11-14T00:40:28.369715+00:00",
+          "status": 503,
+          "bytes": 98,
+          "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+          "rawPath": "/tmp/eln-smb-state-sources/tn-manual.html",
+          "textPath": "/tmp/eln-smb-state-sources/tn-manual.txt",
+          "textLength": 98,
+          "error": "HTTP Error 503: Service Unavailable",
+          "evidenceKey": "tn-manual",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Candidate officialmanual URL returned503; no manual text relied on.",
+          "extractedTextSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909"
+        },
+        {
+          "url": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+          "finalUrl": "https://www.tn.gov/revenue/taxes/franchise---excise-tax.html",
+          "retrievedAt": "2026-11-14T00:46:15.600926+00:00",
+          "status": 403,
+          "bytes": 118,
+          "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+          "rawPath": "/tmp/eln-smb-state-sources/tn-tax-guidance.html",
+          "textPath": "/tmp/eln-smb-state-sources/tn-tax-guidance.txt",
+          "textLength": 27,
+          "error": "HTTP Error 403: Forbidden",
+          "evidenceKey": "tn-tax-guidance",
+          "usableForClaim": false,
+          "snippet": "",
+          "reviewedScope": "Current officialtax landing returned403; no body relied on.",
+          "extractedTextSha256": "570481825b6fa423ab84bb1581a756937d7c5080f1c868afdf3b93c8a63bb6a8"
+        }
+      ],
+      "remainingQuestion": "Current tax-year scope, exemptions/forms/timing and separate Tennessee franchise-sales/relationship law remain unresolved. Tax-versus-sales distinction remains the only published conclusion.",
+      "proposedPublicPatch": null,
+      "sourceUpdates": [],
+      "basePublicPatchSha256": "acf2b3bc5ad2f29c0e0d576089dd8da5ce6a6fc0303be6bb9caa8a48e05f23ac",
+      "articleReviewDateChange": null,
+      "preserveCurrentTeachingFixes": true
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 import {readdir,readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import {sectionAnchorIssues} from '../src/lib/article-presentation.ts';
 const dir=resolve('src/data');
 const errors=[],warnings=[];const files=(await readdir(dir)).filter(f=>f.endsWith('.json'));
 const datasets={};for(const f of files){try{const a=JSON.parse(await readFile(resolve(dir,f),'utf8'));if(!Array.isArray(a))errors.push(f+': expected array');else datasets[f]=a}catch(e){errors.push(f+': '+e.message)}}
@@ -24,11 +25,11 @@ for(const g of guides){
  for(const id of g.ruleIds??[])if(!rmap.has(id))errors.push(name+': missing rule '+id);
  if(g.status!=='published')continue;
  for(const key of ['title','description','family','topic','practicalOutput','reviewStatus','learningSummary'])if(typeof g[key]!=='string'||!g[key].trim())errors.push(name+': published guide missing '+key);
- if(!Array.isArray(g.keyTerms)||g.keyTerms.length<2||g.keyTerms.length>6||g.keyTerms.some(t=>typeof t?.term!=='string'||!t.term.trim()||typeof t?.meaning!=='string'||!t.meaning.trim()))errors.push(name+': published guide needs two to six explained terms');
+ if(g.keyTerms!==undefined&&(!Array.isArray(g.keyTerms)||g.keyTerms.length>6||g.keyTerms.some(t=>typeof t?.term!=='string'||!t.term.trim()||typeof t?.meaning!=='string'||!t.meaning.trim())))errors.push(name+': optional terms must contain zero to six explained terms');
  if(!iso(g.lastReviewed))errors.push(name+': published guide needs substantive review date');
  if(!g.sourceIds?.length)errors.push(name+': published guide needs cited sources');
- if(!Array.isArray(g.sections)||g.sections.length===0)errors.push(name+': published guide needs sections');
- for(const [i,s] of (g.sections??[]).entries()){
+ if(!Array.isArray(g.sections))errors.push(name+': sections must be an array; a concise answer may have no additional sections');
+ for(const [i,s] of (Array.isArray(g.sections)?g.sections:[]).entries()){
   if(!s.heading||(!(s.paragraphs??[]).some(Boolean)&&!(s.bullets??[]).some(Boolean)&&!s.table?.rows?.length))errors.push(name+': section '+i+' is empty');
   if(s.table&&s.table.rows.some(row=>row.length!==s.table.headers.length))errors.push(name+': section '+i+' has uneven table');
   for(const id of s.sourceIds??[])if(!smap.has(id))errors.push(name+': section source not found '+id);
@@ -49,12 +50,9 @@ for(const g of published){
   else {if(searchTitles.has(g.seoTitle))errors.push(g.id+': duplicate search title');searchTitles.add(g.seoTitle);}
   if(g.scenarioType==='fictional'&&!/fiction|illustrat/i.test(g.seoTitle))errors.push(g.id+': fictional search title must retain its label');
  }
- if(g.relatedPaths!==undefined&&(!Array.isArray(g.relatedPaths)||g.relatedPaths.length<3||g.relatedPaths.length>5||new Set(g.relatedPaths).size!==g.relatedPaths.length||g.relatedPaths.some(path=>path===g.path||!readingDestinations.has(path))))errors.push(g.id+': curated reading links must identify three to five distinct published guides/tools');
+ if(g.relatedPaths!==undefined&&(!Array.isArray(g.relatedPaths)||g.relatedPaths.length>5||new Set(g.relatedPaths).size!==g.relatedPaths.length||g.relatedPaths.some(path=>path===g.path||!readingDestinations.has(path))))errors.push(g.id+': curated reading links must identify zero to five distinct published guides/tools');
  if(g.learningPath!==undefined&&!learningPaths.has(g.learningPath))errors.push(g.id+': unknown learning path');
- const explicitIds=(g.sections??[]).filter(s=>s.id!==undefined).map(s=>s.id);
- if(new Set(explicitIds).size!==explicitIds.length||explicitIds.some(id=>typeof id!=='string'||!/^[a-z][a-z0-9-]*$/.test(id)||/^section-\d+$/.test(id)||['start-here','words-to-know','sources'].includes(id)))errors.push(g.id+': invalid or conflicting stable section ID');
- const legacyIndexes=(g.sections??[]).filter(s=>s.legacyIndex!==undefined).map(s=>s.legacyIndex);
- if(new Set(legacyIndexes).size!==legacyIndexes.length||legacyIndexes.some(index=>!Number.isInteger(index)||index<0))errors.push(g.id+': invalid or duplicate original section mapping');
+ for(const issue of sectionAnchorIssues(Array.isArray(g.sections)?g.sections:[]))errors.push(g.id+': '+issue);
 }
 for(const t of [...(datasets['tool-definitions.json']??[]),...(datasets['site-dependencies.json']??[])]){for(const id of t.ruleIds??[])if(!rmap.has(id))errors.push(t.id+': missing tool rule '+id);for(const id of t.sourceIds??[])if(!smap.has(id))errors.push(t.id+': missing tool source '+id);}
 const stateRecords=datasets['states.json']??[];if(stateRecords.length){const national=stateRecords.filter(s=>['state','district'].includes(s.kind));if(national.length!==51)errors.push('coverage: expected exactly 50 states + DC; found '+national.length);const territories=stateRecords.filter(s=>s.kind==='territory');if(territories.length!==5)errors.push('coverage: expected 5 territories; found '+territories.length);}

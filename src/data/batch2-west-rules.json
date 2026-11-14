@@ -1005,7 +1005,7 @@
     "affectedParty": "Brand/supplier, prospective operator and responsible management team",
     "applicability": "Only where the cited state provision and its factual scope apply; no transaction-specific conclusion.",
     "requirement": "The enacted P.L. 2009, c. 235 amendment to 56:10-3(f) provides a B2B branch for persons not making a majority of sales directly to consumers, including qualifying offices/warehouses from which customers are called on or goods delivered. The complete Franchise Practices Act definition and application criteria remain separate.",
-    "exceptions": "This is not a finding that any office, warehouse or branded distributorship qualifies; current full-codification access was incomplete.",
+    "exceptions": "This is not a finding that any office, warehouse or branded distributorship qualifies. The actual written arrangement, licensed-brand/community-of-interest facts and applicable sections 4 and 8 conditions still have to be established.",
     "trigger": "Designing a New Jersey B2B distribution or service relationship",
     "deadline": "Before selecting relationship terms or taking enforcement action",
     "fee": null,
@@ -1018,7 +1018,10 @@
     ],
     "sourceIds": [
       "b2-west-a-nj-amendment",
-      "b2-west-a-nj-otg"
+      "b2-west-a-nj-otg",
+      "smb-state-nj-definition",
+      "smb-state-nj-application",
+      "smb-state-nj-prior-grants"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -1026,8 +1029,8 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "Current LIS statute pages returned 500; enacted amendment and 2025 judicial treatment read.",
-      "Complete application criteria, subsequent amendments and transaction facts require current review."
+      "The currently served official text of 56:10-3, 56:10-4 and 56:10-8 was read. This does not certify every other Act provision, specialized industry rule or later judicial outcome.",
+      "Section 4(a)’s combined application criteria, section 4(b)’s separate new-motor-vehicle route and section 8’s prior-grant, renewal and amendment rules require application to the actual facts. The cited 2025 opinion tested pleaded allegations rather than final factual findings."
     ],
     "dependentPaths": [
       "/states/new-jersey/"

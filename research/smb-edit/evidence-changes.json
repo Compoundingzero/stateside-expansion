@@ -1,0 +1,135 @@
+[
+  {
+    "file": "batch3-origin3-sources.json",
+    "beforeHash": "4fbbf8c3b7f1afee548a055d0acea5ad45198666c65393539608881a01f11d58",
+    "afterHash": "2d56eab23b6b3d807b953e9dca9d12a3079b0c73fc93ad2de53b0e78b71ad9c6",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  },
+  {
+    "file": "geography-sources.json",
+    "beforeHash": "61707cfd3cf7b292354cd0ae3b7924ae4ff403c51fcbe73395b13f064f001469",
+    "afterHash": "94995343c0b7108b4f040f0d4d1dbd9a8e7e30a14fcf078b09cac50fb2987e22",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/places-source-decisions.json"
+  },
+  {
+    "file": "batch3-planning-sources.json",
+    "beforeHash": "3528d3e1b6fb3615eb85d20953a2c7d69f1879aa218f911343d66fd4473cf996",
+    "afterHash": "c808b05e260adf8773690a1ba9b0989c46b190a74f6f7dd2eacc013bf4b29210",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json"
+  },
+  {
+    "file": "batch3-planning2-sources.json",
+    "beforeHash": "8bdf1ed785f4971f4212271bcba6bfba0f85a49064170a5aa50c3c415e11c139",
+    "afterHash": "095a56ccba3586a66d1a7af44e4a2f75efb9fba2260643faef0d28e7ce1f4345",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json"
+  },
+  {
+    "file": "federal-sources.json",
+    "beforeHash": "f1aed51c1d234f666b219e74a3953c93804b320c6d13562c350daa48df49b458",
+    "afterHash": "daf85d59bd232c332c8432b8965d25d02c34a3744e5658e61ed264f4a28f8c44",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json"
+  },
+  {
+    "file": "batch3-planning2-rules.json",
+    "beforeHash": "441753d719d14e2dc08caad4be9563d0733fcf1ea8ecc62c3b34af1104f535a9",
+    "afterHash": "e128e0d7ed72bbafb49c8a876a74cf023058b9029312e9f04cdaacd90228c7d6",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json"
+  },
+  {
+    "file": "batch2-east-sources.json",
+    "beforeHash": "e55a9b2d0d4f38400481270e5c4dc500783adb5dcf84853f3a7b49bd4c6e74be",
+    "afterHash": "8801d1698b5b84a15cccfa3a31b5da86c497fe763502117d3d0c1bbb1b725505",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/states-source-decisions.json"
+  },
+  {
+    "file": "state-sources.json",
+    "beforeHash": "deeebecee9be26e75d4a2a5ce5d84fb8355b58a5384a365f0213a50c2813e122",
+    "afterHash": "a6dba7c1241057e0d8ba55d57e05f490f209150bebe67ea34919f27711314048",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/states-source-decisions.json"
+  },
+  {
+    "file": "batch3-state5-sources.json",
+    "beforeHash": "8b73cc6ecef2240573ab18044b904e2731c1e25eb0223801d8c014e45f92436d",
+    "afterHash": "5ea6136c33bc7ca274032ea14c3137d0d68c56121ca59d800470eb3333fcf8af",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/states-source-decisions.json"
+  },
+  {
+    "file": "batch2-west-sources.json",
+    "beforeHash": "8e92d9c4aa18d1e37ea570d1561039decaf911d517081bc8be94a89edf9102a3",
+    "afterHash": "9aa7aad7b27e8a9fbb8de9c217890c529ff9f15a7ac18d701a0c4e06c910267a",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/states-source-decisions.json"
+  },
+  {
+    "file": "batch3-planning-rules.json",
+    "beforeHash": "2b73d1ca0b476305c0f4988acec51051f37e5dd2d2626298120d59da7f402ae6",
+    "afterHash": "cbe56efc756ca1da0258a106cad5bd061ad7170076856a8c7d29901107a1ff46",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/federal-source-decisions.json"
+  },
+  {
+    "file": "batch2-east-rules.json",
+    "beforeHash": "dfbfbe7fc87b128283333d8d2325267ae60cda7f913571679ff87dc0aa5ac986",
+    "afterHash": "1eb4eb5ab5c30777004f3a622281c95b969ef217c959b6c55bc992753d3a8acd",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/states-source-decisions.json"
+  },
+  {
+    "file": "batch2-west-rules.json",
+    "beforeHash": "619c70c64acd2cb26b695cf262218ae59d2092453aefddc176dfd65cd6a65ae0",
+    "afterHash": "5c529affc066094c129e5452be7b52816c1d0c440a38e9d06c2a7c457cb08d8e",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/states-source-decisions.json"
+  },
+  {
+    "file": "batch3-origin2-sources.json",
+    "beforeHash": "4886f9da4373d48fd4b304b1347b35af97801263c5155bca31d94262ddca90a3",
+    "afterHash": "1e29b7bc3ac0044b04ad9fe576cb0b3035d5fd3f5f18941f65a57166b2f9758c",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  },
+  {
+    "file": "batch2-origins-sources.json",
+    "beforeHash": "8373d7dc8dd6bd4666a3713372361fcb1d90e1323717429f6fee9cffe0d9d2bf",
+    "afterHash": "957d2331533f95c1eb6068869a7ea9a98d0c8f4abc00b2a09e7f1ea77ed68fe8",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  },
+  {
+    "file": "batch3-origin4-sources.json",
+    "beforeHash": "5abb0fe12c69c5f035a4e445d2c050000b8aa430876e43efb640ac5a2ba48246",
+    "afterHash": "37dc9ed95684dd03ff7bb56d99b111e8ec9c3619c76bed5fb49f599f58276b1f",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  },
+  {
+    "file": "batch3-origin2-rules.json",
+    "beforeHash": "56fc076b1232bdf9ea615efccaabc3a415dd66c9f23f3276bb5d6777f80a1389",
+    "afterHash": "4519d6b3dd96128d7e6c8bf353ca9d4d068daacc586d904642b49932862a4c3f",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  },
+  {
+    "file": "batch3-origin4-rules.json",
+    "beforeHash": "5bc2336ebc61503fcfd7e7fc90b54ad6fa89000958210dec53d01757fedac345",
+    "afterHash": "decfa5961e1f171df1d373f1b28cd6796fb76a956d86dc8dc6fdfa00ea153517",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  },
+  {
+    "file": "batch3-origin3-rules.json",
+    "beforeHash": "67a7857daee3548484f859ae3c6163bfe4cb2c3f2b9516bb9da70810f59efae3",
+    "afterHash": "b8f358b86c3d0065924fff9bd6dfac5fc25ac34e6b98819680242097b60687e1",
+    "reason": "Targeted official-source follow-up; exact record and scope changes are recorded in the linked decisions.",
+    "decisionFile": "research/smb-edit/origins-source-decisions.json"
+  }
+]

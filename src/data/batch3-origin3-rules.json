@@ -144,19 +144,22 @@
     ],
     "sourceIds": [
       "b3-origin3-bulgaria-export-register",
-      "b3-origin3-bulgaria-export-current-law"
+      "b3-origin3-bulgaria-export-current-law",
+      "smb-origin-bg-repealer",
+      "smb-origin-bg-gazette55",
+      "smb-origin-bg-decree88"
     ],
     "status": "conditional",
     "legalStatus": "named source-supported issue only; limitations and conflicts preserved",
     "verifiedAt": "2026-11-13",
     "nextReview": "2026-12-13",
     "conflicts": [
-      "Live administrative entry retains Regulation 428/2009 in one re-export passage while its 2026 forms and the 2024 primary compilation cite Regulation 2021/821.",
+      "The administrative entry still contains a Regulation 428/2009 citation. Article 31 of Regulation 2021/821 repeals the older regulation, treats references to it as references to the new regulation, and preserves the relevant older provisions for export-authorization applications lodged before 9 September 2021. Promulgated Decree 88 sections 22 and 30 replace the implementing references; the older administrative citation does not establish a 428/2009 route for a new application.",
       "Mixed fee descriptions are not treated as a verified payable amount."
     ],
     "interpretationLimits": [
       "Narrow Bulgarian administrative-packet guide for a conditionally covered controlled-export transaction; no classification, licence or exemption determination.",
-      "The official primary compilation ends at May 2024 amendments. Later implementing-law scope and mixed legacy references remain open; the current 2026 forms do not prove every substantive rule is unchanged. Bulgarian interpretation was AI-assisted.",
+      "The national Act compilation reviewed ends at May 2024 amendments. The targeted 2026 Gazette 55 amendment and promulgated Decree 88 of 17 July 2026 (Gazette 66, 21 July 2026) now supplement that limited compilation; they do not establish the absence of other amendments or a complete current control-list review. Decree 88 changes packet, internal-compliance-programme and large-project branches, translation certification and electronic-payment proof, so the older service entry is not an exhaustive current packet. No exact commencement date or payable fee is derived here. Bulgarian interpretation was AI-assisted.",
       "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
     ],
     "dependentPaths": [
@@ -358,7 +361,8 @@
     ],
     "sourceIds": [
       "b3-origin3-iceland-current-law",
-      "b3-origin3-iceland-vat"
+      "b3-origin3-iceland-vat",
+      "smb-origin-is-reg194-current"
     ],
     "status": "conditional",
     "legalStatus": "named source-supported issue only; limitations and conflicts preserved",
@@ -369,7 +373,7 @@
     ],
     "interpretationLimits": [
       "Narrow Icelandic statutory export-service screen; no complete VAT registration, reporting, input-credit or income-tax ruling.",
-      "Icelandic interpretation was AI-assisted. The current consolidated Regulation 194/1990 route returned403; no unresolved procedural requirement from that regulation is declared absent.",
+      "The official current-hosted Regulation 194/1990 PDF was read in full with AI-assisted Icelandic interpretation. Its listed-service alternatives and conditional certificate provisions remain relevant; their application alongside the broader current Article 12 business-recipient route is not settled here. Neither universal certificates, their universal absence nor regulatory obsolescence is inferred.",
       "Other home-country topics and U.S. federal/state/local requirements remain independent; this guide supplies no transaction, tax, filing, mark or transfer clearance."
     ],
     "dependentPaths": [

@@ -278,7 +278,7 @@
     "legalStatus": "scoped primary text or named agency process; see review limits",
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
     "accessStatus": "retrieved-and-read",
-    "notes": "Actual full announcement read. Describes adopted implementation and decisions ending older implementing decisions. The actual new gazetted regulation, commencement and replacement procedures were not retrieved in this pass. Announcement is not treated as the operative regulation or proof its new procedure is already applicable.",
+    "notes": "Complete adoption announcement re-read14November2026. Bounded follow-up reviewed ministry foreign-exchange catalog and publisher’s public latest-linked88/26 issue; neither yielded the operative regulation/commencement. Catalog and language-limited contents absence are not proof of nonpublication. Announcement remains adoption evidence only, not execution authority.",
     "sha256": "b933f175993de3b99076e52d11ae9074b10751086072c1be086d8d42c9fdf07f"
   },
   {
@@ -316,5 +316,24 @@
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
     "accessStatus": "retrieved-and-read",
     "notes": "Full relevant release read through web source reader on 13 November 2026; agency last-review label9 November 2026. Saved complete response research/raw/batch3/origin4/me-eu-web.json. Shows continuing negotiations/provisional closures rather than membership. Main background route returned 503 locally; no invented HTTP-body hash or legal accession date."
+  },
+  {
+    "id": "smb-origin-md-accounts-regulation",
+    "url": "https://bnm.md/files/Reg%20216_%20conturi%20rezidenti%20strainatate_HCE%20255-2025_RO.pdf",
+    "title": "Regulation216: residents’ foreign accounts through Decision255/2025",
+    "authority": "National Bank of Moldova",
+    "type": "regulation",
+    "section": "Exempt-account purpose/closure rules and distinct authorised-account reporting, paragraphs2(e),2.1,12,60–65,67",
+    "supportingPassage": "se efectuează de către rezidenți în conformitate cu scopurile pentru care acestea au fost deschise.",
+    "publicationDate": null,
+    "effectiveDate": null,
+    "fetchedAt": "2026-11-14T00:42:26.357721+00:00",
+    "substantiveVerifiedAt": "2026-11-14T00:50:48.294701+00:00",
+    "sha256": "db531345359d61c47f78bdcc643fe28b2883ab023eb00a52852f5a350441949e",
+    "accessStatus": "retrieved-and-read",
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "legalStatus": "Official source read for specified scope, not transaction clearance",
+    "notes": "Official Romanian compilation downloaded, named general/exempt/closure/reporting provisions read; 255/2025 amendments effective1January2026. Do not automatically apply authorisation-specific ChapterIII balance/operation conditions or ChapterVII monthly report to an Article13(5) exempt account. Statutory export-only/final-crediting conditions remain distinct.",
+    "nextReview": "2026-12-14"
   }
 ]

@@ -213,7 +213,8 @@
     ],
     "sourceIds": [
       "b3-o2-lu-services",
-      "b3-o2-lu-recap"
+      "b3-o2-lu-recap",
+      "smb-origin-lu-vat-law-2026"
     ],
     "status": "verified",
     "legalStatus": "scoped official guidance or specified current statutory text",
@@ -221,7 +222,7 @@
     "nextReview": "2026-12-13",
     "conflicts": [],
     "interpretationLimits": [
-      "Guichet pages are dated January 2023; later statutory and digital/event exceptions are not comprehensively reconciled here.",
+      "The statutory check now includes Articles 17 and 64bis of the official VAT-law text coordinated at 1 January 2026. Guichet’s eCDF process pages remain dated January 2023; actual service exceptions, receiving establishment, applicable reporting period and current filing access/cutoff require their own application. This is not a complete VAT-law or every digital/event exception review.",
       "No blanket no-Luxembourg-VAT, no-return or no-U.S.-tax conclusion.",
       "A U.S. group’s EU receiving branch may change the analysis."
     ],
@@ -329,7 +330,8 @@
       "Advance date, shipment/start date and any documented statutory exception"
     ],
     "sourceIds": [
-      "b3-o2-lv-law-current"
+      "b3-o2-lv-law-current",
+      "smb-origin-lv-reg17"
     ],
     "status": "verified",
     "legalStatus": "scoped official guidance or specified current statutory text",
@@ -338,7 +340,7 @@
     "conflicts": [],
     "interpretationLimits": [
       "Current Latvian text read; available official English translation is outdated and not used as current law.",
-      "Complete current Cabinet documentary list and U.S. import/classification/tariff obligations are not reviewed.",
+      "Cabinet Regulation 17 paragraphs 15–19 were read for the stated ordinary commercial goods-export evidence route. Actual goods, movement, documentary names and Customs acceptance remain conditions; a combination of any two papers is not automatic VAT approval. U.S. import, classification and tariff obligations remain outside the review.",
       "A U.S. buyer or service-fee label alone does not establish goods export or a zero rate."
     ],
     "dependentPaths": [

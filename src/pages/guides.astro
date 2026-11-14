@@ -2,12 +2,39 @@
 import Base from '../layouts/Base.astro';
 import {published} from '../lib/content';
 import {learningHubs,hubPath,guidesForHub,latestContentModified,readingLabel} from '../lib/article-presentation';
-const families=[...new Set(published.map(g=>g.family))];
-const documentedCases=published.filter(g=>g.family==='case'&&g.scenarioType==='real');
-const learningTopics=learningHubs.filter(hub=>hub.kind==='topic');
+const families=[...new Set(published.map(guide=>guide.family))];
+const documentedCases=published.filter(guide=>guide.family==='case'&&guide.scenarioType==='real');
+const subjects=learningHubs.filter(hub=>hub.kind==='topic');
 const collections=learningHubs.filter(hub=>hub.kind==='family');
 const familyLabels=new Map(collections.map(hub=>[hub.slug,hub.label]));
 const breadcrumbs=[{name:'Home',path:'/'},{name:'Field guides',path:'/guides/'}];
+const decisions=[
+  {question:'Is this a franchise or a licence?',path:'/us-expansion/franchising-vs-licensing/'},
+  {question:'Can a hired manager run it?',path:'/fdd/item-15/'},
+  {question:'Will the unit cover its costs?',path:'/tools/us-unit-economics/'},
+  {question:'How much cash will we need?',path:'/tools/cash-runway/'},
+  {question:'What do the earnings figures leave out?',path:'/fdd/item-19/'},
+  {question:'What must happen before launch?',path:'/tools/launch-planner/'},
+];
 ---
-<Base title="Field guides for expanding an established business to the U.S." breadcrumbs={breadcrumbs} contentModifiedAt={latestContentModified(published)}><section class="container"><div class="page-intro"><span class="eyebrow">THE REFERENCE DESK</span><h1>Understand the decision.<br/>Prepare the next step.</h1><p class="lede">Research for the team taking an existing business model to the United States. Each published guide has its own sources, preparation task and coverage limits.</p><p class="meta">{published.length} published guides · Each guide states its own scope and remaining questions.</p><nav class="library-entry-links" aria-label="Browse or search"><a href="#choose-question">Choose a subject</a><a href="#all-guides-heading">Search all guides</a></nav></div><section class="guide-pathways" aria-labelledby="choose-question"><h2 id="choose-question">Start with your question</h2><p>Choose a subject to see a focused set of guides, or browse the collections below.</p><ul class="learning-path-grid">{learningTopics.map(hub=><li><a href={hubPath(hub)}><strong>{hub.label}</strong><span>{hub.description}</span><small>{guidesForHub(hub,published).length} guides</small></a></li>)}</ul><nav class="guide-collections" aria-label="Guide collections"><h3>Browse a collection</h3><ul>{collections.map(hub=><li><a href={hubPath(hub)}>{hub.label}<span class="meta"> {guidesForHub(hub,published).length}</span></a></li>)}</ul></nav></section><section class="all-guides" aria-labelledby="all-guides-heading"><h2 id="all-guides-heading">All field guides</h2><label class="search-field"> <span class="visually-hidden">Search guides</span><input id="guide-search" type="search" placeholder="Search a question, industry or jurisdiction…"/></label><ul class="filter-list" aria-label="Guide families"><li><button data-family="all" aria-pressed="true">All guides</button></li><li><button data-family="documented-case" aria-pressed="false">Documented cases ({documentedCases.length})</button></li>{families.map(f=><li><button data-family={f} aria-pressed="false">{familyLabels.get(f)??f.replaceAll('-',' ')}</button></li>)}</ul><div class="library-list">{published.map(g=><a class="library-row guide-entry" href={g.path} data-family={g.family} data-case-type={g.scenarioType} data-text={[g.title,g.seoTitle,g.description,...g.jurisdictions,...(g.keyTerms??[]).map((entry:any)=>entry.term)].join(' ').toLowerCase()}><span class="category">{g.scenarioType==='real'?'Documented case':g.scenarioType==='fictional'?'Fictional scenario':familyLabels.get(g.family)??g.family?.replaceAll('-',' ')}</span><div><h3>{g.title}</h3><p>{g.description}</p><span class="meta">AI-assisted source review: {g.lastReviewed??'date not recorded'} · {readingLabel(g)}</span></div><span class="arrow" aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a>)}</div><p id="no-results" class="empty" hidden>No published guide matches this search. Check the coverage register for work still in research.</p></section></section></Base>
-<script>let family='all';const input=document.querySelector<HTMLInputElement>('#guide-search');function filter(){let count=0;document.querySelectorAll<HTMLElement>('.guide-entry').forEach(e=>{const show=(family==='all'||(family==='documented-case'?e.dataset.caseType==='real':e.dataset.family===family))&&(e.dataset.text??'').includes(input?.value.toLowerCase()??'');e.hidden=!show;if(show)count++});document.querySelector<HTMLElement>('#no-results')!.hidden=count>0;}input?.addEventListener('input',filter);document.querySelectorAll<HTMLButtonElement>('[data-family][aria-pressed]').forEach(b=>b.addEventListener('click',()=>{family=b.dataset.family!;document.querySelectorAll('[data-family][aria-pressed]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));filter()}));</script>
+<Base title="U.S. expansion questions for business owners" breadcrumbs={breadcrumbs} contentModifiedAt={latestContentModified(published)}>
+  <section class="container owner-library">
+    <header class="page-intro"><span class="eyebrow">FIELD GUIDES</span><h1>What do you need to decide?</h1><p class="lede">Search by question, business activity, state, city or home country.</p></header>
+    <label class="search-field"><span class="visually-hidden">Search guides</span><input id="guide-search" type="search" placeholder="Search the guides…"/></label>
+    <nav class="owner-decision-links" aria-label="Common owner questions"><ul>{decisions.map(decision=><li><a href={decision.path}>{decision.question}</a></li>)}</ul></nav>
+    <section class="all-guides" aria-labelledby="all-guides-heading">
+      <h2 id="all-guides-heading">Find a guide</h2>
+      <ul class="filter-list" aria-label="Guide families"><li><button data-family="all" aria-pressed="true">All guides</button></li><li><button data-family="documented-case" aria-pressed="false">Documented cases ({documentedCases.length})</button></li>{families.map(family=><li><button data-family={family} aria-pressed="false">{familyLabels.get(family)??family.replaceAll('-',' ')}</button></li>)}</ul>
+      <div class="library-list">{published.map(guide=><a class="library-row guide-entry" href={guide.path} data-family={guide.family} data-case-type={guide.scenarioType} data-text={[guide.title,guide.seoTitle,guide.description,...guide.jurisdictions,...(guide.keyTerms??[]).map((entry:any)=>entry.term)].join(' ').toLowerCase()}><span class="category">{guide.scenarioType==='real'?'Documented case':guide.scenarioType==='fictional'?'Fictional scenario':familyLabels.get(guide.family)??guide.family?.replaceAll('-',' ')}</span><div><h3>{guide.title}</h3><span class="meta">Source review: {guide.lastReviewed??'date not recorded'} · {readingLabel(guide)}</span></div><span class="arrow" aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a>)}</div>
+      <p id="no-results" class="empty" hidden>No guide matches this search. <a href="/coverage/">See what remains unresearched.</a></p>
+    </section>
+    <details class="guide-collections owner-collections" id="browse-collections"><summary>Browse by subject or collection</summary><div><h3>Subjects</h3><ul>{subjects.map(hub=><li><a href={hubPath(hub)}>{hub.label}<span class="meta"> {guidesForHub(hub,published).length}</span></a></li>)}</ul><h3>Collections</h3><ul>{collections.map(hub=><li><a href={hubPath(hub)}>{hub.label}<span class="meta"> {guidesForHub(hub,published).length}</span></a></li>)}</ul></div></details>
+  </section>
+</Base>
+<script>
+let family='all';
+const input=document.querySelector<HTMLInputElement>('#guide-search');
+function filter(){let count=0;document.querySelectorAll<HTMLElement>('.guide-entry').forEach(entry=>{const show=(family==='all'||(family==='documented-case'?entry.dataset.caseType==='real':entry.dataset.family===family))&&(entry.dataset.text??'').includes(input?.value.toLowerCase()??'');entry.hidden=!show;if(show)count++});document.querySelector<HTMLElement>('#no-results')!.hidden=count>0;}
+input?.addEventListener('input',filter);
+document.querySelectorAll<HTMLButtonElement>('[data-family][aria-pressed]').forEach(button=>button.addEventListener('click',()=>{family=button.dataset.family!;document.querySelectorAll('[data-family][aria-pressed]').forEach(item=>item.setAttribute('aria-pressed',String(item===button)));filter()}));
+</script>

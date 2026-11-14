@@ -1,10 +1,15 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {mkdtemp,mkdir,writeFile,rm} from 'node:fs/promises';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
 import {
   articleBreadcrumbs, breadcrumbSchema, guidesForHub, hubPath, isReferenceGuide,
   latestContentModified, learningHubForGuide, learningHubs, pageSchema,
   publicSitemapEntries, readingLabel, recordedModifiedAt, relatedReading,
-  searchTitle, semanticSectionIds, serializeStructuredData,
+  searchTitle, semanticSectionIds, sectionAnchorIssues, serializeStructuredData,
   type ArticleGuide,
 } from '../src/lib/article-presentation';
 
@@ -84,6 +89,29 @@ test('inserting a section preserves original numbered meanings through explicit 
   assert.notEqual(reserved[0].id,'section-7');
 });
 
+test('a replacement section can retain several old semantic and numeric fragments without old headings', () => {
+  const entries=semanticSectionIds([
+    {id:'owner-role',heading:'Can a manager do the work?',aliases:['section-0','section-2','what-item-15-means-in-practice','owner-role']},
+    {id:'remaining-duty',heading:'What still applies?',aliases:['section-3','how-your-team-can-use-this-information']},
+    {id:'new-explanation',heading:'A new short example',aliases:[]},
+  ]);
+  assert.deepEqual(entries[0].aliases,['section-0','section-2','what-item-15-means-in-practice']);
+  assert.deepEqual(entries[1].aliases,['section-3','how-your-team-can-use-this-information']);
+  assert.deepEqual(entries[2].aliases,[]);
+  const ids=entries.flatMap(entry=>[entry.id,...entry.aliases]);
+  assert.equal(new Set(ids).size,ids.length);
+  assert.deepEqual(sectionAnchorIssues(entries.map(entry=>entry.section)),[]);
+});
+
+test('fragment validation rejects cross-section and fixed-page collisions but allows its own old ID', () => {
+  assert.deepEqual(sectionAnchorIssues([{id:'answer',heading:'Answer',aliases:['answer','section-0']}]),[]);
+  assert.ok(sectionAnchorIssues([{id:'a',heading:'A',aliases:['old']},{id:'old',heading:'B',aliases:[]}]).some(issue=>issue.includes('already belongs')));
+  assert.ok(sectionAnchorIssues([{heading:'A',aliases:['sources']}]).some(issue=>issue.includes('reserved')));
+  assert.ok(sectionAnchorIssues([{heading:'A',aliases:['old','old']}]).some(issue=>issue.includes('duplicate')));
+  assert.ok(sectionAnchorIssues([{heading:'A',aliases:['not a fragment']}]).some(issue=>issue.includes('valid fragment')));
+  assert.deepEqual(semanticSectionIds([{heading:'Fresh',aliases:[]},{heading:'Also fresh'}]).map(entry=>entry.aliases),[[],[]]);
+});
+
 test('curated reading preserves order, includes known tools and does not pad or accept unrecognised destinations', () => {
   const a = makeGuide('a');
   const b = makeGuide('b');
@@ -93,6 +121,10 @@ test('curated reading preserves order, includes known tools and does not pad or 
   assert.deepEqual(result.map(item => item.path),[b.path,'/tools/cash-runway/']);
   assert.deepEqual(result.map(item => item.kind),['guide','tool']);
   assert.deepEqual(relatedReading({...a,relatedPaths:[]},[a,b]),[]);
+  const more=[b,...['c','d','e','f'].map(id=>makeGuide(id))];
+  const curated={...a,relatedPaths:more.map(guide=>guide.path)};
+  assert.equal(relatedReading(curated,[a,...more]).length,2);
+  assert.equal(relatedReading(curated,[a,...more],[],99).length,3);
 });
 
 test('fallback reading is deterministic, scores actual shared subjects and never relies on file order', () => {
@@ -148,4 +180,57 @@ test('reference labels retain ordinary reading times and recognise table-based r
   assert.equal(isReferenceGuide(reference),true);
   assert.equal(readingLabel(reference),'Reference guide');
   assert.equal(readingLabel({sections:[table],readMinutes:5}),'5 min read');
+});
+
+test('the data validator permits concise answers and optional terms/links while rejecting broken sources and aliases', async () => {
+  const directory=await mkdtemp(join(tmpdir(),'eln-presentation-fixture-'));
+  const data=join(directory,'src','data');
+  await mkdir(data,{recursive:true});
+  const guide:any={id:'fixture-guide',path:'/us-expansion/fixture/',status:'published',title:'Test-only answer',
+    description:'A test fixture, never published.',family:'decision',topic:'commercial-feasibility',
+    practicalOutput:'Check the actual term.',reviewStatus:'Test fixture',learningSummary:'A short test-only answer.',
+    lastReviewed:'2026-11-12',sourceIds:['fixture-source'],ruleIds:[],sections:[],relatedPaths:[],
+    limitations:['This is a test fixture.'],nextStage:1};
+  const source={id:'fixture-source',url:'https://example.invalid/fixture/',title:'Test-only source',
+    authority:'Test fixture',type:'fixture',substantiveVerifiedAt:'2026-11-12'};
+  const script=fileURLToPath(new URL('../scripts/validate-data.mjs',import.meta.url));
+  const run=async()=>{
+    await writeFile(join(data,'fixture-guides.json'),JSON.stringify([guide]));
+    return spawnSync(process.execPath,[script],{cwd:directory,encoding:'utf8'});
+  };
+  try{
+    await writeFile(join(data,'fixture-sources.json'),JSON.stringify([source]));
+    let result=await run();
+    assert.equal(result.status,0,result.stdout+result.stderr);
+    guide.keyTerms=[];
+    result=await run();
+    assert.equal(result.status,0,result.stdout+result.stderr);
+    guide.keyTerms=[{term:'One term',meaning:'One test-only explanation.'}];
+    result=await run();
+    assert.equal(result.status,0,result.stdout+result.stderr);
+    guide.keyTerms=Array.from({length:7},(_,index)=>({term:'Term '+index,meaning:'Test explanation.'}));
+    result=await run();
+    assert.equal(result.status,1);
+    assert.match(result.stderr,/zero to six/);
+    delete guide.keyTerms;
+    guide.sections=[{id:'answer',heading:'Answer',paragraphs:['One useful point.'],aliases:['answer','section-0','previous-heading']}];
+    result=await run();
+    assert.equal(result.status,0,result.stdout+result.stderr);
+    guide.sections.push({id:'other',heading:'Other',paragraphs:['Another point.'],aliases:['previous-heading']});
+    result=await run();
+    assert.equal(result.status,1);
+    assert.match(result.stderr,/already belongs/);
+    guide.sections.pop();
+    guide.sections[0].sourceIds=['missing-source'];
+    result=await run();
+    assert.equal(result.status,1);
+    assert.match(result.stderr,/section source not found/);
+    delete guide.sections[0].sourceIds;
+    guide.relatedPaths=['/missing-guide/'];
+    result=await run();
+    assert.equal(result.status,1);
+    assert.match(result.stderr,/zero to five distinct published guides\/tools/);
+  }finally{
+    await rm(directory,{recursive:true,force:true});
+  }
 });

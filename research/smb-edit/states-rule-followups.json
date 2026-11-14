@@ -1,0 +1,58 @@
+[
+  {
+    "guideId": "b2-east-guide-florida",
+    "ruleId": "b2-east-fl-annual-notice",
+    "file": "src/data/batch2-east-rules.json",
+    "fields": {
+      "fee": "$100 nonrefundable annual filing fee in the incorporated FDACS-10500 application.",
+      "interpretationLimits": [
+        "The incorporated FDACS-10500 application states a $100 nonrefundable annual filing fee, rather than only the statute’s $100 ceiling. The current signed-in portal workflow and filing acceptance were not inspected.",
+        "Exemption applicability is not a website clearance or approval of earnings claims."
+      ],
+      "sourceIds": [
+        "b2-east-fl-statute",
+        "b2-east-fl-agency",
+        "smb-state-fl-form-10500",
+        "smb-state-fl-rule-reference"
+      ]
+    },
+    "reason": "The old first limit says the actual fee was not established. The current official FAC reference index and its complete modified January 2023 application now establish the $100 nonrefundable annual amount. Keep the qualifying exemption, prior-offer trigger, annual period and uninspected portal/acceptance limits; status and verifiedAt are unchanged."
+  },
+  {
+    "guideId": "b2-east-guide-colorado",
+    "ruleId": "b2-east-co-worker-covenants",
+    "file": "src/data/batch2-east-rules.json",
+    "fields": {
+      "interpretationLimits": [
+        "The 2026 PAY CALC Order lists $130,014 annually for highly compensated employees. Section 8-2-113 defines the covenant threshold using the greater of the Division’s August 10, 2022 amount or the amount at execution; the compensation condition must hold when entered and enforced. Trade-secret purpose, reasonable scope, the stated healthcare exclusions and the selected exception’s other conditions remain necessary. The customer-nonsolicitation branch uses sixty percent of that threshold with its own conditions; this is not a universal amount for older or future covenants.",
+        "Do not assume the worker statute decides enforceability of every franchise agreement or owner covenant."
+      ],
+      "sourceIds": [
+        "b2-east-co-2026labor",
+        "b2-east-co-downloads",
+        "smb-state-co-paycalc-2026"
+      ]
+    },
+    "reason": "Replace only the false no-current-dollar hold with the official 2026 figure and the already reviewed statutory timing/scope qualifications. The current 2026 statute and five-page PAY CALC Order were actually read. Do not treat the salary figure as a complete covenant test or change conditional status/verifiedAt."
+  },
+  {
+    "guideId": "b2-west-a-new-jersey",
+    "ruleId": "b2-west-a-nj-b2b-scope",
+    "file": "src/data/batch2-west-rules.json",
+    "fields": {
+      "exceptions": "This is not a finding that any office, warehouse or branded distributorship qualifies. The actual written arrangement, licensed-brand/community-of-interest facts and applicable sections 4 and 8 conditions still have to be established.",
+      "interpretationLimits": [
+        "The currently served official text of 56:10-3, 56:10-4 and 56:10-8 was read. This does not certify every other Act provision, specialized industry rule or later judicial outcome.",
+        "Section 4(a)’s combined application criteria, section 4(b)’s separate new-motor-vehicle route and section 8’s prior-grant, renewal and amendment rules require application to the actual facts. The cited 2025 opinion tested pleaded allegations rather than final factual findings."
+      ],
+      "sourceIds": [
+        "b2-west-a-nj-amendment",
+        "b2-west-a-nj-otg",
+        "smb-state-nj-definition",
+        "smb-state-nj-application",
+        "smb-state-nj-prior-grants"
+      ]
+    },
+    "reason": "The historical LIS 500 and unread-current-criteria holds are superseded for the exact current sections 3, 4 and 8 recovered from the legislature-linked public statute service. Replace those access claims without asserting a full Act/case-law survey or actual eligibility; keep conditional status and verifiedAt."
+  }
+]

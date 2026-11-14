@@ -1,0 +1,1608 @@
+[
+  {
+    "id": "b3-origin3-guide-malta",
+    "path": "/from/malta/",
+    "question": "What do Articles 10/11/12 and Article 20(2) mean for the foreign-service purchase?",
+    "decision": "source-resolved",
+    "evidence": [
+      {
+        "url": "https://legislation.mt/eli/cap/406/eng/pdf",
+        "finalUrl": "https://legislation.mt/eli/cap/406/eng/pdf",
+        "retrievedAt": "2026-11-14T00:39:04.727768+00:00",
+        "status": 200,
+        "contentType": "application/pdf",
+        "sha256": "3c69496e90119c46126e80f55b524a56b54a9a5fee36bb68aa5bc6d143d095ca",
+        "rawPath": "/tmp/eln-origin-source-review/malta-act.pdf",
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "snippet": "shall also be required to register under article 12",
+        "locator": "Article 11(10); Articles 10,12(3),12(3a),20(2)(b),22; Fifth Schedule Part Two item 16; Sixth Schedule Part One",
+        "reviewedScope": "Read complete Articles 10 and 11, complete Article 12, Article 20 including its supplier/fixed-establishment proviso, Article 22 credit structure and Sixth Schedule domestic registration provisions. Canonical PDF includes listed 2026 amendments; no complete VAT survey claimed."
+      }
+    ],
+    "conclusion": "The opaque numbers can now be explained: Article 10 ordinary registration, Article 11 conditional domestic small-enterprise exemption without credit, Article 12 specified cross-border duties including additional registration for Article 11 purchasers. Article 20(2)(b) shifts covered Malta-taxable general business-service liability from a non-established/non-Article-10 supplier to the recipient. Actual transaction classification remains fact-dependent rather than an unresolved legal definition.",
+    "proposedPublicPatch": {
+      "id": "b3-origin3-guide-malta",
+      "path": "/from/malta/",
+      "learningSummary": "Your domestic small-business VAT exemption does not necessarily cover VAT you must account for on foreign software. An Article 11 business can also need Article 12 registration for a covered foreign-service purchase, by the date it receives the service.",
+      "sections": [
+        {
+          "id": "registration-meaning",
+          "heading": "Know what your registration does",
+          "paragraphs": [
+            "Article 10 is the ordinary VAT registration discussed here: VAT applies to taxable supplies taking place in Malta, while recovery of purchase VAT depends on the applicable credit rules. Article 11 is the domestic small-enterprise scheme for eligible Malta-established businesses; its exemption is without input-tax credit. Eligibility and turnover calculation are governed by the Sixth Schedule.",
+            "Article 12 deals with specified cross-border transactions. It can be required alongside Article 11: the Act expressly says an Article 11 business receiving services for which it must pay VAT must also register under Article 12. The domestic sales exemption is therefore not an exemption from every foreign purchase."
+          ],
+          "sourceIds": [
+            "b3-origin3-malta-vat-latest"
+          ]
+        },
+        {
+          "id": "foreign-purchase",
+          "heading": "Check who must account for VAT on the foreign service",
+          "paragraphs": [
+            "For the general business-services case in Article 20(2)(b), a taxable service received in Malta from a supplier not established there and not Article 10-registered can make the Maltese recipient liable for the tax. Establish the actual service, place of supply and supplier status; the provision also addresses a Maltese fixed establishment that does not intervene in the supply.",
+            "If you are a Malta-established taxable person outside Article 10 registration and receive a service for which Article 20(2) makes you liable, Article 12(3) requires registration by the date you receive it. For an Article 11 support business buying covered foreign cloud access, that purchase duty is separate from how its American sale is treated. Article 12 itself does not provide input-tax recovery."
+          ],
+          "sourceIds": [
+            "b3-origin3-malta-vat-latest"
+          ]
+        },
+        {
+          "id": "american-sale",
+          "heading": "For the sale, establish who receives your service",
+          "paragraphs": [
+            "The VAT Act’s Third Schedule item 2(a) generally follows the business customer or the fixed establishment receiving the service, subject to exceptions. MTCA’s American-buyer example accepts sufficient appropriate evidence that the customer purchases for its business even though it has no EU VAT number.",
+            "So the missing EU number does not automatically make your buyer a consumer. Establish its business purpose, the receiving establishment and the kind of service. An American address alone does not answer those questions. In the cloud example, those facts decide the sale analysis; your own status and purchase liability decide the separate registration question."
+          ],
+          "sourceIds": [
+            "b3-origin3-malta-vat-latest",
+            "b3-origin3-malta-services"
+          ]
+        },
+        {
+          "id": "eu-service-branch",
+          "heading": "The other-EU service branch has its own trigger",
+          "paragraphs": [
+            "Article 12(3a) separately concerns a Malta-established taxable person outside Article 10 supplying services in another EU Member State for which the recipient alone pays VAT under Article 196. Registration is due by the date of that supply. An American customer is not that other Member State."
+          ],
+          "sourceIds": [
+            "b3-origin3-malta-vat-latest"
+          ]
+        }
+      ],
+      "practicalOutput": "Identify your actual registration and the foreign service’s place of supply and supplier status before receiving it; complete any required Article 12 registration by that date.",
+      "limitations": [
+        "This explains the specified registration and service-liability rules, not a complete eligibility, turnover, credit, rate, invoice or VAT-return decision. The MTCA service notes remain nonbinding, are not Article 75 instructions and have inconsistent printed dates; the current Act controls. Actual U.S. taxes remain separate."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-origin3-malta-vat-latest",
+        "fields": {
+          "section": "Articles 10,11,12(3)/(3a),20(2)(b),22; Fifth Schedule Part Two item 16 and Sixth Schedule Part One; Third Schedule Part Two item 2(a)",
+          "fetchedAt": "2026-11-14T00:39:04.727768+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:41:42.447406+00:00",
+          "sha256": "3c69496e90119c46126e80f55b524a56b54a9a5fee36bb68aa5bc6d143d095ca",
+          "notes": "Fresh canonical PDF read for the named registration/liability provisions. Article 11(10) expressly requires additional Article 12 registration for covered received services. Article 20(2)(b) supplier non-establishment/non-Article-10 conditions and non-intervening fixed-establishment proviso retained. No full VAT or transaction eligibility ruling; Act includes listed 2026 amendments."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Actual purchaser registration, taxable-service classification, establishment involvement and credits require transaction facts.",
+      "No complete Article 11 eligibility or threshold calculator is added; statutory scheme conditions remain applicable."
+    ],
+    "accessObservations": [
+      {
+        "url": "https://mtca.gov.mt/docs/default-source/documents/business-tax/vat/faqs/registrations-de-registrations-faqs.pdf",
+        "directStatus": 403,
+        "readerStatus": "Official ten-page PDF read through public source reader, cover updated 20 October 2026; corroborates categories and receipt registration. Not used as a fabricated HTTP-byte hash or silently substituted for the Act."
+      }
+    ]
+  },
+  {
+    "id": "b3-o2-poland",
+    "path": "/from/poland/",
+    "question": "Who falls within the 2026 KSeF transition, including relevant foreign-establishment exclusions?",
+    "decision": "source-resolved",
+    "evidence": [
+      {
+        "key": "poland-scope",
+        "url": "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/zakres-obowiazkowego-ksef/",
+        "retrievedAt": "2026-11-14T00:40:02.692471+00:00",
+        "status": 200,
+        "finalUrl": "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/zakres-obowiazkowego-ksef/",
+        "contentType": "text/html; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/poland-scope.html",
+        "sha256": "f968bc07f3dfcbc277023d1279e246d66f61f550a483fefe7c882772fc77515c",
+        "bytes": 127643,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Full scope page: rollout, four exclusion groups, document types and online attachments",
+        "snippet": "1 kwietnia 2026 r. dla pozostałych podatników",
+        "reviewedScope": "Read the complete agency scope body, including PLN200m 2024 gross threshold, PLN10k temporary route, 2026 end date, no Polish seat/FE or nonparticipating FE, B2C and named special-transaction/procedure exclusions. Attachments and ordinary/offline questions remain distinct."
+      }
+    ],
+    "conclusion": "The general applicability answer can now state actual phase dates, the conditional temporary small-invoice route and foreign-establishment exclusions. Actual establishment involvement and special transaction categories are factual applications, not missing phase information.",
+    "proposedPublicPatch": {
+      "id": "b3-o2-poland",
+      "path": "/from/poland/",
+      "learningSummary": "An American buyer need not get a Polish login for the covered ordinary online handoff. The supplier first checks the actual issuer and transaction: Poland’s 2026 phase dates and temporary exceptions do not exempt every invoice to America.",
+      "sections": [
+        {
+          "id": "issuer-scope",
+          "heading": "Check the issuer and the 2026 transition",
+          "paragraphs": [
+            "The Ministry’s scope page starts mandatory issuance on 1 February 2026 for taxpayers whose 2024 sales including VAT exceeded PLN 200 million, and on 1 April 2026 for the others subject to exclusions. Through 31 December 2026, the temporary outside-KSeF route covers the stated paper/electronic invoices where the relevant monthly gross sales do not exceed PLN 10,000; check the applicable counting rules.",
+            "An issuer with neither its business seat nor a fixed establishment in Poland is excluded. A foreign issuer with a Polish fixed establishment is also excluded where that establishment does not participate in the supply. Consumer invoices and specified transaction/procedure categories have other exclusions. An American customer is therefore not, by itself, an exemption for a covered Polish supplier."
+          ],
+          "sourceIds": [
+            "smb-origin-pl-ksef-scope"
+          ]
+        },
+        {
+          "id": "covered-online-invoice",
+          "heading": "Send the customer a readable version of the issued invoice",
+          "paragraphs": [
+            "For the covered ordinary online process, the Ministry FAQ addresses foreign customers outside the EU and without a Polish NIP tax identifier. Issue through KSeF, Poland’s National e-Invoice System, then provide the customer’s copy through an agreed channel. The buyer need not acquire a Polish login merely to pay you.",
+            "The customer version may be in English, but its substance must match the XML, the structured record sent to KSeF. Include the applicable QR code and KSeF reference. Agree how the buyer receives it and retain that delivery record; do not create a second, inconsistent invoice."
+          ],
+          "sourceIds": [
+            "b3-o2-pl-faq"
+          ]
+        },
+        {
+          "id": "service-acceptance",
+          "heading": "Keep delivery evidence separate from the invoice",
+          "paragraphs": [
+            "If an American customer later disputes monthly support, the issued invoice and matching copy identify the bill. They do not establish which support was accepted. Keep acceptance protocols or shipment records separately; the FAQ says they are not simply attachments carried inside KSeF.",
+            "Reconcile payment, currency differences and corrections to the appropriate invoice records. Offline and outage modes have different QR and resubmission conditions, so do not copy this online sequence into those situations."
+          ],
+          "sourceIds": [
+            "b3-o2-pl-faq"
+          ]
+        }
+      ],
+      "limitations": [
+        "The described process is ordinary online issuance, not offline/outage contingencies. The 2026 transition route and exclusions require actual issuer, establishment, transaction and invoice-total facts; no universal VAT, withholding or U.S. tax outcome is supplied."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-pl-ksef-scope",
+          "url": "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/zakres-obowiazkowego-ksef/",
+          "title": "KSeF 2.0: scope of mandatory issuance",
+          "authority": "Polish Ministry of Finance",
+          "type": "official-guidance",
+          "section": "Complete rollout and exclusion explanation",
+          "supportingPassage": "1 kwietnia 2026 r. dla pozostałych podatników",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:40:02.692471+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:45:10.934780+00:00",
+          "sha256": "f968bc07f3dfcbc277023d1279e246d66f61f550a483fefe7c882772fc77515c",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read only for the stated scope; see remaining conditions",
+          "notes": "Full official scope page read in Polish with AI-assisted interpretation. Temporary PLN10k route and 31 December 2026 end retained; no foreign-customer blanket exclusion. Special procedures and simplified-document/self-billing exclusions remain applicable; ordinary online article is not a full invoice-mode manual."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Actual monthly qualifying-invoice total and establishment participation must be determined.",
+      "Other transaction/procedure exclusions and offline modes are not collapsed into the ordinary online explanation."
+    ]
+  },
+  {
+    "id": "b2-origin-philippines",
+    "path": "/from/philippines/",
+    "question": "Can current outward-investment category and bank-document information replace the generic unreviewed-later-circular warning?",
+    "decision": "scope-resolved",
+    "evidence": [
+      {
+        "key": "philippines-investment-faq",
+        "url": "https://www.bsp.gov.ph/Lists/Download%20Section/Attachments/140/Inward_and_Outward_Foreign_Investments_FAQs.pdf",
+        "retrievedAt": "2026-11-14T00:40:02.958170+00:00",
+        "status": 200,
+        "finalUrl": "https://www.bsp.gov.ph/Lists/Download%20Section/Attachments/140/Inward_and_Outward_Foreign_Investments_FAQs.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/philippines-investment-faq.pdf",
+        "sha256": "78bbf808b2ee4d66f202d3473c622588fdfc1551419f61a3c62acd27da0c682e",
+        "bytes": 261558,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "March 2026 FAQ, questions33–35, pages11–12",
+        "snippet": "apply only if the issuer of the investment instrument is a non-resident.",
+        "reviewedScope": "Read full outward-investment questions33–35 and surrounding current cover/footer. Identified March2026 source despite stale search preview. Nonresident issuer/category, AnnexA and Appendix1.4 document route read; the oddly phrased threshold notice interval is not published as a verified clock."
+      },
+      {
+        "key": "philippines-manual",
+        "url": "https://www.bsp.gov.ph/Regulations/MORFXT/MORFXT.pdf",
+        "retrievedAt": "2026-11-14T00:40:03.396524+00:00",
+        "status": 200,
+        "finalUrl": "https://www.bsp.gov.ph/Regulations/MORFXT/MORFXT.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/philippines-manual.pdf",
+        "sha256": "5e3e518c9ff50bd1891ebe257e728c57a51b5262469f3d79174691489775e360",
+        "bytes": 1465920,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Current stable manual cover and cited receipt/investment sections",
+        "snippet": "Updated as of May 2025",
+        "reviewedScope": "Fresh download is byte-identical to retained May2025 consolidation. Later March2026 FAQ is added for named outward-investment questions; no exhaustive later-circular survey claimed."
+      }
+    ],
+    "conclusion": "Current primary agency guidance supports a materially useful narrow category/document answer. The publication promise is scoped to that answer rather than falsely claiming every subsequent circular or bank-specific requirement has been cleared.",
+    "proposedPublicPatch": {
+      "id": "b2-origin-philippines",
+      "path": "/from/philippines/",
+      "sections": [
+        {
+          "id": "two-money-flows",
+          "heading": "Explain the payment before asking what documents to provide",
+          "paragraphs": [
+            "The reviewed BSP manual has different provisions for foreign receipts and outward investment. A support or intellectual-property payment is a receipt question. Subscribing for equity in a U.S. company is an outward-investment question.",
+            "For a support fee, identify the invoice purpose, gross amount, possible withholding and collection date. For the outward investment, identify the investor, instrument issuer, beneficiary and whether currency is already held or will be purchased from a bank. The BSP’s March 2026 FAQ says sections 43–44 apply to instruments issued by non-residents; an offshore instrument issued by another resident has a different resident-to-resident FX route.",
+            "The manual describes receipt options and separately deals with investment currency sources, beneficiaries and documents. It does not establish either a universal requirement to bring all receipts home or an approval exemption for every outward transfer."
+          ],
+          "sourceIds": [
+            "b2-origins-philippines-bsp",
+            "smb-origin-ph-investment-faq"
+          ]
+        },
+        {
+          "id": "current-bank-requirements",
+          "heading": "For bank-purchased investment currency, bring the stated documents",
+          "paragraphs": [
+            "The March 2026 FAQ describes covered instruments issued offshore by non-residents, excluding offshore foreign-currency deposit accounts, or issued onshore by non-residents requiring foreign-currency settlement, subject to Philippine law. It includes real-property purchases among the examples.",
+            "For the covered purchase of foreign currency, it calls for the Application to Purchase FX, Annex A, and Appendix 1.4 documents evidencing the outward investment in the resident investor’s name. Confirm the actual bank requirements and currency route before transferring. Bank acceptance does not decide withholding or treaty entitlement."
+          ],
+          "sourceIds": [
+            "smb-origin-ph-investment-faq",
+            "b2-origins-philippines-bsp"
+          ]
+        },
+        {
+          "id": "other-philippine-resources",
+          "heading": "Use trade contacts and treaty listings for their own purposes",
+          "paragraphs": [
+            "DTI’s Tradeline offers trade information, buyer/supplier resources and business matching, not verification of an operator’s funding or capability. The Philippines appears in the reviewed IRS income-tax index and State Department E-1/E-2 table. Neither listing approves an actual tax claim or person’s U.S. work. The founder can prepare the plan without relocating."
+          ],
+          "sourceIds": [
+            "b2-origins-philippines-tradeline",
+            "b2-origins-irs-treaties",
+            "geo-treaty-countries"
+          ]
+        }
+      ],
+      "limitations": [
+        "The stable manual remains labelled May 2025; the March 2026 FAQ was additionally read for these outward-investment categories and documents. This is not an exhaustive later-circular survey or a decision on actual bank conditions, tax entitlement or U.S. permissions."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-ph-investment-faq",
+          "url": "https://www.bsp.gov.ph/Lists/Download%20Section/Attachments/140/Inward_and_Outward_Foreign_Investments_FAQs.pdf",
+          "title": "BSP Inward Foreign and Outward Investments FAQs, March 2026",
+          "authority": "Bangko Sentral ng Pilipinas",
+          "type": "official-guidance",
+          "section": "Questions33–35; actual nonresident issuer, instruments and bank-purchase documents",
+          "supportingPassage": "apply only if the issuer of the investment instrument is a non-resident.",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:40:02.958170+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:45:10.934780+00:00",
+          "sha256": "78bbf808b2ee4d66f202d3473c622588fdfc1551419f61a3c62acd27da0c682e",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read only for the stated scope; see remaining conditions",
+          "notes": "Read the actual March2026 FAQ body, not the December2025 search preview. Covered outward purchases call for AnnexA plus Appendix1.4 evidence in resident investor’s name. No USD60m notice clock is quoted: question34 uses unusual at-least15-banking-days-after wording requiring separate reconciliation before publication."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "The actual category, currency source, investor and bank documents depend on transaction facts.",
+      "Do not add the USD60m threshold notification clock without reconciling the FAQ wording to current operative instruments."
+    ]
+  },
+  {
+    "id": "b3-o2-latvia",
+    "path": "/from/latvia/",
+    "question": "What export documents does the current Cabinet rule identify, and what does the six-month advance rule actually do?",
+    "decision": "source-resolved",
+    "evidence": [
+      {
+        "key": "latvia-reg17",
+        "url": "https://likumi.lv/ta/id/254172",
+        "retrievedAt": "2026-11-14T00:40:02.692955+00:00",
+        "status": 200,
+        "finalUrl": "https://likumi.lv/ta/id/254172",
+        "contentType": "text/html; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/latvia-reg17.html",
+        "sha256": "387364da0eac76f780c0df99959bef8207de4757c2386ab39b5d8a4eabd7cb7a",
+        "bytes": 854832,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Cabinet Regulation17, paragraphs15–19, including distinct16.1–16.3 categories and ordinary commercial versus Ukraine-donation scope",
+        "snippet": "Par eksportu apliecinošiem dokumentiem uzskata preču izvešanas muitas deklarāciju",
+        "reviewedScope": "Read complete paragraphs 15–19, distinguishing the customs declaration, combination of at least two listed documents, document-name/proof qualification and supplementary evidence. The Ukraine-donation special case is outside the U.S. commercial scenario."
+      },
+      {
+        "key": "latvia-law",
+        "url": "https://likumi.lv/ta/id/253451-pievienotas-vertibas-nodokla-likums",
+        "retrievedAt": "2026-11-14T00:40:02.693465+00:00",
+        "status": 200,
+        "finalUrl": "https://likumi.lv/ta/id/253451-pievienotas-vertibas-nodokla-likums",
+        "contentType": "text/html; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/latvia-law.html",
+        "sha256": "b12d0922ead246822fc46b38caa2837679957f240ff9ab50a4797ea832a17bdc",
+        "bytes": 835638,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "VAT Law sections43(1),51(1)–(5),124(2)",
+        "snippet": "Nodokļa 0 procentu likmi nepiemēro",
+        "reviewedScope": "Read complete relevant restriction provisions, advance invoice condition, six-month trigger, both51(5) qualifications and following-period tax-return rule124(2)."
+      }
+    ],
+    "conclusion": "The previously missing ordinary goods-export evidence route and the advance consequence are sourced. Shipment-specific customs proof and transaction facts remain conditions, not an unexamined list gap.",
+    "proposedPublicPatch": {
+      "id": "b3-o2-latvia",
+      "path": "/from/latvia/",
+      "title": "What proves a Latvian goods export, and what if an advance remains unfulfilled?",
+      "seoTitle": "Latvian export VAT: customs proof and six-month advance rule",
+      "description": "Use the stated export evidence and read the six-month advance consequence with its manufacturing/start qualifications.",
+      "learningSummary": "For a Latvian goods export, the American invoice and payment are not the full proof. The current Cabinet rule identifies export documents; the VAT Law also denies the zero rate for specified unfulfilled advances after six months, subject to express qualifications.",
+      "sections": [
+        {
+          "id": "export-proof",
+          "heading": "Obtain the export declaration and support the actual exit",
+          "paragraphs": [
+            "Section 43(1) applies a zero rate to goods exports, but section 51 denies it without the required proof. Cabinet Regulation 17 paragraph 15 identifies the export customs declaration drawn up under customs rules as an export-evidencing document.",
+            "To establish that goods actually left, paragraph 16 permits Customs to receive a combination of at least two of the following documents: international freight documents or copies, contracts with recipients in third countries or territories, and documents proving payment for the export. This does not mean that any two papers automatically grant the VAT rate.",
+            "Paragraph 17 normally places the documents in the exporting registered taxpayer’s name. They may also be in the forwarder’s, exporter’s or representative’s name where the export fact can be proved. Paragraph 19 permits other unequivocal documents alongside the stated records. Connect those documents to the actual goods and movement, rather than rely on the American invoice address."
+          ],
+          "sourceIds": [
+            "b3-o2-lv-law-current",
+            "smb-origin-lv-reg17"
+          ]
+        },
+        {
+          "id": "advance-condition",
+          "heading": "If dispatch has not started after six months, check the tax consequence",
+          "paragraphs": [
+            "For the covered advance-request VAT invoice, section 51(4) denies the zero rate if goods have not been dispatched or services have not started within six months from receipt of the advance. Section 51(5) excludes specified contract-based goods whose technological manufacturing process exceeds six months, and supplies/services already started when the advance was received.",
+            "Section 124(2) places tax calculated under that advance rule in the tax period following the six-month period counted from advance receipt. Establish the actual dates and whether a qualification applies; the goods-export answer does not automatically apply to ordinary training or support fees."
+          ],
+          "sourceIds": [
+            "b3-o2-lv-law-current"
+          ]
+        },
+        {
+          "id": "latvian-source-version",
+          "heading": "Use the Latvian text rather than the outdated English version",
+          "paragraphs": [
+            "The English translation ends its validity in 2024 and omits later amendments. The current Latvian statute and the named Cabinet provisions were read with AI-assisted English interpretation for this explanation."
+          ],
+          "sourceIds": [
+            "b3-o2-lv-law-current",
+            "b3-o2-lv-law",
+            "smb-origin-lv-reg17"
+          ]
+        }
+      ],
+      "practicalOutput": "Obtain the applicable export proof and check actual advance/dispatch dates and qualifications before making the VAT entry.",
+      "limitations": [
+        "This concerns ordinary commercial export evidence and the specified advance rule, not every zero-rated service, special shipment or U.S. import. Actual customs acceptance, tax amount and period facts still need confirmation."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-lv-reg17",
+          "url": "https://likumi.lv/ta/id/254172",
+          "title": "Cabinet Regulation17: VAT implementation and export evidence",
+          "authority": "Latvian Cabinet of Ministers / official Likumi.lv",
+          "type": "regulation",
+          "section": "Paragraphs15–19, especially export declaration, supporting combination and document names",
+          "supportingPassage": "Par eksportu apliecinošiem dokumentiem uzskata preču izvešanas muitas deklarāciju",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:40:02.692955+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:45:10.934780+00:00",
+          "sha256": "387364da0eac76f780c0df99959bef8207de4757c2386ab39b5d8a4eabd7cb7a",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read only for the stated scope; see remaining conditions",
+          "notes": "Current official body read in Latvian with AI-assisted interpretation. Distinguish ordinary commercial export15–17/19 from export-related transport18 and special Ukraine donation16.1. No automatic VAT acceptance is inferred from any two documents."
+        }
+      },
+      {
+        "id": "b3-o2-lv-law-current",
+        "fields": {
+          "section": "Sections43(1),51(1)–(5),124(2): export proof, zero-rate denial for covered advances and following-period reporting",
+          "fetchedAt": "2026-11-14T00:40:02.693465+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:45:10.934780+00:00",
+          "sha256": "b12d0922ead246822fc46b38caa2837679957f240ff9ab50a4797ea832a17bdc",
+          "notes": "Fresh relevant current Latvian provisions read. Section51(4) denies zero rate for its specified advance-request VAT invoice if no dispatch/start within six months;51(5) long-manufacturing/already-started qualifications and124(2) period following that six-month period retained. Cabinet Regulation17 evidence provisions separately reviewed."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Actual goods, recipient, export movement and accepted evidence must be established.",
+      "Do not apply the U.S. commercial scenario to the Ukraine-donation exception or all other zero-rated services."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-cyprus",
+    "path": "/from/cyprus/",
+    "question": "Does the Cyprus first condition mean an existing international mark, and what basic-mark/nexus rule governs the office of origin?",
+    "decision": "source-resolved",
+    "evidence": [
+      {
+        "key": "cyprus-before",
+        "url": "https://www.intellectualproperty.gov.cy/en/intellectual-property-rights/trademark/1-lifecycle/1-registering-a-trademark/1-guidance/registering-an-international-trademark-madrid-system/6-before-filing",
+        "retrievedAt": "2026-11-14T00:42:26.359875+00:00",
+        "status": 200,
+        "finalUrl": "https://www.intellectualproperty.gov.cy/en/intellectual-property-rights/trademark/1-lifecycle/1-registering-a-trademark/1-guidance/registering-an-international-trademark-madrid-system/6-before-filing",
+        "contentType": "text/html; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/cyprus-before.html",
+        "sha256": "1683f0179b7cd21bb202ef67115f64181354e8e5cc0df5149c147fe919c94aed",
+        "bytes": 150367,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Before-filing body: first basic-mark wording and three applicant connections",
+        "snippet": "a legal person, established in the Republic of Cyprus;",
+        "reviewedScope": "Read actual page and its national-trademark link. First condition is imprecisely worded; not treated as a rule requiring an already international registration."
+      },
+      {
+        "key": "wipo-mm-notes",
+        "url": "https://www.wipo.int/documents/d/madrid-system/docs-en-notes_for_filing_mm_forms.pdf",
+        "retrievedAt": "2026-11-14T00:46:55.747040+00:00",
+        "status": 200,
+        "finalUrl": "https://www.wipo.int/documents/d/madrid-system/docs-en-notes_for_filing_mm_forms.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/wipo-mm-notes.pdf",
+        "sha256": "88f768e1654dfea518155640dc8cdcdf5170c7cd8a171dd771b65d1f54ff1653",
+        "bytes": 6316843,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "MM2 filing notes items1,3 and5, especially office of origin, entitlement and basic application/registration",
+        "snippet": "the mark that has been applied for, or registered with, the Office of origin.",
+        "reviewedScope": "Read complete named items, including domestic-law proof, each joint applicant entitlement, and same-name/same-office basis for multiple basic records. No jurisdiction-specific disputed applicant fact is decided."
+      }
+    ],
+    "conclusion": "WIPO resolves the basic-mark ambiguity: the underlying record is at the office of origin, with qualifying nexus there. Cyprus’s domestic connection list is retained, while actual proof/eligibility is a factual application rather than an unanswered meaning of basic mark.",
+    "proposedPublicPatch": {
+      "id": "b3-origin3-guide-cyprus",
+      "path": "/from/cyprus/",
+      "learningSummary": "MM18 is the American intention-to-use declaration within an international filing. First establish the basic home application or registration and the applicant’s entitlement through the office of origin; then review the signer’s actual statements. Neither step itself grants U.S. protection.",
+      "sections": [
+        {
+          "id": "cyprus-route",
+          "heading": "Establish the applicant and described filing route",
+          "paragraphs": [
+            "WIPO’s filing notes define the office of origin as the office where your basic mark is applied for or registered and through which the international application is submitted. The basic mark is the home application or registration—not an international registration you must already possess.",
+            "You also need entitlement through the relevant nationality, domicile or real and effective industrial/commercial establishment connection. The office of origin may require proof under its domestic law and practice. Cyprus’s preparation page lists a Cypriot natural-person national, a legal person established there or a person with an actual active industrial/commercial establishment there. Establish the actual applicant’s connection; a group address alone is not a decision.",
+            "Cyprus describes English MM2 through its Intellectual Property Section, with MM18 for a U.S. designation. Confirm the current submission procedure, basic-mark details and actual applicant. National examination still follows; the international filing is not a granted American right."
+          ],
+          "sourceIds": [
+            "b3-origin3-cyprus-madrid-before",
+            "b3-origin3-cyprus-madrid-apply",
+            "b3-origin3-wipo-mm18",
+            "smb-origin-cy-wipo-basic-mark"
+          ]
+        },
+        {
+          "id": "declaration-facts",
+          "heading": "Review the statements before signing",
+          "paragraphs": [
+            "The March 2026 WIPO MM18 form includes genuine intent to use, authority to execute for the applicant, and statements based on reasonable inquiry with evidentiary support. It requires the prescribed English declaration without alterations and the mandatory signature/execution details.",
+            "If the Cyprus parent owns the basic mark but an American subsidiary will operate, establish the actual applicant and authorised signer, and the facts supporting the statements. The subsidiary’s incorporation does not supply the parent’s declaration facts. Check the sign, goods/services, current fees and examination responsibilities; describe a pending filing accurately in commercial discussions."
+          ],
+          "sourceIds": [
+            "b3-origin3-wipo-mm18",
+            "b3-origin3-cyprus-madrid-apply"
+          ]
+        }
+      ],
+      "limitations": [
+        "No applicant’s nexus, mark ownership, genuine intent or filing is approved. Confirm current office submission requirements, fees and U.S. examination for the actual application; WIPO leaves nationality/domicile/establishment interpretation to the relevant domestic law."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-cy-wipo-basic-mark",
+          "url": "https://www.wipo.int/documents/d/madrid-system/docs-en-notes_for_filing_mm_forms.pdf",
+          "title": "Madrid MM2 filing notes: office of origin, entitlement and basic mark",
+          "authority": "World Intellectual Property Organization",
+          "type": "official-guidance",
+          "section": "Items1,3,5: office of origin, applicant entitlement, basic application/registration",
+          "supportingPassage": "the mark that has been applied for, or registered with, the Office of origin.",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:46:55.747040+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:48.294701+00:00",
+          "sha256": "88f768e1654dfea518155640dc8cdcdf5170c7cd8a171dd771b65d1f54ff1653",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for specified scope, not transaction clearance",
+          "notes": "Actual official PDF downloaded and named items read. Used to resolve Cyprus page’s imprecise first condition, not to supersede domestic proof of nexus or declare a particular applicant eligible. Multiple-basic-record same-name/same-office condition and joint applicant entitlement read; not a complete filing manual review."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Actual applicant nexus, basic record, intent and signatory facts still require proof.",
+      "Current local submission mechanics and fees are not supplied as an exhaustive procedure."
+    ]
+  },
+  {
+    "id": "b3-o4-moldova",
+    "path": "/from/moldova/",
+    "question": "What current NBM implementing rules apply to an exempt export-collection account, without wrongly importing authorised-account conditions?",
+    "decision": "source-resolved",
+    "evidence": [
+      {
+        "key": "moldova-regulation-list",
+        "url": "https://www.bnm.md/ro/content/lista-regulamentelor",
+        "retrievedAt": "2026-11-14T00:40:03.984165+00:00",
+        "status": 200,
+        "finalUrl": "https://www.bnm.md/ro/content/lista-regulamentelor",
+        "contentType": "text/html; charset=utf-8",
+        "rawPath": "/tmp/eln-origin-source-review/moldova-regulation-list.html",
+        "sha256": "2a8d7b4ee66463c84a26f5a125306e61661c45231fb3db34298bd72134651e0e",
+        "bytes": 297303,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Official current regulation list, financial-market section",
+        "snippet": "Regulamentul privind conturile rezidenților în străinătate",
+        "reviewedScope": "Official index links Regulation216 with amendments effective1January2026; navigational route, not alone proof of substantive conditions."
+      },
+      {
+        "key": "moldova-resident-accounts-regulation",
+        "url": "https://bnm.md/files/Reg%20216_%20conturi%20rezidenti%20strainatate_HCE%20255-2025_RO.pdf",
+        "retrievedAt": "2026-11-14T00:42:26.357721+00:00",
+        "status": 200,
+        "finalUrl": "https://bnm.md/files/Reg%20216_%20conturi%20rezidenti%20strainatate_HCE%20255-2025_RO.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/moldova-resident-accounts-regulation.pdf",
+        "sha256": "db531345359d61c47f78bdcc643fe28b2883ab023eb00a52852f5a350441949e",
+        "bytes": 328101,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Regulation216 through HCE255/2025: paragraphs2(e),2.1,4,7,9,12,60–65 and ChapterVII heading/67",
+        "snippet": "se efectuează de către rezidenți în conformitate cu scopurile pentru care acestea au fost deschise.",
+        "reviewedScope": "Read general exempt-account purpose and closure provisions, payment-provider exclusion, closing-balance exceptions, and expressly authorised-account reporting scope. Do not transfer ChapterIII authorisation-specific receipt/use/balance conditions or monthly report automatically to exempt export accounts."
+      }
+    ],
+    "conclusion": "The missing current regulation is recovered and its applicable exempt-account rule is purpose-based. The remaining question—whether a particular expense fits the export-only purpose and final-crediting statute—is transaction application, not absence of implementing evidence.",
+    "proposedPublicPatch": {
+      "id": "b3-o4-moldova",
+      "path": "/from/moldova/",
+      "sections": [
+        {
+          "id": "account-holder",
+          "heading": "Start with whose account it will be",
+          "paragraphs": [
+            "Article 13 concerns resident accounts at non-resident banks. Identify the holder, bank legal entity and account type. The Moldovan parent’s own foreign account is a different fact from an account of a separately incorporated American subsidiary, whose residence and rules need separate analysis.",
+            "The general branch requires NBM authorisation subject to listed exceptions. Convenience or a customer’s preference for an American account is not itself an exception."
+          ],
+          "sourceIds": [
+            "b3-o4-md-native-law"
+          ]
+        },
+        {
+          "id": "collection-flow",
+          "heading": "Check the exact purpose and onward payment",
+          "paragraphs": [
+            "The export-collection branch added in 2025 concerns goods and/or services proceeds exclusively for export with final crediting to licensed banks in Moldova. Establish those receipts and the onward flow; do not infer general treasury permission.",
+            "Regulation 216, incorporating Decision 255/2025 effective 1 January 2026, also addresses accounts opened without NBM authorisation. Paragraph 12 requires receipts, retention and use to follow the purpose for which the account was opened. When the purpose is achieved, it requires closure and return of balances under the regulation, with stated exceptions.",
+            "Paragraph 65 has a general closing-balance exception for a payment/transfer that either needs no currency authorisation or has the required authorisation. That does not itself establish that any proposed American expense satisfies the particular export-only collection purpose and statutory final-crediting condition.",
+            "The monthly account report in Chapter VII is expressly for accounts opened under NBM authorisation. Do not copy its reporting route automatically onto an exempt account or infer that no separate tax or other reporting duty exists."
+          ],
+          "sourceIds": [
+            "b3-o4-md-native-law",
+            "b3-o4-md-law",
+            "smb-origin-md-accounts-regulation"
+          ]
+        },
+        {
+          "id": "compulsory-investment-account",
+          "heading": "A different account exception has a different test",
+          "paragraphs": [
+            "The direct-investment or real-estate branch concerns cases where foreign law requires the investor’s own account. A bank offering a useful product does not establish that legal requirement. Do not substitute it for the export-collection conditions."
+          ],
+          "sourceIds": [
+            "b3-o4-md-native-law",
+            "b3-o4-md-law"
+          ]
+        }
+      ],
+      "limitations": [
+        "Romanian law through 327/2025 and Regulation 216 through Decision 255/2025 were read with AI assistance; the latter amendments apply from 1 January 2026. The law’s final-crediting condition remains relevant. Non-bank payment providers/wallets, separate tax reporting and actual account operations need their own assessment."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-md-accounts-regulation",
+          "url": "https://bnm.md/files/Reg%20216_%20conturi%20rezidenti%20strainatate_HCE%20255-2025_RO.pdf",
+          "title": "Regulation216: residents’ foreign accounts through Decision255/2025",
+          "authority": "National Bank of Moldova",
+          "type": "regulation",
+          "section": "Exempt-account purpose/closure rules and distinct authorised-account reporting, paragraphs2(e),2.1,12,60–65,67",
+          "supportingPassage": "se efectuează de către rezidenți în conformitate cu scopurile pentru care acestea au fost deschise.",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:42:26.357721+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:48.294701+00:00",
+          "sha256": "db531345359d61c47f78bdcc643fe28b2883ab023eb00a52852f5a350441949e",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for specified scope, not transaction clearance",
+          "notes": "Official Romanian compilation downloaded, named general/exempt/closure/reporting provisions read; 255/2025 amendments effective1January2026. Do not automatically apply authorisation-specific ChapterIII balance/operation conditions or ChapterVII monthly report to an Article13(5) exempt account. Statutory export-only/final-crediting conditions remain distinct."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Specific expense/treasury use must satisfy the actual legal purpose; no blanket spending permission is inferred.",
+      "Non-bank provider rules and separate tax-account notification/reporting are not cleared."
+    ]
+  },
+  {
+    "id": "b3-o2-luxembourg",
+    "path": "/from/luxembourg/",
+    "question": "Can the recipient/reporting boundary be checked against a newer primary compilation than the January2023 Guichet pages?",
+    "decision": "source-resolved",
+    "evidence": [
+      {
+        "key": "luxembourg-law-2026",
+        "url": "https://pfi.public.lu/dam-assets/pdf/legislation/tva/loi/loi-tva-2026-01-01.pdf",
+        "retrievedAt": "2026-11-14T00:46:55.747712+00:00",
+        "status": 200,
+        "finalUrl": "https://pfi.public.lu/dam-assets/pdf/legislation/tva/loi/loi-tva-2026-01-01.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/luxembourg-law-2026.pdf",
+        "sha256": "165c0b619b71ef27a8c590ba6bcf9a4da8ccf43d56bc7c1e3425d853ec54dfe5",
+        "bytes": 1213741,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Text coordinated at1January2026, Article17(1)(a)–(c), relevant service exceptions; Article64bis(1)–(5)",
+        "snippet": "les personnes identifiées à la TVA dans un autre État membre",
+        "reviewedScope": "Read full named provisions, including taxable customer/receiving establishment, qualifying other-EU service recipient liability and nonexemption, monthly/electronic default and regulation-based quarterly/paper possibilities. No universal deadline inferred from monthly default."
+      }
+    ],
+    "conclusion": "The main country-specific recipient/reporting distinction now has a 2026 statutory compilation behind it. Actual reporting period, exception facts and filing access remain applications; the article no longer needs to frame the whole answer as an unverified January 2023 procedure.",
+    "proposedPublicPatch": {
+      "id": "b3-o2-luxembourg",
+      "path": "/from/luxembourg/",
+      "learningSummary": "Luxembourg’s other-EU recapitulative statement concerns specified qualifying recipients in other EU Member States, not every foreign customer. Identify the actual receiving entity first, then decide its invoice, VAT-return and any additional EU-statement treatment.",
+      "sections": [
+        {
+          "id": "receiving-entity",
+          "heading": "Identify who receives each service",
+          "paragraphs": [
+            "Article 17(1)(b) of the agency’s VAT-law text coordinated at 1 January 2026 puts the general business-customer service at the customer’s business establishment, or the fixed establishment receiving it elsewhere, subject to the service exceptions. Establish the actual buyer acting as a business and receiving office.",
+            "Support sold to an American operating entity and separately to a Belgian group company needs separate recipient assessments. A U.S. headquarters or common rollout budget does not make the receiving entities the same."
+          ],
+          "sourceIds": [
+            "b3-o2-lu-services",
+            "b3-o2-lu-recap",
+            "smb-origin-lu-vat-law-2026"
+          ]
+        },
+        {
+          "id": "reporting-boundary",
+          "heading": "Keep the other-EU statement distinct from the VAT return",
+          "paragraphs": [
+            "Article 64bis(1) requires the relevant Luxembourg VAT-identified person’s statement for identified customers in another Member State, including services not exempt in that destination for which the customer is liable for VAT. That is narrower than all overseas service income.",
+            "An actual U.S. customer is not automatically an other-EU recipient. An American item outside this statement still needs its own invoice and VAT-return analysis. For qualifying other-EU entries, keep the correct country/VAT identifier, value, period and corrections.",
+            "The statute’s default is monthly electronic reporting, with authority for regulations to allow quarterly or other specified arrangements. Check the actual applicable period and authorised filing process; Guichet describes eCDF, not an exemption from the separate VAT return."
+          ],
+          "sourceIds": [
+            "b3-o2-lu-services",
+            "b3-o2-lu-recap",
+            "smb-origin-lu-vat-law-2026"
+          ]
+        }
+      ],
+      "limitations": [
+        "The statutory check uses the official text coordinated at 1 January 2026; Guichet’s described eCDF process pages are dated January 2023. Actual special-service rules, applicable reporting period and current filing access need transaction-specific confirmation. No U.S. tax result is determined."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-lu-vat-law-2026",
+          "url": "https://pfi.public.lu/dam-assets/pdf/legislation/tva/loi/loi-tva-2026-01-01.pdf",
+          "title": "VAT Law: official text coordinated at1January2026",
+          "authority": "Luxembourg Registration Duties, Estates and VAT Authority / official Public Finances portal",
+          "type": "statute",
+          "section": "Article17(1) business/receiving-establishment rule and64bis(1)–(5) recapitulative statements",
+          "supportingPassage": "les personnes identifiées à la TVA dans un autre État membre",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:46:55.747712+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:50:48.294701+00:00",
+          "sha256": "165c0b619b71ef27a8c590ba6bcf9a4da8ccf43d56bc7c1e3425d853ec54dfe5",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for specified scope, not transaction clearance",
+          "notes": "Read the named current-hosted coordinated-law provisions in French with AI-assisted interpretation. Qualifying service recipients must be other-EU VAT-identified, destination not exempt and recipient liable; reporting defaults and regulation-based alternatives kept distinct. Not a complete later-law or VAT survey."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Actual customer status, establishment and service exception facts control the transaction.",
+      "No blanket filing period/deadline or U.S. tax answer is supplied."
+    ]
+  },
+  {
+    "id": "b2-origin-thailand",
+    "path": "/from/thailand/",
+    "question": "What timing and overseas-use categories does current BOT material actually state, beyond the threshold comparison?",
+    "decision": "scope-resolved",
+    "retrievalGapResolved": false,
+    "evidence": [
+      {
+        "key": "thailand-current",
+        "url": "https://www.bot.or.th/th/our-roles/financial-markets/foreign-exchange-regulations/foreign-exchange-laws.html",
+        "retrievedAt": "2026-11-14T00:42:26.358541+00:00",
+        "status": 200,
+        "finalUrl": "https://www.bot.or.th/th/our-roles/financial-markets/foreign-exchange-regulations/foreign-exchange-laws.html",
+        "contentType": "text/html;charset=utf-8",
+        "rawPath": "/tmp/eln-origin-source-review/thailand-current.html",
+        "sha256": "1c9312610a0490a70ee3b81fea34b52c9bb21428ebb6cd96ecf4793b4c8a43da",
+        "bytes": 274447,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Complete2.1 inbound funds and footnote1;2.2.1 payment obligations",
+        "snippet": "ซึ่งต้องไม่เกิน 360 วันนับแต่วันที่ส่งของออกหรือวันที่ทำธุรกรรม",
+        "reviewedScope": "Read actual Thai paragraph: at-leastUSD10m/equivalent, immediate repatriation capped360days from export/transaction, separate sale/deposit360days from acquisition/bringing-in, overseas-pay/offset possibility and all footnote exclusions."
+      },
+      {
+        "key": "thailand-2026",
+        "url": "https://www.bot.or.th/th/news-and-media/news/news-20260120.html",
+        "retrievedAt": "2026-11-14T00:42:26.359393+00:00",
+        "status": 200,
+        "finalUrl": "https://www.bot.or.th/th/news-and-media/news/news-20260120.html",
+        "contentType": "text/html;charset=utf-8",
+        "rawPath": "/tmp/eln-origin-source-review/thailand-2026.html",
+        "sha256": "1b5078a6238154cab4045b2420c2331f57792311351115c3f53d742df338fe12",
+        "bytes": 159334,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Complete20January 2026 statement and linked Gazette documents",
+        "snippet": "เป็น 10 ล้านดอลลาร์สหรัฐฯ ต่อครั้ง",
+        "reviewedScope": "Read threshold increase and19JanuaryGazette-publication statement; actual linked Gazette URLs located, not fabricated."
+      },
+      {
+        "key": "thailand-guideline-2026",
+        "url": "https://www.bot.or.th/content/dam/bot/documents/th/our-roles/financial-markets/foreign-exchange-regulations/FX-Regulation/FX%20regulation%20guideline_29%20Sep%2026.pdf",
+        "retrievedAt": "2026-11-14T00:46:57.491585+00:00",
+        "status": 200,
+        "finalUrl": "https://www.bot.or.th/content/dam/bot/documents/th/our-roles/financial-markets/foreign-exchange-regulations/FX-Regulation/FX%20regulation%20guideline_29%20Sep%2026.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/thailand-guideline-2026.pdf",
+        "sha256": "b19cab1f8c474aa43e32ddd269ff1518498c45a3a022f46338293f755f57688e",
+        "bytes": 800937,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Current-hosted commercial-bank FX practice guideline: purpose, scope and chapter4 inbound bank process",
+        "snippet": "ธพ. อาจเรียกเอกสารหรือสอบถามข้อมูลเพิ่มเติมจาก",
+        "reviewedScope": "Read purpose and relevant inbound-bank requirements; retained bank ability to seek additional facts. No complete FX policy or new document-threshold table claimed."
+      }
+    ],
+    "conclusion": "The owner can be taught the two actual clocks and the specific permitted-use/exclusion branch from official BOT guidance. This resolves the page’s vague timing explanation within an agency-guidance scope, not a complete Gazette-based clearance.",
+    "proposedPublicPatch": {
+      "id": "b2-origin-thailand",
+      "path": "/from/thailand/",
+      "learningSummary": "For a covered foreign receipt, the BOT summary distinguishes bringing money back from later selling or depositing it with a Thai bank. Its stated trigger is at least USD 10 million or equivalent. Eligible overseas expenses have a conditional alternative, not general permission to net any payment.",
+      "sections": [
+        {
+          "id": "threshold",
+          "heading": "Use the Thai threshold, including its boundary",
+          "paragraphs": [
+            "The Bank of Thailand’s 20 January 2026 statement describes an increase from USD 1 million to USD 10 million per transaction. The reviewed Thai summary says at least USD 10 million or equivalent. A receipt exactly at that amount should not be treated as below the trigger.",
+            "The older English summary still displays USD 1 million. It is a disclosed source conflict, not the figure substituted for the reviewed Thai rule. The receipt’s category still matters: amount alone cannot classify it."
+          ],
+          "sourceIds": [
+            "b2-origins-thailand-current",
+            "b2-origins-thailand-2026",
+            "b2-origins-thailand-summary"
+          ]
+        },
+        {
+          "id": "receipt-and-use",
+          "heading": "The summary has two clocks and a conditional overseas-use route",
+          "paragraphs": [
+            "For the receipt covered by section 2.1, the BOT summary says to bring it back immediately, no later than 360 days from the export or transaction date. It separately says to sell or deposit the currency with a commercial bank in Thailand within 360 days from when it is acquired or brought in. These are different starting events; 360 days is not a general invitation to wait.",
+            "The summary permits received foreign currency to pay or offset eligible overseas expense obligations without first bringing it back. Its footnote excludes foreign securities investment and purposes requiring prior BOT permission, including foreign FX/baht trades, related baht derivatives and gold payments without import. It is not unrestricted netting.",
+            "For American support receipts used to pay a trainer, identify the full fee, withholding, separate expense and actual dates, then establish whether the proposed use fits. BOT’s current-hosted bank guideline lets banks ask for further documents or information where appropriate; a customer’s transaction purpose remains important."
+          ],
+          "sourceIds": [
+            "b2-origins-thailand-current",
+            "smb-origin-th-bank-guideline"
+          ]
+        },
+        {
+          "id": "tax-and-work",
+          "heading": "Currency treatment does not decide tax or work permission",
+          "paragraphs": [
+            "Thailand appears in the reviewed IRS income-tax index and E-1/E-2 table. Neither supplies a universal withholding rate, transaction permission or individual eligibility. Thai incorporation does not decide the worker’s treaty nationality; assess an actual American assignment separately."
+          ],
+          "sourceIds": [
+            "b2-origins-irs-treaties",
+            "geo-treaty-countries"
+          ]
+        }
+      ],
+      "practicalOutput": "Establish the receipt category and both actual clock-start dates, then have the bank assess the proposed overseas use.",
+      "limitations": [
+        "The Thai official summary and relevant bank-guideline passages were read with AI assistance. Linked January 2026 Gazette PDFs were blocked to direct retrieval and their reader text was not reliably legible; they are not represented as fully interpreted. Actual category, dates, exclusions and bank documents remain to be applied."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "id": "b2-origins-thailand-current",
+        "fields": {
+          "section": "Section2.1 and footnote1: threshold, distinct360-day clocks, eligible foreign expense use/offset and exclusions",
+          "fetchedAt": "2026-11-14T00:42:26.358541+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:56:27.928799+00:00",
+          "sha256": "1c9312610a0490a70ee3b81fea34b52c9bb21428ebb6cd96ecf4793b4c8a43da",
+          "notes": "Fresh entire relevant Thai inbound-funds paragraph and footnote read with AI-assisted interpretation. Distinct immediate/360-day repatriation and360-day bank sale/deposit starting events retained. Eligible-use branch and foreign-securities/negative-purpose exclusions read. Underlying Gazette PDFs located but not claimed fully read."
+        }
+      },
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-th-bank-guideline",
+          "url": "https://www.bot.or.th/content/dam/bot/documents/th/our-roles/financial-markets/foreign-exchange-regulations/FX-Regulation/FX%20regulation%20guideline_29%20Sep%2026.pdf",
+          "title": "Commercial-bank FX practice guideline, current-hosted September 2026 file",
+          "authority": "Bank of Thailand",
+          "type": "official-guidance",
+          "section": "Purpose, scope and chapter4 inbound FX checks",
+          "supportingPassage": "ธพ. อาจเรียกเอกสารหรือสอบถามข้อมูลเพิ่มเติมจาก",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:46:57.491585+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:56:27.928799+00:00",
+          "sha256": "b19cab1f8c474aa43e32ddd269ff1518498c45a3a022f46338293f755f57688e",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for specified scope; see applicability limits",
+          "notes": "Read relevant bank-process text in Thai with AI assistance. Bank can seek appropriate further information. Filename date is not silently converted into a verified legislative effective date; no complete FX or bank-document inventory claimed."
+        }
+      }
+    ],
+    "accessObservations": [
+      {
+        "key": "thailand-gazette-102609",
+        "url": "https://ratchakitcha.soc.go.th/documents/102609.pdf",
+        "retrievedAt": "2026-11-14T00:46:56.752851+00:00",
+        "status": 403,
+        "finalUrl": "https://ratchakitcha.soc.go.th/documents/102609.pdf",
+        "contentType": "text/plain; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/thailand-gazette-102609.html",
+        "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+        "bytes": 17
+      },
+      {
+        "key": "thailand-gazette-102610",
+        "url": "https://ratchakitcha.soc.go.th/documents/102610.pdf",
+        "retrievedAt": "2026-11-14T00:46:57.080480+00:00",
+        "status": 403,
+        "finalUrl": "https://ratchakitcha.soc.go.th/documents/102610.pdf",
+        "contentType": "text/plain; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/thailand-gazette-102610.html",
+        "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+        "bytes": 17
+      }
+    ],
+    "remainingLimits": [
+      "Formal linked Gazette instruments are not represented as fully interpreted; the public promise is explicitly official-agency guidance.",
+      "Actual fee/trainer-expense purpose, account route and dates are fact-dependent."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-iceland",
+    "path": "/from/iceland/",
+    "question": "Can current Regulation194/1990 be retrieved and the certificate limb actually read?",
+    "decision": "scope-resolved",
+    "retrievalGapResolved": true,
+    "clearsOriginalSourceGap": "Retrieval resolved; statute/regulation application interaction retained for explicit review.",
+    "evidence": [
+      {
+        "key": "iceland-current-law",
+        "url": "https://www.althingi.is/lagas/nuna/1988050.html",
+        "retrievedAt": "2026-11-14T00:52:04.364976+00:00",
+        "status": 200,
+        "finalUrl": "https://www.althingi.is/lagas/nuna/1988050.html",
+        "contentType": "text/html;charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/iceland-current-law.html",
+        "sha256": "1e91658b49cb94558242767d77eb179fd4f08b510c46e94a4d7965fdad64fc97",
+        "bytes": 358129,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Current Article12(1), points2–3 and complete point2 exception list",
+        "snippet": "hvorki hefur heimilisfesti hér á landi né stundar hér atvinnustarfsemi frá fastri starfsstöð",
+        "reviewedScope": "Read current native text: neither Iceland domicile nor business from fixed establishment; vehicle exception is hire delivered to lessee, not all vehicle sales; separate other-recipient route."
+      },
+      {
+        "key": "iceland-regulation-current-pdf",
+        "url": "https://files.reglugerd.is/pdf/0194-1990/current",
+        "retrievedAt": "2026-11-14T00:53:41.857361+00:00",
+        "status": 200,
+        "finalUrl": "https://files.reglugerd.is/pdf/0194-1990/current",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/iceland-regulation-current-pdf.pdf",
+        "sha256": "86994a2d2d01949d97cabe3430680b3bd62b22ca12a07378081248119efecc1c",
+        "bytes": 83846,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Full3-page Regulation194/1990, especially articles1–3 and publication disclaimer",
+        "snippet": "Vottorð þetta gildir í tvö ár frá útgáfudegi",
+        "reviewedScope": "Actual official current file service recovered. Header version9September2022/document8November2026. Read all three pages: alternative wholly-abroad/hypothetical-credit limbs; certificate tied to limb(b), two-year validity, record retention and possible two-year extension; article3 local exceptions. Current statute/regulation interaction not declared settled."
+      }
+    ],
+    "conclusion": "The inaccessible-regulation gap is now replaced with actual current-hosted regulatory text. The remaining interpretive issue is stated honestly: do not infer a universal certificate duty, universal absence, or obsolescence solely from the statute’s broader wording.",
+    "proposedPublicPatch": {
+      "id": "b3-origin3-guide-iceland",
+      "path": "/from/iceland/",
+      "learningSummary": "An American payer does not automatically make an Icelandic service an export. Check the statute’s actual foreign-business conditions and local-service exceptions. The recovered regulation also contains conditional use/credit and certificate provisions; their application to the actual route is not resolved merely by the invoice address.",
+      "sections": [
+        {
+          "id": "business-recipient",
+          "heading": "Establish the actual foreign-business conditions",
+          "paragraphs": [
+            "Current Article 12(1), point 2 describes services sold to a business that is neither domiciled in Iceland nor conducting business there from a fixed establishment. An American billing address does not establish both conditions. Other recipients have a separate point 3 route.",
+            "Ordinary support and work on an Icelandic building therefore need separate assessment. The point 2 exceptions include covered Icelandic property/accommodation, road access, local passenger transport, event and spa admission, catering, vehicle hire delivered to the lessee in Iceland, specified locally used telecom/broadcasting and travel services."
+          ],
+          "sourceIds": [
+            "b3-origin3-iceland-current-law"
+          ]
+        },
+        {
+          "id": "regulation-conditions",
+          "heading": "The recovered regulation still contains a conditional certificate rule",
+          "paragraphs": [
+            "The official current PDF of Regulation 194/1990 labels its version in force from 9 September 2022 and the document 8 November 2026. Article 1 concerns its listed services to parties with neither residence nor a business place in Iceland. It gives alternatives: wholly used abroad, or the buyer could have deducted the VAT if its activity were Icelandically registered.",
+            "For that second, hypothetical-credit limb, the seller must request a home-country competent-authority certificate showing the buyer’s business. It is valid for two years from issue and retained like accounting records; the seller may seek two-year extensions where the basis is unchanged. That conditional wording is neither a certificate rule for every foreign invoice nor evidence that certificates have disappeared."
+          ],
+          "sourceIds": [
+            "smb-origin-is-reg194-current"
+          ]
+        },
+        {
+          "id": "application-limit",
+          "heading": "Do not turn either text into an unchecked invoice answer",
+          "paragraphs": [
+            "The broader statutory business-recipient wording and the regulation’s listed-service/use-or-credit conditions need to be reconciled for the actual route. This explanation does not declare the regulation obsolete or settle that interaction. The English agency overview is not used as a substitute for reading those two primary texts."
+          ],
+          "sourceIds": [
+            "b3-origin3-iceland-current-law",
+            "b3-origin3-iceland-vat",
+            "smb-origin-is-reg194-current"
+          ]
+        }
+      ],
+      "practicalOutput": "Identify the actual buyer and service, then resolve the applicable statutory/regulatory route before relying on the invoice treatment.",
+      "limitations": [
+        "Icelandic primary texts were read with AI assistance. The current-hosted regulation is now retrieved, but its interaction with the statutory business-recipient route is not declared settled. No final invoice, registration, deduction, return or U.S. tax result is supplied."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-is-reg194-current",
+          "url": "https://files.reglugerd.is/pdf/0194-1990/current",
+          "title": "Regulation194/1990: official current PDF through9September2022",
+          "authority": "Iceland Ministry / official regulation publication service",
+          "type": "regulation",
+          "section": "Complete articles1–3; current-version header and conditional certificate",
+          "supportingPassage": "Vottorð þetta gildir í tvö ár frá útgáfudegi",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:53:41.857361+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:56:27.928799+00:00",
+          "sha256": "86994a2d2d01949d97cabe3430680b3bd62b22ca12a07378081248119efecc1c",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for specified scope; see applicability limits",
+          "notes": "Full3-page native official PDF read; header version9September2022, document8November2026. Article1(a)/(b) alternatives, limb(b) two-year certificate and possible two-year extension retained. Official B-section publication prevails on discrepancy. This is not a determination that broader current VAT Act point2 eliminates or universally imports regulatory procedures."
+        }
+      },
+      {
+        "id": "b3-origin3-iceland-current-law",
+        "fields": {
+          "fetchedAt": "2026-11-14T00:52:04.364976+00:00",
+          "substantiveVerifiedAt": "2026-11-14T00:56:27.928799+00:00",
+          "sha256": "1e91658b49cb94558242767d77eb179fd4f08b510c46e94a4d7965fdad64fc97",
+          "notes": "Fresh complete Article12 point2/3 text read with AI-assisted Icelandic interpretation. Outside condition is conjunctive: neither Icelandic domicile nor business from fixed establishment. Point2 vehicle category is hire delivered to lessee in Iceland. Current-hosted Regulation194/1990 now separately recovered; interaction is not resolved by presuming obsolescence or universal certificate absence."
+        }
+      }
+    ],
+    "accessObservations": [
+      {
+        "key": "iceland-regulation",
+        "url": "https://www.reglugerd.is/reglugerdir/13/13b/nr/2085",
+        "retrievedAt": "2026-11-14T00:40:04.609269+00:00",
+        "status": 403,
+        "finalUrl": "https://www.reglugerd.is/reglugerdir/13/13b/nr/2085",
+        "contentType": "text/html; charset=iso-8859-1",
+        "rawPath": "/tmp/eln-origin-source-review/iceland-regulation.html",
+        "sha256": "65dfe1e06907d6479ca9683ee7d5c84cc68096f47f6b97250a86f5bd949f39cc",
+        "bytes": 228
+      }
+    ],
+    "remainingLimits": [
+      "Application of the regulation’s article1 alternatives to the broader current statutory business-recipient route requires reconciliation; not marked legally cleared.",
+      "Actual domicile/fixed-establishment and service exception facts remain necessary."
+    ]
+  },
+  {
+    "id": "b3-o4-north-macedonia",
+    "path": "/from/north-macedonia/",
+    "question": "Can the actual amendment/partial-transfer filing tabs be recovered, including documents, timing and language requirements?",
+    "decision": "scope-resolved",
+    "retrievalGapResolved": false,
+    "clearsOriginalSourceGap": false,
+    "evidence": [
+      {
+        "sourceId": "b3-o4-mk-change",
+        "url": "https://www.crm.com.mk/en/services/perform-a-registration-or-complete-a-task/register-investments-and-ventures/amendment-and-deletion-of-direct-investment-for-residents-abroad",
+        "retrievedAt": "2026-11-13T01:13:11.201016+00:00",
+        "dateMeaning": "Retained substantive review timestamp from original source record, not a fresh retrieval date. Exact initial reader-call time was not separately retained.",
+        "rawPath": "/workspace/us-expansion/research/raw/batch3/origin4/origin4web1.json",
+        "sha256": "e7c47870a8a53a9dd738806edbaa48d2eecdcdb43c0e901292dc03764934e78f",
+        "hashKind": "sha256-of-retained-reader-batch-json-not-original-http-body",
+        "snippet": "A certain investment can also mean the need for two or more entries of different types",
+        "locator": "Retained full31-line English agency explanation, line14",
+        "reviewedScope": "Re-read actual retained agency body for new/amendment/deletion and partial-transfer warning. Detailed filing tabs were not present; inward subsidiary example is excluded."
+      }
+    ],
+    "accessObservations": [
+      {
+        "key": "north-macedonia-service",
+        "url": "https://www.crm.com.mk/en/services/perform-a-registration-or-complete-a-task/register-investments-and-ventures/amendment-and-deletion-of-direct-investment-for-residents-abroad",
+        "retrievedAt": "2026-11-14T00:46:55.748428+00:00",
+        "status": 503,
+        "finalUrl": "https://www.crm.com.mk/en/services/perform-a-registration-or-complete-a-task/register-investments-and-ventures/amendment-and-deletion-of-direct-investment-for-residents-abroad",
+        "contentType": "text/plain",
+        "rawPath": "/tmp/eln-origin-source-review/north-macedonia-service.html",
+        "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+        "bytes": 91,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "supportsSubstantiveClaim": false,
+        "observation": "Fresh English canonical service returned503 upstream failure; no legal text obtained."
+      },
+      {
+        "key": "north-macedonia-native",
+        "url": "https://www.crm.com.mk/mk/uslugi/izvrsham-upis-ili-zavrsham-obvrska/prijavi-investitsii-i-vlozhuvanja/promeni-i-brishenje-direktna-investitsija-rezidenti-vo-stranstvo?idV=10885",
+        "retrievedAt": "2026-11-14T00:53:41.859151+00:00",
+        "status": 503,
+        "finalUrl": "https://www.crm.com.mk/mk/uslugi/izvrsham-upis-ili-zavrsham-obvrska/prijavi-investitsii-i-vlozhuvanja/promeni-i-brishenje-direktna-investitsija-rezidenti-vo-stranstvo?idV=10885",
+        "contentType": "text/plain",
+        "rawPath": "/tmp/eln-origin-source-review/north-macedonia-native.html",
+        "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+        "bytes": 91,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "supportsSubstantiveClaim": false,
+        "observation": "Actual Macedonian outward-service counterpart discovered through official indexed page; direct503 and public reader no readable lines. English sibling?idV=9227 timed out and is not substituted as outward filing evidence."
+      }
+    ],
+    "conclusion": "The narrow classification warning remains useful and supported by the actual retained agency explanation. New bounded official-route attempts did not recover the missing tabs. No60-day clock, complete attachment list, language mandate or fee is added from another investment service or old law. This is scope resolution, not a claim the original access gap is solved.",
+    "proposedPublicPatch": {
+      "id": "b3-o4-north-macedonia",
+      "path": "/from/north-macedonia/",
+      "limitations": [
+        "Detailed filing tabs were not retrieved. A contradictory translated subsidiary example is not relied on; confirm authoritative-language instructions before filing. No investment eligibility or NBRM-reporting result is established."
+      ]
+    },
+    "noPublicChangeNeeded": true,
+    "proposedSourceUpdates": [],
+    "remainingLimits": [
+      "Current amendment/partial-transfer documents, deadline, fee, submission route and language instructions remain unretrieved.",
+      "Do not infer that another inward-investment or real-estate page supplies the outward amendment procedure."
+    ]
+  },
+  {
+    "id": "b3-o4-bosnia",
+    "path": "/from/bosnia-and-herzegovina/",
+    "question": "Has the operative new foreign-exchange implementing regulation and commencement been retrieved after the11November2026 announcement?",
+    "decision": "scope-resolved",
+    "retrievalGapResolved": false,
+    "clearsOriginalSourceGap": false,
+    "evidence": [
+      {
+        "key": "bosnia-reform-notice",
+        "url": "https://fbihvlada.gov.ba/bs/donesena-uredba-o-provodenju-pojedinih-odredbi-zakona-o-deviznom-poslovanju",
+        "retrievedAt": "2026-11-14T00:52:04.366825+00:00",
+        "status": 200,
+        "finalUrl": "https://fbihvlada.gov.ba/bs/donesena-uredba-o-provodenju-pojedinih-odredbi-zakona-o-deviznom-poslovanju",
+        "contentType": "text/html; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/bosnia-reform-notice.html",
+        "sha256": "06f1cc15a03fab00e3f25e3b404305f09e552aef0cab376936301ae154c5eb9e",
+        "bytes": 39276,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Complete11November2026 government adoption announcement",
+        "snippet": "donesena Uredba o provođenju pojedinih odredbi zakona o deviznom poslovanju",
+        "reviewedScope": "Fresh complete notice re-read: adoption, covered settlement/accounts subjects, stated reasons and four old implementation repeal decisions. It is still not the operative regulation or commencement."
+      },
+      {
+        "key": "bosnia-ministry-catalog",
+        "url": "https://www.fmf.gov.ba/Content/Read/zakoni",
+        "retrievedAt": "2026-11-14T00:52:04.366246+00:00",
+        "status": 200,
+        "finalUrl": "https://www.fmf.gov.ba/Content/Read/zakoni",
+        "contentType": "text/html; charset=utf-8",
+        "rawPath": "/tmp/eln-origin-source-review/bosnia-ministry-catalog.html",
+        "sha256": "26ec4063a8dd8220596717c827e66362e1bea8318d9f2a34dbd3c8e040a6d513",
+        "bytes": 396164,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Ministry foreign-exchange law/decisions/forms section",
+        "snippet": "Zakon o deviznom poslovanju",
+        "reviewedScope": "Actual ministry catalog reviewed; lists law, old decisions and reporting forms, not the new operative text in the reviewed section. Catalog absence is not proof of nonpublication."
+      },
+      {
+        "key": "bosnia-gazette-88-26",
+        "url": "https://www.sluzbenilist.ba/page/i/t2idP1J7ljw=",
+        "retrievedAt": "2026-11-14T00:58:22.008081+00:00",
+        "status": 200,
+        "finalUrl": "https://www.sluzbenilist.ba/page/i/t2idP1J7ljw=",
+        "contentType": "text/html; charset=utf-8",
+        "rawPath": "/tmp/eln-origin-source-review/bosnia-gazette-88-26.html",
+        "sha256": "2f20d6c584f080ef9e70202124225f4c5b22a4ef466ec29a24a8d70fd3c3fbcf",
+        "bytes": 31245,
+        "hashKind": "sha256-of-original-http-response-bytes",
+        "locator": "Public latest-linked Federation issue88/26 dated11November2026, contents and access/language notices",
+        "snippet": "Službene novine Federacije BiH broj 88/26",
+        "reviewedScope": "Actual publisher homepage and linked issue read. Public contents did not locate the new regulation, but page warns selected-language acts can be missing and fullPDF requires subscriber login. This does not prove no later publication or effective regulation exists."
+      }
+    ],
+    "conclusion": "The announcement is confirmed, but the new gazetted wording and commencement remain unverified. Publication remains a Federation-only explanation of known enacted agreement conditions with an explicit execution hold. No operative date or new filing-ready claim is manufactured from adoption, a catalog or incomplete issue contents.",
+    "proposedPublicPatch": {
+      "id": "b3-o4-bosnia",
+      "path": "/from/bosnia-and-herzegovina/",
+      "limitations": [
+        "Republika Srpska and Brčko remain unresearched. Actual party/claim eligibility, operative implementation, tax and accounting consequences are not determined; no executable settlement is supplied."
+      ]
+    },
+    "noPublicChangeNeeded": true,
+    "proposedSourceUpdates": [
+      {
+        "id": "b3-o4-ba-reform",
+        "fields": {
+          "notes": "Complete adoption announcement re-read14November2026. Bounded follow-up reviewed ministry foreign-exchange catalog and publisher’s public latest-linked88/26 issue; neither yielded the operative regulation/commencement. Catalog and language-limited contents absence are not proof of nonpublication. Announcement remains adoption evidence only, not execution authority."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "New gazetted regulation, commencement and replacement procedure remain unresolved.",
+      "Republika Srpska and Brčko remain outside this Federation article."
+    ]
+  },
+  {
+    "id": "b3-origin3-guide-bulgaria",
+    "path": "/from/bulgaria/",
+    "question": "Does the later implementing amendment resolve the old EU-regulation reference, and what documentary changes must the application guide retain?",
+    "decision": "source-resolved",
+    "retrievalGapResolved": true,
+    "clearsOriginalSourceGap": true,
+    "evidence": [
+      {
+        "key": "bulgaria-eu-reg821",
+        "url": "https://exportcontrol.mi.government.bg/docs/REG_821_2021_BG.pdf",
+        "retrievedAt": "2026-11-14T00:57:53.750128+00:00",
+        "status": 200,
+        "finalUrl": "https://exportcontrol.mi.government.bg/docs/REG_821_2021_BG.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/bulgaria-eu-reg821.pdf",
+        "sha256": "579f258495aeac4518fe8e415b8a276c2d5695a31e45f37cadf10e51bf5237ea",
+        "bytes": 27862327,
+        "locator": "Regulation (EU) 2021/821, complete Article 31 and Annex VI heading/correlation",
+        "snippet": "Регламент (ЕО) № 428/2009 се отменя.",
+        "reviewedScope": "Read repeal, pre-9 September 2021 export-authorisation application exception and old-reference correlation. The original Official Journal copy is not a current consolidated control-list review.",
+        "hashKind": "sha256-of-original-http-response-bytes"
+      },
+      {
+        "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243857",
+        "retrievedAt": "2026-11-14T01:02:01.452902+00:00",
+        "rawPath": "/tmp/eln-bg-state-research/gazette55.html",
+        "sha256": "8a02822374ab6a86e2b86248f9228e8b8a549e9172607c54f0bdc86635bc4a4e",
+        "status": 200,
+        "contentType": "text/html;charset=utf-8",
+        "locator": "Gazette 55 of 16 June 2026, complete section 57 and final sections 93–94",
+        "snippet": "Министерството на икономиката, инвестициите и индустрията",
+        "reviewedScope": "Section 57 globally renames the ministry and minister in the Export Control Act. It does not itself change the application packet, fees or EU-reference rule. No exact commencement date is derived.",
+        "hashKind": "sha256-of-original-http-response-bytes"
+      },
+      {
+        "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=244909",
+        "retrievedAt": "2026-11-14T01:04:44.607446+00:00",
+        "rawPath": "/tmp/eln-bg-state-research/decree88-final.raw",
+        "sha256": "9f15e04d188a1d492db07211958df6e2d059628d9c54d2c24b8019c5098c80f2",
+        "status": 200,
+        "contentType": "text/html;charset=utf-8",
+        "locator": "Decree 88 of 17 July 2026, Gazette 66 of 21 July 2026, complete sections 1–32, especially 2,22–24,29–32",
+        "snippet": "Навсякъде в текста думите „Регламент (ЕО) № 428/2009“ се заменят с „Регламент (ЕС) 2021/821“.",
+        "reviewedScope": "Complete promulgated amendment read by the collaborating primary-source reviewer; lead reviewer independently read sections 2,22,24,29–32. It replaces references, changes technical-assistance/large-project and packet branches, specifies translator certification and electronic-payment evidence exception. No exact commencement date or absence of later amendments is inferred.",
+        "hashKind": "sha256-of-original-http-response-bytes"
+      }
+    ],
+    "conclusion": "The specific old-reference and missing later implementing-amendment questions are resolved by the EU repealer and the published final July 2026 decree, rather than the consultation draft. The older register remains a routing aid, not an exhaustive current packet. Actual classification, route eligibility, fee amount and transaction permission remain conditional.",
+    "proposedPublicPatch": {
+      "id": "b3-origin3-guide-bulgaria",
+      "path": "/from/bulgaria/",
+      "title": "Which Bulgarian controlled-export documents apply to your supply?",
+      "seoTitle": "Bulgarian controlled exports: classification, translations and application documents",
+      "description": "Classify the actual supply first, then use the relevant application route and the published 2026 documentary changes.",
+      "learningSummary": "An order for equipment or know-how does not establish export permission. The July 2026 implementing amendment resolves the old EU-reference issue and changes parts of the application packet, but the correct documents still depend on the actual supply and authorisation route.",
+      "sections": [
+        {
+          "id": "classification-first",
+          "heading": "Identify what is supplied before choosing the application",
+          "paragraphs": [
+            "The 2024 compilation describes export, transfer, transit and technical-assistance regimes under Regulation 2021/821. Establish the actual item, software, technology or assistance, destination, participants, end user and intended use. Not every manual is controlled, but a “brand licence” label does not clear a technical supply.",
+            "Check whether a general authorisation or another route applies before assuming an individual or global national application is appropriate. A paid order is not authorisation: establish any required permission and its conditions before making the covered supply."
+          ],
+          "sourceIds": [
+            "b3-origin3-bulgaria-export-current-law",
+            "b3-origin3-bulgaria-export-register",
+            "smb-origin-bg-decree88"
+          ]
+        },
+        {
+          "id": "described-packet",
+          "heading": "Match the documents to the actual authorisation route",
+          "paragraphs": [
+            "The register describes applications by persons with the relevant registration. Its document list includes application and authorisation forms, end-user/end-use or import-certificate evidence, the contract or order, transaction participants and their activity rights, and manufacturer technical information with origin/acquisition evidence. Treat that list as a starting point, not a complete current application.",
+            "The July 2026 amendment changes the technical-document requirements and adds route-specific internal-compliance and large-project requirements. The large-project route has its own packet, including project description and participant evidence; specified substitute declarations are permitted where the relevant country’s law does not issue the named official document. Confirm the route before deciding which evidence is needed.",
+            "Required foreign-language documents must have a certified Bulgarian translation. The amendment defines certification by the translator’s name and signature; it does not add a universal notarisation requirement. It also removes the separate paid-fee-document requirement when payment is electronic. That is an evidence exception, not a fee waiver."
+          ],
+          "sourceIds": [
+            "b3-origin3-bulgaria-export-register",
+            "smb-origin-bg-decree88"
+          ]
+        },
+        {
+          "id": "current-framework",
+          "aliases": [
+            "unresolved-references"
+          ],
+          "heading": "The older EU reference is reconciled; the fee amount is not",
+          "paragraphs": [
+            "Regulation 2021/821 Article 31 repeals Regulation 428/2009 and directs old references to the new regulation using the correlation table. It preserves the relevant older provisions for export-authorisation applications made before 9 September 2021. The final July 2026 Bulgarian decree also replaces 428/2009 references throughout the implementing text with 2021/821.",
+            "The June 2026 statutory amendment renamed the responsible ministry, and the July decree follows that name change. The live register still links forms under the ministerial order of 21 May 2026, including 38/39 and 40/41. Use the current form for the applicable route rather than treating the older register wording as an alternative legal framework.",
+            "No fee amount is verified from the mixed descriptions. These specific amendments were read; they do not amount to a complete survey of later national law or the current control list."
+          ],
+          "sourceIds": [
+            "smb-origin-bg-repealer",
+            "smb-origin-bg-gazette55",
+            "smb-origin-bg-decree88",
+            "b3-origin3-bulgaria-export-register",
+            "b3-origin3-bulgaria-export-current-law"
+          ]
+        }
+      ],
+      "practicalOutput": "Confirm classification and the actual route, then check its current forms, translations, supporting evidence and fee before making a covered supply.",
+      "limitations": [
+        "No item, software, technology or assistance is classified here, and no authorisation, exemption or general-authorisation eligibility is established. The reviewed amendments do not supply a complete application, current fee or all-later-law survey. Bulgarian interpretation was AI-assisted; U.S. import and other operating requirements remain separate."
+      ],
+      "readMinutes": 4
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-bg-repealer",
+          "url": "https://exportcontrol.mi.government.bg/docs/REG_821_2021_BG.pdf",
+          "title": "Regulation (EU) 2021/821: repeal and existing-application exception",
+          "authority": "European Parliament and Council; official copy hosted by Bulgarian export-control ministry",
+          "type": "regulation",
+          "section": "Article 31; Annex VI correlation",
+          "supportingPassage": "Регламент (ЕО) № 428/2009 се отменя.",
+          "publicationDate": "2021-06-11",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:57:53.750128+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:13:52.776037+00:00",
+          "sha256": "579f258495aeac4518fe8e415b8a276c2d5695a31e45f37cadf10e51bf5237ea",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for the stated scope; see remaining conditions",
+          "notes": "Original Official Journal text read for the repeal, pre-9 September 2021 application exception and reference correlation only. Not a current consolidated control-list survey."
+        }
+      },
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-bg-gazette55",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=243857",
+          "title": "Gazette 55/2026: Export Control Act ministry-name amendment",
+          "authority": "Bulgarian National Assembly / State Gazette",
+          "type": "statute",
+          "section": "Section 57 and final sections 93–94",
+          "supportingPassage": "Министерството на икономиката, инвестициите и индустрията",
+          "publicationDate": "2026-06-16",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:02:01.452902+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:13:52.776037+00:00",
+          "sha256": "8a02822374ab6a86e2b86248f9228e8b8a549e9172607c54f0bdc86635bc4a4e",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for the stated scope; see remaining conditions",
+          "notes": "Read the complete section 57 and final provisions. Section 57 renames the ministry/minister only; no packet, fee or classification change is inferred. No exact commencement date calculated."
+        }
+      },
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-bg-decree88",
+          "url": "https://dv.parliament.bg/DVWeb/showMaterialDV.jsp?idMat=244909",
+          "title": "Decree 88/2026: amended controlled-export implementing regulations",
+          "authority": "Bulgarian Council of Ministers / State Gazette",
+          "type": "regulation",
+          "section": "Sections 2,22–24,29–32; complete amendment read",
+          "supportingPassage": "Навсякъде в текста думите „Регламент (ЕО) № 428/2009“ се заменят с „Регламент (ЕС) 2021/821“.",
+          "publicationDate": "2026-07-21",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:04:44.607446+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:13:52.776037+00:00",
+          "sha256": "9f15e04d188a1d492db07211958df6e2d059628d9c54d2c24b8019c5098c80f2",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official source read for the stated scope; see remaining conditions",
+          "notes": "Final promulgated decree, not the consultation draft. Retain route-specific packet/ICP/large-project conditions, translator name/signature certification, and the electronic-payment fee-document exception without treating it as a waiver. No exact commencement date or later-amendment absence inferred."
+        }
+      },
+      {
+        "id": "b3-origin3-bulgaria-export-register",
+        "fields": {
+          "notes": "The register remains a routing and forms source, including the 21 May 2026 order and forms 38/39 and 40/41. It is not an exhaustive current packet: the final July 2026 Decree 88 separately updates the framework references and documentary rules. Mixed fee descriptions remain insufficient to verify an amount."
+        }
+      },
+      {
+        "id": "b3-origin3-bulgaria-export-current-law",
+        "fields": {
+          "notes": "Dated primary compilation through May 2024 retained for contextual regimes. The specific later June ministry-name amendment and July implementing amendments were separately retrieved and read; no complete later-law or control-list clearance is claimed."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Actual product, technology, assistance, destination, participants and end use still determine coverage and the route.",
+      "No current fee amount, complete route-specific application or exhaustive later-amendment/control-list survey is supplied.",
+      "No exact commencement date is invented from the Gazette publication dates."
+    ]
+  },
+  {
+    "id": "b2-origin-vietnam",
+    "path": "/from/vietnam/",
+    "question": "What entry and withholding-effect conditions are in the signed agreement, and is current operative status actually established?",
+    "decision": "scope-resolved",
+    "retrievalGapResolved": false,
+    "clearsOriginalSourceGap": false,
+    "evidence": [
+      {
+        "key": "vietnam-treaty-agreement",
+        "url": "https://home.treasury.gov/system/files/131/Treaty-Vietnam-7-7-2015.pdf",
+        "retrievedAt": "2026-11-14T00:52:04.620485+00:00",
+        "status": 200,
+        "finalUrl": "https://home.treasury.gov/system/files/131/Treaty-Vietnam-7-7-2015.pdf",
+        "contentType": "application/pdf",
+        "rawPath": "/tmp/eln-origin-source-review/vietnam-treaty-agreement.pdf",
+        "sha256": "edb8039e47a47980b2c5df5557e5a13746d10fe9f4eb668599498cbd5172284d",
+        "bytes": 2055577,
+        "locator": "Signed 7 July 2015 agreement, Article 29, printed pages 35–36",
+        "snippet": "The Agreement shall enter into force on the date of the later of the notifications",
+        "reviewedScope": "Image-only PDF: actual rendered printed pages 35–36 visually read. Article 29 requires domestic procedures and written diplomatic notifications, entry on the later notification, and separate first-January-following-year rules for withholding and other income taxes. Article 27 information duties have a different effect rule. Current occurrence of entry conditions is not established.",
+        "hashKind": "sha256-of-original-http-response-bytes"
+      },
+      {
+        "url": "https://datafiles.chinhphu.vn/cpp/files/duthaovbpl/2025/Thang7/nq-giam-tru-gia-canh.pdf",
+        "retrievedAt": "2026-11-14T01:03:44.257469+00:00",
+        "rawPath": "/tmp/eln-vietnam-status/chinhphu-tax-draft-2025.pdf",
+        "sha256": "3b703bc9a0e68163292cbc419a824f06ca61af684bec1f5257b62c5cc682210f",
+        "bytes": 11081022,
+        "contentType": "application/pdf",
+        "status": 200,
+        "locator": "Ministry of Finance draft report dated 17 July 2025; full five-page report physical pages 18–22, treaty-status paragraph physical page 21 / printed page 4",
+        "snippet": "và Hợp Chúng Quốc Hoa Kỳ) chưa có hiệu lực.",
+        "reviewedScope": "Complete five-page report read by collaborating researcher; lead reviewer visually verified the actual dated header and status paragraph. The report explicitly described the U.S. among four agreements not yet effective as of this dated draft. It is not evidence that no change occurred by November 2026.",
+        "hashKind": "sha256-of-original-http-response-bytes"
+      },
+      {
+        "key": "vietnam-irs-index",
+        "url": "https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z",
+        "retrievedAt": "2026-11-14T00:52:04.911161+00:00",
+        "status": 200,
+        "finalUrl": "https://www.irs.gov/businesses/international-businesses/united-states-income-tax-treaties-a-to-z",
+        "contentType": "text/html; charset=UTF-8",
+        "rawPath": "/tmp/eln-origin-source-review/vietnam-irs-index.html",
+        "sha256": "39eb0d03ab50ca0abe3e5972f9809eebf27a5805a7de9793a7d4566b2360c9a3",
+        "bytes": 123418,
+        "locator": "Complete IRS A-to-Z country index and introductory scope",
+        "snippet": "United States Income Tax Treaties - A to Z",
+        "reviewedScope": "Vietnam is absent from the freshly read list. Absence is corroborative only, not stand-alone proof of present non-force or a withholding rate.",
+        "hashKind": "sha256-of-original-http-response-bytes"
+      }
+    ],
+    "accessObservations": [
+      {
+        "id": "state-2025-vietnam",
+        "url": "https://www.state.gov/reports/2025-investment-climate-statements/vietnam/",
+        "finalUrl": "https://www.state.gov/reports/2025-investment-climate-statements/vietnam/",
+        "retrievedAt": "2026-11-14T01:02:05.231380+00:00",
+        "httpStatus": 403,
+        "contentType": "text/html",
+        "sha256": "e58c6bcbe067cb12491c2806a9f03cd9877c93ba764bd10762d8b2aaf23b08fa",
+        "bytes": 659508,
+        "rawPath": "/tmp/eln-vietnam-status/state-2025-vietnam.html",
+        "error": "HTTP Error 403: Forbidden",
+        "bodyConclusion": "Technical Difficulties / Exception: forbidden; no substantive treaty/report body retrieved."
+      },
+      {
+        "id": "state-2024-vietnam",
+        "url": "https://2021-2025.state.gov/reports/2024-investment-climate-statements/vietnam/",
+        "finalUrl": "https://2021-2025.state.gov/reports/2024-investment-climate-statements/vietnam/",
+        "retrievedAt": "2026-11-14T01:02:05.241648+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html",
+        "sha256": "359e3b8b6b844d69fa29bd39c40f970af1586af0500dcda1f98a302721eafe1d",
+        "bytes": 188865,
+        "rawPath": "/tmp/eln-vietnam-status/state-2024-vietnam.html",
+        "error": null,
+        "bodyConclusion": "Technical Difficulties / Exception: forbidden; no substantive treaty/report body retrieved."
+      },
+      {
+        "id": "state-tif-index",
+        "url": "https://www.state.gov/treaties-in-force/",
+        "finalUrl": "https://www.state.gov/treaties-in-force/",
+        "retrievedAt": "2026-11-14T01:02:05.245451+00:00",
+        "httpStatus": 403,
+        "contentType": "text/html",
+        "sha256": "e58c6bcbe067cb12491c2806a9f03cd9877c93ba764bd10762d8b2aaf23b08fa",
+        "bytes": 659508,
+        "rawPath": "/tmp/eln-vietnam-status/state-tif-index.html",
+        "error": "HTTP Error 403: Forbidden",
+        "bodyConclusion": "Technical Difficulties / Exception: forbidden; no substantive treaty/report body retrieved."
+      },
+      {
+        "id": "state-vietnam-fatca",
+        "url": "https://2021-2025.state.gov/16-707/",
+        "finalUrl": "https://2021-2025.state.gov/16-707/",
+        "retrievedAt": "2026-11-14T01:02:05.245928+00:00",
+        "httpStatus": 200,
+        "contentType": "text/html",
+        "sha256": "359e3b8b6b844d69fa29bd39c40f970af1586af0500dcda1f98a302721eafe1d",
+        "bytes": 188865,
+        "rawPath": "/tmp/eln-vietnam-status/state-vietnam-fatca.html",
+        "error": null,
+        "bodyConclusion": "Technical Difficulties / Exception: forbidden; no substantive treaty/report body retrieved."
+      },
+      {
+        "id": "moj-tax-policy",
+        "url": "https://moj.gov.vn/qt/tintuc/Lists/ChiDaoDieuHanh/Attachments/5262/13536.CST.pdf",
+        "finalUrl": "https://moj.gov.vn/qt/tintuc/Lists/ChiDaoDieuHanh/Attachments/5262/13536.CST.pdf",
+        "retrievedAt": "2026-11-14T01:03:10.201350+00:00",
+        "httpStatus": 404,
+        "contentType": null,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0,
+        "rawPath": "/tmp/eln-vietnam-status/moj-tax-policy.pdf",
+        "bodyConclusion": "Direct404 empty body. Web reader indexed134image-onlypages but supplied no readable text. Not used as substantive evidence."
+      }
+    ],
+    "conclusion": "Article 29 entry and withholding-effect conditions are now read in the actual signed Treasury PDF, and a dated official 17 July 2025 draft report explicitly described the agreement as not yet effective then. Neither establishes definitive November 2026 operative status. The page can explain the conditional timing and dated evidence while retaining the current-status hold and no reduced-rate assumption.",
+    "proposedPublicPatch": {
+      "id": "b2-origin-vietnam",
+      "path": "/from/vietnam/",
+      "title": "When could the signed U.S.–Vietnam tax agreement affect a payment?",
+      "seoTitle": "U.S.–Vietnam tax agreement: entry conditions and withholding timing",
+      "description": "The agreement specifies entry and payment-effect conditions, but the current operative status remains unconfirmed here.",
+      "learningSummary": "The signed agreement does not make a reduced withholding rate available by itself. Article 29 separates entry into force from the date its withholding provisions would apply; this review has not established that those conditions have occurred.",
+      "sections": [
+        {
+          "id": "entry-conditions",
+          "aliases": [
+            "treaty-status"
+          ],
+          "heading": "First establish entry into force, then the payment date",
+          "paragraphs": [
+            "The Treasury agreement dated 7 July 2015 requires ratification or approval under both countries’ applicable procedures and written diplomatic notifications when those procedures are complete. Article 29 says the agreement enters into force on the date of the later notification. Finding the signed document does not establish that this happened.",
+            "For withholding, the agreement would apply to amounts paid or credited on or after 1 January of the year immediately following the year of entry into force. For other taxes, the stated start is Vietnamese taxable years and U.S. taxable periods beginning on or after that following 1 January. Article 27 information-exchange and administrative-assistance provisions instead take effect from entry into force, regardless of the taxable year or period concerned. Do not use the signature date as a universal start date."
+          ],
+          "sourceIds": [
+            "b2-origins-treasury-treaties",
+            "smb-origin-vn-entry-conditions"
+          ]
+        },
+        {
+          "id": "current-status-limit",
+          "heading": "The dated status evidence does not settle today’s treatment",
+          "paragraphs": [
+            "A Vietnamese Ministry of Finance draft report dated 17 July 2025 expressly described the U.S. agreement among those not yet effective. That is positive evidence of the draft’s stated position at that date, not proof that no later change occurred. Vietnam is also absent from the reviewed IRS income-tax treaty index, but list absence alone is not a definitive current status determination.",
+            "Current operative status remains unconfirmed here. Withholding is tax deducted before you receive a payment. Keep the full fee, possible deduction and expected receipt separate until current authority and the actual payment and recipient establish the treatment. Neither the signed agreement nor this dated report supplies an automatic royalty rate."
+          ],
+          "sourceIds": [
+            "smb-origin-vn-status-2025",
+            "b2-origins-irs-treaties",
+            "fed-irs-withholding"
+          ]
+        },
+        {
+          "id": "equipment-dependency",
+          "heading": "Keep the equipment question separate from the tax assumption",
+          "paragraphs": [
+            "In the fictional maintenance example, the American operator also needs a specialised Vietnamese test device with no identified American replacement or service provider. Even an established payment treatment would not make that device deliverable or serviceable.",
+            "Vietnam Customs’ commercial-export guide addresses prohibited products, specialised inspection or licensing, declarations and temporary-export situations. Identify whether the actual item is sold, moved temporarily or replaced locally before costing the shipment. No equipment category is verified here; the U.S. importer’s duties and ongoing serviceability also need assessment. Software rights and remote support are not decided by the goods procedure."
+          ],
+          "sourceIds": [
+            "b2-origins-vietnam-export"
+          ]
+        }
+      ],
+      "practicalOutput": "Establish current operative treaty authority and the actual payment treatment before budgeting a reduced deduction; assess any equipment movement separately.",
+      "limitations": [
+        "Definitive current treaty status, the payment and recipient, product-specific export/import treatment and any U.S. site work remain unresolved. The 2025 draft report is dated descriptive evidence, not current operative law. This is not a complete Vietnamese tax, banking or operating review."
+      ],
+      "readMinutes": 3
+    },
+    "proposedSourceUpdates": [
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-vn-entry-conditions",
+          "url": "https://home.treasury.gov/system/files/131/Treaty-Vietnam-7-7-2015.pdf",
+          "title": "Signed U.S.–Vietnam income-tax agreement: Article 29 entry and effect conditions",
+          "authority": "U.S. Department of the Treasury",
+          "type": "treaty",
+          "section": "Article 29, printed pages 35–36",
+          "supportingPassage": "The Agreement shall enter into force on the date of the later of the notifications",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T00:52:04.620485+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:13:52.776037+00:00",
+          "sha256": "edb8039e47a47980b2c5df5557e5a13746d10fe9f4eb668599498cbd5172284d",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Signed agreement; current operative entry status not established by this review",
+          "notes": "Image-only official PDF; the actual rendered pages were visually read. Ratification/approval and later-notification entry conditions distinguished from withholding/other-tax following-year effect and Article 27 entry-date effect. No current entry occurrence or rate established."
+        }
+      },
+      {
+        "operation": "add",
+        "record": {
+          "id": "smb-origin-vn-status-2025",
+          "url": "https://datafiles.chinhphu.vn/cpp/files/duthaovbpl/2025/Thang7/nq-giam-tru-gia-canh.pdf",
+          "title": "Vietnam Ministry of Finance draft review report dated 17 July 2025: treaty-status paragraph",
+          "authority": "Vietnam Ministry of Finance; official Government portal copy",
+          "type": "official-report",
+          "section": "Full five-page report at physical pages 18–22; status on physical page 21 / printed page 4",
+          "supportingPassage": "và Hợp Chúng Quốc Hoa Kỳ) chưa có hiệu lực.",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:03:44.257469+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:13:52.776037+00:00",
+          "sha256": "3b703bc9a0e68163292cbc419a824f06ca61af684bec1f5257b62c5cc682210f",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Dated draft descriptive report, not enacted tax law or definitive current treaty status",
+          "notes": "Actual report date and paragraph visually verified, with OCR supporting the five-page read. The draft describes U.S. agreement non-effectiveness as of 17 July 2025 only. PDF metadata date and current retrieval date are not substituted for that status date. No November 2026 no-change conclusion."
+        }
+      },
+      {
+        "id": "b2-origins-irs-treaties",
+        "fields": {
+          "notes": "The current A-to-Z list was re-read during the 14 November 2026 bounded status check. Vietnam absence is corroborative only and is not used alone to prove definitive present non-force, treaty eligibility or a reduced rate."
+        }
+      }
+    ],
+    "remainingLimits": [
+      "Definitive November 2026 operative status remains unverified; the dated 2025 draft and IRS list absence do not prove no later change.",
+      "No reduced rate, actual payment classification, recipient eligibility or relief entitlement is established.",
+      "The separate FATCA agreement is not substituted for the income-tax agreement."
+    ]
+  }
+]
