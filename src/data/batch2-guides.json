@@ -2561,73 +2561,109 @@
   {
     "id": "b2-origin-laos",
     "path": "/from/laos/",
-    "title": "Lao service-company U.S. expansion: resolve the bank route before cash commitments",
-    "description": "Draft research record: Decision 333/BOL’s official original has been recovered, but current amendments, translation and the applicable bank route remain unresolved.",
+    "title": "Laos: receiving U.S. service fees and funding a U.S. business use different bank routes",
+    "description": "Understand the separate Lao bank questions for service-export receipts, overseas investment and remittance forms, using the published law and Decision 333.",
     "family": "origin",
     "topic": "commercial-feasibility",
     "jurisdictions": [
       "Laos",
       "United States"
     ],
-    "status": "draft",
-    "lastReviewed": "2026-11-12",
-    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
+    "status": "published",
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
     "readMinutes": 5,
     "ruleIds": [
-      "b2-origins-laos-fx-status"
+      "nr-laos-export-capital-routes",
+      "nr-laos-333-service-calculation"
     ],
     "sections": [
       {
-        "heading": "Current-status question prevents publication as a settled rule",
+        "id": "receipt-or-investment",
+        "heading": "Start with what the payment buys",
         "paragraphs": [
-          "The official Lao Trade Portal now supplies Decision 333/BOL of March 7, 2024 on foreign-currency revenue from goods and services exports, and its original 10-page Lao scan has been downloaded. This establishes a relevant instrument later than the 2023 text. Only its identity and limited pages were inspected; a complete reliable translation and current-amendment reconciliation have not been completed.",
-          "The U.S. International Trade Administration’s January 2026 country guide also discusses Decision 333, but it is not the operative Lao legal instrument. A BOL PDF posted in December 2025 still returns HTTP 503 and its identity and effect remain unverified. No retention deadline, conversion percentage or permission to net receipts is approved from these incomplete materials."
+          "A Lao company selling training or support to a U.S. customer receives export income. A Lao company sending money to acquire ownership in a U.S. business exports investment capital. Calling both transfers “U.S. expansion” does not give them the same bank treatment.",
+          "The BOL-hosted foreign-exchange law places goods and service trade through a specific account at a Lao commercial bank. For outward direct investment, it separately requires compliance with investment-promotion requirements and approval from the Bank of the Lao PDR, or BOL, with a specific Lao account for sending capital and returning investment income. External loans have a separate approval provision.",
+          "The English PDF is labelled an unofficial translation of the law dated 7 July 2022. Its December 2025 upload filename is not evidence of a new 2025 law. These provisions establish the distinction; they do not establish that a particular investment, loan or offshore account is approved."
         ],
         "sourceIds": [
-          "b3-state-laos-333-en",
-          "b3-state-laos-trade-finance",
           "b2-origins-laos-2025"
+        ],
+        "aliases": [
+          "current-status-question-prevents-publication-as-a-settled-rule",
+          "section-0",
+          "fictional-example-a-lao-training-brand",
+          "section-2",
+          "exact-unblock-checklist",
+          "section-3"
         ]
       },
       {
-        "heading": "Keep the document conflict visible",
+        "id": "decision-333-services",
+        "heading": "What Decision 333 says about service-export receipts",
         "paragraphs": [
-          "The MOIC registration decision reviewed here is titled and framed around goods. Portal metadata uses broader services wording. The research has not established which present procedure applies to IP royalties, remote support fees, goods exports, capital investment or netting. No numerical deadline, sale percentage, fee or “not required” conclusion is approved for publication."
+          "Decision 333/BOL, dated 7 March 2024 and effective 29 March 2024, covers foreign-currency revenue from goods and services exports. Its service branch requires at least 80% to be brought into the specific Lao account within 60 days from export. The decision also places payment within the contractual due date and a maximum of 180 days.",
+          "It then requires a minimum foreign-currency sale to the banking system: for services, 20% of the minimum repatriation amount, within three working days after the account is credited. Repatriating the receipt and converting part of it into kip are separate steps. The continuation of Article 7 provides for notice and bank purchase of a required shortfall on the following working day if the minimum is not sold in time.",
+          "Fictional calculation under that service branch: a $100,000 export produces a minimum $80,000 repatriation amount; 20% of $80,000 is $16,000. The example explains the decision’s two percentages. It does not classify a royalty, approve a mixed royalty/support invoice, permit offshore netting, or guarantee foreign currency for a later purchase.",
+          "The official Gazette catalogue lists this decision as current. The decision itself allows periodic adjustments. If the minimum amount or timing cannot be met, it requires relevant documents to substantiate the request to the Foreign Exchange Management Department for case-by-case consideration. The catalogue does not settle every later implementation requirement, so the calculation above explains the decision’s text rather than approving a particular present transfer."
         ],
         "sourceIds": [
-          "b2-origins-laos-registration"
-        ]
+          "nr-laos-333-operative",
+          "nr-laos-gazette-333-status"
+        ],
+        "aliases": []
       },
       {
-        "heading": "Fictional example: a Lao training brand",
+        "id": "outward-remittance",
+        "heading": "The bank form asks for a purpose; it does not approve that purpose",
         "paragraphs": [
-          "A training company wants U.S. fees left offshore to pay a support contractor. The CFO’s useful output is a payment map with gross amounts, fee type, counterparties, accounts and proposed deductions. Bank confirmation and the current instrument are prerequisites; merely renaming a royalty as support income would not resolve the facts."
-        ]
+          "BCEL’s outward-remittance form asks for the remitter and debit account, currency, beneficiary and bank details, payment purpose, and responsibility for transfer charges. Its terms retain exchange-control restrictions and require the underlying transaction and supporting documents to comply with the applicable rules.",
+          "For a U.S. investment payment, the useful first distinction is therefore capital versus payment for a genuine service. Give the bank the actual agreement and purpose; do not turn an investment into a service by changing the invoice label. A filled-in remittance form or an available U.S. bank account does not replace the relevant BOL permission. The form does not guarantee same-day settlement."
+        ],
+        "sourceIds": [
+          "nr-laos-bcel-remittance",
+          "b2-origins-laos-2025"
+        ],
+        "aliases": []
       },
       {
-        "heading": "Exact unblock checklist",
-        "paragraphs": [],
-        "bullets": [
-          "Complete a reliable reading of Decision 333/BOL, obtain the relevant current BOL amendments and implementation instruments, and preserve effective/repeal provisions.",
-          "Reconcile goods versus services scope with the responsible authorities and the company’s bank.",
-          "Identify whether receipts, outward investment and payments use different processes.",
-          "Record required evidence, timing, responsible role and any lawful netting conditions.",
-          "Keep the U.S. plan exportable with this dependency unresolved; no launch/receipt commitment should rely on this draft."
+        "id": "remaining-classification",
+        "heading": "The unresolved point is the particular payment, not whether the routes differ",
+        "paragraphs": [
+          "A contract may combine a trademark licence, training and ongoing support. The reviewed documents do not settle how every mixed IP/service payment is classified or whether any proposed deduction may be netted offshore. The older MOIC registration decision reviewed here is framed around goods, so it is not used to impose a universal service-company registration procedure.",
+          "For the proposed transaction, identify the payer, recipient, contractual purpose, gross amount and accounts. Then apply the relevant trade, investment, loan or foreign-account route. This guide establishes those separate questions; it does not grant a transferable bank approval."
+        ],
+        "sourceIds": [
+          "b2-origins-laos-registration",
+          "b2-origins-laos-2025",
+          "nr-laos-333-operative"
+        ],
+        "aliases": [
+          "keep-the-document-conflict-visible",
+          "section-1"
         ]
       }
     ],
     "sourceIds": [
-      "b2-origins-laos-old",
-      "b2-origins-laos-registration",
       "b2-origins-laos-2025",
-      "b3-state-laos-333-en",
-      "b3-state-laos-trade-finance"
+      "nr-laos-333-operative",
+      "nr-laos-bcel-remittance",
+      "b2-origins-laos-registration",
+      "nr-laos-gazette-333-status"
     ],
     "nextStage": 3,
-    "practicalOutput": "A payment-route factsheet and exact request for current legal/bank confirmation.",
+    "practicalOutput": "Before committing funds, establish whether the proposed payment is an export receipt, investment capital or an external loan, and use the matching bank and approval route.",
     "limitations": [
-      "Not publication-ready: the original Decision 333 scan is recovered, but complete translation, later primary texts and current services/IP/outward-investment treatment remain unresolved. No banking, tax or immigration clearance is supplied."
-    ]
+      "The 2022 English law is an unofficial translation; Decision 333 was read from the original Lao scan. Later implementation, mixed IP/service classification and any proposed offshore netting remain unresolved.",
+      "No current exchange-rate, fee, currency availability, approval outcome, U.S. tax or immigration clearance is supplied."
+    ],
+    "seoTitle": "Lao service export receipts versus capital for a U.S. business",
+    "learningSummary": "Money earned from a U.S. customer and money sent to own a U.S. company are different transactions. The Lao documents reviewed here give them different account and approval rules; a remittance form does not combine them into one permission.",
+    "keyTerms": [],
+    "relatedPaths": [
+      "/us-expansion/entity-tax-election/"
+    ],
+    "contentModifiedAt": "2026-11-14T02:12:13.284Z"
   },
   {
     "id": "b2-origin-myanmar",

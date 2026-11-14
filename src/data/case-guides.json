@@ -911,43 +911,85 @@
   {
     "id": "case-octoclean-hold",
     "path": "/cases/octoclean-order-review/",
-    "title": "OctoClean: full-order source review pending",
-    "description": "Research record held because the official consent-order PDF could not be read.",
+    "title": "OctoClean: why registration and FDD delivery were two separate sales failures",
+    "description": "Read the 2023 California order as a real example of separate sales gates, with penalties and refund offers distinguished from completed payments.",
     "family": "case",
     "topic": "sales-disclosure",
     "jurisdictions": [
       "California"
     ],
-    "status": "blocked",
-    "lastReviewed": null,
-    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
-    "readMinutes": 3,
-    "ruleIds": [],
+    "status": "published",
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 4,
+    "ruleIds": [
+      "nr-octoclean-order"
+    ],
     "sections": [
       {
-        "heading": "Why this record is not published",
+        "id": "two-sales-failures",
+        "heading": "What the Commissioner found",
         "paragraphs": [
-          "The DFPI September 2023 enforcement summary identifies an OctoClean consent order. The official PDF returned HTTP 403 in this review. A search excerpt and summary cannot replace reading its complete operative terms."
+          "California’s financial regulator listed a consent order against OctoClean Franchising Systems, Inc. on 5 September 2023. OctoClean sold local commercial-cleaning, maintenance and janitorial franchises. The order’s recitals identify twelve California franchisees and state that the relevant sales were neither registered nor exempt. They separately state that the franchise disclosure document, or FDD, was not provided at least 14 days before signing or receiving payment.",
+          "This was a settled administrative enforcement matter. The document records the Commissioner’s findings and the company’s agreement to its terms, including a waiver of hearing and review rights. Paragraph 17 provides for admission of the subject matter for the named future DFPI applications or proceedings to enforce the order."
+        ],
+        "sourceIds": [
+          "pr-octoclean-order",
+          "nr-octoclean-enforcement-summary"
+        ],
+        "aliases": [
+          "why-this-record-is-not-published",
+          "section-0",
+          "release-condition",
+          "section-1"
         ]
       },
       {
-        "heading": "Release condition",
+        "id": "what-order-required",
+        "heading": "The order required action; it does not prove completed recovery",
         "paragraphs": [
-          "Read the complete official consent order and check for subsequent relevant orders. Separate recitals, admissions, stipulated obligations and actual performance. No penalty, current violation or clearance claim is published from this incomplete record."
-        ]
+          "The order directs OctoClean to stop the stated registration and disclosure violations and pay a $35,000 penalty. The payment deadline is 10 calendar days after the order’s defined Effective Date. That definition requires all-party signatures and email delivery; the dated agency summary does not by itself establish the delivery timestamp.",
+          "Within one week of that Effective Date, OctoClean was to inform affected California franchisees of the cancellation/refund option. Franchisees had 30 calendar days after receiving the certified-mail notice to elect cancellation. Paragraph 4 reaches proven eligible franchisees omitted from Exhibit A and does not exclude those already terminated. Its operative body says “all franchise fees paid” and prohibits offsets for benefits or credits. The paragraph heading and Exhibit B instead describe a refund of the initial franchise fees. Both wordings matter; this article does not resolve an individual refund amount.",
+          "A requirement to make an offer differs from an election to accept it, and both differ from an actual payment. The reviewed order does not show how many franchisees accepted, how much was paid, or whether later compliance was achieved."
+        ],
+        "sourceIds": [
+          "pr-octoclean-order"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "owner-lesson",
+        "heading": "Before a sale, check both gates",
+        "paragraphs": [
+          "For a brand owner, the useful lesson is operational: confirm the applicable state registration or exemption before an offer or sale, and separately confirm the correct disclosure and waiting period before an agreement or payment. Having prepared an FDD does not answer the first question. An effective registration does not prove the buyer received the FDD on time.",
+          "The public order resolves the identified historical matter while retaining enforcement consequences for noncompliance and unknown violations. It is not a statement about OctoClean’s current registration, present sales practices or today’s refund eligibility. No later relevant order was identified in the bounded official-domain search; that search is not proof that none exists."
+        ],
+        "sourceIds": [
+          "pr-octoclean-order",
+          "nr-octoclean-enforcement-summary"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
       "pr-octoclean-order",
-      "b2-blocked-ca-octoclean"
+      "b2-blocked-ca-octoclean",
+      "nr-octoclean-enforcement-summary"
     ],
     "nextStage": 5,
-    "practicalOutput": "Source-access and later-order review task",
+    "practicalOutput": "Give the person responsible for closing a sale two separate checks: state authority to offer/sell and proof of timely buyer disclosure.",
     "limitations": [
-      "Publication blocked: the complete original consent-order PDF remains inaccessible. Ordinary curl and web retrieval returned HTTP 403 again on November 13, 2026.",
-      "No complete alternate official copy or later-order reconciliation was obtained. Indexed excerpts and the agency summary do not establish the complete operative terms, compliance performance or present status."
+      "Historical 2023 consent-order study. No completed payment, refund total, current registration or present violation is established. Exact effective delivery and later compliance remain unverified."
     ],
     "scenarioType": "real",
-    "label": "Real case — historical documents and stated procedural limits"
+    "label": "Real case — historical consent order and stated procedural limits",
+    "seoTitle": "OctoClean California consent order: registration, disclosure and refund terms",
+    "learningSummary": "A disclosure document and a state registration solve different problems. The OctoClean consent order shows why a franchisor must check both before signing or taking payment—and why an ordered refund offer is not proof that money was recovered.",
+    "keyTerms": [],
+    "relatedPaths": [
+      "/us-expansion/fdd-disclosure-timing/",
+      "/states/california/"
+    ],
+    "contentModifiedAt": "2026-11-14T02:02:44.878Z"
   }
 ]

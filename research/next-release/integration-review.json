@@ -1,0 +1,548 @@
+{
+  "reviewer": "/root/state_research",
+  "reviewedAt": "2026-11-14T02:26:25.840Z",
+  "baselineCommit": "94ed0b659eb0848c829669246949cca11263fb85",
+  "decision": "approved",
+  "scope": "Independent read-only review of integration code, tests, Git-to-canonical data changes and final proposal agreement. This does not replace article/source reviews, unit-test ownership, deployment or live-site verification.",
+  "reviewedCodeHashes": [
+    {
+      "path": "scripts/next-release.mjs",
+      "sha256": "fa87e20e4fbb3ec97740d5bb707728c19ddc96d877cb4520a76ae22ec59beb13"
+    },
+    {
+      "path": "tests/next-release.test.ts",
+      "sha256": "73c05645f210633f0c823c11517a55bb214474c3f4e3088bc2e27dff9a85c1ea"
+    },
+    {
+      "path": "scripts/smb-edit-utils.mjs",
+      "sha256": "c67778a4aef8bc2f4f8e14112c555d9499c40f7ee865fb12b2c70935125ff342"
+    },
+    {
+      "path": "src/lib/article-presentation.ts",
+      "sha256": "40d8baa809c4bc152443d658074bf1fb37e8214989aeb0e986169af84325a458"
+    },
+    {
+      "path": "scripts/validate-data.mjs",
+      "sha256": "d3ffd0535144b4bae542dc26f111e8992be57bd150f8273fcf8482196102288f"
+    }
+  ],
+  "proposalFileHashes": [
+    {
+      "file": "research/next-release/new-article-proposals.json",
+      "sha256": "504e526fbf9d83d7e67061dff5f2daff52bd9a7ccaa7269e72436be743a35e29",
+      "rows": 12
+    },
+    {
+      "file": "research/next-release/withheld-proposals.json",
+      "sha256": "25b4fb90f23a1619a9a26fc2dfc16c74e7d30798df5250afb5520d9e32407107",
+      "rows": 5
+    },
+    {
+      "file": "research/next-release/states-decisions.json",
+      "sha256": "271d2cc7e063b7e8ae6ea0b9636bef1a7c5897959d4b884ef37f97cf6e7bd969",
+      "rows": 6
+    },
+    {
+      "file": "research/next-release/scoped-decisions.json",
+      "sha256": "73afa65274153c8c0da4e2b3937b057fcc7d90a1a91e77826270c4974736f59f",
+      "rows": 18
+    }
+  ],
+  "canonicalDataHashes": [
+    {
+      "path": "src/data/batch2-blocked-rules.json",
+      "sha256": "a91665f5f58bb208c723374c46503f9296689a694fcb7e2c52af31d4675dbe30"
+    },
+    {
+      "path": "src/data/batch2-blocked-sources.json",
+      "sha256": "951aa938c4494a7ab5b02750e1ff2a5ffc7aa5cbbfdbc833821dfa447705d532"
+    },
+    {
+      "path": "src/data/batch2-east-rules.json",
+      "sha256": "4453d6f10e43ad59bf12f00ba9e3da3ce9fd5986b3817c32af4228f6df33b084"
+    },
+    {
+      "path": "src/data/batch2-east-sources.json",
+      "sha256": "8801d1698b5b84a15cccfa3a31b5da86c497fe763502117d3d0c1bbb1b725505"
+    },
+    {
+      "path": "src/data/batch2-guides.json",
+      "sha256": "26ce790f015ed3384911749735db6ef39c760cb2ab8006f89cee7ede18f0c2e6"
+    },
+    {
+      "path": "src/data/batch2-origins-rules.json",
+      "sha256": "f00203d8514f1365c24fce9dbba148ee767da25fe3e0d0507b2479a56c599bcc"
+    },
+    {
+      "path": "src/data/batch2-origins-sources.json",
+      "sha256": "957fe3704300827edf0427811edc5fef9f201e6088cde5f18ccda731418a8eeb"
+    },
+    {
+      "path": "src/data/batch2-territories-rules.json",
+      "sha256": "1823dca71153a6db23768bd939a4d5938c87a014a7d9735566a3d96c8c111261"
+    },
+    {
+      "path": "src/data/batch2-territories-sources.json",
+      "sha256": "356ab447d3d4aa9634f779d56cdf60c541d32ec01c38f68926714c1dddb79287"
+    },
+    {
+      "path": "src/data/batch2-west-rules.json",
+      "sha256": "8ed587b5ba669125e9b88efa56ccf84c9b958b43045d012e7f7dca1e78cb8522"
+    },
+    {
+      "path": "src/data/batch2-west-sources.json",
+      "sha256": "bc8abdc611e7314f08c0e39f9c884bca644435e74996cbb481a507acb4d410c8"
+    },
+    {
+      "path": "src/data/batch3-employer-rules.json",
+      "sha256": "aa6dc989c25ab3913bdf9efdbdda1b5bec0883358fae086b7efdc6563fbdd829"
+    },
+    {
+      "path": "src/data/batch3-employer-sources.json",
+      "sha256": "2da277543b0078216e40c1471dad9688795d479c83c6c36d1ec91f7502bacda7"
+    },
+    {
+      "path": "src/data/batch3-guides.json",
+      "sha256": "f97b745b5d0484a72a47a82487e079ee8096e579ce658f302adaecaa28a3c4ff"
+    },
+    {
+      "path": "src/data/batch3-industry-rules.json",
+      "sha256": "e813c07456f1d5220ca047a327839369f2e261f3bdb65bba8843b60733a7f0c5"
+    },
+    {
+      "path": "src/data/batch3-industry-sources.json",
+      "sha256": "016b0e26bf2049e5e5de5b1b4b1c5e490f51b005518f8a54e508183a6eb1876e"
+    },
+    {
+      "path": "src/data/batch3-industry2-rules.json",
+      "sha256": "0aeefc8226baef6c20a4afbcc69e83cd46e2a906ef51830b89c04748c61ed22a"
+    },
+    {
+      "path": "src/data/batch3-industry2-sources.json",
+      "sha256": "d85303329df4b26b73e32c2c4450ed2464023ac95826e3df7ec00b707185b539"
+    },
+    {
+      "path": "src/data/batch3-local-rules.json",
+      "sha256": "64421b0a12c204dfd2af1f879bd54dbcbab084dcda4f416c9a960f93ebdb4d5c"
+    },
+    {
+      "path": "src/data/batch3-local-sources.json",
+      "sha256": "331e332d3327a3557f968028e8104308f1b510ade5e2f592741752b9320fc593"
+    },
+    {
+      "path": "src/data/batch3-local2-rules.json",
+      "sha256": "d83aabbb6c2646320cdf39eef56ea2cc56ae2fed03a986273f1058cd1021fe9f"
+    },
+    {
+      "path": "src/data/batch3-local2-sources.json",
+      "sha256": "2a50061bea58404c75d3008b25a0a545874b79fb9bd50a22074421547c15a9df"
+    },
+    {
+      "path": "src/data/batch3-origin-rules.json",
+      "sha256": "b17114c742aff0a15f9d26573faf8dc83871b07c513556dab4cd8ff78a00b344"
+    },
+    {
+      "path": "src/data/batch3-origin-sources.json",
+      "sha256": "5121633fbc841f5e376789e6afae94d0c56b7b499878739b328d6a5d55a10ae6"
+    },
+    {
+      "path": "src/data/batch3-origin2-rules.json",
+      "sha256": "4519d6b3dd96128d7e6c8bf353ca9d4d068daacc586d904642b49932862a4c3f"
+    },
+    {
+      "path": "src/data/batch3-origin2-sources.json",
+      "sha256": "1e29b7bc3ac0044b04ad9fe576cb0b3035d5fd3f5f18941f65a57166b2f9758c"
+    },
+    {
+      "path": "src/data/batch3-origin3-rules.json",
+      "sha256": "b8f358b86c3d0065924fff9bd6dfac5fc25ac34e6b98819680242097b60687e1"
+    },
+    {
+      "path": "src/data/batch3-origin3-sources.json",
+      "sha256": "2d56eab23b6b3d807b953e9dca9d12a3079b0c73fc93ad2de53b0e78b71ad9c6"
+    },
+    {
+      "path": "src/data/batch3-origin4-rules.json",
+      "sha256": "8d8435062a9c489edad0373d4308ceeb0076dc904f6d7e853cfa4b2fd169533e"
+    },
+    {
+      "path": "src/data/batch3-origin4-sources.json",
+      "sha256": "de7c1e32152dfb4d788871b995129b7056888d403438527bfa480306c7b6b8f3"
+    },
+    {
+      "path": "src/data/batch3-planning-followup-rules.json",
+      "sha256": "451cc9493617b3e1b93d9a783d940fbacf26eb54eacc3d619ee0efe4fd344f61"
+    },
+    {
+      "path": "src/data/batch3-planning-followup-sources.json",
+      "sha256": "f08fb30d10656219094c75f82b4ea0e13b02e411630cc76427c729da5a4ba75d"
+    },
+    {
+      "path": "src/data/batch3-planning-rules.json",
+      "sha256": "b632edf37748ee97ae77c22d952c634f6023855382cee0b6fecf9e15d3215cd9"
+    },
+    {
+      "path": "src/data/batch3-planning-sources.json",
+      "sha256": "c808b05e260adf8773690a1ba9b0989c46b190a74f6f7dd2eacc013bf4b29210"
+    },
+    {
+      "path": "src/data/batch3-planning2-rules.json",
+      "sha256": "a252068d851a143589d2d2ea250f6b0133a75ebf28befb09951ce7c149f3c819"
+    },
+    {
+      "path": "src/data/batch3-planning2-sources.json",
+      "sha256": "095a56ccba3586a66d1a7af44e4a2f75efb9fba2260643faef0d28e7ce1f4345"
+    },
+    {
+      "path": "src/data/batch3-recent-case-rules.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "src/data/batch3-recent-case-sources.json",
+      "sha256": "eb08d11bf4a7c5ee57452fe8f2cd88521b27edb643e86ccca30980a87d4c8e9a"
+    },
+    {
+      "path": "src/data/batch3-state-rules.json",
+      "sha256": "8ea9806d3ff88b25e92d3c5082800fe7e54fb7d4aefc36272374270e206b8c94"
+    },
+    {
+      "path": "src/data/batch3-state-sources.json",
+      "sha256": "2babed0cb4a10bf91ed1dfaa788147a06f1a6fd7c534dd7a4be813d5cbf5f790"
+    },
+    {
+      "path": "src/data/batch3-state2-rules.json",
+      "sha256": "f5bdadaecb6b00c438a9b49ceb7122043b258669f6371dfc09f2cad29cf7f10a"
+    },
+    {
+      "path": "src/data/batch3-state2-sources.json",
+      "sha256": "c45cc02ecae4533d5d60dc634f9d26eff247f2b3ad1cf11a6bc6e00f05138102"
+    },
+    {
+      "path": "src/data/batch3-state3-rules.json",
+      "sha256": "dd80fc38433f3f65f495d887b0fa284b07fb76ee2d7c75043e0d146aba2f556c"
+    },
+    {
+      "path": "src/data/batch3-state3-sources.json",
+      "sha256": "80f895bbb4eee4130f588cf28ed0c9bbdf8e0dcee56b41823fa4f2f24338ee65"
+    },
+    {
+      "path": "src/data/batch3-state4-rules.json",
+      "sha256": "a0fea0a6eb01655a1c885941dd117608de57145545eabdc9624aa06c6ca549e4"
+    },
+    {
+      "path": "src/data/batch3-state4-sources.json",
+      "sha256": "dcd661788667bd0276827bd3e4adcdce668aedcce2b38c874781712d0ccc52c7"
+    },
+    {
+      "path": "src/data/batch3-state5-rules.json",
+      "sha256": "ac46085ce3107ce22a4540c49bc55ca8cb430b7be98c7bc5f0948ca30c617531"
+    },
+    {
+      "path": "src/data/batch3-state5-sources.json",
+      "sha256": "5ea6136c33bc7ca274032ea14c3137d0d68c56121ca59d800470eb3333fcf8af"
+    },
+    {
+      "path": "src/data/case-connections.json",
+      "sha256": "e4639a23ef6ccace8b39abc827c872ee33de7f82217af545d33a35f4a82c0803"
+    },
+    {
+      "path": "src/data/case-guides.json",
+      "sha256": "0fb66e65fbedbbd160b1289cdb791a749f5f66bded3d7bc7c6e1ec6640b84389"
+    },
+    {
+      "path": "src/data/editorial-snapshot.json",
+      "sha256": "1bc9279aadeee4c19e7356568774d703ec0b2f0949988776de69174ccc7f817d"
+    },
+    {
+      "path": "src/data/fdd-guides.json",
+      "sha256": "0f2102e9f23f2efa3f57f1a4d54fe7e45cc9ad2fa1e0136617917331d09ae5a1"
+    },
+    {
+      "path": "src/data/federal-guides.json",
+      "sha256": "10067c23d65a0ed43cf5391c8fa61692df4ea13019e5320a390ecbdd1cd1094e"
+    },
+    {
+      "path": "src/data/federal-rules.json",
+      "sha256": "a5a2420c262fd8b54ab539cc30d83946da59af8025222f25e130e0ef43a36d16"
+    },
+    {
+      "path": "src/data/federal-sources.json",
+      "sha256": "daf85d59bd232c332c8432b8965d25d02c34a3744e5658e61ed264f4a28f8c44"
+    },
+    {
+      "path": "src/data/geography-guides.json",
+      "sha256": "c8fa1e998a681a415f41c75884ff98a305aeff087214d31230279e515a998b9d"
+    },
+    {
+      "path": "src/data/geography-sources.json",
+      "sha256": "94995343c0b7108b4f040f0d4d1dbd9a8e7e30a14fcf078b09cac50fb2987e22"
+    },
+    {
+      "path": "src/data/industry-guides.json",
+      "sha256": "0ca19af0c73c96fe42e4bbbdf23a82911ab1356ecbf37d327735339bed90e471"
+    },
+    {
+      "path": "src/data/markets.json",
+      "sha256": "c0517f2afca8293cf8f04ad716c79c5454dc6be31a9827cb25f3161c73b50805"
+    },
+    {
+      "path": "src/data/next-release-guides.json",
+      "sha256": "624666c334a15f3fe6825f0c4cbf02e97682d8c761d6f9d45565c33455d2dbcd"
+    },
+    {
+      "path": "src/data/next-release-rules.json",
+      "sha256": "4ad1e61b360dee4bb99224561ff380f87a6197007f2e30e5937bf5cfa99e7d69"
+    },
+    {
+      "path": "src/data/next-release-sources.json",
+      "sha256": "ee70e6ca9b9422eb3777d1be76fd5f66ef2cad51a39d6662fabce9c004f83423"
+    },
+    {
+      "path": "src/data/operational-sources.json",
+      "sha256": "b30d67b6b94b4c8337364404f7480f9996cc42b7ad9f4a7eb9556bff6f59b6da"
+    },
+    {
+      "path": "src/data/origins.json",
+      "sha256": "bc189a486fb91b3f29761365eda93cf61806254b6d25c7f4b0789e7d189de16a"
+    },
+    {
+      "path": "src/data/page-candidates.json",
+      "sha256": "0542b8ec37e7de6206920e5a7c68d98e4265673684cf5dd8e3a4566f8dc26c70"
+    },
+    {
+      "path": "src/data/practice-rules.json",
+      "sha256": "e6594e2dcd7f3d21baf25c5f664136c68df47e6f1426b68dab8eedecd00a3832"
+    },
+    {
+      "path": "src/data/practice-sources.json",
+      "sha256": "e79be2fbee923d9eee17907b9f0fb089d3d28c283e69b374e5f5a1480b1cb618"
+    },
+    {
+      "path": "src/data/site-dependencies.json",
+      "sha256": "5023930f6c0c5f047e0b57867c352f3ca85289fb233c8e6f26c79e858d6f25ff"
+    },
+    {
+      "path": "src/data/state-guides.json",
+      "sha256": "204343c5e160dd05f0f37f8a118ab94c89923ac3738d9703932cd198d9164370"
+    },
+    {
+      "path": "src/data/state-rules.json",
+      "sha256": "751432ca1c643feacdae1bf722447c645e64cfb1b8028bd57bbcc0d581be0aad"
+    },
+    {
+      "path": "src/data/state-sources.json",
+      "sha256": "257be6b294a160abe552f22ae9a6ac30a99e6cd77583da376718df77b6cc9cf8"
+    },
+    {
+      "path": "src/data/states.json",
+      "sha256": "a80b848497818fccbd4b2f2a5061dc2a12213d3d635933c2d79c66932cb9dfb9"
+    },
+    {
+      "path": "src/data/tool-definitions.json",
+      "sha256": "1653a5f00b268c9f395237fd42f3eb13e0fc101d0203a57f48a2839a8f52a5e6"
+    }
+  ],
+  "checks": {
+    "baselineComparison": {
+      "method": "Read canonical records directly from Git commit 94ed0b659eb0848c829669246949cca11263fb85, rather than comparing added dataset filename metadata. Compared full records and editorialHash where appropriate.",
+      "counts": {
+        "guides": {
+          "baseline": 290,
+          "current": 302,
+          "added": 12,
+          "removed": 0,
+          "changed": 22
+        },
+        "published": {
+          "baseline": 278,
+          "current": 295
+        },
+        "sources": {
+          "baseline": 670,
+          "current": 741,
+          "added": 71,
+          "removed": 0,
+          "changed": 7
+        },
+        "rules": {
+          "baseline": 390,
+          "current": 418,
+          "added": 28,
+          "removed": 0,
+          "changed": 13
+        }
+      },
+      "originalPublishedRoutesRetained": 278,
+      "originalDistinctPerArticleSectionBookmarksRetained": 3746,
+      "missingOrChangedOriginalRoutes": 0,
+      "lostOriginalSectionBookmarks": 0,
+      "sectionIdAlgorithm": "Unchanged from the baseline; article-presentation.ts differs only by adding /learn/ to sitemap paths.",
+      "articleBodiesMatch": "Every current teaching section matches its final explicit proposal or unchanged Git baseline, ignoring preserved aliases/legacy-index presentation metadata.",
+      "unrecordedArticleChanges": 0,
+      "unproposedSourceOrRuleIds": 0,
+      "unproposedSourceOrRuleFieldValues": 0
+    },
+    "explicitEvidenceUpdates": {
+      "sourcesAdded": 71,
+      "sourcesUpdated": 7,
+      "rulesAdded": 28,
+      "rulesUpdated": 13,
+      "removedSourceOrRuleRecords": 0,
+      "method": "Each changed field was checked against an explicit newSources/sourceUpdates/newRules/ruleUpdates value; final decision fingerprints match current integration records."
+    },
+    "publicationChanges": {
+      "newGuideRecords": 12,
+      "previousDraftOrBlockedPromotions": [
+        {
+          "id": "b2-origin-laos",
+          "path": "/from/laos/",
+          "previousStatus": "draft",
+          "outcome": "partially-verified"
+        },
+        {
+          "id": "b3-o4-ukraine",
+          "path": "/from/ukraine/",
+          "previousStatus": "blocked",
+          "outcome": "partially-verified"
+        },
+        {
+          "id": "case-octoclean-hold",
+          "path": "/cases/octoclean-order-review/",
+          "previousStatus": "blocked",
+          "outcome": "verified"
+        },
+        {
+          "id": "state-draft-california",
+          "path": "/states/california/",
+          "previousStatus": "blocked",
+          "outcome": "verified"
+        },
+        {
+          "id": "b2-east-guide-mississippi",
+          "path": "/states/mississippi/",
+          "previousStatus": "draft",
+          "outcome": "partially-verified"
+        }
+      ],
+      "currentPublished": 295,
+      "remainingUnpublished": 7,
+      "allNewlyPublicStatusesExplicitlyProposed": true
+    },
+    "relatedData": {
+      "candidateRecords": 703,
+      "candidateDecisions": {
+        "publish": 195,
+        "merge": 202,
+        "needs-research": 233,
+        "retire": 73
+      },
+      "publishedOrMergedDestinationsChecked": 397,
+      "destinations": {
+        "guideReferences": 381,
+        "toolReferences": 12,
+        "staticReferences": 4
+      },
+      "staticDestinations": [
+        "/methodology/",
+        "/plan/"
+      ],
+      "destinationResult": "All publish/merge targets are existing published guides, registered tools or actual static route files. Cited guide source/rule IDs stay within the target guide. Publication metadata remains scoped rather than declaring every legal branch researched.",
+      "learningDependencyResult": "The added learning-hub site-dependency record exactly matches research/next-release/learning-dependencies.json."
+    },
+    "dataValidation": {
+      "command": "node scripts/validate-data.mjs",
+      "result": {
+        "guides": 302,
+        "published": 295,
+        "sources": 741,
+        "rules": 418,
+        "candidates": 703,
+        "errors": 0,
+        "reviewNotes": 0
+      }
+    },
+    "workflow": {
+      "latestDecisionCount": 41,
+      "outcomes": {
+        "actual-business-facts-required": 16,
+        "verified": 4,
+        "partially-verified": 15,
+        "authoritative-ambiguity": 2,
+        "access-unresolved": 4
+      },
+      "persistedResidualResearchCount": 41,
+      "sourceOrInterpretationLimitedDecisions": 21,
+      "actualBusinessFactDecisions": 16,
+      "currentStages": {
+        "validated": 295
+      },
+      "taskStates": [
+        {
+          "id": "six-source-gaps",
+          "state": "validated-with-limits"
+        },
+        {
+          "id": "limited-guides",
+          "state": "validated-with-limits"
+        },
+        {
+          "id": "withheld-five",
+          "state": "validated-with-limits"
+        },
+        {
+          "id": "new-articles",
+          "state": "validated-with-limits"
+        },
+        {
+          "id": "learning",
+          "state": "validated"
+        },
+        {
+          "id": "redesign",
+          "state": "validated"
+        },
+        {
+          "id": "search-monitoring",
+          "state": "blocked-account-authorization"
+        },
+        {
+          "id": "release-qa",
+          "state": "validated"
+        }
+      ],
+      "currentPendingArticles": [],
+      "assessment": "Own-article content or latest research-decision changes clear the prior review/validation/live proof. Review acceptance binds both editorialHash and latest decisionFingerprint. The actual Ukraine refresh reset that article while preserving unrelated proofs. Final validation requires current approvals and retains research limits; validated/released publication stages do not label the underlying open research verified."
+    },
+    "testsReview": {
+      "method": "Read all existing fixture tests and the final added falsy-status cases. Root owns execution of the unit/full suite; this review independently ran the data validator only.",
+      "coveredGuards": [
+        "Dry run leaves files untouched",
+        "Invalid decision batch fails before any data writes",
+        "Partial guide patches preserve existing public bookmarks",
+        "Published route/status and unknown-citation rejection",
+        "Retained-evidence hash mismatch rejection",
+        "Baseline source identity cannot be replaced via duplicate addition refresh",
+        "Explicit correction of a newly added record",
+        "Approval requires current editorialHash and decisionFingerprint",
+        "Decision-only changes invalidate prior approval",
+        "Null, empty-string and false published-status patches are rejected"
+      ]
+    }
+  },
+  "findings": [
+    {
+      "id": "apply-falsy-published-status",
+      "severity": "medium",
+      "status": "fixed-and-rechecked",
+      "location": "scripts/next-release.mjs:83; tests/next-release.test.ts:38",
+      "description": "The prior truthiness guard let explicit null, false or empty-string status overwrite an existing published guide during apply. Final validation would still reject the lost original publication, so it did not bypass the release gate.",
+      "resolution": "Root changed the guard to explicit status-property presence and added all three falsy cases beside the draft-status test. The final reviewed code rejects every explicitly supplied non-published value."
+    }
+  ],
+  "openIntegrationDefects": [],
+  "notes": [
+    "There are no current unsupported source/rule additions, record-field changes or unrecorded article edits in the audited snapshot.",
+    "Source and interpretation limitations remain in 21 decisions and actual business facts remain necessary in 16; publication approval is not a universal legal clearance.",
+    "The latest workflow snapshot is recorded above. Root must complete its own final review/test/build/deployment sequence; this artifact makes no live-release or external-account verification claim."
+  ]
+}

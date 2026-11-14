@@ -6,7 +6,7 @@ import {characterEntitiesHtml4} from 'character-entities-html4';
 import {editorialHash} from './smb-edit-utils.mjs';
 import {searchTitle,semanticSectionIds} from '../src/lib/article-presentation.ts';
 
-const expectedCount=278, concurrency=6;
+const legacyExpectedCount=278, concurrency=6;
 const sha=value=>createHash('sha256').update(value).digest('hex');
 const namedEntities={...characterEntitiesHtml4,apos:"'",NonBreakingSpace:'\u00a0'};
 export function decodeHtmlEntities(value){
@@ -122,20 +122,22 @@ export function inspectArticleHtml(html,{guide,canonicalOrigin,sourceUrls,baseli
  return {errors,checks:{h1Count:h1.length,answerCount:answers.length,mainSections:mainSections.length,bodyParagraphs,bodyBullets,bodyTables,bodyTableCells,scopeItems:limitations.length,nextStepParagraphs:nextSteps.length===1?doc.children(nextSteps[0],'p').length:0,expectedFragments:expectedIds.size,sourceLinks:sourceUrls.length,canonical:canonical[0]?.attrs.href??null}};
 }
 
-async function loadInventory(cwd){
+async function loadInventory(cwd,workflowDir){
  const files=(await readdir(resolve(cwd,'src/data'))).filter(file=>/guides\.json$|sources\.json$|rules\.json$/.test(file)).sort();
- const paths=['research/smb-edit/input.json','research/smb-edit/fragments.json','research/smb-edit/workflow.json',...files.map(file=>'src/data/'+file)];
+ const paths=['input.json','fragments.json','workflow.json'].map(file=>resolve(cwd,workflowDir,file)).concat(files.map(file=>resolve(cwd,'src/data',file)));
  const snapshots=await Promise.all(paths.map(async path=>({path,raw:await readFile(resolve(cwd,path),'utf8')})));
  const data=new Map(snapshots.map(file=>[file.path,JSON.parse(file.raw)]));
- const all=files.filter(file=>file.endsWith('guides.json')).flatMap(file=>data.get('src/data/'+file));
+ const all=files.filter(file=>file.endsWith('guides.json')).flatMap(file=>data.get(resolve(cwd,'src/data',file)));
  return {guides:all.filter(g=>g.status==='published'),baseline:data.get(paths[0]),fragments:data.get(paths[1]),workflow:data.get(paths[2]),
-  sources:new Map(files.filter(file=>file.endsWith('sources.json')).flatMap(file=>data.get('src/data/'+file)).map(source=>[source.id,source])),
-  rules:new Map(files.filter(file=>file.endsWith('rules.json')).flatMap(file=>data.get('src/data/'+file)).map(rule=>[rule.id,rule])),
+  sources:new Map(files.filter(file=>file.endsWith('sources.json')).flatMap(file=>data.get(resolve(cwd,'src/data',file))).map(source=>[source.id,source])),
+  rules:new Map(files.filter(file=>file.endsWith('rules.json')).flatMap(file=>data.get(resolve(cwd,'src/data',file))).map(rule=>[rule.id,rule])),
   snapshotHash:sha(JSON.stringify(snapshots.map(file=>[file.path,sha(file.raw)])))};
 }
 
 function validatedArticles(inventory){
  const {guides,baseline,fragments,workflow,sources,rules}=inventory,errors=[];
+ const expectedCount=Object.hasOwn(workflow,'expectedArticleCount')?workflow.expectedArticleCount:legacyExpectedCount;
+ if(!Number.isInteger(expectedCount)||expectedCount<1||expectedCount>10000)errors.push('expectedArticleCount must be an integer from 1 to 10000');
  for(const[label,rows]of [['published guides',guides],['baseline guides',baseline],['workflow articles',workflow.articles],['baseline fragment records',fragments]]){
   if(rows.length!==expectedCount||new Set(rows.map(row=>row.id)).size!==expectedCount)errors.push(`Expected exactly ${expectedCount} unique ${label}`);
  }
@@ -151,7 +153,7 @@ function validatedArticles(inventory){
   return {guide,contentHash:hash,validatedHash:entry?.validatedHash,reviewedHash:entry?.reviewedHash,sourceUrls:[...new Set([...sourceIds].map(id=>sources.get(id)?.url).filter(Boolean))],baselineFragments:(prior?.sections??[]).flatMap(section=>[section.semanticId,section.legacyId].filter(Boolean))};
  });
  if(workflow.articles.some(entry=>!ids.has(entry.id))||fragments.some(entry=>!ids.has(entry.id)))errors.push('Workflow or fragment inventory contains an unexpected article');
- return {articles,errors};
+ return {articles,errors,expectedCount};
 }
 
 function siteOrigin(value){
@@ -166,12 +168,13 @@ async function atomicJson(path,value){
  await writeFile(temporary,JSON.stringify(value,null,2)+'\n');await rename(temporary,path);
 }
 
-export async function verifyPublishedArticles({cwd=process.cwd(),origin='http://localhost:3000',canonicalOrigin=origin,advance=false,fetchImpl=fetch,onProgress=()=>{}}={}){
+export async function verifyPublishedArticles({cwd=process.cwd(),origin='http://localhost:3000',canonicalOrigin=origin,workflowDir='research/smb-edit',advance=false,fetchImpl=fetch,onProgress=()=>{}}={}){
  const target=siteOrigin(origin),canonical=siteOrigin(canonicalOrigin);
  if(target.url!==canonical.url&&!target.local)throw Error('A remote verification must use its own canonical origin');
  if(advance&&(target.local||target.url!==canonical.url||!target.url.startsWith('https://')))throw Error('Workflow advancement requires the actual released HTTPS origin, not a local preview');
- const startedAt=new Date().toISOString(),inventory=await loadInventory(cwd),preflight=validatedArticles(inventory);
- const result={startedAt,origin:target.url,canonicalOrigin:canonical.url,expectedArticles:expectedCount,concurrency,snapshotHash:inventory.snapshotHash,allPassed:false,workflowAdvanced:false,errors:preflight.errors,results:[]};
+ const startedAt=new Date().toISOString(),inventory=await loadInventory(cwd,workflowDir),preflight=validatedArticles(inventory),expectedCount=preflight.expectedCount;
+ const artifact=resolve(cwd,workflowDir)===resolve(cwd,'research/smb-edit')?'artifacts/smb-live-verification.json':'artifacts/next-release-live-verification.json';
+ const result={startedAt,origin:target.url,canonicalOrigin:canonical.url,workflowDir,artifact,expectedArticles:expectedCount,concurrency,snapshotHash:inventory.snapshotHash,allPassed:false,workflowAdvanced:false,errors:preflight.errors,results:[]};
  if(!result.errors.length){
   let next=0,completed=0;
   await Promise.all(Array.from({length:concurrency},async()=>{
@@ -193,15 +196,15 @@ export async function verifyPublishedArticles({cwd=process.cwd(),origin='http://
    }
   }));
   result.results.sort((a,b)=>a.path.localeCompare(b.path));
-  if((await loadInventory(cwd)).snapshotHash!==inventory.snapshotHash)result.errors.push('Local articles, evidence, fragments or workflow changed during verification; run again against one fixed revision');
+  if((await loadInventory(cwd,workflowDir)).snapshotHash!==inventory.snapshotHash)result.errors.push('Local articles, evidence, fragments or workflow changed during verification; run again against one fixed revision');
  }
  result.completedAt=new Date().toISOString();
  result.allPassed=!result.errors.length&&result.results.length===expectedCount&&result.results.every(page=>page.passed);
  if(advance&&result.allPassed){
   for(const entry of inventory.workflow.articles)Object.assign(entry,{state:'live-verified',liveVerifiedHash:entry.contentHash,liveVerifiedAt:result.completedAt,liveVerifiedOrigin:target.url});
-  await atomicJson(resolve(cwd,'research/smb-edit/workflow.json'),inventory.workflow);result.workflowAdvanced=true;
+  await atomicJson(resolve(cwd,workflowDir,'workflow.json'),inventory.workflow);result.workflowAdvanced=true;
  }
- await atomicJson(resolve(cwd,'artifacts/smb-live-verification.json'),result);
+ await atomicJson(resolve(cwd,artifact),result);
  return result;
 }
 
@@ -210,14 +213,14 @@ async function main(){
  for(let index=0;index<args.length;index++){
   const arg=args[index];
   if(arg==='--advance')options.advance=true;
-  else if(['--origin','--canonical-origin'].includes(arg)){
-   if(!args[index+1]||args[index+1].startsWith('--'))throw Error(arg+' requires a site origin');
-   options[arg==='--origin'?'origin':'canonicalOrigin']=args[++index];
-  }else throw Error('Use [--origin https://released-site] [--canonical-origin URL for local preview] [--advance]');
+  else if(['--origin','--canonical-origin','--workflow-dir'].includes(arg)){
+   if(!args[index+1]||args[index+1].startsWith('--'))throw Error(arg+' requires '+(arg==='--workflow-dir'?'a workflow directory':'a site origin'));
+   options[{'--origin':'origin','--canonical-origin':'canonicalOrigin','--workflow-dir':'workflowDir'}[arg]]=args[++index];
+  }else throw Error('Use [--origin https://released-site] [--canonical-origin URL for local preview] [--workflow-dir research/next-release] [--advance]');
  }
  if(options.advance&&!options.origin)throw Error('--advance requires the explicit released --origin');
  const result=await verifyPublishedArticles({...options,onProgress:progress=>console.log(JSON.stringify(progress))});
- console.log(JSON.stringify({origin:result.origin,articles:result.results.length,passed:result.results.filter(page=>page.passed).length,allPassed:result.allPassed,workflowAdvanced:result.workflowAdvanced,artifact:'artifacts/smb-live-verification.json',errors:result.errors}));
+ console.log(JSON.stringify({origin:result.origin,articles:result.results.length,passed:result.results.filter(page=>page.passed).length,allPassed:result.allPassed,workflowAdvanced:result.workflowAdvanced,artifact:result.artifact,errors:result.errors}));
  if(!result.allPassed)process.exitCode=1;
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(resolve(process.argv[1])).href)main().catch(error=>{console.error(error instanceof Error?error.message:String(error));process.exitCode=1;});

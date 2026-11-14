@@ -898,7 +898,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 3,
     "ruleIds": [
       "il-forms",
       "b3-state3-il-annual"
@@ -947,7 +947,8 @@
         "id": "unverified-current-process",
         "heading": "Confirm the current channel before submitting",
         "paragraphs": [
-          "The annual sheet is undated and contains hardcopy, flash-drive and no-email instructions. The currently accepted channel and fee were not verified. The cited preparation material also does not establish complete initial offer/sale timing, exemption tests, advertising, relationship or broker duties."
+          "NASAA’s downloaded EFD franchise-fee schedule is dated April 15, 2025 and lists $500 for an Illinois initial filing and $100 for renewal. It cautions that updates may not be reflected. This is dated provider information, not a verified current state-fee instruction or a statement about separate system charges.",
+          "The annual tips sheet is undated and contains hardcopy, flash-drive and no-email instructions. NASAA describes electronic franchise filing generally, but the actual current Illinois participation and submission pages were not readable. Do not infer a currently accepted route from either source alone. Complete initial offer/sale effectiveness timing also remains unverified from an actually retrieved current statute/rule body."
         ],
         "aliases": [
           "confirm-undated-submission-instructions-before-using-them",
@@ -955,22 +956,24 @@
         ],
         "sourceIds": [
           "state-il-info",
-          "b3-state3-il-annual"
+          "b3-state3-il-annual",
+          "nr-il-efd-fees2025"
         ]
       }
     ],
     "sourceIds": [
       "state-il-info",
-      "b3-state3-il-annual"
+      "b3-state3-il-annual",
+      "nr-il-efd-fees2025"
     ],
     "nextStage": 1,
     "practicalOutput": "Confirm the assurance actually required and the current submission instructions before relying on a proposed filing or annual renewal.",
     "limitations": [
-      "Limited to the cited document-preparation and annual-sheet instructions. Initial timing, current fee/channel and complete exemption or relationship rules remain unverified."
+      "Limited to the cited assurance/preparation documents, undated annual tips and explicitly dated 2025 provider fee schedule. Current initial effectiveness, fee and Illinois-specific accepted channel remain unresolved; the accessible older state mirror is not a current substitute."
     ],
     "learningSummary": "Illinois’s published filing forms do not mean every applicant must use every assurance arrangement. Match the actual seller’s obligations to the funding or guarantee being proposed; this limited note does not establish initial offer timing.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:39:51.411Z",
+    "contentModifiedAt": "2026-11-14T02:12:13.625Z",
     "seoTitle": "Illinois franchise assurance documents and annual preparation",
     "relatedPaths": [
       "/fdd/item-21/",
@@ -2250,8 +2253,8 @@
   {
     "id": "b2-east-guide-arkansas",
     "path": "/states/arkansas/",
-    "title": "Arkansas franchise-law update: enacted 2023 changes and failed 2025 bill",
-    "description": "Distinguish enacted Act 847 of 2023 from failed HB 1177 of 2025. Current provision, agreement-date and transaction application still need review.",
+    "title": "Arkansas franchise relationships: what the 2023 amendment changes",
+    "description": "Read the actual 2023 amendment’s coverage, 30-day transfer response and qualified family-transfer rules with their separate agreement-date limits.",
     "family": "state",
     "topic": "relationship",
     "jurisdictions": [
@@ -2260,18 +2263,25 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 4,
     "ruleIds": [
       "b2-east-ar-applicability",
-      "b2-east-ar-failed-proposal"
+      "b2-east-ar-failed-proposal",
+      "nr-ar-2023-specific"
     ],
     "sections": [
       {
         "id": "enacted-versus-proposed",
-        "heading": "What the reviewed records establish",
+        "heading": "The enacted amendment does not give every agreement the same treatment",
         "paragraphs": [
-          "Act 847 of 2023 amended the Franchise Practices Act’s application and added relationship provisions. The official marked text strikes the previous federal Franchise Rule coverage reference from the exclusion; deleted words are not a condition still to apply.",
-          "The legislature records HB 1177 of 2025 as having died in committee when the session adjourned. That proposal did not become an operative amendment through the bill. Preparing a Franchise Disclosure Document (FDD) does not establish exclusion from the enacted relationship law."
+          "Act 847 of 2023 removes the old reference that could exclude a franchise merely because it was covered by the federal Franchise Rule. Preparing a Franchise Disclosure Document (FDD) therefore does not establish exclusion from Arkansas relationship protections.",
+          "The enacted applicability wording concerns franchises entered into, renewed or transferred after March 4, 1977 whose performance contemplates or requires an Arkansas place of business. It retains stated exclusions and adds an exclusion where both the initial franchise fee does not exceed $20,000 and the initial term does not exceed one year. The specified wholesaler–beverage-supplier relationships are covered regardless of those fee or term amounts.",
+          "This article explains the actual 2023 amendment. The complete current consolidated chapter and later merits decisions have not been verified from readable current primary bodies; this is not complete current coverage or termination advice."
+        ],
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025",
+          "nr-ar-session2023"
         ],
         "aliases": [
           "the-business-question-comes-after-the-sale-as-well-as-before-it",
@@ -2285,42 +2295,68 @@
           "section-4",
           "make-the-next-review-specific",
           "section-5"
-        ],
-        "sourceIds": [
-          "b2-east-ar-2023",
-          "b2-east-ar-2025"
         ]
       },
       {
         "id": "place-and-agreement-dates",
-        "heading": "What remains necessary for an actual change",
+        "heading": "Use the date rule for the actual provision",
         "paragraphs": [
-          "The enacted text addresses performance contemplating or requiring an Arkansas place of business and has stated exclusions. Its application provisions distinguish retroactive treatment from provisions applying to agreements entered into or renewed after the Act’s effective date.",
-          "There is no single assumed starting date for the whole Act. The actual provision, premises, original and renewal dates and claimed exclusions must be reconciled with current consolidated law and relevant decisions. That current application is not established by this limited review, including where a contract chooses another jurisdiction’s law."
+          "The Act’s findings and applicability amendment apply retroactively to the effective date of Act 411 of 1991. Its added franchise-owner definition, transfer amendments and new venue, material-cause and survivor provisions apply only to agreements or contracts entered into or renewed on and after Act 847’s effective date. The new franchise-owner definition includes someone with a financial interest or someone who guarantees the franchise entity’s obligations.",
+          "The legislature’s 2023 session explanation identifies August 1, 2023 as the effective date for Acts without an emergency clause or a specified effective date; Act 847 has neither. The constitutional limits stated in the applicability amendment remain relevant. Approval on April 13, 2023 is not itself the starting date for every new provision."
+        ],
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025",
+          "nr-ar-session2023"
         ],
         "aliases": [
           "place-and-agreement-dates-can-lead-to-different-answers",
           "section-3"
+        ]
+      },
+      {
+        "id": "transfer-amendment",
+        "heading": "A transfer request is different from a qualified family transfer",
+        "paragraphs": [
+          "For transfers to which the amended section applies, the written notice identifies the proposed buyer, address, financial qualifications and the preceding five years of business experience. Within 30 days after receipt, the franchisor must approve in writing or give written notice identifying a material deficiency in character, financial ability or experience under its existing standards, consistently applied to similarly situated franchisees. No reply within the stated 30 days means approval is deemed granted.",
+          "The buyer must agree in writing to the reasonable and legal franchise requirements then in effect. A spouse, child or heir who is operationally and financially qualified follows a separate branch: franchisor approval is not required, and the franchisor and specified related parties cannot exercise a right of first refusal over that transfer.",
+          "Outside that family branch, the amendment preserves the stated contractual right to buy the franchise or substantially all its assets on precisely the terms of a genuine third-party offer. A right of first refusal means the franchisor can match the proposed deal; it is not the same as an unrestricted veto."
         ],
         "sourceIds": [
           "b2-east-ar-2023",
-          "b2-east-ar-2025"
-        ]
+          "nr-ar-session2023"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "other-amendments",
+        "heading": "The new contract protections have their own agreement-date limit",
+        "paragraphs": [
+          "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas; venue means where the case must be heard, which is distinct from the law governing the contract. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
+          "Those additions share the post-effective-date agreement/renewal condition above. They do not establish that every older contract automatically receives every new provision. HB 1177 of 2025 died in committee; its proposed insurance wording did not become law through that bill."
+        ],
+        "sourceIds": [
+          "b2-east-ar-2023",
+          "b2-east-ar-2025",
+          "nr-ar-session2023"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
       "b2-east-ar-2023",
-      "b2-east-ar-2025"
+      "b2-east-ar-2025",
+      "nr-ar-session2023"
     ],
     "nextStage": 1,
-    "practicalOutput": "Use the enacted text rather than HB 1177; resolve the current provision and its agreement-date conditions before changing transfer or exit terms.",
+    "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch.",
     "limitations": [
-      "This is a limited enacted-versus-proposed update, not complete current Arkansas relationship or franchise-sales advice. Current consolidation and transaction-specific application remain unresolved."
+      "Explains actually read 2023 amendments and their date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved; federal disclosure and transaction-specific facts are separate. The effect of a clause choosing another jurisdiction’s law is not resolved here."
     ],
-    "learningSummary": "The identified 2023 Arkansas amendment was enacted; HB 1177 of 2025 was not. Neither a failed proposal nor an old disclosure document establishes the current rule for changing an operator’s transfer or exit terms.",
+    "learningSummary": "The 2023 Act changes relationship protections as well as transfers, but its provisions do not all reach the same contracts. Match the particular rule to the agreement and renewal date before assuming a transfer veto or an old federal exclusion applies.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:39:51.412Z",
-    "seoTitle": "Arkansas franchise-law update: enacted 2023 changes and failed 2025 bill",
+    "contentModifiedAt": "2026-11-14T02:12:13.620Z",
+    "seoTitle": "Arkansas franchise transfers and the 2023 relationship amendment",
     "relatedPaths": [
       "/fdd/item-17/",
       "/us-expansion/changed-franchise-agreement/",
@@ -2330,37 +2366,121 @@
   {
     "id": "state-draft-california",
     "path": "/states/california/",
-    "title": "California: franchise and operating research",
-    "description": "Unpublished research record; evidence and original jurisdiction-specific explanation required.",
+    "title": "California franchise registration: can you fund the opening obligations?",
+    "description": "Understand DFPI’s financial-capacity review, conditional assurance options and franchise filing process, with the separate July 2027 broker deadline.",
     "family": "state",
     "topic": "sales-disclosure",
     "jurisdictions": [
       "California"
     ],
-    "status": "blocked",
-    "lastReviewed": null,
-    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
-    "readMinutes": 0,
-    "ruleIds": [],
-    "sections": [],
+    "status": "published",
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 6,
+    "ruleIds": [
+      "nr-ca-financial-assurance",
+      "nr-ca-broker-deadline",
+      "nr-ca-franses-filing"
+    ],
+    "sections": [
+      {
+        "id": "financial-capacity",
+        "heading": "The question behind the financial review",
+        "paragraphs": [
+          "A franchisor is the business granting the right to operate its brand and system; the franchisee is the buyer of that right. Before relying on a new California franchisee’s initial fee, ask how you will pay for the training, equipment or other opening support promised in the franchise disclosure document, or FDD, and agreement.",
+          "DFPI’s registration guidelines require present financial ability to meet those obligations without the proposed franchisee’s funds. If that ability is not demonstrated, the Commissioner will impound the initial fees: the money is held under an approved arrangement rather than being freely available to fund your opening work. An impound application needs the purchase-receipt form and the depositary’s written consent."
+        ],
+        "sourceIds": [
+          "state-ca-guidelines"
+        ],
+        "aliases": [
+          "section-0"
+        ]
+      },
+      {
+        "id": "assurance-options",
+        "heading": "Choose an assurance route you can actually support",
+        "bullets": [
+          "Increase the franchisor’s capital enough to demonstrate its ability to meet the proposed obligations. The guidelines do not promise approval at a universal dollar amount.",
+          "Provide a surety bond that meets the applicable California rule. A bond is a conditional assurance route, not proof that every applicant qualifies for the same amount or terms.",
+          "Provide an adequate guarantee of performance. Include both the guarantee and the guarantor’s audited financial statements in the FDD; those statements must show the guarantor can meet the franchisor’s obligations. A foreign parent’s willingness to help is not the same as this documented guarantee.",
+          "Defer the initial franchise fee until both conditions are met: the franchisor has completed its initial obligations disclosed in Item 11, and the franchisee is open for business. Disclose the deferral in the FDD."
+        ],
+        "paragraphs": [
+          "Fictional example: a franchisor promises pre-opening training and chooses fee deferral. Training is finished on Monday, but the outlet opens on Friday. Monday alone does not satisfy the stated deferral condition. The franchisor needs funds to carry its work through opening without assuming it can collect the deferred fee as soon as training ends."
+        ],
+        "sourceIds": [
+          "state-ca-guidelines"
+        ],
+        "aliases": [
+          "section-1"
+        ]
+      },
+      {
+        "id": "financial-statements",
+        "heading": "An audit and financial assurance answer different questions",
+        "paragraphs": [
+          "The normal application includes the franchisor’s financial statements audited by an independent certified public accountant (CPA) in accordance with generally accepted accounting principles (GAAP), together with the accountant’s signed consent for their use in the FDD. An audit does not by itself establish enough financial capacity to avoid an impound.",
+          "DFPI may accept a reviewed balance sheet instead of an audit only when all stated conditions apply: this is the franchisor’s first California registration application; it has no prior audited statements; the reviewed balance sheet is dated within 90 days of filing; the financials include profit-and-loss statements for the prior three years or from inception, cash-flow information and appropriate notes; and the review follows American Institute of Certified Public Accountants (AICPA) review standards. California did not adopt the federal option to phase in unaudited statements."
+        ],
+        "sourceIds": [
+          "state-ca-guidelines"
+        ],
+        "aliases": [
+          "section-2"
+        ]
+      },
+      {
+        "id": "franses-workflow",
+        "heading": "A submitted application is still an application",
+        "paragraphs": [
+          "FRANSES is DFPI’s franchise and securities filing portal. The filer guide directs a new user to request authority to represent the organization, creating the organization first if needed. Its franchise application list includes the facing page, audited financial statements, auditor consent, financial-records authorization, FDD, costs and source-of-funds form, and Internet advertising exemption notice. A franchise-seller form is conditional on the answer about sellers offering or selling in California. The financial-statement exception above remains a separate eligibility question.",
+          "Complete the required fields and attachments, calculate the payment, select “Complete Filing Details,” and pay. Approved payment submits the filing; saving a draft does not. The guide separately identifies submission, “Filer Action Needed” and “Effective” notifications. Check the actual application status and any DFPI conditions before treating registration as effective."
+        ],
+        "sourceIds": [
+          "nr-ca-franses-guide",
+          "state-ca-guidelines"
+        ],
+        "aliases": [
+          "section-3"
+        ]
+      },
+      {
+        "id": "broker-deadline",
+        "heading": "Broker registration is a separate July 2027 issue",
+        "paragraphs": [
+          "The broker timetable has moved beyond the older unfunded-program description. In its notice published on 6 November 2026, DFPI expressly identifies 1 July 2027 as the broker registration deadline and describes the authorized system work. The same notice proposes broker application and disclosure forms and electronic filing rules; its comment deadline is 21 December 2026. Those proposed procedures are not adopted rules or proof that broker registration is already operational.",
+          "Do not assume every person covered by the federal term “franchise seller” is a California franchise broker. DFPI’s notice explains that California’s broker definition is generally narrower and generally excludes franchisors and their officers, directors and employees, among others. For a compensated intermediary, check the applicable definition and the final implementation process. This separate broker regime does not replace the franchisor’s registration or federal disclosure duties."
+        ],
+        "sourceIds": [
+          "nr-ca-broker-notice",
+          "b3-state-ca-budget-final"
+        ],
+        "aliases": [
+          "section-4"
+        ]
+      }
+    ],
     "sourceIds": [
-      "state-ca-instructions",
-      "state-ca-franchises",
-      "state-ca-section",
       "state-ca-guidelines",
-      "b2-blocked-ca-instructions",
-      "b2-blocked-ca-broker-faq",
-      "b3-state-ca-budget-final",
-      "b3-state-ca-budget-may"
+      "nr-ca-franses-guide",
+      "nr-ca-broker-notice",
+      "b3-state-ca-budget-final"
     ],
     "nextStage": 1,
-    "practicalOutput": "A reviewed jurisdiction-specific commitment checklist, pending research.",
+    "practicalOutput": "Decide how the franchisor will fund its promised opening work, then prepare the matching financial statements and assurance documents before submitting the application.",
     "limitations": [
-      "Not published or included in the sitemap. Complete current financial-assurance application guidance remains inaccessible through ordinary public retrieval.",
-      "November 13, 2026 retries: DFPI application instructions, guidelines, broker page and Leginfo returned HTTP 403. The OAL-authorized public CCR publisher also returned 403; indexed extracts were not used to publish rule text.",
-      "The official November 9, 2026 final budget report records $125,000 for SB 919 system enhancements. The May budget request planned July 2027 implementation. Current operative-date, appropriation-date and live broker workflow verification remain open; an old unfunded-program snippet is not a current conclusion.",
-      "Guarantees, capital infusion, fee deferral, escrow conditions, surety terms and case-specific financial assurance require the relevant current full sources. The independently published janitorial/employment pages do not resolve this franchise-sales hold."
-    ]
+      "This covers the reviewed financial-assurance and filing questions, not every California registration exemption, franchise relationship rule, advertising condition, employment issue or operating permit.",
+      "The broker procedures were proposed on 6 November 2026. Final forms, later changes and the individual application outcome require their actual current records; no live broker workflow is asserted."
+    ],
+    "seoTitle": "California franchise financial assurance, FRANSES and broker registration deadline",
+    "learningSummary": "California asks whether the franchisor can deliver its promised opening support without spending the new franchisee’s initial fee. That question affects your capital, fee timing and application. Broker registration has a separate deadline and developing process.",
+    "keyTerms": [],
+    "relatedPaths": [
+      "/us-expansion/fdd-disclosure-timing/",
+      "/cases/octoclean-order-review/"
+    ],
+    "contentModifiedAt": "2026-11-14T02:12:13.264Z"
   },
   {
     "id": "b2-east-guide-colorado",
@@ -2738,29 +2858,94 @@
   {
     "id": "b2-east-guide-georgia",
     "path": "/states/georgia/",
-    "title": "Georgia trade name versus trademark: what a filing proves",
-    "description": "Separate company names, state mark records and group licences. Current franchise-sales requirements remain unresolved by the 2006-labelled statutory source.",
+    "title": "Georgia business opportunities: disclosure, payments and the state filing",
+    "description": "Check the actual coverage branch, the 48-hour disclosure, escrow and conditional bond duties, and the service-of-process filing before a covered sale.",
     "family": "state",
-    "topic": "ip-data",
+    "topic": "sales-disclosure",
     "jurisdictions": [
       "Georgia"
     ],
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 1,
+    "readMinutes": 4,
     "ruleIds": [
       "b2-east-ga-name-mark",
-      "b2-east-ga-source-version"
+      "b2-east-ga-source-version",
+      "nr-ga-coverage",
+      "nr-ga-disclosure-payment",
+      "nr-ga-filing-advertising"
     ],
     "sections": [
       {
+        "id": "covered-offer",
+        "heading": "A programme and a registered mark are only part of the test",
+        "paragraphs": [
+          "For an offer enabling the purchaser to start a business, section 10-1-410 covers specified device-location promises, buying back the purchaser’s output, or a sales/marketing programme tied to a total initial payment exceeding $500. The location branch concerns the listed vending, display and amusement devices; it is not every kind of help finding customers.",
+          "The registered trademark or service-mark exception belongs to the sales/marketing-programme branch. It is not a blanket exception to the other branches. The Act also has specific business and seller exclusions. Calculate the defined initial payment, including the specified first-six-month commitments and total instalment price, before using the $500 comparison.",
+          "A seller soliciting or offering in Georgia can fall within the definition, as can a seller with its principal business place there even when soliciting nonresidents. Federal franchise and business-opportunity definitions remain separate."
+        ],
+        "sourceIds": [
+          "nr-ga-code2024",
+          "nr-ga-supp2025",
+          "nr-ga-act723-2026"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "georgia-disclosure",
+        "heading": "Give the state disclosure before the first commitment",
+        "paragraphs": [
+          "For a covered business-opportunity sale, give the prescribed written disclosure at least 48 hours before the earlier contract signature or receipt of consideration—money or other value. It needs Georgia’s specified cover and contents, including the actual services and training, a financial statement no older than 13 months updated for material changes, and required earnings information where claims are made.",
+          "A Part 436 federal document can replace only the state paragraphs specifically listed in section 10-1-411(c). The separate Georgia cover and the remaining state content still matter. Update the required information for material changes and at least annually. An independently applicable federal disclosure clock is not shortened by the state’s 48 hours."
+        ],
+        "sourceIds": [
+          "nr-ga-code2024",
+          "nr-ga-supp2025",
+          "nr-ga-act723-2026"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "payment-and-assurance",
+        "heading": "Do not collect the whole price upfront",
+        "paragraphs": [
+          "In a business-opportunity sale, the seller may collect no more than 15% of the total purchase price. Put the balance in the independent escrow account agreed by both parties. Escrow holds the money separately; release is 60 days after the purchaser starts operating or on complete contractual performance, whichever happens first.",
+          "Separately, a promise to refund the price or repurchase supplied items if the purchaser is dissatisfied, under an agreement requiring total initial payment exceeding $500, triggers the stated bond or trust of at least $75,000. The bond must come from an authorised surety; the trust must use a licensed and insured bank or savings institution in Georgia. That subsection excludes deposits from the price paid. Multilevel distribution companies have separate bond and below-$500 exception rules."
+        ],
+        "sourceIds": [
+          "nr-ga-code2024",
+          "nr-ga-supp2025",
+          "nr-ga-act723-2026"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "filing-and-claims",
+        "heading": "The service-of-process filing is not state approval",
+        "paragraphs": [
+          "Section 10-1-416 requires the covered seller with Georgia purchasers/participants, agreements made there or its principal business place there to appoint the Secretary of State to receive legal process and pay the $10 filing fee. This is not approval of the offer or a substitute for ordinary entity filings.",
+          "Support income or earnings claims with documented data and supply it to the Attorney General on request. Do not advertise state endorsement or even refer to compliance with this part in the prohibited manner. Written contracts must describe the actual services, payment terms, business address and approximate delivery date."
+        ],
+        "sourceIds": [
+          "nr-ga-code2024",
+          "nr-ga-supp2025",
+          "nr-ga-act723-2026"
+        ],
+        "aliases": []
+      },
+      {
         "id": "name-mark-permission",
-        "heading": "Three different records answer different questions",
+        "heading": "Keep the seller’s brand authority separate",
         "paragraphs": [
           "The Secretary of State distinguishes a business/trade name (often called a DBA) from a trademark or service mark identifying goods or services. Identify which entity owns the actual mark and what permission the U.S. seller has to use and sublicense it.",
           "For example, a Singapore parent’s company name, its U.S. seller’s trading name and the mark on training material can be different records. None substitutes for the licence allowing the actual seller to grant the proposed rights.",
           "The current application instructions say the office does not search federal or other-state registrations and cannot guarantee availability. State acceptance is not a completed assessment of competing U.S. rights."
+        ],
+        "sourceIds": [
+          "b2-east-ga-agency",
+          "b2-east-ga-forms",
+          "b2-east-ga-mark"
         ],
         "aliases": [
           "give-each-record-its-proper-name",
@@ -2772,51 +2957,49 @@
           "section-3",
           "make-a-rights-and-source-table",
           "section-4"
-        ],
-        "sourceIds": [
-          "b2-east-ga-agency",
-          "b2-east-ga-forms",
-          "b2-east-ga-mark"
         ]
       },
       {
         "id": "historical-sales-text",
-        "heading": "Current franchise-sales law is not established here",
+        "heading": "A refund remedy has its own notice and return conditions",
         "paragraphs": [
-          "The Attorney General’s hosted business-opportunity text is labelled current through the 2006 Regular Session. It establishes historical wording, not current thresholds, exclusions or deadlines.",
-          "The linked trademark guides address the broader rights questions. Current Georgia business-opportunity coverage, filings, disclosure, advertising and relationship requirements remain unresolved; a name or mark record does not answer them."
+          "Section 10-1-417 provides specified violation-based remedies, including written notice to the seller within one year of the contract for its voiding/refund route. The purchaser must make the goods available for return and cannot be unjustly enriched. A late-delivery complaint or other dispute needs the actual statutory trigger; a refund is not automatic merely because the business disappoints.",
+          "The separate multilevel-contract cancellation provisions are not a general cancellation right for every franchise."
+        ],
+        "sourceIds": [
+          "nr-ga-code2024",
+          "nr-ga-supp2025",
+          "nr-ga-act723-2026"
         ],
         "aliases": [
           "a-law-page-can-be-readable-and-still-be-old",
           "section-2",
           "keep-the-unanswered-sales-questions-visible",
           "section-5"
-        ],
-        "sourceIds": [
-          "b2-east-ga-agency",
-          "b2-east-ga-forms",
-          "b2-east-ga-mark"
         ]
       }
     ],
     "sourceIds": [
       "b2-east-ga-agency",
       "b2-east-ga-forms",
-      "b2-east-ga-mark"
+      "b2-east-ga-mark",
+      "nr-ga-code2024",
+      "nr-ga-supp2025",
+      "nr-ga-act723-2026"
     ],
     "nextStage": 1,
-    "practicalOutput": "Check the mark owner and actual seller’s licence, and use current authority for any claimed Georgia sales-law exclusion.",
+    "practicalOutput": "Before taking a covered purchaser’s commitment or money, establish the coverage branch and arrange the actual disclosure, escrow, any required bond and service-of-process filing.",
     "limitations": [
-      "The 2006-labelled statute is historical evidence. This note neither completes U.S. brand clearance nor establishes current Georgia franchise-sales duties."
+      "Selected ordinary business-opportunity duties, not every multilevel plan, industry-specific relationship law or exemption application. The actual parties, promises, mark, payments and state connections control; federal duties and U.S. brand availability remain separate."
     ],
-    "learningSummary": "Recording a Georgia business or trade name does not establish ownership of a trademark or authority for another group company to license it. Georgia’s state mark filing also does not complete a U.S. availability search.",
+    "learningSummary": "A registered mark does not automatically remove every Georgia business-opportunity duty. Identify the exact promise and payment, then apply the state disclosure and money-handling rules separately from federal disclosure.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:39:51.412Z",
-    "seoTitle": "Georgia trade name versus trademark: what a filing proves",
+    "contentModifiedAt": "2026-11-14T02:12:13.605Z",
+    "seoTitle": "Georgia business-opportunity disclosure and payment rules",
     "relatedPaths": [
-      "/us-expansion/trademark-clearance/",
-      "/us-expansion/trademark-quality-control/",
-      "/us-expansion/franchising-vs-licensing/"
+      "/us-expansion/franchising-vs-licensing/",
+      "/us-expansion/business-opportunity-rule/",
+      "/us-expansion/trademark-clearance/"
     ]
   },
   {
@@ -3456,7 +3639,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted source review; no professional legal review",
-    "readMinutes": 1,
+    "readMinutes": 2,
     "ruleIds": [
       "b2-east-ma-services"
     ],
@@ -3465,7 +3648,7 @@
         "id": "services-threshold",
         "heading": "Identify whose services and alleged employer are at issue",
         "paragraphs": [
-          "Chapter 149, section 148B starts with an individual performing services. Apply that threshold to the actual relationship and relevant current cases before moving to the exception. A brand, operator company, owner and technician do not all acquire one status together.",
+          "Chapter 149, section 148B starts with an individual performing services for the alleged employer. In Patel v. 7-Eleven (2024), the Massachusetts Supreme Judicial Court explained this as labour in that business’s interest or under its direction, usually but not always for pay. The services question comes before the three-condition contractor exception. A brand, operator company, owner and technician do not all acquire one status together.",
           "A technician choosing a schedule and a brand remotely checking quality are relevant facts, not a finished classification. Compare contractual controls with actual instructions, supervision, payment and the customer-contract/invoice roles. A franchise or contractor label proves neither universal employee nor contractor status."
         ],
         "aliases": [
@@ -3482,36 +3665,51 @@
           "section-5"
         ],
         "sourceIds": [
-          "b2-east-ma-classification"
+          "b2-east-ma-classification",
+          "next-scope-ma-patel2024"
         ]
+      },
+      {
+        "id": "patel-services-result",
+        "heading": "What the 7-Eleven decision actually decided",
+        "paragraphs": [
+          "On the record for five franchisees, the court answered that they were not performing services for 7-Eleven within this threshold. They operated their own stores for the public and paid for a licensed business format, property and support. The mutual benefit and brand standards did not by themselves turn those store operations into services for the franchisor.",
+          "The court contrasted a cleaning arrangement in which franchisees performed work for the franchisor’s customer accounts and were paid by the franchisor. Contract labels, the existence of brand support and a fixed fee versus a percentage royalty do not decide the threshold alone. The opinion did not decide what effect the use of a company rather than an individual might have. It is a fact-specific services ruling, not an exemption for every franchise or a classification of a technician."
+        ],
+        "sourceIds": [
+          "next-scope-ma-patel2024"
+        ],
+        "aliases": []
       },
       {
         "id": "three-cumulative-conditions",
         "heading": "All three conditions must be satisfied",
         "paragraphs": [
           "Once the services threshold applies, the contractor exception requires all three: the individual is free from control and direction under the contract and in fact; the service is outside the alleged employer’s usual course of business; and the individual is customarily engaged in an independently established trade, occupation, profession or business of the same nature as the service performed.",
-          "Choosing hours alone addresses neither the whole control inquiry nor the other two conditions. This framework does not resolve current franchise-specific case application."
+          "Choosing hours alone addresses neither the whole control inquiry nor the other two conditions. The Patel services ruling does not replace those three conditions once the services threshold is met."
         ],
         "aliases": [
           "all-three-stated-conditions-matter",
           "section-1"
         ],
         "sourceIds": [
-          "b2-east-ma-classification"
+          "b2-east-ma-classification",
+          "next-scope-ma-patel2024"
         ]
       }
     ],
     "sourceIds": [
-      "b2-east-ma-classification"
+      "b2-east-ma-classification",
+      "next-scope-ma-patel2024"
     ],
     "nextStage": 5,
     "practicalOutput": "Identify the individual’s service and possible employer, then examine every applicable condition rather than relying on schedule choice or a contract label.",
     "limitations": [
       "The services threshold and relevant current cases require application to the actual facts. This is not a franchisee/technician classification verdict, and other employment or tax tests remain separate."
     ],
-    "learningSummary": "Letting a Massachusetts technician choose their hours does not establish independent-contractor status. After the individual-services threshold is met, section 148B requires all three contractor conditions—not a favourable answer to only one.",
+    "learningSummary": "Letting a Massachusetts technician choose their hours does not establish contractor status. First ask whether the individual performs services for the alleged employer. Patel’s 2024 franchise decision answers that threshold on its own facts; where the threshold is met, all three statutory contractor conditions still matter.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T01:00:06.935Z",
+    "contentModifiedAt": "2026-11-14T02:13:53.771Z",
     "seoTitle": "Massachusetts contractor status: why choosing hours is not enough",
     "relatedPaths": [
       "/us-expansion/worker-classification/",
@@ -3522,68 +3720,107 @@
   {
     "id": "b2-east-guide-mississippi",
     "path": "/states/mississippi/",
-    "title": "Mississippi: current termination-law verification remains open",
-    "description": "The 2018 enacted text is available; a current consolidated primary source and later authority are still required.",
+    "title": "Mississippi franchise disputes: notice, fraud and the broker’s actual role",
+    "description": "What the enacted notice provision and two actual court decisions show about termination exceptions, franchise coverage and earnings claims against brokers.",
     "family": "state",
     "topic": "relationship",
     "jurisdictions": [
       "Mississippi"
     ],
-    "status": "draft",
-    "lastReviewed": null,
-    "reviewStatus": "AI-assisted research update; material source verification incomplete; no professional legal review",
-    "readMinutes": 3,
+    "status": "published",
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 6,
     "ruleIds": [
-      "b2-east-ms-historical-notice"
+      "b2-east-ms-historical-notice",
+      "nr-ms-crosthwait",
+      "nr-ms-hamilton"
     ],
     "sections": [
       {
-        "heading": "Retain the historical evidence without claiming currency",
+        "id": "notice-conditions",
+        "heading": "The notice rule has a coverage question and exceptions",
         "paragraphs": [
-          "Official 2018 SB 2805 text contains franchise definition and notice provisions. The legislature’s official status record marks the bill as Law, chapter 394, approved March 19, 2018, effective July 1, 2018. That establishes the historical enactment; it does not establish that no later amendment or controlling decision affects a 2026 termination."
+          "A franchisor grants the brand and operating rights; a franchisee receives them. The Mississippi text enacted in 2018 requires a person who has granted a covered franchise to give written notice at least 90 days before cancellation, termination or failure to renew. It removes that notice requirement when the stated basis is criminal misconduct, fraud, abandonment, bankruptcy or insolvency of the franchisee, or a no-account or insufficient-funds check.",
+          "Coverage comes first. The enacted definition requires a written arrangement, consideration (something of value given in exchange), a licence to use a trade name or related characteristic, and a community of interest in marketing goods or services. It excludes sales from warehouses or similar storage places, leased departments in retail stores, and places of original manufacture. Consideration excludes the specified at-cost demonstration materials and equipment not for resale, and payments below $100 on an annual basis. That is this state text’s consideration provision, not the federal franchise threshold.",
+          "The same enacted material excludes retailers defined in a separate equipment-dealer statute, section 75-77-1. “Retailer” cannot safely be read here as every business that sells to consumers. This guide examines the enacted 2018 text and identified historical court decisions; the current official consolidated code has not been recovered through the publisher’s public route."
         ],
         "sourceIds": [
           "b2-east-ms-2018",
-          "b2-east-ms-status"
-        ]
-      },
-      {
-        "heading": "Why this page stays unpublished",
-        "paragraphs": [
-          "The Secretary of State identifies the official publisher and links the free unannotated Code. Ordinary command-line retrieval reached only a browser/cookie bootstrap, so current §§75-24-51 through 75-24-63 were not read. The 2018 enacted text and third-party current-code mirrors do not establish the complete current primary-law analysis. The relationship dimension remains unresolved."
-        ],
-        "sourceIds": [
+          "b2-east-ms-status",
           "b3-state-ms-code-sos"
+        ],
+        "aliases": [
+          "retain-the-historical-evidence-without-claiming-currency",
+          "section-0",
+          "why-this-page-stays-unpublished",
+          "section-1",
+          "packet-for-the-next-researcher",
+          "section-2"
         ]
       },
       {
-        "heading": "Packet for the next researcher",
-        "paragraphs": [],
-        "bullets": [
-          "Current official 75-24-51 through 75-24-63 and amendment history.",
-          "Current defined-franchise scope and exceptions.",
-          "Agreement, place-of-business, community-of-interest and performance facts.",
-          "Proposed notice and action dates.",
-          "Relevant current primary cases and sector overlays."
+        "id": "crosthwait-fraud",
+        "heading": "Crosthwait: proven false records were more than an allegation of breach",
+        "paragraphs": [
+          "In the 1993 Crosthwait Equipment case, a John Deere dealer challenged termination. The court described extensive evidence of false sales and credit documents, including inflated down payments, incorrect prices and fictitious trade-ins. The dealer admitted submitting documents he knew contained false information. The court affirmed that Deere lawfully terminated under the agreements.",
+          "For the franchise-notice issue, the Fifth Circuit said the parties’ statutory franchise status was arguable. Even assuming coverage, fraud was a notice exception; the trial court had also allowed the dealer to continue operating for 90 days. The opinion separately remanded Deere’s account-damages issue, so it should not be retold as a final ruling on every dollar owed.",
+          "The lesson is about the evidence behind an exception. A disputed late report, ordinary poor performance or an accusation labelled “fraud” is not the same record as deliberate, material falsification proven in this case. The 1993 decision also does not determine how later equipment-dealer legislation applies to a present dealership."
+        ],
+        "sourceIds": [
+          "nr-ms-crosthwait"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "hamilton-broker",
+        "heading": "Hamilton: identify the party that actually granted the franchise",
+        "paragraphs": [
+          "A later dispute involved a buyer of iLoveKickboxing franchises who sued FranChoice and its broker, Tom Scarda. The complaint alleged misleading statements about marketing, opening costs and expected performance. Those statements were allegations considered at the dismissal stage, not facts the court proved.",
+          "The adopted analysis read Mississippi’s earnings-representation provision, section 75-24-55, as applying to “franchise companies” in light of the statutory franchise definition. The brokers, as alleged, had not entered the arrangement granting the franchise. The court also found that the cited remedies provision did not supply relief for the alleged broker conduct.",
+          "On 16 January 2020, in an order filed the next day, the district judge adopted that analysis and dismissed the Mississippi claim without prejudice. The motion to dismiss the New York statutory claim was denied. That limited result does not establish that the sales statements were accurate, that all claims failed, or that brokers are immune under other law."
+        ],
+        "sourceIds": [
+          "nr-ms-hamilton-recommendation",
+          "nr-ms-hamilton-order"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "earnings-and-remedy",
+        "heading": "Do not turn either case into a sales or termination shortcut",
+        "paragraphs": [
+          "The enacted Mississippi earnings text is more specific than “use a realistic forecast.” It addresses stated gross or net earnings and representations of past earnings, requiring the represented results to reflect a substantial number of participants in the community or geographic area and accurately reflect their average earnings under similar circumstances. Hamilton’s broker result does not erase that wording for a covered franchise company.",
+          "For a proposed termination, identify the covered relationship, the contractual grounds, the evidence and any applicable sector law before relying on a notice exception. For a disputed sales statement, identify who made it, who granted the franchise, and which law supplies the particular duty and remedy. The two decisions show why those questions must be answered separately."
         ],
         "sourceIds": [
           "b2-east-ms-2018",
-          "b2-east-ms-status"
-        ]
+          "nr-ms-crosthwait",
+          "nr-ms-hamilton-recommendation",
+          "nr-ms-hamilton-order"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
       "b2-east-ms-2018",
       "b2-east-ms-status",
-      "b3-state-ms-code-sos"
+      "b3-state-ms-code-sos",
+      "nr-ms-crosthwait",
+      "nr-ms-hamilton-recommendation",
+      "nr-ms-hamilton-order"
     ],
     "nextStage": 1,
-    "practicalOutput": "A documented Mississippi source gap and exact next verification task.",
+    "practicalOutput": "Identify the party’s actual role and the evidence for the particular claim or termination ground before applying a notice rule or an exception.",
     "limitations": [
-      "This page addresses its named decision, not a complete state legal survey. Unknown dimensions remain unresolved in the coverage register.",
-      "Model classification, state connections, sector-dealer laws, local requirements and the actual transaction need independent review. No sale, exemption, worker status or contract term is approved.",
-      "November 13, 2026 access-route review did not complete current statutory text or later controlling-case review; do not approve a current termination from this draft."
-    ]
+      "This is a narrow study of the enacted 2018 text and identified historical court decisions, not verification of the complete current consolidated Mississippi code or every later case.",
+      "No registration, business-opportunity, sector-dealer, employment, tax or operating-permit clearance is inferred. No payment, current claim outcome or general broker immunity is established."
+    ],
+    "seoTitle": "Mississippi franchise notice and broker claims: Crosthwait and Hamilton explained",
+    "learningSummary": "A notice period does not answer every termination question, and a franchise-sales rule does not automatically apply to every broker. The useful questions are who granted the franchise, which rule covers that relationship, and what the actual claim or termination evidence shows.",
+    "keyTerms": [],
+    "relatedPaths": [],
+    "contentModifiedAt": "2026-11-14T02:12:13.297Z"
   },
   {
     "id": "b2-east-guide-missouri",
@@ -4403,7 +4640,7 @@
     "id": "b2-west-oklahoma",
     "path": "/states/oklahoma/",
     "title": "Oklahoma business opportunities and franchises: filing routes and advertising",
-    "description": "Compare the 14-calendar-day exemption and qualified 15-full-business-day registration process. The current administrative advertising-filing rule remains unconfirmed.",
+    "description": "Compare the qualified disclosure exemption and registration clocks with the recovered advertising filing-and-response rule. Its newer 2026 wording remains unverified.",
     "family": "state",
     "topic": "sales-disclosure",
     "jurisdictions": [
@@ -4412,7 +4649,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 1,
+    "readMinutes": 3,
     "ruleIds": [
       "b2-west-ok-exemption",
       "b2-west-ok-registration",
@@ -4447,7 +4684,7 @@
         "heading": "Registration effectiveness and advertising remain distinct",
         "paragraphs": [
           "Section 807 describes complete filing, effectiveness normally after fifteen full business days absent stated orders/proceedings, and one-year duration. An incomplete upload does not automatically become effective.",
-          "Sections 819–822 address fraud and misleading claims, including representing a filing as approval. The current administrative advertising-filing text could not be confirmed after agency-site failure; absence of a retrieved rule is not evidence of no advertising duty."
+          "Sections 819–822 address fraud and misleading claims, including representing a filing as approval. A separate advertising-filing rule also needs attention: the actual agency compilation recovered is the version effective August 15, 2025. The newer 2026 compilation has not been read, so the following mechanism is qualified by that version limit."
         ],
         "aliases": [
           "if-using-registration-distinguish-receipt-from-effectiveness",
@@ -4456,17 +4693,33 @@
         "sourceIds": [
           "b2-west-ok-title71"
         ]
+      },
+      {
+        "id": "advertising-mechanism",
+        "heading": "The recovered rule requires a response before use",
+        "paragraphs": [
+          "The 2025 text of rule 660:25-5-1 says sales literature and advertising must be filed with, and responded to by, the Administrator before use. It calls for the advertising package, a review fee and the seller’s attestation that the material is not materially false or misleading and matches its latest disclosure document on file. Sending material is not the same as receiving the required response.",
+          "The current legislative text authorises advertising filing under section 807(E) and lists a $50 package-review fee in section 829(A)(3), subject to the statute’s stated fee conditions. The recovered rule still cites section 807.F. These are the actual texts; this article does not silently rewrite that reference or claim the newer administrative version has been checked.",
+          "The definitions extend beyond brochures to the stated telephone, seminar, performance, reprint and electronic material. The disclosure document already filed under section 806 is exempt from this separate filing requirement. Anti-fraud content provisions still apply whether or not an advertisement must be filed; filed advertising is also subject to section 820. The rule prohibits references to the named Oklahoma securities authorities unless requested by the Administrator.",
+          "This establishes a real filing mechanism in the recovered version, not proof that every statutory exemption removes it. The current 2026 wording and the particular offer’s exemption must still be established before using a campaign timetable."
+        ],
+        "sourceIds": [
+          "b2-west-ok-title71",
+          "nr-ok-rules2025"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
-      "b2-west-ok-title71"
+      "b2-west-ok-title71",
+      "nr-ok-rules2025"
     ],
     "nextStage": 1,
-    "practicalOutput": "Establish the exact exemption or complete registration route and resolve the current advertising rule before relying on a campaign timetable.",
+    "practicalOutput": "Establish the exact offer exemption or complete registration route; for advertising, account for the recovered filing-and-response mechanism and resolve the newer version before relying on a campaign date.",
     "limitations": [
-      "Actual definition, state connections and exemptions need application. The administrative advertising-filing rule remains unresolved."
+      "Actual definitions, state connections and exemptions control. The current legislative authority and $50 package-review fee are read; the advertising mechanism is read in the 2025 compilation, and newer 2026 consolidated administrative wording remains unresolved."
     ],
-    "contentModifiedAt": "2026-11-14T00:56:45.904Z",
+    "contentModifiedAt": "2026-11-14T02:12:13.623Z",
     "learningSummary": "Oklahoma’s disclosure-based exemption removes sections 806–811, not the whole Act. Actual delivery fourteen calendar days before the earlier commitment is a condition; preparing a document is not delivery.",
     "keyTerms": [],
     "seoTitle": "Oklahoma Business Opportunities: Exemption and Filing",
@@ -4647,8 +4900,8 @@
   {
     "id": "b2-west-tennessee",
     "path": "/states/tennessee/",
-    "title": "Tennessee franchise tax is not franchise-sales permission",
-    "description": "Understand the limited distinction between Tennessee franchise-and-excise tax questions and franchise sales. The 2021 FAQs do not settle current tax or state franchise-law duties.",
+    "title": "Tennessee franchise and excise tax: who files and when",
+    "description": "Use Revenue’s June 2026 manual to separate the actual taxpayer, royalties and state connections, tax rates and filing clocks from franchise-sales permission.",
     "family": "state",
     "topic": "corporate-tax",
     "jurisdictions": [
@@ -4657,18 +4910,25 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 1,
+    "readMinutes": 5,
     "ruleIds": [
-      "b2-west-tn-tax-separation"
+      "b2-west-tn-tax-separation",
+      "nr-tn-tax-entity",
+      "nr-tn-tax-calendar",
+      "nr-tn-sector-case"
     ],
     "sections": [
       {
         "id": "taxpayer-not-offer",
-        "heading": "Federal disregarded status does not finish state tax",
+        "heading": "Start with the company that owes the tax",
         "paragraphs": [
-          "Revenue’s F&E-1 FAQ lists corporations, limited liability companies (LLCs) and other entity types that may have return obligations. F&E-4 explains that a federally disregarded LLC—ignored as a separate entity for the relevant federal tax purpose—can still need a Tennessee return unless an exemption applies.",
-          "These FAQs are dated March 2021. The actual taxpayer, federal classification, Tennessee activities/connections, tax year, current law and exemption conditions still need examination. They are not a complete current calculation or filing calendar.",
-          "A Singapore parent, U.S. LLC and Tennessee operator can therefore have different factual roles. Completing the LLC’s tax account does not resolve the separate brand-rights, fee, control and support arrangement."
+          "Tennessee’s franchise tax is a tax on doing business, not permission to sell a branded business. Revenue’s June 2026 manual says corporations, LLCs and other limited-liability entities can owe franchise and excise taxes. Sole proprietors and general partnerships are generally outside these taxes; specified exemptions have their own conditions.",
+          "An LLC ignored as a separate taxpayer for federal income tax is not automatically ignored by Tennessee. The manual distinguishes a single-member LLC owned by a corporation: its activity is included with the corporate owner under the stated rules. Other single-member LLCs generally remain separate state taxpayers. A Singapore parent and its U.S. LLC therefore need their actual ownership and federal classification checked, rather than assuming one federal return settles both.",
+          "A taxable entity that is inactive but has not properly ended its Tennessee registration can still owe a return and the $100 minimum franchise tax."
+        ],
+        "sourceIds": [
+          "nr-tn-manual2026",
+          "nr-tn-servpro2022"
         ],
         "aliases": [
           "two-teams-may-be-using-the-same-word-differently",
@@ -4680,47 +4940,82 @@
           "section-2",
           "prepare-two-clearly-separate-handoffs",
           "section-4"
-        ],
-        "sourceIds": [
-          "b2-west-tn-fe1",
-          "b2-west-tn-fe4",
-          "b2-west-tn-consumer-index"
         ]
       },
       {
-        "id": "sales-law-gap",
-        "heading": "Current franchise-sales rules remain unresolved",
+        "id": "state-connections",
+        "heading": "Royalties can create a Tennessee tax connection",
         "paragraphs": [
-          "The June 2021 consumer-agency help explanation identifies its consumer-protection role, not current franchise statutory requirements. Attempts to retrieve the linked code and court text did not provide usable legal bodies.",
-          "State offer/sale filings, exemptions, advertising and relationship rules are not established here. Failed access is not proof of no duty; independently applicable federal disclosure remains separate."
+          "For an out-of-state entity, the manual requires doing business and a substantial state connection. It specifically includes licensing intangible property for use in Tennessee and earning income from that use. A company can have the necessary connection without an office there.",
+          "The bright-line tests include Tennessee receipts exceeding the lesser of $500,000 or 25% of worldwide receipts; Tennessee property exceeding the lesser of $50,000 or 25% of total property; or Tennessee compensation exceeding the lesser of $50,000 or 25% of total compensation, calculated under the stated sourcing rules. These are not the only connections that can create liability. Below-threshold customer receipts alone also do not automatically establish it.",
+          "For a company treated as a foreign corporation under the Internal Revenue Code, Revenue separately says no income effectively connected with a U.S. trade or business means no substantial Tennessee connection for these taxes. Where that U.S. business income exists, the manual limits the relevant earnings, net worth and allocation factors to the stated U.S.-connected amounts. An applicable U.S. treaty can affect whether such income exists; foreign ownership alone does not answer that question."
+        ],
+        "sourceIds": [
+          "nr-tn-manual2026"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "rates-and-filing",
+        "heading": "Register promptly and use the correct tax year",
+        "paragraphs": [
+          "A taxpayer must register with Revenue within 15 days after becoming subject to these taxes. The manual identifies Tennessee Taxpayer Access Point (TNTAP) as an online route. The ordinary combined return is Form FAE170; financial-institution and captive-REIT groups have a different form.",
+          "The franchise rate is 0.25% of the applicable net-worth base, with a $100 annual minimum. Excise tax is 6.5% of the applicable net-earnings base. These are state-adjusted amounts, with allocation, deductions and exemptions—not automatically worldwide group assets or gross royalty receipts.",
+          "For tax years ending on or after December 31, 2024, the excise standard deduction is the lesser of $50,000 or the stated net earnings. It applies before the share of business earnings assigned to Tennessee is calculated and can offset stated directly allocated nonbusiness earnings with any unused portion. It cannot create or increase a loss or be carried forward; combined returns receive only one deduction.",
+          "For a period ending on a month’s final day, the ordinary return is due on the 15th day of the fourth month after that period. A period ending earlier in the month uses the fourth month following that month; a 52–53-week year uses the closest month end. The manual explains separate reorganisation and short-period rules."
+        ],
+        "sourceIds": [
+          "nr-tn-manual2026"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "estimates-and-extension",
+        "heading": "An extension to file does not postpone payment",
+        "paragraphs": [
+          "Estimated payments are required when combined franchise and excise liability after credits is at least $5,000 for both the prior and current tax years. Annualise a short prior period for that test. The ordinary four due dates are the 15th day of months 4, 6 and 9 of the current tax year and month 1 of the next year. The standard quarterly amount is the lesser of 25% of annualised prior-year liability or 25% of 80% of projected current-year liability; a separate annualised-income method is available.",
+          "A seven-month filing extension generally requires a timely request and payment by the original due date of the lesser of 90% of current-year liability or 100% of prior-year liability, annualising a short prior year. Zero prior-year liability requires $100. The manual separately allows an automatic extension where sufficient timely payments mean a credit or refund is expected. An extension does not extend payment time: unpaid tax can accrue interest."
+        ],
+        "sourceIds": [
+          "nr-tn-manual2026"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "sales-law-gap",
+        "heading": "A franchise termination statute may cover a particular industry",
+        "paragraphs": [
+          "The word franchise has another meaning in sales and relationship law. In the 2022 Servpro v. Woloski appeal, the Sixth Circuit held the cited Tennessee termination provision inapplicable to a cleaning/restoration operator because that provision covered franchises required to hold the specified Tennessee liquor licence. The opinion was marked not recommended for publication; its contract and California-addendum analysis concerned the actual agreement in that case.",
+          "This supplies an actual industry-scope distinction, not a conclusion that every Tennessee brand offer is free of state duties. Current general offer/sale filings, exemptions, advertising and other industry-specific relationship provisions have not been comprehensively established here. Independently applicable federal disclosure remains separate from a tax registration."
+        ],
+        "sourceIds": [
+          "nr-tn-servpro2022"
         ],
         "aliases": [
           "what-the-consumer-agency-source-does-not-establish",
           "section-3"
-        ],
-        "sourceIds": [
-          "b2-west-tn-consumer-index"
         ]
       }
     ],
     "sourceIds": [
       "b2-west-tn-fe1",
       "b2-west-tn-fe4",
-      "b2-west-tn-consumer-index"
+      "b2-west-tn-consumer-index",
+      "nr-tn-manual2026",
+      "nr-tn-servpro2022"
     ],
     "nextStage": 5,
-    "practicalOutput": "Identify the actual taxpayer and current tax-year questions without treating a tax account as permission to sell franchise rights.",
+    "practicalOutput": "Identify the actual state taxpayer and its Tennessee activities or royalty income, register within the applicable 15-day period, and schedule the return and any estimated payments. Assess brand-sale duties separately.",
     "limitations": [
-      "Limited to the tax-versus-sales distinction from dated FAQs. Current tax scope and Tennessee franchise-law coverage remain unresolved."
+      "Selected June 2026 Revenue-manual guidance, not a complete tax calculation, exemption application, later-law or industry-specific franchise-sales survey. The 2022 case establishes its stated scope and outcome, not a complete current statutory consolidation."
     ],
-    "contentModifiedAt": "2026-11-14T00:56:45.904Z",
-    "learningSummary": "Tennessee franchise tax and selling a franchise are different subjects. The cited Revenue FAQs identify entity-tax questions; they do not establish permission to recruit a branded operator.",
+    "contentModifiedAt": "2026-11-14T02:12:13.608Z",
+    "learningSummary": "Tennessee can tax a company that licenses rights into the state even without a local office. Identify the actual taxpayer and U.S.-connected income before applying the filing calendar; a tax account does not authorise franchise sales.",
     "keyTerms": [],
-    "seoTitle": "Tennessee franchise tax is not franchise-sales permission",
+    "seoTitle": "Tennessee franchise and excise tax: entities, rates and deadlines",
     "relatedPaths": [
       "/comparisons/tax-residence-vs-owner-nationality/",
-      "/tools/relationship-factsheet/",
-      "/us-expansion/master-franchise-vs-area-development/"
+      "/us-expansion/franchising-vs-licensing/"
     ]
   },
   {

@@ -1,0 +1,42 @@
+{
+  "reviewer": "/root/editorial_inventory",
+  "decision": "approved",
+  "scope": "Changed optional-learning privacy wording, navigation labels and sitemap inclusion; existing hosting, backup, provider and owner-auth deployment claims were not re-audited.",
+  "reviewedFiles": [
+    "src/pages/privacy.astro",
+    "src/layouts/Base.astro",
+    "src/pages/sitemap.xml.ts",
+    "src/lib/article-presentation.ts",
+    "src/pages/learn.astro",
+    "src/components/LearningControls.tsx",
+    "src/components/LearningHub.tsx",
+    "src/lib/learning-session.ts",
+    "src/lib/learning.ts",
+    "src/components/PlanningApp.tsx"
+  ],
+  "checks": [
+    {
+      "subject": "Optional storage",
+      "result": "Aligned: learning and planning begin with remembering disabled, preserve their separate opt-ins/keys, and remove their own saved record on reset. Learning answers stay in component state; the persistent schema holds public item/path identifiers, statuses, bookmarks and completed challenge versions. No learning-progress network submission is implemented."
+    },
+    {
+      "subject": "Controls and meaning",
+      "result": "Aligned: privacy and both learning interfaces explain local-profile visibility, independent plan/learning reset and activity-only points. Reading, practice and public guides are not gated by sign-in or a legal-readiness score."
+    },
+    {
+      "subject": "Navigation and sitemap",
+      "result": "Aligned: Learn, Library and Tools point to their actual routes; Network opens the plainly titled interest form. Footer preserves privacy/contact/methodology/coverage access. Sitemap adds /learn/, includes published guides/tools and public hubs, excludes owner/API/plan and unpublished guides, and does not invent a content-review date for the new learning route."
+    }
+  ],
+  "findings": [
+    {
+      "priority": "P3",
+      "target": "src/pages/privacy.astro — Your learning progress",
+      "issue": "The literal storage key eln-learning-v1 is accurate but is an implementation detail in otherwise owner-facing copy.",
+      "recommendation": "Optionally replace “the separate browser storage key eln-learning-v1 holds” with “a separate record in this browser holds”. The developer identifier is unnecessary for understanding the opt-in or reset choice.",
+      "blocking": false,
+      "resolved": true,
+      "resolution": "The literal storage key has been removed from the privacy copy; optional local storage, record contents and reset choice remain accurately explained."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "learning-hub",
+    "path": "/learn/",
+    "title": "Optional learning paths and practical challenges",
+    "sourceIds": [
+      "fed-definition",
+      "fed-exemptions",
+      "b2-west-nc-article19",
+      "fed-fdd-15",
+      "fed-instructions",
+      "fed-fdd-19",
+      "state-mn-assurance",
+      "b2-territories-usvi-licensing",
+      "b3-planning-entity-cfr",
+      "fed-irs-5472",
+      "b3-planning-flsa-overtime",
+      "b3-planning-visitor-visa",
+      "b3-planning-csl",
+      "b2-origins-ofac-50",
+      "b3-planning-ofac398",
+      "b3-planning-uspto-clearance",
+      "b3-state4-wi-dealership",
+      "b3-state4-wi-jury",
+      "b2-west-pa-section316"
+    ],
+    "ruleIds": [
+      "b2-territories-usvi-license-sequence",
+      "b2-territories-federal-location",
+      "b2-territories-customs-location",
+      "b3-planning-entity-election",
+      "b3-planning-business-visits",
+      "b3-planning-flsa-baseline",
+      "b3-planning-trademark-clearance",
+      "b3-planning-sanctions-screening",
+      "b3-state4-wi-dealership",
+      "fed-fdd-item-15",
+      "fed-fdd-item-19",
+      "fed-relationship-definition",
+      "fed-5472-triage",
+      "mn-assurance",
+      "b2-west-nc-definition",
+      "b2-west-nc-filing",
+      "b2-west-nc-disclosure",
+      "b2-west-pennsylvania-relationship"
+    ]
+  }
+]

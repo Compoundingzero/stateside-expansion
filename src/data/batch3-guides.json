@@ -1076,7 +1076,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 3,
     "ruleIds": [
       "b3-planning-business-opportunity-rule"
     ],
@@ -1114,14 +1114,19 @@
       },
       {
         "id": "disclosure-and-gap",
-        "heading": "The duties and the unresolved exemption issue",
+        "heading": "Keep the disclosure clock separate from the threshold mismatch",
         "paragraphs": [
-          "Where Part 437 applies, give its prescribed written disclosure and applicable earnings information at least seven calendar days before the earlier binding agreement or payment/other consideration. Retain the specified disclosure versions, receipts, contracts and earnings support for three years.",
-          "The exemption interaction remains unresolved. Section 437.8 literally uses less than $500 while referring to section 436.8(a)(1); that section currently uses less than $735. Reading both provisions does not settle how the cross-reference applies. Do not use either amount alone to declare the offer exempt."
+          "Where Part 437 applies, give its prescribed written disclosure and applicable earnings information at least seven calendar days before the earlier of the purchaser signing any contract connected with the sale or making a payment or providing other consideration, including through a third party. Retain the specified disclosure versions, receipts, contracts and earnings support for three years.",
+          "The two current texts use different numbers. Section 437.8’s franchise exclusion has an exception literally referring to payments below $500 and cross-referring to section 436.8(a)(1); the latter now uses $735 for payments or commitments from before opening through the first six months. The 2024 final rule changed Part 436; it did not amend Part 437.",
+          "The FTC’s 2011 explanation says the franchise exclusion follows the Franchise Rule’s minimum-payment requirement. Its 2025 proposal would replace the fixed figure with a direct reference to that requirement. That is useful evidence of the intended relationship, but the proposed replacement is not the text currently published. A $600 arrangement illustrates the mismatch: it is below $735 but not below $500. This research does not establish an authoritative resolution for that gap; it does not declare the arrangement exempt from both rules."
         ],
         "sourceIds": [
           "b3-planning-business-opportunity",
-          "smb-fed-minimum-exemption"
+          "smb-fed-minimum-exemption",
+          "nr-ftc-4378-2026",
+          "nr-ftc-threshold-final2024",
+          "nr-ftc-437-final2011",
+          "nr-ftc-437-proposal2025"
         ],
         "aliases": [
           "keep-its-disclosure-and-record-duties-separate",
@@ -1131,16 +1136,20 @@
     ],
     "sourceIds": [
       "b3-planning-business-opportunity",
-      "smb-fed-minimum-exemption"
+      "smb-fed-minimum-exemption",
+      "nr-ftc-4378-2026",
+      "nr-ftc-threshold-final2024",
+      "nr-ftc-437-final2011",
+      "nr-ftc-437-proposal2025"
     ],
     "nextStage": 1,
     "practicalOutput": "Describe the exact customer, location or buyback promise before taking money; do not assume an exemption from the unresolved cross-reference.",
     "limitations": [
-      "Franchise coverage and independent state business-opportunity/franchise duties still require their own assessment."
+      "The $500/$735 interaction remains a genuine text/interpretation conflict after current-text and amendment-history checks. A rule proposal is not an adopted amendment; actual franchise/business-opportunity elements and independent state duties remain separate."
     ],
     "learningSummary": "A marketing course and a promise of named customer accounts are different offers. Under Part 437, assess the purchaser’s new business, required payment and the specified promise together.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:56:46.758Z",
+    "contentModifiedAt": "2026-11-14T02:12:13.612Z",
     "seoTitle": "Business Opportunity Rule: promised accounts versus advice",
     "relatedPaths": [
       "/us-expansion/franchising-vs-licensing/",
@@ -1694,11 +1703,13 @@
         "id": "document-examination",
         "heading": "A deadline does not establish a permitted checking method",
         "paragraphs": [
-          "The regulation recognises physical examination or an alternative procedure authorised under its specified conditions. A video call, emailed scan or overseas manager’s review is not automatically an authorised method. Use the official instructions to establish the applicable examination process before relying on it."
+          "The regulation recognises physical examination or an alternative procedure authorised under its specified conditions. A video call, emailed scan or overseas manager’s review is not automatically an authorised method. Use the official instructions to establish the applicable examination process before relying on it.",
+          "The complete instructions marked 20 January 2025 were recovered from a public university copy. They require the employer to make the instructions and acceptable-document lists available, let the employee choose acceptable documents, and retain the employer’s completed form rather than mail it to USCIS. They also say a designated representative does not remove the employer’s responsibility for verification violations. The central USCIS latest-edition page was not accessible, so this dated copy is not presented as confirmation of every current instruction."
         ],
         "sourceIds": [
           "b3-planning-i9-cfr",
-          "smb-fed-i9-alternative"
+          "smb-fed-i9-alternative",
+          "next-scope-i9-instructions-copy"
         ],
         "aliases": [
           "give-the-hiring-entity-a-practical-owner",
@@ -1723,20 +1734,33 @@
           "keep-the-task-log-separate-from-identity-documents",
           "section-3"
         ]
+      },
+      {
+        "id": "everify-software-update",
+        "heading": "If your E-Verify provider uses web services",
+        "paragraphs": [
+          "E-Verify’s 22 September 2026 bulletin gives web-services developers until 31 March 2027 to complete integration and acceptance testing for Interface Control Agreement version 32. It adds hiring-site information with each case and case-payload fields including software name and the remote-document-examination indicator. If your provider uses this connection, ask whether its software is on that path. This developer deadline does not itself require every employer to enroll in E-Verify."
+        ],
+        "sourceIds": [
+          "next-scope-everify-ica32"
+        ],
+        "aliases": []
       }
     ],
     "sourceIds": [
       "b3-planning-i9-cfr",
-      "smb-fed-i9-alternative"
+      "smb-fed-i9-alternative",
+      "next-scope-i9-instructions-copy",
+      "next-scope-everify-ica32"
     ],
     "nextStage": 5,
     "practicalOutput": "Arrange a compliant examination process before the hire, and calculate both retention dates when employment ends.",
     "limitations": [
       "This page does not determine individual work authorisation, E-Verify, anti-discrimination or visa-category questions."
     ],
-    "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. This page explains federal completion and retention deadlines; the current USCIS form edition and detailed examination instructions were not verified in the recorded review.",
+    "learningSummary": "The hiring employer needs an I-9 process even if its owner stays overseas. The federal deadlines remain the starting point. Complete instructions for the dated 20 January 2025 edition and a 2026 E-Verify software bulletin were read; the central USCIS latest-edition check remains unresolved.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:56:46.761Z",
+    "contentModifiedAt": "2026-11-14T02:13:53.778Z",
     "seoTitle": "Form I-9 completion deadlines and retention dates",
     "relatedPaths": [
       "/us-expansion/state-employer-payroll-registration/",
@@ -2238,8 +2262,8 @@
   {
     "id": "b3-planning-houston-occupancy",
     "path": "/cities/houston/",
-    "title": "Houston: check the unit’s permitted use before committing rent",
-    "description": "Request the occupancy record for the exact Houston unit and compare your proposed work before relying on a landlord’s commercial-space description.",
+    "title": "Houston: the existing-building occupancy inspection route",
+    "description": "The city’s existing-building brochure explains application documents, correction permits and final approval; a changed use has a separate route.",
     "family": "local",
     "topic": "premises-opening",
     "jurisdictions": [
@@ -2248,20 +2272,21 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 3,
     "ruleIds": [
       "b3-planning-houston-occupancy"
     ],
     "sections": [
       {
         "id": "unit-and-use",
-        "heading": "What the reviewed city guidance establishes",
+        "heading": "Start with the exact unit and proposed use",
         "paragraphs": [
-          "The city business page says a Certificate of Occupancy (CO) is required before a commercial building or individual lease space is occupied, or when its occupancy classification changes. Obtain the current record and compare it with the proposed activities, layout and alterations.",
+          "A Certificate of Occupancy (CO) must be obtained before a covered commercial building or individual lease space is occupied. The city’s existing-building brochure excludes single-family residences and U-occupancies from its stated building-code requirement. Check the exact unit’s record and whether your operation changes the occupancy classification; changed classification requires approved plans and permits for a new CO.",
           "Describe relevant storage, chemicals, powered equipment and public access. The city lists building, fire, food and other reviews, but that does not make every permit mandatory for every business."
         ],
         "sourceIds": [
-          "b3-planning-houston-plan"
+          "b3-planning-houston-plan",
+          "next-scope-houston-existing-co"
         ],
         "aliases": [
           "what-the-citys-occupancy-guidance-says",
@@ -2269,6 +2294,30 @@
           "what-is-still-unknown",
           "section-4"
         ]
+      },
+      {
+        "id": "existing-building-application",
+        "heading": "Apply through the existing-building inspection route",
+        "paragraphs": [
+          "The city’s CE-1278 brochure directs an existing-building or lease-space applicant to email form CE1045A or CE1045B to Occupancy.Inspections@houstontx.gov, or submit the documents in person at the Houston Permitting Center. It lists the supporting declaration, current Texas or U.S. photo identification, full business address and telephone number, approximate area and floors, and present/proposed and previous business type if known. A new business must give its name. Multiple-building sites need the specified site map; apartments need building and unit counts.",
+          "The inspection team records discrepancies. Its report identifies structural, electrical, mechanical or plumbing corrections and whether separate permits are needed before work. The brochure gives 180 days to obtain required permits and complete corrections. An owner or agent may obtain a required structural permit; electrical, mechanical and plumbing permits require a licensed contractor. Only the permit holder or licensed contractor can request inspections for that permitted work."
+        ],
+        "sourceIds": [
+          "next-scope-houston-existing-co"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "corrections-to-certificate",
+        "heading": "Corrections and final approval come before the certificate",
+        "paragraphs": [
+          "After repairs and final inspections are approved, the October 2024 brochure says the CO is emailed automatically to the application address; it is not mailed. Its 180-day correction period does not replace the requirement to obtain the CO before occupancy. If an existing, unmodified space’s CO cannot be located, the brochure describes obtaining a duplicate instead.",
+          "Current charges, the correct application category and the city’s assessment of the actual property remain separate."
+        ],
+        "sourceIds": [
+          "next-scope-houston-existing-co"
+        ],
+        "aliases": []
       },
       {
         "id": "lease-commitment",
@@ -2289,18 +2338,19 @@
       }
     ],
     "sourceIds": [
-      "b3-planning-houston-plan"
+      "b3-planning-houston-plan",
+      "next-scope-houston-existing-co"
     ],
     "nextStage": 6,
     "practicalOutput": "Obtain the exact unit’s current CO and ask which approvals your proposed use requires before relying on the lease/opening plan.",
     "limitations": [
-      "This is a pre-lease occupancy check from a city summary. Detailed official permitting PDFs were access-blocked; current application steps, fees, classification outcome and parcel approval remain unverified.",
+      "This describes the city’s currently available CE-1278 existing-building brochure, revised October 2024; it is not the full new-construction, changed-use or every business-opening process. Current numerical fees, actual classification, parcel approval and inspection outcome remain undetermined.",
       "Actual building, fire, environmental and sector conditions need their own answer."
     ],
-    "learningSummary": "A bay previously used by a business is not necessarily suitable for your planned storage, equipment or customer access. Establish the actual City of Houston unit and its authorised use before building a lease or opening date around it.",
+    "learningSummary": "An existing Houston unit needs the right occupancy record for its actual use. For an existing building without a change in use, the city’s recovered brochure explains how the application leads to an inspection report, any required corrections and final approvals. A correction period is not permission to occupy early.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:39:51.397Z",
-    "seoTitle": "Houston commercial lease: Certificate of Occupancy and use",
+    "contentModifiedAt": "2026-11-14T02:13:53.768Z",
+    "seoTitle": "Houston existing-building Certificate of Occupancy application and inspections",
     "relatedPaths": [
       "/cases/lease-clock-before-opening/",
       "/cities/houston/commercial-laundry/"
@@ -2534,7 +2584,9 @@
       "b3-local-indy-business",
       "b3-local-indy-fire-business",
       "b3-local-indy-fire-person",
-      "b3-local-indy-co-letter"
+      "b3-local-indy-co-letter",
+      "next-scope-indy-fees-2026",
+      "next-scope-indy-fee-page"
     ],
     "sections": [
       {
@@ -2542,12 +2594,15 @@
         "heading": "The named service needs both checks",
         "paragraphs": [
           "The city guidance calls for a business licence and each service person’s licence for the named fire-prevention equipment service. Individual applications also need the Indianapolis Fire Department’s certification stamp. The linked forms concern fire-extinguisher servicing, not automatic permission for alarms, sprinklers, sales, installation or every maintenance task.",
-          "The company and individual applications identify the actual local business and associated person. Brand training or the overseas parent’s licence does not establish those permissions. The city’s current published page still links applications marked October 2023. Confirm the applicable fees, certification steps and licence terms; the separate signed 2026 premises letter does not update those licensing terms."
+          "The company and individual applications identify the actual local business and associated person. Brand training or the overseas parent’s licence does not establish those permissions. The published forms remain marked October 2023, but the city’s January 2026 schedule now independently lists the fire-prevention/service-person fee at $207; both linked applications show $207. This verifies the stated category fee, not the actual applicant’s entitlement or licence duration.",
+          "The city’s general application instructions allow mailing the application with a check payable to the City of Indianapolis. After the application and fees are received, an inspection is completed if required, followed by an operating licence or denial letter. Submitting or paying is not permission to dispatch the technician."
         ],
         "sourceIds": [
           "b3-local-indy-business",
           "b3-local-indy-fire-business",
-          "b3-local-indy-fire-person"
+          "b3-local-indy-fire-person",
+          "next-scope-indy-fees-2026",
+          "next-scope-indy-fee-page"
         ],
         "aliases": [
           "define-the-service-before-promising-it",
@@ -2580,12 +2635,12 @@
     "nextStage": 5,
     "practicalOutput": "Confirm the correct company permission and each proposed technician’s certification/licence before offering the named extinguisher service.",
     "limitations": [
-      "Administrative guidance and dated linked forms only; current ordinance scope, insurance/storage/environmental requirements and work outside Indianapolis remain unchecked.",
-      "The premises letter concerns 2026; current fee/renewal terms, actual permit exception and excluded-municipality boundary remain unresolved."
+      "Published administrative instructions, the currently linked October 2023 applications and the January 2026 fee schedule are reviewed. Current ordinance scope, licence duration/renewal conditions, insurance/storage/environmental requirements and work outside Indianapolis remain unchecked.",
+      "The premises letter concerns 2026; the actual permit exception and excluded-municipality boundary remain unresolved."
     ],
     "learningSummary": "Do not dispatch the whole team on the strength of one company document or one technician’s credentials. The reviewed Indianapolis process identifies both the business and each service person.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:56:46.423Z",
+    "contentModifiedAt": "2026-11-14T02:13:53.769Z",
     "seoTitle": "Indianapolis extinguisher company and service-person licences",
     "relatedPaths": [
       "/industries/facilities-services/",
@@ -7801,7 +7856,7 @@
     "id": "b3-origin3-guide-iceland",
     "path": "/from/iceland/",
     "title": "Does an American payer make work on Icelandic property an export service?",
-    "description": "Use the current statutory service categories; current implementing procedures remain unverified.",
+    "description": "The 2024 Act introduced a broader foreign-business service rule with local exceptions. Its interaction with the older conditional certificate provision remains unresolved.",
     "family": "origin",
     "topic": "corporate-tax",
     "jurisdictions": [
@@ -7853,12 +7908,15 @@
         "id": "application-limit",
         "heading": "Do not turn either text into an unchecked invoice answer",
         "paragraphs": [
-          "The broader statutory business-recipient wording and the regulation’s listed-service/use-or-credit conditions need to be reconciled for the actual route. This explanation does not declare the regulation obsolete or settle that interaction. The English agency overview is not used as a substitute for reading those two primary texts."
+          "The dates explain part of the mismatch: Act 63/2024 inserted the current business-recipient rule and separate non-business rule, and removed the former listed-service point. The official bill’s explanation describes a move from deciding actual use in Iceland to a general foreign-business recipient rule, subject to the named Icelandic-service exceptions. The older listed-service test is therefore not an adequate statement of the whole current statute.",
+          "That enactment does not, by itself, explain how every remaining condition in the current-hosted Regulation 194/1990 applies after the reform. The regulation still contains the conditional hypothetical-credit certificate rule described above, and the current Act still delegates power to set conditions. No later official instruction reconciling that certificate limb with the new business-recipient route was recovered. The regulation is not declared obsolete, and a certificate is not asserted for every U.S. invoice."
         ],
         "sourceIds": [
           "b3-origin3-iceland-current-law",
           "b3-origin3-iceland-vat",
-          "smb-origin-is-reg194-current"
+          "smb-origin-is-reg194-current",
+          "next-scope-is-act63",
+          "next-scope-is-bill1362"
         ],
         "aliases": [
           "do-not-import-the-older-english-conditions-as-the-entire-current-test",
@@ -7871,7 +7929,9 @@
     "sourceIds": [
       "b3-origin3-iceland-current-law",
       "b3-origin3-iceland-vat",
-      "smb-origin-is-reg194-current"
+      "smb-origin-is-reg194-current",
+      "next-scope-is-act63",
+      "next-scope-is-bill1362"
     ],
     "nextStage": 3,
     "practicalOutput": "Identify the actual buyer and service, then resolve the applicable statutory/regulatory route before relying on the invoice treatment.",
@@ -7880,7 +7940,7 @@
     ],
     "learningSummary": "An American payer does not automatically make an Icelandic service an export. Check the statute’s actual foreign-business conditions and local-service exceptions. The recovered regulation also contains conditional use/credit and certificate provisions; their application to the actual route is not resolved merely by the invoice address.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T01:14:19.173Z",
+    "contentModifiedAt": "2026-11-14T02:12:25.169Z",
     "seoTitle": "Icelandic services to U.S. customers: property and local exceptions",
     "relatedPaths": [
       "/from/norway/",
@@ -7980,7 +8040,8 @@
       "b3-o4-mk-change"
     ],
     "sourceIds": [
-      "b3-o4-mk-change"
+      "b3-o4-mk-change",
+      "next-scope-mk-dir2021"
     ],
     "sections": [
       {
@@ -8008,10 +8069,11 @@
         "heading": "Do not lose the portion still held",
         "paragraphs": [
           "Suppose an investor sells only part of the American holding. Treating the event entirely as a new investment may lose the connection to the old record; deleting the whole entry may erase the retained holding. Establish the original and acquiring investors’ before-and-after interests and ask which connected entries are needed.",
-          "The agency’s warning is not a prescribed number of filings. Current forms, attachments, deadline, fee, language and procedure remain to be confirmed. The Registry decision also does not determine payment permission or separate NBRM central-bank reporting."
+          "The agency’s warning is not a prescribed number of filings. A gazetted September 2021 amendment replaced the outward-investment Form DIR attached to the 2008 rule, so the old attachment cannot simply be assumed to be the current form. The complete current form, attachments, deadline, fee, language and detailed online procedure remain unconfirmed. The Registry decision also does not determine payment permission or separate NBRM central-bank reporting."
         ],
         "sourceIds": [
-          "b3-o4-mk-change"
+          "b3-o4-mk-change",
+          "next-scope-mk-dir2021"
         ],
         "aliases": [
           "a-partial-transfer-may-require-several-connected-entries",
@@ -8024,11 +8086,11 @@
     "nextStage": 3,
     "practicalOutput": "Identify the existing registration and retained/acquired interests, then confirm the required entries and current procedure with the Registry.",
     "limitations": [
-      "Detailed filing tabs were not retrieved. A contradictory translated subsidiary example is not relied on; confirm authoritative-language instructions before filing. No investment eligibility or NBRM-reporting result is established."
+      "The 2021 gazetted form replacement was read, but the complete replacement annex and current detailed filing tabs were not. A contradictory translated subsidiary example is not relied on. No investment eligibility or NBRM-reporting result is established."
     ],
     "learningSummary": "A partial sale changes an existing holding rather than simply creating a new payment. The Central Registry warns that transferring part of a registered investment to a new investor can require more than one type of entry.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:39:51.381Z",
+    "contentModifiedAt": "2026-11-14T02:13:53.779Z",
     "seoTitle": "North Macedonia foreign-investment register: partial transfers",
     "relatedPaths": [
       "/from/serbia/"
@@ -8464,50 +8526,100 @@
   {
     "id": "b3-o4-ukraine",
     "path": "/from/ukraine/",
-    "title": "Ukraine outward funding: current wartime permission is still a research hold",
-    "description": "Full current primary text could not be retrieved; no transfer cap or exception is being assumed.",
+    "title": "Ukraine: can branch funding pay for a separate U.S. company?",
+    "description": "Why the recipient’s legal identity and payment purpose matter under the dated NBU sources, with older branch limits clearly separated from current payment approval.",
     "family": "origin",
-    "topic": "corporate-tax",
+    "topic": "commercial-feasibility",
     "jurisdictions": [
       "Ukraine"
     ],
-    "status": "blocked",
-    "lastReviewed": null,
-    "reviewStatus": "Blocked: current primary authority could not be read; no professional-review requirement imposed",
-    "readMinutes": 4,
+    "status": "published",
+    "lastReviewed": "2026-11-14",
+    "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+    "readMinutes": 5,
     "ruleIds": [
-      "b3-o4-ua-current-control"
+      "nr-ua-branch-not-subsidiary"
     ],
     "sourceIds": [
-      "b3-o4-ua-law"
+      "nr-ua-resolution18-dated",
+      "nr-ua-nbu-investment-explanation"
     ],
     "sections": [
       {
-        "heading": "Why this guide is held",
+        "id": "branch-or-company",
+        "heading": "Who receives the money matters",
         "paragraphs": [
-          "The current official Rada consolidation of NBU Resolution 18 could not be read in full: ordinary proxy retrieval and curl returned 503, while web opens timed out. Relevant NBU pages and the older English framework PDF returned 403. The access attempts are saved in the research audit.",
-          "Search snippets and secondary accounts of 2026 changes are leads only. They do not establish the currently effective exception or conditions for a proposed outward capital contribution, loan, branch payment or other transfer."
+          "Suppose a Ukrainian company wants to fund a U.S. operation. First distinguish its own branch or representative office from a separately incorporated company. The branch provision in the older NBU control copy reviewed here expressly concerns foreign units without creating another legal entity, and exclusively their maintenance costs. It is not a general allowance to acquire ownership in another business.",
+          "Fictional example: a Ukrainian training brand forms a separate U.S. company and plans to send it startup capital. Calling that transfer “branch support” does not make the recipient a unit without a separate legal identity. The brand needs the current route for the actual investment payment, rather than assuming that an overseas-office allowance covers it."
         ],
         "sourceIds": [
-          "b3-o4-ua-law"
+          "nr-ua-resolution18-dated"
+        ],
+        "aliases": [
+          "why-this-guide-is-held",
+          "section-0",
+          "evidence-needed-to-finish",
+          "section-1"
         ]
       },
       {
-        "heading": "Evidence needed to finish",
+        "id": "dated-branch-conditions",
+        "heading": "What the older branch provision actually covered",
         "paragraphs": [
-          "Retrieve the current full official resolution, its effective amendment history and the exact operative branch. Then map the actual payer/payee, source of funds, transaction type, date, amount and all exception conditions, and reconcile the result with the bank’s current implementation requirements. A bank’s willingness or transport success alone would not establish legal currency."
+          "The official NBU control copy recovered for this review has an amendment history ending on 13 January 2026. Its branch-maintenance provision contains cumulative conditions. The figures below explain that dated text; they have not been verified as the current allowance."
+        ],
+        "bullets": [
+          "The Ukrainian resident legal entity must have operated for at least 12 months since state registration before the transfer. The recipient must be its own foreign branch, representative office or other unit without a separate legal entity.",
+          "The annual base is €1 million equivalent, calculated using the official NBU exchange rate on the transaction date. A further allowance uses documented 2021 maintenance transfers for qualifying units already open on 24 February 2022. The provision combines those amounts for the monthly calculation.",
+          "Transfers in one calendar month may not exceed one quarter of that combined annual amount. The payment must use the company’s own foreign currency, neither purchased nor raised through a credit or loan.",
+          "The company must use one chosen servicing bank; changing it follows the written procedure cross-referenced in the provision. Transfers are exclusively for maintenance costs, supported by an expense budget."
         ],
         "sourceIds": [
-          "b3-o4-ua-law"
-        ]
+          "nr-ua-resolution18-dated"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "nbu-explanation",
+        "heading": "The NBU itself separates investment from other payments",
+        "paragraphs": [
+          "In its explanation published on 26 August 2026, the NBU said there was no general permission for residents freely to invest abroad at that time. It separately discussed maintenance of foreign representative offices, current foreign-trade operations and export-contract penalties. Those categories should not be collapsed into a general permission to send expansion capital.",
+          "The same explanation described a mechanism for individual investments with economic or strategic justification serving state interests: the Ukrainian government may approach the NBU, which may consider a separate decision. It described this as exceptional, rather than a replacement for general currency liberalisation. An ordinary company should not treat it as a routine permission available merely on request.",
+          "That statement is dated. The complete current amended rule has not been reconciled here, so neither the statement nor the older numerical conditions establish eligibility for a present payment."
+        ],
+        "sourceIds": [
+          "nr-ua-nbu-investment-explanation",
+          "nr-ua-resolution18-dated"
+        ],
+        "aliases": []
+      },
+      {
+        "id": "payment-labels",
+        "heading": "“IP payment” and “investment limit” are also incomplete descriptions",
+        "paragraphs": [
+          "The older text has a separate provision for IP-protection fees and duties, foreign patent-office services and foreign patent-attorney services. That wording does not itself establish permission for a commercial royalty or the purchase of IP. Another provision links an allowance to qualifying foreign investment coming into the Ukrainian resident’s capital; its label does not make it a general permission to invest abroad.",
+          "Before promising that the Ukrainian company will fund the U.S. operation, identify the actual payer and recipient, their legal relationship, the payment’s purpose, the currency source and transaction date. The servicing bank needs the current applicable exception and conditions for those facts. A U.S. formation document, an old annual limit or a revised invoice description does not answer that question."
+        ],
+        "sourceIds": [
+          "nr-ua-resolution18-dated"
+        ],
+        "aliases": []
       }
     ],
-    "nextStage": 0,
-    "practicalOutput": "A source-access and transaction-branch research checklist, not a bank instruction or permission decision.",
+    "nextStage": 3,
+    "practicalOutput": "Establish whether the transfer maintains the same company’s foreign unit or funds a separate business, then match that actual purpose to the current bank-payment route before committing the money.",
     "limitations": [
-      "Objective current-primary access block; no professional human review is required to continue research.",
-      "No publication, current permission, transfer limit or absence claim until actual primary text and applicability are verified."
-    ]
+      "The article explains dated primary documents. The full current Resolution 18 and complete 2026 amendment chain were not recovered; no current numerical allowance, service/IP payment approval or outward-equity clearance is claimed.",
+      "English explanations of Ukrainian sources are AI-assisted translations. Other currency rules, bank checks and the actual transaction remain separate."
+    ],
+    "seoTitle": "Ukraine to U.S. expansion: branch maintenance versus subsidiary funding",
+    "learningSummary": "A payment to maintain your company’s own overseas branch is different from investing in another company. The dated National Bank of Ukraine (NBU) documents reviewed here draw that distinction. Creating a U.S. company, or changing an invoice label, does not itself supply the Ukrainian outward-payment permission.",
+    "keyTerms": [],
+    "relatedPaths": [
+      "/cases/net-worth-is-not-project-funding/",
+      "/us-expansion/entity-tax-election/"
+    ],
+    "contentModifiedAt": "2026-11-14T02:25:03.000Z"
   },
   {
     "id": "b3-planning-worker-classification",
@@ -8567,13 +8679,17 @@
         "heading": "An investigation policy is not a repeal",
         "paragraphs": [
           "The Department of Labor’s May 2025 bulletin changes its investigation approach within its stated scope and discretion; it expressly does not change employee rights or employer responsibilities. The named 2019 opinion was withdrawn in 2021 and expressly reissued, with its text reproduced, as FLSA2025-2 on May 2, 2025. That opinion concerns supplied virtual-marketplace facts, not automatic contractor treatment for technicians. The February 2026 replacement proposal, including its proposed expansion to the Family and Medical Leave Act and Migrant and Seasonal Agricultural Worker Protection Act, is not effective merely because comments closed.",
-          "The cited Colt & Joe Trucking order concerned standing and stated alternative failed or waived arguments; it did not classify every technician. These source types cannot be used interchangeably to declare contractor treatment available."
+          "The cited Colt & Joe Trucking order concerned standing and stated alternative failed or waived arguments; it did not classify every technician. These source types cannot be used interchangeably to declare contractor treatment available.",
+          "A current court record supplies a narrower status answer: the Sixth Circuit’s 13 November 2026 pending-case report lists Littman v. Department of Labor, appeal 25-5335, as held in abeyance. That means the appeal is paused; it is not a ruling that the 2024 interpretation is valid or invalid. The November current code still contains Part 795, and the reviewed Federal Register record still labels its replacement a proposal. This does not establish the latest orders in every other challenge."
         ],
         "sourceIds": [
           "b3-planning2-dol-fab2025",
           "b3-planning2-contractor-nprm",
           "b3-planning2-colt-order",
-          "smb-fed-dol-opinion2"
+          "smb-fed-dol-opinion2",
+          "next-scope-worker-current795",
+          "next-scope-worker-fr-index",
+          "next-scope-worker-littman-status"
         ],
         "aliases": [
           "understand-why-the-source-dates-look-inconsistent",
@@ -8587,16 +8703,19 @@
       "b3-planning2-contractor-nprm",
       "b3-planning2-irs-contractor",
       "b3-planning2-colt-order",
-      "smb-fed-dol-opinion2"
+      "smb-fed-dol-opinion2",
+      "next-scope-worker-current795",
+      "next-scope-worker-fr-index",
+      "next-scope-worker-littman-status"
     ],
     "nextStage": 5,
     "practicalOutput": "Check the real control and independent-business facts before relying on contractor treatment in your staffing cost.",
     "limitations": [
       "No worker, exemption, tax relief or state-law result is determined. The current governing test must be applied to the actual relationship."
     ],
-    "learningSummary": "Look at how the person actually earns money and works. Different wage, tax and state tests can apply. The Department of Labor’s opinion-letter numbering is now reconciled, but this review does not establish the latest appellate status or classify your worker.",
+    "learningSummary": "Look at how the person actually earns money and works. Wage, tax and state tests can differ. The current code and proposal are checked, and a November 2026 court report confirms the Littman appeal is paused; neither that pause nor the contract label classifies your worker.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:56:46.763Z",
+    "contentModifiedAt": "2026-11-14T02:12:25.171Z",
     "seoTitle": "Worker classification: actual work and federal-source limits",
     "relatedPaths": [
       "/us-expansion/federal-wage/",
@@ -8661,14 +8780,19 @@
         "heading": "Which federal law is being applied?",
         "paragraphs": [
           "For federal labour-relations law, the National Labor Relations Act (NLRA), the reviewed February 2026 final action restores the 2020 text: the 2023 rule never took effect after court vacatur. Substantial direct and immediate control over one or more listed essential employment terms is central; indirect or unexercised reserved authority has the rule’s qualified supplementary role.",
-          "For federal wage-and-hour law (the FLSA), Part 791 is reserved, not a declaration that joint-employer liability disappeared. The Department of Labor’s April 2026 publication is a proposal, not an effective rule or franchise exemption. Governing court law and the actual employment facts remain relevant."
+          "For federal wage-and-hour law (the FLSA), Part 791 is reserved, not a declaration that joint-employer liability disappeared. The Department of Labor’s April 2026 publication is a proposal, not an effective rule or franchise exemption. Governing court law and the actual employment facts remain relevant.",
+          "Older disputes can have their own court-directed history. In its 23 February 2026 Browning-Ferris remand decision, the National Labor Relations Board applied the clarified earlier standard only as the law governing that case and expressly said it did not apply to cases arising after the 2020 rule took effect. Do not lift that older dispute’s test into a new arrangement without checking which law and period are involved."
         ],
         "sourceIds": [
           "b3-planning2-nlrb-joint-rule",
           "b3-planning2-nlrb-withdrawal",
           "b3-planning2-nlrb-court",
           "b3-planning2-dol-joint791",
-          "b3-planning2-joint-nprm"
+          "b3-planning2-joint-nprm",
+          "next-scope-joint-current103",
+          "next-scope-joint-current791",
+          "next-scope-joint-fr-index",
+          "next-scope-joint-bfi2026"
         ],
         "aliases": [
           "the-current-nlra-rule-was-restored-through-final-action",
@@ -8685,16 +8809,20 @@
       "b3-planning2-dol-joint791",
       "b3-planning2-joint-nprm",
       "b3-planning2-dol-opinion2025-5",
-      "fed-definition"
+      "fed-definition",
+      "next-scope-joint-current103",
+      "next-scope-joint-current791",
+      "next-scope-joint-fr-index",
+      "next-scope-joint-bfi2026"
     ],
     "nextStage": 5,
     "practicalOutput": "Check shared-worker hours and actual employment decisions before treating two payrolls as two independent wage obligations.",
     "limitations": [
-      "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The cited court record is not a complete current docket search."
+      "This makes no joint-employer finding or full governing-court, bargaining-unit or state-law determination. The named 2026 Board decision is read for its explicit case/time limitation, not as a complete current appellate-docket survey."
     ],
     "learningSummary": "If businesses share people or employment decisions, separate incorporation and payroll do not by themselves settle responsibility. The wage-law and labour-relations tests must be kept distinct.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:48:18.410Z",
+    "contentModifiedAt": "2026-11-14T02:12:25.174Z",
     "seoTitle": "Shared workers and different joint-employer tests",
     "relatedPaths": [
       "/us-expansion/federal-wage/",
@@ -8806,7 +8934,7 @@
     "status": "published",
     "lastReviewed": "2026-11-12",
     "reviewStatus": "AI-assisted primary-source review; no professional legal review",
-    "readMinutes": 2,
+    "readMinutes": 3,
     "ruleIds": [
       "b3-planning2-data-gate"
     ],
@@ -8884,6 +9012,19 @@
         "aliases": []
       },
       {
+        "id": "restricted-transaction-controls",
+        "heading": "A restricted transaction needs controls at two levels",
+        "paragraphs": [
+          "The Cybersecurity and Infrastructure Security Agency (CISA) requires organizational and covered-system controls, plus a combination of data safeguards that fully and effectively prevents covered persons or countries of concern accessing covered data that is linkable, identifiable, unencrypted or decryptable using commonly available technology. Masking names can be insufficient if the recipient can reconnect records using other data.",
+          "The six-page requirements include monthly IT-asset inventory updates, remediation of known exploited vulnerabilities in internet-facing systems within 45 calendar days (with compensating requirements if patching is infeasible), and access/security logs stored centrally for at least 12 months. They require multifactor authentication; where technically infeasible or not enforced, passwords must have sufficient strength, including at least 15 characters.",
+          "Choose and justify the data safeguards through an internal risk assessment. The encryption option covers transit and storage: keys must not be co-located with the data, stored in a country of concern or accessible to covered persons. These are examples, not the full control list. Applying a security control does not turn a prohibited transaction into a permitted restricted transaction."
+        ],
+        "sourceIds": [
+          "next-scope-cisa-security"
+        ],
+        "aliases": []
+      },
+      {
         "id": "operative-status",
         "heading": "The earlier grace policy has ended",
         "paragraphs": [
@@ -8907,16 +9048,17 @@
       "b3-planning2-doj-rule202",
       "b3-planning2-doj-dsp",
       "b3-planning2-doj-enforcement",
-      "smb-fed-doj-compliance"
+      "smb-fed-doj-compliance",
+      "next-scope-cisa-security"
     ],
     "nextStage": 6,
     "practicalOutput": "Establish the actual recipient, accessible data and transaction before assuming the helpdesk account is permitted or exempt.",
     "limitations": [
       "These thresholds are not a general privacy safe harbour. No exemption, access authorisation or security attestation is supplied; origin-country, sector and other privacy duties remain separate."
     ],
-    "learningSummary": "A U.S. server does not remove the question if a foreign user can read or edit the data. This page explains programme scope; detailed Cybersecurity and Infrastructure Security Agency (CISA) technical requirements remain unverified, so it does not establish a compliant access arrangement.",
+    "learningSummary": "A U.S. server does not remove the question if a foreign user can read or edit the data. Check the actual recipient, data and transaction first. For a restricted transaction, the CISA requirements now reviewed impose both system controls and effective data safeguards; this page does not certify a particular arrangement.",
     "keyTerms": [],
-    "contentModifiedAt": "2026-11-14T00:56:46.763Z",
+    "contentModifiedAt": "2026-11-14T02:12:25.160Z",
     "seoTitle": "DOJ data programme: covered access and scope limits",
     "relatedPaths": [
       "/industries/it-services/",

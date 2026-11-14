@@ -1,0 +1,177 @@
+{
+  "checkedAt": "2026-11-14T02:14:46.338921+00:00",
+  "proposalSha256": "73afa65274153c8c0da4e2b3937b057fcc7d90a1a91e77826270c4974736f59f",
+  "decisionCount": 18,
+  "uniqueIDs": 18,
+  "expectedCoverageMatches": true,
+  "outcomes": {
+    "verified": 1,
+    "partially-verified": 9,
+    "authoritative-ambiguity": 1,
+    "access-unresolved": 3,
+    "actual-business-facts-required": 4
+  },
+  "guidePatches": 11,
+  "newSources": 18,
+  "ruleUpdates": 6,
+  "sourceProvenanceChecks": [
+    {
+      "id": "next-scope-cisa-security",
+      "rawPath": "research/next-release/raw/scoped-cisa-reader.json",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-retained-web-reader-representation-not-pdf-bytes"
+    },
+    {
+      "id": "next-scope-houston-existing-co",
+      "rawPath": "research/next-release/raw/scoped-local-reader1.json",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-retained-web-reader-representation-not-pdf-bytes"
+    },
+    {
+      "id": "next-scope-indy-fees-2026",
+      "rawPath": "research/next-release/raw/indy-fees-2026.raw",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Actual ZIP/XML worksheet cells E22/F22",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-indy-fee-page",
+      "rawPath": "research/next-release/raw/indy-fee-fire-activities.json",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-dallas-dba-faq",
+      "rawPath": "research/next-release/raw/dallas-current-co.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-ma-patel2024",
+      "rawPath": "research/next-release/raw/ma-patel-pdf-copy.pdf",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-is-act63",
+      "rawPath": "research/next-release/raw/iceland-2024-act.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-is-bill1362",
+      "rawPath": "research/next-release/raw/iceland-2024-bill.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-worker-current795",
+      "rawPath": "research/next-release/raw/worker-current-html.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-worker-fr-index",
+      "rawPath": "research/next-release/raw/worker-fr-api.json",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-worker-littman-status",
+      "rawPath": "research/next-release/raw/worker-sixth-pending-20261112.pdf",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-joint-current103",
+      "rawPath": "research/next-release/raw/joint-nlrb-current-html.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-joint-current791",
+      "rawPath": "research/next-release/raw/joint-current-html.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-joint-fr-index",
+      "rawPath": "research/next-release/raw/joint-fr-api.json",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-joint-bfi2026",
+      "rawPath": "research/next-release/raw/joint-bfi-2026-decision.pdf",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-i9-instructions-copy",
+      "rawPath": "research/next-release/raw/i9-instructions-une-copy.pdf",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-everify-ica32",
+      "rawPath": "research/next-release/raw/i9-everify-ica-news.html",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-original-http-response-bytes"
+    },
+    {
+      "id": "next-scope-mk-dir2021",
+      "rawPath": "research/next-release/raw/scoped-nm-procedure-reader.json",
+      "hashMatches": true,
+      "supportingPassageMatches": true,
+      "checkKind": "Literal passage in retained actual body/reader text (whitespace normalized only)",
+      "hashKind": "sha256-of-retained-web-reader-representation-not-pdf-bytes"
+    }
+  ],
+  "problems": [],
+  "protectedFieldsPolicy": "No guide ID/path/status/review/date or rule status/verifiedAt/nextReview/legalStatus mutation proposed. Source dates are actual stated scope only.",
+  "remainingSourceIssues": [
+    "USCIS central current-edition/current-instructions live check",
+    "Other current appellate dockets beyond the actual November13 Littman report and case-limited NLRB holding",
+    "Iceland2024Act/current Regulation194 certificate interaction",
+    "NorthMacedonia complete replacement form annex and detailed current Registry tabs",
+    "Bosnia actual new operative regulation/gazettal/commencement",
+    "Vietnam definitive current income-tax-treaty operative status",
+    "ThaiGazette substantive text",
+    "Indy licence term/renewal/current ordinance scope",
+    "Dallas price/inspection conflict despite supported application route"
+  ],
+  "businessFactsPolicy": "Actual-business-facts-required is used only within the published narrow issue. Philippines unreviewed cap-notice/circular scope is explicitly retained; no fact-dependent transaction is generically cleared."
+}

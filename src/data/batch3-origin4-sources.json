@@ -297,7 +297,7 @@
     "legalStatus": "unresolved: full current primary text not retrieved",
     "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
     "accessStatus": "blocked",
-    "notes": "Ordinary inherited-proxy urllib and curl attempts returned 503 for /laws/show/v0018500-22 and /print; web full-body opens timed out. NBU current press page and 2018 English framework PDF returned 403. Search snippets and secondary 2026 summaries were not treated as current primary text. No current transaction permission, transfer cap, exception or absence is verified."
+    "notes": "Ordinary inherited-proxy urllib and curl attempts returned 503 for /laws/show/v0018500-22 and /print; web full-body opens timed out. NBU current press page and 2018 English framework PDF returned 403. Search snippets and secondary 2026 summaries were not treated as current primary text. No current transaction permission, transfer cap, exception or absence is verified. November 14 follow-up recovered and read an older NBU control-copy PDF (history through January 13, 2026) and a dated August 26, 2026 NBU explanation. These are separate source records supporting a narrow branch-versus-separate-company article; they do not verify this current consolidated Rada body. Current official search metadata indicates September 17, 2026, but the full body and complete later amendment chain remain unrecovered."
   },
   {
     "id": "b3-o4-me-eu-status",
@@ -335,5 +335,45 @@
     "legalStatus": "Official source read for specified scope, not transaction clearance",
     "notes": "Official Romanian compilation downloaded, named general/exempt/closure/reporting provisions read; 255/2025 amendments effective1January2026. Do not automatically apply authorisation-specific ChapterIII balance/operation conditions or ChapterVII monthly report to an Article13(5) exempt account. Statutory export-only/final-crediting conditions remain distinct.",
     "nextReview": "2026-12-14"
+  },
+  {
+    "id": "nr-ua-resolution18-dated",
+    "url": "https://bank.gov.ua/admin_uploads/law/Resolution_24022022_18_kp.pdf?v=16",
+    "title": "NBU Resolution 18 control copy: older branch, IP-fee and incoming-investment provisions",
+    "authority": "National Bank of Ukraine",
+    "type": "primary",
+    "section": "Official control-copy Resolution 18, amendment history through 13 January 2026; complete point 14(30), 14(53), relevant 14(57) and point 14 opening",
+    "supportingPassage": "власних філій, представництв та інших відокремлених підрозділів без створення юридичної особи",
+    "publicationDate": "2022-02-24",
+    "effectiveDate": null,
+    "fetchedAt": "2026-11-14T02:12:35.069Z",
+    "substantiveVerifiedAt": "2026-11-14T02:17:06.610112+00:00",
+    "nextReview": "2026-12-14",
+    "accessStatus": "actual-cached-primary-PDF-body-read",
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "legalStatus": "Dated operative control-copy baseline; current consolidation not recovered",
+    "sha256": "7544dd8a6562ad533a141ca70ec5e6ccbfb22b0ed7b062a0cca7300c7e558586",
+    "hashKind": "sha256-of-retained-web-reader-tool-result-not-original-HTTP-PDF-bytes",
+    "notes": "Actual source amendment history ends January 13, 2026; current official metadata identifies a later September 17, 2026 edition. Do not use the old control copy as current payment permission. Complete point 14(30) shows cumulative branch-maintenance conditions and explicitly excludes creating another legal entity. Point 14(53) IP protection fees are not generic royalties; point 14(57) incoming investment is not general outward equity. Ukrainian original; English explanation is AI-assisted."
+  },
+  {
+    "id": "nr-ua-nbu-investment-explanation",
+    "url": "https://t.me/s/nbu_ua?after=4109",
+    "title": "NBU explanation: outward investment versus branch maintenance, 26 August 2026",
+    "authority": "National Bank of Ukraine, official nbu_ua channel",
+    "type": "official-guidance",
+    "section": "NBU official channel post nbu_ua/4112; own time element 26 August 2026 at 11:26:28 UTC",
+    "supportingPassage": "Загального дозволу резидентів вільно здійснювати інвестиції за кордон наразі немає.",
+    "publicationDate": "2026-08-26",
+    "effectiveDate": null,
+    "fetchedAt": "2026-11-14T02:10:20.515711+00:00",
+    "substantiveVerifiedAt": "2026-11-14T02:17:06.610112+00:00",
+    "nextReview": "2026-12-14",
+    "accessStatus": "downloaded-official-channel-HTML-and-read",
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "legalStatus": "Dated agency explanation; no later-currentness assumption",
+    "sha256": "c6fdf650151d5f37515423d7822f93b36623087d4a73021a21249729294dfb6a",
+    "hashKind": "sha256-original-HTTP-HTML-bytes",
+    "notes": "Post permalink https://t.me/nbu_ua/4112; raw retrieval from public channel preview after 4109. Exact post timestamp verified in HTML. A dated agency explanation states no general outward-investment permission as of that date, names other payment categories, and describes exceptional government-initiated decisions; not a present individual permission or a statutory amendment. Agency identity is also corroborated by its official annual-report channel reference."
   }
 ]

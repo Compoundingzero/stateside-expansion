@@ -1,0 +1,650 @@
+[
+  {
+    "id": "nr-travel-hours",
+    "title": "Count qualifying travel within the working day",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Count qualifying travel within the working day",
+    "affectedParty": "Covered employer",
+    "applicability": "Employees covered by federal wage-and-hour law; the guide focuses on nonexempt employees travelling as part of their principal work.",
+    "requirement": "Count travel from customer job to customer job during the workday. Where an employee must report to receive instructions, perform other work, or pick up and carry tools, travel from that designated place to the worksite is working time.",
+    "exceptions": "Ordinary home-to-work travel is generally not working time even with changing jobsites. Emergency call-outs, special one-day assignments, overnight travel and work while travelling have their own provisions; employer-vehicle commuting and contract/custom provisions require their actual conditions.",
+    "trigger": "Travel as part of the employee’s workday",
+    "deadline": "Include qualifying time in hours worked for the applicable workweek.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-hours-worked"
+    ],
+    "status": "conditional",
+    "legalStatus": "current agency interpretation",
+    "verifiedAt": "2026-11-14T01:45:04.638830+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Agency interpretation under Part 785; state law and governing court law can affect the result.",
+      "No travel-expense reimbursement rate or overtime exemption is established."
+    ],
+    "dependentPaths": [
+      "/us-expansion/employee-travel-between-jobs/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-training-hours",
+    "title": "Assess employee training as working time",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Assess employee training as working time",
+    "affectedParty": "Covered employer",
+    "applicability": "Covered employees attending employer-related lectures, meetings or training; public example concerns ordinary nonexempt staff.",
+    "requirement": "Under the general interpretation, excluding training attendance requires all four conditions: outside regular hours, genuinely voluntary, not directly related to the job, and no productive work. Attendance is not voluntary if required or if nonattendance would adversely affect present conditions or continuing employment.",
+    "exceptions": "Sections 785.30–.32 separately address employee-initiated independent education, qualifying voluntary courses analogous to independent institutions, and bona fide apprenticeship supplemental instruction with their stated conditions.",
+    "trigger": "Employee attendance at a course, meeting or training programme",
+    "deadline": "Count qualifying training in hours worked for the workweek.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-hours-worked"
+    ],
+    "status": "conditional",
+    "legalStatus": "current agency interpretation",
+    "verifiedAt": "2026-11-14T01:45:04.639432+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not every employer-funded course is working time; special situations must be assessed.",
+      "State law, court application, coverage and exemptions remain separate."
+    ],
+    "dependentPaths": [
+      "/us-expansion/required-employee-training-time/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-background-employment",
+    "title": "Use the employment-report process before rejecting a candidate",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Use the employment-report process before rejecting a candidate",
+    "affectedParty": "Employer obtaining or using a covered employment report",
+    "applicability": "Ordinary private-employer use of a consumer report from a consumer reporting agency for employment purposes; special statutory transportation-applicant procedures are excluded from the public walkthrough.",
+    "requirement": "Obtain the required clear, conspicuous standalone written disclosure and written authorisation before procurement, and certify required compliance to the agency. Before adverse action based wholly or partly on the report, provide the report and prescribed written rights summary. When taking adverse action, give the required agency/decision/free-copy/dispute notices and any applicable credit-score disclosures.",
+    "exceptions": "Specified transportation applicants with solely remote interactions have a distinct process; investigative consumer reports and federal national-security investigations have additional or different provisions. Independent discrimination and state/local laws remain.",
+    "trigger": "Procurement and employment decisions based wholly or partly on a consumer report",
+    "deadline": "Before procurement; before adverse action; final notice at adverse action. The 60-day free-copy request period runs after the consumer receives the adverse-action notice; it is not a universal employer waiting period.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-fcra-employment",
+      "nr-fcra-adverse",
+      "nr-ftc-background-guide",
+      "nr-fcra-free-disclosure"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:49:20.739541+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No fixed five-day waiting period invented; this does not supply a complete form or state/local hiring clearance."
+    ],
+    "dependentPaths": [
+      "/us-expansion/employment-background-reports/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-consumer-recurring-debits",
+    "title": "Obtain the consumer’s recurring bank-debit authorisation",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "U.S. federal",
+    "activity": "Obtain the consumer’s recurring bank-debit authorisation",
+    "affectedParty": "Business obtaining the consumer’s preauthorised bank debit",
+    "applicability": "Covered preauthorised electronic transfers from consumer accounts established primarily for personal, family or household purposes; payments recur at substantially regular intervals without a fresh consumer instruction.",
+    "requirement": "Obtain writing signed or similarly authenticated by the consumer, provide a copy of the authorisation, and use clear readily identifiable terms. For varying transfers, the designated payee or institution must provide amount/date notice at least 10 days before the transfer unless the consumer chooses the specified supported range/difference option after being told of the right to all varying-transfer notices.",
+    "exceptions": "Electronic authorisation is possible under applicable electronic-record rules; oral permission alone does not allow the payee to sign for the consumer. Bank stop-payment and other account/product exceptions have their own conditions.",
+    "trigger": "Arranging covered recurring consumer account debits; changing the amount",
+    "deadline": "Authorise before debiting; applicable variable-amount notice at least 10 days before the scheduled transfer.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-rege-preauthorized",
+      "nr-rege-definitions"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:49:20.743795+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a commercial-account, card-network, subscription-contract or complete bank-error-resolution guide."
+    ],
+    "dependentPaths": [
+      "/us-expansion/recurring-consumer-bank-debits/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-ada-lease-responsibilities",
+    "title": "Keep landlord and tenant accessibility duties distinct from lease costs",
+    "topic": "premises-opening",
+    "jurisdiction": "U.S. federal",
+    "activity": "Keep landlord and tenant accessibility duties distinct from lease costs",
+    "affectedParty": "Covered public-accommodation landlord and tenant",
+    "applicability": "A private landlord and tenant owning/operating a covered place of public accommodation under ADA Title III; actual facility scope must be established.",
+    "requirement": "Both covered landlord and tenant are subject to Part 36. A lease may allocate compliance responsibility between them. Existing architectural barriers must be removed where readily achievable; alterations have a separate maximum-feasible-accessibility standard for altered portions.",
+    "exceptions": "Coverage, element-specific safe harbours, exceptions and technical standards depend on the actual facility/date/work. Readily achievable takes relevant site and parent resources/relationships into account; it is not a fixed universal dollar limit.",
+    "trigger": "Operating/leasing the public accommodation or undertaking relevant alterations",
+    "deadline": "Continuing applicable duties; alteration requirements when undertaking covered changes.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-ada-landlord-tenant",
+      "nr-ada-scope",
+      "nr-ada-barriers",
+      "nr-ada-alterations"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:49:20.748389+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No building plan, ramp, technical measurement, cost allocation dispute or actual safe harbour is approved."
+    ],
+    "dependentPaths": [
+      "/us-expansion/ada-landlord-tenant-accessibility/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-osha-small-severe-reports",
+    "title": "Report qualifying severe incidents despite the small-employer record exemption",
+    "topic": "employment",
+    "jurisdiction": "U.S. federal",
+    "activity": "Report qualifying severe incidents despite the small-employer record exemption",
+    "affectedParty": "Employer covered by the Occupational Safety and Health Act",
+    "applicability": "Employers covered by the OSH Act; public guide explains federal 1904.1/1904.39, not state-plan routing or every recordkeeping exception.",
+    "requirement": "The 10-or-fewer partial records exemption uses entire-company peak employment throughout the preceding calendar year and does not remove severe-event reporting. Report a qualifying work-related fatality within 8 hours; in-patient hospitalisation, amputation or eye loss within 24 hours, subject to the event windows, knowledge rules and defined exceptions.",
+    "exceptions": "Fatality reportable only if death occurs within 30 days of incident; other named events only if within 24 hours of incident. Observation/diagnostic-only admission is excluded. Motor-vehicle accidents on public streets or highways outside construction work zones and commercial/public transport have specified reporting exceptions, not automatic recordkeeping exceptions.",
+    "trigger": "A defined severe outcome of a work-related incident",
+    "deadline": "8 hours for fatality; 24 hours for the other listed outcomes. Apply later-learning/work-relatedness knowledge provisions for employer or agent.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-osha-severe-reporting",
+      "nr-osha-small-records"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:49:20.751088+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No complete state-plan, workers compensation, incident investigation or actual medical classification is supplied."
+    ],
+    "dependentPaths": [
+      "/us-expansion/osha-small-employer-incident-reporting/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-tax-preparer-safeguards",
+    "title": "Apply the Safeguards Rule to covered tax-preparation customer information",
+    "topic": "ip-data",
+    "jurisdiction": "U.S. federal",
+    "activity": "Apply the Safeguards Rule to covered tax-preparation customer information",
+    "affectedParty": "Covered FTC-regulated tax-preparation financial institution",
+    "applicability": "Tax-preparation businesses significantly engaged in the specified financial activity, within FTC jurisdiction and handling the defined customer information; not every bookkeeping file or other regulator’s institution.",
+    "requirement": "Maintain an appropriate written information-security programme, with the applicable 314.4 elements, a qualified individual and retained responsibility even if outsourced. The fewer-than-5,000-consumer exception is limited to 314.4(b)(1),(d)(2),(h),(i). Notify FTC of a defined notification event affecting at least 500 consumers as soon as possible and within 30 days of discovery.",
+    "exceptions": "Small-institution relief is not blanket relief; written programme, basic risk assessment, service-provider duties and 314.4(j) remain. Notification-event definition, encryption-key/access presumptions and knowledge provisions must be met; other privacy/breach duties are separate.",
+    "trigger": "Handling covered customer information; discovering a qualifying notification event",
+    "deadline": "Continuing programme; FTC event notice as soon as possible and no later than 30 days after discovery.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-safeguards-rule"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:53:07.151734+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not a complete security design, institution-coverage opinion, state privacy rule or notification form.",
+      "The 2017 TaxSlayer order is a bounded historical example, not every firm’s current order."
+    ],
+    "dependentPaths": [
+      "/us-expansion/tax-preparer-customer-information-security/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-cash-installment-report",
+    "title": "Aggregate reportable business cash installments for Form 8300",
+    "topic": "corporate-tax",
+    "jurisdiction": "U.S. federal",
+    "activity": "Aggregate reportable business cash installments for Form 8300",
+    "affectedParty": "Trade or business receiving reportable currency",
+    "applicability": "A person receiving covered currency in the course of a trade/business, with domestic U.S. examples; apply actual statutory/regulatory exceptions and recipient/agent rules.",
+    "requirement": "Report receipts in excess of 10,000 dollars in a single or related transaction. If the initial payment is 10,000 or less, aggregate later payments within one year until the total exceeds 10,000, then file within 15 days of the threshold-crossing receipt. Apply subsequent 12-month payment rules, keep each filed report five years, and follow the required customer-statement instructions.",
+    "exceptions": "Currency definition conditionally includes specified monetary instruments of 10,000 or less; personal checks and ordinary bank transmissions are not cash under the cited guidance. Specific agent, loan/instrument, foreign-transaction and financial-reporting exceptions are not all resolved by the example.",
+    "trigger": "Receipt of covered currency or a payment causing required aggregation to exceed the threshold",
+    "deadline": "Generally 15 days after the relevant receipt; IRS guidance moves a Saturday/Sunday/holiday last day to the next business day. Required customer statements by January 31 following the relevant payment year.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-cash-reporting-rule",
+      "nr-irs-8300-guide"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:53:07.156616+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No transaction may be split to evade reporting; the guide supplies no structuring advice.",
+      "No actual identity/taxpayer-number, territory, digital-asset, penalty or complete form determination."
+    ],
+    "dependentPaths": [
+      "/us-expansion/cash-installments-form-8300/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-deemed-export-release",
+    "title": "Assess technical information before releasing it to a visiting foreign person",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Assess technical information before releasing it to a visiting foreign person",
+    "affectedParty": "Business providing the covered technology or source-code access",
+    "applicability": "Technology or source code subject to the Export Administration Regulations released or otherwise transferred to a defined foreign person in the United States, subject to the cited exceptions.",
+    "requirement": "A release can be a deemed export without goods leaving the United States. Visual inspection revealing covered technology/source code and oral/written exchanges can release it. Treat the deemed destination under 734.13(b), and obtain any authorisation required for the actual information/person rather than assuming a commercial relationship permits access.",
+    "exceptions": "Object code is not included in 734.13(a)(2)’s source-code wording. Foreign-person definition excludes U.S. citizens, lawful permanent residents and other protected individuals. Items exclusively controlled elsewhere and specified published/research/academic information have their own jurisdiction/exclusion conditions; 734.18/.19 exceptions not comprehensively analysed.",
+    "trigger": "Covered release/transfer to the foreign person",
+    "deadline": "Establish the applicable requirement before providing the covered information.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-ear-deemed-export",
+      "nr-ear-release",
+      "nr-ear-scope",
+      "nr-ear-defined-person-technology"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:56:11.121775+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No actual item jurisdiction, classification, recipient/destination, license exception or export authorisation is determined."
+    ],
+    "dependentPaths": [
+      "/us-expansion/visiting-technicians-deemed-exports/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-eei-equipment",
+    "title": "Apply export-data filing rules to outbound equipment",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Apply export-data filing rules to outbound equipment",
+    "affectedParty": "Specified principal party or authorised export-data filing agent",
+    "applicability": "Physical exports within 15CFR 30.2’s scope, with ordinary U.S.-to-foreign-country equipment examples; apply actual principal-party/agent, exclusion and exemption conditions.",
+    "requirement": "Electronic Export Information is filed through AES by the specified principal party or authorised agent. Low-value exemption generally applies at 2500 dollars or less per individual Schedule B/HTSUSA classification for one USPPI, one ultimate consignee and one conveyance. Mandatory categories under 30.2(a)(1)(iv) override exemptions regardless of value.",
+    "exceptions": "Combine same-classification items; domestic/foreign origin groups are separate under 30.37(a). Licensing, specified defence/drug/nuclear/rough-diamond/used-vehicle and other mandatory categories can override. Tools-of-trade, temporary exports and qualifying TIB returns have their own conditions; no universal demo/return exemption.",
+    "trigger": "A covered physical export",
+    "deadline": "Generally prior to export; actual mode-specific time and authorised postdeparture conditions require 30.4/.5.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-eei-requirements",
+      "nr-eei-exemptions"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:56:11.126692+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No actual classification/value, filing party, country exception, licence or temporary-shipment result is determined."
+    ],
+    "dependentPaths": [
+      "/us-expansion/equipment-export-eei/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-merchandise-shipping-promises",
+    "title": "Meet the merchandise shipping promise or use the required delay/cancellation process",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Meet the merchandise shipping promise or use the required delay/cancellation process",
+    "affectedParty": "Seller soliciting covered merchandise orders",
+    "applicability": "Covered mail, internet or telephone merchandise orders in or affecting commerce; subject to 435.3 exclusions.",
+    "requirement": "At solicitation, have a reasonable basis for shipping within the clearly stated time. If no time is stated, have a reasonable basis for shipping within the ordinary 30-day proper-order period, or within the specified 50-day seller-credit-application branch where its conditions apply. If unable to meet the applicable time, offer the required delay-or-cancel/refund option without demand by the applicable deadline. Follow distinct initial-short-delay, longer/indefinite-delay and renewed-delay consent/cancellation rules.",
+    "exceptions": "Exclusions include specified post-initial serial subscriptions, seeds/growing plants, COD and Part 425 transactions. Shipment means physical carrier possession; refund routes/deadlines vary by payment and seller-credit status. Independent equal/greater state protections remain.",
+    "trigger": "Soliciting covered orders and learning the applicable shipping time cannot be met",
+    "deadline": "Required notice within a reasonable time after learning of inability, never later than the applicable shipment deadline. Use the exact consent and prompt-refund periods for the actual branch.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-ftc-order-shipping"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:56:11.131930+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Not all first-delay silence counts as consent; renewed delays generally require specific consent under their stated rules.",
+      "No actual order, arrival guarantee or complete refund form is approved."
+    ],
+    "dependentPaths": [
+      "/us-expansion/online-equipment-shipping-delays/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-made-usa-product-claims",
+    "title": "Support unqualified U.S.-origin labels and narrower assembly claims",
+    "topic": "products-supply",
+    "jurisdiction": "U.S. federal",
+    "activity": "Support unqualified U.S.-origin labels and narrower assembly claims",
+    "affectedParty": "Business making the covered U.S.-origin product claim",
+    "applicability": "Unqualified express/implied U.S.-origin product labels and covered mail-order materials under Part 323; broader advertising assessed under the cited FTC guidance/Act, with special product laws separate.",
+    "requirement": "An unqualified Made-in-USA product label requires final assembly/processing in the United States, all significant processing there, and all or virtually all ingredients/components made and sourced there. Advertising claims need a truthful supported overall impression. A narrower assembly claim has its own principal/substantial-assembly and last-substantial-transformation conditions in staff guidance.",
+    "exceptions": "Qualified claims must accurately convey actual foreign content/processing; a qualification is not automatically sufficient. Other federal product-label laws and equal/greater state protection remain. Exemptions require their actual Commission conditions, not assumed local assembly.",
+    "trigger": "Making the actual U.S.-origin representation",
+    "deadline": "Have and rely on the basis when claiming; revisit claims when sourcing or processing changes.",
+    "fee": null,
+    "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-made-usa-rule",
+      "nr-made-usa-guidance"
+    ],
+    "status": "conditional",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T01:56:11.145714+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No product origin, label wording, percentage safe harbour, procurement eligibility or actual claim is approved.",
+      "The 2020 case is a bounded consent outcome, not proof of later compliance or collection."
+    ],
+    "dependentPaths": [
+      "/us-expansion/made-in-usa-assembly-claims/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+    "requirementType": "legal-requirement"
+  },
+  {
+    "id": "nr-ga-coverage",
+    "title": "Georgia business-opportunity coverage has separate promise branches",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Georgia",
+    "activity": "Offering or selling a defined business opportunity",
+    "affectedParty": "Actual seller and purchaser",
+    "applicability": "Apply the actual definitions, exclusions and Georgia connections in 10-1-410–417.",
+    "requirement": "410(2)(A) covers enabling a purchaser to start a business with specified vending/display/amusement-device-location promises, buyback of purchaser output, or a sales/marketing programme with initial payment exceeding $500. Initial payment has the statutory first-six-month/instalment/security rules. Registered-mark licensing qualifies the marketing-programme exception only. Seller definition reaches in-state offers/solicitation and Georgia principal-place sellers soliciting nonresidents.",
+    "exceptions": "410(2)(B) separately excludes a one-business ongoing-business owner sale; named employment/general-partnership/cooperative relationships; agribusiness corporations; insurance agencies; the detailed audited $15m/public-company/securities-reporting/dividend-debt/volume/market-value branch; and specified unaffiliated-goods retail-centre pushcart/kiosk arrangements. Each has its actual conditions.",
+    "trigger": "Designing the actual offer and representations",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-ga-code2024",
+      "nr-ga-supp2025",
+      "nr-ga-act723-2026"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Actual coverage and exemption facts must be established; no complete sector-specific or federal clearance."
+    ],
+    "dependentPaths": [
+      "/states/georgia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ga-disclosure-payment",
+    "title": "Georgia disclosure, escrow and conditional assurance duties remain separate",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Georgia",
+    "activity": "Offering or selling a defined business opportunity",
+    "affectedParty": "Actual seller and purchaser",
+    "applicability": "Apply the actual definitions, exclusions and Georgia connections in 10-1-410–417.",
+    "requirement": "Section 10-1-411(b) requires the prescribed cover and disclosure at least 48 hours before the earlier signature or consideration, including financial statements no older than 13 months updated for material changes, actual services/training and conditional earnings disclosures. Section 411(c) permits Part 436 substitution only for its specified paragraphs. Section 413(b) requires material-change and at least annual updates. Section 412(b) caps collection at 15%, with the balance in agreed independent escrow released 60 days after operations begin or complete contractual performance, whichever happens first. Section 412(a) requires the specified bond or trust of at least $75,000 where the qualifying dissatisfaction-based refund/repurchase representation accompanies an agreement with total initial payment exceeding $500; multilevel-company rules and the below-$500 exception apply separately.",
+    "exceptions": "No universal bond for every business opportunity is inferred; specified below $500 MLM exemption and deposit-price rule retained. MLM cancellation/notice duties are separate.",
+    "trigger": "Before earlier purchaser signature or seller receipt of consideration",
+    "deadline": "At least 48 hours before the earlier signature or consideration; separate 60-day-or-complete-performance escrow release clock.",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-ga-code2024",
+      "nr-ga-supp2025",
+      "nr-ga-act723-2026"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Actual coverage and exemption facts must be established; no complete sector-specific or federal clearance."
+    ],
+    "dependentPaths": [
+      "/states/georgia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ga-filing-advertising",
+    "title": "Georgia process-agent filing and claims duties are not offer approval",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Georgia",
+    "activity": "Offering or selling a defined business opportunity",
+    "affectedParty": "Actual seller and purchaser",
+    "applicability": "Apply the actual definitions, exclusions and Georgia connections in 10-1-410–417.",
+    "requirement": "Section 10-1-416(a) requires the covered Georgia-connected seller to appoint the Secretary of State as process agent and pay $10. Section 414 requires documented earnings-claim support supplied to the Attorney General on request and prohibits the specified mark misuse, approval or compliance representations. Section 415(a)–(b) requires the written contract and copy at signing with prescribed terms. Section 417 provides a qualified violation-based voiding/refund route with written notice within one year, goods made available for return and no unjust enrichment.",
+    "exceptions": "The consent filing does not itself subject seller to consequences of every other statute or establish approval. No general franchise termination right is inferred from MLM cancellation provisions.",
+    "trigger": "Covered sale, earnings claim or process-agent filing",
+    "deadline": null,
+    "fee": "$10 service-of-process filing",
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-ga-code2024",
+      "nr-ga-supp2025",
+      "nr-ga-act723-2026"
+    ],
+    "status": "verified",
+    "legalStatus": "effective",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Actual coverage and exemption facts must be established; no complete sector-specific or federal clearance."
+    ],
+    "dependentPaths": [
+      "/states/georgia/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-tn-tax-entity",
+    "title": "Tennessee tax entity and connection tests",
+    "topic": "corporate-tax",
+    "jurisdiction": "Tennessee",
+    "activity": "Tennessee tax entity and connection tests",
+    "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+    "applicability": "Actual entity, federal classification, ownership, business activity and state/U.S. income facts",
+    "requirement": "June 2026 manual distinguishes limited-liability entities, sole proprietors/general partnerships, exemptions and corporate-owner single-member LLC treatment. Doing business and substantial Tennessee connections are separate; royalty licensing, stated bright-line tests and foreign-corporation U.S.-connected income/treaty conditions must be applied.",
+    "exceptions": null,
+    "trigger": "Actual entity, federal classification, ownership, business activity and state/U.S. income facts",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-tn-manual2026"
+    ],
+    "status": "verified",
+    "legalStatus": "effective, with stated source/interpretation limits",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+    ],
+    "dependentPaths": [
+      "/states/tennessee/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-tn-tax-calendar",
+    "title": "Tennessee registration, tax rates and calendar",
+    "topic": "corporate-tax",
+    "jurisdiction": "Tennessee",
+    "activity": "Tennessee registration, tax rates and calendar",
+    "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+    "applicability": "Taxpayer subject to franchise/excise tax; actual tax period and exemptions control",
+    "requirement": "Register within 15 days after becoming subject. Ordinary FAE170 return: 0.25% applicable net worth with $100 minimum and 6.5% applicable earnings, with stated adjustments and $50,000 excise deduction conditions. Return generally due the 15th day of fourth month, with short/52–53-week rules. Estimated-payment $5,000 both-year trigger, annualisation, 4/6/9/next-1 month dates and alternative methods are distinct. Seven-month filing extension is conditional and is not payment relief.",
+    "exceptions": null,
+    "trigger": "Taxpayer subject to franchise/excise tax; actual tax period and exemptions control",
+    "deadline": "15-day registration; specified return, quarterly and extension clocks",
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-tn-manual2026"
+    ],
+    "status": "verified",
+    "legalStatus": "effective, with stated source/interpretation limits",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+    ],
+    "dependentPaths": [
+      "/states/tennessee/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-tn-sector-case",
+    "title": "Servpro distinguishes the Tennessee liquor-franchise provision",
+    "topic": "classification",
+    "jurisdiction": "Tennessee",
+    "activity": "Servpro distinguishes the Tennessee liquor-franchise provision",
+    "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+    "applicability": "Historical case scope only; current other sales/relationship provisions remain separate",
+    "requirement": "The Sixth Circuit’s 2022 unpublished Servpro opinion found the cited Tennessee termination statute inapplicable to the cleaning/restoration operator because the definition required the specified liquor licence. The California-addendum result concerned the actual agreement; no universal choice-of-law or no-state-law conclusion follows.",
+    "exceptions": null,
+    "trigger": "Historical case scope only; current other sales/relationship provisions remain separate",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "nr-tn-servpro2022"
+    ],
+    "status": "verified",
+    "legalStatus": "2022 unpublished appellate disposition, within its stated case scope",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+    ],
+    "dependentPaths": [
+      "/states/tennessee/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ar-2023-specific",
+    "title": "Arkansas Act 847: exact amendment and agreement-date conditions",
+    "topic": "relationship",
+    "jurisdiction": "Arkansas",
+    "activity": "Arkansas Act 847: exact amendment and agreement-date conditions",
+    "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+    "applicability": "Historical enacted amendment, not a complete current Code consolidation",
+    "requirement": "Actual 2023 Act removes the federal-coverage exclusion, restates Arkansas place/agreement scope, adds the inclusive $20,000-and-one-year exclusion and beverage qualification, and replaces the transfer response period with 30 days. Qualified spouse/child/heir transfers have separate approval/right-of-first-refusal treatment. Sections 1 and 3 are retroactive to the effective date of 1991 Act 411; sections 2, 4 and 5 apply only to agreements/contracts entered or renewed on/after the Act 847 effective date, identified through the official session date explanation as August 1, 2023. Other current provisions and later merits remain unverified.",
+    "exceptions": null,
+    "trigger": "Historical enacted amendment, not a complete current Code consolidation",
+    "deadline": null,
+    "fee": null,
+    "renewal": null,
+    "dependencies": [],
+    "evidence": [],
+    "sourceIds": [
+      "b2-east-ar-2023",
+      "b2-east-ar-2025",
+      "nr-ar-session2023"
+    ],
+    "status": "conditional",
+    "legalStatus": "enacted 2023 amendment; exact historical scope verified, current consolidation not complete",
+    "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+    ],
+    "dependentPaths": [
+      "/states/arkansas/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  }
+]

@@ -1,0 +1,2512 @@
+[
+  {
+    "id": "nr-guide-travel",
+    "path": "/us-expansion/employee-travel-between-jobs/",
+    "question": "Does travel between customer jobs count toward paid hours?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "Ordinary commuting and travel within the working day are distinct; billability does not decide hours worked.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-785",
+        "retrievedAt": "2026-11-14T01:40:58.828888+00:00",
+        "sha256": "177d94bb216828b306bec5e8d5e1d1b004e48ea2bd6852d5298e9650c0370e73",
+        "rawPath": "research/raw/next-release/new-articles/hours-worked.raw",
+        "locator": "§§785.1–.3,.7; complete §§785.27–.41",
+        "readScope": "Read the general interpretation/court-status provisions and all training/travel sections, including special training, apprenticeships, emergency/special one-day/overnight travel and work while travelling. The public guides address ordinary covered nonexempt employment, not every court or state-law question.",
+        "quote": "travel from job site to job site during the workday"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-travel",
+      "path": "/us-expansion/employee-travel-between-jobs/",
+      "title": "Do you have to pay for travel between customer jobs?",
+      "seoTitle": "Employee travel time between jobs: federal hours-worked rules",
+      "description": "A route can contain more paid working time than the hours billed at customer premises.",
+      "family": "federal",
+      "topic": "employment",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "Travel between jobs during the workday generally counts as working time. Ordinary travel from home to work is a different category, so a route budget should not treat every journey as commuting.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "route-hours",
+          "heading": "The customer’s billable hours are not the whole working day",
+          "paragraphs": [
+            "A cleaning or maintenance employee may finish one customer’s job and drive to the next. Under the Department of Labor’s federal hours-worked interpretation, travel that is part of the principal work—including job-to-job travel during the day—must be counted. Whether you charge the customer for that journey is a separate commercial choice.",
+            "This guide concerns employees covered by federal wage law, with the pay-budget example aimed at employees who are not exempt from overtime. It does not classify a contractor or decide an exemption."
+          ],
+          "sourceIds": [
+            "nr-hours-worked"
+          ]
+        },
+        {
+          "id": "commute-and-meeting",
+          "heading": "What changes when work begins at the depot?",
+          "paragraphs": [
+            "Ordinary home-to-work travel is generally not working time, whether the employee works at one fixed location or different jobsites. But if the employer requires reporting at a meeting place to receive instructions, do other work, or pick up and carry tools, travel from there to the worksite is part of the day’s work.",
+            "Fictional example: an employee reports to the depot for required instructions, drives to the first customer, completes two hours of service, drives 45 minutes to the second customer and performs another two hours there. The 45 minutes between customers counts; the four customer-service hours are not the complete total. The required depot activity and onward journey also need to be included under the stated rule. No particular home journey is decided by this example."
+          ],
+          "sourceIds": [
+            "nr-hours-worked"
+          ]
+        },
+        {
+          "id": "different-trips",
+          "heading": "Use a different answer for a different kind of trip",
+          "paragraphs": [
+            "Emergency call-outs, an unusual one-day assignment in another city and overnight travel have separate provisions. Work actually required while travelling must also be counted; a rule about being a passenger does not make required work disappear. Do not apply an ordinary-commute label to all of them."
+          ],
+          "sourceIds": [
+            "nr-hours-worked"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-hours-worked"
+      ],
+      "ruleIds": [
+        "nr-travel-hours"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Include qualifying travel and depot work in labour hours before pricing the route or calculating the week’s pay.",
+      "limitations": [
+        "Federal agency interpretation only. State rules, governing court law, contracts/custom and actual travel facts can matter. This gives no mileage-reimbursement rate or complete overnight/call-out calculation."
+      ],
+      "relatedPaths": [
+        "/us-expansion/federal-wage/",
+        "/industries/commercial-cleaning/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-hours-worked",
+          "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-785",
+          "title": "29 CFR Part 785: hours worked, training and travel",
+          "authority": "U.S. Department of Labor, Wage and Hour Division",
+          "type": "primary",
+          "section": "§§785.1–.3,.7; complete §§785.27–.41",
+          "supportingPassage": "travel from job site to job site during the workday",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:40:58.828888+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:45:04.638811+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "current agency interpretation; courts determine statutory application",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read the general interpretation/court-status provisions and all training/travel sections, including special training, apprenticeships, emergency/special one-day/overnight travel and work while travelling. The public guides address ordinary covered nonexempt employment, not every court or state-law question.",
+          "sha256": "177d94bb216828b306bec5e8d5e1d1b004e48ea2bd6852d5298e9650c0370e73"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-travel-hours",
+          "title": "Count qualifying travel within the working day",
+          "topic": "employment",
+          "jurisdiction": "U.S. federal",
+          "activity": "Count qualifying travel within the working day",
+          "affectedParty": "Covered employer",
+          "applicability": "Employees covered by federal wage-and-hour law; the guide focuses on nonexempt employees travelling as part of their principal work.",
+          "requirement": "Count travel from customer job to customer job during the workday. Where an employee must report to receive instructions, perform other work, or pick up and carry tools, travel from that designated place to the worksite is working time.",
+          "exceptions": "Ordinary home-to-work travel is generally not working time even with changing jobsites. Emergency call-outs, special one-day assignments, overnight travel and work while travelling have their own provisions; employer-vehicle commuting and contract/custom provisions require their actual conditions.",
+          "trigger": "Travel as part of the employee’s workday",
+          "deadline": "Include qualifying time in hours worked for the applicable workweek.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-hours-worked"
+          ],
+          "status": "conditional",
+          "legalStatus": "current agency interpretation",
+          "verifiedAt": "2026-11-14T01:45:04.638830+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Agency interpretation under Part 785; state law and governing court law can affect the result.",
+            "No travel-expense reimbursement rate or overtime exemption is established."
+          ],
+          "dependentPaths": [
+            "/us-expansion/employee-travel-between-jobs/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual duties, trip type, coverage/exemption and applicable state rules remain fact-specific.",
+    "authorNote": "New intent checked against existing federal-wage (weekly arithmetic) and commercial-cleaning (route viability): neither supplies the travel-time classification answer."
+  },
+  {
+    "id": "nr-guide-training",
+    "path": "/us-expansion/required-employee-training-time/",
+    "question": "Does a required evening training course count toward paid working hours?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The general four-condition exclusion is cumulative; genuine independent education and apprenticeships have separate conditions.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-785",
+        "retrievedAt": "2026-11-14T01:40:58.828888+00:00",
+        "sha256": "177d94bb216828b306bec5e8d5e1d1b004e48ea2bd6852d5298e9650c0370e73",
+        "rawPath": "research/raw/next-release/new-articles/hours-worked.raw",
+        "locator": "§§785.1–.3,.7; complete §§785.27–.41",
+        "readScope": "Read the general interpretation/court-status provisions and all training/travel sections, including special training, apprenticeships, emergency/special one-day/overnight travel and work while travelling. The public guides address ordinary covered nonexempt employment, not every court or state-law question.",
+        "quote": "travel from job site to job site during the workday"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-training",
+      "path": "/us-expansion/required-employee-training-time/",
+      "title": "Must you pay for required employee training?",
+      "seoTitle": "Required employee training: when federal hours-worked rules count it",
+      "description": "An evening course is not unpaid merely because the customer work has ended.",
+      "family": "federal",
+      "topic": "employment",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "Required training for the employee’s existing job is normally working time under the federal interpretation. Moving it to the evening or calling it optional does not by itself remove it from the pay budget.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "four-conditions",
+          "heading": "After hours is only one condition",
+          "paragraphs": [
+            "The general federal interpretation allows training attendance to be left out of working time only when all four conditions are met: it is outside regular working hours, genuinely voluntary, not directly related to the employee’s job, and involves no productive work.",
+            "Attendance is not genuinely voluntary if you require it or lead staff to believe that skipping it will harm their present working conditions or continued employment. Training designed to help someone do their existing job more effectively is directly related; genuine education for advancement or another skill needs its actual purpose considered."
+          ],
+          "sourceIds": [
+            "nr-hours-worked"
+          ]
+        },
+        {
+          "id": "course-and-week",
+          "heading": "The course can change the week’s wage cost",
+          "paragraphs": [
+            "Fictional example: a covered, nonexempt service employee has 38 hours of field work and must attend a three-hour evening course on the employer’s scheduling system for that job. Those stated facts do not satisfy the general exclusion. Counting the course gives 41 working hours, so the federal over-40 overtime question arises; calling the course development does not reduce the week to 38 hours.",
+            "This example assumes the three hours are additional and not already recorded. It sets no wage rate or exemption and is not a rule that every course bought by an employer must be paid."
+          ],
+          "sourceIds": [
+            "nr-hours-worked"
+          ]
+        },
+        {
+          "id": "independent-education",
+          "heading": "Independent study and apprenticeships are different",
+          "paragraphs": [
+            "Employee-initiated attendance at an independent school after hours has separate treatment, even where the course relates to the job. The interpretation also describes qualifying voluntary employer programmes comparable to independent institutions and a conditional enforcement policy for bona fide apprenticeship supplemental instruction. Do not turn those exceptions into an unpaid category for your mandatory operating-system course."
+          ],
+          "sourceIds": [
+            "nr-hours-worked"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-hours-worked"
+      ],
+      "ruleIds": [
+        "nr-training-hours"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Count the actual required training before setting the employee’s weekly hours and the training budget.",
+      "limitations": [
+        "This addresses the federal hours-worked interpretation for employees, not paying franchise buyers for onboarding. Actual coverage, exemption, special-course/apprenticeship conditions, state law and court application remain separate."
+      ],
+      "relatedPaths": [
+        "/us-expansion/federal-wage/",
+        "/industries/business-training/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-hours-worked",
+          "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-V/subchapter-B/part-785",
+          "title": "29 CFR Part 785: hours worked, training and travel",
+          "authority": "U.S. Department of Labor, Wage and Hour Division",
+          "type": "primary",
+          "section": "§§785.1–.3,.7; complete §§785.27–.41",
+          "supportingPassage": "travel from job site to job site during the workday",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:40:58.828888+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:45:04.638811+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "current agency interpretation; courts determine statutory application",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read the general interpretation/court-status provisions and all training/travel sections, including special training, apprenticeships, emergency/special one-day/overnight travel and work while travelling. The public guides address ordinary covered nonexempt employment, not every court or state-law question.",
+          "sha256": "177d94bb216828b306bec5e8d5e1d1b004e48ea2bd6852d5298e9650c0370e73"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-training-hours",
+          "title": "Assess employee training as working time",
+          "topic": "employment",
+          "jurisdiction": "U.S. federal",
+          "activity": "Assess employee training as working time",
+          "affectedParty": "Covered employer",
+          "applicability": "Covered employees attending employer-related lectures, meetings or training; public example concerns ordinary nonexempt staff.",
+          "requirement": "Under the general interpretation, excluding training attendance requires all four conditions: outside regular hours, genuinely voluntary, not directly related to the job, and no productive work. Attendance is not voluntary if required or if nonattendance would adversely affect present conditions or continuing employment.",
+          "exceptions": "Sections 785.30–.32 separately address employee-initiated independent education, qualifying voluntary courses analogous to independent institutions, and bona fide apprenticeship supplemental instruction with their stated conditions.",
+          "trigger": "Employee attendance at a course, meeting or training programme",
+          "deadline": "Count qualifying training in hours worked for the workweek.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-hours-worked"
+          ],
+          "status": "conditional",
+          "legalStatus": "current agency interpretation",
+          "verifiedAt": "2026-11-14T01:45:04.639432+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Not every employer-funded course is working time; special situations must be assessed.",
+            "State law, court application, coverage and exemptions remain separate."
+          ],
+          "dependentPaths": [
+            "/us-expansion/required-employee-training-time/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual course purpose, voluntariness, productive work, employment coverage and special exceptions require the facts.",
+    "authorNote": "Distinct from business-training advertising/certification and FDD 11 support promises. This addresses the employer’s own staff pay; no new generic training checklist."
+  },
+  {
+    "id": "nr-guide-background",
+    "path": "/us-expansion/employment-background-reports/",
+    "question": "What must the employer do before rejecting an applicant because of a background report?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "Ordinary FCRA employment procurement, pre-adverse-action and final-notice duties are separate; a vendor report is not the employer decision.",
+    "evidence": [
+      {
+        "url": "https://uscode.house.gov/us/usc/t15/s1681b/",
+        "retrievedAt": "2026-11-14T01:42:08.502580+00:00",
+        "sha256": "8f1d46416c7e0de3e1751eb616669fbd00774ec9dde4d59fbb0d4e973fb4da5b",
+        "rawPath": "research/raw/next-release/new-articles/fcra-1681b-current.raw",
+        "locator": "§1681b(b)(1)–(3), including specified transportation-applicant exceptions",
+        "readScope": "Read complete employment certification, disclosure/permission and pre-adverse-action provisions, including transportation/remote-application exceptions. Site states laws in effect through Public Law 119-142, November 10, 2026. No complete FCRA or investigation procedure claimed.",
+        "quote": "before taking any adverse action"
+      },
+      {
+        "url": "https://uscode.house.gov/us/usc/t15/s1681m/",
+        "retrievedAt": "2026-11-14T01:42:08.503517+00:00",
+        "sha256": "0cd67a2949f3d1bc41669ae6792d1f0ac6740827af81c1b42a0bfcbff4e5db00",
+        "rawPath": "research/raw/next-release/new-articles/fcra-1681m-current.raw",
+        "locator": "§1681m(a)(1)–(4)",
+        "readScope": "Read complete subsection(a), including conditional numerical-credit-score disclosures, agency details, decision disclaimer and 60-day free-copy/dispute rights. Not a rule that every employment report uses a credit score.",
+        "quote": "based in whole or in part"
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know",
+        "retrievedAt": "2026-11-14T01:40:58.832647+00:00",
+        "sha256": "b76593e20ab6707868551489b1c04c1e6338d50f7303cc8e864b5e25b82b969a",
+        "rawPath": "research/raw/next-release/new-articles/ftc-employer-background.raw",
+        "locator": "Complete employer guidance, especially before/after adverse action",
+        "readScope": "Read complete current-hosted joint guidance, including pre-procurement permission, investigative-report caveat, nondiscrimination, adverse action and secure disposal. The guide’s historical publication is not treated as a new rule; current statute separately read.",
+        "quote": "a copy of the consumer report"
+      },
+      {
+        "url": "https://uscode.house.gov/us/usc/t15/s1681j/",
+        "retrievedAt": "2026-11-14T01:56:46.369765+00:00",
+        "sha256": "975b578aacf8ef809154cdd1927c56fc17616a6cbc72d06142ab4a28ef4ab492",
+        "rawPath": "research/raw/next-release/new-articles/fcra-1681j-current.raw",
+        "locator": "Complete §1681j(b)",
+        "readScope": "Read complete subsection(b), including receipt of the adverse-action notification as the start of the 60-day free-disclosure request period. Not a pre-adverse-action waiting period or complete FCRA disclosure procedure.",
+        "quote": "60 days after receipt"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-background",
+      "path": "/us-expansion/employment-background-reports/",
+      "title": "Before rejecting an applicant because of a background report",
+      "seoTitle": "Employer background checks: before and after adverse action",
+      "description": "Buying a screening report does not transfer the hiring decision or the employer’s notice duties.",
+      "family": "federal",
+      "topic": "employment",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "A report from a background-screening company is not a final hiring decision. For an ordinary covered employment report, the employer has steps before obtaining it, before rejecting the person and when making that final decision.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "before-the-report",
+          "heading": "Get permission before ordering",
+          "paragraphs": [
+            "The Fair Credit Reporting Act governs covered reports obtained from consumer reporting agencies for employment. The ordinary process requires a clear, conspicuous written disclosure in a document consisting solely of that disclosure, and the person’s written authorisation; the authorisation may be on that document. Do not bury the disclosure in the job application. The employer must also give the reporting agency the required compliance certification."
+          ],
+          "sourceIds": [
+            "nr-fcra-employment",
+            "nr-ftc-background-guide"
+          ]
+        },
+        {
+          "id": "before-rejection",
+          "heading": "Let the person see what you are relying on",
+          "paragraphs": [
+            "Before taking adverse action—such as rejecting an applicant or dismissing an employee—based wholly or partly on the report, provide a copy of the report and the prescribed written summary of FCRA rights. The FTC explains that this gives the person an opportunity to review and explain negative information.",
+            "Fictional example: a screening report flags a conviction under a similar name. Sending the report only with an already-final rejection misses the separate before-decision step. Confirm the person and consider any response rather than treating the screening company’s flag as your decision. No crime or unsuitable applicant is established by this example."
+          ],
+          "sourceIds": [
+            "nr-fcra-employment",
+            "nr-ftc-background-guide"
+          ]
+        },
+        {
+          "id": "final-notice",
+          "heading": "The final notice has a different purpose",
+          "paragraphs": [
+            "When taking the adverse action, the required notice identifies the reporting agency and its contact details, explains that it did not make the decision, and gives the rights to dispute the report and request a free copy within 60 days after receiving the adverse-action notice. If a numerical credit score was used, additional specified disclosures apply.",
+            "The 60-day copy-request right is not a 60-day hiring freeze. The cited general provisions do not supply a universal five-day waiting rule either. Discrimination rules still apply regardless of where background information came from."
+          ],
+          "sourceIds": [
+            "nr-fcra-adverse",
+            "nr-ftc-background-guide",
+            "nr-fcra-free-disclosure"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-fcra-employment",
+        "nr-fcra-adverse",
+        "nr-ftc-background-guide",
+        "nr-fcra-free-disclosure"
+      ],
+      "ruleIds": [
+        "nr-background-employment"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Separate permission, the before-decision disclosure and the final decision notice in the actual hiring process.",
+      "limitations": [
+        "Ordinary employment reports only. Special transportation-applicant rules, investigative reports, medical/genetic information, current notice forms, record retention and state/local hiring restrictions need their applicable requirements."
+      ],
+      "relatedPaths": [
+        "/us-expansion/partner-federal-court-records/",
+        "/industries/staffing-services/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-fcra-employment",
+          "url": "https://uscode.house.gov/us/usc/t15/s1681b/",
+          "title": "15 U.S. C.1681b: employment consumer reports",
+          "authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "type": "primary",
+          "section": "§1681b(b)(1)–(3), including specified transportation-applicant exceptions",
+          "supportingPassage": "before taking any adverse action",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:42:08.502580+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.736321+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete employment certification, disclosure/permission and pre-adverse-action provisions, including transportation/remote-application exceptions. Site states laws in effect through Public Law 119-142, November 10, 2026. No complete FCRA or investigation procedure claimed.",
+          "sha256": "8f1d46416c7e0de3e1751eb616669fbd00774ec9dde4d59fbb0d4e973fb4da5b"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-fcra-adverse",
+          "url": "https://uscode.house.gov/us/usc/t15/s1681m/",
+          "title": "15 U.S. C.1681m: adverse-action notices",
+          "authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "type": "primary",
+          "section": "§1681m(a)(1)–(4)",
+          "supportingPassage": "based in whole or in part",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:42:08.503517+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.736396+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete subsection(a), including conditional numerical-credit-score disclosures, agency details, decision disclaimer and 60-day free-copy/dispute rights. Not a rule that every employment report uses a credit score.",
+          "sha256": "0cd67a2949f3d1bc41669ae6792d1f0ac6740827af81c1b42a0bfcbff4e5db00"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ftc-background-guide",
+          "url": "https://www.ftc.gov/business-guidance/resources/background-checks-what-employers-need-know",
+          "title": "Background Checks: What Employers Need to Know",
+          "authority": "Federal Trade Commission and Equal Employment Opportunity Commission",
+          "type": "official-guidance",
+          "section": "Complete employer guidance, especially before/after adverse action",
+          "supportingPassage": "a copy of the consumer report",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:40:58.832647+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.739522+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete current-hosted joint guidance, including pre-procurement permission, investigative-report caveat, nondiscrimination, adverse action and secure disposal. The guide’s historical publication is not treated as a new rule; current statute separately read.",
+          "sha256": "b76593e20ab6707868551489b1c04c1e6338d50f7303cc8e864b5e25b82b969a"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-fcra-free-disclosure",
+          "url": "https://uscode.house.gov/us/usc/t15/s1681j/",
+          "title": "15 U.S. C.1681j: free disclosure after adverse notice",
+          "authority": "Office of the Law Revision Counsel, U.S. House of Representatives",
+          "type": "primary",
+          "section": "Complete §1681j(b)",
+          "supportingPassage": "60 days after receipt",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:56:46.369765+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:58:06.943617+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete subsection(b), including receipt of the adverse-action notification as the start of the 60-day free-disclosure request period. Not a pre-adverse-action waiting period or complete FCRA disclosure procedure.",
+          "sha256": "975b578aacf8ef809154cdd1927c56fc17616a6cbc72d06142ab4a28ef4ab492"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-background-employment",
+          "title": "Use the employment-report process before rejecting a candidate",
+          "topic": "employment",
+          "jurisdiction": "U.S. federal",
+          "activity": "Use the employment-report process before rejecting a candidate",
+          "affectedParty": "Employer obtaining or using a covered employment report",
+          "applicability": "Ordinary private-employer use of a consumer report from a consumer reporting agency for employment purposes; special statutory transportation-applicant procedures are excluded from the public walkthrough.",
+          "requirement": "Obtain the required clear, conspicuous standalone written disclosure and written authorisation before procurement, and certify required compliance to the agency. Before adverse action based wholly or partly on the report, provide the report and prescribed written rights summary. When taking adverse action, give the required agency/decision/free-copy/dispute notices and any applicable credit-score disclosures.",
+          "exceptions": "Specified transportation applicants with solely remote interactions have a distinct process; investigative consumer reports and federal national-security investigations have additional or different provisions. Independent discrimination and state/local laws remain.",
+          "trigger": "Procurement and employment decisions based wholly or partly on a consumer report",
+          "deadline": "Before procurement; before adverse action; final notice at adverse action. The 60-day free-copy request period runs after the consumer receives the adverse-action notice; it is not a universal employer waiting period.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-fcra-employment",
+            "nr-fcra-adverse",
+            "nr-ftc-background-guide",
+            "nr-fcra-free-disclosure"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:49:20.739541+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No fixed five-day waiting period invented; this does not supply a complete form or state/local hiring clearance."
+          ],
+          "dependentPaths": [
+            "/us-expansion/employment-background-reports/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual report type, screening provider, applicant process and any state/local or special federal conditions remain fact-specific.",
+    "authorNote": "New employment-consumer-report intent; current partner diligence and court-search articles concern companies and public records, not this required sequence."
+  },
+  {
+    "id": "nr-guide-bank-debits",
+    "path": "/us-expansion/recurring-consumer-bank-debits/",
+    "question": "What authorisation is needed before taking recurring consumer bank-account payments?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The consumer’s signed/authenticated writing and copy are distinct from a service contract; varying debits have a conditional advance-notice rule.",
+    "evidence": [
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/10/",
+        "retrievedAt": "2026-11-14T01:40:58.833479+00:00",
+        "sha256": "6185d6212a9a36fb1866a59c6b6b26d282dc12ba3b208b3c16b7009d3406e551",
+        "rawPath": "research/raw/next-release/new-articles/rege-recurring.raw",
+        "locator": "§1005.10(b)–(d) and official interpretations; scoped(e)",
+        "readScope": "Read complete(b)–(d), including actual consent/copy, clear terms, electronic authentication, bona-fide error, bank stop-payment and variable-amount/range conditions. Compulsory-credit provisions read for scope, not expanded into a lending guide.",
+        "quote": "signed or similarly authenticated"
+      },
+      {
+        "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/2/",
+        "retrievedAt": "2026-11-14T01:46:19.510049+00:00",
+        "sha256": "29b60d2bfc179f24b0d52f94b56d22ac6ceebffc6ea33c1806a9200a7911daff",
+        "rawPath": "research/raw/next-release/new-articles/rege-definitions.raw",
+        "locator": "§1005.2(b)(1)–(2),(k) and corresponding official interpretations",
+        "readScope": "Read consumer-purpose account scope and recurring-transfer definition/interpretation. Not a statement about every business bank account, credit card, prepaid product or one-off payment.",
+        "quote": "authorized in advance to recur"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-bank-debits",
+      "path": "/us-expansion/recurring-consumer-bank-debits/",
+      "title": "Monthly bank debits need their own customer authorisation",
+      "seoTitle": "Recurring consumer bank debits: written authorisation and changing amounts",
+      "description": "A membership agreement and permission to take recurring bank payments answer different questions.",
+      "family": "federal",
+      "topic": "commercial-feasibility",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "For covered recurring consumer account debits, obtain the customer’s signed or similarly authenticated written authorisation and give them a copy. A staff member’s note that the customer said yes is not the same thing.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "which-payment",
+          "heading": "Which payment is covered?",
+          "paragraphs": [
+            "Regulation E covers the consumer accounts discussed here: accounts established primarily for personal, family or household purposes. A preauthorised transfer is authorised in advance to recur at substantially regular intervals. If the customer must initiate each payment afresh, that is a different arrangement.",
+            "This matters when a studio or other service business moves from invoices to automatic monthly debits. The payment-authorisation question is separate from whether the membership offer and cancellation terms comply with subscription law."
+          ],
+          "sourceIds": [
+            "nr-rege-definitions",
+            "nr-rege-preauthorized"
+          ]
+        },
+        {
+          "id": "customer-assent",
+          "heading": "The customer must authorise the debit",
+          "paragraphs": [
+            "The authorisation must be readily identifiable, with clear and understandable terms. Electronic signatures or other permitted authentication can work when the process establishes the customer’s identity and assent under the applicable electronic-record requirements. The person obtaining it must provide a copy of the authorisation, including its terms, to the customer in paper or electronic form.",
+            "Fictional example: a receptionist receives an oral yes, types the member’s name into an authorisation and starts monthly debits. The official interpretation says the payee cannot satisfy the writing requirement by signing on the consumer’s behalf with only oral authorisation. Use an actual consumer-authentication process."
+          ],
+          "sourceIds": [
+            "nr-rege-preauthorized"
+          ]
+        },
+        {
+          "id": "amount-changes",
+          "heading": "Variable charges need attention too",
+          "paragraphs": [
+            "For a covered debit varying from the previous or preauthorised amount, the designated payee or financial institution generally must send written notice of the amount and date at least 10 days before the transfer. The rule permits specified range or agreed-difference options only after the consumer is informed of the right to notice of all varying transfers.",
+            "Consumers also have separate bank-side stop-payment rights. Those rules do not turn your debit authorisation into a complete answer about the service contract, cancellation fees or any alleged unpaid debt."
+          ],
+          "sourceIds": [
+            "nr-rege-preauthorized"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-rege-preauthorized",
+        "nr-rege-definitions"
+      ],
+      "ruleIds": [
+        "nr-consumer-recurring-debits"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Check the customer’s actual authorisation, their copy and any variable-amount notice before activating the recurring debit.",
+      "limitations": [
+        "Covered consumer accounts only; no business-account, card-network or bank stop-payment processing determination. Subscription contracts, financing, error resolution and state law remain separate."
+      ],
+      "relatedPaths": [
+        "/industries/fitness-studios/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-rege-preauthorized",
+          "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/10/",
+          "title": "12 CFR 1005.10 and official interpretations: preauthorised transfers",
+          "authority": "Consumer Financial Protection Bureau",
+          "type": "primary",
+          "section": "§1005.10(b)–(d) and official interpretations; scoped(e)",
+          "supportingPassage": "signed or similarly authenticated",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:40:58.833479+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.742683+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete(b)–(d), including actual consent/copy, clear terms, electronic authentication, bona-fide error, bank stop-payment and variable-amount/range conditions. Compulsory-credit provisions read for scope, not expanded into a lending guide.",
+          "sha256": "6185d6212a9a36fb1866a59c6b6b26d282dc12ba3b208b3c16b7009d3406e551"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-rege-definitions",
+          "url": "https://www.consumerfinance.gov/rules-policy/regulations/1005/2/",
+          "title": "12 CFR 1005.2: consumer account and recurring transfer",
+          "authority": "Consumer Financial Protection Bureau",
+          "type": "primary",
+          "section": "§1005.2(b)(1)–(2),(k) and corresponding official interpretations",
+          "supportingPassage": "authorized in advance to recur",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:46:19.510049+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.743774+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read consumer-purpose account scope and recurring-transfer definition/interpretation. Not a statement about every business bank account, credit card, prepaid product or one-off payment.",
+          "sha256": "29b60d2bfc179f24b0d52f94b56d22ac6ceebffc6ea33c1806a9200a7911daff"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-consumer-recurring-debits",
+          "title": "Obtain the consumer’s recurring bank-debit authorisation",
+          "topic": "commercial-feasibility",
+          "jurisdiction": "U.S. federal",
+          "activity": "Obtain the consumer’s recurring bank-debit authorisation",
+          "affectedParty": "Business obtaining the consumer’s preauthorised bank debit",
+          "applicability": "Covered preauthorised electronic transfers from consumer accounts established primarily for personal, family or household purposes; payments recur at substantially regular intervals without a fresh consumer instruction.",
+          "requirement": "Obtain writing signed or similarly authenticated by the consumer, provide a copy of the authorisation, and use clear readily identifiable terms. For varying transfers, the designated payee or institution must provide amount/date notice at least 10 days before the transfer unless the consumer chooses the specified supported range/difference option after being told of the right to all varying-transfer notices.",
+          "exceptions": "Electronic authorisation is possible under applicable electronic-record rules; oral permission alone does not allow the payee to sign for the consumer. Bank stop-payment and other account/product exceptions have their own conditions.",
+          "trigger": "Arranging covered recurring consumer account debits; changing the amount",
+          "deadline": "Authorise before debiting; applicable variable-amount notice at least 10 days before the scheduled transfer.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-rege-preauthorized",
+            "nr-rege-definitions"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:49:20.743795+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Not a commercial-account, card-network, subscription-contract or complete bank-error-resolution guide."
+          ],
+          "dependentPaths": [
+            "/us-expansion/recurring-consumer-bank-debits/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual account/product, authentication, payment pattern and contract/state-law rights remain to be established.",
+    "authorNote": "New Regulation E bank-payment intent, separate from the existing fitness-studio ROSCA/online-membership article; no new cancellation outcome is inferred."
+  },
+  {
+    "id": "nr-guide-ada-lease",
+    "path": "/us-expansion/ada-landlord-tenant-accessibility/",
+    "question": "Does assigning accessibility work to the landlord remove the business tenant’s ADA responsibility?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The lease allocation and public-accommodation duties are distinct; existing barrier removal and alterations apply different standards.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-B/section-36.201",
+        "retrievedAt": "2026-11-14T01:41:00.736227+00:00",
+        "sha256": "73404fb685af1ebe7b829161197286fb60d73a66a3d6d7ce72f242121af04a21",
+        "rawPath": "research/raw/next-release/new-articles/ada-rent.raw",
+        "locator": "Complete §36.201",
+        "readScope": "Read the complete provision. Lease allocation is between the parties and does not eliminate either covered party’s public-accommodation duties.",
+        "quote": "Both the landlord"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-A/section-36.104",
+        "retrievedAt": "2026-11-14T01:41:02.674364+00:00",
+        "sha256": "17dd581199084596883053557b7399361c52fbfe91e1467b5619d8c5e1365998",
+        "rawPath": "research/raw/next-release/new-articles/ada-definitions.raw",
+        "locator": "Public accommodation/place of public accommodation, commercial facility and readily achievable definitions",
+        "readScope": "Read the complete named definitions, including listed facility categories and cost/site/parent-resource/relationship factors. No finding about a particular building or operator.",
+        "quote": "without much difficulty or expense"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-C/section-36.304",
+        "retrievedAt": "2026-11-14T01:41:00.738781+00:00",
+        "sha256": "327f15f8f4cef39c8432e02cf0a131e5da03b14115decebc689673a78dc4a294",
+        "rawPath": "research/raw/next-release/new-articles/ada-barriers.raw",
+        "locator": "Complete §36.304",
+        "readScope": "Read all barrier-removal provisions, examples, priorities, element-specific safe harbour and special limitations. No particular ramp, technical dimension or building-wide grandfathering finding.",
+        "quote": "where such removal is readily achievable"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-D/section-36.402",
+        "retrievedAt": "2026-11-14T01:41:01.552738+00:00",
+        "sha256": "5d64529118b7d18a85ae43e6d39a1d9b51de05a4e929f4f50bb6ff3eed995b6e",
+        "rawPath": "research/raw/next-release/new-articles/ada-alterations.raw",
+        "locator": "Complete §36.402",
+        "readScope": "Read complete definition and feasibility conditions, distinguishing altered portions and normal maintenance. No full technical standards or path-of-travel assessment.",
+        "quote": "to the maximum extent feasible"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-ada-lease",
+      "path": "/us-expansion/ada-landlord-tenant-accessibility/",
+      "title": "Does the lease make accessibility only the landlord’s job?",
+      "seoTitle": "ADA accessibility: landlord and tenant duties for a business premises",
+      "description": "A clause allocating the cost of access work does not establish that the premises meet the business’s duties.",
+      "family": "federal",
+      "topic": "premises-opening",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "For a covered public accommodation, both landlord and tenant have federal accessibility responsibilities. They can allocate work and costs between themselves, but the lease does not make the customer-facing legal duty disappear.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "who-is-covered",
+          "heading": "First establish the kind of premises",
+          "paragraphs": [
+            "Title III of the Americans with Disabilities Act (ADA) covers specified private places of public accommodation, including restaurants, shops, salons, accountants’ offices and other listed service establishments whose operations affect commerce. Do not use this guide to assume that every warehouse, private club or other site has identical duties.",
+            "The rule expressly makes both the landlord housing a public accommodation and the tenant owning or operating it subject to its requirements. A contract can allocate responsibility between those parties; it does not by itself establish compliance."
+          ],
+          "sourceIds": [
+            "nr-ada-landlord-tenant",
+            "nr-ada-scope"
+          ]
+        },
+        {
+          "id": "existing-and-altered",
+          "heading": "An existing barrier and an alteration have different tests",
+          "paragraphs": [
+            "Existing-facility architectural barriers must be removed where doing so is readily achievable: easily accomplished without much difficulty or expense. The assessment considers the action’s cost and effect, site resources and, where relevant, parent-company resources and relationships. It is not simply whether this unit’s first month is profitable.",
+            "Alterations that affect or could affect usability have a different standard: the altered portions must be accessible to the maximum extent feasible. Ordinary maintenance is not automatically an alteration, and the technical standards and any element-specific safe harbour need their actual facts. An old building is not one blanket status."
+          ],
+          "sourceIds": [
+            "nr-ada-scope",
+            "nr-ada-barriers",
+            "nr-ada-alterations"
+          ]
+        },
+        {
+          "id": "lease-example",
+          "heading": "Agree who will do the work before depending on it",
+          "paragraphs": [
+            "Fictional example: a salon lease says the landlord handles entrance accessibility, but the entrance still has an unresolved step. The clause helps identify who promised the work; it is not evidence that the entrance is accessible. Establish the applicable requirements and what must be done before treating the opening plan as ready. This example does not decide that a particular ramp is required or feasible."
+          ],
+          "sourceIds": [
+            "nr-ada-landlord-tenant",
+            "nr-ada-barriers"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-ada-landlord-tenant",
+        "nr-ada-scope",
+        "nr-ada-barriers",
+        "nr-ada-alterations"
+      ],
+      "ruleIds": [
+        "nr-ada-lease-responsibilities"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Resolve the actual access work and the agreed cost allocation before relying on the landlord’s lease promise.",
+      "limitations": [
+        "Title III premises allocation only, not an employment-disability test or complete technical design review. Actual coverage, existing-element safe harbours, paths of travel, new construction and state/local duties need their applicable requirements."
+      ],
+      "relatedPaths": [
+        "/industries/hair-salons/",
+        "/cases/lease-clock-before-opening/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ada-landlord-tenant",
+          "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-B/section-36.201",
+          "title": "28 CFR 36.201: landlord and tenant responsibilities",
+          "authority": "U.S. Department of Justice",
+          "type": "primary",
+          "section": "Complete §36.201",
+          "supportingPassage": "Both the landlord",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:00.736227+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.746944+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read the complete provision. Lease allocation is between the parties and does not eliminate either covered party’s public-accommodation duties.",
+          "sha256": "73404fb685af1ebe7b829161197286fb60d73a66a3d6d7ce72f242121af04a21"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ada-scope",
+          "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-A/section-36.104",
+          "title": "28 CFR 36.104: public-accommodation and readily-achievable definitions",
+          "authority": "U.S. Department of Justice",
+          "type": "primary",
+          "section": "Public accommodation/place of public accommodation, commercial facility and readily achievable definitions",
+          "supportingPassage": "without much difficulty or expense",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:02.674364+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.747530+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read the complete named definitions, including listed facility categories and cost/site/parent-resource/relationship factors. No finding about a particular building or operator.",
+          "sha256": "17dd581199084596883053557b7399361c52fbfe91e1467b5619d8c5e1365998"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ada-barriers",
+          "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-C/section-36.304",
+          "title": "28 CFR 36.304: existing-facility barrier removal",
+          "authority": "U.S. Department of Justice",
+          "type": "primary",
+          "section": "Complete §36.304",
+          "supportingPassage": "where such removal is readily achievable",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:00.738781+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.747692+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read all barrier-removal provisions, examples, priorities, element-specific safe harbour and special limitations. No particular ramp, technical dimension or building-wide grandfathering finding.",
+          "sha256": "327f15f8f4cef39c8432e02cf0a131e5da03b14115decebc689673a78dc4a294"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ada-alterations",
+          "url": "https://www.ecfr.gov/current/title-28/chapter-I/part-36/subpart-D/section-36.402",
+          "title": "28 CFR 36.402: alterations",
+          "authority": "U.S. Department of Justice",
+          "type": "primary",
+          "section": "Complete §36.402",
+          "supportingPassage": "to the maximum extent feasible",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:01.552738+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.748373+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete definition and feasibility conditions, distinguishing altered portions and normal maintenance. No full technical standards or path-of-travel assessment.",
+          "sha256": "5d64529118b7d18a85ae43e6d39a1d9b51de05a4e929f4f50bb6ff3eed995b6e"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-ada-lease-responsibilities",
+          "title": "Keep landlord and tenant accessibility duties distinct from lease costs",
+          "topic": "premises-opening",
+          "jurisdiction": "U.S. federal",
+          "activity": "Keep landlord and tenant accessibility duties distinct from lease costs",
+          "affectedParty": "Covered public-accommodation landlord and tenant",
+          "applicability": "A private landlord and tenant owning/operating a covered place of public accommodation under ADA Title III; actual facility scope must be established.",
+          "requirement": "Both covered landlord and tenant are subject to Part 36. A lease may allocate compliance responsibility between them. Existing architectural barriers must be removed where readily achievable; alterations have a separate maximum-feasible-accessibility standard for altered portions.",
+          "exceptions": "Coverage, element-specific safe harbours, exceptions and technical standards depend on the actual facility/date/work. Readily achievable takes relevant site and parent resources/relationships into account; it is not a fixed universal dollar limit.",
+          "trigger": "Operating/leasing the public accommodation or undertaking relevant alterations",
+          "deadline": "Continuing applicable duties; alteration requirements when undertaking covered changes.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-ada-landlord-tenant",
+            "nr-ada-scope",
+            "nr-ada-barriers",
+            "nr-ada-alterations"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:49:20.748389+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No building plan, ramp, technical measurement, cost allocation dispute or actual safe harbour is approved."
+          ],
+          "dependentPaths": [
+            "/us-expansion/ada-landlord-tenant-accessibility/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual facility coverage, barriers, resources, planned work, standards and contractual rights require the premises facts.",
+    "authorNote": "New federal landlord/tenant accessibility intent; local occupancy articles and lease-clock case do not answer this allocation question."
+  },
+  {
+    "id": "nr-guide-osha-small",
+    "path": "/us-expansion/osha-small-employer-incident-reporting/",
+    "question": "Must a very small employer report a severe work-related injury?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The company-size partial record exemption does not remove specified severe-event reports; event windows differ from reporting deadlines.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39",
+        "retrievedAt": "2026-11-14T01:41:03.431251+00:00",
+        "sha256": "7f29b575d1bf4ba13b038325e096c4193e2f5254314b70665d6003ad9e1fb3c6",
+        "rawPath": "research/raw/next-release/new-articles/osha-reporting.raw",
+        "locator": "Complete §1904.39(a)–(b)",
+        "readScope": "Read complete reporting methods, event/occurrence windows, knowledge rules, hospital definition, amputation definition and motor-vehicle public-street/highway and commercial/public-transport exceptions. No actual injury or jurisdiction is classified.",
+        "quote": "Within eight (8) hours"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-B/section-1904.1",
+        "retrievedAt": "2026-11-14T01:41:03.919683+00:00",
+        "sha256": "a399ccd8e8bc217367b18706fc1ac3b215a05f9f9a94193bf088b75dd7933334",
+        "rawPath": "research/raw/next-release/new-articles/osha-small.raw",
+        "locator": "Complete §1904.1",
+        "readScope": "Read company-wide peak-employment test, written OSHA/BLS direction exception and separate reportability. Current headcount at one site is not the specified company/last-year test.",
+        "quote": "all times during the last calendar year"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-osha-small",
+      "path": "/us-expansion/osha-small-employer-incident-reporting/",
+      "title": "A small team can still have to report a serious work injury",
+      "seoTitle": "OSHA severe-injury reporting for employers with ten or fewer employees",
+      "description": "An exemption from routine injury logs is not an exemption from reporting the specified severe events.",
+      "family": "federal",
+      "topic": "employment",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "Having five employees does not by itself remove serious-incident reporting to the Occupational Safety and Health Administration (OSHA). The federal small-employer rule separates routine injury records from prompt reports of specified work-related outcomes.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "company-size",
+          "heading": "The size exemption is narrower than it sounds",
+          "paragraphs": [
+            "For the ordinary partial recordkeeping exemption, the entire company must have had ten or fewer employees at all times in the previous calendar year. It is not just today’s headcount at this branch. Written OSHA or Bureau of Labor Statistics instructions can still require records.",
+            "The same rule says all employers covered by the Occupational Safety and Health Act must report the specified severe events under 1904.39. An overseas owner or a small local manager therefore needs a way for serious incident information to reach the employer promptly."
+          ],
+          "sourceIds": [
+            "nr-osha-small-records"
+          ]
+        },
+        {
+          "id": "two-clocks",
+          "heading": "There is an event window as well as a reporting deadline",
+          "paragraphs": [
+            "The following are federal reporting rules for work-related incidents. The deadline normally runs from the outcome; specific provisions govern when the employer or an agent learns later of the outcome or its work-relatedness. These are hours, not business days."
+          ],
+          "sourceIds": [
+            "nr-osha-severe-reporting"
+          ],
+          "table": {
+            "headers": [
+              "Outcome",
+              "When the outcome must occur after the incident",
+              "Reporting period"
+            ],
+            "rows": [
+              [
+                "Fatality",
+                "Within 30 days of the work-related incident",
+                "Within 8 hours, subject to the knowledge provisions"
+              ],
+              [
+                "In-patient hospitalisation, amputation or loss of an eye",
+                "Within 24 hours of the work-related incident",
+                "Within 24 hours, subject to the knowledge provisions"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "what-counts",
+          "heading": "An emergency-room visit is not automatically an in-patient admission",
+          "paragraphs": [
+            "For this rule, in-patient hospitalisation means formal admission to the hospital or clinic’s in-patient service for care or treatment. Admission only for observation or diagnostic tests is excluded. The rule also defines amputation; not every injury label answers that definition.",
+            "Motor-vehicle accidents on a public street or highway outside a construction work zone and events on commercial/public transport have reporting exceptions. They do not necessarily remove an applicable injury-record obligation. If the local OSHA office is closed, the rule directs reporting through the central telephone number (1-800-321-6742) or the online application, rather than an answering-machine message, fax or email."
+          ],
+          "sourceIds": [
+            "nr-osha-severe-reporting"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-osha-severe-reporting",
+        "nr-osha-small-records"
+      ],
+      "ruleIds": [
+        "nr-osha-small-severe-reports"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Use the applicable agency’s severe-incident reporting route promptly when the actual outcome meets the rule; do not wait because routine logs are exempt.",
+      "limitations": [
+        "Federal text only; actual work-relatedness, outcome, knowledge, transport exceptions and applicable state-plan route require their facts. This is not emergency care, a workers-compensation process or complete injury-record guidance."
+      ],
+      "relatedPaths": [
+        "/us-expansion/workplace-safety/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-osha-severe-reporting",
+          "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-E/section-1904.39",
+          "title": "29 CFR 1904.39: severe work-related incident reports",
+          "authority": "Occupational Safety and Health Administration",
+          "type": "primary",
+          "section": "Complete §1904.39(a)–(b)",
+          "supportingPassage": "Within eight (8) hours",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:03.431251+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.750241+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete reporting methods, event/occurrence windows, knowledge rules, hospital definition, amputation definition and motor-vehicle public-street/highway and commercial/public-transport exceptions. No actual injury or jurisdiction is classified.",
+          "sha256": "7f29b575d1bf4ba13b038325e096c4193e2f5254314b70665d6003ad9e1fb3c6"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-osha-small-records",
+          "url": "https://www.ecfr.gov/current/title-29/subtitle-B/chapter-XVII/part-1904/subpart-B/section-1904.1",
+          "title": "29 CFR 1904.1: small-employer partial record exemption",
+          "authority": "Occupational Safety and Health Administration",
+          "type": "primary",
+          "section": "Complete §1904.1",
+          "supportingPassage": "all times during the last calendar year",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:03.919683+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:49:20.751056+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read company-wide peak-employment test, written OSHA/BLS direction exception and separate reportability. Current headcount at one site is not the specified company/last-year test.",
+          "sha256": "a399ccd8e8bc217367b18706fc1ac3b215a05f9f9a94193bf088b75dd7933334"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-osha-small-severe-reports",
+          "title": "Report qualifying severe incidents despite the small-employer record exemption",
+          "topic": "employment",
+          "jurisdiction": "U.S. federal",
+          "activity": "Report qualifying severe incidents despite the small-employer record exemption",
+          "affectedParty": "Employer covered by the Occupational Safety and Health Act",
+          "applicability": "Employers covered by the OSH Act; public guide explains federal 1904.1/1904.39, not state-plan routing or every recordkeeping exception.",
+          "requirement": "The 10-or-fewer partial records exemption uses entire-company peak employment throughout the preceding calendar year and does not remove severe-event reporting. Report a qualifying work-related fatality within 8 hours; in-patient hospitalisation, amputation or eye loss within 24 hours, subject to the event windows, knowledge rules and defined exceptions.",
+          "exceptions": "Fatality reportable only if death occurs within 30 days of incident; other named events only if within 24 hours of incident. Observation/diagnostic-only admission is excluded. Motor-vehicle accidents on public streets or highways outside construction work zones and commercial/public transport have specified reporting exceptions, not automatic recordkeeping exceptions.",
+          "trigger": "A defined severe outcome of a work-related incident",
+          "deadline": "8 hours for fatality; 24 hours for the other listed outcomes. Apply later-learning/work-relatedness knowledge provisions for employer or agent.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-osha-severe-reporting",
+            "nr-osha-small-records"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:49:20.751088+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No complete state-plan, workers compensation, incident investigation or actual medical classification is supplied."
+          ],
+          "dependentPaths": [
+            "/us-expansion/osha-small-employer-incident-reporting/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual medical outcome, work-relatedness, knowledge, exceptions and jurisdiction must be established.",
+    "authorNote": "New severe-event deadline intent; existing workplace-safety baseline explicitly supplies no incident-reporting timetable."
+  },
+  {
+    "id": "nr-guide-tax-security",
+    "path": "/us-expansion/tax-preparer-customer-information-security/",
+    "question": "Does being a small tax-preparation business remove the FTC Safeguards Rule?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The fewer-than-5,000 exception is limited; covered firms retain the written programme and other duties, including the independent 500-consumer notification threshold.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314",
+        "retrievedAt": "2026-11-14T01:40:58.833959+00:00",
+        "sha256": "8db82654f99a34326460880c43c8347d95554408a7b61aff0b7cd7ec4659460b",
+        "rawPath": "research/raw/next-release/new-articles/safeguards.raw",
+        "locator": "§§314.1–.3; complete 314.4 and 314.6; scoped definitions 314.2",
+        "readScope": "Read scope, tax-preparer example, consumer/customer-information/notification-event definitions and all programme elements/limited small-institution exceptions. In particular, fewer-than-5,000 does not remove the written programme or 314.4(j); 500-consumer notification is a separate threshold. Not a complete security implementation or state-breach analysis.",
+        "quote": "fewer than five thousand consumers"
+      },
+      {
+        "url": "https://www.ftc.gov/system/files/documents/cases/1623063_c4626_taxslayer_decision_and_order.pdf",
+        "retrievedAt": "2026-11-14T01:41:00.732736+00:00",
+        "sha256": "813b91bb0bc1c3aebae58deea568fd84977815f1f1aca597cc5823c88638fbd4",
+        "rawPath": "research/raw/next-release/new-articles/taxslayer-order.pdf",
+        "locator": "Complete seven-page Decision and Order; Decision, Parts I–II, VII",
+        "readScope": "Read complete seven-page final order. Issued October 20, 2017; final/effective upon publication as final on the FTC website, which the current case timeline lists November 8, 2017. Consent/no admission except jurisdiction; initial/biennial assessments have their own ten-year terms. No later compliance, new breach, current assessment obligation or collected-money result is asserted.",
+        "quote": "neither admits nor denies"
+      },
+      {
+        "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/162-3063-taxslayer-matter",
+        "retrievedAt": "2026-11-14T01:41:00.733847+00:00",
+        "sha256": "7e875ae668196b26ad1f25076174ad83742406402a442ece69f85b60429c7ed2",
+        "rawPath": "research/raw/next-release/new-articles/taxslayer-index.raw",
+        "locator": "2017 final-decision timeline and case description",
+        "readScope": "Read official case description and full timeline, including final-order announcement dated November 8, 2017. Index corroborates document status; operative terms come from the complete order. Allegations are not treated as admissions or trial findings.",
+        "quote": "Decision and Order"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-tax-security",
+      "path": "/us-expansion/tax-preparer-customer-information-security/",
+      "title": "A small tax-preparation firm still needs customer-information safeguards",
+      "seoTitle": "Small tax preparers: Safeguards Rule duties and limited exceptions",
+      "description": "Fewer than 5,000 consumers is not a blanket exemption from protecting their financial information.",
+      "family": "federal",
+      "topic": "ip-data",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 4,
+      "learningSummary": "A covered tax-preparation firm needs an appropriate written security programme even when it is small. Maintaining information concerning fewer than 5,000 consumers removes only specified requirements, not the entire duty.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "financial-institution",
+          "heading": "Financial institution does not mean only a bank",
+          "paragraphs": [
+            "The federal Safeguards Rule expressly includes a business significantly engaged in completing income-tax returns within its financial-institution definition. Its customer-information duties concern the defined nonpublic financial information, including information handled for other financial institutions. Ordinary company size or the label bookkeeping does not answer that scope question.",
+            "The programme must fit the firm’s size, complexity, activities and data sensitivity. A qualified individual must oversee it. That person can be supplied by an affiliate or service provider, but the firm retains responsibility; buying tax software does not by itself establish that the programme is in place."
+          ],
+          "sourceIds": [
+            "nr-safeguards-rule"
+          ]
+        },
+        {
+          "id": "small-exception",
+          "heading": "Count the information you maintain, not just this year’s appointments",
+          "paragraphs": [
+            "Fictional example: a practice maintains covered information concerning 800 consumers and assumes it is wholly exempt. The exception for information concerning fewer than 5,000 consumers concerns information maintained, not merely current appointments. It removes only specified formal written-risk-assessment, information-system testing, written incident-plan and annual-report provisions.",
+            "The basic risk-based written programme and other applicable safeguards remain. Regular testing or monitoring and service-provider oversight are not all removed just because the more specific testing provision is excepted."
+          ],
+          "sourceIds": [
+            "nr-safeguards-rule"
+          ]
+        },
+        {
+          "id": "actual-order",
+          "heading": "A real historical example: TaxSlayer",
+          "paragraphs": [
+            "In its 2017 final consent order involving TaxSlayer, the FTC required compliance with the privacy and safeguards rules and initial/biennial independent assessments under the order’s specified terms. TaxSlayer neither admitted nor denied the allegations apart from jurisdictional facts.",
+            "That is an actual administrative consent outcome, not a finding that every small practice needs that order’s assessments or that any particular software is approved. The current rule supplies this article’s general requirements; the historical case illustrates why the issue reaches tax services."
+          ],
+          "sourceIds": [
+            "nr-taxslayer-final-order",
+            "nr-taxslayer-case-index"
+          ]
+        },
+        {
+          "id": "notification",
+          "heading": "The 500-consumer report rule is another threshold",
+          "paragraphs": [
+            "A defined notification event involving information of at least 500 consumers must be reported to the FTC as soon as possible and no later than 30 days after discovery. This concerns unauthorised acquisition of unencrypted customer information; compromised encryption keys and the rule’s unauthorised-access presumption also matter. Knowledge by an employee, officer or agent other than the wrongdoer can count as discovery.",
+            "The exception for fewer than 5,000 consumers does not remove this provision. Other incident, state-notice and privacy duties need their own assessment; not every security alert meets this event definition."
+          ],
+          "sourceIds": [
+            "nr-safeguards-rule"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-safeguards-rule",
+        "nr-taxslayer-final-order",
+        "nr-taxslayer-case-index"
+      ],
+      "ruleIds": [
+        "nr-tax-preparer-safeguards"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Establish which customer information the practice handles and implement the requirements that actually remain, even if the limited small-firm exception applies.",
+      "limitations": [
+        "This is not a complete security implementation or incident-response guide. FTC coverage, maintained consumer counts, notification-event facts and other regulators/state laws remain specific. The 2017 case does not establish later TaxSlayer compliance or present obligations under an unreviewed later record."
+      ],
+      "relatedPaths": [
+        "/industries/bookkeeping-services/",
+        "/us-expansion/cross-border-data/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-safeguards-rule",
+          "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-314",
+          "title": "16 CFR Part 314: financial customer-information safeguards",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "§§314.1–.3; complete 314.4 and 314.6; scoped definitions 314.2",
+          "supportingPassage": "fewer than five thousand consumers",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:40:58.833959+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:53:07.147506+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read scope, tax-preparer example, consumer/customer-information/notification-event definitions and all programme elements/limited small-institution exceptions. In particular, fewer-than-5,000 does not remove the written programme or 314.4(j); 500-consumer notification is a separate threshold. Not a complete security implementation or state-breach analysis.",
+          "sha256": "8db82654f99a34326460880c43c8347d95554408a7b61aff0b7cd7ec4659460b"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-taxslayer-final-order",
+          "url": "https://www.ftc.gov/system/files/documents/cases/1623063_c4626_taxslayer_decision_and_order.pdf",
+          "title": "TaxSlayer: final FTC Decision and Order, C-4626",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "Complete seven-page Decision and Order; Decision, Parts I–II, VII",
+          "supportingPassage": "neither admits nor denies",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:00.732736+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:53:07.147734+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "historical final administrative consent order",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete seven-page final order. Issued October 20, 2017; final/effective upon publication as final on the FTC website, which the current case timeline lists November 8, 2017. Consent/no admission except jurisdiction; initial/biennial assessments have their own ten-year terms. No later compliance, new breach, current assessment obligation or collected-money result is asserted.",
+          "sha256": "813b91bb0bc1c3aebae58deea568fd84977815f1f1aca597cc5823c88638fbd4"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-taxslayer-case-index",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/162-3063-taxslayer-matter",
+          "title": "TaxSlayer: official FTC case history",
+          "authority": "Federal Trade Commission",
+          "type": "official-guidance",
+          "section": "2017 final-decision timeline and case description",
+          "supportingPassage": "Decision and Order",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:00.733847+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:53:07.151712+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official case index; historical status",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read official case description and full timeline, including final-order announcement dated November 8, 2017. Index corroborates document status; operative terms come from the complete order. Allegations are not treated as admissions or trial findings.",
+          "sha256": "7e875ae668196b26ad1f25076174ad83742406402a442ece69f85b60429c7ed2"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-tax-preparer-safeguards",
+          "title": "Apply the Safeguards Rule to covered tax-preparation customer information",
+          "topic": "ip-data",
+          "jurisdiction": "U.S. federal",
+          "activity": "Apply the Safeguards Rule to covered tax-preparation customer information",
+          "affectedParty": "Covered FTC-regulated tax-preparation financial institution",
+          "applicability": "Tax-preparation businesses significantly engaged in the specified financial activity, within FTC jurisdiction and handling the defined customer information; not every bookkeeping file or other regulator’s institution.",
+          "requirement": "Maintain an appropriate written information-security programme, with the applicable 314.4 elements, a qualified individual and retained responsibility even if outsourced. The fewer-than-5,000-consumer exception is limited to 314.4(b)(1),(d)(2),(h),(i). Notify FTC of a defined notification event affecting at least 500 consumers as soon as possible and within 30 days of discovery.",
+          "exceptions": "Small-institution relief is not blanket relief; written programme, basic risk assessment, service-provider duties and 314.4(j) remain. Notification-event definition, encryption-key/access presumptions and knowledge provisions must be met; other privacy/breach duties are separate.",
+          "trigger": "Handling covered customer information; discovering a qualifying notification event",
+          "deadline": "Continuing programme; FTC event notice as soon as possible and no later than 30 days after discovery.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-safeguards-rule"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:53:07.151734+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Not a complete security design, institution-coverage opinion, state privacy rule or notification form.",
+            "The 2017 TaxSlayer order is a bounded historical example, not every firm’s current order."
+          ],
+          "dependentPaths": [
+            "/us-expansion/tax-preparer-customer-information-security/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual financial activity, FTC coverage, consumer information maintained and any incident need their facts. No complete privacy or security certification is supplied.",
+    "authorNote": "Distinct from PTIN/preparer registration, healthcare business-associate agreements and the DOJ national-security data programme. Includes only a fully read historical final order; no imported case amounts or alleged breach counts."
+  },
+  {
+    "id": "nr-guide-cash",
+    "path": "/us-expansion/cash-installments-form-8300/",
+    "question": "Can installments require Form 8300 even if each cash payment is less than 10, 000 dollars?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "Connected trade/business currency receipts must be aggregated; the threshold-crossing receipt can start the 15-day filing clock.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-C/section-1010.330",
+        "retrievedAt": "2026-11-14T01:41:03.985984+00:00",
+        "sha256": "dbc46196d4d472a630c4899279f80bccbad45284dc7a294674c87e61535226c1",
+        "rawPath": "research/raw/next-release/new-articles/cash-rule.raw",
+        "locator": "Complete §1010.330(a)–(e)",
+        "readScope": "Read full threshold, related-transaction, installment, currency/instrument/recipient, agent, foreign-transaction, verification and retention provisions. Strict greater-than comparison; no conclusion about a real payer, agent, designated-reporting transaction or exception.",
+        "quote": "until the aggregate amount exceeds $10,000"
+      },
+      {
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/irs-form-8300-reference-guide",
+        "retrievedAt": "2026-11-14T01:41:04.312776+00:00",
+        "sha256": "193582f0b80dce454fb149e014ec1a598fd2ef901ef926dc3d48dc123ca5e9b9",
+        "rawPath": "research/raw/next-release/new-articles/cash-guide.raw",
+        "locator": "Payment/cash definitions; when/multiple payments; filing and electronic filing; written statements and recordkeeping",
+        "readScope": "Read named sections including current electronic-filing aggregate, customer-statement and five-year record instructions. Page displays last reviewed July 27, 2026. The separate territory paragraph says 10, 000 or more; this article’s domestic example follows the repeated general over 10000 wording and controlling regulation, not that unexamined territory wording. No current penalty amount, digital-asset rule or full form instructions asserted.",
+        "quote": "within 15 days"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-cash",
+      "path": "/us-expansion/cash-installments-form-8300/",
+      "title": "Cash installments can take a job over the Form 8300 threshold",
+      "seoTitle": "Form 8300: business cash installments and the 15-day filing trigger",
+      "description": "The limit follows the connected payments, not just each receipt or invoice.",
+      "family": "federal",
+      "topic": "corporate-tax",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "A business can have to report cash even when no single installment exceeds $10,000. For the ordinary domestic rule, the trigger is more than $10,000, with related transactions and installments counted under the stated periods.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "connected-payments",
+          "heading": "One job does not become several transactions because it has several invoices",
+          "paragraphs": [
+            "The regulation covers currency received in the course of a trade or business for one transaction or related transactions. Transactions with the same payer or agent within 24 hours are related; transactions farther apart can also be related when the recipient knows or has reason to know they form a connected series. The underlying transaction cannot be divided to avoid reporting.",
+            "If an initial payment is $10,000 or less, add subsequent payments within one year of it until the total exceeds $10,000. The threshold-crossing payment starts the 15-day reporting period. Further previously unreported payments have their own 12-month aggregation rule."
+          ],
+          "sourceIds": [
+            "nr-cash-reporting-rule"
+          ]
+        },
+        {
+          "id": "deposit-example",
+          "heading": "The second payment can start the deadline",
+          "paragraphs": [
+            "Fictional domestic example: a service business receives $6,000 in banknotes for one job, then another $5,000 for that job two months later. On these assumptions, the covered cash total becomes $11,000. The report is due within 15 days after the second receipt; neither the first payment nor a new invoice makes the second receipt disappear.",
+            "Cash here includes U.S. and foreign coins and notes. Some cashier’s checks, bank drafts, money orders and traveller’s checks of $10,000 or less also count under specific transaction or avoidance conditions and exceptions. Personal checks and bank wire transfers are different; do not classify every payment method as cash."
+          ],
+          "sourceIds": [
+            "nr-cash-reporting-rule",
+            "nr-irs-8300-guide"
+          ]
+        },
+        {
+          "id": "filing-and-statement",
+          "heading": "Filing is not the last task",
+          "paragraphs": [
+            "Use the current Form 8300 filing instructions. IRS guidance says that a last day falling on Saturday, Sunday or a holiday moves to the next business day. Electronic filing can be required because of other information returns; the number of Forms 8300 alone is not the test.",
+            "Required reports also have customer-statement duties, generally by January 31 of the year following the cash-payment year. Keep a copy of each filed report for five years from filing; an electronic confirmation is not the report itself. This article does not reproduce all statement contents or form fields."
+          ],
+          "sourceIds": [
+            "nr-cash-reporting-rule",
+            "nr-irs-8300-guide"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-cash-reporting-rule",
+        "nr-irs-8300-guide"
+      ],
+      "ruleIds": [
+        "nr-cash-installment-report"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Track the connected cash receipts and act on the payment that crosses the reporting threshold, using the current filing instructions.",
+      "limitations": [
+        "Domestic trade/business illustration only. Actual currency instruments, connected transactions, agency/branch facts, exceptions, customer statements and filing method need their rules. Digital assets and U.S. territory differences are not determined here."
+      ],
+      "relatedPaths": [
+        "/us-expansion/b2b-receivables-and-runway/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-cash-reporting-rule",
+          "url": "https://www.ecfr.gov/current/title-31/subtitle-B/chapter-X/part-1010/subpart-C/section-1010.330",
+          "title": "31 CFR 1010.330: trade/business currency receipts",
+          "authority": "Financial Crimes Enforcement Network, Department of the Treasury",
+          "type": "primary",
+          "section": "Complete §1010.330(a)–(e)",
+          "supportingPassage": "until the aggregate amount exceeds $10,000",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:03.985984+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:53:07.155892+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read full threshold, related-transaction, installment, currency/instrument/recipient, agent, foreign-transaction, verification and retention provisions. Strict greater-than comparison; no conclusion about a real payer, agent, designated-reporting transaction or exception.",
+          "sha256": "dbc46196d4d472a630c4899279f80bccbad45284dc7a294674c87e61535226c1"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-irs-8300-guide",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/irs-form-8300-reference-guide",
+          "title": "IRS Form 8300 Reference Guide",
+          "authority": "Internal Revenue Service",
+          "type": "official-guidance",
+          "section": "Payment/cash definitions; when/multiple payments; filing and electronic filing; written statements and recordkeeping",
+          "supportingPassage": "within 15 days",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:04.312776+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:53:07.156596+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read named sections including current electronic-filing aggregate, customer-statement and five-year record instructions. Page displays last reviewed July 27, 2026. The separate territory paragraph says 10, 000 or more; this article’s domestic example follows the repeated general over 10000 wording and controlling regulation, not that unexamined territory wording. No current penalty amount, digital-asset rule or full form instructions asserted.",
+          "sha256": "193582f0b80dce454fb149e014ec1a598fd2ef901ef926dc3d48dc123ca5e9b9"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-cash-installment-report",
+          "title": "Aggregate reportable business cash installments for Form 8300",
+          "topic": "corporate-tax",
+          "jurisdiction": "U.S. federal",
+          "activity": "Aggregate reportable business cash installments for Form 8300",
+          "affectedParty": "Trade or business receiving reportable currency",
+          "applicability": "A person receiving covered currency in the course of a trade/business, with domestic U.S. examples; apply actual statutory/regulatory exceptions and recipient/agent rules.",
+          "requirement": "Report receipts in excess of 10,000 dollars in a single or related transaction. If the initial payment is 10,000 or less, aggregate later payments within one year until the total exceeds 10,000, then file within 15 days of the threshold-crossing receipt. Apply subsequent 12-month payment rules, keep each filed report five years, and follow the required customer-statement instructions.",
+          "exceptions": "Currency definition conditionally includes specified monetary instruments of 10,000 or less; personal checks and ordinary bank transmissions are not cash under the cited guidance. Specific agent, loan/instrument, foreign-transaction and financial-reporting exceptions are not all resolved by the example.",
+          "trigger": "Receipt of covered currency or a payment causing required aggregation to exceed the threshold",
+          "deadline": "Generally 15 days after the relevant receipt; IRS guidance moves a Saturday/Sunday/holiday last day to the next business day. Required customer statements by January 31 following the relevant payment year.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-cash-reporting-rule",
+            "nr-irs-8300-guide"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:53:07.156616+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No transaction may be split to evade reporting; the guide supplies no structuring advice.",
+            "No actual identity/taxpayer-number, territory, digital-asset, penalty or complete form determination."
+          ],
+          "dependentPaths": [
+            "/us-expansion/cash-installments-form-8300/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual instrument, business/agent, transaction connection, exception and filing facts remain specific. The separate territory-guide wording is not used as a resolved rule.",
+    "authorNote": "No existing article answers cash-receipt reporting. This is separate from royalty withholding, foreign-owner returns, BOI and cash-runway arithmetic; fictional money is labelled and no avoidance strategy suggested."
+  },
+  {
+    "id": "nr-guide-deemed-export",
+    "path": "/us-expansion/visiting-technicians-deemed-exports/",
+    "question": "Can showing a visiting overseas technician technical information be an export?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "A defined technology/source-code release in the United States can be a deemed export; actual jurisdiction, person and authorisation conditions remain essential.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.13",
+        "retrievedAt": "2026-11-14T01:41:04.685244+00:00",
+        "sha256": "6078346501d917dd16913d15be0d1287f06e3312b7fadca563200a95c3c04509",
+        "rawPath": "research/raw/next-release/new-articles/ear-export.raw",
+        "locator": "Complete §734.13",
+        "readScope": "Read complete export definition, most-recent citizenship/permanent-residency rule and cross-references. No actual technology classification, licence, exception or visitor status is determined.",
+        "quote": "source code (but not object code)"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.15",
+        "retrievedAt": "2026-11-14T01:41:04.686103+00:00",
+        "sha256": "447e4aefdda3f3f07d8d5178f3fc6fd2e90ae63a397473b60bc28392474d3291",
+        "rawPath": "research/raw/next-release/new-articles/ear-release.raw",
+        "locator": "Complete §734.15",
+        "readScope": "Read complete visual-inspection/oral-written-exchange and access-information authorisation provisions, with their exceptions/cross-references. No claim that every viewing is controlled.",
+        "quote": "Oral or written exchanges"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.3",
+        "retrievedAt": "2026-11-14T01:41:04.948656+00:00",
+        "sha256": "1e593f3bda7a9185bd13fdb2956c903ede26bd0d0e41a6df847f88231e084e33",
+        "rawPath": "research/raw/next-release/new-articles/ear-scope.raw",
+        "locator": "Complete §734.3",
+        "readScope": "Read complete jurisdiction/exclusions, published/research/academic/patent-information branches, CCL/EAR 99 distinctions and jurisdiction limits. No individual exclusion or licence result supplied.",
+        "quote": "Information and “software”"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-772/section-772.1",
+        "retrievedAt": "2026-11-14T01:51:08.259964+00:00",
+        "sha256": "24968afb8f71aae257cdc561723b009877a0e6f466ae340c660361484f4c6eee",
+        "rawPath": "research/raw/next-release/new-articles/ear-definitions.raw",
+        "locator": "Complete foreign-person and technology definitions, including notes",
+        "readScope": "Read the two named definitions, including U.S. citizen/permanent-resident/protected-individual exclusions and forms of technology; not the hundreds of other Part 772 definitions or a country-group survey.",
+        "quote": "Any natural person who is not"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-deemed-export",
+      "path": "/us-expansion/visiting-technicians-deemed-exports/",
+      "title": "Can a visiting technician see your technical drawings?",
+      "seoTitle": "Deemed exports: technical drawings and visiting foreign staff",
+      "description": "Technical information can cross the export-control boundary while the visitor and server stay in America.",
+      "family": "federal",
+      "topic": "products-supply",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "A covered release of technology or source code to a defined foreign person in the United States can be a deemed export. No parcel, download or overseas server is necessary for that question to arise.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "what-information",
+          "heading": "Not every manual is controlled technology",
+          "paragraphs": [
+            "Under the Export Administration Regulations (EAR), technology has a defined meaning: information necessary for specified development, production, use or other listed activities. It can take the form of drawings, plans, specifications, manuals, oral information or what an inspection reveals. The actual subject matter matters, not the file extension.",
+            "First establish whether the information is subject to the EAR. There are separate exclusions and regimes, including specified published, research and academic information and items controlled exclusively by other agencies. Being confidential does not automatically establish a particular control or licence requirement."
+          ],
+          "sourceIds": [
+            "nr-ear-defined-person-technology",
+            "nr-ear-scope"
+          ]
+        },
+        {
+          "id": "viewing-can-release",
+          "heading": "Looking can disclose information too",
+          "paragraphs": [
+            "Fictional example: a U.S. service operation lets an overseas technician inspect proprietary engineering drawings on a workshop screen but blocks downloads. If that inspection reveals technology subject to the applicable rule, it can still be a release. An oral explanation can also disclose the information. The example makes no actual classification or licence finding.",
+            "The rule’s foreign-person category is not simply country of birth. For individuals, the definition excludes U.S. citizens, lawful permanent residents and other protected individuals. For a covered deemed export, 734.13(b) uses the most recent country of citizenship or permanent residency. Establish the actual person’s status rather than infer it from a company address."
+          ],
+          "sourceIds": [
+            "nr-ear-deemed-export",
+            "nr-ear-release",
+            "nr-ear-defined-person-technology"
+          ]
+        },
+        {
+          "id": "different-permissions",
+          "heading": "A partner contract does not answer the export question",
+          "paragraphs": [
+            "The required authorisation depends on the actual information and recipient, with applicable exclusions and exceptions. A licence to use the brand, a confidentiality agreement or permission to work in America addresses different matters. Establish what the visitor will actually be shown before relying on the training visit to transfer the know-how."
+          ],
+          "sourceIds": [
+            "nr-ear-deemed-export",
+            "nr-ear-release",
+            "nr-ear-scope"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-ear-deemed-export",
+        "nr-ear-release",
+        "nr-ear-scope",
+        "nr-ear-defined-person-technology"
+      ],
+      "ruleIds": [
+        "nr-deemed-export-release"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Establish the technical information’s scope and the recipient’s defined status before providing access or explanations.",
+      "limitations": [
+        "This is the EAR release concept, not a controlled-item classification, licensing, encryption, deemed-reexport or full exception determination. Immigration, sanctions and trade-secret duties remain separate."
+      ],
+      "relatedPaths": [
+        "/us-expansion/sanctions-screening/",
+        "/us-expansion/trade-secret-transfer/",
+        "/us-expansion/business-visits/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ear-deemed-export",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.13",
+          "title": "15 CFR 734.13: exports and deemed exports",
+          "authority": "Bureau of Industry and Security, U.S. Department of Commerce",
+          "type": "primary",
+          "section": "Complete §734.13",
+          "supportingPassage": "source code (but not object code)",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:04.685244+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.118737+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete export definition, most-recent citizenship/permanent-residency rule and cross-references. No actual technology classification, licence, exception or visitor status is determined.",
+          "sha256": "6078346501d917dd16913d15be0d1287f06e3312b7fadca563200a95c3c04509"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ear-release",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.15",
+          "title": "15 CFR 734.15: release of technology and software",
+          "authority": "Bureau of Industry and Security, U.S. Department of Commerce",
+          "type": "primary",
+          "section": "Complete §734.15",
+          "supportingPassage": "Oral or written exchanges",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:04.686103+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.119236+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete visual-inspection/oral-written-exchange and access-information authorisation provisions, with their exceptions/cross-references. No claim that every viewing is controlled.",
+          "sha256": "447e4aefdda3f3f07d8d5178f3fc6fd2e90ae63a397473b60bc28392474d3291"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ear-scope",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-734/section-734.3",
+          "title": "15 CFR 734.3: items subject to the EAR",
+          "authority": "Bureau of Industry and Security, U.S. Department of Commerce",
+          "type": "primary",
+          "section": "Complete §734.3",
+          "supportingPassage": "Information and “software”",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:04.948656+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.119804+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete jurisdiction/exclusions, published/research/academic/patent-information branches, CCL/EAR 99 distinctions and jurisdiction limits. No individual exclusion or licence result supplied.",
+          "sha256": "1e593f3bda7a9185bd13fdb2956c903ede26bd0d0e41a6df847f88231e084e33"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ear-defined-person-technology",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C/part-772/section-772.1",
+          "title": "15 CFR 772.1: foreign person and technology",
+          "authority": "Bureau of Industry and Security, U.S. Department of Commerce",
+          "type": "primary",
+          "section": "Complete foreign-person and technology definitions, including notes",
+          "supportingPassage": "Any natural person who is not",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:51:08.259964+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.121759+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read the two named definitions, including U.S. citizen/permanent-resident/protected-individual exclusions and forms of technology; not the hundreds of other Part 772 definitions or a country-group survey.",
+          "sha256": "24968afb8f71aae257cdc561723b009877a0e6f466ae340c660361484f4c6eee"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-deemed-export-release",
+          "title": "Assess technical information before releasing it to a visiting foreign person",
+          "topic": "products-supply",
+          "jurisdiction": "U.S. federal",
+          "activity": "Assess technical information before releasing it to a visiting foreign person",
+          "affectedParty": "Business providing the covered technology or source-code access",
+          "applicability": "Technology or source code subject to the Export Administration Regulations released or otherwise transferred to a defined foreign person in the United States, subject to the cited exceptions.",
+          "requirement": "A release can be a deemed export without goods leaving the United States. Visual inspection revealing covered technology/source code and oral/written exchanges can release it. Treat the deemed destination under 734.13(b), and obtain any authorisation required for the actual information/person rather than assuming a commercial relationship permits access.",
+          "exceptions": "Object code is not included in 734.13(a)(2)’s source-code wording. Foreign-person definition excludes U.S. citizens, lawful permanent residents and other protected individuals. Items exclusively controlled elsewhere and specified published/research/academic information have their own jurisdiction/exclusion conditions; 734.18/.19 exceptions not comprehensively analysed.",
+          "trigger": "Covered release/transfer to the foreign person",
+          "deadline": "Establish the applicable requirement before providing the covered information.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-ear-deemed-export",
+            "nr-ear-release",
+            "nr-ear-scope",
+            "nr-ear-defined-person-technology"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:56:11.121775+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No actual item jurisdiction, classification, recipient/destination, license exception or export authorisation is determined."
+          ],
+          "dependentPaths": [
+            "/us-expansion/visiting-technicians-deemed-exports/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual information, classification, person, destination, exception and other agency jurisdiction need their facts.",
+    "authorNote": "New EAR disclosure intent. Current sanctions article addresses identity/ownership/transaction screening; imports and business visits do not answer this release definition."
+  },
+  {
+    "id": "nr-guide-eei",
+    "path": "/us-expansion/equipment-export-eei/",
+    "question": "Does sending equipment out of the United States require EEI even when it is a small or returning shipment?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "The general physical-export filing framework and low-value classification test are distinct from import clearance and export licensing.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-I/part-30/subpart-A/section-30.2",
+        "retrievedAt": "2026-11-14T01:41:05.830573+00:00",
+        "sha256": "b6d54289681e57a223d5b2c997d8a27676d1ecf40ea50bdf2abec0c21308cbfe",
+        "rawPath": "research/raw/next-release/new-articles/eei-scope.raw",
+        "locator": "Complete §30.2",
+        "readScope": "Read complete filing/actor/movement scope, mandatory regardless-of-value categories, prior-export default and exclusions. Current text includes 2026 amendment citation. No mode-specific deadline or individual licence/classification decision inferred.",
+        "quote": "regardless of value"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-I/part-30/subpart-D/section-30.37",
+        "retrievedAt": "2026-11-14T01:41:05.378396+00:00",
+        "sha256": "359a111078016d1ec9711c5ce38590f59b7c94c12e855fa463146d56ea656405",
+        "rawPath": "research/raw/next-release/new-articles/eei-exempt.raw",
+        "locator": "Complete §30.37, especially(a),(b),(q),(r)",
+        "readScope": "Read complete exemptions and mandatory-filing override; low-value rule by classification/principal/consignee/conveyance and separate origin groups. Tools-of-trade, temporary exports and temporary-import-bond returns have distinct conditions; no exemption from a label such as demo.",
+        "quote": "$2,500 or less"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-eei",
+      "path": "/us-expansion/equipment-export-eei/",
+      "title": "An equipment shipment can need an export-data filing",
+      "seoTitle": "EEI and AES equipment exports: the $2,500 exemption is per classification",
+      "description": "A shipment’s total invoice is not the only number in the low-value filing test.",
+      "family": "federal",
+      "topic": "products-supply",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 3,
+      "learningSummary": "Electronic Export Information (EEI) is export data filed through the Automated Export System (AES). For covered physical exports, check the actual classifications and exceptions before assuming that a small package or a return to the parent company needs no filing.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "outbound-not-import",
+          "heading": "This is a separate outbound task",
+          "paragraphs": [
+            "The Census rules cover specified physical exports from the United States and other named areas. They identify the permitted principal-party or authorised-agent filer and generally require filing before export. The party that cleared an earlier import is not automatically the answer to this outbound question.",
+            "There are exclusions, country-specific rules and conditional exemptions. Returning equipment, calling it a demonstration item or charging nothing does not by itself establish the applicable route. For example, temporary exports and qualifying returns under a Temporary Import Bond have their own conditions."
+          ],
+          "sourceIds": [
+            "nr-eei-requirements",
+            "nr-eei-exemptions"
+          ]
+        },
+        {
+          "id": "classification-value",
+          "heading": "Count each classification under the stated shipment conditions",
+          "paragraphs": [
+            "The ordinary low-value exemption uses $2,500 or less under an individual Schedule B or permitted HTSUSA commodity classification code—systems that group goods by commodity—for one U.S. principal party in interest, one ultimate consignee and one exporting conveyance. Items under the same classification must be combined. Domestic and foreign-origin goods under that classification have separate reporting treatment and threshold tests.",
+            "Fictional ordinary shipment: two foreign-origin test units under the same classification are each valued at $1,800. Together they are $3,600, so the low-value exemption does not apply to that group. If two items instead belong under different classifications at $1,800 each, total invoice value of $3,600 alone does not defeat that exemption. This assumes the stated shipment conditions and no mandatory filing or other exception; it assigns no real code or value."
+          ],
+          "sourceIds": [
+            "nr-eei-exemptions"
+          ]
+        },
+        {
+          "id": "mandatory-and-timing",
+          "heading": "Some goods must be reported regardless of value",
+          "paragraphs": [
+            "The rule lists mandatory categories that override the exemptions, including specified licensed exports, defence-controlled goods, rough diamonds and used self-propelled vehicles. A low price therefore cannot settle the filing question until those conditions are checked.",
+            "The ordinary requirement is before departure, but actual time limits depend on transport mode and any permitted postdeparture authorisation. Do not use one guessed two-hour deadline for every shipment. Filing export data is also not an export licence or customs clearance."
+          ],
+          "sourceIds": [
+            "nr-eei-requirements"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-eei-requirements",
+        "nr-eei-exemptions"
+      ],
+      "ruleIds": [
+        "nr-eei-equipment"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Establish the actual classifications, reportable values, mandatory categories and filing route before dispatch.",
+      "limitations": [
+        "Ordinary equipment-export explanation only. Actual principal parties, routed transactions, classification/value, country/territory rules, temporary status, licences and departure deadlines need their requirements."
+      ],
+      "relatedPaths": [
+        "/us-expansion/customs-importer/",
+        "/comparisons/us-territories-customs-boundaries/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-eei-requirements",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-I/part-30/subpart-A/section-30.2",
+          "title": "15 CFR 30.2: Electronic Export Information filing requirements",
+          "authority": "U.S. Census Bureau",
+          "type": "primary",
+          "section": "Complete §30.2",
+          "supportingPassage": "regardless of value",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:05.830573+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.126123+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete filing/actor/movement scope, mandatory regardless-of-value categories, prior-export default and exclusions. Current text includes 2026 amendment citation. No mode-specific deadline or individual licence/classification decision inferred.",
+          "sha256": "b6d54289681e57a223d5b2c997d8a27676d1ecf40ea50bdf2abec0c21308cbfe"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-eei-exemptions",
+          "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-I/part-30/subpart-D/section-30.37",
+          "title": "15 CFR 30.37: low-value and other export-data exemptions",
+          "authority": "U.S. Census Bureau",
+          "type": "primary",
+          "section": "Complete §30.37, especially(a),(b),(q),(r)",
+          "supportingPassage": "$2,500 or less",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:05.378396+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.126678+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete exemptions and mandatory-filing override; low-value rule by classification/principal/consignee/conveyance and separate origin groups. Tools-of-trade, temporary exports and temporary-import-bond returns have distinct conditions; no exemption from a label such as demo.",
+          "sha256": "359a111078016d1ec9711c5ce38590f59b7c94c12e855fa463146d56ea656405"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-eei-equipment",
+          "title": "Apply export-data filing rules to outbound equipment",
+          "topic": "products-supply",
+          "jurisdiction": "U.S. federal",
+          "activity": "Apply export-data filing rules to outbound equipment",
+          "affectedParty": "Specified principal party or authorised export-data filing agent",
+          "applicability": "Physical exports within 15CFR 30.2’s scope, with ordinary U.S.-to-foreign-country equipment examples; apply actual principal-party/agent, exclusion and exemption conditions.",
+          "requirement": "Electronic Export Information is filed through AES by the specified principal party or authorised agent. Low-value exemption generally applies at 2500 dollars or less per individual Schedule B/HTSUSA classification for one USPPI, one ultimate consignee and one conveyance. Mandatory categories under 30.2(a)(1)(iv) override exemptions regardless of value.",
+          "exceptions": "Combine same-classification items; domestic/foreign origin groups are separate under 30.37(a). Licensing, specified defence/drug/nuclear/rough-diamond/used-vehicle and other mandatory categories can override. Tools-of-trade, temporary exports and qualifying TIB returns have their own conditions; no universal demo/return exemption.",
+          "trigger": "A covered physical export",
+          "deadline": "Generally prior to export; actual mode-specific time and authorised postdeparture conditions require 30.4/.5.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-eei-requirements",
+            "nr-eei-exemptions"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:56:11.126692+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No actual classification/value, filing party, country exception, licence or temporary-shipment result is determined."
+          ],
+          "dependentPaths": [
+            "/us-expansion/equipment-export-eei/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "No actual goods, classification, value, country, filing role or exemption is determined.",
+    "authorNote": "New outbound Census-data intent. Existing customs-importer/tariff/territory pages address different duties; no clone of an import checklist."
+  },
+  {
+    "id": "nr-guide-shipping",
+    "path": "/us-expansion/online-equipment-shipping-delays/",
+    "question": "What must an online equipment seller do when it cannot meet its shipping promise?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "A supported shipping promise and the required timely customer choice do not disappear because replenishment is delayed.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435",
+        "retrievedAt": "2026-11-14T01:41:05.837407+00:00",
+        "sha256": "96af72cf04113780bd500bb2f01b47c7ac25915110fbca2e4e5e2d0350561f36",
+        "rawPath": "research/raw/next-release/new-articles/shipping-rule.raw",
+        "locator": "Complete §§435.1–435.3",
+        "readScope": "Read complete definitions, reasonable-basis/shipping rules, first and renewed delay notices, deemed/express-consent branches, cancellation, payment-dependent refund routes and limited applicability. No service-completion promise or one universal refund clock inferred.",
+        "quote": "reasonable basis to expect"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-shipping",
+      "path": "/us-expansion/online-equipment-shipping-delays/",
+      "title": "Late stock does not reset the customer’s shipping promise",
+      "seoTitle": "FTC shipping-delay rules for online equipment orders",
+      "description": "A supplier problem can require a customer choice before the promised shipment date passes.",
+      "family": "federal",
+      "topic": "products-supply",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 4,
+      "learningSummary": "For a covered merchandise order, have a reasonable basis for the shipping time you advertise. If you cannot meet it, use the required delay-or-cancel process; the customer should not have to chase you first.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "promise-and-shipment",
+          "heading": "Shipment is not the same as arrival",
+          "paragraphs": [
+            "The federal rule covers covered merchandise ordered by mail, internet or telephone, regardless of payment method. Shipment means physically placing the merchandise with the carrier. It is not a general rule promising arrival by a particular day, or a timetable for completing a service.",
+            "At solicitation, you need a reasonable basis for shipping within the clearly stated time. If you state no shipping time, the ordinary default is 30 days after a properly completed order, and you still need a reasonable basis for meeting it. That no-stated-time branch becomes 50 days under the specified conditions when the buyer applies to the seller for credit when ordering; it is not a general extension for any credit-card purchase."
+          ],
+          "sourceIds": [
+            "nr-ftc-order-shipping"
+          ]
+        },
+        {
+          "id": "notify-before-deadline",
+          "heading": "Tell the buyer before the applicable deadline",
+          "paragraphs": [
+            "Fictional example: a U.S. seller advertises that an equipment kit ships within ten days. Replenishment stock is delayed at the port and the seller cannot ship the customer’s kit by that date. The supplier problem does not itself create a new customer deadline. Offer the required choice of delay or cancellation with a prompt refund, within a reasonable time after learning of the problem and no later than the applicable deadline.",
+            "Give a definite revised shipping date only with a reasonable basis. If no date can be supported, say that and explain the delay. Give the buyer an adequate way, at the seller’s expense, to exercise the option."
+          ],
+          "sourceIds": [
+            "nr-ftc-order-shipping"
+          ]
+        },
+        {
+          "id": "consent-is-specific",
+          "heading": "Silence works only in the rule’s narrow first-delay branch",
+          "paragraphs": [
+            "For a first definite delay of 30 days or less beyond the original deadline, the prescribed notice may explain that silence counts as consent to shipping by the revised date, unless the buyer rejects the delay and cancels before both shipment and that revised date.",
+            "If the first revised date is more than 30 days beyond the original deadline, or you cannot give a definite date, the notice must explain automatic cancellation. The order is cancelled unless you either ship within 30 days after the original deadline without receiving a cancellation before shipment, or receive the buyer’s specific consent to the delay within those 30 days. A buyer who agrees to an indefinite delay keeps the right to cancel after the original deadline by notifying you before actual shipment. A required cancellation means a prompt refund.",
+            "A further missed revised date normally requires a renewed choice and specific consent by the relevant revised deadline; do not carry the first short-delay silence rule into every extension. The rule separately addresses an already-consented indefinite extension. If required consent is absent or the buyer validly cancels before shipment, apply the applicable cancellation and prompt-refund requirements.",
+            "Refund routes depend on payment. Defined routes generally use seven working days; where the seller itself is the creditor, the account-credit route uses one billing cycle. The rule also treats a failed same-method refund separately. This is not one universal seven-calendar-day rule."
+          ],
+          "sourceIds": [
+            "nr-ftc-order-shipping"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-ftc-order-shipping"
+      ],
+      "ruleIds": [
+        "nr-merchandise-shipping-promises"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Before the shipping deadline passes, provide the actual supported delay choice or cancel and make the required refund.",
+      "limitations": [
+        "Covered merchandise only. Seeds/growing plants, COD, specified serial subscriptions and Part 425 transactions have exclusions. Actual notices, consent and payment-dependent refund mechanics and independent state rights need their applicable provisions."
+      ],
+      "relatedPaths": [
+        "/us-expansion/tariff-classification/",
+        "/us-expansion/customs-importer/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ftc-order-shipping",
+          "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-435",
+          "title": "16 CFR Part 435: mail, internet and telephone merchandise orders",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "Complete §§435.1–435.3",
+          "supportingPassage": "reasonable basis to expect",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:05.837407+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.131914+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete definitions, reasonable-basis/shipping rules, first and renewed delay notices, deemed/express-consent branches, cancellation, payment-dependent refund routes and limited applicability. No service-completion promise or one universal refund clock inferred.",
+          "sha256": "96af72cf04113780bd500bb2f01b47c7ac25915110fbca2e4e5e2d0350561f36"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-merchandise-shipping-promises",
+          "title": "Meet the merchandise shipping promise or use the required delay/cancellation process",
+          "topic": "products-supply",
+          "jurisdiction": "U.S. federal",
+          "activity": "Meet the merchandise shipping promise or use the required delay/cancellation process",
+          "affectedParty": "Seller soliciting covered merchandise orders",
+          "applicability": "Covered mail, internet or telephone merchandise orders in or affecting commerce; subject to 435.3 exclusions.",
+          "requirement": "At solicitation, have a reasonable basis for shipping within the clearly stated time. If no time is stated, have a reasonable basis for shipping within the ordinary 30-day proper-order period, or within the specified 50-day seller-credit-application branch where its conditions apply. If unable to meet the applicable time, offer the required delay-or-cancel/refund option without demand by the applicable deadline. Follow distinct initial-short-delay, longer/indefinite-delay and renewed-delay consent/cancellation rules.",
+          "exceptions": "Exclusions include specified post-initial serial subscriptions, seeds/growing plants, COD and Part 425 transactions. Shipment means physical carrier possession; refund routes/deadlines vary by payment and seller-credit status. Independent equal/greater state protections remain.",
+          "trigger": "Soliciting covered orders and learning the applicable shipping time cannot be met",
+          "deadline": "Required notice within a reasonable time after learning of inability, never later than the applicable shipment deadline. Use the exact consent and prompt-refund periods for the actual branch.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-ftc-order-shipping"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:56:11.131930+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Not all first-delay silence counts as consent; renewed delays generally require specific consent under their stated rules.",
+            "No actual order, arrival guarantee or complete refund form is approved."
+          ],
+          "dependentPaths": [
+            "/us-expansion/online-equipment-shipping-delays/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual covered order, proper completion, promised date, delay/consent branch, payment method and state rights require the facts.",
+    "authorNote": "New seller-performance intent; current imports and supplier-substitution articles do not answer the customer’s federal shipping/cancellation rights."
+  },
+  {
+    "id": "nr-guide-made-usa",
+    "path": "/us-expansion/made-in-usa-assembly-claims/",
+    "question": "Does U.S. assembly of imported components establish a Made-in-USA product claim?",
+    "outcome": "actual-business-facts-required",
+    "conclusion": "Final assembly alone is insufficient for the unqualified label standard; truthful qualified and assembly claims have their own conditions.",
+    "evidence": [
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-323",
+        "retrievedAt": "2026-11-14T01:41:05.841659+00:00",
+        "sha256": "f571868f42feecfc343fb49f8e0d199c9038f2eb8e4609f1624dc8e5f3cc6a5c",
+        "rawPath": "research/raw/next-release/new-articles/made-usa-rule.raw",
+        "locator": "Complete §§323.1–323.6",
+        "readScope": "Read complete unqualified claim definition, three-part label standard, mail-order seal/mark scope, enforcement and other-law/exemption provisions. No automatic substantial-transformation-to-advertising equivalence or percentage safe harbour.",
+        "quote": "all or virtually all ingredients or components"
+      },
+      {
+        "url": "https://www.ftc.gov/business-guidance/resources/complying-made-usa-standard",
+        "retrievedAt": "2026-11-14T01:41:05.874931+00:00",
+        "sha256": "0c7e2da0cb7e0bbf07276878d2d55a3808a4058b14994a4e8709ba69c3db0192",
+        "rawPath": "research/raw/next-release/new-articles/made-usa-guide.raw",
+        "locator": "Basic claims, unqualified/qualified/process claims, assembly and FTC/CBP distinctions",
+        "readScope": "Read complete named guidance sections, including express/implied overall impression, supplier evidence, negligible foreign-content factors, qualified/process/assembly conditions and separate Customs marking. Staff view is nonbinding; July 2024 printed date is not new rulemaking.",
+        "quote": "principal assembly takes place"
+      },
+      {
+        "url": "https://www.ftc.gov/system/files/documents/cases/2023025c4724williamssonomaorder.pdf",
+        "retrievedAt": "2026-11-14T01:46:19.511242+00:00",
+        "sha256": "647c22f9d645236bb37d4b441e8600591e35094119dc66888ad0091eef1d41d9",
+        "rawPath": "research/raw/next-release/new-articles/williams-2020-order.pdf",
+        "locator": "Complete eight-page Decision and Order; Decision, Parts I–II, X",
+        "readScope": "Read complete eight-page order issued July 13, 2020. It is effective upon website final publication; official timeline announces final orderJuly 16. No-admission except jurisdiction; unqualified/qualified/assembly branches read. Historical terms only, not later 2024 litigation or money collected.",
+        "quote": "neither admits nor denies"
+      },
+      {
+        "url": "https://www.ftc.gov/system/files/documents/cases/c47242023025williamssonomacomplaint.pdf",
+        "retrievedAt": "2026-11-14T01:46:19.512411+00:00",
+        "sha256": "60adc77d6204e2213505db5863e45a8f9d384dd0a33a2a0f298a760f1da6a87c",
+        "rawPath": "research/raw/next-release/new-articles/williams-2020-complaint.pdf",
+        "locator": "Complete six-page complaint, especially paragraphs 9–14",
+        "readScope": "Read all written paragraphs 1–14 of the six-page complaint. The article relies on those written allegations, not separate facts inferred from the embedded advertisement images.",
+        "quote": "wholly imported, or contain significant imported"
+      },
+      {
+        "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/202-3025-williams-sonoma-inc-matter",
+        "retrievedAt": "2026-11-14T01:42:08.504174+00:00",
+        "sha256": "33ce6e96bbb119def006f5d320ae2ad5e25242345f0d5d56fb85a77fccc986c0",
+        "rawPath": "research/raw/next-release/new-articles/williams-2020-index.raw",
+        "locator": "Complete 2020 administrative timeline and final-order entry",
+        "readScope": "Read official 2020 case summary and timeline, including final-decision entry; used for final publication status. This is not the separate 2024 enforcement docket and supplies no collection result.",
+        "quote": "July 16, 2020"
+      }
+    ],
+    "guidePatch": {
+      "id": "nr-guide-made-usa",
+      "path": "/us-expansion/made-in-usa-assembly-claims/",
+      "title": "Does local assembly make the equipment Made in USA?",
+      "seoTitle": "Made in USA versus assembled in USA: imported-parts claims",
+      "description": "Final assembly is only one part of the unqualified product-label standard.",
+      "family": "federal",
+      "topic": "products-supply",
+      "jurisdictions": [
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 4,
+      "learningSummary": "Assembling a product in America does not by itself establish an unqualified Made in USA claim. The rule also asks where significant processing occurs and where all or virtually all ingredients or components are made and sourced.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "three-conditions",
+          "heading": "A U.S. shop is not the whole manufacturing history",
+          "paragraphs": [
+            "The FTC rule requires all three conditions: final assembly or processing in the United States, all significant processing there, and all or virtually all components or ingredients made and sourced there. Its defined unqualified representations include more than the exact words Made in USA.",
+            "The FTC’s staff guidance considers the overall impression and the importance, cost and closeness of foreign content to the finished product. A small cost percentage alone does not make an essential foreign component negligible. An American brand name or a modestly displayed U.S. address alone is not automatically an origin claim."
+          ],
+          "sourceIds": [
+            "nr-made-usa-rule",
+            "nr-made-usa-guidance"
+          ]
+        },
+        {
+          "id": "assembly-example",
+          "heading": "A narrower statement still needs support",
+          "paragraphs": [
+            "Fictional example: a service brand assembles a floor machine in a U.S. shop using an imported motor, battery and housing. Showing only the assembly address does not establish the three-part unqualified standard. This example decides no real product’s origin or permitted wording.",
+            "A qualified claim must truthfully describe the actual domestic work and foreign content without implying more U.S. content than exists. Even Assembled in USA is not an automatic replacement: the staff guidance requires substantial principal assembly in America and the product’s last substantial transformation there. Simple screwdriver assembly may not meet that standard."
+          ],
+          "sourceIds": [
+            "nr-made-usa-rule",
+            "nr-made-usa-guidance"
+          ]
+        },
+        {
+          "id": "actual-consent-case",
+          "heading": "A real historical example: broad claims across a product line",
+          "paragraphs": [
+            "The FTC’s 2020 Williams-Sonoma complaint alleged that broad U.S.-origin claims covered product categories that included wholly imported goods or significant imported content. The July 2020 final consent order separately addressed unqualified claims, accurate adjacent qualifications and assembly claims. The company neither admitted nor denied the allegations apart from jurisdictional facts.",
+            "That historical order is not a trial finding or an approval of a replacement label. Its practical relevance is the mismatch between a broad marketing statement and the sourcing evidence for the actual products. No later enforcement or collection outcome is established here."
+          ],
+          "sourceIds": [
+            "nr-williams-2020-complaint",
+            "nr-williams-2020-order",
+            "nr-williams-2020-index"
+          ]
+        },
+        {
+          "id": "different-origin-tests",
+          "heading": "Customs marking and advertising are different questions",
+          "paragraphs": [
+            "The labelling rule covers product labels and specified seals, marks, tags or stamps in mail-order materials, including electronic materials. The wider FTC advertising guidance is a distinct source, not an extension of every label provision to every advertisement.",
+            "A Customs marking result or a government-procurement domestic-content test does not by itself establish the consumer-facing FTC claim. Check the actual message and evidence when suppliers or production steps change."
+          ],
+          "sourceIds": [
+            "nr-made-usa-rule",
+            "nr-made-usa-guidance"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "nr-made-usa-rule",
+        "nr-made-usa-guidance",
+        "nr-williams-2020-order",
+        "nr-williams-2020-complaint",
+        "nr-williams-2020-index"
+      ],
+      "ruleIds": [
+        "nr-made-usa-product-claims"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Compare the exact product claim with the real components and processing before printing the label or repeating it online.",
+      "limitations": [
+        "No label, origin, assembly, procurement or percentage finding is made. Special product-label laws, Customs requirements and state protections remain separate. The case discussion is limited to the fully read 2020 complaint and final consent order."
+      ],
+      "relatedPaths": [
+        "/us-expansion/country-of-origin/",
+        "/us-expansion/advertising-controls/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-made-usa-rule",
+          "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-323",
+          "title": "16 CFR Part 323: Made in USA Labelling Rule",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "Complete §§323.1–323.6",
+          "supportingPassage": "all or virtually all ingredients or components",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:05.841659+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.137131+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete unqualified claim definition, three-part label standard, mail-order seal/mark scope, enforcement and other-law/exemption provisions. No automatic substantial-transformation-to-advertising equivalence or percentage safe harbour.",
+          "sha256": "f571868f42feecfc343fb49f8e0d199c9038f2eb8e4609f1624dc8e5f3cc6a5c"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-made-usa-guidance",
+          "url": "https://www.ftc.gov/business-guidance/resources/complying-made-usa-standard",
+          "title": "Complying with the Made in USA Standard",
+          "authority": "Federal Trade Commission staff",
+          "type": "official-guidance",
+          "section": "Basic claims, unqualified/qualified/process claims, assembly and FTC/CBP distinctions",
+          "supportingPassage": "principal assembly takes place",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:05.874931+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.141539+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "nonbinding staff guidance",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete named guidance sections, including express/implied overall impression, supplier evidence, negligible foreign-content factors, qualified/process/assembly conditions and separate Customs marking. Staff view is nonbinding; July 2024 printed date is not new rulemaking.",
+          "sha256": "0c7e2da0cb7e0bbf07276878d2d55a3808a4058b14994a4e8709ba69c3db0192"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-williams-2020-order",
+          "url": "https://www.ftc.gov/system/files/documents/cases/2023025c4724williamssonomaorder.pdf",
+          "title": "Williams-Sonoma: final FTC Decision and Order, C-4724",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "Complete eight-page Decision and Order; Decision, Parts I–II, X",
+          "supportingPassage": "neither admits nor denies",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:46:19.511242+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.141792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "historical final administrative consent order",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read complete eight-page order issued July 13, 2020. It is effective upon website final publication; official timeline announces final orderJuly 16. No-admission except jurisdiction; unqualified/qualified/assembly branches read. Historical terms only, not later 2024 litigation or money collected.",
+          "sha256": "647c22f9d645236bb37d4b441e8600591e35094119dc66888ad0091eef1d41d9"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-williams-2020-complaint",
+          "url": "https://www.ftc.gov/system/files/documents/cases/c47242023025williamssonomacomplaint.pdf",
+          "title": "Williams-Sonoma: FTC administrative complaint, C-4724",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "Complete six-page complaint, especially paragraphs 9–14",
+          "supportingPassage": "wholly imported, or contain significant imported",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:46:19.512411+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.143375+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "historical administrative allegations",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read all written paragraphs 1–14 of the six-page complaint issued July 13, 2020. Alleged broad product-category U.S.-origin claims and significant imports remain allegations, not contested trial findings or admissions. The article relies on these written paragraphs rather than separate claims about embedded advertisement images.",
+          "sha256": "60adc77d6204e2213505db5863e45a8f9d384dd0a33a2a0f298a760f1da6a87c"
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-williams-2020-index",
+          "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/202-3025-williams-sonoma-inc-matter",
+          "title": "Williams-Sonoma: FTC 2020 administrative case history",
+          "authority": "Federal Trade Commission",
+          "type": "official-guidance",
+          "section": "Complete 2020 administrative timeline and final-order entry",
+          "supportingPassage": "July 16, 2020",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:42:08.504174+00:00",
+          "substantiveVerifiedAt": "2026-11-14T01:56:11.145701+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official historical case index",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "notes": "Read official 2020 case summary and timeline, including final-decision entry; used for final publication status. This is not the separate 2024 enforcement docket and supplies no collection result.",
+          "sha256": "33ce6e96bbb119def006f5d320ae2ad5e25242345f0d5d56fb85a77fccc986c0"
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-made-usa-product-claims",
+          "title": "Support unqualified U.S.-origin labels and narrower assembly claims",
+          "topic": "products-supply",
+          "jurisdiction": "U.S. federal",
+          "activity": "Support unqualified U.S.-origin labels and narrower assembly claims",
+          "affectedParty": "Business making the covered U.S.-origin product claim",
+          "applicability": "Unqualified express/implied U.S.-origin product labels and covered mail-order materials under Part 323; broader advertising assessed under the cited FTC guidance/Act, with special product laws separate.",
+          "requirement": "An unqualified Made-in-USA product label requires final assembly/processing in the United States, all significant processing there, and all or virtually all ingredients/components made and sourced there. Advertising claims need a truthful supported overall impression. A narrower assembly claim has its own principal/substantial-assembly and last-substantial-transformation conditions in staff guidance.",
+          "exceptions": "Qualified claims must accurately convey actual foreign content/processing; a qualification is not automatically sufficient. Other federal product-label laws and equal/greater state protection remain. Exemptions require their actual Commission conditions, not assumed local assembly.",
+          "trigger": "Making the actual U.S.-origin representation",
+          "deadline": "Have and rely on the basis when claiming; revisit claims when sourcing or processing changes.",
+          "fee": null,
+          "renewal": "No general renewal established; apply the stated continuing/event-triggered duties.",
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-made-usa-rule",
+            "nr-made-usa-guidance"
+          ],
+          "status": "conditional",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T01:56:11.145714+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No product origin, label wording, percentage safe harbour, procurement eligibility or actual claim is approved.",
+            "The 2020 case is a bounded consent outcome, not proof of later compliance or collection."
+          ],
+          "dependentPaths": [
+            "/us-expansion/made-in-usa-assembly-claims/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "requirementType": "legal-requirement"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": "Actual sourcing, manufacturing, message, product-specific law and any exemption require evidence. No later case outcome or payment is inferred.",
+    "authorNote": "Distinct FTC label/advertising intent, separate from the existing Customs marking-origin inquiry. Actual 2020 case records fully read; no order terms treated as a universal contract, no copied financial results."
+  }
+]

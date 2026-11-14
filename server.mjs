@@ -31,6 +31,7 @@ const server=http.createServer(async(req,res)=>{
  const privateRoute=path==='/plan/'||path.startsWith('/tools/')||path.startsWith('/owner/');
  res.setHeader('Cache-Control',privateRoute?'private, no-store':path.startsWith('/_astro/')?'public, max-age=31536000, immutable':'public, max-age=0, must-revalidate');
  if(path==='/plan/'||path.startsWith('/owner/'))res.setHeader('X-Robots-Tag','noindex, nofollow');
+ if(path==='/learn/catalog.json')res.setHeader('X-Robots-Tag','noindex');
  if(path==='/'&&status===200&&verificationMeta){const html=addSearchVerification(await readFile(file,'utf8'),verificationMeta);res.writeHead(status);res.end(req.method==='HEAD'?undefined:html);return;}
  res.writeHead(status);if(req.method==='HEAD'){res.end();return;}const stream=createReadStream(file);stream.on('error',()=>res.end());stream.pipe(res);
 });

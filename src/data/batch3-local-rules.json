@@ -92,7 +92,7 @@
     "exceptions": "Confirm the actual address, activity and exceptions with the competent authority. A permit held by another entity/person is not assumed to cover this operator.",
     "trigger": "Offering covered fire-extinguisher service through a local operating company and technicians",
     "deadline": "Before covered service is performed; obtain current forms and applicability confirmation first.",
-    "fee": null,
+    "fee": "$207 for the named fire-prevention/service-person licence category in the city schedule as of 5 January 2026; both linked company and person applications display $207. This is not a full project-cost or eligibility determination.",
     "renewal": "Current permit/license term and renewal instructions require confirmation; no general term inferred.",
     "dependencies": [],
     "evidence": [
@@ -103,7 +103,9 @@
     "sourceIds": [
       "b3-local-indy-business",
       "b3-local-indy-fire-business",
-      "b3-local-indy-fire-person"
+      "b3-local-indy-fire-person",
+      "next-scope-indy-fees-2026",
+      "next-scope-indy-fee-page"
     ],
     "status": "verified",
     "legalStatus": "current official administrative guidance; underlying code and site-specific scope require review",
@@ -112,7 +114,7 @@
     "conflicts": [],
     "interpretationLimits": [
       "This is not a general fire-alarm, sprinkler, construction, professional-engineering or statewide license conclusion.",
-      "Application PDFs are marked 10/2023; current fees, term and any updated form need confirmation.",
+      "Application PDFs remain marked October 2023. The January 2026 city fee schedule corroborates the $207 named-category fee; licence duration, renewal conditions, current ordinance scope and any applicable additional charge are not established.",
       "The city/county page does not settle excluded municipalities or work performed outside Indianapolis."
     ],
     "dependentPaths": [

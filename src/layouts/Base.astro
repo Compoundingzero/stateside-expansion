@@ -1,6 +1,8 @@
 ---
 import '../styles/global.css';
 import {pageSchema,breadcrumbSchema,recordedModifiedAt,serializeStructuredData} from '../lib/article-presentation';
+import {tools} from '../lib/content';
+import LearningControls from '../components/LearningControls';
 const {
   title='Build a U.S. expansion plan your management team can execute',
   description='Practical U.S. expansion research and planning for established European and Southeast Asian businesses.',
@@ -11,6 +13,9 @@ const site=Astro.site??new URL(Astro.url.origin);
 const canonical=new URL(Astro.url.pathname,site);
 const modified=recordedModifiedAt(contentModifiedAt);
 const schema=pageSchema({site,path:Astro.url.pathname,title,description,article,headline,contentModifiedAt:modified});
+const path=Astro.url.pathname;
+const activeLibrary=/^\/(guides|topics|fdd|states|cities|from|industries|cases|comparisons|us-expansion)\//.test(path);
+const tool=tools.find(item=>path===`/tools/${item.slug}/`);
 ---
 <!doctype html>
 <html lang="en">
@@ -18,7 +23,7 @@ const schema=pageSchema({site,path:Astro.url.pathname,title,description,article,
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="description" content={description}/>
-    <meta name="theme-color" content="#152c36"/>
+    <meta name="theme-color" content="#f5f5f7"/>
     <title>{title} | ELN</title>
     <link rel="canonical" href={canonical}/>
     {noindex&&<meta name="robots" content="noindex,nofollow"/>}
@@ -36,12 +41,12 @@ const schema=pageSchema({site,path:Astro.url.pathname,title,description,article,
     <a class="skip-link" href="#main">Skip to content</a>
     <header class="site-header">
       <a class="wordmark" href="/" aria-label="ELN home"><span class="brand-mark" aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span>ELN<span class="brand-description">ENTERPRISE LICENSING NETWORK</span></a>
-      <nav aria-label="Main navigation"><a href="/guides/">Field guides</a><a href="/tools/">Planning tools</a><a href="/coverage/">Research coverage</a><a href="/interest/" class="nav-plan">Network <span aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a></nav>
+      <nav aria-label="Main navigation"><a href="/learn/" aria-current={path.startsWith('/learn/')?'page':undefined}>Learn</a><a href="/guides/" aria-current={path==='/guides/'?'page':activeLibrary?'true':undefined}>Library</a><a href="/tools/" aria-current={path==='/tools/'?'page':path.startsWith('/tools/')?'true':undefined}>Tools</a><a href="/interest/" class="nav-plan" aria-current={path==='/interest/'?'page':undefined}>Network <span aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a></nav>
     </header>
-    <main id="main"><slot/></main>
+    <main id="main"><slot/>{tool&&<div class="container tool-learning-hook"><LearningControls client:idle itemId={tool.mode} path={path} title={tool.name} type="tool"/></div>}</main>
     <footer class="site-footer">
       <div><a class="wordmark" href="/">ELN<span class="brand-description">ENTERPRISE LICENSING NETWORK</span></a><p>For established businesses. For the team doing the work.</p></div>
-      <div class="footer-links"><a href="/methodology/">Sources &amp; editorial method</a><a href="/privacy/">Privacy &amp; data controls</a><a href="/contact/">Contact us</a><a href="/coverage/">Coverage &amp; open questions</a></div>
+      <div class="footer-links"><a href="/learn/">Learning paths</a><a href="/guides/">Field guides</a><a href="/tools/">Planning tools</a><a href="/methodology/">Sources &amp; editorial method</a><a href="/privacy/">Privacy &amp; data controls</a><a href="/contact/">Contact us</a><a href="/coverage/">Coverage &amp; open questions</a></div>
       <p class="footer-note">Educational preparation. No automated legal clearance, partner certification, or visa determination. AI-assisted source review; no professional legal review.</p>
     </footer>
     {!hideAction&&<div class="action-bar"><div><span class="action-kicker">YOUR NEXT USEFUL STEP</span><span class="action-context">A considered decision starts with a clear brief.</span></div><a class="button" href={actionHref} data-forward-cta>{action}<span aria-hidden="true"><span class="arrow-icon" aria-hidden="true"></span></span></a></div>}

@@ -1,0 +1,1636 @@
+[
+  {
+    "id": "b2-east-guide-georgia",
+    "path": "/states/georgia/",
+    "question": "What current Georgia business-opportunity coverage, disclosure, money-handling and filing duties can affect a proposed brand offer?",
+    "outcome": "verified",
+    "conclusion": "The state-hosted official 2024 Code, 2025 supplement and actual signed 2026 Act 723 reconcile the selected sections 10-1-410–417. Coverage has three promise branches and a marketing-programme-only registered-mark exception. State disclosure is 48 hours; escrow, conditional assurance and the $10 process-agent filing are distinct. The 2006 agency page remains historical evidence.",
+    "evidence": [
+      {
+        "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t10-%28v8%29-2024-pdf.pdf",
+        "retrievedAt": "2026-11-14T01:44:46.285781+00:00",
+        "sha256": "7afbade16da7b519bb10024ec48080edffbf37ee63b1cb8e2c263b67d9713851",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ga-title10-2024.raw",
+        "locator": "Printed pp. 303–322, 10-1-410–417",
+        "readScope": "Complete operative statutory text read, including all 410 definitions/exclusions; 411 disclosures/substitution; 412 assurance/escrow; 413 updates; 414 claims; 415 contracts/MLM distinction; 416 process; 417 remedies. Statutory annotations not treated as new law.",
+        "quote": "At least 48 hours",
+        "httpStatus": 200,
+        "hashKind": "sha256-of-original-HTTP-response-bytes"
+      },
+      {
+        "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t10-%28v8%29-pdf.pdf",
+        "retrievedAt": "2026-11-14T01:45:51.272742+00:00",
+        "sha256": "f1fc4f45d8c665b3180be42133721febeabd59a03153409291b8f6cc2a2f82c9",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ga-title10-2025supp.raw",
+        "locator": "2025 supplement title/contents and Part 3 entry check",
+        "readScope": "Confirmed official scope includes 2025 Regular Session; checked supplement for 410–417 updates; no such section entry.",
+        "quote": "2025 Supplement",
+        "httpStatus": 200,
+        "hashKind": "sha256-of-original-HTTP-response-bytes"
+      },
+      {
+        "url": "https://www.legis.ga.gov/api/document/docs/default-source/legislative-counsel-document-library/25sumdoc.pdf",
+        "retrievedAt": "2026-11-14T01:45:51.273581+00:00",
+        "sha256": "529a4532bd164327b815828b8ef5cf3d50098b25e44bd5dcae9cfc0fd955930d",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ga-summary2025.raw",
+        "locator": "Foreword and complete amended/enacted Code-section index for 410–417",
+        "readScope": "Used only for update-search completeness, not substitute for an Act.",
+        "quote": "table of Code sections",
+        "httpStatus": 200,
+        "hashKind": "sha256-of-original-HTTP-response-bytes"
+      },
+      {
+        "url": "https://www.legis.ga.gov/api/document/docs/default-source/legislative-counsel-document-library/sumdoc2026-edit.pdf",
+        "retrievedAt": "2026-11-14T01:44:46.286277+00:00",
+        "sha256": "91ff699f809ee9c78e9c0fe1e99a392624b01e0173f4754bf80a8bd3410cdec8",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ga-summary2026.raw",
+        "locator": "Act 723 summary, p. 21 and Code-section index for 410–417",
+        "readScope": "Identified actual 2026 change and confirmed scope; actual signed Act separately read.",
+        "quote": "Effective July 1, 2026.",
+        "httpStatus": 200,
+        "hashKind": "sha256-of-original-HTTP-response-bytes"
+      },
+      {
+        "url": "https://gov.georgia.gov/document/2026-signed-legislation/hb-1268/download",
+        "retrievedAt": "2026-11-14T01:46:11.870835+00:00",
+        "sha256": "c00ca5483cd4731d26c855e4e35a1c1c5054bcfb20c411d322568827ae4d7114",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ga-hb1268-signed.raw",
+        "locator": "Section 10(1), final sections 55–56; effective date separately identified in the official enacted-law summary",
+        "readScope": "Read actual signed/passed text for the exact section 10-1-411 comma amendment and final reenactment/conflict/repealer sections. The Act has no separate express July 1 clause; the official enacted-law summary supplies the July 1, 2026 effective date.",
+        "quote": "by inserting a comma",
+        "httpStatus": 200,
+        "hashKind": "sha256-of-original-HTTP-response-bytes"
+      },
+      {
+        "url": "https://gov.georgia.gov/executive-action/legislation/signed-legislation/2026",
+        "retrievedAt": "2026-11-14T01:46:11.871607+00:00",
+        "sha256": "1a5cfbbfd236decc3c29a9221e2ad6df8fefe452cca342a46b32360767394215",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ga-signed2026.raw",
+        "locator": "HB 1268 row",
+        "readScope": "Official signed-legislation listing corroborates enacted status.",
+        "quote": "HB 1268",
+        "httpStatus": 200,
+        "hashKind": "sha256-of-original-HTTP-response-bytes"
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-east-guide-georgia",
+      "path": "/states/georgia/",
+      "title": "Georgia business opportunities: disclosure, payments and the state filing",
+      "seoTitle": "Georgia business-opportunity disclosure and payment rules",
+      "description": "Check the actual coverage branch, the 48-hour disclosure, escrow and conditional bond duties, and the service-of-process filing before a covered sale.",
+      "learningSummary": "A registered mark does not automatically remove every Georgia business-opportunity duty. Identify the exact promise and payment, then apply the state disclosure and money-handling rules separately from federal disclosure.",
+      "topic": "sales-disclosure",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "covered-offer",
+          "heading": "A programme and a registered mark are only part of the test",
+          "paragraphs": [
+            "For an offer enabling the purchaser to start a business, section 10-1-410 covers specified device-location promises, buying back the purchaser’s output, or a sales/marketing programme tied to a total initial payment exceeding $500. The location branch concerns the listed vending, display and amusement devices; it is not every kind of help finding customers.",
+            "The registered trademark or service-mark exception belongs to the sales/marketing-programme branch. It is not a blanket exception to the other branches. The Act also has specific business and seller exclusions. Calculate the defined initial payment, including the specified first-six-month commitments and total instalment price, before using the $500 comparison.",
+            "A seller soliciting or offering in Georgia can fall within the definition, as can a seller with its principal business place there even when soliciting nonresidents. Federal franchise and business-opportunity definitions remain separate."
+          ],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ]
+        },
+        {
+          "id": "georgia-disclosure",
+          "heading": "Give the state disclosure before the first commitment",
+          "paragraphs": [
+            "For a covered business-opportunity sale, give the prescribed written disclosure at least 48 hours before the earlier contract signature or receipt of consideration—money or other value. It needs Georgia’s specified cover and contents, including the actual services and training, a financial statement no older than 13 months updated for material changes, and required earnings information where claims are made.",
+            "A Part 436 federal document can replace only the state paragraphs specifically listed in section 10-1-411(c). The separate Georgia cover and the remaining state content still matter. Update the required information for material changes and at least annually. An independently applicable federal disclosure clock is not shortened by the state’s 48 hours."
+          ],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ]
+        },
+        {
+          "id": "payment-and-assurance",
+          "heading": "Do not collect the whole price upfront",
+          "paragraphs": [
+            "In a business-opportunity sale, the seller may collect no more than 15% of the total purchase price. Put the balance in the independent escrow account agreed by both parties. Escrow holds the money separately; release is 60 days after the purchaser starts operating or on complete contractual performance, whichever happens first.",
+            "Separately, a promise to refund the price or repurchase supplied items if the purchaser is dissatisfied, under an agreement requiring total initial payment exceeding $500, triggers the stated bond or trust of at least $75,000. The bond must come from an authorised surety; the trust must use a licensed and insured bank or savings institution in Georgia. That subsection excludes deposits from the price paid. Multilevel distribution companies have separate bond and below-$500 exception rules."
+          ],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ]
+        },
+        {
+          "id": "filing-and-claims",
+          "heading": "The service-of-process filing is not state approval",
+          "paragraphs": [
+            "Section 10-1-416 requires the covered seller with Georgia purchasers/participants, agreements made there or its principal business place there to appoint the Secretary of State to receive legal process and pay the $10 filing fee. This is not approval of the offer or a substitute for ordinary entity filings.",
+            "Support income or earnings claims with documented data and supply it to the Attorney General on request. Do not advertise state endorsement or even refer to compliance with this part in the prohibited manner. Written contracts must describe the actual services, payment terms, business address and approximate delivery date."
+          ],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ]
+        },
+        {
+          "id": "name-mark-permission",
+          "heading": "Keep the seller’s brand authority separate",
+          "paragraphs": [
+            "The Secretary of State distinguishes a business/trade name (often called a DBA) from a trademark or service mark identifying goods or services. Identify which entity owns the actual mark and what permission the U.S. seller has to use and sublicense it.",
+            "For example, a Singapore parent’s company name, its U.S. seller’s trading name and the mark on training material can be different records. None substitutes for the licence allowing the actual seller to grant the proposed rights.",
+            "The current application instructions say the office does not search federal or other-state registrations and cannot guarantee availability. State acceptance is not a completed assessment of competing U.S. rights."
+          ],
+          "sourceIds": [
+            "b2-east-ga-agency",
+            "b2-east-ga-forms",
+            "b2-east-ga-mark"
+          ],
+          "aliases": [
+            "give-each-record-its-proper-name",
+            "section-0",
+            "a-georgia-filing-does-not-finish-the-availability-check",
+            "section-1",
+            "fill-the-singapore-groups-rights-and-source-rows",
+            "fictional-example-a-singapore-training-group",
+            "section-3",
+            "make-a-rights-and-source-table",
+            "section-4"
+          ]
+        },
+        {
+          "id": "historical-sales-text",
+          "heading": "A refund remedy has its own notice and return conditions",
+          "paragraphs": [
+            "Section 10-1-417 provides specified violation-based remedies, including written notice to the seller within one year of the contract for its voiding/refund route. The purchaser must make the goods available for return and cannot be unjustly enriched. A late-delivery complaint or other dispute needs the actual statutory trigger; a refund is not automatic merely because the business disappoints.",
+            "The separate multilevel-contract cancellation provisions are not a general cancellation right for every franchise."
+          ],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ],
+          "aliases": [
+            "a-law-page-can-be-readable-and-still-be-old",
+            "section-2",
+            "keep-the-unanswered-sales-questions-visible",
+            "section-5"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b2-east-ga-agency",
+        "b2-east-ga-forms",
+        "b2-east-ga-mark",
+        "nr-ga-code2024",
+        "nr-ga-supp2025",
+        "nr-ga-act723-2026"
+      ],
+      "ruleIds": [
+        "b2-east-ga-name-mark",
+        "b2-east-ga-source-version",
+        "nr-ga-coverage",
+        "nr-ga-disclosure-payment",
+        "nr-ga-filing-advertising"
+      ],
+      "practicalOutput": "Before taking a covered purchaser’s commitment or money, establish the coverage branch and arrange the actual disclosure, escrow, any required bond and service-of-process filing.",
+      "limitations": [
+        "Selected ordinary business-opportunity duties, not every multilevel plan, industry-specific relationship law or exemption application. The actual parties, promises, mark, payments and state connections control; federal duties and U.S. brand availability remain separate."
+      ],
+      "relatedPaths": [
+        "/us-expansion/franchising-vs-licensing/",
+        "/us-expansion/business-opportunity-rule/",
+        "/us-expansion/trademark-clearance/"
+      ],
+      "readMinutes": 4
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ga-code2024",
+          "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t10-%28v8%29-2024-pdf.pdf",
+          "title": "Official Code of Georgia Annotated, Volume 8, 2024: business opportunities",
+          "authority": "Georgia General Assembly / Code Revision Commission",
+          "type": "primary",
+          "section": "Sections 10-1-410–417, printed 303–322",
+          "supportingPassage": "At least 48 hours",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:44:46.285781+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official enacted Code compilation or amendment; scoped current reconciliation",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "7afbade16da7b519bb10024ec48080edffbf37ee63b1cb8e2c263b67d9713851",
+          "notes": "Read complete statutory sections 410–417 in the state-hosted official 2024 Code; annotations distinguished from statute. Current reconciliation uses 2025 supplement and actual 2026 Act 723. The registered-mark exception qualifies the marketing-programme branch only. No product/party-specific exclusion or full sector-law survey."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ga-supp2025",
+          "url": "https://www.legis.ga.gov/api/document/docs/default-source/joint-features-document-library/t10-%28v8%29-pdf.pdf",
+          "title": "Official Code of Georgia Annotated: 2025 Supplement to Volume 8",
+          "authority": "Georgia General Assembly / Code Revision Commission",
+          "type": "primary",
+          "section": "Title 10 supplement, contents and entries affecting Part 3",
+          "supportingPassage": "2025 Supplement",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:45:51.272742+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official enacted Code compilation or amendment; scoped current reconciliation",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "f1fc4f45d8c665b3180be42133721febeabd59a03153409291b8f6cc2a2f82c9",
+          "notes": "Read supplement title/scope/contents and checked complete document for 410–417 entries; none added/changed there. This limited update check is not a complete review of all annotated Title 10 material."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ga-act723-2026",
+          "url": "https://gov.georgia.gov/document/2026-signed-legislation/hb-1268/download",
+          "title": "Georgia Act 723/HB 1268 signed 2026 Code-revision act",
+          "authority": "State of Georgia, Governor and General Assembly",
+          "type": "primary",
+          "section": "Section 10(1), final reenactment/repealer provisions; official enacted-law summary supplies effective date",
+          "supportingPassage": "inserting a comma",
+          "publicationDate": null,
+          "effectiveDate": "2026-07-01",
+          "fetchedAt": "2026-11-14T01:46:11.870835+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official enacted Code compilation or amendment; scoped current reconciliation",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "c00ca5483cd4731d26c855e4e35a1c1c5054bcfb20c411d322568827ae4d7114",
+          "notes": "Read the actual signed/passed Act: section 10(1) inserts a comma following company) in 10-1-411(b)(8)(A). The final provisions reenact the Code subject to the stated conflicts and repeal conflicting laws; there is no separate express July 1 clause. The Governor’s signed-legislation list corroborates enactment, and the official 2026 enacted-law summary states effective July 1, 2026. No bill proposal is treated as operative."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-ga-coverage",
+          "title": "Georgia business-opportunity coverage has separate promise branches",
+          "topic": "sales-disclosure",
+          "jurisdiction": "Georgia",
+          "activity": "Offering or selling a defined business opportunity",
+          "affectedParty": "Actual seller and purchaser",
+          "applicability": "Apply the actual definitions, exclusions and Georgia connections in 10-1-410–417.",
+          "requirement": "410(2)(A) covers enabling a purchaser to start a business with specified vending/display/amusement-device-location promises, buyback of purchaser output, or a sales/marketing programme with initial payment exceeding $500. Initial payment has the statutory first-six-month/instalment/security rules. Registered-mark licensing qualifies the marketing-programme exception only. Seller definition reaches in-state offers/solicitation and Georgia principal-place sellers soliciting nonresidents.",
+          "exceptions": "410(2)(B) separately excludes a one-business ongoing-business owner sale; named employment/general-partnership/cooperative relationships; agribusiness corporations; insurance agencies; the detailed audited $15m/public-company/securities-reporting/dividend-debt/volume/market-value branch; and specified unaffiliated-goods retail-centre pushcart/kiosk arrangements. Each has its actual conditions.",
+          "trigger": "Designing the actual offer and representations",
+          "deadline": null,
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ],
+          "status": "verified",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Actual coverage and exemption facts must be established; no complete sector-specific or federal clearance."
+          ],
+          "dependentPaths": [
+            "/states/georgia/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-ga-disclosure-payment",
+          "title": "Georgia disclosure, escrow and conditional assurance duties remain separate",
+          "topic": "sales-disclosure",
+          "jurisdiction": "Georgia",
+          "activity": "Offering or selling a defined business opportunity",
+          "affectedParty": "Actual seller and purchaser",
+          "applicability": "Apply the actual definitions, exclusions and Georgia connections in 10-1-410–417.",
+          "requirement": "Section 10-1-411(b) requires the prescribed cover and disclosure at least 48 hours before the earlier signature or consideration, including financial statements no older than 13 months updated for material changes, actual services/training and conditional earnings disclosures. Section 411(c) permits Part 436 substitution only for its specified paragraphs. Section 413(b) requires material-change and at least annual updates. Section 412(b) caps collection at 15%, with the balance in agreed independent escrow released 60 days after operations begin or complete contractual performance, whichever happens first. Section 412(a) requires the specified bond or trust of at least $75,000 where the qualifying dissatisfaction-based refund/repurchase representation accompanies an agreement with total initial payment exceeding $500; multilevel-company rules and the below-$500 exception apply separately.",
+          "exceptions": "No universal bond for every business opportunity is inferred; specified below $500 MLM exemption and deposit-price rule retained. MLM cancellation/notice duties are separate.",
+          "trigger": "Before earlier purchaser signature or seller receipt of consideration",
+          "deadline": "At least 48 hours before the earlier signature or consideration; separate 60-day-or-complete-performance escrow release clock.",
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ],
+          "status": "verified",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Actual coverage and exemption facts must be established; no complete sector-specific or federal clearance."
+          ],
+          "dependentPaths": [
+            "/states/georgia/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-ga-filing-advertising",
+          "title": "Georgia process-agent filing and claims duties are not offer approval",
+          "topic": "sales-disclosure",
+          "jurisdiction": "Georgia",
+          "activity": "Offering or selling a defined business opportunity",
+          "affectedParty": "Actual seller and purchaser",
+          "applicability": "Apply the actual definitions, exclusions and Georgia connections in 10-1-410–417.",
+          "requirement": "Section 10-1-416(a) requires the covered Georgia-connected seller to appoint the Secretary of State as process agent and pay $10. Section 414 requires documented earnings-claim support supplied to the Attorney General on request and prohibits the specified mark misuse, approval or compliance representations. Section 415(a)–(b) requires the written contract and copy at signing with prescribed terms. Section 417 provides a qualified violation-based voiding/refund route with written notice within one year, goods made available for return and no unjust enrichment.",
+          "exceptions": "The consent filing does not itself subject seller to consequences of every other statute or establish approval. No general franchise termination right is inferred from MLM cancellation provisions.",
+          "trigger": "Covered sale, earnings claim or process-agent filing",
+          "deadline": null,
+          "fee": "$10 service-of-process filing",
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ],
+          "status": "verified",
+          "legalStatus": "effective",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Actual coverage and exemption facts must be established; no complete sector-specific or federal clearance."
+          ],
+          "dependentPaths": [
+            "/states/georgia/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [
+      {
+        "id": "b2-east-ga-source-version",
+        "fields": {
+          "requirement": "The AG-hosted page remains explicitly historical through 2006. New research now reconciles the selected current 410–417 provisions using the legislature-hosted 2024 official Code, 2025 supplement and actual 2026 Act 723. Use the newer source chain for coverage, disclosure, payment and process duties; the old page is not silently relabelled current.",
+          "sourceIds": [
+            "b2-east-ga-agency",
+            "nr-ga-code2024",
+            "nr-ga-supp2025",
+            "nr-ga-act723-2026"
+          ],
+          "interpretationLimits": [
+            "Records the historical page limit and the separately verified current source chain; actual offer and exemption facts and other sector law remain separate."
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Actual purchaser/new-business purpose, precise promises, seller identity/location, mark status, initial-payment calculation and exclusion facts are business facts, not an unread statutory-source gap.",
+      "No complete MLM-plan, state sector-specific termination law, live mark clearance or federal coverage determination is supplied."
+    ],
+    "authorNote": "Preserves old brand-rights facts and aliases. Replaces stale current-law hold only for actually read 410–417; full Georgia law or absence of other law is not claimed. No canonical or old evidence/date fields edited."
+  },
+  {
+    "id": "b2-west-tennessee",
+    "path": "/states/tennessee/",
+    "question": "What current Tennessee franchise/excise tax requirements apply, and what does tax registration establish about franchise-sales or relationship law?",
+    "outcome": "partially-verified",
+    "conclusion": "The actual June 2026 Revenue manual now establishes selected current taxpayer, royalty-connection, foreign-corporation, registration, rates, deduction, return, estimate and extension guidance. A primary Sixth Circuit case separately establishes a liquor-sector limitation of the provision it applied. A comprehensive current state franchise-sales/relationship-law consolidation is still unavailable and is not replaced by the tax manual.",
+    "evidence": [
+      {
+        "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+        "retrievedAt": "2026-11-14T01:52:55.041Z",
+        "sha256": "549ae69e0e5b67f8001004e0fd589b9de56b7d7255bfdc3a5f3222e5599e6cc6",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-core-read.json",
+        "locator": "June 2026 manual: printed pages 17–18, 51–52, 89–90, 107–109",
+        "readScope": "Read the actual manual passages on entity scope, substantial connections, filing due dates and extension conditions, estimated-payment threshold/amounts/dates. Additional actual manual excerpts below supply foreign-corporation, registration and deduction details. Not all 547 pages read.",
+        "quote": "Franchise and excise tax is imposed on entities"
+      },
+      {
+        "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+        "retrievedAt": "2026-11-14T01:54:04.090Z",
+        "sha256": "879a7b31aece4566f52af838c7487956b613375636046b2ab76665cb699fac09",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-exact-find.json",
+        "locator": "Printed pages 18, 53–54",
+        "readScope": "Read actual 6.5% excise-rate text and full foreign-corporation ECI/treaty paragraphs; other find results are not represented as complete unrelated chapters.",
+        "quote": "has no effectively connected income"
+      },
+      {
+        "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+        "retrievedAt": "2026-11-14T01:55:00.989Z",
+        "sha256": "394ff24c9aa858a6e3a305c63523249b9474d310ee98e7f4b3d9dd346d40bfba",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-filing-complete-read.json",
+        "locator": "Printed pages 45–47",
+        "readScope": "Read registration within 15 days, TNTAP route, federal/state single-member LLC classification and actual filing extension excerpts.",
+        "quote": "within 15 days of becoming subject"
+      },
+      {
+        "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+        "retrievedAt": "2026-11-14T01:55:56.962Z",
+        "sha256": "832c2940c512748fecede92881db4ae08d81ee9811e152652a9ab38cfa2ee811",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-extensions-full.json",
+        "locator": "Printed pages 89–91 and 250–251",
+        "readScope": "Read complete filing-extension conditions, zero-prior-liability and credit/refund exceptions, interest/payment distinction, and standard-deduction amount, tax-year start, pre-apportionment application and no-loss/no-carryforward limits.",
+        "quote": "not an extension of time in which to pay the tax"
+      },
+      {
+        "url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/22a0099n-06.pdf",
+        "retrievedAt": "2026-11-14T01:55:13.239247+00:00",
+        "sha256": "b447feba16239c64325cd805edbe1bc064e89e357a1d82ddc7770934f2705bdb",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-servpro-appeal.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Servpro Industries v. Woloski, No. 21-5685, pages 1–5; Sixth Circuit opinion filed March 4, 2022",
+        "readScope": "Read court caption/publication status, procedural disposition and actual contract/addendum and liquor-control-scope analysis. This 2022 case is not a current comprehensive Tennessee statutory consolidation.",
+        "quote": "required to be licensed under",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+        "retrievedAt": "2026-11-14T01:53:44.946Z",
+        "sha256": "0355ea0333435ab127bc671f9480d2f6ecd5ffaf1d82db3c4b532a95e2d0bbdd",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-rates-sections.json",
+        "locator": "Printed page 18; excise standard-deduction passages on pages 250–251",
+        "readScope": "Read actual 0.25% franchise rate, $100 minimum and the actual standard-deduction conditions. Excise 6.5% and ECI/treaty text are in the separately retained tn-exact-find snapshot.",
+        "quote": "The minimum franchise tax payable each year is $100."
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-west-tennessee",
+      "path": "/states/tennessee/",
+      "title": "Tennessee franchise and excise tax: who files and when",
+      "seoTitle": "Tennessee franchise and excise tax: entities, rates and deadlines",
+      "description": "Use Revenue’s June 2026 manual to separate the actual taxpayer, royalties and state connections, tax rates and filing clocks from franchise-sales permission.",
+      "learningSummary": "Tennessee can tax a company that licenses rights into the state even without a local office. Identify the actual taxpayer and U.S.-connected income before applying the filing calendar; a tax account does not authorise franchise sales.",
+      "keyTerms": [],
+      "sections": [
+        {
+          "id": "taxpayer-not-offer",
+          "heading": "Start with the company that owes the tax",
+          "paragraphs": [
+            "Tennessee’s franchise tax is a tax on doing business, not permission to sell a branded business. Revenue’s June 2026 manual says corporations, LLCs and other limited-liability entities can owe franchise and excise taxes. Sole proprietors and general partnerships are generally outside these taxes; specified exemptions have their own conditions.",
+            "An LLC ignored as a separate taxpayer for federal income tax is not automatically ignored by Tennessee. The manual distinguishes a single-member LLC owned by a corporation: its activity is included with the corporate owner under the stated rules. Other single-member LLCs generally remain separate state taxpayers. A Singapore parent and its U.S. LLC therefore need their actual ownership and federal classification checked, rather than assuming one federal return settles both.",
+            "A taxable entity that is inactive but has not properly ended its Tennessee registration can still owe a return and the $100 minimum franchise tax."
+          ],
+          "sourceIds": [
+            "nr-tn-manual2026",
+            "nr-tn-servpro2022"
+          ],
+          "aliases": [
+            "two-teams-may-be-using-the-same-word-differently",
+            "section-0",
+            "federal-treatment-does-not-finish-the-state-tax-inquiry",
+            "section-1",
+            "give-the-tax-preparer-and-relationship-reviewer-different-facts",
+            "worked-example-the-parent-u-s-llc-and-local-operator",
+            "section-2",
+            "prepare-two-clearly-separate-handoffs",
+            "section-4"
+          ]
+        },
+        {
+          "id": "state-connections",
+          "heading": "Royalties can create a Tennessee tax connection",
+          "paragraphs": [
+            "For an out-of-state entity, the manual requires doing business and a substantial state connection. It specifically includes licensing intangible property for use in Tennessee and earning income from that use. A company can have the necessary connection without an office there.",
+            "The bright-line tests include Tennessee receipts exceeding the lesser of $500,000 or 25% of worldwide receipts; Tennessee property exceeding the lesser of $50,000 or 25% of total property; or Tennessee compensation exceeding the lesser of $50,000 or 25% of total compensation, calculated under the stated sourcing rules. These are not the only connections that can create liability. Below-threshold customer receipts alone also do not automatically establish it.",
+            "For a company treated as a foreign corporation under the Internal Revenue Code, Revenue separately says no income effectively connected with a U.S. trade or business means no substantial Tennessee connection for these taxes. Where that U.S. business income exists, the manual limits the relevant earnings, net worth and allocation factors to the stated U.S.-connected amounts. An applicable U.S. treaty can affect whether such income exists; foreign ownership alone does not answer that question."
+          ],
+          "sourceIds": [
+            "nr-tn-manual2026"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "rates-and-filing",
+          "heading": "Register promptly and use the correct tax year",
+          "paragraphs": [
+            "A taxpayer must register with Revenue within 15 days after becoming subject to these taxes. The manual identifies Tennessee Taxpayer Access Point (TNTAP) as an online route. The ordinary combined return is Form FAE170; financial-institution and captive-REIT groups have a different form.",
+            "The franchise rate is 0.25% of the applicable net-worth base, with a $100 annual minimum. Excise tax is 6.5% of the applicable net-earnings base. These are state-adjusted amounts, with allocation, deductions and exemptions—not automatically worldwide group assets or gross royalty receipts.",
+            "For tax years ending on or after December 31, 2024, the excise standard deduction is the lesser of $50,000 or the stated net earnings. It applies before the share of business earnings assigned to Tennessee is calculated and can offset stated directly allocated nonbusiness earnings with any unused portion. It cannot create or increase a loss or be carried forward; combined returns receive only one deduction.",
+            "For a period ending on a month’s final day, the ordinary return is due on the 15th day of the fourth month after that period. A period ending earlier in the month uses the fourth month following that month; a 52–53-week year uses the closest month end. The manual explains separate reorganisation and short-period rules."
+          ],
+          "sourceIds": [
+            "nr-tn-manual2026"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "estimates-and-extension",
+          "heading": "An extension to file does not postpone payment",
+          "paragraphs": [
+            "Estimated payments are required when combined franchise and excise liability after credits is at least $5,000 for both the prior and current tax years. Annualise a short prior period for that test. The ordinary four due dates are the 15th day of months 4, 6 and 9 of the current tax year and month 1 of the next year. The standard quarterly amount is the lesser of 25% of annualised prior-year liability or 25% of 80% of projected current-year liability; a separate annualised-income method is available.",
+            "A seven-month filing extension generally requires a timely request and payment by the original due date of the lesser of 90% of current-year liability or 100% of prior-year liability, annualising a short prior year. Zero prior-year liability requires $100. The manual separately allows an automatic extension where sufficient timely payments mean a credit or refund is expected. An extension does not extend payment time: unpaid tax can accrue interest."
+          ],
+          "sourceIds": [
+            "nr-tn-manual2026"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "sales-law-gap",
+          "heading": "A franchise termination statute may cover a particular industry",
+          "paragraphs": [
+            "The word franchise has another meaning in sales and relationship law. In the 2022 Servpro v. Woloski appeal, the Sixth Circuit held the cited Tennessee termination provision inapplicable to a cleaning/restoration operator because that provision covered franchises required to hold the specified Tennessee liquor licence. The opinion was marked not recommended for publication; its contract and California-addendum analysis concerned the actual agreement in that case.",
+            "This supplies an actual industry-scope distinction, not a conclusion that every Tennessee brand offer is free of state duties. Current general offer/sale filings, exemptions, advertising and other industry-specific relationship provisions have not been comprehensively established here. Independently applicable federal disclosure remains separate from a tax registration."
+          ],
+          "sourceIds": [
+            "nr-tn-servpro2022"
+          ],
+          "aliases": [
+            "what-the-consumer-agency-source-does-not-establish",
+            "section-3"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b2-west-tn-fe1",
+        "b2-west-tn-fe4",
+        "b2-west-tn-consumer-index",
+        "nr-tn-manual2026",
+        "nr-tn-servpro2022"
+      ],
+      "ruleIds": [
+        "b2-west-tn-tax-separation",
+        "nr-tn-tax-entity",
+        "nr-tn-tax-calendar",
+        "nr-tn-sector-case"
+      ],
+      "readMinutes": 5,
+      "practicalOutput": "Identify the actual state taxpayer and its Tennessee activities or royalty income, register within the applicable 15-day period, and schedule the return and any estimated payments. Assess brand-sale duties separately.",
+      "limitations": [
+        "Selected June 2026 Revenue-manual guidance, not a complete tax calculation, exemption application, later-law or industry-specific franchise-sales survey. The 2022 case establishes its stated scope and outcome, not a complete current statutory consolidation."
+      ],
+      "relatedPaths": [
+        "/comparisons/tax-residence-vs-owner-nationality/",
+        "/us-expansion/franchising-vs-licensing/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-tn-manual2026",
+          "url": "https://www.tn.gov/content/dam/tn/revenue/documents/tax_manuals/june-2026/franchise-tax.pdf",
+          "title": "Tennessee Franchise and Excise Tax Manual — June 2026",
+          "authority": "Tennessee Department of Revenue",
+          "type": "primary",
+          "section": "Selected printed pages 17–18, 45–54, 89–91, 107–109 and 250–251",
+          "supportingPassage": "The minimum franchise tax payable each year is $100.",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:52:55.041Z",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "current department manual published June 2026",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "549ae69e0e5b67f8001004e0fd589b9de56b7d7255bfdc3a5f3222e5599e6cc6",
+          "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-core-read.json",
+          "notes": "Actual reader-retrieved PDF passages read and retained in tn-core-read, tn-exact-find, tn-filing-complete-read and tn-extensions-full JSON snapshots. Hash is a reader-response snapshot, not original PDF bytes. Selected guidance only; later laws and taxpayer facts remain separate."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-tn-servpro2022",
+          "url": "https://www.opn.ca6.uscourts.gov/opinions.pdf/22a0099n-06.pdf",
+          "title": "Servpro Industries v. Woloski, No. 21-5685",
+          "authority": "U.S. Court of Appeals for the Sixth Circuit",
+          "type": "primary",
+          "section": "Servpro Industries v. Woloski, No. 21-5685, pages 1–5; Sixth Circuit opinion filed March 4, 2022",
+          "supportingPassage": "required to be licensed under",
+          "publicationDate": "2022-03-04",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:55:13.239247+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "2022 appellate disposition; historical case authority",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "b447feba16239c64325cd805edbe1bc064e89e357a1d82ddc7770934f2705bdb",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/tn-servpro-appeal.raw",
+          "notes": "Actual court PDF; not recommended for publication. Read actual liquor-licence limitation and contract/addendum holding. No comprehensive current state-law/no-law inference."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-tn-tax-entity",
+          "title": "Tennessee tax entity and connection tests",
+          "topic": "corporate-tax",
+          "jurisdiction": "Tennessee",
+          "activity": "Tennessee tax entity and connection tests",
+          "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+          "applicability": "Actual entity, federal classification, ownership, business activity and state/U.S. income facts",
+          "requirement": "June 2026 manual distinguishes limited-liability entities, sole proprietors/general partnerships, exemptions and corporate-owner single-member LLC treatment. Doing business and substantial Tennessee connections are separate; royalty licensing, stated bright-line tests and foreign-corporation U.S.-connected income/treaty conditions must be applied.",
+          "exceptions": null,
+          "trigger": "Actual entity, federal classification, ownership, business activity and state/U.S. income facts",
+          "deadline": null,
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-tn-manual2026"
+          ],
+          "status": "verified",
+          "legalStatus": "effective, with stated source/interpretation limits",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+          ],
+          "dependentPaths": [
+            "/states/tennessee/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-tn-tax-calendar",
+          "title": "Tennessee registration, tax rates and calendar",
+          "topic": "corporate-tax",
+          "jurisdiction": "Tennessee",
+          "activity": "Tennessee registration, tax rates and calendar",
+          "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+          "applicability": "Taxpayer subject to franchise/excise tax; actual tax period and exemptions control",
+          "requirement": "Register within 15 days after becoming subject. Ordinary FAE170 return: 0.25% applicable net worth with $100 minimum and 6.5% applicable earnings, with stated adjustments and $50,000 excise deduction conditions. Return generally due the 15th day of fourth month, with short/52–53-week rules. Estimated-payment $5,000 both-year trigger, annualisation, 4/6/9/next-1 month dates and alternative methods are distinct. Seven-month filing extension is conditional and is not payment relief.",
+          "exceptions": null,
+          "trigger": "Taxpayer subject to franchise/excise tax; actual tax period and exemptions control",
+          "deadline": "15-day registration; specified return, quarterly and extension clocks",
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-tn-manual2026"
+          ],
+          "status": "verified",
+          "legalStatus": "effective, with stated source/interpretation limits",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+          ],
+          "dependentPaths": [
+            "/states/tennessee/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-tn-sector-case",
+          "title": "Servpro distinguishes the Tennessee liquor-franchise provision",
+          "topic": "classification",
+          "jurisdiction": "Tennessee",
+          "activity": "Servpro distinguishes the Tennessee liquor-franchise provision",
+          "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+          "applicability": "Historical case scope only; current other sales/relationship provisions remain separate",
+          "requirement": "The Sixth Circuit’s 2022 unpublished Servpro opinion found the cited Tennessee termination statute inapplicable to the cleaning/restoration operator because the definition required the specified liquor licence. The California-addendum result concerned the actual agreement; no universal choice-of-law or no-state-law conclusion follows.",
+          "exceptions": null,
+          "trigger": "Historical case scope only; current other sales/relationship provisions remain separate",
+          "deadline": null,
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "nr-tn-servpro2022"
+          ],
+          "status": "verified",
+          "legalStatus": "2022 unpublished appellate disposition, within its stated case scope",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+          ],
+          "dependentPaths": [
+            "/states/tennessee/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [
+      {
+        "id": "b2-west-tn-tax-separation",
+        "fields": {
+          "requirement": "Keep franchise/excise taxation separate from permission to sell branded rights. The earlier March 2021 FAQs are now supplemented, not silently redated, by actual June 2026 manual guidance and the separately scoped 2022 appellate case.",
+          "sourceIds": [
+            "b2-west-tn-fe1",
+            "b2-west-tn-fe4",
+            "nr-tn-manual2026",
+            "nr-tn-servpro2022"
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Complete current Tennessee franchise offer/sale registration, notice, exemption and advertising coverage has not been established by a readable current official statutory consolidation. The current general Code route did not yield operative text, and historical cases do not establish absence of later or industry-specific duties.",
+      "Actual taxpayer structure, income, relevant tax period, deductions/exemptions, treaty facts and later legislative changes are not determined for a specific business."
+    ],
+    "authorNote": "Replaces the stale tax-manual/court-unretrieved prose only to the actual new source scope. Does not turn a 2022 unpublished opinion or June 2026 tax guidance into complete current franchise-sales clearance."
+  },
+  {
+    "id": "b3-planning-business-opportunity-rule",
+    "path": "/us-expansion/business-opportunity-rule/",
+    "question": "Does Part 437’s literal $500 exception automatically follow Part 436’s current $735 minimum-payment exemption?",
+    "outcome": "authoritative-ambiguity",
+    "conclusion": "Actual current eCFR and official 2026 CFR retain the $500 wording in 437.8; the 2024 final rule amends only Part 436 to $735. The 2011 statement explains an intention to follow the Franchise Rule minimum-payment requirement, and the 2025 proposal would replace the fixed amount with a direct reference. No adopted replacement or controlling interpretation reconciling the literal gap was found. Publish the exact conflict and intended relationship without pretending the proposal is law.",
+    "evidence": [
+      {
+        "url": "https://www.govinfo.gov/content/pkg/CFR-2026-title16-vol1/pdf/CFR-2026-title16-vol1-sec437-8.pdf",
+        "retrievedAt": "2026-11-14T01:55:13.237703+00:00",
+        "sha256": "e86ddc563d37ec400d530c1506f12536f74f8813ca74c310201617a8dd7e385b",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-cfr2026-4378.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "2026 CFR, section 437.8(a)–(b), printed page 547",
+        "readScope": "Read actual official annual CFR section, surrounding records/preemption text; current eCFR independently checked below.",
+        "quote": "is less than $500",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/FR-2024-07-12/html/2024-15338.htm",
+        "retrievedAt": "2026-11-14T01:55:13.237360+00:00",
+        "sha256": "15bb9f63d7dc3bfdebaa6f8d3b2061906eac89f8ae5ca2433dafdc56bccc90fd",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-final2024.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "89 FR 57077–57078; amendment instructions 2(a)",
+        "readScope": "Read full actual final rule: changes Part 436 only, including 436.8(a)(1) from $615 to $735; effective July 12, 2024.",
+        "quote": "$735",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.ftc.gov/sites/default/files/documents/federal_register_notices/16-c.f.r.part-437-disclosure-requirements-and-prohibitions-concerning-business-opportunities-final-rule/111122bizoppfrn.pdf",
+        "retrievedAt": "2026-11-14T01:55:13.236751+00:00",
+        "sha256": "1824e79d63fd1ae8561bd5c07d961f8ec87c31d3b10c47a09e427c1120b4da97",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-final2011.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "76 FR 76854–76855, Part H; final 437.8",
+        "readScope": "Read actual statement of basis/purpose for franchise exemption, its minimum-payment/oral-agreement rationale and actual final exemption text. No later interpretive holding inferred.",
+        "quote": "meets the Amended Franchise Rule’s minimum payment requirement",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/r511993bizoppnprm01132025.pdf",
+        "retrievedAt": "2026-11-14T01:39:18.364697+00:00",
+        "sha256": "adb1af551cb57cb112162d6d94f11231eeff6b46bab95a426dec3c51ba9a8eb6",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-bizopp-proposal.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "2025 FTC proposal pages 34–35 and proposed 437.8 on page 109",
+        "readScope": "Read actual proposal. It proposes replacing a fixed amount with the 436.8(a)(1) amount. Its narrative says $615 and misidentifies one section as 437.8(a)(1); those defects are not silently corrected or treated as operative law.",
+        "quote": "less than the dollar amount specified",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-437",
+        "retrievedAt": "2026-11-14T01:55:57.159Z",
+        "sha256": "74488c9539337939d01b3b31611d1906f700f451c7b5a5dba265f254f7fcdf43",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-literal-now.json",
+        "locator": "Current eCFR section 437.8, displayed current through November 12, 2026",
+        "readScope": "Read actual current section and source currency; continues literal $500. Official 2026 annual CFR corroborates.",
+        "quote": "is less than $500"
+      },
+      {
+        "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-D/part-436/subpart-E/section-436.8",
+        "retrievedAt": "2026-11-14T01:54:28.923Z",
+        "sha256": "efba54cc024c801ccb699b09942328377f2807fb71e41eb05e79ab37aa721f32",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-2011-full.json",
+        "locator": "Current eCFR 436.8(a)(1), (a)(7), (b), displayed current through November 12, 2026",
+        "readScope": "Read actual current exemption text, six-month payment period, written-material-terms exception and inflation paragraph; other exemptions not newly adjudicated.",
+        "quote": "is less than $735"
+      }
+    ],
+    "guidePatch": {
+      "id": "b3-planning-business-opportunity-rule",
+      "path": "/us-expansion/business-opportunity-rule/",
+      "sections": [
+        {
+          "id": "the-package",
+          "heading": "What the purchaser is buying",
+          "paragraphs": [
+            "The new-business question concerns the purchaser, not how long your brand has operated. The definition also requires payment and specified representations that you or a designated person will provide locations, customers or accounts, or buy back what the purchaser produces.",
+            "The customer-provision definition can reach recommended lead-generation or locator services, customer lists and some payment-collection arrangements. General business-development advice, training and advertising alone are not treated as providing customers under that definition."
+          ],
+          "sourceIds": [
+            "b3-planning-business-opportunity"
+          ],
+          "aliases": [
+            "the-purchasers-business-can-be-new-even-if-the-seller-is-old",
+            "section-0",
+            "providing-customers-differs-from-teaching-marketing",
+            "section-1"
+          ]
+        },
+        {
+          "id": "cleaning-example",
+          "heading": "An established buyer can still be entering a new line",
+          "paragraphs": [
+            "In a fictional offer, an existing facilities operator buys a new cleaning line, required software and a promise of named accounts. Existing trading does not itself answer whether this is a new business or line for that purchaser. Nor does calling the promise marketing support explain whether the seller will teach marketing or provide customers."
+          ],
+          "sourceIds": [
+            "b3-planning-business-opportunity"
+          ],
+          "aliases": [
+            "fictional-example-a-new-cleaning-line-with-named-accounts",
+            "section-3"
+          ]
+        },
+        {
+          "id": "disclosure-and-gap",
+          "heading": "Keep the disclosure clock separate from the threshold mismatch",
+          "paragraphs": [
+            "Where Part 437 applies, give its prescribed written disclosure and applicable earnings information at least seven calendar days before the earlier of the purchaser signing any contract connected with the sale or making a payment or providing other consideration, including through a third party. Retain the specified disclosure versions, receipts, contracts and earnings support for three years.",
+            "The two current texts use different numbers. Section 437.8’s franchise exclusion has an exception literally referring to payments below $500 and cross-referring to section 436.8(a)(1); the latter now uses $735 for payments or commitments from before opening through the first six months. The 2024 final rule changed Part 436; it did not amend Part 437.",
+            "The FTC’s 2011 explanation says the franchise exclusion follows the Franchise Rule’s minimum-payment requirement. Its 2025 proposal would replace the fixed figure with a direct reference to that requirement. That is useful evidence of the intended relationship, but the proposed replacement is not the text currently published. A $600 arrangement illustrates the mismatch: it is below $735 but not below $500. This research does not establish an authoritative resolution for that gap; it does not declare the arrangement exempt from both rules."
+          ],
+          "sourceIds": [
+            "b3-planning-business-opportunity",
+            "smb-fed-minimum-exemption",
+            "nr-ftc-4378-2026",
+            "nr-ftc-threshold-final2024",
+            "nr-ftc-437-final2011",
+            "nr-ftc-437-proposal2025"
+          ],
+          "aliases": [
+            "keep-its-disclosure-and-record-duties-separate",
+            "section-2"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b3-planning-business-opportunity",
+        "smb-fed-minimum-exemption",
+        "nr-ftc-4378-2026",
+        "nr-ftc-threshold-final2024",
+        "nr-ftc-437-final2011",
+        "nr-ftc-437-proposal2025"
+      ],
+      "readMinutes": 3,
+      "limitations": [
+        "The $500/$735 interaction remains a genuine text/interpretation conflict after current-text and amendment-history checks. A rule proposal is not an adopted amendment; actual franchise/business-opportunity elements and independent state duties remain separate."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ftc-4378-2026",
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2026-title16-vol1/pdf/CFR-2026-title16-vol1-sec437-8.pdf",
+          "title": "2026 CFR section 437.8 — franchise exemption",
+          "authority": "Office of the Federal Register / Government Publishing Office",
+          "type": "primary",
+          "section": "2026 CFR, section 437.8(a)–(b), printed page 547",
+          "supportingPassage": "is less than $500",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:55:13.237703+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "e86ddc563d37ec400d530c1506f12536f74f8813ca74c310201617a8dd7e385b",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-cfr2026-4378.raw",
+          "notes": "Actual annual CFR PDF and current eCFR both retain literal $500. No automatic harmonisation with current Part 436 is asserted."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ftc-threshold-final2024",
+          "url": "https://www.govinfo.gov/content/pkg/FR-2024-07-12/html/2024-15338.htm",
+          "title": "2024 final Franchise Rule inflation adjustment",
+          "authority": "Federal Trade Commission / Federal Register",
+          "type": "primary",
+          "section": "89 FR 57077–57078; amendment instructions 2(a)",
+          "supportingPassage": "remove “$615”",
+          "publicationDate": "2024-07-12",
+          "effectiveDate": "2024-07-12",
+          "fetchedAt": "2026-11-14T01:55:13.237360+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "15bb9f63d7dc3bfdebaa6f8d3b2061906eac89f8ae5ca2433dafdc56bccc90fd",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-final2024.raw",
+          "notes": "Read complete amendment instructions; changes only Part 436. Current eCFR corroborates the $735 threshold."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ftc-437-final2011",
+          "url": "https://www.ftc.gov/sites/default/files/documents/federal_register_notices/16-c.f.r.part-437-disclosure-requirements-and-prohibitions-concerning-business-opportunities-final-rule/111122bizoppfrn.pdf",
+          "title": "2011 Business Opportunity Rule final rule and statement of basis/purpose",
+          "authority": "Federal Trade Commission / Federal Register",
+          "type": "primary",
+          "section": "76 FR 76854–76855, Part H; final 437.8",
+          "supportingPassage": "meets the Amended Franchise Rule’s minimum payment requirement",
+          "publicationDate": "2011-12-08",
+          "effectiveDate": "2012-03-01",
+          "fetchedAt": "2026-11-14T01:55:13.236751+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "effective",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "1824e79d63fd1ae8561bd5c07d961f8ec87c31d3b10c47a09e427c1120b4da97",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-final2011.raw",
+          "notes": "Read franchise-exclusion explanation and actual 437.8 wording. Historical intention does not by itself amend current numeric text."
+        }
+      },
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ftc-437-proposal2025",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/r511993bizoppnprm01132025.pdf",
+          "title": "2025 Business Opportunity Rule proposed amendments",
+          "authority": "Federal Trade Commission",
+          "type": "primary",
+          "section": "2025 FTC proposal pages 34–35 and proposed 437.8 on page 109",
+          "supportingPassage": "less than the dollar amount specified",
+          "publicationDate": "2025-01-13",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:39:18.364697+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "proposal, not the operative replacement",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "adb1af551cb57cb112162d6d94f11231eeff6b46bab95a426dec3c51ba9a8eb6",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ftc-bizopp-proposal.raw",
+          "notes": "Actual FTC proposal pages 34–35 and proposed 437.8 read; proposed dynamic reference is not treated as current. Narrative amount/cross-reference defects are retained in audit scope."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [],
+    "ruleUpdates": [
+      {
+        "id": "b3-planning-business-opportunity-rule",
+        "fields": {
+          "requirement": "Apply actual Part 437 definitions and, where covered, seven-calendar-day disclosure before the earlier any sale-connected contract or consideration, and the specified three-year records. The current 437.8 literal $500 and current 436.8(a)(1) $735 interaction remains authoritatively unresolved despite actual 2011 purpose, 2024 final amendment and 2025 proposed dynamic-reference text. Do not treat the proposal as law or declare exemption from both rules using the amount alone.",
+          "sourceIds": [
+            "b3-planning-business-opportunity",
+            "smb-fed-minimum-exemption",
+            "nr-ftc-4378-2026",
+            "nr-ftc-threshold-final2024",
+            "nr-ftc-437-final2011",
+            "nr-ftc-437-proposal2025"
+          ],
+          "conflicts": [
+            "Current numeric text differs; amendment history supports intended linkage but no adopted reconciliation or controlling interpretation was retrieved."
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "No adopted 437.8 replacement or controlling FTC/court interpretation was located that settles the literal $500 exception against the current $735 cross-referenced exemption, especially payments from $500 to below $735.",
+      "Actual offer elements, written-material-term facts and required-payment calculation remain necessary."
+    ],
+    "authorNote": "New source work supports authoritative-ambiguity rather than an access hold. Also corrects old guide wording binding agreement to actual 437.2 any contract connected with the sale; the seven-calendar-day unit and third-party consideration trigger are preserved."
+  },
+  {
+    "id": "b2-east-guide-arkansas",
+    "path": "/states/arkansas/",
+    "question": "What do the actual Arkansas amendment and later court bodies establish about relationship scope, transfer rights and agreement dates?",
+    "outcome": "partially-verified",
+    "conclusion": "The complete actual 2023 Act plus the official session effective-date explanation support precise amendment, transfer and date branches. The later September 2026 Earnest order grants procedural remand/fees; it is not an insurance-coverage or AFPA-merits resolution. The official current consolidation route yields only a shell, current model-instruction full bodies fail, and current comprehensive consolidation/merits remain unresolved.",
+    "evidence": [
+      {
+        "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FACTS%2F2023R%2FPublic%2FACT847.pdf",
+        "retrievedAt": "2026-11-14T01:58:42.426977+00:00",
+        "sha256": "9197a7b4740448acbacd2d9ed6723bff0511021becd1add64272a4e6b4a06096",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ar-act847-2023.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Act 847 of 2023, sections 1–7, all six pages",
+        "readScope": "Read complete actual Act, including findings, amended applicability, transfer requirements, venue/material-cause/survivor additions, severability and exact retroactivity. Visually inspected pages 3–5 to distinguish deletions from additions, including 30 replacing 60 days and the deleted federal-coverage exclusion.",
+        "quote": "Sections 1 and 3 of this act apply retroactively",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2F2023%2F2023R%2FDocuments%2F2023R+Summary+of+General+Legislation.pdf",
+        "retrievedAt": "2026-11-14T02:01:34.025957+00:00",
+        "sha256": "c90c30cfcad6e8d0c747bbc7a8c05ebb215efa5ab9661e8de3561fdce473fa15",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ar-summary2023.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Printed pages 21 and 155, effective-date explanation",
+        "readScope": "Read actual Act 847 summary and the final effective-date-of-Acts explanation, which identifies August 1, 2023 for Acts without a specified date or emergency clause; Act 847 has neither. Summary is used for that session-wide date rule, not a substitute for the actual amendment.",
+        "quote": "the effective date for acts of the 94th General Assembly",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-arwd-3_25-cv-03088/pdf/USCOURTS-arwd-3_25-cv-03088-1.pdf",
+        "retrievedAt": "2026-11-14T01:40:44.519591+00:00",
+        "sha256": "d0e389c37339a43f6ac8971ca2bb3e7a09281b0902e36beec5ef452977b972a5",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ar-latest-order.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Earnest v. Shelter Mutual, No. 3:25-cv-03088, Document 70, September 24, 2026, pages 1–5 and 27–30",
+        "readScope": "Read actual procedural background and remand/fees disposition. It does not adjudicate AFPA coverage, insurance exclusion, good cause or retroactivity merits; no merits ruling is inferred from the pleaded claims.",
+        "quote": "immediately REMANDED",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://advance.lexis.com/container?config=00JAA3ZTU0NTIzYy0zZDEyLTRhYmQtYmRmMS1iMWIxNDgxYWMxZTQKAFBvZENhdGFsb2cubRW4ifTiwi5vLw6cI1uX",
+        "retrievedAt": "2026-11-14T01:54:28.838Z",
+        "sha256": "3c3a6b5f1b18ac3302b0a38668cf1281b7f2ed28fcb7958878394aec6a20912b",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ar-official-amijury-retry.json",
+        "locator": "Official legislature-linked public Code route",
+        "readScope": "Reader returned one image link and no statutory text. Curl retained a JavaScript/cookie-environment shell. This is failed substantive access, not verified current Code text.",
+        "quote": "Image"
+      },
+      {
+        "url": "https://govt.westlaw.com/armji/Document/Ib7bee0b1053f11db9346b0b8bf67faf0",
+        "retrievedAt": "2026-11-14T01:55:56.561Z",
+        "sha256": "19f79fda2fda09142486137f7b6f6570fc92a7ae36f0c0f5d82d8db0bd35c49c",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ar-ami-minimal.json",
+        "locator": "Current Supreme Court committee model-instruction routes",
+        "readScope": "Direct and search-result-ref opens failed; current instruction bodies were not retrieved. Indexed extracts are research leads only.",
+        "quote": "403"
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-east-guide-arkansas",
+      "path": "/states/arkansas/",
+      "title": "Arkansas franchise relationships: what the 2023 amendment changes",
+      "seoTitle": "Arkansas franchise transfers and the 2023 relationship amendment",
+      "description": "Read the actual 2023 amendment’s coverage, 30-day transfer response and qualified family-transfer rules with their separate agreement-date limits.",
+      "learningSummary": "The 2023 Act changes relationship protections as well as transfers, but its provisions do not all reach the same contracts. Match the particular rule to the agreement and renewal date before assuming a transfer veto or an old federal exclusion applies.",
+      "sections": [
+        {
+          "id": "enacted-versus-proposed",
+          "heading": "The enacted amendment does not give every agreement the same treatment",
+          "paragraphs": [
+            "Act 847 of 2023 removes the old reference that could exclude a franchise merely because it was covered by the federal Franchise Rule. Preparing a Franchise Disclosure Document (FDD) therefore does not establish exclusion from Arkansas relationship protections.",
+            "The enacted applicability wording concerns franchises entered into, renewed or transferred after March 4, 1977 whose performance contemplates or requires an Arkansas place of business. It retains stated exclusions and adds an exclusion where both the initial franchise fee does not exceed $20,000 and the initial term does not exceed one year. The specified wholesaler–beverage-supplier relationships are covered regardless of those fee or term amounts.",
+            "This article explains the actual 2023 amendment. The complete current consolidated chapter and later merits decisions have not been verified from readable current primary bodies; this is not complete current coverage or termination advice."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "aliases": [
+            "the-business-question-comes-after-the-sale-as-well-as-before-it",
+            "section-0",
+            "understand-which-text-became-law",
+            "section-1",
+            "do-not-use-the-later-proposal-as-the-operative-amendment",
+            "section-2",
+            "read-the-legal-status-label-before-using-the-wording",
+            "fictional-example-a-dutch-maintenance-operator",
+            "section-4",
+            "make-the-next-review-specific",
+            "section-5"
+          ]
+        },
+        {
+          "id": "place-and-agreement-dates",
+          "heading": "Use the date rule for the actual provision",
+          "paragraphs": [
+            "The Act’s findings and applicability amendment apply retroactively to the effective date of Act 411 of 1991. Its added franchise-owner definition, transfer amendments and new venue, material-cause and survivor provisions apply only to agreements or contracts entered into or renewed on and after Act 847’s effective date. The new franchise-owner definition includes someone with a financial interest or someone who guarantees the franchise entity’s obligations.",
+            "The legislature’s 2023 session explanation identifies August 1, 2023 as the effective date for Acts without an emergency clause or a specified effective date; Act 847 has neither. The constitutional limits stated in the applicability amendment remain relevant. Approval on April 13, 2023 is not itself the starting date for every new provision."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "aliases": [
+            "place-and-agreement-dates-can-lead-to-different-answers",
+            "section-3"
+          ]
+        },
+        {
+          "id": "transfer-amendment",
+          "heading": "A transfer request is different from a qualified family transfer",
+          "paragraphs": [
+            "For transfers to which the amended section applies, the written notice identifies the proposed buyer, address, financial qualifications and the preceding five years of business experience. Within 30 days after receipt, the franchisor must approve in writing or give written notice identifying a material deficiency in character, financial ability or experience under its existing standards, consistently applied to similarly situated franchisees. No reply within the stated 30 days means approval is deemed granted.",
+            "The buyer must agree in writing to the reasonable and legal franchise requirements then in effect. A spouse, child or heir who is operationally and financially qualified follows a separate branch: franchisor approval is not required, and the franchisor and specified related parties cannot exercise a right of first refusal over that transfer.",
+            "Outside that family branch, the amendment preserves the stated contractual right to buy the franchise or substantially all its assets on precisely the terms of a genuine third-party offer. A right of first refusal means the franchisor can match the proposed deal; it is not the same as an unrestricted veto."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "nr-ar-session2023"
+          ],
+          "aliases": []
+        },
+        {
+          "id": "other-amendments",
+          "heading": "The new contract protections have their own agreement-date limit",
+          "paragraphs": [
+            "The added provisions void an outside-Arkansas venue restriction for the stated claims involving a franchise operating or doing business in Arkansas; venue means where the case must be heard, which is distinct from the law governing the contract. They require the stated good faith and fair dealing, permit termination only for material cause under objective standards, and give an immediate family member or designated heir the stated good-faith opportunity to become an owner.",
+            "Those additions share the post-effective-date agreement/renewal condition above. They do not establish that every older contract automatically receives every new provision. HB 1177 of 2025 died in committee; its proposed insurance wording did not become law through that bill."
+          ],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "aliases": []
+        }
+      ],
+      "sourceIds": [
+        "b2-east-ar-2023",
+        "b2-east-ar-2025",
+        "nr-ar-session2023"
+      ],
+      "ruleIds": [
+        "b2-east-ar-applicability",
+        "b2-east-ar-failed-proposal",
+        "nr-ar-2023-specific"
+      ],
+      "keyTerms": [],
+      "readMinutes": 4,
+      "practicalOutput": "Identify the exact amendment and agreement/renewal date; for a transfer under the amended section, distinguish the ordinary written-notice/30-day-response route from the qualified family-transfer branch.",
+      "limitations": [
+        "Explains actually read 2023 amendments and their date conditions. Complete current consolidated provisions, other exclusions and later merits decisions remain unresolved; federal disclosure and transaction-specific facts are separate. The effect of a clause choosing another jurisdiction’s law is not resolved here."
+      ],
+      "relatedPaths": [
+        "/fdd/item-17/",
+        "/us-expansion/changed-franchise-agreement/",
+        "/us-expansion/state-offer-sale-facts/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ar-session2023",
+          "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=%2FAssembly%2F2023%2F2023R%2FDocuments%2F2023R+Summary+of+General+Legislation.pdf",
+          "title": "Arkansas 2023 summary of general legislation — effective date of Acts",
+          "authority": "Arkansas Bureau of Legislative Research",
+          "type": "primary",
+          "section": "Printed pages 21 and 155, effective-date explanation",
+          "supportingPassage": "the effective date for acts of the 94th General Assembly",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T02:01:34.025957+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "official legislative explanation of 2023 session default effective date",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "c90c30cfcad6e8d0c747bbc7a8c05ebb215efa5ab9661e8de3561fdce473fa15",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ar-summary2023.raw",
+          "notes": "Read printed page 155 session-wide date rule and page 21 Act 847 summary. Actual Act independently read and has no emergency clause or specified effective date. No unrelated Act summary or later consolidation inferred. The actual publication identifies May 2023; no publication day is inferred."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "next-release-rules.json",
+        "record": {
+          "id": "nr-ar-2023-specific",
+          "title": "Arkansas Act 847: exact amendment and agreement-date conditions",
+          "topic": "relationship",
+          "jurisdiction": "Arkansas",
+          "activity": "Arkansas Act 847: exact amendment and agreement-date conditions",
+          "affectedParty": "Actual seller, purchaser or taxpayer as stated",
+          "applicability": "Historical enacted amendment, not a complete current Code consolidation",
+          "requirement": "Actual 2023 Act removes the federal-coverage exclusion, restates Arkansas place/agreement scope, adds the inclusive $20,000-and-one-year exclusion and beverage qualification, and replaces the transfer response period with 30 days. Qualified spouse/child/heir transfers have separate approval/right-of-first-refusal treatment. Sections 1 and 3 are retroactive to the effective date of 1991 Act 411; sections 2, 4 and 5 apply only to agreements/contracts entered or renewed on/after the Act 847 effective date, identified through the official session date explanation as August 1, 2023. Other current provisions and later merits remain unverified.",
+          "exceptions": null,
+          "trigger": "Historical enacted amendment, not a complete current Code consolidation",
+          "deadline": null,
+          "fee": null,
+          "renewal": null,
+          "dependencies": [],
+          "evidence": [],
+          "sourceIds": [
+            "b2-east-ar-2023",
+            "b2-east-ar-2025",
+            "nr-ar-session2023"
+          ],
+          "status": "conditional",
+          "legalStatus": "enacted 2023 amendment; exact historical scope verified, current consolidation not complete",
+          "verifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Only the stated provision and actual source scope are established; business facts and independent legal layers remain separate."
+          ],
+          "dependentPaths": [
+            "/states/arkansas/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Current legislature-linked Code service returns a JavaScript/environment shell rather than actual consolidated sections; current Supreme Court model-instruction bodies fail with 403. No complete current primary-text consolidation was recovered after alternate official and reader routes.",
+      "A later actual 2026 court order was retrieved, but it decides federal removal/remand and associated fees, not whether the pleaded insurance agreement is an AFPA franchise or how the amendment governs the merits. No merits answer is invented.",
+      "Specific applicable exclusions, earlier sections including the notice/cure regime, current case history and constitutional limits have not been comprehensively reconciled."
+    ],
+    "authorNote": "Does useful source-backed amendment teaching without adding irrelevant procedural-case chronology to public copy. The 2026 order is retained as evidence explaining why that later case cannot close the question. Source access and substantive uncertainty are distinct; no human approval condition added."
+  },
+  {
+    "id": "b2-west-oklahoma",
+    "path": "/states/oklahoma/",
+    "question": "What does the actual Oklahoma administrative advertising-filing rule require, and is the current version verified?",
+    "outcome": "partially-verified",
+    "conclusion": "Actual 2025 Chapter 25 and adopted 2020 text establish the advertising filing-plus-response mechanism, attestation, narrow disclosure-document exception and content/reference restrictions. Fresh current legislative Title 71 separately places advertising authority at 807(E) and sets the package-review fee at $50 in 829(A)(3), while the 2025 rule literally refers to 807.F. The newer 2026 administrative consolidation still cannot be read, so the current statutory answer and older rule version are distinguished.",
+    "evidence": [
+      {
+        "url": "https://securities.ok.gov/Act-Rules/Rules_20250815.pdf",
+        "retrievedAt": "2026-11-14T01:52:42.618Z",
+        "sha256": "02e4cb898e94d448e1bc2d8e2f990fae85f1c5cd413919e457a327ce0e4b2a71",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ok-rules-find.json",
+        "locator": "2025 compilation, Chapter 25, printed pages 209–212, lines 5421–5501",
+        "readScope": "Read complete Chapter 25 actual body, broad advertising/package definitions, filing-plus-response prerequisite, fee cross-reference, attestation, disclosure-document filing exception, content rules and prohibited agency references. Compilation labels itself effective August 15, 2025 and unofficial; not relabelled current 2026.",
+        "quote": "filed with and responded to by the Administrator prior to use"
+      },
+      {
+        "url": "https://www.securities.ok.gov/Act-Rules/Rulemaking/2020/Adopted/Chapter-25/Regulatory-Text-Adopted-660-25-Final.pdf",
+        "retrievedAt": "2026-11-14T01:40:27.676Z",
+        "sha256": "137efbedb31a000d1718789d2f42b211189dec09545e26889769ff6ed9611a31",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ok-adopted-ref.json",
+        "locator": "2020 adopted Chapter 25 amendment, complete one-page regulatory text",
+        "readScope": "Read full actual adopted amendment and distinguish marked deletions from current language. It corroborates the mechanism in the actual 2025 compilation, not an independently read 2026 consolidation.",
+        "quote": "the review fee specified in Section 807.F"
+      },
+      {
+        "url": "https://securities.ok.gov/Act-Rules/",
+        "retrievedAt": "2026-11-14T01:53:43.896Z",
+        "sha256": "a3fc5be018c34cdf3c94fe96ef6a4a3e66478780300abcd6ef4b5c99f8f76283",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ok-open-new-index.json",
+        "locator": "Current agency index and 2026 adopted-rule routes",
+        "readScope": "Both actual-page opens failed 502. Search-index text identifies a newer August 1, 2026 compilation and Chapter 11 changes, but this is only a lead; it is not verified current body text.",
+        "quote": "502"
+      },
+      {
+        "url": "https://www.securities.ok.gov/Act-Rules/Rules_20260801.pdf",
+        "retrievedAt": "2026-11-14T01:55:13.246315+00:00",
+        "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ok-2026-www.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Current-compilation PDF route",
+        "readScope": "Ordinary download returned HTTP 503 and 98-byte upstream failure, not a readable PDF. Its hash identifies only the failure response.",
+        "quote": "upstream",
+        "httpStatus": 503
+      },
+      {
+        "url": "https://www.oklegislature.gov/OK_Statutes/CompleteTitles/os71.pdf",
+        "retrievedAt": "2026-11-14T02:05:08.856707+00:00",
+        "sha256": "450d52dd68f6b4953849770a79ba1e3a8cf03710d4fad0a6dff304fc76e08d1a",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ok-title71-current.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Current legislative Title 71, sections 807(A)–(E) and 829(A)–(B), printed pages 184 and 205–206",
+        "readScope": "Read complete actual 807 registration/advertising authority and 829 fee schedule. Same PDF body hash as existing current legislative source. Current 807(E) authorises advertising filing and refers to 829; 829(A)(3) sets the $50 package-review fee. The 2025 administrative rule’s literal 807.F citation differs; no silent renumbering or current rule-text inference.",
+        "quote": "Review of sales literature or advertising package",
+        "httpStatus": 200
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-west-oklahoma",
+      "path": "/states/oklahoma/",
+      "description": "Compare the qualified disclosure exemption and registration clocks with the recovered advertising filing-and-response rule. Its newer 2026 wording remains unverified.",
+      "sections": [
+        {
+          "id": "exemption-scope",
+          "heading": "Establish the particular exemption and state connections",
+          "paragraphs": [
+            "The Act prohibits covered offers/sales without registration or exemption. Section 803(6) provides the stated business-opportunity/franchise route when the specified document is delivered fourteen calendar days before the earlier binding agreement or consideration (money or other value).",
+            "Section 802 has its own business-opportunity, franchise and marketing-plan definitions, including relevant account-finding/training promises. The registered-mark/net-worth exclusion has further conditions. Section 805 puts proof of exemption/exclusion/exception on its claimant.",
+            "Section 818 separately examines offer origin/receipt, acceptance, domicile (the legally relevant home connection) and operating location. An outside outlet or internet format does not establish a blanket result for discovery calls or campaigns."
+          ],
+          "aliases": [
+            "identify-exactly-what-the-disclosure-exemption-removes",
+            "section-0",
+            "use-the-state-definition-and-actual-locations",
+            "section-1",
+            "do-not-use-one-completed-document-to-close-all-three-routes",
+            "worked-example-a-cross-border-industrial-services-campaign",
+            "section-2",
+            "prepare-a-route-and-communication-record",
+            "section-4"
+          ],
+          "sourceIds": [
+            "b2-west-ok-title71"
+          ]
+        },
+        {
+          "id": "registration-and-advertising",
+          "heading": "Registration effectiveness and advertising remain distinct",
+          "paragraphs": [
+            "Section 807 describes complete filing, effectiveness normally after fifteen full business days absent stated orders/proceedings, and one-year duration. An incomplete upload does not automatically become effective.",
+            "Sections 819–822 address fraud and misleading claims, including representing a filing as approval. A separate advertising-filing rule also needs attention: the actual agency compilation recovered is the version effective August 15, 2025. The newer 2026 compilation has not been read, so the following mechanism is qualified by that version limit."
+          ],
+          "aliases": [
+            "if-using-registration-distinguish-receipt-from-effectiveness",
+            "section-3"
+          ],
+          "sourceIds": [
+            "b2-west-ok-title71"
+          ]
+        },
+        {
+          "id": "advertising-mechanism",
+          "heading": "The recovered rule requires a response before use",
+          "paragraphs": [
+            "The 2025 text of rule 660:25-5-1 says sales literature and advertising must be filed with, and responded to by, the Administrator before use. It calls for the advertising package, a review fee and the seller’s attestation that the material is not materially false or misleading and matches its latest disclosure document on file. Sending material is not the same as receiving the required response.",
+            "The current legislative text authorises advertising filing under section 807(E) and lists a $50 package-review fee in section 829(A)(3), subject to the statute’s stated fee conditions. The recovered rule still cites section 807.F. These are the actual texts; this article does not silently rewrite that reference or claim the newer administrative version has been checked.",
+            "The definitions extend beyond brochures to the stated telephone, seminar, performance, reprint and electronic material. The disclosure document already filed under section 806 is exempt from this separate filing requirement. Anti-fraud content provisions still apply whether or not an advertisement must be filed; filed advertising is also subject to section 820. The rule prohibits references to the named Oklahoma securities authorities unless requested by the Administrator.",
+            "This establishes a real filing mechanism in the recovered version, not proof that every statutory exemption removes it. The current 2026 wording and the particular offer’s exemption must still be established before using a campaign timetable."
+          ],
+          "sourceIds": [
+            "b2-west-ok-title71",
+            "nr-ok-rules2025"
+          ],
+          "aliases": []
+        }
+      ],
+      "sourceIds": [
+        "b2-west-ok-title71",
+        "nr-ok-rules2025"
+      ],
+      "readMinutes": 3,
+      "practicalOutput": "Establish the exact offer exemption or complete registration route; for advertising, account for the recovered filing-and-response mechanism and resolve the newer version before relying on a campaign date.",
+      "limitations": [
+        "Actual definitions, state connections and exemptions control. The current legislative authority and $50 package-review fee are read; the advertising mechanism is read in the 2025 compilation, and newer 2026 consolidated administrative wording remains unresolved."
+      ]
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-ok-rules2025",
+          "url": "https://securities.ok.gov/Act-Rules/Rules_20250815.pdf",
+          "title": "Oklahoma securities rules — August 15, 2025 compilation, Chapter 25",
+          "authority": "Oklahoma Department of Securities",
+          "type": "primary",
+          "section": "2025 compilation, Chapter 25, printed pages 209–212, lines 5421–5501",
+          "supportingPassage": "filed with and responded to by the Administrator prior to use",
+          "publicationDate": null,
+          "effectiveDate": "2025-08-15",
+          "fetchedAt": "2026-11-14T01:52:42.618Z",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "2025 agency compilation; current 2026 version not independently verified",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "02e4cb898e94d448e1bc2d8e2f990fae85f1c5cd413919e457a327ce0e4b2a71",
+          "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/ok-rules-find.json",
+          "notes": "Actual complete Chapter 25 read by reader. Hash is saved reader-response JSON, not original PDF bytes. Historical compilation labelled unofficial; corroborated by actual 2020 adopted text. Newer 2026 compilation not substantively retrieved."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "b2-west-ok-title71",
+        "fields": {
+          "section": "Sections 802–809, 818–822 and newly read 829; statutory sections control pagination",
+          "substantiveVerifiedAt": "2026-11-14T02:07:19.449244+00:00",
+          "notes": "The legislative PDF includes 2025 chapter 486 amendments effective January 1, 2026. Fresh November 14 retrieval has the same 450d52dd68f6b4953849770a79ba1e3a8cf03710d4fad0a6dff304fc76e08d1a body hash. Complete actual 807 and 829 additionally read: advertising authority is 807(E), fee $50 under 829(A)(3). The administrative mechanism is separately recovered in the 2025 compilation, which still literally cites 807.F; newer 2026 administrative text remains unverified."
+        }
+      }
+    ],
+    "newRules": [],
+    "ruleUpdates": [
+      {
+        "id": "b2-west-ok-advertising",
+        "fields": {
+          "requirement": "The actual 2025 compilation rule 660:25-5-1 requires sales literature/advertising to be filed with and responded to by the Administrator prior to use, with package, review fee and stated seller attestation. Its literal fee cross-reference is 807.F, whereas the actual current statute places advertising authority at 807(E) and the $50 package-review fee at 829(A)(3), subject to 829(A). The section 806 disclosure-document filing exception, 819/820 content duties and prohibited named-agency references remain separate. The newer 2026 administrative text and actual offer-specific exemption remain unresolved.",
+          "sourceIds": [
+            "b2-west-ok-title71",
+            "nr-ok-rules2025"
+          ],
+          "interpretationLimits": [
+            "Mechanism verified in actual 2025 agency compilation and adopted 2020 amendment; newer August 2026 compilation and current official portal body were not retrieved. Do not label the 2025 source current or infer all advertising duties vanish under a registration exemption."
+          ],
+          "conflicts": [
+            "The actual 2025 administrative text cites section 807.F; the actual current statutory authority is section 807(E), with fees in section 829. The newer administrative consolidation has not been read; the reference is not silently harmonised."
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Current agency index and newer August 2026 compilation could not be retrieved as actual bodies after direct, alternate host/path, reader and search-result-reference attempts; official rules portal is blocked by robots/access. Indexed descriptions of Chapter 11-only changes are not a substitute for actual current Chapter 25 text.",
+      "The actual offer-specific exemption and newer administrative wording remain unresolved. The current legislative fee itself has now been read: $50 per package under 829(A)(3), with the statute’s stated fee conditions."
+    ],
+    "authorNote": "Replaces blanket rule-unread statement with exactly recovered mechanism, keeping actual version limit once. Does not promote a 2020 adopted amendment or 2025 unofficial compilation into a verified 2026 consolidation."
+  },
+  {
+    "id": "state-guide-illinois",
+    "path": "/states/illinois/",
+    "question": "What are Illinois’s current initial effectiveness clock, initial fee and accepted filing channel?",
+    "outcome": "access-unresolved",
+    "conclusion": "Current Attorney General form/resource body is actually readable but does not state those initial answers. NASAA supplies an actually downloaded dated 2025 fee schedule ($500 initial/$100 renewal) and general electronic-franchise support, not verified current Illinois submission acceptance. Current legislature sections 10/40, rules and public Act paths repeatedly fail; the accessible state DCEO mirror is demonstrably outdated. No current timing, fee or channel is inferred from snippets or obsolete text.",
+    "evidence": [
+      {
+        "url": "https://www.nasaa.org/wp-content/uploads/efd/Franchise-Matrix.pdf",
+        "retrievedAt": "2026-11-14T02:00:00.289222+00:00",
+        "sha256": "a65cfd299757ae08dfda4ec1420cc6bb61303ff4b53d32f07b36f3858476a8cd",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/il-nasaa-feematrix.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "NASAA EFD franchise fee schedule, dated April 15, 2025 in downloaded PDF, Illinois row",
+        "readScope": "Read downloaded actual complete one-page schedule and its update caveat. Raw body says April 15, while cached reader rendition says April 22; use the raw body/hash date and do not silently reconcile versions. Illinois row: $500 initial, $100 renewal, $500 late replacement; no live current-fee inference.",
+        "quote": "As of April 15, 2025",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.nasaa.org/industry-resources/securities-issuers/efd/",
+        "retrievedAt": "2026-11-14T02:00:00.290069+00:00",
+        "sha256": "01ed3f40aa8fafc479231dd5f33c2f9c89d105d8ec5e702c81873b5209fd1cb5",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/il-nasaa-efd-current.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Current NASAA EFD explanatory page",
+        "readScope": "Read actual provider body explaining electronic submission to participating regulators and franchise application support. It does not itself establish Illinois-specific participation or override state submission instructions.",
+        "quote": "EFD also supports Franchise registration applications",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://illinoisattorneygeneral.gov/Consumer-Protection/For-Businesses/Franchise/",
+        "retrievedAt": "2026-11-14T01:55:13.244530+00:00",
+        "sha256": "69887692dcd0e51805f90a6798a79587d36ac1842561e17c43170665b08713a9",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/il-ag-current-index.raw",
+        "hashKind": "sha256-of-original-HTTP-response-bytes",
+        "locator": "Current Attorney General franchise forms/resources page",
+        "readScope": "Read actual current page and links, including forms, Act/rules and annual tips. No initial timing, fee amount or new portal acceptance statement appears in that body.",
+        "quote": "Annual Report Filing Tips",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.ilga.gov/documents/legislation/ilcs/documents/081507050K40.htm",
+        "retrievedAt": "2026-11-14T01:53:16.738Z",
+        "sha256": "17a659bade0ba2ac0ac09abf0b1db2cd112a1741bc8f09806309ca9d14d955e5",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/il-new-open.json",
+        "locator": "Current statutory and rule routes, plus state DCEO historical mirror",
+        "readScope": "Current statutory/rule opens fail. DCEO mirror is readable by reader but its section 10 uses the old anniversary renewal regime and old wording elsewhere; it is not a verified current consolidation. Search-index current sections are leads only.",
+        "quote": "Failed to fetch"
+      },
+      {
+        "url": "https://nasaaefd.org/About/EFDStates",
+        "retrievedAt": "2026-11-14T01:59:50.005Z",
+        "sha256": "773759a8e19e0f88de3a9c185cffccad481fe47491482c83953a2cb78d992e2b",
+        "hashKind": "sha256-of-retained-reader-response-JSON-not-original-PDF",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/states/il-efd-official-refs.json",
+        "locator": "Current EFD participation/FAQ/contact pages",
+        "readScope": "Actual opens fail HTTP 403; indexed Illinois availability and system-fee excerpts are not represented as read provider bodies. No filing, account login or submission attempted.",
+        "quote": "403"
+      }
+    ],
+    "guidePatch": {
+      "id": "state-guide-illinois",
+      "path": "/states/illinois/",
+      "sections": [
+        {
+          "id": "assurance-documents",
+          "heading": "Parent accounts are not a funding commitment",
+          "paragraphs": [
+            "The Attorney General’s Franchise Bureau publishes application, costs/source-of-funds, seller, consent-to-service, guaranty and accountant-consent forms, plus escrow, surety-bond and deposit documents. Their availability does not establish that every form is required or a proposed guarantor will be accepted.",
+            "If a new U.S. seller promises training funded by a Swedish parent, identify the seller’s actual obligations, when costs fall due and the parent’s actual commitment. Parent financial statements alone do not commit that money. Accountant consent must refer to the correct statements."
+          ],
+          "aliases": [
+            "start-with-the-published-filing-set",
+            "section-0",
+            "show-the-obligations-and-the-company-able-to-meet-them",
+            "section-1",
+            "distinguish-four-different-funding-statements",
+            "fictional-example-a-swedish-parent-funds-the-initial-support",
+            "section-2",
+            "assemble-a-finance-and-document-package",
+            "section-5"
+          ],
+          "sourceIds": [
+            "state-il-info",
+            "b3-state3-il-annual"
+          ]
+        },
+        {
+          "id": "annual-tips",
+          "heading": "What the annual tips sheet actually says",
+          "paragraphs": [
+            "The currently linked annual sheet states renewal is due 120 days after financial year end. It calls for consistent issuance dates across cover, certification, accountant consent and receipts; clean and blackline (changes marked) FDD versions; and relevant forms, including revised Forms B and C where changes occurred.",
+            "It describes requesting removal of financial assurance in filing correspondence. A request is not an automatic release; the actual requirement and response control."
+          ],
+          "aliases": [
+            "prepare-the-annual-filing-as-a-separate-task",
+            "section-3"
+          ],
+          "sourceIds": [
+            "state-il-info",
+            "b3-state3-il-annual"
+          ]
+        },
+        {
+          "id": "unverified-current-process",
+          "heading": "Confirm the current channel before submitting",
+          "paragraphs": [
+            "NASAA’s downloaded EFD franchise-fee schedule is dated April 15, 2025 and lists $500 for an Illinois initial filing and $100 for renewal. It cautions that updates may not be reflected. This is dated provider information, not a verified current state-fee instruction or a statement about separate system charges.",
+            "The annual tips sheet is undated and contains hardcopy, flash-drive and no-email instructions. NASAA describes electronic franchise filing generally, but the actual current Illinois participation and submission pages were not readable. Do not infer a currently accepted route from either source alone. Complete initial offer/sale effectiveness timing also remains unverified from an actually retrieved current statute/rule body."
+          ],
+          "aliases": [
+            "confirm-undated-submission-instructions-before-using-them",
+            "section-4"
+          ],
+          "sourceIds": [
+            "state-il-info",
+            "b3-state3-il-annual",
+            "nr-il-efd-fees2025"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "state-il-info",
+        "b3-state3-il-annual",
+        "nr-il-efd-fees2025"
+      ],
+      "limitations": [
+        "Limited to the cited assurance/preparation documents, undated annual tips and explicitly dated 2025 provider fee schedule. Current initial effectiveness, fee and Illinois-specific accepted channel remain unresolved; the accessible older state mirror is not a current substitute."
+      ],
+      "readMinutes": 3
+    },
+    "newSources": [
+      {
+        "file": "next-release-sources.json",
+        "record": {
+          "id": "nr-il-efd-fees2025",
+          "url": "https://www.nasaa.org/wp-content/uploads/efd/Franchise-Matrix.pdf",
+          "title": "NASAA EFD franchise fee schedule — actual April 15, 2025 PDF",
+          "authority": "North American Securities Administrators Association, EFD provider",
+          "type": "primary",
+          "section": "NASAA EFD franchise fee schedule, dated April 15, 2025 in downloaded PDF, Illinois row",
+          "supportingPassage": "As of April 15, 2025",
+          "publicationDate": "2025-04-15",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T02:00:00.289222+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+          "nextReview": "2026-12-14",
+          "legalStatus": "dated filing-provider schedule; current Illinois fee/channel not independently confirmed",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "accessStatus": "retrieved-and-read",
+          "sha256": "a65cfd299757ae08dfda4ec1420cc6bb61303ff4b53d32f07b36f3858476a8cd",
+          "hashKind": "sha256-of-original-HTTP-response-bytes",
+          "rawPath": "/workspace/us-expansion/research/raw/next-release/states/il-nasaa-feematrix.raw",
+          "notes": "Actual raw downloaded PDF, complete Illinois row and update warning read. The web-reader cached rendering reports April 22 instead; that differing snapshot is not used to change this raw-source date. Provider schedule, not an enacted state statute or live portal acceptance confirmation."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Actually readable current official sections 10 and 40 plus rule 200.600/200.610 remain unavailable: redesigned legislature, static individual sections, old JCAR, FTP mirror and 2009 public Act paths return 502/503/timeouts. Search-result quotations cannot substitute for body retrieval.",
+      "The live EFD Illinois-participation and fee/FAQ bodies return 403. The actual dated provider schedule and generic electronic-support page do not establish a currently accepted initial channel or all charges.",
+      "Cloud browser fallback could not initialise because the execution sandbox could not be disabled; no public UI, login or access challenge was traversed. The source limitation is technical, not a new human legal-approval requirement."
+    ],
+    "authorNote": "Concrete publication plan: retain the useful assurance/annual-preparation scope, identify the dated actual fee information without calling it current, and keep current initial submission/effectiveness claims unpublished until actual bodies are accessible. No claim of no duty, no outgoing contact and no invented current-law answer."
+  }
+]

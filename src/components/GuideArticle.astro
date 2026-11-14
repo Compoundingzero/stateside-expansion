@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import LearningControls from './LearningControls';
 import {published,sourceById,ruleById,relevantCases,tools} from '../lib/content';
 import {searchTitle,semanticSectionIds,articleBreadcrumbs,relatedReading,recordedModifiedAt,isReferenceGuide,learningHubs} from '../lib/article-presentation';
 const {guide:g}=Astro.props;
@@ -59,6 +60,7 @@ const jurisdictionLabel=isPayroll?'All 50 U.S. states and Washington, D.C.':g.ju
           </div>
         </details>
         {related.length>0?<nav class="article-related anchor-section" id="related-preparation" aria-label="Related reading"><h2>Related reading</h2><ul>{related.map(item=><li><a href={item.path}>{item.title}</a></li>)}</ul></nav>:<span id="related-preparation" class="section-alias" aria-hidden="true"></span>}
+        <LearningControls client:idle itemId={g.id} path={g.path} title={g.title} type="guide"/>
       </div>
       <aside class="article-aside" tabindex="0" aria-label="In this guide"><strong>On this page</strong><ol>{jurisdictions.length>0&&<li><a href="#choose-jurisdiction">Choose a jurisdiction</a></li>}{tocItems.map(({heading,id})=><li><a href={'#'+id}>{heading}</a></li>)}<li><a href="#what-to-prepare">Next step</a></li><li><a href="#sources">Official sources</a></li></ol></aside>
     </div>

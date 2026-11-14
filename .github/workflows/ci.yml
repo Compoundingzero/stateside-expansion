@@ -20,7 +20,7 @@ jobs:
       - name: Report editorial workflow state
         run: |
           mkdir -p artifacts
-          node scripts/smb-workflow.mjs status > artifacts/editorial-workflow.json
+          node scripts/next-release.mjs status > artifacts/editorial-workflow.json
       - run: npm audit --omit=dev --audit-level=high
       - run: npx playwright install --with-deps chromium
       - name: Browser verification

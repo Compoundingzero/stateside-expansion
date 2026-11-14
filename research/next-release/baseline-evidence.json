@@ -1,0 +1,234 @@
+[
+  {
+    "file": "batch2-blocked-rules.json",
+    "hash": "a91665f5f58bb208c723374c46503f9296689a694fcb7e2c52af31d4675dbe30"
+  },
+  {
+    "file": "batch2-blocked-sources.json",
+    "hash": "85b0deddd90d121c49ba0665e13bdb70aa08cf5af3d7d6daa21e6622fdec27da"
+  },
+  {
+    "file": "batch2-east-rules.json",
+    "hash": "1eb4eb5ab5c30777004f3a622281c95b969ef217c959b6c55bc992753d3a8acd"
+  },
+  {
+    "file": "batch2-east-sources.json",
+    "hash": "8801d1698b5b84a15cccfa3a31b5da86c497fe763502117d3d0c1bbb1b725505"
+  },
+  {
+    "file": "batch2-origins-rules.json",
+    "hash": "b68805bde7f3b900a591df1ee5718564ad8002eaad346d5f8e89db50804a265f"
+  },
+  {
+    "file": "batch2-origins-sources.json",
+    "hash": "957d2331533f95c1eb6068869a7ea9a98d0c8f4abc00b2a09e7f1ea77ed68fe8"
+  },
+  {
+    "file": "batch2-territories-rules.json",
+    "hash": "1823dca71153a6db23768bd939a4d5938c87a014a7d9735566a3d96c8c111261"
+  },
+  {
+    "file": "batch2-territories-sources.json",
+    "hash": "356ab447d3d4aa9634f779d56cdf60c541d32ec01c38f68926714c1dddb79287"
+  },
+  {
+    "file": "batch2-west-rules.json",
+    "hash": "5c529affc066094c129e5452be7b52816c1d0c440a38e9d06c2a7c457cb08d8e"
+  },
+  {
+    "file": "batch2-west-sources.json",
+    "hash": "9aa7aad7b27e8a9fbb8de9c217890c529ff9f15a7ac18d701a0c4e06c910267a"
+  },
+  {
+    "file": "batch3-employer-rules.json",
+    "hash": "aa6dc989c25ab3913bdf9efdbdda1b5bec0883358fae086b7efdc6563fbdd829"
+  },
+  {
+    "file": "batch3-employer-sources.json",
+    "hash": "2da277543b0078216e40c1471dad9688795d479c83c6c36d1ec91f7502bacda7"
+  },
+  {
+    "file": "batch3-industry-rules.json",
+    "hash": "e813c07456f1d5220ca047a327839369f2e261f3bdb65bba8843b60733a7f0c5"
+  },
+  {
+    "file": "batch3-industry-sources.json",
+    "hash": "016b0e26bf2049e5e5de5b1b4b1c5e490f51b005518f8a54e508183a6eb1876e"
+  },
+  {
+    "file": "batch3-industry2-rules.json",
+    "hash": "0aeefc8226baef6c20a4afbcc69e83cd46e2a906ef51830b89c04748c61ed22a"
+  },
+  {
+    "file": "batch3-industry2-sources.json",
+    "hash": "d85303329df4b26b73e32c2c4450ed2464023ac95826e3df7ec00b707185b539"
+  },
+  {
+    "file": "batch3-local-rules.json",
+    "hash": "3ce67c78acdfbe3e8829e552085a5f75c9e35c06386bb982f6d8b1a4f0bcdb87"
+  },
+  {
+    "file": "batch3-local-sources.json",
+    "hash": "331e332d3327a3557f968028e8104308f1b510ade5e2f592741752b9320fc593"
+  },
+  {
+    "file": "batch3-local2-rules.json",
+    "hash": "d83aabbb6c2646320cdf39eef56ea2cc56ae2fed03a986273f1058cd1021fe9f"
+  },
+  {
+    "file": "batch3-local2-sources.json",
+    "hash": "2a50061bea58404c75d3008b25a0a545874b79fb9bd50a22074421547c15a9df"
+  },
+  {
+    "file": "batch3-origin-rules.json",
+    "hash": "b17114c742aff0a15f9d26573faf8dc83871b07c513556dab4cd8ff78a00b344"
+  },
+  {
+    "file": "batch3-origin-sources.json",
+    "hash": "5121633fbc841f5e376789e6afae94d0c56b7b499878739b328d6a5d55a10ae6"
+  },
+  {
+    "file": "batch3-origin2-rules.json",
+    "hash": "4519d6b3dd96128d7e6c8bf353ca9d4d068daacc586d904642b49932862a4c3f"
+  },
+  {
+    "file": "batch3-origin2-sources.json",
+    "hash": "1e29b7bc3ac0044b04ad9fe576cb0b3035d5fd3f5f18941f65a57166b2f9758c"
+  },
+  {
+    "file": "batch3-origin3-rules.json",
+    "hash": "b8f358b86c3d0065924fff9bd6dfac5fc25ac34e6b98819680242097b60687e1"
+  },
+  {
+    "file": "batch3-origin3-sources.json",
+    "hash": "2d56eab23b6b3d807b953e9dca9d12a3079b0c73fc93ad2de53b0e78b71ad9c6"
+  },
+  {
+    "file": "batch3-origin4-rules.json",
+    "hash": "decfa5961e1f171df1d373f1b28cd6796fb76a956d86dc8dc6fdfa00ea153517"
+  },
+  {
+    "file": "batch3-origin4-sources.json",
+    "hash": "37dc9ed95684dd03ff7bb56d99b111e8ec9c3619c76bed5fb49f599f58276b1f"
+  },
+  {
+    "file": "batch3-planning-followup-rules.json",
+    "hash": "451cc9493617b3e1b93d9a783d940fbacf26eb54eacc3d619ee0efe4fd344f61"
+  },
+  {
+    "file": "batch3-planning-followup-sources.json",
+    "hash": "f08fb30d10656219094c75f82b4ea0e13b02e411630cc76427c729da5a4ba75d"
+  },
+  {
+    "file": "batch3-planning-rules.json",
+    "hash": "cbe56efc756ca1da0258a106cad5bd061ad7170076856a8c7d29901107a1ff46"
+  },
+  {
+    "file": "batch3-planning-sources.json",
+    "hash": "c808b05e260adf8773690a1ba9b0989c46b190a74f6f7dd2eacc013bf4b29210"
+  },
+  {
+    "file": "batch3-planning2-rules.json",
+    "hash": "e128e0d7ed72bbafb49c8a876a74cf023058b9029312e9f04cdaacd90228c7d6"
+  },
+  {
+    "file": "batch3-planning2-sources.json",
+    "hash": "095a56ccba3586a66d1a7af44e4a2f75efb9fba2260643faef0d28e7ce1f4345"
+  },
+  {
+    "file": "batch3-recent-case-rules.json",
+    "hash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  },
+  {
+    "file": "batch3-recent-case-sources.json",
+    "hash": "eb08d11bf4a7c5ee57452fe8f2cd88521b27edb643e86ccca30980a87d4c8e9a"
+  },
+  {
+    "file": "batch3-state-rules.json",
+    "hash": "8ea9806d3ff88b25e92d3c5082800fe7e54fb7d4aefc36272374270e206b8c94"
+  },
+  {
+    "file": "batch3-state-sources.json",
+    "hash": "dd347ce8202a4e9f0dfb2ab9102cb853036bf4b1341ec48e3ebdc83d9b8092f6"
+  },
+  {
+    "file": "batch3-state2-rules.json",
+    "hash": "f5bdadaecb6b00c438a9b49ceb7122043b258669f6371dfc09f2cad29cf7f10a"
+  },
+  {
+    "file": "batch3-state2-sources.json",
+    "hash": "c45cc02ecae4533d5d60dc634f9d26eff247f2b3ad1cf11a6bc6e00f05138102"
+  },
+  {
+    "file": "batch3-state3-rules.json",
+    "hash": "dd80fc38433f3f65f495d887b0fa284b07fb76ee2d7c75043e0d146aba2f556c"
+  },
+  {
+    "file": "batch3-state3-sources.json",
+    "hash": "80f895bbb4eee4130f588cf28ed0c9bbdf8e0dcee56b41823fa4f2f24338ee65"
+  },
+  {
+    "file": "batch3-state4-rules.json",
+    "hash": "a0fea0a6eb01655a1c885941dd117608de57145545eabdc9624aa06c6ca549e4"
+  },
+  {
+    "file": "batch3-state4-sources.json",
+    "hash": "dcd661788667bd0276827bd3e4adcdce668aedcce2b38c874781712d0ccc52c7"
+  },
+  {
+    "file": "batch3-state5-rules.json",
+    "hash": "ac46085ce3107ce22a4540c49bc55ca8cb430b7be98c7bc5f0948ca30c617531"
+  },
+  {
+    "file": "batch3-state5-sources.json",
+    "hash": "5ea6136c33bc7ca274032ea14c3137d0d68c56121ca59d800470eb3333fcf8af"
+  },
+  {
+    "file": "case-connections.json",
+    "hash": "e4639a23ef6ccace8b39abc827c872ee33de7f82217af545d33a35f4a82c0803"
+  },
+  {
+    "file": "federal-rules.json",
+    "hash": "a5a2420c262fd8b54ab539cc30d83946da59af8025222f25e130e0ef43a36d16"
+  },
+  {
+    "file": "federal-sources.json",
+    "hash": "daf85d59bd232c332c8432b8965d25d02c34a3744e5658e61ed264f4a28f8c44"
+  },
+  {
+    "file": "geography-sources.json",
+    "hash": "94995343c0b7108b4f040f0d4d1dbd9a8e7e30a14fcf078b09cac50fb2987e22"
+  },
+  {
+    "file": "markets.json",
+    "hash": "c0517f2afca8293cf8f04ad716c79c5454dc6be31a9827cb25f3161c73b50805"
+  },
+  {
+    "file": "operational-sources.json",
+    "hash": "b30d67b6b94b4c8337364404f7480f9996cc42b7ad9f4a7eb9556bff6f59b6da"
+  },
+  {
+    "file": "origins.json",
+    "hash": "bc189a486fb91b3f29761365eda93cf61806254b6d25c7f4b0789e7d189de16a"
+  },
+  {
+    "file": "practice-rules.json",
+    "hash": "7e854888f06bb262824d4fefa4f6760b46dc04b2106b3c4304a3d1d97d14e5b9"
+  },
+  {
+    "file": "practice-sources.json",
+    "hash": "77355084ea62a08d1c907135429a654405dcad3e0dc5ace52a3715e0b3112acf"
+  },
+  {
+    "file": "state-rules.json",
+    "hash": "70acd650aacf4e5035b89a710ffef5a15ca2dc912716c11b56a287e5ec4766f5"
+  },
+  {
+    "file": "state-sources.json",
+    "hash": "a6dba7c1241057e0d8ba55d57e05f490f209150bebe67ea34919f27711314048"
+  },
+  {
+    "file": "states.json",
+    "hash": "a80b848497818fccbd4b2f2a5061dc2a12213d3d635933c2d79c66932cb9dfb9"
+  }
+]

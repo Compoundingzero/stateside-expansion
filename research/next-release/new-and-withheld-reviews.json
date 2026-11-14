@@ -1,0 +1,138 @@
+[
+  {
+    "id": "nr-guide-travel",
+    "reviewedHash": "01cef6b775592c1531afe32c77f6201ceb54d31c9b1e6591b801c1c3b62976d2",
+    "decision": "approved",
+    "notes": "Checked the actual Part 785 travel provisions against the article: ordinary commuting remains distinct from travel between jobs and required reporting-place travel. The fictional depot/two-job example preserves the stated work-time assumptions and does not decide reimbursement, coverage, exemptions or every special-travel branch.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "dbc1fd95b06d3ed20834e19192f2109158bf03e51f5f9bb916592f6a16f88d51"
+  },
+  {
+    "id": "nr-guide-training",
+    "reviewedHash": "e69897c00a5eaf6c9f053da1b30307d745f1f1f81d859ab655015d005e8acfc5",
+    "decision": "approved",
+    "notes": "Checked §§785.27–.32: all four general exclusion conditions remain cumulative, required or threatened attendance is not voluntary, and the independent-education/apprenticeship branches remain separate. The fictional 38-plus-3-hour example teaches counting hours without inventing a wage amount, exemption or state-law result.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "7f1558b4f190992821f513180e626f2b58339c290b499c2c24bc83e144c76def"
+  },
+  {
+    "id": "nr-guide-background",
+    "reviewedHash": "68fd408094f982d2fade7f233e131ff901ac486b35f987a4dd9f016081063999",
+    "decision": "approved",
+    "notes": "Checked the actual employment-report provisions, FTC employer guidance and §1681j(b). Standalone disclosure, authorization, agency certification, pre-action report/rights summary and final adverse-action notices remain distinct; the corrected 60-day free-copy clock starts on notice receipt, with no invented universal five-day wait or hiring freeze. Transportation, investigative-report and state/local conditions remain scoped.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "e3dced5a966b98c1c51e27281962013ebd70532f9cae612dcbc4acb4fe6020d6"
+  },
+  {
+    "id": "nr-guide-bank-debits",
+    "reviewedHash": "005cb4898cc6d8f693fcf9b54cf98d2f828ba41468bb75ec4f8c2aef7b05e13e",
+    "decision": "approved",
+    "notes": "Checked §1005.10(b)–(d), official interpretations and the consumer-purpose account/recurring-transfer definitions. The obtaining party must provide a copy of the authorization including its terms; oral assent does not permit merchant signature. The variable-amount notice/range option, consumer-account scope and separate bank stop-payment/contract questions are retained.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "4c5cdb81385205bd8b85b7c004da0543b2630c33a37f77f84b17c65aab3ce706"
+  },
+  {
+    "id": "nr-guide-ada-lease",
+    "reviewedHash": "a4a8185886d5b3c6dc3e355dfd574cc82c0187e56bce9e9f9c1f9ad846b5c106",
+    "decision": "approved",
+    "notes": "Checked actual landlord/tenant, coverage, readily-achievable barrier-removal and alteration provisions. The lease allocates responsibility without removing the parties’ applicable duties; resources, actual work and element-specific exceptions remain relevant. The fictional salon step does not declare a particular ramp mandatory, feasible or compliant.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "e2fd23a7e29f3ed33e4e02b7c5d7e3a2bc920a649e33e2024011c3f28c0cb8c7"
+  },
+  {
+    "id": "nr-guide-osha-small",
+    "reviewedHash": "1f9d6530f731f335b5c1db73abcd9cd4ec7d47dc95ee3d35c2d6ffc897ae431d",
+    "decision": "approved",
+    "notes": "Checked complete §§1904.1 and 1904.39. Entire-company prior-year employment, event-occurrence windows, employer/agent knowledge, 8/24-hour report periods and formal inpatient-treatment limits remain distinct. The corrected road exception is restricted to motor-vehicle accidents outside construction work zones; records and state-plan duties are not declared cleared.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "39c47751bed0c427b9d48aa14a3099bf7526f631d44f5a42ccecc28a0440c166"
+  },
+  {
+    "id": "nr-guide-tax-security",
+    "reviewedHash": "fc2679bd87732dd8430689b026be2f77ed70033532d1c8b2482e89325fd9b02a",
+    "decision": "approved",
+    "notes": "Checked tax-preparer coverage, written-program duties, limited §314.6 exceptions and the defined notification-event/500-consumer/30-day conditions. Read the actual seven-page TaxSlayer consent order and final-entry timeline: allegations, no-admission posture and historical order-specific assessments are preserved. Numerical spacing is repaired; small size is not a blanket exemption or later-compliance finding.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "15cd9aed5ec213ca2545aeeef53fbc789acdfcbd2985aec651cf0ffc45d68d30"
+  },
+  {
+    "id": "nr-guide-cash",
+    "reviewedHash": "59d9b0136aa35296309a713740ee23e93cb220fcc44614a9a7fcc70f04ce2da7",
+    "decision": "approved",
+    "notes": "Checked §1010.330 and the actual IRS payment, filing, customer-statement and recordkeeping guidance. The strict more-than-$10,000 threshold, initial one-year and subsequent 12-month aggregation, 15-day trigger, conditional instruments and five-year filed-report retention remain precise. The $6,000-plus-$5,000 domestic example is explicitly fictional; territory/digital-asset issues are not silently resolved.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "b66cb5ed4653af8f4a40795c18d30422e668dc746b4b7eb1660036444582e2cc"
+  },
+  {
+    "id": "nr-guide-deemed-export",
+    "reviewedHash": "259c7b89b15300bced4fdd539bee1f81c3817cca017fc6c9b39c1189bbf432b4",
+    "decision": "approved",
+    "notes": "Checked actual EAR export/release provisions and relevant jurisdiction/person/technology definitions. Visual inspection and oral disclosure can be releases, but actual EAR scope, recipient status, classification and authorization remain conditional. The fictional screen example makes no licensing finding and does not confuse work permission, confidentiality or a brand contract with export authorization.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "fb2e4646e36db4888ad761ef100c8722dba178d6319632569fd4ac5ae0cd03aa"
+  },
+  {
+    "id": "nr-guide-eei",
+    "reviewedHash": "529f14e99e00473205954a8db81922fb5ecdbcafef873931a95d9a25dc3bc855",
+    "decision": "approved",
+    "notes": "Checked §§30.2 and 30.37 relevant mandatory, low-value and temporary/return branches. The $2,500 test preserves same-code aggregation, one principal party/consignee/conveyance and separate domestic/foreign-origin treatment; mandatory filing categories can override value exemptions. Commodity codes are explained, fictional arithmetic is intact, and no universal departure deadline or customs/license clearance is invented.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "50a6691996f934fbd6aeb0092475f2a9df11c7d6244c2371cb479ebc1555470f"
+  },
+  {
+    "id": "nr-guide-shipping",
+    "reviewedHash": "13019bfb5969000fc6ee9c637c25fa0c40f096655c54bba4cd66a90e7b266bab",
+    "decision": "approved",
+    "notes": "Read operative §§435.1–.3 and checked the revised decision branches. No-stated-time 30/conditional-50-day rules remain distinct from an unsupported promise; initial short, longer/indefinite and renewed-delay consent rules retain their clocks and cancellation conditions. Shipment means carrier possession, and refund working-day/billing-cycle distinctions remain intact.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "90092ee543fd0490b53d737264279bbda6e4beb91a03a02de4afeba889b31f33"
+  },
+  {
+    "id": "nr-guide-made-usa",
+    "reviewedHash": "3a19c9da0f604f9f557fd37e5cd8ed84f89d1fb7d139e65fb5c19d9f5e42bdf8",
+    "decision": "approved",
+    "notes": "Checked the actual label rule and staff guidance, including qualified/assembly claims and Customs distinctions; read the retained 2020 Williams-Sonoma complaint and final consent order. The three-part unqualified standard, substantial assembly/last transformation conditions and fictional imported-parts scenario are preserved. Allegations and consent posture are not retold as trial findings, later compliance, approved wording or paid recovery.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "5cb72a9bb9c3438e20cf55b3a25179c9c10144adb06c207a889cc56d4665d409"
+  },
+  {
+    "id": "case-octoclean-hold",
+    "reviewedHash": "7a59bc9c420d2461f7583e228742f933b9ca5e9a9ade63a7cecaab7d29bdd66d",
+    "decision": "approved",
+    "notes": "Read the retained actual consent-order operative provisions and Exhibit B. Registration and disclosure findings, effective-date definition, penalty and cancellation-election clocks remain distinct. The revised text preserves operative “all franchise fees paid” versus heading/exhibit “initial franchise fees” without deciding an individual sum, and distinguishes required offers, elections and payments; no present-compliance or completed-recovery claim is made.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "f96f9fbe5e61d471ae6e1a20b8b1d239fbd5057b3e6e51c12450e65f6a215402"
+  },
+  {
+    "id": "state-draft-california",
+    "reviewedHash": "94e02c67c5aa69b9fb69adc243886122c7f16231b224103f9e6ae0a1223343ea",
+    "decision": "approved",
+    "notes": "Checked actual DFPI financial-statement/assurance sections, franchise-specific FRANSES attachments/payment workflow and November 6 proposed-action notice. Reviewed-balance-sheet eligibility and both fee-deferral release conditions are cumulative; submission is not effective registration. The July 1, 2027 broker deadline is attributed to the agency notice, proposed procedures are not represented as live, and CPA/GAAP/AICPA meanings are now expanded.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "27e8bf622768c9294ca9db01f5abaf6739afb0cea74f594d6a90260edc141be0"
+  },
+  {
+    "id": "b2-origin-laos",
+    "reviewedHash": "9dfb4ae404235acb557d8cdc4bb57bd020eb339301f4ac90caf88da1f3c6a3a8",
+    "decision": "approved",
+    "notes": "Checked the actual BOL-hosted 2022 unofficial translation’s trade, outward-investment, loan, foreign-account and effectiveness provisions; visually checked Decision 333’s service percentages, three-working-day unit and original conditions. The correction now requires supporting documents to the Foreign Exchange Management Department. Read the actual Gazette catalogue row marked current and cross-checked the Gazette PDF service formula; catalogue status does not settle all later implementation, mixed-IP classification, netting or individual permission.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "1e5d6cc04daa227e12f0df2996286ca6575c734eda80ae4e78d6891a6c02cc72"
+  },
+  {
+    "id": "b2-east-guide-mississippi",
+    "reviewedHash": "0d1aa16dbcd882968b6f5f23216f1cfc9ca0d5c4145e1a6ee127f5506f5f4b3a",
+    "decision": "approved",
+    "notes": "Checked the actual 2018 bill’s live versus struck text, Crosthwait’s fraud/assumed-coverage/90-day analysis and damages remand, and Hamilton’s complete Mississippi analysis plus adopting order. Chronology and consideration meaning are corrected. Hamilton remains a limited dismissal without prejudice of alleged broker conduct, not proof that statements were accurate or general broker immunity; current consolidated-code access and later-law scope remain candidly unresolved.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "c9fc78f90aae8b79af0abe2ccdf0f85dde53ea0410b9ea30bc44d7754353ac54"
+  },
+  {
+    "id": "b3-o4-ukraine",
+    "reviewedHash": "5f2caf94ea0a81e3f5f1855d529cf0949b17d3d94d2273d57fecb3a3e5aeea7e",
+    "decision": "approved",
+    "notes": "Read the actual older NBU control-copy point 14(30) in full and checked company age, annual/additional-2021 amounts, one-quarter monthly cap, own-currency, one-bank and exclusive maintenance-budget conditions. Checked its January 13, 2026 amendment-history endpoint and the separate IP-protection-fee/incoming-equity clauses. Read the complete NBU channel post 4112 and verified its own August 26, 2026 time element in the raw HTML. The fictional separate-U.S.-company example usefully distinguishes structure and purpose; every numerical condition is expressly dated, the explanation is not treated as current operative law, and no broad service/IP, outward-equity or present payment permission is claimed. The unresolved current consolidation/amendment chain and actual bank/transaction facts remain explicit.",
+    "reviewer": "/root/editorial_inventory",
+    "decisionFingerprint": "00a974c0546ba318b4728fc05317faa65f1d57697aae4901050a8872e45c1783"
+  }
+]

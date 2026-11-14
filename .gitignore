@@ -27,3 +27,6 @@ research/states/*.pdf
 # Intermediate authoring drafts are not the frozen reviewed proposal set.
 research/batch2/west-own-*.json
 research/batch2/west-a-*.json
+
+# Full working evidence is retained in the cloud, with short tracked quotes and hashes.
+research/next-release/raw/

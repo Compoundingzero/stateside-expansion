@@ -13,7 +13,9 @@
     "start": "node --env-file-if-exists=.env server.mjs",
     "test": "tsx --test src/lib/*.test.ts tests/*.test.ts",
     "check:sources": "node scripts/check-sources.mjs",
-    "report": "node scripts/report.mjs"
+    "report": "node scripts/report.mjs",
+    "workflow:status": "node scripts/next-release.mjs status",
+    "workflow:validate": "node scripts/next-release.mjs validate"
   },
   "dependencies": {
     "@astrojs/react": "^7.1.8",

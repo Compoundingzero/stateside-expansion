@@ -1,0 +1,78 @@
+{
+  "formatVersion": 1,
+  "baselineCommit": "94ed0b659eb0848c829669246949cca11263fb85",
+  "decisionsFormat": {
+    "id": "Existing guide ID, or stable new guide ID",
+    "path": "/canonical/path/",
+    "question": "Owner question",
+    "outcome": "verified | partially-verified | actual-business-facts-required | authoritative-ambiguity | access-unresolved",
+    "conclusion": "Precisely supported conclusion",
+    "evidence": [
+      {
+        "url": "https://actual.official/source",
+        "retrievedAt": "Actual ISO UTC retrieval",
+        "sha256": "Raw bytes hash when downloaded",
+        "rawPath": "Retained working file if available",
+        "locator": "Exact section/page",
+        "readScope": "Actual text read; distinguish failed response/shell",
+        "quote": "Short actual relevant passage"
+      }
+    ],
+    "guidePatch": "Editable fields for existing guide OR complete new published-guide record",
+    "newSources": [
+      {
+        "file": "Existing src/data/*-sources.json or next-release-sources.json",
+        "record": "Complete source record with actual access/review dates and next-review target"
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "Existing source ID",
+        "fields": "Explicit verified changes"
+      }
+    ],
+    "newRules": [
+      {
+        "file": "Existing src/data/*-rules.json or next-release-rules.json",
+        "record": "Complete rule record with sources and dependent paths"
+      }
+    ],
+    "ruleUpdates": [
+      {
+        "id": "Existing rule ID",
+        "fields": "Explicit verified changes; no automatic date/status changes"
+      }
+    ],
+    "unresolved": "Specific remaining uncertainty; do not rename as resolved",
+    "authorNote": "Private rationale and audit references"
+  },
+  "guideContract": {
+    "requiredFields": [
+      "id",
+      "path",
+      "title",
+      "seoTitle",
+      "description",
+      "family",
+      "topic",
+      "jurisdictions",
+      "status",
+      "lastReviewed",
+      "reviewStatus",
+      "readMinutes",
+      "learningSummary",
+      "keyTerms",
+      "sections",
+      "sourceIds",
+      "ruleIds",
+      "nextStage",
+      "practicalOutput",
+      "limitations",
+      "relatedPaths"
+    ],
+    "sections": "Stable ID, heading, plain paragraphs/bullets/meaningful table, sourceIds; preserve existing aliases when replacing.",
+    "audience": "SMB brand owner; explain central terms inline; context and consequence before forms or legal codes.",
+    "examples": "Clearly label fictional examples; distinguish actual allegations, orders, proposed orders and paid recovery.",
+    "contentPolicy": "No word minimum, forced table/glossary/quiz, invented current rule or human legal-approval requirement."
+  }
+}

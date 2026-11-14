@@ -462,7 +462,7 @@
     "activity": "U.S. business-model expansion and partner operations",
     "affectedParty": "Brand owner, proposed selling entity and responsible management role",
     "applicability": "Only where the cited state provision covers the parties, location, activity and relationship. Federal analysis remains separate.",
-    "requirement": "The agency-hosted statutory page says its text is current through the 2006 Regular Session. Access today does not verify that its numerical thresholds, exceptions or timing remain current in 2026. Obtain current statutory text before relying on the historical business-opportunity provisions.",
+    "requirement": "The AG-hosted page remains explicitly historical through 2006. New research now reconciles the selected current 410–417 provisions using the legislature-hosted 2024 official Code, 2025 supplement and actual 2026 Act 723. Use the newer source chain for coverage, disclosure, payment and process duties; the old page is not silently relabelled current.",
     "exceptions": "Applicability and any exclusion must be established from the actual relationship and relevant facts.",
     "trigger": "Reviewing Georgia business-opportunity applicability and editorial source freshness",
     "deadline": null,
@@ -479,7 +479,10 @@
       "Named responsible person and evidence dates"
     ],
     "sourceIds": [
-      "b2-east-ga-agency"
+      "b2-east-ga-agency",
+      "nr-ga-code2024",
+      "nr-ga-supp2025",
+      "nr-ga-act723-2026"
     ],
     "status": "verified",
     "legalStatus": "historical",
@@ -487,7 +490,7 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "This rule records a source-version limitation; it does not state current Georgia legal obligations."
+      "Records the historical page limit and the separately verified current source chain; actual offer and exemption facts and other sector law remain separate."
     ],
     "dependentPaths": [
       "/states/georgia/"
@@ -1177,7 +1180,8 @@
       "Named responsible person and evidence dates"
     ],
     "sourceIds": [
-      "b2-east-ma-classification"
+      "b2-east-ma-classification",
+      "next-scope-ma-patel2024"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -1195,13 +1199,13 @@
   },
   {
     "id": "b2-east-ms-historical-notice",
-    "title": "Mississippi notice-law research retains an explicit currency gap",
+    "title": "Mississippi enacted notice text: coverage and current-code limit",
     "topic": "relationship",
     "jurisdiction": "Mississippi",
     "activity": "U.S. business-model expansion and partner operations",
     "affectedParty": "Brand owner, proposed selling entity and responsible management role",
     "applicability": "Only where the cited state provision covers the parties, location, activity and relationship. Federal analysis remains separate.",
-    "requirement": "Enacted 2018SB 2805(chapter 394) preserved franchise notice language and exceptions in 75-24-53. Its official status is Law, effective July 1, 2018. Current 2026 consolidation and any later amendments/cases were not obtained; do not use the historical notice text as automatic permission for a current termination.",
+    "requirement": "Enacted SB 2805, chapter 394, effective July 1, 2018 preserves written 90-day advance franchise cancellation/termination/nonrenewal notice, with the listed criminal misconduct, fraud, abandonment, bankruptcy/insolvency and no-account/insufficient-funds-check exceptions. Definitions and exclusions must be established. The identified historical Crosthwait (1993) and Hamilton (adopted 2020) decisions have now been read, but the current official consolidated code and all later amendments have not been obtained; the text is not automatic permission for a present termination.",
     "exceptions": "Applicability and any exclusion must be established from the actual relationship and relevant facts.",
     "trigger": "Researching a Mississippi relationship termination or nonrenewal",
     "deadline": null,
@@ -1219,17 +1223,23 @@
     ],
     "sourceIds": [
       "b2-east-ms-2018",
-      "b2-east-ms-status"
+      "b2-east-ms-status",
+      "nr-ms-crosthwait",
+      "nr-ms-hamilton-recommendation",
+      "nr-ms-hamilton-order"
     ],
-    "status": "unresolved",
-    "legalStatus": "historical",
-    "verifiedAt": null,
-    "nextReview": "2026-12-12",
+    "status": "conditional",
+    "legalStatus": "Historical enacted text and cases reviewed; current codification not certified",
+    "verifiedAt": "2026-11-14T02:07:01.534581+00:00",
+    "nextReview": "2026-12-14",
     "conflicts": [],
     "interpretationLimits": [
-      "Current official consolidated code/source reconciliation remains blocked; later primary case-law review is still needed."
+      "Current official consolidation remains unresolved through the public publisher route.",
+      "New primary cases establish only their dated holdings and procedural limits; no universal broker immunity or present sector classification."
     ],
-    "dependentPaths": [],
+    "dependentPaths": [
+      "/states/mississippi/"
+    ],
     "reviewerStatus": "AI-assisted source review; no professional legal review"
   },
   {

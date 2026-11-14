@@ -16,7 +16,13 @@ test('all generated public local links and fragments resolve; unpublished guides
  const paths=(await readFile(resolve(dist,'sitemap.xml'),'utf8')).match(/<loc>[^<]+<\/loc>/g)??[];
  assert.ok(paths.length>100);assert.ok(paths.every(p=>!p.includes('/plan/')));
  assert.ok((await readFile(resolve(dist,'plan/index.html'),'utf8')).includes('noindex,nofollow'));
- assert.equal(await stat(resolve(dist,'states/california/index.html')).catch(()=>null),null);
+ const guides=(await Promise.all((await readdir('src/data')).filter(file=>file.endsWith('guides.json')).map(async file=>JSON.parse(await readFile(resolve('src/data',file),'utf8'))))).flat();
+ for(const guide of guides){
+  if(guide.mergedInto)continue;
+  const generated=await stat(resolve(dist,'.'+guide.path,'index.html')).catch(()=>null);
+  if(guide.status==='published')assert.ok(generated?.isFile(),guide.path+' must be generated');
+  else assert.equal(generated,null,guide.path+' must remain unpublished');
+ }
 });
 test('guides are readable without JavaScript and carry sources and canonical metadata',async()=>{
  for(const path of ['states/texas','fdd/item-15','us-expansion/minimum-payment-exemption','cases/cleaning-manager-royalty']){

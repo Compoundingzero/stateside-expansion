@@ -18,7 +18,7 @@ try{
  const {body:sitemap}=await get('/sitemap.xml');
  const urls=[...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>new URL(m[1].replaceAll('&amp;','&')));
  if(urls.length<100||urls.some(u=>u.origin!==origin.origin||/^\/(owner|api|plan)(\/|$)/.test(u.pathname)))throw Error('Invalid sitemap URL set');
- const sample=[...new Set(['/',...urls.filter(u=>!['/','/guides/','/tools/','/coverage/','/methodology/','/privacy/','/sources/','/interest/','/contact/'].includes(u.pathname)&&!u.pathname.startsWith('/tools/')).filter((_,i,a)=>i===0||i===Math.floor(a.length/2)||i===a.length-1).map(u=>u.pathname)])];
+ const sample=[...new Set(['/','/learn/',...urls.filter(u=>!['/','/guides/','/tools/','/coverage/','/methodology/','/privacy/','/sources/','/interest/','/contact/'].includes(u.pathname)&&!u.pathname.startsWith('/tools/')).filter((_,i,a)=>i===0||i===Math.floor(a.length/2)||i===a.length-1).map(u=>u.pathname)])];
  for(const path of sample){
   const {body,response}=await get(path);
   if(/<meta\s[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(body)||/noindex/i.test(response.headers.get('x-robots-tag')||''))throw Error(`${path}: public page has noindex`);

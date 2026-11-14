@@ -1,0 +1,186 @@
+{
+  "scope": "Findings-only Ukraine primary-source recovery assist. No canonical guide/rule/source changes.",
+  "completedAtUTC": "2026-11-14T02:14:29.634757+00:00",
+  "currentConsolidatedStatus": "not-recovered-in-full",
+  "publicationConclusion": {
+    "currentNumericBranchPermissionVerified": false,
+    "currentPaymentOrOutwardEquityClearanceVerified": false,
+    "reason": "A dated official operative baseline and a dated NBU explanation were actually read. Current Rada metadata identifies the 17 September 2026 edition, but no full current consolidated body or complete 2026 amendment chain was recovered. Do not present older numeric limits as current payment permission.",
+    "usefulNarrowQuestion": "Does money for a separately incorporated U.S. company automatically qualify as maintenance of my Ukrainian company’s own overseas branch?",
+    "evidenceBoundAnswer": "The older NBU point 14(30) expressly concerns the company’s own foreign branches, representative offices and other separate units without creating a separate legal entity, exclusively for their maintenance. The NBU’s 26 August 2026 explanation separately says there is no general resident outward-investment permission and distinguishes branch maintenance and current foreign trade operations. This supports a dated distinction and a question for the servicing bank; it does not prove November 2026 payment eligibility.",
+    "recommendedPracticalOutput": "Before committing to a payment, identify the sender and recipient legal entities, branch-versus-subsidiary structure, exact payment purpose, contract/invoice/budget, currency source and transaction date. Ask the servicing bank to identify the current operative exception and conditions. Do not relabel equity as services or branch maintenance."
+  },
+  "sourcesActuallyRead": [
+    {
+      "url": "https://bank.gov.ua/admin_uploads/law/Resolution_24022022_18_kp.pdf?v=16",
+      "authority": "National Bank of Ukraine",
+      "kind": "official Ukrainian control-copy PDF, cached full reader",
+      "versionShown": "Amendment history ends 13 January 2026, No. 2; this is not the current 17 September 2026 consolidation.",
+      "readerTotalLines": 4599,
+      "readScope": [
+        "History and version",
+        "Point 14 opening prohibition, lines 1619–1628",
+        "Point 14(2) import-payment context, lines 1651 onward",
+        "Complete point 14(30), lines 2476–2513",
+        "Complete point 14(53), IP protection fee branch, lines 3130–3135",
+        "Point 14(57), exception linked to incoming equity, lines 3168–3204"
+      ],
+      "receipt": {
+        "path": "research/raw/next-release/ukraine-assist/uk-baseline-clauses5.json",
+        "sha256": "7544dd8a6562ad533a141ca70ec5e6ccbfb22b0ed7b062a0cca7300c7e558586",
+        "bytes": 38800,
+        "hashScope": "retained tool-result JSON; not original PDF bytes",
+        "retrievedAtUTC": "2026-11-14T02:12:35.069Z"
+      },
+      "olderBranchConditionsAITranslated": [
+        "The resident legal entity has operated for at least 12 months since state registration before the transaction.",
+        "Transfers go to its own foreign branches, representative offices or other separate units without creating another legal entity.",
+        "The annual base is €1 million equivalent at the official NBU exchange rate on the transaction date, plus documented 2021 maintenance transfers for eligible units open as of 24 February 2022.",
+        "In one calendar month, transfers may not exceed one quarter of the combined annual amount under the preceding two paragraphs.",
+        "The company must use its own foreign currency, neither purchased nor raised through credit or a loan.",
+        "It must use one chosen servicing bank; changing bank follows a written procedure cross-referenced in the provision.",
+        "The exclusive purpose is maintenance of its foreign units, evidenced by an expense budget."
+      ],
+      "paymentScopeCaution": "These older conditions are cumulative. The €1 million base is not an arbitrary subsidiary-investment allowance. These numeric conditions have not been verified as current.",
+      "IPScopeCaution": "Older point 14(53) concerns IP protection fees and duties, services of foreign patent offices, and foreign patent attorney services. It does not by itself establish permission for royalties or acquiring IP abroad.",
+      "incomingInvestmentScopeCaution": "Older point 14(57) links a limit to qualifying foreign investment INTO the Ukrainian resident’s capital, with named uses and documents. It is not a general permission to invest abroad.",
+      "translation": "Ukrainian original; English findings are an AI-assisted translation. Extraction shows some PDF column/table artefacts; the relevant point 14(30) wording is fully readable."
+    },
+    {
+      "url": "https://t.me/nbu_ua/4112",
+      "retrievalUrl": "https://t.me/s/nbu_ua?after=4109",
+      "authority": "NBU verified Telegram channel, self-described as official. The NBU’s 2021 annual report independently identifies t.me/nbu_ua as its communications channel.",
+      "kind": "Dated agency explanation; not operative legal text",
+      "postPublishedAtUTC": "2026-08-26T11:26:28+00:00",
+      "retrieval": {
+        "url": "https://t.me/s/nbu_ua?after=4109",
+        "fetchedAtUTC": "2026-11-14T02:10:20.515711+00:00",
+        "status": 200,
+        "sha256": "c6fdf650151d5f37515423d7822f93b36623087d4a73021a21249729294dfb6a",
+        "bytes": 172063
+      },
+      "rawPath": "research/raw/next-release/ukraine-assist/nbu-telegram-after4109.html",
+      "readScope": "The entire post between data-post=nbu_ua/4112 and the following message; its own time element was verified, separately from neighboring dates. Full reader: 345 lines; relevant post: lines 59–83.",
+      "receipt": {
+        "path": "research/raw/next-release/ukraine-assist/uk-telegram-find3.json",
+        "sha256": "77685151606b8075bceba1280764d691e1eb9a8616338e6732b12d6aadb53fb3",
+        "bytes": 39710,
+        "hashScope": "Retained tool-result JSON of the cached HTML reader; original downloaded HTML has a separate raw-byte SHA256 in retrieval.",
+        "retrievedAtUTC": "2026-11-14T02:09:41.797Z"
+      },
+      "AITranslatedFindings": [
+        "The explanation says Resolution 18 permits only what is expressly allowed during wartime, with different limits, dates and conditions.",
+        "As of this post, there was no general permission for residents freely to invest abroad.",
+        "The post distinguishes maintenance transfers for foreign representative offices, current foreign-economic operations, and export-contract penalties from general outward investment.",
+        "Exceptional government-initiated decisions serving state interests are individual mechanisms, not general currency liberalisation."
+      ],
+      "currentnessCaution": "The post is dated 26 August 2026, after Resolution 90 but before Resolution 105. It does not reconcile the latest consolidated law and must remain explicitly dated. It does not establish that all service or IP payments are unrestricted.",
+      "translation": "Ukrainian original; English findings are AI-assisted translation.",
+      "authorityCorroborationUrl": "https://bank.gov.ua/admin_uploads/article/annual_report_2021_eng.pdf?v=16",
+      "authorityCorroborationScope": "Official annual-report search extraction names the channel; not an operative currency-law source."
+    }
+  ],
+  "currentVersionMetadata": {
+    "url": "https://zakon.rada.gov.ua/laws/show/v0018500-22",
+    "statusShown": "чинний / in force",
+    "editionShown": "2026-09-17",
+    "basisShown": "v0105500-26",
+    "verification": "official search metadata/extracted text only; reader-open failed",
+    "receipt": {
+      "path": "research/raw/next-release/ukraine-assist/uk-search8.json",
+      "sha256": "7d916825d08166b54f3d372158cce436d6be58f67671ea0c30178b04ac0eefb0",
+      "bytes": 42152,
+      "hashScope": "retained tool-result JSON; not original PDF bytes",
+      "retrievedAtUTC": "2026-11-14T02:05:27.255Z"
+    },
+    "importantWarning": "Search extracts are not contiguous. For example, the current point 14(30) extract omitted monthly cap, own-currency and one-bank paragraphs present in the older full PDF. Never infer repeal from omission."
+  },
+  "amendmentChain": [
+    {
+      "number": 35,
+      "adoptedAt": "2026-04-02",
+      "officialRadaUrl": "https://zakon.rada.gov.ua/laws/show/v0035500-26",
+      "verification": "official metadata/partial search extraction only; full body not recovered",
+      "scopeRead": "No complete operative-patch reading. Do not infer no effect on points 14(30), 14(2), 14(53), 14(57) or the general prohibition.",
+      "fullReaderResult": "TimeoutError or inaccessible. Conventional NBU attachment requests returned 403 or were unavailable.",
+      "countsAsCompletedCurrentChain": false
+    },
+    {
+      "number": 43,
+      "adoptedAt": "2026-04-23",
+      "officialRadaUrl": "https://zakon.rada.gov.ua/laws/show/v0043500-26",
+      "verification": "official metadata/partial search extraction only; full body not recovered",
+      "scopeRead": "No complete operative-patch reading. Do not infer no effect on points 14(30), 14(2), 14(53), 14(57) or the general prohibition.",
+      "fullReaderResult": "TimeoutError or inaccessible. Conventional NBU attachment requests returned 403 or were unavailable.",
+      "countsAsCompletedCurrentChain": false
+    },
+    {
+      "number": 68,
+      "adoptedAt": "2026-06-18",
+      "officialRadaUrl": "https://zakon.rada.gov.ua/laws/show/v0068500-26",
+      "verification": "official search-extracted full-looking body, reader failed",
+      "scopeRead": "Complete-looking search-extracted text: the sole operative amendment adds another body authorised by the Cabinet to point 14(45). Commencement paragraph 2 and the signature are present. This cannot complete the remaining amendment chain.",
+      "fullReaderResult": "TimeoutError or inaccessible. Conventional NBU attachment requests returned 403 or were unavailable.",
+      "countsAsCompletedCurrentChain": false,
+      "receipt": {
+        "path": "research/raw/next-release/ukraine-assist/uk-chain-search6.json",
+        "sha256": "5ed8e6fc6f27b5c190d0f5b16678140d2a5d854ae38e5d6890c34661e93a3983",
+        "retrievedAtUTC": "2026-11-14T02:08:37.828Z",
+        "hashScope": "Retained search-tool result JSON, not a successful direct source-body fetch."
+      }
+    },
+    {
+      "number": 79,
+      "adoptedAt": "2026-07-13",
+      "officialRadaUrl": "https://zakon.rada.gov.ua/laws/show/v0079500-26",
+      "verification": "official metadata/partial search extraction only; full body not recovered",
+      "scopeRead": "No complete operative-patch reading. Do not infer no effect on points 14(30), 14(2), 14(53), 14(57) or the general prohibition.",
+      "fullReaderResult": "TimeoutError or inaccessible. Conventional NBU attachment requests returned 403 or were unavailable.",
+      "countsAsCompletedCurrentChain": false
+    },
+    {
+      "number": 90,
+      "adoptedAt": "2026-08-10",
+      "officialRadaUrl": "https://zakon.rada.gov.ua/laws/show/v0090500-26",
+      "verification": "official metadata/partial search extraction only; full body not recovered",
+      "scopeRead": "No complete operative-patch reading. Do not infer no effect on points 14(30), 14(2), 14(53), 14(57) or the general prohibition.",
+      "fullReaderResult": "TimeoutError or inaccessible. Conventional NBU attachment requests returned 403 or were unavailable.",
+      "countsAsCompletedCurrentChain": false
+    },
+    {
+      "number": 105,
+      "adoptedAt": "2026-09-15",
+      "officialRadaUrl": "https://zakon.rada.gov.ua/laws/show/v0105500-26",
+      "verification": "official metadata/partial search extraction only; full body not recovered",
+      "scopeRead": "No complete operative-patch reading. Do not infer no effect on points 14(30), 14(2), 14(53), 14(57) or the general prohibition.",
+      "fullReaderResult": "TimeoutError or inaccessible. Conventional NBU attachment requests returned 403 or were unavailable.",
+      "countsAsCompletedCurrentChain": false
+    }
+  ],
+  "blockedAttempts": {
+    "directNBU": "403 JSON body, 55 bytes, says “Please contact site owner”. Attempts include official legislation pages, the older control PDF, the observed Resolution 90 page, and conventional amendment-attachment paths. Guessed attachment paths are attempts, not verified attachment URLs.",
+    "directRadaAndDataRada": "503 body, 91 bytes, or web-reader TimeoutError. Attempts include show, print, txt, go, language, version and public-data routes.",
+    "freshSearchThenOpen": "Fresh official result references opened in the same execution still failed for the 2026 amendments. The cached older NBU control PDF succeeded; the full latest text did not.",
+    "representativeRawPaths": [
+      "research/raw/next-release/ukraine-assist/official-alternates-0.json",
+      "research/raw/next-release/ukraine-assist/official-alternates-3.json",
+      "research/raw/next-release/ukraine-assist/official-alternates-4.json",
+      "research/raw/next-release/ukraine-assist/uk-chain-open6.json",
+      "research/raw/next-release/ukraine-assist/uk-chain-print.json",
+      "research/raw/next-release/ukraine-assist/uk-chain-direct1.json"
+    ],
+    "ordinarySourceAccessOnly": true
+  },
+  "secondaryLeadsNotPrimaryVerification": [
+    "https://iplex.com.ua/doc.php?code=v0018500-22&from=360",
+    "https://zakononline.ua/documents/show/504155___806116",
+    "https://news.dtkt.ua/state/zed/112851-nacionalnii-bank-pomiaksuje-valiutni-obmezennia",
+    "https://bank.gov.ua/ua/news/all/natsionalniy-bank-pomyakshuye-obmejennya-u-zvyazku-zi-zminami-v-yes"
+  ],
+  "residualWork": [
+    "Recover the latest consolidated official body or all six operative 2026 amendments. Verify current branch funding, imported services, royalties, IP acquisition and outward equity against the actual text.",
+    "Read cross-referenced Regulation 5 conditions needed for a specific payment. Do not claim that a document packet guarantees bank approval.",
+    "If a guide uses the dated NBU explanation, state its date and leave current payment clearance unresolved. Omit unverified current numeric allowances."
+  ],
+  "changedCanonicalFiles": false
+}

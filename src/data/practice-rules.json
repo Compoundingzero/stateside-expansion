@@ -184,5 +184,42 @@
       "/us-expansion/partner-due-diligence-evidence/"
     ],
     "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "nr-octoclean-order",
+    "title": "OctoClean order: registration and timely disclosure were separate failures",
+    "topic": "sales-disclosure",
+    "jurisdiction": "California",
+    "activity": "OctoClean order: registration and timely disclosure were separate failures",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "The September 2023 historical consent order records Commissioner findings of twelve nonexempt, unregistered franchise sales and missing 14-day FDD delivery. It orders desist-and-refrain relief, $35,000 penalties within 10 calendar days of its defined Effective Date, a cancellation/refund offer within one week, and 30 calendar days from notice receipt to elect cancellation. Read paragraph 4 and Exhibit B together; this does not prove payment, refunds or current compliance. Paragraph 22 ties final effect to all-party signatures and email delivery, not merely the document date. Paragraph 4’s operative body says “all franchise fees paid”; its heading and Exhibit B say initial franchise fees. Both wordings are preserved without resolving an individual amount.",
+    "exceptions": "The exact conditions and limits in the requirement apply.",
+    "trigger": "The named decision or transaction",
+    "deadline": "Historical order: 10 calendar days/one week from defined Effective Date; election 30 calendar days from notice receipt.",
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "pr-octoclean-order",
+      "nr-octoclean-enforcement-summary"
+    ],
+    "status": "verified",
+    "legalStatus": "Historical consent-order obligations; not present-compliance findings",
+    "verifiedAt": "2026-11-14T01:43:05.875248+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No completed payment, refund, current registration or present violation is established.",
+      "The reader reproduces signature lines but does not independently establish the paragraph22 email-delivery date.",
+      "No generic no-admission clause is asserted: paragraph17 instead specifies admission for named future applications/enforcement proceedings."
+    ],
+    "dependentPaths": [
+      "/cases/octoclean-order-review/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
   }
 ]

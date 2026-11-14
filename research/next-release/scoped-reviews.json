@@ -1,0 +1,182 @@
+[
+  {
+    "id": "b3-planning-cross-border-data",
+    "path": "/us-expansion/cross-border-data/",
+    "reviewedHash": "5c2e83661a41e7664b0ee219392aa9c183204666cfce88bfe709c7d1bb495118",
+    "decisionFingerprint": "34a88ce380b0a5da05e352186a68b5e68682ab9ce1e2adb3632de889c1957080",
+    "decision": "approved",
+    "notes": "Read the retained actual six-page CISA body, including covered-system definition, all organisational/system controls and sufficient combined data-level safeguards. The 45-calendar-day vulnerability period, qualified 15-character fallback, at-least-12-month logs and encryption-key restrictions match. Public examples are expressly incomplete; prohibited transactions and actual implementation are kept separate.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.196Z"
+  },
+  {
+    "id": "b3-planning-houston-occupancy",
+    "path": "/cities/houston/",
+    "reviewedHash": "493cec881e83082fff5a70e03ba4381d011d75b1d0e55a6157b86f4127f521ce",
+    "decisionFingerprint": "11e0be93bec5b66837c9a024e0bb4999ca062cb35c30ca4b5dcb1bc87e9869c7",
+    "decision": "approved",
+    "notes": "Read both retained brochure bodies and the final canonical replacement. CE-1278’s October 2024 existing-building route supports CE1045A/B submission, inspections, corrections/permits and automatic emailed CO. The 180-day correction period is correctly separated from permission to occupy; changed use and numerical fees remain outside the verified route. Unnecessary older-process chronology was removed without losing the actual current-brochure steps.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.197Z"
+  },
+  {
+    "id": "b3-local-indianapolis-fire",
+    "path": "/cities/indianapolis/fire-extinguisher-licenses/",
+    "reviewedHash": "9a70644c2f9c9cb1c520e75ed16001f0ecc9d2c355e502d811f9e9f6c3f1c6f0",
+    "decisionFingerprint": "fa2b139b4c5af3fb2279cb4e87a72f81519d1aee5436523341b70fe0c2b820ff",
+    "decision": "approved",
+    "notes": "Decoded the actual XLSX Licenses sheet: E22 identifies the fire-prevention/service-person category and F22 is 207; the current CMS body expressly says business-license fees stayed unchanged. Separate company/person forms and the personal certification stamp remain distinct from issued permission. The construction certificate’s 14-day AND-before-occupancy conditions and jurisdiction exceptions remain; licence duration/current ordinance coverage are still open.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.198Z"
+  },
+  {
+    "id": "geo-guide-dallas",
+    "path": "/cities/dallas/tenant-certificate-of-occupancy/",
+    "reviewedHash": "efb6a32c6d41b84d0e8a37315665f0bc1c72be810c25be727916fbad01abac69",
+    "decisionFingerprint": "fe372747cab076c74859c05a899ac601cfeddc9c82ac34e102b5ff2a2dfd499e",
+    "decision": "approved",
+    "notes": "Read the actual full Dallas page and final name-change explanation. The specific FAQ supports the standalone DallasNow request, clear DBA description, staff document review and new CO after approval. The older $30 record-change paragraph remains unreconciled; no automatic fee or inspection waiver is inferred. A legal tenant change is expressly separated from a trading-name change.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.199Z"
+  },
+  {
+    "id": "geo-compare-texas-occupancy",
+    "path": "/comparisons/dallas-san-antonio-occupancy/",
+    "reviewedHash": "7a086a79b933fb2302b33ddfd75996ecda122d4ac80049caec64712d731fbb93",
+    "decisionFingerprint": "92cc961cd3f759994fcb87b9fa0802de3f4f335778a1a4cf2a6890f2b86a023e",
+    "decision": "approved",
+    "notes": "Compared the full Dallas body with the actual two-page San Antonio DBA form marked Rev 9/26. San Antonio’s listed repair/maintenance and other uses require fire review/inspection and its COO-No Construction fee category; Dallas supplies a name-only application route with unresolved older price wording. The comparison asserts no city-wide cost, timing or inspection advantage and retains actual operator/use/site dependence.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.200Z"
+  },
+  {
+    "id": "b2-east-guide-massachusetts",
+    "path": "/states/massachusetts/",
+    "reviewedHash": "bd3dddb9a2a4ac94bb69b23a481dc8709642ebc4edd0539755e40df426eb87c7",
+    "decisionFingerprint": "d593bbd3017304f7d523bbe0be878015558ad8582b382ccb39f3e8e88f709160",
+    "decision": "approved",
+    "notes": "Read the actual court-authored Patel opinion copy, including the services threshold at pages 9–10, franchise/customer analysis, fee/payment reasoning and footnote 7’s corporate-form reservation. The public OR between interest and direction, usually-but-not-always remuneration, five-store factual result and all three cumulative ABC conditions are preserved. The mirror/slip-opinion and incomplete later-history limits remain explicit; technicians receive no automatic classification.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.202Z"
+  },
+  {
+    "id": "b3-origin3-guide-iceland",
+    "path": "/from/iceland/",
+    "reviewedHash": "7fd47eaa4e2fce3f2c5bf4ad3d24e82fe1061697b9f2acf4dbc5d7f56d97c353",
+    "decisionFingerprint": "6faa60eabd522070f4733505d1e29fd226d2573a10e825aa6ac7b7a869cd2d69",
+    "decision": "approved",
+    "notes": "Read the enacted 2024 Article 1 amendment and relevant official bill explanation. They support the broader foreign-business recipient route and replacement of the former statutory list, with named Icelandic-service exceptions. The older regulation’s separate hypothetical-credit/certificate limb is not silently imported into every invoice or declared repealed. The two-year certificate/extension treatment stays conditional and the remaining statutory/regulatory interaction is accurately labelled unresolved.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.204Z"
+  },
+  {
+    "id": "b3-planning-worker-classification",
+    "path": "/us-expansion/worker-classification/",
+    "reviewedHash": "55d21b34881a7cd329e0c3b043cce192a6ffb675b39c66ee9819fdc852ccaaf6",
+    "decisionFingerprint": "e17b4610ab6f3d3aa4ecc5955c21c62fb1ad701e2dda0c68658a2baa2d2dcf1f",
+    "decision": "approved",
+    "notes": "Read current Part 795, the actual single-result proposal API record and downloaded Sixth Circuit report. The raw report is dated November 13, 2026 and its legend/25-5335 row establish Littman’s abeyance status. The guide treats that as a pause rather than a merits ruling; current codification, enforcement policy, opinion-letter facts and the replacement proposal remain distinct. Other challenges and actual worker facts are not represented as settled.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.206Z"
+  },
+  {
+    "id": "b3-planning-joint-employer",
+    "path": "/us-expansion/joint-employer/",
+    "reviewedHash": "04fe799422d5f973d36cfc02dbdf2945fbeaa4e4deab8acf1db4c6d758c9c430",
+    "decisionFingerprint": "0ae61d0d012d6783304f58ee89e10c8e00f9ef1b347145b8cf94a1ede3f6bcbd",
+    "decision": "approved",
+    "notes": "Read current 103.40, reserved Part 791, the actual proposal record and the opening/temporal limitation in the February 23, 2026 Board remand decision. Substantial direct/immediate control and the qualified supplemental role of indirect/reserved authority are retained. Browning-Ferris is accurately limited to that remanded case and excludes later cases under the 2020 rule; no universal FLSA or franchise exemption is invented.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.210Z"
+  },
+  {
+    "id": "b3-planning-employment-verification",
+    "path": "/us-expansion/employment-verification/",
+    "reviewedHash": "9eee215cdd1b53cfcb359090e7e0c4384cce73af115c9b8f1b36e66f674ad12e",
+    "decisionFingerprint": "a077594b75d414ef386d7b37424580c4ecc0f6940432d87aab2085613eed1133",
+    "decision": "approved",
+    "notes": "Read the actual dated USCIS-authored instruction copy and official September 22 E-Verify bulletin. Employee/employer timing, the short-job exception, employee document choice, representative responsibility and later-of-two retention calculation remain sound. The central latest-edition hold stays visible. ICA version 32’s March 31, 2027 integration/testing deadline is correctly assigned to web-services developers rather than every employer’s enrolment.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.212Z"
+  },
+  {
+    "id": "b3-o4-north-macedonia",
+    "path": "/from/north-macedonia/",
+    "reviewedHash": "b03549c75c5e34922aebd45a01bda83cf28677ed7b0189ca58198c61a4444689",
+    "decisionFingerprint": "f5cd24626c91fb635bd6ae087e3899caba7d396c82620e1dd539d09fe98f7a50",
+    "decision": "approved",
+    "notes": "Read actual amendment 3599 Articles 1–2: Form DIR under the 2008 outward-investment rule is replaced by the attached new form. The public text does not pretend the unread annex or current filing tabs supplied fields, fees, language or a completed deadline. Partial-transfer reasoning preserves the retained holding without prescribing an invented filing count; registry treatment remains separate from payment permission and NBRM reporting.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.213Z"
+  },
+  {
+    "id": "b3-o4-bosnia",
+    "path": "/from/bosnia-and-herzegovina/",
+    "reviewedHash": "f644ede0450d1512f628cd4791eb41ef242f259d82e32e1f7714927432c11464",
+    "decisionFingerprint": "78067585cfb11ba2c2895ca7adc795fc2c9b2ba9c62ad9f1060caecd80e58546",
+    "decision": "approved",
+    "notes": "Read the actual November 11 adoption announcement, stale 2026-labelled register and publisher access response, and checked the enacted Article 5 settlement/blocked-account wording. The register lists 2025 issues and the PDF response requests login; neither proves nonpublication or supplies operative implementation. Canonical copy correctly keeps the Federation scope, written-agreement/blocked-account qualification and unresolved commencement, with no executable netting permission.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.217Z"
+  },
+  {
+    "id": "b2-origin-vietnam",
+    "path": "/from/vietnam/",
+    "reviewedHash": "fec22aa45761254d3257630dbdf5278c8e77e6de88a3c49b200089f0490a132b",
+    "decisionFingerprint": "dfaed59420a397ff1d9d4703f3364074e36432e2f1b3df67b316f60c1d1500d3",
+    "decision": "approved",
+    "notes": "Visually read actual treaty printed pages 35–36 and the July 17, 2025 draft header/status paragraph, and inspected the retained MFA result pages. Article 29’s later diplomatic notification, following-January withholding/other-tax start and distinct Article 27 effect match. The draft is dated descriptive evidence and database/IRS absence remains corroborative only; no current non-force conclusion or automatic royalty rate is asserted.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.295Z"
+  },
+  {
+    "id": "b3-planning-workplace-safety",
+    "path": "/us-expansion/workplace-safety/",
+    "reviewedHash": "110190ac84a036ce63aaa8e02b9c714cf8729aa8062082090ad602c4a4ad5306",
+    "decisionFingerprint": "7d77dc535a445522ca1db36cf895d64ddf79bbbb3d11d90d8d55144d1a78b83c",
+    "decision": "approved",
+    "notes": "Checked actual OSH Act section 5 and hazardous-energy scope/exception text. The canonical baseline retains the covered employer’s recognised-serious-hazard and applicable-standard duties; the fictional machine example stays conditional and preserves unplugging plus exclusive plug control. Choosing actual task controls requires the real equipment, employer and worksite/state-plan facts. The decision does not convert an unperformed implementation assessment into a source-law clearance.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.297Z"
+  },
+  {
+    "id": "b3-planning-product-safety",
+    "path": "/us-expansion/product-safety/",
+    "reviewedHash": "6d236d32acf1636f222838874a5ff3160bbad3f6dc9f2de9929ac286cfd52567",
+    "decisionFingerprint": "833ec73b280c82649ea3d886f47e34d4b6887a69a1b221d01898c1ac8988cce9",
+    "decision": "approved",
+    "notes": "Checked actual Part 1110 certifier/record provisions, final-action phase dates and the agency eFiling FAQ. The five-year period starts with certificate creation, responsible certifier duties persist, and product/standards applicability stays conditional. The July 8, 2026 and specified FTZ January 8, 2027 phases are distinguished from the time-sensitive no-entry-denial policy. The certificate does not settle the separate immediate safety-reporting assessment or the fictional complaint’s reportability.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.300Z"
+  },
+  {
+    "id": "foreign-financials",
+    "path": "/us-expansion/foreign-financial-statements/",
+    "reviewedHash": "7dd39cbe6ce3f8d47efbb929c9fbcae6e9f1cf2c607c389651d02a47cb6983c7",
+    "decisionFingerprint": "e92ac17cf02e4b4466632296c2c45bc0d525bdc6a93f8266cf57ddd31826046d",
+    "decision": "approved",
+    "notes": "Checked actual Item 21(u), SEC 210.4-01 and staff 6310/6320 passages against the canonical guide. Preparation and audit standards, IASB-issued IFRS versus local standards, actual entity/parent/subfranchisor obligations and conditional startup phase-in remain separate. General SEC foreign-private-issuer treatment is not offered as approval of this group’s FDD accounts, and state assurance remains independent. A small optional GAAP abbreviation expansion does not affect the substantive approval.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.305Z"
+  },
+  {
+    "id": "b2-origin-philippines",
+    "path": "/from/philippines/",
+    "reviewedHash": "3bb552fdf6ddbc178d81a3173a1fedd3ab0cf4866403c15efa5340376842723c",
+    "decisionFingerprint": "bb941c41d37551789efdd5b20960a28599b6e0ae2193bc090e95792f16cfae9c",
+    "decision": "approved",
+    "notes": "Read actual March 2026 FAQ questions 33–35. Nonresident issuer/category conditions, bank-purchased currency and Annex A/Appendix 1.4 evidence in the resident investor’s name match the narrow public route. The oddly phrased USD60-million notice interval is explicitly unresolved and is not published as a verified clock; the May 2025 manual is not relabelled an exhaustive later-circular review. Actual instrument, currency source, amount and bank facts remain necessary.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.316Z"
+  },
+  {
+    "id": "b2-origin-thailand",
+    "path": "/from/thailand/",
+    "reviewedHash": "2af0eddb84ee1430e88f929eddf0bddf5c30db6f1b78f33830375745a69623b8",
+    "decisionFingerprint": "41bfc9473697ed5984df6511906b7d6720d335df2909c6bcf6f1fd1a6833ac7c",
+    "decision": "approved",
+    "notes": "Read actual Thai summary section 2.1 and its footnote against the canonical text. The inclusive USD10-million threshold, immediate-return obligation capped at 360 days from export/transaction, separate 360-day acquisition/bringing-in clock and conditional overseas-use exclusions match. The decision accurately retains the unread January Gazette bodies and older English threshold conflict. Neither garbled extraction nor screenshot placeholders are represented as substantive or visual legal verification.",
+    "reviewer": "/root/state_research",
+    "reviewedAt": "2026-11-14T02:18:22.326Z"
+  }
+]

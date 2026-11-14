@@ -127,3 +127,29 @@ test('successful explicit released-origin verification advances exactly the hash
  const ledger=await f.read('research/smb-edit/workflow.json');
  assert.ok(ledger.articles.every((entry:any)=>entry.state==='live-verified'&&entry.liveVerifiedHash===entry.contentHash&&entry.liveVerifiedOrigin==='https://example.invalid'&&entry.liveVerifiedAt===result.completedAt));
 }));
+
+test('a selected workflow supports fixed inventories below or above 278 without weakening identity/hash/count guards',async()=>{
+ for(const count of [3,281])await fixture(async f=>{
+  const selected='research/next-release';await mkdir(join(f.directory,selected),{recursive:true});
+  const guides=Array.from({length:count},(_,index)=>guide(index));
+  const workflow={expectedArticleCount:count,articles:guides.map(g=>{const hash=editorialHash(g);return{id:g.id,path:g.path,state:'validated',contentHash:hash,validatedHash:hash,reviewedHash:hash,review:{decision:'approved',reviewedHash:hash,notes:'Read the complete current fixture.',reviewer:'independent-fixture-reviewer'}};})};
+  const fragments=guides.map(g=>({id:g.id,path:g.path,sections:[{semanticId:'old-heading',legacyId:'section-0'}]}));
+  await f.write('src/data/fixture-guides.json',guides);await f.write(selected+'/input.json',guides);await f.write(selected+'/fragments.json',fragments);await f.write(selected+'/workflow.json',workflow);
+  const legacyBefore=await readFile(join(f.directory,'research/smb-edit/workflow.json'),'utf8');
+  const result=await verifyPublishedArticles({cwd:f.directory,workflowDir:selected,origin:'https://example.invalid',advance:true,fetchImpl:mockFetch(guides)});
+  assert.equal(result.allPassed,true,JSON.stringify(result.errors));assert.equal(result.results.length,count);assert.equal(result.expectedArticles,count);assert.equal(result.artifact,'artifacts/next-release-live-verification.json');
+  assert.ok((await f.read(selected+'/workflow.json')).articles.every((entry:any)=>entry.state==='live-verified'));
+  assert.equal(await readFile(join(f.directory,'research/smb-edit/workflow.json'),'utf8'),legacyBefore);
+  assert.equal((await f.read(result.artifact)).results.length,count);
+  let requests=0;
+  for(const broken of ['count','identity','hash']){
+   const ledger=structuredClone(workflow),baseline=structuredClone(guides),oldFragments=structuredClone(fragments);
+   if(broken==='count')oldFragments.pop();
+   if(broken==='identity')baseline[0].path='/wrong-fixed-path/';
+   if(broken==='hash')ledger.articles[0].validatedHash='stale';
+   await f.write(selected+'/input.json',baseline);await f.write(selected+'/fragments.json',oldFragments);await f.write(selected+'/workflow.json',ledger);
+   const failed=await verifyPublishedArticles({cwd:f.directory,workflowDir:selected,origin:'https://example.invalid',advance:true,fetchImpl:async()=>{requests++;throw Error('Must not request');}});
+   assert.equal(failed.allPassed,false,broken);assert.equal(failed.workflowAdvanced,false);assert.equal(requests,0);
+  }
+ });
+});

@@ -295,7 +295,7 @@ export interface SitemapEntry {path:string; lastmod?:string}
 export function publicSitemapEntries(guides: readonly ArticleGuide[], tools: readonly ToolLink[] = []): SitemapEntry[] {
   const publicGuides = guides.filter(guide => (!guide.status || guide.status === 'published') && !/^\/(?:owner|api|plan)(?:\/|$)/.test(guide.path));
   const entries: SitemapEntry[] = [
-    ...['/','/guides/','/tools/','/coverage/','/methodology/','/privacy/','/sources/','/interest/','/contact/'].map(path => ({path})),
+    ...['/','/learn/','/guides/','/tools/','/coverage/','/methodology/','/privacy/','/sources/','/interest/','/contact/'].map(path => ({path})),
     ...tools.map(tool => ({path:'/tools/' + tool.slug + '/'})),
     ...learningHubs.map(hub => ({path:hubPath(hub),lastmod:latestContentModified(guidesForHub(hub, publicGuides))})),
     ...publicGuides.map(guide => ({

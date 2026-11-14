@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import LearningHub from '../components/LearningHub';
+import {published,tools,sourceById,sources as allSources,rules} from '../lib/content';
+import {createLearningCatalog} from '../lib/learning';
+import {versionLearningChallenges} from '../lib/learning-build';
+import {learningChallenges,learningPaths} from '../data/learning-paths';
+const items=createLearningCatalog(published,tools);
+const challenges=await versionLearningChallenges(learningChallenges,published,allSources,rules);
+for(const path of learningPaths)for(const step of path.steps)if(!items.some(item=>item.path===step))throw new Error('Learning path references unavailable content: '+step);
+const sources=[...new Set(learningChallenges.flatMap(challenge=>challenge.sourceIds))].map(id=>{
+ const source=sourceById(id);if(!source)throw new Error('Learning practice references unknown source: '+id);
+ return {id,title:source.title,url:source.url,authority:source.authority,reviewedAt:source.substantiveVerifiedAt??null};
+});
+---
+<Base title="Learn U.S. expansion, one decision at a time" description="Eight optional learning paths, practical examples and a private browser-local reading library for every ELN guide and planning tool." hideAction><div class="container"><LearningHub client:load items={items} sources={sources} challenges={challenges}/></div></Base>

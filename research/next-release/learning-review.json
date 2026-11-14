@@ -1,0 +1,889 @@
+{
+  "formatVersion": 1,
+  "reviewer": "/root/cases_industries",
+  "reviewedAt": "2026-11-14T02:23:44.532842+00:00",
+  "decision": "approved",
+  "challengeCount": 14,
+  "pathCount": 8,
+  "summary": "All fourteen optional fictional practice activities preserve their dependent guide boundaries and teach a scoped decision or calculation. No actual-business approval, legal certification, real case outcome or forecast is rewarded. The coordinated review findings are resolved in the hashed implementation.",
+  "findings": [
+    {
+      "id": "valid-tender-premise",
+      "status": "resolved",
+      "severity": "clarity/condition precision",
+      "finding": "A mere offer of return should not be treated as legally sufficient tender by inference.",
+      "resolution": "The Pennsylvania premise now expressly assumes a legally valid tender of eligible property before asking which clock starts.",
+      "files": [
+        "src/data/learning-paths.ts"
+      ]
+    },
+    {
+      "id": "restore-known-item-identifiers",
+      "status": "resolved",
+      "severity": "defensive privacy/data integrity",
+      "finding": "The earlier session supplied known paths/challenges but omitted the known-item catalogue, unlike its restoration unit test.",
+      "resolution": "A public static GET-only catalogue supplies actual guide/tool keys. Restored initial/cross-tab records are filtered through it. Catalogue failure prevents restore/persistence, preserves the existing disk copy and permits ephemeral practice; no answers or progress are sent in the request.",
+      "files": [
+        "src/lib/learning-session.ts",
+        "src/pages/learn/catalog.json.ts"
+      ]
+    },
+    {
+      "id": "review-only-version-resets",
+      "status": "resolved",
+      "severity": "learning continuity",
+      "finding": "A routine unchanged-content review timestamp previously invalidated solved practice.",
+      "resolution": "Review/fetch timestamps are excluded while substantive source/rule fields, evidence/status and publication/effective dates remain version inputs. Changed exercise, guide and legal/evidence content still invalidate credit.",
+      "files": [
+        "src/lib/learning-build.ts",
+        "tests/learning.test.ts"
+      ]
+    },
+    {
+      "id": "catalogue-production-noindex-header",
+      "status": "resolved",
+      "severity": "production header correctness",
+      "finding": "A prerendered Astro endpoint’s custom header is not automatically carried by the separate production static server.",
+      "resolution": "The exact catalogue route now receives X-Robots-Tag: noindex in server.mjs before response headers are written. The browser suite now asserts the actual served 200/header/catalogue count; its final execution remains with root.",
+      "files": [
+        "server.mjs",
+        "tests/learning.e2e.spec.ts"
+      ]
+    }
+  ],
+  "challengeReviews": [
+    {
+      "id": "licence-label",
+      "decision": "approved",
+      "version": "003e727b64363c51cd9cf9ade70a4db349bc85a0b1b7157b2fcbfd5550b1db89",
+      "guidePaths": [
+        "/us-expansion/franchising-vs-licensing/"
+      ],
+      "sourceIds": [
+        "fed-definition",
+        "fed-exemptions"
+      ],
+      "notes": "The winning answer asks for actual trademark/control-or-assistance/payment facts and then exclusions or exemptions. Neither a contract label nor software alone is treated as classification or state-law clearance."
+    },
+    {
+      "id": "mark-and-guarantee",
+      "decision": "approved",
+      "version": "185816af70fc554e4c15006046d5a5bbeb3748e3a3f4c935366d868f8de63b0e",
+      "guidePaths": [
+        "/states/north-carolina/"
+      ],
+      "sourceIds": [
+        "b2-west-nc-article19"
+      ],
+      "notes": "The winning answer preserves the separate North Carolina refund/guarantee branch, U.S. registered-mark limitation, relevant consideration and responsible-seller conditions. A universal bond or blanket mark exemption is not rewarded."
+    },
+    {
+      "id": "manager-permission",
+      "decision": "approved",
+      "version": "5ac9f18f4cf2a6e3aa3562c6b6fa66d2be9f910ecc9c10d3821eae5d13b6a6c1",
+      "guidePaths": [
+        "/fdd/item-15/"
+      ],
+      "sourceIds": [
+        "fed-fdd-15",
+        "fed-instructions"
+      ],
+      "notes": "Item 15 personal participation, supervisor, training and possible equity conditions are offer-specific. Manager restrictions, enforceability, staffing costs and U.S. work permission stay separate."
+    },
+    {
+      "id": "sales-versus-profit",
+      "decision": "approved",
+      "version": "78ad0bea58712d72c3d32b43b64e036be9ff404fde3cac50739096f521fdca7d",
+      "guidePaths": [
+        "/fdd/item-19/"
+      ],
+      "sourceIds": [
+        "fed-fdd-19"
+      ],
+      "notes": "The answer asks which outlets/period/unit types/costs the figure describes; it does not turn home-market sales into a U.S. earnings forecast or permit unsupported recruitment claims."
+    },
+    {
+      "id": "manager-remainder",
+      "decision": "approved",
+      "version": "6e00f25f001ff2c0320ec81e09a266efad5419f7a087f0cd165bc11fc0f8f93d",
+      "guidePaths": [
+        "/fdd/item-19/",
+        "/tools/us-unit-economics/"
+      ],
+      "sourceIds": [
+        "fed-fdd-19"
+      ],
+      "notes": "Invented $180,000 less complete $120,000 manager cost and $60,000 royalty equals $0. Both costs are expressly additional, and the result is before any other omitted costs. It is neither reported earnings nor a forecast."
+    },
+    {
+      "id": "cash-before-opening",
+      "decision": "approved",
+      "version": "39392fdd47260187887a184aa9093b1951b565e31bc58e07f6a9891108199e81",
+      "guidePaths": [
+        "/states/minnesota/franchise-support-funding/",
+        "/tools/cash-runway/"
+      ],
+      "sourceIds": [
+        "state-mn-assurance"
+      ],
+      "notes": "The month-three fee restriction is an explicit assumed actual condition, not imposed on every Minnesota applicant. The $12,000 is a fictional cost, not a legal fee/capital minimum/reserve. The answer addresses timing of usable cash and avoids counting one cost twice."
+    },
+    {
+      "id": "brand-or-business-licence",
+      "decision": "approved",
+      "version": "c58e7551a68cbbb623aa7e0b5209c789ea55e97fb6d4587d75b4828265ce2bfe",
+      "guidePaths": [
+        "/territories/us-virgin-islands/"
+      ],
+      "sourceIds": [
+        "b2-territories-usvi-licensing"
+      ],
+      "notes": "A private brand agreement does not complete DLCA public activity/site/personnel review. DLCA first-application and conditional fire/health/professional checks, including HVAC questions, remain activity-specific; no actual licence is approved."
+    },
+    {
+      "id": "llc-and-reporting",
+      "decision": "approved",
+      "version": "283cdd879cb21c452b4df30393b8a2d8d2fa535fb1a47726b175aacf0f12a8ac",
+      "guidePaths": [
+        "/us-expansion/entity-tax-election/",
+        "/us-expansion/foreign-owned-us-company-irs-reporting/"
+      ],
+      "sourceIds": [
+        "b3-planning-entity-cfr",
+        "fed-irs-5472"
+      ],
+      "notes": "The answer separates eligible-entity classification from foreign-owner and reportable-transaction analysis. A one-owner domestic LLC and funding do not automatically decide a Form 5472 filing or eliminate all reporting."
+    },
+    {
+      "id": "separate-workweeks",
+      "decision": "approved",
+      "version": "09574fbb740058619620002660ac821546b846877b259acb1a432e0e11084fe5",
+      "guidePaths": [
+        "/us-expansion/federal-wage/"
+      ],
+      "sourceIds": [
+        "b3-planning-flsa-overtime"
+      ],
+      "notes": "Covered, nonexempt and fixed-workweek assumptions are explicit. Fifty hours then thirty produces ten overtime hours under the stated federal over-forty baseline; no averaging or actual pay-rate/exemption/state-law conclusion is rewarded."
+    },
+    {
+      "id": "meetings-and-repairs",
+      "decision": "approved",
+      "version": "e558147208abba760029c45fbff337cf60559aa07c908d9310d4496f12d0ca1c",
+      "guidePaths": [
+        "/us-expansion/business-visits/"
+      ],
+      "sourceIds": [
+        "b3-planning-visitor-visa"
+      ],
+      "notes": "The business-visitor negotiation example does not settle operational repair duties. A separate analysis is rewarded, not a finding that every repair is prohibited or a visa/admission/work-authorised alternative is available."
+    },
+    {
+      "id": "empty-name-search",
+      "decision": "approved",
+      "version": "9aa566a03753ebdb24ed0feae914553e4106126d5b4868095d07b5a7f4961402",
+      "guidePaths": [
+        "/us-expansion/sanctions-screening/"
+      ],
+      "sourceIds": [
+        "b3-planning-csl",
+        "b2-origins-ofac-50",
+        "b3-planning-ofac398"
+      ],
+      "notes": "A missing CSL name result is an aid, not clearance. Relevant aggregate direct/indirect blocked ownership and goods/destination/use remain separate, without below-threshold permission or country-wide blanket-ban inference."
+    },
+    {
+      "id": "exact-mark-search",
+      "decision": "approved",
+      "version": "f604887eff1e1998eb2ba88e6bc2056e258146ed0c28d46b3fd2d0b5f63ab471",
+      "guidePaths": [
+        "/us-expansion/trademark-clearance/"
+      ],
+      "sourceIds": [
+        "b3-planning-uspto-clearance"
+      ],
+      "notes": "An empty exact-name search does not settle confusing similarity, related goods/services or marketplace rights. The actual app offer is included; neither a conflict nor registrability is declared."
+    },
+    {
+      "id": "payment-cure",
+      "decision": "approved",
+      "version": "6745c087e84b8b3756f0ca44bec5571a093343ffd9c628a344c8e9f090f52d32",
+      "guidePaths": [
+        "/states/wisconsin/fair-dealership-change-and-exit/"
+      ],
+      "sourceIds": [
+        "b3-state4-wi-dealership",
+        "b3-state4-wi-jury"
+      ],
+      "notes": "The premise assumes Wisconsin covered-dealership scope and the named nonpayment branch. Ten days to remedy is distinguished from applicable cause/advance notice, with the older official jury-comment scope disclosed and no day-eleven termination approval."
+    },
+    {
+      "id": "tender-and-return",
+      "decision": "approved",
+      "version": "4f0062c777095667c7007cd7a60976fa2e9a9f865f213156a3690f86aa8ae5f7",
+      "guidePaths": [
+        "/states/pennsylvania/"
+      ],
+      "sourceIds": [
+        "b2-west-pa-section316"
+      ],
+      "notes": "The revised premise expressly assumes a legally valid tender. The exercise tests the general sixty-day payment trigger separately from the ninety-day return trigger, while retaining property/category/event eligibility and avoiding any finding that an informal offer is sufficient."
+    }
+  ],
+  "privacyReview": {
+    "decision": "approved",
+    "storage": "Off by default. Opt-in stores only filtered public identifiers, read/tried/bookmark state and solved challenge versions under eln-learning-v1.",
+    "answers": "Practice answers remain in component state; they do not enter persistent progress, export, URLs or the manifest request.",
+    "network": "The only learning data request is the fixed public catalogue GET with credentials omitted and no progress/answer payload. No progress POST, beacon or analytics path is present in the reviewed learning implementation.",
+    "reset": "Explicit learning reset removes its own saved key and does not reset the separate expansion plan.",
+    "failure": "Catalogue failure does not overwrite or export unverified saved records; corrupt/blocked storage is handled without gating public reading."
+  },
+  "gamificationReview": {
+    "decision": "approved",
+    "points": "Ten XP for self-reported guide reading, fifteen for a tried tool and twenty once per currently solved practice version. Points are derived rather than trusted from storage.",
+    "limits": "Activity labels and milestones explicitly deny certification, legal approval, expertise, proof of disclosure or readiness to launch. All articles/tools remain available; explanations can be read without earning points.",
+    "calculations": "Both number activities have explicit fictional/coverage assumptions. Blank is unknown; zero is a valid value. Repeated answers cannot add repeated credit."
+  },
+  "versionReview": {
+    "decision": "approved",
+    "ignoredFields": [
+      "fetchedAt",
+      "nextReview",
+      "substantiveVerifiedAt",
+      "verifiedAt",
+      "retrievalReviewedAt"
+    ],
+    "retainedMeaning": "Exercise definition, dependent guide content, substantive cited source records, dependent rule records, source passages/hashes/status and legal publication/effective dates.",
+    "staleCredit": "A stored old challenge version contributes no solved count/XP until the current version is answered correctly."
+  },
+  "tests": [
+    {
+      "command": "npx tsx --test tests/learning.test.ts",
+      "executor": "/root/cases_industries",
+      "result": "passed",
+      "passed": 6,
+      "failed": 0,
+      "scope": "Existing targeted unit suite rerun independently after timestamp/catalogue/tender changes."
+    },
+    {
+      "command": "Learning browser suite and strengthened unavailable-catalogue case",
+      "executor": "/root/planning_tools",
+      "result": "author-reported pass; not independently executed by this reviewer",
+      "scope": "Author reports ten browser cases passed, plus strengthened fallback case separately. Root retains final functional browser verification."
+    }
+  ],
+  "guideDependencies": [
+    {
+      "id": "b2-usvi-license",
+      "path": "/territories/us-virgin-islands/",
+      "file": "src/data/batch2-guides.json",
+      "editorialHash": "0c936b5729a4498c8b5e35a02f1d1bddcd36f2cc18884fd9ed2bf8ad7229bc7a",
+      "recordHash": "e5fbd530981a67111887b933b2555f5c76db434fe0401ad9face01a0e82697d7"
+    },
+    {
+      "id": "b3-planning-entity-tax-election",
+      "path": "/us-expansion/entity-tax-election/",
+      "file": "src/data/batch3-guides.json",
+      "editorialHash": "edbdb68d5ff52322a341f232a2a3d491c5236ab67ba11bd082a1a0513543b1ee",
+      "recordHash": "5785b0acfb4c7e843a448a0a1b5c2210e68d295e6314587ed47763abe986d8e0"
+    },
+    {
+      "id": "b3-planning-business-visits",
+      "path": "/us-expansion/business-visits/",
+      "file": "src/data/batch3-guides.json",
+      "editorialHash": "739f0ae261a080494da08817f9e77edccf8d6f86b90661cdc1b254ea37b799e1",
+      "recordHash": "6beea623cb773482201ab8307ecda7f7e3d176d61c6d624fbb4d6703e3e4bf2d"
+    },
+    {
+      "id": "b3-planning-federal-wage",
+      "path": "/us-expansion/federal-wage/",
+      "file": "src/data/batch3-guides.json",
+      "editorialHash": "23907af114ca62bdd2bf4331ad09c4f9255102456c6fcea92897c93c5a19ccdc",
+      "recordHash": "4f633363531f82d72e75af63758819760bf3bce66245ec398b46633523c18c09"
+    },
+    {
+      "id": "b3-planning-trademark-clearance",
+      "path": "/us-expansion/trademark-clearance/",
+      "file": "src/data/batch3-guides.json",
+      "editorialHash": "32d4fe9aa089fc3b4272bb2fa99156839cea1d7db0583ad2bb3caa7ede282411",
+      "recordHash": "08eedd2f5eb35a9f608ef736ff10520d14c9fd8611215af44ccfced4bca98ed7"
+    },
+    {
+      "id": "b3-planning-sanctions-screening",
+      "path": "/us-expansion/sanctions-screening/",
+      "file": "src/data/batch3-guides.json",
+      "editorialHash": "35b5238166279c0e3a4f8dd42b7d3efefff971dbec87f38910fe27e7a2814d33",
+      "recordHash": "953a9aa49b00b721aafb5d99e5a6fe3eddc058f28ededae9c14a8040ee798779"
+    },
+    {
+      "id": "b3-state4-wi-dealership",
+      "path": "/states/wisconsin/fair-dealership-change-and-exit/",
+      "file": "src/data/batch3-guides.json",
+      "editorialHash": "1067d7ab0c715543b4a78ea1e6da29274f45cfdaa1b11ac9d380a241fa6e380d",
+      "recordHash": "a9fe8d1c2c96e3542466fdf2defac291faf0d56ce54f546eea43b478fdd33b4e"
+    },
+    {
+      "id": "fdd-item-15",
+      "path": "/fdd/item-15/",
+      "file": "src/data/fdd-guides.json",
+      "editorialHash": "0aaeec339c0d3ca58a3e3ff14c7ef24934bbf1ec8d3b00f833a0ebc41f4bc713",
+      "recordHash": "80017a2e6ea96e81e415519df8c90722406c27e1bd73c0a52a98dea3b898fcb6"
+    },
+    {
+      "id": "fdd-item-19",
+      "path": "/fdd/item-19/",
+      "file": "src/data/fdd-guides.json",
+      "editorialHash": "0556a07914d0ea46f31f8a59845956c18132399afe83ac124b728e20cba27b15",
+      "recordHash": "f9f151c1b1ed2b3bece293c469e4fe4a7ec178b5b549a6a5ba1b5394400621ad"
+    },
+    {
+      "id": "franchise-v-license",
+      "path": "/us-expansion/franchising-vs-licensing/",
+      "file": "src/data/federal-guides.json",
+      "editorialHash": "6a31161247c9dcccd6c453fec0a9f42964ea102faa95b35fcbbbb0c6c38e798b",
+      "recordHash": "a1af20449fd09fb952adb17215428b06ecf3340aff726d90e3c812afeca79e04"
+    },
+    {
+      "id": "foreign-owned-reporting",
+      "path": "/us-expansion/foreign-owned-us-company-irs-reporting/",
+      "file": "src/data/federal-guides.json",
+      "editorialHash": "b3a6d2067c969a7d04480375bbb7ef56112d65994e9c15f6cd28f45b7216daf2",
+      "recordHash": "a41d35d3a2fe34df33c61343e3a6c37e0e5e928c9dc193e9068e2734dba37424"
+    },
+    {
+      "id": "state-guide-minnesota-support-funding",
+      "path": "/states/minnesota/franchise-support-funding/",
+      "file": "src/data/state-guides.json",
+      "editorialHash": "a862b54bea632369db87bbfea60734fe2003e8565e41a94b85fc2b48fc1cca84",
+      "recordHash": "2a98f370bf8b9719872e9c9af183a4f93dcfd3b3832b451bcacdbf1f6e0f4fad"
+    },
+    {
+      "id": "b2-west-north-carolina",
+      "path": "/states/north-carolina/",
+      "file": "src/data/state-guides.json",
+      "editorialHash": "fa8fc94b1ae95b34956e42f04b8481bb694b18f74042e43314f12cf363ba199c",
+      "recordHash": "46f53450704f0fd722fe2248978d42f273b01b7490bdd2aa23067ff75cffbdd8"
+    },
+    {
+      "id": "b2-west-pennsylvania",
+      "path": "/states/pennsylvania/",
+      "file": "src/data/state-guides.json",
+      "editorialHash": "a5498619366fc1c6ce56856bda9e12d40873c23b1a836993d8cd6b669ea994ba",
+      "recordHash": "cb403ab78a78a35e24dc4f113412f0dbbf7d6da01e7e92073491435408952084"
+    }
+  ],
+  "ruleDependencies": [
+    {
+      "id": "b2-territories-federal-location",
+      "file": "src/data/batch2-territories-rules.json",
+      "recordHash": "f76dd01d5f77a4a21c3aafca659b83174f6d542012d23a5bfe395176d36b5819"
+    },
+    {
+      "id": "b2-territories-customs-location",
+      "file": "src/data/batch2-territories-rules.json",
+      "recordHash": "67c0b5735b3bd14ac21c7dde54c7a65585d6ef608bca752e7a652b1df3240070"
+    },
+    {
+      "id": "b2-territories-usvi-license-sequence",
+      "file": "src/data/batch2-territories-rules.json",
+      "recordHash": "b2ba5ae0bcaaaa6c97db92786226d7c30459dbe2ebc1d8727b986f44c3074621"
+    },
+    {
+      "id": "b2-west-nc-definition",
+      "file": "src/data/batch2-west-rules.json",
+      "recordHash": "a8ebbd3fb7e4a46a7c6812c49a875f768a2df482a4fcf0501e0d4b8c5cba96fe"
+    },
+    {
+      "id": "b2-west-nc-filing",
+      "file": "src/data/batch2-west-rules.json",
+      "recordHash": "288a03ac4dfca2bdf3df3cfadfd6e52c3c3aba531ddaf9098c67be247463edf1"
+    },
+    {
+      "id": "b2-west-nc-disclosure",
+      "file": "src/data/batch2-west-rules.json",
+      "recordHash": "2df5afa74d54ecdfe4cbd70b45bc4b66915f51f2d2c72f7dbeab651a4cd82520"
+    },
+    {
+      "id": "b2-west-pennsylvania-relationship",
+      "file": "src/data/batch2-west-rules.json",
+      "recordHash": "6060143c1d0bed32002e35708e5b9488166eb11778ce1fab4468b4c90a3b0132"
+    },
+    {
+      "id": "b3-planning-sanctions-screening",
+      "file": "src/data/batch3-planning-followup-rules.json",
+      "recordHash": "b4e8e554d6ca8242d5a9340b0444d74381e2bde4c6ef20671b384d8b445fd225"
+    },
+    {
+      "id": "b3-planning-entity-election",
+      "file": "src/data/batch3-planning-rules.json",
+      "recordHash": "d12a303f60a0bbe14b96dcc5a59a820f2ac054be194c75f05ba8da842a2e664f"
+    },
+    {
+      "id": "b3-planning-business-visits",
+      "file": "src/data/batch3-planning-rules.json",
+      "recordHash": "6b569d934cfab4a780e592d290a65579f45383a4593665821f929bcba9b682e8"
+    },
+    {
+      "id": "b3-planning-flsa-baseline",
+      "file": "src/data/batch3-planning-rules.json",
+      "recordHash": "aa22501e1381207609a3089e44f5240aeefb7689ea57af68d41a42f83a1ba575"
+    },
+    {
+      "id": "b3-planning-trademark-clearance",
+      "file": "src/data/batch3-planning-rules.json",
+      "recordHash": "c6ecd01c1963f9fa5326c372d7e189084aa762b192c7f3bb20c90a484af04fcf"
+    },
+    {
+      "id": "b3-state4-wi-dealership",
+      "file": "src/data/batch3-state4-rules.json",
+      "recordHash": "fa4c70ddc46b7c7f1e551623e0d1e4e14d88342fdacda857d8c06517eff06b7a"
+    },
+    {
+      "id": "fed-relationship-definition",
+      "file": "src/data/federal-rules.json",
+      "recordHash": "5d3b18d3afe05520548932cce0d786c6b52c66a401e0688af1652657c86077a3"
+    },
+    {
+      "id": "fed-5472-triage",
+      "file": "src/data/federal-rules.json",
+      "recordHash": "ea665647f335a0a7f3c288c809f728a36dcbcc0fe6203eb4883152ddf2039239"
+    },
+    {
+      "id": "fed-fdd-item-15",
+      "file": "src/data/federal-rules.json",
+      "recordHash": "6b63d821cf868af7f37a7afbf5e6c3379cfe53f9e5dd7935606090eeb3b5cd5e"
+    },
+    {
+      "id": "fed-fdd-item-19",
+      "file": "src/data/federal-rules.json",
+      "recordHash": "896a6e413aaa643f3190cfa5eb881b4505d18cc8c6ccbd599ff38131fa5399a5"
+    },
+    {
+      "id": "mn-assurance",
+      "file": "src/data/state-rules.json",
+      "recordHash": "290cf7c536fa1f4cb520a1db53d6a6ad15b13b0abb980b498f27811b2d13e0c2"
+    }
+  ],
+  "citedSourceRecords": [
+    {
+      "id": "b2-origins-ofac-50",
+      "file": "src/data/batch2-origins-sources.json",
+      "recordHash": "b20674b618c34f614e3e6c6629ba990da19d5aa3b3b38dad8b2d86059883b78b"
+    },
+    {
+      "id": "b2-territories-usvi-licensing",
+      "file": "src/data/batch2-territories-sources.json",
+      "recordHash": "0a65d19e36d8e57e041f5fd3db046b6be679f2b753ed60a4ba0fc641a628e0f3"
+    },
+    {
+      "id": "b2-west-nc-article19",
+      "file": "src/data/batch2-west-sources.json",
+      "recordHash": "20405eb801023ce95ffbf864cf1d3b17406ca4d45016cc88e2a8935f371152f9"
+    },
+    {
+      "id": "b2-west-pa-section316",
+      "file": "src/data/batch2-west-sources.json",
+      "recordHash": "2c1b3214064f7d29f0dfb4ffc19e1c35acffaeadc8757376eca7d75cbfa857e8"
+    },
+    {
+      "id": "b3-planning-ofac398",
+      "file": "src/data/batch3-planning-followup-sources.json",
+      "recordHash": "ae6c0a2b41b601d3a7c8dd3980506a9bb38f06d08dffa7f7815b7ddb9d9652f5"
+    },
+    {
+      "id": "b3-planning-csl",
+      "file": "src/data/batch3-planning-followup-sources.json",
+      "recordHash": "78ba97b8423a61fccf83f0a260c257ec31e1b2d45504869685d4530673c2ba32"
+    },
+    {
+      "id": "b3-planning-entity-cfr",
+      "file": "src/data/batch3-planning-sources.json",
+      "recordHash": "7d193e62737da6428f45910f986be78de8e1e460ef47fa81a83cdf63efe45e27"
+    },
+    {
+      "id": "b3-planning-visitor-visa",
+      "file": "src/data/batch3-planning-sources.json",
+      "recordHash": "8a2f9e46fdae5075d8be3427ab1107704b8fd923fe421ac95214695e078fa251"
+    },
+    {
+      "id": "b3-planning-flsa-overtime",
+      "file": "src/data/batch3-planning-sources.json",
+      "recordHash": "1aa34a36b6a621c1e95c9af4895e7981821ad80901c4a4bc70146f5c7a993ecd"
+    },
+    {
+      "id": "b3-planning-uspto-clearance",
+      "file": "src/data/batch3-planning-sources.json",
+      "recordHash": "9cf215d3fbc5ec6eb9a734dd61c2c1beada14fd6dcf1dbb8bc2b62c71e777c9e"
+    },
+    {
+      "id": "b3-state4-wi-dealership",
+      "file": "src/data/batch3-state4-sources.json",
+      "recordHash": "a30d6afebdb6807fa77f12ee70f7cd7535f2f17943bd9a73d5eb2321eb189bc4"
+    },
+    {
+      "id": "b3-state4-wi-jury",
+      "file": "src/data/batch3-state4-sources.json",
+      "recordHash": "518fd886cbfcb8b120abb18f8bf1c3d005974dbec6c2c60395ee2808798c94d6"
+    },
+    {
+      "id": "fed-definition",
+      "file": "src/data/federal-sources.json",
+      "recordHash": "8f59f89ed203c1940e0cd5c9bbb9f6e67152809a7c4e3422ba923259696bbbb6"
+    },
+    {
+      "id": "fed-instructions",
+      "file": "src/data/federal-sources.json",
+      "recordHash": "bc86ecaaf4b2d530b58067b0fe7815d69b6c2fd63fc7b58c439bcb36a440ed98"
+    },
+    {
+      "id": "fed-exemptions",
+      "file": "src/data/federal-sources.json",
+      "recordHash": "da2b182fdaffddedad522143d3136de4f6129f676c418e7150a87ef6f828f74d"
+    },
+    {
+      "id": "fed-irs-5472",
+      "file": "src/data/federal-sources.json",
+      "recordHash": "5d34a21a61200a9848f0cf035fdff5bebc5c3aa73b62203a0d80e7fa1ff3108d"
+    },
+    {
+      "id": "fed-fdd-15",
+      "file": "src/data/federal-sources.json",
+      "recordHash": "bd501e66763858db1f8bf29ae6a880e51a39066a143db169bbb707a811238cf8"
+    },
+    {
+      "id": "fed-fdd-19",
+      "file": "src/data/federal-sources.json",
+      "recordHash": "9ce79008a226d6ca5833f17236084df1ba2dd7503888cafafaaea58438af48b8"
+    },
+    {
+      "id": "state-mn-assurance",
+      "file": "src/data/state-sources.json",
+      "recordHash": "6688efee6d4ffd57d3fea6b3cedab407b1d39f670c38d4a2f61fe980a2908f54"
+    }
+  ],
+  "reviewedFiles": [
+    {
+      "file": "src/data/learning-paths.ts",
+      "sha256": "e067ef818d85fb7bb0c629436d6c6edabf8c64565021f108258b6b603007282b",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/lib/learning.ts",
+      "sha256": "1f38b40771a51791e838242e197076faf569f3d0a7bcd3ef95600abf97a46e69",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/lib/learning-build.ts",
+      "sha256": "017911a265c6dec4e6a749871a87cd3a5ac3cbab4aaf1e70abda0813b5544471",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/lib/learning-session.ts",
+      "sha256": "0cfe5a65d1b6a0dcdc894a88bc42b24f23587acf3253162bae851a8bf459ceec",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/components/LearningHub.tsx",
+      "sha256": "57a43b574c867b34548618b3dd10ec46ba8d44404618f658059f7fcde9c6f605",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/components/LearningControls.tsx",
+      "sha256": "78f326af186b6dc8ff0f69681e13749e9d5895072751f6ff4196ef03245fd2ba",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/pages/learn.astro",
+      "sha256": "474bd4de2e599eaf03c63e8f3f7c41efdb79737b469cbe2aa44049d8703def8a",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/pages/learn/catalog.json.ts",
+      "sha256": "149311a37e89116e127541ac5b053421a98de81b19d70a957c066340b7b35d41",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/layouts/Base.astro",
+      "sha256": "adbce1c3a1b3df4e4916a18014c84c5a4754954b43f5d336696ac54def4f5a49",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "src/pages/privacy.astro",
+      "sha256": "20046c6bd05423fc79da3247732667e87c98e96544a734a4ee5a0946f9320cfe",
+      "scope": "Learning-progress privacy passages."
+    },
+    {
+      "file": "tests/learning.test.ts",
+      "sha256": "c1ab5201b2264a15c727551c33b6483bc7195e8078d7b9511d06d7d3450b5e86",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "tests/learning.e2e.spec.ts",
+      "sha256": "5d63e5b9d5aa8d9089e8f783abd4d01179f077ba9c9d0a4845e9115d4eb906b7",
+      "scope": "Complete learning-related file read."
+    },
+    {
+      "file": "server.mjs",
+      "sha256": "e9a4c592863482d7952e7afd23514f656437b6572cdf30cbd94a3461369cc69a",
+      "scope": "Learning catalogue static-response GET/HEAD method gate and exact /learn/catalog.json X-Robots-Tag: noindex header; surrounding public-server flow read for context, not a new backend/security audit."
+    },
+    {
+      "file": "src/data/batch2-guides.json",
+      "sha256": "26ce790f015ed3384911749735db6ef39c760cb2ab8006f89cee7ede18f0c2e6",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch2-origins-sources.json",
+      "sha256": "957fe3704300827edf0427811edc5fef9f201e6088cde5f18ccda731418a8eeb",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch2-territories-rules.json",
+      "sha256": "1823dca71153a6db23768bd939a4d5938c87a014a7d9735566a3d96c8c111261",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch2-territories-sources.json",
+      "sha256": "356ab447d3d4aa9634f779d56cdf60c541d32ec01c38f68926714c1dddb79287",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch2-west-rules.json",
+      "sha256": "8ed587b5ba669125e9b88efa56ccf84c9b958b43045d012e7f7dca1e78cb8522",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch2-west-sources.json",
+      "sha256": "bc8abdc611e7314f08c0e39f9c884bca644435e74996cbb481a507acb4d410c8",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-guides.json",
+      "sha256": "a533dc7e561572b9776926012f31592167af8a546b865715cfcd2851df076d99",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-planning-followup-rules.json",
+      "sha256": "451cc9493617b3e1b93d9a783d940fbacf26eb54eacc3d619ee0efe4fd344f61",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-planning-followup-sources.json",
+      "sha256": "f08fb30d10656219094c75f82b4ea0e13b02e411630cc76427c729da5a4ba75d",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-planning-rules.json",
+      "sha256": "b632edf37748ee97ae77c22d952c634f6023855382cee0b6fecf9e15d3215cd9",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-planning-sources.json",
+      "sha256": "c808b05e260adf8773690a1ba9b0989c46b190a74f6f7dd2eacc013bf4b29210",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-state4-rules.json",
+      "sha256": "a0fea0a6eb01655a1c885941dd117608de57145545eabdc9624aa06c6ca549e4",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/batch3-state4-sources.json",
+      "sha256": "dcd661788667bd0276827bd3e4adcdce668aedcce2b38c874781712d0ccc52c7",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/fdd-guides.json",
+      "sha256": "0f2102e9f23f2efa3f57f1a4d54fe7e45cc9ad2fa1e0136617917331d09ae5a1",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/federal-guides.json",
+      "sha256": "10067c23d65a0ed43cf5391c8fa61692df4ea13019e5320a390ecbdd1cd1094e",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/federal-rules.json",
+      "sha256": "a5a2420c262fd8b54ab539cc30d83946da59af8025222f25e130e0ef43a36d16",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/federal-sources.json",
+      "sha256": "daf85d59bd232c332c8432b8965d25d02c34a3744e5658e61ed264f4a28f8c44",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/state-guides.json",
+      "sha256": "204343c5e160dd05f0f37f8a118ab94c89923ac3738d9703932cd198d9164370",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/state-rules.json",
+      "sha256": "751432ca1c643feacdae1bf722447c645e64cfb1b8028bd57bbcc0d581be0aad",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    },
+    {
+      "file": "src/data/state-sources.json",
+      "sha256": "257be6b294a160abe552f22ae9a6ac30a99e6cd77583da376718df77b6cc9cf8",
+      "scope": "Only dependent guide/rule/cited-source records were substantively reviewed; hash binds the full containing file."
+    }
+  ],
+  "evidenceRead": [
+    {
+      "file": "research/raw/batch3/editorial/final-source-review/fed-definition.xml",
+      "sourceIds": [
+        "fed-definition"
+      ],
+      "scope": "Complete franchise definition in section 436.1(h); relationship facts versus label.",
+      "sha256": "29e4dcb7dd67b8641372ef4e3e31cfa76f76e63b194a21a9787de739234fdcf1",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/editorial/final-source-review/fed-fdd-15.xml",
+      "sourceIds": [
+        "fed-fdd-15",
+        "fed-fdd-19"
+      ],
+      "scope": "Exact complete Item 15 and Item 19 operative paragraphs; identical bytes to the existing /tmp/eln-smb-cfr4365.xml review body.",
+      "sha256": "669153d1a28b96771ce084c504da158d133ca4c85ed226c166ba50e518670fc5",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/state5b/b2-west-nc-article19.txt",
+      "sourceIds": [
+        "b2-west-nc-article19"
+      ],
+      "scope": "Sections 66-94(3)/(4), 66-94.1 and 66-96, including consideration and registered-mark/financial-protection limits; retained official-reader text, not an original HTTP-byte claim.",
+      "sha256": "ebd566cbdeb522e2dafbc5175894c677aff84573b4806687264d17e2d0b553ba",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/editorial/final-source-review/state-mn-assurance.html",
+      "sourceIds": [
+        "state-mn-assurance"
+      ],
+      "scope": "Complete substantive financial-assurance, impoundment, surety alternative and fee-deferral guidance.",
+      "sha256": "e320e8091a92cb945b874694b81a3f911cb835be2ee9decba79a5561d94bcdbf",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch2/territories/usvilicense.txt",
+      "sourceIds": [
+        "b2-territories-usvi-licensing"
+      ],
+      "scope": "Complete licensing body, initial versus renewal tax clearance, conditional fire/health review and named HVAC board professions; extracted text, not original response bytes.",
+      "sha256": "786338bbe14e7dd4ced11475ca76c81657e0ca79c55f6519a5ab331c44cba60e",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/state4/wi-dealership.txt",
+      "sourceIds": [
+        "b3-state4-wi-dealership"
+      ],
+      "scope": "Section 135.04 exact notice/remedy branches, with current certified compilation and exclusions; annotations distinguished from independently read opinions.",
+      "sha256": "ba1773105c8240820b64b5863d8a183a5c4fcc0099e842aeb318d54326c7c6d1",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/editorial/final-source-review/b3-state4-wi-jury.pdf",
+      "sourceIds": [
+        "b3-state4-wi-jury"
+      ],
+      "scope": "Complete two-page 2005-copyright official instruction/comment, especially ninety-day advance notice and ten-day nonpayment cure; not a freshly reviewed appellate case.",
+      "sha256": "cc4ae76058f404476fb96c01df844cdb3784918b1c797cce355c679eba84247e",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/editorial/final-source-review/b2-west-pa-section316.txt",
+      "sourceIds": [
+        "b2-west-pa-section316"
+      ],
+      "scope": "Complete section 316(a)–(c), distinct return/tender/payment events and property/category conditions; extracted official PDF text, not a new retrieval.",
+      "sha256": "fd017f243a0f689e029c71674adb4d013fd3188073de502c3bc38f949d09aa7b",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/planning/flsa-overtime.txt",
+      "sourceIds": [
+        "b3-planning-flsa-overtime"
+      ],
+      "scope": "Covered nonexempt baseline, fixed 168-hour workweek, no averaging, regular-rate distinctions and waiver limits.",
+      "sha256": "2a811a72cf47655c8742672a49b1cbe53ae7a1572944cbbb78d08889c554dcf5",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/planning/visitor-visa.txt",
+      "sourceIds": [
+        "b3-planning-visitor-visa"
+      ],
+      "scope": "Business-visitor examples, employment prohibition and visa-versus-admission distinction; no installation/repair eligibility determination.",
+      "sha256": "f46d51a3946b9584369c347361c24ef5d7795dfc5c1d268e5f8de1d2ba353a63",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/planning/entity-cfr.txt",
+      "sourceIds": [
+        "b3-planning-entity-cfr"
+      ],
+      "scope": "Eligible domestic-entity defaults, separate foreign defaults and election limitations; no actual election choice.",
+      "sha256": "c890460b8c85857668d86293822dfd3dcf926e266387ea31e4beaa98b39bae15",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/editorial/final-source-review/fed-irs-5472.html",
+      "sourceIds": [
+        "fed-irs-5472"
+      ],
+      "scope": "Reporting-corporation/foreign-owned U.S. disregarded-entity headings and instructions scope checked; no new actual return/date conclusion.",
+      "sha256": "07d32a19961428f961a7968415c0443717fbaa8526498fa1cf13741510f9c682",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/planning/ofac401.txt",
+      "sourceIds": [
+        "b2-origins-ofac-50"
+      ],
+      "scope": "Complete indirect-ownership answer and five official examples; no current person or transaction search.",
+      "sha256": "38d74e3fb25b642814374ffd167234d2273a5f31b967a915c630dd3ab355421c",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/planning/ofac398.txt",
+      "sourceIds": [
+        "b3-planning-ofac398"
+      ],
+      "scope": "Complete ownership-versus-control answer, other criteria and blocked representative caution; dated example countries not repeated as current programme findings.",
+      "sha256": "b7e742144fd1839cf8cb9ce30dc722d25835e5e177fbc62ebebb47675b5be0b5",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    },
+    {
+      "file": "research/raw/batch3/planning/uspto-clearance.txt",
+      "sourceIds": [
+        "b3-planning-uspto-clearance"
+      ],
+      "scope": "Comprehensive similar/related-goods search and common-law limitations; no clearance result.",
+      "sha256": "873c846954a76ec849d6c4240fb60bdba62817425d8139c1370223c249b28122",
+      "hashKind": "sha256-of-retained-file-bytes; body or extraction kind is stated in scope",
+      "retrievalStatus": "existing retained evidence reread; no new fetch or source review date advanced"
+    }
+  ],
+  "limits": [
+    "This is an independent content/implementation review, not a new comprehensive legal survey or professional legal review.",
+    "No source retrieval/substantive-review dates were advanced by this audit. Existing source/version/coverage limits remain in the cited guides.",
+    "This reviewer ran the targeted unit suite and read browser tests, but did not execute the final functional/browser suite or claim a live deployment result."
+  ]
+}

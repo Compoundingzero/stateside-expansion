@@ -1092,5 +1092,186 @@
       "/states/minnesota/"
     ],
     "reviewerStatus": "AI-assisted source review; no professional legal review"
+  },
+  {
+    "id": "nr-ca-financial-assurance",
+    "title": "California franchisor financial capacity and assurance options",
+    "topic": "sales-disclosure",
+    "jurisdiction": "California",
+    "activity": "California franchisor financial capacity and assurance options",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "DFPI requires a franchisor to demonstrate present ability to meet FDD/agreement obligations without prospective franchisee funds; otherwise initial fees are impounded. Its guidance identifies increased capital, a compliant surety bond, an adequate performance guarantee with the guarantor’s audited financial statements included with the guarantee in the FDD, or disclosed fee deferral until initial Item 11 obligations are completed AND the franchisee is open. These are conditional routes, not automatic approvals. Normally statements audited by an independent certified public accountant under generally accepted accounting principles and accountant consent are required. A reviewed balance sheet may be accepted only for a first California application with no prior audited statements, dated within 90 days of filing, with the stated profit-and-loss/cash-flow/notes and American Institute of Certified Public Accountants review conditions. California did not adopt the federal unaudited phase-in.",
+    "exceptions": "Reviewed-balance-sheet eligibility and all assurance conditions must be met; no capital amount, bond amount or automatic impound release is inferred.",
+    "trigger": "The named decision or transaction",
+    "deadline": "Review balance sheet within 90 days of filing; deferral release only after both stated opening conditions.",
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "state-ca-guidelines"
+    ],
+    "status": "conditional",
+    "legalStatus": "Scoped primary-source rule; actual applicability remains conditional",
+    "verifiedAt": "2026-11-14T01:59:24.675181+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "DFPI guidance describes conditional options; the actual application/order determines the accepted assurance.",
+      "No current filing fee or exhaustive review of California franchise exemptions, relationship law, employment or operating permits is provided."
+    ],
+    "dependentPaths": [
+      "/states/california/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ca-broker-deadline",
+    "title": "California broker registration deadline and proposed process",
+    "topic": "sales-disclosure",
+    "jurisdiction": "California",
+    "activity": "California broker registration deadline and proposed process",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "The DFPI proposed-action notice published November 6, 2026 expressly identifies July 1, 2027 as the franchise broker registration deadline, describes $125,000 system-enhancement authority, and proposes broker application/disclosure forms and electronic filing rules. It is a proposal with written comments due December 21, 2026, not proof that the broker application is operational. California’s broker definition differs from and is generally narrower than the federal franchise-seller definition; franchisor registration and federal seller duties remain separate.",
+    "exceptions": "The exact conditions and limits in the requirement apply.",
+    "trigger": "The named decision or transaction",
+    "deadline": "Agency notice identifies July 1, 2027 registration deadline; proposal comments due December 21, 2026.",
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "nr-ca-broker-notice",
+      "b3-state-ca-budget-final"
+    ],
+    "status": "conditional",
+    "legalStatus": "Agency-published deadline; implementation regulations proposed, not final",
+    "verifiedAt": "2026-11-14T01:59:24.675181+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Do not rely on the superseded unfunded-program description or assume proposed broker forms are live.",
+      "This does not calculate an appropriation anniversary from a budget-summary publication date or establish broker eligibility for an individual person."
+    ],
+    "dependentPaths": [
+      "/states/california/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ca-franses-filing",
+    "title": "California franchise application: submitted is not effective",
+    "topic": "sales-disclosure",
+    "jurisdiction": "California",
+    "activity": "California franchise application: submitted is not effective",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "The official FRANSES guide directs filers to obtain authority for the organization, supply the required franchise-specific documents, complete mandatory fields, calculate payment, complete filing details and make payment. Payment approval submits the filing. The guide separately lists notifications for submission, filer action needed, and effective status. A saved draft or submitted application is not itself evidence of effective registration.",
+    "exceptions": "The exact conditions and limits in the requirement apply.",
+    "trigger": "The named decision or transaction",
+    "deadline": null,
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "nr-ca-franses-guide",
+      "state-ca-guidelines"
+    ],
+    "status": "conditional",
+    "legalStatus": "Scoped primary-source rule; actual applicability remains conditional",
+    "verifiedAt": "2026-11-14T01:59:24.675181+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The filer guide does not establish that every application is legally complete or effective upon payment.",
+      "Broker forms proposed in November 2026 are a separate process."
+    ],
+    "dependentPaths": [
+      "/states/california/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ms-crosthwait",
+    "title": "Mississippi fraud notice exception illustrated by Crosthwait",
+    "topic": "relationship",
+    "jurisdiction": "Mississippi",
+    "activity": "Mississippi fraud notice exception illustrated by Crosthwait",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "In Crosthwait (Fifth Circuit, June 4, 1993), the court affirmed lawful termination on overwhelming documentary fraud evidence and held that, even assuming the parties were within the franchise statute, fraud did not require ninety-day notice. It also observed the dealer actually continued for ninety days under the trial court’s order. The decision left statutory franchise classification arguable and remanded the separate account-damages issue. It does not establish a present-day equipment-dealer classification or a universal immediate-termination rule.",
+    "exceptions": "Franchise classification was assumed arguendo, not conclusively decided; material fraud evidence and the actual contract mattered.",
+    "trigger": "The named decision or transaction",
+    "deadline": null,
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "nr-ms-crosthwait",
+      "b2-east-ms-2018",
+      "b2-east-ms-status"
+    ],
+    "status": "verified",
+    "legalStatus": "Historical court holding; current transaction and sector law separate",
+    "verifiedAt": "2026-11-14T02:07:01.534581+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The 1993 decision predates later equipment-dealer law and cannot establish present sector coverage.",
+      "A present allegation of breach is not equivalent to the proven fraud record in this case."
+    ],
+    "dependentPaths": [
+      "/states/mississippi/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ms-hamilton",
+    "title": "Hamilton: broker allegations did not fit the pleaded Mississippi franchise claim",
+    "topic": "sales-disclosure",
+    "jurisdiction": "Mississippi",
+    "activity": "Hamilton: broker allegations did not fit the pleaded Mississippi franchise claim",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "The district court’s January 2020 order adopted the December 2019 Hamilton recommendation and dismissed the Mississippi claim without prejudice. The adopted analysis read section 75-24-55 “franchise companies” in light of section 75-24-51(c), finding the brokers as alleged had not entered the franchise-granting arrangement. It also found the cited section 75-24-57 remedies did not fit those alleged broker acts. This is a pleading-stage result on the alleged roles and statutory claim, not proof that the sales statements were true or that brokers have blanket immunity. The New York statutory claim survived that motion.",
+    "exceptions": "The exact conditions and limits in the requirement apply.",
+    "trigger": "The named decision or transaction",
+    "deadline": null,
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "nr-ms-hamilton-recommendation",
+      "nr-ms-hamilton-order"
+    ],
+    "status": "verified",
+    "legalStatus": "Historical adopted district-court pleading decision; no final merits/payment outcome inferred",
+    "verifiedAt": "2026-11-14T02:07:01.534581+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "The factual sales representations were allegations accepted for the motion, not findings that they occurred or were false.",
+      "Dismissal without prejudice is not a final merits victory on all claims or immunity under other laws.",
+      "This decision does not prove present 2026 code text or later appellate treatment."
+    ],
+    "dependentPaths": [
+      "/states/mississippi/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
   }
 ]

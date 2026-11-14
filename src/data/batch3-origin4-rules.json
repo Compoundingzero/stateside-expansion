@@ -284,7 +284,7 @@
     "activity": "A Ukrainian business plans an outward equity contribution, loan, branch funding or another U.S.-related transfer",
     "affectedParty": "The identified home-country resident/supplier and its finance or operations task owner",
     "applicability": "A Ukrainian business plans an outward equity contribution, loan, branch funding or another U.S.-related transfer",
-    "requirement": "No current permission, monetary cap or exception is established in this research pass. Obtain the actual consolidated Resolution 18, current effective amendments and the exact transaction branch before building the bank instruction.",
+    "requirement": "The full current consolidated Resolution 18 and complete 2026 amendment chain remain unrecovered. New dated primary material supports the distinction between maintenance of the resident company’s own foreign units without another legal entity and outward investment in a separate business. It does not establish current numeric limits, general royalty/service permission, individual capital-transfer eligibility or a no-change conclusion after the dated sources.",
     "exceptions": "Unresolved; no exemption or permission assumed.",
     "trigger": "A Ukrainian business plans an outward equity contribution, loan, branch funding or another U.S.-related transfer",
     "deadline": "Research and verify the actual current legal branch before committing to a funding date.",
@@ -298,16 +298,56 @@
       "Written bank implementation checklist and version date"
     ],
     "sourceIds": [
-      "b3-o4-ua-law"
+      "b3-o4-ua-law",
+      "nr-ua-resolution18-dated",
+      "nr-ua-nbu-investment-explanation"
     ],
     "status": "unresolved",
-    "legalStatus": "unresolved current primary authority",
+    "legalStatus": "Current full operative text unresolved; dated scope distinction separately supported",
     "verifiedAt": null,
     "nextReview": "2026-11-20",
     "conflicts": [],
     "interpretationLimits": [
-      "Current Rada text and NBU guidance were inaccessible in full through ordinary retrieval.",
-      "Search results and older/secondary summaries do not establish current permission or a no-requirement conclusion."
+      "Do not present the January 2026 control-copy limits as current.",
+      "The August 26, 2026 NBU explanation is dated and is not a consolidated rule or proof of no later changes.",
+      "Publication of the narrow explanatory article does not resolve this current-permission research question."
+    ],
+    "dependentPaths": [
+      "/from/ukraine/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-ua-branch-not-subsidiary",
+    "title": "Ukraine: an overseas branch allowance is not a separate-company investment allowance",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Ukraine",
+    "activity": "Ukraine: an overseas branch allowance is not a separate-company investment allowance",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "The dated NBU control copy, with amendment history through January 13, 2026, limits point 14(30) to maintenance of the resident legal entity’s own foreign branches/representative offices/other units without creating another legal entity, with cumulative company-age, annual/monthly, own-currency, single-bank and budget conditions. It is not a general subsidiary-equity budget. The NBU’s August 26, 2026 explanation separately says there is no general resident outward-investment permission as of that post and describes exceptional government-initiated decisions as individual mechanisms. This verifies the dated distinction, not November 2026 numeric eligibility or permission for an actual payment.",
+    "exceptions": "The exceptional government-initiated mechanism is not an ordinary discretionary application or general liberalisation. Later amended text and individual facts remain necessary.",
+    "trigger": "The named decision or transaction",
+    "deadline": null,
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "nr-ua-resolution18-dated",
+      "nr-ua-nbu-investment-explanation"
+    ],
+    "status": "verified",
+    "legalStatus": "Dated primary-source distinction; current payment conditions not verified",
+    "verifiedAt": "2026-11-14T02:17:06.610112+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "No current numeric branch permission or arbitrary capital transfer is established.",
+      "The full current consolidated Resolution 18 and the complete six-amendment 2026 chain remain unrecovered.",
+      "IP protection fees/foreign patent-office or patent-attorney services are not automatically royalties/IP acquisition. The older incoming-equity-linked limit is not a general outward-investment allowance."
     ],
     "dependentPaths": [
       "/from/ukraine/"

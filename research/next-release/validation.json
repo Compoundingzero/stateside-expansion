@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-11-14T02:27:20.383969+00:00",
+  "stage": "pre-deployment",
+  "publishedArticles": 295,
+  "newArticles": 12,
+  "releasedPreviouslyUnpublished": 5,
+  "sources": 741,
+  "rules": 418,
+  "learningPaths": 8,
+  "fictionalPractices": 14,
+  "trackableGuidesAndTools": 304,
+  "nodeTests": {
+    "passed": 107,
+    "failed": 0
+  },
+  "browserTests": {
+    "passed": 43,
+    "failed": 0
+  },
+  "finalFullArticlePreview": {
+    "passed": 295,
+    "failed": 0,
+    "allParagraphsTablesCitationsAndBookmarksChecked": true
+  },
+  "retention": {
+    "originalPublishedPaths": 278,
+    "originalSectionAnchors": 3746,
+    "lost": 0
+  },
+  "securityAudit": {
+    "productionVulnerabilities": 0
+  },
+  "evidence": [
+    {
+      "path": "artifacts/next-release-build.log",
+      "sha256": "8bf3f5c21fba5afa24b17d71ac5786c45999a97c082781dc559a0eb8453b26f6"
+    },
+    {
+      "path": "artifacts/next-release-unit-tests.log",
+      "sha256": "f851bc1d2b648bb480abd57e2db332c7df2169029bf47ba8960455c1350d1f6e"
+    },
+    {
+      "path": "artifacts/next-release-browser-tests.log",
+      "sha256": "614dce9a0bc35be0ce300854ab91553f0d75923b9eae70cdac17f330b0643e16"
+    },
+    {
+      "path": "artifacts/next-release-preview-verification.json",
+      "sha256": "cf5ba48b5ce5b8b71b7c1f39ffa9cd0a55c3d187e695407d12a55ce1ad318437"
+    },
+    {
+      "path": "artifacts/redesign/release/checks.json",
+      "sha256": "ae698209ddb0e7b849cf0121c8adf354c96f6c6d6f81e8b3d05bfaeea9f17141"
+    }
+  ],
+  "reviews": [
+    "research/next-release/new-and-withheld-reviews.json",
+    "research/next-release/states-reviews.json",
+    "research/next-release/scoped-reviews.json",
+    "research/next-release/learning-review.json",
+    "research/next-release/privacy-navigation-review.json",
+    "research/next-release/integration-review.json"
+  ],
+  "limits": [
+    "Google Search Console and Bing Webmaster account verification remain blocked by missing account authorization and an unavailable browser interface.",
+    "21 decisions retain specific source or interpretation limits; 16 require actual business facts. Publication does not resolve those questions.",
+    "The future editorial research queue is retained; a publication decision is not a complete jurisdiction survey."
+  ]
+}

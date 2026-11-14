@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-14T01:48:43.845Z",
+  "google": {
+    "apiStatus": 401,
+    "authenticated": false,
+    "verificationMetaInstalled": false
+  },
+  "bing": {
+    "apiStatus": 400,
+    "authenticated": false,
+    "verificationMetaInstalled": false
+  },
+  "browser": {
+    "available": false,
+    "error": "the gaas-browser node_repl sandbox cannot be disabled",
+    "viewer": "Cloud Desktop requires a thread with an available Cloud environment"
+  },
+  "nextStep": "Account authorization and a working account interface are required; terminal access alone does not grant access to Google/Bing accounts.",
+  "indexNow": "Operational; separate from account verification and performance reports"
+}

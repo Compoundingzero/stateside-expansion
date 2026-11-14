@@ -1,0 +1,1533 @@
+[
+  {
+    "id": "case-octoclean-hold",
+    "path": "/cases/octoclean-order-review/",
+    "question": "What did the actual OctoClean consent order require, and what sales lesson does it support?",
+    "outcome": "verified",
+    "conclusion": "Complete operative order and both exhibits were read; agency monthly summary identifies issuance on5September2023. A historical case can now be published with clear findings/settlement, effective-date and ordered-versus-paid distinctions. No current-compliance outcome is claimed.",
+    "evidence": [
+      {
+        "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/09/Consent-Order-Octoclean.pdf",
+        "retrievedAt": "2026-11-14T01:41:58.342Z",
+        "sha256": "bf7380ec2229cfede9d1c3508e82d264d497c16d4fb393f068f73fa89164ffca",
+        "rawPath": "/tmp/eln-withheld/octoclean-operative-reader.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "Complete consent order, recitals A\u2013K, paragraphs 1\u201323 and Exhibits A\u2013B",
+        "readScope": "All 311 extracted lines of the complete official order read, including hearing waiver, future-proceeding admission clause, effective-date definition and both exhibits. Reader is a retained official-PDF body, not a search excerpt. Direct HTTP PDF and screenshot still returned403; no original PDF byte hash or signature-image verification claimed.",
+        "quote": "shall pay penalties of $35,000"
+      },
+      {
+        "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/10/Summary-of-Enforcement-Actions-SEPTEMBER-2023.pdf",
+        "retrievedAt": "2026-11-14T01:40:00.325Z",
+        "sha256": "57ce98d5ee6243d0348ddb1c06e155aa78467794e0d7a742afdf9648ff2b1ed0",
+        "rawPath": "/tmp/eln-withheld/ca-readers.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "September 2023 enforcement summary, page 5 OctoClean row",
+        "readScope": "Complete seven-page official monthly summary read through the web reader; OctoClean row records a consent order dated5September2023. This is agency-issued historical status evidence, not proof of performance.",
+        "quote": "Consent Order September 5, 2023"
+      }
+    ],
+    "guidePatch": {
+      "id": "case-octoclean-hold",
+      "path": "/cases/octoclean-order-review/",
+      "title": "OctoClean: why registration and FDD delivery were two separate sales failures",
+      "description": "Read the 2023 California order as a real example of separate sales gates, with penalties and refund offers distinguished from completed payments.",
+      "family": "case",
+      "topic": "sales-disclosure",
+      "jurisdictions": [
+        "California"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 4,
+      "ruleIds": [
+        "nr-octoclean-order"
+      ],
+      "sections": [
+        {
+          "id": "two-sales-failures",
+          "heading": "What the Commissioner found",
+          "paragraphs": [
+            "California\u2019s financial regulator listed a consent order against OctoClean Franchising Systems, Inc. on 5 September 2023. OctoClean sold local commercial-cleaning, maintenance and janitorial franchises. The order\u2019s recitals identify twelve California franchisees and state that the relevant sales were neither registered nor exempt. They separately state that the franchise disclosure document, or FDD, was not provided at least 14 days before signing or receiving payment.",
+            "This was a settled administrative enforcement matter. The document records the Commissioner\u2019s findings and the company\u2019s agreement to its terms, including a waiver of hearing and review rights. Paragraph 17 provides for admission of the subject matter for the named future DFPI applications or proceedings to enforce the order."
+          ],
+          "sourceIds": [
+            "pr-octoclean-order",
+            "nr-octoclean-enforcement-summary"
+          ]
+        },
+        {
+          "id": "what-order-required",
+          "heading": "The order required action; it does not prove completed recovery",
+          "paragraphs": [
+            "The order directs OctoClean to stop the stated registration and disclosure violations and pay a $35,000 penalty. The payment deadline is 10 calendar days after the order\u2019s defined Effective Date. That definition requires all-party signatures and email delivery; the dated agency summary does not by itself establish the delivery timestamp.",
+            "Within one week of that Effective Date, OctoClean was to inform affected California franchisees of the cancellation/refund option. Franchisees had 30 calendar days after receiving the certified-mail notice to elect cancellation. Paragraph 4 reaches proven eligible franchisees omitted from Exhibit A and does not exclude those already terminated. Its operative body says \u201call franchise fees paid\u201d and prohibits offsets for benefits or credits. The paragraph heading and Exhibit B instead describe a refund of the initial franchise fees. Both wordings matter; this article does not resolve an individual refund amount.",
+            "A requirement to make an offer differs from an election to accept it, and both differ from an actual payment. The reviewed order does not show how many franchisees accepted, how much was paid, or whether later compliance was achieved."
+          ],
+          "sourceIds": [
+            "pr-octoclean-order"
+          ]
+        },
+        {
+          "id": "owner-lesson",
+          "heading": "Before a sale, check both gates",
+          "paragraphs": [
+            "For a brand owner, the useful lesson is operational: confirm the applicable state registration or exemption before an offer or sale, and separately confirm the correct disclosure and waiting period before an agreement or payment. Having prepared an FDD does not answer the first question. An effective registration does not prove the buyer received the FDD on time.",
+            "The public order resolves the identified historical matter while retaining enforcement consequences for noncompliance and unknown violations. It is not a statement about OctoClean\u2019s current registration, present sales practices or today\u2019s refund eligibility. No later relevant order was identified in the bounded official-domain search; that search is not proof that none exists."
+          ],
+          "sourceIds": [
+            "pr-octoclean-order",
+            "nr-octoclean-enforcement-summary"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "pr-octoclean-order",
+        "b2-blocked-ca-octoclean",
+        "nr-octoclean-enforcement-summary"
+      ],
+      "nextStage": 5,
+      "practicalOutput": "Give the person responsible for closing a sale two separate checks: state authority to offer/sell and proof of timely buyer disclosure.",
+      "limitations": [
+        "Historical 2023 consent-order study. No completed payment, refund total, current registration or present violation is established. Exact effective delivery and later compliance remain unverified."
+      ],
+      "scenarioType": "real",
+      "label": "Real case \u2014 historical consent order and stated procedural limits",
+      "seoTitle": "OctoClean California consent order: registration, disclosure and refund terms",
+      "learningSummary": "A disclosure document and a state registration solve different problems. The OctoClean consent order shows why a franchisor must check both before signing or taking payment\u2014and why an ordered refund offer is not proof that money was recovered.",
+      "keyTerms": [],
+      "relatedPaths": [
+        "/us-expansion/fdd-disclosure-timing/",
+        "/states/california/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "practice-sources.json",
+        "record": {
+          "id": "nr-octoclean-enforcement-summary",
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/10/Summary-of-Enforcement-Actions-SEPTEMBER-2023.pdf",
+          "title": "DFPI September2023 enforcement summary: OctoClean",
+          "authority": "California Department of Financial Protection and Innovation",
+          "type": "official-guidance",
+          "section": "September 2023 enforcement summary, page 5 OctoClean row",
+          "supportingPassage": "Consent Order September 5, 2023",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:40:00.325Z",
+          "substantiveVerifiedAt": "2026-11-14T01:43:05.875248+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Historical agency enforcement summary",
+          "sha256": "57ce98d5ee6243d0348ddb1c06e155aa78467794e0d7a742afdf9648ff2b1ed0",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Agency-issued historical status corroboration only; not a performance or current-status certificate."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "pr-octoclean-order",
+        "fields": {
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/09/Consent-Order-Octoclean.pdf",
+          "title": "OctoClean consent order",
+          "section": "Complete consent order, recitals A\u2013K, paragraphs 1\u201323 and Exhibits A\u2013B",
+          "supportingPassage": "shall pay penalties of $35,000",
+          "publicationDate": "2023-09-05",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:58.342Z",
+          "substantiveVerifiedAt": "2026-11-14T01:43:05.875248+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Historical issued consent order; performance and exact delivery date unverified",
+          "sha256": "bf7380ec2229cfede9d1c3508e82d264d497c16d4fb393f068f73fa89164ffca",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Complete official order body read via public web reader. Direct download remains403; stored hash identifies the retained reader evidence, not original PDF bytes. Distinguish Commissioner findings, stipulated obligations, future-proceeding admission, defined effectiveness, and unproved actual payments/compliance. No broad no-admission clause asserted."
+        }
+      },
+      {
+        "id": "b2-blocked-ca-octoclean",
+        "fields": {
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/2023/09/Consent-Order-Octoclean.pdf",
+          "title": "OctoClean consent order",
+          "section": "Complete consent order, recitals A\u2013K, paragraphs 1\u201323 and Exhibits A\u2013B",
+          "supportingPassage": "shall pay penalties of $35,000",
+          "publicationDate": "2023-09-05",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:58.342Z",
+          "substantiveVerifiedAt": "2026-11-14T01:43:05.875248+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Historical issued consent order; performance and exact delivery date unverified",
+          "sha256": "bf7380ec2229cfede9d1c3508e82d264d497c16d4fb393f068f73fa89164ffca",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Complete official order body read via public web reader. Direct download remains403; stored hash identifies the retained reader evidence, not original PDF bytes. Distinguish Commissioner findings, stipulated obligations, future-proceeding admission, defined effectiveness, and unproved actual payments/compliance. No broad no-admission clause asserted."
+        }
+      }
+    ],
+    "newRules": [
+      {
+        "file": "practice-rules.json",
+        "record": {
+          "id": "nr-octoclean-order",
+          "title": "OctoClean order: registration and timely disclosure were separate failures",
+          "topic": "sales-disclosure",
+          "jurisdiction": "California",
+          "activity": "OctoClean order: registration and timely disclosure were separate failures",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "The September 2023 historical consent order records Commissioner findings of twelve nonexempt, unregistered franchise sales and missing 14-day FDD delivery. It orders desist-and-refrain relief, $35,000 penalties within 10 calendar days of its defined Effective Date, a cancellation/refund offer within one week, and 30 calendar days from notice receipt to elect cancellation. Read paragraph 4 and Exhibit B together; this does not prove payment, refunds or current compliance. Paragraph 22 ties final effect to all-party signatures and email delivery, not merely the document date. Paragraph 4\u2019s operative body says \u201call franchise fees paid\u201d; its heading and Exhibit B say initial franchise fees. Both wordings are preserved without resolving an individual amount.",
+          "exceptions": "The exact conditions and limits in the requirement apply.",
+          "trigger": "The named decision or transaction",
+          "deadline": "Historical order: 10 calendar days/one week from defined Effective Date; election 30 calendar days from notice receipt.",
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "pr-octoclean-order",
+            "nr-octoclean-enforcement-summary"
+          ],
+          "status": "verified",
+          "legalStatus": "Historical consent-order obligations; not present-compliance findings",
+          "verifiedAt": "2026-11-14T01:43:05.875248+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No completed payment, refund, current registration or present violation is established.",
+            "The reader reproduces signature lines but does not independently establish the paragraph22 email-delivery date.",
+            "No generic no-admission clause is asserted: paragraph17 instead specifies admission for named future applications/enforcement proceedings."
+          ],
+          "dependentPaths": [
+            "/cases/octoclean-order-review/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Exact paragraph22 signature-and-email delivery timestamp, payment/refund performance and present compliance are not established.",
+      "Bounded official-domain later-order search found no additional relevant order; no exhaustive absence claim."
+    ],
+    "authorNote": "No current registration or paid recovery inferred. Complete primary reader text retained; original HTTP/screenshot access failures preserved separately. Public article deliberately omits individual franchisees\u2019 names/addresses."
+  },
+  {
+    "id": "state-draft-california",
+    "path": "/states/california/",
+    "question": "Can the franchisor fund its California opening obligations, and what is the distinct broker timetable?",
+    "outcome": "verified",
+    "conclusion": "Actual DFPI financial-assurance conditions and FRANSES workflow have been read. The November 6, 2026 official OAL notice expressly identifies July 1, 2027 as the broker registration deadline while proposing implementation procedures. A narrow original California guide can be published; no live broker system or automatic assurance approval is claimed.",
+    "evidence": [
+      {
+        "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/forms/franchise/DFPI-310.111.pdf",
+        "retrievedAt": "2026-11-14T01:56:53.808Z",
+        "sha256": "4cbac9b30c9f05b2735e7b2a0f5f0d7da7c4635605518ae31e67e7a82e85113c",
+        "rawPath": "/tmp/eln-withheld/ca-reader-completion.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "DFPI-310.111, Rev. 07-25, sections 4\u20136, printed pages 7\u20139; financial guarantee Form F and bond forms separately reviewed",
+        "readScope": "Actual official guidelines body read for application documents, audited/reviewed financial statements, financial assurances and the related guarantee/bond. Sections 5\u20136 read in full. This source contains older fee amounts elsewhere, so no current fees are inferred.",
+        "quote": "without relying on the proposed franchisee\u2019s funds"
+      },
+      {
+        "url": "https://dfpi.ca.gov/wp-content/uploads/2025/02/FRANSES-Filer-Guide.pdf",
+        "retrievedAt": "2026-11-14T01:57:44.114Z",
+        "sha256": "100bcf438a8451fa012fabf2ed1fadb320db64fc37a2645f84c8d6a3dfb75b66",
+        "rawPath": "/tmp/eln-withheld/ca-filer-attachments-reader.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "FRANSES Filer Guide, franchise attachments and organization requests, printed pages 7\u20138 and 12\u201314; submission/payment, pages 14\u201318; notifications, page 25",
+        "readScope": "Actual official PDF body read across franchise forms, authority to represent organizations, application attachments, draft/final/payment states and notifications. Securities-specific attachments are not used as franchise requirements.",
+        "quote": "If your payment is approved, the filing has been submitted"
+      },
+      {
+        "url": "https://oal.ca.gov/wp-content/uploads/sites/166/2026/11/2026-Notice-Register-No.-45-Z-November-6-2026.pdf",
+        "retrievedAt": "2026-11-14T01:57:25.455Z",
+        "sha256": "28d77e70a191d76e73fdfd0c5ff499d6965f95b534f70424ba7715fe8dcfbb26",
+        "rawPath": "/tmp/eln-withheld/ca-oal-end-reader.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "DFPI notice PRO 05\u201326, printed pages 1503\u20131507, especially page 1505",
+        "readScope": "Complete DFPI proposed-action notice read across retained initial and ending reader responses. This is a November 6, 2026 notice of proposed regulations, not adopted regulations. It expressly names the July 1, 2027 registration deadline.",
+        "quote": "After the July 1, 2027 registration deadline"
+      },
+      {
+        "url": "https://oal.ca.gov/wp-content/uploads/sites/166/2026/11/2026-Notice-Register-No.-45-Z-November-6-2026.pdf",
+        "retrievedAt": "2026-11-14T01:52:29.937Z",
+        "sha256": "dfb5b1730a7f481baca38164d4b83cea6e21fb60c719a31ffafc4f1e07545389",
+        "rawPath": "/tmp/eln-withheld/ca-oal-nov6-reader.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "Notice PRO 05\u201326, printed pages 1503\u20131506",
+        "readScope": "Beginning of complete DFPI notice read; includes notice/comment period, statutory background, definitions comparison and proposal status. Combined with retained ending response this covers the complete DFPI notice.",
+        "quote": "The proposed regulations establish procedures and requirements for franchise broker registration"
+      }
+    ],
+    "guidePatch": {
+      "id": "state-draft-california",
+      "path": "/states/california/",
+      "title": "California franchise registration: can you fund the opening obligations?",
+      "description": "Understand DFPI\u2019s financial-capacity review, conditional assurance options and franchise filing process, with the separate July 2027 broker deadline.",
+      "family": "state",
+      "topic": "sales-disclosure",
+      "jurisdictions": [
+        "California"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 6,
+      "ruleIds": [
+        "nr-ca-financial-assurance",
+        "nr-ca-broker-deadline",
+        "nr-ca-franses-filing"
+      ],
+      "sections": [
+        {
+          "id": "financial-capacity",
+          "heading": "The question behind the financial review",
+          "paragraphs": [
+            "A franchisor is the business granting the right to operate its brand and system; the franchisee is the buyer of that right. Before relying on a new California franchisee\u2019s initial fee, ask how you will pay for the training, equipment or other opening support promised in the franchise disclosure document, or FDD, and agreement.",
+            "DFPI\u2019s registration guidelines require present financial ability to meet those obligations without the proposed franchisee\u2019s funds. If that ability is not demonstrated, the Commissioner will impound the initial fees: the money is held under an approved arrangement rather than being freely available to fund your opening work. An impound application needs the purchase-receipt form and the depositary\u2019s written consent."
+          ],
+          "sourceIds": [
+            "state-ca-guidelines"
+          ]
+        },
+        {
+          "id": "assurance-options",
+          "heading": "Choose an assurance route you can actually support",
+          "bullets": [
+            "Increase the franchisor\u2019s capital enough to demonstrate its ability to meet the proposed obligations. The guidelines do not promise approval at a universal dollar amount.",
+            "Provide a surety bond that meets the applicable California rule. A bond is a conditional assurance route, not proof that every applicant qualifies for the same amount or terms.",
+            "Provide an adequate guarantee of performance. Include both the guarantee and the guarantor\u2019s audited financial statements in the FDD; those statements must show the guarantor can meet the franchisor\u2019s obligations. A foreign parent\u2019s willingness to help is not the same as this documented guarantee.",
+            "Defer the initial franchise fee until both conditions are met: the franchisor has completed its initial obligations disclosed in Item 11, and the franchisee is open for business. Disclose the deferral in the FDD."
+          ],
+          "paragraphs": [
+            "Fictional example: a franchisor promises pre-opening training and chooses fee deferral. Training is finished on Monday, but the outlet opens on Friday. Monday alone does not satisfy the stated deferral condition. The franchisor needs funds to carry its work through opening without assuming it can collect the deferred fee as soon as training ends."
+          ],
+          "sourceIds": [
+            "state-ca-guidelines"
+          ]
+        },
+        {
+          "id": "financial-statements",
+          "heading": "An audit and financial assurance answer different questions",
+          "paragraphs": [
+            "The normal application includes the franchisor\u2019s financial statements audited by an independent certified public accountant (CPA) in accordance with generally accepted accounting principles (GAAP), together with the accountant\u2019s signed consent for their use in the FDD. An audit does not by itself establish enough financial capacity to avoid an impound.",
+            "DFPI may accept a reviewed balance sheet instead of an audit only when all stated conditions apply: this is the franchisor\u2019s first California registration application; it has no prior audited statements; the reviewed balance sheet is dated within 90 days of filing; the financials include profit-and-loss statements for the prior three years or from inception, cash-flow information and appropriate notes; and the review follows American Institute of Certified Public Accountants (AICPA) review standards. California did not adopt the federal option to phase in unaudited statements."
+          ],
+          "sourceIds": [
+            "state-ca-guidelines"
+          ]
+        },
+        {
+          "id": "franses-workflow",
+          "heading": "A submitted application is still an application",
+          "paragraphs": [
+            "FRANSES is DFPI\u2019s franchise and securities filing portal. The filer guide directs a new user to request authority to represent the organization, creating the organization first if needed. Its franchise application list includes the facing page, audited financial statements, auditor consent, financial-records authorization, FDD, costs and source-of-funds form, and Internet advertising exemption notice. A franchise-seller form is conditional on the answer about sellers offering or selling in California. The financial-statement exception above remains a separate eligibility question.",
+            "Complete the required fields and attachments, calculate the payment, select \u201cComplete Filing Details,\u201d and pay. Approved payment submits the filing; saving a draft does not. The guide separately identifies submission, \u201cFiler Action Needed\u201d and \u201cEffective\u201d notifications. Check the actual application status and any DFPI conditions before treating registration as effective."
+          ],
+          "sourceIds": [
+            "nr-ca-franses-guide",
+            "state-ca-guidelines"
+          ]
+        },
+        {
+          "id": "broker-deadline",
+          "heading": "Broker registration is a separate July 2027 issue",
+          "paragraphs": [
+            "The broker timetable has moved beyond the older unfunded-program description. In its notice published on 6 November 2026, DFPI expressly identifies 1 July 2027 as the broker registration deadline and describes the authorized system work. The same notice proposes broker application and disclosure forms and electronic filing rules; its comment deadline is 21 December 2026. Those proposed procedures are not adopted rules or proof that broker registration is already operational.",
+            "Do not assume every person covered by the federal term \u201cfranchise seller\u201d is a California franchise broker. DFPI\u2019s notice explains that California\u2019s broker definition is generally narrower and generally excludes franchisors and their officers, directors and employees, among others. For a compensated intermediary, check the applicable definition and the final implementation process. This separate broker regime does not replace the franchisor\u2019s registration or federal disclosure duties."
+          ],
+          "sourceIds": [
+            "nr-ca-broker-notice",
+            "b3-state-ca-budget-final"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "state-ca-guidelines",
+        "nr-ca-franses-guide",
+        "nr-ca-broker-notice",
+        "b3-state-ca-budget-final"
+      ],
+      "nextStage": 1,
+      "practicalOutput": "Decide how the franchisor will fund its promised opening work, then prepare the matching financial statements and assurance documents before submitting the application.",
+      "limitations": [
+        "This covers the reviewed financial-assurance and filing questions, not every California registration exemption, franchise relationship rule, advertising condition, employment issue or operating permit.",
+        "The broker procedures were proposed on 6 November 2026. Final forms, later changes and the individual application outcome require their actual current records; no live broker workflow is asserted."
+      ],
+      "seoTitle": "California franchise financial assurance, FRANSES and broker registration deadline",
+      "learningSummary": "California asks whether the franchisor can deliver its promised opening support without spending the new franchisee\u2019s initial fee. That question affects your capital, fee timing and application. Broker registration has a separate deadline and developing process.",
+      "keyTerms": [],
+      "relatedPaths": [
+        "/us-expansion/fdd-disclosure-timing/",
+        "/cases/octoclean-order-review/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "state-sources.json",
+        "record": {
+          "id": "nr-ca-franses-guide",
+          "url": "https://dfpi.ca.gov/wp-content/uploads/2025/02/FRANSES-Filer-Guide.pdf",
+          "title": "FRANSES Filer Guide: franchise application and submission workflow",
+          "authority": "California Department of Financial Protection and Innovation",
+          "type": "official-guidance",
+          "section": "FRANSES Filer Guide, franchise attachments and organization requests, printed pages 7\u20138 and 12\u201314; submission/payment, pages 14\u201318; notifications, page 25",
+          "supportingPassage": "If your payment is approved, the filing has been submitted",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:57:44.114Z",
+          "substantiveVerifiedAt": "2026-11-14T01:59:24.675181+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official primary material reviewed only for stated scope",
+          "sha256": "100bcf438a8451fa012fabf2ed1fadb320db64fc37a2645f84c8d6a3dfb75b66",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Reviewed franchise-specific application and portal steps. A payment-approved/submitted status is distinct from effective registration. The guide is not a broker-registration operating manual and is not used to claim broker registration is live."
+        }
+      },
+      {
+        "file": "state-sources.json",
+        "record": {
+          "id": "nr-ca-broker-notice",
+          "url": "https://oal.ca.gov/wp-content/uploads/sites/166/2026/11/2026-Notice-Register-No.-45-Z-November-6-2026.pdf",
+          "title": "DFPI proposed franchise broker registration and disclosure regulations, PRO 05\u201326",
+          "authority": "California DFPI / Office of Administrative Law",
+          "type": "primary",
+          "section": "DFPI notice PRO 05\u201326, printed pages 1503\u20131507, especially page 1505",
+          "supportingPassage": "After the July 1, 2027 registration deadline",
+          "publicationDate": "2026-11-06",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:57:25.455Z",
+          "substantiveVerifiedAt": "2026-11-14T01:59:24.675181+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Proposed regulations; agency statement of statutory broker registration deadline",
+          "sha256": "28d77e70a191d76e73fdfd0c5ff499d6965f95b534f70424ba7715fe8dcfbb26",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Published proposed-action notice; separately states the July 1, 2027 broker registration deadline and $125,000 IT authority. Proposed forms and procedures are not represented as adopted or operational. Exact statutory appropriation date is not inferred."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "state-ca-guidelines",
+        "fields": {
+          "url": "https://dfpi.ca.gov/wp-content/uploads/sites/337/forms/franchise/DFPI-310.111.pdf",
+          "title": "DFPI Guidelines for Franchise Registration",
+          "section": "DFPI-310.111, Rev. 07-25, sections 4\u20136, printed pages 7\u20139; financial guarantee Form F and bond forms separately reviewed",
+          "supportingPassage": "without relying on the proposed franchisee\u2019s funds",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:56:53.808Z",
+          "substantiveVerifiedAt": "2026-11-14T01:59:24.675181+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official registration guidance, Rev. 07-25; stated conditions reviewed",
+          "sha256": "4cbac9b30c9f05b2735e7b2a0f5f0d7da7c4635605518ae31e67e7a82e85113c",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Reviewed actual complete sections 5\u20136 and related application/guarantee material through the primary PDF reader. This resolves those substantive-access holds. The document contains inconsistent old/new fee amounts elsewhere, so no fee is published here. Raw HTTP remains403; hash identifies retained reader evidence, not original PDF bytes."
+        }
+      },
+      {
+        "id": "b3-state-ca-budget-final",
+        "fields": {
+          "notes": "Published November 9, 2026. Actual final report passage read: $125,000 expenditure authority in 2026\u201327 for SB 919 IT enhancements. A final budget summary corroborates funding but does not establish the exact appropriation date, operative-date calculation or live registration workflow. Follow-up November 14: the separate November 6 official OAL/DFPI proposed-action notice expressly identifies July 1, 2027 as the broker registration deadline. That newer deadline evidence is recorded separately; this budget report itself still does not establish a live workflow.",
+          "legalStatus": "Final budget report; deadline separately corroborated by official DFPI notice"
+        }
+      }
+    ],
+    "newRules": [
+      {
+        "file": "state-rules.json",
+        "record": {
+          "id": "nr-ca-financial-assurance",
+          "title": "California franchisor financial capacity and assurance options",
+          "topic": "sales-disclosure",
+          "jurisdiction": "California",
+          "activity": "California franchisor financial capacity and assurance options",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "DFPI requires a franchisor to demonstrate present ability to meet FDD/agreement obligations without prospective franchisee funds; otherwise initial fees are impounded. Its guidance identifies increased capital, a compliant surety bond, an adequate performance guarantee with the guarantor\u2019s audited financial statements included with the guarantee in the FDD, or disclosed fee deferral until initial Item 11 obligations are completed AND the franchisee is open. These are conditional routes, not automatic approvals. Normally statements audited by an independent certified public accountant under generally accepted accounting principles and accountant consent are required. A reviewed balance sheet may be accepted only for a first California application with no prior audited statements, dated within 90 days of filing, with the stated profit-and-loss/cash-flow/notes and American Institute of Certified Public Accountants review conditions. California did not adopt the federal unaudited phase-in.",
+          "exceptions": "Reviewed-balance-sheet eligibility and all assurance conditions must be met; no capital amount, bond amount or automatic impound release is inferred.",
+          "trigger": "The named decision or transaction",
+          "deadline": "Review balance sheet within 90 days of filing; deferral release only after both stated opening conditions.",
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "state-ca-guidelines"
+          ],
+          "status": "conditional",
+          "legalStatus": "Scoped primary-source rule; actual applicability remains conditional",
+          "verifiedAt": "2026-11-14T01:59:24.675181+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "DFPI guidance describes conditional options; the actual application/order determines the accepted assurance.",
+            "No current filing fee or exhaustive review of California franchise exemptions, relationship law, employment or operating permits is provided."
+          ],
+          "dependentPaths": [
+            "/states/california/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "state-rules.json",
+        "record": {
+          "id": "nr-ca-broker-deadline",
+          "title": "California broker registration deadline and proposed process",
+          "topic": "sales-disclosure",
+          "jurisdiction": "California",
+          "activity": "California broker registration deadline and proposed process",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "The DFPI proposed-action notice published November 6, 2026 expressly identifies July 1, 2027 as the franchise broker registration deadline, describes $125,000 system-enhancement authority, and proposes broker application/disclosure forms and electronic filing rules. It is a proposal with written comments due December 21, 2026, not proof that the broker application is operational. California\u2019s broker definition differs from and is generally narrower than the federal franchise-seller definition; franchisor registration and federal seller duties remain separate.",
+          "exceptions": "The exact conditions and limits in the requirement apply.",
+          "trigger": "The named decision or transaction",
+          "deadline": "Agency notice identifies July 1, 2027 registration deadline; proposal comments due December 21, 2026.",
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "nr-ca-broker-notice",
+            "b3-state-ca-budget-final"
+          ],
+          "status": "conditional",
+          "legalStatus": "Agency-published deadline; implementation regulations proposed, not final",
+          "verifiedAt": "2026-11-14T01:59:24.675181+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Do not rely on the superseded unfunded-program description or assume proposed broker forms are live.",
+            "This does not calculate an appropriation anniversary from a budget-summary publication date or establish broker eligibility for an individual person."
+          ],
+          "dependentPaths": [
+            "/states/california/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "state-rules.json",
+        "record": {
+          "id": "nr-ca-franses-filing",
+          "title": "California franchise application: submitted is not effective",
+          "topic": "sales-disclosure",
+          "jurisdiction": "California",
+          "activity": "California franchise application: submitted is not effective",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "The official FRANSES guide directs filers to obtain authority for the organization, supply the required franchise-specific documents, complete mandatory fields, calculate payment, complete filing details and make payment. Payment approval submits the filing. The guide separately lists notifications for submission, filer action needed, and effective status. A saved draft or submitted application is not itself evidence of effective registration.",
+          "exceptions": "The exact conditions and limits in the requirement apply.",
+          "trigger": "The named decision or transaction",
+          "deadline": null,
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "nr-ca-franses-guide",
+            "state-ca-guidelines"
+          ],
+          "status": "conditional",
+          "legalStatus": "Scoped primary-source rule; actual applicability remains conditional",
+          "verifiedAt": "2026-11-14T01:59:24.675181+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "The filer guide does not establish that every application is legally complete or effective upon payment.",
+            "Broker forms proposed in November 2026 are a separate process."
+          ],
+          "dependentPaths": [
+            "/states/california/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [],
+    "unresolved": [
+      "Final broker implementing regulations, live broker forms and later changes are not established by a proposal.",
+      "Exact statutory appropriation date is not inferred from a budget-summary publication date; the deadline is attributed directly to the official DFPI notice.",
+      "Case-specific financial ability, accepted assurance and any actual application conditions require the relevant business and DFPI records.",
+      "This guide intentionally does not publish inconsistent fee amounts in the guidelines or broader California operating-law clearance."
+    ],
+    "authorNote": "This is new substantive primary evidence, not a successful-HTTP inference. Direct document transport failed; cached official full-body reader access succeeded. Snapshot hashes identify those retained response files. The OAL notice itself contains a federal citation typo (463.10(b)); the guide does not repeat it."
+  },
+  {
+    "id": "b2-origin-laos",
+    "path": "/from/laos/",
+    "question": "Do U.S. service-export receipts and money to own a U.S. business use the same Lao bank permission?",
+    "outcome": "partially-verified",
+    "conclusion": "No: the actual BOL-hosted 2022 law separately addresses trade receipts, outward direct investment, loans and foreign accounts. Complete Decision 333 original now read, with service formula and working-day units visually verified; the 2025-upload identity is resolved. Publish this narrow distinction with dated Decision 333 calculation, not a complete current implementation or mixed-IP classification claim. Follow-up actual Gazette search labels the decision current; its original PDF was downloaded and relevant pages cross-checked. That catalogue status narrows the currency concern but does not resolve every later implementation requirement.",
+    "evidence": [
+      {
+        "url": "https://www.laotradeportal.gov.la/upload/files/legal_lo_la_20240508033943.pdf",
+        "retrievedAt": "2026-11-13T00:22:50.505369+00:00",
+        "sha256": "209c91ac2989e78898e435ed14f7eccf404243e407bef8d8c7229d0958cd50ee",
+        "rawPath": "/workspace/us-expansion/research/raw/batch3/state/laos-333-pdf.pdf",
+        "hashKind": "sha256-original-HTTP-PDF-bytes",
+        "locator": "Decision 333/BOL of 7 March 2024, all ten pages; Articles 4\u20137, 16 and 25 central to guide",
+        "readScope": "All ten original Lao scan pages visually read on November 14, with Lao OCR as navigation aid; numerical amounts and working-day language checked visually against pages 2\u20134. This is an AI-assisted English explanation, not a certified translation. Original retrieval was November 13; November 14 direct re-fetch returned403 and did not replace the retained original.",
+        "quote": "\u0ec1\u0e9b\u0e94\u0eaa\u0eb4\u0e9a\u0eaa\u0ec8\u0ea7\u0e99\u0eae\u0ec9\u0ead\u0e8d (80%)"
+      },
+      {
+        "url": "https://www.bol.gov.la/en/fileupload/18-12-2025_1766032152.pdf",
+        "retrievedAt": "2026-11-14T02:02:04.868Z",
+        "sha256": "7e95543259faea1496b5a0ad1d7c1c47992d80548b974d68ffef424dda62221f",
+        "rawPath": "/tmp/eln-withheld/laos-law-operative-reader.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "Law on Foreign Exchange Management 15/NA, 7 July 2022, Articles 10\u201312, 17\u201319, 26, 31 and 43; Article 60 separately retained",
+        "readScope": "Actual BOL-hosted English text labelled Unofficial Translation read for trade/services, outward direct investment, external loans, foreign accounts and prohibitions. Title/date and effectiveness also checked in retained initial/final reader responses. December 2025 in the URL is not a new law date.",
+        "quote": "shall comply with requirements defined in the Law on Investment Promotion, and obtain the approval from Bank of the Lao PDR"
+      },
+      {
+        "url": "https://www.bcel.com.la/bcel/bcelweb-datas/file-path/forms/la/bcel_web_file_111_bec61fe4d7a44a129148bd93466f8a09.pdf",
+        "retrievedAt": "2026-11-14T01:48:57.260Z",
+        "sha256": "8a7e91fa775fc98e5ff2b994e73e1cdcbb7b248a2b6ad11caac0a4411bec340c",
+        "rawPath": "/tmp/eln-withheld/laos-bank-ua-source-attempts.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "BCEL Outward Remittance Application Form, front Rev02 03/03/2025; reverse terms Rev01 03/02/2021",
+        "readScope": "Complete two-page bank form and English terms read. The two different printed revision dates are preserved; the form is bank-service evidence, not a legal exemption, BOL approval or same-day settlement guarantee.",
+        "quote": "Purpose of Payment"
+      },
+      {
+        "url": "https://www.bol.gov.la/en/fileupload/18-12-2025_1766032152.pdf",
+        "retrievedAt": "2026-11-14T01:39:44.170Z",
+        "sha256": "a60b1ca28a5226fd4a52153781401b05e91cea9572a40967690065a3bde71ac9",
+        "rawPath": "/tmp/eln-withheld/octoclean-bol-reader-final.json",
+        "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+        "originalResponseSha256": null,
+        "locator": "Article 60, final provision",
+        "readScope": "Actual final provision read; law identifies October 1, 2022 effect and repeal of the 2014 law. Reader evidence also contains unrelated sources, which are not used for this claim.",
+        "quote": "The law shall be effective from 1 October 2022"
+      },
+      {
+        "url": "https://www.laoofficialgazette.gov.la/index.php?r=site%2Fsearchtip&s=%E0%BA%A5%E0%BA%B2%E0%BA%8D%E0%BA%AE%E0%BA%B1%E0%BA%9A%E0%BB%80%E0%BA%87%E0%BA%B4%E0%BA%99%E0%BA%95%E0%BA%B2",
+        "retrievedAt": "2026-11-14T02:03:12.407588+00:00",
+        "sha256": "cf8c0c90cde4d5fe66895827fb4432e840bb2dbd716be9ed7832f9c20f7f150b",
+        "rawPath": "/tmp/eln-withheld/laos-gazette-fx.html",
+        "locator": "Official Gazette search result: sole Decision 333 row, decision 7 March 2024, Gazette posting 15 October 2024, status current, record 2285",
+        "readScope": "Actual current official search-result HTML table read, including column headings, the sole matching row, status value and original PDF link. Followed actual record 2285 and original 333.pdf. Status is catalog evidence, not a complete later-implementation or periodic-parameter history.",
+        "quote": "\u0e9b\u0eb1\u0e94\u0e88\u0eb8\u0e9a\u0eb1\u0e99",
+        "hashKind": "sha256-original-HTTP-HTML-bytes"
+      },
+      {
+        "url": "https://www.laoofficialgazette.gov.la/kcfinder/upload/files/333.pdf",
+        "retrievedAt": "2026-11-14T02:07:25.023239+00:00",
+        "sha256": "7384d559fe007bc10ff5add77d19511aeb8afda74b6e19fe619886a46b060a3d",
+        "rawPath": "/tmp/eln-withheld/laos-gazette-333-pdf.pdf",
+        "locator": "Official Gazette copy of Decision 333, pages 1\u20133 and 10",
+        "readScope": "Downloaded actual ten-page official Gazette PDF. Title/date and relevant Articles 4\u20137/25 visually cross-checked on pages 1\u20133 and 10 against the separately retained complete ten-page Lao Trade Portal original. Original has been read in full; this Gazette copy is not falsely labelled a full fresh re-reading of all ten pages.",
+        "quote": "\u0ec1\u0e9b\u0e94\u0eaa\u0eb4\u0e9a\u0eaa\u0ec8\u0ea7\u0e99\u0eae\u0ec9\u0ead\u0e8d (80%)",
+        "hashKind": "sha256-original-HTTP-PDF-bytes"
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-origin-laos",
+      "path": "/from/laos/",
+      "title": "Laos: receiving U.S. service fees and funding a U.S. business use different bank routes",
+      "description": "Understand the separate Lao bank questions for service-export receipts, overseas investment and remittance forms, using the published law and Decision 333.",
+      "family": "origin",
+      "topic": "commercial-feasibility",
+      "jurisdictions": [
+        "Laos",
+        "United States"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 5,
+      "ruleIds": [
+        "nr-laos-export-capital-routes",
+        "nr-laos-333-service-calculation"
+      ],
+      "sections": [
+        {
+          "id": "receipt-or-investment",
+          "heading": "Start with what the payment buys",
+          "paragraphs": [
+            "A Lao company selling training or support to a U.S. customer receives export income. A Lao company sending money to acquire ownership in a U.S. business exports investment capital. Calling both transfers \u201cU.S. expansion\u201d does not give them the same bank treatment.",
+            "The BOL-hosted foreign-exchange law places goods and service trade through a specific account at a Lao commercial bank. For outward direct investment, it separately requires compliance with investment-promotion requirements and approval from the Bank of the Lao PDR, or BOL, with a specific Lao account for sending capital and returning investment income. External loans have a separate approval provision.",
+            "The English PDF is labelled an unofficial translation of the law dated 7 July 2022. Its December 2025 upload filename is not evidence of a new 2025 law. These provisions establish the distinction; they do not establish that a particular investment, loan or offshore account is approved."
+          ],
+          "sourceIds": [
+            "b2-origins-laos-2025"
+          ]
+        },
+        {
+          "id": "decision-333-services",
+          "heading": "What Decision 333 says about service-export receipts",
+          "paragraphs": [
+            "Decision 333/BOL, dated 7 March 2024 and effective 29 March 2024, covers foreign-currency revenue from goods and services exports. Its service branch requires at least 80% to be brought into the specific Lao account within 60 days from export. The decision also places payment within the contractual due date and a maximum of 180 days.",
+            "It then requires a minimum foreign-currency sale to the banking system: for services, 20% of the minimum repatriation amount, within three working days after the account is credited. Repatriating the receipt and converting part of it into kip are separate steps. The continuation of Article 7 provides for notice and bank purchase of a required shortfall on the following working day if the minimum is not sold in time.",
+            "Fictional calculation under that service branch: a $100,000 export produces a minimum $80,000 repatriation amount; 20% of $80,000 is $16,000. The example explains the decision\u2019s two percentages. It does not classify a royalty, approve a mixed royalty/support invoice, permit offshore netting, or guarantee foreign currency for a later purchase.",
+            "The official Gazette catalogue lists this decision as current. The decision itself allows periodic adjustments. If the minimum amount or timing cannot be met, it requires relevant documents to substantiate the request to the Foreign Exchange Management Department for case-by-case consideration. The catalogue does not settle every later implementation requirement, so the calculation above explains the decision\u2019s text rather than approving a particular present transfer."
+          ],
+          "sourceIds": [
+            "nr-laos-333-operative",
+            "nr-laos-gazette-333-status"
+          ]
+        },
+        {
+          "id": "outward-remittance",
+          "heading": "The bank form asks for a purpose; it does not approve that purpose",
+          "paragraphs": [
+            "BCEL\u2019s outward-remittance form asks for the remitter and debit account, currency, beneficiary and bank details, payment purpose, and responsibility for transfer charges. Its terms retain exchange-control restrictions and require the underlying transaction and supporting documents to comply with the applicable rules.",
+            "For a U.S. investment payment, the useful first distinction is therefore capital versus payment for a genuine service. Give the bank the actual agreement and purpose; do not turn an investment into a service by changing the invoice label. A filled-in remittance form or an available U.S. bank account does not replace the relevant BOL permission. The form does not guarantee same-day settlement."
+          ],
+          "sourceIds": [
+            "nr-laos-bcel-remittance",
+            "b2-origins-laos-2025"
+          ]
+        },
+        {
+          "id": "remaining-classification",
+          "heading": "The unresolved point is the particular payment, not whether the routes differ",
+          "paragraphs": [
+            "A contract may combine a trademark licence, training and ongoing support. The reviewed documents do not settle how every mixed IP/service payment is classified or whether any proposed deduction may be netted offshore. The older MOIC registration decision reviewed here is framed around goods, so it is not used to impose a universal service-company registration procedure.",
+            "For the proposed transaction, identify the payer, recipient, contractual purpose, gross amount and accounts. Then apply the relevant trade, investment, loan or foreign-account route. This guide establishes those separate questions; it does not grant a transferable bank approval."
+          ],
+          "sourceIds": [
+            "b2-origins-laos-registration",
+            "b2-origins-laos-2025",
+            "nr-laos-333-operative"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b2-origins-laos-2025",
+        "nr-laos-333-operative",
+        "nr-laos-bcel-remittance",
+        "b2-origins-laos-registration",
+        "nr-laos-gazette-333-status"
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Before committing funds, establish whether the proposed payment is an export receipt, investment capital or an external loan, and use the matching bank and approval route.",
+      "limitations": [
+        "The 2022 English law is an unofficial translation; Decision 333 was read from the original Lao scan. Later implementation, mixed IP/service classification and any proposed offshore netting remain unresolved.",
+        "No current exchange-rate, fee, currency availability, approval outcome, U.S. tax or immigration clearance is supplied."
+      ],
+      "seoTitle": "Lao service export receipts versus capital for a U.S. business",
+      "learningSummary": "Money earned from a U.S. customer and money sent to own a U.S. company are different transactions. The Lao documents reviewed here give them different account and approval rules; a remittance form does not combine them into one permission.",
+      "keyTerms": [],
+      "relatedPaths": [
+        "/us-expansion/entity-tax-election/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "batch2-origins-sources.json",
+        "record": {
+          "id": "nr-laos-333-operative",
+          "url": "https://www.laotradeportal.gov.la/upload/files/legal_lo_la_20240508033943.pdf",
+          "title": "Decision 333/BOL: management of foreign-currency revenue from goods and services exports",
+          "authority": "Bank of the Lao PDR, official Lao Trade Portal original",
+          "type": "primary",
+          "section": "Decision 333/BOL of 7 March 2024, all ten pages; Articles 4\u20137, 16 and 25 central to guide",
+          "supportingPassage": "\u0ec1\u0e9b\u0e94\u0eaa\u0eb4\u0e9a\u0eaa\u0ec8\u0ea7\u0e99\u0eae\u0ec9\u0ead\u0e8d (80%)",
+          "publicationDate": "2024-03-07",
+          "effectiveDate": "2024-03-29",
+          "fetchedAt": "2026-11-13T00:22:50.505369+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:04:45.892032+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retained-original-PDF-fully-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Published 2024 decision; later implementation/current transaction application remains scoped",
+          "sha256": "209c91ac2989e78898e435ed14f7eccf404243e407bef8d8c7229d0958cd50ee",
+          "hashKind": "sha256-original-HTTP-PDF-bytes",
+          "notes": "Complete original Lao instrument read visually with OCR aid. Article 5 service minimum 80% within 60 days from export; Article 7 service minimum sale is 20% of the minimum repatriation amount within three working days of account credit. Article 5 permits periodic adjustment; later implementation and actual payment classification are not automatically cleared. Article 25 states March 29, 2024 effect. Native short passage is transcribed from scan; explanation is AI-assisted, not certified."
+        }
+      },
+      {
+        "file": "batch2-origins-sources.json",
+        "record": {
+          "id": "nr-laos-bcel-remittance",
+          "url": "https://www.bcel.com.la/bcel/bcelweb-datas/file-path/forms/la/bcel_web_file_111_bec61fe4d7a44a129148bd93466f8a09.pdf",
+          "title": "BCEL outward remittance application and terms",
+          "authority": "Banque pour le Commerce Ext\u00e9rieur Lao Public",
+          "type": "official-bank-form",
+          "section": "BCEL Outward Remittance Application Form, front Rev02 03/03/2025; reverse terms Rev01 03/02/2021",
+          "supportingPassage": "Purpose of Payment",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:48:57.260Z",
+          "substantiveVerifiedAt": "2026-11-14T02:04:45.892032+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Bank service form; not a legal authorization",
+          "sha256": "8a7e91fa775fc98e5ff2b994e73e1cdcbb7b248a2b6ad11caac0a4411bec340c",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Bank-authored form establishes information sought for its transfer service, not the regulatory permission for an individual transaction. Front dated 3 March 2025; reverse terms carry 3 February 2021. No current fee/rate/settlement guarantee is inferred."
+        }
+      },
+      {
+        "file": "batch2-origins-sources.json",
+        "record": {
+          "id": "nr-laos-gazette-333-status",
+          "url": "https://www.laoofficialgazette.gov.la/index.php?r=site%2Fsearchtip&s=%E0%BA%A5%E0%BA%B2%E0%BA%8D%E0%BA%AE%E0%BA%B1%E0%BA%9A%E0%BB%80%E0%BA%87%E0%BA%B4%E0%BA%99%E0%BA%95%E0%BA%B2",
+          "title": "Lao Official Gazette catalogue: Decision 333 marked current",
+          "authority": "Lao Ministry of Justice Official Gazette",
+          "type": "primary",
+          "section": "Official Gazette search result: sole Decision 333 row, decision 7 March 2024, Gazette posting 15 October 2024, status current, record 2285",
+          "supportingPassage": "\u0e9b\u0eb1\u0e94\u0e88\u0eb8\u0e9a\u0eb1\u0e99",
+          "publicationDate": null,
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T02:03:12.407588+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:08:46.458465+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Official catalogue current-status label; implementation scope remains separate",
+          "sha256": "cf8c0c90cde4d5fe66895827fb4432e840bb2dbd716be9ed7832f9c20f7f150b",
+          "hashKind": "sha256-original-HTTP-HTML-bytes",
+          "notes": "The sole result is the 7 March 2024 Decision 333, posted 15 October 2024, status current (\u0e9b\u0eb1\u0e94\u0e88\u0eb8\u0e9a\u0eb1\u0e99), with actual record /index.php?r=site/display&id=2285 and original /kcfinder/upload/files/333.pdf. Catalog status corroborates the instrument, not absence of implementation notices or parameter changes."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "b2-origins-laos-2025",
+        "fields": {
+          "url": "https://www.bol.gov.la/en/fileupload/18-12-2025_1766032152.pdf",
+          "title": "Law on Foreign Exchange Management 15/NA, 7 July 2022 \u2014 BOL-hosted unofficial English translation",
+          "section": "Law on Foreign Exchange Management 15/NA, 7 July 2022, Articles 10\u201312, 17\u201319, 26, 31 and 43; Article 60 separately retained",
+          "supportingPassage": "shall comply with requirements defined in the Law on Investment Promotion, and obtain the approval from Bank of the Lao PDR",
+          "publicationDate": "2022-07-07",
+          "effectiveDate": "2022-10-01",
+          "fetchedAt": "2026-11-14T02:02:04.868Z",
+          "substantiveVerifiedAt": "2026-11-14T02:04:45.892032+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "retrieved-and-read-via-primary-web-reader",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "2022 amended law in BOL-hosted unofficial translation; implementing rules remain separate",
+          "sha256": "7e95543259faea1496b5a0ad1d7c1c47992d80548b974d68ffef424dda62221f",
+          "hashKind": "sha256-of-retained-web-reader-response-not-original-HTTP-PDF-bytes",
+          "notes": "Identity resolved from actual body: this is the 2022 law, not a new December 2025 measure. Article 19 outward direct-investment approval, Article 26 external loans and Article 31 foreign accounts were read. Article 60 states October 1, 2022 effectiveness after promulgation/gazette. The upload filename must not be used as the enactment/effect date."
+        }
+      }
+    ],
+    "newRules": [
+      {
+        "file": "batch2-origins-rules.json",
+        "record": {
+          "id": "nr-laos-export-capital-routes",
+          "title": "Lao service export receipts and outward investment are distinct bank routes",
+          "topic": "commercial-feasibility",
+          "jurisdiction": "Laos",
+          "activity": "Lao service export receipts and outward investment are distinct bank routes",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "The 2022 law\u2019s Article 12 places resident goods/services trade receipts and payments through the specific Lao commercial-bank account and BOL rules. Article 19 separately requires residents exporting direct-investment capital to comply with investment-promotion requirements and obtain BOL approval, using a specific Lao bank account for capital transfer and income return. Article 26 separately requires approval for external loans; Article 31 addresses authorized foreign accounts and reporting. Receipt of export income or opening a foreign account is not blanket permission for outward investment, lending, retention or netting.",
+          "exceptions": "Actual legal characterization and the applicable implementing requirements must be established; employee/student/diplomat foreign-account exceptions are not corporate-investment exemptions.",
+          "trigger": "The named decision or transaction",
+          "deadline": null,
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "b2-origins-laos-2025",
+            "nr-laos-333-operative"
+          ],
+          "status": "conditional",
+          "legalStatus": "Scoped primary-source rule; actual applicability remains conditional",
+          "verifiedAt": "2026-11-14T02:04:45.892032+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "BOL-hosted English law is explicitly an unofficial translation of the 2022 law, not a new December 2025 act.",
+            "No exhaustive current implementing-rule survey, approval outcome or permission to net service/IP receipts offshore is established."
+          ],
+          "dependentPaths": [
+            "/from/laos/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "batch2-origins-rules.json",
+        "record": {
+          "id": "nr-laos-333-service-calculation",
+          "title": "Decision 333 service-revenue calculation as written",
+          "topic": "commercial-feasibility",
+          "jurisdiction": "Laos",
+          "activity": "Decision 333 service-revenue calculation as written",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "As written in Decision 333/BOL, effective March 29, 2024, services have a minimum repatriation of 80% within 60 days from export, with contractual payment due within the decision\u2019s 180-day maximum. Article 7 requires minimum sale to the banking system of 20% of that minimum repatriation amount within three working days after credit to the specific account. If not sold in time, Article 7\u2019s continuation provides notice and bank purchase of the shortfall on the following working day. Article 5 allows periodic adjustment; where the minimum or timing cannot be met, relevant documents must substantiate the request to the Foreign Exchange Management Department for case-by-case consideration. These dated instrument figures are not an approved present classification or later-implementation clearance for royalties/support fees.",
+          "exceptions": "Article 5 adjustment/case-consideration provisions and Article 7 special re-export branch remain separate. No automatic waiver or netting right is inferred.",
+          "trigger": "The named decision or transaction",
+          "deadline": "As written: service minimum within 60 days from export; minimum sale within three working days of account credit; following-working-day shortfall purchase after notice.",
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "nr-laos-333-operative"
+          ],
+          "status": "conditional",
+          "legalStatus": "Verified reading of the dated decision; later implementation and transaction classification conditional",
+          "verifiedAt": "2026-11-14T02:04:45.892032+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "Do not apply the service branch to an IP royalty or mixed payment merely because the business calls itself a service company.",
+            "A later February 2025 implementation notice has been identified through a secondary lead but its original has not yet been read; no claim that it changes or preserves every calculation is made.",
+            "The three-day unit is working days; the 60/180-day provisions do not say working days."
+          ],
+          "dependentPaths": [
+            "/from/laos/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [
+      {
+        "id": "b2-origins-laos-fx-status",
+        "fields": {
+          "requirement": "Follow-up November 14 resolves the identity of the BOL December-2025 upload as the 2022 foreign-exchange law, and completes a visual reading of Decision 333/BOL. These support separate export-receipt and outward direct-investment bank routes. They do not establish all later implementation, an individual royalty/service classification, offshore netting or approval outcome. The published guide cites the narrower new rules rather than presenting a universal current clearance.",
+          "sourceIds": [
+            "b2-origins-laos-2025",
+            "nr-laos-333-operative",
+            "nr-laos-bcel-remittance",
+            "b2-origins-laos-registration"
+          ],
+          "status": "conditional",
+          "legalStatus": "Underlying instrument and separate routes verified; later implementation and transaction-specific questions scoped",
+          "verifiedAt": "2026-11-14T02:04:45.892032+00:00",
+          "nextReview": "2026-12-14",
+          "interpretationLimits": [
+            "No blanket netting, retention, capital-transfer or service/IP registration permission.",
+            "The December 2025 upload is a 2022 law; Decision 333 figures are identified as the dated decision\u2019s text."
+          ],
+          "dependentPaths": [
+            "/from/laos/"
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Actual original of Notice 11/BOL dated February 19, 2025 on export-revenue sales has been identified through a secondary lead but not yet recovered. No automatic claim that it changes or preserves every Decision 333 condition.",
+      "No complete later-primary implementation survey or current bank determination for mixed IP royalties/support, deductions/netting, particular capital approvals or external loans.",
+      "Goods-focused MOIC registration text does not establish a universal services/IP filing rule."
+    ],
+    "authorNote": "Substantial new original research: all ten Lao scan pages read using visual review plus OCR navigation; English BOL law identity and operative route provisions read; actual later BCEL form read. Not labelled a complete current-law survey. Dated original-source arithmetic is clearly separated from present individual permission. Original November 13 PDF retrieval date remains honest; November 14 is substantive review. Further primary breakthrough: legitimate public Gazette search and record 2285 supplied a current-status catalogue label and downloadable original PDF; no access bypass. Both actual HTTP hashes retained."
+  },
+  {
+    "id": "b2-east-guide-mississippi",
+    "path": "/states/mississippi/",
+    "question": "Does the franchise notice provision settle a termination or earnings claim against an intermediary?",
+    "outcome": "partially-verified",
+    "conclusion": "Actual enacted 2018 text and identified historical primary court records now support a narrow original guide: notice exceptions require the relevant facts, statutory franchise coverage was assumed rather than decided in Crosthwait, and Hamilton\u2019s adopted 2020 broker ruling was a limited pleading-stage dismissal. Current official code consolidation remains an explicit gap, not falsely declared resolved.",
+    "evidence": [
+      {
+        "url": "https://billstatus.ls.state.ms.us/documents/2018/html/SB/2800-2899/SB2805SG.htm",
+        "retrievedAt": "2026-11-12T21:22:31.052123+00:00",
+        "sha256": "7fa7416ca9d62139dc2bf42ea01a4d104601c56936a63b2e64d2f7546f90f1d8",
+        "rawPath": "/workspace/us-expansion/research/raw/batch2/east/ms-2018.html",
+        "locator": "2018 SB 2805 as sent to Governor, sections 5\u201311; original HTML strike/insert distinctions",
+        "readScope": "Complete enacted-bill text re-read for sections 51/53/55/59/61/63, including exclusions and fraud/insolvency/check exceptions. Official history separately establishes chapter 394 approval/effect. It is not treated as a current 2026 code consolidation.",
+        "quote": "at least ninety (90) days in advance",
+        "hashKind": "sha256-original-retained-HTTP-HTML-bytes"
+      },
+      {
+        "url": "https://billstatus.ls.state.ms.us/2018/pdf/history/SB/SB2805.xml",
+        "retrievedAt": "2026-11-12T21:23:34.299914+00:00",
+        "sha256": "999f80f734244489e3f11b00c55efc4d51a0f14164a7856250371d115ffdae76",
+        "rawPath": "/workspace/us-expansion/research/raw/batch2/east/ms-status.html",
+        "locator": "Official bill history: Law, chapter 394, approval 19 March 2018, effect 1 July 2018",
+        "readScope": "Actual official status XML re-read; enacted text distinguished from merely introduced legislation.",
+        "quote": "03/19 Approved by Governor",
+        "hashKind": "sha256-original-retained-HTTP-XML-bytes"
+      },
+      {
+        "url": "https://www.ca5.uscourts.gov/opinions/pub/92/92-7181.CV0.wpd.pdf",
+        "retrievedAt": "2026-11-14T01:41:58.526469+00:00",
+        "sha256": "fcc2eb62dea3ecd9f1cab324d06ae9e128e5e0211ee42f93bdfd0ebeb9130e21",
+        "rawPath": "/tmp/eln-withheld/ms-crosthwait.pdf",
+        "locator": "Crosthwait Equipment Co. v. John Deere Co., No. 92-7181, 4 June 1993, especially part IV",
+        "readScope": "Complete court-issued opinion read, including underlying documentary fraud, the arguable franchise-classification assumption, notice exception, actual 90-day continued operation and damages remand. This is a historical 1993 case, not a present equipment-dealer classification.",
+        "quote": "ninety-day notice prior to termination is not required when fraud is the basis of termination",
+        "hashKind": "sha256-original-HTTP-PDF-bytes"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-mnd-0_19-cv-01426/pdf/USCOURTS-mnd-0_19-cv-01426-0.pdf",
+        "retrievedAt": "2026-11-14T01:50:13.223965+00:00",
+        "sha256": "c512d6ecc6c37dede3317cf23b6368a9a2a8557672cec0eedda13808abc25a35",
+        "rawPath": "/tmp/eln-withheld/hamilton-govinfo/USCOURTS-mnd-0_19-cv-01426/pdf/USCOURTS-mnd-0_19-cv-01426-0.pdf",
+        "locator": "Hamilton v. FranChoice, No. 19-1426, document 47, 19 December 2019, factual allegations pages 1\u20134 and Mississippi analysis pages 23\u201326",
+        "readScope": "Actual court PDF extracted from the official GovInfo case ZIP. Factual/procedural introduction and complete Mississippi section/recommendation read. Other-state analysis is not used to state comprehensive New York/Minnesota rules. The recommendation is read together with the later adopting order.",
+        "quote": "That cannot include FCI or Scarda as alleged",
+        "hashKind": "sha256-original-PDF-extracted-from-official-GovInfo-ZIP"
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USCOURTS-mnd-0_19-cv-01426/pdf/USCOURTS-mnd-0_19-cv-01426-1.pdf",
+        "retrievedAt": "2026-11-14T01:50:13.223965+00:00",
+        "sha256": "d04ce84885c06410be4ace218025057c6827e36197baae4d0d370f832c74dd16",
+        "rawPath": "/tmp/eln-withheld/hamilton-govinfo/USCOURTS-mnd-0_19-cv-01426/pdf/USCOURTS-mnd-0_19-cv-01426-1.pdf",
+        "locator": "Hamilton v. FranChoice, No. 19-1426, document 52, signed 16 January/filed 17 January 2020, both pages",
+        "readScope": "Complete two-page district-court adopting order read from the official GovInfo ZIP. Adopts December 2019 recommendation without objections; Mississippi/Minnesota claims dismissed without prejudice and New York motion denied. No later final outcome is inferred.",
+        "quote": "those claims are DISMISSED WITHOUT PREJUDICE",
+        "hashKind": "sha256-original-PDF-extracted-from-official-GovInfo-ZIP"
+      }
+    ],
+    "guidePatch": {
+      "id": "b2-east-guide-mississippi",
+      "path": "/states/mississippi/",
+      "title": "Mississippi franchise disputes: notice, fraud and the broker\u2019s actual role",
+      "description": "What the enacted notice provision and two actual court decisions show about termination exceptions, franchise coverage and earnings claims against brokers.",
+      "family": "state",
+      "topic": "relationship",
+      "jurisdictions": [
+        "Mississippi"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 6,
+      "ruleIds": [
+        "b2-east-ms-historical-notice",
+        "nr-ms-crosthwait",
+        "nr-ms-hamilton"
+      ],
+      "sections": [
+        {
+          "id": "notice-conditions",
+          "heading": "The notice rule has a coverage question and exceptions",
+          "paragraphs": [
+            "A franchisor grants the brand and operating rights; a franchisee receives them. The Mississippi text enacted in 2018 requires a person who has granted a covered franchise to give written notice at least 90 days before cancellation, termination or failure to renew. It removes that notice requirement when the stated basis is criminal misconduct, fraud, abandonment, bankruptcy or insolvency of the franchisee, or a no-account or insufficient-funds check.",
+            "Coverage comes first. The enacted definition requires a written arrangement, consideration (something of value given in exchange), a licence to use a trade name or related characteristic, and a community of interest in marketing goods or services. It excludes sales from warehouses or similar storage places, leased departments in retail stores, and places of original manufacture. Consideration excludes the specified at-cost demonstration materials and equipment not for resale, and payments below $100 on an annual basis. That is this state text\u2019s consideration provision, not the federal franchise threshold.",
+            "The same enacted material excludes retailers defined in a separate equipment-dealer statute, section 75-77-1. \u201cRetailer\u201d cannot safely be read here as every business that sells to consumers. This guide examines the enacted 2018 text and identified historical court decisions; the current official consolidated code has not been recovered through the publisher\u2019s public route."
+          ],
+          "sourceIds": [
+            "b2-east-ms-2018",
+            "b2-east-ms-status",
+            "b3-state-ms-code-sos"
+          ]
+        },
+        {
+          "id": "crosthwait-fraud",
+          "heading": "Crosthwait: proven false records were more than an allegation of breach",
+          "paragraphs": [
+            "In the 1993 Crosthwait Equipment case, a John Deere dealer challenged termination. The court described extensive evidence of false sales and credit documents, including inflated down payments, incorrect prices and fictitious trade-ins. The dealer admitted submitting documents he knew contained false information. The court affirmed that Deere lawfully terminated under the agreements.",
+            "For the franchise-notice issue, the Fifth Circuit said the parties\u2019 statutory franchise status was arguable. Even assuming coverage, fraud was a notice exception; the trial court had also allowed the dealer to continue operating for 90 days. The opinion separately remanded Deere\u2019s account-damages issue, so it should not be retold as a final ruling on every dollar owed.",
+            "The lesson is about the evidence behind an exception. A disputed late report, ordinary poor performance or an accusation labelled \u201cfraud\u201d is not the same record as deliberate, material falsification proven in this case. The 1993 decision also does not determine how later equipment-dealer legislation applies to a present dealership."
+          ],
+          "sourceIds": [
+            "nr-ms-crosthwait"
+          ]
+        },
+        {
+          "id": "hamilton-broker",
+          "heading": "Hamilton: identify the party that actually granted the franchise",
+          "paragraphs": [
+            "A later dispute involved a buyer of iLoveKickboxing franchises who sued FranChoice and its broker, Tom Scarda. The complaint alleged misleading statements about marketing, opening costs and expected performance. Those statements were allegations considered at the dismissal stage, not facts the court proved.",
+            "The adopted analysis read Mississippi\u2019s earnings-representation provision, section 75-24-55, as applying to \u201cfranchise companies\u201d in light of the statutory franchise definition. The brokers, as alleged, had not entered the arrangement granting the franchise. The court also found that the cited remedies provision did not supply relief for the alleged broker conduct.",
+            "On 16 January 2020, in an order filed the next day, the district judge adopted that analysis and dismissed the Mississippi claim without prejudice. The motion to dismiss the New York statutory claim was denied. That limited result does not establish that the sales statements were accurate, that all claims failed, or that brokers are immune under other law."
+          ],
+          "sourceIds": [
+            "nr-ms-hamilton-recommendation",
+            "nr-ms-hamilton-order"
+          ]
+        },
+        {
+          "id": "earnings-and-remedy",
+          "heading": "Do not turn either case into a sales or termination shortcut",
+          "paragraphs": [
+            "The enacted Mississippi earnings text is more specific than \u201cuse a realistic forecast.\u201d It addresses stated gross or net earnings and representations of past earnings, requiring the represented results to reflect a substantial number of participants in the community or geographic area and accurately reflect their average earnings under similar circumstances. Hamilton\u2019s broker result does not erase that wording for a covered franchise company.",
+            "For a proposed termination, identify the covered relationship, the contractual grounds, the evidence and any applicable sector law before relying on a notice exception. For a disputed sales statement, identify who made it, who granted the franchise, and which law supplies the particular duty and remedy. The two decisions show why those questions must be answered separately."
+          ],
+          "sourceIds": [
+            "b2-east-ms-2018",
+            "nr-ms-crosthwait",
+            "nr-ms-hamilton-recommendation",
+            "nr-ms-hamilton-order"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "b2-east-ms-2018",
+        "b2-east-ms-status",
+        "b3-state-ms-code-sos",
+        "nr-ms-crosthwait",
+        "nr-ms-hamilton-recommendation",
+        "nr-ms-hamilton-order"
+      ],
+      "nextStage": 1,
+      "practicalOutput": "Identify the party\u2019s actual role and the evidence for the particular claim or termination ground before applying a notice rule or an exception.",
+      "limitations": [
+        "This is a narrow study of the enacted 2018 text and identified historical court decisions, not verification of the complete current consolidated Mississippi code or every later case.",
+        "No registration, business-opportunity, sector-dealer, employment, tax or operating-permit clearance is inferred. No payment, current claim outcome or general broker immunity is established."
+      ],
+      "seoTitle": "Mississippi franchise notice and broker claims: Crosthwait and Hamilton explained",
+      "learningSummary": "A notice period does not answer every termination question, and a franchise-sales rule does not automatically apply to every broker. The useful questions are who granted the franchise, which rule covers that relationship, and what the actual claim or termination evidence shows.",
+      "keyTerms": [],
+      "relatedPaths": []
+    },
+    "newSources": [
+      {
+        "file": "state-sources.json",
+        "record": {
+          "id": "nr-ms-crosthwait",
+          "url": "https://www.ca5.uscourts.gov/opinions/pub/92/92-7181.CV0.wpd.pdf",
+          "title": "Crosthwait Equipment Co. v. John Deere Co., No. 92-7181",
+          "authority": "United States Court of Appeals for the Fifth Circuit",
+          "type": "primary",
+          "section": "Crosthwait Equipment Co. v. John Deere Co., No. 92-7181, 4 June 1993, especially part IV",
+          "supportingPassage": "ninety-day notice prior to termination is not required when fraud is the basis of termination",
+          "publicationDate": "1993-06-04",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:41:58.526469+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:07:01.534581+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-original-primary-PDF-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Historical appellate opinion",
+          "sha256": "fcc2eb62dea3ecd9f1cab324d06ae9e128e5e0211ee42f93bdfd0ebeb9130e21",
+          "hashKind": "sha256-original-HTTP-PDF-bytes",
+          "notes": "Complete historical opinion read. Fraud exception and assumed franchise coverage kept separate. Court remanded the account-damages issue; no present equipment-dealer law inference."
+        }
+      },
+      {
+        "file": "state-sources.json",
+        "record": {
+          "id": "nr-ms-hamilton-recommendation",
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-mnd-0_19-cv-01426/pdf/USCOURTS-mnd-0_19-cv-01426-0.pdf",
+          "title": "Hamilton v. FranChoice: report and recommendation, document 47",
+          "authority": "United States District Court for the District of Minnesota / GovInfo",
+          "type": "primary",
+          "section": "Hamilton v. FranChoice, No. 19-1426, document 47, 19 December 2019, factual allegations pages 1\u20134 and Mississippi analysis pages 23\u201326",
+          "supportingPassage": "That cannot include FCI or Scarda as alleged",
+          "publicationDate": "2019-12-19",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:50:13.223965+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:07:01.534581+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-original-primary-PDF-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Historical recommendation later adopted by district court",
+          "sha256": "c512d6ecc6c37dede3317cf23b6368a9a2a8557672cec0eedda13808abc25a35",
+          "hashKind": "sha256-original-PDF-extracted-from-official-GovInfo-ZIP",
+          "notes": "Primary court PDF extracted from official GovInfo package. Mississippi pages 23\u201325 and recommendation read together with actual January 2020 adopting order; allegations are not factual merits findings."
+        }
+      },
+      {
+        "file": "state-sources.json",
+        "record": {
+          "id": "nr-ms-hamilton-order",
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-mnd-0_19-cv-01426/pdf/USCOURTS-mnd-0_19-cv-01426-1.pdf",
+          "title": "Hamilton v. FranChoice: order adopting recommendation, document 52",
+          "authority": "United States District Court for the District of Minnesota / GovInfo",
+          "type": "primary",
+          "section": "Hamilton v. FranChoice, No. 19-1426, document 52, signed 16 January/filed 17 January 2020, both pages",
+          "supportingPassage": "those claims are DISMISSED WITHOUT PREJUDICE",
+          "publicationDate": "2020-01-17",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T01:50:13.223965+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:07:01.534581+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-original-primary-PDF-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Historical entered adopting order",
+          "sha256": "d04ce84885c06410be4ace218025057c6827e36197baae4d0d370f832c74dd16",
+          "hashKind": "sha256-original-PDF-extracted-from-official-GovInfo-ZIP",
+          "notes": "Signed January 16 and filed January 17, 2020. Both pages read: Mississippi/Minnesota statutory claims dismissed without prejudice; New York motion denied. Not a final decision on every claim or later status."
+        }
+      }
+    ],
+    "sourceUpdates": [],
+    "newRules": [
+      {
+        "file": "state-rules.json",
+        "record": {
+          "id": "nr-ms-crosthwait",
+          "title": "Mississippi fraud notice exception illustrated by Crosthwait",
+          "topic": "relationship",
+          "jurisdiction": "Mississippi",
+          "activity": "Mississippi fraud notice exception illustrated by Crosthwait",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "In Crosthwait (Fifth Circuit, June 4, 1993), the court affirmed lawful termination on overwhelming documentary fraud evidence and held that, even assuming the parties were within the franchise statute, fraud did not require ninety-day notice. It also observed the dealer actually continued for ninety days under the trial court\u2019s order. The decision left statutory franchise classification arguable and remanded the separate account-damages issue. It does not establish a present-day equipment-dealer classification or a universal immediate-termination rule.",
+          "exceptions": "Franchise classification was assumed arguendo, not conclusively decided; material fraud evidence and the actual contract mattered.",
+          "trigger": "The named decision or transaction",
+          "deadline": null,
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "nr-ms-crosthwait",
+            "b2-east-ms-2018",
+            "b2-east-ms-status"
+          ],
+          "status": "verified",
+          "legalStatus": "Historical court holding; current transaction and sector law separate",
+          "verifiedAt": "2026-11-14T02:07:01.534581+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "The 1993 decision predates later equipment-dealer law and cannot establish present sector coverage.",
+            "A present allegation of breach is not equivalent to the proven fraud record in this case."
+          ],
+          "dependentPaths": [
+            "/states/mississippi/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      },
+      {
+        "file": "state-rules.json",
+        "record": {
+          "id": "nr-ms-hamilton",
+          "title": "Hamilton: broker allegations did not fit the pleaded Mississippi franchise claim",
+          "topic": "sales-disclosure",
+          "jurisdiction": "Mississippi",
+          "activity": "Hamilton: broker allegations did not fit the pleaded Mississippi franchise claim",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "The district court\u2019s January 2020 order adopted the December 2019 Hamilton recommendation and dismissed the Mississippi claim without prejudice. The adopted analysis read section 75-24-55 \u201cfranchise companies\u201d in light of section 75-24-51(c), finding the brokers as alleged had not entered the franchise-granting arrangement. It also found the cited section 75-24-57 remedies did not fit those alleged broker acts. This is a pleading-stage result on the alleged roles and statutory claim, not proof that the sales statements were true or that brokers have blanket immunity. The New York statutory claim survived that motion.",
+          "exceptions": "The exact conditions and limits in the requirement apply.",
+          "trigger": "The named decision or transaction",
+          "deadline": null,
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "nr-ms-hamilton-recommendation",
+            "nr-ms-hamilton-order"
+          ],
+          "status": "verified",
+          "legalStatus": "Historical adopted district-court pleading decision; no final merits/payment outcome inferred",
+          "verifiedAt": "2026-11-14T02:07:01.534581+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "The factual sales representations were allegations accepted for the motion, not findings that they occurred or were false.",
+            "Dismissal without prejudice is not a final merits victory on all claims or immunity under other laws.",
+            "This decision does not prove present 2026 code text or later appellate treatment."
+          ],
+          "dependentPaths": [
+            "/states/mississippi/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [
+      {
+        "id": "b2-east-ms-historical-notice",
+        "fields": {
+          "title": "Mississippi enacted notice text: coverage and current-code limit",
+          "requirement": "Enacted SB 2805, chapter 394, effective July 1, 2018 preserves written 90-day advance franchise cancellation/termination/nonrenewal notice, with the listed criminal misconduct, fraud, abandonment, bankruptcy/insolvency and no-account/insufficient-funds-check exceptions. Definitions and exclusions must be established. The identified historical Crosthwait (1993) and Hamilton (adopted 2020) decisions have now been read, but the current official consolidated code and all later amendments have not been obtained; the text is not automatic permission for a present termination.",
+          "interpretationLimits": [
+            "Current official consolidation remains unresolved through the public publisher route.",
+            "New primary cases establish only their dated holdings and procedural limits; no universal broker immunity or present sector classification."
+          ],
+          "sourceIds": [
+            "b2-east-ms-2018",
+            "b2-east-ms-status",
+            "nr-ms-crosthwait",
+            "nr-ms-hamilton-recommendation",
+            "nr-ms-hamilton-order"
+          ],
+          "status": "conditional",
+          "legalStatus": "Historical enacted text and cases reviewed; current codification not certified",
+          "verifiedAt": "2026-11-14T02:07:01.534581+00:00",
+          "nextReview": "2026-12-14",
+          "dependentPaths": [
+            "/states/mississippi/"
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Current official consolidated sections 75-24-51 through 75-24-63 were not recovered: the Secretary of State directs users to Lexis, whose ordinary request returns only a browser bootstrap; both available browser tools fail at environment initialization. No account or security workaround used.",
+      "No exhaustive later amendment, later appellate treatment, sector-dealer coverage or complete all-claims Hamilton disposition is asserted.",
+      "A current termination requires actual relationship, contract, grounds and sector facts; the dated cases do not answer those facts."
+    ],
+    "authorNote": "Real new primary research includes complete Fifth Circuit PDF and actual GovInfo recommendation plus adopting order (not merely a recommendation). Individual PDF hashes refer to bytes extracted from the downloaded official GovInfo ZIP; the per-document URLs are confirmed by the package MODS. No present code currency manufactured from recent search snippets or secondary reproductions."
+  },
+  {
+    "id": "b3-o4-ukraine",
+    "path": "/from/ukraine/",
+    "question": "Does money for a separate U.S. company automatically qualify as maintaining the Ukrainian company\u2019s own foreign branch?",
+    "outcome": "partially-verified",
+    "conclusion": "No such automatic equivalence is supported: actual older NBU operative text expressly limits its branch route to own foreign units without a separate legal entity and maintenance costs; a dated August 2026 official NBU explanation distinguishes general outward investment from other payments. This supports a narrowly dated original article. Current numerical permission and the latest complete rule remain unresolved and are not relabelled verified.",
+    "evidence": [
+      {
+        "url": "https://bank.gov.ua/admin_uploads/law/Resolution_24022022_18_kp.pdf?v=16",
+        "retrievedAt": "2026-11-14T02:12:35.069Z",
+        "sha256": "7544dd8a6562ad533a141ca70ec5e6ccbfb22b0ed7b062a0cca7300c7e558586",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/ukraine-assist/uk-baseline-clauses5.json",
+        "hashKind": "sha256-of-retained-web-reader-tool-result-not-original-HTTP-PDF-bytes",
+        "locator": "Official control-copy Resolution 18, amendment history through 13 January 2026; complete point 14(30), 14(53), relevant 14(57) and point 14 opening",
+        "readScope": "Actual NBU Ukrainian control-copy PDF body read through cached primary reader. Complete branch-maintenance provision read; source version is explicitly older than current September 2026 edition. IP-protection fee branch and incoming-equity-linked provision read for narrow scope comparisons, not present payment clearance. English explanation is AI-assisted translation.",
+        "quote": "\u0432\u043b\u0430\u0441\u043d\u0438\u0445 \u0444\u0456\u043b\u0456\u0439, \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432 \u0442\u0430 \u0456\u043d\u0448\u0438\u0445 \u0432\u0456\u0434\u043e\u043a\u0440\u0435\u043c\u043b\u0435\u043d\u0438\u0445 \u043f\u0456\u0434\u0440\u043e\u0437\u0434\u0456\u043b\u0456\u0432 \u0431\u0435\u0437 \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u044e\u0440\u0438\u0434\u0438\u0447\u043d\u043e\u0457 \u043e\u0441\u043e\u0431\u0438"
+      },
+      {
+        "url": "https://t.me/s/nbu_ua?after=4109",
+        "retrievedAt": "2026-11-14T02:10:20.515711+00:00",
+        "sha256": "c6fdf650151d5f37515423d7822f93b36623087d4a73021a21249729294dfb6a",
+        "rawPath": "/workspace/us-expansion/research/raw/next-release/ukraine-assist/nbu-telegram-after4109.html",
+        "hashKind": "sha256-original-HTTP-HTML-bytes",
+        "locator": "NBU official channel post nbu_ua/4112; own time element 26 August 2026 at 11:26:28 UTC",
+        "readScope": "Entire dated post read from actual downloaded HTML; its own data-post and time element separated from neighboring posts. The post distinguishes outward investment, branch maintenance, current foreign-trade operations and exceptional government-initiated decisions. Agency explanation, not operative consolidated legal text or proof of no later changes.",
+        "quote": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u043e\u0437\u0432\u043e\u043b\u0443 \u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0456\u0432 \u0432\u0456\u043b\u044c\u043d\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0432\u0430\u0442\u0438 \u0456\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0456\u0457 \u0437\u0430 \u043a\u043e\u0440\u0434\u043e\u043d \u043d\u0430\u0440\u0430\u0437\u0456 \u043d\u0435\u043c\u0430\u0454."
+      }
+    ],
+    "guidePatch": {
+      "id": "b3-o4-ukraine",
+      "path": "/from/ukraine/",
+      "title": "Ukraine: can branch funding pay for a separate U.S. company?",
+      "description": "Why the recipient\u2019s legal identity and payment purpose matter under the dated NBU sources, with older branch limits clearly separated from current payment approval.",
+      "family": "origin",
+      "topic": "commercial-feasibility",
+      "jurisdictions": [
+        "Ukraine"
+      ],
+      "status": "published",
+      "lastReviewed": "2026-11-14",
+      "reviewStatus": "AI-assisted primary-source review; no professional legal review",
+      "readMinutes": 5,
+      "ruleIds": [
+        "nr-ua-branch-not-subsidiary"
+      ],
+      "sourceIds": [
+        "nr-ua-resolution18-dated",
+        "nr-ua-nbu-investment-explanation"
+      ],
+      "sections": [
+        {
+          "id": "branch-or-company",
+          "heading": "Who receives the money matters",
+          "paragraphs": [
+            "Suppose a Ukrainian company wants to fund a U.S. operation. First distinguish its own branch or representative office from a separately incorporated company. The branch provision in the older NBU control copy reviewed here expressly concerns foreign units without creating another legal entity, and exclusively their maintenance costs. It is not a general allowance to acquire ownership in another business.",
+            "Fictional example: a Ukrainian training brand forms a separate U.S. company and plans to send it startup capital. Calling that transfer \u201cbranch support\u201d does not make the recipient a unit without a separate legal identity. The brand needs the current route for the actual investment payment, rather than assuming that an overseas-office allowance covers it."
+          ],
+          "sourceIds": [
+            "nr-ua-resolution18-dated"
+          ]
+        },
+        {
+          "id": "dated-branch-conditions",
+          "heading": "What the older branch provision actually covered",
+          "paragraphs": [
+            "The official NBU control copy recovered for this review has an amendment history ending on 13 January 2026. Its branch-maintenance provision contains cumulative conditions. The figures below explain that dated text; they have not been verified as the current allowance."
+          ],
+          "bullets": [
+            "The Ukrainian resident legal entity must have operated for at least 12 months since state registration before the transfer. The recipient must be its own foreign branch, representative office or other unit without a separate legal entity.",
+            "The annual base is \u20ac1 million equivalent, calculated using the official NBU exchange rate on the transaction date. A further allowance uses documented 2021 maintenance transfers for qualifying units already open on 24 February 2022. The provision combines those amounts for the monthly calculation.",
+            "Transfers in one calendar month may not exceed one quarter of that combined annual amount. The payment must use the company\u2019s own foreign currency, neither purchased nor raised through a credit or loan.",
+            "The company must use one chosen servicing bank; changing it follows the written procedure cross-referenced in the provision. Transfers are exclusively for maintenance costs, supported by an expense budget."
+          ],
+          "sourceIds": [
+            "nr-ua-resolution18-dated"
+          ]
+        },
+        {
+          "id": "nbu-explanation",
+          "heading": "The NBU itself separates investment from other payments",
+          "paragraphs": [
+            "In its explanation published on 26 August 2026, the NBU said there was no general permission for residents freely to invest abroad at that time. It separately discussed maintenance of foreign representative offices, current foreign-trade operations and export-contract penalties. Those categories should not be collapsed into a general permission to send expansion capital.",
+            "The same explanation described a mechanism for individual investments with economic or strategic justification serving state interests: the Ukrainian government may approach the NBU, which may consider a separate decision. It described this as exceptional, rather than a replacement for general currency liberalisation. An ordinary company should not treat it as a routine permission available merely on request.",
+            "That statement is dated. The complete current amended rule has not been reconciled here, so neither the statement nor the older numerical conditions establish eligibility for a present payment."
+          ],
+          "sourceIds": [
+            "nr-ua-nbu-investment-explanation",
+            "nr-ua-resolution18-dated"
+          ]
+        },
+        {
+          "id": "payment-labels",
+          "heading": "\u201cIP payment\u201d and \u201cinvestment limit\u201d are also incomplete descriptions",
+          "paragraphs": [
+            "The older text has a separate provision for IP-protection fees and duties, foreign patent-office services and foreign patent-attorney services. That wording does not itself establish permission for a commercial royalty or the purchase of IP. Another provision links an allowance to qualifying foreign investment coming into the Ukrainian resident\u2019s capital; its label does not make it a general permission to invest abroad.",
+            "Before promising that the Ukrainian company will fund the U.S. operation, identify the actual payer and recipient, their legal relationship, the payment\u2019s purpose, the currency source and transaction date. The servicing bank needs the current applicable exception and conditions for those facts. A U.S. formation document, an old annual limit or a revised invoice description does not answer that question."
+          ],
+          "sourceIds": [
+            "nr-ua-resolution18-dated"
+          ]
+        }
+      ],
+      "nextStage": 3,
+      "practicalOutput": "Establish whether the transfer maintains the same company\u2019s foreign unit or funds a separate business, then match that actual purpose to the current bank-payment route before committing the money.",
+      "limitations": [
+        "The article explains dated primary documents. The full current Resolution 18 and complete 2026 amendment chain were not recovered; no current numerical allowance, service/IP payment approval or outward-equity clearance is claimed.",
+        "English explanations of Ukrainian sources are AI-assisted translations. Other currency rules, bank checks and the actual transaction remain separate."
+      ],
+      "seoTitle": "Ukraine to U.S. expansion: branch maintenance versus subsidiary funding",
+      "learningSummary": "A payment to maintain your company\u2019s own overseas branch is different from investing in another company. The dated National Bank of Ukraine (NBU) documents reviewed here draw that distinction. Creating a U.S. company, or changing an invoice label, does not itself supply the Ukrainian outward-payment permission.",
+      "keyTerms": [],
+      "relatedPaths": [
+        "/cases/net-worth-is-not-project-funding/",
+        "/us-expansion/entity-tax-election/"
+      ]
+    },
+    "newSources": [
+      {
+        "file": "batch3-origin4-sources.json",
+        "record": {
+          "id": "nr-ua-resolution18-dated",
+          "url": "https://bank.gov.ua/admin_uploads/law/Resolution_24022022_18_kp.pdf?v=16",
+          "title": "NBU Resolution 18 control copy: older branch, IP-fee and incoming-investment provisions",
+          "authority": "National Bank of Ukraine",
+          "type": "primary",
+          "section": "Official control-copy Resolution 18, amendment history through 13 January 2026; complete point 14(30), 14(53), relevant 14(57) and point 14 opening",
+          "supportingPassage": "\u0432\u043b\u0430\u0441\u043d\u0438\u0445 \u0444\u0456\u043b\u0456\u0439, \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043d\u0438\u0446\u0442\u0432 \u0442\u0430 \u0456\u043d\u0448\u0438\u0445 \u0432\u0456\u0434\u043e\u043a\u0440\u0435\u043c\u043b\u0435\u043d\u0438\u0445 \u043f\u0456\u0434\u0440\u043e\u0437\u0434\u0456\u043b\u0456\u0432 \u0431\u0435\u0437 \u0441\u0442\u0432\u043e\u0440\u0435\u043d\u043d\u044f \u044e\u0440\u0438\u0434\u0438\u0447\u043d\u043e\u0457 \u043e\u0441\u043e\u0431\u0438",
+          "publicationDate": "2022-02-24",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T02:12:35.069Z",
+          "substantiveVerifiedAt": "2026-11-14T02:17:06.610112+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "actual-cached-primary-PDF-body-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Dated operative control-copy baseline; current consolidation not recovered",
+          "sha256": "7544dd8a6562ad533a141ca70ec5e6ccbfb22b0ed7b062a0cca7300c7e558586",
+          "hashKind": "sha256-of-retained-web-reader-tool-result-not-original-HTTP-PDF-bytes",
+          "notes": "Actual source amendment history ends January 13, 2026; current official metadata identifies a later September 17, 2026 edition. Do not use the old control copy as current payment permission. Complete point 14(30) shows cumulative branch-maintenance conditions and explicitly excludes creating another legal entity. Point 14(53) IP protection fees are not generic royalties; point 14(57) incoming investment is not general outward equity. Ukrainian original; English explanation is AI-assisted."
+        }
+      },
+      {
+        "file": "batch3-origin4-sources.json",
+        "record": {
+          "id": "nr-ua-nbu-investment-explanation",
+          "url": "https://t.me/s/nbu_ua?after=4109",
+          "title": "NBU explanation: outward investment versus branch maintenance, 26 August 2026",
+          "authority": "National Bank of Ukraine, official nbu_ua channel",
+          "type": "official-guidance",
+          "section": "NBU official channel post nbu_ua/4112; own time element 26 August 2026 at 11:26:28 UTC",
+          "supportingPassage": "\u0417\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0434\u043e\u0437\u0432\u043e\u043b\u0443 \u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0456\u0432 \u0432\u0456\u043b\u044c\u043d\u043e \u0437\u0434\u0456\u0439\u0441\u043d\u044e\u0432\u0430\u0442\u0438 \u0456\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0456\u0457 \u0437\u0430 \u043a\u043e\u0440\u0434\u043e\u043d \u043d\u0430\u0440\u0430\u0437\u0456 \u043d\u0435\u043c\u0430\u0454.",
+          "publicationDate": "2026-08-26",
+          "effectiveDate": null,
+          "fetchedAt": "2026-11-14T02:10:20.515711+00:00",
+          "substantiveVerifiedAt": "2026-11-14T02:17:06.610112+00:00",
+          "nextReview": "2026-12-14",
+          "accessStatus": "downloaded-official-channel-HTML-and-read",
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review",
+          "legalStatus": "Dated agency explanation; no later-currentness assumption",
+          "sha256": "c6fdf650151d5f37515423d7822f93b36623087d4a73021a21249729294dfb6a",
+          "hashKind": "sha256-original-HTTP-HTML-bytes",
+          "notes": "Post permalink https://t.me/nbu_ua/4112; raw retrieval from public channel preview after 4109. Exact post timestamp verified in HTML. A dated agency explanation states no general outward-investment permission as of that date, names other payment categories, and describes exceptional government-initiated decisions; not a present individual permission or a statutory amendment. Agency identity is also corroborated by its official annual-report channel reference."
+        }
+      }
+    ],
+    "sourceUpdates": [
+      {
+        "id": "b3-o4-ua-law",
+        "fields": {
+          "notes": "Ordinary inherited-proxy urllib and curl attempts returned 503 for /laws/show/v0018500-22 and /print; web full-body opens timed out. NBU current press page and 2018 English framework PDF returned 403. Search snippets and secondary 2026 summaries were not treated as current primary text. No current transaction permission, transfer cap, exception or absence is verified. November 14 follow-up recovered and read an older NBU control-copy PDF (history through January 13, 2026) and a dated August 26, 2026 NBU explanation. These are separate source records supporting a narrow branch-versus-separate-company article; they do not verify this current consolidated Rada body. Current official search metadata indicates September 17, 2026, but the full body and complete later amendment chain remain unrecovered."
+        }
+      }
+    ],
+    "newRules": [
+      {
+        "file": "batch3-origin4-rules.json",
+        "record": {
+          "id": "nr-ua-branch-not-subsidiary",
+          "title": "Ukraine: an overseas branch allowance is not a separate-company investment allowance",
+          "topic": "commercial-feasibility",
+          "jurisdiction": "Ukraine",
+          "activity": "Ukraine: an overseas branch allowance is not a separate-company investment allowance",
+          "affectedParty": "Brand owner and responsible manager",
+          "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+          "requirement": "The dated NBU control copy, with amendment history through January 13, 2026, limits point 14(30) to maintenance of the resident legal entity\u2019s own foreign branches/representative offices/other units without creating another legal entity, with cumulative company-age, annual/monthly, own-currency, single-bank and budget conditions. It is not a general subsidiary-equity budget. The NBU\u2019s August 26, 2026 explanation separately says there is no general resident outward-investment permission as of that post and describes exceptional government-initiated decisions as individual mechanisms. This verifies the dated distinction, not November 2026 numeric eligibility or permission for an actual payment.",
+          "exceptions": "The exceptional government-initiated mechanism is not an ordinary discretionary application or general liberalisation. Later amended text and individual facts remain necessary.",
+          "trigger": "The named decision or transaction",
+          "deadline": null,
+          "fee": null,
+          "renewal": "Recheck when facts or the operative source changes",
+          "dependencies": [],
+          "evidence": [
+            "Actual underlying source and transaction facts"
+          ],
+          "sourceIds": [
+            "nr-ua-resolution18-dated",
+            "nr-ua-nbu-investment-explanation"
+          ],
+          "status": "verified",
+          "legalStatus": "Dated primary-source distinction; current payment conditions not verified",
+          "verifiedAt": "2026-11-14T02:17:06.610112+00:00",
+          "nextReview": "2026-12-14",
+          "conflicts": [],
+          "interpretationLimits": [
+            "No current numeric branch permission or arbitrary capital transfer is established.",
+            "The full current consolidated Resolution 18 and the complete six-amendment 2026 chain remain unrecovered.",
+            "IP protection fees/foreign patent-office or patent-attorney services are not automatically royalties/IP acquisition. The older incoming-equity-linked limit is not a general outward-investment allowance."
+          ],
+          "dependentPaths": [
+            "/from/ukraine/"
+          ],
+          "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+        }
+      }
+    ],
+    "ruleUpdates": [
+      {
+        "id": "b3-o4-ua-current-control",
+        "fields": {
+          "requirement": "The full current consolidated Resolution 18 and complete 2026 amendment chain remain unrecovered. New dated primary material supports the distinction between maintenance of the resident company\u2019s own foreign units without another legal entity and outward investment in a separate business. It does not establish current numeric limits, general royalty/service permission, individual capital-transfer eligibility or a no-change conclusion after the dated sources.",
+          "interpretationLimits": [
+            "Do not present the January 2026 control-copy limits as current.",
+            "The August 26, 2026 NBU explanation is dated and is not a consolidated rule or proof of no later changes.",
+            "Publication of the narrow explanatory article does not resolve this current-permission research question."
+          ],
+          "sourceIds": [
+            "b3-o4-ua-law",
+            "nr-ua-resolution18-dated",
+            "nr-ua-nbu-investment-explanation"
+          ],
+          "status": "unresolved",
+          "legalStatus": "Current full operative text unresolved; dated scope distinction separately supported",
+          "dependentPaths": [
+            "/from/ukraine/"
+          ]
+        }
+      }
+    ],
+    "unresolved": [
+      "Current full Resolution 18 (official metadata: September 17, 2026 edition) and complete operative amendments 35, 43, 68, 79, 90 and 105 were not recovered. Search excerpts are not treated as a complete amendment chain.",
+      "No present branch numerical eligibility, generic service/royalty/IP-acquisition payment permission or outward-equity clearance is established.",
+      "Cross-referenced Regulation 5 and individual bank, payer, recipient, purpose and currency-source facts may affect an actual transfer."
+    ],
+    "authorNote": "Findings-only assist and complete attempt log are research/next-release/ukraine-assist.json. Original direct NBU responses were403 site-owner notices; Rada/data responses503 or reader timeouts. Cached official older PDF and actual public official-channel HTML supplied substantive new dated content. No browser/security workaround, current-date laundering or old-limit compliance promise. Outcome remains partial; current-law hold retained in the old rule, while the new article answers only the evidenced structure/purpose distinction."
+  }
+]

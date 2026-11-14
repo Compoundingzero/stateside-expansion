@@ -259,7 +259,7 @@
     "activity": "Proposed U.S. expansion through partner-operated arrangements",
     "affectedParty": "Selling entity, U.S. operator and responsible management role",
     "applicability": "Only the cited statutory or agency scope. Actual parties, locations, activities and exceptions require review.",
-    "requirement": "Section 803 exemptions reach §§806–811. Sections 819–822 separately address fraud, misleading filings/advertising and representations of approval. Section 807(E) authorizes pre-use advertising filings by rule/order; current administrative applicability remains unresolved.",
+    "requirement": "The actual 2025 compilation rule 660:25-5-1 requires sales literature/advertising to be filed with and responded to by the Administrator prior to use, with package, review fee and stated seller attestation. Its literal fee cross-reference is 807.F, whereas the actual current statute places advertising authority at 807(E) and the $50 package-review fee at 829(A)(3), subject to 829(A). The section 806 disclosure-document filing exception, 819/820 content duties and prohibited named-agency references remain separate. The newer 2026 administrative text and actual offer-specific exemption remain unresolved.",
     "exceptions": "Applicable definitions, exclusions and exceptions require separate review.",
     "trigger": "Designing or changing the stated arrangement, communication or commitment",
     "deadline": "Determine the relevant statutory dates from the actual event before acting.",
@@ -272,15 +272,18 @@
       "Named responsible person and retained documents"
     ],
     "sourceIds": [
-      "b2-west-ok-title71"
+      "b2-west-ok-title71",
+      "nr-ok-rules2025"
     ],
     "status": "conditional",
     "legalStatus": "effective",
     "verifiedAt": "2026-11-12",
     "nextReview": "2026-12-12",
-    "conflicts": [],
+    "conflicts": [
+      "The actual 2025 administrative text cites section 807.F; the actual current statutory authority is section 807(E), with fees in section 829. The newer administrative consolidation has not been read; the reference is not silently harmonised."
+    ],
     "interpretationLimits": [
-      "This record does not establish complete franchise, tax, employment, sector or local coverage."
+      "Mechanism verified in actual 2025 agency compilation and adopted 2020 amendment; newer August 2026 compilation and current official portal body were not retrieved. Do not label the 2025 source current or infer all advertising duties vanish under a registration exemption."
     ],
     "dependentPaths": [
       "/states/oklahoma/"
@@ -622,7 +625,7 @@
     "activity": "Proposed U.S. expansion through partner-operated arrangements",
     "affectedParty": "Selling entity, U.S. operator and responsible management role",
     "applicability": "Only the cited statutory or agency scope. Actual parties, locations, activities and exceptions require review.",
-    "requirement": "Revenue F&E-1 lists entity types that may need franchise/excise returns. F&E-4 explains that federally ignored LLCs can still need state returns unless exempt. Tax registration or filing does not decide whether partner rights may be offered or sold.",
+    "requirement": "Keep franchise/excise taxation separate from permission to sell branded rights. The earlier March 2021 FAQs are now supplemented, not silently redated, by actual June 2026 manual guidance and the separately scoped 2022 appellate case.",
     "exceptions": "Applicable definitions, exclusions and exceptions require separate review.",
     "trigger": "Designing or changing the stated arrangement, communication or commitment",
     "deadline": "Determine the relevant statutory dates from the actual event before acting.",
@@ -636,7 +639,9 @@
     ],
     "sourceIds": [
       "b2-west-tn-fe1",
-      "b2-west-tn-fe4"
+      "b2-west-tn-fe4",
+      "nr-tn-manual2026",
+      "nr-tn-servpro2022"
     ],
     "status": "conditional",
     "legalStatus": "effective",

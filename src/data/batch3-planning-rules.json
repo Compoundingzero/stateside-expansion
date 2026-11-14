@@ -89,7 +89,7 @@
     "activity": "Check customer-provision promises against the Business Opportunity Rule",
     "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
     "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
-    "requirement": "Part 437 covers the defined combination of a prospective purchaser entering a new business, required payment and specified seller representations about locations, customers/accounts or buybacks. Covered sellers must provide the prescribed disclosures at least seven calendar days before the earlier contract or payment.",
+    "requirement": "Apply actual Part 437 definitions and, where covered, seven-calendar-day disclosure before the earlier any sale-connected contract or consideration, and the specified three-year records. The current 437.8 literal $500 and current 436.8(a)(1) $735 interaction remains authoritatively unresolved despite actual 2011 purpose, 2024 final amendment and 2025 proposed dynamic-reference text. Do not treat the proposal as law or declare exemption from both rules using the amount alone.",
     "exceptions": "General business advice, training and advertising alone are excluded from the customer-provision definition. Part 437 scope and its franchise-exemption interaction must be resolved on actual facts; state rules can add protection.",
     "trigger": "Check customer-provision promises against the Business Opportunity Rule",
     "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
@@ -103,14 +103,19 @@
       "Part437 scope decision and disclosure calendar"
     ],
     "sourceIds": [
-      "b3-planning-business-opportunity"
+      "b3-planning-business-opportunity",
+      "smb-fed-minimum-exemption",
+      "nr-ftc-4378-2026",
+      "nr-ftc-threshold-final2024",
+      "nr-ftc-437-final2011",
+      "nr-ftc-437-proposal2025"
     ],
     "status": "conditional",
     "legalStatus": "effective",
     "verifiedAt": "2026-11-12",
     "nextReview": "2026-12-12",
     "conflicts": [
-      "Current §437.8 literally refers to $500 and §436.8(a)(1); the current franchise minimum-payment exemption uses a different threshold. No reconciliation inferred."
+      "Current numeric text differs; amendment history supports intended linkage but no adopted reconciliation or controlling interpretation was retrieved."
     ],
     "interpretationLimits": [
       "The literal $500/§436.8(a)(1) cross-reference interaction is unresolved; no exemption conclusion is provided.",
@@ -377,7 +382,7 @@
     "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
     "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
     "requirement": "Under §274a.2, Section 1 is completed at hire and the employer generally examines acceptable evidence and completes Section 2 within three business days of hire; employment lasting less than three business days has an at-hire rule. Employers retain the I-9 for three years after hire or one year after termination, whichever is later.",
-    "exceptions": "Use the current official form and instructions. Authorised alternative examination is subject to its conditions; remote ownership is not itself authorisation. Current USCIS form-instruction PDF access was blocked in this review.",
+    "exceptions": "Use the current official form and instructions. Authorised alternative examination has its own conditions; remote ownership is not authorisation. Complete dated 01/20/25 instructions were recovered from a public copy, but the central USCIS live edition check remains blocked.",
     "trigger": "Give the local employer an I-9 timing and retention owner",
     "deadline": "At hire/within three business days as applicable; retention uses the later statutory date",
     "fee": null,
@@ -391,7 +396,9 @@
       "Termination-linked retention/destruction date"
     ],
     "sourceIds": [
-      "b3-planning-i9-cfr"
+      "b3-planning-i9-cfr",
+      "next-scope-i9-instructions-copy",
+      "next-scope-everify-ica32"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -399,7 +406,7 @@
     "nextReview": "2026-12-12",
     "conflicts": [],
     "interpretationLimits": [
-      "Current USCIS form edition and detailed acceptable-document/remote-procedure instructions could not be read because the PDF returned 403.",
+      "The complete 01/20/25 USCIS instructions were read from a public university copy, and the 22 September 2026 E-Verify ICA32 bulletin was read. Central USCIS latest-edition/current-instructions access remains blocked; no exhaustive current-document or category-specific work-authorisation check is claimed.",
       "No individual work-authorisation, anti-discrimination, E-Verify or immigration-category determination.",
       "AI-assisted source review; no professional legal review."
     ],

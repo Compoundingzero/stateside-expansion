@@ -8,7 +8,7 @@
     "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
     "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
     "requirement": "Current codified Part 795 contains a totality/economic-reality interpretation; WHD’s May 2025 bulletin uses a different stated investigation approach without changing private rights, and the February 2026 rescission/replacement is a proposal. IRS employment-tax classification is a separate control inquiry.",
-    "exceptions": "No worker is classified here. Court/circuit, state wage/unemployment, tax, coverage and exemption questions remain distinct. The latest appellate dockets are not independently reviewed.",
+    "exceptions": "No worker is classified here. Court/circuit, state wage/unemployment, tax, coverage and exemption questions remain distinct. The Littman appeal status is checked to the 13 November 2026 court report; other latest appellate dockets are not independently completed.",
     "trigger": "Separate the contractor rule, enforcement policy and tax test",
     "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
     "fee": null,
@@ -26,7 +26,10 @@
       "b3-planning2-dol-fab2025",
       "b3-planning2-contractor-nprm",
       "b3-planning2-irs-contractor",
-      "b3-planning2-colt-order"
+      "b3-planning2-colt-order",
+      "next-scope-worker-current795",
+      "next-scope-worker-fr-index",
+      "next-scope-worker-littman-status"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -35,7 +38,7 @@
     "conflicts": [],
     "interpretationLimits": [
       "No individual worker, state-law, exemption or tax-relief conclusion.",
-      "Latest appellate docket/status is not independently verified; the 2026 NPRM’s case account is dated historical agency reporting.",
+      "The Sixth Circuit report dated 13 November 2026 confirms Littman appeal 25-5335 is held in abeyance. No complete current docket review of the other challenges or all governing circuits is supplied; the February 2026 NPRM case account remains dated agency reporting.",
       "The Department of Labor’s May 2, 2025 cover reissues FLSA2019-6 as FLSA2025-2. That resolves the opinion-number link; it does not classify an individual worker or resolve later court proceedings.",
       "AI-assisted source review; no professional legal review."
     ],
@@ -74,7 +77,11 @@
       "b3-planning2-dol-joint791",
       "b3-planning2-joint-nprm",
       "b3-planning2-dol-opinion2025-5",
-      "fed-definition"
+      "fed-definition",
+      "next-scope-joint-current103",
+      "next-scope-joint-current791",
+      "next-scope-joint-fr-index",
+      "next-scope-joint-bfi2026"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -84,7 +91,8 @@
     "interpretationLimits": [
       "No joint-employer finding, full circuit survey, bargaining-unit analysis or state-law clearance.",
       "The 2026 FLSA proposal is not an effective franchise exemption or a substitute for current governing law.",
-      "AI-assisted source review; no professional legal review."
+      "AI-assisted source review; no professional legal review.",
+      "Browning-Ferris374 NLRB No.. 46 applies its clarified earlier standard as law of that remanded case only and excludes cases arising after the 2020 rule effective date. No complete later appellate history is supplied."
     ],
     "dependentPaths": [
       "/us-expansion/joint-employer/"
@@ -148,7 +156,7 @@
     "affectedParty": "The entity carrying out the stated activity; its responsible finance, operations or expansion lead",
     "applicability": "Only the stated federal or named municipal source scope and the transaction facts; not comprehensive clearance.",
     "requirement": "28CFRPart 202 prohibits or restricts defined transactions involving access by countries of concern/covered persons to government-related data or bulk U.S. sensitive personal data. Restricted transactions have actual security, diligence and audit conditions; foreign access alone is not the complete test.",
-    "exceptions": "Exact data/party/transaction/exemption facts control. This is one federal national-security screen, not all U.S./origin privacy, sector, transfer, cyber or contractual law. CISA technical requirements were not read through the access-blocked resource.",
+    "exceptions": "Exact data/party/transaction/exemption facts control. This is one federal national-security screen, not all U.S./origin privacy, sector, transfer, cyber or contractual law. Restricted transactions must satisfy the prescribed CISA controls and other applicable Part 202 duties; no implementation attestation is supplied.",
     "trigger": "Test the federal data-security gate before overseas access",
     "deadline": "Before the relevant commitment; confirm the transaction-specific trigger",
     "fee": null,
@@ -164,7 +172,8 @@
     "sourceIds": [
       "b3-planning2-doj-rule202",
       "b3-planning2-doj-dsp",
-      "b3-planning2-doj-enforcement"
+      "b3-planning2-doj-enforcement",
+      "next-scope-cisa-security"
     ],
     "status": "conditional",
     "legalStatus": "effective",
@@ -173,7 +182,7 @@
     "conflicts": [],
     "interpretationLimits": [
       "No transaction authorisation, exemption finding, security attestation or complete privacy-law clearance.",
-      "CISA resource returned 403; detailed technical security requirements and their implementation remain unresolved.",
+      "The complete January 2025 CISA technical text was read; whether the actual systems, data safeguards and risk assessment satisfy it remains a fact-specific implementation question.",
       "DOJ overview says October 5 for a later phase; operative §§ 202.1001–1002 and its implementation policy say October 6. The guide follows those actual operative provisions.",
       "AI-assisted source review; no professional legal review."
     ],

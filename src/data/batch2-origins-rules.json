@@ -118,7 +118,7 @@
     "activity": "Designing offshore receipt, retention or netting of service/royalty revenue",
     "affectedParty": "Origin-company management team; CFO/COO responsible for the named workstream",
     "applicability": "Only the named origin activity and source scope; not a complete country or U.S. compliance opinion.",
-    "requirement": "Unresolved research task: obtain and reconcile the later BOL text with Decision 677/BOL and the goods-focused MOIC registration decision before setting a current account, repatriation or netting rule.",
+    "requirement": "Follow-up November 14 resolves the identity of the BOL December-2025 upload as the 2022 foreign-exchange law, and completes a visual reading of Decision 333/BOL. These support separate export-receipt and outward direct-investment bank routes. They do not establish all later implementation, an individual royalty/service classification, offshore netting or approval outcome. The published guide cites the narrower new rules rather than presenting a universal current clearance.",
     "exceptions": "Applicability and current transaction facts require independent confirmation.",
     "trigger": "Designing offshore receipt, retention or netting of service/royalty revenue",
     "deadline": "Before the identified commitment",
@@ -131,22 +131,26 @@
       "Payment-category and account map"
     ],
     "sourceIds": [
-      "b2-origins-laos-old",
-      "b2-origins-laos-registration",
-      "b2-origins-laos-2025"
+      "b2-origins-laos-2025",
+      "nr-laos-333-operative",
+      "nr-laos-bcel-remittance",
+      "b2-origins-laos-registration"
     ],
-    "status": "unresolved",
-    "legalStatus": "current-status-unresolved",
-    "verifiedAt": null,
-    "nextReview": "2026-12-12",
+    "status": "conditional",
+    "legalStatus": "Underlying instrument and separate routes verified; later implementation and transaction-specific questions scoped",
+    "verifiedAt": "2026-11-14T02:04:45.892032+00:00",
+    "nextReview": "2026-12-14",
     "conflicts": [
       "Official portal reproduces 2023 Decision 677/BOL; a later BOL December 2025 PDF was found but could not be retrieved.",
       "Portal measure metadata mentions services more broadly than the goods-focused registration decision text."
     ],
     "interpretationLimits": [
-      "Scoped AI-assisted source review; no professional legal review. Unresearched adjacent topics remain open."
+      "No blanket netting, retention, capital-transfer or service/IP registration permission.",
+      "The December 2025 upload is a 2022 law; Decision 333 figures are identified as the dated decision’s text."
     ],
-    "dependentPaths": [],
+    "dependentPaths": [
+      "/from/laos/"
+    ],
     "reviewerStatus": "AI-assisted source review; no professional legal review",
     "requirementType": "unresolved-legal-question"
   },
@@ -529,5 +533,77 @@
     ],
     "reviewerStatus": "AI-assisted source review; no professional legal review",
     "requirementType": "recommended-business-practice"
+  },
+  {
+    "id": "nr-laos-export-capital-routes",
+    "title": "Lao service export receipts and outward investment are distinct bank routes",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Laos",
+    "activity": "Lao service export receipts and outward investment are distinct bank routes",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "The 2022 law’s Article 12 places resident goods/services trade receipts and payments through the specific Lao commercial-bank account and BOL rules. Article 19 separately requires residents exporting direct-investment capital to comply with investment-promotion requirements and obtain BOL approval, using a specific Lao bank account for capital transfer and income return. Article 26 separately requires approval for external loans; Article 31 addresses authorized foreign accounts and reporting. Receipt of export income or opening a foreign account is not blanket permission for outward investment, lending, retention or netting.",
+    "exceptions": "Actual legal characterization and the applicable implementing requirements must be established; employee/student/diplomat foreign-account exceptions are not corporate-investment exemptions.",
+    "trigger": "The named decision or transaction",
+    "deadline": null,
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "b2-origins-laos-2025",
+      "nr-laos-333-operative"
+    ],
+    "status": "conditional",
+    "legalStatus": "Scoped primary-source rule; actual applicability remains conditional",
+    "verifiedAt": "2026-11-14T02:04:45.892032+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "BOL-hosted English law is explicitly an unofficial translation of the 2022 law, not a new December 2025 act.",
+      "No exhaustive current implementing-rule survey, approval outcome or permission to net service/IP receipts offshore is established."
+    ],
+    "dependentPaths": [
+      "/from/laos/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
+  },
+  {
+    "id": "nr-laos-333-service-calculation",
+    "title": "Decision 333 service-revenue calculation as written",
+    "topic": "commercial-feasibility",
+    "jurisdiction": "Laos",
+    "activity": "Decision 333 service-revenue calculation as written",
+    "affectedParty": "Brand owner and responsible manager",
+    "applicability": "Only the identified activity, relationship and cited primary-source scope.",
+    "requirement": "As written in Decision 333/BOL, effective March 29, 2024, services have a minimum repatriation of 80% within 60 days from export, with contractual payment due within the decision’s 180-day maximum. Article 7 requires minimum sale to the banking system of 20% of that minimum repatriation amount within three working days after credit to the specific account. If not sold in time, Article 7’s continuation provides notice and bank purchase of the shortfall on the following working day. Article 5 allows periodic adjustment; where the minimum or timing cannot be met, relevant documents must substantiate the request to the Foreign Exchange Management Department for case-by-case consideration. These dated instrument figures are not an approved present classification or later-implementation clearance for royalties/support fees.",
+    "exceptions": "Article 5 adjustment/case-consideration provisions and Article 7 special re-export branch remain separate. No automatic waiver or netting right is inferred.",
+    "trigger": "The named decision or transaction",
+    "deadline": "As written: service minimum within 60 days from export; minimum sale within three working days of account credit; following-working-day shortfall purchase after notice.",
+    "fee": null,
+    "renewal": "Recheck when facts or the operative source changes",
+    "dependencies": [],
+    "evidence": [
+      "Actual underlying source and transaction facts"
+    ],
+    "sourceIds": [
+      "nr-laos-333-operative"
+    ],
+    "status": "conditional",
+    "legalStatus": "Verified reading of the dated decision; later implementation and transaction classification conditional",
+    "verifiedAt": "2026-11-14T02:04:45.892032+00:00",
+    "nextReview": "2026-12-14",
+    "conflicts": [],
+    "interpretationLimits": [
+      "Do not apply the service branch to an IP royalty or mixed payment merely because the business calls itself a service company.",
+      "A later February 2025 implementation notice has been identified through a secondary lead but its original has not yet been read; no claim that it changes or preserves every calculation is made.",
+      "The three-day unit is working days; the 60/180-day provisions do not say working days."
+    ],
+    "dependentPaths": [
+      "/from/laos/"
+    ],
+    "reviewerStatus": "AI-assisted primary-source review; no professional legal review"
   }
 ]
