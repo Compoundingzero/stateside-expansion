@@ -6,10 +6,12 @@ import {join} from 'node:path';
 import {editorialHash} from '../scripts/smb-edit-utils.mjs';
 import {decodeHtmlEntities,inspectArticleHtml,verifyPublishedArticles} from '../scripts/verify-smb-live.mjs';
 
-const guide=(index=0)=>({id:'fixture-'+index,path:'/articles/fixture-'+index+'/',status:'published',title:'Owner & operator <choice> '+index,seoTitle:'Search & choice '+index,description:'A "quoted" description & explanation.',learningSummary:'Use the actual owner’s terms & ask what changed.',sections:[{id:'owner-decision',heading:'Owner decision',paragraphs:['An explanation.'],aliases:['old-heading','section-0'],sourceIds:['fixture-source']}],sourceIds:['fixture-source'],ruleIds:[],practicalOutput:'Choose the actual terms.',limitations:['The example is limited.'],keyTerms:[],relatedPaths:[]});
+const guide=(index=0)=>({id:'fixture-'+index,path:'/articles/fixture-'+index+'/',status:'published',title:'Owner & operator <choice> '+index,seoTitle:'Search & choice '+index,description:'A "quoted" description & explanation.',learningSummary:'Use the actual owner’s terms & ask what changed.',sections:[{id:'owner-decision',heading:'Owner decision',paragraphs:['An explanation.','The owner’s second condition & exception.'],bullets:['A required fact.','A different qualifying condition.'],table:{headers:['Event','Period'],rows:[['Actual receipt','10 business days'],['Payment','14 calendar days']]},aliases:['old-heading','section-0'],sourceIds:['fixture-source']}],sourceIds:['fixture-source'],ruleIds:[],practicalOutput:'Choose the actual terms.',limitations:['The example is limited.','Actual dates and conditions still matter.'],keyTerms:[],relatedPaths:[]});
 const escape=(value:string)=>value.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 function html(g=guide(),origin='https://example.invalid'){
- return '<!doctype html><html><head><title>'+escape(g.seoTitle)+' | ELN</title><meta name="description" content="'+escape(g.description)+'"><link rel="canonical" href="'+origin+g.path+'"></head><body><script>const trap="<h1 id=trap>not a heading</h1>";</script><!--<h1>not a heading</h1>--><h1>'+escape(g.title)+'</h1><p id="start-here">'+escape(g.learningSummary)+'</p>'+['words-to-know','sources','what-to-prepare','guide-limits','official-federal-explanation','detailed-rules','documented-cases','related-preparation','owner-decision','old-heading','section-0'].map(id=>'<span id="'+id+'"></span>').join('')+'<a href="https://authority.example.invalid/rule?a=1&amp;b=2">Official source</a></body></html>';
+ const source='<a href="https://authority.example.invalid/rule?a=1&amp;b=2">Official source</a>';
+ const sections=g.sections.map(s=>'<section class="anchor-section article-main-section" id="'+s.id+'">'+s.aliases.map(id=>'<span id="'+id+'"></span>').join('')+'<h2>'+escape(s.heading)+'</h2>'+s.paragraphs.map(p=>'<p>'+escape(p)+'</p>').join('')+'<ul>'+s.bullets.map(b=>'<li>'+escape(b)+'</li>').join('')+'</ul><div class="table-wrap"><table><thead><tr>'+s.table.headers.map(h=>'<th scope="col">'+escape(h)+'</th>').join('')+'</tr></thead><tbody>'+s.table.rows.map(row=>'<tr>'+row.map(cell=>'<td>'+escape(cell)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div><p class="meta section-citations">Sources: '+source+'</p></section>').join('');
+ return '<!doctype html><html><head><title>'+escape(g.seoTitle)+' | ELN</title><meta name="description" content="'+escape(g.description)+'"><link rel="canonical" href="'+origin+g.path+'"></head><body><script>const trap="<h1 id=trap>not a heading</h1>";</script><!--<h1>not a heading</h1>--><h1>'+escape(g.title)+'</h1><p id="start-here">'+escape(g.learningSummary)+'</p>'+sections+'<section id="guide-limits"><h2>Scope</h2><ul>'+g.limitations.map(item=>'<li>'+escape(item)+'</li>').join('')+'</ul></section><section id="what-to-prepare"><h2>Next step</h2><p>'+escape(g.practicalOutput)+'</p></section>'+['words-to-know','sources','official-federal-explanation','detailed-rules','documented-cases','related-preparation'].map(id=>'<span id="'+id+'"></span>').join('')+source+'</body></html>';
 }
 const expected=(g=guide())=>({guide:g,canonicalOrigin:'https://example.invalid',sourceUrls:['https://authority.example.invalid/rule?a=1&b=2'],baselineFragments:['old-heading','section-0']});
 
@@ -29,11 +31,36 @@ test('stale answers, duplicate fragments/headings, false canonicals, missing cit
   [original.replace('</body>','<h1>Extra title</h1></body>'),'one H1'],
   [original.replace('</body>','<span id="section-0"></span></body>'),'Fragment section-0'],
   [original.replace('https://example.invalid'+guide().path,'https://other.example.invalid'+guide().path),'Canonical'],
-  [original.replace('https://authority.example.invalid/rule?a=1&amp;b=2','https://authority.example.invalid/other'),'source link'],
+  [original.replaceAll('https://authority.example.invalid/rule?a=1&amp;b=2','https://authority.example.invalid/other'),'source link'],
   [original.replace('</head>','<meta name="googlebot" content="noindex, follow"></head>'),'noindex'],
  ];
  for(const[body,message]of cases)assert.ok(inspectArticleHtml(body,expected()).errors.some((error:string)=>error.includes(message)),message);
  assert.ok(inspectArticleHtml(original,expected(),new Headers({'X-Robots-Tag':'none'})).errors.some((error:string)=>error.includes('noindex')));
+});
+
+test('current answer, metadata and IDs cannot hide stale or incomplete section, table, next-step or scope text',()=>{
+ const original=html(),g=guide();
+ const cases=[
+  [original.replace('<h2>Owner decision</h2>','<h2>Old question</h2>'),'owner-decision heading'],
+  [original.replace('<p>An explanation.</p>','<p>The previous paragraph.</p>'),'owner-decision paragraph'],
+  [original.replace('<p>An explanation.</p>',''),'owner-decision paragraph'],
+  [original.replace('<p>An explanation.</p>','<p>An explanation.</p><p>Extra old instruction.</p>'),'owner-decision paragraph'],
+  [original.replace('<li>A required fact.</li>','<li>An obsolete requirement.</li>'),'owner-decision bullet'],
+  [original.replace('<th scope="col">Period</th>','<th scope="col">Old period</th>'),'table header'],
+  [original.replace('<td>10 business days</td>','<td>10 calendar days</td>'),'table row 1 cell'],
+  [original.replace('<tr><td>Payment</td><td>14 calendar days</td></tr>',''),'table rows'],
+  [original.replace('<p>'+g.practicalOutput+'</p>','<p>Prepare the old file.</p>'),'Next step paragraph'],
+  [original.replace('<li>The example is limited.</li>','<li>An older scope claim.</li>'),'Scope item'],
+  [original.replace('<li>Actual dates and conditions still matter.</li>',''),'Scope item'],
+ ];
+ for(const[body,message]of cases){
+  const result=inspectArticleHtml(body,expected());
+  assert.ok(result.errors.some((error:string)=>error.includes(message)),message);
+  assert.ok(!result.errors.some((error:string)=>/visible answer|metadata|Fragment|H1/.test(error)),message+' should fail on body content itself');
+ }
+ const successful=inspectArticleHtml(original,expected());
+ assert.deepEqual(successful.errors,[]);
+ assert.deepEqual({sections:successful.checks.mainSections,paragraphs:successful.checks.bodyParagraphs,bullets:successful.checks.bodyBullets,tables:successful.checks.bodyTables,cells:successful.checks.bodyTableCells,scope:successful.checks.scopeItems,nextStep:successful.checks.nextStepParagraphs},{sections:1,paragraphs:2,bullets:2,tables:1,cells:6,scope:2,nextStep:1});
 });
 
 type Fixture={directory:string;guides:ReturnType<typeof guide>[];workflow:any;write:(path:string,data:unknown)=>Promise<void>;read:(path:string)=>Promise<any>};

@@ -17,28 +17,34 @@ export function decodeHtmlEntities(value){
  });
 }
 const normalise=value=>String(value).replace(/\s+/gu,' ').trim();
-const textContent=html=>normalise(decodeHtmlEntities(html.replace(/<!--[^]*?-->/g,'').replace(/<[^>]*>/g,'')));
+const textContent=html=>normalise(decodeHtmlEntities(html.replace(/<!--[^]*?-->/g,'').replace(/<(?:[^>"']|"[^"]*"|'[^']*')*>/g,'')));
 
 // This scans the static HTML emitted by Astro. Quoted attributes may contain >.
 // Raw-text scripts/styles and comments cannot create fake headings or ID matches.
 function htmlElements(html){
  const safe=html.replace(/<!--[^]*?-->/g,'').replace(/<(script|style)\b[^>]*>[^]*?<\/\1\s*>/gi,'');
- const tags=[], pattern=/<\/?[a-z][^>"']*(?:(?:"[^"]*"|'[^']*')[^>"']*)*>/gi;
+ const tags=[],stack=[],voidTags=new Set(['area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr']);
+ const pattern=/<\/?[a-z][^>"']*(?:(?:"[^"]*"|'[^']*')[^>"']*)*>/gi;
  for(const match of safe.matchAll(pattern)){
   const tag=/^<(\/?)\s*([\w:-]+)/.exec(match[0]);if(!tag)continue;
   const attrs={};
   if(!tag[1])for(const attr of match[0].slice(tag[0].length).matchAll(/([^\s"'<>\/=]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'=<>`]+)))?/g)){
    const name=attr[1].toLowerCase();if(name!=='/')attrs[name]=decodeHtmlEntities(attr[2]??attr[3]??attr[4]??'');
   }
-  tags.push({name:tag[2].toLowerCase(),closing:Boolean(tag[1]),attrs,start:match.index,end:match.index+match[0].length});
+  const element={name:tag[2].toLowerCase(),closing:Boolean(tag[1]),attrs,start:match.index,end:match.index+match[0].length};
+  if(element.closing){
+   const index=stack.findLastIndex(open=>open.name===element.name);
+   if(index>=0){stack[index].closeStart=element.start;stack.splice(index);}
+  }else{
+   element.parent=stack.at(-1);if(!voidTags.has(element.name)&&!(/\/\s*>$/).test(match[0]))stack.push(element);
+  }
+  tags.push(element);
  }
  const opened=name=>tags.filter(tag=>!tag.closing&&tag.name===name);
- const inner=tag=>{
-  let depth=1;
-  for(const next of tags)if(next.start>=tag.end&&next.name===tag.name){depth+=next.closing?-1:1;if(depth===0)return safe.slice(tag.end,next.start);}
-  return '';
- };
- return {tags,opened,inner};
+ const inner=tag=>tag?.closeStart===undefined?'':safe.slice(tag.end,tag.closeStart);
+ const children=(tag,name)=>tags.filter(element=>!element.closing&&element.parent===tag&&(!name||element.name===name));
+ const descendants=(tag,name)=>tags.filter(element=>!element.closing&&element.start>tag.end&&element.start<tag.closeStart&&(!name||element.name===name));
+ return {tags,opened,inner,children,descendants};
 }
 
 export function inspectArticleHtml(html,{guide,canonicalOrigin,sourceUrls,baselineFragments=[]},headers=new Headers()){
@@ -60,13 +66,60 @@ export function inspectArticleHtml(html,{guide,canonicalOrigin,sourceUrls,baseli
  robots.push(headers.get('x-robots-tag')??'');
  if(robots.some(value=>/(?:^|[\s,:;])(?:noindex|none)(?:$|[\s,;])/i.test(value)))errors.push('The page has a noindex directive');
  const anchors=semanticSectionIds(guide.sections??[]);
+ const hasClass=(element,name)=>(element.attrs.class??'').split(/\s+/).includes(name);
+ const mainSections=elements.filter(element=>hasClass(element,'article-main-section'));
+ if(mainSections.length!==anchors.length)errors.push(`Expected ${anchors.length} main sections; found ${mainSections.length}`);
+ const compareText=(nodes,values,label)=>{
+  if(nodes.length!==values.length)errors.push(`${label}: expected ${values.length} elements; found ${nodes.length}`);
+  values.forEach((value,index)=>{if(nodes[index]&&textContent(doc.inner(nodes[index]))!==normalise(value))errors.push(`${label} ${index+1} does not match current article text`);});
+ };
+ const compareList=(container,values,label)=>{
+  const lists=doc.children(container,'ul');
+  if(lists.length!==(values.length?1:0))errors.push(`${label}: expected ${values.length?1:0} lists; found ${lists.length}`);
+  compareText(lists.flatMap(list=>doc.children(list,'li')),values,label);
+ };
+ let bodyParagraphs=0,bodyBullets=0,bodyTables=0,bodyTableCells=0;
+ anchors.forEach(({section,id},index)=>{
+  const node=mainSections[index];
+  if(!node||node.name!=='section'||node.attrs.id!==id){errors.push(`Main section ${index+1} is missing or out of order: ${id}`);return;}
+  compareText(doc.children(node,'h2'),[section.heading],`${id} heading`);
+  const paragraphs=section.paragraphs??[],bullets=section.bullets??[];
+  compareText(doc.children(node,'p').filter(paragraph=>!hasClass(paragraph,'section-citations')),paragraphs,`${id} paragraph`);
+  compareList(node,bullets,`${id} bullet`);bodyParagraphs+=paragraphs.length;bodyBullets+=bullets.length;
+  const tables=doc.descendants(node,'table');
+  if(tables.length!==(section.table?1:0))errors.push(`${id}: expected ${section.table?1:0} tables; found ${tables.length}`);
+  if(section.table&&tables.length){
+   bodyTables++;const table=tables[0],heads=doc.children(table,'thead'),bodies=doc.children(table,'tbody');
+   const headerRows=heads.flatMap(head=>doc.children(head,'tr'));
+   if(heads.length!==1||headerRows.length!==1)errors.push(`${id}: expected one table header row`);
+   compareText(headerRows.flatMap(row=>doc.children(row,'th')),section.table.headers,`${id} table header`);
+   if(bodies.length!==1)errors.push(`${id}: expected one table body`);
+   const rows=bodies.flatMap(body=>doc.children(body,'tr'));
+   if(rows.length!==section.table.rows.length)errors.push(`${id}: expected ${section.table.rows.length} table rows; found ${rows.length}`);
+   section.table.rows.forEach((cells,rowIndex)=>{
+    compareText(rows[rowIndex]?doc.children(rows[rowIndex],'td'):[],cells,`${id} table row ${rowIndex+1} cell`);bodyTableCells+=cells.length;
+   });
+   bodyTableCells+=section.table.headers.length;
+  }
+ });
+ const nextSteps=elements.filter(element=>element.attrs.id==='what-to-prepare');
+ if(nextSteps.length!==1||nextSteps[0].name!=='section')errors.push('Next step is not a single section');
+ else{
+  compareText(doc.children(nextSteps[0],'h2'),['Next step'],'Next step heading');
+  compareText(doc.children(nextSteps[0],'p'),[guide.practicalOutput],'Next step paragraph');
+ }
+ const scopes=elements.filter(element=>element.attrs.id==='guide-limits'),limitations=guide.limitations??[];
+ if(limitations.length){
+  if(scopes.length!==1||scopes[0].name!=='section')errors.push('Scope is not a single section');
+  else{compareText(doc.children(scopes[0],'h2'),['Scope'],'Scope heading');compareList(scopes[0],limitations,'Scope item');}
+ }else if(scopes.some(element=>element.name==='section'))errors.push('Unexpected Scope section without current limitations');
  const expectedIds=new Set(['start-here','words-to-know','sources','what-to-prepare','guide-limits','official-federal-explanation','detailed-rules','documented-cases','related-preparation',...anchors.flatMap(entry=>[entry.id,...entry.aliases]),...baselineFragments]);
  if(guide.id==='state-employer-payroll-registration')expectedIds.add('choose-jurisdiction');
  for(const id of expectedIds)if(ids.get(id)!==1)errors.push(`Fragment ${id}: expected once; found ${ids.get(id)||0}`);
  for(const[id,count]of ids)if(count>1&&!expectedIds.has(id))errors.push(`Duplicate ID ${id}: found ${count}`);
  const hrefs=new Set(doc.opened('a').map(tag=>{try{return new URL(tag.attrs.href,expectedUrl).href;}catch{return null;}}));
  for(const url of sourceUrls)if(!hrefs.has(new URL(url,expectedUrl).href))errors.push('Missing current source link: '+url);
- return {errors,checks:{h1Count:h1.length,answerCount:answers.length,expectedFragments:expectedIds.size,sourceLinks:sourceUrls.length,canonical:canonical[0]?.attrs.href??null}};
+ return {errors,checks:{h1Count:h1.length,answerCount:answers.length,mainSections:mainSections.length,bodyParagraphs,bodyBullets,bodyTables,bodyTableCells,scopeItems:limitations.length,nextStepParagraphs:nextSteps.length===1?doc.children(nextSteps[0],'p').length:0,expectedFragments:expectedIds.size,sourceLinks:sourceUrls.length,canonical:canonical[0]?.attrs.href??null}};
 }
 
 async function loadInventory(cwd){
