@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI-assisted independent code review, europe_sources",
+  "reviewedAt": "2026-11-14T10:57:27.485Z",
+  "decision": "approved",
+  "scope": "Three narrow source-monitor fixes and sufficiency of seven separately audited exact-hash no-material-change resolutions. No canonical or queue writes.",
+  "reviewedFiles": [
+    {
+      "path": "scripts/check-sources.mjs",
+      "sha256": "bd3aca937e156acb4c793be375aa1cb7ae240a6c007a6109d2ac276b7ea37f0e"
+    },
+    {
+      "path": "scripts/source-text.mjs",
+      "sha256": "cad333c8432abd3105aeedaf5d9916d555eb876fe08546cf613ada07e2f831a4"
+    },
+    {
+      "path": "tests/editorial.test.ts",
+      "sha256": "b595f9ee155895de889b0cf0278cbda80e28eb33aaba8b19f9896d4acd8036f4"
+    }
+  ],
+  "sourceTextBaselineCommit": "f8c3e36",
+  "codeReview": {
+    "OOXML": "Only Office package MIME responses are excluded before generic xml matching. Office parts ending +xml remain text-like, including parameterized MIME. Existing binary branch retains raw-byte SHA256, selector=binary and passage=null. Actual XML, JSON and HTML detection remains active. Changed raw hashes still enter the existing changed-source queue.",
+    "GPOQuotes": "Only the comparison copy converts matched paired ASCII backticks/apostrophes to quotation marks. Enclosed words, amounts, negation and other punctuation remain. Original extraction/hash pipeline is unchanged.",
+    "BulgarianEntity": "Only the comparison copy decodes the exact &bdquo; entity to U+201E. Original extracted text retains the literal entity and its original normalized hash.",
+    "noBroadSuppression": "No changes to sourceObservation, queue enqueue conditions, substantive review dates, resolution rules, access checks, normalizer version or warning-exit policy."
+  },
+  "targetedValidation": {
+    "command": "npx tsx --test tests/editorial.test.ts",
+    "passed": 32,
+    "failed": 0,
+    "additionalIndependentChecks": "Baseline-versus-fixed modules on complete actual Bulgarian/GPO bodies; unchanged original text/hashes and dates; actual Indy MIME/raw bytes plus one-byte mutation; Office +xml parameter case; seven-issue in-memory resolution with changed-hash and future-occurrence negative controls.",
+    "allAdditionalAssertionsPassed": true
+  },
+  "actualEvidenceChecks": [
+    {
+      "sourceId": "smb-origin-bg-decree88",
+      "proofPath": "research/next-release/raw/refinement-1/federal/bg-decree88-current.html",
+      "proofRawSHA256": "a0f13234d55cd306dabfb927988c20022c864a212ac30111762b9106149e95ac",
+      "scheduledObservedHash": "03af3af563e830ae1105cfe975d57793524e7e28c1c57787be73900fe8521d6a",
+      "beforeSupportingPassagePresent": false,
+      "afterSupportingPassagePresent": true,
+      "originalExtractedTextUnchanged": true,
+      "originalNormalizedHashUnchanged": true,
+      "afterNormalizedHash": "03af3af563e830ae1105cfe975d57793524e7e28c1c57787be73900fe8521d6a",
+      "sourceObservation": "unchanged",
+      "substantiveVerifiedAtPreserved": "2026-11-14T01:13:52.776037+00:00",
+      "canonicalSourceObjectUnmutated": true,
+      "normalizationVersion": 5
+    },
+    {
+      "sourceId": "nr-ftc-threshold-final2024",
+      "proofPath": "research/raw/next-release/states/ftc-final2024.raw",
+      "proofRawSHA256": "15bb9f63d7dc3bfdebaa6f8d3b2061906eac89f8ae5ca2433dafdc56bccc90fd",
+      "scheduledObservedHash": "2f6b38815a5ac8ac1a071f1f2338a87c8bc53e3599153b991f81cd27675a5cfb",
+      "beforeSupportingPassagePresent": false,
+      "afterSupportingPassagePresent": true,
+      "originalExtractedTextUnchanged": true,
+      "originalNormalizedHashUnchanged": true,
+      "afterNormalizedHash": "2f6b38815a5ac8ac1a071f1f2338a87c8bc53e3599153b991f81cd27675a5cfb",
+      "sourceObservation": "unchanged",
+      "substantiveVerifiedAtPreserved": "2026-11-14T02:06:06.375792+00:00",
+      "canonicalSourceObjectUnmutated": true,
+      "normalizationVersion": 5
+    },
+    {
+      "sourceId": "next-scope-indy-fees-2026",
+      "proofPath": "research/next-release/raw/indy-fees-2026.raw",
+      "proofBytes": 33629,
+      "proofRawSHA256": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474",
+      "scheduledRawHash": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474",
+      "scheduledMistakenTextHash": "1db9eabbbd59e6c4b39a52735a5ef4780a03f1b27ba82683451632bc8c5e3349",
+      "actualMIME": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "isTextLike": false,
+      "correctedHash": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474",
+      "correctedSelector": "binary",
+      "correctedPassageStatus": null,
+      "transitionStillReportedAs": "changed",
+      "changedRawByteStillReportedAs": "changed",
+      "officeXMLPartPlusXMLStillText": true,
+      "substantiveVerifiedAtPreserved": "2026-11-14T01:50:46.474071+00:00",
+      "independentlyReadOOXMLCells": {
+        "worksheet": "Licenses",
+        "A3": "As of 1.5.2026",
+        "E22": "Fire Prevention and Service Persons License Fee",
+        "F22": "207"
+      },
+      "limits": "Independent ZIP/XML cell read confirms this fee row only. Binary classification is unassessed, not a successful passage check, universal total fee or license duration."
+    }
+  ],
+  "sevenAuditResolutionReview": {
+    "auditPath": "research/refinement-1/scheduled-review-audit.json",
+    "auditSHA256": "a9c83f83fef755dafc48b199edd1509ebd6ab5770752ed1d13b161320d96bc39",
+    "sufficientForExactObservedHashBoundNoMaterialChange": true,
+    "candidateCount": 7,
+    "inMemoryDryRunResolvedExactlySeven": true,
+    "unrelatedIssuesUntouched": true,
+    "differentHashNotResolved": true,
+    "laterOccurrenceNotResolved": true,
+    "canonicalAndQueueFilesNotWritten": true,
+    "substantiveDateRefreshAuthorized": false,
+    "resolutionCandidates": [
+      {
+        "issueId": "64d60c641b7cf2cd9600",
+        "sourceId": "b2-territories-local-atlanta",
+        "reason": "source-content-changed",
+        "observedHash": "d00cde4c1590ba4dcf1826cb3088e0f3583f697f7c082fa7e6f7f377da1eafe5",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b2-territories-local-atlanta",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "The only normalized-text change is Views 22625→22694. The 11/5/2026 modified stamp, ATLBIZ occupation-tax process, required documents, Accela zoning review,$191 application fee and$50 zoning-review fee are unchanged. Current Atlanta rule describes the separate occupation-tax/zoning/permit steps; no changed assertion is established."
+      },
+      {
+        "issueId": "7dcd8dfd5336e0d9562c",
+        "sourceId": "b3-emp-ny-register",
+        "reason": "source-content-changed",
+        "observedHash": "15f39ace7ca8769483e601e84b8d5190806a93c5198b67df80724e134ec6115f",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b3-emp-ny-register",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "Adds the heading Unemployment Services and removes a temporary upgrade-alert banner about uninterrupted filing/registration and account features. The substantive overview, employer/PEO/TPR registration descriptions, payment-through-Tax-and-Finance versus registration-with-NYSDOL distinction, and prohibition on deducting employer UI contributions from wages are unchanged. Current NY accounts rule retains these program distinctions; the removed alert supplies no newly contradicted deadline or liability rule."
+      },
+      {
+        "issueId": "b0ba314a560fd0d526a2",
+        "sourceId": "b3-i2-medbilling",
+        "reason": "source-content-changed",
+        "observedHash": "b3e4d5fdb102da026fb127edcd4656cd66e32be226165122b676cb9266359612",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b3-i2-medbilling",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "The complete prior guidance body is retained. Seven added footnotes identify HIPAA regulations/BAA provisions, explain the PHI-based subcontractor definition, state that the covered entity need not enter a BAA directly with its business associate’s subcontractor, and cite Security Rule contract provisions. The displayed content-review date stays October 21, 2026. This is HHS Office for Civil Rights business-associate guidance, not OIG guidance. Current PHI rule already conditions business-associate status on actual PHI/covered-entity facts and describes downstream written arrangements without requiring the covered entity to contract directly with every subcontractor. Added references do not contradict that scoped statement."
+      },
+      {
+        "issueId": "43ecb3d7b1d975ca5e1f",
+        "sourceId": "b3-origin3-hungary-online-invoices",
+        "reason": "source-content-changed",
+        "observedHash": "b3c3c360928618a4c38f37016b3ef29ebe0ef16f95cf90fc3d457fbc5d954f74",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b3-origin3-hungary-online-invoices",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "The complete 17,162-character prior normalized body and 17,138-character current normalized body differ only by deletion of Ugrás a myNAV oldalamra (Go to myNAV) at the end. The original 2021 guidance text and footnotes 1–27 are unchanged. The current rule reads the named third-country invoicing/reporting issues with NAV’s 2026 booklet. This comparison changes neither that limited reconciliation nor unrelated historical-page limits."
+      },
+      {
+        "issueId": "eb34beb41af747e7c25f",
+        "sourceId": "b3-origin3-cyprus-madrid-apply",
+        "reason": "source-content-changed",
+        "observedHash": "b89d9beafa3c8fe6cb1f7f61e8b19b4fd0ca5795945d9d994771ec5753d16e1f",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b3-origin3-cyprus-madrid-apply",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "Application guidance through WIPO Madrid Monitor Gazette is identical. Only the following Latest Announcements list is reordered, with unrelated monthly IP-statistics announcements added/removed. MM2/MM18 guidance and the fee-calculator language are unchanged. Current Cyprus rule’s office-of-origin and U.S.-designation preparation statements are not contradicted; no filing or approval is inferred."
+      },
+      {
+        "issueId": "618c2d7ff39613d40dfe",
+        "sourceId": "b3-o4-ba-reform",
+        "reason": "source-content-changed",
+        "observedHash": "f94b5624aaa4323b1d13a31e747b481d13f362989d883044e27a6b57c67649bd",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b3-o4-ba-reform",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "The adoption notice itself is unchanged. Only the subsequent Aktuelno/current-news list is refreshed with 13 November items, removing older unrelated headline entries. No gazette, commencement or repeal text is newly supplied. The Federation settlement rule explicitly preserves the missing operative regulation/commencement limitation. This hash change does not close it or create new transfer/settlement permission."
+      },
+      {
+        "issueId": "14345cb312601f2978d0",
+        "sourceId": "b3-state4-va-law",
+        "reason": "source-content-changed",
+        "observedHash": "778a040ac4bdcaa98f092787b62b9a735b11409ad4d864a6c6b8f4edf839ccb5",
+        "reviewer": "AI-assisted independent exact-hash review, europe_sources",
+        "reviewedAt": "2026-11-14T10:57:27.485Z",
+        "evidence": "research/refinement-1/scheduled-review-audit.json#b3-state4-va-law",
+        "decision": "no-material-change",
+        "reviewComplete": true,
+        "notes": "The complete 24,094-character statutory chapter changes only the displayed page date 11/12/2026→11/14/2026. All statutory language,2026 chapter 553/554 references and enacted provisions remain identical. Current scoped contract and exemption-process assertions acquire no new contradiction from this display-date change. No effective date is inferred from it."
+      }
+    ]
+  },
+  "limits": [
+    "This review does not close the 17 existing research limitations, certify current-law completeness or change public substantive review dates.",
+    "The historical Bulgarian raw-byte hash is not claimed to match. The actual complete current text independently matches the scheduled normalized hash.",
+    "Indy’s corrected binary hash differs from its formerly decoded ZIP-text hash. The transition remains a changed-hash item until separate evidence-bound disposition."
+  ]
+}

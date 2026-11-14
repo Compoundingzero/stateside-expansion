@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "europe_sources independent scheduled-source audit",
+  "auditedAt": "2026-11-14T10:52:42.684802+00:00",
+  "run": {
+    "githubRunId": "43573465237",
+    "artifactName": "source-review-43573465237",
+    "artifactDirectory": "artifacts/refinement-1-scheduled-source-review",
+    "baselineCommitReportedByRoot": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
+    "runAt": "2026-11-14T07:57:11.572Z",
+    "transport": "direct",
+    "concurrency": 2,
+    "policy": "Fetch/change detection only. Substantive verification dates remain unchanged. No public content is republished."
+  },
+  "counts": {
+    "sourceRecordsChecked": 701,
+    "successfulRetrievals": 642,
+    "retrievalFailures": 59,
+    "contentHashChanges": 7,
+    "supportingPassagesNotLocated": 3,
+    "normalizationMigrations": 0,
+    "normalizationMigrationsRequiringAudit": 0,
+    "resultBreakdown": {
+      "unchanged": 529,
+      "fetch-failed": 59,
+      "baseline-established": 106,
+      "changed": 7
+    },
+    "queueTotal": 191,
+    "openReviewItems": 76,
+    "resolvedHistoricalItems": 115,
+    "openReasonCounts": {
+      "source-fetch-failed": 66,
+      "source-content-changed": 7,
+      "supporting-passage-not-found": 3
+    },
+    "newOpenItemsCreatedByThisRun": 22,
+    "newOpenReasonCounts": {
+      "source-fetch-failed": 12,
+      "source-content-changed": 7,
+      "supporting-passage-not-found": 3
+    },
+    "retrievalFailureKinds": {
+      "access-blocked": 41,
+      "network": 12,
+      "unreadable": 4,
+      "size-limit": 1,
+      "unsafe-source": 1
+    }
+  },
+  "conclusion": {
+    "materialNewPublishedAssertionContradictionsEstablished": 0,
+    "sevenHashChangesExplained": 7,
+    "summary": "All seven exact normalized-hash deltas are accounted for by counters, temporary page notices, citation footnotes, unrelated news, footer navigation or a displayed date. No new substantive contradiction is established from those seven records. The 59 retrieval failures remain technical observations, and the three missing-passage flags are a separate federal_status review.",
+    "existing17DocumentedSourceLimits": "This is a bounded hash-change audit, not closure or revalidation of those 17 limits. In particular, unchanged Bosnia adoption prose still supplies no operative gazetted regulation or commencement.",
+    "queueMutationPerformed": false,
+    "canonicalMutationPerformed": false,
+    "substantiveDatesRefreshed": false
+  },
+  "changedSourceFindings": [
+    {
+      "sourceId": "b2-territories-local-atlanta",
+      "sourceURL": "https://www.atl311.com/en-us/knowledgearticle/?code=KB0012728",
+      "scheduledFetchedAt": "2026-11-14T07:58:03.403Z",
+      "previousNormalizedHash": "7add3466d9815287e421dc957695ee8ac1b44b3abbcb2eb2508fd56e20fa78a1",
+      "scheduledNormalizedHash": "d00cde4c1590ba4dcf1826cb3088e0f3583f697f7c082fa7e6f7f377da1eafe5",
+      "normalizationVersion": 5,
+      "comparisonClassification": "view-counter-only",
+      "actualDelta": "The only normalized-text change is Views 22625→22694. The 11/5/2026 modified stamp, ATLBIZ occupation-tax process, required documents, Accela zoning review,$191 application fee and$50 zoning-review fee are unchanged.",
+      "publishedAssertionAssessment": "Current Atlanta rule describes the separate occupation-tax/zoning/permit steps; no changed assertion is established.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "64d60c641b7cf2cd9600"
+      ],
+      "priorArtifact": "artifacts/batch3-source-review/source-evidence/b2-territories-local-atlanta.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b2-territories-local-atlanta.json",
+      "affectedPaths": [
+        "/cities/atlanta/zoning-and-occupation-tax/"
+      ],
+      "ruleIds": [
+        "b2-territories-local-atlanta"
+      ],
+      "comparisonScope": {
+        "method": "Complete normalized texts retained in prior and scheduled evidence textExcerpt fields; SHA256 of each text exactly matches its artifact hash. Full text compared, including added/deleted passages.",
+        "priorExcerptIsCompleteByHash": true,
+        "scheduledExcerptIsCompleteByHash": true
+      }
+    },
+    {
+      "sourceId": "b3-emp-ny-register",
+      "sourceURL": "https://dol.ny.gov/bizserve/ui",
+      "scheduledFetchedAt": "2026-11-14T07:58:27.381Z",
+      "previousNormalizedHash": "5197ae5bb687608b046627323084f3150d99483e03f464c037f5be6bbc1c2f91",
+      "scheduledNormalizedHash": "15f39ace7ca8769483e601e84b8d5190806a93c5198b67df80724e134ec6115f",
+      "normalizationVersion": 5,
+      "comparisonClassification": "site-heading-and-expired-alert-removal",
+      "actualDelta": "Adds the heading Unemployment Services and removes a temporary upgrade-alert banner about uninterrupted filing/registration and account features. The substantive overview, employer/PEO/TPR registration descriptions, payment-through-Tax-and-Finance versus registration-with-NYSDOL distinction, and prohibition on deducting employer UI contributions from wages are unchanged.",
+      "publishedAssertionAssessment": "Current NY accounts rule retains these program distinctions; the removed alert supplies no newly contradicted deadline or liability rule.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "7dcd8dfd5336e0d9562c"
+      ],
+      "priorArtifact": "artifacts/batch3-source-review/source-evidence/b3-emp-ny-register.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b3-emp-ny-register.json",
+      "affectedPaths": [
+        "/us-expansion/state-employer-payroll-registration/"
+      ],
+      "ruleIds": [
+        "b3-emp-ny-accounts"
+      ],
+      "comparisonScope": {
+        "method": "Complete normalized texts retained in prior and scheduled evidence textExcerpt fields; SHA256 of each text exactly matches its artifact hash. Full text compared, including added/deleted passages.",
+        "priorExcerptIsCompleteByHash": true,
+        "scheduledExcerptIsCompleteByHash": true
+      }
+    },
+    {
+      "sourceId": "b3-i2-medbilling",
+      "sourceURL": "https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/business-associates/index.html",
+      "scheduledFetchedAt": "2026-11-14T07:58:45.668Z",
+      "previousNormalizedHash": "ea8e7296e9e3e228540790d42ee6fa2279be8f6b4801522896335e00055d60f5",
+      "scheduledNormalizedHash": "b3e4d5fdb102da026fb127edcd4656cd66e32be226165122b676cb9266359612",
+      "normalizationVersion": 5,
+      "comparisonClassification": "citation-footnotes-added",
+      "actualDelta": "The complete prior guidance body is retained. Seven added footnotes identify HIPAA regulations/BAA provisions, explain the PHI-based subcontractor definition, state that the covered entity need not enter a BAA directly with its business associate’s subcontractor, and cite Security Rule contract provisions. The displayed content-review date stays October 21, 2026. This is HHS Office for Civil Rights business-associate guidance, not OIG guidance.",
+      "publishedAssertionAssessment": "Current PHI rule already conditions business-associate status on actual PHI/covered-entity facts and describes downstream written arrangements without requiring the covered entity to contract directly with every subcontractor. Added references do not contradict that scoped statement.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "b0ba314a560fd0d526a2"
+      ],
+      "priorArtifact": "artifacts/final-source-review/source-evidence/b3-i2-medbilling.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b3-i2-medbilling.json",
+      "affectedPaths": [
+        "/industries/healthcare-adjacent-services/"
+      ],
+      "ruleIds": [
+        "b3-i2-medbilling-phi"
+      ],
+      "comparisonScope": {
+        "method": "Complete normalized texts retained in prior and scheduled evidence textExcerpt fields; SHA256 of each text exactly matches its artifact hash. Full text compared, including added/deleted passages.",
+        "priorExcerptIsCompleteByHash": true,
+        "scheduledExcerptIsCompleteByHash": true
+      }
+    },
+    {
+      "sourceId": "b3-origin3-hungary-online-invoices",
+      "sourceURL": "https://nav.gov.hu/ado/afa/A_szamlakibocsatok_sz20201231",
+      "scheduledFetchedAt": "2026-11-14T07:59:17.554Z",
+      "previousNormalizedHash": "7187629c35017588dddc1a92df603d53a2484c3ecbc312c620110e3b7b897eb2",
+      "scheduledNormalizedHash": "b3c3c360928618a4c38f37016b3ef29ebe0ef16f95cf90fc3d457fbc5d954f74",
+      "normalizationVersion": 5,
+      "comparisonClassification": "footer-link-removed",
+      "actualDelta": "The complete 17,162-character prior normalized body and 17,138-character current normalized body differ only by deletion of Ugrás a myNAV oldalamra (Go to myNAV) at the end. The original 2021 guidance text and footnotes 1–27 are unchanged.",
+      "publishedAssertionAssessment": "The current rule reads the named third-country invoicing/reporting issues with NAV’s 2026 booklet. This comparison changes neither that limited reconciliation nor unrelated historical-page limits.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "43ecb3d7b1d975ca5e1f"
+      ],
+      "priorArtifact": "artifacts/final-source-review/source-evidence/b3-origin3-hungary-online-invoices.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b3-origin3-hungary-online-invoices.json",
+      "affectedPaths": [
+        "/from/hungary/"
+      ],
+      "ruleIds": [
+        "b3-origin3-hungary-decision"
+      ],
+      "comparisonScope": {
+        "method": "Full prior retained HTML extracted with the same version 5 normalizer; independent fresh official HTML extracted identically. Prior and current complete-body hashes exactly match the scheduled record’s previous/current hashes. Word-level comparison of the complete normalized bodies.",
+        "priorHTML": "research/raw/batch3/editorial/final-source-review/b3-origin3-hungary-online-invoices.html",
+        "followupHTML": "research/next-release/raw/refinement-1/scheduled-audit/hungary-online-invoices-current.html",
+        "followupRetrievedAt": "2026-11-14T10:50:46.923986+00:00",
+        "priorNormalizedBody": "research/next-release/raw/refinement-1/scheduled-audit/hungary-online-invoices-prior-normalized.txt",
+        "currentNormalizedBody": "research/next-release/raw/refinement-1/scheduled-audit/hungary-online-invoices-current-normalized.txt",
+        "priorNormalizedCharacters": 17162,
+        "currentNormalizedCharacters": 17138,
+        "scheduled16000CharacterExcerptsAloneWereInsufficient": true
+      }
+    },
+    {
+      "sourceId": "b3-origin3-cyprus-madrid-apply",
+      "sourceURL": "https://www.intellectualproperty.gov.cy/en/intellectual-property-rights/trademark/1-lifecycle/1-registering-a-trademark/1-guidance/registering-an-international-trademark-madrid-system/applying-for-registration-of-international-trademark",
+      "scheduledFetchedAt": "2026-11-14T07:59:30.370Z",
+      "previousNormalizedHash": "55c406250f131f604f20a16377d8ac4981c0f8ccd320cbd893e2e256f709f482",
+      "scheduledNormalizedHash": "b89d9beafa3c8fe6cb1f7f61e8b19b4fd0ca5795945d9d994771ec5753d16e1f",
+      "normalizationVersion": 5,
+      "comparisonClassification": "related-announcements-carousel-changed",
+      "actualDelta": "Application guidance through WIPO Madrid Monitor Gazette is identical. Only the following Latest Announcements list is reordered, with unrelated monthly IP-statistics announcements added/removed. MM2/MM18 guidance and the fee-calculator language are unchanged.",
+      "publishedAssertionAssessment": "Current Cyprus rule’s office-of-origin and U.S.-designation preparation statements are not contradicted; no filing or approval is inferred.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "eb34beb41af747e7c25f"
+      ],
+      "priorArtifact": "artifacts/hosted-43351541720/source-evidence/b3-origin3-cyprus-madrid-apply.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b3-origin3-cyprus-madrid-apply.json",
+      "affectedPaths": [
+        "/from/cyprus/"
+      ],
+      "ruleIds": [
+        "b3-origin3-cyprus-decision"
+      ],
+      "comparisonScope": {
+        "method": "Complete normalized texts retained in prior and scheduled evidence textExcerpt fields; SHA256 of each text exactly matches its artifact hash. Full text compared, including added/deleted passages.",
+        "priorExcerptIsCompleteByHash": true,
+        "scheduledExcerptIsCompleteByHash": true
+      }
+    },
+    {
+      "sourceId": "b3-o4-ba-reform",
+      "sourceURL": "https://fbihvlada.gov.ba/bs/donesena-uredba-o-provodenju-pojedinih-odredbi-zakona-o-deviznom-poslovanju",
+      "scheduledFetchedAt": "2026-11-14T08:00:03.815Z",
+      "previousNormalizedHash": "3d39e9e4c9e5739ad02428d5f94f82952654cbf738fdd7876fc693ce8a61f3f7",
+      "scheduledNormalizedHash": "f94b5624aaa4323b1d13a31e747b481d13f362989d883044e27a6b57c67649bd",
+      "normalizationVersion": 5,
+      "comparisonClassification": "related-news-list-changed",
+      "actualDelta": "The adoption notice itself is unchanged. Only the subsequent Aktuelno/current-news list is refreshed with 13 November items, removing older unrelated headline entries. No gazette, commencement or repeal text is newly supplied.",
+      "publishedAssertionAssessment": "The Federation settlement rule explicitly preserves the missing operative regulation/commencement limitation. This hash change does not close it or create new transfer/settlement permission.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "618c2d7ff39613d40dfe"
+      ],
+      "priorArtifact": "artifacts/final-source-review/source-evidence/b3-o4-ba-reform.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b3-o4-ba-reform.json",
+      "affectedPaths": [
+        "/from/bosnia-and-herzegovina/"
+      ],
+      "ruleIds": [
+        "b3-o4-ba-setoff"
+      ],
+      "comparisonScope": {
+        "method": "Complete normalized texts retained in prior and scheduled evidence textExcerpt fields; SHA256 of each text exactly matches its artifact hash. Full text compared, including added/deleted passages.",
+        "priorExcerptIsCompleteByHash": true,
+        "scheduledExcerptIsCompleteByHash": true
+      }
+    },
+    {
+      "sourceId": "b3-state4-va-law",
+      "sourceURL": "https://law.lis.virginia.gov/vacodefull/title13.1/chapter8/",
+      "scheduledFetchedAt": "2026-11-14T08:01:00.123Z",
+      "previousNormalizedHash": "2f66c61ebbb85e340df94d6980e7d16d8e5725ce542a239d82a9bd62ee4e7c3c",
+      "scheduledNormalizedHash": "778a040ac4bdcaa98f092787b62b9a735b11409ad4d864a6c6b8f4edf839ccb5",
+      "normalizationVersion": 5,
+      "comparisonClassification": "displayed-date-only",
+      "actualDelta": "The complete 24,094-character statutory chapter changes only the displayed page date 11/12/2026→11/14/2026. All statutory language,2026 chapter 553/554 references and enacted provisions remain identical.",
+      "publishedAssertionAssessment": "Current scoped contract and exemption-process assertions acquire no new contradiction from this display-date change. No effective date is inferred from it.",
+      "materialContradictionEstablished": false,
+      "recommendedEditorialAction": "No interpretation change or substantive-date refresh on this evidence; retain recorded limits. Root may separately decide whether to record an exact-hash no-material-change disposition.",
+      "queueItemIds": [
+        "14345cb312601f2978d0"
+      ],
+      "priorArtifact": "artifacts/final-source-review/source-evidence/b3-state4-va-law.json",
+      "scheduledArtifact": "artifacts/refinement-1-scheduled-source-review/source-evidence/b3-state4-va-law.json",
+      "affectedPaths": [
+        "/states/virginia/contract-law-and-competition-clauses/",
+        "/states/virginia/"
+      ],
+      "ruleIds": [
+        "b3-state4-va-2026-contract",
+        "b3-state4-va-exemption-process"
+      ],
+      "comparisonScope": {
+        "method": "Full prior retained HTML extracted with the same version 5 normalizer; independent fresh official HTML extracted identically. Prior and current complete-body hashes exactly match the scheduled record’s previous/current hashes. Word-level comparison of the complete normalized bodies.",
+        "priorHTML": "research/raw/batch3/editorial/final-source-review/b3-state4-va-law.html",
+        "followupHTML": "research/next-release/raw/refinement-1/scheduled-audit/va-law-current.html",
+        "followupRetrievedAt": "2026-11-14T10:50:42.905773+00:00",
+        "priorNormalizedBody": "research/next-release/raw/refinement-1/scheduled-audit/va-law-prior-normalized.txt",
+        "currentNormalizedBody": "research/next-release/raw/refinement-1/scheduled-audit/va-law-current-normalized.txt",
+        "priorNormalizedCharacters": 24094,
+        "currentNormalizedCharacters": 24094,
+        "scheduled16000CharacterExcerptsAloneWereInsufficient": true
+      }
+    }
+  ],
+  "separateFollowups": {
+    "supportingPassageFlagsAssignedToFederalStatus": [
+      "smb-origin-bg-decree88",
+      "nr-ftc-threshold-final2024",
+      "next-scope-indy-fees-2026"
+    ],
+    "retrievalFailures": "Access-blocked 41, network 12, unreadable 4, size-limit 1, unsafe-source 1. No failure establishes repeal, absence of a requirement or a substantive amendment. Do not automatically republish or close these items.",
+    "queueCountInterpretation": "76 open queue items include 54 inherited from the previous run and 22 newly created here. They are not 76 new legal changes. There are66 open fetch-failure items, while 59 sources fail retrieval in this run; persistent queue history must not be confused with current-run failures."
+  }
+}

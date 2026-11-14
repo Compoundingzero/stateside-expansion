@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "reviewer": "AI-assisted independent source-monitor audit, federal_status agent",
+  "reviewedAt": "2026-11-14T10:54:36.686586+00:00",
+  "scheduledRun": "43573465237",
+  "scope": "Only three supporting-passage-not-found observations; seven hash changes are reviewed by a separate agent.",
+  "status": "all-three-technical-causes-confirmed; fixes-frozen-for-independent-code-review",
+  "policy": {
+    "canonicalRecordsChanged": false,
+    "substantiveVerificationDatesChanged": false,
+    "interpretationsChanged": false,
+    "queueItemsCleared": false,
+    "changedHashReviewSuppressed": false,
+    "rawTextAndTextHashesChangedByComparisonFixes": false,
+    "binaryPassageStatus": "null-unassessed",
+    "normalizationVersionUnchanged": 5
+  },
+  "findings": [
+    {
+      "sourceId": "smb-origin-bg-decree88",
+      "canonicalSupportingPassage": "Навсякъде в текста думите „Регламент (ЕО) № 428/2009“ се заменят с „Регламент (ЕС) 2021/821“.",
+      "canonicalSubstantiveVerifiedAt": "2026-11-14T01:13:52.776037+00:00",
+      "scheduledEvidence": {
+        "path": "artifacts/refinement-1-scheduled-source-review/source-evidence/smb-origin-bg-decree88.json",
+        "sha256": "24275514c420fa80d8d7fca70f9a75a09f1fa6148dae638debdd81356749db53",
+        "observedHash": "03af3af563e830ae1105cfe975d57793524e7e28c1c57787be73900fe8521d6a",
+        "rawHash": "1c039541f8ee061c552511dba69796ea4941a4980d6254856761dbf70ac0dd80",
+        "normalizationVersion": 5,
+        "fetchedAt": "2026-11-14T07:59:33.474Z"
+      },
+      "queueInstances": [
+        {
+          "id": "d9c6d2287483ce6fe7f1",
+          "observedHash": "03af3af563e830ae1105cfe975d57793524e7e28c1c57787be73900fe8521d6a",
+          "createdAt": "2026-11-14T07:57:11.572Z",
+          "status": "needs-review"
+        }
+      ],
+      "beforeSupportingPassagePresent": false,
+      "proofPath": "research/next-release/raw/refinement-1/federal/bg-decree88-current.html",
+      "proofSha256": "a0f13234d55cd306dabfb927988c20022c864a212ac30111762b9106149e95ac",
+      "afterSupportingPassagePresent": true,
+      "afterHash": "03af3af563e830ae1105cfe975d57793524e7e28c1c57787be73900fe8521d6a",
+      "scheduledHashUnchanged": true,
+      "currentRetrievalReceiptPath": "research/next-release/raw/refinement-1/federal/bg-decree88-current-receipt.json",
+      "fullExtractedTextLength": 22707,
+      "scheduledExcerptWasTruncated": true,
+      "classification": "comparison-only-HTML-entity-limitation",
+      "conclusion": "No contradiction in the actual current decree. Full official body contains the exact canonical supporting sentence in section30. Its complete extracted body hash exactly equals the scheduled observation; the artifact stored only the first16000 characters, before this clause.",
+      "cause": "Extractor retains literal &bdquo; while the reviewed sentence uses Unicode low opening quote U+201E. Comparison-only decoding of that exact named entity locates the full sentence.",
+      "limits": "The older source record claims raw SHA2569f15e04d… but no retained file under research matched that original SHA during this audit. Do not claim raw-byte identity with the original. The new complete official body and scheduled normalized hash independently establish this quote, without proving absence of later amendments or commencement.",
+      "fix": "Comparison-only &bdquo;→U+201E; extracted text and content hash unchanged.",
+      "evidence": [
+        "research/next-release/raw/refinement-1/federal/bg-decree88-current.html",
+        "research/next-release/raw/refinement-1/federal/bg-decree88-current-receipt.json",
+        "research/next-release/raw/refinement-1/federal/bg-decree88-current-decoded.txt",
+        "research/smb-edit/origins-source-decisions.normalized.json"
+      ]
+    },
+    {
+      "sourceId": "nr-ftc-threshold-final2024",
+      "canonicalSupportingPassage": "remove “$615”",
+      "canonicalSubstantiveVerifiedAt": "2026-11-14T02:06:06.375792+00:00",
+      "scheduledEvidence": {
+        "path": "artifacts/refinement-1-scheduled-source-review/source-evidence/nr-ftc-threshold-final2024.json",
+        "sha256": "41151088dc8f4bb3756fc58bc7cc0e645e10175fb12bb7f26f0eff4ed0e7a137",
+        "observedHash": "2f6b38815a5ac8ac1a071f1f2338a87c8bc53e3599153b991f81cd27675a5cfb",
+        "rawHash": "789149df5be5f02647f1ac382f02f8b5219b72b0b8bd7b0615ff3889629b2f9c",
+        "normalizationVersion": 5,
+        "fetchedAt": "2026-11-14T08:02:05.536Z"
+      },
+      "queueInstances": [
+        {
+          "id": "38708d2d94c7f04f7ed5",
+          "observedHash": "2f6b38815a5ac8ac1a071f1f2338a87c8bc53e3599153b991f81cd27675a5cfb",
+          "createdAt": "2026-11-14T07:57:11.572Z",
+          "status": "needs-review"
+        }
+      ],
+      "beforeSupportingPassagePresent": false,
+      "proofPath": "research/raw/next-release/states/ftc-final2024.raw",
+      "proofSha256": "15bb9f63d7dc3bfdebaa6f8d3b2061906eac89f8ae5ca2433dafdc56bccc90fd",
+      "afterSupportingPassagePresent": true,
+      "afterHash": "2f6b38815a5ac8ac1a071f1f2338a87c8bc53e3599153b991f81cd27675a5cfb",
+      "scheduledHashUnchanged": true,
+      "scheduledCompleteTextEqualsReviewedOriginalExtraction": true,
+      "classification": "comparison-only-GPO-quotation-limitation",
+      "conclusion": "No contradiction. Complete scheduled text exactly equals the extraction from the retained substantively reviewed original. Both explicitly remove $615 and add $735 in16CFR436.8(a)(1), and amend only Part436.",
+      "cause": "Federal Register plain text represents double quotation marks as paired ASCII backticks and apostrophes, while the supporting passage uses curly double quotes.",
+      "limits": "This confirms the narrow2024Part436 amendment. It does not settle the separate Part437 $500/$735 inconsistency. Raw response hashes differ; normalized complete body text is identical.",
+      "fix": "Comparison-only conversion of matched paired ``…'' quotation boundaries to double quotes; all enclosed words/numbers and other punctuation remain.",
+      "evidence": [
+        "research/raw/next-release/states/ftc-final2024.raw",
+        "research/raw/next-release/states/ftc-final2024.metadata.json"
+      ]
+    },
+    {
+      "sourceId": "next-scope-indy-fees-2026",
+      "canonicalSupportingPassage": "Fire Prevention and Service Persons License Fee",
+      "canonicalSubstantiveVerifiedAt": "2026-11-14T01:50:46.474071+00:00",
+      "scheduledEvidence": {
+        "path": "artifacts/refinement-1-scheduled-source-review/source-evidence/next-scope-indy-fees-2026.json",
+        "sha256": "a6f80573ded79b8dcda93a3ec6cff5dddfed49d6280af2cd7b303a90cbc977b1",
+        "observedHash": "1db9eabbbd59e6c4b39a52735a5ef4780a03f1b27ba82683451632bc8c5e3349",
+        "rawHash": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474",
+        "normalizationVersion": 5,
+        "fetchedAt": "2026-11-14T08:02:06.808Z"
+      },
+      "queueInstances": [
+        {
+          "id": "1d62bdf00f0e9272a694",
+          "observedHash": "1db9eabbbd59e6c4b39a52735a5ef4780a03f1b27ba82683451632bc8c5e3349",
+          "createdAt": "2026-11-14T07:57:11.572Z",
+          "status": "needs-review"
+        }
+      ],
+      "beforeSupportingPassagePresent": false,
+      "afterClassification": "binary",
+      "afterSupportingPassagePresent": null,
+      "afterHash": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474",
+      "matchesReviewedOriginalRawBytes": true,
+      "independentCellRead": {
+        "worksheet": "Licenses",
+        "header": "As of 1.5.2026",
+        "E22": "Fire Prevention and Service Persons License Fee",
+        "F22": "207"
+      },
+      "nextObservationMayFlagChangedHash": true,
+      "nextHashChangeExplanation": "Prior incorrect UTF8 ZIP text hash1db9… becomes actual reviewed raw byte hash7ed1…; changed-hash review remains active and needs an explicit evidence-bound decision.",
+      "classification": "OOXML-binary-misclassified-as-text",
+      "conclusion": "No contradiction. Scheduled raw SHA256 exactly equals the retained reviewed33629-byte official XLSX. Independently decoding ZIP/XML confirms Licenses A3=As of1.5.2026, E22=Fire Prevention and Service Persons License Fee and F22=207.",
+      "cause": "Generic /html|text|json|xml/ MIME test matches the xml substring inside openxmlformats, UTF8-decodes the ZIP and searches meaningless binary text.",
+      "limits": "Retain scope: no license duration, universal total charge, pro-rating or eligibility is inferred from this fee row. Binary status is unassessed, not supporting-passage-found. A future changed raw hash still requires review.",
+      "fix": "Exclude application/vnd.openxmlformats-officedocument.* MIME responses from text decoding, retaining raw-byte hashing, selector=binary and supportingPassagePresent=null. Do not automatically approve changed hash on transition from the prior incorrect text hash.",
+      "evidence": [
+        "research/next-release/raw/indy-fees-2026.raw",
+        "research/next-release/raw/indy-fees-2026.metadata.json",
+        "research/next-release/raw/indy-fees-2026-decoded.json"
+      ]
+    }
+  ],
+  "codeChanges": {
+    "authorization": "Parent authorized two narrow fixes, then the third &bdquo; comparison equivalence after full current Bulgarian source review.",
+    "files": [
+      {
+        "path": "scripts/check-sources.mjs",
+        "sha256": "8aa853e245965b7ebe1dba5d89224b7bbd92ac7fb8a1fb1779c0964c013e4ea8"
+      },
+      {
+        "path": "scripts/source-text.mjs",
+        "sha256": "cad333c8432abd3105aeedaf5d9916d555eb876fe08546cf613ada07e2f831a4"
+      },
+      {
+        "path": "tests/editorial.test.ts",
+        "sha256": "9fa6b1adf0a1ea846028c12900fb2a0310b4e78f122024304a1cf8c0af0e8c07"
+      }
+    ],
+    "meaningfulTests": [
+      "Office XLSX/DOCX/PPTX MIME types remain binary even with .xml URL; actual XML/JSON/HTML remain text.",
+      "GPO paired quote equivalence preserves original content hashes; changed dollar amounts, negation and other punctuation fail.",
+      "Bulgarian &bdquo; equivalence preserves original content hashes; changed regulation number and negated replacement fail."
+    ],
+    "validation": {
+      "command": "npx tsx --test tests/editorial.test.ts",
+      "passed": 32,
+      "failed": 0,
+      "log": "artifacts/refinement-1-passage-monitor-tests.txt"
+    },
+    "separateReviewRequired": "Root coordinates Europe agent review of exact frozen files before exact issue/hash-bound queue resolutions."
+  },
+  "evidenceFiles": [
+    {
+      "path": "research/next-release/raw/refinement-1/federal/passage-monitor-comparison.json",
+      "sha256": "1e6a12cfe91ca14e6a798413d1170dd35f3e02f2023fd9be216a65f14d782e04"
+    },
+    {
+      "path": "artifacts/refinement-1-passage-monitor-tests.txt",
+      "sha256": "0bb4c28c60a0fa0d4e186c5ad3dc34ad303cf9c60f95addb50d7225e94f719eb"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/federal/bg-decree88-current.html",
+      "sha256": "a0f13234d55cd306dabfb927988c20022c864a212ac30111762b9106149e95ac"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/federal/bg-decree88-current-receipt.json",
+      "sha256": "a05de01bb035954518dc82de843640ffa7b766ed0e9615e3c44808549e097877"
+    },
+    {
+      "path": "research/next-release/raw/refinement-1/federal/bg-decree88-current-decoded.txt",
+      "sha256": "8c72e3f372c27cb3002e1f5c258f150a151cfee612fcac3b57ece1b53d91ec75"
+    },
+    {
+      "path": "research/smb-edit/origins-source-decisions.normalized.json",
+      "sha256": "897fd9eb9c45e3c1e3d522cbb3b8cb6ea2df4e8ed0a6c1d5536d0e762d423e0a"
+    },
+    {
+      "path": "research/raw/next-release/states/ftc-final2024.raw",
+      "sha256": "15bb9f63d7dc3bfdebaa6f8d3b2061906eac89f8ae5ca2433dafdc56bccc90fd"
+    },
+    {
+      "path": "research/raw/next-release/states/ftc-final2024.metadata.json",
+      "sha256": "780678df897b672844be1a26000733f5055ea17de53badb79870dc8d5b0a40cd"
+    },
+    {
+      "path": "research/next-release/raw/indy-fees-2026.raw",
+      "sha256": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474"
+    },
+    {
+      "path": "research/next-release/raw/indy-fees-2026.metadata.json",
+      "sha256": "56405bfbcfc6a77100717ae5d3578a12f6fbe1f9bb5be6bb23cf9b8562c76592"
+    },
+    {
+      "path": "research/next-release/raw/indy-fees-2026-decoded.json",
+      "sha256": "fbe8f8a0664b4a1a27467d107a6ae0fbbf0d1af613be429edd43cd1b5925ee95"
+    }
+  ]
+}

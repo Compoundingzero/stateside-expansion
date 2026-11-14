@@ -1,7 +1,19 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {dependencyImpact,sourceObservation,configureSourceProxy,cacheSuccessfulPromise,failedResponseEvidence,loadSourceReviewState,sourceBodyFailureEvidence,sourceConnectionDiagnostics} from '../scripts/check-sources.mjs';
+import {dependencyImpact,sourceObservation,configureSourceProxy,cacheSuccessfulPromise,failedResponseEvidence,loadSourceReviewState,sourceBodyFailureEvidence,sourceConnectionDiagnostics,isTextLikeSource} from '../scripts/check-sources.mjs';
+
+test('Office Open XML MIME types remain binary while actual XML and text remain readable',()=>{
+ for(const suffix of ['spreadsheetml.sheet','wordprocessingml.document','presentationml.presentation']){
+  const type='application/vnd.openxmlformats-officedocument.'+suffix;
+  assert.equal(isTextLikeSource({type,url:'https://agency.gov/download'}),false);
+  assert.equal(isTextLikeSource({type:type+'; charset=utf-8',url:'https://agency.gov/download.xml'}),false);
+ }
+ for(const type of ['application/xml','text/xml; charset=utf-8','application/atom+xml','text/html','application/json'])assert.equal(isTextLikeSource({type,url:'https://agency.gov/download'}),true,type);
+ assert.equal(isTextLikeSource({type:'application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml',url:'https://agency.gov/document.xml'}),true);
+ assert.equal(isTextLikeSource({type:'application/octet-stream',url:'https://agency.gov/rule.xml'}),true);
+ assert.equal(isTextLikeSource({type:'application/octet-stream',url:'https://agency.gov/schedule.xlsx'}),false);
+});
 
 test('source review explicitly uses an inherited proxy without inventing one for direct environments',()=>{
  const calls:any[]=[];const configure=(env:any)=>calls.push(env);
@@ -73,6 +85,25 @@ test('HTML entity differences preserve a supporting passage but missing text sta
  assert.equal(extractSourceText(html,'Partners & operators should retain "dated" records.').supportingPassagePresent,true);
  assert.equal(extractSourceText(html,'A different substantive deadline that disappeared.').supportingPassagePresent,false);
  assert.throws(()=>extractSourceText('<html><body>Access denied</body></html>'),/readable/);
+});
+test('GPO paired quotation marks match only for passage comparison without masking changed amounts or words',()=>{
+ const html='<body><main><h1>Final exemption adjustment</h1><p>In paragraph (a)(1), remove '+"``$615''"+' and, in its place, add '+"``$735''"+'. This amendment changes only the stated exemption amount.</p></main></body>';
+ const beforeHash=createHash('sha256').update(html).digest('hex'),withoutQuote=extractSourceText(html),withQuote=extractSourceText(html,'remove “$615”');
+ assert.equal(withQuote.supportingPassagePresent,true);assert.equal(withQuote.hash,withoutQuote.hash);
+ assert.equal(createHash('sha256').update(html).digest('hex'),beforeHash);assert.ok(withQuote.text.includes("``$615''"));
+ assert.equal(extractSourceText(html,'remove “$735”').supportingPassagePresent,false);
+ assert.equal(extractSourceText(html.replace('remove ','do not remove '),'In paragraph (a)(1), remove “$615”').supportingPassagePresent,false);
+ assert.equal(extractSourceText(html,'remove “$615”; and, in its place').supportingPassagePresent,false);
+ assert.notEqual(extractSourceText(html.replace('$615','$616'),'remove “$615”').hash,withQuote.hash);
+});
+test('Bulgarian low-quote entity equivalence preserves source text and rejects changed regulations or replacement words',()=>{
+ const quote='Навсякъде в текста думите „Регламент (ЕО) № 428/2009“ се заменят с „Регламент (ЕС) 2021/821“.',html='<body><main><h1>Постановление № 88</h1><p>'+quote.replaceAll('„','&bdquo;')+'</p><p>Останалите разпоредби остават част от официалния текст.</p></main></body>';
+ const withoutQuote=extractSourceText(html),withQuote=extractSourceText(html,quote),beforeHash=createHash('sha256').update(html).digest('hex');
+ assert.equal(withQuote.supportingPassagePresent,true);assert.equal(withQuote.hash,withoutQuote.hash);assert.ok(withQuote.text.includes('&bdquo;'));
+ assert.equal(createHash('sha256').update(html).digest('hex'),beforeHash);
+ assert.equal(extractSourceText(html.replace('2021/821','2021/822'),quote).supportingPassagePresent,false);
+ assert.equal(extractSourceText(html.replace('се заменят','не се заменят'),quote).supportingPassagePresent,false);
+ assert.notEqual(extractSourceText(html.replace('2021/821','2021/822'),quote).hash,withQuote.hash);
 });
 test('Albanian named entities match only for passage comparison while raw and content hashes stay unchanged',()=>{
  const html='<body><main><h1>Regjimi i Përpunimit Pasiv</h1><p>Autorizimi jepet vet&euml;m p&euml;r persona t&euml; vendosur n&euml; Republik&euml;n e Shqip&euml;ris&euml; dhe kur produktet p&euml;rftohen nga mallrat e eksportuara.</p><p>&ccedil;do kusht tjetër mbetet.</p></main></body>';

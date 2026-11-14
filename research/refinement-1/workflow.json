@@ -16,7 +16,7 @@
     "sourceOrInterpretationLimitsRemaining": 17,
     "actualBusinessFactDecisions": 19
   },
-  "state": "validated-awaiting-deployment",
+  "state": "live-verified",
   "evidenceFiles": [
     "states-findings.json",
     "federal-findings.json",
@@ -31,5 +31,8 @@
     "asia-proposals.json"
   ],
   "limits": "No missing primary text, definitive current status, or genuine ambiguity is marked resolved merely because a dated related source was recovered.",
-  "validationFile": "research/refinement-1/validation.json"
+  "validationFile": "research/refinement-1/validation.json",
+  "liveEvidenceFile": "research/refinement-1/live-verification.json",
+  "monitorAuditFile": "research/refinement-1/scheduled-review-audit.json",
+  "monitorResolutions": "research/refinement-1/source-resolution-audit.json"
 }

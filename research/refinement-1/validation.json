@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-11-14T10:45:51.203366+00:00",
-  "stage": "validated-before-deployment",
+  "checkedAt": "2026-11-14T11:00:22.283866+00:00",
+  "stage": "application-live-verified-monitor-reviewed",
   "baseCommit": "f8c3e36195ed66246577e2b9a8cee34ec7025d9e",
   "publishedGuides": 295,
   "sources": 752,
@@ -9,7 +9,7 @@
   "sourceQuestionsClosed": 4,
   "remainingSourceOrInterpretationLimits": 17,
   "nodeTests": {
-    "passed": 114,
+    "passed": 117,
     "failed": 0
   },
   "browserTests": {
@@ -39,7 +39,7 @@
     },
     {
       "path": "artifacts/refinement-1-unit-tests.log",
-      "sha256": "bf65b08288f88b43be57824515ffe7e312419baa15c03638b7d6a058f48d5580"
+      "sha256": "a5cf4459e6c0f8f2cb42d7b810dc74fc2a4b8324669b8e85949372c5abc48442"
     },
     {
       "path": "artifacts/refinement-1-browser-tests.log",
@@ -67,5 +67,11 @@
     "The remaining 17 source/interpretation questions are explicitly retained; no failed retrieval or dated related source is treated as definitive current law.",
     "Google Search Console and Bing Webmaster account verification remain blocked by unavailable authorization and browser access.",
     "A bare learning-path fragment without its generated query parameter remains a nonblocking shortcut limitation; generated links and no-JavaScript fallbacks pass."
-  ]
+  ],
+  "liveEvidenceFile": "research/refinement-1/live-verification.json",
+  "monitorReviewFile": "research/refinement-1/monitor-code-review.json",
+  "monitorTargetedTests": {
+    "passed": 32,
+    "failed": 0
+  }
 }

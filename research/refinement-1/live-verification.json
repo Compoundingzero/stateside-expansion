@@ -1,0 +1,135 @@
+{
+  "verifiedAt": "2026-11-14T10:52:42.409Z",
+  "applicationSourceCommit": "08ac64a238e28a36736a43061ae3758c700c9320",
+  "railwayDeployment": "6b1792f3-67e0-4bd5-85ac-8534cf4e1d8c",
+  "railwayStatus": "SUCCESS",
+  "ciRun": "https://github.com/Compoundingzero/stateside-expansion/actions/runs/43586825970",
+  "ciPassed": true,
+  "publishedGuides": 295,
+  "updatedArticles": 7,
+  "sources": 752,
+  "rules": 419,
+  "fullArticleVerification": {
+    "passed": 295,
+    "failed": 0,
+    "snapshotHash": "effb343cae284734eae58cc1d780eef9428d782aa9a41aca4c4dd98d8e7975ae",
+    "resultSha256": "7cfc52b746f2b7d97f6aae329f0395362b205000a7da0f2bff19ddb200d0432c"
+  },
+  "publicCrawl": {
+    "passed": 335,
+    "failed": 0,
+    "resultSha256": "5fbcfcd3b1803ad4a6fb27bf691eb2ab4c6a096c971e9c7327157f70f55e0126"
+  },
+  "learningItems": 304,
+  "catalogueNoindex": true,
+  "ownerConfigured": true,
+  "anonymousOwnerAuthenticated": false,
+  "indexNow": {
+    "submittedAt": "2026-11-14T10:54:12.735Z",
+    "host": "web-production-b4c2154d.up.railway.app",
+    "urls": 9,
+    "status": 200,
+    "result": "received",
+    "indexingConfirmed": false
+  },
+  "research": {
+    "questionsClosed": 4,
+    "sourceOrInterpretationLimitsRemaining": 17,
+    "noUnverifiedLawPromoted": true
+  },
+  "monitor": {
+    "scheduledRun": "43573465237",
+    "comparedContentChanges": 7,
+    "newSubstantiveContradictionsEstablished": 0,
+    "fixedTechnicalCauses": 3,
+    "exactBoundedResolutions": [
+      {
+        "issueId": "64d60c641b7cf2cd9600",
+        "sourceId": "b2-territories-local-atlanta",
+        "reason": "source-content-changed",
+        "observedHash": "d00cde4c1590ba4dcf1826cb3088e0f3583f697f7c082fa7e6f7f377da1eafe5",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "7dcd8dfd5336e0d9562c",
+        "sourceId": "b3-emp-ny-register",
+        "reason": "source-content-changed",
+        "observedHash": "15f39ace7ca8769483e601e84b8d5190806a93c5198b67df80724e134ec6115f",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "b0ba314a560fd0d526a2",
+        "sourceId": "b3-i2-medbilling",
+        "reason": "source-content-changed",
+        "observedHash": "b3e4d5fdb102da026fb127edcd4656cd66e32be226165122b676cb9266359612",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "43ecb3d7b1d975ca5e1f",
+        "sourceId": "b3-origin3-hungary-online-invoices",
+        "reason": "source-content-changed",
+        "observedHash": "b3c3c360928618a4c38f37016b3ef29ebe0ef16f95cf90fc3d457fbc5d954f74",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "eb34beb41af747e7c25f",
+        "sourceId": "b3-origin3-cyprus-madrid-apply",
+        "reason": "source-content-changed",
+        "observedHash": "b89d9beafa3c8fe6cb1f7f61e8b19b4fd0ca5795945d9d994771ec5753d16e1f",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "d9c6d2287483ce6fe7f1",
+        "sourceId": "smb-origin-bg-decree88",
+        "reason": "supporting-passage-not-found",
+        "observedHash": "03af3af563e830ae1105cfe975d57793524e7e28c1c57787be73900fe8521d6a",
+        "decision": "not-a-source-change"
+      },
+      {
+        "issueId": "618c2d7ff39613d40dfe",
+        "sourceId": "b3-o4-ba-reform",
+        "reason": "source-content-changed",
+        "observedHash": "f94b5624aaa4323b1d13a31e747b481d13f362989d883044e27a6b57c67649bd",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "14345cb312601f2978d0",
+        "sourceId": "b3-state4-va-law",
+        "reason": "source-content-changed",
+        "observedHash": "778a040ac4bdcaa98f092787b62b9a735b11409ad4d864a6c6b8f4edf839ccb5",
+        "decision": "no-material-change"
+      },
+      {
+        "issueId": "38708d2d94c7f04f7ed5",
+        "sourceId": "nr-ftc-threshold-final2024",
+        "reason": "supporting-passage-not-found",
+        "observedHash": "2f6b38815a5ac8ac1a071f1f2338a87c8bc53e3599153b991f81cd27675a5cfb",
+        "decision": "not-a-source-change"
+      },
+      {
+        "issueId": "1d62bdf00f0e9272a694",
+        "sourceId": "next-scope-indy-fees-2026",
+        "reason": "supporting-passage-not-found",
+        "observedHash": "1db9eabbbd59e6c4b39a52735a5ef4780a03f1b27ba82683451632bc8c5e3349",
+        "decision": "not-a-source-change"
+      },
+      {
+        "issueId": "f333958d533339ffacae",
+        "sourceId": "next-scope-indy-fees-2026",
+        "reason": "source-content-changed",
+        "observedHash": "7ed16e5a3e89591030fdb0b76f131999f08b1440ffed07197361489ffda40474",
+        "decision": "not-a-source-change"
+      }
+    ],
+    "remainingAccessRecords": 66,
+    "substantiveDatesAdvancedByMonitor": 0,
+    "postFixRecheck": {
+      "fetched": 3,
+      "failed": 0,
+      "textPassagesMatched": 2,
+      "binaryTextMatchingClaimed": false,
+      "officeOriginalBytesUnchanged": true
+    }
+  },
+  "note": "The later evidence/monitor commit does not change application runtime code or article content. Verification remains tied to the content hashes and application source commit above; latest-head checks are performed separately."
+}

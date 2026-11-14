@@ -122,6 +122,12 @@ export async function validateSourceURL(raw, {lookup = dns.lookup, proxy = proxy
 export function sourceSizeLimit({type = '', url = ''} = {}) {
   return /pdf/i.test(type) || new URL(url || 'https://example.gov/').pathname.toLowerCase().endsWith('.pdf') ? PDF_SOURCE_LIMIT : HTML_SOURCE_LIMIT;
 }
+export function isTextLikeSource({type = '', url = ''} = {}) {
+  // Office Open XML documents are ZIP packages. The word "xml" in their MIME
+  // type does not make the response body readable XML or a checked passage.
+  if (/^application\/vnd\.openxmlformats-officedocument\./i.test(type.trim())&&!/\+xml(?:\s*;|\s*$)/i.test(type)) return false;
+  return /html|text|json|xml/i.test(type) || /\.(?:xml|txt)$/i.test(new URL(url || 'https://example.gov/').pathname);
+}
 export function dependencyImpact(sourceId, {guides = [], rules = [], tools = [], pages = [], caseConnections = []} = {}) {
   const directRules = rules.filter(r => r.sourceIds?.includes(sourceId));
   const ruleIds = new Set(directRules.map(r => r.id));
@@ -352,7 +358,7 @@ async function main() {
       const name = source.id.replace(/[^a-z0-9_-]/gi, '_') + (/pdf/i.test(result.type) ? '.pdf' : /xml/i.test(result.type) ? '.xml' : '.html');
       rawEvidence = join(rawDirectory, name); await writeFile(rawEvidence, result.body);
     }
-    const textLike = /html|text|json|xml/.test(result.type) || /\.(?:xml|txt)$/i.test(new URL(result.url).pathname);
+    const textLike = isTextLikeSource(result);
     let text = '', extraction = {normalizationVersion: NORMALIZATION_VERSION, supportingPassagePresent: null, selector: 'binary'}, content = result.body;
     if (textLike) { const xml = result.body.toString('utf8');try{extraction = extractSourceText(xml, source.supportingPassage ?? '',{minimumLength:isOfficialReservedECFRPart(xml,route)?12:100});}catch(error){error.transportEvidence=sourceBodyFailureEvidence(result);error.responseBody=result.body.subarray(0,65536);throw error;}text = extraction.text; content = Buffer.from(text); }
     else if (/pdf/i.test(result.type) && result.body.subarray(0, 5).toString() === '%PDF-') { content = normalizedPDFBytes(result.body); extraction.selector = 'pdf-bytes-without-volatile-metadata'; }
